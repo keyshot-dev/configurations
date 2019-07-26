@@ -1,0 +1,100 @@
+trigger "Location State Changed Trigger" {
+    type = "Location State Changed"
+    resolves = ["Move to User Profile Images", "Set IsIntro to true", "Move to channel user profile folder"]
+    new_location_state = "online"
+}
+
+filter "If Image" {
+    type = "Asset type filter"
+    asset_type = "image"
+    asset_id = "@sourceAssetId"
+    negate = "false"
+}
+
+filter "If Profile computer" {
+    type = "Upload Computer Filter"
+    needs = "If Image"
+    upload_computer = "Digizuite Media Manager profile"
+    asset_id = "@sourceAssetId"
+    negate = "false"
+}
+
+action "Move to User Profile Images" {
+    type = "Move Asset To Folder"
+    needs = "If Profile computer"
+    asset_item_id = "@sourceAssetItemId"
+    folder = "1,48"
+}
+
+trigger "Is Logo Changed" {
+    type = "metadata"
+    resolves = "Move to Logo folder"
+    meta_field = "guid:939D9ED0-A5C0-4FE4-9D45-23928DB9C50A"
+}
+
+filter "If is logo = 1" {
+    type = "Metadata bit filter"
+    asset_item_id = "@sourceAssetItemId"
+    metafield_item_id = "guid:939D9ED0-A5C0-4FE4-9D45-23928DB9C50A"
+    expected_value = "true"
+    negate = "false"
+}
+
+filter "If image" {
+    type = "Asset type filter"
+    needs = "If is logo = 1"
+    asset_type = "image"
+    asset_id = "@sourceAssetId"
+    negate = "false"
+}
+
+action "Move to Logo folder" {
+    type = "Move Asset To Folder"
+    needs = "If image"
+    asset_item_id = "@sourceAssetItemId"
+    folder = "10,132"
+}
+
+filter "If splashscreen meterial upload" {
+    type = "Upload Computer Filter"
+    upload_computer = "Digizuite Media Manager splashscreen"
+    asset_id = "@sourceAssetId"
+    negate = "false"
+}
+
+action "Set IsIntro to true" {
+    type = "Set Bit Metafield"
+    needs = "If splashscreen meterial upload"
+    meta_field = "guid:DB42164C-8316-4C08-AD4A-05EA7ACD346C"
+    new_value = "true"
+    asset_item_id = "@sourceAssetItemId"
+    use_versioned_metadata = "false"
+}
+
+trigger "IsIntro changed" {
+    type = "metadata"
+    resolves = "Move to splashscreen material"
+    meta_field = "guid:DB42164C-8316-4C08-AD4A-05EA7ACD346C"
+}
+
+filter "IsIntro = true" {
+    type = "Metadata bit filter"
+    asset_item_id = "@sourceAssetItemId"
+    metafield_item_id = "guid:DB42164C-8316-4C08-AD4A-05EA7ACD346C"
+    expected_value = "true"
+    negate = "false"
+}
+
+action "Move to splashscreen material" {
+    type = "Move Asset To Folder"
+    needs = "IsIntro = true"
+    asset_item_id = "@sourceAssetItemId"
+    folder = "10,131"
+}
+
+action "Move to channel user profile folder" {
+    type = "Move Asset To Folder"
+    needs = "If Profile computer"
+    asset_item_id = "@sourceAssetItemId"
+    folder = "10,133"
+}

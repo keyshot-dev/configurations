@@ -1,0 +1,42 @@
+trigger "When distribution changes" {
+    type = "metadata"
+    resolves = ["Add to folder", "Remove from folder"]
+    meta_field = "guid:E07C41B6-342C-46A8-93FF-7196B755FE99"
+}
+
+action "Create folder reference" {
+    type = "Create Folder Reference"
+    folder_id = "@changedValue"
+    repository_type = "portal"
+    result = "@folder"
+}
+
+filter "If added" {
+    type = "Bool Comparison filter"
+    needs = "Create folder reference"
+    value = "@deleted"
+    expected_value = "true"
+    negate = "true"
+}
+
+filter "If deleted" {
+    type = "Bool Comparison filter"
+    needs = "Create folder reference"
+    value = "@deleted"
+    expected_value = "true"
+    negate = "false"
+}
+
+action "Add to folder" {
+    type = "Move Asset To Folder"
+    needs = "If added"
+    asset_item_id = "@sourceAssetItemId"
+    folder = "@folder"
+}
+
+action "Remove from folder" {
+    type = "Remove Asset From Folder"
+    needs = "If deleted"
+    asset_item_id = "@sourceAssetItemId"
+    folder = "@folder"
+}

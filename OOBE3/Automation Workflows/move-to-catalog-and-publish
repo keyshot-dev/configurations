@@ -1,0 +1,26 @@
+filter "If media manager upload" {
+    type = "Upload Computer Filter"
+    upload_computer = "Digizuite Media Manager"
+    asset_id = "@sourceAssetId"
+    negate = "false"
+}
+
+action "Move to Catalog" {
+    type = "Move Asset To Folder"
+    needs = "If media manager upload"
+    asset_item_id = "@sourceAssetItemId"
+    folder = "1,40"
+}
+
+trigger "When asset is uploaded" {
+    type = "Asset Folder Updated Trigger"
+    resolves = ["Move to Catalog", "Republish asset"]
+    from_folder = []
+    to_folder = "1,46"
+}
+
+action "Republish asset" {
+    type = "RePublish Asset"
+    needs = "If media manager upload"
+    asset_id = "@sourceAssetId"
+}

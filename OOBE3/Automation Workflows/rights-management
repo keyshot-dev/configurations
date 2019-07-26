@@ -1,0 +1,175 @@
+trigger "Availability" {
+    type = "metadata"
+    resolves = ["Move to public", "Move to internal", "Remove from public 1", "Remove from internal 1", "Remove from internal 2", "Remove from public 2"]
+    meta_field = "guid:74A5A102-A310-4BB7-9E84-0B14C36436B2"
+}
+
+trigger "Rights Management" {
+    type = "metadata"
+    resolves = ["Move to public", "Move to internal", "Remove from public 1", "Remove from internal 1", "Remove from internal 2", "Remove from public 2", "Set published", "Remove published", "Set Is Public", "Clear IsPublic"]
+    meta_field = "guid:541A8D9E-87BC-4B5F-A02A-BC7738B79286"
+}
+
+action "log bind" {
+    type = "Log"
+    text = "Something changed"
+    needs = []
+}
+
+filter "if public mediamanager" {
+    type = "Metadata tree filter"
+    needs = "if media manager"
+    asset_item_id = "@sourceAssetItemId"
+    reference = "guid:541A8D9E-87BC-4B5F-A02A-BC7738B79286"
+    expected_value = "aedb4b2b-346a-45bc-9767-279a804ab67d"
+    action_enum = "any"
+    negate = "false"
+}
+
+filter "if media manager" {
+    type = "Metadata multicombo filter"
+    needs = "log bind"
+    asset_item_id = "@sourceAssetItemId"
+    metafield_item_id = "guid:74A5A102-A310-4BB7-9E84-0B14C36436B2"
+    expected_value = "Media Manager"
+    action_enum = "exact"
+    negate = "false"
+}
+
+filter "if internal media manager" {
+    type = "Metadata tree filter"
+    needs = "if media manager"
+    asset_item_id = "@sourceAssetItemId"
+    reference = "guid:541A8D9E-87BC-4B5F-A02A-BC7738B79286"
+    expected_value = "c44ab339-d8ba-490c-a0fc-ff73708d9b49"
+    action_enum = "any"
+    negate = "false"
+}
+
+action "Move to public" {
+    type = "Move Asset To Folder"
+    needs = "if public mediamanager"
+    asset_item_id = "@sourceAssetItemId"
+    folder = "10,128"
+}
+
+action "Move to internal" {
+    type = "Move Asset To Folder"
+    needs = "if internal media manager"
+    asset_item_id = "@sourceAssetItemId"
+    folder = "10,129"
+}
+
+filter "Not media manager" {
+    type = "Metadata multicombo filter"
+    needs = "log bind"
+    asset_item_id = "@sourceAssetItemId"
+    metafield_item_id = "guid:74A5A102-A310-4BB7-9E84-0B14C36436B2"
+    expected_value = "Media Manager"
+    action_enum = "any"
+    negate = "true"
+}
+
+action "Remove from public 1" {
+    type = "Remove Asset From Folder"
+    needs = "Not media manager"
+    asset_item_id = "@sourceAssetItemId"
+    folder = "10,128"
+}
+
+action "Remove from internal 1" {
+    type = "Remove Asset From Folder"
+    needs = "Not media manager"
+    asset_item_id = "@sourceAssetItemId"
+    folder = "10,129"
+}
+
+filter "Not internal access" {
+    type = "Metadata tree filter"
+    needs = "if media manager"
+    asset_item_id = "@sourceAssetItemId"
+    reference = "guid:541A8D9E-87BC-4B5F-A02A-BC7738B79286"
+    expected_value = "c44ab339-d8ba-490c-a0fc-ff73708d9b49"
+    action_enum = "any"
+    negate = "true"
+}
+
+action "Remove from internal 2" {
+    type = "Remove Asset From Folder"
+    needs = "Not internal access"
+    asset_item_id = "@sourceAssetItemId"
+    folder = "10,129"
+}
+
+filter "Not public access" {
+    type = "Metadata tree filter"
+    needs = "if media manager"
+    asset_item_id = "@sourceAssetItemId"
+    reference = "guid:541A8D9E-87BC-4B5F-A02A-BC7738B79286"
+    expected_value = "aedb4b2b-346a-45bc-9767-279a804ab67d"
+    action_enum = "any"
+    negate = "true"
+}
+
+action "Remove from public 2" {
+    type = "Remove Asset From Folder"
+    needs = "Not public access"
+    asset_item_id = "@sourceAssetItemId"
+    folder = "10,128"
+}
+
+filter "If any sort of public" {
+    type = "Metadata tree filter"
+    asset_item_id = "@sourceAssetItemId"
+    reference = "guid:541A8D9E-87BC-4B5F-A02A-BC7738B79286"
+    expected_value = ["aedb4b2b-346a-45bc-9767-279a804ab67d", "c44ab339-d8ba-490c-a0fc-ff73708d9b49"]
+    action_enum = "any"
+    negate = "false"
+    needs = []
+}
+
+action "Set published" {
+    type = "Set Bit Metafield"
+    needs = "If any sort of public"
+    meta_field = "guid:18F7BC84-8B3F-4DC6-A338-68273639E4BF"
+    new_value = "true"
+    asset_item_id = "@sourceAssetItemId"
+    use_versioned_metadata = "false"
+}
+
+filter "Not any sort of public" {
+    type = "Metadata tree filter"
+    asset_item_id = "@sourceAssetItemId"
+    reference = "guid:541A8D9E-87BC-4B5F-A02A-BC7738B79286"
+    expected_value = ["aedb4b2b-346a-45bc-9767-279a804ab67d", "c44ab339-d8ba-490c-a0fc-ff73708d9b49"]
+    action_enum = "any"
+    negate = "true"
+    needs = []
+}
+
+filter "Remove published" {
+    type = "Metadata bit filter"
+    needs = "Not any sort of public"
+    asset_item_id = "@sourceAssetItemId"
+    metafield_item_id = "guid:18F7BC84-8B3F-4DC6-A338-68273639E4BF"
+    expected_value = "false"
+    negate = "false"
+}
+
+action "Set Is Public" {
+    type = "Set Bit Metafield"
+    needs = "If any sort of public"
+    meta_field = "guid:17C54460-E6CC-4BDA-ABE3-628532617EBD"
+    new_value = "true"
+    asset_item_id = "@sourceAssetItemId"
+    use_versioned_metadata = "false"
+}
+
+action "Clear IsPublic" {
+    type = "Set Bit Metafield"
+    needs = "Not any sort of public"
+    meta_field = "guid:17C54460-E6CC-4BDA-ABE3-628532617EBD"
+    new_value = "false"
+    asset_item_id = "@sourceAssetItemId"
+    use_versioned_metadata = "false"
+}

@@ -1,0 +1,11 @@
+trigger "When moved into default preview icons" {
+    type = "Asset Folder Updated Trigger"
+    resolves = "Move to default preview icons"
+    to_folder = "1,54"
+}
+
+action "Move to default preview icons" {
+    type = "Move Asset To Folder"
+    asset_item_id = "@sourceAssetItemId"
+    folder = "10,123"
+}

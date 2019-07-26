@@ -1,0 +1,31 @@
+trigger "Delete asset changed" {
+    type = "metadata"
+    resolves = "Move to deleted assets"
+    meta_field = "guid:0BDAC2C5-AD28-4BC0-8141-1A71CCFADA43"
+}
+
+filter "If true" {
+    type = "Metadata bit filter"
+    asset_item_id = "@sourceAssetItemId"
+    metafield_item_id = "guid:0BDAC2C5-AD28-4BC0-8141-1A71CCFADA43"
+    expected_value = "true"
+    negate = "false"
+}
+
+action "Move to deleted assets" {
+    type = "Move Asset To Folder"
+    needs = "If true"
+    asset_item_id = "@sourceAssetItemId"
+    folder = "1,56"
+}
+
+trigger "When asset is moved to deleted assets" {
+    type = "Asset Folder Updated Trigger"
+    resolves = "Remove from all channels"
+    to_folder = "1,56"
+}
+
+action "Remove from all channels" {
+    type = "Remove Asset From All Channels"
+    asset_item_id = "@sourceAssetItemId"
+}
