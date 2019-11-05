@@ -1,0 +1,95 @@
+trigger "CronScheduleTrigger" {
+    type = "CronScheduleTrigger"
+    resolves = "ForEach"
+    schedule = "0 0 1 * * ?"
+    misfire_instruction = "fireoncenow"
+    identity = "expiration"
+}
+
+action "Log" {
+    type = "Log"
+    text = "Cron Elapsed"
+    needs = []
+}
+
+action "Get Last time" {
+    type = "Get Current Date"
+    needs = "Log"
+    offset = "-1000000000"
+    result = "@previous"
+}
+
+action "Get Current Date" {
+    type = "Get Current Date"
+    needs = "Log"
+    offset = "0"
+    result = "@now"
+}
+
+action "Search" {
+    type = "Search"
+    needs = ["Get Last time", "Get Current Date"]
+    search = "GetExpiredAssets"
+    search_parameters = ["(sDateBetween),(@previous)", "(sDateBetween_type_date),(sDateBetween_end)", "(sDateBetween_end),(@now)", "(limit),(10000)"]
+    result = "@searchResponse"
+}
+
+action "Log Search Response" {
+    type = "Log"
+    needs = "Search"
+    text = "Search Response: @searchResponse"
+}
+
+action "Query JSON" {
+    type = "Query JSON"
+    needs = "Log Search Response"
+    json = "@searchResponse"
+    json_path = "$[*].itemId"
+    error_on_not_found_items = "false"
+    result = "@itemIds"
+}
+
+foreach "ForEach" {
+    type = "ForEach"
+    needs = "Query JSON"
+    resolves = "Set ComboValue Metafield"
+    variable = "@itemIds"
+    as = "@itemId"
+}
+
+action "Set ComboValue Metafield" {
+    type = "Set ComboValue Metafield"
+    needs = []
+    meta_field = "guid:6FE35F10-C810-497B-AF9C-E52C3D583593"
+    new_value = "#ee5253;expired"
+    asset_item_id = "@itemId"
+    use_versioned_metadata = "false"
+}
+
+trigger "When asset status is updated" {
+    type = "metadata"
+    resolves = ["Move Asset To Expired assets folder", "Unpublish asset from all channels"]
+    meta_field = "guid:6FE35F10-C810-497B-AF9C-E52C3D583593"
+}
+
+filter "If status = Expired" {
+    type = "Metadata combo filter"
+    asset_item_id = "@sourceAssetItemId"
+    metafield_item_id = "guid:6FE35F10-C810-497B-AF9C-E52C3D583593"
+    expected_value = "#ee5253;expired"
+    negate = "false"
+}
+
+action "Move Asset To Expired assets folder" {
+    type = "Move Asset To Folder"
+    needs = "If status = Expired"
+    asset_item_id = "@sourceAssetItemId"
+    folder = "1,56"
+}
+
+action "Unpublish asset from all channels" {
+    type = "Remove Asset From All Channels"
+    needs = "If status = Expired"
+    excluded_folders = []
+    asset_item_id = "@sourceAssetItemId"
+}

@@ -1,0 +1,16 @@
+trigger "Asset Folder Updated Trigger" {
+    type = "Asset Folder Updated Trigger"
+    resolves = ["Move Asset To Folder", "RePublish Asset"]
+    to_folder = "1,46"
+}
+
+action "Move Asset To Folder" {
+    type = "Move Asset To Folder"
+    asset_item_id = "@sourceAssetItemId"
+    folder = "1,40"
+}
+
+action "RePublish Asset" {
+    type = "RePublish Asset"
+    asset_id = "@sourceAssetId"
+}

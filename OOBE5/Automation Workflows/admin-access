@@ -1,0 +1,11 @@
+trigger "When asset is uploaded" {
+    type = "Location State Changed"
+    resolves = "Move to admin access"
+    new_location_state = "online"
+}
+
+action "Move to admin access" {
+    type = "Move Asset To Folder"
+    asset_item_id = "@sourceAssetItemId"
+    folder = "10,126"
+}
