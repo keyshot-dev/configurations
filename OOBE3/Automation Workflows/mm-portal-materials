@@ -14,7 +14,7 @@ filter "If Image" {
 filter "If Profile computer" {
     type = "Upload Computer Filter"
     needs = "If Image"
-    upload_computer = "Digizuite Media Manager profile"
+    expected_upload_computer = "Digizuite Media Manager profile"
     asset_id = "@sourceAssetId"
     negate = "false"
 }
@@ -57,7 +57,7 @@ action "Move to Logo folder" {
 
 filter "If splashscreen meterial upload" {
     type = "Upload Computer Filter"
-    upload_computer = "Digizuite Media Manager splashscreen"
+    expected_upload_computer = "Digizuite Media Manager splashscreen"
     asset_id = "@sourceAssetId"
     negate = "false"
 }
