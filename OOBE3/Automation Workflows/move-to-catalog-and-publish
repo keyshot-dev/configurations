@@ -1,13 +1,12 @@
 trigger "When asset is uploaded" {
     type = "Asset Folder Updated Trigger"
     resolves = ["Move to Catalog", "Republish asset"]
-    from_folder = []
     to_folder = "1,46"
 }
 
 filter "If media manager upload" {
     type = "Upload Computer Filter"
-    upload_computer = "Digizuite Media Manager"
+    expected_upload_computer = "Digizuite Media Manager"
     asset_id = "@sourceAssetId"
     negate = "false"
 }
