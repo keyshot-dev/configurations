@@ -27,5 +27,6 @@ trigger "When asset is moved to deleted assets" {
 
 action "Remove from all channels" {
     type = "Remove Asset From All Channels"
+    excluded_folders = []
     asset_item_id = "@sourceAssetItemId"
 }
