@@ -1,0 +1,19 @@
+trigger "When Frame Accurate thumbnail is changed" {
+    type = "metadata"
+    resolves = "RePublish Asset"
+    meta_field = "guid:CD420283-D734-4B0C-9849-3406466E0954"
+}
+
+filter "If added values" {
+    type = "Bool Comparison filter"
+    value = "@deleted"
+    expected_value = "false"
+    negate = "false"
+    needs = []
+}
+
+action "RePublish Asset" {
+    type = "RePublish Asset"
+    needs = "If added values"
+    asset_id = "@sourceAssetId"
+}

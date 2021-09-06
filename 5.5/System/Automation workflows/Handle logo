@@ -1,0 +1,43 @@
+trigger "Is logo set to true" {
+    type = "Specific Metadata Value"
+    resolves = "Move to logo channel folder 1"
+    value = "true"
+    ignore_casing = "true"
+    meta_field = "guid:939D9ED0-A5C0-4FE4-9D45-23928DB9C50A"
+    listen_to_metadata_changes = "addedonly"
+}
+
+action "Move to logo channel folder 1" {
+    type = "Move Asset To Folder"
+    asset_item_id = "@sourceAssetItemId"
+    folder = "10,132"
+}
+
+trigger "Asset uploaded" {
+    type = "Location State Changed"
+    resolves = ["Set Is logo to true", "Move to logo channel folder 2"]
+    new_location_state = "online"
+}
+
+filter "If upload computer is logo uploader" {
+    type = "Upload Computer Filter"
+    asset_id = "@sourceAssetId"
+    expected_upload_computer = "Digizuite Media Manager logo"
+    negate = "false"
+}
+
+action "Set Is logo to true" {
+    type = "Set Bit Metafield"
+    needs = "If upload computer is logo uploader"
+    meta_field = "guid:939D9ED0-A5C0-4FE4-9D45-23928DB9C50A"
+    new_value = "true"
+    asset_item_id = "@sourceAssetItemId"
+    use_versioned_metadata = "false"
+}
+
+action "Move to logo channel folder 2" {
+    type = "Move Asset To Folder"
+    needs = "If upload computer is logo uploader"
+    asset_item_id = "@sourceAssetItemId"
+    folder = "10,132"
+}
