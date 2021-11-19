@@ -1,6 +1,7 @@
 trigger "Asset is uploaded" {
     type = "Location State Changed"
     resolves = ["Upload Computer nor user profile image", "Move Asset to Admin access"]
+    ignore_replaced_assets = "true"
     new_location_state = "online"
 }
 
