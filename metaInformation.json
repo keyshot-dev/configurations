@@ -1,0 +1,22 @@
+[
+    {
+        "name": "DC",
+        "locked": true
+    },
+    {
+        "name": "MM",
+        "locked": true
+    },
+    {
+        "name": "DFS",
+        "locked": true
+    },
+    {
+        "name": "Episerver",
+        "locked": true
+    },
+    {
+        "name": "OOBE",
+        "locked": false
+    }
+]
