@@ -1,6 +1,15 @@
 # Configurations #
-This repository consists of sets of base configurations, that should be useable as is, though some might require minor tweaks (such as ids).
+This repository contains templates with configurations for the Configuration Management Service.
+Most templates correspond to Digizuite products. Each template can have multiple versions, typically corresponding to different release versions.
 
-The repository contains the Automation workflow configurations that are needed with v5.5.0 as that version has removed the old Digimonitor workflow engine. Be aware that a Media Manager must be installed in order for these Automations to work.
+# Format #
+The file `metaInformation.json` contains meta information for the templates that are exposed to users in the Configuration Management UI. Each exposed template must have an entry in this file, containing:
+- `"name"`: The name of the template. Must correspond to the name of the directory containing the configuration.
+- `"order"`: The order of the configuration layer when importing the template. The order must be negative and unique.
+- `"locked"`: Whether the template configuration should be imported as a locked configuration layer.
 
-Ontop of that there is a section containing the OOBE3 and OOBE5 workflows for the new automation workflow system. These are old, but kept there for backwards compatibility. We refer to the OOBE configuration guide on confluence for a more detailed work through.
+Template configurations may refer to the configuration of other templates with lower order. Otherwise, they must be self-contained.
+
+Each template directory must contain version directories as immediate children (e.g. `DC/5.6.0`). Different versions of the same template must not reference each other. 
+
+The configuration of each template version may be freely organized into subdirectories.
