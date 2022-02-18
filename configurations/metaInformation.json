@@ -1,22 +1,27 @@
 [
     {
         "name": "DC",
+        "order": -100,
         "locked": true
     },
     {
         "name": "MM",
+        "order": -95,
         "locked": true
     },
     {
         "name": "DFS",
+        "order": -90,
         "locked": true
     },
     {
         "name": "Episerver",
+        "order": -85,
         "locked": true
     },
     {
         "name": "OOBE",
+        "order": -10,
         "locked": false
     }
 ]
