@@ -4654,45 +4654,6 @@ resource search getprofilefolders_127_0 {
     item_types = []
 }
 
-resource search getdefaultpreviews_179_0 {
-    version_id = resource.product.digizuite_dam_center.base_version_id
-    name = 'GetDefaultPreviews'
-    is_customizable = false
-    search_xml = '<search name="GetDefaultPreviews">
-  <searchSection>
-    <searchFields>
-      <searchField id="productGuid" fieldName="item.itemguid" valueHandler="Equals">
-        <values valueType="String">
-          <value>${to_string(resource.product.digizuite_dam_center.item_guid)}</value>
-        </values>
-      </searchField>
-      <searchField id="language" valueHandler="Equals" type="language" visible="false" />
-      <searchField id="security" securityType="Product" visible="false" />
-    </searchFields>
-    <valueFields OutputType="SQLXML">
-      <valueField id="DefaultPreviewDestinationId" fieldName="digitranscode_destination.digitranscode_destinationid">
-        <bindField id="DefaultPreviewDestinationIdField" itemGuid="${to_string(resource.masteritem_reference_metafield.default_preview_destination_50319.item_guid)}" />
-      </valueField>
-      <valueFields id="DefaultPreviews" isArray="true">
-        <valueField id="assetType" itemGuid="${to_string(resource.combovalue_metafield.assettype_50323.item_guid)}" field="optionvalue" />
-        <valueField id="assetId" fieldName="asset.assetid">
-          <bindField id="assetIdField" itemGuid="${to_string(resource.masteritem_reference_metafield.preview_asset_50320.item_guid)}" />
-        </valueField>
-        <valueField id="inputMediaformatId" fieldName="media_format.media_formatid">
-          <bindField id="inputMediaformatIdField" itemGuid="${to_string(resource.masteritem_reference_metafield.input_mediaformat_50321.item_guid)}" />
-        </valueField>
-        <valueField id="outputMediaformatId" fieldName="media_format.media_formatid">
-          <bindField id="outputMediaformatIdField" itemGuid="${to_string(resource.masteritem_reference_metafield.output_mediaformat_50322.item_guid)}" />
-        </valueField>
-      </valueFields>
-    </valueFields>
-    <sortFields />
-  </searchSection>
-</search>'
-    use_solr = false
-    item_types = []
-}
-
 resource search getitemidfromlayoutfolderid_1_0 {
     version_id = resource.product.digizuite_dam_center.base_version_id
     name = 'GetItemIdFromLayoutFolderId'
