@@ -1,3 +1,8 @@
+resource transcode_folder digizuite_video_portal_50001 {
+    parent_id = resource.transcode_folder.standard_10001.id
+    name = 'Digizuite™ Video Portal'
+}
+
 resource media_transcode desktop_h264_2048kbit_ffmpeg_50028 {
     name = 'Desktop H264 2048kbit ffmpeg'
     description = ''

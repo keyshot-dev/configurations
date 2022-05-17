@@ -1,3 +1,23 @@
+resource media_format_folder import_10000 {
+    parent_id = 0
+    name = 'Import'
+}
+
+resource media_format_folder standard_10001 {
+    parent_id = 0
+    name = 'Standard'
+}
+
+resource media_format_folder digizuite_media_manager_10003 {
+    parent_id = resource.media_format_folder.standard_10001.id
+    name = 'Digizuite™ Media Manager'
+}
+
+resource media_format_folder custom_10004 {
+    parent_id = resource.media_format_folder.standard_10001.id
+    name = 'Custom'
+}
+
 resource media_format microstation_design_dgn_50068 {
     folder_id = resource.media_format_folder.import_10000.id
     format_type_id = resource.media_format_type.microstation_design_190003.media_format_type_id
@@ -1510,49 +1530,6 @@ resource media_format_type visio_drawing_180001 {
     icon_large = ''
     mime_type = 'application/vnd.visio2013'
     identity_media_format_id = resource.media_format.visio_drawing_vsdx_50063.media_format_id
-}
-
-resource media_format preview_html_50080 {
-    folder_id = resource.media_format_folder.standard_10001.id
-    format_type_id = resource.media_format_type.hyper_text_markup_language_60001.media_format_type_id
-    name = 'Preview Html'
-    description = ''
-    width = 0
-    height = 0
-    is_public = true
-    format_xml = ''
-    multi_page_output = false
-    is_identity_format = false
-    settings = ''
-    encoding = 1002
-    encoding_bitrate = 0
-    linebreak = ''
-    input_page = 1
-    bitrate = 0
-    video_bitrate = 0
-    audio_bitrate = 0
-    frequency = 0
-    fps = 0
-    stereo = false
-    encoder_profile_name = ''
-    use_cut_points = false
-    output_bits_per_pixel = 0
-    dpi_x = 0
-    dpi_y = 0
-    crop_x = 0
-    crop_y = 0
-    crop_width = 0
-    crop_height = 0
-    intensity = 0
-    contrast = 0
-    gamma_correct = 0
-    rotate = 0
-    watermark_file = ''
-    grayscale = false
-    grayscale_bits_per_pixel = 0
-    force_aspect = false
-    output_quality = 0
-    icc_profile = ''
 }
 
 resource media_format_type legacy_word_template_80006 {
@@ -3193,11 +3170,6 @@ resource media_format_type visio_stencil_180002 {
     identity_media_format_id = resource.media_format.visio_stencil_vssx_50065.media_format_id
 }
 
-resource media_format_folder import_10000 {
-    parent_id = 0
-    name = 'Import'
-}
-
 resource media_format word_template_dotx_50053 {
     folder_id = resource.media_format_folder.import_10000.id
     format_type_id = resource.media_format_type.word_template_80003.media_format_type_id
@@ -3281,49 +3253,6 @@ resource media_format_type autocad_drawing_database_190001 {
     icon_large = ''
     mime_type = ''
     identity_media_format_id = resource.media_format.autocad_drawing_database_dwg_50066.media_format_id
-}
-
-resource media_format image_original_som_jpg_10046 {
-    folder_id = resource.media_format_folder.import_10000.id
-    format_type_id = resource.media_format_type.jpeg_compressed_formats_40001.media_format_type_id
-    name = 'IMAGE_original_som_jpg'
-    description = ''
-    width = 0
-    height = 0
-    is_public = true
-    format_xml = ''
-    multi_page_output = false
-    is_identity_format = false
-    settings = '%infile%[0] -background white -flatten -auto-orient %iccconversion% -strip %outfile%'
-    encoding = 1002
-    encoding_bitrate = 0
-    linebreak = ''
-    input_page = 1
-    bitrate = 0
-    video_bitrate = 0
-    audio_bitrate = 0
-    frequency = 1
-    fps = 0
-    stereo = false
-    encoder_profile_name = ''
-    use_cut_points = false
-    output_bits_per_pixel = 0
-    dpi_x = 0
-    dpi_y = 0
-    crop_x = 0
-    crop_y = 0
-    crop_width = 0
-    crop_height = 0
-    intensity = 0
-    contrast = 0
-    gamma_correct = 0
-    rotate = 0
-    watermark_file = ''
-    grayscale = false
-    grayscale_bits_per_pixel = 0
-    force_aspect = false
-    output_quality = 0
-    icc_profile = 'sRGB.icc'
 }
 
 resource media_format_type hpgl_plot_190007 {
@@ -3592,11 +3521,6 @@ resource media_format_type visio_template_180003 {
     identity_media_format_id = resource.media_format.visio_template_vstx_50064.media_format_id
 }
 
-resource media_format_folder standard_10001 {
-    parent_id = 0
-    name = 'Standard'
-}
-
 resource media_format_type smil_200201 {
     media_format_type_id = 200201
     name = 'smil'
@@ -3863,24 +3787,6 @@ resource media_format_type waveform_audio_20002 {
     icon_large = ''
     mime_type = 'audio/wav'
     identity_media_format_id = resource.media_format.audio_50029.media_format_id
-}
-
-resource media_format_type liverecordasset_10000001 {
-    media_format_type_id = 10000001
-    name = 'LiveRecordAsset'
-    asset_type = 'Live'
-    can_be_source = true
-    can_be_target = true
-    can_be_manual = true
-    extensions = []
-    format = ''
-    upload_convert_to_archive = false
-    display_name = 'flv'
-    icon_detail = ''
-    icon_thumbnail = ''
-    icon_large = ''
-    mime_type = ''
-    identity_media_format_id = 0
 }
 
 resource media_format_type adobe_illustrator_120101 {
@@ -4522,11 +4428,6 @@ resource media_format digizuite_media_manager_user_profile_hd_30014 {
     icc_profile = 'sRGB.icc'
 }
 
-resource media_format_folder digizuite_media_manager_10003 {
-    parent_id = resource.media_format_folder.standard_10001.id
-    name = 'Digizuite™ Media Manager'
-}
-
 resource media_format digizuite_media_manager_user_profile_sd_30013 {
     folder_id = resource.media_format_folder.digizuite_media_manager_10003.id
     format_type_id = resource.media_format_type.jpeg_compressed_formats_40001.media_format_type_id
@@ -4568,11 +4469,6 @@ resource media_format digizuite_media_manager_user_profile_sd_30013 {
     force_aspect = false
     output_quality = 0
     icc_profile = 'sRGB.icc'
-}
-
-resource media_format_folder custom_10004 {
-    parent_id = resource.media_format_folder.standard_10001.id
-    name = 'Custom'
 }
 
 resource media_format source_copy_10061 {
@@ -4618,3 +4514,131 @@ resource media_format source_copy_10061 {
     icc_profile = ''
 }
 
+resource media_format video_thumb_dynamic_10026 {
+    folder_id = resource.media_format_folder.custom_10004.id
+    format_type_id = resource.media_format_type.jpeg_compressed_formats_40001.media_format_type_id
+    name = 'Video Thumb Dynamic'
+    description = ''
+    width = 0
+    height = 0
+    is_public = true
+    format_xml = '<mediaformat><fieldmapping active="1" asset_metafieldid="10032" jobident="AspectRatio"><defaultvalue>169</defaultvalue></fieldmapping><fieldmapping active="1" asset_metafieldid="10048" jobident="Frame"><defaultvalue>00:00:05.000</defaultvalue></fieldmapping><fieldmapping active="1" asset_metafieldid="50041" jobident="VideoRotate"><defaultvalue>0</defaultvalue></fieldmapping></mediaformat>'
+    multi_page_output = false
+    is_identity_format = false
+    settings = ''
+    encoding = 1002
+    encoding_bitrate = 0
+    linebreak = ''
+    input_page = 1
+    bitrate = 0
+    video_bitrate = 0
+    audio_bitrate = 0
+    frequency = 0
+    fps = 0
+    stereo = false
+    encoder_profile_name = 'ffmpegtag_videostill_OrigSize.xml'
+    use_cut_points = false
+    output_bits_per_pixel = 0
+    dpi_x = 0
+    dpi_y = 0
+    crop_x = 0
+    crop_y = 0
+    crop_width = 0
+    crop_height = 0
+    intensity = 0
+    contrast = 0
+    gamma_correct = 0
+    rotate = 0
+    watermark_file = ''
+    grayscale = false
+    grayscale_bits_per_pixel = 0
+    force_aspect = false
+    output_quality = 0
+    icc_profile = ''
+}
+
+resource media_format adobe_illustrator_50013 {
+    folder_id = resource.media_format_folder.import_10000.id
+    format_type_id = resource.media_format_type.adobe_illustrator_120101.media_format_type_id
+    name = 'Adobe Illustrator'
+    description = ''
+    width = 0
+    height = 0
+    is_public = true
+    format_xml = ''
+    multi_page_output = false
+    is_identity_format = false
+    settings = ''
+    encoding = 0
+    encoding_bitrate = 0
+    linebreak = ''
+    input_page = 1
+    bitrate = 0
+    video_bitrate = 0
+    audio_bitrate = 0
+    frequency = 0
+    fps = 0
+    stereo = false
+    encoder_profile_name = ''
+    use_cut_points = false
+    output_bits_per_pixel = 0
+    dpi_x = 0
+    dpi_y = 0
+    crop_x = 0
+    crop_y = 0
+    crop_width = 0
+    crop_height = 0
+    intensity = 0
+    contrast = 0
+    gamma_correct = 0
+    rotate = 0
+    watermark_file = ''
+    grayscale = false
+    grayscale_bits_per_pixel = 0
+    force_aspect = false
+    output_quality = 0
+    icc_profile = ''
+}
+
+resource media_format adobe_photoshop_50012 {
+    folder_id = resource.media_format_folder.import_10000.id
+    format_type_id = resource.media_format_type.photoshop_40008.media_format_type_id
+    name = 'Adobe Photoshop'
+    description = ''
+    width = 0
+    height = 0
+    is_public = true
+    format_xml = ''
+    multi_page_output = false
+    is_identity_format = false
+    settings = ''
+    encoding = 0
+    encoding_bitrate = 0
+    linebreak = ''
+    input_page = 1
+    bitrate = 0
+    video_bitrate = 0
+    audio_bitrate = 0
+    frequency = 0
+    fps = 0
+    stereo = false
+    encoder_profile_name = ''
+    use_cut_points = false
+    output_bits_per_pixel = 0
+    dpi_x = 0
+    dpi_y = 0
+    crop_x = 0
+    crop_y = 0
+    crop_width = 0
+    crop_height = 0
+    intensity = 0
+    contrast = 0
+    gamma_correct = 0
+    rotate = 0
+    watermark_file = ''
+    grayscale = false
+    grayscale_bits_per_pixel = 0
+    force_aspect = false
+    output_quality = 0
+    icc_profile = ''
+}
