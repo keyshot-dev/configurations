@@ -92,7 +92,7 @@ resource media_format audio_preview_10045 {
     width = 0
     height = 0
     is_public = true
-    format_xml = '<mediaformat><fieldmapping active="1" asset_metafieldid="50041" jobident="VideoRotate"><defaultvalue>0</defaultvalue></fieldmapping></mediaformat>'
+    format_xml = ''
     multi_page_output = false
     is_identity_format = false
     settings = ''
