@@ -11,7 +11,7 @@ resource media_format desktop_video_thumb_50019 {
     width = 0
     height = 540
     is_public = true
-    format_xml = '<mediaformat><fieldmapping active="1" asset_metafieldid="50185" jobident="MetaCropArgs"><defaultvalue/></fieldmapping></mediaformat>'
+    format_xml = '<mediaformat><fieldmapping active="1" asset_metafieldid="${to_stringresource.string_metafield.crop_50185.metafield_id}" jobident="MetaCropArgs"><defaultvalue/></fieldmapping></mediaformat>'
     multi_page_output = false
     is_identity_format = false
     settings = '%infile%[0] -auto-orient %iccconversion% -units PixelsPerInch -density 72x72 -background white -flatten %cropsettings% -resize x540> -strip %Outfile%'
@@ -54,7 +54,7 @@ resource media_format tablet_video_thumb_50020 {
     width = 0
     height = 360
     is_public = true
-    format_xml = '<mediaformat><fieldmapping active="1" asset_metafieldid="50185" jobident="MetaCropArgs"><defaultvalue/></fieldmapping></mediaformat>'
+    format_xml = '<mediaformat><fieldmapping active="1" asset_metafieldid="${to_stringresource.string_metafield.crop_50185.metafield_id}" jobident="MetaCropArgs"><defaultvalue/></fieldmapping></mediaformat>'
     multi_page_output = false
     is_identity_format = false
     settings = '%infile%[0] -auto-orient %iccconversion% -units PixelsPerInch -density 72x72 -background white -flatten %cropsettings% -resize x360> -strip %Outfile%'
@@ -97,7 +97,7 @@ resource media_format mobile_video_thumb_50021 {
     width = 0
     height = 360
     is_public = true
-    format_xml = '<mediaformat><fieldmapping active="1" asset_metafieldid="50185" jobident="MetaCropArgs"><defaultvalue/></fieldmapping></mediaformat>'
+    format_xml = '<mediaformat><fieldmapping active="1" asset_metafieldid="${to_stringresource.string_metafield.crop_50185.metafield_id}" jobident="MetaCropArgs"><defaultvalue/></fieldmapping></mediaformat>'
     multi_page_output = false
     is_identity_format = false
     settings = '%infile%[0] -auto-orient %iccconversion% -units PixelsPerInch -density 72x72 %cropsettings% -resize x360> -strip %Outfile%'
@@ -140,7 +140,7 @@ resource media_format desktop_h264_2048kbit_ffmpeg_50016 {
     width = 0
     height = 540
     is_public = true
-    format_xml = '<mediaformat><fieldmapping active="1" asset_metafieldid="10032" jobident="AspectRatio"><defaultvalue>169</defaultvalue></fieldmapping><fieldmapping active="1" asset_metafieldid="50041" jobident="VideoRotate"><defaultvalue>0</defaultvalue></fieldmapping></mediaformat>'
+    format_xml = '<mediaformat><fieldmapping active="1" asset_metafieldid="${to_stringresource.combovalue_metafield.format_10032.metafield_id}" jobident="AspectRatio"><defaultvalue>169</defaultvalue></fieldmapping><fieldmapping active="1" asset_metafieldid="${to_stringresource.combovalue_metafield.rotation_50041.metafield_id}" jobident="VideoRotate"><defaultvalue>0</defaultvalue></fieldmapping></mediaformat>'
     multi_page_output = false
     is_identity_format = false
     settings = ''
@@ -183,7 +183,7 @@ resource media_format tablet_h264_2048kbit_ffmpeg_50017 {
     width = 0
     height = 540
     is_public = true
-    format_xml = '<mediaformat><fieldmapping active="1" asset_metafieldid="10032" jobident="AspectRatio"><defaultvalue>169</defaultvalue></fieldmapping><fieldmapping active="1" asset_metafieldid="50041" jobident="VideoRotate"><defaultvalue>0</defaultvalue></fieldmapping></mediaformat>'
+    format_xml = '<mediaformat><fieldmapping active="1" asset_metafieldid="${to_stringresource.combovalue_metafield.format_10032.metafield_id}" jobident="AspectRatio"><defaultvalue>169</defaultvalue></fieldmapping><fieldmapping active="1" asset_metafieldid="${to_stringresource.combovalue_metafield.rotation_50041.metafield_id}" jobident="VideoRotate"><defaultvalue>0</defaultvalue></fieldmapping></mediaformat>'
     multi_page_output = false
     is_identity_format = false
     settings = ''
@@ -226,7 +226,7 @@ resource media_format mobile_h264_1024kbit_ffmpeg_50018 {
     width = 0
     height = 360
     is_public = true
-    format_xml = '<mediaformat><fieldmapping active="1" asset_metafieldid="10032" jobident="AspectRatio"><defaultvalue>169</defaultvalue></fieldmapping><fieldmapping active="1" asset_metafieldid="50041" jobident="VideoRotate"><defaultvalue>0</defaultvalue></fieldmapping></mediaformat>'
+    format_xml = '<mediaformat><fieldmapping active="1" asset_metafieldid="${to_stringresource.combovalue_metafield.format_10032.metafield_id}" jobident="AspectRatio"><defaultvalue>169</defaultvalue></fieldmapping><fieldmapping active="1" asset_metafieldid="${to_stringresource.combovalue_metafield.rotation_50041.metafield_id}" jobident="VideoRotate"><defaultvalue>0</defaultvalue></fieldmapping></mediaformat>'
     multi_page_output = false
     is_identity_format = false
     settings = ''
