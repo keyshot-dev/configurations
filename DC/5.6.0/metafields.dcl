@@ -994,3 +994,493 @@ resource metafield_label max_tooltip_width_px_51239 {
     description = ''
 }
 
+resource meta_group_folder video_50006 {
+    parent_id = resource.meta_group_folder.asset.id
+    name = 'Video'
+}
+
+resource metafield_group video_10027 {
+    name = 'Video'
+    description = ''
+    show_in_list = false
+    folder_id = resource.meta_group_folder.video_50006.id
+    sort_index = 50034
+    restrict_to_asset = 'Video'
+}
+
+resource string_metafield framebestemt_thumbnail_10048 {
+    max_length = 0
+    item_guid = 'cd420283-d734-4b0c-9849-3406466e0954'
+    name = 'Framebestemt Thumbnail'
+    group_id = resource.metafield_group.video_10027.metafield_group_id
+    sort_index = 10048
+    visibility_metafield_id = 0
+    visibility_regex = ''
+    required = false
+    readonly = false
+    show_in_list = true
+    system = false
+    auto_translate = 'Overwrite'
+    restrict_to_asset_type = 'All'
+    upload_tag_name = ''
+}
+
+resource metafield_label frameaccurate_thumbnail_10073 {
+    metafield_id = resource.string_metafield.framebestemt_thumbnail_10048.metafield_id
+    label = 'Frameaccurate Thumbnail'
+    language_id = resource.language.english.id
+    description = ''
+}
+
+resource item_security id_935_4926 {
+    accessor_item_id = resource.member_group.trusted.item_id
+    item_id = resource.string_metafield.framebestemt_thumbnail_10048.item_id
+    read = true
+    write = true
+}
+
+resource item_security id_935_9027 {
+    accessor_item_id = resource.member_group.anonymous.item_id
+    item_id = resource.string_metafield.framebestemt_thumbnail_10048.item_id
+    read = true
+    write = false
+}
+
+resource string_metafield crop_50185 {
+    max_length = 0
+    item_guid = '050d76ad-822a-409b-a18c-e41e677c1716'
+    name = 'Crop'
+    group_id = resource.metafield_group.video_10027.metafield_group_id
+    sort_index = 50185
+    visibility_metafield_id = 0
+    visibility_regex = ''
+    required = false
+    readonly = false
+    show_in_list = false
+    system = true
+    auto_translate = 'Overwrite'
+    restrict_to_asset_type = 'All'
+    upload_tag_name = ''
+}
+
+resource metafield_label crop_50739 {
+    metafield_id = resource.string_metafield.crop_50185.metafield_id
+    label = 'Crop'
+    language_id = resource.language.english.id
+    description = ''
+}
+
+resource item_security id_5552_4926 {
+    accessor_item_id = resource.member_group.trusted.item_id
+    item_id = resource.string_metafield.crop_50185.item_id
+    read = true
+    write = true
+}
+
+resource item_security id_5552_9027 {
+    accessor_item_id = resource.member_group.anonymous.item_id
+    item_id = resource.string_metafield.crop_50185.item_id
+    read = true
+    write = false
+}
+
+resource combovalue_metafield rotation_50041 {
+    view_type = 'Radio'
+    item_guid = 'c134e2d2-8caf-4739-bca0-767d34c7ac03'
+    name = 'Rotation'
+    group_id = resource.metafield_group.video_10027.metafield_group_id
+    sort_index = 50041
+    visibility_metafield_id = 0
+    visibility_regex = ''
+    required = false
+    readonly = true
+    show_in_list = true
+    system = true
+    auto_translate = 'Overwrite'
+    restrict_to_asset_type = 'All'
+    upload_tag_name = 'mediainfo_video:rotation'
+}
+
+resource metafield_label rotation_50162 {
+    metafield_id = resource.combovalue_metafield.rotation_50041.metafield_id
+    label = 'Rotation'
+    language_id = resource.language.english.id
+    description = ''
+}
+
+resource item_security id_4529_4926 {
+    accessor_item_id = resource.member_group.trusted.item_id
+    item_id = resource.combovalue_metafield.rotation_50041.item_id
+    read = true
+    write = true
+}
+
+resource item_security id_4529_9027 {
+    accessor_item_id = resource.member_group.anonymous.item_id
+    item_id = resource.combovalue_metafield.rotation_50041.item_id
+    read = true
+    write = false
+}
+
+resource combo_value rotation_0_50041 {
+    metafield_id = resource.combovalue_metafield.rotation_50041.metafield_id
+    option_value = '0'
+    sort_index = 0
+}
+
+resource combo_value_label id_0_50073 {
+    combo_id = resource.combo_value.rotation_0_50041.combo_id
+    language_id = resource.language.english.id
+    label = '0°'
+}
+
+resource combo_value rotation_90_50041 {
+    metafield_id = resource.combovalue_metafield.rotation_50041.metafield_id
+    option_value = '90'
+    sort_index = 1
+}
+
+resource combo_value_label id_90_50074 {
+    combo_id = resource.combo_value.rotation_90_50041.combo_id
+    language_id = resource.language.english.id
+    label = '90­°'
+}
+
+resource combo_value rotation_180_50041 {
+    metafield_id = resource.combovalue_metafield.rotation_50041.metafield_id
+    option_value = '180'
+    sort_index = 2
+}
+
+resource combo_value_label id_180_50075 {
+    combo_id = resource.combo_value.rotation_180_50041.combo_id
+    language_id = resource.language.english.id
+    label = '180°'
+}
+
+resource combo_value rotation_270_50041 {
+    metafield_id = resource.combovalue_metafield.rotation_50041.metafield_id
+    option_value = '270'
+    sort_index = 3
+}
+
+resource combo_value_label id_270_50076 {
+    combo_id = resource.combo_value.rotation_270_50041.combo_id
+    language_id = resource.language.english.id
+    label = '270°'
+}
+
+resource combovalue_metafield format_10032 {
+    view_type = 'Radio'
+    item_guid = 'f2a9baa4-655d-4cb3-8649-1692f56950d9'
+    name = 'Format'
+    group_id = resource.metafield_group.video_10027.metafield_group_id
+    sort_index = 10032
+    visibility_metafield_id = 0
+    visibility_regex = ''
+    required = false
+    readonly = false
+    show_in_list = true
+    system = false
+    auto_translate = 'Overwrite'
+    restrict_to_asset_type = 'Video'
+    upload_tag_name = 'calculated:displayaspectratiooption'
+}
+
+resource metafield_label format_10058 {
+    metafield_id = resource.combovalue_metafield.format_10032.metafield_id
+    label = 'Format'
+    language_id = resource.language.english.id
+    description = ''
+}
+
+resource item_security id_949_4926 {
+    accessor_item_id = resource.member_group.trusted.item_id
+    item_id = resource.combovalue_metafield.format_10032.item_id
+    read = true
+    write = true
+}
+
+resource item_security id_949_9027 {
+    accessor_item_id = resource.member_group.anonymous.item_id
+    item_id = resource.combovalue_metafield.format_10032.item_id
+    read = true
+    write = false
+}
+
+resource combo_value format_11_10032 {
+    metafield_id = resource.combovalue_metafield.format_10032.metafield_id
+    option_value = '11'
+    sort_index = 0
+}
+
+resource combo_value_label id_11_10543 {
+    combo_id = resource.combo_value.format_11_10032.combo_id
+    language_id = resource.language.english.id
+    label = '1/1'
+}
+
+resource combo_value format_915_10032 {
+    metafield_id = resource.combovalue_metafield.format_10032.metafield_id
+    option_value = '915'
+    sort_index = 0
+}
+
+resource combo_value_label id_915_50134 {
+    combo_id = resource.combo_value.format_915_10032.combo_id
+    language_id = resource.language.english.id
+    label = '9/15'
+}
+
+resource combo_value format_45_10032 {
+    metafield_id = resource.combovalue_metafield.format_10032.metafield_id
+    option_value = '45'
+    sort_index = 0
+}
+
+resource combo_value_label id_45_50158 {
+    combo_id = resource.combo_value.format_45_10032.combo_id
+    language_id = resource.language.english.id
+    label = '4/5'
+}
+
+resource combo_value format_2047_10032 {
+    metafield_id = resource.combovalue_metafield.format_10032.metafield_id
+    option_value = '2047'
+    sort_index = 0
+}
+
+resource combo_value_label id_2047_50118 {
+    combo_id = resource.combo_value.format_2047_10032.combo_id
+    language_id = resource.language.english.id
+    label = '20/47'
+}
+
+
+resource combo_value format_34_10032 {
+    metafield_id = resource.combovalue_metafield.format_10032.metafield_id
+    option_value = '34'
+    sort_index = 0
+}
+
+resource combo_value_label id_34_50154 {
+    combo_id = resource.combo_value.format_34_10032.combo_id
+    language_id = resource.language.english.id
+    label = '3/4'
+}
+
+resource combo_value format_1016_10032 {
+    metafield_id = resource.combovalue_metafield.format_10032.metafield_id
+    option_value = '1016'
+    sort_index = 0
+}
+
+resource combo_value_label id_1016_50138 {
+    combo_id = resource.combo_value.format_1016_10032.combo_id
+    language_id = resource.language.english.id
+    label = '10/16'
+}
+
+resource combo_value format_anamorphic_scope_10032 {
+    metafield_id = resource.combovalue_metafield.format_10032.metafield_id
+    option_value = 'Anamorphic_Scope'
+    sort_index = 0
+}
+
+resource combo_value_label anamorphic_scope_10549 {
+    combo_id = resource.combo_value.format_anamorphic_scope_10032.combo_id
+    language_id = resource.language.english.id
+    label = 'Anamorphic_Scope'
+}
+
+resource combo_value format_2037_10032 {
+    metafield_id = resource.combovalue_metafield.format_10032.metafield_id
+    option_value = '2037'
+    sort_index = 0
+}
+
+resource combo_value_label id_2037_50126 {
+    combo_id = resource.combo_value.format_2037_10032.combo_id
+    language_id = resource.language.english.id
+    label = '20/37'
+}
+
+resource combo_value format_149_10032 {
+    metafield_id = resource.combovalue_metafield.format_10032.metafield_id
+    option_value = '149'
+    sort_index = 0
+}
+
+resource combo_value_label id_149_10546 {
+    combo_id = resource.combo_value.format_149_10032.combo_id
+    language_id = resource.language.english.id
+    label = '14/9'
+}
+
+resource combo_value format_32_10032 {
+    metafield_id = resource.combovalue_metafield.format_10032.metafield_id
+    option_value = '32'
+    sort_index = 0
+}
+
+resource combo_value_label id_32_10534 {
+    combo_id = resource.combo_value.format_32_10032.combo_id
+    language_id = resource.language.english.id
+    label = '3/2'
+}
+
+resource combo_value format_ntsc_34_10032 {
+    metafield_id = resource.combovalue_metafield.format_10032.metafield_id
+    option_value = 'NTSC_34'
+    sort_index = 0
+}
+
+resource combo_value_label ntsc_34_50150 {
+    combo_id = resource.combo_value.format_ntsc_34_10032.combo_id
+    language_id = resource.language.english.id
+    label = 'NTSC_3/4'
+}
+
+resource combo_value format_54_10032 {
+    metafield_id = resource.combovalue_metafield.format_10032.metafield_id
+    option_value = '54'
+    sort_index = 3
+}
+
+resource combo_value_label id_54_10269 {
+    combo_id = resource.combo_value.format_54_10032.combo_id
+    language_id = resource.language.english.id
+    label = '5/4'
+}
+
+resource combo_value format_23_10032 {
+    metafield_id = resource.combovalue_metafield.format_10032.metafield_id
+    option_value = '23'
+    sort_index = 0
+}
+
+resource combo_value_label id_23_50146 {
+    combo_id = resource.combo_value.format_23_10032.combo_id
+    language_id = resource.language.english.id
+    label = '2/3'
+}
+
+resource combo_value format_919_10032 {
+    metafield_id = resource.combovalue_metafield.format_10032.metafield_id
+    option_value = '919'
+    sort_index = 0
+}
+
+resource combo_value_label id_919_50122 {
+    combo_id = resource.combo_value.format_919_10032.combo_id
+    language_id = resource.language.english.id
+    label = '9/19'
+}
+
+resource combo_value format_ntsc_43_10032 {
+    metafield_id = resource.combovalue_metafield.format_10032.metafield_id
+    option_value = 'NTSC_43'
+    sort_index = 0
+}
+
+resource combo_value_label ntsc_43_10555 {
+    combo_id = resource.combo_value.format_ntsc_43_10032.combo_id
+    language_id = resource.language.english.id
+    label = 'NTSC_4/3'
+}
+
+resource combo_value format_21111_10032 {
+    metafield_id = resource.combovalue_metafield.format_10032.metafield_id
+    option_value = '2.1111'
+    sort_index = 0
+}
+
+resource combo_value_label id_21111_50162 {
+    combo_id = resource.combo_value.format_21111_10032.combo_id
+    language_id = resource.language.english.id
+    label = '2.1111'
+}
+
+resource combo_value format_1610_10032 {
+    metafield_id = resource.combovalue_metafield.format_10032.metafield_id
+    option_value = '1610'
+    sort_index = 0
+}
+
+resource combo_value_label id_1610_10540 {
+    combo_id = resource.combo_value.format_1610_10032.combo_id
+    language_id = resource.language.english.id
+    label = '16/10'
+}
+
+resource combo_value format_916_10032 {
+    metafield_id = resource.combovalue_metafield.format_10032.metafield_id
+    option_value = '916'
+    sort_index = 0
+}
+
+resource combo_value_label id_916_50130 {
+    combo_id = resource.combo_value.format_916_10032.combo_id
+    language_id = resource.language.english.id
+    label = '9/16'
+}
+
+resource combo_value format_159_10032 {
+    metafield_id = resource.combovalue_metafield.format_10032.metafield_id
+    option_value = '159'
+    sort_index = 0
+}
+
+resource combo_value_label id_159_10537 {
+    combo_id = resource.combo_value.format_159_10032.combo_id
+    language_id = resource.language.english.id
+    label = '15/9'
+}
+
+resource combo_value format_43_10032 {
+    metafield_id = resource.combovalue_metafield.format_10032.metafield_id
+    option_value = '43'
+    sort_index = 1
+}
+
+resource combo_value_label id_43_10267 {
+    combo_id = resource.combo_value.format_43_10032.combo_id
+    language_id = resource.language.english.id
+    label = '4/3'
+}
+
+resource combo_value format_academy_flat_10032 {
+    metafield_id = resource.combovalue_metafield.format_10032.metafield_id
+    option_value = 'Academy_Flat'
+    sort_index = 0
+}
+
+resource combo_value_label academy_flat_10552 {
+    combo_id = resource.combo_value.format_academy_flat_10032.combo_id
+    language_id = resource.language.english.id
+    label = 'Academy_Flat'
+}
+
+resource combo_value format_169_10032 {
+    metafield_id = resource.combovalue_metafield.format_10032.metafield_id
+    option_value = '169'
+    sort_index = 2
+}
+
+resource combo_value_label id_169_10268 {
+    combo_id = resource.combo_value.format_169_10032.combo_id
+    language_id = resource.language.english.id
+    label = '16/9'
+}
+
+resource combo_value format_914_10032 {
+    metafield_id = resource.combovalue_metafield.format_10032.metafield_id
+    option_value = '914'
+    sort_index = 0
+}
+
+resource combo_value_label id_914_50142 {
+    combo_id = resource.combo_value.format_914_10032.combo_id
+    language_id = resource.language.english.id
+    label = '9/14'
+}
