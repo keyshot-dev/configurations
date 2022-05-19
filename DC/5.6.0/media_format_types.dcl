@@ -55,7 +55,7 @@ resource media_format_type wavefront_obj_file_130003 {
     icon_thumbnail = ''
     icon_large = ''
     mime_type = 'application/wavefront-obj'
-    identity_media_format_id = 0
+    identity_media_format_id = resource.media_format.waveform_obj_file_50027.media_format_id
 }
 
 resource media_format_type gif__40006 {
@@ -848,26 +848,6 @@ resource media_format_type visio_macroenabled_drawing_180004 {
     icon_large = ''
     mime_type = 'application/vnd.ms-visio.drawing.macroEnabled'
     identity_media_format_id = resource.media_format.visio_drawing_vsdx_50063.media_format_id
-}
-
-resource media_format_type liverecord_1001 {
-    media_format_type_id = 1001
-    name = 'LiveRecord'
-    asset_type = 'Live'
-    can_be_source = true
-    can_be_target = true
-    can_be_manual = true
-    extensions = [{
-            extension = 'Live'
-        }]
-    format = ''
-    upload_convert_to_archive = false
-    display_name = 'Live'
-    icon_detail = ''
-    icon_thumbnail = ''
-    icon_large = ''
-    mime_type = ''
-    identity_media_format_id = 0
 }
 
 resource media_format_type mpeg_audio_layer_3_20003 {
@@ -2000,24 +1980,6 @@ resource media_format_type windows_media_9_10001 {
     identity_media_format_id = resource.media_format.video_10053.media_format_id
 }
 
-resource media_format_type autocad_dwg_drawing_130001 {
-    media_format_type_id = 130001
-    name = 'AutoCad DWG Drawing'
-    asset_type = 'Archive'
-    can_be_source = true
-    can_be_target = true
-    can_be_manual = true
-    extensions = []
-    format = ''
-    upload_convert_to_archive = false
-    display_name = 'CAD'
-    icon_detail = ''
-    icon_thumbnail = ''
-    icon_large = ''
-    mime_type = 'application/acad'
-    identity_media_format_id = 0
-}
-
 resource media_format_type indesign_100001 {
     media_format_type_id = 100001
     name = 'InDesign'
@@ -2255,7 +2217,7 @@ resource media_format_type autodesk_3d_studio_max_130002 {
     icon_thumbnail = ''
     icon_large = ''
     mime_type = 'application/x-3ds'
-    identity_media_format_id = 0
+    identity_media_format_id = resource.media_format.autodesk_3d_studio_max_file_50026.media_format_id
 }
 
 resource media_format_type industry_foundation_classes_190004 {
@@ -2277,4 +2239,3 @@ resource media_format_type industry_foundation_classes_190004 {
     mime_type = ''
     identity_media_format_id = resource.media_format.industry_foundation_classes_ifc_50069.media_format_id
 }
-
