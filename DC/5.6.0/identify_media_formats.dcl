@@ -567,7 +567,7 @@ resource media_format legacy_powerpoint_template_pot_50050 {
     is_public = true
     format_xml = ''
     multi_page_output = false
-    is_identity_format = false
+    is_identity_format = true
     settings = ''
     encoding = 1002
     encoding_bitrate = 0
@@ -911,7 +911,7 @@ resource media_format excel_template_xltx_50059 {
     is_public = true
     format_xml = ''
     multi_page_output = false
-    is_identity_format = false
+    is_identity_format = true
     settings = ''
     encoding = 1002
     encoding_bitrate = 0
@@ -1126,7 +1126,7 @@ resource media_format excel_workbook_xlsx_50058 {
     is_public = true
     format_xml = ''
     multi_page_output = false
-    is_identity_format = false
+    is_identity_format = true
     settings = ''
     encoding = 1002
     encoding_bitrate = 0
@@ -1470,7 +1470,7 @@ resource media_format legacy_word_template_dot_50056 {
     is_public = true
     format_xml = ''
     multi_page_output = false
-    is_identity_format = false
+    is_identity_format = true
     settings = ''
     encoding = 1002
     encoding_bitrate = 0
@@ -1685,7 +1685,7 @@ resource media_format powerpoint_slideshow_ppsx_50048 {
     is_public = true
     format_xml = ''
     multi_page_output = false
-    is_identity_format = false
+    is_identity_format = true
     settings = ''
     encoding = 1002
     encoding_bitrate = 0
@@ -1814,7 +1814,7 @@ resource media_format adobe_illustrator_50013 {
     is_public = true
     format_xml = ''
     multi_page_output = false
-    is_identity_format = false
+    is_identity_format = true
     settings = ''
     encoding = 0
     encoding_bitrate = 0
@@ -1857,7 +1857,7 @@ resource media_format adobe_photoshop_50012 {
     is_public = true
     format_xml = ''
     multi_page_output = false
-    is_identity_format = false
+    is_identity_format = true
     settings = ''
     encoding = 0
     encoding_bitrate = 0
