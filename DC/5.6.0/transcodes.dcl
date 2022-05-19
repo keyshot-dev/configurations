@@ -1543,3 +1543,18 @@ resource media_transcode word_template__thumb_large_50104 {
     prevref = 0
 }
 
+resource media_transcode extract_exifthumb_from_illustrator_50017 {
+    name = 'Extract ExifThumb from Illustrator'
+    description = ''
+    is_public = true
+    settings = ''
+    encoder_profile_name = ''
+    prefix = ''
+    copy_target_icc_profile = false
+    only_explicit_use = false
+    prog_id = 'DigiExiftoolJobs.JobExifThumbnail'
+    folder_id = resource.transcode_folder.standard_10001.id
+    source_media_format_id = resource.media_format.adobe_illustrator_50013.media_format_id
+    target_media_format_id = resource.media_format.exifthumb_raw_50014.media_format_id
+    prevref = 0
+}
