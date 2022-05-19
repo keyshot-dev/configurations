@@ -1,8 +1,3 @@
-resource transcode_folder digizuite_video_portal_50001 {
-    parent_id = resource.transcode_folder.standard_10001.id
-    name = 'Digizuite™ Video Portal'
-}
-
 resource media_transcode desktop_h264_2048kbit_ffmpeg_50028 {
     name = 'Desktop H264 2048kbit ffmpeg'
     description = ''
@@ -13,9 +8,9 @@ resource media_transcode desktop_h264_2048kbit_ffmpeg_50028 {
     copy_target_icc_profile = false
     only_explicit_use = false
     prog_id = 'DigiFFMpegJobs.JobFFMpegProfile'
-    folder_id = resource.transcode_folder.digizuite_video_portal_50001.id
+    folder_id = data.transcode_folder.standard_10001.id
     embed_metadefinition = ''
-    source_media_format_id = resource.media_format.video_10053.media_format_id
+    source_media_format_id = data.media_format.video_10053.media_format_id
     target_media_format_id = resource.media_format.desktop_h264_2048kbit_ffmpeg_50016.media_format_id
     prevref = 0
 }
@@ -30,9 +25,9 @@ resource media_transcode tablet_h264_2048kbit_ffmpeg_50029 {
     copy_target_icc_profile = false
     only_explicit_use = false
     prog_id = 'DigiFFMpegJobs.JobFFMpegProfile'
-    folder_id = resource.transcode_folder.digizuite_video_portal_50001.id
+    folder_id = data.transcode_folder.standard_10001.id
     embed_metadefinition = ''
-    source_media_format_id = resource.media_format.video_10053.media_format_id
+    source_media_format_id = data.media_format.video_10053.media_format_id
     target_media_format_id = resource.media_format.tablet_h264_2048kbit_ffmpeg_50017.media_format_id
     prevref = 0
 }
@@ -47,9 +42,9 @@ resource media_transcode mobile_h264_1024kbit_ffmpeg_50030 {
     copy_target_icc_profile = false
     only_explicit_use = false
     prog_id = 'DigiFFMpegJobs.JobFFMpegProfile'
-    folder_id = resource.transcode_folder.digizuite_video_portal_50001.id
+    folder_id = data.transcode_folder.standard_10001.id
     embed_metadefinition = ''
-    source_media_format_id = resource.media_format.video_10053.media_format_id
+    source_media_format_id = data.media_format.video_10053.media_format_id
     target_media_format_id = resource.media_format.mobile_h264_1024kbit_ffmpeg_50018.media_format_id
     prevref = 0
 }
@@ -64,9 +59,9 @@ resource media_transcode autocad_drawing_database_dwg__desktop_video_thumb_50157
     copy_target_icc_profile = false
     only_explicit_use = false
     prog_id = 'DigiAsposeJobs.JobCadPreview'
-    folder_id = resource.transcode_folder.standard_10001.id
+    folder_id = data.transcode_folder.standard_10001.id
     embed_metadefinition = ''
-    source_media_format_id = resource.media_format.autocad_drawing_database_dwg_50066.media_format_id
+    source_media_format_id = data.media_format.autocad_drawing_database_dwg_50066.media_format_id
     target_media_format_id = resource.media_format.desktop_video_thumb_50019.media_format_id
     prevref = 0
 }
@@ -81,9 +76,9 @@ resource media_transcode hpgl_plot_plt__desktop_video_thumb_50205 {
     copy_target_icc_profile = false
     only_explicit_use = false
     prog_id = 'DigiAsposeJobs.JobCadPreview'
-    folder_id = resource.transcode_folder.standard_10001.id
+    folder_id = data.transcode_folder.standard_10001.id
     embed_metadefinition = ''
-    source_media_format_id = resource.media_format.hpgl_plot_plt_50072.media_format_id
+    source_media_format_id = data.media_format.hpgl_plot_plt_50072.media_format_id
     target_media_format_id = resource.media_format.desktop_video_thumb_50019.media_format_id
     prevref = 0
 }
@@ -98,9 +93,9 @@ resource media_transcode openoffice_writer_template__desktop_video_thumb_50229 {
     copy_target_icc_profile = false
     only_explicit_use = false
     prog_id = 'DigiAsposeJobs.JobWordsPreview'
-    folder_id = resource.transcode_folder.standard_10001.id
+    folder_id = data.transcode_folder.standard_10001.id
     embed_metadefinition = ''
-    source_media_format_id = resource.media_format.openoffice_writer_document_template_ott_50075.media_format_id
+    source_media_format_id = data.media_format.openoffice_writer_document_template_ott_50075.media_format_id
     target_media_format_id = resource.media_format.desktop_video_thumb_50019.media_format_id
     prevref = 0
 }
@@ -115,9 +110,9 @@ resource media_transcode excel_document__desktop_video_thumb_50117 {
     copy_target_icc_profile = false
     only_explicit_use = false
     prog_id = 'DigiAsposeJobs.JobSheetsPreview'
-    folder_id = resource.transcode_folder.standard_10001.id
+    folder_id = data.transcode_folder.standard_10001.id
     embed_metadefinition = ''
-    source_media_format_id = resource.media_format.excel_workbook_xlsx_50058.media_format_id
+    source_media_format_id = data.media_format.excel_workbook_xlsx_50058.media_format_id
     target_media_format_id = resource.media_format.desktop_video_thumb_50019.media_format_id
     prevref = 0
 }
@@ -132,9 +127,9 @@ resource media_transcode powerpoint__desktop_thumb_50045 {
     copy_target_icc_profile = false
     only_explicit_use = false
     prog_id = 'DigiImageMagicJobs.JobConvertImage'
-    folder_id = resource.transcode_folder.digizuite_media_manager_10003.id
+    folder_id = data.transcode_folder.standard_10001.id
     embed_metadefinition = ''
-    source_media_format_id = resource.media_format.image_preview_10038.media_format_id
+    source_media_format_id = data.media_format.image_preview_10038.media_format_id
     target_media_format_id = resource.media_format.desktop_video_thumb_50019.media_format_id
     prevref = 0
 }
@@ -149,9 +144,9 @@ resource media_transcode design_web_format_dwf__desktop_video_thumb_50213 {
     copy_target_icc_profile = false
     only_explicit_use = false
     prog_id = 'DigiAsposeJobs.JobCadPreview'
-    folder_id = resource.transcode_folder.standard_10001.id
+    folder_id = data.transcode_folder.standard_10001.id
     embed_metadefinition = ''
-    source_media_format_id = resource.media_format.design_web_format_dwf_50073.media_format_id
+    source_media_format_id = data.media_format.design_web_format_dwf_50073.media_format_id
     target_media_format_id = resource.media_format.desktop_video_thumb_50019.media_format_id
     prevref = 0
 }
@@ -166,9 +161,9 @@ resource media_transcode powerpoint_template__desktop_video_thumb_50085 {
     copy_target_icc_profile = false
     only_explicit_use = false
     prog_id = 'DigiAsposeJobs.JobSlidesPreview'
-    folder_id = resource.transcode_folder.standard_10001.id
+    folder_id = data.transcode_folder.standard_10001.id
     embed_metadefinition = ''
-    source_media_format_id = resource.media_format.powerpoint_template_potx_50045.media_format_id
+    source_media_format_id = data.media_format.powerpoint_template_potx_50045.media_format_id
     target_media_format_id = resource.media_format.desktop_video_thumb_50019.media_format_id
     prevref = 0
 }
@@ -183,9 +178,9 @@ resource media_transcode microstation_design_dgn__desktop_video_thumb_50173 {
     copy_target_icc_profile = false
     only_explicit_use = false
     prog_id = 'DigiAsposeJobs.JobCadPreview'
-    folder_id = resource.transcode_folder.standard_10001.id
+    folder_id = data.transcode_folder.standard_10001.id
     embed_metadefinition = ''
-    source_media_format_id = resource.media_format.microstation_design_dgn_50068.media_format_id
+    source_media_format_id = data.media_format.microstation_design_dgn_50068.media_format_id
     target_media_format_id = resource.media_format.desktop_video_thumb_50019.media_format_id
     prevref = 0
 }
@@ -200,11 +195,11 @@ resource media_transcode indesign__desktop_thumb_50039 {
     copy_target_icc_profile = false
     only_explicit_use = false
     prog_id = 'DigiImageMagicJobs.JobConvertImage'
-    folder_id = resource.transcode_folder.digizuite_media_manager_10003.id
+    folder_id = data.transcode_folder.standard_10001.id
     embed_metadefinition = ''
-    source_media_format_id = resource.media_format.exifthumb_raw_50014.media_format_id
+    source_media_format_id = data.media_format.exifthumb_raw_50014.media_format_id
     target_media_format_id = resource.media_format.desktop_video_thumb_50019.media_format_id
-    prevref = resource.media_transcode.extract_exifthumb_from_indesign_50015.media_transcode_id
+    prevref = data.media_transcode.extract_exifthumb_from_indesign_50015.media_transcode_id
 }
 
 resource media_transcode visio_template__desktop_video_thumb_50141 {
@@ -217,9 +212,9 @@ resource media_transcode visio_template__desktop_video_thumb_50141 {
     copy_target_icc_profile = false
     only_explicit_use = false
     prog_id = 'DigiAsposeJobs.JobDiagramPreview'
-    folder_id = resource.transcode_folder.standard_10001.id
+    folder_id = data.transcode_folder.standard_10001.id
     embed_metadefinition = ''
-    source_media_format_id = resource.media_format.visio_template_vstx_50064.media_format_id
+    source_media_format_id = data.media_format.visio_template_vstx_50064.media_format_id
     target_media_format_id = resource.media_format.desktop_video_thumb_50019.media_format_id
     prevref = 0
 }
@@ -234,9 +229,9 @@ resource media_transcode openoffice_writer_document__desktop_video_thumb_50221 {
     copy_target_icc_profile = false
     only_explicit_use = false
     prog_id = 'DigiAsposeJobs.JobWordsPreview'
-    folder_id = resource.transcode_folder.standard_10001.id
+    folder_id = data.transcode_folder.standard_10001.id
     embed_metadefinition = ''
-    source_media_format_id = resource.media_format.openoffice_writer_document_odt_50074.media_format_id
+    source_media_format_id = data.media_format.openoffice_writer_document_odt_50074.media_format_id
     target_media_format_id = resource.media_format.desktop_video_thumb_50019.media_format_id
     prevref = 0
 }
@@ -251,9 +246,9 @@ resource media_transcode drawing_exchange_format_dxf__desktop_video_thumb_50165 
     copy_target_icc_profile = false
     only_explicit_use = false
     prog_id = 'DigiAsposeJobs.JobCadPreview'
-    folder_id = resource.transcode_folder.standard_10001.id
+    folder_id = data.transcode_folder.standard_10001.id
     embed_metadefinition = ''
-    source_media_format_id = resource.media_format.drawing_exchange_format_dxf_50067.media_format_id
+    source_media_format_id = data.media_format.drawing_exchange_format_dxf_50067.media_format_id
     target_media_format_id = resource.media_format.desktop_video_thumb_50019.media_format_id
     prevref = 0
 }
@@ -268,11 +263,11 @@ resource media_transcode photoshop__desktop_thumb_50036 {
     copy_target_icc_profile = false
     only_explicit_use = false
     prog_id = 'DigiImageMagicJobs.JobConvertImage'
-    folder_id = resource.transcode_folder.digizuite_media_manager_10003.id
+    folder_id = data.transcode_folder.standard_10001.id
     embed_metadefinition = ''
-    source_media_format_id = resource.media_format.exifthumb_raw_50014.media_format_id
+    source_media_format_id = data.media_format.exifthumb_raw_50014.media_format_id
     target_media_format_id = resource.media_format.desktop_video_thumb_50019.media_format_id
-    prevref = resource.media_transcode.extract_exifthumb_from_photoshop_50016.media_transcode_id
+    prevref = data.media_transcode.extract_exifthumb_from_photoshop_50016.media_transcode_id
 }
 
 resource media_transcode word_template__desktop_video_thumb_50109 {
@@ -285,9 +280,9 @@ resource media_transcode word_template__desktop_video_thumb_50109 {
     copy_target_icc_profile = false
     only_explicit_use = false
     prog_id = 'DigiAsposeJobs.JobWordsPreview'
-    folder_id = resource.transcode_folder.standard_10001.id
+    folder_id = data.transcode_folder.standard_10001.id
     embed_metadefinition = ''
-    source_media_format_id = resource.media_format.word_template_dotx_50053.media_format_id
+    source_media_format_id = data.media_format.word_template_dotx_50053.media_format_id
     target_media_format_id = resource.media_format.desktop_video_thumb_50019.media_format_id
     prevref = 0
 }
@@ -302,9 +297,9 @@ resource media_transcode image__desktop_thumb_20 {
     copy_target_icc_profile = false
     only_explicit_use = false
     prog_id = 'DigiImageMagicJobs.JobConvertImage'
-    folder_id = resource.transcode_folder.digizuite_media_manager_10003.id
+    folder_id = data.transcode_folder.standard_10001.id
     embed_metadefinition = ''
-    source_media_format_id = resource.media_format.image_50030.media_format_id
+    source_media_format_id = data.media_format.image_50030.media_format_id
     target_media_format_id = resource.media_format.desktop_video_thumb_50019.media_format_id
     prevref = 0
 }
@@ -319,9 +314,9 @@ resource media_transcode powerpoint_slideshow__desktop_video_thumb_50093 {
     copy_target_icc_profile = false
     only_explicit_use = false
     prog_id = 'DigiAsposeJobs.JobSlidesPreview'
-    folder_id = resource.transcode_folder.standard_10001.id
+    folder_id = data.transcode_folder.standard_10001.id
     embed_metadefinition = ''
-    source_media_format_id = resource.media_format.powerpoint_slideshow_ppsx_50048.media_format_id
+    source_media_format_id = data.media_format.powerpoint_slideshow_ppsx_50048.media_format_id
     target_media_format_id = resource.media_format.desktop_video_thumb_50019.media_format_id
     prevref = 0
 }
@@ -336,9 +331,9 @@ resource media_transcode openoffice_calc_template__desktop_video_thumb_50245 {
     copy_target_icc_profile = false
     only_explicit_use = false
     prog_id = 'DigiAsposeJobs.JobSheetsPreview'
-    folder_id = resource.transcode_folder.standard_10001.id
+    folder_id = data.transcode_folder.standard_10001.id
     embed_metadefinition = ''
-    source_media_format_id = resource.media_format.openoffice_calc_document_template_ots_50077.media_format_id
+    source_media_format_id = data.media_format.openoffice_calc_document_template_ots_50077.media_format_id
     target_media_format_id = resource.media_format.desktop_video_thumb_50019.media_format_id
     prevref = 0
 }
@@ -353,9 +348,9 @@ resource media_transcode stereolithography_stl__desktop_video_thumb_50189 {
     copy_target_icc_profile = false
     only_explicit_use = false
     prog_id = 'DigiAsposeJobs.JobCadPreview'
-    folder_id = resource.transcode_folder.standard_10001.id
+    folder_id = data.transcode_folder.standard_10001.id
     embed_metadefinition = ''
-    source_media_format_id = resource.media_format.stereolithography_stl_50070.media_format_id
+    source_media_format_id = data.media_format.stereolithography_stl_50070.media_format_id
     target_media_format_id = resource.media_format.desktop_video_thumb_50019.media_format_id
     prevref = 0
 }
@@ -370,9 +365,9 @@ resource media_transcode visio_stencil__desktop_video_thumb_50149 {
     copy_target_icc_profile = false
     only_explicit_use = false
     prog_id = 'DigiAsposeJobs.JobDiagramPreview'
-    folder_id = resource.transcode_folder.standard_10001.id
+    folder_id = data.transcode_folder.standard_10001.id
     embed_metadefinition = ''
-    source_media_format_id = resource.media_format.visio_stencil_vssx_50065.media_format_id
+    source_media_format_id = data.media_format.visio_stencil_vssx_50065.media_format_id
     target_media_format_id = resource.media_format.desktop_video_thumb_50019.media_format_id
     prevref = 0
 }
@@ -387,9 +382,9 @@ resource media_transcode adobe_pdf__desktop_thumb_50051 {
     copy_target_icc_profile = false
     only_explicit_use = false
     prog_id = 'DigiAsposeJobs.JobPdfPreview_NoPreviewFallback_crop'
-    folder_id = resource.transcode_folder.digizuite_media_manager_10003.id
+    folder_id = data.transcode_folder.standard_10001.id
     embed_metadefinition = ''
-    source_media_format_id = resource.media_format.adobe_pdf_50009.media_format_id
+    source_media_format_id = data.media_format.adobe_pdf_50009.media_format_id
     target_media_format_id = resource.media_format.desktop_video_thumb_50019.media_format_id
     prevref = 0
 }
@@ -404,9 +399,9 @@ resource media_transcode openoffice_impress_template__desktop_video_thumb_50261 
     copy_target_icc_profile = false
     only_explicit_use = false
     prog_id = 'DigiAsposeJobs.JobSlidesPreview'
-    folder_id = resource.transcode_folder.standard_10001.id
+    folder_id = data.transcode_folder.standard_10001.id
     embed_metadefinition = ''
-    source_media_format_id = resource.media_format.openoffice_impress_document_template_otp_50079.media_format_id
+    source_media_format_id = data.media_format.openoffice_impress_document_template_otp_50079.media_format_id
     target_media_format_id = resource.media_format.desktop_video_thumb_50019.media_format_id
     prevref = 0
 }
@@ -421,9 +416,9 @@ resource media_transcode industry_foundation_classes_ifc__desktop_video_thumb_50
     copy_target_icc_profile = false
     only_explicit_use = false
     prog_id = 'DigiAsposeJobs.JobCadPreview'
-    folder_id = resource.transcode_folder.standard_10001.id
+    folder_id = data.transcode_folder.standard_10001.id
     embed_metadefinition = ''
-    source_media_format_id = resource.media_format.industry_foundation_classes_ifc_50069.media_format_id
+    source_media_format_id = data.media_format.industry_foundation_classes_ifc_50069.media_format_id
     target_media_format_id = resource.media_format.desktop_video_thumb_50019.media_format_id
     prevref = 0
 }
@@ -438,9 +433,9 @@ resource media_transcode word_document__desktop_video_thumb_50101 {
     copy_target_icc_profile = false
     only_explicit_use = false
     prog_id = 'DigiAsposeJobs.JobWordsPreview'
-    folder_id = resource.transcode_folder.standard_10001.id
+    folder_id = data.transcode_folder.standard_10001.id
     embed_metadefinition = ''
-    source_media_format_id = resource.media_format.word_document_docx_50052.media_format_id
+    source_media_format_id = data.media_format.word_document_docx_50052.media_format_id
     target_media_format_id = resource.media_format.desktop_video_thumb_50019.media_format_id
     prevref = 0
 }
@@ -455,9 +450,9 @@ resource media_transcode autocad_drawing_template_dwt__desktop_video_thumb_50197
     copy_target_icc_profile = false
     only_explicit_use = false
     prog_id = 'DigiAsposeJobs.JobCadPreview'
-    folder_id = resource.transcode_folder.standard_10001.id
+    folder_id = data.transcode_folder.standard_10001.id
     embed_metadefinition = ''
-    source_media_format_id = resource.media_format.autocad_drawing_template_dwt_50071.media_format_id
+    source_media_format_id = data.media_format.autocad_drawing_template_dwt_50071.media_format_id
     target_media_format_id = resource.media_format.desktop_video_thumb_50019.media_format_id
     prevref = 0
 }
@@ -472,11 +467,11 @@ resource media_transcode illustrator__desktop_thumb_50048 {
     copy_target_icc_profile = false
     only_explicit_use = false
     prog_id = 'DigiImageMagicJobs.JobConvertImage'
-    folder_id = resource.transcode_folder.digizuite_media_manager_10003.id
+    folder_id = data.transcode_folder.standard_10001.id
     embed_metadefinition = ''
-    source_media_format_id = resource.media_format.exifthumb_raw_50014.media_format_id
+    source_media_format_id = data.media_format.exifthumb_raw_50014.media_format_id
     target_media_format_id = resource.media_format.desktop_video_thumb_50019.media_format_id
-    prevref = resource.media_transcode.extract_exifthumb_from_illustrator_50017.media_transcode_id
+    prevref = data.media_transcode.extract_exifthumb_from_illustrator_50017.media_transcode_id
 }
 
 resource media_transcode openoffice_calc_document__desktop_video_thumb_50237 {
@@ -489,9 +484,9 @@ resource media_transcode openoffice_calc_document__desktop_video_thumb_50237 {
     copy_target_icc_profile = false
     only_explicit_use = false
     prog_id = 'DigiAsposeJobs.JobSheetsPreview'
-    folder_id = resource.transcode_folder.standard_10001.id
+    folder_id = data.transcode_folder.standard_10001.id
     embed_metadefinition = ''
-    source_media_format_id = resource.media_format.openoffice_calc_document_ods_50076.media_format_id
+    source_media_format_id = data.media_format.openoffice_calc_document_ods_50076.media_format_id
     target_media_format_id = resource.media_format.desktop_video_thumb_50019.media_format_id
     prevref = 0
 }
@@ -506,9 +501,9 @@ resource media_transcode visio_drawing__desktop_video_thumb_50133 {
     copy_target_icc_profile = false
     only_explicit_use = false
     prog_id = 'DigiAsposeJobs.JobDiagramPreview'
-    folder_id = resource.transcode_folder.standard_10001.id
+    folder_id = data.transcode_folder.standard_10001.id
     embed_metadefinition = ''
-    source_media_format_id = resource.media_format.visio_drawing_vsdx_50063.media_format_id
+    source_media_format_id = data.media_format.visio_drawing_vsdx_50063.media_format_id
     target_media_format_id = resource.media_format.desktop_video_thumb_50019.media_format_id
     prevref = 0
 }
@@ -523,9 +518,9 @@ resource media_transcode excel_template__desktop_video_thumb_50125 {
     copy_target_icc_profile = false
     only_explicit_use = false
     prog_id = 'DigiAsposeJobs.JobSheetsPreview'
-    folder_id = resource.transcode_folder.standard_10001.id
+    folder_id = data.transcode_folder.standard_10001.id
     embed_metadefinition = ''
-    source_media_format_id = resource.media_format.excel_template_xltx_50059.media_format_id
+    source_media_format_id = data.media_format.excel_template_xltx_50059.media_format_id
     target_media_format_id = resource.media_format.desktop_video_thumb_50019.media_format_id
     prevref = 0
 }
@@ -540,9 +535,9 @@ resource media_transcode openoffice_impress_document__desktop_video_thumb_50253 
     copy_target_icc_profile = false
     only_explicit_use = false
     prog_id = 'DigiAsposeJobs.JobSlidesPreview'
-    folder_id = resource.transcode_folder.standard_10001.id
+    folder_id = data.transcode_folder.standard_10001.id
     embed_metadefinition = ''
-    source_media_format_id = resource.media_format.openoffice_impress_document_odp_50078.media_format_id
+    source_media_format_id = data.media_format.openoffice_impress_document_odp_50078.media_format_id
     target_media_format_id = resource.media_format.desktop_video_thumb_50019.media_format_id
     prevref = 0
 }
@@ -557,11 +552,11 @@ resource media_transcode desktop_video_thumb_50031 {
     copy_target_icc_profile = false
     only_explicit_use = false
     prog_id = 'DigiImageMagicJobs.JobConvertImage'
-    folder_id = resource.transcode_folder.digizuite_video_portal_50001.id
+    folder_id = data.transcode_folder.standard_10001.id
     embed_metadefinition = ''
-    source_media_format_id = resource.media_format.video_thumb_dynamic_10026.media_format_id
+    source_media_format_id = data.media_format.video_thumb_dynamic_10026.media_format_id
     target_media_format_id = resource.media_format.desktop_video_thumb_50019.media_format_id
-    prevref = resource.media_transcode.video_thumb_ffmpeg_10053.media_transcode_id
+    prevref = data.media_transcode.video_thumb_ffmpeg_10053.media_transcode_id
 }
 
 resource media_transcode powerpoint_presentation__desktop_video_thumb_50077 {
@@ -574,9 +569,9 @@ resource media_transcode powerpoint_presentation__desktop_video_thumb_50077 {
     copy_target_icc_profile = false
     only_explicit_use = false
     prog_id = 'DigiAsposeJobs.JobSlidesPreview'
-    folder_id = resource.transcode_folder.standard_10001.id
+    folder_id = data.transcode_folder.standard_10001.id
     embed_metadefinition = ''
-    source_media_format_id = resource.media_format.powerpoint_10077.media_format_id
+    source_media_format_id = data.media_format.powerpoint_10077.media_format_id
     target_media_format_id = resource.media_format.desktop_video_thumb_50019.media_format_id
     prevref = 0
 }
@@ -591,9 +586,9 @@ resource media_transcode openoffice_calc_template__tablet_video_thumb_50246 {
     copy_target_icc_profile = false
     only_explicit_use = false
     prog_id = 'DigiAsposeJobs.JobSheetsPreview'
-    folder_id = resource.transcode_folder.standard_10001.id
+    folder_id = data.transcode_folder.standard_10001.id
     embed_metadefinition = ''
-    source_media_format_id = resource.media_format.openoffice_calc_document_template_ots_50077.media_format_id
+    source_media_format_id = data.media_format.openoffice_calc_document_template_ots_50077.media_format_id
     target_media_format_id = resource.media_format.tablet_video_thumb_50020.media_format_id
     prevref = 0
 }
@@ -608,9 +603,9 @@ resource media_transcode powerpoint_template__tablet_video_thumb_50086 {
     copy_target_icc_profile = false
     only_explicit_use = false
     prog_id = 'DigiAsposeJobs.JobSlidesPreview'
-    folder_id = resource.transcode_folder.standard_10001.id
+    folder_id = data.transcode_folder.standard_10001.id
     embed_metadefinition = ''
-    source_media_format_id = resource.media_format.powerpoint_template_potx_50045.media_format_id
+    source_media_format_id = data.media_format.powerpoint_template_potx_50045.media_format_id
     target_media_format_id = resource.media_format.tablet_video_thumb_50020.media_format_id
     prevref = 0
 }
@@ -625,11 +620,11 @@ resource media_transcode indesign__tablet_thumb_50040 {
     copy_target_icc_profile = false
     only_explicit_use = false
     prog_id = 'DigiImageMagicJobs.JobConvertImage'
-    folder_id = resource.transcode_folder.digizuite_media_manager_10003.id
+    folder_id = data.transcode_folder.standard_10001.id
     embed_metadefinition = ''
-    source_media_format_id = resource.media_format.exifthumb_raw_50014.media_format_id
+    source_media_format_id = data.media_format.exifthumb_raw_50014.media_format_id
     target_media_format_id = resource.media_format.tablet_video_thumb_50020.media_format_id
-    prevref = resource.media_transcode.extract_exifthumb_from_indesign_50015.media_transcode_id
+    prevref = data.media_transcode.extract_exifthumb_from_indesign_50015.media_transcode_id
 }
 
 resource media_transcode visio_stencil__tablet_video_thumb_50150 {
@@ -642,9 +637,9 @@ resource media_transcode visio_stencil__tablet_video_thumb_50150 {
     copy_target_icc_profile = false
     only_explicit_use = false
     prog_id = 'DigiAsposeJobs.JobDiagramPreview'
-    folder_id = resource.transcode_folder.standard_10001.id
+    folder_id = data.transcode_folder.standard_10001.id
     embed_metadefinition = ''
-    source_media_format_id = resource.media_format.visio_stencil_vssx_50065.media_format_id
+    source_media_format_id = data.media_format.visio_stencil_vssx_50065.media_format_id
     target_media_format_id = resource.media_format.tablet_video_thumb_50020.media_format_id
     prevref = 0
 }
@@ -659,9 +654,9 @@ resource media_transcode design_web_format_dwf__tablet_video_thumb_50214 {
     copy_target_icc_profile = false
     only_explicit_use = false
     prog_id = 'DigiAsposeJobs.JobCadPreview'
-    folder_id = resource.transcode_folder.standard_10001.id
+    folder_id = data.transcode_folder.standard_10001.id
     embed_metadefinition = ''
-    source_media_format_id = resource.media_format.design_web_format_dwf_50073.media_format_id
+    source_media_format_id = data.media_format.design_web_format_dwf_50073.media_format_id
     target_media_format_id = resource.media_format.tablet_video_thumb_50020.media_format_id
     prevref = 0
 }
@@ -676,9 +671,9 @@ resource media_transcode stereolithography_stl__tablet_video_thumb_50190 {
     copy_target_icc_profile = false
     only_explicit_use = false
     prog_id = 'DigiAsposeJobs.JobCadPreview'
-    folder_id = resource.transcode_folder.standard_10001.id
+    folder_id = data.transcode_folder.standard_10001.id
     embed_metadefinition = ''
-    source_media_format_id = resource.media_format.stereolithography_stl_50070.media_format_id
+    source_media_format_id = data.media_format.stereolithography_stl_50070.media_format_id
     target_media_format_id = resource.media_format.tablet_video_thumb_50020.media_format_id
     prevref = 0
 }
@@ -693,9 +688,9 @@ resource media_transcode adobe_pdf__tablet_thumb_50052 {
     copy_target_icc_profile = false
     only_explicit_use = false
     prog_id = 'DigiAsposeJobs.JobPdfPreview_NoPreviewFallback_crop'
-    folder_id = resource.transcode_folder.digizuite_media_manager_10003.id
+    folder_id = data.transcode_folder.standard_10001.id
     embed_metadefinition = ''
-    source_media_format_id = resource.media_format.adobe_pdf_50009.media_format_id
+    source_media_format_id = data.media_format.adobe_pdf_50009.media_format_id
     target_media_format_id = resource.media_format.tablet_video_thumb_50020.media_format_id
     prevref = 0
 }
@@ -710,9 +705,9 @@ resource media_transcode openoffice_writer_document__tablet_video_thumb_50222 {
     copy_target_icc_profile = false
     only_explicit_use = false
     prog_id = 'DigiAsposeJobs.JobWordsPreview'
-    folder_id = resource.transcode_folder.standard_10001.id
+    folder_id = data.transcode_folder.standard_10001.id
     embed_metadefinition = ''
-    source_media_format_id = resource.media_format.openoffice_writer_document_odt_50074.media_format_id
+    source_media_format_id = data.media_format.openoffice_writer_document_odt_50074.media_format_id
     target_media_format_id = resource.media_format.tablet_video_thumb_50020.media_format_id
     prevref = 0
 }
@@ -727,9 +722,9 @@ resource media_transcode word_template__tablet_video_thumb_50110 {
     copy_target_icc_profile = false
     only_explicit_use = false
     prog_id = 'DigiAsposeJobs.JobWordsPreview'
-    folder_id = resource.transcode_folder.standard_10001.id
+    folder_id = data.transcode_folder.standard_10001.id
     embed_metadefinition = ''
-    source_media_format_id = resource.media_format.word_template_dotx_50053.media_format_id
+    source_media_format_id = data.media_format.word_template_dotx_50053.media_format_id
     target_media_format_id = resource.media_format.tablet_video_thumb_50020.media_format_id
     prevref = 0
 }
@@ -744,9 +739,9 @@ resource media_transcode openoffice_calc_document__tablet_video_thumb_50238 {
     copy_target_icc_profile = false
     only_explicit_use = false
     prog_id = 'DigiAsposeJobs.JobSheetsPreview'
-    folder_id = resource.transcode_folder.standard_10001.id
+    folder_id = data.transcode_folder.standard_10001.id
     embed_metadefinition = ''
-    source_media_format_id = resource.media_format.openoffice_calc_document_ods_50076.media_format_id
+    source_media_format_id = data.media_format.openoffice_calc_document_ods_50076.media_format_id
     target_media_format_id = resource.media_format.tablet_video_thumb_50020.media_format_id
     prevref = 0
 }
@@ -761,9 +756,9 @@ resource media_transcode powerpoint_slideshow__tablet_video_thumb_50094 {
     copy_target_icc_profile = false
     only_explicit_use = false
     prog_id = 'DigiAsposeJobs.JobSlidesPreview'
-    folder_id = resource.transcode_folder.standard_10001.id
+    folder_id = data.transcode_folder.standard_10001.id
     embed_metadefinition = ''
-    source_media_format_id = resource.media_format.powerpoint_slideshow_ppsx_50048.media_format_id
+    source_media_format_id = data.media_format.powerpoint_slideshow_ppsx_50048.media_format_id
     target_media_format_id = resource.media_format.tablet_video_thumb_50020.media_format_id
     prevref = 0
 }
@@ -778,9 +773,9 @@ resource media_transcode image__tablet_thumb_21 {
     copy_target_icc_profile = false
     only_explicit_use = false
     prog_id = 'DigiImageMagicJobs.JobConvertImage'
-    folder_id = resource.transcode_folder.digizuite_media_manager_10003.id
+    folder_id = data.transcode_folder.standard_10001.id
     embed_metadefinition = ''
-    source_media_format_id = resource.media_format.image_50030.media_format_id
+    source_media_format_id = data.media_format.image_50030.media_format_id
     target_media_format_id = resource.media_format.tablet_video_thumb_50020.media_format_id
     prevref = 0
 }
@@ -795,9 +790,9 @@ resource media_transcode autocad_drawing_template_dwt__tablet_video_thumb_50198 
     copy_target_icc_profile = false
     only_explicit_use = false
     prog_id = 'DigiAsposeJobs.JobCadPreview'
-    folder_id = resource.transcode_folder.standard_10001.id
+    folder_id = data.transcode_folder.standard_10001.id
     embed_metadefinition = ''
-    source_media_format_id = resource.media_format.autocad_drawing_template_dwt_50071.media_format_id
+    source_media_format_id = data.media_format.autocad_drawing_template_dwt_50071.media_format_id
     target_media_format_id = resource.media_format.tablet_video_thumb_50020.media_format_id
     prevref = 0
 }
@@ -812,9 +807,9 @@ resource media_transcode excel_template__tablet_video_thumb_50126 {
     copy_target_icc_profile = false
     only_explicit_use = false
     prog_id = 'DigiAsposeJobs.JobSheetsPreview'
-    folder_id = resource.transcode_folder.standard_10001.id
+    folder_id = data.transcode_folder.standard_10001.id
     embed_metadefinition = ''
-    source_media_format_id = resource.media_format.excel_template_xltx_50059.media_format_id
+    source_media_format_id = data.media_format.excel_template_xltx_50059.media_format_id
     target_media_format_id = resource.media_format.tablet_video_thumb_50020.media_format_id
     prevref = 0
 }
@@ -829,11 +824,11 @@ resource media_transcode tablet_video_thumb_50032 {
     copy_target_icc_profile = false
     only_explicit_use = false
     prog_id = 'DigiImageMagicJobs.JobConvertImage'
-    folder_id = resource.transcode_folder.digizuite_video_portal_50001.id
+    folder_id = data.transcode_folder.standard_10001.id
     embed_metadefinition = ''
-    source_media_format_id = resource.media_format.video_thumb_dynamic_10026.media_format_id
+    source_media_format_id = data.media_format.video_thumb_dynamic_10026.media_format_id
     target_media_format_id = resource.media_format.tablet_video_thumb_50020.media_format_id
-    prevref = resource.media_transcode.video_thumb_ffmpeg_10053.media_transcode_id
+    prevref = data.media_transcode.video_thumb_ffmpeg_10053.media_transcode_id
 }
 
 resource media_transcode openoffice_impress_template__tablet_video_thumb_50262 {
@@ -846,9 +841,9 @@ resource media_transcode openoffice_impress_template__tablet_video_thumb_50262 {
     copy_target_icc_profile = false
     only_explicit_use = false
     prog_id = 'DigiAsposeJobs.JobSlidesPreview'
-    folder_id = resource.transcode_folder.standard_10001.id
+    folder_id = data.transcode_folder.standard_10001.id
     embed_metadefinition = ''
-    source_media_format_id = resource.media_format.openoffice_impress_document_template_otp_50079.media_format_id
+    source_media_format_id = data.media_format.openoffice_impress_document_template_otp_50079.media_format_id
     target_media_format_id = resource.media_format.tablet_video_thumb_50020.media_format_id
     prevref = 0
 }
@@ -863,9 +858,9 @@ resource media_transcode word_document__tablet_video_thumb_50102 {
     copy_target_icc_profile = false
     only_explicit_use = false
     prog_id = 'DigiAsposeJobs.JobWordsPreview'
-    folder_id = resource.transcode_folder.standard_10001.id
+    folder_id = data.transcode_folder.standard_10001.id
     embed_metadefinition = ''
-    source_media_format_id = resource.media_format.word_document_docx_50052.media_format_id
+    source_media_format_id = data.media_format.word_document_docx_50052.media_format_id
     target_media_format_id = resource.media_format.tablet_video_thumb_50020.media_format_id
     prevref = 0
 }
@@ -880,9 +875,9 @@ resource media_transcode openoffice_writer_template__tablet_video_thumb_50230 {
     copy_target_icc_profile = false
     only_explicit_use = false
     prog_id = 'DigiAsposeJobs.JobWordsPreview'
-    folder_id = resource.transcode_folder.standard_10001.id
+    folder_id = data.transcode_folder.standard_10001.id
     embed_metadefinition = ''
-    source_media_format_id = resource.media_format.openoffice_writer_document_template_ott_50075.media_format_id
+    source_media_format_id = data.media_format.openoffice_writer_document_template_ott_50075.media_format_id
     target_media_format_id = resource.media_format.tablet_video_thumb_50020.media_format_id
     prevref = 0
 }
@@ -897,11 +892,11 @@ resource media_transcode photoshop__tablet_thumb_50037 {
     copy_target_icc_profile = false
     only_explicit_use = false
     prog_id = 'DigiImageMagicJobs.JobConvertImage'
-    folder_id = resource.transcode_folder.digizuite_media_manager_10003.id
+    folder_id = data.transcode_folder.standard_10001.id
     embed_metadefinition = ''
-    source_media_format_id = resource.media_format.exifthumb_raw_50014.media_format_id
+    source_media_format_id = data.media_format.exifthumb_raw_50014.media_format_id
     target_media_format_id = resource.media_format.tablet_video_thumb_50020.media_format_id
-    prevref = resource.media_transcode.extract_exifthumb_from_photoshop_50016.media_transcode_id
+    prevref = data.media_transcode.extract_exifthumb_from_photoshop_50016.media_transcode_id
 }
 
 resource media_transcode industry_foundation_classes_ifc__tablet_video_thumb_50182 {
@@ -914,9 +909,9 @@ resource media_transcode industry_foundation_classes_ifc__tablet_video_thumb_501
     copy_target_icc_profile = false
     only_explicit_use = false
     prog_id = 'DigiAsposeJobs.JobCadPreview'
-    folder_id = resource.transcode_folder.standard_10001.id
+    folder_id = data.transcode_folder.standard_10001.id
     embed_metadefinition = ''
-    source_media_format_id = resource.media_format.industry_foundation_classes_ifc_50069.media_format_id
+    source_media_format_id = data.media_format.industry_foundation_classes_ifc_50069.media_format_id
     target_media_format_id = resource.media_format.tablet_video_thumb_50020.media_format_id
     prevref = 0
 }
@@ -931,9 +926,9 @@ resource media_transcode powerpoint_presentation__tablet_video_thumb_50078 {
     copy_target_icc_profile = false
     only_explicit_use = false
     prog_id = 'DigiAsposeJobs.JobSlidesPreview'
-    folder_id = resource.transcode_folder.standard_10001.id
+    folder_id = data.transcode_folder.standard_10001.id
     embed_metadefinition = ''
-    source_media_format_id = resource.media_format.powerpoint_10077.media_format_id
+    source_media_format_id = data.media_format.powerpoint_10077.media_format_id
     target_media_format_id = resource.media_format.tablet_video_thumb_50020.media_format_id
     prevref = 0
 }
@@ -948,11 +943,11 @@ resource media_transcode illustrator__tablet_thumb_50049 {
     copy_target_icc_profile = false
     only_explicit_use = false
     prog_id = 'DigiImageMagicJobs.JobConvertImage'
-    folder_id = resource.transcode_folder.digizuite_media_manager_10003.id
+    folder_id = data.transcode_folder.standard_10001.id
     embed_metadefinition = ''
-    source_media_format_id = resource.media_format.exifthumb_raw_50014.media_format_id
+    source_media_format_id = data.media_format.exifthumb_raw_50014.media_format_id
     target_media_format_id = resource.media_format.tablet_video_thumb_50020.media_format_id
-    prevref = resource.media_transcode.extract_exifthumb_from_illustrator_50017.media_transcode_id
+    prevref = data.media_transcode.extract_exifthumb_from_illustrator_50017.media_transcode_id
 }
 
 resource media_transcode autocad_drawing_database_dwg__tablet_video_thumb_50158 {
@@ -965,9 +960,9 @@ resource media_transcode autocad_drawing_database_dwg__tablet_video_thumb_50158 
     copy_target_icc_profile = false
     only_explicit_use = false
     prog_id = 'DigiAsposeJobs.JobCadPreview'
-    folder_id = resource.transcode_folder.standard_10001.id
+    folder_id = data.transcode_folder.standard_10001.id
     embed_metadefinition = ''
-    source_media_format_id = resource.media_format.autocad_drawing_database_dwg_50066.media_format_id
+    source_media_format_id = data.media_format.autocad_drawing_database_dwg_50066.media_format_id
     target_media_format_id = resource.media_format.tablet_video_thumb_50020.media_format_id
     prevref = 0
 }
@@ -982,9 +977,9 @@ resource media_transcode hpgl_plot_plt__tablet_video_thumb_50206 {
     copy_target_icc_profile = false
     only_explicit_use = false
     prog_id = 'DigiAsposeJobs.JobCadPreview'
-    folder_id = resource.transcode_folder.standard_10001.id
+    folder_id = data.transcode_folder.standard_10001.id
     embed_metadefinition = ''
-    source_media_format_id = resource.media_format.hpgl_plot_plt_50072.media_format_id
+    source_media_format_id = data.media_format.hpgl_plot_plt_50072.media_format_id
     target_media_format_id = resource.media_format.tablet_video_thumb_50020.media_format_id
     prevref = 0
 }
@@ -999,9 +994,9 @@ resource media_transcode visio_drawing__tablet_video_thumb_50134 {
     copy_target_icc_profile = false
     only_explicit_use = false
     prog_id = 'DigiAsposeJobs.JobDiagramPreview'
-    folder_id = resource.transcode_folder.standard_10001.id
+    folder_id = data.transcode_folder.standard_10001.id
     embed_metadefinition = ''
-    source_media_format_id = resource.media_format.visio_drawing_vsdx_50063.media_format_id
+    source_media_format_id = data.media_format.visio_drawing_vsdx_50063.media_format_id
     target_media_format_id = resource.media_format.tablet_video_thumb_50020.media_format_id
     prevref = 0
 }
@@ -1016,9 +1011,9 @@ resource media_transcode excel_document__tablet_video_thumb_50118 {
     copy_target_icc_profile = false
     only_explicit_use = false
     prog_id = 'DigiAsposeJobs.JobSheetsPreview'
-    folder_id = resource.transcode_folder.standard_10001.id
+    folder_id = data.transcode_folder.standard_10001.id
     embed_metadefinition = ''
-    source_media_format_id = resource.media_format.excel_workbook_xlsx_50058.media_format_id
+    source_media_format_id = data.media_format.excel_workbook_xlsx_50058.media_format_id
     target_media_format_id = resource.media_format.tablet_video_thumb_50020.media_format_id
     prevref = 0
 }
@@ -1033,9 +1028,9 @@ resource media_transcode openoffice_impress_document__tablet_video_thumb_50254 {
     copy_target_icc_profile = false
     only_explicit_use = false
     prog_id = 'DigiAsposeJobs.JobSlidesPreview'
-    folder_id = resource.transcode_folder.standard_10001.id
+    folder_id = data.transcode_folder.standard_10001.id
     embed_metadefinition = ''
-    source_media_format_id = resource.media_format.openoffice_impress_document_odp_50078.media_format_id
+    source_media_format_id = data.media_format.openoffice_impress_document_odp_50078.media_format_id
     target_media_format_id = resource.media_format.tablet_video_thumb_50020.media_format_id
     prevref = 0
 }
@@ -1050,9 +1045,9 @@ resource media_transcode visio_template__tablet_video_thumb_50142 {
     copy_target_icc_profile = false
     only_explicit_use = false
     prog_id = 'DigiAsposeJobs.JobDiagramPreview'
-    folder_id = resource.transcode_folder.standard_10001.id
+    folder_id = data.transcode_folder.standard_10001.id
     embed_metadefinition = ''
-    source_media_format_id = resource.media_format.visio_template_vstx_50064.media_format_id
+    source_media_format_id = data.media_format.visio_template_vstx_50064.media_format_id
     target_media_format_id = resource.media_format.tablet_video_thumb_50020.media_format_id
     prevref = 0
 }
@@ -1067,9 +1062,9 @@ resource media_transcode microstation_design_dgn__tablet_video_thumb_50174 {
     copy_target_icc_profile = false
     only_explicit_use = false
     prog_id = 'DigiAsposeJobs.JobCadPreview'
-    folder_id = resource.transcode_folder.standard_10001.id
+    folder_id = data.transcode_folder.standard_10001.id
     embed_metadefinition = ''
-    source_media_format_id = resource.media_format.microstation_design_dgn_50068.media_format_id
+    source_media_format_id = data.media_format.microstation_design_dgn_50068.media_format_id
     target_media_format_id = resource.media_format.tablet_video_thumb_50020.media_format_id
     prevref = 0
 }
@@ -1084,9 +1079,9 @@ resource media_transcode powerpoint__tablet_thumb_50046 {
     copy_target_icc_profile = false
     only_explicit_use = false
     prog_id = 'DigiImageMagicJobs.JobConvertImage'
-    folder_id = resource.transcode_folder.digizuite_media_manager_10003.id
+    folder_id = data.transcode_folder.standard_10001.id
     embed_metadefinition = ''
-    source_media_format_id = resource.media_format.image_preview_10038.media_format_id
+    source_media_format_id = data.media_format.image_preview_10038.media_format_id
     target_media_format_id = resource.media_format.tablet_video_thumb_50020.media_format_id
     prevref = 0
 }
@@ -1101,9 +1096,9 @@ resource media_transcode drawing_exchange_format_dxf__tablet_video_thumb_50166 {
     copy_target_icc_profile = false
     only_explicit_use = false
     prog_id = 'DigiAsposeJobs.JobCadPreview'
-    folder_id = resource.transcode_folder.standard_10001.id
+    folder_id = data.transcode_folder.standard_10001.id
     embed_metadefinition = ''
-    source_media_format_id = resource.media_format.drawing_exchange_format_dxf_50067.media_format_id
+    source_media_format_id = data.media_format.drawing_exchange_format_dxf_50067.media_format_id
     target_media_format_id = resource.media_format.tablet_video_thumb_50020.media_format_id
     prevref = 0
 }
@@ -1118,9 +1113,9 @@ resource media_transcode openoffice_writer_template__mobile_video_thumb_50231 {
     copy_target_icc_profile = false
     only_explicit_use = false
     prog_id = 'DigiAsposeJobs.JobWordsPreview'
-    folder_id = resource.transcode_folder.standard_10001.id
+    folder_id = data.transcode_folder.standard_10001.id
     embed_metadefinition = ''
-    source_media_format_id = resource.media_format.openoffice_writer_document_template_ott_50075.media_format_id
+    source_media_format_id = data.media_format.openoffice_writer_document_template_ott_50075.media_format_id
     target_media_format_id = resource.media_format.mobile_video_thumb_50021.media_format_id
     prevref = 0
 }
@@ -1135,9 +1130,9 @@ resource media_transcode excel_document__mobile_video_thumb_50119 {
     copy_target_icc_profile = false
     only_explicit_use = false
     prog_id = 'DigiAsposeJobs.JobSheetsPreview'
-    folder_id = resource.transcode_folder.standard_10001.id
+    folder_id = data.transcode_folder.standard_10001.id
     embed_metadefinition = ''
-    source_media_format_id = resource.media_format.excel_workbook_xlsx_50058.media_format_id
+    source_media_format_id = data.media_format.excel_workbook_xlsx_50058.media_format_id
     target_media_format_id = resource.media_format.mobile_video_thumb_50021.media_format_id
     prevref = 0
 }
@@ -1152,9 +1147,9 @@ resource media_transcode design_web_format_dwf__mobile_video_thumb_50215 {
     copy_target_icc_profile = false
     only_explicit_use = false
     prog_id = 'DigiAsposeJobs.JobCadPreview'
-    folder_id = resource.transcode_folder.standard_10001.id
+    folder_id = data.transcode_folder.standard_10001.id
     embed_metadefinition = ''
-    source_media_format_id = resource.media_format.design_web_format_dwf_50073.media_format_id
+    source_media_format_id = data.media_format.design_web_format_dwf_50073.media_format_id
     target_media_format_id = resource.media_format.mobile_video_thumb_50021.media_format_id
     prevref = 0
 }
@@ -1169,9 +1164,9 @@ resource media_transcode openoffice_calc_template__mobile_video_thumb_50247 {
     copy_target_icc_profile = false
     only_explicit_use = false
     prog_id = 'DigiAsposeJobs.JobSheetsPreview'
-    folder_id = resource.transcode_folder.standard_10001.id
+    folder_id = data.transcode_folder.standard_10001.id
     embed_metadefinition = ''
-    source_media_format_id = resource.media_format.openoffice_calc_document_template_ots_50077.media_format_id
+    source_media_format_id = data.media_format.openoffice_calc_document_template_ots_50077.media_format_id
     target_media_format_id = resource.media_format.mobile_video_thumb_50021.media_format_id
     prevref = 0
 }
@@ -1186,9 +1181,9 @@ resource media_transcode powerpoint_template__mobile_video_thumb_50087 {
     copy_target_icc_profile = false
     only_explicit_use = false
     prog_id = 'DigiAsposeJobs.JobSlidesPreview'
-    folder_id = resource.transcode_folder.standard_10001.id
+    folder_id = data.transcode_folder.standard_10001.id
     embed_metadefinition = ''
-    source_media_format_id = resource.media_format.powerpoint_template_potx_50045.media_format_id
+    source_media_format_id = data.media_format.powerpoint_template_potx_50045.media_format_id
     target_media_format_id = resource.media_format.mobile_video_thumb_50021.media_format_id
     prevref = 0
 }
@@ -1203,9 +1198,9 @@ resource media_transcode microstation_design_dgn__mobile_video_thumb_50175 {
     copy_target_icc_profile = false
     only_explicit_use = false
     prog_id = 'DigiAsposeJobs.JobCadPreview'
-    folder_id = resource.transcode_folder.standard_10001.id
+    folder_id = data.transcode_folder.standard_10001.id
     embed_metadefinition = ''
-    source_media_format_id = resource.media_format.microstation_design_dgn_50068.media_format_id
+    source_media_format_id = data.media_format.microstation_design_dgn_50068.media_format_id
     target_media_format_id = resource.media_format.mobile_video_thumb_50021.media_format_id
     prevref = 0
 }
@@ -1220,9 +1215,9 @@ resource media_transcode powerpoint__mobile_thumb_50047 {
     copy_target_icc_profile = false
     only_explicit_use = false
     prog_id = 'DigiImageMagicJobs.JobConvertImage'
-    folder_id = resource.transcode_folder.digizuite_media_manager_10003.id
+    folder_id = data.transcode_folder.standard_10001.id
     embed_metadefinition = ''
-    source_media_format_id = resource.media_format.image_preview_10038.media_format_id
+    source_media_format_id = data.media_format.image_preview_10038.media_format_id
     target_media_format_id = resource.media_format.mobile_video_thumb_50021.media_format_id
     prevref = 0
 }
@@ -1237,9 +1232,9 @@ resource media_transcode openoffice_writer_document__mobile_video_thumb_50223 {
     copy_target_icc_profile = false
     only_explicit_use = false
     prog_id = 'DigiAsposeJobs.JobWordsPreview'
-    folder_id = resource.transcode_folder.standard_10001.id
+    folder_id = data.transcode_folder.standard_10001.id
     embed_metadefinition = ''
-    source_media_format_id = resource.media_format.openoffice_writer_document_odt_50074.media_format_id
+    source_media_format_id = data.media_format.openoffice_writer_document_odt_50074.media_format_id
     target_media_format_id = resource.media_format.mobile_video_thumb_50021.media_format_id
     prevref = 0
 }
@@ -1254,9 +1249,9 @@ resource media_transcode drawing_exchange_format_dxf__mobile_video_thumb_50167 {
     copy_target_icc_profile = false
     only_explicit_use = false
     prog_id = 'DigiAsposeJobs.JobCadPreview'
-    folder_id = resource.transcode_folder.standard_10001.id
+    folder_id = data.transcode_folder.standard_10001.id
     embed_metadefinition = ''
-    source_media_format_id = resource.media_format.drawing_exchange_format_dxf_50067.media_format_id
+    source_media_format_id = data.media_format.drawing_exchange_format_dxf_50067.media_format_id
     target_media_format_id = resource.media_format.mobile_video_thumb_50021.media_format_id
     prevref = 0
 }
@@ -1271,9 +1266,9 @@ resource media_transcode autocad_drawing_template_dwt__mobile_video_thumb_50199 
     copy_target_icc_profile = false
     only_explicit_use = false
     prog_id = 'DigiAsposeJobs.JobCadPreview'
-    folder_id = resource.transcode_folder.standard_10001.id
+    folder_id = data.transcode_folder.standard_10001.id
     embed_metadefinition = ''
-    source_media_format_id = resource.media_format.autocad_drawing_template_dwt_50071.media_format_id
+    source_media_format_id = data.media_format.autocad_drawing_template_dwt_50071.media_format_id
     target_media_format_id = resource.media_format.mobile_video_thumb_50021.media_format_id
     prevref = 0
 }
@@ -1288,9 +1283,9 @@ resource media_transcode word_template__mobile_video_thumb_50111 {
     copy_target_icc_profile = false
     only_explicit_use = false
     prog_id = 'DigiAsposeJobs.JobWordsPreview'
-    folder_id = resource.transcode_folder.standard_10001.id
+    folder_id = data.transcode_folder.standard_10001.id
     embed_metadefinition = ''
-    source_media_format_id = resource.media_format.word_template_dotx_50053.media_format_id
+    source_media_format_id = data.media_format.word_template_dotx_50053.media_format_id
     target_media_format_id = resource.media_format.mobile_video_thumb_50021.media_format_id
     prevref = 0
 }
@@ -1305,9 +1300,9 @@ resource media_transcode powerpoint_slideshow__mobile_video_thumb_50095 {
     copy_target_icc_profile = false
     only_explicit_use = false
     prog_id = 'DigiAsposeJobs.JobSlidesPreview'
-    folder_id = resource.transcode_folder.standard_10001.id
+    folder_id = data.transcode_folder.standard_10001.id
     embed_metadefinition = ''
-    source_media_format_id = resource.media_format.powerpoint_slideshow_ppsx_50048.media_format_id
+    source_media_format_id = data.media_format.powerpoint_slideshow_ppsx_50048.media_format_id
     target_media_format_id = resource.media_format.mobile_video_thumb_50021.media_format_id
     prevref = 0
 }
@@ -1322,9 +1317,9 @@ resource media_transcode adobe_pdf__mobile_thumb_50053 {
     copy_target_icc_profile = false
     only_explicit_use = false
     prog_id = 'DigiAsposeJobs.JobPdfPreview_NoPreviewFallback_crop'
-    folder_id = resource.transcode_folder.digizuite_media_manager_10003.id
+    folder_id = data.transcode_folder.standard_10001.id
     embed_metadefinition = ''
-    source_media_format_id = resource.media_format.adobe_pdf_50009.media_format_id
+    source_media_format_id = data.media_format.adobe_pdf_50009.media_format_id
     target_media_format_id = resource.media_format.mobile_video_thumb_50021.media_format_id
     prevref = 0
 }
@@ -1339,11 +1334,11 @@ resource media_transcode photoshop__mobile_thumb_50038 {
     copy_target_icc_profile = false
     only_explicit_use = false
     prog_id = 'DigiImageMagicJobs.JobConvertImage'
-    folder_id = resource.transcode_folder.digizuite_media_manager_10003.id
+    folder_id = data.transcode_folder.standard_10001.id
     embed_metadefinition = ''
-    source_media_format_id = resource.media_format.exifthumb_raw_50014.media_format_id
+    source_media_format_id = data.media_format.exifthumb_raw_50014.media_format_id
     target_media_format_id = resource.media_format.mobile_video_thumb_50021.media_format_id
-    prevref = resource.media_transcode.extract_exifthumb_from_photoshop_50016.media_transcode_id
+    prevref = data.media_transcode.extract_exifthumb_from_photoshop_50016.media_transcode_id
 }
 
 resource media_transcode stereolithography_stl__mobile_video_thumb_50191 {
@@ -1356,9 +1351,9 @@ resource media_transcode stereolithography_stl__mobile_video_thumb_50191 {
     copy_target_icc_profile = false
     only_explicit_use = false
     prog_id = 'DigiAsposeJobs.JobCadPreview'
-    folder_id = resource.transcode_folder.standard_10001.id
+    folder_id = data.transcode_folder.standard_10001.id
     embed_metadefinition = ''
-    source_media_format_id = resource.media_format.stereolithography_stl_50070.media_format_id
+    source_media_format_id = data.media_format.stereolithography_stl_50070.media_format_id
     target_media_format_id = resource.media_format.mobile_video_thumb_50021.media_format_id
     prevref = 0
 }
@@ -1373,9 +1368,9 @@ resource media_transcode image__mobile_thumb_22 {
     copy_target_icc_profile = false
     only_explicit_use = false
     prog_id = 'DigiImageMagicJobs.JobConvertImage'
-    folder_id = resource.transcode_folder.digizuite_media_manager_10003.id
+    folder_id = data.transcode_folder.standard_10001.id
     embed_metadefinition = ''
-    source_media_format_id = resource.media_format.image_50030.media_format_id
+    source_media_format_id = data.media_format.image_50030.media_format_id
     target_media_format_id = resource.media_format.mobile_video_thumb_50021.media_format_id
     prevref = 0
 }
@@ -1390,9 +1385,9 @@ resource media_transcode visio_stencil__mobile_video_thumb_50151 {
     copy_target_icc_profile = false
     only_explicit_use = false
     prog_id = 'DigiAsposeJobs.JobDiagramPreview'
-    folder_id = resource.transcode_folder.standard_10001.id
+    folder_id = data.transcode_folder.standard_10001.id
     embed_metadefinition = ''
-    source_media_format_id = resource.media_format.visio_stencil_vssx_50065.media_format_id
+    source_media_format_id = data.media_format.visio_stencil_vssx_50065.media_format_id
     target_media_format_id = resource.media_format.mobile_video_thumb_50021.media_format_id
     prevref = 0
 }
@@ -1407,9 +1402,9 @@ resource media_transcode industry_foundation_classes_ifc__mobile_video_thumb_501
     copy_target_icc_profile = false
     only_explicit_use = false
     prog_id = 'DigiAsposeJobs.JobCadPreview'
-    folder_id = resource.transcode_folder.standard_10001.id
+    folder_id = data.transcode_folder.standard_10001.id
     embed_metadefinition = ''
-    source_media_format_id = resource.media_format.industry_foundation_classes_ifc_50069.media_format_id
+    source_media_format_id = data.media_format.industry_foundation_classes_ifc_50069.media_format_id
     target_media_format_id = resource.media_format.mobile_video_thumb_50021.media_format_id
     prevref = 0
 }
@@ -1424,9 +1419,9 @@ resource media_transcode openoffice_impress_template__mobile_video_thumb_50263 {
     copy_target_icc_profile = false
     only_explicit_use = false
     prog_id = 'DigiAsposeJobs.JobSlidesPreview'
-    folder_id = resource.transcode_folder.standard_10001.id
+    folder_id = data.transcode_folder.standard_10001.id
     embed_metadefinition = ''
-    source_media_format_id = resource.media_format.openoffice_impress_document_template_otp_50079.media_format_id
+    source_media_format_id = data.media_format.openoffice_impress_document_template_otp_50079.media_format_id
     target_media_format_id = resource.media_format.mobile_video_thumb_50021.media_format_id
     prevref = 0
 }
@@ -1441,9 +1436,9 @@ resource media_transcode word_document__mobile_video_thumb_50103 {
     copy_target_icc_profile = false
     only_explicit_use = false
     prog_id = 'DigiAsposeJobs.JobWordsPreview'
-    folder_id = resource.transcode_folder.standard_10001.id
+    folder_id = data.transcode_folder.standard_10001.id
     embed_metadefinition = ''
-    source_media_format_id = resource.media_format.word_document_docx_50052.media_format_id
+    source_media_format_id = data.media_format.word_document_docx_50052.media_format_id
     target_media_format_id = resource.media_format.mobile_video_thumb_50021.media_format_id
     prevref = 0
 }
@@ -1458,11 +1453,11 @@ resource media_transcode mobile_video_thumb_50033 {
     copy_target_icc_profile = false
     only_explicit_use = false
     prog_id = 'DigiImageMagicJobs.JobConvertImage'
-    folder_id = resource.transcode_folder.digizuite_video_portal_50001.id
+    folder_id = data.transcode_folder.standard_10001.id
     embed_metadefinition = ''
-    source_media_format_id = resource.media_format.video_thumb_dynamic_10026.media_format_id
+    source_media_format_id = data.media_format.video_thumb_dynamic_10026.media_format_id
     target_media_format_id = resource.media_format.mobile_video_thumb_50021.media_format_id
-    prevref = resource.media_transcode.video_thumb_ffmpeg_10053.media_transcode_id
+    prevref = data.media_transcode.video_thumb_ffmpeg_10053.media_transcode_id
 }
 
 resource media_transcode openoffice_calc_document__mobile_video_thumb_50239 {
@@ -1475,9 +1470,9 @@ resource media_transcode openoffice_calc_document__mobile_video_thumb_50239 {
     copy_target_icc_profile = false
     only_explicit_use = false
     prog_id = 'DigiAsposeJobs.JobSheetsPreview'
-    folder_id = resource.transcode_folder.standard_10001.id
+    folder_id = data.transcode_folder.standard_10001.id
     embed_metadefinition = ''
-    source_media_format_id = resource.media_format.openoffice_calc_document_ods_50076.media_format_id
+    source_media_format_id = data.media_format.openoffice_calc_document_ods_50076.media_format_id
     target_media_format_id = resource.media_format.mobile_video_thumb_50021.media_format_id
     prevref = 0
 }
@@ -1492,9 +1487,9 @@ resource media_transcode visio_drawing__mobile_video_thumb_50135 {
     copy_target_icc_profile = false
     only_explicit_use = false
     prog_id = 'DigiAsposeJobs.JobDiagramPreview'
-    folder_id = resource.transcode_folder.standard_10001.id
+    folder_id = data.transcode_folder.standard_10001.id
     embed_metadefinition = ''
-    source_media_format_id = resource.media_format.visio_drawing_vsdx_50063.media_format_id
+    source_media_format_id = data.media_format.visio_drawing_vsdx_50063.media_format_id
     target_media_format_id = resource.media_format.mobile_video_thumb_50021.media_format_id
     prevref = 0
 }
@@ -1509,9 +1504,9 @@ resource media_transcode excel_template__mobile_video_thumb_50127 {
     copy_target_icc_profile = false
     only_explicit_use = false
     prog_id = 'DigiAsposeJobs.JobSheetsPreview'
-    folder_id = resource.transcode_folder.standard_10001.id
+    folder_id = data.transcode_folder.standard_10001.id
     embed_metadefinition = ''
-    source_media_format_id = resource.media_format.excel_template_xltx_50059.media_format_id
+    source_media_format_id = data.media_format.excel_template_xltx_50059.media_format_id
     target_media_format_id = resource.media_format.mobile_video_thumb_50021.media_format_id
     prevref = 0
 }
@@ -1526,9 +1521,9 @@ resource media_transcode openoffice_impress_document__mobile_video_thumb_50255 {
     copy_target_icc_profile = false
     only_explicit_use = false
     prog_id = 'DigiAsposeJobs.JobSlidesPreview'
-    folder_id = resource.transcode_folder.standard_10001.id
+    folder_id = data.transcode_folder.standard_10001.id
     embed_metadefinition = ''
-    source_media_format_id = resource.media_format.openoffice_impress_document_odp_50078.media_format_id
+    source_media_format_id = data.media_format.openoffice_impress_document_odp_50078.media_format_id
     target_media_format_id = resource.media_format.mobile_video_thumb_50021.media_format_id
     prevref = 0
 }
@@ -1543,9 +1538,9 @@ resource media_transcode visio_template__mobile_video_thumb_50143 {
     copy_target_icc_profile = false
     only_explicit_use = false
     prog_id = 'DigiAsposeJobs.JobDiagramPreview'
-    folder_id = resource.transcode_folder.standard_10001.id
+    folder_id = data.transcode_folder.standard_10001.id
     embed_metadefinition = ''
-    source_media_format_id = resource.media_format.visio_template_vstx_50064.media_format_id
+    source_media_format_id = data.media_format.visio_template_vstx_50064.media_format_id
     target_media_format_id = resource.media_format.mobile_video_thumb_50021.media_format_id
     prevref = 0
 }
@@ -1560,11 +1555,11 @@ resource media_transcode illustrator__mobile_thumb_50050 {
     copy_target_icc_profile = false
     only_explicit_use = false
     prog_id = 'DigiImageMagicJobs.JobConvertImage'
-    folder_id = resource.transcode_folder.digizuite_media_manager_10003.id
+    folder_id = data.transcode_folder.standard_10001.id
     embed_metadefinition = ''
-    source_media_format_id = resource.media_format.exifthumb_raw_50014.media_format_id
+    source_media_format_id = data.media_format.exifthumb_raw_50014.media_format_id
     target_media_format_id = resource.media_format.mobile_video_thumb_50021.media_format_id
-    prevref = resource.media_transcode.extract_exifthumb_from_illustrator_50017.media_transcode_id
+    prevref = data.media_transcode.extract_exifthumb_from_illustrator_50017.media_transcode_id
 }
 
 resource media_transcode powerpoint_presentation__mobile_video_thumb_50079 {
@@ -1577,9 +1572,9 @@ resource media_transcode powerpoint_presentation__mobile_video_thumb_50079 {
     copy_target_icc_profile = false
     only_explicit_use = false
     prog_id = 'DigiAsposeJobs.JobSlidesPreview'
-    folder_id = resource.transcode_folder.standard_10001.id
+    folder_id = data.transcode_folder.standard_10001.id
     embed_metadefinition = ''
-    source_media_format_id = resource.media_format.powerpoint_10077.media_format_id
+    source_media_format_id = data.media_format.powerpoint_10077.media_format_id
     target_media_format_id = resource.media_format.mobile_video_thumb_50021.media_format_id
     prevref = 0
 }
@@ -1594,9 +1589,9 @@ resource media_transcode autocad_drawing_database_dwg__mobile_video_thumb_50159 
     copy_target_icc_profile = false
     only_explicit_use = false
     prog_id = 'DigiAsposeJobs.JobCadPreview'
-    folder_id = resource.transcode_folder.standard_10001.id
+    folder_id = data.transcode_folder.standard_10001.id
     embed_metadefinition = ''
-    source_media_format_id = resource.media_format.autocad_drawing_database_dwg_50066.media_format_id
+    source_media_format_id = data.media_format.autocad_drawing_database_dwg_50066.media_format_id
     target_media_format_id = resource.media_format.mobile_video_thumb_50021.media_format_id
     prevref = 0
 }
@@ -1611,11 +1606,11 @@ resource media_transcode indesign__mobile_thumb_50041 {
     copy_target_icc_profile = false
     only_explicit_use = false
     prog_id = 'DigiImageMagicJobs.JobConvertImage'
-    folder_id = resource.transcode_folder.digizuite_media_manager_10003.id
+    folder_id = data.transcode_folder.standard_10001.id
     embed_metadefinition = ''
-    source_media_format_id = resource.media_format.exifthumb_raw_50014.media_format_id
+    source_media_format_id = data.media_format.exifthumb_raw_50014.media_format_id
     target_media_format_id = resource.media_format.mobile_video_thumb_50021.media_format_id
-    prevref = resource.media_transcode.extract_exifthumb_from_indesign_50015.media_transcode_id
+    prevref = data.media_transcode.extract_exifthumb_from_indesign_50015.media_transcode_id
 }
 
 resource media_transcode hpgl_plot_plt__mobile_video_thumb_50207 {
@@ -1628,9 +1623,9 @@ resource media_transcode hpgl_plot_plt__mobile_video_thumb_50207 {
     copy_target_icc_profile = false
     only_explicit_use = false
     prog_id = 'DigiAsposeJobs.JobCadPreview'
-    folder_id = resource.transcode_folder.standard_10001.id
+    folder_id = data.transcode_folder.standard_10001.id
     embed_metadefinition = ''
-    source_media_format_id = resource.media_format.hpgl_plot_plt_50072.media_format_id
+    source_media_format_id = data.media_format.hpgl_plot_plt_50072.media_format_id
     target_media_format_id = resource.media_format.mobile_video_thumb_50021.media_format_id
     prevref = 0
 }

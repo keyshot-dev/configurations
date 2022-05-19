@@ -1,17 +1,17 @@
 resource media_format_folder digizuite_video_portal_50001 {
-    parent_id = resource.media_format_folder.standard_10001.id
+    parent_id = data.media_format_folder.standard_10001.id
     name = 'Digizuite™ Video Portal'
 }
 
 resource media_format desktop_video_thumb_50019 {
     folder_id = resource.media_format_folder.digizuite_video_portal_50001.id
-    format_type_id = resource.media_format_type.jpeg_compressed_formats_40001.media_format_type_id
+    format_type_id = data.media_format_type.jpeg_compressed_formats_40001.media_format_type_id
     name = 'Desktop Video Thumb'
     description = ''
     width = 0
     height = 540
     is_public = true
-    format_xml = '<mediaformat><fieldmapping active="1" asset_metafieldid="${to_stringresource.string_metafield.crop_50185.metafield_id}" jobident="MetaCropArgs"><defaultvalue/></fieldmapping></mediaformat>'
+    format_xml = '<mediaformat><fieldmapping active="1" asset_metafieldid="${to_string(data.string_metafield.crop_50185.metafield_id)}" jobident="MetaCropArgs"><defaultvalue/></fieldmapping></mediaformat>'
     multi_page_output = false
     is_identity_format = false
     settings = '%infile%[0] -auto-orient %iccconversion% -units PixelsPerInch -density 72x72 -background white -flatten %cropsettings% -resize x540> -strip %Outfile%'
@@ -48,13 +48,13 @@ resource media_format desktop_video_thumb_50019 {
 
 resource media_format tablet_video_thumb_50020 {
     folder_id = resource.media_format_folder.digizuite_video_portal_50001.id
-    format_type_id = resource.media_format_type.jpeg_compressed_formats_40001.media_format_type_id
+    format_type_id = data.media_format_type.jpeg_compressed_formats_40001.media_format_type_id
     name = 'Tablet Video Thumb'
     description = ''
     width = 0
     height = 360
     is_public = true
-    format_xml = '<mediaformat><fieldmapping active="1" asset_metafieldid="${to_stringresource.string_metafield.crop_50185.metafield_id}" jobident="MetaCropArgs"><defaultvalue/></fieldmapping></mediaformat>'
+    format_xml = '<mediaformat><fieldmapping active="1" asset_metafieldid="${to_string(data.string_metafield.crop_50185.metafield_id)}" jobident="MetaCropArgs"><defaultvalue/></fieldmapping></mediaformat>'
     multi_page_output = false
     is_identity_format = false
     settings = '%infile%[0] -auto-orient %iccconversion% -units PixelsPerInch -density 72x72 -background white -flatten %cropsettings% -resize x360> -strip %Outfile%'
@@ -91,13 +91,13 @@ resource media_format tablet_video_thumb_50020 {
 
 resource media_format mobile_video_thumb_50021 {
     folder_id = resource.media_format_folder.digizuite_video_portal_50001.id
-    format_type_id = resource.media_format_type.jpeg_compressed_formats_40001.media_format_type_id
+    format_type_id = data.media_format_type.jpeg_compressed_formats_40001.media_format_type_id
     name = 'Mobile Video Thumb'
     description = ''
     width = 0
     height = 360
     is_public = true
-    format_xml = '<mediaformat><fieldmapping active="1" asset_metafieldid="${to_stringresource.string_metafield.crop_50185.metafield_id}" jobident="MetaCropArgs"><defaultvalue/></fieldmapping></mediaformat>'
+    format_xml = '<mediaformat><fieldmapping active="1" asset_metafieldid="${to_string(data.string_metafield.crop_50185.metafield_id)}" jobident="MetaCropArgs"><defaultvalue/></fieldmapping></mediaformat>'
     multi_page_output = false
     is_identity_format = false
     settings = '%infile%[0] -auto-orient %iccconversion% -units PixelsPerInch -density 72x72 %cropsettings% -resize x360> -strip %Outfile%'
@@ -134,13 +134,13 @@ resource media_format mobile_video_thumb_50021 {
 
 resource media_format desktop_h264_2048kbit_ffmpeg_50016 {
     folder_id = resource.media_format_folder.digizuite_video_portal_50001.id
-    format_type_id = resource.media_format_type.mpeg_4_10201.media_format_type_id
+    format_type_id = data.media_format_type.mpeg_4_10201.media_format_type_id
     name = 'Desktop H264 2048kbit ffmpeg'
     description = ''
     width = 0
     height = 540
     is_public = true
-    format_xml = '<mediaformat><fieldmapping active="1" asset_metafieldid="${to_stringresource.combovalue_metafield.format_10032.metafield_id}" jobident="AspectRatio"><defaultvalue>169</defaultvalue></fieldmapping><fieldmapping active="1" asset_metafieldid="${to_stringresource.combovalue_metafield.rotation_50041.metafield_id}" jobident="VideoRotate"><defaultvalue>0</defaultvalue></fieldmapping></mediaformat>'
+    format_xml = '<mediaformat><fieldmapping active="1" asset_metafieldid="${to_string(data.combovalue_metafield.format_10032.metafield_id)}" jobident="AspectRatio"><defaultvalue>169</defaultvalue></fieldmapping><fieldmapping active="1" asset_metafieldid="${to_string(data.combovalue_metafield.rotation_50041.metafield_id)}" jobident="VideoRotate"><defaultvalue>0</defaultvalue></fieldmapping></mediaformat>'
     multi_page_output = false
     is_identity_format = false
     settings = ''
@@ -177,13 +177,13 @@ resource media_format desktop_h264_2048kbit_ffmpeg_50016 {
 
 resource media_format tablet_h264_2048kbit_ffmpeg_50017 {
     folder_id = resource.media_format_folder.digizuite_video_portal_50001.id
-    format_type_id = resource.media_format_type.mpeg_4_10201.media_format_type_id
+    format_type_id = data.media_format_type.mpeg_4_10201.media_format_type_id
     name = 'Tablet H264 2048kbit ffmpeg'
     description = ''
     width = 0
     height = 540
     is_public = true
-    format_xml = '<mediaformat><fieldmapping active="1" asset_metafieldid="${to_stringresource.combovalue_metafield.format_10032.metafield_id}" jobident="AspectRatio"><defaultvalue>169</defaultvalue></fieldmapping><fieldmapping active="1" asset_metafieldid="${to_stringresource.combovalue_metafield.rotation_50041.metafield_id}" jobident="VideoRotate"><defaultvalue>0</defaultvalue></fieldmapping></mediaformat>'
+    format_xml = '<mediaformat><fieldmapping active="1" asset_metafieldid="${to_string(data.combovalue_metafield.format_10032.metafield_id)}" jobident="AspectRatio"><defaultvalue>169</defaultvalue></fieldmapping><fieldmapping active="1" asset_metafieldid="${to_string(data.combovalue_metafield.rotation_50041.metafield_id)}" jobident="VideoRotate"><defaultvalue>0</defaultvalue></fieldmapping></mediaformat>'
     multi_page_output = false
     is_identity_format = false
     settings = ''
@@ -220,13 +220,13 @@ resource media_format tablet_h264_2048kbit_ffmpeg_50017 {
 
 resource media_format mobile_h264_1024kbit_ffmpeg_50018 {
     folder_id = resource.media_format_folder.digizuite_video_portal_50001.id
-    format_type_id = resource.media_format_type.mpeg_4_10201.media_format_type_id
+    format_type_id = data.media_format_type.mpeg_4_10201.media_format_type_id
     name = 'Mobile H264 1024kbit ffmpeg'
     description = ''
     width = 0
     height = 360
     is_public = true
-    format_xml = '<mediaformat><fieldmapping active="1" asset_metafieldid="${to_stringresource.combovalue_metafield.format_10032.metafield_id}" jobident="AspectRatio"><defaultvalue>169</defaultvalue></fieldmapping><fieldmapping active="1" asset_metafieldid="${to_stringresource.combovalue_metafield.rotation_50041.metafield_id}" jobident="VideoRotate"><defaultvalue>0</defaultvalue></fieldmapping></mediaformat>'
+    format_xml = '<mediaformat><fieldmapping active="1" asset_metafieldid="${to_string(data.combovalue_metafield.format_10032.metafield_id)}" jobident="AspectRatio"><defaultvalue>169</defaultvalue></fieldmapping><fieldmapping active="1" asset_metafieldid="${to_string(data.combovalue_metafield.rotation_50041.metafield_id)}" jobident="VideoRotate"><defaultvalue>0</defaultvalue></fieldmapping></mediaformat>'
     multi_page_output = false
     is_identity_format = false
     settings = ''
