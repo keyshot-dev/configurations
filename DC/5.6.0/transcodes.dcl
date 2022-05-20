@@ -13,6 +13,74 @@ resource transcode_folder custom_10004 {
     name = 'Custom'
 }
 
+resource media_transcode video_thumb_ffmpeg_10053 {
+    name = "Video Thumb ffmpeg"
+    description = ''
+    is_public = true
+    settings = ''
+    encoder_profile_name = ''
+    prefix = ''
+    copy_target_icc_profile = false
+    only_explicit_use = false
+    prog_id = 'DigiFFMpegJobs.JobFFMpegProfile'
+    folder_id = resource.transcode_folder.custom_10004.id
+    embed_metadefinition = ''
+    source_media_format_id = resource.media_format.video_10053.media_format_id
+    target_media_format_id = resource.media_format.video_thumb_dynamic_10026.media_format_id
+    prevref = 0
+}
+
+resource media_transcode video__thumb_1920x1080_8 {
+    name = 'Video - Thumb 1920x1080'
+    description = ''
+    is_public = true
+    settings = ''
+    encoder_profile_name = ''
+    prefix = ''
+    copy_target_icc_profile = false
+    only_explicit_use = false
+    prog_id = 'DigiImageMagicJobs.JobConvertImage'
+    folder_id = resource.transcode_folder.standard_10001.id
+    embed_metadefinition = ''
+    source_media_format_id = resource.media_format.video_thumb_dynamic_10026.media_format_id
+    target_media_format_id = resource.media_format.thumb_1920x1080_2.media_format_id
+    prevref = resource.media_transcode.video_thumb_ffmpeg_10053.media_transcode_id
+}
+
+resource media_transcode video__thumb_200x120_15 {
+    name = 'Video - Thumb 200x120'
+    description = ''
+    is_public = true
+    settings = ''
+    encoder_profile_name = ''
+    prefix = ''
+    copy_target_icc_profile = false
+    only_explicit_use = false
+    prog_id = 'DigiImageMagicJobs.JobConvertImage'
+    folder_id = resource.transcode_folder.standard_10001.id
+    embed_metadefinition = ''
+    source_media_format_id = resource.media_format.video_thumb_dynamic_10026.media_format_id
+    target_media_format_id = resource.media_format.thumb_200x120_3.media_format_id
+    prevref = resource.media_transcode.video_thumb_ffmpeg_10053.media_transcode_id
+}
+
+resource media_transcode video_preview_h264_10096 {
+    name = 'VIDEO_preview_h264'
+    description = ''
+    is_public = true
+    settings = ''
+    encoder_profile_name = ''
+    prefix = ''
+    copy_target_icc_profile = false
+    only_explicit_use = false
+    prog_id = 'DigiFFMpegJobs.JobFFMpegProfile'
+    folder_id = resource.transcode_folder.import_10000.id
+    embed_metadefinition = ''
+    source_media_format_id = resource.media_format.video_10053.media_format_id
+    target_media_format_id = resource.media_format.video_preview_h264_10079.media_format_id
+    prevref = 0
+}
+
 resource media_transcode openoffice_writer_document__preview_pdf_50218 {
     name = 'OpenOffice writer Document - Preview Pdf'
     description = ''
@@ -96,23 +164,6 @@ resource media_transcode extract_exifthumb_from_photoshop_50016 {
     source_media_format_id = resource.media_format.adobe_photoshop_50012.media_format_id
     target_media_format_id = resource.media_format.exifthumb_raw_50014.media_format_id
     prevref = 0
-}
-
-resource media_transcode video__thumb_1920x1080_8 {
-    name = 'Video - Thumb 1920x1080'
-    description = ''
-    is_public = true
-    settings = ''
-    encoder_profile_name = ''
-    prefix = ''
-    copy_target_icc_profile = false
-    only_explicit_use = false
-    prog_id = 'DigiImageMagicJobs.JobConvertImage'
-    folder_id = resource.transcode_folder.standard_10001.id
-    embed_metadefinition = ''
-    source_media_format_id = resource.media_format.video_thumb_dynamic_10026.media_format_id
-    target_media_format_id = resource.media_format.thumb_1920x1080_2.media_format_id
-    prevref = resource.media_transcode.video_thumb_ffmpeg_10053.media_transcode_id
 }
 
 resource media_transcode hpgl_plot_plt__preview_large_50200 {
@@ -266,23 +317,6 @@ resource media_transcode openoffice_calc_template__preview_pdf_50242 {
     source_media_format_id = resource.media_format.openoffice_calc_document_template_ots_50077.media_format_id
     target_media_format_id = resource.media_format.adobe_pdf_preview_4.media_format_id
     prevref = 0
-}
-
-resource media_transcode video__thumb_200x120_15 {
-    name = 'Video - Thumb 200x120'
-    description = ''
-    is_public = true
-    settings = ''
-    encoder_profile_name = ''
-    prefix = ''
-    copy_target_icc_profile = false
-    only_explicit_use = false
-    prog_id = 'DigiImageMagicJobs.JobConvertImage'
-    folder_id = resource.transcode_folder.standard_10001.id
-    embed_metadefinition = ''
-    source_media_format_id = resource.media_format.video_thumb_dynamic_10026.media_format_id
-    target_media_format_id = resource.media_format.thumb_200x120_3.media_format_id
-    prevref = resource.media_transcode.video_thumb_ffmpeg_10053.media_transcode_id
 }
 
 resource media_transcode adobe_pdf_page_image_aspose_50267 {
@@ -1118,23 +1152,6 @@ resource media_transcode powerpoint_presentation__thumb_large_50071 {
     prevref = 0
 }
 
-resource media_transcode video_preview_h264_10096 {
-    name = 'VIDEO_preview_h264'
-    description = ''
-    is_public = true
-    settings = ''
-    encoder_profile_name = ''
-    prefix = ''
-    copy_target_icc_profile = false
-    only_explicit_use = false
-    prog_id = 'DigiFFMpegJobs.JobFFMpegProfile'
-    folder_id = resource.transcode_folder.import_10000.id
-    embed_metadefinition = ''
-    source_media_format_id = resource.media_format.video_10053.media_format_id
-    target_media_format_id = resource.media_format.video_preview_h264_10079.media_format_id
-    prevref = 0
-}
-
 resource media_transcode microstation_design_dgn__preview_thumb_50169 {
     name = 'MicroStation Design (.dgn) - Preview Thumb'
     description = ''
@@ -1322,23 +1339,6 @@ resource media_transcode design_web_format_dwf__preview_pdf_50210 {
     prevref = 0
 }
 
-resource media_transcode video_thumb_ffmpeg_10053 {
-    name = 'Video Thumb ffmpeg'
-    description = ''
-    is_public = true
-    settings = ''
-    encoder_profile_name = ''
-    prefix = ''
-    copy_target_icc_profile = false
-    only_explicit_use = false
-    prog_id = 'DigiFFMpegJobs.JobFFMpegProfile'
-    folder_id = resource.transcode_folder.custom_10004.id
-    embed_metadefinition = ''
-    source_media_format_id = resource.media_format.video_10053.media_format_id
-    target_media_format_id = resource.media_format.video_thumb_dynamic_10026.media_format_id
-    prevref = 0
-}
-
 resource media_transcode microstation_design_dgn__preview_large_50168 {
     name = 'MicroStation Design (.dgn) - Preview Large'
     description = ''
@@ -1353,23 +1353,6 @@ resource media_transcode microstation_design_dgn__preview_large_50168 {
     embed_metadefinition = ''
     source_media_format_id = resource.media_format.microstation_design_dgn_50068.media_format_id
     target_media_format_id = resource.media_format.thumb_1920x1080_2.media_format_id
-    prevref = 0
-}
-
-resource media_transcode audio_preview_10043 {
-    name = 'AUDIO_preview'
-    description = ''
-    is_public = true
-    settings = ''
-    encoder_profile_name = ''
-    prefix = ''
-    copy_target_icc_profile = false
-    only_explicit_use = false
-    prog_id = 'DigiFFMpegJobs.JobFFMpegProfile'
-    folder_id = resource.transcode_folder.import_10000.id
-    embed_metadefinition = ''
-    source_media_format_id = resource.media_format.audio_50029.media_format_id
-    target_media_format_id = resource.media_format.audio_preview_10045.media_format_id
     prevref = 0
 }
 
@@ -1540,6 +1523,22 @@ resource media_transcode word_template__thumb_large_50104 {
     embed_metadefinition = ''
     source_media_format_id = resource.media_format.word_template_dotx_50053.media_format_id
     target_media_format_id = resource.media_format.thumb_1920x1080_2.media_format_id
+    prevref = 0
+}
+
+resource media_transcode extract_exifthumb_from_illustrator_50017 {
+    name = 'Extract ExifThumb from Illustrator'
+    description = ''
+    is_public = true
+    settings = ''
+    encoder_profile_name = ''
+    prefix = ''
+    copy_target_icc_profile = false
+    only_explicit_use = false
+    prog_id = 'DigiExiftoolJobs.JobExifThumbnail'
+    folder_id = resource.transcode_folder.standard_10001.id
+    source_media_format_id = resource.media_format.adobe_illustrator_50013.media_format_id
+    target_media_format_id = resource.media_format.exifthumb_raw_50014.media_format_id
     prevref = 0
 }
 
