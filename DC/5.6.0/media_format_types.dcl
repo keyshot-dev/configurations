@@ -2063,7 +2063,7 @@ resource media_format_type windows_font_library_200108 {
     name = 'Windows font Library'
     upload_convert_to_archive = false
 	autolink {
-		item_guid = '6387cc33-277e-46a1-a9c7-b1498a658181'
+		item_guid = 'aab4b75c-bcf7-4d3c-8e67-f1fcf76d2928'
 	}
 }
 

@@ -1374,7 +1374,7 @@ resource media_format windows_font_library_fon_50090 {
     watermark_file = ''
     width = 0
 	autolink {
-		item_guid = 'acc9e97b-0c4f-48c3-8caf-7675bfba111a'
+		item_guid = '8f30a6b6-abec-46cb-ad9b-d90847c155d4'
 	}
 }
 
