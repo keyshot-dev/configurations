@@ -39,6 +39,9 @@
     force_aspect = false
     output_quality = 0
     icc_profile = 'sRGB.icc'
+	autolink {
+		item_guid = '08c1637b-c280-4cf4-9cf4-1cae366a4b9e'
+	}
 }
 
 resource media_format exifthumb_raw_50014 {
@@ -82,6 +85,9 @@ resource media_format exifthumb_raw_50014 {
     force_aspect = false
     output_quality = 0
     icc_profile = ''
+	autolink {
+		item_guid = 'fa1d55d5-9bec-445d-9558-9522fe6af673'
+	}
 }
 
 resource media_format image_preview_10038 {
@@ -125,6 +131,9 @@ resource media_format image_preview_10038 {
     force_aspect = true
     output_quality = 0
     icc_profile = 'sRGB.icc'
+	autolink {
+		item_guid = 'e32f7135-6be3-4df0-8010-c7242e77087d'
+	}
 }
 
 resource media_format digizuite_media_manager_user_profile_hd_30014 {
@@ -168,6 +177,9 @@ resource media_format digizuite_media_manager_user_profile_hd_30014 {
     force_aspect = false
     output_quality = 0
     icc_profile = 'sRGB.icc'
+	autolink {
+		item_guid = 'a27dfcb3-e6a7-4331-88df-bc04215d70e9'
+	}
 }
 
 resource media_format digizuite_media_manager_user_profile_sd_30013 {
@@ -211,6 +223,9 @@ resource media_format digizuite_media_manager_user_profile_sd_30013 {
     force_aspect = false
     output_quality = 0
     icc_profile = 'sRGB.icc'
+	autolink {
+		item_guid = '1795f4d7-aaa0-4c5a-9500-773fdbdea0db'
+	}
 }
 
 resource media_format source_copy_10061 {
@@ -254,6 +269,9 @@ resource media_format source_copy_10061 {
     force_aspect = false
     output_quality = 0
     icc_profile = ''
+	autolink {
+		item_guid = 'da6ead4e-6259-489c-98df-8581c23c0f0e'
+	}
 }
 
 resource media_format video_thumb_dynamic_10026 {
@@ -297,5 +315,8 @@ resource media_format video_thumb_dynamic_10026 {
     force_aspect = false
     output_quality = 0
     icc_profile = ''
+	autolink {
+		item_guid = '0fdbfeaf-6469-4a5b-9ed3-688722b87f2b'
+	}
 }
 
