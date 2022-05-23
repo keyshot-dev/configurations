@@ -277,7 +277,7 @@ resource member social_media_user {
     email = ''
     language = resource.language.english.id
     folder_id = resource.member_folder.system_users_181.id
-    fistname = ''
+    firstname = ''
     lastname = ''
     enabled = true
     ad_username = ''
@@ -307,7 +307,7 @@ resource member superadministrator {
     email = ''
     language = resource.language.english.id
     folder_id = resource.member_folder.user_profiles_213.id
-    fistname = 'Super administrator'
+    firstname = 'Super administrator'
     lastname = '(user profile)'
     enabled = true
     ad_username = ''
@@ -411,7 +411,7 @@ resource member system {
     email = ''
     language = resource.language.english.id
     folder_id = resource.member_folder.system_users_181.id
-    fistname = 'System'
+    firstname = 'System'
     lastname = 'Admin'
     enabled = true
     ad_username = ''
@@ -440,7 +440,7 @@ resource member dam_guest {
     email = ''
     language = 0
     folder_id = resource.member_folder.system_users_181.id
-    fistname = ''
+    firstname = ''
     lastname = ''
     enabled = true
     ad_username = ''
@@ -456,7 +456,7 @@ resource member guest {
     email = ''
     language = resource.language.english.id
     folder_id = resource.member_folder.system_users_181.id
-    fistname = ''
+    firstname = ''
     lastname = ''
     enabled = true
     ad_username = ''
