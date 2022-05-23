@@ -16,6 +16,9 @@
     icon_large = ''
     mime_type = 'application/vnd.ms-excel.sheet.binary.macroEnabled.12'
     identity_media_format_id = resource.media_format.excel_workbook_xlsx_50058.media_format_id
+	autolink {
+		item_guid = '9d2168d8-cc5b-4926-a465-5c5030efce4c'
+	}
 }
 
 resource media_format_type legacy_visio_drawing_180007 {
@@ -36,6 +39,9 @@ resource media_format_type legacy_visio_drawing_180007 {
     icon_large = ''
     mime_type = 'application/vnd.visio'
     identity_media_format_id = resource.media_format.visio_drawing_vsdx_50063.media_format_id
+	autolink {
+		item_guid = '6c70ec80-dead-46c2-9dad-08c0db0f19e7'
+	}
 }
 
 resource media_format_type wavefront_obj_file_130003 {
@@ -56,6 +62,9 @@ resource media_format_type wavefront_obj_file_130003 {
     icon_large = ''
     mime_type = 'application/wavefront-obj'
     identity_media_format_id = resource.media_format.waveform_obj_file_50027.media_format_id
+	autolink {
+		item_guid = '9b7d0147-e560-45bd-b65e-7ac1a672ebb6'
+	}
 }
 
 resource media_format_type gif__40006 {
@@ -76,6 +85,9 @@ resource media_format_type gif__40006 {
     icon_large = ''
     mime_type = 'image/gif'
     identity_media_format_id = resource.media_format.image_50030.media_format_id
+	autolink {
+		item_guid = 'e7eabe1f-064b-4890-83ff-238853c7d3c6'
+	}
 }
 
 resource media_format_type microstation_design_190003 {
@@ -96,6 +108,9 @@ resource media_format_type microstation_design_190003 {
     icon_large = ''
     mime_type = ''
     identity_media_format_id = resource.media_format.microstation_design_dgn_50068.media_format_id
+	autolink {
+		item_guid = '9ac52c03-f704-4c20-af44-9aa5460fa5f3'
+	}
 }
 
 resource media_format_type word_document_80002 {
@@ -116,6 +131,9 @@ resource media_format_type word_document_80002 {
     icon_large = ''
     mime_type = 'application/vnd.openxmlformats-officedocument.wordprocessingml.document'
     identity_media_format_id = resource.media_format.word_document_docx_50052.media_format_id
+	autolink {
+		item_guid = 'ef0ddaac-f71b-4e6b-a892-12a1840ac700'
+	}
 }
 
 resource media_format_type jpeg_2000_jp2_40109 {
@@ -140,6 +158,9 @@ resource media_format_type jpeg_2000_jp2_40109 {
     icon_large = ''
     mime_type = 'image/jp2'
     identity_media_format_id = resource.media_format.image_50030.media_format_id
+	autolink {
+		item_guid = 'acbf41c6-c963-4eb6-9841-ba62c7ceb0ce'
+	}
 }
 
 resource media_format_type openoffice_calc_document_1020001 {
@@ -160,6 +181,9 @@ resource media_format_type openoffice_calc_document_1020001 {
     icon_large = ''
     mime_type = 'application/vnd.oasis.opendocument.spreadsheet'
     identity_media_format_id = resource.media_format.openoffice_calc_document_ods_50076.media_format_id
+	autolink {
+		item_guid = '219b7e15-fc77-4c5d-9926-4b7d35b6dcb2'
+	}
 }
 
 resource media_format_type excel_macroenabled_template_90005 {
@@ -180,6 +204,9 @@ resource media_format_type excel_macroenabled_template_90005 {
     icon_large = ''
     mime_type = 'application/vnd.ms-excel.template.macroEnabled.12'
     identity_media_format_id = resource.media_format.excel_template_xltx_50059.media_format_id
+	autolink {
+		item_guid = '4eb73967-3802-485c-b50d-5062d4260040'
+	}
 }
 
 resource media_format_type legacy_visio_stencil_180008 {
@@ -200,6 +227,9 @@ resource media_format_type legacy_visio_stencil_180008 {
     icon_large = ''
     mime_type = 'application/vnd.visio'
     identity_media_format_id = resource.media_format.visio_stencil_vssx_50065.media_format_id
+	autolink {
+		item_guid = '78e07fa8-c1f0-4a2e-96a2-374a8da58825'
+	}
 }
 
 resource media_format_type portable_document_format_40002 {
@@ -220,6 +250,9 @@ resource media_format_type portable_document_format_40002 {
     icon_large = ''
     mime_type = 'application/pdf'
     identity_media_format_id = resource.media_format.adobe_pdf_50009.media_format_id
+	autolink {
+		item_guid = '1830b8f7-5728-4411-adbb-bef1413808bc'
+	}
 }
 
 resource media_format_type gif_transparent_40106 {
@@ -240,6 +273,9 @@ resource media_format_type gif_transparent_40106 {
     icon_large = ''
     mime_type = 'image/gif'
     identity_media_format_id = resource.media_format.image_50030.media_format_id
+	autolink {
+		item_guid = '7a8380fc-80dc-4f00-ac04-1f07fe30566d'
+	}
 }
 
 resource media_format_type mpeg_1_procoder_15_10005 {
@@ -262,6 +298,9 @@ resource media_format_type mpeg_1_procoder_15_10005 {
     icon_large = ''
     mime_type = 'video/mpeg'
     identity_media_format_id = resource.media_format.video_10053.media_format_id
+	autolink {
+		item_guid = '0ed69f3e-30cb-478a-b78f-12317b96ca69'
+	}
 }
 
 resource media_format_type word_macroenabled_document_80004 {
@@ -282,6 +321,9 @@ resource media_format_type word_macroenabled_document_80004 {
     icon_large = ''
     mime_type = 'application/vnd.ms-word.document.macroEnabled.12'
     identity_media_format_id = resource.media_format.word_document_docx_50052.media_format_id
+	autolink {
+		item_guid = 'e09611ce-9a47-405d-948a-15816a38e751'
+	}
 }
 
 resource media_format_type jpeg_compressed_formats_40001 {
@@ -304,6 +346,9 @@ resource media_format_type jpeg_compressed_formats_40001 {
     icon_large = ''
     mime_type = 'image/jpeg'
     identity_media_format_id = resource.media_format.image_50030.media_format_id
+	autolink {
+		item_guid = 'd425790a-bfd2-4038-86b5-9e16af770902'
+	}
 }
 
 resource media_format_type openoffice_calc_template_1030001 {
@@ -324,6 +369,9 @@ resource media_format_type openoffice_calc_template_1030001 {
     icon_large = ''
     mime_type = 'application/vnd.oasis.opendocument.spreadsheet-template'
     identity_media_format_id = resource.media_format.openoffice_calc_document_template_ots_50077.media_format_id
+	autolink {
+		item_guid = '5de2fd9b-c90b-4a34-9442-602439d85733'
+	}
 }
 
 resource media_format_type portable_network_graphics_40007 {
@@ -344,6 +392,9 @@ resource media_format_type portable_network_graphics_40007 {
     icon_large = ''
     mime_type = 'image/png'
     identity_media_format_id = resource.media_format.image_50030.media_format_id
+	autolink {
+		item_guid = '72a741ba-8ce3-492a-b147-87c1b71efcc5'
+	}
 }
 
 resource media_format_type legacy_visio_template_180009 {
@@ -364,6 +415,9 @@ resource media_format_type legacy_visio_template_180009 {
     icon_large = ''
     mime_type = 'application/vnd.visio'
     identity_media_format_id = resource.media_format.visio_template_vstx_50064.media_format_id
+	autolink {
+		item_guid = '12f25f74-c1ce-4adf-b0d3-baabef1712cb'
+	}
 }
 
 resource media_format_type high_efficiency_image_file_format_heic_40107 {
@@ -384,6 +438,9 @@ resource media_format_type high_efficiency_image_file_format_heic_40107 {
     icon_large = ''
     mime_type = 'image/heic'
     identity_media_format_id = resource.media_format.image_50030.media_format_id
+	autolink {
+		item_guid = '621e67ad-0b64-4f86-9a98-f6c32da05b03'
+	}
 }
 
 resource media_format_type mpeg_2_program_stream_10003 {
@@ -408,6 +465,9 @@ resource media_format_type mpeg_2_program_stream_10003 {
     icon_large = ''
     mime_type = 'video/mpeg'
     identity_media_format_id = resource.media_format.video_10053.media_format_id
+	autolink {
+		item_guid = '5a06c733-d6b3-4522-90a3-df860a438133'
+	}
 }
 
 resource media_format_type project_120701 {
@@ -428,6 +488,9 @@ resource media_format_type project_120701 {
     icon_large = '../images/asset/166/project166.gif'
     mime_type = 'application/vnd.ms-project'
     identity_media_format_id = 0
+	autolink {
+		item_guid = '1c69ee45-5258-471a-989a-7f89ec384697'
+	}
 }
 
 resource media_format_type smoothstream_200200 {
@@ -446,6 +509,9 @@ resource media_format_type smoothstream_200200 {
     icon_large = ''
     mime_type = ''
     identity_media_format_id = resource.media_format.video_10053.media_format_id
+	autolink {
+		item_guid = '5a83a266-3c92-4305-9461-547ff6447145'
+	}
 }
 
 resource media_format_type latex_font_200105 {
@@ -466,6 +532,9 @@ resource media_format_type latex_font_200105 {
     icon_large = ''
     mime_type = 'font/etx'
     identity_media_format_id = resource.media_format.latex_font_etx_50087.media_format_id
+	autolink {
+		item_guid = '3c334c3d-8bfb-462c-8544-a6e09ae1c31b'
+	}
 }
 
 resource media_format_type openoffice_impress_document_1050001 {
@@ -486,6 +555,9 @@ resource media_format_type openoffice_impress_document_1050001 {
     icon_large = ''
     mime_type = 'application/vnd.oasis.opendocument.presentation'
     identity_media_format_id = resource.media_format.openoffice_impress_document_odp_50078.media_format_id
+	autolink {
+		item_guid = 'b1b9cf7d-148b-4b8a-8254-69837a8b9b13'
+	}
 }
 
 resource media_format_type legacy_word_80001 {
@@ -506,6 +578,9 @@ resource media_format_type legacy_word_80001 {
     icon_large = '../images/asset/166/word166.gif'
     mime_type = 'application/msword'
     identity_media_format_id = resource.media_format.word_document_docx_50052.media_format_id
+	autolink {
+		item_guid = '08d8cb61-e745-4547-8263-08e5abb8d016'
+	}
 }
 
 resource media_format_type powerpoint_macroenabled_presentation_50004 {
@@ -526,6 +601,9 @@ resource media_format_type powerpoint_macroenabled_presentation_50004 {
     icon_large = ''
     mime_type = 'application/vnd.ms-powerpoint.presentation.macroEnabled.12'
     identity_media_format_id = resource.media_format.powerpoint_10077.media_format_id
+	autolink {
+		item_guid = '1063fdb2-dd34-45f2-ac54-0b98aea9a590'
+	}
 }
 
 resource media_format_type mpeg_2_transport_10004 {
@@ -550,6 +628,9 @@ resource media_format_type mpeg_2_transport_10004 {
     icon_large = ''
     mime_type = 'video/mpeg'
     identity_media_format_id = resource.media_format.video_10053.media_format_id
+	autolink {
+		item_guid = '9f8ca094-f919-4117-b8b0-408f802bdac6'
+	}
 }
 
 resource media_format_type publisher_120201 {
@@ -570,6 +651,9 @@ resource media_format_type publisher_120201 {
     icon_large = '../images/asset/166/pub166.gif'
     mime_type = 'application/vnd.ms-publisher'
     identity_media_format_id = 0
+	autolink {
+		item_guid = '395c260d-b4fa-4712-8d2f-ed86d5056614'
+	}
 }
 
 resource media_format_type legacy_excel_90001 {
@@ -590,6 +674,9 @@ resource media_format_type legacy_excel_90001 {
     icon_large = ''
     mime_type = 'application/vnd.ms-excel'
     identity_media_format_id = resource.media_format.excel_workbook_xlsx_50058.media_format_id
+	autolink {
+		item_guid = 'ca878cfa-ca1b-4495-b0a0-e71d8e053506'
+	}
 }
 
 resource media_format_type openoffice_impress_template_1060001 {
@@ -610,6 +697,9 @@ resource media_format_type openoffice_impress_template_1060001 {
     icon_large = ''
     mime_type = 'application/vnd.oasis.opendocument.presentation-template'
     identity_media_format_id = resource.media_format.openoffice_impress_document_template_otp_50079.media_format_id
+	autolink {
+		item_guid = 'bde19046-45dd-44c1-8605-41989bb541c6'
+	}
 }
 
 resource media_format_type sony_alpha_raw_image_format_40010 {
@@ -630,6 +720,9 @@ resource media_format_type sony_alpha_raw_image_format_40010 {
     icon_large = ''
     mime_type = 'image/x-sony-arw'
     identity_media_format_id = resource.media_format.image_50030.media_format_id
+	autolink {
+		item_guid = 'a0ea78a5-9aaa-42ef-bb76-9579a1047bcf'
+	}
 }
 
 resource media_format_type visio_drawing_180001 {
@@ -650,6 +743,9 @@ resource media_format_type visio_drawing_180001 {
     icon_large = ''
     mime_type = 'application/vnd.visio2013'
     identity_media_format_id = resource.media_format.visio_drawing_vsdx_50063.media_format_id
+	autolink {
+		item_guid = '9e54aff0-239c-4e20-b70c-8616e791093c'
+	}
 }
 
 resource media_format_type legacy_word_template_80006 {
@@ -670,6 +766,9 @@ resource media_format_type legacy_word_template_80006 {
     icon_large = ''
     mime_type = ''
     identity_media_format_id = resource.media_format.word_template_dotx_50053.media_format_id
+	autolink {
+		item_guid = 'eda92ec0-14c4-4820-872c-bb4ee6c0e72b'
+	}
 }
 
 resource media_format_type powerpoint_macroenabled_slideshow_50007 {
@@ -690,6 +789,9 @@ resource media_format_type powerpoint_macroenabled_slideshow_50007 {
     icon_large = ''
     mime_type = 'application/vnd.ms-powerpoint.slideshow.macroEnabled.12'
     identity_media_format_id = resource.media_format.powerpoint_slideshow_ppsx_50048.media_format_id
+	autolink {
+		item_guid = 'c275d724-4a8f-41fe-971d-df7b7d37cf26'
+	}
 }
 
 resource media_format_type mpeg_4_10201 {
@@ -710,6 +812,9 @@ resource media_format_type mpeg_4_10201 {
     icon_large = ''
     mime_type = 'video/mp4'
     identity_media_format_id = resource.media_format.video_10053.media_format_id
+	autolink {
+		item_guid = '86ef596f-5c6b-4074-ac6e-7525cc1533e7'
+	}
 }
 
 resource media_format_type advanced_audio_codec_20006 {
@@ -728,6 +833,9 @@ resource media_format_type advanced_audio_codec_20006 {
     icon_large = ''
     mime_type = 'audio/aac'
     identity_media_format_id = resource.media_format.audio_50029.media_format_id
+	autolink {
+		item_guid = '81b55321-4aaf-4494-a315-0cb582b13ae9'
+	}
 }
 
 resource media_format_type quark_express_120001 {
@@ -748,6 +856,9 @@ resource media_format_type quark_express_120001 {
     icon_large = '../images/asset/166/quarkexpress166.gif'
     mime_type = 'application/vnd.quark.quarkxpress'
     identity_media_format_id = 0
+	autolink {
+		item_guid = '090780a3-7789-4c0a-b1ac-35b132ee9abc'
+	}
 }
 
 resource media_format_type openoffice_writer_document_1000001 {
@@ -768,6 +879,9 @@ resource media_format_type openoffice_writer_document_1000001 {
     icon_large = ''
     mime_type = 'application/vnd.oasis.opendocument.text'
     identity_media_format_id = resource.media_format.openoffice_writer_document_odt_50074.media_format_id
+	autolink {
+		item_guid = '8cbd1f30-ba9f-42d6-87e7-26d96e268779'
+	}
 }
 
 resource media_format_type avi_10008 {
@@ -788,6 +902,9 @@ resource media_format_type avi_10008 {
     icon_large = ''
     mime_type = 'video/x-msvideo'
     identity_media_format_id = resource.media_format.video_10053.media_format_id
+	autolink {
+		item_guid = 'a78c4240-0730-4b09-96a6-77df8609ef09'
+	}
 }
 
 resource media_format_type stereolithography_190005 {
@@ -808,6 +925,9 @@ resource media_format_type stereolithography_190005 {
     icon_large = ''
     mime_type = ''
     identity_media_format_id = resource.media_format.stereolithography_stl_50070.media_format_id
+	autolink {
+		item_guid = 'b6778067-b044-4014-a162-45539f357f35'
+	}
 }
 
 resource media_format_type powerpoint_macroenabled_template_50005 {
@@ -828,6 +948,9 @@ resource media_format_type powerpoint_macroenabled_template_50005 {
     icon_large = ''
     mime_type = 'application/vnd.ms-powerpoint.template.macroEnabled.12'
     identity_media_format_id = resource.media_format.powerpoint_template_potx_50045.media_format_id
+	autolink {
+		item_guid = '074eb157-d2c3-43a7-816b-98d23dc788be'
+	}
 }
 
 resource media_format_type visio_macroenabled_drawing_180004 {
@@ -848,6 +971,9 @@ resource media_format_type visio_macroenabled_drawing_180004 {
     icon_large = ''
     mime_type = 'application/vnd.ms-visio.drawing.macroEnabled'
     identity_media_format_id = resource.media_format.visio_drawing_vsdx_50063.media_format_id
+	autolink {
+		item_guid = 'ff521642-f023-4abc-a7c5-c26550f0ae02'
+	}
 }
 
 resource media_format_type mpeg_audio_layer_3_20003 {
@@ -868,6 +994,9 @@ resource media_format_type mpeg_audio_layer_3_20003 {
     icon_large = ''
     mime_type = 'audio/mpeg'
     identity_media_format_id = resource.media_format.audio_50029.media_format_id
+	autolink {
+		item_guid = 'c85ffd99-06b9-4d02-84ee-49022f52d501'
+	}
 }
 
 resource media_format_type after_effects_project_210000 {
@@ -888,6 +1017,9 @@ resource media_format_type after_effects_project_210000 {
     icon_large = ''
     mime_type = ''
     identity_media_format_id = resource.media_format.after_effects_project_aep_50082.media_format_id
+	autolink {
+		item_guid = 'bea4862b-f653-44e4-9cc1-5057f99a8597'
+	}
 }
 
 resource media_format_type quicktime_10007 {
@@ -908,6 +1040,9 @@ resource media_format_type quicktime_10007 {
     icon_large = ''
     mime_type = 'video/quicktime'
     identity_media_format_id = resource.media_format.video_10053.media_format_id
+	autolink {
+		item_guid = '337c4048-a554-4ff8-81f2-b38c01e90d11'
+	}
 }
 
 resource media_format_type web_open_font_format_200103 {
@@ -928,6 +1063,9 @@ resource media_format_type web_open_font_format_200103 {
     icon_large = ''
     mime_type = 'font/woff'
     identity_media_format_id = resource.media_format.web_open_font_format_woff_50085.media_format_id
+	autolink {
+		item_guid = '34ecb6b6-7ddd-4c00-b6fd-7168d27b1b2d'
+	}
 }
 
 resource media_format_type openoffice_writer_template_1010001 {
@@ -948,6 +1086,9 @@ resource media_format_type openoffice_writer_template_1010001 {
     icon_large = ''
     mime_type = 'application/vnd.oasis.opendocument.text-template'
     identity_media_format_id = resource.media_format.openoffice_writer_document_template_ott_50075.media_format_id
+	autolink {
+		item_guid = '00559f99-6546-47da-ab5a-bb33af2f996b'
+	}
 }
 
 resource media_format_type text_70001 {
@@ -968,6 +1109,9 @@ resource media_format_type text_70001 {
     icon_large = '../images/asset/166/text166.gif'
     mime_type = 'text/plain'
     identity_media_format_id = 0
+	autolink {
+		item_guid = 'a0db136c-cfe1-46c2-9a78-1738f912a74f'
+	}
 }
 
 resource media_format_type cad_container_130000 {
@@ -988,6 +1132,9 @@ resource media_format_type cad_container_130000 {
     icon_large = ''
     mime_type = ''
     identity_media_format_id = resource.media_format.image_50030.media_format_id
+	autolink {
+		item_guid = '6594269e-76e2-4369-b0f3-26f14a1d11a2'
+	}
 }
 
 resource media_format_type powerpoint_presentation_50001 {
@@ -1008,6 +1155,9 @@ resource media_format_type powerpoint_presentation_50001 {
     icon_large = ''
     mime_type = 'application/vnd.openxmlformats-officedocument.presentationml.presentation'
     identity_media_format_id = resource.media_format.powerpoint_10077.media_format_id
+	autolink {
+		item_guid = 'd07a5e73-39e1-4b47-8be6-04af402fcb88'
+	}
 }
 
 resource media_format_type excel_macroenabled_workbook_90004 {
@@ -1028,6 +1178,9 @@ resource media_format_type excel_macroenabled_workbook_90004 {
     icon_large = ''
     mime_type = 'application/vnd.ms-excel.sheet.macroEnabled.12'
     identity_media_format_id = resource.media_format.excel_workbook_xlsx_50058.media_format_id
+	autolink {
+		item_guid = 'f316b00c-4769-4ec3-b763-8b4f85645558'
+	}
 }
 
 resource media_format_type visio_macroenabled_stencil_180005 {
@@ -1048,6 +1201,9 @@ resource media_format_type visio_macroenabled_stencil_180005 {
     icon_large = ''
     mime_type = 'application/vnd.ms-visio.stencil.macroEnabled'
     identity_media_format_id = resource.media_format.visio_stencil_vssx_50065.media_format_id
+	autolink {
+		item_guid = '600bdaa2-0cd6-4472-8e9b-7ed0320d174c'
+	}
 }
 
 resource media_format_type nikon_electronic_format_40012 {
@@ -1068,6 +1224,9 @@ resource media_format_type nikon_electronic_format_40012 {
     icon_large = ''
     mime_type = 'image/x-nikon-nef'
     identity_media_format_id = resource.media_format.image_50030.media_format_id
+	autolink {
+		item_guid = '4a024861-e35e-48b0-8ac4-ec95544f1dbe'
+	}
 }
 
 resource media_format_type alaw_20004 {
@@ -1086,6 +1245,9 @@ resource media_format_type alaw_20004 {
     icon_large = ''
     mime_type = 'audio/raw'
     identity_media_format_id = resource.media_format.audio_50029.media_format_id
+	autolink {
+		item_guid = 'e1714f54-2f79-44f0-a4cd-2431acf9bd7b'
+	}
 }
 
 resource media_format_type real_media_10002 {
@@ -1106,6 +1268,9 @@ resource media_format_type real_media_10002 {
     icon_large = ''
     mime_type = 'application/vnd.rn-realmedia'
     identity_media_format_id = resource.media_format.video_10053.media_format_id
+	autolink {
+		item_guid = '0fc67e88-1f4c-4abc-a735-be0af424e549'
+	}
 }
 
 resource media_format_type web_open_font_format_2_200104 {
@@ -1126,6 +1291,9 @@ resource media_format_type web_open_font_format_2_200104 {
     icon_large = ''
     mime_type = 'font/woff2'
     identity_media_format_id = resource.media_format.web_open_font_format2_woff2_50086.media_format_id
+	autolink {
+		item_guid = '5769b625-dc6d-4863-af59-53fc86f5bfa6'
+	}
 }
 
 resource media_format_type pagemaker_120501 {
@@ -1146,6 +1314,9 @@ resource media_format_type pagemaker_120501 {
     icon_large = '../images/asset/166/pagemaker166.gif'
     mime_type = 'application/x-pagemaker'
     identity_media_format_id = 0
+	autolink {
+		item_guid = '3ec12ced-7826-4d50-82c4-ab563634aaab'
+	}
 }
 
 resource media_format_type theora_10203 {
@@ -1168,6 +1339,9 @@ resource media_format_type theora_10203 {
     icon_large = ''
     mime_type = 'video/ogg'
     identity_media_format_id = resource.media_format.video_10053.media_format_id
+	autolink {
+		item_guid = '9e0dd617-3fb4-48a4-9c9c-23fa08ad40e3'
+	}
 }
 
 resource media_format_type canon_digital_camera_raw_image_format_40011 {
@@ -1188,6 +1362,9 @@ resource media_format_type canon_digital_camera_raw_image_format_40011 {
     icon_large = ''
     mime_type = 'image/x-canon-cr2'
     identity_media_format_id = resource.media_format.image_50030.media_format_id
+	autolink {
+		item_guid = 'c730e536-9069-4a62-bf5d-42881a156907'
+	}
 }
 
 resource media_format_type word_macroenabled_template_80005 {
@@ -1208,6 +1385,9 @@ resource media_format_type word_macroenabled_template_80005 {
     icon_large = ''
     mime_type = 'application/vnd.ms-word.template.macroEnabled.12'
     identity_media_format_id = resource.media_format.word_template_dotx_50053.media_format_id
+	autolink {
+		item_guid = 'e479c56d-ee98-44fb-9fae-f4c760d37fc3'
+	}
 }
 
 resource media_format_type visio_macroenabled_template_180006 {
@@ -1228,6 +1408,9 @@ resource media_format_type visio_macroenabled_template_180006 {
     icon_large = ''
     mime_type = 'application/vnd.ms-visio.template.macroEnabled'
     identity_media_format_id = resource.media_format.visio_template_vstx_50064.media_format_id
+	autolink {
+		item_guid = 'a1efd74d-e019-47f5-a8de-68b3821351d7'
+	}
 }
 
 resource media_format_type powerpoint_slideshow_50006 {
@@ -1248,6 +1431,9 @@ resource media_format_type powerpoint_slideshow_50006 {
     icon_large = ''
     mime_type = 'application/vnd.openxmlformats-officedocument.presentationml.slideshow'
     identity_media_format_id = resource.media_format.powerpoint_slideshow_ppsx_50048.media_format_id
+	autolink {
+		item_guid = 'a7c2cee7-e658-4c5e-8cd9-b5a3aa4e4c77'
+	}
 }
 
 resource media_format_type excel_template_90003 {
@@ -1268,6 +1454,9 @@ resource media_format_type excel_template_90003 {
     icon_large = ''
     mime_type = 'application/vnd.openxmlformats-officedocument.spreadsheetml.template'
     identity_media_format_id = resource.media_format.excel_template_xltx_50059.media_format_id
+	autolink {
+		item_guid = 'd71b26be-476a-47a6-afd6-36e4037e3453'
+	}
 }
 
 resource media_format_type scaleable_vector_graphics_40009 {
@@ -1288,6 +1477,9 @@ resource media_format_type scaleable_vector_graphics_40009 {
     icon_large = ''
     mime_type = 'image/svg+xml'
     identity_media_format_id = resource.media_format.image_50030.media_format_id
+	autolink {
+		item_guid = '2a1825ce-513b-4c2b-9d2f-692e62c1ab4f'
+	}
 }
 
 resource media_format_type archive_200001 {
@@ -1308,6 +1500,9 @@ resource media_format_type archive_200001 {
     icon_large = '../images/asset/166/archive166.gif'
     mime_type = ''
     identity_media_format_id = 0
+	autolink {
+		item_guid = '5f7af383-9884-42b9-a1c3-95f639a89e60'
+	}
 }
 
 resource media_format_type high_efficiency_image_file_format_heif_40108 {
@@ -1328,6 +1523,9 @@ resource media_format_type high_efficiency_image_file_format_heif_40108 {
     icon_large = ''
     mime_type = 'image/heif'
     identity_media_format_id = resource.media_format.image_50030.media_format_id
+	autolink {
+		item_guid = '11d4a34e-9538-400e-ae21-02a1d88d7a9b'
+	}
 }
 
 resource media_format_type webm_10202 {
@@ -1348,6 +1546,9 @@ resource media_format_type webm_10202 {
     icon_large = ''
     mime_type = 'video/webm'
     identity_media_format_id = resource.media_format.video_10053.media_format_id
+	autolink {
+		item_guid = '0524b58a-fd06-4cc4-9b18-e8b9fb6ad231'
+	}
 }
 
 resource media_format_type photoshop_40008 {
@@ -1368,6 +1569,9 @@ resource media_format_type photoshop_40008 {
     icon_large = ''
     mime_type = 'image/photoshop'
     identity_media_format_id = resource.media_format.image_50030.media_format_id
+	autolink {
+		item_guid = 'fb3883d4-b147-4a82-93cd-d2c7d03786f1'
+	}
 }
 
 resource media_format_type tiff_without_lzw_compression_40003 {
@@ -1390,6 +1594,9 @@ resource media_format_type tiff_without_lzw_compression_40003 {
     icon_large = ''
     mime_type = 'image/tif'
     identity_media_format_id = resource.media_format.image_50030.media_format_id
+	autolink {
+		item_guid = 'd46f783e-932c-4d86-b3f3-d255e4cc9170'
+	}
 }
 
 resource media_format_type word_perfect_120401 {
@@ -1412,6 +1619,9 @@ resource media_format_type word_perfect_120401 {
     icon_large = ''
     mime_type = 'application/vnd.wordperfect'
     identity_media_format_id = 0
+	autolink {
+		item_guid = 'f1d712fa-f5bf-413b-8e69-ea54d20ed335'
+	}
 }
 
 resource media_format_type design_web_format_190008 {
@@ -1432,6 +1642,9 @@ resource media_format_type design_web_format_190008 {
     icon_large = ''
     mime_type = ''
     identity_media_format_id = resource.media_format.design_web_format_dwf_50073.media_format_id
+	autolink {
+		item_guid = 'e6a163b3-0899-488c-b206-4f8e936d5cd6'
+	}
 }
 
 resource media_format_type powerpoint_template_50003 {
@@ -1452,6 +1665,9 @@ resource media_format_type powerpoint_template_50003 {
     icon_large = ''
     mime_type = 'application/vnd.openxmlformats-officedocument.presentationml.template'
     identity_media_format_id = resource.media_format.powerpoint_template_potx_50045.media_format_id
+	autolink {
+		item_guid = '48a5770a-1c0f-47f3-8f9f-96a8693e182e'
+	}
 }
 
 resource media_format_type excel_workbook_90002 {
@@ -1474,6 +1690,9 @@ resource media_format_type excel_workbook_90002 {
     icon_large = ''
     mime_type = 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'
     identity_media_format_id = resource.media_format.excel_workbook_xlsx_50058.media_format_id
+	autolink {
+		item_guid = '57b2207a-5775-4a30-97b6-850fd39b6fb6'
+	}
 }
 
 resource media_format_type visio_stencil_180002 {
@@ -1494,6 +1713,9 @@ resource media_format_type visio_stencil_180002 {
     icon_large = ''
     mime_type = 'application/vnd.ms-visio.stencil'
     identity_media_format_id = resource.media_format.visio_stencil_vssx_50065.media_format_id
+	autolink {
+		item_guid = 'b9281785-bc3d-4913-a145-e5eb6c658f2d'
+	}
 }
 
 resource media_format_type sit_120301 {
@@ -1516,6 +1738,9 @@ resource media_format_type sit_120301 {
     icon_large = '../images/asset/166/sit166.gif'
     mime_type = ''
     identity_media_format_id = 0
+	autolink {
+		item_guid = 'b377be9a-fd39-4211-b00c-26b4079b39c2'
+	}
 }
 
 resource media_format_type autocad_drawing_database_190001 {
@@ -1536,6 +1761,9 @@ resource media_format_type autocad_drawing_database_190001 {
     icon_large = ''
     mime_type = ''
     identity_media_format_id = resource.media_format.autocad_drawing_database_dwg_50066.media_format_id
+	autolink {
+		item_guid = '69b00754-ccbc-484f-b634-3fe75700afa3'
+	}
 }
 
 resource media_format_type hpgl_plot_190007 {
@@ -1556,6 +1784,9 @@ resource media_format_type hpgl_plot_190007 {
     icon_large = ''
     mime_type = ''
     identity_media_format_id = resource.media_format.hpgl_plot_plt_50072.media_format_id
+	autolink {
+		item_guid = '24198f3a-45a1-411c-9d06-8ca31e9d0268'
+	}
 }
 
 resource media_format_type windows_bitmap_40005 {
@@ -1576,6 +1807,9 @@ resource media_format_type windows_bitmap_40005 {
     icon_large = ''
     mime_type = 'image/bmp'
     identity_media_format_id = resource.media_format.image_50030.media_format_id
+	autolink {
+		item_guid = '4479757b-2dce-4e65-9d99-333d16109cda'
+	}
 }
 
 resource media_format_type truetype_font_200101 {
@@ -1596,6 +1830,9 @@ resource media_format_type truetype_font_200101 {
     icon_large = ''
     mime_type = 'font/ttf'
     identity_media_format_id = resource.media_format.truetype_font_ttf_50083.media_format_id
+	autolink {
+		item_guid = '74291b3d-04d8-40d5-b1ee-b5a57c2c01ef'
+	}
 }
 
 resource media_format_type drawing_exchange_format_190002 {
@@ -1616,6 +1853,9 @@ resource media_format_type drawing_exchange_format_190002 {
     icon_large = ''
     mime_type = ''
     identity_media_format_id = resource.media_format.drawing_exchange_format_dxf_50067.media_format_id
+	autolink {
+		item_guid = '82c0c6c6-90ee-4f38-a890-156c38dba76e'
+	}
 }
 
 resource media_format_type legacy_excel_template_90007 {
@@ -1636,6 +1876,9 @@ resource media_format_type legacy_excel_template_90007 {
     icon_large = ''
     mime_type = 'application/vnd.ms-excel'
     identity_media_format_id = resource.media_format.excel_template_xltx_50059.media_format_id
+	autolink {
+		item_guid = 'b34f6f7e-a768-4fb6-aca4-9a35bf68d0c1'
+	}
 }
 
 resource media_format_type word_template_80003 {
@@ -1656,6 +1899,9 @@ resource media_format_type word_template_80003 {
     icon_large = ''
     mime_type = 'application/vnd.openxmlformats-officedocument.wordprocessingml.template'
     identity_media_format_id = resource.media_format.word_template_dotx_50053.media_format_id
+	autolink {
+		item_guid = '0baa98fa-0b88-4ac1-9fb3-ea8a9b5ce809'
+	}
 }
 
 resource media_format_type premiere_pro_project_220000 {
@@ -1676,6 +1922,9 @@ resource media_format_type premiere_pro_project_220000 {
     icon_large = ''
     mime_type = ''
     identity_media_format_id = resource.media_format.premiere_pro_project_prproj_50081.media_format_id
+	autolink {
+		item_guid = '37aa6ce1-b3b1-49ef-8b42-fad4dae9b3f4'
+	}
 }
 
 resource media_format_type flash_video_200100 {
@@ -1696,6 +1945,9 @@ resource media_format_type flash_video_200100 {
     icon_large = ''
     mime_type = ''
     identity_media_format_id = resource.media_format.video_10053.media_format_id
+	autolink {
+		item_guid = '95e41d3d-cef1-418b-9604-a24bbe7ef3d0'
+	}
 }
 
 resource media_format_type visio_template_180003 {
@@ -1716,6 +1968,9 @@ resource media_format_type visio_template_180003 {
     icon_large = ''
     mime_type = 'application/vnd.ms-visio.template'
     identity_media_format_id = resource.media_format.visio_template_vstx_50064.media_format_id
+	autolink {
+		item_guid = '1ee70f7a-ee5e-4d07-b211-2070e9d46789'
+	}
 }
 
 resource media_format_type smil_200201 {
@@ -1736,6 +1991,9 @@ resource media_format_type smil_200201 {
     icon_large = ''
     mime_type = 'application/smil'
     identity_media_format_id = resource.media_format.video_10053.media_format_id
+	autolink {
+		item_guid = 'b0770ebe-fc88-44ea-bbc3-ba2d71d4c2ad'
+	}
 }
 
 resource media_format_type hyper_text_markup_language_60001 {
@@ -1758,6 +2016,9 @@ resource media_format_type hyper_text_markup_language_60001 {
     icon_large = ''
     mime_type = 'text/html'
     identity_media_format_id = resource.media_format.html_50031.media_format_id
+	autolink {
+		item_guid = '44c4611f-9a2d-40b0-aac3-1918f7999a95'
+	}
 }
 
 resource media_format_type windows_font_200107 {
@@ -1778,6 +2039,9 @@ resource media_format_type windows_font_200107 {
     icon_large = ''
     mime_type = 'font/fnt'
     identity_media_format_id = resource.media_format.windows_font_fnt_50089.media_format_id
+	autolink {
+		item_guid = 'd56285f9-fbe7-405e-a99d-c8abe34f87d3'
+	}
 }
 
 resource media_format_type windows_font_library_200108 {
@@ -1798,6 +2062,9 @@ resource media_format_type windows_font_library_200108 {
     mime_type = 'application/octet-stream'
     name = 'Windows font Library'
     upload_convert_to_archive = false
+	autolink {
+		item_guid = 'aab4b75c-bcf7-4d3c-8e67-f1fcf76d2928'
+	}
 }
 
 resource media_format_type autocad_drawing_template_190006 {
@@ -1818,6 +2085,9 @@ resource media_format_type autocad_drawing_template_190006 {
     icon_large = ''
     mime_type = ''
     identity_media_format_id = resource.media_format.autocad_drawing_template_dwt_50071.media_format_id
+	autolink {
+		item_guid = '607327ae-6ae3-4e4b-9da8-7c22a1843f82'
+	}
 }
 
 resource media_format_type ulaw_20005 {
@@ -1836,6 +2106,9 @@ resource media_format_type ulaw_20005 {
     icon_large = ''
     mime_type = 'audio/raw'
     identity_media_format_id = resource.media_format.audio_50029.media_format_id
+	autolink {
+		item_guid = '7b0e62c0-b72e-4852-ba32-96ea9f662321'
+	}
 }
 
 resource media_format_type dvcpro_10006 {
@@ -1858,6 +2131,9 @@ resource media_format_type dvcpro_10006 {
     icon_large = ''
     mime_type = 'video/x-dv'
     identity_media_format_id = resource.media_format.video_10053.media_format_id
+	autolink {
+		item_guid = '3516a450-5794-4624-a6e2-2c8d4edef122'
+	}
 }
 
 resource media_format_type xml_70101 {
@@ -1878,6 +2154,9 @@ resource media_format_type xml_70101 {
     icon_large = '../images/asset/166/xml166.gif'
     mime_type = 'application/xml'
     identity_media_format_id = 0
+	autolink {
+		item_guid = '5abed73c-8b7e-4b56-96ce-b81b4d6d5865'
+	}
 }
 
 resource media_format_type legacy_powerpoint_50002 {
@@ -1898,6 +2177,9 @@ resource media_format_type legacy_powerpoint_50002 {
     icon_large = ''
     mime_type = 'application/vnd.ms-powerpoint'
     identity_media_format_id = resource.media_format.powerpoint_10077.media_format_id
+	autolink {
+		item_guid = '072ff596-ac43-4a95-8cbd-d7012eebe19e'
+	}
 }
 
 resource media_format_type waveform_audio_20002 {
@@ -1918,6 +2200,9 @@ resource media_format_type waveform_audio_20002 {
     icon_large = ''
     mime_type = 'audio/wav'
     identity_media_format_id = resource.media_format.audio_50029.media_format_id
+	autolink {
+		item_guid = '10a50b76-9982-4135-a2ad-6e1ddaeb2b01'
+	}
 }
 
 resource media_format_type adobe_illustrator_120101 {
@@ -1938,6 +2223,9 @@ resource media_format_type adobe_illustrator_120101 {
     icon_large = ''
     mime_type = 'application/illustrator'
     identity_media_format_id = resource.media_format.image_50030.media_format_id
+	autolink {
+		item_guid = '1b7b834b-f28a-4af4-9572-d6f16b00e5ea'
+	}
 }
 
 resource media_format_type fm_120601 {
@@ -1958,6 +2246,9 @@ resource media_format_type fm_120601 {
     icon_large = ''
     mime_type = 'application/vnd.framemaker'
     identity_media_format_id = 0
+	autolink {
+		item_guid = '357ee22e-c203-4535-9b02-a42ffa8b0ced'
+	}
 }
 
 resource media_format_type windows_media_9_10001 {
@@ -1978,6 +2269,9 @@ resource media_format_type windows_media_9_10001 {
     icon_large = ''
     mime_type = 'video/x-ms-wmv'
     identity_media_format_id = resource.media_format.video_10053.media_format_id
+	autolink {
+		item_guid = '34e77f6e-8ac2-43b0-9593-427748896f14'
+	}
 }
 
 resource media_format_type indesign_100001 {
@@ -2000,6 +2294,9 @@ resource media_format_type indesign_100001 {
     icon_large = '../images/asset/166/indesign166.gif'
     mime_type = 'application/x-indesign'
     identity_media_format_id = resource.media_format.adobe_indesign_50011.media_format_id
+	autolink {
+		item_guid = '7b2f104e-86a6-4bd7-bc15-bbb71855e286'
+	}
 }
 
 resource media_format_type visio_120801 {
@@ -2018,6 +2315,9 @@ resource media_format_type visio_120801 {
     icon_large = '../images/asset/166/visio166.gif'
     mime_type = 'application/vnd.ms-visio.drawing'
     identity_media_format_id = 0
+	autolink {
+		item_guid = 'c5d88b4c-44a6-4bb8-a14b-ffd2b10d4ce8'
+	}
 }
 
 resource media_format_type encapsulated_postscript_40004 {
@@ -2042,6 +2342,9 @@ resource media_format_type encapsulated_postscript_40004 {
     icon_large = ''
     mime_type = 'application/postscript'
     identity_media_format_id = resource.media_format.image_50030.media_format_id
+	autolink {
+		item_guid = '461e9188-b90b-4fd1-ab90-b269b6d108cb'
+	}
 }
 
 resource media_format_type legacy_powerpoint_template_50008 {
@@ -2062,6 +2365,9 @@ resource media_format_type legacy_powerpoint_template_50008 {
     icon_large = ''
     mime_type = ''
     identity_media_format_id = resource.media_format.powerpoint_template_potx_50045.media_format_id
+	autolink {
+		item_guid = '5cbec562-721c-46db-b835-41d405971a45'
+	}
 }
 
 resource media_format_type zip_110001 {
@@ -2082,6 +2388,9 @@ resource media_format_type zip_110001 {
     icon_large = ''
     mime_type = ''
     identity_media_format_id = 0
+	autolink {
+		item_guid = 'f1e20ed6-ff36-4ce7-a935-ee087ae8d486'
+	}
 }
 
 resource media_format_type wavefront_mtl_file_130004 {
@@ -2102,6 +2411,9 @@ resource media_format_type wavefront_mtl_file_130004 {
     icon_large = ''
     mime_type = 'material/wavefront-mtl'
     identity_media_format_id = 0
+	autolink {
+		item_guid = '8a2250ef-fdf5-45c4-ae44-e898fe2d938c'
+	}
 }
 
 resource media_format_type adobe_type1_font_200106 {
@@ -2122,6 +2434,9 @@ resource media_format_type adobe_type1_font_200106 {
     icon_large = ''
     mime_type = 'font/pfa'
     identity_media_format_id = resource.media_format.adobe_type1_font_pfa_50088.media_format_id
+	autolink {
+		item_guid = '430d4ac3-8ee2-4f19-9d9a-1826fe2a20f7'
+	}
 }
 
 resource media_format_type generic_image_40000 {
@@ -2140,6 +2455,9 @@ resource media_format_type generic_image_40000 {
     icon_large = ''
     mime_type = ''
     identity_media_format_id = resource.media_format.image_50030.media_format_id
+	autolink {
+		item_guid = 'cb18c6f7-7f19-4603-b3ad-f11b92f4ff71'
+	}
 }
 
 resource media_format_type meta_1000000 {
@@ -2158,6 +2476,9 @@ resource media_format_type meta_1000000 {
     icon_large = ''
     mime_type = ''
     identity_media_format_id = 0
+	autolink {
+		item_guid = '514d8391-88cc-4db8-8cd4-7ee3ba8e9ca9'
+	}
 }
 
 resource media_format_type windows_media_audio_20001 {
@@ -2178,6 +2499,9 @@ resource media_format_type windows_media_audio_20001 {
     icon_large = ''
     mime_type = 'audio/x-ms-wma'
     identity_media_format_id = resource.media_format.audio_50029.media_format_id
+	autolink {
+		item_guid = 'e5a66930-f8df-46ff-8399-8a9c1fa2050b'
+	}
 }
 
 resource media_format_type open_type_font_200102 {
@@ -2198,6 +2522,9 @@ resource media_format_type open_type_font_200102 {
     icon_large = ''
     mime_type = 'font/otf'
     identity_media_format_id = resource.media_format.open_type_font_otf_50084.media_format_id
+	autolink {
+		item_guid = '1a34280f-f469-4a9e-9048-84833344efbf'
+	}
 }
 
 resource media_format_type autodesk_3d_studio_max_130002 {
@@ -2218,6 +2545,9 @@ resource media_format_type autodesk_3d_studio_max_130002 {
     icon_large = ''
     mime_type = 'application/x-3ds'
     identity_media_format_id = resource.media_format.autodesk_3d_studio_max_file_50026.media_format_id
+	autolink {
+		item_guid = '2fec1561-4547-43b2-b3a2-de5e43001b87'
+	}
 }
 
 resource media_format_type industry_foundation_classes_190004 {
@@ -2238,4 +2568,7 @@ resource media_format_type industry_foundation_classes_190004 {
     icon_large = ''
     mime_type = ''
     identity_media_format_id = resource.media_format.industry_foundation_classes_ifc_50069.media_format_id
+	autolink {
+		item_guid = 'ec0944ea-6333-45e0-a63a-6a2078361b5d'
+	}
 }

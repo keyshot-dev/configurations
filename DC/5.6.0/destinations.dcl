@@ -34,6 +34,9 @@ resource destination asset_storage_azure {
     cache_server_max_age = 0
     cache_must_revalidate = false
     cache_proxy_revalidate = false
+    autolink {
+        item_guid = '99c194ab-4c57-428e-bb05-d2697808bdc8'
+    }
 }
 
 resource destination frontenddata_no_security {
@@ -72,6 +75,9 @@ resource destination frontenddata_no_security {
     cache_server_max_age = 0
     cache_must_revalidate = false
     cache_proxy_revalidate = false
+    autolink {
+        item_guid = '2c4df9e0-4960-4cff-b6c8-dba014393ee5'
+    }
 }
 
 resource destination frontenddata_unc {
@@ -110,6 +116,9 @@ resource destination frontenddata_unc {
     cache_server_max_age = 0
     cache_must_revalidate = false
     cache_proxy_revalidate = false
+    autolink {
+        item_guid  = 'd92d2943-b0fd-413b-8b7b-a780c5c4e7c7'
+    }
 }
 
 resource destination frontenddata_azure {
@@ -148,6 +157,9 @@ resource destination frontenddata_azure {
     cache_server_max_age = 0
     cache_must_revalidate = false
     cache_proxy_revalidate = false
+    autolink {
+        item_guid  = 'aa364c00-14e4-435a-8a65-d92d49063a54'
+    }      
 }
 
 resource destination asset_storage_unc {
@@ -186,6 +198,9 @@ resource destination asset_storage_unc {
     cache_server_max_age = 0
     cache_must_revalidate = false
     cache_proxy_revalidate = false
+    autolink {
+        item_guid  = '4895b7c3-dafe-4c59-ba43-4ab19953df37'
+    }
 }
 
 resource destination frontenddata_sm {
@@ -224,6 +239,9 @@ resource destination frontenddata_sm {
     cache_server_max_age = 0
     cache_must_revalidate = false
     cache_proxy_revalidate = false
+    autolink {
+        item_guid  = 'b1bb6f18-6fe5-441a-a3fa-e6fca2769acb'
+    }
 }
 
 resource destination frontend_zip_download_sm {
@@ -262,6 +280,9 @@ resource destination frontend_zip_download_sm {
     cache_server_max_age = 0
     cache_must_revalidate = false
     cache_proxy_revalidate = false
+    autolink {
+        item_guid  = '71707035-a267-4e33-8b7c-5a026bf61ade'
+    }
 }
 
 resource destination asset_storage_sm {
@@ -300,6 +321,9 @@ resource destination asset_storage_sm {
     cache_server_max_age = 0
     cache_must_revalidate = false
     cache_proxy_revalidate = false
+    autolink {
+        item_guid  = 'f6be559a-9341-4445-88b1-88f1d3224b30'
+    }
 }
 
 resource destination frontenddata_no_security_sm {
@@ -338,6 +362,9 @@ resource destination frontenddata_no_security_sm {
     cache_server_max_age = 0
     cache_must_revalidate = false
     cache_proxy_revalidate = false
+    autolink {
+        item_guid  = '1c28f88e-e350-4edf-9f7a-ca504e5dd200'
+    }
 }
 
 resource destination frontend_zip_download {
@@ -376,6 +403,9 @@ resource destination frontend_zip_download {
     cache_server_max_age = 0
     cache_must_revalidate = false
     cache_proxy_revalidate = false
+    autolink {
+        item_guid  = '3876575f-ab4c-422f-926f-4cf175d346df'
+    }
 }
 
 resource destination zipftp_9 {
@@ -414,5 +444,7 @@ resource destination zipftp_9 {
     cache_server_max_age = 0
     cache_must_revalidate = false
     cache_proxy_revalidate = false
+    autolink {
+        item_guid  = '52809f9b-1240-419c-802a-18c9645f24da'
+    }
 }
-

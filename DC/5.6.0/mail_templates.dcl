@@ -3,6 +3,11 @@ resource mail_template htmlheaderstart {
     language_id = resource.language.english.id
     template_name = 'html-header-start'
     subject = 'html-header-start'
+    autolink {
+        config_version = '/'
+        language_id = resource.language.english.id
+        template_name = 'html-header-start'
+    }
     body = '<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -18,6 +23,11 @@ resource mail_template basketzipfileready {
     config_version = '/'
     language_id = resource.language.english.id
     template_name = 'basket-zip-file-ready'
+    autolink {
+        config_version = '/'
+        language_id = resource.language.english.id
+        template_name = 'basket-zip-file-ready'
+    }
     subject = 'Basket {{data.basketname}} are ready for download'
     body = '{{include \'html-header-start\'}}
 
@@ -76,6 +86,11 @@ resource mail_template htmlheaderend {
     config_version = '/'
     language_id = resource.language.english.id
     template_name = 'html-header-end'
+    autolink {
+        config_version = '/'
+        language_id = resource.language.english.id
+        template_name = 'html-header-end'
+    }
     subject = 'html-header-end'
     body = '</head><body>'
 }
@@ -84,6 +99,11 @@ resource mail_template resetpassword {
     config_version = '/'
     language_id = resource.language.english.id
     template_name = 'reset-password'
+    autolink {
+        config_version = '/'
+        language_id = resource.language.english.id
+        template_name = 'reset-password'
+    }
     subject = 'Password reset code'
     body = "{{include 'html-header-start'}}
 
@@ -106,6 +126,11 @@ resource mail_template adminnotificationmembercreated {
     config_version = '/'
     language_id = resource.language.english.id
     template_name = 'admin-notification-member-created'
+    autolink {
+        config_version = '/'
+        language_id = resource.language.english.id
+        template_name = 'admin-notification-member-created'
+    }
     subject = 'User {{data.UserFullname | html.escape}} requested access to Media Manager'
     body = '{{include \'html-header-start\'}}
         <title>User {{data.UserFullname | html.escape}} requested access to Media Manager</title>
@@ -136,6 +161,11 @@ resource mail_template basketsharedbyemail {
     config_version = '/'
     language_id = resource.language.english.id
     template_name = 'basket-shared-by-email'
+    autolink {
+        config_version = '/'
+        language_id = resource.language.english.id
+        template_name = 'basket-shared-by-email'
+    }
     subject = "{{sender.name}} has invited you to join a shared collection in Digizuite' Media Manager"
     body = '{{include \'html-header-start\'}}
 
@@ -193,6 +223,11 @@ resource mail_template assetcustommediaready {
     config_version = '/'
     language_id = resource.language.english.id
     template_name = 'asset-custom-media-ready'
+    autolink {
+        config_version = '/'
+        language_id = resource.language.english.id
+        template_name = 'asset-custom-media-ready'
+    }
     subject = 'Your custom generated file is now ready for download'
     body = '{{include \'html-header-start\'}}
 
@@ -249,6 +284,11 @@ resource mail_template emailzipfileready {
     config_version = '/'
     language_id = resource.language.english.id
     template_name = 'email-zip-file-ready'
+    autolink {
+        config_version = '/'
+        language_id = resource.language.english.id
+        template_name = 'email-zip-file-ready'
+    }
     subject = "Your selected file(s) are now ready for download from Digizuite' Media Manager."
     body = '{{include \'html-header-start\'}}
 
@@ -307,6 +347,11 @@ resource mail_template basestyling {
     config_version = '/'
     language_id = resource.language.english.id
     template_name = 'base-styling'
+    autolink {
+        config_version = '/'
+        language_id = resource.language.english.id
+        template_name = 'base-styling'
+    }
     subject = 'base-styling'
     body = '<style type="text/css" rel="stylesheet" media="all">
     /* Base ------------------------------ */
@@ -479,6 +524,11 @@ resource mail_template standardheader {
     config_version = '/'
     language_id = resource.language.english.id
     template_name = 'standard-header'
+    autolink {
+        config_version = '/'
+        language_id = resource.language.english.id
+        template_name = 'standard-header'
+    }
     subject = 'standard-header'
     body = '
 <table class="email-wrapper" width="100%" cellpadding="0" cellspacing="0">
@@ -505,6 +555,11 @@ resource mail_template memberconfirmation {
     config_version = '/'
     language_id = resource.language.english.id
     template_name = 'member-confirmation'
+    autolink {
+        config_version = '/'
+        language_id = resource.language.english.id
+        template_name = 'member-confirmation'
+    }
     subject = 'Please Confirm your Media Manager user'
     body = '{{include \'html-header-start\'}}
         <title>Please Confirm your Media Manager user</title>
@@ -550,6 +605,11 @@ resource mail_template standardfooter {
     config_version = '/'
     language_id = resource.language.english.id
     template_name = 'standard-footer'
+    autolink {
+        config_version = '/'
+        language_id = resource.language.english.id
+        template_name = 'standard-footer'
+    }
     subject = 'standard-footer'
     body = '
                         </td>
@@ -588,6 +648,11 @@ resource mail_template memberconfirmed {
     config_version = '/'
     language_id = resource.language.english.id
     template_name = 'member-confirmed'
+    autolink {
+        config_version = '/'
+        language_id = resource.language.english.id
+        template_name = 'member-confirmed'
+    }
     subject = 'Media Manager user creation confirmed'
     body = "{{include 'html-header-start'}}
         <title>Media Manager user creation confirmed</title>

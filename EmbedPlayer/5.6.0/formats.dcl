@@ -44,6 +44,9 @@ resource media_format desktop_video_thumb_50019 {
     force_aspect = false
     output_quality = 0
     icc_profile = 'sRGB.icc'
+	autolink {
+		item_guid = '84409e98-bd3b-4b1d-8e8e-bdcc1a745293'
+	}
 }
 
 resource media_format tablet_video_thumb_50020 {
@@ -87,6 +90,9 @@ resource media_format tablet_video_thumb_50020 {
     force_aspect = false
     output_quality = 0
     icc_profile = 'sRGB.icc'
+	autolink {
+		item_guid = 'c0443754-965c-4480-8eda-3df28de25ffd'
+	}
 }
 
 resource media_format mobile_video_thumb_50021 {
@@ -130,6 +136,9 @@ resource media_format mobile_video_thumb_50021 {
     force_aspect = false
     output_quality = 0
     icc_profile = 'sRGB.icc'
+	autolink {
+		item_guid = '0a227ce6-a3e9-4593-bf79-a21e70c3d5b9'
+	}
 }
 
 resource media_format desktop_h264_2048kbit_ffmpeg_50016 {
@@ -173,6 +182,9 @@ resource media_format desktop_h264_2048kbit_ffmpeg_50016 {
     force_aspect = false
     output_quality = 0
     icc_profile = ''
+	autolink {
+		item_guid = 'b67d585b-7b19-415f-ab9a-5166988bdf7c'
+	}
 }
 
 resource media_format tablet_h264_2048kbit_ffmpeg_50017 {
@@ -216,6 +228,9 @@ resource media_format tablet_h264_2048kbit_ffmpeg_50017 {
     force_aspect = false
     output_quality = 0
     icc_profile = ''
+	autolink {
+		item_guid = 'ad943682-0544-4dc3-8317-1e6af770f655'
+	}
 }
 
 resource media_format mobile_h264_1024kbit_ffmpeg_50018 {
@@ -259,4 +274,7 @@ resource media_format mobile_h264_1024kbit_ffmpeg_50018 {
     force_aspect = false
     output_quality = 0
     icc_profile = ''
+	autolink {
+		item_guid = '0f1c269d-fb0e-41e9-b88c-35c324013a5a'
+	}
 }

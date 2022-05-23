@@ -39,6 +39,9 @@
     force_aspect = false
     output_quality = 0
     icc_profile = 'sRGB.icc'
+	autolink {
+		item_guid = '7fb6d99b-9d25-4fb3-831f-b6c51ac08782'
+	}
 }
 
 resource media_format thumb_200x120_3 {
@@ -82,6 +85,9 @@ resource media_format thumb_200x120_3 {
     force_aspect = false
     output_quality = 0
     icc_profile = 'sRGB.icc'
+	autolink {
+		item_guid = 'e579a06d-ea32-451f-a3d3-b937224c2ffa'
+	}
 }
 
 resource media_format audio_preview_10045 {
@@ -125,6 +131,9 @@ resource media_format audio_preview_10045 {
     force_aspect = false
     output_quality = 0
     icc_profile = ''
+	autolink {
+		item_guid = '7480703d-1af0-4b2c-a95f-fd8a1d63be10'
+	}
 }
 
 resource media_format video_preview_h264_10079 {
@@ -168,6 +177,9 @@ resource media_format video_preview_h264_10079 {
     force_aspect = false
     output_quality = 0
     icc_profile = ''
+	autolink {
+		item_guid = '8bbd835f-80de-460e-bd68-23ef8cc545b4'
+	}
 }
 
 resource media_format adobe_pdf_preview_4 {
@@ -211,5 +223,8 @@ resource media_format adobe_pdf_preview_4 {
     force_aspect = false
     output_quality = 0
     icc_profile = ''
+	autolink {
+		item_guid = 'ad44feb1-7038-42a3-a56a-453c76eec8c0'
+	}
 }
 
