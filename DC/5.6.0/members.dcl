@@ -269,6 +269,8 @@ resource member_group super_administrator {
             constant = 'Can_configure_external_sharing'
         }, {
             constant = 'Can_view_service_health'
+        }, {
+            constant = 'Asset_Can_Archive'
         }]
 }
 
@@ -586,6 +588,8 @@ resource member_group administrator_22 {
             constant = 'Can_configure_external_sharing'
         }, {
             constant = 'Can_view_service_health'
+        }, {
+            constant = 'Asset_Can_Archive'
         }]
 }
 
