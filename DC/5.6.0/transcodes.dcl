@@ -1812,3 +1812,26 @@ resource media_transcode extract_exifthumb_from_illustrator_50017 {
 	}
 }
 
+resource media_transcode image_original_som_jpg_10047 {
+    copy_target_icc_profile = false
+    description = ''
+    embed_metadefinition = ''
+    encoder_profile_name = ''
+    folder_id = 10000
+    is_public = true
+    item_guid = 'bc851dce-2379-4d37-b2e1-76c002ff3312'
+    item_id = 1389
+    media_transcode_id = 10047
+    name = 'IMAGE_original_som_jpg'
+    only_explicit_use = false
+    prefix = ''
+    prevref = 0
+    prog_id = 'DigiImageMagicJobs.JobConvertImage'
+    settings = ''
+    source_media_format_id = 50030
+    target_media_format_id = 10046
+	autolink {
+		item_guid = 'bc851dce-2379-4d37-b2e1-76c002ff3312'
+	}
+}
+
