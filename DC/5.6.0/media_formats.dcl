@@ -229,51 +229,47 @@ resource media_format adobe_pdf_preview_4 {
 }
 
 resource media_format image_original_som_jpg_10046 {
-    audio_bitrate = 0
-    bitrate = 0
-    contrast = 0
-    crop_height = 0
-    crop_width = 0
-    crop_x = 0
-    crop_y = 0
+    folder_id = resource.media_format_folder.import_10000.id
+    format_type_id = resource.media_format_type.jpeg_compressed_formats_40001.media_format_type_id
+    name = 'IMAGE_original_som_jpg'
     description = ''
-    dpi_x = 0
-    dpi_y = 0
-    encoder_profile_name = ''
+    width = 0
+    height = 0
+    is_public = true
+    format_xml = ''
+    multi_page_output = false
+    is_identity_format = false
+    settings = '%infile%[0] -background white -flatten -auto-orient %iccconversion% -strip %outfile%'
     encoding = 1002
     encoding_bitrate = 0
-    folder_id = 10000
-    force_aspect = false
-    format_type_id = 40001
-    format_xml = ''
-    fps = 0
+    linebreak = ''
+    input_page = 1
+    bitrate = 0
+    video_bitrate = 0
+    audio_bitrate = 0
     frequency = 1
+    fps = 0
+    stereo = false
+    encoder_profile_name = ''
+    use_cut_points = false
+    output_bits_per_pixel = 0
+    dpi_x = 0
+    dpi_y = 0
+    crop_x = 0
+    crop_y = 0
+    crop_width = 0
+    crop_height = 0
+    intensity = 0
+    contrast = 0
     gamma_correct = 0
+    rotate = 0
+    watermark_file = ''
     grayscale = false
     grayscale_bits_per_pixel = 0
-    height = 0
-    icc_profile = 'sRGB.icc'
-    input_page = 1
-    intensity = 0
-    is_identity_format = false
-    is_public = true
-    item_guid = 'f791658b-e7c8-409e-85a8-ad9ae6140ce3'
-    item_id = 1440
-    linebreak = ''
-    media_format_id = 10046
-    multi_page_output = false
-    name = 'IMAGE_original_som_jpg'
-    output_bits_per_pixel = 0
+    force_aspect = false
     output_quality = 0
-    rotate = 0
-    settings = '%infile%[0] -background white -flatten -auto-orient %iccconversion% -strip %outfile%'
-    stereo = false
-    use_cut_points = false
-    video_bitrate = 0
-    watermark_file = ''
-    width = 0
+    icc_profile = 'sRGB.icc'
 	autolink {
 		item_guid = 'f791658b-e7c8-409e-85a8-ad9ae6140ce3'
 	}
 }
-
