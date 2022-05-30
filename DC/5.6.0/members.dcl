@@ -271,6 +271,10 @@ resource member_group super_administrator {
             constant = 'Can_view_service_health'
         }, {
             constant = 'Asset_Can_Archive'
+        }, {
+            constant = 'Can_view_rabbit_health'
+        }, {
+            constant = 'Can_crud_rabbit_health'
         }]
 }
 
