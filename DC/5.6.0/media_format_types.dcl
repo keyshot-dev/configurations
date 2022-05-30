@@ -2410,7 +2410,7 @@ resource media_format_type wavefront_mtl_file_130004 {
     icon_thumbnail = ''
     icon_large = ''
     mime_type = 'material/wavefront-mtl'
-    identity_media_format_id = 0
+    identity_media_format_id = resource.media_format.waveform_mtl_file_50028.media_format_id
 	autolink {
 		item_guid = '8a2250ef-fdf5-45c4-ae44-e898fe2d938c'
 	}

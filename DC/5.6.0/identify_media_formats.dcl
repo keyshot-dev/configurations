@@ -408,7 +408,7 @@ resource media_format premiere_pro_project_prproj_50081 {
     output_quality = 0
     icc_profile = ''
 	autolink {
-		item_guid = '1f9dba2e-bb04-41dc-8da7-9e39b013a4c2'
+		item_guid = '8b66fd69-46a1-40c2-98fc-1fe1aed1ff07'
 	}
 }
 
@@ -454,7 +454,7 @@ resource media_format after_effects_project_aep_50082 {
     output_quality = 0
     icc_profile = ''
 	autolink {
-		item_guid = '8b66fd69-46a1-40c2-98fc-1fe1aed1ff07'
+		item_guid = '1f9dba2e-bb04-41dc-8da7-9e39b013a4c2'
 	}
 }
 
