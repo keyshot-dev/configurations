@@ -22,6 +22,9 @@ resource member_group anonymous {
         }, {
             constant = 'Can_view_related_assets'
         }]
+    autolink {
+        item_guid = '1d46a4cd-7d87-42d6-b64b-182a1d455013'
+    }
 }
 
 resource member_group trusted {
@@ -38,6 +41,9 @@ resource member_group trusted {
         }, {
             constant = 'Can_view_related_assets'
         }]
+    autolink {
+        item_guid = 'ed7fbc52-1664-48c1-8c2f-848996b8c8bf'
+    }
 }
 
 resource member_group super_administrator {
@@ -276,6 +282,9 @@ resource member_group super_administrator {
         }, {
             constant = 'Can_crud_rabbit_health'
         }]
+    autolink {
+        item_guid = '0d8dff0a-53d5-4161-8484-aa8c1af5680d'
+    }
 }
 
 resource member social_media_user {
@@ -292,6 +301,9 @@ resource member social_media_user {
             member_group_id = resource.member_group.anonymous.member_group_id
         }]
     roles = []
+    autolink {
+        item_guid = '4d2b8f43-ef76-4eb7-a89a-092bf864e272'
+    }
 }
 
 resource member_group internal_access_29 {
@@ -306,6 +318,9 @@ resource member_group internal_access_29 {
         }, {
             constant = 'Can_view_related_assets'
         }]
+    autolink {
+        item_guid = '236ea083-884c-4f51-9946-3a1fc27144d6'
+    }
 }
 
 resource member superadministrator {
@@ -396,6 +411,9 @@ resource member superadministrator {
         }, {
             constant = 'Editor_SystemTools_MediaFormatType'
         }]
+    autolink {
+        item_guid = '39267edc-a520-4be9-9da4-1122a1fe6e22'
+    }
 }
 
 resource member_group public_access_30 {
@@ -410,6 +428,9 @@ resource member_group public_access_30 {
         }, {
             constant = 'Can_view_related_assets'
         }]
+    autolink {
+        item_guid = 'e5064ecd-8db4-47f8-b084-b49a8971474d'
+    }
 }
 
 resource member system {
@@ -434,6 +455,9 @@ resource member system {
         }, {
             constant = 'Editor_SystemTools_PlayerTemplate'
         }]
+    autolink {
+        item_guid = 'a04cad8f-ea2f-438d-8003-ce4e54d25985'
+    }
 }
 
 resource member_folder user_profiles_213 {
@@ -455,6 +479,9 @@ resource member dam_guest {
             member_group_id = resource.member_group.anonymous.member_group_id
         }]
     roles = []
+    autolink {
+        item_guid = '36449852-db6a-435d-b113-2c77b7a0197f'
+    }
 }
 
 resource member guest {
@@ -473,6 +500,9 @@ resource member guest {
             member_group_id = resource.member_group.guest_27.member_group_id
         }]
     roles = []
+    autolink {
+        item_guid = 'df838bf9-09f6-4d1d-8f58-a5df03ed9be1'
+    }
 }
 
 resource member_group administrator_22 {
@@ -595,6 +625,9 @@ resource member_group administrator_22 {
         }, {
             constant = 'Asset_Can_Archive'
         }]
+    autolink {
+        item_guid = '58efafcb-4ce9-43d0-b413-b842fbccb576'
+    }
 }
 
 resource member_group guest_27 {
@@ -613,6 +646,9 @@ resource member_group guest_27 {
         }, {
             constant = 'Can_view_related_assets'
         }]
+    autolink {
+        item_guid = '977d9735-a0f3-4ec9-977a-d7c522366ca3'
+    }
 }
 
 resource member_folder system_users_181 {

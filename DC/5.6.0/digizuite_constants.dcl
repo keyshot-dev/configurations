@@ -1,6 +1,6 @@
 resource digizuite_config digizuite_system_assetreplacer_search2 {
     constant = 'DigiZuite_System_AssetReplacer_Search2'
-    config_value = 'DigiZuite_System_AssetReplacer_Search2'
+	config_value = resource.search.digizuite_system_assetreplacer_search2_38_0.name
     description = ''
 	autolink {
 		constant = 'DigiZuite_System_AssetReplacer_Search2'
@@ -18,7 +18,7 @@ resource digizuite_config connection_pool_timeout {
 
 resource digizuite_config member_metafieldgroupid {
     constant = 'MEMBER_METAFIELDGROUPID'
-    config_value = '50003'
+	config_value = to_string(resource.metafield_group.user_config_50003.metafield_group_id)
     description = ''
 	autolink {
 		constant = 'MEMBER_METAFIELDGROUPID'
@@ -99,7 +99,7 @@ resource digizuite_config connection_nonpool_timeout {
 
 resource digizuite_config frontend_member_metafieldgroupid {
     constant = 'FRONTEND_MEMBER_METAFIELDGROUPID'
-    config_value = '50003'
+	config_value = to_string(resource.metafield_group.user_config_50003.metafield_group_id)
     description = ''
 	autolink {
 		constant = 'FRONTEND_MEMBER_METAFIELDGROUPID'
@@ -108,7 +108,7 @@ resource digizuite_config frontend_member_metafieldgroupid {
 
 resource digizuite_config disable_calculated_locations_for_destinations {
     constant = 'DISABLE_CALCULATED_LOCATIONS_FOR_DESTINATIONS'
-    config_value = ',10000,10001,10002,'
+    config_value = ',${resource.destination.frontenddata_unc.destination_id},${resource.destination.frontend_zip_download.destination_id},'
     description = "Komma sepereret liste af destinationsid'er der ikke skal førsøges med beregnet destination. Skal altid slutte og starte med ,"
 	autolink {
 		constant = 'DISABLE_CALCULATED_LOCATIONS_FOR_DESTINATIONS'
@@ -154,7 +154,7 @@ resource digizuite_config searchproxy_debounce_strategy {
 
 resource digizuite_config language_default_id {
     constant = 'LANGUAGE_DEFAULT_ID'
-    config_value = '3'
+    config_value = to_string(resource.language.english.id)
     description = 'Default system languageid when not specified on user or usergroup(s).'
 	autolink {
 		constant = 'LANGUAGE_DEFAULT_ID'
@@ -163,7 +163,7 @@ resource digizuite_config language_default_id {
 
 resource digizuite_config member_group_metafieldgroupid {
     constant = 'MEMBER_GROUP_METAFIELDGROUPID'
-    config_value = '10044'
+    config_value = to_string(resource.metafield_group.frontendgroup_10044.metafield_group_id)
     description = ''
 	autolink {
 		constant = 'MEMBER_GROUP_METAFIELDGROUPID'
@@ -226,7 +226,7 @@ resource digizuite_config itemlastchanged_debounce_strategy {
 
 resource digizuite_config frontend_member_group_metafieldgroupid {
     constant = 'FRONTEND_MEMBER_GROUP_METAFIELDGROUPID'
-    config_value = '10044'
+    config_value = to_string(resource.metafield_group.frontendgroup_10044.metafield_group_id)
     description = ''
 	autolink {
 		constant = 'FRONTEND_MEMBER_GROUP_METAFIELDGROUPID'
@@ -235,7 +235,7 @@ resource digizuite_config frontend_member_group_metafieldgroupid {
 
 resource digizuite_config damcatalog_archive_folderid {
     constant = 'Damcatalog_Archive_FolderID'
-    config_value = '53'
+    config_value = to_string(resource.damcatalog_folder.archive.damcatalog_folder_id)
     description = 'ArchiveFolderID, used when archiving replaced assets in upload'
 	autolink {
 		constant = 'Damcatalog_Archive_FolderID'
@@ -271,7 +271,7 @@ resource digizuite_config download_use_static_name {
 
 resource digizuite_config destinations_to_allowd_direct_download {
     constant = 'DESTINATIONS_TO_ALLOWD_DIRECT_DOWNLOAD'
-    config_value = ',9,10002,10012,10016,10017,'
+    config_value = ',${resource.destination.zipftp_9.destination_id},${resource.destination.frontend_zip_download.destination_id},${resource.destination.frontend_zip_download_sm.destination_id},${resource.destination.frontenddata_no_security_sm.destination_id},${resource.destination.frontenddata_no_security.destination_id},'
     description = ''
 	autolink {
 		constant = 'DESTINATIONS_TO_ALLOWD_DIRECT_DOWNLOAD'
@@ -298,7 +298,7 @@ resource digizuite_config azure_upload_parallel_threads {
 
 resource digizuite_config embedplayer_user {
     constant = 'EMBEDPLAYER_USER'
-    config_value = 'Guest'
+    config_value = resource.member.guest.username
     description = 'This user is used by the embedplayer to log in'
 	autolink {
 		constant = 'EMBEDPLAYER_USER'
@@ -388,7 +388,7 @@ resource digizuite_config autotranslate_azure {
 
 resource digizuite_config default_catalogfolderid {
     constant = 'DEFAULT_CATALOGFOLDERID'
-    config_value = '46'
+    config_value = to_string(resource.damcatalog_folder.uploads.damcatalog_folder_id)
     description = 'Default catalogfolderid used by upload when no other specified.'
 	autolink {
 		constant = 'DEFAULT_CATALOGFOLDERID'
@@ -460,7 +460,7 @@ resource digizuite_config download_use_static_name_fallback1 {
 
 resource digizuite_config digizuite_system_assetreplacer_search1 {
     constant = 'DigiZuite_System_AssetReplacer_Search1'
-    config_value = 'DigiZuite_System_AssetReplacer_Search1'
+    config_value = resource.search.digizuite_system_assetreplacer_search1_37_0.name
     description = ''
 	autolink {
 		constant = 'DigiZuite_System_AssetReplacer_Search1'
