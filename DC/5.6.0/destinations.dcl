@@ -413,7 +413,7 @@ resource destination zipftp_9 {
     destination_type = 'UNC'
     storage_manager_id = 0
     is_public = true
-    unc_share = "${variable.storage}\\Storage\\dmm\\FTPUpload"
+    unc_share = "${variable.storage}\\dmm\\FTPUpload"
     ftp_host = ''
     ftp_port = 0
     ftp_passive = false
