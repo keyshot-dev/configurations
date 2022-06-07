@@ -140,8 +140,6 @@ resource member_group super_administrator {
         }, {
             constant = 'Editor_SystemTools_MetaDataLanguage'
         }, {
-            constant = 'MediaPortal_Asset_Replacer'
-        }, {
             constant = 'Member_Viewer'
         }, {
             constant = 'Comments_CRUD'
