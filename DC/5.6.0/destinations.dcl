@@ -44,7 +44,7 @@ resource destination frontenddata_no_security {
     destination_type = 'UNC'
     storage_manager_id = resource.destination.frontenddata_no_security_sm.destination_id
     is_public = true
-    unc_share = "${variable.storage}\\Storage\\Frontend.Data\\NoSecurity"
+    unc_share = "${variable.storage}\\Frontend.Data\\NoSecurity"
     ftp_host = ''
     ftp_port = 0
     ftp_passive = false
@@ -85,7 +85,7 @@ resource destination frontenddata_unc {
     destination_type = 'UNC'
     storage_manager_id = resource.destination.frontenddata_sm.destination_id
     is_public = true
-    unc_share = "${variable.storage}\\Storage\\Frontend.Data"
+    unc_share = "${variable.storage}\\Frontend.Data"
     ftp_host = ''
     ftp_port = 0
     ftp_passive = false
@@ -167,7 +167,7 @@ resource destination asset_storage_unc {
     destination_type = 'UNC'
     storage_manager_id = resource.destination.asset_storage_sm.destination_id
     is_public = true
-    unc_share = "${variable.storage}\\Storage\\dmm\\Assets"
+    unc_share = "${variable.storage}\\dmm\\Assets"
     ftp_host = ''
     ftp_port = 0
     ftp_passive = false
@@ -372,7 +372,7 @@ resource destination frontend_zip_download {
     destination_type = 'UNC'
     storage_manager_id = resource.destination.frontend_zip_download_sm.destination_id
     is_public = true
-    unc_share = "${variable.storage}\\Storage\\Frontend.Data\\transcode"
+    unc_share = "${variable.storage}\\Frontend.Data\\transcode"
     ftp_host = ''
     ftp_port = 0
     ftp_passive = false
