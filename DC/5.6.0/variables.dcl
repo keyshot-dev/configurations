@@ -1,6 +1,6 @@
 variable storage {
     type = "string"
-    description = "Root path for the storage area - e.g. '<bs><bs><my-pc-name>', where <bs> is the backslash character."
+    description = "Root path for the storage area - e.g. '<bs><bs><servername><bs><sharename>', where <bs> is the backslash character."
 }
 
 variable url {
