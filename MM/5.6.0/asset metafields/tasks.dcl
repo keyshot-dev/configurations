@@ -2,6 +2,7 @@ resource metafield_group tasks {
     name = 'Tasks'
     folder_id = data.meta_group_folder.shared.id
     show_in_list = false
+    parent_group_id = data.metafield_group.asset_info.metafield_group_id
 }
 
 

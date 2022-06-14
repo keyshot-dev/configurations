@@ -2,6 +2,7 @@ resource metafield_group copyright_notification {
     name = 'Copyright Notification'
     folder_id = resource.meta_group_folder.product_config.id
     show_in_list = true
+    parent_group_id = resource.metafield_group.main_config.metafield_group_id
     autolink {
         item_guid = '2806afcf-1345-4213-a762-16a812c3ffee'
     }

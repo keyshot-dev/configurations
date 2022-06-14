@@ -1,6 +1,7 @@
 resource metafield_group asset__product__media_manager {
     name = 'Media Manager'
     folder_id = data.meta_group_folder.product.id
+    show_in_list = false
     autolink {
         item_guid = '45cd1302-4672-4f11-9fd7-de537ea00562'
     }
@@ -76,7 +77,7 @@ resource item_security is_logo_material__trusted {
 
 
 resource bit_metafield is_profile_material {
-    item_guid = '939d9ed0-a5c0-4fe4-9d45-23928db9c50a'
+    item_guid = 'a09097b8-cb45-4b42-a922-65ea1edf9f04'
     name = 'IsProfile Image Media Portal'
     group_id = resource.metafield_group.asset__product__media_manager.metafield_group_id
     auto_translate = 'Overwrite'

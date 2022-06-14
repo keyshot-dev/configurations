@@ -2,6 +2,7 @@ resource metafield_group download_request {
     name = 'Download request'
     folder_id = resource.meta_group_folder.product_config.id
     show_in_list = false
+    parent_group_id = resource.metafield_group.main_config.metafield_group_id
     autolink {
         item_guid = '750847da-c10a-4022-b7ef-6022732e02f9'
     }
