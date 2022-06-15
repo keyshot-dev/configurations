@@ -90,7 +90,7 @@ resource item_security verification_when_creating_new_member__email__trusted {
 
 resource combo_value verification_when_creating_new_member__none {
     metafield_id = resource.combovalue_metafield.verification_when_creating_new_member.metafield_id
-    option_value = 'None'
+    option_value = 'none'
     sort_index = 1
 }
 

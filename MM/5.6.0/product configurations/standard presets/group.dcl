@@ -2,6 +2,11 @@ resource metafield_group standard_presets {
     name = 'Standard Presets'
     folder_id = resource.meta_group_folder.product_config.id
     show_in_list = true
+    parent_group_id = resource.metafield_group.main_config.metafield_group_id
+    iterative = true
+    autolink {
+        item_guid = '09e1b967-80b2-4e73-86b2-fd5ffb8b333f'
+    }
 }
 
 
