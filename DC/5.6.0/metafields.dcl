@@ -282,8 +282,8 @@ resource combo_value_label id_20_10 {
     label = '20'
 }
 
-resource versioned_metadata_string_value enable_remember_me_5102_51444_1 {
-    value = '1'
+resource versioned_metadata_int_value enable_remember_me_5102_51444_1 {
+    value = 1
     item_id = resource.product.digizuite_dam_center.item_id
     version_id = resource.product.digizuite_dam_center.base_version_id
     label_id = resource.metafield_label.enable_remember_me_51444.label_id
