@@ -785,6 +785,7 @@ resource combovalue_metafield type_10280 {
     auto_translate = 'Overwrite'
     restrict_to_asset_type = 'All'
     upload_tag_name = ''
+    iterative = true
     autolink = {
         item_guid = '01a2bf07-5474-4479-b9e1-0a78805d4465'
     }
@@ -966,6 +967,7 @@ resource masteritem_reference_metafield quality_10281 {
     auto_translate = 'Overwrite'
     restrict_to_asset_type = 'All'
     upload_tag_name = ''
+    iterative = true
     autolink = {
         item_guid = 'e67069a2-1b12-49fe-b408-e919a0a506dd'
     }
