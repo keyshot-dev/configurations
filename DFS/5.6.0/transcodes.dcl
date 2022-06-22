@@ -3,6 +3,11 @@
     name = 'Standard'
 }
 
+resource transcode_folder digizuite_media_manager_10003 {
+	parent_id = data.transcode_folder.standard_10001.id
+	name = 'Digizuite™ Media Manager'
+}
+
 resource transcode_folder digizuite_dam_for_sitecore_50024 {
 	parent_id = data.transcode_folder.standard_10001.id
 	name = 'Digizuite™ DAM for Sitecore'
@@ -26,6 +31,11 @@ resource transcode_folder related_formats_50027 {
 resource transcode_folder oobe_197 {
 	parent_id = 10001
 	name = 'OOBE'
+}
+
+resource transcode_folder image_201 {
+	parent_id = resource.transcode_folder.oobe_197.id
+	name = 'Image'
 }
 
 resource transcode_folder video_205 {
@@ -594,7 +604,7 @@ resource media_transcode tra1080p_transcode_50062 {
 }
 
 resource media_transcode jpg_full_size_transcode_50055 {
-    folder_id = data.transcode_folder.image_201.id
+    folder_id = resource.transcode_folder.image_201.id
 	name = 'JPG Full size transcode'
 	description = ''
 	prog_id = 'DigiImageMagicJobs.JobConvertImage'
@@ -614,7 +624,7 @@ resource media_transcode jpg_full_size_transcode_50055 {
 }
 
 resource media_transcode jpg_big_transcode_50056 {
-    folder_id = data.transcode_folder.image_201.id
+    folder_id = resource.transcode_folder.image_201.id
 	name = 'JPG big transcode'
 	description = ''
 	prog_id = 'DigiImageMagicJobs.JobConvertImage'
@@ -634,7 +644,7 @@ resource media_transcode jpg_big_transcode_50056 {
 }
 
 resource media_transcode jpg_medium_transcode_50057 {
-    folder_id = data.transcode_folder.image_201.id
+    folder_id = resource.transcode_folder.image_201.id
 	name = 'JPG medium transcode'
 	description = ''
 	prog_id = 'DigiImageMagicJobs.JobConvertImage'
@@ -654,7 +664,7 @@ resource media_transcode jpg_medium_transcode_50057 {
 }
 
 resource media_transcode jpg_small_transcode_50058 {
-    folder_id = data.transcode_folder.image_201.id
+    folder_id = resource.transcode_folder.image_201.id
 	name = 'JPG Small transcode'
 	description = ''
 	prog_id = 'DigiImageMagicJobs.JobConvertImage'
@@ -674,7 +684,7 @@ resource media_transcode jpg_small_transcode_50058 {
 }
 
 resource media_transcode indesign_exifthumb_to_jpg_small_50067 {
-    folder_id = data.transcode_folder.digizuite_media_manager_10003.id
+    folder_id = resource.transcode_folder.digizuite_media_manager_10003.id
 	name = 'InDesign ExifThumb to JPG Small'
 	description = ''
 	prog_id = 'DigiImageMagicJobs.JobConvertImage'
@@ -694,7 +704,7 @@ resource media_transcode indesign_exifthumb_to_jpg_small_50067 {
 }
 
 resource media_transcode png_transparency_transcode_50059 {
-    folder_id = data.transcode_folder.image_201.id
+    folder_id = resource.transcode_folder.image_201.id
 	name = 'PNG transparency transcode'
 	description = ''
 	prog_id = 'DigiImageMagicJobs.JobConvertImage'
