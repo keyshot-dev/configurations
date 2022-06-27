@@ -22,8 +22,8 @@
       <valueField id="displayAssetType" fieldName="asset.asset_type" />
       <valueField id="name" itemGuid="${to_string(data.string_metafield.title_50181.item_guid)}" />
       <valueField id="description" itemGuid="${to_string(data.note_metafield.description_50182.item_guid)}" />
-      <valueField id="channels" itemGuid="${to_string(data.tree_metafield.channel_20.item_guid)}" field="item_tree_valueid" isArray="true" />
-      <valueField id="menus" itemGuid="${to_string(data.tree_metafield.media_manager_menu_50188.item_guid)}" field="item_tree_valueid" isArray="true" />
+      <valueField id="channels" itemGuid="${to_string(resource.tree_metafield.channel_20.item_guid)}" field="item_tree_valueid" isArray="true" />
+      <valueField id="menus" itemGuid="${to_string(resource.tree_metafield.media_manager_menu_50188.item_guid)}" field="item_tree_valueid" isArray="true" />
       <valueField id="fileSize" fieldName="asset.file_size" />
       <valueField id="displayFileSize" fieldName="asset.file_size" />
       <valueField id="sourceLocationPath" fieldName="function.GetAssetLocationPath" />
@@ -34,7 +34,7 @@
           <new id="memberNameNew" fieldName="member.memberid" />
         </bindField>
       </valueField>
-      <valueField id="asseVersionId" itemGuid="${to_string(data.int_metafield.assetversionid_10309.item_guid)}" />
+      <valueField id="asseVersionId" itemGuid="${to_string(resource.int_metafield.assetversionid_10309.item_guid)}" />
       <valueField id="isPublic" fieldName="asset.is_public" />
       <valueField id="published" fieldName="asset_layoutfolder.firstpublished" aggregate="count" />
       <valueField id="lastchangeddate" fieldName="asset.lastchangeddate" />
