@@ -13,6 +13,16 @@ data meta_group_folder video_50006 {
 	parent_id = data.meta_group_folder.asset_50000.id
 }
 
+data meta_group_folder users_and_usergroups_50001 {
+    parent_id = 0
+    name = 'Users and usergroups'
+}
+
+data meta_group_folder users_and_usergroups_shared {
+    parent_id = data.meta_group_folder.users_and_usergroups_50001.id
+    name = 'Shared'
+}
+
 data metafield_group asset_info_10025 {
 	name = 'Asset info'
 	folder_id = data.meta_group_folder.shared_50004.id
@@ -32,6 +42,26 @@ data metafield_group_label video_50034 {
     label = 'Video'
     language_id = 3
 }
+
+data metafield_group frontendgroup_10044 {
+	name = 'FrontendGroup'
+	folder_id = data.meta_group_folder.users_and_usergroups_shared.id
+	restrict_to_asset = 'All'
+}
+
+data metafield_group valid_download_qualities_10051 {
+	name = 'Valid Download Qualities'
+	folder_id = data.meta_group_folder.users_and_usergroups_shared.id
+	parent_group_id = data.metafield_group.frontendgroup_10044.metafield_group_id
+	iterative = true
+	restrict_to_asset = 'All'
+}
+data metafield_group user_config_50003 {
+	name = 'User Config'
+	folder_id = data.meta_group_folder.users_and_usergroups_shared.id
+	restrict_to_asset = 'All'
+}
+
 
 data combovalue_metafield format_10032 {
 	item_guid = 'f2a9baa4-655d-4cb3-8649-1692f56950d9'
@@ -81,3 +111,32 @@ data string_metafield crop_name_50377 {
 	group_id = data.metafield_group.asset_info_10025.metafield_group_id
 }
 
+data combovalue_metafield type_10280 {
+	item_guid = '01a2bf07-5474-4479-b9e1-0a78805d4465'
+	name = 'Type'
+	group_id = data.metafield_group.valid_download_qualities_10051.metafield_group_id
+}
+
+data masteritem_reference_metafield quality_10281 {
+	item_guid = 'e67069a2-1b12-49fe-b408-e919a0a506dd'
+	name = 'Quality'
+	group_id = data.metafield_group.valid_download_qualities_10051.metafield_group_id
+}
+
+data masteritem_reference_metafield mediamanager_favourites_26 {
+	item_guid = 'd10aef8d-af0e-4e33-bcb8-4d71e2c55269'
+	name = 'MediaManager Favourites'
+	group_id = data.metafield_group.user_config_50003.metafield_group_id
+}
+
+data masteritem_reference_metafield config_layoutfolder_50012 {
+	item_guid = '79b85f8e-68ae-49f7-b880-c946eb7f0055'
+	name = 'Config LayoutFolder'
+	group_id = data.metafield_group.user_config_50003.metafield_group_id
+}
+
+data masteritem_reference_metafield profile_image_50166 {
+    item_guid = 'e2dced3c-a38a-45d5-959b-e57b80211bef'
+    name = 'Profile Image'
+    group_id = data.metafield_group.user_config_50003.metafield_group_id
+}

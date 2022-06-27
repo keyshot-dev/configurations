@@ -427,3 +427,43 @@ resource item_security id_3184_anonymous {
 	read = true
 	write = false
 }
+
+resource bit_metafield allways_notify_when_asset_is_published_50167 {
+    auto_translate = 'Overwrite'
+    group_id = data.metafield_group.user_config_50003.metafield_group_id
+    item_guid = '33bf4a53-c6d2-425c-b0f1-25bc5130f432'
+    iterative = false
+    name = 'Allways Notify when asset is published'
+    readonly = true
+    required = false
+    restrict_to_asset_type = 'All'
+    show_in_list = false
+    sort_index = 50167
+    system = true
+    upload_tag_name = ''
+    visibility_metafield_id = 0
+    visibility_regex = ''
+	autolink {
+		item_guid = '33bf4a53-c6d2-425c-b0f1-25bc5130f432'
+	}
+}
+
+resource metafield_label allways_notify_when_asset_is_published_50667 {
+	metafield_id = resource.bit_metafield.allways_notify_when_asset_is_published_50167.metafield_id
+	label = 'Allways Notify when asset is published'
+	language_id = data.language.english.id
+}
+
+resource item_security id_5462_trusted {
+	accessor_item_id = data.member_group.trusted.item_id
+	item_id = resource.bit_metafield.allways_notify_when_asset_is_published_50167.item_id
+	read = true
+	write = true
+}
+
+resource item_security id_5462_anonymous {
+	accessor_item_id = data.member_group.anonymous.item_id
+	item_id = resource.bit_metafield.allways_notify_when_asset_is_published_50167.item_id
+	read = true
+	write = false
+}

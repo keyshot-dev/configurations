@@ -13,3 +13,9 @@ data member_group anonymous {
     folder_id = data.member_group_folder.system_groups_220.id
 }
 
+data member_group super_administrator {
+    name = 'Super administrator'
+    folder_id = data.member_group_folder.user_type.id
+    sort_index = 0
+    approved = true
+}
