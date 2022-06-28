@@ -9,11 +9,9 @@ data member_folder user_profiles_213 {
 
 
 data member system {
-  folder_id = data.member_folder.system_users_181.id
   username = 'System'
 }
 
 data member superadministrator {
-  folder_id = data.member_folder.user_profiles_213.id
   username = 'SuperAdministrator'
 }
