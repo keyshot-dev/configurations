@@ -4,7 +4,7 @@
 }
 resource member dam_for_sitecore {
     username = 'DAM for Sitecore'
-    language = 0
+	language = data.language.english.id
     folder_id = resource.member_folder.dam_for_sitecore_35000.id
     enabled = true
     firstname = 'DAM for Sitecore'
@@ -30,7 +30,7 @@ resource member dam_for_sitecore {
 
 resource member annonymous {
     username = 'extranet\\anonymous'
-    language = 0
+	language = data.language.english.id
     folder_id = resource.member_folder.dam_for_sitecore_35000.id
     enabled = true
     firstname = ''
