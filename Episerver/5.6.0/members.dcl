@@ -11,7 +11,7 @@ data member_group_folder user_type {
 resource member episerver {
     username = 'Episerver'
     email = ''
-    language = 0
+    language = data.language.english.id
     folder_id = resource.member_folder.episerver_50020.id
     firstname = 'Episerver'
     lastname = 'backend user'
