@@ -56,7 +56,6 @@ data media_format adobe_pdf_50009 {
 }
 
 data media_format source_copy_10061 {
-    folder_id = 10004
 	format_type_id = data.media_format_type.archive_200001.media_format_type_id
 	name = 'Source Copy'
 }
