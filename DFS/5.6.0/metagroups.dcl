@@ -205,6 +205,40 @@ resource item_security id_9420_3057 {
 }
 
 resource metafield_group options_50028 {
-   name = 'Options'
-   folder_id = data.meta_group_folder.shared_50004.id
+    name = 'Options'
+    description = ''
+    show_in_list = true
+    folder_id = data.meta_group_folder.shared.id
+    sort_index = 50354
+    restrict_to_asset = 'All'
+    iterative = false
+    parent_group_id = data.metafield_group.asset_info.metafield_group_id
 }
+
+resource metafield_group_label options_51414 {
+    metafield_group_id = resource.metafield_group.options_50028.metafield_group_id
+    label = 'Options'
+    language_id = data.language.english.id
+}
+
+resource item_security id_8436_3154 {
+    accessor_item_id = data.member.superadministrator.item_id
+    item_id = resource.metafield_group.options_50028.item_id
+    read = true
+    write = true
+}
+
+resource item_security id_8436_4926 {
+    accessor_item_id = data.member_group.trusted.item_id
+    item_id = resource.metafield_group.options_50028.item_id
+    read = true
+    write = true
+}
+
+resource item_security id_8436_9027 {
+    accessor_item_id = data.member_group.anonymous.item_id
+    item_id = resource.metafield_group.options_50028.item_id
+    read = true
+    write = false
+}
+

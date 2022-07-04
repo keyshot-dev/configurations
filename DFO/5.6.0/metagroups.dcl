@@ -3,11 +3,6 @@ resource meta_group_folder episerver_50018 {
     name = 'Episerver'
 }
 
-resource meta_group_folder images_50005 {
-	name = 'Images'
-	parent_id = data.meta_group_folder.asset_50000.id
-}
-
 resource metafield_group dfe_config {
     description = ''
     folder_id = resource.meta_group_folder.episerver_50018.id
@@ -277,43 +272,9 @@ resource string_metafield username_10340 {
 	}
 }
 
-resource metafield_group images_10026 {
-	name = 'Images'
-	description = ''
-	folder_id = resource.meta_group_folder.images_50005.id
-    iterative = false
-	parent_group_id = data.metafield_group.asset_info_10025.metafield_group_id
-	show_in_list = false
-	restrict_to_asset = 'Image'
-	sort_index = 50035
-	autolink {
-		item_guid = '4f251d08-0ddf-4e0f-8dd9-7379c66d23ac'
-	}
-}
-
-resource metafield_group_label images_10026 {
-	metafield_group_id = resource.metafield_group.images_10026.metafield_group_id
-	label = 'Images'
-	language_id = 3
-}
-
-resource item_security id_2364_trusted {
-	accessor_item_id = data.member_group.trusted.item_id
-	item_id = resource.metafield_group.images_10026.item_id
-	read = true
-	write = true
-}
-
-resource item_security id_2364_anonymous {
-	accessor_item_id = data.member_group.anonymous.item_id
-	item_id = resource.metafield_group.images_10026.item_id
-	read = true
-	write = false
-}
-
 resource string_metafield source_colorspace_50105 {
     auto_translate = 'Overwrite'
-    group_id = resource.metafield_group.images_10026.metafield_group_id
+    group_id = data.metafield_group.images_10026.metafield_group_id
     item_guid = '15b53820-b049-435a-86ea-cbb2a5d4223a'
     iterative = false
     max_length = 0

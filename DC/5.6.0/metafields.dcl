@@ -1629,3 +1629,42 @@ resource tree_metafield media_manager_menu {
         item_guid = 'bf0ad1a6-984a-494e-a227-9d70c6a864f9'
     }
 }
+
+resource meta_group_folder images {
+	name = 'Images'
+	parent_id = data.meta_group_folder.asset.id
+}
+
+resource metafield_group images_10026 {
+	name = 'Images'
+	description = ''
+	folder_id = resource.meta_group_folder.images.id
+    iterative = false
+	parent_group_id = resource.metafield_group.asset_info.metafield_group_id
+	show_in_list = false
+	restrict_to_asset = 'Image'
+	sort_index = 50035
+	autolink {
+		item_guid = '4f251d08-0ddf-4e0f-8dd9-7379c66d23ac'
+	}
+}
+
+resource metafield_group_label images_10026 {
+	metafield_group_id = resource.metafield_group.images_10026.metafield_group_id
+	label = 'Images'
+	language_id = 3
+}
+
+resource item_security id_2364_trusted {
+	accessor_item_id = data.member_group.trusted.item_id
+	item_id = resource.metafield_group.images_10026.item_id
+	read = true
+	write = true
+}
+
+resource item_security id_2364_anonymous {
+	accessor_item_id = data.member_group.anonymous.item_id
+	item_id = resource.metafield_group.images_10026.item_id
+	read = true
+	write = false
+}
