@@ -1,9 +1,4 @@
-﻿data media_format_folder standard_10001 {
-    parent_id = 0
-    name = 'Standard'
-}
-
-resource media_format_folder digizuite_dam_for_sitecore_50021 {
+﻿resource media_format_folder digizuite_dam_for_sitecore_50021 {
 	parent_id = data.media_format_folder.standard_10001.id
 	name = 'Digizuite™ DAM for Sitecore'
 }
@@ -169,6 +164,7 @@ resource media_format sitecore_system_tile_50092 {
 		item_guid = 'a23ce1c6-8b76-4481-a762-3494dbc628bb'
 	}
 }
+
 resource media_format sitecore_system_preview_50093 {
     folder_id = resource.media_format_folder.system_defined_formats_50022.id
 	format_type_id = data.media_format_type.jpeg_compressed_formats_40001.media_format_type_id
