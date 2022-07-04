@@ -1890,4 +1890,3 @@ resource language_label rabbit_details_messages_purge_messages_purge_dialog_purg
     folder_id = resource.language_label_folder.administration.folder_id
     version_id = resource.product.media_manager.base_version_id
 }
-
