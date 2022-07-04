@@ -212,7 +212,7 @@ resource metafield_group options_50028 {
     sort_index = 50354
     restrict_to_asset = 'All'
     iterative = false
-    parent_group_id = data.metafield_group.asset_info.metafield_group_id
+    parent_group_id = data.metafield_group.asset_info_10025.metafield_group_id
 }
 
 resource metafield_group_label options_51414 {
