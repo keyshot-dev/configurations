@@ -1668,3 +1668,43 @@ resource item_security id_2364_anonymous {
 	read = true
 	write = false
 }
+
+resource int_metafield assetversionid_10309 {
+    item_guid = '95793334-6675-4783-a396-aba78dcf3e15'
+    name = 'AssetVersionId'
+    group_id = resource.metafield_group.asset_info.metafield_group_id
+    sort_index = 10309
+    visibility_metafield_id = 0
+    visibility_regex = ''
+    required = false
+    readonly = false
+    show_in_list = false
+    system = true
+    auto_translate = 'Overwrite'
+    restrict_to_asset_type = 'All'
+    upload_tag_name = ''
+    iterative = false
+    autolink {
+        item_guid = '95793334-6675-4783-a396-aba78dcf3e15'
+    }
+}
+
+resource metafield_label assetversionid_10781 {
+	metafield_id = resource.int_metafield.assetversionid_10309.metafield_id
+	label = 'AssetVersionId'
+	language_id = resource.language.english.id
+}
+
+resource item_security id_3185_trusted {
+	accessor_item_id = resource.member_group.trusted.item_id
+	item_id = resource.int_metafield.assetversionid_10309.item_id
+	read = true
+	write = true
+}
+
+resource item_security id_3185_anonymous {
+	accessor_item_id = resource.member_group.anonymous.item_id
+	item_id = resource.int_metafield.assetversionid_10309.item_id
+	read = true
+	write = false
+}
