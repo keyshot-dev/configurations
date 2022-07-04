@@ -1632,7 +1632,7 @@ resource tree_metafield media_manager_menu {
 
 resource meta_group_folder images {
 	name = 'Images'
-	parent_id = data.meta_group_folder.asset.id
+	parent_id = resource.meta_group_folder.asset.id
 }
 
 resource metafield_group images_10026 {
@@ -1656,14 +1656,14 @@ resource metafield_group_label images_10026 {
 }
 
 resource item_security id_2364_trusted {
-	accessor_item_id = data.member_group.trusted.item_id
+	accessor_item_id = resource.member_group.trusted.item_id
 	item_id = resource.metafield_group.images_10026.item_id
 	read = true
 	write = true
 }
 
 resource item_security id_2364_anonymous {
-	accessor_item_id = data.member_group.anonymous.item_id
+	accessor_item_id = resource.member_group.anonymous.item_id
 	item_id = resource.metafield_group.images_10026.item_id
 	read = true
 	write = false
