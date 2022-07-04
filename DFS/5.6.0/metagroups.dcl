@@ -203,3 +203,8 @@ resource item_security id_9420_3057 {
     read = true
     write = true
 }
+
+resource metafield_group options_50028 {
+   name = 'Options'
+   folder_id = data.meta_group_folder.shared_50004.id
+}

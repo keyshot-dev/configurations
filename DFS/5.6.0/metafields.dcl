@@ -1,11 +1,4 @@
-﻿data language english {
-    name = 'English'
-    short_name = 'en'
-    locale_id = 1033
-    enabled = true
-}
-
-resource masteritem_reference_metafield default_preview_destination_50379 {
+﻿resource masteritem_reference_metafield default_preview_destination_50379 {
 	item_type = 'Destination'
 	max_count = 1
 	related_metafield_id = 0
@@ -1432,4 +1425,42 @@ resource item_security id_9633_4926 {
 	item_id = resource.string_metafield.aspect_ratio_y_50407.item_id
 	read = true
 	write = true
+}
+
+resource multicombovalue_metafield availability_50352 {
+    item_guid = '74a5a102-a310-4bb7-9e84-0b14c36436b2'
+    name = 'Availability'
+    group_id = resource.metafield_group.options_50028.metafield_group_id
+    sort_index = 50352
+    visibility_metafield_id = 0
+    visibility_regex = ''
+    required = false
+    readonly = false
+    show_in_list = true
+    system = false
+    auto_translate = 'Overwrite'
+    restrict_to_asset_type = 'All'
+    upload_tag_name = ''
+    iterative = false
+}
+
+resource item_security id_8437_1334 {
+    accessor_item_id = data.member_group.super_administrator.item_id
+    item_id = resource.multicombovalue_metafield.availability_50352.item_id
+    read = true
+    write = true
+}
+
+resource item_security id_8437_8357 {
+    accessor_item_id = data.member_group.administrator.item_id
+    item_id = resource.multicombovalue_metafield.availability_50352.item_id
+    read = true
+    write = true
+}
+
+resource metafield_label availability_51406 {
+    metafield_id = resource.multicombovalue_metafield.availability_50352.metafield_id
+    label = 'Availability'
+    language_id = data.language.english.id
+    description = ''
 }

@@ -43,10 +43,6 @@ data meta_group_folder shared_50009 {
 	parent_id = data.meta_group_folder.users_and_usergroups_50001.id
 }
 
-resource metafield_group options_50028 {
-   name = 'Options'
-   folder_id = data.meta_group_folder.shared_50004.id
-}
 
 data metafield_group sharing_tab_10034 {
     name = 'Sharing Tab'
