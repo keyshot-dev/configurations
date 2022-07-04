@@ -1379,38 +1379,6 @@ resource language_label rabbit_details_messages_purge_messages_da {
     version_id = resource.product.media_manager.base_version_id
 }
 
-resource language_label rabbit_details_messages_get_messages_skip_count_en {
-    constant = 'RABBIT_DETAILS_MESSAGES_GET_MESSAGES_SKIP_COUNT'
-    label = 'Skip count'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.administration.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label rabbit_details_messages_get_messages_skip_count_da {
-    constant = 'RABBIT_DETAILS_MESSAGES_GET_MESSAGES_SKIP_COUNT'
-    label = 'Overspringsantal'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.administration.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label rabbit_details_messages_get_messages_message_count_en {
-    constant = 'RABBIT_DETAILS_MESSAGES_GET_MESSAGES_MESSAGE_COUNT'
-    label = 'Message count'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.administration.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label rabbit_details_messages_get_messages_message_count_da {
-    constant = 'RABBIT_DETAILS_MESSAGES_GET_MESSAGES_MESSAGE_COUNT'
-    label = 'Antal beskeder'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.administration.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
 resource language_label rabbit_details_messages_get_messages_message_queue_en {
     constant = 'RABBIT_DETAILS_MESSAGES_GET_MESSAGES_MESSAGE_QUEUE'
     label = 'Message queue'
@@ -1454,22 +1422,6 @@ resource language_label rabbit_details_messages_get_messages_message_headline_ti
 resource language_label rabbit_details_messages_get_messages_message_headline_title_da {
     constant = 'RABBIT_DETAILS_MESSAGES_GET_MESSAGES_MESSAGE_HEADLINE_TITLE'
     label = 'Besked'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.administration.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label rabbit_details_messages_get_messages_message_exhange_en {
-    constant = 'RABBIT_DETAILS_MESSAGES_GET_MESSAGES_MESSAGE_EXHANGE'
-    label = 'Exchange'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.administration.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label rabbit_details_messages_get_messages_message_exhange_da {
-    constant = 'RABBIT_DETAILS_MESSAGES_GET_MESSAGES_MESSAGE_EXHANGE'
-    label = 'Udveksl'
     language_id = data.language.danish.id
     folder_id = resource.language_label_folder.administration.folder_id
     version_id = resource.product.media_manager.base_version_id
@@ -1662,38 +1614,6 @@ resource language_label rabbit_get_messages_success_body_en {
 resource language_label rabbit_get_messages_success_body_da {
     constant = 'RABBIT_GET_MESSAGES_SUCCESS_BODY'
     label = 'Der er ingen beskeder i køen'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.administration.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label rabbit_details_messages_move_messages_skip_count_en {
-    constant = 'RABBIT_DETAILS_MESSAGES_MOVE_MESSAGES_SKIP_COUNT'
-    label = 'Skip count'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.administration.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label rabbit_details_messages_move_messages_skip_count_da {
-    constant = 'RABBIT_DETAILS_MESSAGES_MOVE_MESSAGES_SKIP_COUNT'
-    label = 'Overspringsantal'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.administration.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label rabbit_details_messages_move_messages_message_count_en {
-    constant = 'RABBIT_DETAILS_MESSAGES_MOVE_MESSAGES_MESSAGE_COUNT'
-    label = 'Message count'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.administration.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label rabbit_details_messages_move_messages_message_count_da {
-    constant = 'RABBIT_DETAILS_MESSAGES_MOVE_MESSAGES_MESSAGE_COUNT'
-    label = 'Antal beskeder'
     language_id = data.language.danish.id
     folder_id = resource.language_label_folder.administration.folder_id
     version_id = resource.product.media_manager.base_version_id
