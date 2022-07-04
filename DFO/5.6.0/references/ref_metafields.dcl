@@ -48,12 +48,6 @@ data metafield_group video_10027 {
     restrict_to_asset = 'Video'
 }
 
-data metafield_group_label video_50034 {
-    metafield_group_id = data.metafield_group.video_10027.metafield_group_id
-    label = 'Video'
-    language_id = 3
-}
-
 data metafield_group frontendgroup_10044 {
 	name = 'FrontendGroup'
 	folder_id = data.meta_group_folder.users_and_usergroups_shared.id
@@ -67,6 +61,7 @@ data metafield_group valid_download_qualities_10051 {
 	iterative = true
 	restrict_to_asset = 'All'
 }
+
 data metafield_group user_config_50003 {
 	name = 'User Config'
 	folder_id = data.meta_group_folder.users_and_usergroups_shared.id
