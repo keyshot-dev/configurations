@@ -60,3 +60,7 @@ data media_format source_copy_10061 {
 data media_format jpg_big {
     name = 'JPG big'
 }
+
+data media_format video_720p {
+    name = '720p (HD)'
+}

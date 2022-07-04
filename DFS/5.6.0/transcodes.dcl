@@ -576,7 +576,7 @@ resource media_transcode tra720p_transcode_50061 {
 	only_explicit_use = false
 	embed_metadefinition = ''
 	source_media_format_id = data.media_format.video_10053.media_format_id
-	target_media_format_id = resource.media_format.fmt720p_hd_50039.media_format_id
+	target_media_format_id = data.media_format.fmt720p_hd.media_format_id
 	prevref = 0
 	autolink {
 		item_guid = 'efcd24bb-dbc7-4fc4-8db9-89ac03c7b8d7'

@@ -17,7 +17,7 @@
       <valueField id="videoPreview" fieldName="asset.urlAbsolut(${to_string(data.destination.frontenddata_sm.item_guid)},${to_string(resource.media_format.sitecore_system_video_preview_50098.item_guid)})" />
       <valueField id="video50098" fieldName="asset.urlAbsolut(${to_string(data.destination.frontenddata_sm.item_guid)},${to_string(resource.media_format.sitecore_system_video_preview_50098.item_guid)})" />
       <valueField id="video50038" fieldName="asset.urlAbsolut(${to_string(data.destination.frontenddata_sm.item_guid)},${to_string(resource.media_format.fmt480p_50038.item_guid)})" />
-      <valueField id="video50039" fieldName="asset.urlAbsolut(${to_string(data.destination.frontenddata_sm.item_guid)},${to_string(resource.media_format.fmt720p_hd_50039.item_guid)})" />
+      <valueField id="video50039" fieldName="asset.urlAbsolut(${to_string(data.destination.frontenddata_sm.item_guid)},${to_string(data.media_format.fmt720p_hd.item_guid)})" />
       <valueField id="video50040" fieldName="asset.urlAbsolut(${to_string(data.destination.frontenddata_sm.item_guid)},${to_string(resource.media_format.fmt1080p_hd_50040.item_guid)})" />
     </valueFields>
     <sortFields />

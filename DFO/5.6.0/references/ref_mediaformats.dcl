@@ -78,3 +78,7 @@ data media_format digizuite_media_manager_user_profile_hd_30014 {
 data media_format jpg_big {
     name = 'JPG big'
 }
+
+data media_format video_720p {
+    name = '720p (HD)'
+}
