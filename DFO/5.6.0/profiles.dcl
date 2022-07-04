@@ -75,7 +75,7 @@ resource profile common_image_50036 {
         }, {
             media_format_id = resource.media_format.jpg_full_size_50033.media_format_id
         }, {
-            media_format_id = resource.media_format.jpg_big_50034.media_format_id
+            media_format_id = data.media_format.jpg_big.media_format_id
         }, {
             media_format_id = resource.media_format.jpg_medium_50035.media_format_id
         }, {

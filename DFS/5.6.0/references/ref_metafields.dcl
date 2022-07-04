@@ -25,3 +25,7 @@ data multicombovalue_metafield availability_50352 {
 data tree_metafield media_manager_menu {
 	item_guid = 'bf0ad1a6-984a-494e-a227-9d70c6a864f9'
 }
+
+data string_metafield crop_name_50377 {
+	item_guid = 'fa70d7f6-12ae-4f51-af05-6296d5608b7c'
+}

@@ -95,4 +95,3 @@ resource versioned_metadata_reference default_sorting_9448_51452_1 {
     label_id = resource.metafield_label.default_sorting_51452.label_id
     row_id = 1
 }
-

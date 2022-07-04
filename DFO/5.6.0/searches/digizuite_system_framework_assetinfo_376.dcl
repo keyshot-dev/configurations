@@ -31,3 +31,4 @@ resource search digizuite_system_framework_assetinfo_376 {
 	use_solr = false
 	item_types = []
 }
+

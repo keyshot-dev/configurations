@@ -74,3 +74,7 @@ data media_format digizuite_media_manager_user_profile_hd_30014 {
 	format_type_id = data.media_format_type.jpeg_compressed_formats_40001.media_format_type_id
 	name = 'Digizuite™ Media Manager User Profile HD'
 }
+
+data media_format jpg_big {
+    name = 'JPG big'
+}

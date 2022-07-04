@@ -190,29 +190,8 @@ resource item_security id_5719_anonymous {
 	write = false
 }
 
-resource string_metafield crop_name_50377 {
-    max_length = 0
-    item_guid = 'fa70d7f6-12ae-4f51-af05-6296d5608b7c'
-    name = 'Crop name'
-    group_id = data.metafield_group.asset_info_10025.metafield_group_id
-    sort_index = 0
-    visibility_metafield_id = 0
-    visibility_regex = ''
-    required = false
-    readonly = true
-    show_in_list = true
-    system = false
-    auto_translate = 'Overwrite'
-    restrict_to_asset_type = 'All'
-    upload_tag_name = ''
-    iterative = false
-    autolink {
-        item_guid = 'fa70d7f6-12ae-4f51-af05-6296d5608b7c'
-    }
-}
-
 resource metafield_label crop_name_51449 {
-    metafield_id = resource.string_metafield.crop_name_50377.metafield_id
+    metafield_id = data.string_metafield.crop_name_50377.metafield_id
     label = 'Crop name'
     language_id = data.language.english.id
     description = ''
@@ -220,7 +199,7 @@ resource metafield_label crop_name_51449 {
 
 resource item_security id_9420_3057 {
     accessor_item_id = data.member.system.item_id
-    item_id = resource.string_metafield.crop_name_50377.item_id
+    item_id = data.string_metafield.crop_name_50377.item_id
     read = true
     write = true
 }

@@ -20,6 +20,7 @@ data media_format adobe_photoshop_50012 {
 	name = 'Adobe Photoshop'
 	is_identity_format = true
 }
+
 data media_format adobe_indesign_50011 {
     name = 'Adobe InDesign'
 	is_identity_format = true
@@ -54,4 +55,8 @@ data media_format source_copy_10061 {
     folder_id = 10004
 	format_type_id = data.media_format_type.archive_200001.media_format_type_id
 	name = 'Source Copy'
+}
+
+data media_format jpg_big {
+    name = 'JPG big'
 }
