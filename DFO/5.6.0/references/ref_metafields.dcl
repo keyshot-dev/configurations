@@ -29,7 +29,7 @@ data metafield_group asset_info_10025 {
     parent_group_id = 0
 }
 
-resource meta_group_folder images {
+data meta_group_folder images {
 	name = 'Images'
 	parent_id = data.meta_group_folder.asset.id
 }
