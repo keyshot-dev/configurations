@@ -1,4 +1,14 @@
-﻿data media_format video_10053 {
+﻿data media_format_folder standard_10001 {
+    parent_id = 0
+    name = 'Standard'
+}
+
+data media_format_folder custom_10004 {
+    parent_id = data.media_format_folder.standard_10001.id
+    name = 'Custom'
+}
+
+data media_format video_10053 {
     name = 'VIDEO'
 }
 
@@ -43,12 +53,6 @@ data media_format powerpoint_10077 {
 data media_format adobe_pdf_50009 {
     name = 'Adobe PDF'
     is_identity_format = true
-}
-
-data media_format jpg_thumbnail_10001 {
-	name = 'JPG Thumbnail'
-	folder_id = 10004
-	format_type_id = data.media_format_type.jpeg_compressed_formats_40001.media_format_type_id
 }
 
 data media_format source_copy_10061 {
