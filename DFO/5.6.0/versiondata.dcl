@@ -64,7 +64,7 @@ resource versioned_metadata_string_value crop_name_9448_51456_1 {
 
 resource versioned_metadata_multi_references portal_menu_9448_51450_1 {
     references = [{
-            ref_itemid = data.tree_metafield.media_manager_menu_50188.item_id
+            ref_itemid = data.tree_metafield.media_manager_menu.item_id
         }]
     item_id = resource.product.episerver.item_id
     version_id = resource.product.episerver.base_version_id

@@ -170,43 +170,22 @@ resource item_security id_3185_anonymous {
 	write = false
 }
 
-resource tree_metafield media_manager_menu_50188 {
-    select_to_root = false
-    item_guid = 'bf0ad1a6-984a-494e-a227-9d70c6a864f9'
-    name = 'Media Manager menu'
-    group_id = data.metafield_group.asset_info_10025.metafield_group_id
-    sort_index = 40
-    visibility_metafield_id = 0
-    visibility_regex = ''
-    required = false
-    readonly = false
-    show_in_list = true
-    system = false
-    auto_translate = 'Overwrite'
-    restrict_to_asset_type = 'All'
-    upload_tag_name = ''
-    iterative = false
-    autolink {
-        item_guid = 'bf0ad1a6-984a-494e-a227-9d70c6a864f9'
-    }
-}
-
 resource metafield_label media_manager_menu_50751 {
-	metafield_id = resource.tree_metafield.media_manager_menu_50188.metafield_id
+	metafield_id = data.tree_metafield.media_manager_menu.metafield_id
 	label = 'Media Manager menu'
 	language_id = data.language.english.id
 }
 
 resource item_security id_5719_trusted {
 	accessor_item_id = data.member_group.trusted.item_id
-	item_id = resource.tree_metafield.media_manager_menu_50188.item_id
+	item_id = data.tree_metafield.media_manager_menu.item_id
 	read = true
 	write = true
 }
 
 resource item_security id_5719_anonymous {
 	accessor_item_id = data.member_group.anonymous.item_id
-	item_id = resource.tree_metafield.media_manager_menu_50188.item_id
+	item_id = data.tree_metafield.media_manager_menu.item_id
 	read = true
 	write = false
 }

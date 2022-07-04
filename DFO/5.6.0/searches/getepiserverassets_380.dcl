@@ -17,7 +17,7 @@ resource search getepiserverassets_380 {
           <value>0</value>
         </values>
       </searchField>
-      <searchField field="item_tree_valueid" id="sMenu" itemGuid="${to_string(data.tree_metafield.media_manager_menu_50188.item_guid)}" operator="AND" renderType="tree" valueHandler="InList" visible="false" />
+      <searchField field="item_tree_valueid" id="sMenu" itemGuid="${to_string(data.tree_metafield.media_manager_menu.item_guid)}" operator="AND" renderType="tree" valueHandler="InList" visible="false" />
       <searchField renderType="string" operator="AND" itemGuid="${to_string(data.string_metafield.crop_name_50377.item_guid)}" id="CropName" valueHandler="InList" visible="false" />
       <searchField fieldName="asset.deleted" id="notDeleted" operator="AND" valueHandler="Equals">
         <values valueType="String">
@@ -83,7 +83,7 @@ resource search getepiserverassets_380 {
       <valueField id="Software" itemGuid="9159f487-2b39-4e01-8bc6-da3bbbc9311e" />
       <valueField fieldName="asset.image_width" id="ImageWidth" />
       <valueField id="Crop_name" itemGuid="${to_string(data.string_metafield.crop_name_50377.item_guid)}" />
-      <valueField field="item_tree_valueid" id="Folders" isArray="true" isTooltip="false" itemGuid="${to_string(data.tree_metafield.media_manager_menu_50188.item_guid)}" />
+      <valueField field="item_tree_valueid" id="Folders" isArray="true" isTooltip="false" itemGuid="${to_string(data.tree_metafield.media_manager_menu.item_guid)}" />
       <valueField fieldName="asset.prevref" id="ParentAssetId" />
       <valueField fieldName="asset_layoutfolder.lastpublished" id="Lastpublished" aggregate="max" />
     </valueFields>

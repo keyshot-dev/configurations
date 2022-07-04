@@ -7,8 +7,8 @@
     <searchFields>
       <searchField id="lastChangeDate" fieldName="asset.lastchangeddate" operator="AND" valueHandler="Between" visible="true" renderType="datebetween" />
       <searchField id="layoutFolderId" fieldName="asset_layoutfolder.layoutfolderid" operator="AND" valueHandler="RecursiveLayoutfolder" />
-      <searchField id="menuId" itemGuid="${to_string(resource.tree_metafield.media_manager_menu_50188.item_guid)}" field="idPath" operator="AND" valueHandler="IsDescendantOf" />
-      <searchField id="emptyMenuId" itemGuid="${to_string(resource.tree_metafield.media_manager_menu_50188.item_guid)}" field="item_tree_valueid" operator="AND" valueHandler="EmptyCheckField" />
+      <searchField id="menuId" itemGuid="${to_string(data.tree_metafield.media_manager_menu.item_guid)}" field="idPath" operator="AND" valueHandler="IsDescendantOf" />
+      <searchField id="emptyMenuId" itemGuid="${to_string(data.tree_metafield.media_manager_menu.item_guid)}" field="item_tree_valueid" operator="AND" valueHandler="EmptyCheckField" />
       <searchField id="notDeleted" fieldName="asset.deleted" valueHandler="Equals" operator="AND">
         <values valueType="String">
           <value>0</value>

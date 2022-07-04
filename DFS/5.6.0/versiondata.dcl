@@ -882,7 +882,7 @@ resource versioned_metadata_multi_references search_channel_folder_9449_51463_1 
 }
 resource versioned_metadata_multi_references menu_9449_51464_1 {
 	references = [{
-		ref_itemid = resource.tree_metafield.media_manager_menu_50188.item_id
+		ref_itemid = data.tree_metafield.media_manager_menu.item_id
 	}]
 	item_id = resource.product.digizuite_dam_for_sitecore.item_id
 	version_id = resource.product.digizuite_dam_for_sitecore.base_version_id

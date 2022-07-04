@@ -12,7 +12,7 @@ resource search getassets_368 {
         <searchField id="fKeywords" itemGuid="${to_string(data.editmulticombovalue_metafield.keywords_10192.item_guid)}" operator="OR" valueHandler="FreeText" />
       </searchFields>
       <searchField fieldName="asset_layoutfolder.layoutfolderid" id="sChannelFolderId" operator="AND" valueHandler="RecursiveLayoutfolder" />
-      <searchField field="item_tree_valueid" id="sMenu" itemGuid="${to_string(data.tree_metafield.media_manager_menu_50188.item_guid)}" operator="AND" renderType="tree" valueHandler="InList" visible="false" />
+      <searchField field="item_tree_valueid" id="sMenu" itemGuid="${to_string(data.tree_metafield.media_manager_menu.item_guid)}" operator="AND" renderType="tree" valueHandler="InList" visible="false" />
       <searchField fieldName="asset.assetid" id="sAssetId" operator="AND" valueHandler="Equals" />
       <searchField fieldName="asset.deleted" id="notDeleted" operator="AND" valueHandler="Equals">
         <values valueType="String">

@@ -82,7 +82,7 @@ data int_metafield assetversionid_10309 {
 	item_guid = '95793334-6675-4783-a396-aba78dcf3e15'
 }
 
-data tree_metafield media_manager_menu_50188 {
+data tree_metafield media_manager_menu {
 	item_guid = 'bf0ad1a6-984a-494e-a227-9d70c6a864f9'
 }
 

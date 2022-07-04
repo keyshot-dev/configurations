@@ -21,7 +21,7 @@ resource search getmodifiedassets_384 {
       <valueField id="name" itemGuid="${to_string(data.string_metafield.title_50181.item_guid)}" />
       <valueField id="lastChangedDate" fieldName="asset.lastchangeddate" />
       <valueField id="uploadDate" fieldName="asset.upload_date" />
-      <valueField field="item_tree_valueid" id="Media_Manager_menu" isArray="true" isTooltip="false" itemGuid="${to_string(data.tree_metafield.media_manager_menu_50188.item_guid)}" />
+      <valueField field="item_tree_valueid" id="Media_Manager_menu" isArray="true" isTooltip="false" itemGuid="${to_string(data.tree_metafield.media_manager_menu.item_guid)}" />
       <valueField fieldName="asset.asset_type" id="assetType" />
     </valueFields>
     <sortFields>

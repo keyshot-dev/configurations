@@ -21,7 +21,7 @@ resource search digizuite_system_framework_assetinfo_376 {
       <valueField id="infoKeywords" isArray="true" isTooltip="false" itemGuid="${to_string(data.editmulticombovalue_metafield.keywords_10192.item_guid)}" displayOrder="2" searchable="true" searchKey="sKeywords" />
       <valueField fieldName="asset.image_xres" id="infoImageDPI" isArray="false" isTooltip="false" returnType="int" hideOnDefaultValue="true" />
       <valueField id="infoDescription" isArray="false" isTooltip="false" itemGuid="${to_string(data.note_metafield.description_50182.item_guid)}" />
-      <valueField id="infoMenuItems" isArray="true" isTooltip="false" itemGuid="${to_string(data.tree_metafield.media_manager_menu_50188.item_guid)}" displayOrder="1" hideOnDefaultValue="true" />
+      <valueField id="infoMenuItems" isArray="true" isTooltip="false" itemGuid="${to_string(data.tree_metafield.media_manager_menu.item_guid)}" displayOrder="1" hideOnDefaultValue="true" />
       <valueField fieldName="asset.image_width" id="infoImageWidth" isArray="false" isTooltip="false" returnType="int" hideOnDefaultValue="true" />
       <valueField fieldName="asset.upload_date" id="infoUploadDate" isArray="false" isTooltip="false" returnType="datetime" />
     </valueFields>

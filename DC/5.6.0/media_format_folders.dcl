@@ -18,3 +18,18 @@ resource media_format_folder custom_10004 {
     name = 'Custom'
 }
 
+resource media_format_folder oobe {
+	parent_id = resource.media_format_folder.standard_10001.id
+	name = 'OOBE'
+}
+
+resource media_format_folder image {
+	parent_id = resource.media_format_folder.oobe.id
+	name = 'Image'
+}
+
+resource media_format_folder video {
+	parent_id = resource.media_format_folder.oobe.id
+	name = 'Video'
+}
+

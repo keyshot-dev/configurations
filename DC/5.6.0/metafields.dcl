@@ -20,6 +20,11 @@ resource meta_group_folder asset {
     name = 'Asset'
 }
 
+resource meta_group_folder product {
+    parent_id = resource.meta_group_folder.asset.id
+    name = 'Product'
+}
+
 resource meta_group_folder digizuite_dam_center {
     parent_id = 0
     name = 'Digizuite™ DAM Center'
@@ -1583,3 +1588,44 @@ resource combo_value_label id_914_50142 {
     label = '9/14'
 }
 
+resource string_metafield crop_name {
+    max_length = 0
+    item_guid = 'fa70d7f6-12ae-4f51-af05-6296d5608b7c'
+    name = 'Crop name'
+    group_id = resource.metafield_group.asset_info.metafield_group_id
+    sort_index = 0
+    visibility_metafield_id = 0
+    visibility_regex = ''
+    required = false
+    readonly = true
+    show_in_list = true
+    system = false
+    auto_translate = 'Overwrite'
+    restrict_to_asset_type = 'All'
+    upload_tag_name = ''
+    iterative = false
+    autolink {
+        item_guid = 'fa70d7f6-12ae-4f51-af05-6296d5608b7c'
+    }
+}
+
+resource tree_metafield media_manager_menu {
+    select_to_root = false
+    item_guid = 'bf0ad1a6-984a-494e-a227-9d70c6a864f9'
+    name = 'Media Manager menu'
+    group_id = resource.metafield_group.asset_info.metafield_group_id
+    sort_index = 40
+    visibility_metafield_id = 0
+    visibility_regex = ''
+    required = false
+    readonly = false
+    show_in_list = true
+    system = false
+    auto_translate = 'Overwrite'
+    restrict_to_asset_type = 'All'
+    upload_tag_name = ''
+    iterative = false
+    autolink {
+        item_guid = 'bf0ad1a6-984a-494e-a227-9d70c6a864f9'
+    }
+}
