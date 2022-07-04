@@ -1093,7 +1093,7 @@ resource language_label job_status_job_status_main_all_logs_da {
 
 resource language_label job_status_job_status_main_edit_workflow_en {
     constant = 'JOB_STATUS_JOB_STATUS_MAIN_EDIT_WORKFLOW'
-    label = 'Edit Workflow'
+    label = 'Edit workflow'
     language_id = data.language.english.id
     folder_id = resource.language_label_folder.workflow_management.folder_id
     version_id = resource.product.media_manager.base_version_id
@@ -1101,7 +1101,7 @@ resource language_label job_status_job_status_main_edit_workflow_en {
 
 resource language_label job_status_job_status_main_edit_workflow_da {
     constant = 'JOB_STATUS_JOB_STATUS_MAIN_EDIT_WORKFLOW'
-    label = 'Rediger Workflow'
+    label = 'Rediger workflow'
     language_id = data.language.danish.id
     folder_id = resource.language_label_folder.workflow_management.folder_id
     version_id = resource.product.media_manager.base_version_id
