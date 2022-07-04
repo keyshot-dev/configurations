@@ -1651,8 +1651,8 @@ resource metafield_group images_10026 {
 
 resource metafield_group_label images_10026 {
 	metafield_group_id = resource.metafield_group.images_10026.metafield_group_id
-	label = 'Images'
-	language_id = 3
+	label = 'Image'
+	language_id = resource.language.english.id
 }
 
 resource item_security id_2364_trusted {
