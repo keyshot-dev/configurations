@@ -357,7 +357,7 @@ resource item_security id_8799_superadministrator {
 
 resource metafield_group exif_10058 {
     description = ''
-    folder_id = data.meta_group_folder.images_50005.id
+    folder_id = data.meta_group_folder.images.id
     iterative = false
     name = 'Exif'
     parent_group_id = data.metafield_group.asset_info_10025.metafield_group_id
