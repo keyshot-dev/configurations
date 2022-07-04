@@ -7,6 +7,7 @@ data meta_group_folder users_and_usergroups_50001 {
 	name = 'Users and usergroups'
 	parent_id = 0
 }
+
 resource meta_group_folder layoutfolder_50002 {
 	name = 'Layoutfolder'
 	parent_id = 0

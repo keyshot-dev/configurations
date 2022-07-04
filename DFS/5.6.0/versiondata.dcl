@@ -933,7 +933,7 @@ resource versioned_metadata_multi_references editor_qualities_9449_51471_1 {
 		, { ref_itemid = resource.media_format.jpg_small_50036.item_id }
 		, { ref_itemid = resource.media_format.png_transparent_50037.item_id }
 		, { ref_itemid = resource.media_format.fmt480p_50038.item_id }
-		, { ref_itemid = data.media_format.fmt720p_hd.item_id }
+		, { ref_itemid = data.media_format.video_720p.item_id }
 		, { ref_itemid = resource.media_format.fmt1080p_hd_50040.item_id }
 		, { ref_itemid = resource.media_format.sitecore_system_audio_preview_50099.item_id }
 	]

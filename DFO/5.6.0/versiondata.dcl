@@ -76,7 +76,7 @@ resource versioned_metadata_multi_references editor_qualities_9448_51459_1 {
     references = [{
             ref_itemid = resource.media_format.fmt1080p_hd_50040.item_id
         }, {
-            ref_itemid = data.media_format.fmt720p_hd.item_id
+            ref_itemid = data.media_format.video_720p.item_id
         }, {
             ref_itemid = data.media_format.thumb_1920x1080_2.item_id
         }, {

@@ -68,7 +68,7 @@ resource profile dam_for_sitecore_video_50034 {
     name = 'DAM for Sitecore Video'
 	qualities = [
 		 { media_format_id = resource.media_format.fmt480p_50038.media_format_id }
-		,{ media_format_id = data.media_format.fmt720p_hd.media_format_id }
+		,{ media_format_id = data.media_format.video_720p.media_format_id }
 		,{ media_format_id = resource.media_format.fmt1080p_hd_50040.media_format_id }
 		,{ media_format_id = resource.media_format.sitecore_system_thumb_50091.media_format_id }
 		,{ media_format_id = resource.media_format.sitecore_system_tile_50092.media_format_id }
