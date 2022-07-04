@@ -18,10 +18,6 @@ data string_metafield crop_50185 {
 	item_guid = '050d76ad-822a-409b-a18c-e41e677c1716'
 }
 
-data multicombovalue_metafield availability_50352 {
-	item_guid = '74a5a102-a310-4bb7-9e84-0b14c36436b2'
-}
-
 data tree_metafield media_manager_menu {
 	item_guid = 'bf0ad1a6-984a-494e-a227-9d70c6a864f9'
 }
