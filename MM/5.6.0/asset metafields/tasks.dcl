@@ -89,6 +89,7 @@ resource combovalue_metafield tasks_status {
     group_id = resource.metafield_group.tasks.metafield_group_id
     auto_translate = 'Overwrite'
     show_in_list = true
+    view_type = 'Radio'
 }
 
 resource metafield_label tasks_status {

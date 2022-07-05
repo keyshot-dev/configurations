@@ -1,14 +1,16 @@
 resource combovalue_metafield default_asset_view_mode {
     item_guid = '842bc597-9083-4115-8259-c184ca1effc4'
-    name = 'Default asset view mode'
+    name = 'Default asset view'
     group_id = resource.metafield_group.main_config.metafield_group_id
     auto_translate = 'Overwrite'
     show_in_list = true
+    sort_index = 1060
+    view_type = 'Radio'
 }
 
 resource metafield_label default_asset_view_mode {
     metafield_id = resource.combovalue_metafield.default_asset_view_mode.metafield_id
-    label = resource.combovalue_metafield.default_asset_view_mode.name
+    label = 'Default asset view mode'
     language_id = data.language.english.id
     description = "This decides the asset overview's default view mode. Boxes is the default option. List is simply a list."
 }

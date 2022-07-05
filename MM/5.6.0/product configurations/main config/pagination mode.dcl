@@ -4,6 +4,8 @@ resource combovalue_metafield pagination_mode {
     group_id = resource.metafield_group.main_config.metafield_group_id
     auto_translate = 'Overwrite'
     show_in_list = true
+    sort_index = 4020
+    view_type = 'Radio'
 }
 
 resource metafield_label pagination_mode {

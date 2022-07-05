@@ -1,14 +1,16 @@
 resource combovalue_metafield default_asset_sort_mode {
     item_guid = '0f9de4fd-27e9-497a-8924-d9463dbfcfc7'
-    name = 'Default asset sort mode'
+    name = 'Default sorting'
     group_id = resource.metafield_group.main_config.metafield_group_id
     auto_translate = 'Overwrite'
     show_in_list = true
+    sort_index = 4010
+    view_type = 'Radio'
 }
 
 resource metafield_label default_asset_sort_mode {
     metafield_id = resource.combovalue_metafield.default_asset_sort_mode.metafield_id
-    label = resource.combovalue_metafield.default_asset_sort_mode.name
+    label = 'Default asset sort mode'
     language_id = data.language.english.id
     description = 'The way your content is sorted by default. You must only choose an option here, that is already added as a sorting option for MM.'
 }

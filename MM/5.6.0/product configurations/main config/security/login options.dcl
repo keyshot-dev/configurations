@@ -4,6 +4,8 @@ resource combovalue_metafield login_options {
     group_id = resource.metafield_group.main_config.metafield_group_id
     show_in_list = true
     auto_translate = 'Overwrite'
+    sort_index = 8010
+    view_type = 'Radio'
 }
 
 resource metafield_label login_options {

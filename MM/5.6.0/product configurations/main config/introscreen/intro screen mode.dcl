@@ -1,9 +1,11 @@
 resource combovalue_metafield intro_screen_mode {
     item_guid = '8e74d03a-cb41-4f25-91c0-fbfc4e8c57e6'
-    name = 'Intro Screen Mode'
+    name = 'Intro Screen'
     group_id = resource.metafield_group.main_config.metafield_group_id
     auto_translate = 'Overwrite'
     show_in_list = true
+    sort_index = 2050
+    view_type = 'Radio'
 }
 
 resource metafield_label intro_screen_mode {

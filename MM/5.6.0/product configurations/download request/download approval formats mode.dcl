@@ -1,14 +1,16 @@
 resource combovalue_metafield download_approval_formats_mode {
     item_guid = '7f89a3f1-0611-44fe-b545-a94ec30f198a'
-    name = 'Download approval formats mode'
+    name = 'Download approval formats mode (DO NOT edit manually)'
     group_id = resource.metafield_group.download_request.metafield_group_id
     show_in_list = false
     auto_translate = 'Overwrite'
+    sort_index = 1060
+    view_type = 'Radio'
 }
 
 resource metafield_label download_approval_formats_mode {
     metafield_id = resource.combovalue_metafield.download_approval_formats_mode.metafield_id
-    label = resource.combovalue_metafield.download_approval_formats_mode.name
+    label = 'Download approval formats mode'
     language_id = data.language.english.id
 }
 

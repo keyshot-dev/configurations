@@ -4,6 +4,8 @@ resource combovalue_metafield verification_when_creating_new_member {
     group_id = resource.metafield_group.main_config.metafield_group_id
     show_in_list = true
     auto_translate = 'Overwrite'
+    sort_index = 12020
+    view_type = 'Radio'
 }
 
 resource metafield_label verification_when_creating_new_member {

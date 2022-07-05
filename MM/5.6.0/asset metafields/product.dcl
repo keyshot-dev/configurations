@@ -53,7 +53,7 @@ resource item_security is_intro_material__trusted {
 
 resource bit_metafield is_logo_material {
     item_guid = '939d9ed0-a5c0-4fe4-9d45-23928db9c50a'
-    name = 'IsLogo Material Media Portal'
+    name = 'IsLogo Media Manager'
     group_id = resource.metafield_group.asset__product__media_manager.metafield_group_id
     auto_translate = 'Overwrite'
     show_in_list = true

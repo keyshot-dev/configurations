@@ -1,17 +1,18 @@
 resource combovalue_metafield download_request_metafield_mode {
     item_guid = '7c860c75-14fe-444e-bb48-86df20c309a1'
-    name = 'Download request metafield mode'
+    name = 'Download request metafield mode (DO NOT edit manually)'
     group_id = resource.metafield_group.download_request.metafield_group_id
     show_in_list = false
     auto_translate = 'Overwrite'
+    sort_index = 1060
+    view_type = 'Radio'
 }
 
 resource metafield_label download_request_metafield_mode {
     metafield_id = resource.combovalue_metafield.download_request_metafield_mode.metafield_id
-    label = resource.combovalue_metafield.download_request_metafield_mode.name
+    label = 'Download request metafield mode'
     language_id = data.language.english.id
 }
-
 
 resource item_security download_request_metafield_mode__anonymous {
     accessor_item_id = data.member_group.anonymous.item_id
