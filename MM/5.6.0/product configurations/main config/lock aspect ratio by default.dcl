@@ -4,6 +4,7 @@ resource bit_metafield lock_aspect_ratio_by_default {
     group_id = resource.metafield_group.main_config.metafield_group_id
     show_in_list = true
     auto_translate = 'Overwrite'
+    sort_index = 1040
 }
 
 resource metafield_label lock_aspect_ratio_by_default {

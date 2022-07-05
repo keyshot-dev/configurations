@@ -4,6 +4,7 @@ resource bit_metafield show_asset_id_in_asset_list {
     group_id = resource.metafield_group.main_config.metafield_group_id
     show_in_list = true
     auto_translate = 'Overwrite'
+    sort_index = 5000
 }
 
 resource metafield_label show_asset_id_in_asset_list {

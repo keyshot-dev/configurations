@@ -4,6 +4,7 @@ resource bit_metafield disable_office_connector_uploads {
     group_id = resource.metafield_group.main_config.metafield_group_id
     auto_translate = 'Overwrite'
     show_in_list = true
+    sort_index = 1040
 }
 
 resource metafield_label disable_office_connector_uploads {

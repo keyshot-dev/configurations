@@ -5,6 +5,7 @@ resource bit_metafield automatically_renew_accesskey_after_expiration {
     group_id = resource.metafield_group.main_config.metafield_group_id
     auto_translate = 'Overwrite'
     show_in_list = true
+    sort_index = 1040
 }
 
 resource metafield_label automatically_renew_accesskey_after_expiration {

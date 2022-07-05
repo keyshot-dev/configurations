@@ -4,6 +4,7 @@ resource bit_metafield enable_copyright_notification {
     group_id = resource.metafield_group.copyright_notification.metafield_group_id
     show_in_list = true
     auto_translate = 'Overwrite'
+    sort_index = 5000
 }
 
 resource metafield_label enable_copyright_notification {

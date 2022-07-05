@@ -5,6 +5,7 @@ resource bit_metafield automatically_expand_individual_filters_in_asset_list {
     group_id = resource.metafield_group.main_config.metafield_group_id
     show_in_list = true
     auto_translate = 'Overwrite'
+    sort_index = 5001
 }
 
 resource metafield_label automatically_expand_individual_filters_in_asset_list {

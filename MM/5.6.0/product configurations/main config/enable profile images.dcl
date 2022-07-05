@@ -4,6 +4,7 @@ resource bit_metafield enable_profile_images {
     group_id = resource.metafield_group.main_config.metafield_group_id
     show_in_list = true
     auto_translate = 'Overwrite'
+    sort_index = 1040
 }
 
 
