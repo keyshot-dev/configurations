@@ -23,13 +23,6 @@ resource versioned_metadata_string_value auto_created_user_folder_id {
     row_id = 1
 }
 
-resource item_security auto_created_user_folder_id__anonymous {
-    accessor_item_id = data.member_group.anonymous.item_id
-    item_id = resource.string_metafield.auto_created_user_folder_id.item_id
-    read = true
-    write = false
-}
-
 resource item_security auto_created_user_folder_id__trusted {
     accessor_item_id = data.member_group.trusted.item_id
     item_id = resource.string_metafield.auto_created_user_folder_id.item_id

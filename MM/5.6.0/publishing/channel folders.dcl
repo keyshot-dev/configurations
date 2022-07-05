@@ -141,22 +141,12 @@ resource channel_folder splashscreen {
     }
 }
 
-
 resource item_security splashscreen__super_administrator {
     accessor_item_id = data.member_group.super_administrator.item_id
     item_id = resource.channel_folder.splashscreen.item_id
     read = true
     write = true
 }
-
-
-resource item_security splashscreen__anonymous {
-    accessor_item_id = data.member_group.anonymous.item_id
-    item_id = resource.channel_folder.portal_material.item_id
-    read = true
-    write = false
-}
-
 
 
 

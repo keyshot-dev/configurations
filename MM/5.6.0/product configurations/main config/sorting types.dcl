@@ -39,13 +39,6 @@ resource combo_value_label sorting_types__alphabetic_asc {
     label = 'Alphabethic A-Z'
 }
 
-resource item_security sorting_types__alphabetic_asc__anonymous {
-    accessor_item_id = data.member_group.anonymous.item_id
-    item_id = resource.combo_value.sorting_types__alphabetic_asc.item_id
-    read = true
-    write = false
-}
-
 resource item_security sorting_types__alphabetic_asc__trusted {
     accessor_item_id = data.member_group.trusted.item_id
     item_id = resource.combo_value.sorting_types__alphabetic_asc.item_id
@@ -63,13 +56,6 @@ resource combo_value_label sorting_types__alphabetic_desc {
     combo_id = resource.combo_value.sorting_types__alphabetic_desc.combo_id
     language_id = data.language.english.id
     label = 'Alphabethic Z-A'
-}
-
-resource item_security sorting_types__alphabetic_desc__anonymous {
-    accessor_item_id = data.member_group.anonymous.item_id
-    item_id = resource.combo_value.sorting_types__alphabetic_desc.item_id
-    read = true
-    write = false
 }
 
 resource item_security sorting_types__alphabetic_desc__trusted {
@@ -91,13 +77,6 @@ resource combo_value_label sorting_types__favorites_asc {
     label = 'Least favored'
 }
 
-resource item_security sorting_types__favorites_asc__anonymous {
-    accessor_item_id = data.member_group.anonymous.item_id
-    item_id = resource.combo_value.sorting_types__favorites_asc.item_id
-    read = true
-    write = false
-}
-
 resource item_security sorting_types__favorites_asc__trusted {
     accessor_item_id = data.member_group.trusted.item_id
     item_id = resource.combo_value.sorting_types__favorites_asc.item_id
@@ -115,13 +94,6 @@ resource combo_value_label sorting_types__favorites_desc {
     combo_id = resource.combo_value.sorting_types__favorites_desc.combo_id
     language_id = data.language.english.id
     label = 'Most favored'
-}
-
-resource item_security sorting_types__favorites_desc__anonymous {
-    accessor_item_id = data.member_group.anonymous.item_id
-    item_id = resource.combo_value.sorting_types__favorites_desc.item_id
-    read = true
-    write = false
 }
 
 resource item_security sorting_types__favorites_desc__trusted {
@@ -143,13 +115,6 @@ resource combo_value_label sorting_types__assetid_asc {
     label = 'Oldest first'
 }
 
-resource item_security sorting_types__assetid_asc__anonymous {
-    accessor_item_id = data.member_group.anonymous.item_id
-    item_id = resource.combo_value.sorting_types__assetid_asc.item_id
-    read = true
-    write = false
-}
-
 resource item_security sorting_types__assetid_asc__trusted {
     accessor_item_id = data.member_group.trusted.item_id
     item_id = resource.combo_value.sorting_types__assetid_asc.item_id
@@ -167,13 +132,6 @@ resource combo_value_label sorting_types__assetid_desc {
     combo_id = resource.combo_value.sorting_types__assetid_desc.combo_id
     language_id = data.language.english.id
     label = 'Newest first'
-}
-
-resource item_security sorting_types__assetid_desc__anonymous {
-    accessor_item_id = data.member_group.anonymous.item_id
-    item_id = resource.combo_value.sorting_types__assetid_desc.item_id
-    read = true
-    write = false
 }
 
 resource item_security sorting_types__assetid_desc__trusted {

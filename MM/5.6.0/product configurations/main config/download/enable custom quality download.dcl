@@ -25,14 +25,6 @@ resource versioned_metadata_int_value enable_custom_quality_default {
     row_id = 1
 }
 
-
-resource item_security enable_custom_quality_download__anonymous {
-    accessor_item_id = data.member_group.anonymous.item_id
-    item_id = resource.bit_metafield.enable_custom_quality_download.item_id
-    read = true
-    write = false
-}
-
 resource item_security enable_custom_quality_download__trusted {
     accessor_item_id = data.member_group.trusted.item_id
     item_id = resource.bit_metafield.enable_custom_quality_download.item_id

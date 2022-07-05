@@ -22,13 +22,6 @@ resource versioned_metadata_int_value enable_user_profile {
     row_id = 1
 }
 
-resource item_security enable_user_profile__anonymous {
-    accessor_item_id = data.member_group.anonymous.item_id
-    item_id = resource.bit_metafield.enable_user_profile.item_id
-    read = true
-    write = false
-}
-
 resource item_security enable_user_profile__trusted {
     accessor_item_id = data.member_group.trusted.item_id
     item_id = resource.bit_metafield.enable_user_profile.item_id
