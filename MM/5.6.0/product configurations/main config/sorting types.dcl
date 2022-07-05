@@ -147,10 +147,6 @@ resource versioned_metadata_multi_references sorting_types {
         }, {
             ref_itemid = resource.combo_value.sorting_types__assetid_desc.item_id
         }, {
-            ref_itemid = resource.combo_value.sorting_types__favorites_asc.item_id
-        }, {
-            ref_itemid = resource.combo_value.sorting_types__favorites_desc.item_id
-        }, {
             ref_itemid = resource.combo_value.sorting_types__alphabetic_asc.item_id
         }, {
             ref_itemid = resource.combo_value.sorting_types__alphabetic_desc.item_id
