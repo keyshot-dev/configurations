@@ -11,6 +11,7 @@ resource bit_metafield enable_custom_quality_download {
 resource metafield_label enable_custom_quality_download {
     metafield_id = resource.bit_metafield.enable_custom_quality_download.metafield_id
     label = resource.bit_metafield.enable_custom_quality_download.name
+    description = 'Enabling this will give you the custom quality download option on images when downloading.'
     language_id = data.language.english.id
 }
 

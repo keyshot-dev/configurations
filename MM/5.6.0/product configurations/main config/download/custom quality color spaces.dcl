@@ -4,7 +4,8 @@ resource multicombovalue_metafield custom_quality_color_spaces {
     name = 'Custom quality color spaces'
     group_id = resource.metafield_group.main_config.metafield_group_id
     auto_translate = 'Overwrite'
-    system = true
+    show_in_list = true
+    sort_index = 5000
 }
 
 resource metafield_label custom_quality_color_spaces {

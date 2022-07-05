@@ -5,7 +5,7 @@ resource metafield_group standard_presets {
     parent_group_id = resource.metafield_group.main_config.metafield_group_id
     iterative = true
     autolink {
-        item_guid = '09e1b967-80b2-4e73-86b2-fd5ffb8b333f'
+        item_guid = 'b088b01b-0b3b-4644-be69-f9d6625a12c1'
     }
 }
 
