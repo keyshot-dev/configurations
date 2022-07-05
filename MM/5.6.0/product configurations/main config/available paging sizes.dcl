@@ -138,22 +138,22 @@ resource item_security paging_size__200__trusted {
 }
 
 
-resource versioned_metadata_multi_references paging_size {
-    references = [
+resource versioned_metadata_multi_value paging_size {
+    values = [
         {
-            ref_itemid = resource.edit_combo_value.paging_size__12.item_id
+            value = 9664
         },
         {
-            ref_itemid = resource.edit_combo_value.paging_size__50.item_id
+            value = 9665
         },
         {
-            ref_itemid = resource.edit_combo_value.paging_size__100.item_id
+            value = 9666
         },
         {
-            ref_itemid = resource.edit_combo_value.paging_size__150.item_id
+            value = 9667
         },
         {
-            ref_itemid = resource.edit_combo_value.paging_size__200.item_id
+            value = 9668
         }
     ]
     item_id = resource.product.media_manager.item_id
