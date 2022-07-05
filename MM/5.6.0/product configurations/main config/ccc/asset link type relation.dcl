@@ -14,7 +14,7 @@ resource metafield_label ccc_asset_linktype_relation {
     language_id = data.language.english.id
 }
 
-resource versioned_metadata_multi_reference ccc_asset_linktype_relation {
+resource versioned_metadata_multi_references ccc_asset_linktype_relation {
     references = [
         {
             ref_itemid = resource.masteritem_reference_metafield.adobe_links.item_id
