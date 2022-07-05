@@ -2,7 +2,7 @@
     constant = 'description'
     label = 'Description'
     language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
+    folder_id = resource.language_label_folder.asset_info.folder_id
     version_id = resource.product.media_manager.base_version_id
 }
 
@@ -10,7 +10,7 @@ resource language_label description_da {
     constant = 'description'
     label = 'Beskrivelse'
     language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
+    folder_id = resource.language_label_folder.asset_info.folder_id
     version_id = resource.product.media_manager.base_version_id
 }
 
@@ -18,7 +18,7 @@ resource language_label uploaddate_en {
     constant = 'uploadDate'
     label = 'Upload date'
     language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
+    folder_id = resource.language_label_folder.asset_info.folder_id
     version_id = resource.product.media_manager.base_version_id
 }
 
@@ -26,7 +26,7 @@ resource language_label uploaddate_da {
     constant = 'uploadDate'
     label = 'Uploaddato'
     language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
+    folder_id = resource.language_label_folder.asset_info.folder_id
     version_id = resource.product.media_manager.base_version_id
 }
 
@@ -34,7 +34,7 @@ resource language_label imagewidth_en {
     constant = 'imageWidth'
     label = 'Width'
     language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
+    folder_id = resource.language_label_folder.asset_info.folder_id
     version_id = resource.product.media_manager.base_version_id
 }
 
@@ -42,7 +42,7 @@ resource language_label imagewidth_da {
     constant = 'imageWidth'
     label = 'Bredde'
     language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
+    folder_id = resource.language_label_folder.asset_info.folder_id
     version_id = resource.product.media_manager.base_version_id
 }
 
@@ -50,7 +50,7 @@ resource language_label imageheight_en {
     constant = 'imageHeight'
     label = 'Height'
     language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
+    folder_id = resource.language_label_folder.asset_info.folder_id
     version_id = resource.product.media_manager.base_version_id
 }
 
@@ -58,7 +58,7 @@ resource language_label imageheight_da {
     constant = 'imageHeight'
     label = 'Højde'
     language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
+    folder_id = resource.language_label_folder.asset_info.folder_id
     version_id = resource.product.media_manager.base_version_id
 }
 
@@ -66,7 +66,7 @@ resource language_label filesize_en {
     constant = 'fileSize'
     label = 'Size'
     language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
+    folder_id = resource.language_label_folder.asset_info.folder_id
     version_id = resource.product.media_manager.base_version_id
 }
 
@@ -74,7 +74,7 @@ resource language_label filesize_da {
     constant = 'fileSize'
     label = 'Størrelse'
     language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
+    folder_id = resource.language_label_folder.asset_info.folder_id
     version_id = resource.product.media_manager.base_version_id
 }
 
@@ -82,7 +82,7 @@ resource language_label menuitems_en {
     constant = 'menuItems'
     label = 'Menu items'
     language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
+    folder_id = resource.language_label_folder.asset_info.folder_id
     version_id = resource.product.media_manager.base_version_id
 }
 
@@ -90,7 +90,7 @@ resource language_label menuitems_da {
     constant = 'menuItems'
     label = 'Menu-elementer'
     language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
+    folder_id = resource.language_label_folder.asset_info.folder_id
     version_id = resource.product.media_manager.base_version_id
 }
 
@@ -98,7 +98,7 @@ resource language_label videolength_en {
     constant = 'videoLength'
     label = 'Length'
     language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
+    folder_id = resource.language_label_folder.asset_info.folder_id
     version_id = resource.product.media_manager.base_version_id
 }
 
@@ -106,7 +106,7 @@ resource language_label videolength_da {
     constant = 'videoLength'
     label = 'Længde'
     language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
+    folder_id = resource.language_label_folder.asset_info.folder_id
     version_id = resource.product.media_manager.base_version_id
 }
 
@@ -114,7 +114,7 @@ resource language_label keywords_en {
     constant = 'keywords'
     label = 'Keywords'
     language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
+    folder_id = resource.language_label_folder.asset_info.folder_id
     version_id = resource.product.media_manager.base_version_id
 }
 
@@ -122,7 +122,7 @@ resource language_label keywords_da {
     constant = 'keywords'
     label = 'Nøgleord'
     language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
+    folder_id = resource.language_label_folder.asset_info.folder_id
     version_id = resource.product.media_manager.base_version_id
 }
 
