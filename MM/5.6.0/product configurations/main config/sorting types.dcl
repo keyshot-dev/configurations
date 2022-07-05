@@ -27,7 +27,6 @@ resource item_security sorting_types__trusted {
     write = true
 }
 
-
 resource combo_value sorting_types__alphabetic_asc {
     metafield_id = resource.multicombovalue_metafield.sorting_types.metafield_id
     option_value = 'alphabetic,asc'
@@ -53,7 +52,6 @@ resource item_security sorting_types__alphabetic_asc__trusted {
     read = true
     write = true
 }
-
 
 resource combo_value sorting_types__alphabetic_desc {
     metafield_id = resource.multicombovalue_metafield.sorting_types.metafield_id
@@ -81,7 +79,6 @@ resource item_security sorting_types__alphabetic_desc__trusted {
     write = true
 }
 
-
 resource combo_value sorting_types__favorites_asc {
     metafield_id = resource.multicombovalue_metafield.sorting_types.metafield_id
     option_value = 'favorites,asc'
@@ -107,7 +104,6 @@ resource item_security sorting_types__favorites_asc__trusted {
     read = true
     write = true
 }
-
 
 resource combo_value sorting_types__favorites_desc {
     metafield_id = resource.multicombovalue_metafield.sorting_types.metafield_id
@@ -135,8 +131,6 @@ resource item_security sorting_types__favorites_desc__trusted {
     write = true
 }
 
-
-
 resource combo_value sorting_types__assetid_asc {
     metafield_id = resource.multicombovalue_metafield.sorting_types.metafield_id
     option_value = 'assetid,asc'
@@ -163,7 +157,6 @@ resource item_security sorting_types__assetid_asc__trusted {
     write = true
 }
 
-
 resource combo_value sorting_types__assetid_desc {
     metafield_id = resource.multicombovalue_metafield.sorting_types.metafield_id
     option_value = 'assetid,desc'
@@ -173,7 +166,7 @@ resource combo_value sorting_types__assetid_desc {
 resource combo_value_label sorting_types__assetid_desc {
     combo_id = resource.combo_value.sorting_types__assetid_desc.combo_id
     language_id = data.language.english.id
-    label = 'Oldest first'
+    label = 'Newest first'
 }
 
 resource item_security sorting_types__assetid_desc__anonymous {
@@ -190,34 +183,23 @@ resource item_security sorting_types__assetid_desc__trusted {
     write = true
 }
 
-
 resource versioned_metadata_multi_references sorting_types {
-    references = [
-        {
+    references = [{
             ref_itemid = resource.combo_value.sorting_types__assetid_asc.item_id
-        },
-        {
+        }, {
             ref_itemid = resource.combo_value.sorting_types__assetid_desc.item_id
-        },
-        {
+        }, {
             ref_itemid = resource.combo_value.sorting_types__favorites_asc.item_id
-        },
-        {
+        }, {
             ref_itemid = resource.combo_value.sorting_types__favorites_desc.item_id
-        },
-        {
+        }, {
             ref_itemid = resource.combo_value.sorting_types__alphabetic_asc.item_id
-        },
-        {
+        }, {
             ref_itemid = resource.combo_value.sorting_types__alphabetic_desc.item_id
-        }
-    ]
+        }]
     item_id = resource.product.media_manager.item_id
     version_id = resource.product.media_manager.base_version_id
     label_id = resource.metafield_label.sorting_types.label_id
     row_id = 1
 }
-
-
-
 

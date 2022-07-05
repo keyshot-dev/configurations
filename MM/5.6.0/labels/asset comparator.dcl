@@ -1,4 +1,4 @@
-﻿resource language_label asset_comparator_modal_title_en {
+resource language_label asset_comparator_modal_title_en {
     constant = 'ASSET_COMPARATOR_MODAL_TITLE'
     label = 'Compare'
     language_id = data.language.english.id

@@ -29,7 +29,6 @@ resource item_security default_asset_sort_mode__trusted {
     write = true
 }
 
-
 resource combo_value default_asset_sort_mode__alphabetic_asc {
     metafield_id = resource.combovalue_metafield.default_asset_sort_mode.metafield_id
     option_value = resource.combo_value.sorting_types__alphabetic_asc.option_value
@@ -55,7 +54,6 @@ resource item_security default_asset_sort_mode__alphabetic_asc__trusted {
     read = true
     write = true
 }
-
 
 resource combo_value default_asset_sort_mode__alphabetic_desc {
     metafield_id = resource.combovalue_metafield.default_asset_sort_mode.metafield_id
@@ -83,8 +81,6 @@ resource item_security default_asset_sort_mode__alphabetic_desc__trusted {
     write = true
 }
 
-
-
 resource combo_value default_asset_sort_mode__favorites_asc {
     metafield_id = resource.combovalue_metafield.default_asset_sort_mode.metafield_id
     option_value = resource.combo_value.sorting_types__favorites_asc.option_value
@@ -110,7 +106,6 @@ resource item_security default_asset_sort_mode__favorites_asc__trusted {
     read = true
     write = true
 }
-
 
 resource combo_value default_asset_sort_mode__favorites_desc {
     metafield_id = resource.combovalue_metafield.default_asset_sort_mode.metafield_id
@@ -138,8 +133,6 @@ resource item_security default_asset_sort_mode__favorites_desc__trusted {
     write = true
 }
 
-
-
 resource combo_value default_asset_sort_mode__assetid_asc {
     metafield_id = resource.combovalue_metafield.default_asset_sort_mode.metafield_id
     option_value = resource.combo_value.sorting_types__assetid_asc.option_value
@@ -166,7 +159,6 @@ resource item_security default_asset_sort_mode__assetid_asc__trusted {
     write = true
 }
 
-
 resource combo_value default_asset_sort_mode__assetid_desc {
     metafield_id = resource.combovalue_metafield.default_asset_sort_mode.metafield_id
     option_value = resource.combo_value.sorting_types__assetid_desc.option_value
@@ -176,7 +168,7 @@ resource combo_value default_asset_sort_mode__assetid_desc {
 resource combo_value_label default_asset_sort_mode__assetid_desc {
     combo_id = resource.combo_value.default_asset_sort_mode__assetid_desc.combo_id
     language_id = data.language.english.id
-    label = resource.combo_value_label.sorting_types__assetid_desc.label
+    label = 'Newest first'
 }
 
 resource item_security default_asset_sort_mode__assetid_desc__anonymous {
@@ -193,8 +185,6 @@ resource item_security default_asset_sort_mode__assetid_desc__trusted {
     write = true
 }
 
-
-
 resource versioned_metadata_reference default_asset_sort_mode {
     ref_itemid = resource.combo_value.default_asset_sort_mode__assetid_desc.item_id
     item_id = resource.product.media_manager.item_id
@@ -202,8 +192,4 @@ resource versioned_metadata_reference default_asset_sort_mode {
     label_id = resource.metafield_label.default_asset_sort_mode.label_id
     row_id = 1
 }
-
-
-
-
 

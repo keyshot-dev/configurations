@@ -11,10 +11,10 @@ resource masteritem_reference_metafield ccc_video_high_insert_quality {
 
 resource metafield_label ccc_video_high_insert_quality {
     metafield_id = resource.masteritem_reference_metafield.ccc_video_high_insert_quality.metafield_id
-    label = 'Creative cloud connector - High insert quality'
+    label = 'Creative cloud connector - Video high insert quality'
     language_id = data.language.english.id
+    description = ''
 }
-
 
 resource item_security ccc_video_high_insert_quality__anonymous {
     accessor_item_id = data.member_group.anonymous.item_id
@@ -29,3 +29,4 @@ resource item_security ccc_video_high_insert_quality__trusted {
     read = true
     write = true
 }
+

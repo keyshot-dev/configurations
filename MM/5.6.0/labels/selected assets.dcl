@@ -1,4 +1,4 @@
-﻿resource language_label selected_assets_overlay_metadata_download_field_selector_download_metadata_en {
+resource language_label selected_assets_overlay_metadata_download_field_selector_download_metadata_en {
     constant = 'SELECTED_ASSETS_OVERLAY_METADATA_DOWNLOAD_FIELD_SELECTOR_DOWNLOAD_METADATA'
     label = '{metadata, select, true {{files, select, true {Download assets and metadata} false {Download metadata}}} false {Download assets}}'
     language_id = data.language.english.id

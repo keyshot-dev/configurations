@@ -1,4 +1,3 @@
-
 resource masteritem_reference_metafield asset_related_metafield_groups {
     item_guid = '6b970d46-12c3-430f-bf3a-c9cbcf95bd9d'
     name = 'Asset related metafield groups'
@@ -11,8 +10,9 @@ resource masteritem_reference_metafield asset_related_metafield_groups {
 
 resource metafield_label asset_related_metafield_groups {
     metafield_id = resource.masteritem_reference_metafield.asset_related_metafield_groups.metafield_id
-    label = resource.masteritem_reference_metafield.asset_related_metafield_groups.name
+    label = 'Asset related metafield groups'
     language_id = data.language.english.id
+    description = 'MetaField groups to be shown in the Asset Related Section'
 }
 
 resource item_security asset_related_metafield_groups__anonymous {
@@ -28,3 +28,4 @@ resource item_security asset_related_metafield_groups__trusted {
     read = true
     write = true
 }
+

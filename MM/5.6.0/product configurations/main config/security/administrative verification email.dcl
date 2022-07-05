@@ -1,4 +1,3 @@
-
 resource string_metafield administrative_verification_email {
     item_guid = '5872c473-f754-44dd-a563-7746fcbe1cef'
     name = 'Administrative verification emails'
@@ -10,10 +9,10 @@ resource string_metafield administrative_verification_email {
 
 resource metafield_label administrative_verification_email {
     metafield_id = resource.string_metafield.administrative_verification_email.metafield_id
-    label = resource.string_metafield.administrative_verification_email.name
+    label = 'Administrative verification email'
     language_id = data.language.english.id
+    description = 'The email of the administrator who should approve self sign up users (will only be taken into effect when "Admin" is chosen in the field above).'
 }
-
 
 resource item_security administrative_verification_email__anonymous {
     accessor_item_id = data.member_group.anonymous.item_id

@@ -1,4 +1,4 @@
-﻿resource language_label section_title_workflow_management_en {
+resource language_label section_title_workflow_management_en {
     constant = 'SECTION_TITLE_WORKFLOW_MANAGEMENT'
     label = 'Workflows'
     language_id = data.language.english.id

@@ -1,4 +1,4 @@
-﻿resource language_label workflows_overview_filters_en {
+resource language_label workflows_overview_filters_en {
     constant = 'WORKFLOWS_OVERVIEW_FILTERS'
     label = 'Filters'
     language_id = data.language.english.id

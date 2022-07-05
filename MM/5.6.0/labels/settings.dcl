@@ -1,4 +1,4 @@
-﻿resource language_label settings_theme_settings_save_theme_en {
+resource language_label settings_theme_settings_save_theme_en {
     constant = 'SETTINGS_THEME_SETTINGS_SAVE_THEME'
     label = '{saving, select, true {Saving...} false {Save}}'
     language_id = data.language.english.id

@@ -1,4 +1,4 @@
-﻿resource language_label workflow_task_delete_tooltip_en {
+resource language_label workflow_task_delete_tooltip_en {
     constant = 'WORKFLOW_TASK_DELETE_TOOLTIP'
     label = 'Delete task'
     language_id = data.language.english.id

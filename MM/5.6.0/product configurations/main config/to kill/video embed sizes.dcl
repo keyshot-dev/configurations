@@ -27,7 +27,6 @@ resource item_security video_embed_sizes__trusted {
     write = true
 }
 
-
 resource combo_value video_embed_sizes__auto {
     metafield_id = resource.multicombovalue_metafield.video_embed_sizes.metafield_id
     option_value = 'auto'
@@ -37,7 +36,7 @@ resource combo_value video_embed_sizes__auto {
 resource combo_value_label video_embed_sizes__auto {
     combo_id = resource.combo_value.video_embed_sizes__auto.combo_id
     language_id = data.language.english.id
-    label = 'Full width'
+    label = 'Full Width'
 }
 
 resource item_security video_embed_sizes__auto__anonymous {
@@ -53,7 +52,6 @@ resource item_security video_embed_sizes__auto__trusted {
     read = true
     write = true
 }
-
 
 resource combo_value video_embed_sizes__custom {
     metafield_id = resource.multicombovalue_metafield.video_embed_sizes.metafield_id
@@ -81,7 +79,6 @@ resource item_security video_embed_sizes__custom__trusted {
     write = true
 }
 
-
 resource combo_value video_embed_sizes__320_180 {
     metafield_id = resource.multicombovalue_metafield.video_embed_sizes.metafield_id
     option_value = '320,180'
@@ -107,7 +104,6 @@ resource item_security video_embed_sizes__320_180__trusted {
     read = true
     write = true
 }
-
 
 resource combo_value video_embed_sizes__480_270 {
     metafield_id = resource.multicombovalue_metafield.video_embed_sizes.metafield_id
@@ -135,7 +131,6 @@ resource item_security video_embed_sizes__480_270__trusted {
     write = true
 }
 
-
 resource combo_value video_embed_sizes__640_360 {
     metafield_id = resource.multicombovalue_metafield.video_embed_sizes.metafield_id
     option_value = '640,360'
@@ -162,39 +157,21 @@ resource item_security video_embed_sizes__640_360__trusted {
     write = true
 }
 
-
 resource versioned_metadata_multi_references video_embed_sizes {
-    references = [
-        {
+    references = [{
             ref_itemid = resource.combo_value.video_embed_sizes__auto.item_id
-        },
-        {
+        }, {
             ref_itemid = resource.combo_value.video_embed_sizes__custom.item_id
-        },
-        {
+        }, {
             ref_itemid = resource.combo_value.video_embed_sizes__320_180.item_id
-        },
-        {
+        }, {
             ref_itemid = resource.combo_value.video_embed_sizes__480_270.item_id
-        },
-        {
+        }, {
             ref_itemid = resource.combo_value.video_embed_sizes__640_360.item_id
-        }
-    ]
+        }]
     item_id = resource.product.media_manager.item_id
     version_id = resource.product.media_manager.base_version_id
     label_id = resource.metafield_label.video_embed_sizes.label_id
     row_id = 1
 }
-
-
-
-
-
-
-
-
-
-
-
 

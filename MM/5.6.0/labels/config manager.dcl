@@ -1,4 +1,4 @@
-﻿resource language_label section_title_config_manager_en {
+resource language_label section_title_config_manager_en {
     constant = 'SECTION_TITLE_CONFIG_MANAGER'
     label = 'ConfigManager'
     language_id = data.language.english.id

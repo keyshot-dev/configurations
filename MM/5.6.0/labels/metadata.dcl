@@ -1,4 +1,4 @@
-﻿resource language_label metadata_editor_show_all_languages_tooltip_en {
+resource language_label metadata_editor_show_all_languages_tooltip_en {
     constant = 'METADATA_EDITOR_SHOW_ALL_LANGUAGES_TOOLTIP'
     label = '{expanded, select, false {Show all languages} true {Hide other languages}}'
     language_id = data.language.english.id

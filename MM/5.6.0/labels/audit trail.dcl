@@ -1,4 +1,4 @@
-﻿resource language_label audit_trail_audit_logs_en {
+resource language_label audit_trail_audit_logs_en {
     constant = 'AUDIT_TRAIL_AUDIT_LOGS'
     label = 'Audit Logs'
     language_id = data.language.english.id

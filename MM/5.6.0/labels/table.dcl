@@ -1,4 +1,4 @@
-﻿resource language_label header_cell_menu_filter_section_en {
+resource language_label header_cell_menu_filter_section_en {
     constant = 'HEADER_CELL_MENU_FILTER_SECTION'
     label = 'Show or hide columns'
     language_id = data.language.english.id
