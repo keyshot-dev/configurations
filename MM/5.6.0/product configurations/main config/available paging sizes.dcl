@@ -138,7 +138,7 @@ resource item_security paging_size__200__trusted {
 }
 
 
-resource versioned_metadata_multi_value paging_size {
+resource versioned_metadata_multi_values paging_size {
     values = [
         {
             value = 9664
