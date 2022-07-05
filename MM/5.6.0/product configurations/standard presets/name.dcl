@@ -4,7 +4,7 @@ resource string_metafield standard_preset_name {
     group_id = resource.metafield_group.standard_presets.metafield_group_id
     show_in_list = true
     auto_translate = 'Overwrite'
-    
+    iterative = true
 }
 
 resource metafield_label standard_preset_name {
