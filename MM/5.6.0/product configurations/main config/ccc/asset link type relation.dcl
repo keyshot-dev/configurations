@@ -1,15 +1,16 @@
 resource masteritem_reference_metafield ccc_asset_linktype_relation {
     item_guid = '5790e0bc-e813-4b91-8d85-aade0bb9b5a4'
-    name = 'Creative cloud connector - Asset linktype relation'
+    name = 'DCCC Asset linktype relation'
     group_id = resource.metafield_group.main_config.metafield_group_id
     auto_translate = 'Overwrite'
     show_in_list = true
     item_type = 'Metafield'
+    sort_index = 13000
 }
 
 resource metafield_label ccc_asset_linktype_relation {
     metafield_id = resource.masteritem_reference_metafield.ccc_asset_linktype_relation.metafield_id
-    label = resource.masteritem_reference_metafield.ccc_asset_linktype_relation.name
+    label = 'Creative cloud connector - Asset linktype relation'
     language_id = data.language.english.id
 }
 

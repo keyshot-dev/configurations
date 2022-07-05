@@ -6,6 +6,7 @@ resource masteritem_reference_metafield automatically_expand_metadata_groups_in_
     show_in_list = true
     auto_translate = 'Overwrite'
     item_type = 'MetafieldGroup'
+    sort_index = 10040
 }
 
 resource metafield_label automatically_expand_metadata_groups_in_editor {

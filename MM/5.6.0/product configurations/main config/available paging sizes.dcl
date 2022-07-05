@@ -4,6 +4,7 @@ resource editmulticombovalue_metafield paging_size {
     group_id = resource.metafield_group.main_config.metafield_group_id
     show_in_list = true 
     auto_translate = 'Overwrite'
+    sort_index = 8010
 }
 
 resource metafield_label paging_size {

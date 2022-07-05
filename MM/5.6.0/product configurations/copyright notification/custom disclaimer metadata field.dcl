@@ -6,6 +6,7 @@ resource masteritem_reference_metafield custom_disclaimer_metadata_field {
     max_count = 1
     show_in_list = true
     auto_translate = 'Overwrite'
+    sort_index = 10040
 }
 
 resource metafield_label custom_disclaimer_metadata_field {

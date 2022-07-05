@@ -1,9 +1,10 @@
 resource editmulticombovalue_metafield denied_download_request_stage_names {
     item_guid = '93cd1a66-5577-410d-818e-94ccdadd122f'
-    name = 'Denied download request stage names'
+    name = 'Denied download request stage names (DO NOT edit manually)'
     group_id = resource.metafield_group.download_request.metafield_group_id
     show_in_list = false
     auto_translate = 'Overwrite'
+    sort_index = 1030
 }
 
 resource metafield_label denied_download_request_stage_names {

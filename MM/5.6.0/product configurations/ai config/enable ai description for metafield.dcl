@@ -6,6 +6,7 @@ resource masteritem_reference_metafield enable_ai_description_for_metafield {
     auto_translate = 'Overwrite'
     max_count = 1
     item_type = 'Metafield'
+    sort_index = 10040
 }
 
 resource metafield_label enable_ai_description_for_metafield {

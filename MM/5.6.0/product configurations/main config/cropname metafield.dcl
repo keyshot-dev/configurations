@@ -4,6 +4,8 @@ resource masteritem_reference_metafield cropname_metafield {
     group_id = resource.metafield_group.main_config.metafield_group_id
     auto_translate = 'Overwrite'
     show_in_list = true
+    item_type = 'Metafield'
+    sort_index = 10040
 }
 
 resource metafield_label cropname_metafield {

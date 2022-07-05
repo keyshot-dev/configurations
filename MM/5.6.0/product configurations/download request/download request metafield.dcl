@@ -1,16 +1,17 @@
 resource masteritem_reference_metafield download_request_metafield {
     item_guid = '8c73c24d-10ef-4008-943e-a9d5b4acf27b'
-    name = 'Download request metafield'
+    name = 'Download request metafield (DO NOT edit manually)'
     group_id = resource.metafield_group.download_request.metafield_group_id
     show_in_list = false
     auto_translate = 'Overwrite'
     max_count = 1
     item_type = 'Metafield'
+    sort_index = 1030
 }
 
 resource metafield_label download_request_metafield {
     metafield_id = resource.masteritem_reference_metafield.download_request_metafield.metafield_id
-    label = resource.masteritem_reference_metafield.download_request_metafield.name
+    label = 'Download request metafield'
     language_id = data.language.english.id
 }
 

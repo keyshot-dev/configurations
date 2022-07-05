@@ -4,6 +4,7 @@ resource int_metafield facet_count_limit {
     group_id = resource.metafield_group.main_config.metafield_group_id
     auto_translate = 'Overwrite'
     show_in_list = true
+    sort_index = 9030
 }
 
 resource metafield_label facet_count_limit {

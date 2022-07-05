@@ -4,6 +4,7 @@ resource int_metafield corporate_preset_width {
     group_id = resource.metafield_group.standard_presets.metafield_group_id
     show_in_list = true
     auto_translate = 'Overwrite'
+    sort_index = 400
 }
 
 resource metafield_label corporate_preset_width {
