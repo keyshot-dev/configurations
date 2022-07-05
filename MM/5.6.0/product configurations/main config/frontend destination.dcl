@@ -15,8 +15,12 @@ resource metafield_label frontend_destination {
     description = "The folder in the storage area where MM's assets are located."
 }
 
-resource versioned_metadata_reference frontend_destination {
-    ref_itemid = data.destination.frontenddata_sm.item_id
+resource versioned_metadata_multi_references frontend_destination {
+    references = [
+        {
+            ref_itemid = data.destination.frontenddata_sm.item_id
+        }
+    ]
     item_id = resource.product.media_manager.item_id
     version_id = resource.product.media_manager.base_version_id
     label_id = resource.metafield_label.frontend_destination.label_id

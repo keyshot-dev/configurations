@@ -11,6 +11,14 @@ resource metafield_label theming_details {
     language_id = data.language.english.id
 }
 
+resource versioned_metadata_string_value theming_details {
+    item_id = resource.prdduct.media_manager.item_id
+    label_id = resource.metafield_label.theming_details.label_id
+    version_id = resource.prdduct.media_manager.base_version_id
+    row_id = 1
+    value = '{"primary":{"backgroundColor":"#31b69f","textColor":"#ffffff","hoverColor":"#2ca28d","activeColor":"#299a86"}}'
+}
+
 resource item_security theming_details__anonymous {
     accessor_item_id = data.member_group.anonymous.item_id
     item_id = resource.note_metafield.theming_details.item_id

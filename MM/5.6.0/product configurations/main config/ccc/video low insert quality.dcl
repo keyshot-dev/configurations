@@ -15,8 +15,12 @@ resource metafield_label ccc_video_low_insert_quality {
     language_id = data.language.english.id
 }
 
-resource versioned_metadata_reference ccc_video_low_insert_quality {
-    ref_itemid = data.media_format.video_720p.item_id
+resource versioned_metadata_multi_references ccc_video_low_insert_quality {
+    references = [
+        {
+            ref_itemid = data.media_format.video_720p.item_id
+        }
+    ]
     item_id = resource.product.media_manager.item_id
     version_id = resource.product.media_manager.base_version_id
     label_id = resource.metafield_label.ccc_video_low_insert_quality.label_id

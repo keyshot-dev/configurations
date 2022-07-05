@@ -14,8 +14,12 @@ resource metafield_label main_search_folder {
     description = "This must always point to Channels --> Digizuite™ Media Manager --> Content unless you've been told otherwise by Digizuite."
 }
 
-resource versioned_metadata_reference main_search_folder {
-    ref_itemid = resource.channel_folder.content.item_id
+resource versioned_metadata_multi_references main_search_folder {
+    references = [
+        {
+            ref_itemid = resource.channel_folder.content.item_id
+        }
+    ]
     item_id = resource.product.media_manager.item_id
     version_id = resource.product.media_manager.base_version_id
     label_id = resource.metafield_label.main_search_folder.label_id
