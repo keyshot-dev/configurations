@@ -86,9 +86,9 @@ resource item_security default_asset_view_mode__list__trusted {
 }
 
 resource versioned_metadata_reference default_asset_view_mode {
-    item_id = resource.prdduct.media_manager.item_id
+    item_id = resource.product.media_manager.item_id
     label_id = resource.metafield_label.default_asset_view_mode.label_id
-    version_id = resource.prdduct.media_manager.base_version_id
+    version_id = resource.product.media_manager.base_version_id
     ref_itemid = resource.combo_value.default_asset_view_mode__box.item_id
     row_id = 1
 }
