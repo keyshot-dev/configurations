@@ -14,6 +14,13 @@ resource metafield_label enable_slow_ai {
     description = 'For usage in AI services. Check this options if the assets are not accessible to the outside world.'
 }
 
+resource versioned_metadata_int_value enable_slow_ai {
+    item_id = resource.product.media_manager.item_id
+    label_id = resource.metafield_label.enable_slow_ai.label_id
+    version_id = resource.product.media_manager.base_version_id
+    value = 0
+}
+
 resource item_security enable_slow_ai__anonymous {
     accessor_item_id = data.member_group.anonymous.item_id
     item_id = resource.bit_metafield.enable_slow_ai.item_id

@@ -15,8 +15,8 @@ resource metafield_label automatically_expand_individual_filters_in_asset_list {
     description = 'If checked, the individual filters in the asset list in Media Manager will be expanded automatically when the pane is opened.'
 }
 
-resource versioned_metadata_string_value automatically_expand_individual_filters_in_asset_list {
-    value = '0'
+resource versioned_metadata_int_value automatically_expand_individual_filters_in_asset_list {
+    value = 0
     item_id = resource.product.media_manager.item_id
     version_id = resource.product.media_manager.base_version_id
     label_id = resource.metafield_label.automatically_expand_individual_filters_in_asset_list.label_id

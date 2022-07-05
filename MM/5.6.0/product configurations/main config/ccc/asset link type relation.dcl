@@ -14,8 +14,12 @@ resource metafield_label ccc_asset_linktype_relation {
     language_id = data.language.english.id
 }
 
-resource versioned_metadata_reference ccc_asset_linktype_relation {
-    ref_itemid = resource.masteritem_reference_metafield.adobe_links.item_id
+resource versioned_metadata_multi_reference ccc_asset_linktype_relation {
+    references = [
+        {
+            ref_itemid = resource.masteritem_reference_metafield.adobe_links.item_id
+        }
+    ]
     item_id = resource.product.media_manager.item_id
     version_id = resource.product.media_manager.base_version_id
     label_id = resource.metafield_label.ccc_asset_linktype_relation.label_id
