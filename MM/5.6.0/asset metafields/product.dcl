@@ -115,3 +115,137 @@ resource item_security is_profile_material__trusted {
     write = true
 }
 
+
+resource bit_metafield is_public {
+    item_guid = '17c54460-e6cc-4bda-abe3-628532617ebd'
+    name = 'Is Public'
+    group_id = resource.metafield_group.asset__product__media_manager.metafield_group_id
+    show_in_list = true
+    auto_translate = 'Overwrite'
+    restrict_to_asset_type = 'All'
+    autolink = {
+        item_guid = '17c54460-e6cc-4bda-abe3-628532617ebd'
+    }
+}
+
+resource item_security is_profile_material__anonymous {
+    accessor_item_id = data.member_group.anonymous.item_id
+    item_id = resource.bit_metafield.is_public.item_id
+    read = true
+    write = false
+}
+
+resource item_security is_profile_material__trusted {
+    accessor_item_id = data.member_group.trusted.item_id
+    item_id = resource.bit_metafield.is_public.item_id
+    read = true
+    write = true
+}
+
+
+resource datetime_metafield edited {
+    view_type = 'DateTime'
+    item_guid = 'bf26ca13-be60-4b34-8087-c7f8345158f7'
+    name = 'Edited'
+    group_id = resource.metafield_group.asset__product__media_manager.metafield_group_id
+    sort_index = 50177
+    readonly = true
+    system = true
+    auto_translate = 'Overwrite'
+    restrict_to_asset_type = 'All'
+    autolink = {
+        item_guid = 'bf26ca13-be60-4b34-8087-c7f8345158f7'
+    }
+}
+
+resource metafield_label edited {
+    metafield_id = resource.datetime_metafield.edited.metafield_id
+    label = 'Edited'
+    language_id = data.language.english.id
+}
+
+resource item_security edited__anonymous {
+    accessor_item_id = data.member_group.anonymous.item_id
+    item_id = resource.metafield_label.edited.item_id
+    read = true
+    write = false
+}
+
+resource item_security edited__trusted {
+    accessor_item_id = data.member_group.trusted.item_id
+    item_id = resource.metafield_label.edited.item_id
+    read = true
+    write = true
+}
+
+
+resource datetime_metafield restored {
+    view_type = 'DateTime'
+    item_guid = 'b241ec96-8e83-4953-84cb-d89354d5ac82'
+    name = 'Restored'
+    group_id = resource.metafield_group.asset__product__media_manager.metafield_group_id
+    sort_index = 50178
+    visibility_metafield_id = 0
+    visibility_regex = ''
+    required = false
+    readonly = true
+    show_in_list = false
+    system = true
+    auto_translate = 'Overwrite'
+    restrict_to_asset_type = 'All'
+    upload_tag_name = ''
+    iterative = false
+    autolink = {
+        item_guid = 'b241ec96-8e83-4953-84cb-d89354d5ac82'
+    }
+}
+
+resource metafield_label restored {
+    metafield_id = resource.datetime_metafield.restored.metafield_id
+    label = 'Restored'
+    language_id = data.language.english.id
+}
+
+resource item_security restored__anonymous {
+    accessor_item_id = data.member_group.anonymous.item_id
+    item_id = resource.metafield_label.restored.item_id
+    read = true
+    write = false
+}
+
+resource item_security restored__trusted {
+    accessor_item_id = data.member_group.trusted.item_id
+    item_id = resource.metafield_label.restored.item_id
+    read = true
+    write = true
+}
+
+
+
+resource bit_metafield trim_in_progress {
+    item_guid = 'd5da1a55-5ecf-45b3-8cc0-f168fadcc02c'
+    name = 'Trim in progress'
+    group_id = resource.metafield_group.asset__product__media_manager.metafield_group_id
+    sort_index = 50183
+    readonly = true
+    system = true
+    auto_translate = 'Overwrite'
+    restrict_to_asset_type = 'All'
+    autolink = {
+        item_guid = 'd5da1a55-5ecf-45b3-8cc0-f168fadcc02c'
+    }
+}
+
+resource item_security trim_in_progress__anonymous {
+    accessor_item_id = data.member_group.anonymous.item_id
+    item_id = resource.bit_metafield.trim_in_progress.item_id
+    read = true
+    write = false
+}
+
+resource item_security trim_in_progress__trusted {
+    accessor_item_id = data.member_group.trusted.item_id
+    item_id = resource.bit_metafield.trim_in_progress.item_id
+    read = true
+    write = true
+}

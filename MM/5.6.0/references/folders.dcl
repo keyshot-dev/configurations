@@ -7,7 +7,7 @@ data media_format_folder digizuite_media_manager_10003 {
     name = 'Digizuite™ Media Manager'
 }
 
-data meta_group_folder video_50006 {
+data meta_group_folder video {
     parent_id = data.meta_group_folder.asset.id
     name = 'Video'
 }
