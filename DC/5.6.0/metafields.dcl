@@ -1604,7 +1604,7 @@ resource string_metafield crop_name {
     restrict_to_asset_type = 'All'
     upload_tag_name = ''
     iterative = false
-    autolink {
+    autolink = {
         item_guid = 'fa70d7f6-12ae-4f51-af05-6296d5608b7c'
     }
 }
@@ -1625,48 +1625,48 @@ resource tree_metafield media_manager_menu {
     restrict_to_asset_type = 'All'
     upload_tag_name = ''
     iterative = false
-    autolink {
+    autolink = {
         item_guid = 'bf0ad1a6-984a-494e-a227-9d70c6a864f9'
     }
 }
 
 resource meta_group_folder images {
-	name = 'Images'
-	parent_id = resource.meta_group_folder.asset.id
+    name = 'Images'
+    parent_id = resource.meta_group_folder.asset.id
 }
 
 resource metafield_group images_10026 {
-	name = 'Images'
-	description = ''
-	folder_id = resource.meta_group_folder.images.id
+    name = 'Images'
+    description = ''
+    folder_id = resource.meta_group_folder.images.id
     iterative = false
-	parent_group_id = resource.metafield_group.asset_info.metafield_group_id
-	show_in_list = false
-	restrict_to_asset = 'Image'
-	sort_index = 50035
-	autolink {
-		item_guid = '4f251d08-0ddf-4e0f-8dd9-7379c66d23ac'
-	}
+    parent_group_id = resource.metafield_group.asset_info.metafield_group_id
+    show_in_list = false
+    restrict_to_asset = 'Image'
+    sort_index = 50035
+    autolink = {
+        item_guid = '4f251d08-0ddf-4e0f-8dd9-7379c66d23ac'
+    }
 }
 
 resource metafield_group_label images_10026 {
-	metafield_group_id = resource.metafield_group.images_10026.metafield_group_id
-	label = 'Image'
-	language_id = resource.language.english.id
+    metafield_group_id = resource.metafield_group.images_10026.metafield_group_id
+    label = 'Image'
+    language_id = resource.language.english.id
 }
 
 resource item_security id_2364_trusted {
-	accessor_item_id = resource.member_group.trusted.item_id
-	item_id = resource.metafield_group.images_10026.item_id
-	read = true
-	write = true
+    accessor_item_id = resource.member_group.trusted.item_id
+    item_id = resource.metafield_group.images_10026.item_id
+    read = true
+    write = true
 }
 
 resource item_security id_2364_anonymous {
-	accessor_item_id = resource.member_group.anonymous.item_id
-	item_id = resource.metafield_group.images_10026.item_id
-	read = true
-	write = false
+    accessor_item_id = resource.member_group.anonymous.item_id
+    item_id = resource.metafield_group.images_10026.item_id
+    read = true
+    write = false
 }
 
 resource int_metafield assetversionid_10309 {
@@ -1684,27 +1684,179 @@ resource int_metafield assetversionid_10309 {
     restrict_to_asset_type = 'All'
     upload_tag_name = ''
     iterative = false
-    autolink {
+    autolink = {
         item_guid = '95793334-6675-4783-a396-aba78dcf3e15'
     }
 }
 
 resource metafield_label assetversionid_10781 {
-	metafield_id = resource.int_metafield.assetversionid_10309.metafield_id
-	label = 'AssetVersionId'
-	language_id = resource.language.english.id
+    metafield_id = resource.int_metafield.assetversionid_10309.metafield_id
+    label = 'AssetVersionId'
+    language_id = resource.language.english.id
 }
 
 resource item_security id_3185_trusted {
-	accessor_item_id = resource.member_group.trusted.item_id
-	item_id = resource.int_metafield.assetversionid_10309.item_id
-	read = true
-	write = true
+    accessor_item_id = resource.member_group.trusted.item_id
+    item_id = resource.int_metafield.assetversionid_10309.item_id
+    read = true
+    write = true
 }
 
 resource item_security id_3185_anonymous {
-	accessor_item_id = resource.member_group.anonymous.item_id
-	item_id = resource.int_metafield.assetversionid_10309.item_id
-	read = true
-	write = false
+    accessor_item_id = resource.member_group.anonymous.item_id
+    item_id = resource.int_metafield.assetversionid_10309.item_id
+    read = true
+    write = false
 }
+
+resource combo_value_label german_50471 {
+    combo_id = resource.combo_value.defaultlanguage_2_50252.combo_id
+    language_id = resource.language.english.id
+    label = 'German'
+}
+
+resource item_security id_6207_4926 {
+    accessor_item_id = resource.member_group.trusted.item_id
+    item_id = resource.combo_value.defaultlanguage_1_50252.item_id
+    read = true
+    write = true
+}
+
+resource combo_value defaultlanguage_3_50252 {
+    metafield_id = resource.combovalue_metafield.defaultlanguage_50252.metafield_id
+    option_value = '3'
+    sort_index = 0
+}
+
+resource item_security id_6219_4926 {
+    accessor_item_id = resource.member_group.trusted.item_id
+    item_id = resource.combo_value.defaultlanguage_5_50252.item_id
+    read = true
+    write = true
+}
+
+resource item_security id_6200_4926 {
+    accessor_item_id = resource.member_group.trusted.item_id
+    item_id = resource.combovalue_metafield.defaultlanguage_50252.item_id
+    read = true
+    write = true
+}
+
+resource item_security id_6200_9027 {
+    accessor_item_id = resource.member_group.anonymous.item_id
+    item_id = resource.combovalue_metafield.defaultlanguage_50252.item_id
+    read = true
+    write = false
+}
+
+resource item_security id_6215_9027 {
+    accessor_item_id = resource.member_group.anonymous.item_id
+    item_id = resource.combo_value.defaultlanguage_3_50252.item_id
+    read = true
+    write = false
+}
+
+resource combo_value_label danish_50467 {
+    combo_id = resource.combo_value.defaultlanguage_1_50252.combo_id
+    language_id = resource.language.english.id
+    label = 'Danish'
+}
+
+resource combo_value defaultlanguage_1_50252 {
+    metafield_id = resource.combovalue_metafield.defaultlanguage_50252.metafield_id
+    option_value = '1'
+    sort_index = 0
+}
+
+resource combo_value_label svensk_50479 {
+    combo_id = resource.combo_value.defaultlanguage_5_50252.combo_id
+    language_id = resource.language.english.id
+    label = 'Svensk'
+}
+
+resource item_security id_6215_4926 {
+    accessor_item_id = resource.member_group.trusted.item_id
+    item_id = resource.combo_value.defaultlanguage_3_50252.item_id
+    read = true
+    write = true
+}
+
+resource versioned_metadata_reference defaultlanguage_5102_51007_1 {
+    ref_itemid = resource.combo_value.defaultlanguage_3_50252.item_id
+    item_id = resource.product.digizuite_dam_center.item_id
+    version_id = resource.product.digizuite_dam_center.base_version_id
+    label_id = resource.metafield_label.defaultlanguage_51007.label_id
+    row_id = 1
+}
+
+resource item_security id_6211_9027 {
+    accessor_item_id = resource.member_group.anonymous.item_id
+    item_id = resource.combo_value.defaultlanguage_2_50252.item_id
+    read = true
+    write = false
+}
+
+resource combo_value_label english_50475 {
+    combo_id = resource.combo_value.defaultlanguage_3_50252.combo_id
+    language_id = resource.language.english.id
+    label = 'English'
+}
+
+resource combo_value defaultlanguage_2_50252 {
+    metafield_id = resource.combovalue_metafield.defaultlanguage_50252.metafield_id
+    option_value = '2'
+    sort_index = 0
+}
+
+resource metafield_label defaultlanguage_51007 {
+    metafield_id = resource.combovalue_metafield.defaultlanguage_50252.metafield_id
+    label = 'DefaultLanguage'
+    language_id = resource.language.english.id
+    description = ''
+}
+
+resource item_security id_6211_4926 {
+    accessor_item_id = resource.member_group.trusted.item_id
+    item_id = resource.combo_value.defaultlanguage_2_50252.item_id
+    read = true
+    write = true
+}
+
+resource combovalue_metafield defaultlanguage_50252 {
+    view_type = 'Radio'
+    item_guid = '48368ee9-4ac9-48b9-9f0a-ffba88533077'
+    name = 'DefaultLanguage'
+    group_id = resource.metafield_group.config.metafield_group_id
+    sort_index = 0
+    visibility_metafield_id = 0
+    visibility_regex = ''
+    required = false
+    readonly = false
+    show_in_list = false
+    system = false
+    auto_translate = 'Overwrite'
+    restrict_to_asset_type = 'All'
+    upload_tag_name = ''
+    iterative = false
+}
+
+resource combo_value defaultlanguage_5_50252 {
+    metafield_id = resource.combovalue_metafield.defaultlanguage_50252.metafield_id
+    option_value = '5'
+    sort_index = 0
+}
+
+resource item_security id_6219_9027 {
+    accessor_item_id = resource.member_group.anonymous.item_id
+    item_id = resource.combo_value.defaultlanguage_5_50252.item_id
+    read = true
+    write = false
+}
+
+resource item_security id_6207_9027 {
+    accessor_item_id = resource.member_group.anonymous.item_id
+    item_id = resource.combo_value.defaultlanguage_1_50252.item_id
+    read = true
+    write = false
+}
+
