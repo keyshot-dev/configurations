@@ -376,7 +376,7 @@ resource media_transcode openoffice_calc_template__preview_pdf_50242 {
 resource media_transcode adobe_pdf_page_image_aspose_50267 {
     name = 'Adobe PDF Page Image (Aspose)'
     description = ''
-    is_public = false
+    is_public = true
     settings = '%infile%[0] -flatten -auto-orient %iccconversion% %Outfile%'
     encoder_profile_name = ''
     prefix = ''
@@ -982,7 +982,7 @@ resource media_transcode pdf__thumb_1920x1080_5 {
     prefix = ''
     copy_target_icc_profile = false
     only_explicit_use = false
-    prog_id = 'DigiImageMagicJobs.JobConvertImage'
+    prog_id = 'DigiAsposeJobs.JobPdfPreview'
     folder_id = resource.transcode_folder.standard_10001.id
     embed_metadefinition = ''
     source_media_format_id = resource.media_format.adobe_pdf_50009.media_format_id
@@ -1142,7 +1142,7 @@ resource media_transcode pdf__thumb_200x120_12 {
     prefix = ''
     copy_target_icc_profile = false
     only_explicit_use = false
-    prog_id = 'DigiImageMagicJobs.JobConvertImage'
+    prog_id = 'DigiAsposeJobs.JobPdfPreview'
     folder_id = resource.transcode_folder.standard_10001.id
     embed_metadefinition = ''
     source_media_format_id = resource.media_format.adobe_pdf_50009.media_format_id
