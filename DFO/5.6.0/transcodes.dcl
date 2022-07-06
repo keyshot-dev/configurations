@@ -3,16 +3,6 @@ data transcode_folder standard_10001 {
     name = 'Standard'
 }
 
-resource transcode_folder oobe_197 {
-	parent_id = data.transcode_folder.standard_10001.id
-	name = 'OOBE'
-}
-
-resource transcode_folder image_201 {
-	parent_id = resource.transcode_folder.oobe_197.id
-	name = 'Image'
-}
-
 
 
 resource media_transcode jpg_full_size_transcode_50055 {

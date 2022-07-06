@@ -86,3 +86,8 @@ data transcode_folder video_205 {
 	parent_id = data.transcode_folder.oobe_197.id
 	name = 'Video'
 }
+
+data transcode_folder oobe_197 {
+	parent_id = data.media_format_folder.standard_10001.id
+	name = 'OOBE'
+}

@@ -28,15 +28,7 @@ resource transcode_folder related_formats_50027 {
 	name = 'Related formats'
 }
 
-resource transcode_folder oobe_197 {
-	parent_id = 10001
-	name = 'OOBE'
-}
 
-resource transcode_folder image_201 {
-	parent_id = resource.transcode_folder.oobe_197.id
-	name = 'Image'
-}
 
 resource media_transcode sitecore_extract_thumb_indesign_50281 {
     folder_id = resource.transcode_folder.user_defined_formats_50025.id
