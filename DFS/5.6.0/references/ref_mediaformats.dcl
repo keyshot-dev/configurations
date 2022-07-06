@@ -81,3 +81,8 @@ data media_format video_720p {
 data media_format video_1080p {
     name = '1080p (HD)'
 }
+
+data transcode_folder video_205 {
+	parent_id = data.transcode_folder.oobe_197.id
+	name = 'Video'
+}

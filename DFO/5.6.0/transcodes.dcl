@@ -13,10 +13,7 @@ resource transcode_folder image_201 {
 	name = 'Image'
 }
 
-resource transcode_folder video_205 {
-	parent_id = resource.transcode_folder.oobe_197.id
-	name = 'Video'
-}
+
 
 resource media_transcode jpg_full_size_transcode_50055 {
     folder_id = resource.transcode_folder.image_201.id

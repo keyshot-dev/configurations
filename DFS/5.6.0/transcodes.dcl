@@ -38,11 +38,6 @@ resource transcode_folder image_201 {
 	name = 'Image'
 }
 
-resource transcode_folder video_205 {
-	parent_id = resource.transcode_folder.oobe_197.id
-	name = 'Video'
-}
-
 resource media_transcode sitecore_extract_thumb_indesign_50281 {
     folder_id = resource.transcode_folder.user_defined_formats_50025.id
 	name = 'Sitecore Extract thumb InDesign'
@@ -545,7 +540,7 @@ resource media_transcode sitecore_related_tile_photoshop_50314 {
 
 resource media_transcode tra480p_transcode_50060 {
 	name = '480p transcode'
-	folder_id = resource.transcode_folder.video_205.id
+	folder_id = data.transcode_folder.video_205.id
 	description = ''
 	prog_id = 'DigiFFMpegJobs.JobFFMpegProfile'
 	is_public = true
@@ -565,7 +560,7 @@ resource media_transcode tra480p_transcode_50060 {
 
 resource media_transcode tra720p_transcode_50061 {
 	name = '720p transcode'
-	folder_id = resource.transcode_folder.video_205.id
+	folder_id = data.transcode_folder.video_205.id
 	description = ''
 	prog_id = 'DigiFFMpegJobs.JobFFMpegProfile'
 	is_public = true

@@ -47,3 +47,8 @@ resource media_format_folder oobe_185 {
 	parent_id = resource.media_format_folder.standard_10001.id
 	name = 'OOBE'
 }
+
+resource transcode_folder video_205 {
+	parent_id = resource.transcode_folder.oobe_197.id
+	name = 'Video'
+}
