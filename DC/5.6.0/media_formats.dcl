@@ -1,4 +1,4 @@
-﻿resource media_format thumb_1920x1080_2 {
+resource media_format thumb_1920x1080_2 {
     folder_id = resource.media_format_folder.standard_10001.id
     format_type_id = resource.media_format_type.jpeg_compressed_formats_40001.media_format_type_id
     name = 'Thumb 1920x1080'

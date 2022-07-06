@@ -1,4 +1,4 @@
-﻿resource media_format microstation_design_dgn_50068 {
+resource media_format microstation_design_dgn_50068 {
     folder_id = resource.media_format_folder.import_10000.id
     format_type_id = resource.media_format_type.microstation_design_190003.media_format_type_id
     name = 'MicroStation Design (.dgn)'

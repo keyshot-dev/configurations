@@ -1,4 +1,4 @@
-﻿resource media_format_type excel_binary_workbook_90006 {
+resource media_format_type excel_binary_workbook_90006 {
     media_format_type_id = 90006
     name = 'Excel Binary Workbook'
     asset_type = 'Excel'
