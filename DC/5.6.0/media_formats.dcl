@@ -368,13 +368,13 @@ resource media_format fmt720p_hd_50039 {
 
 resource media_format fmt1080p_hd_50040 {
     folder_id = resource.media_format_folder.video_193.id
-    format_type_id = data.media_format_type.mpeg_4_10201.media_format_type_id
+    format_type_id = resource.media_format_type.mpeg_4_10201.media_format_type_id
     name = '1080p (HD)'
     description = ''
     width = 0
     height = 1080
     is_public = true
-    format_xml = '<mediaformat><fieldmapping active="1" asset_metafieldid="${to_string(data.combovalue_metafield.format_10032.metafield_id)}" jobident="AspectRatio"><defaultvalue>169</defaultvalue></fieldmapping><fieldmapping active="1" asset_metafieldid="${to_string(data.combovalue_metafield.rotation_50041.metafield_id)}" jobident="VideoRotate"><defaultvalue>0</defaultvalue></fieldmapping></mediaformat>'
+    format_xml = '<mediaformat><fieldmapping active="1" asset_metafieldid="${to_string(resource.combovalue_metafield.format_10032.metafield_id)}" jobident="AspectRatio"><defaultvalue>169</defaultvalue></fieldmapping><fieldmapping active="1" asset_metafieldid="${to_string(data.combovalue_metafield.rotation_50041.metafield_id)}" jobident="VideoRotate"><defaultvalue>0</defaultvalue></fieldmapping></mediaformat>'
     multi_page_output = false
     is_identity_format = false
     settings = ''
@@ -414,13 +414,13 @@ resource media_format fmt1080p_hd_50040 {
 
 resource media_format desktop_h264_2048kbit_ffmpeg_50016 {
     folder_id = resource.media_format_folder.digizuite_video_portal_50001.id
-    format_type_id = data.media_format_type.mpeg_4_10201.media_format_type_id
+    format_type_id = resource.media_format_type.mpeg_4_10201.media_format_type_id
     name = 'Desktop H264 2048kbit ffmpeg'
     description = ''
     width = 0
     height = 540
     is_public = true
-    format_xml = '<mediaformat><fieldmapping active="1" asset_metafieldid="${to_string(data.combovalue_metafield.format_10032.metafield_id)}" jobident="AspectRatio"><defaultvalue>169</defaultvalue></fieldmapping><fieldmapping active="1" asset_metafieldid="${to_string(data.combovalue_metafield.rotation_50041.metafield_id)}" jobident="VideoRotate"><defaultvalue>0</defaultvalue></fieldmapping></mediaformat>'
+    format_xml = '<mediaformat><fieldmapping active="1" asset_metafieldid="${to_string(resource.combovalue_metafield.format_10032.metafield_id)}" jobident="AspectRatio"><defaultvalue>169</defaultvalue></fieldmapping><fieldmapping active="1" asset_metafieldid="${to_string(data.combovalue_metafield.rotation_50041.metafield_id)}" jobident="VideoRotate"><defaultvalue>0</defaultvalue></fieldmapping></mediaformat>'
     multi_page_output = false
     is_identity_format = false
     settings = ''
@@ -460,7 +460,7 @@ resource media_format desktop_h264_2048kbit_ffmpeg_50016 {
 
 resource media_format desktop_video_thumb_50019 {
     folder_id = resource.media_format_folder.digizuite_video_portal_50001.id
-    format_type_id = data.media_format_type.jpeg_compressed_formats_40001.media_format_type_id
+    format_type_id = resource.media_format_type.jpeg_compressed_formats_40001.media_format_type_id
     name = 'Desktop Video Thumb'
     description = ''
     width = 0
