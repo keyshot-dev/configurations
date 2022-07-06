@@ -15,8 +15,8 @@ resource metafield_label automatically_renew_accesskey_after_expiration {
     description = 'If this is enabled, the access key will be renewed automatically.'
 }
 
-resource versioned_metadata_int_value automatically_renew_accesskey_after_expiration {
-    value = 1
+resource versioned_metadata_bool_value automatically_renew_accesskey_after_expiration {
+    value = true
     item_id = resource.product.media_manager.item_id
     version_id = resource.product.media_manager.base_version_id
     label_id = resource.metafield_label.automatically_renew_accesskey_after_expiration.label_id

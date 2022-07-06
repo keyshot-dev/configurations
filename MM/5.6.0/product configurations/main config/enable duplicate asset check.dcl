@@ -14,8 +14,8 @@ resource metafield_label enable_duplicate_asset_check {
     description = 'By enabling this, the system will check for duplicate assets during asset upload.'
 }
 
-resource versioned_metadata_int_value enable_duplicate_asset_check {
-    value = 1
+resource versioned_metadata_bool_value enable_duplicate_asset_check {
+    value = true
     item_id = resource.product.media_manager.item_id
     version_id = resource.product.media_manager.base_version_id
     label_id = resource.metafield_label.enable_duplicate_asset_check.label_id

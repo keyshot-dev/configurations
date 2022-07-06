@@ -14,8 +14,8 @@ resource metafield_label lock_aspect_ratio_by_default {
     description = 'If enabled, cropping will have lock aspect ratio be enabled by default'
 }
 
-resource versioned_metadata_int_value lock_aspect_ratio_by_default {
-    value = 0
+resource versioned_metadata_bool_value lock_aspect_ratio_by_default {
+    value = false
     item_id = resource.product.media_manager.item_id
     version_id = resource.product.media_manager.base_version_id
     label_id = resource.metafield_label.lock_aspect_ratio_by_default.label_id

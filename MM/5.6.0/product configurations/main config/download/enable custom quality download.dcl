@@ -17,8 +17,8 @@ resource metafield_label enable_custom_quality_download {
 
 
 
-resource versioned_metadata_int_value enable_custom_quality_default {
-    value = 1
+resource versioned_metadata_bool_value enable_custom_quality_default {
+    value = true
     item_id = resource.product.media_manager.item_id
     version_id = resource.product.media_manager.base_version_id
     label_id = resource.metafield_label.enable_custom_quality_download.label_id

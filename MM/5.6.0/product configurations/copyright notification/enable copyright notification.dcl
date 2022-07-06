@@ -14,8 +14,8 @@ resource metafield_label enable_copyright_notification {
     description = 'Enabling this, a copyright notification will appear when downloading an asset.'
 }
 
-resource versioned_metadata_int_value enable_copyright_notification {
-    value = 0
+resource versioned_metadata_bool_value enable_copyright_notification {
+    value = false
     item_id = resource.product.media_manager.item_id
     version_id = resource.product.media_manager.base_version_id
     label_id = resource.metafield_label.enable_copyright_notification.label_id

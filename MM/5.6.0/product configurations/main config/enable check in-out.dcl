@@ -13,8 +13,8 @@ resource metafield_label enable_check_in_out {
     language_id = data.language.english.id
 }
 
-resource versioned_metadata_int_value enable_check_in_out {
-    value = 1
+resource versioned_metadata_bool_value enable_check_in_out {
+    value = true
     item_id = resource.product.media_manager.item_id
     version_id = resource.product.media_manager.base_version_id
     label_id = resource.metafield_label.enable_check_in_out.label_id
