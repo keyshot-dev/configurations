@@ -697,7 +697,7 @@ resource media_format sitecore_related_tile_50104 {
 }
 
 resource media_format fmt480p_50038 {
-	folder_id = data.media_format_folder.video_193.id
+	folder_id = data.media_format_folder.video.id
     format_type_id = data.media_format_type.mpeg_4_10201.media_format_type_id
 	name = '480p'
 	description = ''

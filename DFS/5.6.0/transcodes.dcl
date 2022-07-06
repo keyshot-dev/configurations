@@ -532,7 +532,7 @@ resource media_transcode sitecore_related_tile_photoshop_50314 {
 
 resource media_transcode tra480p_transcode_50060 {
 	name = '480p transcode'
-	folder_id = data.transcode_folder.video_205.id
+	folder_id = data.transcode_folder.video.id
 	description = ''
 	prog_id = 'DigiFFMpegJobs.JobFFMpegProfile'
 	is_public = true
@@ -552,7 +552,7 @@ resource media_transcode tra480p_transcode_50060 {
 
 resource media_transcode tra720p_transcode_50061 {
 	name = '720p transcode'
-	folder_id = data.transcode_folder.video_205.id
+	folder_id = data.transcode_folder.video.id
 	description = ''
 	prog_id = 'DigiFFMpegJobs.JobFFMpegProfile'
 	is_public = true

@@ -13,6 +13,16 @@ resource transcode_folder custom_10004 {
     name = 'Custom'
 }
 
+resource transcode_folder oobe {
+	parent_id = resource.transcode_folder.standard_10001.id
+	name = 'OOBE'
+}
+
+resource transcode_folder video {
+	parent_id = resource.transcode_folder.oobe.id
+	name = 'Video'
+}
+
 resource media_transcode video_thumb_ffmpeg_10053 {
     name = 'Video Thumb ffmpeg'
     description = ''
@@ -1814,7 +1824,7 @@ resource media_transcode image_original_som_jpg_10047 {
 
 resource media_transcode tra1080p_transcode_50062 {
 	name = '1080p transcode'
-	folder_id = resource.transcode_folder.video_205.id
+	folder_id = resource.transcode_folder.video.id
 	description = ''
 	prog_id = 'DigiFFMpegJobs.JobFFMpegProfile'
 	is_public = true
