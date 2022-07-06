@@ -14,8 +14,8 @@ resource metafield_label allow_users_to_chose_password_on_signup {
     language_id = data.language.english.id
 }
 
-resource versioned_metadata_int_value allow_users_to_chose_password_on_signup_default {
-    value = 1
+resource versioned_metadata_bool_value allow_users_to_chose_password_on_signup_default {
+    value = true
     item_id = resource.product.media_manager.item_id
     version_id = resource.product.media_manager.base_version_id
     label_id = resource.metafield_label.allow_users_to_chose_password_on_signup.label_id

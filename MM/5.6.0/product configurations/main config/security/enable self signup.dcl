@@ -15,8 +15,8 @@ resource metafield_label enable_self_signup {
 If "Admin verification" is enabled, an admin will have to approve them before they can be used.'
 }
 
-resource versioned_metadata_int_value enable_self_signup {
-    value = 0
+resource versioned_metadata_bool_value enable_self_signup {
+    value = false
     item_id = resource.product.media_manager.item_id
     version_id = resource.product.media_manager.base_version_id
     label_id = resource.metafield_label.enable_self_signup.label_id
