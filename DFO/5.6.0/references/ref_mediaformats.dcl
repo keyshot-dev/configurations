@@ -84,3 +84,9 @@ data media_format video_720p {
 data media_format video_1080p {
     name = '1080p (HD)'
 }
+
+
+data media_format_folder oobe_185 {
+	parent_id = data.media_format_folder.standard_10001.id
+	name = 'OOBE'
+}

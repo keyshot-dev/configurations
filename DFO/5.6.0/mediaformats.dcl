@@ -3,18 +3,8 @@ data media_format_folder standard_10001 {
     name = 'Standard'
 }
 
-resource media_format_folder oobe_185 {
-	parent_id = data.media_format_folder.standard_10001.id
-	name = 'OOBE'
-}
-
-resource media_format_folder video_193 {
-	parent_id = resource.media_format_folder.oobe_185.id
-	name = 'Video'
-}
-
 resource media_format_folder image_189 {
-	parent_id = resource.media_format_folder.oobe_185.id
+	parent_id = data.media_format_folder.oobe_185.id
 	name = 'Image'
 }
 
