@@ -67,3 +67,7 @@ data media_format jpg_big {
 data media_format video_720p {
     name = '720p (HD)'
 }
+
+data media_format video_1080p {
+    name = '1080p (HD)'
+}

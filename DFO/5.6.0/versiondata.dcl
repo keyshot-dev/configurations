@@ -74,7 +74,7 @@ resource versioned_metadata_multi_references portal_menu_9448_51450_1 {
 
 resource versioned_metadata_multi_references editor_qualities_9448_51459_1 {
     references = [{
-            ref_itemid = resource.media_format.fmt1080p_hd_50040.item_id
+            ref_itemid = data.media_format.video_1080p.item_id
         }, {
             ref_itemid = data.media_format.video_720p.item_id
         }, {

@@ -934,7 +934,7 @@ resource versioned_metadata_multi_references editor_qualities_9449_51471_1 {
 		, { ref_itemid = resource.media_format.png_transparent_50037.item_id }
 		, { ref_itemid = resource.media_format.fmt480p_50038.item_id }
 		, { ref_itemid = data.media_format.video_720p.item_id }
-		, { ref_itemid = resource.media_format.fmt1080p_hd_50040.item_id }
+		, { ref_itemid = data.media_format.video_1080p.item_id }
 		, { ref_itemid = resource.media_format.sitecore_system_audio_preview_50099.item_id }
 	]
 	item_id = resource.product.digizuite_dam_for_sitecore.item_id
