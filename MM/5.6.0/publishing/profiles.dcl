@@ -139,11 +139,11 @@ resource profile oobe_media_manager_video_50017 {
         }, {
             media_format_id = data.media_format.fmt1080p_hd.media_format_id
         }, {
-            media_format_id = data.media_format.desktop_h264_2048kbit_ffmpeg_50016.media_format_id
+            media_format_id = data.media_format.desktop_h264_2048kbit_ffmpeg.media_format_id
         }, {
-            media_format_id = data.media_format.tablet_h264_2048kbit_ffmpeg_50017.media_format_id
+            media_format_id = data.media_format.tablet_h264_2048kbit_ffmpeg.media_format_id
         }, {
-            media_format_id = data.media_format.mobile_h264_1024kbit_ffmpeg_50018.media_format_id
+            media_format_id = data.media_format.mobile_h264_1024kbit_ffmpeg.media_format_id
         }]
 }
 
