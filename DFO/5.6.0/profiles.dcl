@@ -77,11 +77,11 @@ resource profile common_image_50036 {
         }, {
             media_format_id = data.media_format.jpg_big.media_format_id
         }, {
-            media_format_id = resource.media_format.jpg_medium_50035.media_format_id
+            media_format_id = data.media_format.jpg_medium_50035.media_format_id
         }, {
-            media_format_id = resource.media_format.jpg_small_50036.media_format_id
+            media_format_id = data.media_format.jpg_small_50036.media_format_id
         }, {
-            media_format_id = resource.media_format.png_transparent_50037.media_format_id
+            media_format_id = data.media_format.png_transparent_50037.media_format_id
         }
     ]
     autolink {

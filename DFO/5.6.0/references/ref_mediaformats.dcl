@@ -90,3 +90,15 @@ data media_format_folder oobe_185 {
 	parent_id = data.media_format_folder.standard_10001.id
 	name = 'OOBE'
 }
+
+data media_format jpg_medium_50035 {
+    name = 'JPG medium'
+}
+
+data media_format jpg_small_50036 {
+	name = 'JPG small'
+}
+
+data media_format png_transparent_50037 {
+    name = 'PNG transparent'
+}

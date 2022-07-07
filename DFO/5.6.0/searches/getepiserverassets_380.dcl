@@ -50,10 +50,10 @@ resource search getepiserverassets_380 {
       <valueField fieldName="asset.urlAbsolut(${to_string(data.destination.asset_storage_sm.item_guid)},${to_string(data.media_format.thumb_1920x1080_2.item_guid)})" id="ImagePreview" />
       <valueField fieldName="asset.urlAbsolut(${to_string(data.destination.asset_storage_sm.item_guid)},${to_string(data.media_format.video_preview_h264_10079.item_guid)})" id="VideoPreview" />
       <valueField fieldName="asset.urlAbsolut(${to_string(data.destination.frontenddata_sm.item_guid)},${to_string(data.media_format.jpg_big.item_guid)})" id="ImageBig" />
-      <valueField fieldName="asset.urlAbsolut(${to_string(data.destination.frontenddata_sm.item_guid)},${to_string(resource.media_format.jpg_medium_50035.item_guid)})" id="ImageMedium" />
-      <valueField fieldName="asset.urlAbsolut(${to_string(data.destination.frontenddata_sm.item_guid)},${to_string(resource.media_format.jpg_small_50036.item_guid)})" id="ImageSmall" />
+      <valueField fieldName="asset.urlAbsolut(${to_string(data.destination.frontenddata_sm.item_guid)},${to_string(data.media_format.jpg_medium_50035.item_guid)})" id="ImageMedium" />
+      <valueField fieldName="asset.urlAbsolut(${to_string(data.destination.frontenddata_sm.item_guid)},${to_string(data.media_format.jpg_small_50036.item_guid)})" id="ImageSmall" />
       <valueField fieldName="asset.urlAbsolut(${to_string(data.destination.frontenddata_sm.item_guid)},${to_string(resource.media_format.jpg_full_size_50033.item_guid)})" id="ImageFullsize" />
-      <valueField fieldName="asset.urlAbsolut(${to_string(data.destination.frontenddata_sm.item_guid)},${to_string(resource.media_format.png_transparent_50037.item_guid)})" id="ImageTransparentPng" />
+      <valueField fieldName="asset.urlAbsolut(${to_string(data.destination.frontenddata_sm.item_guid)},${to_string(data.media_format.png_transparent_50037.item_guid)})" id="ImageTransparentPng" />
       <valueField fieldName="function.GetAssetLocationPath" id="sourceLocationPath" />
       <valueField fieldName="member.username" id="ImportedBy">
         <bindField id="memberNameBind">

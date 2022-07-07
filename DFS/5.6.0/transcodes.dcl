@@ -530,26 +530,6 @@ resource media_transcode sitecore_related_tile_photoshop_50314 {
 	}
 }
 
-resource media_transcode tra480p_transcode_50060 {
-	name = '480p transcode'
-	folder_id = data.transcode_folder.video.id
-	description = ''
-	prog_id = 'DigiFFMpegJobs.JobFFMpegProfile'
-	is_public = true
-	settings = ''
-	encoder_profile_name = ''
-	prefix = ''
-	copy_target_icc_profile = false
-	only_explicit_use = false
-	embed_metadefinition = ''
-	source_media_format_id = data.media_format.video_10053.media_format_id
-	target_media_format_id = resource.media_format.fmt480p_50038.media_format_id
-	prevref = 0
-	autolink {
-		item_guid = 'a7cf737b-e0cd-4db9-810d-e47644655ba1'
-	}
-}
-
 resource media_transcode tra720p_transcode_50061 {
 	name = '720p transcode'
 	folder_id = data.transcode_folder.video.id
@@ -607,85 +587,5 @@ resource media_transcode jpg_big_transcode_50056 {
 	prevref = 0
 	autolink {
 		item_guid = '5b73f4e3-d58c-4b5f-ac36-fca25882edcb'
-	}
-}
-
-resource media_transcode jpg_medium_transcode_50057 {
-    folder_id = resource.transcode_folder.image_201.id
-	name = 'JPG medium transcode'
-	description = ''
-	prog_id = 'DigiImageMagicJobs.JobConvertImage'
-	is_public = true
-	settings = ''
-	encoder_profile_name = ''
-	prefix = ''
-	copy_target_icc_profile = false
-	only_explicit_use = false
-	embed_metadefinition = ''
-	source_media_format_id = data.media_format.image_50030.media_format_id
-	target_media_format_id = resource.media_format.jpg_medium_50035.media_format_id
-	prevref = 0
-	autolink {
-		item_guid = 'cae34b0d-65e9-42f1-8090-7f6e219719ff'
-	}
-}
-
-resource media_transcode jpg_small_transcode_50058 {
-    folder_id = resource.transcode_folder.image_201.id
-	name = 'JPG Small transcode'
-	description = ''
-	prog_id = 'DigiImageMagicJobs.JobConvertImage'
-	is_public = true
-	settings = ''
-	encoder_profile_name = ''
-	prefix = ''
-	copy_target_icc_profile = false
-	only_explicit_use = false
-	embed_metadefinition = ''
-	source_media_format_id = data.media_format.image_50030.media_format_id
-	target_media_format_id = resource.media_format.jpg_small_50036.media_format_id
-	prevref = 0
-	autolink {
-		item_guid = 'a5b6c5b4-dd93-4474-9222-f0391bece7cd'
-	}
-}
-
-resource media_transcode indesign_exifthumb_to_jpg_small_50067 {
-    folder_id = resource.transcode_folder.digizuite_media_manager_10003.id
-	name = 'InDesign ExifThumb to JPG Small'
-	description = ''
-	prog_id = 'DigiImageMagicJobs.JobConvertImage'
-	is_public = true
-	settings = ''
-	encoder_profile_name = ''
-	prefix = ''
-	copy_target_icc_profile = false
-	only_explicit_use = false
-	embed_metadefinition = ''
-	source_media_format_id = data.media_format.exifthumb_raw_50014.media_format_id
-	target_media_format_id = resource.media_format.jpg_small_50036.media_format_id
-	prevref = data.media_transcode.extract_exifthumb_from_indesign_50015.media_transcode_id
-	autolink {
-		item_guid = 'b87f3b7a-e274-4f98-85cb-93b7f6059a1c'
-	}
-}
-
-resource media_transcode png_transparency_transcode_50059 {
-    folder_id = resource.transcode_folder.image_201.id
-	name = 'PNG transparency transcode'
-	description = ''
-	prog_id = 'DigiImageMagicJobs.JobConvertImage'
-	is_public = true
-	settings = ''
-	encoder_profile_name = ''
-	prefix = ''
-	copy_target_icc_profile = false
-	only_explicit_use = false
-	embed_metadefinition = ''
-	source_media_format_id = data.media_format.image_50030.media_format_id
-	target_media_format_id = resource.media_format.png_transparent_50037.media_format_id
-	prevref = 0
-	autolink {
-		item_guid = 'db99b5de-bd30-4fc1-9260-5b1b26cad8e1'
 	}
 }

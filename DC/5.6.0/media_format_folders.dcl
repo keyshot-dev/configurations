@@ -38,3 +38,7 @@ resource media_format_folder digizuite_video_portal_50001 {
     name = 'Digizuite™ Video Portal'
 }
 
+resource transcode_folder image_201 {
+    parent_id = resource.transcode_folder.oobe.id
+    name = 'Image'
+}
