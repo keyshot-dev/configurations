@@ -11,7 +11,7 @@ resource masteritem_reference_metafield content_owner_metafield {
 
 resource metafield_label content_owner_metafield {
     metafield_id = resource.masteritem_reference_metafield.content_owner_metafield.metafield_id
-    label = resource.masteritem_reference_metafield.content_owner_metafield.metafield_id.name
+    label = resource.masteritem_reference_metafield.content_owner_metafield.name
     language_id = data.language.english.id
 }
 
