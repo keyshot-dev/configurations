@@ -1,6 +1,6 @@
 resource string_metafield intro_screen_header {
     item_guid = '8a5c1ed4-2e3b-4720-ae4b-5a4d719dcb54'
-    name = 'Intro screen header'
+    name = "Intro screen's text field's title"
     group_id = resource.metafield_group.main_config.metafield_group_id
     show_in_list = true
     auto_translate = 'CreateIfMissing'
@@ -8,7 +8,7 @@ resource string_metafield intro_screen_header {
 
 resource metafield_label intro_screen_header {
     metafield_id = resource.string_metafield.intro_screen_header.metafield_id
-    label = "Intro screen's text field's title"
+    label = resource.string_metafield.intro_screen_header.name
     language_id = data.language.english.id
     description = "This text will appear in the top of the intro screen's text field (Only if splashscreen is chosen)."
 }

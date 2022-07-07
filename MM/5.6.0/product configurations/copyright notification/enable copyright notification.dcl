@@ -9,7 +9,7 @@ resource bit_metafield enable_copyright_notification {
 
 resource metafield_label enable_copyright_notification {
     metafield_id = resource.bit_metafield.enable_copyright_notification.metafield_id
-    label = 'Enable copyright notification'
+    label = resource.bit_metafield.enable_copyright_notification.name
     language_id = data.language.english.id
     description = 'Enabling this, a copyright notification will appear when downloading an asset.'
 }
@@ -21,8 +21,6 @@ resource versioned_metadata_bool_value enable_copyright_notification {
     label_id = resource.metafield_label.enable_copyright_notification.label_id
     row_id = 1
 }
-
-
 
 resource item_security enable_copyright_notification__anonymous {
     accessor_item_id = data.member_group.anonymous.item_id

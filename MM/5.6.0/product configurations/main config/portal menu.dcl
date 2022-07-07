@@ -1,6 +1,6 @@
 resource masteritem_reference_metafield portal_menu {
     item_guid = '1a6c5e99-303d-46f8-b8a9-e7a647724302'
-    name = 'Portal Menu'
+    name = "The navigation menu's metadata field"
     group_id = resource.metafield_group.main_config.metafield_group_id
     auto_translate = 'Overwrite'
     show_in_list = true
@@ -10,7 +10,7 @@ resource masteritem_reference_metafield portal_menu {
 
 resource metafield_label portal_menu {
     metafield_id = resource.masteritem_reference_metafield.portal_menu.metafield_id
-    label = "The navigation menu's metadata field"
+    label = resource.masteritem_reference_metafield.portal_menu.name
     language_id = data.language.english.id
     description = 'The tree field you choose here will be the one visible in your left side pane in your MM.'
 }

@@ -1,6 +1,6 @@
 resource masteritem_reference_metafield download_approval_formats {
     item_guid = '6f966d04-1c5a-411d-b5a8-3f259a4a7cac'
-    name = 'Download approval formats (DO NOT edit manually)'
+    name = 'Download approval formats'
     group_id = resource.metafield_group.download_request.metafield_group_id
     item_type = 'MediaFormat'
     auto_translate = 'Overwrite'
@@ -9,7 +9,7 @@ resource masteritem_reference_metafield download_approval_formats {
 
 resource metafield_label download_approval_formats {
     metafield_id = resource.masteritem_reference_metafield.download_approval_formats.metafield_id
-    label = 'Download approval formats'
+    label = resource.masteritem_reference_metafield.download_approval_formats.metafield_id
     language_id = data.language.english.id
 }
 

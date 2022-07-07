@@ -9,7 +9,7 @@ resource bit_metafield lock_aspect_ratio_by_default {
 
 resource metafield_label lock_aspect_ratio_by_default {
     metafield_id = resource.bit_metafield.lock_aspect_ratio_by_default.metafield_id
-    label = 'Lock aspect ratio by default'
+    label = resource.bit_metafield.lock_aspect_ratio_by_default.name
     language_id = data.language.english.id
     description = 'If enabled, cropping will have lock aspect ratio be enabled by default'
 }

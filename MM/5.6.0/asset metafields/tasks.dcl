@@ -5,7 +5,6 @@ resource metafield_group tasks {
     parent_group_id = data.metafield_group.asset_info.metafield_group_id
 }
 
-
 resource item_security tasks__anonymous {
     accessor_item_id = data.member_group.anonymous.item_id
     item_id = resource.metafield_group.tasks.item_id
@@ -34,7 +33,6 @@ resource metafield_label tasks_message {
     label = resource.note_metafield.tasks_message.name
     language_id = data.language.english.id
 }
-
 
 resource item_security tasks_message__anonymous {
     accessor_item_id = data.member_group.anonymous.item_id

@@ -1,7 +1,7 @@
 
 resource masteritem_reference_metafield related_assets_metafield {
     item_guid = '97ca8aca-56d1-48de-8c7f-acff38600f14'
-    name = 'Asset relation meta data fields (master item reference)'
+    name = 'Asset relation meta data fields'
     group_id = resource.metafield_group.main_config.metafield_group_id
     auto_translate = 'Overwrite'
     show_in_list = true
@@ -11,7 +11,7 @@ resource masteritem_reference_metafield related_assets_metafield {
 
 resource metafield_label related_assets_metafield {
     metafield_id = resource.masteritem_reference_metafield.related_assets_metafield.metafield_id
-    label = 'Asset relation meta data fields'
+    label = resource.masteritem_reference_metafield.related_assets_metafield.name
     language_id = data.language.english.id
 }
 

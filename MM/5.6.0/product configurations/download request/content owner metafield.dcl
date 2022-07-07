@@ -1,6 +1,6 @@
 resource masteritem_reference_metafield content_owner_metafield {
     item_guid = 'ad163c41-174b-1e23-b949-4b6c7d407a46'
-    name = 'Content owner metafield (DO NOT edit manually)'
+    name = 'Content owner metafield'
     group_id = resource.metafield_group.download_request.metafield_group_id
     show_in_list = false
     auto_translate = 'Overwrite'
@@ -11,7 +11,7 @@ resource masteritem_reference_metafield content_owner_metafield {
 
 resource metafield_label content_owner_metafield {
     metafield_id = resource.masteritem_reference_metafield.content_owner_metafield.metafield_id
-    label = 'Content owner metafield'
+    label = resource.masteritem_reference_metafield.content_owner_metafield.metafield_id.name
     language_id = data.language.english.id
 }
 

@@ -1,6 +1,6 @@
 resource combovalue_metafield download_request_metafield_mode {
     item_guid = '7c860c75-14fe-444e-bb48-86df20c309a1'
-    name = 'Download request metafield mode (DO NOT edit manually)'
+    name = 'Download request metafield mode'
     group_id = resource.metafield_group.download_request.metafield_group_id
     show_in_list = false
     auto_translate = 'Overwrite'
@@ -10,7 +10,7 @@ resource combovalue_metafield download_request_metafield_mode {
 
 resource metafield_label download_request_metafield_mode {
     metafield_id = resource.combovalue_metafield.download_request_metafield_mode.metafield_id
-    label = 'Download request metafield mode'
+    label = resource.combovalue_metafield.download_request_metafield_mode.name
     language_id = data.language.english.id
 }
 

@@ -7,9 +7,6 @@
     auto_translate = 'Overwrite'
     restrict_to_asset_type = 'All'
     sort_index = 27
-    autolink = {
-        item_guid = '54039ed7-c22f-418a-b319-f992d0af3ba6'
-    }
 }
 
 resource metafield_label mediamanager_favourites_slave {

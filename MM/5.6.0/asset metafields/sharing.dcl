@@ -33,14 +33,11 @@ resource note_metafield large_embed_player_640x360 {
     show_in_list = true
     auto_translate = 'Overwrite'
     restrict_to_asset_type = 'All'
-    autolink = {
-        item_guid = '51d3ebe4-a69d-4e9f-99e8-2782364fc86c'
-    }
 }
 
 resource metafield_label large_embed_player_640x360 {
     metafield_id = resource.note_metafield.large_embed_player_640x360.metafield_id
-    label = 'Large Embed player (640x360)'
+    label = resource.note_metafield.large_embed_player_640x360.name
     language_id = data.language.english.id
 }
 

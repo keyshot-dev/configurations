@@ -1,6 +1,6 @@
 resource editmulticombovalue_metafield approved_download_request_stage_names {
     item_guid = 'c168dd9b-471b-4577-8fca-10f7612f94ad'
-    name = 'Approved download request stage names (DO NOT edit manually)'
+    name = 'Approved download request stage names'
     group_id = resource.metafield_group.download_request.metafield_group_id
     show_in_list = false
     auto_translate = 'Overwrite'
@@ -9,7 +9,7 @@ resource editmulticombovalue_metafield approved_download_request_stage_names {
 
 resource metafield_label approved_download_request_stage_names {
     metafield_id = resource.editmulticombovalue_metafield.approved_download_request_stage_names.metafield_id
-    label = 'Approved download request stage names'
+    label = resource.editmulticombovalue_metafield.approved_download_request_stage_names.name
     language_id = data.language.english.id
 }
 

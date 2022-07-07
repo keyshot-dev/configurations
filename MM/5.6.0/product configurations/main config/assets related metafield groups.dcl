@@ -10,7 +10,7 @@ resource masteritem_reference_metafield asset_related_metafield_groups {
 
 resource metafield_label asset_related_metafield_groups {
     metafield_id = resource.masteritem_reference_metafield.asset_related_metafield_groups.metafield_id
-    label = 'Asset related metafield groups'
+    label = resource.masteritem_reference_metafield.asset_related_metafield_groups.name
     language_id = data.language.english.id
     description = 'MetaField groups to be shown in the Asset Related Section'
 }

@@ -10,7 +10,7 @@ resource masteritem_reference_metafield enable_ai_facial_recognition_for_metadat
 
 resource metafield_label enable_ai_facial_recognition_for_metadata_field {
     metafield_id = resource.masteritem_reference_metafield.enable_ai_facial_recognition_for_metadata_field.metafield_id
-    label = 'Enable AI facial recognition for metadata field'
+    label = resource.masteritem_reference_metafield.enable_ai_facial_recognition_for_metadata_field.name
     language_id = data.language.english.id
     description = 'Enabling this, will make a button appear beneath your chosen metadata fields.'
 }

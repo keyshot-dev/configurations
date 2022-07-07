@@ -1,6 +1,6 @@
 resource multicombovalue_metafield video_embed_qualities {
     item_guid = '696ac740-8f33-4ca7-b8a6-2d693f1e3824'
-    name = 'Video embed qualities'
+    name = 'Choose available embed video qualities'
     group_id = resource.metafield_group.main_config.metafield_group_id
     auto_translate = 'Overwrite'
     show_in_list = true
@@ -8,7 +8,7 @@ resource multicombovalue_metafield video_embed_qualities {
 
 resource metafield_label video_embed_qualities {
     metafield_id = resource.multicombovalue_metafield.video_embed_qualities.metafield_id
-    label = 'Choose available embed video qualities'
+    label = resource.multicombovalue_metafield.video_embed_qualities.name
     language_id = data.language.english.id
     description = 'The video qualities available when creating an embed video link.'
 }

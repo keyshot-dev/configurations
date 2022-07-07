@@ -7,9 +7,12 @@
     system = true
     auto_translate = 'Overwrite'
     restrict_to_asset_type = 'All'
-    autolink = {
-        item_guid = '33bf4a53-c6d2-425c-b0f1-25bc5130f432'
-    }
+}
+
+resource metafield_label allways_notify_when_asset_is_published {
+    metafield_id = resource.bit_metafield.allways_notify_when_asset_is_published.metafield_id
+    label = resource.bit_metafield.allways_notify_when_asset_is_published.name
+    language_id = data.language.english.id
 }
 
 resource item_security allways_notify_when_asset_is_published__anonymous {

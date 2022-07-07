@@ -1,6 +1,6 @@
 resource bit_metafield enable_user_profile {
     item_guid = '10bb29b3-f443-4aa5-8e92-399958f8def8'
-    name = 'Enable user profile'
+    name = 'Enable users to see and edit their account information'
     group_id = resource.metafield_group.main_config.metafield_group_id
     auto_translate = 'Overwrite'
     show_in_list = true
@@ -9,7 +9,7 @@ resource bit_metafield enable_user_profile {
 
 resource metafield_label enable_user_profile {
     metafield_id = resource.bit_metafield.enable_user_profile.metafield_id
-    label = 'Enable users to see and edit their account information'
+    label = resource.bit_metafield.enable_user_profile.name
     language_id = data.language.english.id
     description = 'If this is enabled, users will be able to see and edit their profile information.'
 }

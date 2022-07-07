@@ -34,14 +34,11 @@ resource note_metafield comment {
     show_in_list = true
     auto_translate = 'Overwrite'
     restrict_to_asset_type = 'All'
-    autolink = {
-        item_guid = '4db76e4f-0952-4f22-b7b7-030bc4808c33'
-    }
 }
 
 resource metafield_label comment {
     metafield_id = resource.note_metafield.comment.metafield_id
-    label = 'Comment'
+    label = resource.note_metafield.comment.name
     language_id = data.language.english.id
 }
 
@@ -70,14 +67,11 @@ resource datetime_metafield date {
     auto_translate = 'Overwrite'
     restrict_to_asset_type = 'All'
     iterative = true
-    autolink = {
-        item_guid = 'b714b55b-025a-476c-8067-d1b16e0a20e4'
-    }
 }
 
 resource metafield_label date {
     metafield_id = resource.datetime_metafield.date.metafield_id
-    label = 'Date'
+    label = resource.datetime_metafield.date.name
     language_id = data.language.english.id
 }
 

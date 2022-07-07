@@ -1,6 +1,6 @@
 resource masteritem_reference_metafield template_user_for_self_signup {
     item_guid = 'b2c04e4e-d341-4c8a-a83e-6b3638c089d6'
-    name = 'User Template for self created users'
+    name = 'Template user for self sign up users'
     group_id = resource.metafield_group.main_config.metafield_group_id
     show_in_list = true
     auto_translate = 'Overwrite'
@@ -10,7 +10,7 @@ resource masteritem_reference_metafield template_user_for_self_signup {
 
 resource metafield_label template_user_for_self_signup {
     metafield_id = resource.masteritem_reference_metafield.template_user_for_self_signup.metafield_id
-    label = 'Template user for self sign up users'
+    label = resource.masteritem_reference_metafield.template_user_for_self_signup.name
     language_id = data.language.english.id
     description = 'The template user used when users sign up themselves.'   
 }

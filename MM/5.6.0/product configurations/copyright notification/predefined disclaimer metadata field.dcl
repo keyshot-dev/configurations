@@ -10,7 +10,7 @@ resource masteritem_reference_metafield predefined_disclaimer_metadata_field {
 
 resource metafield_label predefined_disclaimer_metadata_field {
     metafield_id = resource.masteritem_reference_metafield.predefined_disclaimer_metadata_field.metafield_id
-    label = 'Predefined disclaimer metadata field'
+    label = resource.masteritem_reference_metafield.predefined_disclaimer_metadata_field.name
     language_id = data.language.english.id
     description = 'Select a metadata field containing the predefined copyright notification disclaimer for the asset.'
 }

@@ -1,6 +1,6 @@
 resource multicombovalue_metafield custom_quality_image_types {
     item_guid = '5fbc88d0-a00d-4e03-8042-548934eb2d93'
-    name = 'Image formats'
+    name = 'Custom quality image types'
     group_id = resource.metafield_group.main_config.metafield_group_id
     auto_translate = 'Overwrite'
     show_in_list = true
@@ -8,7 +8,7 @@ resource multicombovalue_metafield custom_quality_image_types {
 
 resource metafield_label custom_quality_image_types {
     metafield_id = resource.multicombovalue_metafield.custom_quality_image_types.metafield_id
-    label = 'Custom quality image types'
+    label = resource.multicombovalue_metafield.custom_quality_image_types.name
     language_id = data.language.english.id
     description = 'Used when downloading images in a custom quality. At least one must be set for it to work. Is also visible when cropping.'
 }

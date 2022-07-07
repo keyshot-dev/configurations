@@ -11,7 +11,7 @@ resource masteritem_reference_metafield enable_ai_description_for_metafield {
 
 resource metafield_label enable_ai_description_for_metafield {
     metafield_id = resource.masteritem_reference_metafield.enable_ai_description_for_metafield.metafield_id
-    label = 'Enable AI description for metadata field'
+    label = resource.masteritem_reference_metafield.enable_ai_description_for_metafield.name
     language_id = data.language.english.id
     description = 'Enabling this, will make a button appear beneath your chosen metadata fields.'
 }

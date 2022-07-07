@@ -1,6 +1,6 @@
 resource string_metafield upload_name {
     item_guid = 'ef407c53-79d5-4908-901b-2e50dc1750f9'
-    name = 'Upload Name'
+    name = 'Unique channel ID'
     group_id = resource.metafield_group.main_config.metafield_group_id
     show_in_list = true
     auto_translate = 'Overwrite'
@@ -8,7 +8,7 @@ resource string_metafield upload_name {
 
 resource metafield_label upload_name {
     metafield_id = resource.string_metafield.upload_name.metafield_id
-    label = 'Unique channel ID'
+    label = resource.string_metafield.upload_name.name
     language_id = data.language.english.id
     description = 'Your MM\'s unique ID. Especially used for making workflows for MM. Often referred to as "Computer name".'
 }

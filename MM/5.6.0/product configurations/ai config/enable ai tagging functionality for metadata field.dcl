@@ -10,7 +10,7 @@ resource masteritem_reference_metafield enable_ai_tagging_functionality_for_meta
 
 resource metafield_label enable_ai_tagging_functionality_for_metadata_field {
     metafield_id = resource.masteritem_reference_metafield.enable_ai_tagging_functionality_for_metadata_field.metafield_id
-    label = 'Enable AI tagging functionality for metadata field'
+    label = resource.masteritem_reference_metafield.enable_ai_tagging_functionality_for_metadata_field.name
     language_id = data.language.english.id
     description = 'Enabling this, will make a button appear beneath your chosen metadata fields.'
 }

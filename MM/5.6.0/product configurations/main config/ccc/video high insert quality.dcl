@@ -1,6 +1,6 @@
 resource masteritem_reference_metafield ccc_video_high_insert_quality {
     item_guid = '3c7bdbe5-00eb-418f-8b7d-74c8d794b3f3'
-    name = 'DCCC Video high insert quality'
+    name = 'CCC - Video high insert quality'
     group_id = resource.metafield_group.main_config.metafield_group_id
     auto_translate = 'Overwrite'
     show_in_list = true
@@ -11,7 +11,7 @@ resource masteritem_reference_metafield ccc_video_high_insert_quality {
 
 resource metafield_label ccc_video_high_insert_quality {
     metafield_id = resource.masteritem_reference_metafield.ccc_video_high_insert_quality.metafield_id
-    label = 'Creative cloud connector - Video high insert quality'
+    label = resource.masteritem_reference_metafield.ccc_video_high_insert_quality.name
     language_id = data.language.english.id
     description = ''
 }

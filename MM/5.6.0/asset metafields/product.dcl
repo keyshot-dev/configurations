@@ -26,17 +26,16 @@ resource bit_metafield is_intro_material {
     item_guid = 'db42164c-8316-4c08-ad4a-05ea7acd346c'
     name = 'IsIntro Material Media Portal'
     group_id = resource.metafield_group.asset__product__media_manager.metafield_group_id
-    sort_index = 0
-    visibility_metafield_id = 0
-    visibility_regex = ''
-    required = false
     readonly = true
-    show_in_list = false
     system = true
     auto_translate = 'Overwrite'
     restrict_to_asset_type = 'All'
-    upload_tag_name = ''
-    iterative = false
+}
+
+resource metafield_label is_intro_material {
+    metafield_id = resource.bit_metafield.is_intro_material.metafield_id
+    label = resource.bit_metafield.is_intro_material.name
+    language_id = data.language.english.id
 }
 
 resource item_security is_intro_material__anonymous {
@@ -53,21 +52,21 @@ resource item_security is_intro_material__trusted {
     write = true
 }
 
+
 resource bit_metafield is_logo_material {
     item_guid = '939d9ed0-a5c0-4fe4-9d45-23928db9c50a'
     name = 'IsLogo Media Manager'
     group_id = resource.metafield_group.asset__product__media_manager.metafield_group_id
-    sort_index = 0
-    visibility_metafield_id = 0
-    visibility_regex = ''
-    required = false
     readonly = true
-    show_in_list = false
     system = true
     auto_translate = 'Overwrite'
     restrict_to_asset_type = 'All'
-    upload_tag_name = ''
-    iterative = false
+}
+
+resource metafield_label is_logo_material {
+    metafield_id = resource.bit_metafield.is_logo_material.metafield_id
+    label = resource.bit_metafield.is_logo_material.name
+    language_id = data.language.english.id
 }
 
 resource item_security is_logo_material__anonymous {
@@ -84,21 +83,22 @@ resource item_security is_logo_material__trusted {
     write = true
 }
 
+
 resource bit_metafield is_profile_material {
     item_guid = 'a09097b8-cb45-4b42-a922-65ea1edf9f04'
     name = 'IsProfile Image Media Portal'
     group_id = resource.metafield_group.asset__product__media_manager.metafield_group_id
-    sort_index = 0
-    visibility_metafield_id = 0
-    visibility_regex = ''
-    required = false
     readonly = true
     show_in_list = false
     system = true
     auto_translate = 'Overwrite'
     restrict_to_asset_type = 'All'
-    upload_tag_name = ''
-    iterative = false
+}
+
+resource metafield_label is_profile_material {
+    metafield_id = resource.bit_metafield.is_profile_material.metafield_id
+    label = resource.bit_metafield.is_profile_material.name
+    language_id = data.language.english.id
 }
 
 resource item_security is_profile_material__anonymous {
@@ -123,9 +123,12 @@ resource bit_metafield is_public {
     show_in_list = true
     auto_translate = 'Overwrite'
     restrict_to_asset_type = 'All'
-    autolink = {
-        item_guid = '17c54460-e6cc-4bda-abe3-628532617ebd'
-    }
+}
+
+resource metafield_label is_public {
+    metafield_id = resource.bit_metafield.is_public.metafield_id
+    label = resource.bit_metafield.is_public.name
+    language_id = data.language.english.id
 }
 
 resource item_security is_public__anonymous {
@@ -153,14 +156,11 @@ resource datetime_metafield edited {
     system = true
     auto_translate = 'Overwrite'
     restrict_to_asset_type = 'All'
-    autolink = {
-        item_guid = 'bf26ca13-be60-4b34-8087-c7f8345158f7'
-    }
 }
 
 resource metafield_label edited {
     metafield_id = resource.datetime_metafield.edited.metafield_id
-    label = 'Edited'
+    label =  resource.datetime_metafield.edited.name
     language_id = data.language.english.id
 }
 
@@ -185,24 +185,15 @@ resource datetime_metafield restored {
     name = 'Restored'
     group_id = resource.metafield_group.asset__product__media_manager.metafield_group_id
     sort_index = 50178
-    visibility_metafield_id = 0
-    visibility_regex = ''
-    required = false
     readonly = true
-    show_in_list = false
     system = true
     auto_translate = 'Overwrite'
     restrict_to_asset_type = 'All'
-    upload_tag_name = ''
-    iterative = false
-    autolink = {
-        item_guid = 'b241ec96-8e83-4953-84cb-d89354d5ac82'
-    }
 }
 
 resource metafield_label restored {
     metafield_id = resource.datetime_metafield.restored.metafield_id
-    label = 'Restored'
+    label = resource.datetime_metafield.restored.name
     language_id = data.language.english.id
 }
 
@@ -231,9 +222,12 @@ resource bit_metafield trim_in_progress {
     system = true
     auto_translate = 'Overwrite'
     restrict_to_asset_type = 'All'
-    autolink = {
-        item_guid = 'd5da1a55-5ecf-45b3-8cc0-f168fadcc02c'
-    }
+}
+
+resource metafield_label trim_in_progress {
+    metafield_id = resource.bit_metafield.trim_in_progress.metafield_id
+    label = resource.bit_metafield.trim_in_progress.name
+    language_id = data.language.english.id
 }
 
 resource item_security trim_in_progress__anonymous {
