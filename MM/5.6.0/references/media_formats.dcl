@@ -62,10 +62,6 @@ data media_format jpg_small_50036 {
 	name = 'JPG small'
 }
 
-data media_format jpg_big {
-    name = 'JPG big'
-}
-
 data media_format adobe_pdf_page_image_50010 {
     name = 'Adobe PDF Page Image'
 }
