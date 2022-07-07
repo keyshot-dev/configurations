@@ -23,11 +23,6 @@ resource media_format_folder oobe_185 {
 	name = 'OOBE'
 }
 
-resource media_format_folder image {
-	parent_id = resource.media_format_folder.oobe_185.id
-	name = 'Image'
-}
-
 resource media_format_folder video {
 	parent_id = resource.media_format_folder.oobe_185.id
 	name = 'Video'
