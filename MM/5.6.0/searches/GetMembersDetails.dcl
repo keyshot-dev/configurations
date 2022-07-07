@@ -49,7 +49,7 @@
       <valueField id="favorites" itemGuid="${to_string(data.masteritem_reference_metafield.mediamanager_favourites.item_guid)}" isArray="true" />
       <valueField id="email" fieldName="community_member_setting.email" />
       <valueField id="approved" fieldName="member.is_public" returnType="bool" />
-      <valueField id="alwaysNotify" itemGuid="${to_string(resource.bit_metafield.allways_notify_when_asset_is_published.item_guid)}" />
+      <valueField id="alwaysNotify" itemGuid="${to_string(data.bit_metafield.allways_notify_when_asset_is_published.item_guid)}" />
       <valueField id="profileImageSD" fieldName="asset.urlAbsolut(${to_string(data.destination.frontenddata_sm.item_guid)},${to_string(data.media_format.digizuite_media_manager_user_profile_sd.item_guid)})">
         <bindField id="profileImageSDFieldId" itemGuid="${to_string(data.masteritem_reference_metafield.profile_image.item_guid)}" />
       </valueField>

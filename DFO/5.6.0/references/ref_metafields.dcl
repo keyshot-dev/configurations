@@ -127,3 +127,7 @@ data datetime_metafield date {
 data note_metafield comment {
     item_guid = '4db76e4f-0952-4f22-b7b7-030bc4808c33'
 }
+
+data bit_metafield allways_notify_when_asset_is_published {
+    item_guid = '33bf4a53-c6d2-425c-b0f1-25bc5130f432'
+}
