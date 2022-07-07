@@ -1,12 +1,7 @@
-﻿data transcode_folder standard_10001 {
-    parent_id = 0
-    name = 'Standard'
-}
-
-
+﻿
 
 resource transcode_folder digizuite_dam_for_sitecore_50024 {
-	parent_id = data.transcode_folder.standard_10001.id
+	parent_id = data.transcode_folder.standard.id
 	name = 'Digizuite™ DAM for Sitecore'
 }
 
@@ -548,7 +543,7 @@ resource media_transcode tra720p_transcode_50061 {
 }
 
 resource media_transcode jpg_big_transcode_50056 {
-    folder_id = resource.transcode_folder.image_201.id
+    folder_id = data.transcode_folder.image.id
 	name = 'JPG big transcode'
 	description = ''
 	prog_id = 'DigiImageMagicJobs.JobConvertImage'

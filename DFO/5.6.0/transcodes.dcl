@@ -4,7 +4,7 @@ data transcode_folder standard_10001 {
 }
 
 resource media_transcode jpg_big_transcode_50056 {
-    folder_id = resource.transcode_folder.image_201.id
+    folder_id = resource.transcode_folder.image.id
 	name = 'JPG big transcode'
 	description = ''
 	prog_id = 'DigiImageMagicJobs.JobConvertImage'
