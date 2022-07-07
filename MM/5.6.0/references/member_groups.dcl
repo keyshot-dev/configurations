@@ -13,3 +13,11 @@ data member_group administrator {
 data member_group anonymous {
     name = 'Anonymous'
 }
+
+data member_group internal_access {
+    name = 'Internal access'
+}
+
+data member_group public_access {
+    name = 'Public access'
+}

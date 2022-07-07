@@ -11,7 +11,6 @@ resource metafield_group main_config {
     }
 }
 
-
 resource item_security main_config__anonymous {
     accessor_item_id = data.member_group.anonymous.item_id
     item_id = resource.metafield_group.main_config.item_id
