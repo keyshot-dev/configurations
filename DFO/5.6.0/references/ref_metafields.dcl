@@ -62,7 +62,7 @@ data metafield_group valid_download_qualities_10051 {
 	restrict_to_asset = 'All'
 }
 
-data metafield_group user_config_50003 {
+data metafield_group user_config {
 	name = 'User Config'
 	folder_id = data.meta_group_folder.users_and_usergroups_shared.id
 	restrict_to_asset = 'All'
