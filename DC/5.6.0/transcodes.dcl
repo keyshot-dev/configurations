@@ -3899,7 +3899,7 @@ resource media_transcode openoffice_writer_document__jpg_thumbnail_50219 {
     target_media_format_id = resource.media_format.jpg_thumbnail_10001.media_format_id
     prevref = 0
     autolink = {
-        item_guid = 'b48dd8da-3265-4de5-8059-22bbe611838a'
+        item_guid = '1df165c0-0ea9-48b6-86e1-512d0b93714d'
     }
 }
 
