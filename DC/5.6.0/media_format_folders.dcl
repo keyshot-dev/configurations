@@ -39,7 +39,7 @@ resource media_format_folder digizuite_video_portal_50001 {
 }
 
 resource transcode_folder image_201 {
-    parent_id = resource.transcode_folder.oobe_185.id
+    parent_id = resource.transcode_folder.oobe.id
     name = 'Image'
 }
 
