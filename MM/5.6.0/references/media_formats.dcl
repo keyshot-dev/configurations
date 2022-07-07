@@ -105,15 +105,3 @@ data media_format fmt1080p_hd {
 data media_format html {
     name = 'HTML'
 }
-
-data media_format desktop_h264_2048kbit_ffmpeg_50016 {
-    name = 'Desktop H264 2048kbit ffmpeg'
-}
-
-data media_format tablet_h264_2048kbit_ffmpeg_50017 {
-    name = 'Tablet H264 2048kbit ffmpeg'
-}
-
-data media_format mobile_h264_1024kbit_ffmpeg_50018 {
-    name = 'Mobile H264 1024kbit ffmpeg'
-}
