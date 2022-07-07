@@ -1,6 +1,6 @@
 resource combovalue_metafield verification_when_creating_new_member {
     item_guid = '29b5e870-4279-4434-a1b8-2027cbfbee82'
-    name = 'Verification when creating new member'
+    name = 'Verification when a user is created using self sign up'
     group_id = resource.metafield_group.main_config.metafield_group_id
     show_in_list = true
     auto_translate = 'Overwrite'
@@ -10,7 +10,7 @@ resource combovalue_metafield verification_when_creating_new_member {
 
 resource metafield_label verification_when_creating_new_member {
     metafield_id = resource.combovalue_metafield.verification_when_creating_new_member.metafield_id
-    label = 'Verification when a user is created using self sign up'
+    label = resource.combovalue_metafield.verification_when_creating_new_member.name
     language_id = data.language.english.id
     description = '"Email" will send out a confirmation message to the new user which the user can use to activate itself.
 "Admin" will send a mail to the email defined in the field below.

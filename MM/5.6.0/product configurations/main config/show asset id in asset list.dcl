@@ -9,7 +9,7 @@ resource bit_metafield show_asset_id_in_asset_list {
 
 resource metafield_label show_asset_id_in_asset_list {
     metafield_id = resource.bit_metafield.show_asset_id_in_asset_list.metafield_id
-    label = 'Show asset ID in asset list'
+    label = resource.bit_metafield.show_asset_id_in_asset_list.name
     language_id = data.language.english.id
     description = 'If checked, the asset ID will be visible in asset list.'
 }

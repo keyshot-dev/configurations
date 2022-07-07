@@ -1,6 +1,6 @@
 resource multicombovalue_metafield video_embed_sizes {
     item_guid = '89a059d7-e85d-47a4-b6d7-1d60f269366b'
-    name = 'Video embed sizes'
+    name = 'Choose available embed video sizes'
     group_id = resource.metafield_group.main_config.metafield_group_id
     auto_translate = 'Overwrite'
     show_in_list = true
@@ -8,7 +8,7 @@ resource multicombovalue_metafield video_embed_sizes {
 
 resource metafield_label video_embed_sizes {
     metafield_id = resource.multicombovalue_metafield.video_embed_sizes.metafield_id
-    label = 'Choose available embed video sizes'
+    label = resource.multicombovalue_metafield.video_embed_sizes.name
     language_id = data.language.english.id
     description = 'The video sizes available when creating an embed video link.'
 }

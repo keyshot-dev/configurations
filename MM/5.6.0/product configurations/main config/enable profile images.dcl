@@ -1,6 +1,6 @@
 resource bit_metafield enable_profile_images {
     item_guid = '36c72b20-bde4-4cf3-b99c-775321168f5d'
-    name = 'Use profile image'
+    name = 'Enable profile images'
     group_id = resource.metafield_group.main_config.metafield_group_id
     show_in_list = true
     auto_translate = 'Overwrite'
@@ -10,7 +10,7 @@ resource bit_metafield enable_profile_images {
 
 resource metafield_label enable_profile_images {
     metafield_id = resource.bit_metafield.enable_profile_images.metafield_id
-    label = 'Enable profile images'
+    label = resource.bit_metafield.enable_profile_images.name
     language_id = data.language.english.id
     description = 'If winged off, profile images will appear in your MM.'
 }

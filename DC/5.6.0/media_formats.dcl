@@ -688,7 +688,7 @@ resource media_format tablet_video_thumb_50020 {
 	}
 }
 
-resource media_format h264_128_kbit_advanced_audio_codec_10056 {
+resource media_format h264_128_kbit_advanced_audio_codec {
     folder_id = resource.media_format_folder.digizuite_media_manager_10003.id
     format_type_id = resource.media_format_type.advanced_audio_codec_20006.media_format_type_id
     name = 'H264 128 kbit Advanced Audio Codec'

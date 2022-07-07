@@ -10,7 +10,7 @@ resource masteritem_reference_metafield enable_ai_transcript_for_metadata_field 
 
 resource metafield_label enable_ai_transcript_for_metadata_field {
     metafield_id = resource.masteritem_reference_metafield.enable_ai_transcript_for_metadata_field.metafield_id
-    label = 'Enable AI transcript for metadata field'
+    label = resource.masteritem_reference_metafield.enable_ai_transcript_for_metadata_field.name
     language_id = data.language.english.id
 }
 

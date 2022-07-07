@@ -1,6 +1,6 @@
 resource combovalue_metafield pagination_mode {
     item_guid = '13edba01-f1c1-482c-b468-082924a14851'
-    name = 'Paging mode'
+    name = 'Pagination mode'
     group_id = resource.metafield_group.main_config.metafield_group_id
     auto_translate = 'Overwrite'
     show_in_list = true
@@ -10,7 +10,7 @@ resource combovalue_metafield pagination_mode {
 
 resource metafield_label pagination_mode {
     metafield_id = resource.combovalue_metafield.pagination_mode.metafield_id
-    label = 'Pagination mode'
+    label = resource.combovalue_metafield.pagination_mode.name
     language_id = data.language.english.id
     description = 'Choose whether to use paging or infinite scroll mode for viewing your assets.'
 }

@@ -62,7 +62,7 @@ data metafield_group valid_download_qualities_10051 {
 	restrict_to_asset = 'All'
 }
 
-data metafield_group user_config_50003 {
+data metafield_group user_config {
 	name = 'User Config'
 	folder_id = data.meta_group_folder.users_and_usergroups_shared.id
 	restrict_to_asset = 'All'
@@ -118,4 +118,16 @@ data masteritem_reference_metafield config_layoutfolder_50012 {
 
 data masteritem_reference_metafield profile_image_50166 {
     item_guid = 'e2dced3c-a38a-45d5-959b-e57b80211bef'
+}
+
+data datetime_metafield date {
+    item_guid = 'b714b55b-025a-476c-8067-d1b16e0a20e4'
+}
+
+data note_metafield comment {
+    item_guid = '4db76e4f-0952-4f22-b7b7-030bc4808c33'
+}
+
+data bit_metafield allways_notify_when_asset_is_published {
+    item_guid = '33bf4a53-c6d2-425c-b0f1-25bc5130f432'
 }

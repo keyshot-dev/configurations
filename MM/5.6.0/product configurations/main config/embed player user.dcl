@@ -1,6 +1,6 @@
 resource masteritem_reference_metafield embed_player_user {
     item_guid = '3c1af9e5-ff40-4c72-8cec-31ca12985759'
-    name = 'Embed Player User'
+    name = 'Embed player user'
     group_id = resource.metafield_group.main_config.metafield_group_id
     auto_translate = 'Overwrite'
     show_in_list = true
@@ -11,7 +11,7 @@ resource masteritem_reference_metafield embed_player_user {
 
 resource metafield_label embed_player_user {
     metafield_id = resource.masteritem_reference_metafield.embed_player_user.metafield_id
-    label = 'Embed player user'
+    label = resource.masteritem_reference_metafield.embed_player_user.name
     language_id = data.language.english.id
     description = 'The user used for accessing video content in the external embed player.'
 }

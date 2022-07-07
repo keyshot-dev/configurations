@@ -1,6 +1,6 @@
 resource masteritem_reference_metafield logo {
     item_guid = '587a788f-0962-4924-ab48-ba26967c8f4c'
-    name = 'Logo'
+    name = 'The logo shown in the top left corner'
     group_id = resource.metafield_group.main_config.metafield_group_id
     auto_translate = 'Overwrite'
     show_in_list = true
@@ -10,7 +10,7 @@ resource masteritem_reference_metafield logo {
 
 resource metafield_label logo {
     metafield_id = resource.masteritem_reference_metafield.logo.metafield_id
-    label = 'The logo shown in the top left corner'
+    label = resource.masteritem_reference_metafield.logo.name
     language_id = data.language.english.id
     description = "Usually, you set this to be your company's logo."
 }

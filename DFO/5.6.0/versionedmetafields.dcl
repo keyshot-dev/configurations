@@ -16,9 +16,6 @@ resource masteritem_reference_metafield crop_name_metafield_50388 {
     upload_tag_name = ''
     visibility_metafield_id = 0
     visibility_regex = ''
-    autolink {
-        item_guid = '909d42c6-448e-411e-85a9-d9cb6ce28812'
-    }
 }
 
 resource metafield_label crop_name_metafield_51460 {
@@ -50,9 +47,6 @@ resource combovalue_metafield default_sorting_50380 {
     view_type = 'Radio'
     visibility_metafield_id = 0
     visibility_regex = ''
-    autolink {
-        item_guid = 'ff9d084d-db04-4704-a41e-dc80a7b61837'
-    }
 }
 
 resource metafield_label default_sorting_51452 {
@@ -153,9 +147,6 @@ resource masteritem_reference_metafield editor_qualities_50387 {
     upload_tag_name = ''
     visibility_metafield_id = 0
     visibility_regex = ''
-    autolink {
-        item_guid = 'a5105105-080b-4f9e-88a8-76a36a2a87a3'
-    }
 }
 
 resource metafield_label editor_qualities_51459 {
@@ -189,9 +180,6 @@ resource masteritem_reference_metafield main_search_folder_50381 {
     upload_tag_name = ''
     visibility_metafield_id = 0
     visibility_regex = ''
-    autolink {
-        item_guid = '46f45cbc-38ca-4086-9872-7f683a242d6a'
-    }
 }
 
 resource metafield_label main_search_folder_51453 {
@@ -232,9 +220,6 @@ resource masteritem_reference_metafield portal_menu_50378 {
     upload_tag_name = ''
     visibility_metafield_id = 0
     visibility_regex = ''
-    autolink {
-        item_guid = 'efaf5dc1-0349-4d46-87fb-4e272e1fb37f'
-    }
 }
 
 resource metafield_label portal_menu_51450 {
@@ -272,9 +257,6 @@ resource multicombovalue_metafield sorting_types_50379 {
     upload_tag_name = ''
     visibility_metafield_id = 0
     visibility_regex = ''
-    autolink {
-        item_guid = '165b930b-cbe9-45b8-8d83-10a78796b67e'
-    }
 }
 
 resource metafield_label sorting_types_51451 {
@@ -373,9 +355,6 @@ resource string_metafield upload_name_50382 {
     upload_tag_name = ''
     visibility_metafield_id = 0
     visibility_regex = ''
-    autolink {
-        item_guid = '03a7b78c-263f-4e4d-b00c-362274ec725b'
-    }
 }
 
 resource metafield_label upload_channel_id_51454 {
@@ -414,9 +393,6 @@ resource string_metafield aspect_ratio_x_50385 {
     upload_tag_name = ''
     visibility_metafield_id = 0
     visibility_regex = ''
-    autolink {
-        item_guid = '3285ee83-dfe8-424c-a21d-b7c7bb3c3be7'
-    }
 }
 
 resource metafield_label aspect_ratio_x_51457 {
@@ -448,9 +424,6 @@ resource string_metafield aspect_ratio_y_50386 {
     upload_tag_name = ''
     visibility_metafield_id = 0
     visibility_regex = ''
-    autolink {
-        item_guid = '97c28b01-2143-4826-9e17-01a75e89cd4e'
-    }
 }
 
 resource metafield_label aspect_ratio_y_51458 {
@@ -482,9 +455,6 @@ resource string_metafield crop_name_50384 {
     upload_tag_name = ''
     visibility_metafield_id = 0
     visibility_regex = ''
-    autolink {
-        item_guid = '1185cac4-8ac9-4abb-8bd8-392c9a7f29a6'
-    }
 }
 
 resource metafield_label crop_name_51456 {

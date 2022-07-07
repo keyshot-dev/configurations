@@ -1,4 +1,3 @@
-
 resource string_metafield asset_search_keys_guid {
     item_guid = 'b8e60cf4-d72d-4a45-b142-da4310166ca3'
     name = 'Asset searchKeys guid'
@@ -8,7 +7,11 @@ resource string_metafield asset_search_keys_guid {
     sort_index = 1030
 }
 
-
+resource metafield_label asset_search_keys_guid {
+    metafield_id = resource.string_metafield.asset_search_keys_guid.metafield_id
+    label = resource.string_metafield.asset_search_keys_guid.name
+    language_id = data.language.english.id
+}
 
 resource item_security asset_search_keys_guid__anonymous {
     accessor_item_id = data.member_group.anonymous.item_id

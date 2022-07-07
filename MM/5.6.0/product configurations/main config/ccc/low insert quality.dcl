@@ -1,6 +1,6 @@
 resource masteritem_reference_metafield ccc_low_insert_quality {
     item_guid = 'a6f9c2ed-7279-416f-af56-07d6448f99df'
-    name = 'DCCC Low insert quality'
+    name = 'CCC - Low insert quality'
     group_id = resource.metafield_group.main_config.metafield_group_id
     auto_translate = 'Overwrite'
     show_in_list = true
@@ -11,7 +11,7 @@ resource masteritem_reference_metafield ccc_low_insert_quality {
 
 resource metafield_label ccc_low_insert_quality {
     metafield_id = resource.masteritem_reference_metafield.ccc_low_insert_quality.metafield_id
-    label = 'Creative cloud connector - Low insert quality'
+    label = resource.masteritem_reference_metafield.ccc_low_insert_quality.name
     language_id = data.language.english.id
 }
 

@@ -1,6 +1,6 @@
 resource slave_metafield adobe_contained {
     item_guid = '24317e77-a9d6-48b5-b74f-6cfc2926afcf'
-    name = 'DACCC Contained'
+    name = 'CCC - Contained'
     group_id = data.metafield_group.asset_info.metafield_group_id
     auto_translate = 'Overwrite'
     show_in_list = true
@@ -9,7 +9,7 @@ resource slave_metafield adobe_contained {
 
 resource metafield_label adobe_contained {
     metafield_id = resource.slave_metafield.adobe_contained.metafield_id
-    label = 'CCC - Contained'
+    label = resource.slave_metafield.adobe_contained.name
     language_id = data.language.english.id
 }
 
@@ -32,7 +32,7 @@ resource item_security adobe_contained__trusted {
 
 resource masteritem_reference_metafield adobe_links {
     item_guid = '9a1ce4b9-1e8c-449f-955c-c9a8f355bf61'
-    name = 'DCCC Adobe links'
+    name = 'CCC - Adobe links'
     group_id = data.metafield_group.asset_info.metafield_group_id
     show_in_list = true
     auto_translate = 'Overwrite'
@@ -44,7 +44,7 @@ resource masteritem_reference_metafield adobe_links {
 
 resource metafield_label adobe_links {
     metafield_id = resource.masteritem_reference_metafield.adobe_links.metafield_id
-    label = 'CCC - Adobe links'
+    label = resource.masteritem_reference_metafield.adobe_links.name
     language_id = data.language.english.id
 }
 

@@ -8,7 +8,7 @@ resource string_metafield download_approval_business_workflow_uid {
 
 resource metafield_label download_approval_business_workflow_uid {
     metafield_id = resource.string_metafield.download_approval_business_workflow_uid.metafield_id
-    label = 'Download approval business workflow UID'
+    label = resource.string_metafield.download_approval_business_workflow_uid.name
     language_id = data.language.english.id
 }
 

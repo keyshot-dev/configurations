@@ -1,6 +1,6 @@
 resource combovalue_metafield intro_screen_mode {
     item_guid = '8e74d03a-cb41-4f25-91c0-fbfc4e8c57e6'
-    name = 'Intro Screen'
+    name = 'Choose intro screen mode'
     group_id = resource.metafield_group.main_config.metafield_group_id
     auto_translate = 'Overwrite'
     show_in_list = true
@@ -10,7 +10,7 @@ resource combovalue_metafield intro_screen_mode {
 
 resource metafield_label intro_screen_mode {
     metafield_id = resource.combovalue_metafield.intro_screen_mode.metafield_id
-    label = 'Choose intro screen mode'
+    label = resource.combovalue_metafield.intro_screen_mode.name
     language_id = data.language.english.id
     description = '"None" will result in no intro screen, meaning that the image or video you\'ve chosen will not appear.
 Splashscreen and disclaimer will make the intro screen appear.'

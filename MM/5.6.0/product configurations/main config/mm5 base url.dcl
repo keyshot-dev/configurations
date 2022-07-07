@@ -8,7 +8,7 @@ resource string_metafield mm5_base_url {
 
 resource metafield_label mm5_base_url {
     metafield_id = resource.string_metafield.mm5_base_url.metafield_id
-    label = 'MM5 base URL'
+    label = resource.string_metafield.mm5_base_url.name
     language_id = data.language.english.id
     description = 'If a base url is given, previews in the Office Connector will include a link to a given asset in the Media Manager, which the url refers to.'
 }

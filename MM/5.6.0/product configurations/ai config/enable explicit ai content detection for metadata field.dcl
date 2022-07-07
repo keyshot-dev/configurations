@@ -10,13 +10,10 @@ resource masteritem_reference_metafield enable_explicit_ai_content_detection_for
 
 resource metafield_label enable_explicit_ai_content_detection_for_metadata_field {
     metafield_id = resource.masteritem_reference_metafield.enable_explicit_ai_content_detection_for_metadata_field.metafield_id
-    label = 'Enable explicit AI content detection for metadata field'
+    label =resource.masteritem_reference_metafield.enable_explicit_ai_content_detection_for_metadata_field.name
     language_id = data.language.english.id
     description = 'Enabling this, will make a button appear beneath your chosen metadata fields.'
 }
-
-
-
 
 resource item_security enable_explicit_ai_content_detection_for_metadata_field__anonymous {
     accessor_item_id = data.member_group.anonymous.item_id

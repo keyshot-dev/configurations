@@ -1,6 +1,6 @@
 resource note_metafield intro_screen_text {
     item_guid = '2b13ffd3-1200-4920-b50e-644e37c0a439'
-    name = 'Intro screen text'
+    name = "Intro screen's text field's content"
     group_id = resource.metafield_group.main_config.metafield_group_id
     show_in_list = true
     auto_translate = 'CreateIfMissing'
@@ -9,7 +9,7 @@ resource note_metafield intro_screen_text {
 
 resource metafield_label intro_screen_text {
     metafield_id = resource.note_metafield.intro_screen_text.metafield_id
-    label = "Intro screen's text field's content"
+    label = resource.note_metafield.intro_screen_text.name
     language_id = data.language.english.id
     description = "This text will appear in the middle of the intro screen's text field (Only if splashscreen is chosen)."
 }

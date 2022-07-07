@@ -1,4 +1,4 @@
-﻿resource channel_folder  default_preview_icons_123 {
+﻿resource channel_folder default_preview_icons_123 {
     name = 'Default preview icons'
     parent_id = 0
     autolink {
@@ -6,7 +6,7 @@
     }
 }
 
-resource channel_folder  dam_for_sitecore_124 {
+resource channel_folder dam_for_sitecore_124 {
     name = 'DAM for Sitecore'
     parent_id = 0
     autolink {

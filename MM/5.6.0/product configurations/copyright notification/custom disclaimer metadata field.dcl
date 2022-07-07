@@ -11,7 +11,7 @@ resource masteritem_reference_metafield custom_disclaimer_metadata_field {
 
 resource metafield_label custom_disclaimer_metadata_field {
     metafield_id = resource.masteritem_reference_metafield.custom_disclaimer_metadata_field.metafield_id
-    label = 'Custom disclaimer metadata field'
+    label = resource.masteritem_reference_metafield.custom_disclaimer_metadata_field.name
     language_id = data.language.english.id
     description = 'Select a metadata field containing the custom copyright notification disclaimer for the asset.'
 }

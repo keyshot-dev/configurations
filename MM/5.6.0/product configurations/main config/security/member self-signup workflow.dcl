@@ -1,6 +1,6 @@
 resource string_metafield member_self_signup_workflow {
     item_guid = 'f5122404-b8b1-489e-9926-725f78ae4d08'
-    name = 'Member self-signup workflow'
+    name = 'Member self-signup workflow UID'
     group_id = resource.metafield_group.main_config.metafield_group_id
     show_in_list = false
     auto_translate = 'Overwrite'
@@ -8,7 +8,7 @@ resource string_metafield member_self_signup_workflow {
 
 resource metafield_label member_self_signup_workflow {
     metafield_id = resource.string_metafield.member_self_signup_workflow.metafield_id
-    label = 'Member self-signup workflow UID (DO NOT edit manually)'
+    label = resource.string_metafield.member_self_signup_workflow.name
     language_id = data.language.english.id
 }
 

@@ -1,6 +1,6 @@
 resource combovalue_metafield login_options {
     item_guid = 'c754b1ec-8703-4a8d-956c-e9bcd3e3f562'
-    name = 'Login'
+    name = 'Login possibilities'
     group_id = resource.metafield_group.main_config.metafield_group_id
     show_in_list = true
     auto_translate = 'Overwrite'
@@ -10,7 +10,7 @@ resource combovalue_metafield login_options {
 
 resource metafield_label login_options {
     metafield_id = resource.combovalue_metafield.login_options.metafield_id
-    label = 'Login possibilities'
+    label = resource.combovalue_metafield.login_options.name
     language_id = data.language.english.id
     description = 'Choose the way you want your MM to be accessed.'
 }
