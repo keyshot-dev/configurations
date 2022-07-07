@@ -22,6 +22,11 @@ data metafield_group frontendgroup {
     folder_id = data.meta_group_folder.users_and_usergroups_shared.id
 }
 
+data metafield_group user_config {
+	name = 'User Config'
+	folder_id = data.meta_group_folder.users_and_usergroups_shared.id
+}
+
 data metafield_group valid_download_qualities {
     parent_group_id = data.metafield_group.frontendgroup.metafield_group_id
     name = 'Valid Download Qualities'

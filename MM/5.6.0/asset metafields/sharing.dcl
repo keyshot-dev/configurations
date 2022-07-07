@@ -39,21 +39,21 @@ resource note_metafield large_embed_player_640x360 {
 }
 
 resource metafield_label large_embed_player_640x360 {
-    metafield_id = resource.datetime_metafield.date.metafield_id
+    metafield_id = resource.note_metafield.large_embed_player_640x360.metafield_id
     label = 'Large Embed player (640x360)'
     language_id = data.language.english.id
 }
 
 resource item_security large_embed_player_640x360__anonymous {
     accessor_item_id = data.member_group.anonymous.item_id
-    item_id = resource.metafield_label.large_embed_player_640x360.item_id
+    item_id = resource.note_metafield.large_embed_player_640x360.item_id
     read = true
     write = false
 }
 
 resource item_security large_embed_player_640x360__trusted {
     accessor_item_id = data.member_group.trusted.item_id
-    item_id = resource.metafield_label.large_embed_player_640x360.item_id
+    item_id = resource.note_metafield.large_embed_player_640x360.item_id
     read = true
     write = true
 }

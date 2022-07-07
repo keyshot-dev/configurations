@@ -17,8 +17,6 @@
       <valueField id="PortalTitle" itemGuid="${to_string(resource.string_metafield.portal_title.item_guid)}" field="value" />
       <valueField id="Login" itemGuid="${to_string(resource.combovalue_metafield.login_options.item_guid)}" field="optionvalue" />
       <valueField id="DefaultAssetView" itemGuid="${to_string(resource.combovalue_metafield.default_asset_view_mode.item_guid)}" field="optionvalue" />
-      <valueField id="CopyrightText" itemGuid="${to_string(resource.string_metafield.copyright_text.item_guid)}" field="value" />
-      <valueField id="CopyrightLink" itemGuid="${to_string(resource.link_metafield.copyright_text_url.item_guid)}" field="value" />
       <valueFields id="PrimaryLogo">
         <bindField id="PrimaryLogoBindId" itemGuid="${to_string(resource.masteritem_reference_metafield.logo.item_guid)}" />
         <valueField id="PrimaryLogoURL" fieldName="asset.urlAbsolut(${to_string(data.destination.frontenddata_sm.item_guid)},${to_string(data.media_format.source_copy.item_guid)})" />
@@ -49,7 +47,6 @@
       <valueField id="IntroScreen" itemGuid="${to_string(resource.combovalue_metafield.intro_screen_mode.item_guid)}" field="optionvalue" />
       <valueField id="IntroscreenText" itemGuid="${to_string(resource.note_metafield.intro_screen_text.item_guid)}" field="value" />
       <valueField id="IntroscreenHeader" itemGuid="${to_string(resource.string_metafield.intro_screen_header.item_guid)}" field="value" />
-      <valueField id="IntroscreenColour" itemGuid="${to_string(resource.string_metafield.intro_screen_colour.item_guid)}" field="value" />
       <valueField id="ThemingDetails" itemGuid="${to_string(resource.note_metafield.theming_details.item_guid)}" field="value" />
       <valueField id="MainSearchFolderId" fieldName="layoutfolders.layoutfolderid">
         <bindField id="MainSearchFolderIdField" itemGuid="${to_string(resource.masteritem_reference_metafield.main_search_folder.item_guid)}" />
@@ -89,12 +86,6 @@
         <valueField id="ImageFormatValue" itemGuid="${to_string(resource.multicombovalue_metafield.custom_quality_image_types.item_guid)}" field="optionvalue" bindId="ImageFormatLabel" />
       </valueFields>
       <valueField id="PagingSizeValue" itemGuid="${to_string(resource.editmulticombovalue_metafield.paging_size.item_guid)}" field="optionvalue" />
-      <valueField id="DownloadDestinationId" fieldName="digitranscode_destination.digitranscode_destinationid">
-        <bindField id="DownloadDestinationIdField" itemGuid="${to_string(resource.masteritem_reference_metafield.download_destination.item_guid)}" />
-      </valueField>
-      <valueField id="FrontendDestinationId" fieldName="digitranscode_destination.digitranscode_destinationid">
-        <bindField id="FrontendDestinationIdField" itemGuid="${to_string(resource.masteritem_reference_metafield.frontend_destination.item_guid)}" />
-      </valueField>
       <valueFields id="VideoEmbedSize" isArray="true">
         <valueField id="VideoEmbedSizeLabel" itemGuid="${to_string(resource.multicombovalue_metafield.video_embed_sizes.item_guid)}" field="value" />
         <valueField id="VideoEmbedSizeValue" itemGuid="${to_string(resource.multicombovalue_metafield.video_embed_sizes.item_guid)}" field="optionvalue" bindId="VideoEmbedSizeLabel" />
@@ -104,15 +95,6 @@
         <valueField id="VideoEmbedQualityValue" itemGuid="${to_string(resource.multicombovalue_metafield.video_embed_qualities.item_guid)}" field="optionvalue" bindId="VideoEmbedQualityLabel" />
       </valueFields>
       <valueField id="SelfSignupUserFolderId" itemGuid="${to_string(resource.string_metafield.auto_created_user_folder_id.item_guid)}" field="value" returnType="int" />
-      <valueField id="AutoCreatedMembersFolderId" itemGuid="${to_string(resource.int_metafield.folder_id_for_autocreated_users.item_guid)}" field="value" returnType="int" />
-      <valueField id="AutoCreatedMembersTemplateId" fieldName="member.memberid">
-        <bindField id="AutoCreatedMembersTemplateIdField" itemGuid="${to_string(resource.masteritem_reference_metafield.template_for_autocreated_users.item_guid)}" />
-      </valueField>
-      <valueField id="AccessKeyTimeoutOverrideForSharing" itemGuid="${to_string(resource.int_metafield.access_key_timeout_for_internal_and_email_sharing_seconds.item_guid)}" field="value" returnType="int" />
-      <valueField id="SocialMediaUser" fieldName="member.memberid">
-        <bindField id="SocialMediaUserBind" itemGuid="${to_string(resource.masteritem_reference_metafield.user_for_social_sharing.item_guid)}" />
-      </valueField>
-      <valueField id="AccessKeyTimeoutOverrideForSharingSocial" itemGuid="${to_string(resource.int_metafield.accesskey_timeout_override_for_social_media_sharing.item_guid)}" field="value" returnType="int" />
       <valueField id="EmbedMemberId" fieldName="member.memberid">
         <bindField id="EmbedMemberIdBind" itemGuid="${to_string(resource.masteritem_reference_metafield.embed_player_user.item_guid)}" />
       </valueField>
@@ -127,7 +109,6 @@
       <valueField id="AITranscriptMetafield" itemGuid="${to_string(resource.masteritem_reference_metafield.enable_ai_transcript_for_metadata_field.item_guid)}" returnType="int" />
       <valueField id="AIFacialMetafield" itemGuid="${to_string(resource.masteritem_reference_metafield.enable_ai_facial_recognition_for_metadata_field.item_guid)}" returnType="int" />
       <valueField id="AIUseLocalAnalysis" itemGuid="${to_string(resource.bit_metafield.enable_slow_ai.item_guid)}" returnType="bool" />
-      <valueField id="CropNameMetafield" itemGuid="${to_string(resource.masteritem_reference_metafield.cropname_metafield.item_guid)}" returnType="int" />
       <valueField id="SocialMediaChannels" itemGuid="${to_string(resource.string_metafield.social_media_config.item_guid)}" />
       <valueField id="SortTypes" itemGuid="${to_string(resource.multicombovalue_metafield.sorting_types.item_guid)}" field="optionvalue" isArray="true" />
       <valueField id="DefaultSortType" itemGuid="${to_string(resource.combovalue_metafield.default_asset_sort_mode.item_guid)}" field="optionvalue" />
@@ -154,7 +135,6 @@
       <valueField id="Mm5BaseUrl" itemGuid="${to_string(resource.string_metafield.mm5_base_url.item_guid)}" />
       <valueField id="DefaultImageInsertQuality" itemGuid="${to_string(resource.int_metafield.default_mediaformatid_for_inserting_images.item_guid)}" />
       <valueField id="FacetCountLimit" itemGuid="${to_string(resource.int_metafield.facet_count_limit.item_guid)}" returnType="int" />
-      <valueField id="ShowFolderMenuOnCollectionShared" itemGuid="${to_string(resource.bit_metafield.show_folder_menu_on_shared_collection_view.item_guid)}" returnType="bool" />
       <valueField id="FacebookAppId" itemGuid="${to_string(resource.string_metafield.facebook_app_id.item_guid)}" />
       <valueField id="EnableCopyrightNotification" itemGuid="${to_string(resource.bit_metafield.enable_copyright_notification.item_guid)}" returnType="bool" />
       <valueField id="PredefinedCopyrightDisclaimerMetafield" itemGuid="${to_string(resource.masteritem_reference_metafield.predefined_disclaimer_metadata_field.item_guid)}" returnType="int" />

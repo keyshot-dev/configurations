@@ -47,14 +47,14 @@ resource metafield_label comment {
 
 resource item_security comment__anonymous {
     accessor_item_id = data.member_group.anonymous.item_id
-    item_id = resource.metafield_label.comment.item_id
+    item_id = resource.note_metafield.comment.item_id
     read = true
     write = false
 }
 
 resource item_security comment__trusted {
     accessor_item_id = data.member_group.trusted.item_id
-    item_id = resource.metafield_label.comment.item_id
+    item_id = resource.note_metafield.comment.item_id
     read = true
     write = true
 }

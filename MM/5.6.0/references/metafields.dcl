@@ -41,3 +41,11 @@ data masteritem_reference_metafield quality {
 data masteritem_reference_metafield config_layoutfolder {
     item_guid = '79b85f8e-68ae-49f7-b880-c946eb7f0055'
 }
+
+data string_metafield crop {
+    item_guid = '050d76ad-822a-409b-a18c-e41e677c1716'
+}
+
+data string_metafield framebestemt_thumbnail {
+    item_guid = 'cd420283-d734-4b0c-9849-3406466e0954'
+}

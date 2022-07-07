@@ -1,7 +1,7 @@
 ﻿resource bit_metafield allways_notify_when_asset_is_published {
     item_guid = '33bf4a53-c6d2-425c-b0f1-25bc5130f432'
     name = 'Allways Notify when asset is published'
-    group_id = data.metafield_group.user_config_50003.metafield_group_id
+    group_id = data.metafield_group.user_config.metafield_group_id
     sort_index = 50167
     readonly = true
     system = true

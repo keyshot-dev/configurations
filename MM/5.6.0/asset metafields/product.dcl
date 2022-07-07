@@ -128,14 +128,14 @@ resource bit_metafield is_public {
     }
 }
 
-resource item_security is_profile_material__anonymous {
+resource item_security is_public__anonymous {
     accessor_item_id = data.member_group.anonymous.item_id
     item_id = resource.bit_metafield.is_public.item_id
     read = true
     write = false
 }
 
-resource item_security is_profile_material__trusted {
+resource item_security is_public__trusted {
     accessor_item_id = data.member_group.trusted.item_id
     item_id = resource.bit_metafield.is_public.item_id
     read = true
@@ -166,14 +166,14 @@ resource metafield_label edited {
 
 resource item_security edited__anonymous {
     accessor_item_id = data.member_group.anonymous.item_id
-    item_id = resource.metafield_label.edited.item_id
+    item_id = resource.datetime_metafield.edited.item_id
     read = true
     write = false
 }
 
 resource item_security edited__trusted {
     accessor_item_id = data.member_group.trusted.item_id
-    item_id = resource.metafield_label.edited.item_id
+    item_id = resource.datetime_metafield.edited.item_id
     read = true
     write = true
 }
@@ -208,14 +208,14 @@ resource metafield_label restored {
 
 resource item_security restored__anonymous {
     accessor_item_id = data.member_group.anonymous.item_id
-    item_id = resource.metafield_label.restored.item_id
+    item_id = resource.datetime_metafield.restored.item_id
     read = true
     write = false
 }
 
 resource item_security restored__trusted {
     accessor_item_id = data.member_group.trusted.item_id
-    item_id = resource.metafield_label.restored.item_id
+    item_id = resource.datetime_metafield.restored.item_id
     read = true
     write = true
 }
