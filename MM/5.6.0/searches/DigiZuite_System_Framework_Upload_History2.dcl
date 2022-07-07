@@ -116,8 +116,8 @@
       <sortField id="sortAlphabeticDesc" itemGuid="${to_string(data.string_metafield.title.item_guid)}" DefaultToDisabled="true" sortDirection="descending" />
       <sortField id="sortFavoritesAsc" fieldName="item.MasterItemRefCount(${to_string(data.masteritem_reference_metafield.mediamanager_favourites.item_guid)})" DefaultToDisabled="true" sortDirection="ascending" />
       <sortField id="sortFavoritesDesc" fieldName="item.MasterItemRefCount(${to_string(data.masteritem_reference_metafield.mediamanager_favourites.item_guid)})" DefaultToDisabled="true" sortDirection="descending" />
-      <sortField id="sortCommentsAsc" itemGuid="${to_string(resource.note_metafield.comment.item_guid)}" DefaultToDisabled="true" field="rowid" aggregate="COUNT" sortDirection="ascending" />
-      <sortField id="sortCommentsDesc" itemGuid="${to_string(resource.note_metafield.comment.item_guid)}" DefaultToDisabled="true" field="rowid" aggregate="COUNT" sortDirection="descending" />
+      <sortField id="sortCommentsAsc" itemGuid="${to_string(data.note_metafield.comment.item_guid)}" DefaultToDisabled="true" field="rowid" aggregate="COUNT" sortDirection="ascending" />
+      <sortField id="sortCommentsDesc" itemGuid="${to_string(data.note_metafield.comment.item_guid)}" DefaultToDisabled="true" field="rowid" aggregate="COUNT" sortDirection="descending" />
       <sortField id="sortDurationAsc" fieldName="asset.sourceout" DefaultToDisabled="true" sortDirection="ascending" />
       <sortField id="sortDurationDesc" fieldName="asset.sourceout" DefaultToDisabled="true" sortDirection="descending" />
     </sortFields>

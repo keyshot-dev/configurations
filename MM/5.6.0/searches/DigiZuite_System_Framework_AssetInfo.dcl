@@ -20,8 +20,8 @@
       <valueField id="videoLength" fieldName="asset.sourceout" format="duration" pattern="hh:mm:ss.fff" displayOrder="10" />
       <!-- Iterative Metagroup -->
       <valueFields id="comments" isIterative="true">
-        <valueField id="commentDate" itemGuid="${to_string(resource.datetime_metafield.date.item_guid)}" returnType="datetime" />
-        <valueField id="commentText" itemGuid="${to_string(resource.note_metafield.comment.item_guid)}" />
+        <valueField id="commentDate" itemGuid="${to_string(data.datetime_metafield.date.item_guid)}" returnType="datetime" />
+        <valueField id="commentText" itemGuid="${to_string(data.note_metafield.comment.item_guid)}" />
       </valueFields>
     </valueFields>
     <sortFields />

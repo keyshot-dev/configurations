@@ -13,8 +13,8 @@ resource search digizuite_system_framework_assetinfo_376 {
       <valueField id="videoLength" fieldName="asset.sourceout" format="duration" pattern="hh:mm:ss.fff" />
       <!-- Iterative Metagroup -->
       <valueFields id="comments" isIterative="true">
-        <valueField id="commentDate" itemGuid="${to_string(resource.datetime_metafield.date_10335.item_guid)}" returnType="datetime" />
-        <valueField id="commentText" itemGuid="${to_string(resource.note_metafield.comment_10336.item_guid)}" />
+        <valueField id="commentDate" itemGuid="${to_string(data.datetime_metafield.date.item_guid)}" returnType="datetime" />
+        <valueField id="commentText" itemGuid="${to_string(data.note_metafield.comment.item_guid)}" />
       </valueFields>
       <valueField fieldName="asset.file_size" id="infoFileSize" isArray="false" isTooltip="false" returnType="long" format="fileSize" />
       <valueField fieldName="asset.image_height" id="infoImageHeight" isArray="false" isTooltip="false" returnType="int" hideOnDefaultValue="true" />

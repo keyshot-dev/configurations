@@ -6,6 +6,11 @@ data metafield_group asset_info {
     name = 'Asset info'
 }
 
+data metafield_group comments {
+    parent_group_id = data.metafield_group.asset_info.metafield_group_id
+    name = 'Comments'
+}
+
 data meta_group_folder users_and_usergroups {
     parent_id = 0
     name = 'Users and usergroups'

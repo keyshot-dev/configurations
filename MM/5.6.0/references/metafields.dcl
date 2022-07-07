@@ -49,3 +49,11 @@ data string_metafield crop {
 data string_metafield framebestemt_thumbnail {
     item_guid = 'cd420283-d734-4b0c-9849-3406466e0954'
 }
+
+data datetime_metafield date {
+    item_guid = 'b714b55b-025a-476c-8067-d1b16e0a20e4'
+}
+
+data note_metafield comment {
+    item_guid = '4db76e4f-0952-4f22-b7b7-030bc4808c33'
+}

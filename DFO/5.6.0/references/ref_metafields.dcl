@@ -119,3 +119,11 @@ data masteritem_reference_metafield config_layoutfolder_50012 {
 data masteritem_reference_metafield profile_image_50166 {
     item_guid = 'e2dced3c-a38a-45d5-959b-e57b80211bef'
 }
+
+data datetime_metafield date {
+    item_guid = 'b714b55b-025a-476c-8067-d1b16e0a20e4'
+}
+
+data note_metafield comment {
+    item_guid = '4db76e4f-0952-4f22-b7b7-030bc4808c33'
+}
