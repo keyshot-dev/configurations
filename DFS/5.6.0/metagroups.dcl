@@ -99,9 +99,6 @@ resource tree_metafield channel_20 {
     restrict_to_asset_type = 'All'
     upload_tag_name = ''
     iterative = false
-    autolink {
-        item_guid = 'b86e2f56-620e-470e-9641-5ad259b70b51'
-    }
 }
 
 resource metafield_label channel_75 {

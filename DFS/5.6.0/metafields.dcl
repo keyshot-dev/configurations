@@ -14,9 +14,6 @@
 	auto_translate = 'Overwrite'
 	restrict_to_asset_type = 'All'
 	upload_tag_name = ''
-	autolink {
-		item_guid = '1041e7cf-cdfb-41d0-9acf-732defeafa34'
-	}
 }
 
 resource metafield_label default_preview_destination_51451 {
@@ -48,9 +45,6 @@ resource masteritem_reference_metafield thumb_small_50384 {
 	auto_translate = 'Overwrite'
 	restrict_to_asset_type = 'All'
 	upload_tag_name = ''
-	autolink {
-		item_guid = 'a6265237-cc0a-4987-af8f-55b8543600a5'
-	}
 }
 
 resource metafield_label thumb_small_51456 {
@@ -82,9 +76,6 @@ resource masteritem_reference_metafield thumb_tile_50385 {
 	auto_translate = 'Overwrite'
 	restrict_to_asset_type = 'All'
 	upload_tag_name = ''
-	autolink {
-		item_guid = '77c4bb55-fc65-45e5-a022-997fc2fd5962'
-	}
 }
 
 resource metafield_label thumb_tile_51457 {
@@ -116,9 +107,6 @@ resource masteritem_reference_metafield preview_50386 {
 	auto_translate = 'Overwrite'
 	restrict_to_asset_type = 'All'
 	upload_tag_name = ''
-	autolink {
-		item_guid = '0cfa3338-9199-43aa-8a03-245ea989fb82'
-	}
 }
 
 resource metafield_label preview_51458 {
@@ -150,9 +138,6 @@ resource masteritem_reference_metafield web_50387 {
 	auto_translate = 'Overwrite'
 	restrict_to_asset_type = 'All'
 	upload_tag_name = ''
-	autolink {
-		item_guid = 'c3f081d5-6c3b-457e-a084-d4867b5abe0b'
-	}
 }
 
 resource metafield_label web_51459 {
@@ -184,9 +169,6 @@ resource masteritem_reference_metafield video_preview_50388 {
 	auto_translate = 'Overwrite'
 	restrict_to_asset_type = 'All'
 	upload_tag_name = ''
-	autolink {
-		item_guid = '1363f9d4-1d4c-40a9-9850-ae9ab79e3185'
-	}
 }
 
 resource metafield_label video_preview_51460 {
@@ -218,9 +200,6 @@ resource masteritem_reference_metafield audio_preview_50389 {
 	auto_translate = 'Overwrite'
 	restrict_to_asset_type = 'All'
 	upload_tag_name = ''
-	autolink {
-		item_guid = '441a1c54-5149-4ced-8297-5a6fc63c9ebd'
-	}
 }
 
 resource metafield_label audio_preview_51461 {
@@ -252,9 +231,6 @@ resource masteritem_reference_metafield destination_50390 {
 	auto_translate = 'Overwrite'
 	restrict_to_asset_type = 'All'
 	upload_tag_name = ''
-	autolink {
-		item_guid = 'fe4dffc9-8241-4044-9c0d-65d60aae1e2f'
-	}
 }
 
 resource metafield_label destination_51462 {
@@ -286,9 +262,6 @@ resource masteritem_reference_metafield search_channel_folder_50391 {
 	auto_translate = 'Overwrite'
 	restrict_to_asset_type = 'All'
 	upload_tag_name = ''
-	autolink {
-		item_guid = '0f474c9d-d05b-49de-9af2-deb779220e5d'
-	}
 }
 
 resource metafield_label search_channel_folder_51463 {
@@ -320,9 +293,6 @@ resource masteritem_reference_metafield menu_50392 {
 	auto_translate = 'Overwrite'
 	restrict_to_asset_type = 'All'
 	upload_tag_name = ''
-	autolink {
-		item_guid = '27654dd8-b200-41f8-9b32-71cceedea454'
-	}
 }
 
 resource metafield_label menu_51464 {
@@ -354,9 +324,6 @@ resource masteritem_reference_metafield related_thumb_50393 {
 	auto_translate = 'Overwrite'
 	restrict_to_asset_type = 'All'
 	upload_tag_name = ''
-	autolink {
-		item_guid = '32762b49-42c1-4e46-9b12-be478768b9d1'
-	}
 }
 
 resource metafield_label related_thumb_51465 {
@@ -388,9 +355,6 @@ resource masteritem_reference_metafield related_tile_50394 {
 	auto_translate = 'Overwrite'
 	restrict_to_asset_type = 'All'
 	upload_tag_name = ''
-	autolink {
-		item_guid = '889b2b9c-0b41-406c-a4d3-933c0927ccd3'
-	}
 }
 
 resource metafield_label related_tile_51466 {
@@ -419,9 +383,6 @@ resource string_metafield datetime_cultureinfo_50395 {
 	auto_translate = 'Overwrite'
 	restrict_to_asset_type = 'All'
 	upload_tag_name = ''
-	autolink {
-		item_guid = 'c6ebba2e-85fc-4afc-ac39-e263f8f75d86'
-	}
 }
 
 resource metafield_label datetime_cultureinfo_51467 {
@@ -450,9 +411,6 @@ resource string_metafield datetime_pattern_50396 {
 	auto_translate = 'Overwrite'
 	restrict_to_asset_type = 'All'
 	upload_tag_name = ''
-	autolink {
-		item_guid = 'ffba3c5c-f311-41aa-b647-eeb7dd38222d'
-	}
 }
 
 resource metafield_label pattern_pattern_51468 {
@@ -484,9 +442,6 @@ resource masteritem_reference_metafield title_metafield_50397 {
 	auto_translate = 'Overwrite'
 	restrict_to_asset_type = 'All'
 	upload_tag_name = ''
-	autolink {
-		item_guid = 'a095c76d-d960-443f-bc2c-a6b2b7affe69'
-	}
 }
 
 resource metafield_label title_metafield_51469 {
@@ -518,9 +473,6 @@ resource masteritem_reference_metafield description_metafield_50398 {
 	auto_translate = 'Overwrite'
 	restrict_to_asset_type = 'All'
 	upload_tag_name = ''
-	autolink {
-		item_guid = 'a9c18690-5e09-4f1b-bf8d-2f4a818abe77'
-	}
 }
 
 resource metafield_label description_metafield_51470 {
@@ -552,9 +504,6 @@ resource masteritem_reference_metafield editor_qualities_50399 {
 	auto_translate = 'Overwrite'
 	restrict_to_asset_type = 'All'
 	upload_tag_name = ''
-	autolink {
-		item_guid = '2eddd522-cbae-468b-9abe-2f59de115c58'
-	}
 }
 
 resource metafield_label editor_qualities_51471 {
@@ -583,9 +532,6 @@ resource string_metafield upload_name_pattern_50400 {
 	auto_translate = 'Overwrite'
 	restrict_to_asset_type = 'All'
 	upload_tag_name = ''
-	autolink {
-		item_guid = '352f04bd-866b-4bb1-ba84-5b28e6e38976'
-	}
 }
 
 resource metafield_label upload_name_51472 {
@@ -617,9 +563,6 @@ resource masteritem_reference_metafield sitecore_upload_username_metafield_50402
 	auto_translate = 'Overwrite'
 	restrict_to_asset_type = 'All'
 	upload_tag_name = ''
-	autolink {
-		item_guid = '9b7b8f66-cfb6-4590-a866-f0afdad6593c'
-	}
 }
 
 resource metafield_label sitecore_upload_username_metafield_51474 {
@@ -651,9 +594,6 @@ resource masteritem_reference_metafield crop_name_metafield_50403 {
 	auto_translate = 'Overwrite'
 	restrict_to_asset_type = 'All'
 	upload_tag_name = ''
-	autolink {
-		item_guid = 'e96d8ec7-b251-4468-9efb-b932c07d8505'
-	}
 }
 
 resource metafield_label crop_name_metafield_51475 {
@@ -685,9 +625,6 @@ resource masteritem_reference_metafield preview_asset_50380 {
 	auto_translate = 'Overwrite'
 	restrict_to_asset_type = 'All'
 	upload_tag_name = ''
-	autolink {
-		item_guid = 'ee4d4b20-1a5c-4490-a6b5-3e59de77f537'
-	}
 }
 
 resource metafield_label preview_asset_51452 {
@@ -719,9 +656,6 @@ resource masteritem_reference_metafield input_mediaformat_50381 {
 	auto_translate = 'Overwrite'
 	restrict_to_asset_type = 'All'
 	upload_tag_name = ''
-	autolink {
-		item_guid = '4fa0bcf8-239b-4adb-81b7-7ee2a564bedf'
-	}
 }
 
 resource metafield_label input_mediaformat_51453 {
@@ -753,9 +687,6 @@ resource masteritem_reference_metafield output_mediaformat_50382 {
 	auto_translate = 'Overwrite'
 	restrict_to_asset_type = 'All'
 	upload_tag_name = ''
-	autolink {
-		item_guid = 'a878ed1d-2933-418f-97bc-83069813a4a2'
-	}
 }
 
 resource metafield_label output_mediaformat_51454 {
@@ -784,9 +715,6 @@ resource combovalue_metafield assettype_50383 {
 	auto_translate = 'Overwrite'
 	restrict_to_asset_type = 'All'
 	upload_tag_name = ''
-	autolink {
-		item_guid = 'ed13bd93-e6ca-4f77-991d-cf4df4ca32f3'
-	}
 }
 
 resource metafield_label assettype_51455 {
@@ -1347,9 +1275,6 @@ resource string_metafield crop_name_50405 {
 	auto_translate = 'Overwrite'
 	restrict_to_asset_type = 'All'
 	upload_tag_name = ''
-	autolink {
-		item_guid = 'e1aebd94-0fd8-46a8-87e5-97abf8a32fee'
-	}
 }
 
 resource metafield_label crop_name_51477 {
@@ -1378,9 +1303,6 @@ resource string_metafield aspect_ratio_x_50406 {
 	auto_translate = 'Overwrite'
 	restrict_to_asset_type = 'All'
 	upload_tag_name = ''
-	autolink {
-		item_guid = '1207a07a-7bda-4f46-a10b-d2436556308a'
-	}
 }
 
 resource metafield_label aspect_ratio_x_51478 {
@@ -1409,9 +1331,6 @@ resource string_metafield aspect_ratio_y_50407 {
 	auto_translate = 'Overwrite'
 	restrict_to_asset_type = 'All'
 	upload_tag_name = ''
-	autolink {
-		item_guid = '4aee5101-b82d-49ea-b261-3cf083329aba'
-	}
 }
 
 resource metafield_label aspect_ratio_y_51479 {
