@@ -13,11 +13,35 @@ resource metafield_label standard_preset_description {
     language_id = data.language.english.id
 }
 
-resource versioned_metadata_string_value standard_preset_description {
+resource versioned_metadata_string_value standard_preset_description_1 {
     item_id = resource.product.media_manager.item_id
     version_id = resource.product.media_manager.base_version_id
     label_id = resource.metafield_label.standard_preset_description.label_id
     row_id = 1
+    value = ''
+}
+
+resource versioned_metadata_string_value standard_preset_description_2 {
+    item_id = resource.product.media_manager.item_id
+    version_id = resource.product.media_manager.base_version_id
+    label_id = resource.metafield_label.standard_preset_description.label_id
+    row_id = 2
+    value = ''
+}
+
+resource versioned_metadata_string_value standard_preset_description_3 {
+    item_id = resource.product.media_manager.item_id
+    version_id = resource.product.media_manager.base_version_id
+    label_id = resource.metafield_label.standard_preset_description.label_id
+    row_id = 3
+    value = ''
+}
+
+resource versioned_metadata_string_value standard_preset_description_4 {
+    item_id = resource.product.media_manager.item_id
+    version_id = resource.product.media_manager.base_version_id
+    label_id = resource.metafield_label.standard_preset_description.label_id
+    row_id = 4
     value = ''
 }
 
