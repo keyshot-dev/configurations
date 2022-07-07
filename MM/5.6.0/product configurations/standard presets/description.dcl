@@ -13,6 +13,13 @@ resource metafield_label standard_preset_description {
     language_id = data.language.english.id
 }
 
+resource versioned_metadata_string_value standard_preset_description {
+    item_id = resource.product.media_manager.item_id
+    version_id = resource.product.media_manager.base_version_id
+    label_id = resource.metafield_label.standard_preset_description.label_id
+    row_id = 1
+    value = ''
+}
 
 resource item_security standard_preset_description__anonymous {
     accessor_item_id = data.member_group.anonymous.item_id

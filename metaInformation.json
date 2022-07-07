@@ -4,11 +4,6 @@
         "order": -100,
         "locked": true
     },
-	{
-		"name": "EmbedPlayer",
-		"order" : -99,
-		"locked": true
-	},
     {
         "name": "MM",
         "order": -95,
