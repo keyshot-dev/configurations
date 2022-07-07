@@ -107,3 +107,7 @@ data media_format png_transparent_50037 {
 data media_format id_480p_50038 {
 	name = '480p'
 }
+
+data media_format_folder image_189 {
+	name = 'Image'
+}

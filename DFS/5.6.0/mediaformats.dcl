@@ -13,11 +13,6 @@ resource media_format_folder related_formats_50023 {
 	name = 'Related formats'
 }
 
-resource media_format_folder image_189 {
-	parent_id = data.media_format_folder.oobe_185.id
-	name = 'Image'
-}
-
 resource media_format extract_indesign_thumb_10048 {
     folder_id = 10003
 	format_type_id = data.media_format_type.indesign_100001.media_format_type_id
@@ -697,7 +692,7 @@ resource media_format sitecore_related_tile_50104 {
 }
 
 resource media_format jpg_full_size_50033 {
-    folder_id = resource.media_format_folder.image_189.id
+    folder_id = data.media_format_folder.image_189.id
 	format_type_id = data.media_format_type.jpeg_compressed_formats_40001.media_format_type_id
 	name = 'JPG full size'
 	description = ''

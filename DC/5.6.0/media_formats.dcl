@@ -965,8 +965,8 @@ resource media_format png_transparent_50037 {
 }
 
 resource media_format id_480p_50038 {
-	folder_id = data.media_format_folder.video.id
-    format_type_id = data.media_format_type.mpeg_4_10201.media_format_type_id
+	folder_id = resource.media_format_folder.video.id
+    format_type_id = resource.media_format_type.mpeg_4_10201.media_format_type_id
 	name = '480p'
 	description = ''
 	width = 0

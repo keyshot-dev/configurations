@@ -102,3 +102,7 @@ data media_format jpg_small_50036 {
 data media_format png_transparent_50037 {
     name = 'PNG transparent'
 }
+
+data media_format_folder image_189 {
+	name = 'Image'
+}

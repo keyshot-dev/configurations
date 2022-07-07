@@ -42,3 +42,8 @@ resource transcode_folder image_201 {
     parent_id = resource.transcode_folder.oobe.id
     name = 'Image'
 }
+
+resource media_format_folder image_189 {
+	parent_id = data.media_format_folder.oobe_185.id
+	name = 'Image'
+}
