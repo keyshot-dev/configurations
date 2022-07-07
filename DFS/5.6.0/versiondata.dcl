@@ -927,7 +927,7 @@ resource versioned_metadata_multi_references description_metafield_9449_51470_1 
 }
 resource versioned_metadata_multi_references editor_qualities_9449_51471_1 {
 	references = [
-		  { ref_itemid = resource.media_format.jpg_full_size_50033.item_id }
+		  { ref_itemid = data.media_format.jpg_full_size_50033.item_id }
 		, { ref_itemid = data.media_format.jpg_big.item_id }
 		, { ref_itemid = data.media_format.jpg_medium_50035.item_id }
 		, { ref_itemid = data.media_format.jpg_small_50036.item_id }

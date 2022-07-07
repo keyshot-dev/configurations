@@ -13,7 +13,7 @@ resource profile common_illustrator_50033 {
             media_format_id = data.media_format.thumb_200x120_3.media_format_id
         }, 
         {
-            media_format_id = resource.media_format.jpg_full_size_50033.media_format_id
+            media_format_id = data.media_format.jpg_full_size_50033.media_format_id
         }
     ]
     autolink {
@@ -33,7 +33,7 @@ resource profile common_indesign_50034 {
         }, {
             media_format_id = data.media_format.thumb_200x120_3.media_format_id
         }, {
-            media_format_id = resource.media_format.jpg_full_size_50033.media_format_id
+            media_format_id = data.media_format.jpg_full_size_50033.media_format_id
         }
     ]
     autolink {
@@ -53,7 +53,7 @@ resource profile common_photoshop_50035 {
         }, {
             media_format_id = data.media_format.thumb_200x120_3.media_format_id
         }, {
-            media_format_id = resource.media_format.jpg_full_size_50033.media_format_id
+            media_format_id = data.media_format.jpg_full_size_50033.media_format_id
         }
     ]
     autolink {
@@ -73,7 +73,7 @@ resource profile common_image_50036 {
         }, {
             media_format_id = data.media_format.thumb_200x120_3.media_format_id
         }, {
-            media_format_id = resource.media_format.jpg_full_size_50033.media_format_id
+            media_format_id = data.media_format.jpg_full_size_50033.media_format_id
         }, {
             media_format_id = data.media_format.jpg_big.media_format_id
         }, {
@@ -125,7 +125,7 @@ resource profile common_pdf_50038 {
         }, {
             media_format_id = data.media_format.thumb_200x120_3.media_format_id
         }, {
-            media_format_id = resource.media_format.jpg_full_size_50033.media_format_id
+            media_format_id = data.media_format.jpg_full_size_50033.media_format_id
         }
     ]
     autolink {
@@ -145,7 +145,7 @@ resource profile common_powerpoint_50039 {
         }, {
             media_format_id = data.media_format.thumb_200x120_3.media_format_id
         }, {
-            media_format_id = resource.media_format.jpg_full_size_50033.media_format_id
+            media_format_id = data.media_format.jpg_full_size_50033.media_format_id
         }
     ]
     autolink {
