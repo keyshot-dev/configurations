@@ -242,15 +242,15 @@ resource search getconfigs_103_0 {
       <valueField id="DefaultLanguage" fieldName="digizuite_config.constant.LANGUAGE_DEFAULT_ID" />
       <valueField id="DefaultKeepOldMetadata" fieldName="digizuite_config.constant.KEEP_OLD_METADATA_DEFAULT_VALUE" />
       <valueField id="PortalTitle" itemGuid="${to_string(resource.string_metafield.portal_title_50254.item_guid)}" field="value" />
-      <valueField id="EnableLegacyUpload" itemGuid="${to_string(resource.bit_metafield.enable_legacy_upload_50372.item_guid)}" field="value" />
-      <valueField id="EnableRememberMe" itemGuid="${to_string(resource.bit_metafield.enable_remember_me_50373.item_guid)}" field="value" />
+      <valueField id="EnableLegacyUpload" itemGuid="${to_string(resource.bit_metafield.enable_legacy_upload.item_guid)}" field="value" />
+      <valueField id="EnableRememberMe" itemGuid="${to_string(resource.bit_metafield.enable_remember_me.item_guid)}" field="value" />
       <valueField id="DownloadDestinationId" fieldName="digitranscode_destination.digitranscode_destinationid">
-        <bindField id="DownloadDestinationIdField" itemGuid="${to_string(resource.masteritem_reference_metafield.download_destination_50255.item_guid)}" />
+        <bindField id="DownloadDestinationIdField" itemGuid="${to_string(resource.masteritem_reference_metafield.download_destination.item_guid)}" />
       </valueField>
       <valueField id="EmbedMemberId" fieldName="member.memberid">
         <bindField id="EmbedMemberIdBind" itemGuid="${to_string(resource.masteritem_reference_metafield.embed_player_user_10.item_guid)}" />
       </valueField>
-      <valueField id="AssetsPerPage" itemGuid="${to_string(resource.editmulticombovalue_metafield.assets_per_page_9.item_guid)}" field="optionvalue" isArray="true" />
+      <valueField id="AssetsPerPage" itemGuid="${to_string(resource.editmulticombovalue_metafield.assets_per_page.item_guid)}" field="optionvalue" isArray="true" />
       <valueFields id="languages" isArray="true">
         <bindField id="languageNameBind">
           <new id="languageNameBindNew" fieldName="language.languageid" />
@@ -262,9 +262,9 @@ resource search getconfigs_103_0 {
         <valueField id="name" fieldName="language.language_name" />
       </valueFields>
       <valueField id="MaxTooltipWidth" itemGuid="${to_string(resource.int_metafield.max_tooltip_width_50310.item_guid)}" field="value" />
-      <valueField id="LeftSideRefreshInterval" itemGuid="${to_string(resource.int_metafield.left_side_refresh_interval_ms_50362.item_guid)}" field="value" />
+      <valueField id="LeftSideRefreshInterval" itemGuid="${to_string(resource.int_metafield.left_side_refresh_interval_ms.item_guid)}" field="value" />
       <valueField id="RunningJobsRefreshInterval" itemGuid="${to_string(resource.int_metafield.running_jobs_refresh_interval_ms_50363.item_guid)}" field="value" />
-      <valueField id="AutoCreatedUserFolderId" itemGuid="${to_string(resource.string_metafield.auto_created_user_folder_id_50375.item_guid)}" field="value" />
+      <valueField id="AutoCreatedUserFolderId" itemGuid="${to_string(resource.string_metafield.auto_created_user_folder_id.item_guid)}" field="value" />
       <valueField id="ValidateRequiredWhenMultiSelecting" fieldName="digizuite_config.constant.VALIDATE_REQUIRED_WHEN_MULTISELECTING" returnType="bool" />
       <valueField id="DamcatalogArchiveFolderID" fieldName="digizuite_config.constant.Damcatalog_Archive_FolderID" returnType="int" />
       <valueField id="AutoCreatedMembersTemplateId" fieldName="member.memberid">

@@ -10,6 +10,20 @@ resource metafield_group asset_info {
     }
 }
 
+resource item_security asset_info__anonymous {
+    accessor_item_id = resource.member_group.anonymous.item_id
+    item_id = resource.tree_metafield.asset_info.item_id
+    read = true
+    write = false
+}
+
+resource item_security asset_info__trusted {
+    accessor_item_id = resource.member_group.trusted.item_id
+    item_id = resource.tree_metafield.asset_info.item_id
+    read = true
+    write = true
+}
+
 resource meta_group_folder shared {
     parent_id = resource.meta_group_folder.asset.id
     name = 'Shared'
@@ -42,6 +56,20 @@ resource metafield_group config {
     }
 }
 
+resource item_security config__anonymous {
+    accessor_item_id = resource.member_group.anonymous.item_id
+    item_id = resource.metafield_group.config.item_id
+    read = true
+    write = false
+}
+
+resource item_security config__trusted {
+    accessor_item_id = resource.member_group.trusted.item_id
+    item_id = resource.metafield_group.config.item_id
+    read = true
+    write = true
+}
+
 resource string_metafield title {
     max_length = 0
     item_guid = '5eb3eefc-a043-410f-89b0-29ed3ef37078'
@@ -60,6 +88,20 @@ resource string_metafield title {
     autolink = {
         item_guid = '5eb3eefc-a043-410f-89b0-29ed3ef37078'
     }
+}
+
+resource item_security title__anonymous {
+    accessor_item_id = resource.member_group.anonymous.item_id
+    item_id = resource.string_metafield.title.item_id
+    read = true
+    write = false
+}
+
+resource item_security title__trusted {
+    accessor_item_id = resource.member_group.trusted.item_id
+    item_id = resource.string_metafield.title.item_id
+    read = true
+    write = true
 }
 
 resource note_metafield description {
@@ -82,6 +124,20 @@ resource note_metafield description {
     }
 }
 
+resource item_security description__anonymous {
+    accessor_item_id = resource.member_group.anonymous.item_id
+    item_id = resource.note_metafield.description.item_id
+    read = true
+    write = false
+}
+
+resource item_security description__trusted {
+    accessor_item_id = resource.member_group.trusted.item_id
+    item_id = resource.note_metafield.description.item_id
+    read = true
+    write = true
+}
+
 resource editmulticombovalue_metafield keywords {
     item_guid = '6afe78b7-3f24-49f3-bf95-24890ea62696'
     name = 'Keywords'
@@ -99,6 +155,20 @@ resource editmulticombovalue_metafield keywords {
     autolink = {
         item_guid = '6afe78b7-3f24-49f3-bf95-24890ea62696'
     }
+}
+
+resource item_security keywords__anonymous {
+    accessor_item_id = resource.member_group.anonymous.item_id
+    item_id = resource.editmulticombovalue_metafield.keywords.item_id
+    read = true
+    write = false
+}
+
+resource item_security keywords__trusted {
+    accessor_item_id = resource.member_group.trusted.item_id
+    item_id = resource.editmulticombovalue_metafield.keywords.item_id
+    read = true
+    write = true
 }
 
 resource note_metafield asset_content {
@@ -121,6 +191,20 @@ resource note_metafield asset_content {
     }
 }
 
+resource item_security asset_content__anonymous {
+    accessor_item_id = resource.member_group.anonymous.item_id
+    item_id = resource.note_metafield.asset_content.item_id
+    read = true
+    write = false
+}
+
+resource item_security asset_content__trusted {
+    accessor_item_id = resource.member_group.trusted.item_id
+    item_id = resource.note_metafield.asset_content.item_id
+    read = true
+    write = true
+}
+
 resource metafield_group content {
     name = 'Content'
     description = ''
@@ -131,6 +215,20 @@ resource metafield_group content {
     autolink = {
         item_guid = '20065740-0e89-4cd3-b484-f27e0d707238'
     }
+}
+
+resource item_security content__anonymous {
+    accessor_item_id = resource.member_group.anonymous.item_id
+    item_id = resource.metafield_group.content.item_id
+    read = true
+    write = false
+}
+
+resource item_security content__trusted {
+    accessor_item_id = resource.member_group.trusted.item_id
+    item_id = resource.metafield_group.content.item_id
+    read = true
+    write = true
 }
 
 resource masteritem_reference_metafield template_for_autocreated_users_50374 {
@@ -155,11 +253,14 @@ resource masteritem_reference_metafield template_for_autocreated_users_50374 {
     }
 }
 
-resource combo_value_label id_50_14 {
-    combo_id = resource.edit_combo_value.assets_per_page_50_9.combo_id
-    language_id = resource.language.english.id
-    label = '50'
+resource item_security content__trusted {
+    accessor_item_id = resource.member_group.trusted.item_id
+    item_id = resource.masteritem_reference_metafield.template_for_autocreated_users_50374.item_id
+    read = true
+    write = true
 }
+
+
 
 resource item_security id_7054_4926 {
     accessor_item_id = resource.member_group.trusted.item_id
@@ -168,11 +269,7 @@ resource item_security id_7054_4926 {
     write = true
 }
 
-resource edit_combo_value assets_per_page_50_9 {
-    metafield_id = resource.editmulticombovalue_metafield.assets_per_page_9.metafield_id
-    option_value = '50'
-    sort_index = 0
-}
+
 
 resource metafield_label embed_player_user_36 {
     metafield_id = resource.masteritem_reference_metafield.embed_player_user_10.metafield_id
@@ -188,7 +285,7 @@ resource item_security id_9045_4926 {
     write = true
 }
 
-resource masteritem_reference_metafield download_destination_50255 {
+resource masteritem_reference_metafield download_destination {
     item_type = 'Destination'
     max_count = 0
     related_metafield_id = 0
@@ -210,7 +307,21 @@ resource masteritem_reference_metafield download_destination_50255 {
     }
 }
 
-resource int_metafield left_side_refresh_interval_ms_50362 {
+resource item_security download_destination__anonymous {
+    accessor_item_id = resource.member_group.anonymous.item_id
+    item_id = resource.masteritem_reference_metafield.download_destination.item_id
+    read = true
+    write = false
+}
+
+resource item_security download_destination__trusted {
+    accessor_item_id = resource.member_group.trusted.item_id
+    item_id = resource.masteritem_reference_metafield.download_destination.item_id
+    read = true
+    write = true
+}
+
+resource int_metafield left_side_refresh_interval_ms {
     item_guid = 'f157a308-d5d3-473f-bf13-958b41b6e031'
     name = 'Left Side Refresh Interval (ms)'
     group_id = resource.metafield_group.config.metafield_group_id
@@ -229,47 +340,20 @@ resource int_metafield left_side_refresh_interval_ms_50362 {
     }
 }
 
-resource item_security id_6247_4926 {
-    accessor_item_id = resource.member_group.trusted.item_id
-    item_id = resource.masteritem_reference_metafield.download_destination_50255.item_id
-    read = true
-    write = true
-}
-
-resource item_security id_7162_4926 {
-    accessor_item_id = resource.member_group.trusted.item_id
-    item_id = resource.edit_combo_value.assets_per_page_100_9.item_id
-    read = true
-    write = true
-}
-
-resource metafield_label left_side_refresh_interval_ms_51429 {
-    metafield_id = resource.int_metafield.left_side_refresh_interval_ms_50362.metafield_id
+resource metafield_label left_side_refresh_interval_ms {
+    metafield_id = resource.int_metafield.left_side_refresh_interval_ms.metafield_id
     label = 'Left Side Refresh Interval (ms)'
     language_id = resource.language.english.id
     description = ''
 }
 
-resource item_security id_7154_9027 {
-    accessor_item_id = resource.member_group.anonymous.item_id
-    item_id = resource.edit_combo_value.assets_per_page_20_9.item_id
-    read = true
-    write = false
-}
-
-resource item_security id_9095_4926 {
+resource item_security left_side_refresh_interval_ms__trusted {
     accessor_item_id = resource.member_group.trusted.item_id
-    item_id = resource.bit_metafield.enable_remember_me_50373.item_id
+    item_id = resource.int_metafield.left_side_refresh_interval_ms.item_id
     read = true
     write = true
 }
 
-resource item_security id_9040_4926 {
-    accessor_item_id = resource.member_group.trusted.item_id
-    item_id = resource.int_metafield.left_side_refresh_interval_ms_50362.item_id
-    read = true
-    write = true
-}
 
 resource versioned_metadata_multi_references download_destination_5102_51019_1 {
     references = [{
@@ -281,40 +365,6 @@ resource versioned_metadata_multi_references download_destination_5102_51019_1 {
     row_id = 1
 }
 
-resource combo_value_label id_20_10 {
-    combo_id = resource.edit_combo_value.assets_per_page_20_9.combo_id
-    language_id = resource.language.english.id
-    label = '20'
-}
-
-resource versioned_metadata_bool_value enable_remember_me_5102_51444_1 {
-    value = true
-    item_id = resource.product.digizuite_dam_center.item_id
-    version_id = resource.product.digizuite_dam_center.base_version_id
-    label_id = resource.metafield_label.enable_remember_me_51444.label_id
-    row_id = 1
-}
-
-resource item_security id_7049_4926 {
-    accessor_item_id = resource.member_group.trusted.item_id
-    item_id = resource.editmulticombovalue_metafield.assets_per_page_9.item_id
-    read = true
-    write = true
-}
-
-resource edit_combo_value assets_per_page_20_9 {
-    metafield_id = resource.editmulticombovalue_metafield.assets_per_page_9.metafield_id
-    option_value = '20'
-    sort_index = 0
-}
-
-resource versioned_metadata_string_value auto_created_user_folder_id_5102_51447_1 {
-    value = '0'
-    item_id = resource.product.digizuite_dam_center.item_id
-    version_id = resource.product.digizuite_dam_center.base_version_id
-    label_id = resource.metafield_label.auto_created_user_folder_id_51447.label_id
-    row_id = 1
-}
 
 resource item_security id_6242_4926 {
     accessor_item_id = resource.member_group.trusted.item_id
@@ -330,19 +380,9 @@ resource metafield_label title_51015 {
     description = ''
 }
 
-resource item_security id_7158_4926 {
-    accessor_item_id = resource.member_group.trusted.item_id
-    item_id = resource.edit_combo_value.assets_per_page_50_9.item_id
-    read = true
-    write = true
-}
 
-resource metafield_label enable_remember_me_51444 {
-    metafield_id = resource.bit_metafield.enable_remember_me_50373.metafield_id
-    label = 'Enable Remember me'
-    language_id = resource.language.english.id
-    description = ''
-}
+
+
 
 resource item_security id_7611_9027 {
     accessor_item_id = resource.member_group.anonymous.item_id
@@ -351,12 +391,7 @@ resource item_security id_7611_9027 {
     write = false
 }
 
-resource item_security id_9092_4926 {
-    accessor_item_id = resource.member_group.trusted.item_id
-    item_id = resource.bit_metafield.enable_legacy_upload_50372.item_id
-    read = true
-    write = true
-}
+
 
 resource versioned_metadata_int_value running_jobs_refresh_interval_ms_5102_51433_1 {
     value = 15000
@@ -366,7 +401,7 @@ resource versioned_metadata_int_value running_jobs_refresh_interval_ms_5102_5143
     row_id = 1
 }
 
-resource bit_metafield enable_remember_me_50373 {
+resource bit_metafield enable_remember_me {
     item_guid = 'cbfc6a71-bcde-4a5e-818a-d2ec8b478882'
     name = 'Enable Remember me'
     group_id = resource.metafield_group.config.metafield_group_id
@@ -385,7 +420,29 @@ resource bit_metafield enable_remember_me_50373 {
     }
 }
 
-resource string_metafield auto_created_user_folder_id_50375 {
+resource metafield_label enable_remember_me {
+    metafield_id = resource.bit_metafield.enable_remember_me.metafield_id
+    label = 'Enable Remember me'
+    language_id = resource.language.english.id
+    description = ''
+}
+
+resource item_security enable_remember_me__trusted {
+    accessor_item_id = resource.member_group.trusted.item_id
+    item_id = resource.bit_metafield.enable_remember_me.item_id
+    read = true
+    write = true
+}
+
+resource versioned_metadata_bool_value enable_remember_me {
+    value = true
+    item_id = resource.product.digizuite_dam_center.item_id
+    version_id = resource.product.digizuite_dam_center.base_version_id
+    label_id = resource.metafield_label.enable_remember_me.label_id
+    row_id = 1
+}
+
+resource string_metafield auto_created_user_folder_id {
     max_length = 0
     item_guid = '2f84e135-8d57-40ba-9917-d830aa7251c5'
     name = 'Auto created user folder ID'
@@ -405,6 +462,28 @@ resource string_metafield auto_created_user_folder_id_50375 {
     }
 }
 
+resource metafield_label auto_created_user_folder_id {
+    metafield_id = resource.string_metafield.auto_created_user_folder_id.metafield_id
+    label = 'Auto created user folder ID'
+    language_id = resource.language.english.id
+    description = 'The user folder ID, which automatially created users are placed in. Defaults to the root Users folder (0).'
+}
+
+resource versioned_metadata_string_value auto_created_user_folder_id {
+    value = '0'
+    item_id = resource.product.digizuite_dam_center.item_id
+    version_id = resource.product.digizuite_dam_center.base_version_id
+    label_id = resource.metafield_label.auto_created_user_folder_id.label_id
+    row_id = 1
+}
+
+resource item_security auto_created_user_folder_id__trusted {
+    accessor_item_id = resource.member_group.trusted.item_id
+    item_id = resource.string_metafield.auto_created_user_folder_id.item_id
+    read = true
+    write = true
+}
+
 resource item_security id_7054_9027 {
     accessor_item_id = resource.member_group.anonymous.item_id
     item_id = resource.masteritem_reference_metafield.embed_player_user_10.item_id
@@ -412,21 +491,8 @@ resource item_security id_7054_9027 {
     write = false
 }
 
-resource metafield_label assets_per_page_32 {
-    metafield_id = resource.editmulticombovalue_metafield.assets_per_page_9.metafield_id
-    label = 'Assets per page'
-    language_id = resource.language.english.id
-    description = ''
-}
 
-resource metafield_label auto_created_user_folder_id_51447 {
-    metafield_id = resource.string_metafield.auto_created_user_folder_id_50375.metafield_id
-    label = 'Auto created user folder ID'
-    language_id = resource.language.english.id
-    description = 'The user folder ID, which automatially created users are placed in. Defaults to the root Users folder (0).'
-}
-
-resource editmulticombovalue_metafield assets_per_page_9 {
+resource editmulticombovalue_metafield assets_per_page {
     item_guid = '612d0b51-8700-4d19-be05-101db4cdb370'
     name = 'Assets per page'
     group_id = resource.metafield_group.config.metafield_group_id
@@ -445,14 +511,121 @@ resource editmulticombovalue_metafield assets_per_page_9 {
     }
 }
 
-resource item_security id_7154_4926 {
+resource metafield_label assets_per_page {
+    metafield_id = resource.editmulticombovalue_metafield.assets_per_page.metafield_id
+    label = resource.editmulticombovalue_metafield.assets_per_page.name
+    language_id = resource.language.english.id
+    description = ''
+}
+
+resource item_security assets_per_page__anonymous {
+    accessor_item_id = resource.member_group.anonymous.item_id
+    item_id = resource.editmulticombovalue_metafield.assets_per_page.item_id
+    read = true
+    write = false
+}
+
+resource item_security assets_per_page__trusted {
     accessor_item_id = resource.member_group.trusted.item_id
-    item_id = resource.edit_combo_value.assets_per_page_20_9.item_id
+    item_id = resource.editmulticombovalue_metafield.assets_per_page.item_id
     read = true
     write = true
 }
 
-resource bit_metafield enable_legacy_upload_50372 {
+resource edit_combo_value assets_per_page_20 {
+    metafield_id = resource.editmulticombovalue_metafield.assets_per_page.metafield_id
+    option_value = '20'
+    sort_index = 0
+}
+
+resource combo_value_label assets_per_page_20 {
+    combo_id = resource.edit_combo_value.assets_per_page_20.combo_id
+    language_id = resource.language.english.id
+    label = '20'
+}
+
+resource edit_combo_value assets_per_page_50 {
+    metafield_id = resource.editmulticombovalue_metafield.assets_per_page.metafield_id
+    option_value = '50'
+    sort_index = 0
+}
+
+resource combo_value_label assets_per_page_50 {
+    combo_id = resource.edit_combo_value.assets_per_page_50.combo_id
+    language_id = resource.language.english.id
+    label = '50'
+}
+
+resource edit_combo_value assets_per_page_100 {
+    metafield_id = resource.editmulticombovalue_metafield.assets_per_page.metafield_id
+    option_value = '100'
+    sort_index = 0
+}
+
+resource combo_value_label assets_per_page_100 {
+    combo_id = resource.edit_combo_value.assets_per_page_100.combo_id
+    language_id = resource.language.english.id
+    label = '100'
+}
+
+resource item_security assets_per_page_20__anonymous {
+    accessor_item_id = resource.member_group.anonymous.item_id
+    item_id = resource.edit_combo_value.assets_per_page_20.item_id
+    read = true
+    write = false
+}
+
+resource item_security assets_per_page_20__trusted {
+    accessor_item_id = resource.member_group.trusted.item_id
+    item_id = resource.edit_combo_value.assets_per_page_20.item_id
+    read = true
+    write = true
+}
+
+resource item_security assets_per_page_50__anonymous {
+    accessor_item_id = resource.member_group.anonymous.item_id
+    item_id = resource.edit_combo_value.assets_per_page_50.item_id
+    read = true
+    write = false
+}
+
+resource item_security assets_per_page_50__trusted {
+    accessor_item_id = resource.member_group.trusted.item_id
+    item_id = resource.edit_combo_value.assets_per_page_50.item_id
+    read = true
+    write = true
+}
+
+resource item_security assets_per_page_100__anonymous {
+    accessor_item_id = resource.member_group.anonymous.item_id
+    item_id = resource.edit_combo_value.assets_per_page_100.item_id
+    read = true
+    write = false
+}
+
+resource item_security assets_per_page_100__trusted {
+    accessor_item_id = resource.member_group.trusted.item_id
+    item_id = resource.edit_combo_value.assets_per_page_100.item_id
+    read = true
+    write = true
+}
+
+resource versioned_metadata_multi_values assets_per_page {
+    values = [{
+            value = '20'
+        }, {
+            value = '50'
+        }, {
+            value = '100'
+        }]
+    item_id = resource.product.digizuite_dam_center.item_id
+    version_id = resource.product.digizuite_dam_center.base_version_id
+    label_id = resource.metafield_label.assets_per_page_32.label_id
+    row_id = 1
+}
+
+
+resource bit_metafield enable_legacy_upload {
     item_guid = 'dc2b8a7e-f54e-42b0-bd01-31f2d5ce35df'
     name = 'Enable legacy upload'
     group_id = resource.metafield_group.config.metafield_group_id
@@ -471,18 +644,26 @@ resource bit_metafield enable_legacy_upload_50372 {
     }
 }
 
-resource metafield_label download_destination_51019 {
-    metafield_id = resource.masteritem_reference_metafield.download_destination_50255.metafield_id
+resource item_security enable_legacy_upload__trusted {
+    accessor_item_id = resource.member_group.trusted.item_id
+    item_id = resource.bit_metafield.enable_legacy_upload.item_id
+    read = true
+    write = true
+}
+
+
+resource metafield_label download_destination {
+    metafield_id = resource.masteritem_reference_metafield.download_destination.metafield_id
     label = 'Download destination'
     language_id = resource.language.english.id
     description = ''
 }
 
-resource versioned_metadata_int_value left_side_refresh_interval_ms_5102_51429_1 {
+resource versioned_metadata_int_value left_side_refresh_interval_ms {
     value = 10000
     item_id = resource.product.digizuite_dam_center.item_id
     version_id = resource.product.digizuite_dam_center.base_version_id
-    label_id = resource.metafield_label.left_side_refresh_interval_ms_51429.label_id
+    label_id = resource.metafield_label.left_side_refresh_interval_ms.label_id
     row_id = 1
 }
 
@@ -492,13 +673,6 @@ resource versioned_metadata_string_value portal_title_5102_51015_1 {
     version_id = resource.product.digizuite_dam_center.base_version_id
     label_id = resource.metafield_label.title_51015.label_id
     row_id = 1
-}
-
-resource item_security id_6247_9027 {
-    accessor_item_id = resource.member_group.anonymous.item_id
-    item_id = resource.masteritem_reference_metafield.download_destination_50255.item_id
-    read = true
-    write = false
 }
 
 resource string_metafield portal_title_50254 {
@@ -521,23 +695,11 @@ resource string_metafield portal_title_50254 {
     }
 }
 
-resource item_security id_7162_9027 {
-    accessor_item_id = resource.member_group.anonymous.item_id
-    item_id = resource.edit_combo_value.assets_per_page_100_9.item_id
-    read = true
-    write = false
-}
+
 
 resource item_security id_5104_9027 {
     accessor_item_id = resource.member_group.anonymous.item_id
     item_id = resource.metafield_group.config.item_id
-    read = true
-    write = false
-}
-
-resource item_security id_7049_9027 {
-    accessor_item_id = resource.member_group.anonymous.item_id
-    item_id = resource.editmulticombovalue_metafield.assets_per_page_9.item_id
     read = true
     write = false
 }
@@ -549,18 +711,9 @@ resource item_security id_6242_9027 {
     write = false
 }
 
-resource combo_value_label id_100_18 {
-    combo_id = resource.edit_combo_value.assets_per_page_100_9.combo_id
-    language_id = resource.language.english.id
-    label = '100'
-}
 
-resource item_security id_9115_4926 {
-    accessor_item_id = resource.member_group.trusted.item_id
-    item_id = resource.string_metafield.auto_created_user_folder_id_50375.item_id
-    read = true
-    write = true
-}
+
+
 
 resource masteritem_reference_metafield embed_player_user_10 {
     item_type = 'Member'
@@ -638,32 +791,7 @@ resource item_security id_9112_4926 {
     write = true
 }
 
-resource edit_combo_value assets_per_page_100_9 {
-    metafield_id = resource.editmulticombovalue_metafield.assets_per_page_9.metafield_id
-    option_value = '100'
-    sort_index = 0
-}
 
-resource item_security id_7158_9027 {
-    accessor_item_id = resource.member_group.anonymous.item_id
-    item_id = resource.edit_combo_value.assets_per_page_50_9.item_id
-    read = true
-    write = false
-}
-
-resource versioned_metadata_multi_values assets_per_page_5102_32_1 {
-    values = [{
-            value = '20'
-        }, {
-            value = '50'
-        }, {
-            value = '100'
-        }]
-    item_id = resource.product.digizuite_dam_center.item_id
-    version_id = resource.product.digizuite_dam_center.base_version_id
-    label_id = resource.metafield_label.assets_per_page_32.label_id
-    row_id = 1
-}
 
 resource int_metafield running_jobs_refresh_interval_ms_50363 {
     item_guid = 'cc48d893-6369-4a25-9459-e4877e2bb7d3'
@@ -1628,6 +1756,20 @@ resource tree_metafield media_manager_menu {
     autolink {
         item_guid = 'bf0ad1a6-984a-494e-a227-9d70c6a864f9'
     }
+}
+
+resource item_security media_manager_menu__anonymous {
+    accessor_item_id = resource.member_group.anonymous.item_id
+    item_id = resource.tree_metafield.media_manager_menu.item_id
+    read = true
+    write = true
+}
+
+resource item_security media_manager_menu__trusted {
+    accessor_item_id = resource.member_group.trusted.item_id
+    item_id = resource.tree_metafield.media_manager_menu.item_id
+    read = true
+    write = false
 }
 
 resource meta_group_folder images {
