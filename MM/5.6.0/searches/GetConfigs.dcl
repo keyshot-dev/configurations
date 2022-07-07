@@ -106,13 +106,13 @@
       <valueField id="SelfSignupUserFolderId" itemGuid="${to_string(resource.string_metafield.auto_created_user_folder_id.item_guid)}" field="value" returnType="int" />
       <valueField id="AutoCreatedMembersFolderId" itemGuid="${to_string(resource.int_metafield.folder_id_for_autocreated_users.item_guid)}" field="value" returnType="int" />
       <valueField id="AutoCreatedMembersTemplateId" fieldName="member.memberid">
-        <bindField id="AutoCreatedMembersTemplateIdField" itemGuid="${to_string(resource.masteritem_reference_metafield.template_for_autocreated_users_50405.item_guid)}" />
+        <bindField id="AutoCreatedMembersTemplateIdField" itemGuid="${to_string(resource.masteritem_reference_metafield.template_for_autocreated_users.item_guid)}" />
       </valueField>
-      <valueField id="AccessKeyTimeoutOverrideForSharing" itemGuid="${to_string(resource.int_metafield.access_key_timeout_for_internal_and_email_sharing_seconds_50400.item_guid)}" field="value" returnType="int" />
+      <valueField id="AccessKeyTimeoutOverrideForSharing" itemGuid="${to_string(resource.int_metafield.access_key_timeout_for_internal_and_email_sharing_seconds.item_guid)}" field="value" returnType="int" />
       <valueField id="SocialMediaUser" fieldName="member.memberid">
-        <bindField id="SocialMediaUserBind" itemGuid="${to_string(resource.masteritem_reference_metafield.user_for_social_sharing_50401.item_guid)}" />
+        <bindField id="SocialMediaUserBind" itemGuid="${to_string(resource.masteritem_reference_metafield.user_for_social_sharing.item_guid)}" />
       </valueField>
-      <valueField id="AccessKeyTimeoutOverrideForSharingSocial" itemGuid="${to_string(resource.int_metafield.accesskey_timeout_override_for_social_media_sharing_50402.item_guid)}" field="value" returnType="int" />
+      <valueField id="AccessKeyTimeoutOverrideForSharingSocial" itemGuid="${to_string(resource.int_metafield.accesskey_timeout_override_for_social_media_sharing.item_guid)}" field="value" returnType="int" />
       <valueField id="EmbedMemberId" fieldName="member.memberid">
         <bindField id="EmbedMemberIdBind" itemGuid="${to_string(resource.masteritem_reference_metafield.embed_player_user.item_guid)}" />
       </valueField>
@@ -154,12 +154,12 @@
       <valueField id="Mm5BaseUrl" itemGuid="${to_string(resource.string_metafield.mm5_base_url.item_guid)}" />
       <valueField id="DefaultImageInsertQuality" itemGuid="${to_string(resource.int_metafield.default_mediaformatid_for_inserting_images.item_guid)}" />
       <valueField id="FacetCountLimit" itemGuid="${to_string(resource.int_metafield.facet_count_limit.item_guid)}" returnType="int" />
-      <valueField id="ShowFolderMenuOnCollectionShared" itemGuid="${to_string(resource.bit_metafield.show_folder_menu_on_shared_collection_view_50474.item_guid)}" returnType="bool" />
+      <valueField id="ShowFolderMenuOnCollectionShared" itemGuid="${to_string(resource.bit_metafield.show_folder_menu_on_shared_collection_view.item_guid)}" returnType="bool" />
       <valueField id="FacebookAppId" itemGuid="${to_string(resource.string_metafield.facebook_app_id.item_guid)}" />
       <valueField id="EnableCopyrightNotification" itemGuid="${to_string(resource.bit_metafield.enable_copyright_notification.item_guid)}" returnType="bool" />
       <valueField id="PredefinedCopyrightDisclaimerMetafield" itemGuid="${to_string(resource.masteritem_reference_metafield.predefined_disclaimer_metadata_field.item_guid)}" returnType="int" />
       <valueField id="CustomCopyrightDisclaimerMetafield" itemGuid="${to_string(resource.masteritem_reference_metafield.custom_disclaimer_metadata_field.item_guid)}" returnType="int" />
-      <valueField id="EnableDownloadApproval" itemGuid="${to_string(resource.bit_metafield.enable_approval_of_download_requests_do_not_edit_manually_50485.item_guid)}" returnType="bool" />
+      <valueField id="EnableDownloadApproval" itemGuid="${to_string(resource.bit_metafield.enable_approval_of_download_requests.item_guid)}" returnType="bool" />
       <valueField id="DownloadApprovalWorkflowGuid" itemGuid="${to_string(resource.string_metafield.download_approval_business_workflow_uid.item_guid)}" />
       <valueField id="AssetCropLockAspectRatio" itemGuid="${to_string(resource.bit_metafield.lock_aspect_ratio_by_default.item_guid)}" returnType="bool" />
       <valueField id="RenewAccessKey" itemGuid="${to_string(resource.bit_metafield.automatically_renew_accesskey_after_expiration.item_guid)}" returnType="bool" />
