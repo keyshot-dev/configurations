@@ -25,7 +25,7 @@
       <valueField fieldName="asset.urlAbsolut(${to_string(data.destination.asset_storage_sm.item_guid)},${to_string(data.media_format.thumb_200x120.item_guid)})" id="thumb" />
       <valueField id="image1080p" fieldName="asset.urlAbsolut(${to_string(data.destination.asset_storage_sm.item_guid)},${to_string(data.media_format.thumb_1920x1080.item_guid)})" />
       <valueField id="desktopH264" fieldName="asset.urlAbsolut(${to_string(data.destination.asset_storage_sm.item_guid)},${to_string(data.media_format.video_preview_h264.item_guid)})" />
-      <valueField id="audioH264" fieldName="asset.urlAbsolut(${to_string(data.destination.frontenddata_sm.item_guid)},${to_string(resource.media_format.h264_128_kbit_advanced_audio_codec_10056.item_guid)})" />
+      <valueField id="audioH264" fieldName="asset.urlAbsolut(${to_string(data.destination.frontenddata_sm.item_guid)},${to_string(data.media_format.h264_128_kbit_advanced_audio_codec.item_guid)})" />
       <valueField id="pdfUrl" fieldName="asset.urlAbsolut(${to_string(data.destination.frontenddata_sm.item_guid)},${to_string(data.media_format.adobe_pdf_preview.item_guid)})" />
       <valueField id="assetVersionId" fieldName="asset.ReplacedAssetId" />
       <valueField id="sourceLocation" fieldName="function.GetAssetLocationPath" />

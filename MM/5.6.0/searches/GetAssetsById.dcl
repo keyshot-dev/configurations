@@ -41,7 +41,7 @@
       <valueField id="writeAccess" fieldName="item_security.writeaccess" returnType="bool" />
       <valueField id="thumb" fieldName="asset.urlAbsolut(${to_string(data.destination.asset_storage_sm.item_guid)},${to_string(data.media_format.thumb_200x120.item_guid)})" />
       <valueField id="desktopH264" fieldName="asset.urlAbsolut(${to_string(data.destination.asset_storage_sm.item_guid)},${to_string(data.media_format.video_preview_h264.item_guid)})" />
-      <valueField id="audioH264" fieldName="asset.urlAbsolut(${to_string(data.destination.frontenddata_sm.item_guid)},${to_string(resource.media_format.h264_128_kbit_advanced_audio_codec_10056.item_guid)})" />
+      <valueField id="audioH264" fieldName="asset.urlAbsolut(${to_string(data.destination.frontenddata_sm.item_guid)},${to_string(data.media_format.h264_128_kbit_advanced_audio_codec.item_guid)})" />
       <valueField id="uploadedByName" fieldName="member.username" tooltip="1" playerView="1">
         <bindField id="memberNameBind">
           <current id="memberNamecurrent" fieldName="asset_digiupload.memberid" />

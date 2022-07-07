@@ -35,7 +35,7 @@
       <valueField id="desktopH264" fieldName="asset.urlAbsolut(${to_string(data.destination.frontenddata_sm.item_guid)},${to_string(data.media_format.desktop_h264_2048kbit_ffmpeg.item_guid)})" />
       <valueField id="tabletH264" fieldName="asset.urlAbsolut(${to_string(data.destination.frontenddata_sm.item_guid)},${to_string(data.media_format.tablet_h264_2048kbit_ffmpeg.item_guid)})" />
       <valueField id="mobileH264" fieldName="asset.urlAbsolut(${to_string(data.destination.frontenddata_sm.item_guid)},${to_string(data.media_format.mobile_h264_1024kbit_ffmpeg.item_guid)})" />
-      <valueField id="audioH264" fieldName="asset.urlAbsolut(${to_string(data.destination.frontenddata_sm.item_guid)},${to_string(resource.media_format.h264_128_kbit_advanced_audio_codec_10056.item_guid)})" />
+      <valueField id="audioH264" fieldName="asset.urlAbsolut(${to_string(data.destination.frontenddata_sm.item_guid)},${to_string(data.media_format.h264_128_kbit_advanced_audio_codec.item_guid)})" />
       <valueField id="uploadedByName" fieldName="member.username" tooltip="1" playerView="1">
         <bindField id="memberNameBind">
           <current id="memberNamecurrent" fieldName="asset_digiupload.memberid" />

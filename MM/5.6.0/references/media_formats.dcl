@@ -1,8 +1,4 @@
-﻿data media_format audio_50029 {
-    name = 'AUDIO'
-}
-
-data media_format jpg_big {
+﻿data media_format jpg_big {
     name = 'JPG big'
 }
 
@@ -62,50 +58,50 @@ data media_format mobile_video_thumb {
     name = 'Mobile Video Thumb'
 }
 
-data media_format h264_128_kbit_advanced_audio_codec_10056 {
+data media_format h264_128_kbit_advanced_audio_codec {
     name = 'H264 128 kbit Advanced Audio Codec'
 }
 
-data media_format jpg_thumbnail_10001 {
+data media_format jpg_thumbnail {
     name = 'JPG Thumbnail'
 }
 
-data media_format jpg_big_preview_10028 {
+data media_format jpg_big_preview {
     name = 'JPG Big Preview'    
 }
 
-data media_format image_preview_10038 {
+data media_format image_preview {
     name = 'IMAGE_preview'
 }
 
-data media_format jpg_full_size_50033 {
+data media_format jpg_full_size {
  	name = 'JPG full size'
 }
 
-data media_format png_transparent_50037 {
+data media_format png_transparent {
     name = 'PNG transparent'
 }
 
-data media_format jpg_medium_50035 {
+data media_format jpg_medium {
     name = 'JPG medium'
 }
 
-data media_format jpg_small_50036 {
+data media_format jpg_small {
 	name = 'JPG small'
 }
 
-data media_format adobe_pdf_page_image_50010 {
+data media_format adobe_pdf_page_image {
     name = 'Adobe PDF Page Image'
 }
 
-data media_format id_480p_50038 {
+data media_format id_480p {
 	name = '480p'
 }
 
-data media_format fmt1080p_hd_50040 {
+data media_format fmt1080p_hd {
     name = '1080p (HD)'
 }
 
-data media_format html_50031 {
+data media_format html {
     name = 'HTML'
 }
