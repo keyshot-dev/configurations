@@ -9,7 +9,7 @@ resource masteritem_reference_metafield download_approval_formats {
 
 resource metafield_label download_approval_formats {
     metafield_id = resource.masteritem_reference_metafield.download_approval_formats.metafield_id
-    label = resource.masteritem_reference_metafield.download_approval_formats.metafield_id
+    label = resource.masteritem_reference_metafield.download_approval_formats.name
     language_id = data.language.english.id
 }
 

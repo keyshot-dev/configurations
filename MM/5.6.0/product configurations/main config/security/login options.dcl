@@ -10,7 +10,7 @@ resource combovalue_metafield login_options {
 
 resource metafield_label login_options {
     metafield_id = resource.combovalue_metafield.login_options.metafield_id
-    label = resource.combovalue_metafield.login_options.metafield_id
+    label = resource.combovalue_metafield.login_options.name
     language_id = data.language.english.id
     description = 'Choose the way you want your MM to be accessed.'
 }
