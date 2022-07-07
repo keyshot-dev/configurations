@@ -5005,7 +5005,7 @@ resource media_transcode visio_stencil__jpg_big_preview_50148 {
 }
 
 resource media_transcode jpg_medium_transcode_50057 {
-    folder_id = resource.transcode_folder.image_201.id
+    folder_id = resource.transcode_folder.image.id
 	name = 'JPG medium transcode'
 	description = ''
 	prog_id = 'DigiImageMagicJobs.JobConvertImage'
@@ -5025,7 +5025,7 @@ resource media_transcode jpg_medium_transcode_50057 {
 }
 
 resource media_transcode jpg_small_transcode_50058 {
-    folder_id = resource.transcode_folder.image_201.id
+    folder_id = resource.transcode_folder.image.id
 	name = 'JPG Small transcode'
 	description = ''
 	prog_id = 'DigiImageMagicJobs.JobConvertImage'
@@ -5065,7 +5065,7 @@ resource media_transcode indesign_exifthumb_to_jpg_small_50067 {
 }
 
 resource media_transcode png_transparency_transcode_50059 {
-    folder_id = resource.transcode_folder.image_201.id
+    folder_id = resource.transcode_folder.image.id
 	name = 'PNG transparency transcode'
 	description = ''
 	prog_id = 'DigiImageMagicJobs.JobConvertImage'
@@ -5105,7 +5105,7 @@ resource media_transcode tra480p_transcode_50060 {
 }
 
 resource media_transcode jpg_full_size_transcode_50055 {
-    folder_id = resource.transcode_folder.image_201.id
+    folder_id = resource.transcode_folder.image.id
 	name = 'JPG Full size transcode'
 	description = ''
 	prog_id = 'DigiImageMagicJobs.JobConvertImage'

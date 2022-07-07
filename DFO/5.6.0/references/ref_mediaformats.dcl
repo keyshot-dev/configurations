@@ -10,7 +10,7 @@ data media_format video_10053 {
 	format_type_id = data.media_format_type.archive_200001.media_format_type_id
 }
 
-data media_format image_50030 {
+data media_format image {
     name = 'IMAGE'
 	is_identity_format = true
 }

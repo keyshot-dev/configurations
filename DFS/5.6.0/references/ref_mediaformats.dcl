@@ -1,4 +1,4 @@
-﻿data media_format_folder standard_10001 {
+﻿data media_format_folder standard {
     parent_id = 0
     name = 'Standard'
 }
@@ -9,12 +9,12 @@ data media_format_folder video_193 {
 }
 
 data media_format_folder oobe_185 {
-	parent_id = data.media_format_folder.standard_10001.id
+	parent_id = data.media_format_folder.standard.id
 	name = 'OOBE'
 }
 
 data media_format_folder custom_10004 {
-    parent_id = data.media_format_folder.standard_10001.id
+    parent_id = data.media_format_folder.standard.id
     name = 'Custom'
 }
 
@@ -82,15 +82,6 @@ data media_format video_1080p {
     name = '1080p (HD)'
 }
 
-data transcode_folder video_205 {
-	parent_id = data.transcode_folder.oobe_197.id
-	name = 'Video'
-}
-
-data transcode_folder oobe_197 {
-	parent_id = data.media_format_folder.standard_10001.id
-	name = 'OOBE'
-}
 
 data media_format jpg_medium_50035 {
     name = 'JPG medium'
