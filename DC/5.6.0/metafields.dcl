@@ -12,14 +12,14 @@ resource metafield_group asset_info {
 
 resource item_security asset_info__anonymous {
     accessor_item_id = resource.member_group.anonymous.item_id
-    item_id = resource.tree_metafield.asset_info.item_id
+    item_id = resource.metafield_group.asset_info.item_id
     read = true
     write = false
 }
 
 resource item_security asset_info__trusted {
     accessor_item_id = resource.member_group.trusted.item_id
-    item_id = resource.tree_metafield.asset_info.item_id
+    item_id = resource.metafield_group.asset_info.item_id
     read = true
     write = true
 }
@@ -231,7 +231,7 @@ resource item_security content__trusted {
     write = true
 }
 
-resource masteritem_reference_metafield template_for_autocreated_users_50374 {
+resource masteritem_reference_metafield template_for_autocreated_users {
     item_type = 'Member'
     max_count = 0
     related_metafield_id = 0
@@ -253,13 +253,19 @@ resource masteritem_reference_metafield template_for_autocreated_users_50374 {
     }
 }
 
-resource item_security content__trusted {
+resource metafield_label template_user_for_collection_users {
+    metafield_id = resource.masteritem_reference_metafield.template_for_autocreated_users.metafield_id
+    label = 'Template user for collection users'
+    language_id = resource.language.english.id
+    description = ''
+}
+
+resource item_security template_for_autocreated_users__trusted {
     accessor_item_id = resource.member_group.trusted.item_id
-    item_id = resource.masteritem_reference_metafield.template_for_autocreated_users_50374.item_id
+    item_id = resource.masteritem_reference_metafield.template_for_autocreated_users.item_id
     read = true
     write = true
 }
-
 
 
 resource item_security id_7054_4926 {
@@ -361,7 +367,7 @@ resource versioned_metadata_multi_references download_destination_5102_51019_1 {
         }]
     item_id = resource.product.digizuite_dam_center.item_id
     version_id = resource.product.digizuite_dam_center.base_version_id
-    label_id = resource.metafield_label.download_destination_51019.label_id
+    label_id = resource.metafield_label.download_destination.label_id
     row_id = 1
 }
 
@@ -620,7 +626,7 @@ resource versioned_metadata_multi_values assets_per_page {
         }]
     item_id = resource.product.digizuite_dam_center.item_id
     version_id = resource.product.digizuite_dam_center.base_version_id
-    label_id = resource.metafield_label.assets_per_page_32.label_id
+    label_id = resource.metafield_label.assets_per_page.label_id
     row_id = 1
 }
 
@@ -696,14 +702,6 @@ resource string_metafield portal_title_50254 {
 }
 
 
-
-resource item_security id_5104_9027 {
-    accessor_item_id = resource.member_group.anonymous.item_id
-    item_id = resource.metafield_group.config.item_id
-    read = true
-    write = false
-}
-
 resource item_security id_6242_9027 {
     accessor_item_id = resource.member_group.anonymous.item_id
     item_id = resource.string_metafield.portal_title_50254.item_id
@@ -737,13 +735,6 @@ resource masteritem_reference_metafield embed_player_user_10 {
     }
 }
 
-resource item_security id_5104_4926 {
-    accessor_item_id = resource.member_group.trusted.item_id
-    item_id = resource.metafield_group.config.item_id
-    read = true
-    write = true
-}
-
 resource int_metafield max_tooltip_width_50310 {
     item_guid = '8d6a4c71-1c16-423c-b52d-6437523e1507'
     name = 'Max Tooltip Width'
@@ -763,12 +754,7 @@ resource int_metafield max_tooltip_width_50310 {
     }
 }
 
-resource metafield_label template_user_for_collection_users_51445 {
-    metafield_id = resource.masteritem_reference_metafield.template_for_autocreated_users_50374.metafield_id
-    label = 'Template user for collection users'
-    language_id = resource.language.english.id
-    description = ''
-}
+
 
 resource metafield_label running_jobs_refresh_interval_ms_51433 {
     metafield_id = resource.int_metafield.running_jobs_refresh_interval_ms_50363.metafield_id
@@ -784,12 +770,7 @@ resource item_security id_7611_4926 {
     write = true
 }
 
-resource item_security id_9112_4926 {
-    accessor_item_id = resource.member_group.trusted.item_id
-    item_id = resource.masteritem_reference_metafield.template_for_autocreated_users_50374.item_id
-    read = true
-    write = true
-}
+
 
 
 
