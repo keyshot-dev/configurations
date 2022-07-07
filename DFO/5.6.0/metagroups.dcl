@@ -53,7 +53,7 @@ resource item_security id_9495_trusted {
 
 resource masteritem_reference_metafield member_10337 {
     auto_translate = 'Overwrite'
-    group_id = resource.metafield_group.comments_10054.metafield_group_id
+    group_id = data.metafield_group.comments.metafield_group_id
     item_guid = 'c575dbec-2e24-4f7a-899a-c8432ffec1fa'
     item_type = 'Member'
     iterative = true
@@ -93,7 +93,7 @@ resource item_security id_3260_anonymous {
 
 resource int_metafield prevref_50184 {
     auto_translate = 'Overwrite'
-    group_id = resource.metafield_group.comments_10054.metafield_group_id
+    group_id = data.metafield_group.comments.metafield_group_id
     item_guid = 'a24d7df9-d828-4192-aa2e-d19abcfd8c5f'
     iterative = true
     name = 'Prevref'
@@ -130,7 +130,7 @@ resource item_security id_5547_anonymous {
 
 resource string_metafield username_10340 {
     auto_translate = 'Overwrite'
-    group_id = resource.metafield_group.comments_10054.metafield_group_id
+    group_id = data.metafield_group.comments.metafield_group_id
     item_guid = '1a187d54-dcab-4e89-90da-1a9febaf7d65'
     iterative = true
     max_length = 0
@@ -148,7 +148,7 @@ resource string_metafield username_10340 {
 
 resource string_metafield source_colorspace_50105 {
     auto_translate = 'Overwrite'
-    group_id = data.metafield_group.images_10026.metafield_group_id
+    group_id = data.metafield_group.images.metafield_group_id
     item_guid = '15b53820-b049-435a-86ea-cbb2a5d4223a'
     iterative = false
     max_length = 0
@@ -186,7 +186,7 @@ resource item_security id_4972_anonymous {
 
 resource note_metafield note_50357 {
     auto_translate = 'Overwrite'
-    group_id = data.metafield_group.asset_info_10025.metafield_group_id
+    group_id = data.metafield_group.asset_info.metafield_group_id
     item_guid = '099626e0-906b-4818-a238-cc6f5034bee9'
     iterative = false
     max_length = 0
@@ -228,7 +228,7 @@ resource metafield_group exif_10058 {
     folder_id = data.meta_group_folder.images.id
     iterative = false
     name = 'Exif'
-    parent_group_id = data.metafield_group.asset_info_10025.metafield_group_id
+    parent_group_id = data.metafield_group.asset_info.metafield_group_id
     restrict_to_asset = 'Image'
     show_in_list = false
     sort_index = 10405
