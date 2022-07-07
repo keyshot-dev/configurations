@@ -85,7 +85,7 @@ resource profile mediaportal_visio_50023 {
     asset_type = 'Visio'
     is_public = true
     qualities = [{
-            media_format_id = resource.media_format.jpg_thumbnail_10001.media_format_id
+            media_format_id = data.media_format.jpg_thumbnail_10001.media_format_id
         }, {
             media_format_id = data.media_format.jpg_big_preview_10028.media_format_id
         }, {
