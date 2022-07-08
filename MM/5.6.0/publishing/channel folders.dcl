@@ -124,6 +124,13 @@ resource item_security public_access__trusted {
     write = false
 }
 
+resource item_security public_access__content_creator {
+    accessor_item_id = data.member_group.content_creator.item_id
+    item_id = resource.channel_folder.public_access.item_id
+    read = true
+    write = true
+}
+
 resource item_security public_access__internal_access {
     accessor_item_id = data.member_group.internal_access.item_id
     item_id = resource.channel_folder.public_access.item_id
@@ -166,6 +173,13 @@ resource item_security internal_access__trusted {
     item_id = resource.channel_folder.internal_access.item_id
     read = true
     write = false
+}
+
+resource item_security internal_access__content_creator {
+    accessor_item_id = data.member_group.content_creator.item_id
+    item_id = resource.channel_folder.internal_access.item_id
+    read = true
+    write = true
 }
 
 resource item_security internal_access__super_administrator {
