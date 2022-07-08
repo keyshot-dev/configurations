@@ -268,7 +268,7 @@ resource search getconfigs_103_0 {
       <valueField id="ValidateRequiredWhenMultiSelecting" fieldName="digizuite_config.constant.VALIDATE_REQUIRED_WHEN_MULTISELECTING" returnType="bool" />
       <valueField id="DamcatalogArchiveFolderID" fieldName="digizuite_config.constant.Damcatalog_Archive_FolderID" returnType="int" />
       <valueField id="AutoCreatedMembersTemplateId" fieldName="member.memberid">
-        <bindField id="AutoCreatedMembersTemplateIdField" itemGuid="${to_string(resource.masteritem_reference_metafield.template_for_autocreated_users.item_guid)}" />
+        <bindField id="AutoCreatedMembersTemplateIdField" itemGuid="${to_string(resource.masteritem_reference_metafield.template_user_for_collection_users.item_guid)}" />
       </valueField>
     </valueFields>
     <sortFields />
