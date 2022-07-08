@@ -1,6 +1,6 @@
 resource digizuite_config digizuite_system_assetreplacer_search2 {
     constant = 'DigiZuite_System_AssetReplacer_Search2'
-	config_value = resource.search.digizuite_system_assetreplacer_search2_38_0.name
+	config_value = resource.search.digizuite_system_assetreplacer_search2.name
     description = ''
 	autolink {
 		constant = 'DigiZuite_System_AssetReplacer_Search2'
@@ -460,7 +460,7 @@ resource digizuite_config download_use_static_name_fallback1 {
 
 resource digizuite_config digizuite_system_assetreplacer_search1 {
     constant = 'DigiZuite_System_AssetReplacer_Search1'
-    config_value = resource.search.digizuite_system_assetreplacer_search1_37_0.name
+    config_value = resource.search.digizuite_system_assetreplacer_search1.name
     description = ''
 	autolink {
 		constant = 'DigiZuite_System_AssetReplacer_Search1'
