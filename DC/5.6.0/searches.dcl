@@ -241,14 +241,14 @@ resource search getconfigs_103_0 {
       <valueField id="SelectedLanguage" fieldName="languagespecials.accesskeylanguage" />
       <valueField id="DefaultLanguage" fieldName="digizuite_config.constant.LANGUAGE_DEFAULT_ID" />
       <valueField id="DefaultKeepOldMetadata" fieldName="digizuite_config.constant.KEEP_OLD_METADATA_DEFAULT_VALUE" />
-      <valueField id="PortalTitle" itemGuid="${to_string(resource.string_metafield.portal_title_50254.item_guid)}" field="value" />
+      <valueField id="PortalTitle" itemGuid="${to_string(resource.string_metafield.portal_title.item_guid)}" field="value" />
       <valueField id="EnableLegacyUpload" itemGuid="${to_string(resource.bit_metafield.enable_legacy_upload.item_guid)}" field="value" />
       <valueField id="EnableRememberMe" itemGuid="${to_string(resource.bit_metafield.enable_remember_me.item_guid)}" field="value" />
       <valueField id="DownloadDestinationId" fieldName="digitranscode_destination.digitranscode_destinationid">
         <bindField id="DownloadDestinationIdField" itemGuid="${to_string(resource.masteritem_reference_metafield.download_destination.item_guid)}" />
       </valueField>
       <valueField id="EmbedMemberId" fieldName="member.memberid">
-        <bindField id="EmbedMemberIdBind" itemGuid="${to_string(resource.masteritem_reference_metafield.embed_player_user_10.item_guid)}" />
+        <bindField id="EmbedMemberIdBind" itemGuid="${to_string(resource.masteritem_reference_metafield.embed_player_user.item_guid)}" />
       </valueField>
       <valueField id="AssetsPerPage" itemGuid="${to_string(resource.editmulticombovalue_metafield.assets_per_page.item_guid)}" field="optionvalue" isArray="true" />
       <valueFields id="languages" isArray="true">
@@ -261,9 +261,9 @@ resource search getconfigs_103_0 {
         <valueField id="languageLcid" fieldName="language.lcid" />
         <valueField id="name" fieldName="language.language_name" />
       </valueFields>
-      <valueField id="MaxTooltipWidth" itemGuid="${to_string(resource.int_metafield.max_tooltip_width_50310.item_guid)}" field="value" />
+      <valueField id="MaxTooltipWidth" itemGuid="${to_string(resource.int_metafield.max_tooltip_width.item_guid)}" field="value" />
       <valueField id="LeftSideRefreshInterval" itemGuid="${to_string(resource.int_metafield.left_side_refresh_interval_ms.item_guid)}" field="value" />
-      <valueField id="RunningJobsRefreshInterval" itemGuid="${to_string(resource.int_metafield.running_jobs_refresh_interval_ms_50363.item_guid)}" field="value" />
+      <valueField id="RunningJobsRefreshInterval" itemGuid="${to_string(resource.int_metafield.running_jobs_refresh_interval_ms.item_guid)}" field="value" />
       <valueField id="AutoCreatedUserFolderId" itemGuid="${to_string(resource.string_metafield.auto_created_user_folder_id.item_guid)}" field="value" />
       <valueField id="ValidateRequiredWhenMultiSelecting" fieldName="digizuite_config.constant.VALIDATE_REQUIRED_WHEN_MULTISELECTING" returnType="bool" />
       <valueField id="DamcatalogArchiveFolderID" fieldName="digizuite_config.constant.Damcatalog_Archive_FolderID" returnType="int" />
@@ -1765,10 +1765,10 @@ resource search digizuite_system_membersearch2_81_0 {
           <valueField id="groupSystemLanguageName" fieldName="language.name" bindId="groupSystemLanguageBind" />
           <valueField id="groupSystemLanguageShort" fieldName="language.language_short" bindId="groupSystemLanguageBind" />
         </valueFields>
-        <valueField id="rowid" itemGuid="${to_string(resource.combovalue_metafield.type_10280.item_guid)}" field="rowid" />
-        <valueField id="downloadType" itemGuid="${to_string(resource.combovalue_metafield.type_10280.item_guid)}" field="optionvalue" />
+        <valueField id="rowid" itemGuid="${to_string(resource.combovalue_metafield.type.item_guid)}" field="rowid" />
+        <valueField id="downloadType" itemGuid="${to_string(resource.combovalue_metafield.type.item_guid)}" field="optionvalue" />
         <valueFields id="mediaTranscode">
-          <bindField id="mediaTranscodeBind" itemGuid="${to_string(resource.masteritem_reference_metafield.quality_10281.item_guid)}">
+          <bindField id="mediaTranscodeBind" itemGuid="${to_string(resource.masteritem_reference_metafield.quality.item_guid)}">
             <filter id="downloadTypeRowid" fieldName="rowid" valueHandler="Equals">
               <values bindFieldId="rowid" />
             </filter>
@@ -1822,13 +1822,13 @@ resource search digizuite_system_membersearch2_81_0 {
       <valueField id="advancedupload" fieldName="member.advanced_upload" />
       <valueField id="showdownloaddigiupload" fieldName="member.show_downloaddigiupload" />
       <valueField id="configLayoutFolderId" fieldName="layoutfolders.layoutfolderid">
-        <bindField id="configLayoutFolderIdFieldId" itemGuid="${to_string(resource.masteritem_reference_metafield.config_layoutfolder_50012.item_guid)}" />
+        <bindField id="configLayoutFolderIdFieldId" itemGuid="${to_string(resource.masteritem_reference_metafield.config_layoutfolder.item_guid)}" />
       </valueField>
       <valueField id="profileImageSD" fieldName="asset.urlAbsolut(${to_string(resource.destination.frontenddata_sm.item_guid)},${to_string(resource.media_format.digizuite_media_manager_user_profile_sd_30013.item_guid)})">
-        <bindField id="profileImageSDFieldId" itemGuid="${to_string(resource.masteritem_reference_metafield.profile_image_50166.item_guid)}" />
+        <bindField id="profileImageSDFieldId" itemGuid="${to_string(resource.masteritem_reference_metafield.profile_image.item_guid)}" />
       </valueField>
       <valueField id="profileImageHD" fieldName="asset.urlAbsolut(${to_string(resource.destination.frontenddata_sm.item_guid)},${to_string(resource.media_format.digizuite_media_manager_user_profile_hd_30014.item_guid)})">
-        <bindField id="profileImageHDFieldId" itemGuid="${to_string(resource.masteritem_reference_metafield.profile_image_50166.item_guid)}" />
+        <bindField id="profileImageHDFieldId" itemGuid="${to_string(resource.masteritem_reference_metafield.profile_image.item_guid)}" />
       </valueField>
     </valueFields>
     <sortFields />
@@ -2894,10 +2894,10 @@ resource search digizuite_system_membersearch_63_0 {
         </bindField>
         <valueField id="frontendGroupId" fieldName="member_group.member_groupid" />
         <valueField id="frontendGroupItemId" fieldName="member_group.itemid" />
-        <valueField id="rowid" itemGuid="${to_string(resource.combovalue_metafield.type_10280.item_guid)}" field="rowid" />
-        <valueField id="downloadType" itemGuid="${to_string(resource.combovalue_metafield.type_10280.item_guid)}" field="optionvalue" />
+        <valueField id="rowid" itemGuid="${to_string(resource.combovalue_metafield.type.item_guid)}" field="rowid" />
+        <valueField id="downloadType" itemGuid="${to_string(resource.combovalue_metafield.type.item_guid)}" field="optionvalue" />
         <valueFields id="mediaTranscode">
-          <bindField id="dd" itemGuid="${to_string(resource.masteritem_reference_metafield.quality_10281.item_guid)}">
+          <bindField id="dd" itemGuid="${to_string(resource.masteritem_reference_metafield.quality.item_guid)}">
             <filter id="downloadTypeRowid" fieldName="rowid" valueHandler="Equals">
               <values bindFieldId="rowid" />
             </filter>
@@ -2918,7 +2918,7 @@ resource search digizuite_system_membersearch_63_0 {
       <valueField id="firstname" fieldName="community_member_setting.firstname" />
       <valueField id="lastname" fieldName="community_member_setting.lastname" />
       <valueField id="configLayoutFolderId" fieldName="layoutfolders.layoutfolderid">
-        <bindField id="configLayoutFolderIdFieldId" itemGuid="${to_string(resource.masteritem_reference_metafield.config_layoutfolder_50012.item_guid)}" />
+        <bindField id="configLayoutFolderIdFieldId" itemGuid="${to_string(resource.masteritem_reference_metafield.config_layoutfolder.item_guid)}" />
       </valueField>
     </valueFields>
     <sortFields />

@@ -268,28 +268,13 @@ resource item_security template_for_autocreated_users__trusted {
 }
 
 
-resource item_security id_7054_4926 {
-    accessor_item_id = resource.member_group.trusted.item_id
-    item_id = resource.masteritem_reference_metafield.embed_player_user_10.item_id
-    read = true
-    write = true
-}
 
 
 
-resource metafield_label embed_player_user_36 {
-    metafield_id = resource.masteritem_reference_metafield.embed_player_user_10.metafield_id
-    label = 'Embed player user'
-    language_id = resource.language.english.id
-    description = ''
-}
 
-resource item_security id_9045_4926 {
-    accessor_item_id = resource.member_group.trusted.item_id
-    item_id = resource.int_metafield.running_jobs_refresh_interval_ms_50363.item_id
-    read = true
-    write = true
-}
+
+
+
 
 resource masteritem_reference_metafield download_destination {
     item_type = 'Destination'
@@ -372,40 +357,19 @@ resource versioned_metadata_multi_references download_destination_5102_51019_1 {
 }
 
 
-resource item_security id_6242_4926 {
-    accessor_item_id = resource.member_group.trusted.item_id
-    item_id = resource.string_metafield.portal_title_50254.item_id
-    read = true
-    write = true
-}
-
-resource metafield_label title_51015 {
-    metafield_id = resource.string_metafield.portal_title_50254.metafield_id
-    label = 'Title'
-    language_id = resource.language.english.id
-    description = ''
-}
 
 
 
 
 
-resource item_security id_7611_9027 {
-    accessor_item_id = resource.member_group.anonymous.item_id
-    item_id = resource.int_metafield.max_tooltip_width_50310.item_id
-    read = true
-    write = false
-}
 
 
 
-resource versioned_metadata_int_value running_jobs_refresh_interval_ms_5102_51433_1 {
-    value = 15000
-    item_id = resource.product.digizuite_dam_center.item_id
-    version_id = resource.product.digizuite_dam_center.base_version_id
-    label_id = resource.metafield_label.running_jobs_refresh_interval_ms_51433.label_id
-    row_id = 1
-}
+
+
+
+
+
 
 resource bit_metafield enable_remember_me {
     item_guid = 'cbfc6a71-bcde-4a5e-818a-d2ec8b478882'
@@ -490,12 +454,7 @@ resource item_security auto_created_user_folder_id__trusted {
     write = true
 }
 
-resource item_security id_7054_9027 {
-    accessor_item_id = resource.member_group.anonymous.item_id
-    item_id = resource.masteritem_reference_metafield.embed_player_user_10.item_id
-    read = true
-    write = false
-}
+
 
 
 resource editmulticombovalue_metafield assets_per_page {
@@ -673,99 +632,112 @@ resource versioned_metadata_int_value left_side_refresh_interval_ms {
     row_id = 1
 }
 
-resource versioned_metadata_string_value portal_title_5102_51015_1 {
+
+
+resource string_metafield portal_title {
+    item_guid = '7c4faa62-165e-4826-9243-9c61076d4af9'
+    name = 'Title'
+    group_id = resource.metafield_group.config.metafield_group_id
+    show_in_list = true
+    auto_translate = 'Overwrite'
+    restrict_to_asset_type = 'All'
+}
+
+resource metafield_label portal_title {
+    metafield_id = resource.string_metafield.portal_title.metafield_id
+    label = resource.string_metafield.portal_title.name
+    language_id = resource.language.english.id
+    description = ''
+}
+
+resource versioned_metadata_string_value portal_title {
     value = '<Company> Management Tool'
     item_id = resource.product.digizuite_dam_center.item_id
     version_id = resource.product.digizuite_dam_center.base_version_id
-    label_id = resource.metafield_label.title_51015.label_id
+    label_id = resource.metafield_label.portal_title.label_id
     row_id = 1
 }
 
-resource string_metafield portal_title_50254 {
-    max_length = 0
-    item_guid = '7c4faa62-165e-4826-9243-9c61076d4af9'
-    name = 'Portal Title'
-    group_id = resource.metafield_group.config.metafield_group_id
-    sort_index = 0
-    visibility_metafield_id = 0
-    visibility_regex = ''
-    required = false
-    readonly = false
-    show_in_list = true
-    system = false
-    auto_translate = 'Overwrite'
-    restrict_to_asset_type = 'All'
-    upload_tag_name = ''
-    autolink = {
-        item_guid = '7c4faa62-165e-4826-9243-9c61076d4af9'
-    }
-}
-
-
-resource item_security id_6242_9027 {
+resource item_security portal_title__anonymous {
     accessor_item_id = resource.member_group.anonymous.item_id
-    item_id = resource.string_metafield.portal_title_50254.item_id
+    item_id = resource.string_metafield.portal_title.item_id
     read = true
     write = false
 }
 
+resource item_security portal_title__trusted {
+    accessor_item_id = resource.member_group.trusted.item_id
+    item_id = resource.string_metafield.portal_title.item_id
+    read = true
+    write = true
+}
 
 
-
-
-resource masteritem_reference_metafield embed_player_user_10 {
+resource masteritem_reference_metafield embed_player_user {
     item_type = 'Member'
-    max_count = 0
-    related_metafield_id = 0
     item_guid = '2c86c1ee-a5b3-4797-8ec3-09b2cd5eda8e'
     name = 'Embed Player User'
     group_id = resource.metafield_group.config.metafield_group_id
-    sort_index = 0
-    visibility_metafield_id = 0
-    visibility_regex = ''
-    required = false
-    readonly = false
     show_in_list = true
-    system = false
     auto_translate = 'Overwrite'
     restrict_to_asset_type = 'All'
-    upload_tag_name = ''
-    autolink = {
-        item_guid = '2c86c1ee-a5b3-4797-8ec3-09b2cd5eda8e'
-    }
 }
 
-resource int_metafield max_tooltip_width_50310 {
-    item_guid = '8d6a4c71-1c16-423c-b52d-6437523e1507'
-    name = 'Max Tooltip Width'
-    group_id = resource.metafield_group.config.metafield_group_id
-    sort_index = 0
-    visibility_metafield_id = 0
-    visibility_regex = ''
-    required = false
-    readonly = false
-    show_in_list = true
-    system = false
-    auto_translate = 'Overwrite'
-    restrict_to_asset_type = 'All'
-    upload_tag_name = ''
-    autolink = {
-        item_guid = '8d6a4c71-1c16-423c-b52d-6437523e1507'
-    }
-}
-
-
-
-resource metafield_label running_jobs_refresh_interval_ms_51433 {
-    metafield_id = resource.int_metafield.running_jobs_refresh_interval_ms_50363.metafield_id
-    label = 'Running Jobs Refresh Interval (ms)'
+resource metafield_label embed_player_user {
+    metafield_id = resource.masteritem_reference_metafield.embed_player_user.metafield_id
+    label = resource.masteritem_reference_metafield.embed_player_user.name
     language_id = resource.language.english.id
-    description = ''
 }
 
-resource item_security id_7611_4926 {
+resource item_security embed_player_user__anonymous {
+    accessor_item_id = resource.member_group.anonymous.item_id
+    item_id = resource.masteritem_reference_metafield.embed_player_user.item_id
+    read = true
+    write = false
+}
+
+resource item_security embed_player_user__trusted {
     accessor_item_id = resource.member_group.trusted.item_id
-    item_id = resource.int_metafield.max_tooltip_width_50310.item_id
+    item_id = resource.masteritem_reference_metafield.embed_player_user.item_id
+    read = true
+    write = true
+}
+
+
+
+resource int_metafield max_tooltip_width {
+    item_guid = '8d6a4c71-1c16-423c-b52d-6437523e1507'
+    name = 'Max Tooltip Width (px)'
+    group_id = resource.metafield_group.config.metafield_group_id
+    show_in_list = true
+    auto_translate = 'Overwrite'
+    restrict_to_asset_type = 'All'
+}
+
+resource metafield_label max_tooltip_width {
+    metafield_id = resource.int_metafield.max_tooltip_width.metafield_id
+    label = resource.int_metafield.max_tooltip_width.name
+    language_id = resource.language.english.id
+}
+
+resource versioned_metadata_int_value max_tooltip_width {
+    value = 300
+    item_id = resource.product.digizuite_dam_center.item_id
+    version_id = resource.product.digizuite_dam_center.base_version_id
+    label_id = resource.metafield_label.max_tooltip_width.label_id
+    row_id = 1
+}
+
+resource item_security max_tooltip_width__anonymous {
+    accessor_item_id = resource.member_group.anonymous.item_id
+    item_id = resource.int_metafield.max_tooltip_width.item_id
+    read = true
+    write = false
+}
+
+resource item_security max_tooltip_width__trusted {
+    accessor_item_id = resource.member_group.trusted.item_id
+    item_id = resource.int_metafield.max_tooltip_width.item_id
     read = true
     write = true
 }
@@ -774,420 +746,401 @@ resource item_security id_7611_4926 {
 
 
 
-resource int_metafield running_jobs_refresh_interval_ms_50363 {
+
+resource int_metafield running_jobs_refresh_interval_ms {
     item_guid = 'cc48d893-6369-4a25-9459-e4877e2bb7d3'
     name = 'Running Jobs Refresh Interval (ms)'
     group_id = resource.metafield_group.config.metafield_group_id
-    sort_index = 0
-    visibility_metafield_id = 0
-    visibility_regex = ''
-    required = false
-    readonly = false
     show_in_list = true
-    system = false
     auto_translate = 'Overwrite'
     restrict_to_asset_type = 'All'
-    upload_tag_name = ''
-    autolink = {
-        item_guid = 'cc48d893-6369-4a25-9459-e4877e2bb7d3'
-    }
 }
 
-resource metafield_label mediamanager_favourites_100 {
-    metafield_id = resource.masteritem_reference_metafield.mediamanager_favourites_26.metafield_id
-    label = 'MediaManager Favourites'
+resource metafield_label running_jobs_refresh_interval_ms {
+    metafield_id = resource.int_metafield.running_jobs_refresh_interval_ms.metafield_id
+    label = resource.int_metafield.running_jobs_refresh_interval_ms.name
     language_id = resource.language.english.id
-    description = ''
 }
 
-resource item_security id_4208_4926 {
+resource versioned_metadata_int_value running_jobs_refresh_interval_ms {
+    value = 15000
+    item_id = resource.product.digizuite_dam_center.item_id
+    version_id = resource.product.digizuite_dam_center.base_version_id
+    label_id = resource.metafield_label.running_jobs_refresh_interval_ms.label_id
+    row_id = 1
+}
+
+resource item_security running_jobs_refresh_interval_ms__trusted {
     accessor_item_id = resource.member_group.trusted.item_id
-    item_id = resource.metafield_group.user_config.item_id
+    item_id = resource.int_metafield.running_jobs_refresh_interval_ms.item_id
     read = true
     write = true
 }
 
-resource item_security id_7363_4926 {
-    accessor_item_id = resource.member_group.trusted.item_id
-    item_id = resource.masteritem_reference_metafield.mediamanager_favourites_26.item_id
-    read = true
-    write = true
-}
+
+
+
+
+
+
+
+
+
 
 resource metafield_group user_config {
     name = 'User Config'
-    description = ''
     show_in_list = true
     folder_id = resource.meta_group_folder.users_and_usergroups_shared.id
-    sort_index = 0
     restrict_to_asset = 'All'
     autolink = {
         item_guid = '5a8c0cf9-866a-4d69-8104-42b262afbb80'
     }
 }
 
-resource item_security id_2372_4926 {
-    accessor_item_id = resource.member_group.trusted.item_id
-    item_id = resource.metafield_group.valid_download_qualities_10051.item_id
-    read = true
-    write = true
-}
-
-resource item_security id_7363_9027 {
-    accessor_item_id = resource.member_group.anonymous.item_id
-    item_id = resource.masteritem_reference_metafield.mediamanager_favourites_26.item_id
-    read = true
-    write = false
-}
-
-resource masteritem_reference_metafield mediamanager_favourites_26 {
-    item_type = 'Asset'
-    max_count = 0
-    related_metafield_id = 0
-    item_guid = 'd10aef8d-af0e-4e33-bcb8-4d71e2c55269'
-    name = 'MediaManager Favourites'
-    group_id = resource.metafield_group.user_config.metafield_group_id
-    sort_index = 26
-    visibility_metafield_id = 0
-    visibility_regex = ''
-    required = false
-    readonly = false
-    show_in_list = false
-    system = false
-    auto_translate = 'Overwrite'
-    restrict_to_asset_type = 'All'
-    upload_tag_name = ''
-    autolink = {
-        item_guid = 'd10aef8d-af0e-4e33-bcb8-4d71e2c55269'
-    }
-}
-
-resource masteritem_reference_metafield profile_image_50166 {
-    item_type = 'Asset'
-    max_count = 0
-    related_metafield_id = 0
-    item_guid = 'e2dced3c-a38a-45d5-959b-e57b80211bef'
-    name = 'Profile Image'
-    group_id = resource.metafield_group.user_config.metafield_group_id
-    sort_index = 50166
-    visibility_metafield_id = 0
-    visibility_regex = ''
-    required = false
-    readonly = false
-    show_in_list = true
-    system = false
-    auto_translate = 'Overwrite'
-    restrict_to_asset_type = 'All'
-    upload_tag_name = ''
-    autolink = {
-        item_guid = 'e2dced3c-a38a-45d5-959b-e57b80211bef'
-    }
-}
-
-resource combovalue_metafield type_10280 {
-    view_type = 'Radio'
-    item_guid = '01a2bf07-5474-4479-b9e1-0a78805d4465'
-    name = 'Type'
-    group_id = resource.metafield_group.valid_download_qualities_10051.metafield_group_id
-    sort_index = 10280
-    visibility_metafield_id = 0
-    visibility_regex = ''
-    required = false
-    readonly = false
-    show_in_list = true
-    system = false
-    auto_translate = 'Overwrite'
-    restrict_to_asset_type = 'All'
-    upload_tag_name = ''
-    iterative = true
-    autolink = {
-        item_guid = '01a2bf07-5474-4479-b9e1-0a78805d4465'
-    }
-}
-
-resource item_security id_2435_9027 {
-    accessor_item_id = resource.member_group.anonymous.item_id
-    item_id = resource.combovalue_metafield.type_10280.item_id
-    read = true
-    write = false
-}
-
-resource combo_value_label video_10472 {
-    combo_id = resource.combo_value.type_1_10280.combo_id
-    language_id = resource.language.english.id
-    label = 'Video'
-}
-
-resource item_security id_2436_4926 {
-    accessor_item_id = resource.member_group.trusted.item_id
-    item_id = resource.masteritem_reference_metafield.quality_10281.item_id
-    read = true
-    write = true
-}
-
-resource item_security id_2965_4926 {
-    accessor_item_id = resource.member_group.trusted.item_id
-    item_id = resource.combo_value.type_4_10280.item_id
-    read = true
-    write = true
-}
-
-resource item_security id_2965_9027 {
-    accessor_item_id = resource.member_group.anonymous.item_id
-    item_id = resource.combo_value.type_4_10280.item_id
-    read = true
-    write = false
-}
-
-resource combo_value_label any_10477 {
-    combo_id = resource.combo_value.type_0_10280.combo_id
-    language_id = resource.language.english.id
-    label = 'Any'
-}
-
-resource item_security id_2064_9027 {
-    accessor_item_id = resource.member_group.anonymous.item_id
-    item_id = resource.metafield_group.frontendgroup_10044.item_id
-    read = true
-    write = false
-}
-
-resource item_security id_4221_9027 {
-    accessor_item_id = resource.member_group.anonymous.item_id
-    item_id = resource.masteritem_reference_metafield.config_layoutfolder_50012.item_id
-    read = true
-    write = false
-}
-
-resource metafield_group valid_download_qualities_10051 {
-    name = 'Valid Download Qualities'
-    description = ''
-    show_in_list = true
-    folder_id = resource.meta_group_folder.users_and_usergroups_shared.id
-    sort_index = 10282
-    restrict_to_asset = 'All'
-    iterative = true
-    parent_group_id = resource.metafield_group.frontendgroup_10044.metafield_group_id
-    autolink = {
-        item_guid = 'aa04d635-c52d-48e1-b8c1-6952ee1fb1ec'
-    }
-}
-
-resource metafield_group_label download_qualities_10706 {
-    metafield_group_id = resource.metafield_group.valid_download_qualities_10051.metafield_group_id
-    label = 'Download Qualities'
-    language_id = resource.language.english.id
-}
-
-resource combo_value type_4_10280 {
-    metafield_id = resource.combovalue_metafield.type_10280.metafield_id
-    option_value = '4'
-    sort_index = 0
-}
-
-resource metafield_label quality_10703 {
-    metafield_id = resource.masteritem_reference_metafield.quality_10281.metafield_id
-    label = 'Quality'
-    language_id = resource.language.english.id
-    description = ''
-}
-
-resource item_security id_5457_4926 {
-    accessor_item_id = resource.member_group.trusted.item_id
-    item_id = resource.masteritem_reference_metafield.profile_image_50166.item_id
-    read = true
-    write = true
-}
-
-resource item_security id_2964_9027 {
-    accessor_item_id = resource.member_group.anonymous.item_id
-    item_id = resource.combo_value.type_1_10280.item_id
-    read = true
-    write = false
-}
-
-resource combo_value type_0_10280 {
-    metafield_id = resource.combovalue_metafield.type_10280.metafield_id
-    option_value = '0'
-    sort_index = 0
-}
-
-resource meta_group_folder users_and_usergroups_50001 {
-    parent_id = 0
-    name = 'Users and usergroups'
-}
-
-resource item_security id_4208_9027 {
+resource item_security user_config__anonymous {
     accessor_item_id = resource.member_group.anonymous.item_id
     item_id = resource.metafield_group.user_config.item_id
     read = true
     write = false
 }
 
-resource metafield_group frontendgroup_10044 {
-    name = 'FrontendGroup'
-    description = ''
+resource item_security user_config__trusted {
+    accessor_item_id = resource.member_group.trusted.item_id
+    item_id = resource.metafield_group.user_config.item_id
+    read = true
+    write = true
+}
+
+
+
+
+resource masteritem_reference_metafield mediamanager_favourites {
+    item_type = 'Asset'
+    item_guid = 'd10aef8d-af0e-4e33-bcb8-4d71e2c55269'
+    name = 'MediaManager Favourites'
+    group_id = resource.metafield_group.user_config.metafield_group_id
+    sort_index = 26
+    auto_translate = 'Overwrite'
+    restrict_to_asset_type = 'All'
+}
+
+resource metafield_label mediamanager_favourites {
+    metafield_id = resource.masteritem_reference_metafield.mediamanager_favourites.metafield_id
+    label = resource.masteritem_reference_metafield.mediamanager_favourites.name
+    language_id = resource.language.english.id
+}
+
+resource item_security mediamanager_favourites__anonymous {
+    accessor_item_id = resource.member_group.anonymous.item_id
+    item_id = resource.masteritem_reference_metafield.mediamanager_favourites.item_id
+    read = true
+    write = false
+}
+
+resource item_security mediamanager_favourites__trusted {
+    accessor_item_id = resource.member_group.trusted.item_id
+    item_id = resource.masteritem_reference_metafield.mediamanager_favourites.item_id
+    read = true
+    write = true
+}
+
+
+resource masteritem_reference_metafield profile_image {
+    item_type = 'Asset'
+    item_guid = 'e2dced3c-a38a-45d5-959b-e57b80211bef'
+    name = 'Profile Image'
+    group_id = resource.metafield_group.user_config.metafield_group_id
+    sort_index = 50166
+    show_in_list = true
+    auto_translate = 'Overwrite'
+    restrict_to_asset_type = 'All'
+}
+
+resource metafield_label profile_image {
+    metafield_id = resource.masteritem_reference_metafield.profile_image.metafield_id
+    label = resource.masteritem_reference_metafield.profile_image.name
+    language_id = resource.language.english.id
+}
+
+resource item_security profile_image__anonymous {
+    accessor_item_id = resource.member_group.anonymous.item_id
+    item_id = resource.masteritem_reference_metafield.profile_image.item_id
+    read = true
+    write = false
+}
+
+resource item_security profile_image__trusted {
+    accessor_item_id = resource.member_group.trusted.item_id
+    item_id = resource.masteritem_reference_metafield.profile_image.item_id
+    read = true
+    write = true
+}
+
+
+resource combovalue_metafield type {
+    view_type = 'Radio'
+    item_guid = '01a2bf07-5474-4479-b9e1-0a78805d4465'
+    name = 'Type'
+    group_id = resource.metafield_group.valid_download_qualities.metafield_group_id
+    sort_index = 10280
+    show_in_list = true
+    auto_translate = 'Overwrite'
+    restrict_to_asset_type = 'All'
+    iterative = true
+}
+
+resource metafield_label type {
+    metafield_id = resource.combovalue_metafield.type.metafield_id
+    label = resource.combovalue_metafield.type.name
+    language_id = resource.language.english.id
+}
+
+resource combo_value type_0 {
+    metafield_id = resource.combovalue_metafield.type.metafield_id
+    option_value = '0'
+}
+
+resource combo_value type_1 {
+    metafield_id = resource.combovalue_metafield.type.metafield_id
+    option_value = '1'
+}
+
+resource combo_value type_4 {
+    metafield_id = resource.combovalue_metafield.type.metafield_id
+    option_value = '4'
+}
+
+resource combo_value_label type_0 {
+    combo_id = resource.combo_value.type_0.combo_id
+    language_id = resource.language.english.id
+    label = 'Any'
+}
+
+resource combo_value_label type_1 {
+    combo_id = resource.combo_value.type_1.combo_id
+    language_id = resource.language.english.id
+    label = 'Video'
+}
+
+resource combo_value_label type_4 {
+    combo_id = resource.combo_value.type_4.combo_id
+    language_id = resource.language.english.id
+    label = 'Billede'
+}
+
+resource item_security type_0__anonymous {
+    accessor_item_id = resource.member_group.anonymous.item_id
+    item_id = resource.combo_value.type_0.item_id
+    read = true
+    write = false
+}
+
+resource item_security type_0__trusted {
+    accessor_item_id = resource.member_group.trusted.item_id
+    item_id = resource.combo_value.type_0.item_id
+    read = true
+    write = true
+}
+
+resource item_security type_1__anonymous {
+    accessor_item_id = resource.member_group.anonymous.item_id
+    item_id = resource.combo_value.type_1.item_id
+    read = true
+    write = false
+}
+
+resource item_security type_1__trusted {
+    accessor_item_id = resource.member_group.trusted.item_id
+    item_id = resource.combo_value.type_1.item_id
+    read = true
+    write = true
+}
+
+resource item_security type_4__anonymous {
+    accessor_item_id = resource.member_group.anonymous.item_id
+    item_id = resource.combo_value.type_4.item_id
+    read = true
+    write = false
+}
+
+resource item_security type_4__trusted {
+    accessor_item_id = resource.member_group.trusted.item_id
+    item_id = resource.combo_value.type_4.item_id
+    read = true
+    write = true
+}
+
+resource item_security type__anonymous {
+    accessor_item_id = resource.member_group.anonymous.item_id
+    item_id = resource.combovalue_metafield.type.item_id
+    read = true
+    write = false
+}
+
+resource item_security type__trusted {
+    accessor_item_id = resource.member_group.trusted.item_id
+    item_id = resource.combovalue_metafield.type.item_id
+    read = true
+    write = true
+}
+
+
+
+
+
+
+
+
+resource metafield_group valid_download_qualities {
+    name = 'Download Qualities'
     show_in_list = true
     folder_id = resource.meta_group_folder.users_and_usergroups_shared.id
-    sort_index = 0
+    sort_index = 10282
+    restrict_to_asset = 'All'
+    iterative = true
+    parent_group_id = resource.metafield_group.frontendgroup.metafield_group_id
+    autolink = {
+        item_guid = 'aa04d635-c52d-48e1-b8c1-6952ee1fb1ec'
+    }
+}
+
+resource metafield_group_label download_qualities {
+    metafield_group_id = resource.metafield_group.valid_download_qualities.metafield_group_id
+    label = resource.metafield_group.valid_download_qualities.name
+    language_id = resource.language.english.id
+}
+
+resource item_security valid_download_qualities__anonymous {
+    accessor_item_id = resource.member_group.anonymous.item_id
+    item_id = resource.metafield_group.valid_download_qualities.item_id
+    read = true
+    write = false
+}
+
+resource item_security valid_download_qualities__trusted {
+    accessor_item_id = resource.member_group.trusted.item_id
+    item_id = resource.metafield_group.valid_download_qualities.item_id
+    read = true
+    write = true
+}
+
+
+
+
+
+
+
+
+
+
+
+
+resource meta_group_folder users_and_usergroups {
+    parent_id = 0
+    name = 'Users and usergroups'
+}
+
+
+
+resource metafield_group frontendgroup {
+    name = 'FrontendGroup'
+    show_in_list = true
+    folder_id = resource.meta_group_folder.users_and_usergroups_shared.id
     restrict_to_asset = 'All'
     autolink = {
         item_guid = '5a38f498-ead9-4a0a-b218-a73f6f32ee39'
     }
 }
 
-resource item_security id_2372_9027 {
+resource item_security frontendgroup__anonymous {
     accessor_item_id = resource.member_group.anonymous.item_id
-    item_id = resource.metafield_group.valid_download_qualities_10051.item_id
+    item_id = resource.metafield_group.frontendgroup.item_id
     read = true
     write = false
 }
 
-resource item_security id_2064_4926 {
+resource item_security frontendgroup__trusted {
     accessor_item_id = resource.member_group.trusted.item_id
-    item_id = resource.metafield_group.frontendgroup_10044.item_id
+    item_id = resource.metafield_group.frontendgroup.item_id
     read = true
     write = true
 }
 
-resource item_security id_5457_9027 {
-    accessor_item_id = resource.member_group.anonymous.item_id
-    item_id = resource.masteritem_reference_metafield.profile_image_50166.item_id
-    read = true
-    write = false
-}
 
-resource metafield_label profile_image_50663 {
-    metafield_id = resource.masteritem_reference_metafield.profile_image_50166.metafield_id
-    label = 'Profile Image'
-    language_id = resource.language.english.id
-    description = ''
-}
 
-resource masteritem_reference_metafield quality_10281 {
+
+
+
+resource masteritem_reference_metafield quality {
     item_type = 'MediaTranscode'
-    max_count = 0
-    related_metafield_id = 0
     item_guid = 'e67069a2-1b12-49fe-b408-e919a0a506dd'
     name = 'Quality'
-    group_id = resource.metafield_group.valid_download_qualities_10051.metafield_group_id
+    group_id = resource.metafield_group.valid_download_qualities.metafield_group_id
     sort_index = 10281
-    visibility_metafield_id = 0
-    visibility_regex = ''
-    required = false
-    readonly = false
     show_in_list = true
-    system = false
     auto_translate = 'Overwrite'
     restrict_to_asset_type = 'All'
-    upload_tag_name = ''
     iterative = true
-    autolink = {
-        item_guid = 'e67069a2-1b12-49fe-b408-e919a0a506dd'
-    }
 }
 
-resource item_security id_2435_4926 {
-    accessor_item_id = resource.member_group.trusted.item_id
-    item_id = resource.combovalue_metafield.type_10280.item_id
-    read = true
-    write = true
-}
-
-resource combo_value type_1_10280 {
-    metafield_id = resource.combovalue_metafield.type_10280.metafield_id
-    option_value = '1'
-    sort_index = 0
-}
-
-resource item_security id_2436_9027 {
-    accessor_item_id = resource.member_group.anonymous.item_id
-    item_id = resource.masteritem_reference_metafield.quality_10281.item_id
-    read = true
-    write = false
-}
-
-resource item_security id_2964_4926 {
-    accessor_item_id = resource.member_group.trusted.item_id
-    item_id = resource.combo_value.type_1_10280.item_id
-    read = true
-    write = true
-}
-
-resource item_security id_4221_4926 {
-    accessor_item_id = resource.member_group.trusted.item_id
-    item_id = resource.masteritem_reference_metafield.config_layoutfolder_50012.item_id
-    read = true
-    write = true
-}
-
-resource combo_value_label billede_10473 {
-    combo_id = resource.combo_value.type_4_10280.combo_id
+resource metafield_label quality {
+    metafield_id = resource.masteritem_reference_metafield.quality.metafield_id
+    label = resource.masteritem_reference_metafield.quality.name
     language_id = resource.language.english.id
-    label = 'Billede'
 }
 
-resource item_security id_2969_9027 {
+resource item_security quality__anonymous {
     accessor_item_id = resource.member_group.anonymous.item_id
-    item_id = resource.combo_value.type_0_10280.item_id
+    item_id = resource.masteritem_reference_metafield.quality.item_id
     read = true
     write = false
 }
 
-resource item_security id_2969_4926 {
+resource item_security quality__trusted {
     accessor_item_id = resource.member_group.trusted.item_id
-    item_id = resource.combo_value.type_0_10280.item_id
+    item_id = resource.masteritem_reference_metafield.quality.item_id
     read = true
     write = true
 }
 
-resource masteritem_reference_metafield config_layoutfolder_50012 {
+
+
+
+resource masteritem_reference_metafield config_layoutfolder {
     item_type = 'ChannelFolder'
-    max_count = 0
-    related_metafield_id = 0
     item_guid = '79b85f8e-68ae-49f7-b880-c946eb7f0055'
     name = 'Config LayoutFolder'
     group_id = resource.metafield_group.user_config.metafield_group_id
     sort_index = 50012
-    visibility_metafield_id = 0
-    visibility_regex = ''
-    required = false
-    readonly = false
     show_in_list = true
-    system = false
     auto_translate = 'Overwrite'
     restrict_to_asset_type = 'All'
-    upload_tag_name = ''
-    autolink = {
-        item_guid = '79b85f8e-68ae-49f7-b880-c946eb7f0055'
-    }
 }
 
-resource metafield_label type_10700 {
-    metafield_id = resource.combovalue_metafield.type_10280.metafield_id
-    label = 'Type'
+resource metafield_label config_layoutfolder {
+    metafield_id = resource.masteritem_reference_metafield.config_layoutfolder.metafield_id
+    label = resource.masteritem_reference_metafield.config_layoutfolder.name
     language_id = resource.language.english.id
-    description = ''
 }
+
+resource item_security config_layoutfolder__anonymous {
+    accessor_item_id = resource.member_group.anonymous.item_id
+    item_id = resource.masteritem_reference_metafield.config_layoutfolder.item_id
+    read = true
+    write = false
+}
+
+resource item_security config_layoutfolder__trusted {
+    accessor_item_id = resource.member_group.trusted.item_id
+    item_id = resource.masteritem_reference_metafield.config_layoutfolder.item_id
+    read = true
+    write = true
+}
+
 
 resource meta_group_folder users_and_usergroups_shared {
-    parent_id = resource.meta_group_folder.users_and_usergroups_50001.id
+    parent_id = resource.meta_group_folder.users_and_usergroups.id
     name = 'Shared'
-}
-
-resource versioned_metadata_int_value max_tooltip_width_5102_51239_1 {
-    value = 300
-    item_id = resource.product.digizuite_dam_center.item_id
-    version_id = resource.product.digizuite_dam_center.base_version_id
-    label_id = resource.metafield_label.max_tooltip_width_px_51239.label_id
-    row_id = 1
-}
-
-resource metafield_label max_tooltip_width_px_51239 {
-    metafield_id = resource.int_metafield.max_tooltip_width_50310.metafield_id
-    label = 'Max Tooltip Width (px)'
-    language_id = resource.language.english.id
-    description = ''
 }
 
 resource meta_group_folder video {
@@ -1195,570 +1148,533 @@ resource meta_group_folder video {
     name = 'Video'
 }
 
-resource metafield_group video_10027 {
+resource metafield_group video {
     name = 'Video'
-    description = ''
     show_in_list = false
     folder_id = resource.meta_group_folder.video.id
     sort_index = 50034
     restrict_to_asset = 'Video'
-    iterative = false
     parent_group_id = resource.metafield_group.asset_info.metafield_group_id
     autolink = {
         item_guid = '7d9844ef-fd14-4ae0-ab2e-215b499c232d'
     }
 }
 
-resource string_metafield framebestemt_thumbnail_10048 {
-    max_length = 0
-    item_guid = 'cd420283-d734-4b0c-9849-3406466e0954'
-    name = 'Framebestemt Thumbnail'
-    group_id = resource.metafield_group.video_10027.metafield_group_id
-    sort_index = 10048
-    visibility_metafield_id = 0
-    visibility_regex = ''
-    required = false
-    readonly = false
-    show_in_list = true
-    system = false
-    auto_translate = 'Overwrite'
-    restrict_to_asset_type = 'All'
-    upload_tag_name = ''
-    autolink = {
-        item_guid = 'cd420283-d734-4b0c-9849-3406466e0954'
-    }
-}
-
-resource metafield_label frameaccurate_thumbnail_10073 {
-    metafield_id = resource.string_metafield.framebestemt_thumbnail_10048.metafield_id
-    label = 'Frameaccurate Thumbnail'
-    language_id = resource.language.english.id
-    description = ''
-}
-
-resource item_security id_935_4926 {
-    accessor_item_id = resource.member_group.trusted.item_id
-    item_id = resource.string_metafield.framebestemt_thumbnail_10048.item_id
-    read = true
-    write = true
-}
-
-resource item_security id_935_9027 {
+resource item_security video__anonymous {
     accessor_item_id = resource.member_group.anonymous.item_id
-    item_id = resource.string_metafield.framebestemt_thumbnail_10048.item_id
+    item_id = resource.metafield_group.video.item_id
     read = true
     write = false
 }
 
-resource string_metafield crop_50185 {
-    max_length = 0
+resource item_security video__trusted {
+    accessor_item_id = resource.member_group.trusted.item_id
+    item_id = resource.metafield_group.video.item_id
+    read = true
+    write = true
+}
+
+
+resource string_metafield frameaccurate_thumbnail {
+    item_guid = 'cd420283-d734-4b0c-9849-3406466e0954'
+    name = 'Frameaccurate Thumbnail'
+    group_id = resource.metafield_group.video.metafield_group_id
+    sort_index = 10048
+    show_in_list = true
+    auto_translate = 'Overwrite'
+    restrict_to_asset_type = 'All'
+}
+
+resource metafield_label frameaccurate_thumbnail {
+    metafield_id = resource.string_metafield.frameaccurate_thumbnail.metafield_id
+    label = resource.string_metafield.frameaccurate_thumbnail.name
+    language_id = resource.language.english.id
+}
+
+resource item_security frameaccurate_thumbnail__anonymous {
+    accessor_item_id = resource.member_group.anonymous.item_id
+    item_id = resource.string_metafield.frameaccurate_thumbnail.item_id
+    read = true
+    write = false
+}
+
+resource item_security frameaccurate_thumbnail__trusted {
+    accessor_item_id = resource.member_group.trusted.item_id
+    item_id = resource.string_metafield.frameaccurate_thumbnail.item_id
+    read = true
+    write = true
+}
+
+
+resource string_metafield crop {
     item_guid = '050d76ad-822a-409b-a18c-e41e677c1716'
     name = 'Crop'
-    group_id = resource.metafield_group.video_10027.metafield_group_id
+    group_id = resource.metafield_group.video.metafield_group_id
     sort_index = 50185
-    visibility_metafield_id = 0
-    visibility_regex = ''
-    required = false
-    readonly = false
     show_in_list = false
     system = true
     auto_translate = 'Overwrite'
     restrict_to_asset_type = 'All'
-    upload_tag_name = ''
-    autolink = {
-        item_guid = '050d76ad-822a-409b-a18c-e41e677c1716'
-    }
 }
 
-resource metafield_label crop_50739 {
-    metafield_id = resource.string_metafield.crop_50185.metafield_id
-    label = 'Crop'
+resource metafield_label crop {
+    metafield_id = resource.string_metafield.crop.metafield_id
+    label = resource.string_metafield.crop.name
     language_id = resource.language.english.id
-    description = ''
 }
 
-resource item_security id_5552_4926 {
-    accessor_item_id = resource.member_group.trusted.item_id
-    item_id = resource.string_metafield.crop_50185.item_id
-    read = true
-    write = true
-}
-
-resource item_security id_5552_9027 {
+resource item_security crop__anonymous {
     accessor_item_id = resource.member_group.anonymous.item_id
-    item_id = resource.string_metafield.crop_50185.item_id
+    item_id = resource.string_metafield.crop.item_id
     read = true
     write = false
 }
 
-resource combovalue_metafield rotation_50041 {
+resource item_security crop__trusted {
+    accessor_item_id = resource.member_group.trusted.item_id
+    item_id = resource.string_metafield.crop.item_id
+    read = true
+    write = true
+}
+
+
+resource combovalue_metafield rotation {
     view_type = 'Radio'
     item_guid = 'c134e2d2-8caf-4739-bca0-767d34c7ac03'
     name = 'Rotation'
-    group_id = resource.metafield_group.video_10027.metafield_group_id
+    group_id = resource.metafield_group.video.metafield_group_id
     sort_index = 50041
-    visibility_metafield_id = 0
-    visibility_regex = ''
-    required = false
     readonly = true
     show_in_list = true
     system = true
     auto_translate = 'Overwrite'
     restrict_to_asset_type = 'All'
     upload_tag_name = 'mediainfo_video:rotation'
-    autolink = {
-        item_guid = 'c134e2d2-8caf-4739-bca0-767d34c7ac03'
-    }
 }
 
-resource metafield_label rotation_50162 {
-    metafield_id = resource.combovalue_metafield.rotation_50041.metafield_id
-    label = 'Rotation'
+resource metafield_label rotation {
+    metafield_id = resource.combovalue_metafield.rotation.metafield_id
+    label = resource.combovalue_metafield.rotation.name
     language_id = resource.language.english.id
-    description = ''
 }
 
-resource item_security id_4529_4926 {
-    accessor_item_id = resource.member_group.trusted.item_id
-    item_id = resource.combovalue_metafield.rotation_50041.item_id
-    read = true
-    write = true
-}
-
-resource item_security id_4529_9027 {
-    accessor_item_id = resource.member_group.anonymous.item_id
-    item_id = resource.combovalue_metafield.rotation_50041.item_id
-    read = true
-    write = false
-}
-
-resource combo_value rotation_0_50041 {
-    metafield_id = resource.combovalue_metafield.rotation_50041.metafield_id
+resource combo_value rotation_0 {
+    metafield_id = resource.combovalue_metafield.rotation.metafield_id
     option_value = '0'
     sort_index = 0
 }
 
-resource combo_value_label id_0_50073 {
-    combo_id = resource.combo_value.rotation_0_50041.combo_id
-    language_id = resource.language.english.id
-    label = '0°'
-}
-
-resource combo_value rotation_90_50041 {
-    metafield_id = resource.combovalue_metafield.rotation_50041.metafield_id
+resource combo_value rotation_90 {
+    metafield_id = resource.combovalue_metafield.rotation.metafield_id
     option_value = '90'
     sort_index = 1
 }
 
-resource combo_value_label id_90_50074 {
-    combo_id = resource.combo_value.rotation_90_50041.combo_id
-    language_id = resource.language.english.id
-    label = '90­°'
-}
-
-resource combo_value rotation_180_50041 {
-    metafield_id = resource.combovalue_metafield.rotation_50041.metafield_id
+resource combo_value rotation_180 {
+    metafield_id = resource.combovalue_metafield.rotation.metafield_id
     option_value = '180'
     sort_index = 2
 }
 
-resource combo_value_label id_180_50075 {
-    combo_id = resource.combo_value.rotation_180_50041.combo_id
-    language_id = resource.language.english.id
-    label = '180°'
-}
-
-resource combo_value rotation_270_50041 {
-    metafield_id = resource.combovalue_metafield.rotation_50041.metafield_id
+resource combo_value rotation_270 {
+    metafield_id = resource.combovalue_metafield.rotation.metafield_id
     option_value = '270'
     sort_index = 3
 }
 
-resource combo_value_label id_270_50076 {
-    combo_id = resource.combo_value.rotation_270_50041.combo_id
+resource combo_value_label rotation_0 {
+    combo_id = resource.combo_value.rotation_0.combo_id
+    language_id = resource.language.english.id
+    label = '0°'
+}
+
+resource combo_value_label rotation_90 {
+    combo_id = resource.combo_value.rotation_90.combo_id
+    language_id = resource.language.english.id
+    label = '90°'
+}
+
+resource combo_value_label rotation_180 {
+    combo_id = resource.combo_value.rotation_180.combo_id
+    language_id = resource.language.english.id
+    label = '180°'
+}
+
+resource combo_value_label rotation_270 {
+    combo_id = resource.combo_value.rotation_270.combo_id
     language_id = resource.language.english.id
     label = '270°'
 }
 
-resource combovalue_metafield format_10032 {
-    view_type = 'Radio'
-    item_guid = 'f2a9baa4-655d-4cb3-8649-1692f56950d9'
-    name = 'Format'
-    group_id = resource.metafield_group.video_10027.metafield_group_id
-    sort_index = 10032
-    visibility_metafield_id = 0
-    visibility_regex = ''
-    required = false
-    readonly = false
-    show_in_list = true
-    system = false
-    auto_translate = 'Overwrite'
-    restrict_to_asset_type = 'Video'
-    upload_tag_name = 'calculated:displayaspectratiooption'
-    autolink = {
-        item_guid = 'f2a9baa4-655d-4cb3-8649-1692f56950d9'
-    }
-}
-
-resource metafield_label format_10058 {
-    metafield_id = resource.combovalue_metafield.format_10032.metafield_id
-    label = 'Format'
-    language_id = resource.language.english.id
-    description = ''
-}
-
-resource item_security id_949_4926 {
-    accessor_item_id = resource.member_group.trusted.item_id
-    item_id = resource.combovalue_metafield.format_10032.item_id
-    read = true
-    write = true
-}
-
-resource item_security id_949_9027 {
+resource item_security rotation__anonymous {
     accessor_item_id = resource.member_group.anonymous.item_id
-    item_id = resource.combovalue_metafield.format_10032.item_id
+    item_id = resource.combovalue_metafield.rotation.item_id
     read = true
     write = false
 }
 
-resource combo_value format_11_10032 {
-    metafield_id = resource.combovalue_metafield.format_10032.metafield_id
-    option_value = '11'
-    sort_index = 0
+resource item_security rotation__trusted {
+    accessor_item_id = resource.member_group.trusted.item_id
+    item_id = resource.combovalue_metafield.rotation.item_id
+    read = true
+    write = true
 }
 
-resource combo_value_label id_11_10543 {
-    combo_id = resource.combo_value.format_11_10032.combo_id
+
+
+
+
+
+
+
+resource combovalue_metafield format {
+    view_type = 'Radio'
+    item_guid = 'f2a9baa4-655d-4cb3-8649-1692f56950d9'
+    name = 'Format'
+    group_id = resource.metafield_group.video.metafield_group_id
+    sort_index = 10032
+    show_in_list = true
+    auto_translate = 'Overwrite'
+    restrict_to_asset_type = 'Video'
+    upload_tag_name = 'calculated:displayaspectratiooption'
+}
+
+resource metafield_label format {
+    metafield_id = resource.combovalue_metafield.format.metafield_id
+    label = resource.combovalue_metafield.format.name
+    language_id = resource.language.english.id
+}
+
+resource combo_value format_11 {
+    metafield_id = resource.combovalue_metafield.format.metafield_id
+    option_value = '11'
+}
+
+resource combo_value format_23 {
+    metafield_id = resource.combovalue_metafield.format.metafield_id
+    option_value = '23'
+}
+
+resource combo_value format_32 {
+    metafield_id = resource.combovalue_metafield.format.metafield_id
+    option_value = '32'
+}
+
+resource combo_value format_34 {
+    metafield_id = resource.combovalue_metafield.format.metafield_id
+    option_value = '34'
+}
+
+resource combo_value format_43 {
+    metafield_id = resource.combovalue_metafield.format.metafield_id
+    option_value = '43'
+}
+
+resource combo_value format_45 {
+    metafield_id = resource.combovalue_metafield.format.metafield_id
+    option_value = '45'
+}
+
+resource combo_value format_54 {
+    metafield_id = resource.combovalue_metafield.format.metafield_id
+    option_value = '54'
+}
+
+resource combo_value format_149 {
+    metafield_id = resource.combovalue_metafield.format.metafield_id
+    option_value = '149'
+}
+
+resource combo_value format_159 {
+    metafield_id = resource.combovalue_metafield.format.metafield_id
+    option_value = '159'
+}
+
+resource combo_value format_169 {
+    metafield_id = resource.combovalue_metafield.format.metafield_id
+    option_value = '169'
+}
+
+resource combo_value format_914 {
+    metafield_id = resource.combovalue_metafield.format.metafield_id
+    option_value = '914'
+}
+
+resource combo_value format_915 {
+    metafield_id = resource.combovalue_metafield.format.metafield_id
+    option_value = '915'
+}
+
+resource combo_value format_916 {
+    metafield_id = resource.combovalue_metafield.format.metafield_id
+    option_value = '916'
+}
+
+resource combo_value format_919 {
+    metafield_id = resource.combovalue_metafield.format.metafield_id
+    option_value = '919'
+}
+
+resource combo_value format_1016 {
+    metafield_id = resource.combovalue_metafield.format.metafield_id
+    option_value = '1016'
+}
+
+resource combo_value format_1610 {
+    metafield_id = resource.combovalue_metafield.format.metafield_id
+    option_value = '1610'
+}
+
+resource combo_value format_2037 {
+    metafield_id = resource.combovalue_metafield.format.metafield_id
+    option_value = '2037'
+}
+
+resource combo_value format_2047 {
+    metafield_id = resource.combovalue_metafield.format.metafield_id
+    option_value = '2047'
+}
+
+resource combo_value format_21111 {
+    metafield_id = resource.combovalue_metafield.format.metafield_id
+    option_value = '2.1111'
+}
+
+resource combo_value format_academy_flat {
+    metafield_id = resource.combovalue_metafield.format.metafield_id
+    option_value = 'Academy_Flat'
+}
+
+resource combo_value format_anamorphic_scope {
+    metafield_id = resource.combovalue_metafield.format.metafield_id
+    option_value = 'Anamorphic_Scope'
+}
+
+resource combo_value format_ntsc_34 {
+    metafield_id = resource.combovalue_metafield.format.metafield_id
+    option_value = 'NTSC_34'
+}
+
+resource combo_value format_ntsc_43 {
+    metafield_id = resource.combovalue_metafield.format.metafield_id
+    option_value = 'NTSC_43'
+}
+
+
+resource combo_value_label format_11 {
+    combo_id = resource.combo_value.format_11.combo_id
     language_id = resource.language.english.id
     label = '1/1'
 }
 
-resource combo_value format_915_10032 {
-    metafield_id = resource.combovalue_metafield.format_10032.metafield_id
-    option_value = '915'
-    sort_index = 0
-}
-
-resource combo_value_label id_915_50134 {
-    combo_id = resource.combo_value.format_915_10032.combo_id
-    language_id = resource.language.english.id
-    label = '9/15'
-}
-
-resource combo_value format_45_10032 {
-    metafield_id = resource.combovalue_metafield.format_10032.metafield_id
-    option_value = '45'
-    sort_index = 0
-}
-
-resource combo_value_label id_45_50158 {
-    combo_id = resource.combo_value.format_45_10032.combo_id
-    language_id = resource.language.english.id
-    label = '4/5'
-}
-
-resource combo_value format_2047_10032 {
-    metafield_id = resource.combovalue_metafield.format_10032.metafield_id
-    option_value = '2047'
-    sort_index = 0
-}
-
-resource combo_value_label id_2047_50118 {
-    combo_id = resource.combo_value.format_2047_10032.combo_id
-    language_id = resource.language.english.id
-    label = '20/47'
-}
-
-resource combo_value format_34_10032 {
-    metafield_id = resource.combovalue_metafield.format_10032.metafield_id
-    option_value = '34'
-    sort_index = 0
-}
-
-resource combo_value_label id_34_50154 {
-    combo_id = resource.combo_value.format_34_10032.combo_id
-    language_id = resource.language.english.id
-    label = '3/4'
-}
-
-resource combo_value format_1016_10032 {
-    metafield_id = resource.combovalue_metafield.format_10032.metafield_id
-    option_value = '1016'
-    sort_index = 0
-}
-
-resource combo_value_label id_1016_50138 {
-    combo_id = resource.combo_value.format_1016_10032.combo_id
-    language_id = resource.language.english.id
-    label = '10/16'
-}
-
-resource combo_value format_anamorphic_scope_10032 {
-    metafield_id = resource.combovalue_metafield.format_10032.metafield_id
-    option_value = 'Anamorphic_Scope'
-    sort_index = 0
-}
-
-resource combo_value_label anamorphic_scope_10549 {
-    combo_id = resource.combo_value.format_anamorphic_scope_10032.combo_id
-    language_id = resource.language.english.id
-    label = 'Anamorphic_Scope'
-}
-
-resource combo_value format_2037_10032 {
-    metafield_id = resource.combovalue_metafield.format_10032.metafield_id
-    option_value = '2037'
-    sort_index = 0
-}
-
-resource combo_value_label id_2037_50126 {
-    combo_id = resource.combo_value.format_2037_10032.combo_id
-    language_id = resource.language.english.id
-    label = '20/37'
-}
-
-resource combo_value format_149_10032 {
-    metafield_id = resource.combovalue_metafield.format_10032.metafield_id
-    option_value = '149'
-    sort_index = 0
-}
-
-resource combo_value_label id_149_10546 {
-    combo_id = resource.combo_value.format_149_10032.combo_id
-    language_id = resource.language.english.id
-    label = '14/9'
-}
-
-resource combo_value format_32_10032 {
-    metafield_id = resource.combovalue_metafield.format_10032.metafield_id
-    option_value = '32'
-    sort_index = 0
-}
-
-resource combo_value_label id_32_10534 {
-    combo_id = resource.combo_value.format_32_10032.combo_id
-    language_id = resource.language.english.id
-    label = '3/2'
-}
-
-resource combo_value format_ntsc_34_10032 {
-    metafield_id = resource.combovalue_metafield.format_10032.metafield_id
-    option_value = 'NTSC_34'
-    sort_index = 0
-}
-
-resource combo_value_label ntsc_34_50150 {
-    combo_id = resource.combo_value.format_ntsc_34_10032.combo_id
-    language_id = resource.language.english.id
-    label = 'NTSC_3/4'
-}
-
-resource combo_value format_54_10032 {
-    metafield_id = resource.combovalue_metafield.format_10032.metafield_id
-    option_value = '54'
-    sort_index = 3
-}
-
-resource combo_value_label id_54_10269 {
-    combo_id = resource.combo_value.format_54_10032.combo_id
-    language_id = resource.language.english.id
-    label = '5/4'
-}
-
-resource combo_value format_23_10032 {
-    metafield_id = resource.combovalue_metafield.format_10032.metafield_id
-    option_value = '23'
-    sort_index = 0
-}
-
-resource combo_value_label id_23_50146 {
-    combo_id = resource.combo_value.format_23_10032.combo_id
+resource combo_value_label format_23 {
+    combo_id = resource.combo_value.format_23.combo_id
     language_id = resource.language.english.id
     label = '2/3'
 }
 
-resource combo_value format_919_10032 {
-    metafield_id = resource.combovalue_metafield.format_10032.metafield_id
-    option_value = '919'
-    sort_index = 0
-}
-
-resource combo_value_label id_919_50122 {
-    combo_id = resource.combo_value.format_919_10032.combo_id
+resource combo_value_label format_32 {
+    combo_id = resource.combo_value.format_32.combo_id
     language_id = resource.language.english.id
-    label = '9/19'
+    label = '3/2'
 }
 
-resource combo_value format_ntsc_43_10032 {
-    metafield_id = resource.combovalue_metafield.format_10032.metafield_id
-    option_value = 'NTSC_43'
-    sort_index = 0
-}
-
-resource combo_value_label ntsc_43_10555 {
-    combo_id = resource.combo_value.format_ntsc_43_10032.combo_id
+resource combo_value_label format_34 {
+    combo_id = resource.combo_value.format_34.combo_id
     language_id = resource.language.english.id
-    label = 'NTSC_4/3'
+    label = '3/4'
 }
 
-resource combo_value format_21111_10032 {
-    metafield_id = resource.combovalue_metafield.format_10032.metafield_id
-    option_value = '2.1111'
-    sort_index = 0
-}
-
-resource combo_value_label id_21111_50162 {
-    combo_id = resource.combo_value.format_21111_10032.combo_id
-    language_id = resource.language.english.id
-    label = '2.1111'
-}
-
-resource combo_value format_1610_10032 {
-    metafield_id = resource.combovalue_metafield.format_10032.metafield_id
-    option_value = '1610'
-    sort_index = 0
-}
-
-resource combo_value_label id_1610_10540 {
-    combo_id = resource.combo_value.format_1610_10032.combo_id
-    language_id = resource.language.english.id
-    label = '16/10'
-}
-
-resource combo_value format_916_10032 {
-    metafield_id = resource.combovalue_metafield.format_10032.metafield_id
-    option_value = '916'
-    sort_index = 0
-}
-
-resource combo_value_label id_916_50130 {
-    combo_id = resource.combo_value.format_916_10032.combo_id
-    language_id = resource.language.english.id
-    label = '9/16'
-}
-
-resource combo_value format_159_10032 {
-    metafield_id = resource.combovalue_metafield.format_10032.metafield_id
-    option_value = '159'
-    sort_index = 0
-}
-
-resource combo_value_label id_159_10537 {
-    combo_id = resource.combo_value.format_159_10032.combo_id
-    language_id = resource.language.english.id
-    label = '15/9'
-}
-
-resource combo_value format_43_10032 {
-    metafield_id = resource.combovalue_metafield.format_10032.metafield_id
-    option_value = '43'
-    sort_index = 1
-}
-
-resource combo_value_label id_43_10267 {
-    combo_id = resource.combo_value.format_43_10032.combo_id
+resource combo_value_label format_43 {
+    combo_id = resource.combo_value.format_43.combo_id
     language_id = resource.language.english.id
     label = '4/3'
 }
 
-resource combo_value format_academy_flat_10032 {
-    metafield_id = resource.combovalue_metafield.format_10032.metafield_id
-    option_value = 'Academy_Flat'
-    sort_index = 0
-}
-
-resource combo_value_label academy_flat_10552 {
-    combo_id = resource.combo_value.format_academy_flat_10032.combo_id
+resource combo_value_label format_45 {
+    combo_id = resource.combo_value.format_45.combo_id
     language_id = resource.language.english.id
-    label = 'Academy_Flat'
+    label = '4/5'
 }
 
-resource combo_value format_169_10032 {
-    metafield_id = resource.combovalue_metafield.format_10032.metafield_id
-    option_value = '169'
-    sort_index = 2
+resource combo_value_label format_54 {
+    combo_id = resource.combo_value.format_54.combo_id
+    language_id = resource.language.english.id
+    label = '5/4'
 }
 
-resource combo_value_label id_169_10268 {
-    combo_id = resource.combo_value.format_169_10032.combo_id
+resource combo_value_label format_149 {
+    combo_id = resource.combo_value.format_149.combo_id
+    language_id = resource.language.english.id
+    label = '14/9'
+}
+
+resource combo_value_label format_159 {
+    combo_id = resource.combo_value.format_159.combo_id
+    language_id = resource.language.english.id
+    label = '15/9'
+}
+
+resource combo_value_label format_169 {
+    combo_id = resource.combo_value.format_169.combo_id
     language_id = resource.language.english.id
     label = '16/9'
 }
 
-resource combo_value format_914_10032 {
-    metafield_id = resource.combovalue_metafield.format_10032.metafield_id
-    option_value = '914'
-    sort_index = 0
-}
-
-resource combo_value_label id_914_50142 {
-    combo_id = resource.combo_value.format_914_10032.combo_id
+resource combo_value_label format_914 {
+    combo_id = resource.combo_value.format_914.combo_id
     language_id = resource.language.english.id
     label = '9/14'
 }
 
+resource combo_value_label format_915 {
+    combo_id = resource.combo_value.format_915.combo_id
+    language_id = resource.language.english.id
+    label = '9/15'
+}
+
+resource combo_value_label format_916 {
+    combo_id = resource.combo_value.format_916.combo_id
+    language_id = resource.language.english.id
+    label = '9/16'
+}
+
+resource combo_value_label format_919 {
+    combo_id = resource.combo_value.format_919.combo_id
+    language_id = resource.language.english.id
+    label = '9/19'
+}
+
+resource combo_value_label format_1016 {
+    combo_id = resource.combo_value.format_1016.combo_id
+    language_id = resource.language.english.id
+    label = '10/16'
+}
+
+resource combo_value_label format_1610 {
+    combo_id = resource.combo_value.format_1610.combo_id
+    language_id = resource.language.english.id
+    label = '16/10'
+}
+
+resource combo_value_label format_2037 {
+    combo_id = resource.combo_value.format_2037.combo_id
+    language_id = resource.language.english.id
+    label = '20/37'
+}
+
+resource combo_value_label format_2047 {
+    combo_id = resource.combo_value.format_2047.combo_id
+    language_id = resource.language.english.id
+    label = '20/47'
+}
+
+resource combo_value_label format_21111 {
+    combo_id = resource.combo_value.format_21111.combo_id
+    language_id = resource.language.english.id
+    label = '2.1111'
+}
+
+resource combo_value_label format_academy_flat_10552 {
+    combo_id = resource.combo_value.format_academy_flat.combo_id
+    language_id = resource.language.english.id
+    label = 'Academy_Flat'
+}
+
+resource combo_value_label format_anamorphic_scope {
+    combo_id = resource.combo_value.format_anamorphic_scope.combo_id
+    language_id = resource.language.english.id
+    label = 'Anamorphic_Scope'
+}
+
+resource combo_value_label format_ntsc_34 {
+    combo_id = resource.combo_value.format_ntsc_34.combo_id
+    language_id = resource.language.english.id
+    label = 'NTSC_3/4'
+}
+
+resource combo_value_label format_ntsc_43 {
+    combo_id = resource.combo_value.format_ntsc_43.combo_id
+    language_id = resource.language.english.id
+    label = 'NTSC_4/3'
+}
+
+resource item_security format__anonymous {
+    accessor_item_id = resource.member_group.anonymous.item_id
+    item_id = resource.combovalue_metafield.format.item_id
+    read = true
+    write = false
+}
+
+resource item_security format__trusted {
+    accessor_item_id = resource.member_group.trusted.item_id
+    item_id = resource.combovalue_metafield.format.item_id
+    read = true
+    write = true
+}
+
+
 resource string_metafield crop_name {
-    max_length = 0
     item_guid = 'fa70d7f6-12ae-4f51-af05-6296d5608b7c'
     name = 'Crop name'
     group_id = resource.metafield_group.asset_info.metafield_group_id
-    sort_index = 0
-    visibility_metafield_id = 0
-    visibility_regex = ''
-    required = false
     readonly = true
     show_in_list = true
-    system = false
     auto_translate = 'Overwrite'
     restrict_to_asset_type = 'All'
-    upload_tag_name = ''
-    iterative = false
-    autolink {
-        item_guid = 'fa70d7f6-12ae-4f51-af05-6296d5608b7c'
-    }
 }
 
+resource metafield_label crop_name {
+	metafield_id = resource.string_metafield.crop_name.metafield_id
+	label = resource.string_metafield.crop_name.name
+	language_id = resource.language.english.id
+}
+
+resource item_security crop_name__trusted {
+    accessor_item_id = resource.member_group.trusted.item_id
+    item_id = resource.string_metafield.crop_name.item_id
+    read = true
+    write = true
+}
+
+
 resource tree_metafield media_manager_menu {
-    select_to_root = false
     item_guid = 'bf0ad1a6-984a-494e-a227-9d70c6a864f9'
     name = 'Media Manager menu'
     group_id = resource.metafield_group.asset_info.metafield_group_id
     sort_index = 40
-    visibility_metafield_id = 0
-    visibility_regex = ''
-    required = false
-    readonly = false
     show_in_list = true
-    system = false
     auto_translate = 'Overwrite'
     restrict_to_asset_type = 'All'
-    upload_tag_name = ''
-    iterative = false
-    autolink {
-        item_guid = 'bf0ad1a6-984a-494e-a227-9d70c6a864f9'
-    }
+}
+
+resource metafield_label media_manager_menu {
+	metafield_id = resource.tree_metafield.media_manager_menu.metafield_id
+	label = resource.tree_metafield.media_manager_menu.name
+	language_id = resource.language.english.id
 }
 
 resource item_security media_manager_menu__anonymous {
     accessor_item_id = resource.member_group.anonymous.item_id
     item_id = resource.tree_metafield.media_manager_menu.item_id
     read = true
-    write = true
+    write = false
 }
 
 resource item_security media_manager_menu__trusted {
     accessor_item_id = resource.member_group.trusted.item_id
     item_id = resource.tree_metafield.media_manager_menu.item_id
     read = true
-    write = false
+    write = true
 }
+
 
 resource meta_group_folder images {
 	name = 'Images'
 	parent_id = resource.meta_group_folder.asset.id
 }
 
-resource metafield_group images_10026 {
+resource metafield_group images {
 	name = 'Images'
 	description = ''
 	folder_id = resource.meta_group_folder.images.id
@@ -1772,65 +1688,58 @@ resource metafield_group images_10026 {
 	}
 }
 
-resource metafield_group_label images_10026 {
-	metafield_group_id = resource.metafield_group.images_10026.metafield_group_id
+resource metafield_group_label images {
+	metafield_group_id = resource.metafield_group.images.metafield_group_id
 	label = 'Image'
 	language_id = resource.language.english.id
 }
 
-resource item_security id_2364_trusted {
-	accessor_item_id = resource.member_group.trusted.item_id
-	item_id = resource.metafield_group.images_10026.item_id
-	read = true
-	write = true
-}
-
-resource item_security id_2364_anonymous {
+resource item_security images___anonymous {
 	accessor_item_id = resource.member_group.anonymous.item_id
-	item_id = resource.metafield_group.images_10026.item_id
+	item_id = resource.metafield_group.images.item_id
 	read = true
 	write = false
 }
 
-resource int_metafield assetversionid_10309 {
+resource item_security images__trusted {
+	accessor_item_id = resource.member_group.trusted.item_id
+	item_id = resource.metafield_group.images.item_id
+	read = true
+	write = true
+}
+
+
+resource int_metafield assetversionid {
     item_guid = '95793334-6675-4783-a396-aba78dcf3e15'
     name = 'AssetVersionId'
     group_id = resource.metafield_group.asset_info.metafield_group_id
     sort_index = 10309
-    visibility_metafield_id = 0
-    visibility_regex = ''
-    required = false
-    readonly = false
     show_in_list = false
     system = true
     auto_translate = 'Overwrite'
     restrict_to_asset_type = 'All'
-    upload_tag_name = ''
-    iterative = false
-    autolink {
-        item_guid = '95793334-6675-4783-a396-aba78dcf3e15'
-    }
 }
 
-resource metafield_label assetversionid_10781 {
-	metafield_id = resource.int_metafield.assetversionid_10309.metafield_id
+resource metafield_label assetversionid {
+	metafield_id = resource.int_metafield.assetversionid.metafield_id
 	label = 'AssetVersionId'
 	language_id = resource.language.english.id
 }
 
-resource item_security id_3185_trusted {
+resource item_security assetversionid__anonymous {
+	accessor_item_id = resource.member_group.anonymous.item_id
+	item_id = resource.int_metafield.assetversionid.item_id
+	read = true
+	write = false
+}
+
+resource item_security assetversionid__trusted {
 	accessor_item_id = resource.member_group.trusted.item_id
-	item_id = resource.int_metafield.assetversionid_10309.item_id
+	item_id = resource.int_metafield.assetversionid.item_id
 	read = true
 	write = true
 }
 
-resource item_security id_3185_anonymous {
-	accessor_item_id = resource.member_group.anonymous.item_id
-	item_id = resource.int_metafield.assetversionid_10309.item_id
-	read = true
-	write = false
-}
 
 resource metafield_group comments {
     name = 'Comments'

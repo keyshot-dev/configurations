@@ -212,7 +212,7 @@ resource item_security splashscreen__trusted {
     accessor_item_id = data.member_group.trusted.item_id
     item_id = resource.channel_folder.splashscreen.item_id
     read = true
-    write = false
+    write = true
 }
 
 resource item_security splashscreen__super_administrator {
@@ -243,7 +243,7 @@ resource item_security logo__trusted {
     accessor_item_id = data.member_group.trusted.item_id
     item_id = resource.channel_folder.logo.item_id
     read = true
-    write = false
+    write = true
 }
 
 resource item_security logo__super_administrator {
@@ -273,7 +273,7 @@ resource item_security profile_images__trusted {
     accessor_item_id = data.member_group.trusted.item_id
     item_id = resource.channel_folder.profile_images.item_id
     read = true
-    write = false
+    write = true
 }
 
 resource item_security profile_images__super_administrator {
