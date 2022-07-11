@@ -1057,8 +1057,8 @@ resource media_format jpg_full_size_50033 {
 }
 
 resource media_format image_preview_10038 {
-    folder_id = data.media_format_folder.import_10000.id
-    format_type_id = data.media_format_type.jpeg_compressed_formats_40001.media_format_type_id
+    folder_id = resource.media_format_folder.import_10000.id
+    format_type_id = resource.media_format_type.jpeg_compressed_formats_40001.media_format_type_id
     name = 'IMAGE_preview'
     description = ''
     width = 520
@@ -1097,4 +1097,7 @@ resource media_format image_preview_10038 {
     force_aspect = true
     output_quality = 0
     icc_profile = 'sRGB.icc'
+    autolink {
+        item_guid = 'e32f7135-6be3-4df0-8010-c7242e77087d'
+    }
 }

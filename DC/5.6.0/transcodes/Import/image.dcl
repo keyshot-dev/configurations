@@ -28,9 +28,12 @@ resource media_transcode image_preview_10046 {
     copy_target_icc_profile = false
     only_explicit_use = false
     prog_id = 'DigiImageMagicJobs.JobConvertImage'
-    folder_id = data.transcode_folder.import_10000.id
+    folder_id = resource.transcode_folder.import_10000.id
     embed_metadefinition = ''
-    source_media_format_id = data.media_format.image_50030.media_format_id
+    source_media_format_id = resource.media_format.image_50030.media_format_id
     target_media_format_id = resource.media_format.image_preview_10038.media_format_id
     prevref = 0
+    autolink = {
+        item_guid = '22ec6f35-b8eb-42db-bae5-19e6817b4de8'
+    }
 }
