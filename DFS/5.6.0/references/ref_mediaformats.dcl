@@ -36,19 +36,9 @@ data media_format image_50030 {
 	is_identity_format = true
 }
 
-data media_format adobe_photoshop_50012 {
-	name = 'Adobe Photoshop'
-	is_identity_format = true
-}
-
 data media_format adobe_indesign_50011 {
     name = 'Adobe InDesign'
 	is_identity_format = true
-}
-
-data media_format adobe_illustrator_50013 {
-    name = 'Adobe Illustrator'
-    is_identity_format = true
 }
 
 data media_format exifthumb_raw_50014 {
