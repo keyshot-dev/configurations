@@ -16,7 +16,7 @@ resource versioned_metadata_string_value theming_details {
     label_id = resource.metafield_label.theming_details.label_id
     version_id = resource.product.media_manager.base_version_id
     row_id = 1
-    value = '{"primary":{"backgroundColor":"#31b69f","textColor":"#ffffff","hoverColor":"#2ca28d","activeColor":"#299a86"}}'
+    value = '{"primary":{"backgroundColor":"#32e65e","textColor":"#ffffff","hoverColor":"#28dc54","activeColor":"#1ed24a"}}'
 }
 
 resource item_security theming_details__anonymous {
