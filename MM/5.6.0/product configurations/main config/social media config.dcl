@@ -10,6 +10,7 @@ resource metafield_label social_media_config {
     metafield_id = resource.string_metafield.social_media_config.metafield_id
     label = resource.string_metafield.social_media_config.name
     language_id = data.language.english.id
+    description = 'The options are "facebook|linkedin|twitter|google". They all need to be seperated by a pipe.'
 }
 
 resource versioned_metadata_string_value social_media_config {
