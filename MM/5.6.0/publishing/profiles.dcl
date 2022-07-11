@@ -37,8 +37,6 @@ resource profile oobe_media_manager_image_50016 {
         }, {
             media_format_id = data.media_format.jpg_big_preview.media_format_id
         }, {
-            media_format_id = data.media_format.image_preview.media_format_id
-        }, {
             media_format_id = data.media_format.desktop_video_thumb.media_format_id
         }, {
             media_format_id = data.media_format.tablet_video_thumb.media_format_id

@@ -70,10 +70,6 @@ data media_format jpg_big_preview {
     name = 'JPG Big Preview'    
 }
 
-data media_format image_preview {
-    name = 'IMAGE_preview'
-}
-
 data media_format jpg_full_size {
  	name = 'JPG full size'
 }
