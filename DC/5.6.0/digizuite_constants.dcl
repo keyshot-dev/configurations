@@ -172,7 +172,7 @@ resource digizuite_config member_group_metafieldgroupid {
 
 resource digizuite_config site_base_url {
     constant = 'SITE_BASE_URL'
-    config_value = "${variable.url}"
+    config_value = "${variable.dam_center_url}"
     description = 'Base URL til Digizuite Backend'
 	autolink {
 		constant = 'SITE_BASE_URL'
@@ -181,7 +181,7 @@ resource digizuite_config site_base_url {
 
 resource digizuite_config workarea_local_folder {
     constant = 'WORKAREA_LOCAL_FOLDER'
-    config_value = "${variable.storage}\\dmm\\Workarea"
+    config_value = "${variable.storage_path}\\dmm\\Workarea"
     description = 'Workarea for DigiBatch job processors'
 	autolink {
 		constant = 'WORKAREA_LOCAL_FOLDER'
@@ -199,7 +199,7 @@ resource digizuite_config enable_autoasterisk_prepost_fulltextindexing {
 
 resource digizuite_config site_installpath {
     constant = 'SITE_INSTALLPATH'
-    config_value = "${variable.installpath}"
+    config_value = "${variable.dam_center_install_path}"
     description = 'Location of DMM3 Backend on webserver'
 	autolink {
 		constant = 'SITE_INSTALLPATH'
@@ -253,7 +253,7 @@ resource digizuite_config createuser_backend_autoadded_groups {
 
 resource digizuite_config digiupload_destinationunc {
     constant = 'DIGIUPLOAD_DESTINATIONUNC'
-    config_value = "${variable.storage}\\dmm\\Upload"
+    config_value = "${variable.storage_path}\\dmm\\Upload"
     description = 'Hvis DigiUpload anvender FileCopy istedet for ftp, så indeholder denne parameter stien hvortil der kopieres'
 	autolink {
 		constant = 'DIGIUPLOAD_DESTINATIONUNC'
@@ -325,7 +325,7 @@ resource digizuite_config folderupdate_debounce_time {
 
 resource digizuite_config icc_profile_local_folder {
     constant = 'ICC_PROFILE_LOCAL_FOLDER'
-    config_value = "${variable.storage}\\dmm\\iccprofiles"
+    config_value = "${variable.storage_path}\\dmm\\iccprofiles"
     description = 'ICC Profile local folder'
 	autolink {
 		constant = 'ICC_PROFILE_LOCAL_FOLDER'
@@ -343,7 +343,7 @@ resource digizuite_config accesscookie_timeout {
 
 resource digizuite_config dmm_storage_root {
     constant = 'DMM_STORAGE_ROOT'
-    config_value = "${variable.storage}\\dmm"
+    config_value = "${variable.storage_path}\\dmm"
     description = 'Storage Root folder for DMM'
 	autolink {
 		constant = 'DMM_STORAGE_ROOT'
@@ -406,7 +406,7 @@ resource digizuite_config folderupdate_debounce_strategy {
 
 resource digizuite_config upload_destination_localfolder {
     constant = 'UPLOAD_DESTINATION_LOCALFOLDER'
-    config_value = "${variable.storage}\\dmm\\Upload"
+    config_value = "${variable.storage_path}\\dmm\\Upload"
     description = 'Upload folder for assetstream'
 	autolink {
 		constant = 'UPLOAD_DESTINATION_LOCALFOLDER'
