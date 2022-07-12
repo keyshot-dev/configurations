@@ -1,5 +1,5 @@
 resource media_format microstation_design_dgn_50068 {
-    folder_id = resource.media_format_folder.import_10000.id
+    folder_id = resource.media_format_folder.source_formats.id
     format_type_id = resource.media_format_type.microstation_design_190003.media_format_type_id
     name = 'MicroStation Design (.dgn)'
     description = ''
@@ -45,7 +45,7 @@ resource media_format microstation_design_dgn_50068 {
 }
 
 resource media_format powerpoint_template_potx_50045 {
-    folder_id = resource.media_format_folder.import_10000.id
+    folder_id = resource.media_format_folder.source_formats.id
     format_type_id = resource.media_format_type.powerpoint_template_50003.media_format_type_id
     name = 'PowerPoint template (.potx)'
     description = ''
@@ -91,7 +91,7 @@ resource media_format powerpoint_template_potx_50045 {
 }
 
 resource media_format latex_font_etx_50087 {
-    folder_id = resource.media_format_folder.import_10000.id
+    folder_id = resource.media_format_folder.source_formats.id
     format_type_id = resource.media_format_type.latex_font_200105.media_format_type_id
     name = 'LaTex Font (.etx)'
     description = ''
@@ -137,7 +137,7 @@ resource media_format latex_font_etx_50087 {
 }
 
 resource media_format html_50031 {
-    folder_id = resource.media_format_folder.import_10000.id
+    folder_id = resource.media_format_folder.source_formats.id
     format_type_id = resource.media_format_type.archive_200001.media_format_type_id
     name = 'HTML'
     description = ''
@@ -183,7 +183,7 @@ resource media_format html_50031 {
 }
 
 resource media_format stereolithography_stl_50070 {
-    folder_id = resource.media_format_folder.import_10000.id
+    folder_id = resource.media_format_folder.source_formats.id
     format_type_id = resource.media_format_type.stereolithography_190005.media_format_type_id
     name = 'Stereolithography (.stl)'
     description = ''
@@ -229,7 +229,7 @@ resource media_format stereolithography_stl_50070 {
 }
 
 resource media_format openoffice_writer_document_template_ott_50075 {
-    folder_id = resource.media_format_folder.import_10000.id
+    folder_id = resource.media_format_folder.source_formats.id
     format_type_id = resource.media_format_type.openoffice_writer_template_1010001.media_format_type_id
     name = 'OpenOffice writer document template (.ott)'
     description = ''
@@ -275,7 +275,7 @@ resource media_format openoffice_writer_document_template_ott_50075 {
 }
 
 resource media_format industry_foundation_classes_ifc_50069 {
-    folder_id = resource.media_format_folder.import_10000.id
+    folder_id = resource.media_format_folder.source_formats.id
     format_type_id = resource.media_format_type.industry_foundation_classes_190004.media_format_type_id
     name = 'Industry Foundation Classes (.ifc)'
     description = ''
@@ -321,7 +321,7 @@ resource media_format industry_foundation_classes_ifc_50069 {
 }
 
 resource media_format adobe_type1_font_pfa_50088 {
-    folder_id = resource.media_format_folder.import_10000.id
+    folder_id = resource.media_format_folder.source_formats.id
     format_type_id = resource.media_format_type.adobe_type1_font_200106.media_format_type_id
     name = 'Adobe Type1 Font (.pfa)'
     description = ''
@@ -367,7 +367,7 @@ resource media_format adobe_type1_font_pfa_50088 {
 }
 
 resource media_format premiere_pro_project_prproj_50081 {
-    folder_id = resource.media_format_folder.import_10000.id
+    folder_id = resource.media_format_folder.source_formats.id
     format_type_id = resource.media_format_type.premiere_pro_project_220000.media_format_type_id
     name = 'Premiere Pro Project (.prproj)'
     description = ''
@@ -413,7 +413,7 @@ resource media_format premiere_pro_project_prproj_50081 {
 }
 
 resource media_format after_effects_project_aep_50082 {
-    folder_id = resource.media_format_folder.import_10000.id
+    folder_id = resource.media_format_folder.source_formats.id
     format_type_id = resource.media_format_type.after_effects_project_210000.media_format_type_id
     name = 'After Effects Project (.aep)'
     description = ''
@@ -459,7 +459,7 @@ resource media_format after_effects_project_aep_50082 {
 }
 
 resource media_format open_type_font_otf_50084 {
-    folder_id = resource.media_format_folder.import_10000.id
+    folder_id = resource.media_format_folder.source_formats.id
     format_type_id = resource.media_format_type.open_type_font_200102.media_format_type_id
     name = 'Open Type Font (.otf)'
     description = ''
@@ -505,7 +505,7 @@ resource media_format open_type_font_otf_50084 {
 }
 
 resource media_format powerpoint_10077 {
-    folder_id = resource.media_format_folder.import_10000.id
+    folder_id = resource.media_format_folder.source_formats.id
     format_type_id = resource.media_format_type.powerpoint_presentation_50001.media_format_type_id
     name = 'Powerpoint'
     description = ''
@@ -551,7 +551,7 @@ resource media_format powerpoint_10077 {
 }
 
 resource media_format design_web_format_dwf_50073 {
-    folder_id = resource.media_format_folder.import_10000.id
+    folder_id = resource.media_format_folder.source_formats.id
     format_type_id = resource.media_format_type.design_web_format_190008.media_format_type_id
     name = 'Design Web Format (.dwf)'
     description = ''
@@ -597,7 +597,7 @@ resource media_format design_web_format_dwf_50073 {
 }
 
 resource media_format legacy_powerpoint_template_pot_50050 {
-    folder_id = resource.media_format_folder.import_10000.id
+    folder_id = resource.media_format_folder.source_formats.id
     format_type_id = resource.media_format_type.legacy_powerpoint_template_50008.media_format_type_id
     name = 'Legacy powerpoint template (.pot)'
     description = ''
@@ -643,7 +643,7 @@ resource media_format legacy_powerpoint_template_pot_50050 {
 }
 
 resource media_format audio_50029 {
-    folder_id = resource.media_format_folder.import_10000.id
+    folder_id = resource.media_format_folder.source_formats.id
     format_type_id = resource.media_format_type.archive_200001.media_format_type_id
     name = 'AUDIO'
     description = ''
@@ -689,7 +689,7 @@ resource media_format audio_50029 {
 }
 
 resource media_format web_open_font_format_woff_50085 {
-    folder_id = resource.media_format_folder.import_10000.id
+    folder_id = resource.media_format_folder.source_formats.id
     format_type_id = resource.media_format_type.web_open_font_format_200103.media_format_type_id
     name = 'Web Open Font Format (.woff)'
     description = ''
@@ -735,7 +735,7 @@ resource media_format web_open_font_format_woff_50085 {
 }
 
 resource media_format openoffice_calc_document_ods_50076 {
-    folder_id = resource.media_format_folder.import_10000.id
+    folder_id = resource.media_format_folder.source_formats.id
     format_type_id = resource.media_format_type.openoffice_calc_document_1020001.media_format_type_id
     name = 'OpenOffice calc document (.ods)'
     description = ''
@@ -781,7 +781,7 @@ resource media_format openoffice_calc_document_ods_50076 {
 }
 
 resource media_format adobe_indesign_50011 {
-    folder_id = resource.media_format_folder.import_10000.id
+    folder_id = resource.media_format_folder.source_formats.id
     format_type_id = resource.media_format_type.indesign_100001.media_format_type_id
     name = 'Adobe InDesign'
     description = ''
@@ -827,7 +827,7 @@ resource media_format adobe_indesign_50011 {
 }
 
 resource media_format openoffice_calc_document_template_ots_50077 {
-    folder_id = resource.media_format_folder.import_10000.id
+    folder_id = resource.media_format_folder.source_formats.id
     format_type_id = resource.media_format_type.openoffice_calc_template_1030001.media_format_type_id
     name = 'OpenOffice calc document template (.ots)'
     description = ''
@@ -873,7 +873,7 @@ resource media_format openoffice_calc_document_template_ots_50077 {
 }
 
 resource media_format truetype_font_ttf_50083 {
-    folder_id = resource.media_format_folder.import_10000.id
+    folder_id = resource.media_format_folder.source_formats.id
     format_type_id = resource.media_format_type.truetype_font_200101.media_format_type_id
     name = 'TrueType Font (.ttf)'
     description = ''
@@ -919,7 +919,7 @@ resource media_format truetype_font_ttf_50083 {
 }
 
 resource media_format adobe_pdf_50009 {
-    folder_id = resource.media_format_folder.import_10000.id
+    folder_id = resource.media_format_folder.source_formats.id
     format_type_id = resource.media_format_type.portable_document_format_40002.media_format_type_id
     name = 'Adobe PDF'
     description = ''
@@ -965,7 +965,7 @@ resource media_format adobe_pdf_50009 {
 }
 
 resource media_format excel_template_xltx_50059 {
-    folder_id = resource.media_format_folder.import_10000.id
+    folder_id = resource.media_format_folder.source_formats.id
     format_type_id = resource.media_format_type.excel_template_90003.media_format_type_id
     name = 'Excel template (.xltx)'
     description = ''
@@ -1011,7 +1011,7 @@ resource media_format excel_template_xltx_50059 {
 }
 
 resource media_format autocad_drawing_database_dwg_50066 {
-    folder_id = resource.media_format_folder.import_10000.id
+    folder_id = resource.media_format_folder.source_formats.id
     format_type_id = resource.media_format_type.autocad_drawing_database_190001.media_format_type_id
     name = 'AutoCAD Drawing Database (.dwg)'
     description = ''
@@ -1057,7 +1057,7 @@ resource media_format autocad_drawing_database_dwg_50066 {
 }
 
 resource media_format video_10053 {
-    folder_id = resource.media_format_folder.import_10000.id
+    folder_id = resource.media_format_folder.source_formats.id
     format_type_id = resource.media_format_type.archive_200001.media_format_type_id
     name = 'VIDEO'
     description = 'Dette er default video formatet - hvis ikke andet er specificeret'
@@ -1103,7 +1103,7 @@ resource media_format video_10053 {
 }
 
 resource media_format visio_drawing_vsdx_50063 {
-    folder_id = resource.media_format_folder.import_10000.id
+    folder_id = resource.media_format_folder.source_formats.id
     format_type_id = resource.media_format_type.visio_drawing_180001.media_format_type_id
     name = 'Visio drawing (.vsdx)'
     description = ''
@@ -1149,7 +1149,7 @@ resource media_format visio_drawing_vsdx_50063 {
 }
 
 resource media_format word_document_docx_50052 {
-    folder_id = resource.media_format_folder.import_10000.id
+    folder_id = resource.media_format_folder.source_formats.id
     format_type_id = resource.media_format_type.word_document_80002.media_format_type_id
     name = 'Word document (.docx)'
     description = ''
@@ -1195,7 +1195,7 @@ resource media_format word_document_docx_50052 {
 }
 
 resource media_format excel_workbook_xlsx_50058 {
-    folder_id = resource.media_format_folder.import_10000.id
+    folder_id = resource.media_format_folder.source_formats.id
     format_type_id = resource.media_format_type.excel_workbook_90002.media_format_type_id
     name = 'Excel workbook (.xlsx)'
     description = ''
@@ -1241,7 +1241,7 @@ resource media_format excel_workbook_xlsx_50058 {
 }
 
 resource media_format image_50030 {
-    folder_id = resource.media_format_folder.import_10000.id
+    folder_id = resource.media_format_folder.source_formats.id
     format_type_id = resource.media_format_type.archive_200001.media_format_type_id
     name = 'IMAGE'
     description = ''
@@ -1287,7 +1287,7 @@ resource media_format image_50030 {
 }
 
 resource media_format windows_font_fnt_50089 {
-    folder_id = resource.media_format_folder.import_10000.id
+    folder_id = resource.media_format_folder.source_formats.id
     format_type_id = resource.media_format_type.windows_font_200107.media_format_type_id
     name = 'Windows Font (.fnt)'
     description = ''
@@ -1346,7 +1346,7 @@ resource media_format windows_font_library_fon_50090 {
     encoder_profile_name = ''
     encoding = 1002
     encoding_bitrate = 0
-    folder_id = resource.media_format_folder.import_10000.id
+    folder_id = resource.media_format_folder.source_formats.id
     force_aspect = false
     format_type_id = resource.media_format_type.windows_font_library_200108.media_format_type_id
     format_xml = ''
@@ -1379,7 +1379,7 @@ resource media_format windows_font_library_fon_50090 {
 }
 
 resource media_format visio_stencil_vssx_50065 {
-    folder_id = resource.media_format_folder.import_10000.id
+    folder_id = resource.media_format_folder.source_formats.id
     format_type_id = resource.media_format_type.visio_stencil_180002.media_format_type_id
     name = 'Visio stencil (.vssx)'
     description = ''
@@ -1425,7 +1425,7 @@ resource media_format visio_stencil_vssx_50065 {
 }
 
 resource media_format visio_template_vstx_50064 {
-    folder_id = resource.media_format_folder.import_10000.id
+    folder_id = resource.media_format_folder.source_formats.id
     format_type_id = resource.media_format_type.visio_drawing_180001.media_format_type_id
     name = 'Visio template (.vstx)'
     description = ''
@@ -1471,7 +1471,7 @@ resource media_format visio_template_vstx_50064 {
 }
 
 resource media_format word_template_dotx_50053 {
-    folder_id = resource.media_format_folder.import_10000.id
+    folder_id = resource.media_format_folder.source_formats.id
     format_type_id = resource.media_format_type.word_template_80003.media_format_type_id
     name = 'Word template (.dotx)'
     description = ''
@@ -1517,7 +1517,7 @@ resource media_format word_template_dotx_50053 {
 }
 
 resource media_format autocad_drawing_template_dwt_50071 {
-    folder_id = resource.media_format_folder.import_10000.id
+    folder_id = resource.media_format_folder.source_formats.id
     format_type_id = resource.media_format_type.autocad_drawing_template_190006.media_format_type_id
     name = 'AutoCAD Drawing Template (.dwt)'
     description = ''
@@ -1563,7 +1563,7 @@ resource media_format autocad_drawing_template_dwt_50071 {
 }
 
 resource media_format legacy_word_template_dot_50056 {
-    folder_id = resource.media_format_folder.import_10000.id
+    folder_id = resource.media_format_folder.source_formats.id
     format_type_id = resource.media_format_type.legacy_word_template_80006.media_format_type_id
     name = 'Legacy word template (.dot)'
     description = ''
@@ -1609,7 +1609,7 @@ resource media_format legacy_word_template_dot_50056 {
 }
 
 resource media_format openoffice_impress_document_odp_50078 {
-    folder_id = resource.media_format_folder.import_10000.id
+    folder_id = resource.media_format_folder.source_formats.id
     format_type_id = resource.media_format_type.openoffice_impress_document_1050001.media_format_type_id
     name = 'OpenOffice impress document (.odp)'
     description = ''
@@ -1655,7 +1655,7 @@ resource media_format openoffice_impress_document_odp_50078 {
 }
 
 resource media_format drawing_exchange_format_dxf_50067 {
-    folder_id = resource.media_format_folder.import_10000.id
+    folder_id = resource.media_format_folder.source_formats.id
     format_type_id = resource.media_format_type.drawing_exchange_format_190002.media_format_type_id
     name = 'Drawing Exchange Format (.dxf)'
     description = ''
@@ -1701,7 +1701,7 @@ resource media_format drawing_exchange_format_dxf_50067 {
 }
 
 resource media_format openoffice_impress_document_template_otp_50079 {
-    folder_id = resource.media_format_folder.import_10000.id
+    folder_id = resource.media_format_folder.source_formats.id
     format_type_id = resource.media_format_type.openoffice_impress_template_1060001.media_format_type_id
     name = 'OpenOffice impress document template (.otp)'
     description = ''
@@ -1747,7 +1747,7 @@ resource media_format openoffice_impress_document_template_otp_50079 {
 }
 
 resource media_format web_open_font_format2_woff2_50086 {
-    folder_id = resource.media_format_folder.import_10000.id
+    folder_id = resource.media_format_folder.source_formats.id
     format_type_id = resource.media_format_type.web_open_font_format_2_200104.media_format_type_id
     name = 'Web Open Font Format2 (.woff2)'
     description = ''
@@ -1793,7 +1793,7 @@ resource media_format web_open_font_format2_woff2_50086 {
 }
 
 resource media_format powerpoint_slideshow_ppsx_50048 {
-    folder_id = resource.media_format_folder.import_10000.id
+    folder_id = resource.media_format_folder.source_formats.id
     format_type_id = resource.media_format_type.powerpoint_slideshow_50006.media_format_type_id
     name = 'Powerpoint slideshow (.ppsx)'
     description = ''
@@ -1839,7 +1839,7 @@ resource media_format powerpoint_slideshow_ppsx_50048 {
 }
 
 resource media_format hpgl_plot_plt_50072 {
-    folder_id = resource.media_format_folder.import_10000.id
+    folder_id = resource.media_format_folder.source_formats.id
     format_type_id = resource.media_format_type.hpgl_plot_190007.media_format_type_id
     name = 'HPGL Plot (.plt)'
     description = ''
@@ -1885,7 +1885,7 @@ resource media_format hpgl_plot_plt_50072 {
 }
 
 resource media_format openoffice_writer_document_odt_50074 {
-    folder_id = resource.media_format_folder.import_10000.id
+    folder_id = resource.media_format_folder.source_formats.id
     format_type_id = resource.media_format_type.openoffice_writer_document_1000001.media_format_type_id
     name = 'OpenOffice writer document (.odt)'
     description = ''
@@ -1930,12 +1930,8 @@ resource media_format openoffice_writer_document_odt_50074 {
 	}
 }
 
-
-
-
-
 resource media_format waveform_obj_file_50027 {
-    folder_id = resource.media_format_folder.import_10000.id
+    folder_id = resource.media_format_folder.source_formats.id
     format_type_id = resource.media_format_type.wavefront_obj_file_130003.media_format_type_id
     name = 'Waveform obj file'
     description = ''
@@ -1981,7 +1977,7 @@ resource media_format waveform_obj_file_50027 {
 }
 
 resource media_format powerpoint_macroenabled_slideshow_ppsm_50049 {
-    folder_id = resource.media_format_folder.import_10000.id
+    folder_id = resource.media_format_folder.source_formats.id
     format_type_id = resource.media_format_type.powerpoint_macroenabled_slideshow_50007.media_format_type_id
     name = 'Powerpoint macro-enabled slideshow (.ppsm)'
     description = ''
@@ -2027,7 +2023,7 @@ resource media_format powerpoint_macroenabled_slideshow_ppsm_50049 {
 }
 
 resource media_format powerpoint_macroenabled_presentation_pptm_50046 {
-    folder_id = resource.media_format_folder.import_10000.id
+    folder_id = resource.media_format_folder.source_formats.id
     format_type_id = resource.media_format_type.powerpoint_macroenabled_presentation_50004.media_format_type_id
     name = 'PowerPoint macro-enabled presentation (.pptm)'
     description = ''
@@ -2073,7 +2069,7 @@ resource media_format powerpoint_macroenabled_presentation_pptm_50046 {
 }
 
 resource media_format powerpoint_macroenabled_template_potm_50047 {
-    folder_id = resource.media_format_folder.import_10000.id
+    folder_id = resource.media_format_folder.source_formats.id
     format_type_id = resource.media_format_type.powerpoint_macroenabled_template_50005.media_format_type_id
     name = 'PowerPoint macro-enabled template (.potm)'
     description = ''
@@ -2119,7 +2115,7 @@ resource media_format powerpoint_macroenabled_template_potm_50047 {
 }
 
 resource media_format word_document_with_macros_docm_50054 {
-    folder_id = resource.media_format_folder.import_10000.id
+    folder_id = resource.media_format_folder.source_formats.id
     format_type_id = resource.media_format_type.word_macroenabled_document_80004.media_format_type_id
     name = 'Word document with macros (.docm)'
     description = ''
@@ -2165,7 +2161,7 @@ resource media_format word_document_with_macros_docm_50054 {
 }
 
 resource media_format word_template_with_macros_dotm_50055 {
-    folder_id = resource.media_format_folder.import_10000.id
+    folder_id = resource.media_format_folder.source_formats.id
     format_type_id = resource.media_format_type.word_macroenabled_template_80005.media_format_type_id
     name = 'Word template with macros (.dotm)'
     description = ''
@@ -2211,7 +2207,7 @@ resource media_format word_template_with_macros_dotm_50055 {
 }
 
 resource media_format legacy_excel_workbook_xlt_50057 {
-    folder_id = resource.media_format_folder.import_10000.id
+    folder_id = resource.media_format_folder.source_formats.id
     format_type_id = resource.media_format_type.legacy_excel_90001.media_format_type_id
     name = 'Legacy Excel workbook (.xlt)'
     description = ''
@@ -2257,7 +2253,7 @@ resource media_format legacy_excel_workbook_xlt_50057 {
 }
 
 resource media_format legacy_word_document_doc_50051 {
-    folder_id = resource.media_format_folder.import_10000.id
+    folder_id = resource.media_format_folder.source_formats.id
     format_type_id = resource.media_format_type.legacy_word_80001.media_format_type_id
     name = 'Legacy word document (.doc)'
     description = ''
@@ -2303,7 +2299,7 @@ resource media_format legacy_word_document_doc_50051 {
 }
 
 resource media_format legacy_powerpoint_ppt_50044 {
-    folder_id = resource.media_format_folder.import_10000.id
+    folder_id = resource.media_format_folder.source_formats.id
     format_type_id = resource.media_format_type.legacy_powerpoint_50002.media_format_type_id
     name = 'Legacy powerpoint (.ppt)'
     description = ''
@@ -2349,7 +2345,7 @@ resource media_format legacy_powerpoint_ppt_50044 {
 }
 
 resource media_format waveform_mtl_file_50028 {
-    folder_id = resource.media_format_folder.import_10000.id
+    folder_id = resource.media_format_folder.source_formats.id
     format_type_id = resource.media_format_type.wavefront_mtl_file_130004.media_format_type_id
     name = 'Waveform mtl file'
     description = ''
@@ -2395,7 +2391,7 @@ resource media_format waveform_mtl_file_50028 {
 }
 
 resource media_format excel_macroenabled_workbook_xlsm_50060 {
-    folder_id = resource.media_format_folder.import_10000.id
+    folder_id = resource.media_format_folder.source_formats.id
     format_type_id = resource.media_format_type.excel_macroenabled_workbook_90004.media_format_type_id
     name = 'Excel macro-enabled workbook (.xlsm)'
     description = ''
@@ -2441,7 +2437,7 @@ resource media_format excel_macroenabled_workbook_xlsm_50060 {
 }
 
 resource media_format excel_macroenabled_template_xltm_50061 {
-    folder_id = resource.media_format_folder.import_10000.id
+    folder_id = resource.media_format_folder.source_formats.id
     format_type_id = resource.media_format_type.excel_macroenabled_template_90005.media_format_type_id
     name = 'Excel macro-enabled template (.xltm)'
     description = ''
@@ -2487,7 +2483,7 @@ resource media_format excel_macroenabled_template_xltm_50061 {
 }
 
 resource media_format excel_binary_workbook_xlsb_50062 {
-    folder_id = resource.media_format_folder.import_10000.id
+    folder_id = resource.media_format_folder.source_formats.id
     format_type_id = resource.media_format_type.excel_binary_workbook_90006.media_format_type_id
     name = 'Excel Binary Workbook (.xlsb)'
     description = ''
@@ -2533,7 +2529,7 @@ resource media_format excel_binary_workbook_xlsb_50062 {
 }
 
 resource media_format autodesk_3d_studio_max_file_50026 {
-    folder_id = resource.media_format_folder.import_10000.id
+    folder_id = resource.media_format_folder.source_formats.id
     format_type_id = resource.media_format_type.autodesk_3d_studio_max_130002.media_format_type_id
     name = 'Autodesk 3D Studio Max file'
     description = ''
