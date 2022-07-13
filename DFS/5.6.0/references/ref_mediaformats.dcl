@@ -3,6 +3,10 @@
     name = 'Standard'
 }
 
+data media_format_folder digizuite_media_manager_10003 {
+    name = 'Digizuite™ Media Manager'
+}
+
 data media_format_folder video_193 {
     parent_id = data.media_format_folder.oobe_185.id
     name = 'Video'
@@ -95,4 +99,8 @@ data media_format_folder image_189 {
 
 data media_format jpg_full_size_50033 {
  	name = 'JPG full size'
+}
+
+data media_format extract_indesign_thumb_10048 {
+	name = 'Extract InDesign Thumb'
 }
