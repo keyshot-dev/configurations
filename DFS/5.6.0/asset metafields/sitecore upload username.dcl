@@ -1,11 +1,4 @@
-﻿resource item_security id_9420_9494 {
-    accessor_item_id = resource.member_group.dam_for_sitecore_administrators.item_id
-    item_id = data.string_metafield.crop_name_50377.item_id
-    read = true
-    write = true
-}
-
-resource string_metafield sitecore_upload_username_50401 {
+﻿resource string_metafield sitecore_upload_username_50401 {
     max_length = 0
     item_guid = '482b1a6b-72dc-4cbf-8901-ed9d0b36a3c6'
     name = 'Sitecore upload username'
@@ -39,4 +32,3 @@ resource item_security id_9606_4926 {
     read = true
     write = true
 }
-

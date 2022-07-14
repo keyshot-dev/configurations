@@ -1,8 +1,4 @@
-﻿resource member_folder dam_for_sitecore_35000 {
-    parent_id = 0
-    name = 'DAM for Sitecore'
-}
-resource member dam_for_sitecore {
+﻿resource member dam_for_sitecore {
     username = 'DAM for Sitecore'
 	language = data.language.english.id
     folder_id = resource.member_folder.dam_for_sitecore_35000.id
@@ -28,7 +24,7 @@ resource member dam_for_sitecore {
     }
 }
 
-resource member annonymous {
+resource member extranet_anonymous {
     username = 'extranet\\anonymous'
 	language = data.language.english.id
     folder_id = resource.member_folder.dam_for_sitecore_35000.id
@@ -48,4 +44,3 @@ resource member annonymous {
 		item_guid = '133ffde0-c2e6-48a2-bf07-f72c86812664'
 	}
 }
-

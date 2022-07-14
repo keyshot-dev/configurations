@@ -29,8 +29,7 @@
       <valueField id="assetType" fieldName="asset.asset_type" />
       <valueField id="displayAssetType" fieldName="asset.asset_type" />
       <valueField id="name" itemGuid="${to_string(data.string_metafield.title_50181.item_guid)}" />
-      <valueField id="description" itemGuid="${to_string(data.note_metafield.description_50182.item_guid)}" />
-      <valueField id="channels" itemGuid="${to_string(resource.tree_metafield.channel_20.item_guid)}" field="item_tree_valueid" isArray="true" />
+      <valueField id="description" itemGuid="${to_string(data.note_metafield.description_50182.item_guid)}" />      
       <valueField id="menus" itemGuid="${to_string(data.tree_metafield.media_manager_menu.item_guid)}" field="item_tree_valueid" isArray="true" />
       <valueField id="fileSize" fieldName="asset.file_size" />
       <valueField id="displayFileSize" fieldName="asset.file_size" />

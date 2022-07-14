@@ -29,3 +29,13 @@ data string_metafield crop_name_50377 {
 data int_metafield assetversionid_10309 {
 	item_guid = '95793334-6675-4783-a396-aba78dcf3e15'
 }
+
+data metafield_label media_manager_menu {
+	label = 'Media Manager menu'
+	language_id = data.language.english.id
+}
+
+data metafield_label crop_name {
+	label = 'Crop name'
+	language_id = data.language.english.id
+}
