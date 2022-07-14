@@ -1,6 +1,6 @@
 ﻿resource search getassets_367 {
 	version_id = resource.product.digizuite_dam_for_sitecore.base_version_id
-	name = 'getassets'
+	name = 'GetAssets'
 	is_customizable = true
 	search_xml = '<search name="GetAssets">
   <searchSection>
