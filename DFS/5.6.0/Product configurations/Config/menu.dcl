@@ -35,6 +35,6 @@ resource versioned_metadata_multi_references menu_9449_51464_1 {
 	}]
 	item_id = resource.product.digizuite_dam_for_sitecore.item_id
 	version_id = resource.product.digizuite_dam_for_sitecore.base_version_id
-	label_id = data.metafield_label.media_manager_menu.label_id
+	label_id = resource.metafield_label.menu_51464.label_id
 	row_id = 1
 }
