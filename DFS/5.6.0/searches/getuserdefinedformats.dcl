@@ -1,8 +1,8 @@
 ﻿resource search getuserdefinedformats_383 {
 	version_id = resource.product.digizuite_dam_for_sitecore.base_version_id
-	name = 'getuserdefinedformats'
+	name = 'GetUserDefinedFormats'
 	is_customizable = false
-	search_xml = '﻿<search name="GetUserDefinedFormats">
+	search_xml = '<search name="GetUserDefinedFormats">
   <searchSection>
     <searchFields>
       <searchField id="folderId" fieldName="media_format.foldermedia_formatID" operator="AND" valueHandler="Equals" />

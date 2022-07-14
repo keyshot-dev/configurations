@@ -1,8 +1,8 @@
 ﻿resource search getdefaultpreviews_390 {
 	version_id = resource.product.digizuite_dam_for_sitecore.base_version_id
-	name = 'getdefaultpreviews'
+	name = 'GetDefaultPreviews'
 	is_customizable = false
-	search_xml = '﻿<search name="GetDefaultPreviews">
+	search_xml = '<search name="GetDefaultPreviews">
   <searchSection>
     <searchFields>
       <searchField id="productGuid" fieldName="item.itemguid" valueHandler="Equals">

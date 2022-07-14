@@ -1,8 +1,8 @@
 ﻿resource search getmodifiedassets_389 {
 	version_id = resource.product.digizuite_dam_for_sitecore.base_version_id
-	name = 'getmodifiedassets'
+	name = 'GetModifiedAssets'
 	is_customizable = true
-	search_xml = '﻿<search name="GetModifiedAssets">
+	search_xml = '<search name="GetModifiedAssets">
   <searchSection>
     <searchFields>
       <searchField id="lastChangeDate" fieldName="asset.lastchangeddate" operator="AND" valueHandler="Between" visible="true" renderType="datebetween" />

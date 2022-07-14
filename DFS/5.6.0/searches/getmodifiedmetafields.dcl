@@ -1,8 +1,8 @@
 ﻿resource search getmodifiedmetafields_392 {
 	version_id = resource.product.digizuite_dam_for_sitecore.base_version_id
-	name = 'getmodifiedmetafields'
+	name = 'GetModifiedMetafields'
 	is_customizable = false
-	search_xml = '﻿<search name="GetModifiedMetafields">
+	search_xml = '<search name="GetModifiedMetafields">
   <searchSection>
     <searchFields>
       <searchField id="lastChangedDate" fieldStructure="item_metafield.lastHierarchyChangedDate" operator="AND" valueHandler="Between" visible="true" renderType="datebetween" />

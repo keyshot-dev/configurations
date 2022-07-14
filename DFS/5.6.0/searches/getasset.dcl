@@ -1,8 +1,8 @@
 ﻿resource search getasset_368 {
 	version_id = resource.product.digizuite_dam_for_sitecore.base_version_id
-	name = 'getasset'
+	name = 'GetAsset'
 	is_customizable = true
-	search_xml = '﻿<search name="GetAsset">
+	search_xml = '<search name="GetAsset">
   <searchSection>
     <searchFields>
       <searchField id="assetId" fieldName="asset.assetid" operator="AND" valueHandler="Equals" />

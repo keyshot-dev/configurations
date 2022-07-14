@@ -1,8 +1,8 @@
 ﻿resource search getconfigs_371 {
 	version_id = resource.product.digizuite_dam_for_sitecore.base_version_id
-	name = 'getconfigs'
+	name = 'GetConfigs'
 	is_customizable = false
-	search_xml = '﻿<search name="GetConfigs">
+	search_xml = '<search name="GetConfigs">
   <searchSection>
     <searchFields>
       <searchField id="productGuid" fieldName="item.itemguid" valueHandler="Equals">

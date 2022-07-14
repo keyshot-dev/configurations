@@ -1,8 +1,8 @@
 ﻿resource search getdefaultpreviewsforinstaller_391 {
 	version_id = resource.product.digizuite_dam_for_sitecore.base_version_id
-	name = 'getdefaultpreviewsforinstaller'
+	name = 'GetDefaultPreviewsForInstaller'
 	is_customizable = false
-	search_xml = '﻿<search name="GetDefaultPreviewsForInstaller">
+	search_xml = '<search name="GetDefaultPreviewsForInstaller">
   <searchSection>
     <searchFields>
       <searchField id="productGuid" fieldName="item.itemguid" valueHandler="Equals">

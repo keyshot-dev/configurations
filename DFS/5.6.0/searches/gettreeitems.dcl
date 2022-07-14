@@ -1,8 +1,8 @@
 ﻿resource search gettreeitems_369 {
 	version_id = resource.product.digizuite_dam_for_sitecore.base_version_id
-	name = 'gettreeitems'
+	name = 'GetTreeItems'
 	is_customizable = false
-	search_xml = '﻿<search name="GetTreeItems">
+	search_xml = '<search name="GetTreeItems">
   <searchSection>
     <searchFields>
       <searchField id="folderId" valueHandler="Equals" fieldStructure="item_tree_value.prevref" />

@@ -1,13 +1,11 @@
-﻿resource search gettree_370 {
+﻿resource search gettreeitem_380 {
 	version_id = resource.product.digizuite_dam_for_sitecore.base_version_id
-	name = 'gettree'
+	name = 'GetTreeItem'
 	is_customizable = false
-	search_xml = '﻿<search name="GetTree">
+	search_xml = '<search name="GetTreeItem">
   <searchSection>
     <searchFields>
-      <searchField id="folderId" valueHandler="IsDescendantOf" fieldStructure="item_tree_value.idPath" />
-      <searchField id="item_metafield_labelid" valueHandler="Equals" fieldStructure="item_tree_value.item_metafield_labelid" />
-      <searchField id="language" valueHandler="Equals" type="language" visible="false" />
+      <searchField id="folderId" fieldStructure="item_tree_value.item_tree_valueid" operator="AND" valueHandler="Equals" />
       <searchField id="security" securityType="ItemSecurityReadAccess" visible="false" />
     </searchFields>
     <valueFields OutputType="SQLXML">
@@ -25,6 +23,18 @@
         </bindField>
       </valueField>
       <valueField id="itemMetaFieldLabelId" fieldStructure="item_tree_value.item_metafield_labelid" />
+      <valueField id="itemMetafieldId" fieldStructure="item_metafield_label.item_metafieldid">
+        <bindField id="parenttreebind33">
+          <new id="parenttreeNew33" fieldStructure="item_metafield_label.item_metafield_labelid" />
+          <current id="parenttreeCurrent33" fieldStructure="item_tree_value.item_metafield_labelid" />
+        </bindField>
+      </valueField>
+      <valueField id="languageId" fieldStructure="item_metafield_label.languageid">
+        <bindField id="parenttreebind334">
+          <new id="parenttreeNew334" fieldStructure="item_metafield_label.item_metafield_labelid" />
+          <current id="parenttreeCurrent334" fieldStructure="item_tree_value.item_metafield_labelid" />
+        </bindField>
+      </valueField>
       <valueField id="idPath" fieldStructure="item_tree_value.idPath" />
       <valueFields id="security" isArray="true">
         <bindField id="bindSecurity">
@@ -37,6 +47,10 @@
         <valueField id="writeAccess" fieldName="item_security.table.writeaccess" returnType="bool" />
       </valueFields>
     </valueFields>
+    <sortFields>
+      <sortField id="treeSortIndex" fieldStructure="item_tree_value.sortindex" sortDirection="ascending" />
+      <sortField id="treeSortTitle" fieldStructure="item_tree_value.treevalue" sortDirection="ascending" />
+    </sortFields>
   </searchSection>
 </search>'
 	use_solr = false

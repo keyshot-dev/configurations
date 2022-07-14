@@ -1,8 +1,8 @@
 ﻿resource search getmetafields_373 {
 	version_id = resource.product.digizuite_dam_for_sitecore.base_version_id
-	name = 'getmetafields'
+	name = 'GetMetafields'
 	is_customizable = false
-	search_xml = '﻿<search name="GetMetafields">
+	search_xml = '<search name="GetMetafields">
   <searchSection>
     <searchFields>
       <searchField id="metafieldGroupId" fieldStructure="item_metafield.item_metafield_groupid" valueHandler="Equals" operator="AND" />

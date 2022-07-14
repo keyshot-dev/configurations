@@ -1,8 +1,8 @@
 ﻿resource search getassettypes_374 {
 	version_id = resource.product.digizuite_dam_for_sitecore.base_version_id
-	name = 'getassettypes'
+	name = 'GetAssetTypes'
 	is_customizable = false
-	search_xml = '﻿<search name="GetAssetTypes">
+	search_xml = '<search name="GetAssetTypes">
   <searchSection>
     <searchFields>
       <searchField id="sIsNotDeleted" fieldName="asset_type_language.asset_type" valueHandler="GreaterThan" operator="AND">

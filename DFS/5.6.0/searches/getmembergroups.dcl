@@ -1,8 +1,8 @@
 ﻿resource search getmembergroups_385 {
 	version_id = resource.product.digizuite_dam_for_sitecore.base_version_id
-	name = 'getmembergroups'
+	name = 'GetMemberGroups'
 	is_customizable = false
-	search_xml = '﻿<search name="GetMemberGroups">
+	search_xml = '<search name="GetMemberGroups">
   <searchSection>
     <searchFields>
       <searchField id="dummyfilter" fieldName="member_group.member_groupid" valueHandler="GreaterThan">

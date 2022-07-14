@@ -1,8 +1,8 @@
 ﻿resource search getmetafield_381 {
 	version_id = resource.product.digizuite_dam_for_sitecore.base_version_id
-	name = 'getmetafield'
+	name = 'GetMetafield'
 	is_customizable = false
-	search_xml = '﻿<search name="GetMetafield">
+	search_xml = '<search name="GetMetafield">
   <searchSection>
     <searchFields>
       <searchField id="language" valueHandler="Equals" type="language" />

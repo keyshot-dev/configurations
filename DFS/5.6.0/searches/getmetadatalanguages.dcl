@@ -1,8 +1,8 @@
 ﻿resource search getmetadatalanguages_376 {
 	version_id = resource.product.digizuite_dam_for_sitecore.base_version_id
-	name = 'getmetadatalanguages'
+	name = 'GetMetadataLanguages'
 	is_customizable = false
-	search_xml = '﻿<search name="GetMetadataLanguages">
+	search_xml = '<search name="GetMetadataLanguages">
   <searchSection>
     <searchFields>
       <searchFields id="languageSearch">

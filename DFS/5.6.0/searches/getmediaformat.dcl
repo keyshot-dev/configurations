@@ -1,8 +1,8 @@
 ﻿resource search getmediaformat_382 {
 	version_id = resource.product.digizuite_dam_for_sitecore.base_version_id
-	name = 'getmediaformat'
+	name = 'GetMediaFormat'
 	is_customizable = false
-	search_xml = '﻿<search name="GetMediaFormat">
+	search_xml = '<search name="GetMediaFormat">
   <searchSection>
     <searchFields>
       <searchField id="mediaFormatId" fieldName="media_format.media_formatid" valueHandler="Equals" />

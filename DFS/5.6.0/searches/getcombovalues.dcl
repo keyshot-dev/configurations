@@ -1,8 +1,8 @@
 ﻿resource search getcombovalues_378 {
 	version_id = resource.product.digizuite_dam_for_sitecore.base_version_id
-	name = 'getcombovalues'
+	name = 'GetComboValues'
 	is_customizable = false
-	search_xml = '﻿<search name="GetComboValues">
+	search_xml = '<search name="GetComboValues">
   <searchSection>
     <searchFields>
       <searchField id="metafieldLabelId" fieldStructure="item_combo_value.item_metafield_labelid" valueHandler="Equals" operator="AND" />

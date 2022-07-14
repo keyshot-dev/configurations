@@ -1,8 +1,8 @@
 ﻿resource search digizuite_system_framework_search_embed_388 {
 	version_id = resource.product.digizuite_dam_for_sitecore.base_version_id
-	name = 'digizuite_system_framework_search_embed'
+	name = 'DigiZuite_System_Framework_Search_Embed'
 	is_customizable = true
-	search_xml = '﻿<search name="DigiZuite_System_Framework_Search_Embed">
+	search_xml = '<search name="DigiZuite_System_Framework_Search_Embed">
   <searchSection>
     <searchFields>
       <searchField id="sAssetId" fieldName="asset.assetid" operator="AND" valueHandler="InList" />

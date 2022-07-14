@@ -1,8 +1,8 @@
 ﻿resource search digizuite_system_getactivefilename_387 {
 	version_id = resource.product.digizuite_dam_for_sitecore.base_version_id
-	name = 'digizuite_system_getactivefilename'
+	name = 'Digizuite_system_getActiveFilename'
 	is_customizable = false
-	search_xml = '﻿<search name="GetActiveFileName">
+	search_xml = '<search name="GetActiveFileName">
   <searchSection>
     <searchFields>
       <searchField id="itemid" fieldName="asset.itemid" valueHandler="Equals" operator="AND" />

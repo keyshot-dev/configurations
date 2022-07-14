@@ -1,11 +1,15 @@
-﻿resource search getmetagroup_377 {
+﻿resource search getuploadmetagroups_375 {
 	version_id = resource.product.digizuite_dam_for_sitecore.base_version_id
-	name = 'getmetagroup'
+	name = 'GetUploadMetaGroups'
 	is_customizable = false
-	search_xml = '﻿<search name="GetMetaGroup">
+	search_xml = '<search name="GetUploadMetaGroups">
   <searchSection>
     <searchFields>
-      <searchField id="metafieldGroupId" fieldStructure="item_metafield_group.item_metafield_groupid" valueHandler="Equals" />
+      <searchField id="uploadSelectable" fieldStructure="item_metafield_group.uploadSelectable" valueHandler="Equals">
+        <values valueType="String">
+          <value>1</value>
+        </values>
+      </searchField>
       <searchField id="language" valueHandler="Equals" type="language" visible="false" />
       <searchField id="security" securityType="ItemSecurityReadAccess" visible="false" />
     </searchFields>

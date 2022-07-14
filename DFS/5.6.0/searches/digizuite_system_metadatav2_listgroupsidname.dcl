@@ -1,8 +1,8 @@
 ﻿resource search digizuite_system_metadatav2_listgroupsidname_386 {
 	version_id = resource.product.digizuite_dam_for_sitecore.base_version_id
-	name = 'digizuite_system_metadatav2_listgroupsidname'
+	name = 'DigiZuite_system_metadatav2_listGroupsidname'
 	is_customizable = false
-	search_xml = '﻿<search name="DigiZuite_system_metadatav2_listGroupsidname">
+	search_xml = '<search name="DigiZuite_system_metadatav2_listGroupsidname">
   <searchSection>
     <searchFields>
       <searchField id="uploadSelectable" fieldStructure="item_metafield_group.uploadSelectable" valueHandler="Equals" operator="AND">

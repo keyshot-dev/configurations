@@ -1,8 +1,8 @@
 ﻿resource search getmetagroups_372 {
 	version_id = resource.product.digizuite_dam_for_sitecore.base_version_id
-	name = 'getmetagroups'
+	name = 'GetMetaGroups'
 	is_customizable = false
-	search_xml = '﻿<search name="GetMetaGroups">
+	search_xml = '<search name="GetMetaGroups">
   <searchSection>
     <searchFields>
       <searchField id="metafieldGroupId" fieldStructure="item_metafield.item_metafield_groupid" />
