@@ -101,6 +101,3 @@ data media_format jpg_full_size_50033 {
  	name = 'JPG full size'
 }
 
-data media_format extract_indesign_thumb_10048 {
-	name = 'Extract InDesign Thumb'
-}
