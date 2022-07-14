@@ -2,7 +2,7 @@
 	version_id = resource.product.digizuite_dam_for_sitecore.base_version_id
 	name = 'getassets'
 	is_customizable = true
-	search_xml = '﻿<search name="GetAssets">
+	search_xml = '<search name="GetAssets">
   <searchSection>
     <searchFields>
       <searchField fieldName="asset.assetid" id="assetIds" operator="AND" valueHandler="InList" />
