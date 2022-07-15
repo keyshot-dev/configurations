@@ -16,7 +16,7 @@ resource profile common_illustrator_50033 {
             media_format_id = data.media_format.jpg_full_size_50033.media_format_id
         }
     ]
-    autolink {
+    autolink = {
         item_guid = '06de4896-5201-48dd-9320-12b33eec32a5'
     }
 }
@@ -36,7 +36,7 @@ resource profile common_indesign_50034 {
             media_format_id = data.media_format.jpg_full_size_50033.media_format_id
         }
     ]
-    autolink {
+    autolink = {
         item_guid = 'eada15b5-c5fc-467f-893e-560f5cb3d411'
     }
 }
@@ -56,7 +56,7 @@ resource profile common_photoshop_50035 {
             media_format_id = data.media_format.jpg_full_size_50033.media_format_id
         }
     ]
-    autolink {
+    autolink = {
         item_guid = '2d6a3972-95e6-409a-a950-296c4beafbd0'
     }
 }
@@ -84,7 +84,7 @@ resource profile common_image_50036 {
             media_format_id = data.media_format.png_transparent_50037.media_format_id
         }
     ]
-    autolink {
+    autolink = {
             item_guid = '2a7b8bbc-80d2-4534-b9b8-3ac211b7576b'
     }
 }
@@ -103,12 +103,12 @@ resource profile common_video_50037 {
         }, {
             media_format_id = data.media_format.thumb_200x120_3.media_format_id
         }, {
-            media_format_id = 50039
+            media_format_id = data.media_format.video_720p.media_format_id
         }, {
-            media_format_id = 50040
+            media_format_id = data.media_format.video_1080p.media_format_id
         }
     ]
-    autolink {
+    autolink = {
         item_guid = '78e23507-8a6a-476d-b46b-c5a10bd2d63b'
     }
 }
@@ -128,7 +128,7 @@ resource profile common_pdf_50038 {
             media_format_id = data.media_format.jpg_full_size_50033.media_format_id
         }
     ]
-    autolink {
+    autolink = {
         item_guid = 'e990137f-36f1-4f72-a861-7090ad232fe1'
     }
 }
@@ -148,7 +148,7 @@ resource profile common_powerpoint_50039 {
             media_format_id = data.media_format.jpg_full_size_50033.media_format_id
         }
     ]
-    autolink {
+    autolink = {
             item_guid = 'a4dbeb9a-72ba-4c52-8bfb-efd231d59c95'
     }
 }

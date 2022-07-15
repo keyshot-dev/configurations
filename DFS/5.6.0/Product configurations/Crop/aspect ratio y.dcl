@@ -25,3 +25,35 @@ resource item_security id_9633_4926 {
 	read = true
 	write = true
 }
+
+resource versioned_metadata_string_value aspect_ratio_y_51479_1 {
+    value = '1'
+    item_id = resource.product.digizuite_dam_for_sitecore.item_id
+    version_id = resource.product.digizuite_dam_for_sitecore.base_version_id
+    label_id = resource.metafield_label.aspect_ratio_y_51479.label_id
+    row_id = 1
+}
+
+resource versioned_metadata_string_value aspect_ratio_y_51479_2 {
+    value = '2'
+    item_id = resource.product.digizuite_dam_for_sitecore.item_id
+    version_id = resource.product.digizuite_dam_for_sitecore.base_version_id
+    label_id = resource.metafield_label.aspect_ratio_y_51479.label_id
+    row_id = 2
+}
+
+resource versioned_metadata_string_value aspect_ratio_y_51479_3 {
+    value = '9'
+    item_id = resource.product.digizuite_dam_for_sitecore.item_id
+    version_id = resource.product.digizuite_dam_for_sitecore.base_version_id
+    label_id = resource.metafield_label.aspect_ratio_y_51479.label_id
+    row_id = 3
+}
+
+resource versioned_metadata_string_value aspect_ratio_y_51479_4 {
+    value = '1'
+    item_id = resource.product.digizuite_dam_for_sitecore.item_id
+    version_id = resource.product.digizuite_dam_for_sitecore.base_version_id
+    label_id = resource.metafield_label.aspect_ratio_y_51479.label_id
+    row_id = 4
+}

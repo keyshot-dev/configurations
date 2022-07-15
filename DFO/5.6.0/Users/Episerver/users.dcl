@@ -1,14 +1,4 @@
-resource member_folder episerver_50020 {
-    parent_id = 0
-    name = 'Episerver'
-}
-
-data member_group_folder user_type {
-    parent_id = 0
-    name = 'User type'
-}
-
-resource member episerver {
+﻿resource member episerver {
     username = 'Episerver'
     email = ''
     language = data.language.english.id
@@ -27,4 +17,3 @@ resource member episerver {
         }]
     roles = []
 }
-

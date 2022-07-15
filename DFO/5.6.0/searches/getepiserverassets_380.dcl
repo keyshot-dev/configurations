@@ -74,10 +74,7 @@ resource search getepiserverassets_380 {
         <valueField id="accessorItemType" fieldName="item_security.accessor.item_typeid" />
         <valueField id="readAccess" fieldName="item_security.table.readaccess" returnType="bool" />
         <valueField id="writeAccess" fieldName="item_security.table.writeaccess" returnType="bool" />
-      </valueFields>
-      <valueField id="SourceColorSpace" itemGuid="${to_string(resource.string_metafield.source_colorspace_50105.item_guid)}" />
-      <valueField id="Keywords" isArray="true" itemGuid="${to_string(data.editmulticombovalue_metafield.keywords_10192.item_guid)}" />
-      <valueField id="Note" itemGuid="${to_string(resource.note_metafield.note_50357.item_guid)}" />
+      </valueFields>            
       <valueField id="Description" itemGuid="${to_string(data.note_metafield.description_50182.item_guid)}" />
       <valueField fieldName="asset.image_height" id="ImageHeight" />
       <valueField id="Software" itemGuid="9159f487-2b39-4e01-8bc6-da3bbbc9311e" />

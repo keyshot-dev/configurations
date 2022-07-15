@@ -1,9 +1,4 @@
-resource member_group_folder episerver_50019 {
-    parent_id = 0
-    name = 'Episerver'
-}
-
-resource member_group episerver_users_32 {
+﻿resource member_group episerver_users_32 {
     name = 'Episerver Users'
     folder_id = resource.member_group_folder.episerver_50019.id
     sort_index = 0
