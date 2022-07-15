@@ -29,17 +29,6 @@ data metafield_group asset_info {
     parent_group_id = 0
 }
 
-data meta_group_folder images {
-	name = 'Images'
-	parent_id = data.meta_group_folder.asset.id
-}
-
-data metafield_group images {
-	name = 'Images'
-	folder_id = data.meta_group_folder.images.id
-	parent_group_id = data.metafield_group.asset_info.metafield_group_id
-}
-
 data metafield_group frontendgroup {
 	name = 'FrontendGroup'
 	folder_id = data.meta_group_folder.users_and_usergroups_shared.id
