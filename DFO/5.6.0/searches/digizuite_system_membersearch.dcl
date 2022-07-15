@@ -1,6 +1,6 @@
 resource search digizuite_system_membersearch_372 {
 	version_id = resource.product.episerver.base_version_id
-	name = 'digizuite_system_membersearch'
+	name = 'DigiZuite_System_MemberSearch'
 	is_customizable = false
 	search_xml = '<search name="DigiZuite_System_MemberSearch">
   <searchSection>

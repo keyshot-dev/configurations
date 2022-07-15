@@ -1,6 +1,6 @@
 resource search getmodifiedassets_384 {
 	version_id = resource.product.episerver.base_version_id
-	name = 'getmodifiedassets'
+	name = 'GetModifiedAssets'
 	is_customizable = false
 	search_xml = '<search name="GetModifiedAssets">
   <searchSection>

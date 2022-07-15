@@ -1,6 +1,6 @@
 resource search getmetafieldsandlabels_383 {
 	version_id = resource.product.episerver.base_version_id
-	name = 'getmetafieldsandlabels'
+	name = 'GetMetafieldsAndLabels'
 	is_customizable = false
 	search_xml = '<search name="GetMetafieldsAndLabels">
   <searchSection>

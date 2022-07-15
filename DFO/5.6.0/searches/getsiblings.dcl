@@ -1,6 +1,6 @@
 resource search getsiblings_382 {
 	version_id = resource.product.episerver.base_version_id
-	name = 'getsiblings'
+	name = 'GetSiblings'
 	is_customizable = false
 	search_xml = '<search name="GetSiblings">
   <searchSection>

@@ -1,6 +1,6 @@
 resource search digizuite_system_framework_layoutfolders_379 {
 	version_id = resource.product.episerver.base_version_id
-	name = 'digizuite_system_framework_layoutfolders'
+	name = 'DigiZuite_System_Framework_LayoutFolders'
 	is_customizable = false
 	search_xml = '<search name="DigiZuite_System_Framework_LayoutFolders">
   <searchSection>

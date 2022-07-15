@@ -1,8 +1,8 @@
 resource search getassettypes_377 {
 	version_id = resource.product.episerver.base_version_id
-	name = 'getassettypes'
+	name = 'GetAssetTypes'
 	is_customizable = false
-	search_xml = '﻿<search name="GetAssetTypes">
+	search_xml = '<search name="GetAssetTypes">
   <searchSection>
     <searchFields>
       <searchField id="language" valueHandler="Equals" type="language" visible="false" />

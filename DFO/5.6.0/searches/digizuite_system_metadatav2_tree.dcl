@@ -1,6 +1,6 @@
 resource search digizuite_system_metadatav2_tree_371 {
 	version_id = resource.product.episerver.base_version_id
-	name = 'digizuite_system_metadatav2_tree'
+	name = 'Digizuite_system_metadatav2_tree'
 	is_customizable = false
 	search_xml = '<search name="Digizuite_system_metadatav2_tree">
   <searchSection>

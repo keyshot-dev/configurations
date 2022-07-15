@@ -1,6 +1,6 @@
 resource search getmembercountforgroup_375 {
 	version_id = resource.product.episerver.base_version_id
-	name = 'getmembercountforgroup'
+	name = 'GetMemberCountForGroup'
 	is_customizable = false
 	search_xml = '<search name="GetMemberCountForGroup">
   <searchSection>

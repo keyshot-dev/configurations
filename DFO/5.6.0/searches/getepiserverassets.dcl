@@ -1,6 +1,6 @@
 resource search getepiserverassets_380 {
 	version_id = resource.product.episerver.base_version_id
-	name = 'getepiserverassets'
+	name = 'GetEpiserverAssets'
 	is_customizable = true
 	search_xml = '<search name="GetEpiserverAssets">
   <searchSection>

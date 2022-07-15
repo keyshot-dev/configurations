@@ -1,6 +1,6 @@
 resource search digizuite_system_metadatav2_listgroupsmetafields_374 {
 	version_id = resource.product.episerver.base_version_id
-	name = 'digizuite_system_metadatav2_listgroupsmetafields'
+	name = 'DigiZuite_system_metadatav2_listGroupsMetafields'
 	is_customizable = false
 	search_xml = '<search name="DigiZuite_system_metadatav2_listGroupsMetafields">
   <searchSection>

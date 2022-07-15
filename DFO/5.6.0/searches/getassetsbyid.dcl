@@ -1,8 +1,8 @@
 resource search getassetsbyid_369 {
 	version_id = resource.product.episerver.base_version_id
-	name = 'getassetsbyid'
+	name = 'GetAssetsById'
 	is_customizable = false
-	search_xml = '﻿<search name="GetAssetsById">
+	search_xml = '<search name="GetAssetsById">
   <searchSection>
     <searchFields>
       <searchField id="sAssetId" fieldName="asset.assetid" operator="AND" valueHandler="InList" />

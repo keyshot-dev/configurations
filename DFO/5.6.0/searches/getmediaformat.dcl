@@ -1,6 +1,6 @@
 resource search getmediaformat_381 {
 	version_id = resource.product.episerver.base_version_id
-	name = 'getmediaformat'
+	name = 'GetMediaFormat'
 	is_customizable = false
 	search_xml = '<search name="GetMediaFormat">
   <searchSection>

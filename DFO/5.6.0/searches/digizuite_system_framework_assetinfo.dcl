@@ -1,6 +1,6 @@
 resource search digizuite_system_framework_assetinfo_376 {
 	version_id = resource.product.episerver.base_version_id
-	name = 'digizuite_system_framework_assetinfo'
+	name = 'DigiZuite_System_Framework_AssetInfo'
 	is_customizable = false
 	search_xml = '<search name="DigiZuite_System_Framework_AssetInfo">
   <searchSection>

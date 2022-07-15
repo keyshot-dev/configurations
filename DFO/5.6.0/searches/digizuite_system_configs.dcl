@@ -1,6 +1,6 @@
 resource search digizuite_system_configs_367 {
 	version_id = resource.product.episerver.base_version_id
-	name = 'digizuite_system_configs'
+	name = 'DigiZuite_System_Configs'
 	is_customizable = false
 	search_xml = '<search name="DigiZuite_System_Configs">
   <searchSection>
