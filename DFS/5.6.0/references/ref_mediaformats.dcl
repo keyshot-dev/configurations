@@ -93,10 +93,6 @@ data media_format id_480p_50038 {
 	name = '480p'
 }
 
-data media_format_folder image_189 {
-	name = 'Image'
-}
-
 data media_format jpg_full_size_50033 {
  	name = 'JPG full size'
 }
