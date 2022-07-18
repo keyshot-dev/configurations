@@ -1,6 +1,6 @@
 resource search digizuite_system_metadatav2_combobox_370 {
 	version_id = resource.product.episerver.base_version_id
-	name = 'Digizuite_system_metadatav2_combobox'
+	name = 'DigiZuite_System_metadatav2_combobox'
 	is_customizable = false
 	search_xml = '<search name="Digizuite_system_metadatav2_combobox">
   <searchSection>
