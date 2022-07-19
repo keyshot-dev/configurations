@@ -23,11 +23,6 @@ data meta_group_folder video_50006 {
 	parent_id = data.meta_group_folder.asset.id
 }
 
-data meta_group_folder images_50005 {
-	name = 'Images'
-	parent_id = data.meta_group_folder.asset.id
-}
-
 resource meta_group_folder shared_50010 {
 	name = 'Shared'
 	parent_id = resource.meta_group_folder.layoutfolder_50002.id
