@@ -1,6 +1,7 @@
 ﻿resource member_group dam_for_sitecore_users {
     name = 'sitecore\\Digizuite DAM for Sitecore Users'
     folder_id = resource.member_group_folder.dam_for_sitecore_35000.id
+    approved = true
     roles = [
     ]
     autolink = {
@@ -11,6 +12,7 @@
 resource member_group dam_for_sitecore_editors {
     name = 'sitecore\\Digizuite DAM for Sitecore Editors'
     folder_id = resource.member_group_folder.dam_for_sitecore_35000.id
+    approved = true
     roles = [
     ]
     autolink = {
@@ -21,6 +23,7 @@ resource member_group dam_for_sitecore_editors {
 resource member_group dam_for_sitecore_administrators {
     name = 'sitecore\\Digizuite DAM for Sitecore Administrators'
     folder_id = resource.member_group_folder.dam_for_sitecore_35000.id
+    approved = true
     roles = [
     ]
     autolink = {
