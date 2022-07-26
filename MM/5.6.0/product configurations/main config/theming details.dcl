@@ -11,7 +11,7 @@ resource metafield_label theming_details {
     language_id = data.language.english.id
 }
 
-resource versioned_metadata_string_value theming_details {
+resource versioned_metadata_note_value theming_details {
     item_id = resource.product.media_manager.item_id
     label_id = resource.metafield_label.theming_details.label_id
     version_id = resource.product.media_manager.base_version_id

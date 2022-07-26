@@ -15,7 +15,7 @@ resource metafield_label intro_screen_text {
 }
 
 
-resource versioned_metadata_string_value intro_screen_text {
+resource versioned_metadata_note_value intro_screen_text {
     value = '<strong>Digizuite develops the digital asset management system, Digizuite™, that helps companies with uploading, searching, managing, distributing and repurposing their digital media files across internal and external channels from a centralized source.</strong>'
     item_id = resource.product.media_manager.item_id
     version_id = resource.product.media_manager.base_version_id
