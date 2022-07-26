@@ -118,7 +118,7 @@ resource item_security intro_screen_mode__disclaimer__trusted {
 
 
 
-resource versioned_metadata_reference intro_screen_mode {
+resource versioned_metadata_combo_value intro_screen_mode {
     ref_itemid = resource.combo_value.intro_screen_mode__none.item_id
     item_id = resource.product.media_manager.item_id
     version_id = resource.product.media_manager.base_version_id

@@ -38,7 +38,7 @@ resource item_security id_9471_anonymous {
 	write = false
 }
 
-resource versioned_metadata_multi_references main_search_folder_9448_51453_1 {
+resource versioned_metadata_master_item_reference_value main_search_folder_9448_51453_1 {
     references = [{
             ref_itemid = resource.channel_folder.episerver_124.item_id
         }]

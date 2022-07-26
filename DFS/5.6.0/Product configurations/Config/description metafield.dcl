@@ -29,7 +29,7 @@ resource item_security id_9600_4926 {
 	write = true
 }
 
-resource versioned_metadata_multi_references description_metafield_9449_51470_1 {
+resource versioned_metadata_master_item_reference_value description_metafield_9449_51470_1 {
 	references = [{
 		ref_itemid = data.note_metafield.description_50182.item_id
 	}]

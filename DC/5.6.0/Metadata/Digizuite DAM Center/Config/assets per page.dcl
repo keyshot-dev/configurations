@@ -102,7 +102,7 @@ resource item_security assets_per_page_100__trusted {
     write = true
 }
 
-resource versioned_metadata_multi_values assets_per_page {
+resource versioned_metadata_edit_multi_combo_value assets_per_page {
     values = [{
             value = '20'
         }, {

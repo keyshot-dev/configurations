@@ -96,7 +96,7 @@ resource combo_value_label id_favoritesdesc_51452 {
 	label = 'Favourites'
 }
 
-resource versioned_metadata_reference default_sorting_9448_51452_1 {
+resource versioned_metadata_combo_value default_sorting_9448_51452_1 {
     ref_itemid = resource.combo_value.default_sorting_datedesc_50380.item_id
     item_id = resource.product.episerver.item_id
     version_id = resource.product.episerver.base_version_id

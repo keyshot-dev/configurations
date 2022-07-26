@@ -31,7 +31,7 @@ resource item_security id_9504_trusted {
 	write = true
 }
 
-resource versioned_metadata_multi_references editor_qualities_9448_51459_1 {
+resource versioned_metadata_master_item_reference_value editor_qualities_9448_51459_1 {
     references = [{
             ref_itemid = data.media_format.video_1080p.item_id
         }, {

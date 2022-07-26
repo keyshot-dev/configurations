@@ -29,7 +29,7 @@ resource item_security id_9608_4926 {
 	write = true
 }
 
-resource versioned_metadata_multi_references sitecore_upload_username_metafield_9449_51474_1 {
+resource versioned_metadata_master_item_reference_value sitecore_upload_username_metafield_9449_51474_1 {
 	references = [{
 		ref_itemid = resource.string_metafield.sitecore_upload_username_50401.item_id
 	}]

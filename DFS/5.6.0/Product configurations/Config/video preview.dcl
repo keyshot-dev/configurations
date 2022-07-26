@@ -29,7 +29,7 @@ resource item_security id_9580_4926 {
 	write = true
 }
 
-resource versioned_metadata_multi_references video_preview_9449_51460_1 {
+resource versioned_metadata_master_item_reference_value video_preview_9449_51460_1 {
 	references = [{
 		ref_itemid = resource.media_format.sitecore_system_video_preview_50098.item_id
 	}]

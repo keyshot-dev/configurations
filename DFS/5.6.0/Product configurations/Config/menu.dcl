@@ -29,7 +29,7 @@ resource item_security id_9588_4926 {
 	write = true
 }
 
-resource versioned_metadata_multi_references menu_9449_51464_1 {
+resource versioned_metadata_master_item_reference_value menu_9449_51464_1 {
 	references = [{
 		ref_itemid = data.tree_metafield.media_manager_menu.item_id
 	}]

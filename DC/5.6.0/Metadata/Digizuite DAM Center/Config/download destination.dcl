@@ -14,7 +14,7 @@ resource metafield_label download_destination {
     language_id = resource.language.english.id
 }
 
-resource versioned_metadata_multi_references download_destination {
+resource versioned_metadata_master_item_reference_value download_destination {
     references = [{
             ref_itemid = resource.destination.frontend_zip_download_sm.item_id
         }]

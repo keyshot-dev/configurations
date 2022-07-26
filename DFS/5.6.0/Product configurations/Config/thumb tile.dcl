@@ -29,7 +29,7 @@ resource item_security id_9574_4926 {
 	write = true
 }
 
-resource versioned_metadata_multi_references thumb_tile_9449_51457_1 {
+resource versioned_metadata_master_item_reference_value thumb_tile_9449_51457_1 {
 	references = [{
 		ref_itemid = resource.media_format.sitecore_system_tile_50092.item_id
 	}]

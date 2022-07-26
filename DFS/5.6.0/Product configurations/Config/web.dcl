@@ -29,7 +29,7 @@ resource item_security id_9578_4926 {
 	write = true
 }
 
-resource versioned_metadata_multi_references web_9449_51459_1 {
+resource versioned_metadata_master_item_reference_value web_9449_51459_1 {
 	references = [{
 		ref_itemid = resource.media_format.sitecore_system_web_50094.item_id
 	}]

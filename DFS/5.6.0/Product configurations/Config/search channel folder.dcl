@@ -29,7 +29,7 @@ resource item_security id_9586_4926 {
 	write = true
 }
 
-resource versioned_metadata_multi_references search_channel_folder_9449_51463_1 {
+resource versioned_metadata_master_item_reference_value search_channel_folder_9449_51463_1 {
 	references = [{
 		ref_itemid = resource.channel_folder.dam_for_sitecore_124.item_id
 	}]

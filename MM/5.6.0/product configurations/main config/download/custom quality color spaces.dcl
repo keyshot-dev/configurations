@@ -111,7 +111,7 @@ resource item_security custom_quality_color_spaces__grayscale__trusted {
     write = true
 }
 
-resource versioned_metadata_multi_references custom_quality_color_spaces {
+resource versioned_metadata_multi_combo_value custom_quality_color_spaces {
     references = [
         {
             ref_itemid = resource.combo_value.custom_quality_color_spaces__srgb.item_id

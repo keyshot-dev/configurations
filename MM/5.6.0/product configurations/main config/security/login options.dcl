@@ -111,7 +111,7 @@ resource item_security login_options__not_available__trusted {
 }
 
 
-resource versioned_metadata_reference login_options {
+resource versioned_metadata_combo_value login_options {
     ref_itemid = resource.combo_value.login_options__required.item_id
     item_id = resource.product.media_manager.item_id
     version_id = resource.product.media_manager.base_version_id

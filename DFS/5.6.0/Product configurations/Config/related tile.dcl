@@ -29,7 +29,7 @@ resource item_security id_9592_4926 {
 	write = true
 }
 
-resource versioned_metadata_multi_references related_tile_9449_51466_1 {
+resource versioned_metadata_master_item_reference_value related_tile_9449_51466_1 {
 	references = [{
 		ref_itemid = resource.media_format.sitecore_related_tile_50104.item_id
 	}]

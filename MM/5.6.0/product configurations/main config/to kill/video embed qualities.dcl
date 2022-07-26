@@ -114,7 +114,7 @@ resource item_security video_embed_qualities__mobile__trusted {
 }
 
 
-resource versioned_metadata_multi_references video_embed_qualities {
+resource versioned_metadata_multi_combo_value video_embed_qualities {
     references = [
         {
             ref_itemid = resource.combo_value.video_embed_qualities__desktop.item_id

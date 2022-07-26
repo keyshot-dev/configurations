@@ -31,7 +31,7 @@ resource item_security id_9506_trusted {
 	write = true
 }
 
-resource versioned_metadata_multi_references crop_name_metafield_9448_51460_1 {
+resource versioned_metadata_master_item_reference_value crop_name_metafield_9448_51460_1 {
     references = [{
             ref_itemid = data.string_metafield.crop_name_50377.item_id
         }]

@@ -29,7 +29,7 @@ resource item_security id_9584_4926 {
 	write = true
 }
 
-resource versioned_metadata_multi_references destination_9449_51462_1 {
+resource versioned_metadata_master_item_reference_value destination_9449_51462_1 {
 	references = [{
 		ref_itemid = data.destination.frontenddata_sm.item_id
 	}]

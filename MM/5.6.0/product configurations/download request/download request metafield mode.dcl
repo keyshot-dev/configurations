@@ -88,7 +88,7 @@ resource item_security download_request_metafield_mode__include_mode__trusted {
     write = true
 }
 
-resource versioned_metadata_reference download_request_metafield_mode {
+resource versioned_metadata_combo_value download_request_metafield_mode {
     ref_itemid = resource.combo_value.download_request_metafield_mode__exclude_mode.item_id
     item_id = resource.product.media_manager.item_id
     version_id = resource.product.media_manager.base_version_id

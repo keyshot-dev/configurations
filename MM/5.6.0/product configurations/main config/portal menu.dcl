@@ -15,7 +15,7 @@ resource metafield_label portal_menu {
     description = 'The tree field you choose here will be the one visible in your left side pane in your MM.'
 }
 
-resource versioned_metadata_multi_references portal_menu {
+resource versioned_metadata_master_item_reference_value portal_menu {
     references = [
         {
             ref_itemid = data.tree_metafield.media_manager_menu.item_id

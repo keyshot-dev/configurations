@@ -88,7 +88,7 @@ resource item_security download_approval_formats_mode__include_mode__trusted {
 }
 
 
-resource versioned_metadata_reference download_approval_formats_mode {
+resource versioned_metadata_combo_value download_approval_formats_mode {
     ref_itemid = resource.combo_value.download_approval_formats_mode__exclude_mode.item_id
     item_id = resource.product.media_manager.item_id
     version_id = resource.product.media_manager.base_version_id

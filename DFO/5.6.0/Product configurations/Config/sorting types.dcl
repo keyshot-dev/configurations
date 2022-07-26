@@ -95,7 +95,7 @@ resource combo_value_label id_favoritesdesc_51451 {
 	label = 'Favourites'
 }
 
-resource versioned_metadata_multi_references sorting_types_9448_51451_1 {
+resource versioned_metadata_multi_combo_value sorting_types_9448_51451_1 {
     references = [{
             ref_itemid = resource.combo_value.sorting_types_alphabeticasc_50379.item_id
         }, {

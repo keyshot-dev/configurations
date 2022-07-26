@@ -85,7 +85,7 @@ resource item_security pagination_mode__paging__trusted {
 }
 
 
-resource versioned_metadata_reference pagination_mode {
+resource versioned_metadata_combo_value pagination_mode {
     ref_itemid = resource.combo_value.pagination_mode__paging.item_id
     item_id = resource.product.media_manager.item_id
     version_id = resource.product.media_manager.base_version_id

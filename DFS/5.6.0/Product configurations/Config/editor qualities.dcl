@@ -29,7 +29,7 @@ resource item_security id_9602_4926 {
 	write = true
 }
 
-resource versioned_metadata_multi_references editor_qualities_9449_51471_1 {
+resource versioned_metadata_master_item_reference_value editor_qualities_9449_51471_1 {
 	references = [
 		  { ref_itemid = data.media_format.jpg_full_size_50033.item_id }
 		, { ref_itemid = data.media_format.jpg_big.item_id }

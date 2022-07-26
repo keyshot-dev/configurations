@@ -157,7 +157,7 @@ resource item_security video_embed_sizes__640_360__trusted {
     write = true
 }
 
-resource versioned_metadata_multi_references video_embed_sizes {
+resource versioned_metadata_multi_combo_value video_embed_sizes {
     references = [{
             ref_itemid = resource.combo_value.video_embed_sizes__auto.item_id
         }, {

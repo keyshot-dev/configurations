@@ -29,7 +29,7 @@ resource item_security paging_size__trusted {
     write = true
 }
 
-resource versioned_metadata_multi_values paging_size {
+resource versioned_metadata_edit_multi_combo_value paging_size {
     values = [
         {
             value = '12'

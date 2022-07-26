@@ -15,7 +15,7 @@ resource metafield_label related_assets_metafield {
     language_id = data.language.english.id
 }
 
-resource versioned_metadata_multi_references related_assets_metafield {
+resource versioned_metadata_master_item_reference_value related_assets_metafield {
     references = [
         {
             ref_itemid = resource.masteritem_reference_metafield.adobe_links.item_id

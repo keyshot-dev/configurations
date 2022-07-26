@@ -38,7 +38,7 @@ resource item_security id_9455_anonymous {
 	write = false
 }
 
-resource versioned_metadata_multi_references portal_menu_9448_51450_1 {
+resource versioned_metadata_master_item_reference_value portal_menu_9448_51450_1 {
     references = [{
             ref_itemid = data.tree_metafield.media_manager_menu.item_id
         }]

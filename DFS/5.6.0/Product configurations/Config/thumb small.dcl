@@ -29,7 +29,7 @@ resource item_security id_9572_4926 {
 	write = true
 }
 
-resource versioned_metadata_multi_references thumb_small_9449_51456_1 {
+resource versioned_metadata_master_item_reference_value thumb_small_9449_51456_1 {
 	references = [{
 		ref_itemid = resource.media_format.sitecore_system_thumb_50091.item_id
 	}]

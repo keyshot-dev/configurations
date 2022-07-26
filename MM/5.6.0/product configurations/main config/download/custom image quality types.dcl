@@ -110,7 +110,7 @@ resource item_security custom_quality_image_types__tiff__trusted {
 }
 
 
-resource versioned_metadata_multi_references custom_quality_image_types {
+resource versioned_metadata_multi_combo_value custom_quality_image_types {
     references = [
         {
             ref_itemid = resource.combo_value.custom_quality_image_types__png.item_id

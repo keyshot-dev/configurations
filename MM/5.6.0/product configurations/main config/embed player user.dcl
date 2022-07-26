@@ -16,7 +16,7 @@ resource metafield_label embed_player_user {
     description = 'The user used for accessing video content in the external embed player.'
 }
 
-resource versioned_metadata_multi_references embed_player_user {
+resource versioned_metadata_master_item_reference_value embed_player_user {
     references = [
         {
             ref_itemid = data.member.guest_user.item_id

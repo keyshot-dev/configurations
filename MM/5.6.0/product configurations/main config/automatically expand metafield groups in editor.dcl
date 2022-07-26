@@ -15,7 +15,7 @@ resource metafield_label automatically_expand_metadata_groups_in_editor {
     language_id = data.language.english.id
 }
 
-resource versioned_metadata_multi_references automatically_expand_metadata_groups_in_editor {
+resource versioned_metadata_master_item_reference_value automatically_expand_metadata_groups_in_editor {
     references = [
         {
             ref_itemid = data.metafield_group.asset_info.item_id

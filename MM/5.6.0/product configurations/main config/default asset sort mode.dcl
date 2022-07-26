@@ -143,7 +143,7 @@ resource item_security default_asset_sort_mode__assetid_desc__trusted {
     write = true
 }
 
-resource versioned_metadata_reference default_asset_sort_mode {
+resource versioned_metadata_combo_value default_asset_sort_mode {
     ref_itemid = resource.combo_value.default_asset_sort_mode__assetid_desc.item_id
     item_id = resource.product.media_manager.item_id
     version_id = resource.product.media_manager.base_version_id

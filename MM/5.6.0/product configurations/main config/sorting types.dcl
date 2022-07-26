@@ -141,7 +141,7 @@ resource item_security sorting_types__assetid_desc__trusted {
     write = true
 }
 
-resource versioned_metadata_multi_references sorting_types {
+resource versioned_metadata_multi_combo_value sorting_types {
     references = [{
             ref_itemid = resource.combo_value.sorting_types__assetid_asc.item_id
         }, {
