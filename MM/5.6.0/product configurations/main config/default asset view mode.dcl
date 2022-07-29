@@ -90,7 +90,6 @@ resource versioned_metadata_combo_value default_asset_view_mode {
     label_id = resource.metafield_label.default_asset_view_mode.label_id
     version_id = resource.product.media_manager.base_version_id
     ref_itemid = resource.combo_value.default_asset_view_mode__box.item_id
-    row_id = 1
 }
 
 

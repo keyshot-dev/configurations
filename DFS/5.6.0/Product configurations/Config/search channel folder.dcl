@@ -36,5 +36,4 @@ resource versioned_metadata_master_item_reference_value search_channel_folder_94
 	item_id = resource.product.digizuite_dam_for_sitecore.item_id
 	version_id = resource.product.digizuite_dam_for_sitecore.base_version_id
 	label_id = resource.metafield_label.search_channel_folder_51463.label_id
-	row_id = 1
 }

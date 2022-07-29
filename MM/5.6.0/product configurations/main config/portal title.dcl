@@ -18,7 +18,6 @@ resource versioned_metadata_string_value portal_title {
     item_id = resource.product.media_manager.item_id
     version_id = resource.product.media_manager.base_version_id
     label_id = resource.metafield_label.portal_title.label_id
-    row_id = 1
 }
 
 resource item_security portal_title__anonymous {

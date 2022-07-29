@@ -20,7 +20,6 @@ resource versioned_metadata_string_value auto_created_user_folder_id {
     item_id = resource.product.media_manager.item_id
     version_id = resource.product.media_manager.base_version_id
     label_id = resource.metafield_label.auto_created_user_folder_id.label_id
-    row_id = 1
 }
 
 resource item_security auto_created_user_folder_id__trusted {

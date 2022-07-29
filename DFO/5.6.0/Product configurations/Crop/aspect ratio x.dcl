@@ -34,7 +34,6 @@ resource versioned_metadata_string_value aspect_ratio_x_9448_51457_1 {
     item_id = resource.product.episerver.item_id
     version_id = resource.product.episerver.base_version_id
     label_id = resource.metafield_label.aspect_ratio_x_51457.label_id
-    row_id = 1
 }
 
 resource versioned_metadata_string_value aspect_ratio_x_9448_51457_2 {
@@ -42,7 +41,7 @@ resource versioned_metadata_string_value aspect_ratio_x_9448_51457_2 {
     item_id = resource.product.episerver.item_id
     version_id = resource.product.episerver.base_version_id
     label_id = resource.metafield_label.aspect_ratio_x_51457.label_id
-    row_id = 2
+    previous_row = resource.versioned_metadata_string_value.aspect_ratio_x_9448_51457_1.row_id
 }
 
 resource versioned_metadata_string_value aspect_ratio_x_9448_51457_3 {
@@ -50,7 +49,7 @@ resource versioned_metadata_string_value aspect_ratio_x_9448_51457_3 {
     item_id = resource.product.episerver.item_id
     version_id = resource.product.episerver.base_version_id
     label_id = resource.metafield_label.aspect_ratio_x_51457.label_id
-    row_id = 3
+    previous_row = resource.versioned_metadata_string_value.aspect_ratio_x_9448_51457_2.row_id
 }
 
 resource versioned_metadata_string_value aspect_ratio_x_9448_51457_4 {
@@ -58,5 +57,5 @@ resource versioned_metadata_string_value aspect_ratio_x_9448_51457_4 {
     item_id = resource.product.episerver.item_id
     version_id = resource.product.episerver.base_version_id
     label_id = resource.metafield_label.aspect_ratio_x_51457.label_id
-    row_id = 4
+    previous_row = resource.versioned_metadata_string_value.aspect_ratio_x_9448_51457_3.row_id
 }

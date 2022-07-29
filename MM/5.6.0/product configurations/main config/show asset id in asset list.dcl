@@ -19,7 +19,6 @@ resource versioned_metadata_bool_value show_asset_id_in_asset_list {
     item_id = resource.product.media_manager.item_id
     version_id = resource.product.media_manager.base_version_id
     label_id = resource.metafield_label.show_asset_id_in_asset_list.label_id
-    row_id = 1
 }
 
 resource item_security show_asset_id_in_asset_list__anonymous {

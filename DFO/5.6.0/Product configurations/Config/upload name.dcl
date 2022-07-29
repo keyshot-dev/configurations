@@ -41,5 +41,4 @@ resource versioned_metadata_string_value upload_name_9448_51454_1 {
     item_id = resource.product.episerver.item_id
     version_id = resource.product.episerver.base_version_id
     label_id = resource.metafield_label.upload_channel_id_51454.label_id
-    row_id = 1
 }

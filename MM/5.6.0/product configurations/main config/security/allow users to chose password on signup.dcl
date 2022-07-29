@@ -19,7 +19,6 @@ resource versioned_metadata_bool_value allow_users_to_chose_password_on_signup_d
     item_id = resource.product.media_manager.item_id
     version_id = resource.product.media_manager.base_version_id
     label_id = resource.metafield_label.allow_users_to_chose_password_on_signup.label_id
-    row_id = 1
 }
 
 resource item_security allow_users_to_chose_password_on_signup__anonymous {
