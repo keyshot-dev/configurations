@@ -36,5 +36,4 @@ resource versioned_metadata_master_item_reference_value related_thumb_9449_51465
 	item_id = resource.product.digizuite_dam_for_sitecore.item_id
 	version_id = resource.product.digizuite_dam_for_sitecore.base_version_id
 	label_id = resource.metafield_label.related_thumb_51465.label_id
-	row_id = 1
 }

@@ -15,7 +15,6 @@ resource versioned_metadata_note_value theming_details {
     item_id = resource.product.media_manager.item_id
     label_id = resource.metafield_label.theming_details.label_id
     version_id = resource.product.media_manager.base_version_id
-    row_id = 1
     value = '{"primary":{"backgroundColor":"#32e65e","textColor":"#ffffff","hoverColor":"#28dc54","activeColor":"#1ed24a"}}'
 }
 

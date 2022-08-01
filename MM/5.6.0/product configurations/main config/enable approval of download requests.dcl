@@ -22,7 +22,6 @@ resource versioned_metadata_bool_value enable_approval_of_download_requests {
     item_id = resource.product.media_manager.item_id
     version_id = resource.product.media_manager.base_version_id
     label_id = resource.metafield_label.enable_approval_of_download_requests.label_id
-    row_id = 1
 }
 
 resource item_security enable_approval_of_download_requests__anonymous {

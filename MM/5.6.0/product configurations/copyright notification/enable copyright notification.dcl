@@ -19,7 +19,6 @@ resource versioned_metadata_bool_value enable_copyright_notification {
     item_id = resource.product.media_manager.item_id
     version_id = resource.product.media_manager.base_version_id
     label_id = resource.metafield_label.enable_copyright_notification.label_id
-    row_id = 1
 }
 
 resource item_security enable_copyright_notification__anonymous {

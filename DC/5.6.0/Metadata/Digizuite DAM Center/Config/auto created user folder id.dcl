@@ -20,7 +20,6 @@ resource versioned_metadata_string_value auto_created_user_folder_id {
     item_id = resource.product.digizuite_dam_center.item_id
     version_id = resource.product.digizuite_dam_center.base_version_id
     label_id = resource.metafield_label.auto_created_user_folder_id.label_id
-    row_id = 1
 }
 
 resource item_security auto_created_user_folder_id__trusted {

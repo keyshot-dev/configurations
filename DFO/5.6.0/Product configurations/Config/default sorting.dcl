@@ -101,5 +101,4 @@ resource versioned_metadata_combo_value default_sorting_9448_51452_1 {
     item_id = resource.product.episerver.item_id
     version_id = resource.product.episerver.base_version_id
     label_id = resource.metafield_label.default_sorting_51452.label_id
-    row_id = 1
 }

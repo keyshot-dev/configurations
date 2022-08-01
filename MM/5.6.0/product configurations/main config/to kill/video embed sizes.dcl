@@ -172,6 +172,5 @@ resource versioned_metadata_multi_combo_value video_embed_sizes {
     item_id = resource.product.media_manager.item_id
     version_id = resource.product.media_manager.base_version_id
     label_id = resource.metafield_label.video_embed_sizes.label_id
-    row_id = 1
 }
 

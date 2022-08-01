@@ -18,7 +18,6 @@ resource versioned_metadata_int_value running_jobs_refresh_interval_ms {
     item_id = resource.product.digizuite_dam_center.item_id
     version_id = resource.product.digizuite_dam_center.base_version_id
     label_id = resource.metafield_label.running_jobs_refresh_interval_ms.label_id
-    row_id = 1
 }
 
 resource item_security running_jobs_refresh_interval_ms__trusted {

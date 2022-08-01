@@ -36,5 +36,4 @@ resource versioned_metadata_master_item_reference_value audio_preview_9449_51461
 	item_id = resource.product.digizuite_dam_for_sitecore.item_id
 	version_id = resource.product.digizuite_dam_for_sitecore.base_version_id
 	label_id = resource.metafield_label.audio_preview_51461.label_id
-	row_id = 1
 }
