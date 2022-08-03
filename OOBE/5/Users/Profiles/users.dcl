@@ -24,7 +24,7 @@ resource member administrator {
         }]
     roles = []
     autolink = {
-        itemGuid = '0420be50-c893-435a-9d7a-5474fa425508'
+        item_guid = '0420be50-c893-435a-9d7a-5474fa425508'
     }
 }
 
@@ -43,7 +43,7 @@ resource member contentcreator {
         }]
     roles = []
     autolink = {
-        itemGuid = '28963060-6dc1-442e-a85e-1d2489819b29'
+        item_guid = '28963060-6dc1-442e-a85e-1d2489819b29'
     }
 }
 
@@ -62,7 +62,7 @@ resource member lightuser {
         }]
     roles = []
     autolink = {
-        itemGuid = '78adf9fb-9ac4-48e4-840a-d34deea3a5d7'
+        item_guid = '78adf9fb-9ac4-48e4-840a-d34deea3a5d7'
     }
 }
 
@@ -81,6 +81,6 @@ resource member upload {
     }]
     roles = []
     autolink = {
-        itemGuid = 'd7050c2f-f021-4d06-ac72-4f56f052cab3'
+        item_guid = 'd7050c2f-f021-4d06-ac72-4f56f052cab3'
     }
 }
