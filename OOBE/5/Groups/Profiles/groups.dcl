@@ -1,35 +1,35 @@
 ﻿data member_group administrator {
-  Name = 'Administrator'
+  name = 'Administrator'
 }
 
 patch member_group administrator_patch {
   target = data.member_group.administrator
-  Name = 'Administrator (profile)'
+  name = 'Administrator (profile)'
 }
 
 data member_group super_administrator {
-  Name = 'Super administrator'
+  name = 'Super administrator'
 }
 
 patch member_group super_administrator_patch {
   target = data.member_group.super_administrator
-  Name = 'Super administrator (profile)'
+  name = 'Super administrator (profile)'
 }
 
 data member_group content_creator {
-  Name = 'Content creator'
+  name = 'Content creator'
 }
 
 patch member_group content_creator_patch {
   target = data.member_group.content_creator
-  Name = 'Content creator (profile)'
+  name = 'Content creator (profile)'
 }
 
 data member_group light_user {
-  Name = 'Light user'
+  name = 'Light user'
 }
 
 patch member_group light_user_patch {
   target = data.member_group.light_user
-  Name = 'Light user (profile)'
+  name = 'Light user (profile)'
 }

@@ -19,14 +19,14 @@ resource member_group social_media_user_profile {
 }
 
 data member_group guest_profile {
-  Name = 'Guest'
+  name = 'Guest'
 }
 
 patch member_group administrator_patch {
   target = data.member_group.guest_profile
-  Name = 'Guest (profile)'
+  name = 'Guest (profile)'
 }
 
 data member_group trusted {
-  Name = 'Trusted'
+  name = 'Trusted'
 }
