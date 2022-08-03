@@ -4,7 +4,17 @@
 
 patch tree_metafield folders_patch {
     target = data.tree_metafield.folders
-    name = 'folders'
+    name = 'Folders'
+}
+
+data metafield_label folders {
+	metafield_id = data.tree_metafield.folders.metafield_id
+	language_id = data.language.english.id
+}
+
+patch metafield_label folders_patch {
+    target = data.metafield_label.folders
+    label = 'Folders'
 }
 
 resource item_security folders_metadata_editor {
