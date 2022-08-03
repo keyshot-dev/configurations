@@ -101,12 +101,12 @@
       <valueField id="sourceCopyUrl" fieldName="asset.urlAbsolut(${to_string(data.destination.frontenddata_sm.item_guid)},${to_string(data.media_format.source_copy.item_guid)})" />
       <valueField id="pdfUrl" fieldName="asset.urlAbsolut(${to_string(data.destination.frontenddata_sm.item_guid)},${to_string(data.media_format.adobe_pdf_preview.item_guid)})" />
       <valueFields id="workflowStatus">
-        <valueField id="workflowStatusLabel" itemGuid="${to_string(resource.combovalue_metafield.tasks_status.item_guid)}" field="value" />
-        <valueField id="workflowStatusValue" itemGuid="${to_string(resource.combovalue_metafield.tasks_status.item_guid)}" field="optionvalue" bindId="WorkflowStatusLabel" />
+        <valueField id="workflowStatusLabel" itemGuid="${to_string(resource.combovalue_metafield.options_status.item_guid)}" field="value" />
+        <valueField id="workflowStatusValue" itemGuid="${to_string(resource.combovalue_metafield.options_status.item_guid)}" field="optionvalue" bindId="WorkflowStatusLabel" />
       </valueFields>
       <valueFields id="workflowOwner">
-        <valueField id="workflowOwnerName" itemGuid="${to_string(resource.masteritem_reference_metafield.tasks_owner.item_guid)}" field="ItemReferenceTitle" />
-        <valueField id="workflowOwnerId" itemGuid="${to_string(resource.masteritem_reference_metafield.tasks_owner.item_guid)}" field="ItemReferenceBaseID" />
+        <valueField id="workflowOwnerName" itemGuid="${to_string(resource.masteritem_reference_metafield.options_owner.item_guid)}" field="ItemReferenceTitle" />
+        <valueField id="workflowOwnerId" itemGuid="${to_string(resource.masteritem_reference_metafield.options_owner.item_guid)}" field="ItemReferenceBaseID" />
       </valueFields>
     </valueFields>
     <sortFields>

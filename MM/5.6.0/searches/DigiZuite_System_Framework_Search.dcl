@@ -29,8 +29,8 @@
           <value>0</value>
         </values>
       </searchField>
-      <searchField id="sWorkflowStatus" itemGuid="${to_string(resource.combovalue_metafield.tasks_status.item_guid)}" operator="AND" valueHandler="InList" visible="false" />
-      <searchField id="owner" itemGuid="${to_string(resource.masteritem_reference_metafield.tasks_owner.item_guid)}" valueHandler="Equals" visible="false" operator="AND" />
+      <searchField id="sWorkflowStatus" itemGuid="${to_string(resource.combovalue_metafield.options_status.item_guid)}" operator="AND" valueHandler="InList" visible="false" />
+      <searchField id="owner" itemGuid="${to_string(resource.masteritem_reference_metafield.options_owner.item_guid)}" valueHandler="Equals" visible="false" operator="AND" />
       <searchField id="security" securityType="ItemSecurityReadAccessOnlyPublic" visible="false" operator="AND" />
     </searchFields>
     <valueFields OutputType="SQLXML">
@@ -90,12 +90,12 @@
       <valueField id="sourceLocation" fieldName="function.GetAssetLocationPath" />
       <valueField id="derivedFrom" fieldName="asset.DerivedFrom" returnType="int" />
       <valueFields id="workflowStatus">
-        <valueField id="workflowStatusLabel" itemGuid="${to_string(resource.combovalue_metafield.tasks_status.item_guid)}" field="value" />
-        <valueField id="workflowStatusValue" itemGuid="${to_string(resource.combovalue_metafield.tasks_status.item_guid)}" field="optionvalue" bindId="WorkflowStatusLabel" />
+        <valueField id="workflowStatusLabel" itemGuid="${to_string(resource.combovalue_metafield.options_status.item_guid)}" field="value" />
+        <valueField id="workflowStatusValue" itemGuid="${to_string(resource.combovalue_metafield.options_status.item_guid)}" field="optionvalue" bindId="WorkflowStatusLabel" />
       </valueFields>
       <valueFields id="workflowOwner">
-        <valueField id="workflowOwnerName" itemGuid="${to_string(resource.masteritem_reference_metafield.tasks_owner.item_guid)}" field="ItemReferenceTitle" />
-        <valueField id="workflowOwnerId" itemGuid="${to_string(resource.masteritem_reference_metafield.tasks_owner.item_guid)}" field="ItemReferenceBaseID" />
+        <valueField id="workflowOwnerName" itemGuid="${to_string(resource.masteritem_reference_metafield.options_owner.item_guid)}" field="ItemReferenceTitle" />
+        <valueField id="workflowOwnerId" itemGuid="${to_string(resource.masteritem_reference_metafield.options_owner.item_guid)}" field="ItemReferenceBaseID" />
       </valueFields>
     </valueFields>
     <sortFields>
