@@ -1,6 +1,6 @@
 ﻿resource member_group scheme_super_administrator {
     name = 'Scheme - Super administrator'
-    folder_id = data.member_group_folder.schemas.id
+    folder_id = resource.member_group_folder.schemas.id
     sort_index = 0
     approved = true
     ad_group_name = ''
@@ -256,7 +256,7 @@
 
 resource member_group scheme_administrator {
     name = 'Scheme - administrator'
-    folder_id = data.member_group_folder.schemas.id
+    folder_id = resource.member_group_folder.schemas.id
     sort_index = 0
     approved = true
     ad_group_name = ''
@@ -446,7 +446,7 @@ resource member_group scheme_administrator {
 
 resource member_group scheme_content_creator {
     name = 'Scheme - Content Creator'
-    folder_id = data.member_group_folder.schemas.id
+    folder_id = resource.member_group_folder.schemas.id
     sort_index = 0
     approved = true
     ad_group_name = ''
@@ -558,7 +558,7 @@ resource member_group scheme_content_creator {
 
 resource member_group scheme_light_user {
     name = 'Scheme - Light user'
-    folder_id = data.member_group_folder.schemas.id
+    folder_id = resource.member_group_folder.schemas.id
     sort_index = 0
     approved = true
     ad_group_name = ''
@@ -620,7 +620,7 @@ resource member_group scheme_light_user {
 
 resource member_group scheme_upload_only_user {
     name = 'Scheme - Upload only user'
-    folder_id = data.member_group_folder.schemas.id
+    folder_id = resource.member_group_folder.schemas.id
     sort_index = 0
     approved = true
     ad_group_name = ''
@@ -629,7 +629,7 @@ resource member_group scheme_upload_only_user {
             },{
                 member_group_id = resource.member_group.upload_only_user_profile.member_group_id
             },{
-                member_group_id = resource.member_group.upload_user_only_metadata.member_group_id
+                member_group_id = resource.member_group.upload_only_user_metadata.member_group_id
             },{
                 member_group_id = data.member_group.trusted.member_group_id
             }]

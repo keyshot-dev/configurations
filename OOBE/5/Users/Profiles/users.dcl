@@ -39,7 +39,7 @@ resource member contentcreator {
     ad_username = ''
     avatar_id = ''
     groups = [{
-            member_group_id = resource.member_group.scheme_contentcreator.member_group_id
+            member_group_id = resource.member_group.scheme_content_creator.member_group_id
         }]
     roles = []
     autolink = {
@@ -58,7 +58,7 @@ resource member lightuser {
     ad_username = ''
     avatar_id = ''
     groups = [{
-            member_group_id = resource.member_group.scheme_lightuser.member_group_id
+            member_group_id = resource.member_group.scheme_light_user.member_group_id
         }]
     roles = []
     autolink = {
@@ -70,7 +70,7 @@ resource member upload {
     username = 'UploadOnlyUser'
     email = ''
     language = data.language.english.id
-    folder_id = data.member_folder.user_profiles_213.id
+    folder_id = data.member_folder.user_profiles.id
     firstname = ''
     lastname = '(user profile)'
     enabled = true

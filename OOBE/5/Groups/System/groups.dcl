@@ -30,3 +30,7 @@ patch member_group guest_profile_patch {
 data member_group trusted {
   name = 'Trusted'
 }
+
+data member_group anonymous {
+  name = 'Anonymous'
+}
