@@ -3,6 +3,7 @@
 }
 
 patch tree_metafield folders_patch {
+    target = data.tree_metafield.folders
     name = 'folders'
 }
 
