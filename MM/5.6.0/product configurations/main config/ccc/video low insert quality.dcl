@@ -18,7 +18,7 @@ resource metafield_label ccc_video_low_insert_quality {
 resource versioned_metadata_master_item_reference_value ccc_video_low_insert_quality {
     references = [
         {
-            ref_itemid = data.media_format.video_720p.item_id
+            ref_itemid = data.media_format.video_preview_h264.item_id
         }
     ]
     item_id = resource.product.media_manager.item_id

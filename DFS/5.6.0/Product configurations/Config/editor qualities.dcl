@@ -36,7 +36,7 @@ resource versioned_metadata_master_item_reference_value editor_qualities_9449_51
 		, { ref_itemid = data.media_format.jpg_medium_50035.item_id }
 		, { ref_itemid = data.media_format.jpg_small_50036.item_id }
 		, { ref_itemid = data.media_format.png_transparent_50037.item_id }
-		, { ref_itemid = data.media_format.id_480p_50038.item_id }
+		, { ref_itemid = data.media_format.video_480p.item_id }
 		, { ref_itemid = data.media_format.video_720p.item_id }
 		, { ref_itemid = data.media_format.video_1080p.item_id }
 		, { ref_itemid = resource.media_format.sitecore_system_audio_preview_50099.item_id }
