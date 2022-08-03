@@ -1,4 +1,4 @@
-﻿resource media_format id_480p_50038 {
+﻿resource media_format video_480p {
 	folder_id = resource.media_format_folder.video.id
     format_type_id = resource.media_format_type.mpeg_4_10201.media_format_type_id
 	name = '480p'
@@ -44,7 +44,7 @@
 	}
 }
 
-resource media_format fmt720p_hd_50039 {
+resource media_format video_720p {
 	folder_id = resource.media_format_folder.video.id
     format_type_id = resource.media_format_type.mpeg_4_10201.media_format_type_id
 	name = '720p (HD)'
@@ -90,7 +90,7 @@ resource media_format fmt720p_hd_50039 {
 	}		
 }
 
-resource media_format fmt1080p_hd_50040 {
+resource media_format video_1080p {
     folder_id = resource.media_format_folder.video.id
     format_type_id = resource.media_format_type.mpeg_4_10201.media_format_type_id
     name = '1080p (HD)'

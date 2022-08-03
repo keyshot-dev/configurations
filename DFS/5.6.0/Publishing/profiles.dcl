@@ -18,7 +18,7 @@ resource profile dam_for_sitecore_video_50034 {
     is_public = true
     name = 'DAM for Sitecore Video'
 	qualities = [
-		 { media_format_id = data.media_format.id_480p_50038.media_format_id }
+		 { media_format_id = data.media_format.video_480p.media_format_id }
 		,{ media_format_id = data.media_format.video_720p.media_format_id }
 		,{ media_format_id = data.media_format.video_1080p.media_format_id }
 		,{ media_format_id = resource.media_format.sitecore_system_thumb_50091.media_format_id }

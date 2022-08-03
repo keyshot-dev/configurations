@@ -1,44 +1,4 @@
-﻿resource media_transcode indesign_exifthumb_to_jpg_thumbnail_50066 {
-    name = 'InDesign ExifThumb to JPG Thumbnail'
-    description = ''
-    is_public = true
-    settings = ''
-    encoder_profile_name = ''
-    prefix = ''
-    copy_target_icc_profile = false
-    only_explicit_use = false
-    prog_id = 'DigiImageMagicJobs.JobConvertImage'
-    folder_id = resource.transcode_folder.digizuite_media_manager_10003.id
-    embed_metadefinition = ''
-    source_media_format_id = resource.media_format.exifthumb_raw_50014.media_format_id
-    target_media_format_id = resource.media_format.jpg_thumbnail_10001.media_format_id
-    prevref = resource.media_transcode.extract_exifthumb_from_indesign_50015.media_transcode_id
-    autolink = {
-        item_guid = 'a4f222e7-61b5-482a-bb18-e673fe573526'
-    }
-}
-
-resource media_transcode indesign_exifthumb_to_jpg_big_preview_50065 {
-    name = 'InDesign ExifThumb to JPG Big Preview'
-    description = ''
-    is_public = true
-    settings = ''
-    encoder_profile_name = ''
-    prefix = ''
-    copy_target_icc_profile = false
-    only_explicit_use = false
-    prog_id = 'DigiImageMagicJobs.JobConvertImage'
-    folder_id = resource.transcode_folder.digizuite_media_manager_10003.id
-    embed_metadefinition = ''
-    source_media_format_id = resource.media_format.exifthumb_raw_50014.media_format_id
-    target_media_format_id = resource.media_format.jpg_big_preview_10028.media_format_id
-    prevref = resource.media_transcode.extract_exifthumb_from_indesign_50015.media_transcode_id
-    autolink = {
-        item_guid = '6dcdf1ff-4103-4a6e-a993-ce29a26c1bb6'
-    }
-}
-
-resource media_transcode indesign_exifthumb_to_jpg_small_50067 {
+﻿resource media_transcode indesign_exifthumb_to_jpg_small_50067 {
     folder_id = resource.transcode_folder.digizuite_media_manager_10003.id
 	name = 'InDesign ExifThumb to JPG Small'
 	description = ''

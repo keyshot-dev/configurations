@@ -11,8 +11,8 @@
     </searchFields>
     <valueFields OutputType="SQLXML">
       <valueField id="thumb" fieldName="asset.urlAbsolut(${to_string(resource.destination.frontenddata_sm.item_guid)},${to_string(resource.media_format.desktop_video_thumb_50019.item_guid)})" />
-      <valueField id="thumbTablet" fieldName="asset.urlAbsolut(${to_string(resource.destination.frontenddata_sm.item_guid)},${to_string(resource.media_format.tablet_video_thumb_50020.item_guid)})" />
-      <valueField id="thumbMobile" fieldName="asset.urlAbsolut(${to_string(resource.destination.frontenddata_sm.item_guid)},${to_string(resource.media_format.mobile_video_thumb_50021.item_guid)})" />
+      <valueField id="thumbTablet" fieldName="asset.urlAbsolut(${to_string(resource.destination.frontenddata_sm.item_guid)},${to_string(resource.media_format.desktop_video_thumb_50019.item_guid)})" />
+      <valueField id="thumbMobile" fieldName="asset.urlAbsolut(${to_string(resource.destination.frontenddata_sm.item_guid)},${to_string(resource.media_format.desktop_video_thumb_50019.item_guid)})" />
       <valueField id="desktopH264" fieldName="asset.urlAbsolut(${to_string(resource.destination.frontenddata_sm.item_guid)},${to_string(resource.media_format.desktop_h264_2048kbit_ffmpeg_50016.item_guid)})" />
       <valueField id="tabletH264" fieldName="asset.urlAbsolut(${to_string(resource.destination.frontenddata_sm.item_guid)},${to_string(resource.media_format.tablet_h264_2048kbit_ffmpeg_50017.item_guid)})" />
       <valueField id="mobileH264" fieldName="asset.urlAbsolut(${to_string(resource.destination.frontenddata_sm.item_guid)},${to_string(resource.media_format.mobile_h264_1024kbit_ffmpeg_50018.item_guid)})" />

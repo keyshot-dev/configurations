@@ -51,9 +51,9 @@
       <valueField id="filesize" fieldName="asset.file_size" playerView="1" returnType="long" />
       <valueField id="writeAccess" fieldName="item_security.writeaccess" returnType="bool" />
       <valueField id="thumb" fieldName="asset.urlAbsolut(${to_string(data.destination.frontenddata_sm.item_guid)},${to_string(data.media_format.desktop_video_thumb.item_guid)})" />
-      <valueField id="desktopH264" fieldName="asset.urlAbsolut(${to_string(data.destination.frontenddata_sm.item_guid)},${to_string(data.media_format.desktop_h264_2048kbit_ffmpeg.item_guid)})" />
-      <valueField id="tabletH264" fieldName="asset.urlAbsolut(${to_string(data.destination.frontenddata_sm.item_guid)},${to_string(data.media_format.tablet_h264_2048kbit_ffmpeg.item_guid)})" />
-      <valueField id="mobileH264" fieldName="asset.urlAbsolut(${to_string(data.destination.frontenddata_sm.item_guid)},${to_string(data.media_format.mobile_h264_1024kbit_ffmpeg.item_guid)})" />
+      <valueField id="desktopH264" fieldName="asset.urlAbsolut(${to_string(data.destination.asset_storage_sm.item_guid)},${to_string(data.media_format.video_preview_h264.item_guid)" />
+      <valueField id="tabletH264" fieldName="asset.urlAbsolut(${to_string(data.destination.asset_storage_sm.item_guid)},${to_string(data.media_format.video_preview_h264.item_guid)" />
+      <valueField id="mobileH264" fieldName="asset.urlAbsolut(${to_string(data.destination.asset_storage_sm.item_guid)},${to_string(data.media_format.video_preview_h264.item_guid)" />
       <valueField id="audioH264" fieldName="asset.urlAbsolut(${to_string(data.destination.frontenddata_sm.item_guid)},${to_string(data.media_format.h264_128_kbit_advanced_audio_codec.item_guid)})" />
       <valueField id="uploadedByName" fieldName="member.username" tooltip="1" playerView="1">
         <bindField id="memberNameBind">

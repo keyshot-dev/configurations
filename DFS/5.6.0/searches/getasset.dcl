@@ -33,7 +33,7 @@
           <new id="memberNameNew" fieldName="member.memberid" />
         </bindField>
       </valueField>
-      <valueField id="asseVersionId" itemGuid="${to_string(data.int_metafield.assetversionid_10309.item_guid)}" />
+      <valueField id="assetVersionId" fieldName="asset.ReplacedAssetId" />
       <valueField id="isPublic" fieldName="asset.is_public" />
       <valueField id="published" fieldName="asset_layoutfolder.firstpublished" aggregate="count" />
       <valueField id="lastchangeddate" fieldName="asset.lastchangeddate" />

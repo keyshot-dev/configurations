@@ -78,26 +78,6 @@ resource media_transcode desktop_video_thumb_50031 {
 	}
 }
 
-resource media_transcode mobile_video_thumb_50033 {
-    name = 'Mobile Video Thumb'
-    description = ''
-    is_public = true
-    settings = ''
-    encoder_profile_name = ''
-    prefix = ''
-    copy_target_icc_profile = false
-    only_explicit_use = false
-    prog_id = 'DigiImageMagicJobs.JobConvertImage'
-    folder_id = resource.transcode_folder.standard_10001.id
-    embed_metadefinition = ''
-    source_media_format_id = resource.media_format.video_thumb_dynamic_10026.media_format_id
-    target_media_format_id = resource.media_format.mobile_video_thumb_50021.media_format_id
-    prevref = resource.media_transcode.video_thumb_ffmpeg_10053.media_transcode_id
-	autolink = {
-		item_guid = '96332f3c-e710-4a07-9adf-9f516c93089d'
-	}
-}
-
 resource media_transcode tablet_h264_2048kbit_ffmpeg_50029 {
     name = 'Tablet H264 2048kbit ffmpeg'
     description = ''
@@ -115,26 +95,6 @@ resource media_transcode tablet_h264_2048kbit_ffmpeg_50029 {
     prevref = 0
 	autolink = {
 		item_guid = '250fffbc-57e7-4a13-93dd-ec74ab4158d6'
-	}
-}
-
-resource media_transcode tablet_video_thumb_50032 {
-    name = 'Tablet Video Thumb'
-    description = ''
-    is_public = true
-    settings = ''
-    encoder_profile_name = ''
-    prefix = ''
-    copy_target_icc_profile = false
-    only_explicit_use = false
-    prog_id = 'DigiImageMagicJobs.JobConvertImage'
-    folder_id = resource.transcode_folder.standard_10001.id
-    embed_metadefinition = ''
-    source_media_format_id = resource.media_format.video_thumb_dynamic_10026.media_format_id
-    target_media_format_id = resource.media_format.tablet_video_thumb_50020.media_format_id
-    prevref = resource.media_transcode.video_thumb_ffmpeg_10053.media_transcode_id
-	autolink = {
-		item_guid = '8f0bcc98-98a3-40ad-ab4f-5e6e6b3fe355'
 	}
 }
 

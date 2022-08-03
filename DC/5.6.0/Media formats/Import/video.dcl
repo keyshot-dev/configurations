@@ -1,10 +1,10 @@
 ﻿resource media_format video_preview_h264_10079 {
     folder_id = resource.media_format_folder.import_10000.id
     format_type_id = resource.media_format_type.mpeg_4_10201.media_format_type_id
-    name = 'VIDEO_preview_h264'
+    name = 'Video preview (1080p)'
     description = ''
     width = 0
-    height = 360
+    height = 1080
     is_public = true
     format_xml = '<mediaformat><fieldmapping active="1" asset_metafieldid="${to_string(resource.combovalue_metafield.format.metafield_id)}" jobident="AspectRatio"><defaultvalue>169</defaultvalue></fieldmapping><fieldmapping active="1" asset_metafieldid="${to_string(resource.combovalue_metafield.rotation.metafield_id)}" jobident="VideoRotate"><defaultvalue>0</defaultvalue></fieldmapping></mediaformat>'
     multi_page_output = false

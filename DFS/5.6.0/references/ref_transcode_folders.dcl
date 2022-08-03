@@ -12,8 +12,3 @@ data transcode_folder image {
 	parent_id = data.transcode_folder.oobe.id
 	name = 'Image'
 }
-
-data transcode_folder video {
-	parent_id = data.transcode_folder.oobe.id
-	name = 'Video'
-}

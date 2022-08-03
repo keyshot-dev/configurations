@@ -19,7 +19,7 @@
       <valueField id="description" itemGuid="${to_string(data.note_metafield.description.item_guid)}" />
       <valueField id="thumb" fieldName="asset.urlAbsolut(${to_string(data.destination.frontenddata_sm.item_guid)},${to_string(data.media_format.desktop_video_thumb.item_guid)})" />
       <valueField id="image1080p" fieldName="asset.urlAbsolut(${to_string(data.destination.asset_storage_sm.item_guid)},${to_string(data.media_format.thumb_1920x1080.item_guid)})" />
-      <valueField id="desktopH264" fieldName="asset.urlAbsolut(${to_string(data.destination.frontenddata_sm.item_guid)},${to_string(data.media_format.desktop_h264_2048kbit_ffmpeg.item_guid)})" />
+      <valueField id="desktopH264" fieldName="asset.urlAbsolut(${to_string(data.destination.asset_storage_sm.item_guid)},${to_string(data.media_format.video_preview_h264.item_guid)" />
       <valueField id="sourceLocation" fieldName="function.GetAssetLocationPath" />
       <valueField id="filesize" fieldName="asset.file_size" returnType="long" />
       <valueField id="cropName" itemGuid="${to_string(data.string_metafield.cropname.item_guid)}" />

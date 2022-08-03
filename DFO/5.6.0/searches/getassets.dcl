@@ -53,7 +53,7 @@ resource search getassets_368 {
           <new fieldName="member.memberid" id="memberNameNew" />
         </bindField>
       </valueField>
-      <valueField id="assetVersionId" itemGuid="${to_string(data.int_metafield.assetversionid_10309.item_guid)}" />
+      <valueField id="assetVersionId" fieldName="asset.ReplacedAssetId" />
       <valueField fieldName="asset.is_public" id="isPublic" />
       <valueField aggregate="count" fieldName="asset_layoutfolder.firstpublished" id="published" />
       <valueField fieldName="item_security.writeaccess" id="writeAccess" renderType="bool" />

@@ -3,17 +3,9 @@
     asset_type = 'ODP'
     is_public = true
     qualities = [{
-            media_format_id = data.media_format.jpg_thumbnail.media_format_id
-        }, {
-            media_format_id = data.media_format.jpg_big_preview.media_format_id
-        }, {
             media_format_id = data.media_format.source_copy.media_format_id
         }, {
             media_format_id = data.media_format.desktop_video_thumb.media_format_id
-        }, {
-            media_format_id = data.media_format.tablet_video_thumb.media_format_id
-        }, {
-            media_format_id = data.media_format.mobile_video_thumb.media_format_id
         }, {
             media_format_id = data.media_format.adobe_pdf_preview.media_format_id
         }]
@@ -33,17 +25,7 @@ resource profile oobe_media_manager_image_50016 {
     asset_type = 'Image'
     is_public = true
     qualities = [{
-            media_format_id = data.media_format.jpg_thumbnail.media_format_id
-        }, {
-            media_format_id = data.media_format.jpg_big_preview.media_format_id
-        }, {
-           media_format_id = data.media_format.image_preview_10038.media_format_id
-        },{
             media_format_id = data.media_format.desktop_video_thumb.media_format_id
-        }, {
-            media_format_id = data.media_format.tablet_video_thumb.media_format_id
-        }, {
-            media_format_id = data.media_format.mobile_video_thumb.media_format_id
         }, {
             media_format_id = data.media_format.jpg_full_size.media_format_id
         }, {
@@ -52,8 +34,6 @@ resource profile oobe_media_manager_image_50016 {
             media_format_id = data.media_format.jpg_medium.media_format_id
         }, {
             media_format_id = data.media_format.jpg_small.media_format_id
-        }, {
-            media_format_id = data.media_format.png_transparent.media_format_id
         }]
 }
 
@@ -62,19 +42,11 @@ resource profile mediaportal_pdf_10014 {
     asset_type = 'PDF'
     is_public = true
     qualities = [{
-            media_format_id = data.media_format.jpg_thumbnail.media_format_id
-        }, {
-            media_format_id = data.media_format.jpg_big_preview.media_format_id
-        }, {
             media_format_id = data.media_format.source_copy.media_format_id
         }, {
             media_format_id = data.media_format.adobe_pdf_page_image.media_format_id
         }, {
             media_format_id = data.media_format.desktop_video_thumb.media_format_id
-        }, {
-            media_format_id = data.media_format.tablet_video_thumb.media_format_id
-        }, {
-            media_format_id = data.media_format.mobile_video_thumb.media_format_id
         }, {
             media_format_id = data.media_format.adobe_pdf_preview.media_format_id
         }]
@@ -85,17 +57,9 @@ resource profile mediaportal_visio_50023 {
     asset_type = 'Visio'
     is_public = true
     qualities = [{
-            media_format_id = data.media_format.jpg_thumbnail.media_format_id
-        }, {
-            media_format_id = data.media_format.jpg_big_preview.media_format_id
-        }, {
             media_format_id = data.media_format.source_copy.media_format_id
         }, {
             media_format_id = data.media_format.desktop_video_thumb.media_format_id
-        }, {
-            media_format_id = data.media_format.tablet_video_thumb.media_format_id
-        }, {
-            media_format_id = data.media_format.mobile_video_thumb.media_format_id
         }, {
             media_format_id = data.media_format.adobe_pdf_preview.media_format_id
         }]
@@ -106,17 +70,9 @@ resource profile mediaportal_openoffice_impress_template_50030 {
     asset_type = 'OTP'
     is_public = true
     qualities = [{
-            media_format_id = data.media_format.jpg_thumbnail.media_format_id
-        }, {
-            media_format_id = data.media_format.jpg_big_preview.media_format_id
-        }, {
             media_format_id = data.media_format.source_copy.media_format_id
         }, {
             media_format_id = data.media_format.desktop_video_thumb.media_format_id
-        }, {
-            media_format_id = data.media_format.tablet_video_thumb.media_format_id
-        }, {
-            media_format_id = data.media_format.mobile_video_thumb.media_format_id
         }, {
             media_format_id = data.media_format.adobe_pdf_preview.media_format_id
         }]
@@ -129,21 +85,7 @@ resource profile oobe_media_manager_video_50017 {
     qualities = [{
             media_format_id = data.media_format.desktop_video_thumb.media_format_id
         }, {
-            media_format_id = data.media_format.tablet_video_thumb.media_format_id
-        }, {
-            media_format_id = data.media_format.mobile_video_thumb.media_format_id
-        }, {
-            media_format_id = data.media_format.id_480p.media_format_id
-        }, {
-            media_format_id = data.media_format.video_720p.media_format_id
-        }, {
-            media_format_id = data.media_format.fmt1080p_hd.media_format_id
-        }, {
-            media_format_id = data.media_format.desktop_h264_2048kbit_ffmpeg.media_format_id
-        }, {
-            media_format_id = data.media_format.tablet_h264_2048kbit_ffmpeg.media_format_id
-        }, {
-            media_format_id = data.media_format.mobile_h264_1024kbit_ffmpeg.media_format_id
+            media_format_id = data.media_format.video_preview_h264.media_format_id
         }]
 }
 
@@ -152,16 +94,10 @@ resource profile mediaportal_photoshop_50008 {
     asset_type = 'Photoshop'
     is_public = true
     qualities = [{
-            media_format_id = data.media_format.jpg_thumbnail.media_format_id
-        }, {
-            media_format_id = data.media_format.jpg_big_preview.media_format_id
-        }, {
             media_format_id = data.media_format.desktop_video_thumb.media_format_id
         }, {
-            media_format_id = data.media_format.tablet_video_thumb.media_format_id
-        }, {
-            media_format_id = data.media_format.mobile_video_thumb.media_format_id
-        }]
+           media_format_id = data.media_format.source_copy.media_format_id
+        }]    
 }
 
 resource profile mediaportal_openoffice_calc_document_50027 {
@@ -169,18 +105,10 @@ resource profile mediaportal_openoffice_calc_document_50027 {
     asset_type = 'ODS'
     is_public = true
     qualities = [{
-            media_format_id = data.media_format.jpg_thumbnail.media_format_id
-        }, {
-            media_format_id = data.media_format.jpg_big_preview.media_format_id
-        }, {
             media_format_id = data.media_format.source_copy.media_format_id
         }, {
             media_format_id = data.media_format.desktop_video_thumb.media_format_id
-        }, {
-            media_format_id = data.media_format.tablet_video_thumb.media_format_id
-        }, {
-            media_format_id = data.media_format.mobile_video_thumb.media_format_id
-        }, {
+        },{
             media_format_id = data.media_format.adobe_pdf_preview.media_format_id
         }]
 }
@@ -190,17 +118,9 @@ resource profile mediaportal_openoffice_writer_document_50025 {
     asset_type = 'ODT'
     is_public = true
     qualities = [{
-            media_format_id = data.media_format.jpg_thumbnail.media_format_id
-        }, {
-            media_format_id = data.media_format.jpg_big_preview.media_format_id
-        }, {
             media_format_id = data.media_format.source_copy.media_format_id
         }, {
             media_format_id = data.media_format.desktop_video_thumb.media_format_id
-        }, {
-            media_format_id = data.media_format.tablet_video_thumb.media_format_id
-        }, {
-            media_format_id = data.media_format.mobile_video_thumb.media_format_id
         }, {
             media_format_id = data.media_format.adobe_pdf_preview.media_format_id
         }]
@@ -211,17 +131,9 @@ resource profile oobe_office_excel_50020 {
     asset_type = 'Excel'
     is_public = true
     qualities = [{
-            media_format_id = data.media_format.jpg_thumbnail.media_format_id
-        }, {
-            media_format_id = data.media_format.jpg_big_preview.media_format_id
-        }, {
             media_format_id = data.media_format.source_copy.media_format_id
         }, {
             media_format_id = data.media_format.desktop_video_thumb.media_format_id
-        }, {
-            media_format_id = data.media_format.tablet_video_thumb.media_format_id
-        }, {
-            media_format_id = data.media_format.mobile_video_thumb.media_format_id
         }, {
             media_format_id = data.media_format.adobe_pdf_preview.media_format_id
         }]
@@ -232,17 +144,9 @@ resource profile mediaportal_powerpoint_10007 {
     asset_type = 'PowerPoint'
     is_public = true
     qualities = [{
-            media_format_id = data.media_format.jpg_thumbnail.media_format_id
-        }, {
-            media_format_id = data.media_format.jpg_big_preview.media_format_id
-        }, {
             media_format_id = data.media_format.source_copy.media_format_id
         }, {
             media_format_id = data.media_format.desktop_video_thumb.media_format_id
-        }, {
-            media_format_id = data.media_format.tablet_video_thumb.media_format_id
-        }, {
-            media_format_id = data.media_format.mobile_video_thumb.media_format_id
         }, {
             media_format_id = data.media_format.adobe_pdf_preview.media_format_id
         }]
@@ -253,17 +157,9 @@ resource profile mediaportal_cad_50024 {
     asset_type = 'Cad'
     is_public = true
     qualities = [{
-            media_format_id = data.media_format.jpg_thumbnail.media_format_id
-        }, {
-            media_format_id = data.media_format.jpg_big_preview.media_format_id
-        }, {
             media_format_id = data.media_format.source_copy.media_format_id
         }, {
             media_format_id = data.media_format.desktop_video_thumb.media_format_id
-        }, {
-            media_format_id = data.media_format.tablet_video_thumb.media_format_id
-        }, {
-            media_format_id = data.media_format.mobile_video_thumb.media_format_id
         }, {
             media_format_id = data.media_format.adobe_pdf_preview.media_format_id
         }]
@@ -274,17 +170,9 @@ resource profile mediaportal_openoffice_calc_template_50028 {
     asset_type = 'OTS'
     is_public = true
     qualities = [{
-            media_format_id = data.media_format.jpg_thumbnail.media_format_id
-        }, {
-            media_format_id = data.media_format.jpg_big_preview.media_format_id
-        }, {
             media_format_id = data.media_format.source_copy.media_format_id
         }, {
             media_format_id = data.media_format.desktop_video_thumb.media_format_id
-        }, {
-            media_format_id = data.media_format.tablet_video_thumb.media_format_id
-        }, {
-            media_format_id = data.media_format.mobile_video_thumb.media_format_id
         }, {
             media_format_id = data.media_format.adobe_pdf_preview.media_format_id
         }]
@@ -295,17 +183,9 @@ resource profile mediaportal_openoffice_writer_template_50026 {
     asset_type = 'OTT'
     is_public = true
     qualities = [{
-            media_format_id = data.media_format.jpg_thumbnail.media_format_id
-        }, {
-            media_format_id = data.media_format.jpg_big_preview.media_format_id
-        }, {
             media_format_id = data.media_format.source_copy.media_format_id
         }, {
             media_format_id = data.media_format.desktop_video_thumb.media_format_id
-        }, {
-            media_format_id = data.media_format.tablet_video_thumb.media_format_id
-        }, {
-            media_format_id = data.media_format.mobile_video_thumb.media_format_id
         }, {
             media_format_id = data.media_format.adobe_pdf_preview.media_format_id
         }]
@@ -316,17 +196,9 @@ resource profile oobe_office_word_50019 {
     asset_type = 'Word'
     is_public = true
     qualities = [{
-            media_format_id = data.media_format.jpg_thumbnail.media_format_id
-        }, {
-            media_format_id = data.media_format.jpg_big_preview.media_format_id
-        }, {
             media_format_id = data.media_format.source_copy.media_format_id
         }, {
             media_format_id = data.media_format.desktop_video_thumb.media_format_id
-        }, {
-            media_format_id = data.media_format.tablet_video_thumb.media_format_id
-        }, {
-            media_format_id = data.media_format.mobile_video_thumb.media_format_id
         }, {
             media_format_id = data.media_format.adobe_pdf_preview.media_format_id
         }]
@@ -337,15 +209,9 @@ resource profile mediaportal_illustrator_50009 {
     asset_type = 'Illustrator'
     is_public = true
     qualities = [{
-            media_format_id = data.media_format.jpg_thumbnail.media_format_id
-        }, {
-            media_format_id = data.media_format.jpg_big_preview.media_format_id
-        }, {
             media_format_id = data.media_format.desktop_video_thumb.media_format_id
         }, {
-            media_format_id = data.media_format.tablet_video_thumb.media_format_id
-        }, {
-            media_format_id = data.media_format.mobile_video_thumb.media_format_id
+            media_format_id = data.media_format.source_copy.media_format_id
         }]
 }
 
@@ -371,10 +237,6 @@ resource profile indesign_10011 {
     is_public = true
     qualities = [{
             media_format_id = data.media_format.desktop_video_thumb.media_format_id
-        }, {
-            media_format_id = data.media_format.tablet_video_thumb.media_format_id
-        }, {
-            media_format_id = data.media_format.mobile_video_thumb.media_format_id
         }]
 }
 

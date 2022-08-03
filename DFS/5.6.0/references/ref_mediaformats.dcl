@@ -68,10 +68,6 @@ data media_format jpg_big {
     name = 'JPG big'
 }
 
-data media_format video_720p {
-    name = '720p (HD)'
-}
-
 data media_format video_1080p {
     name = '1080p (HD)'
 }
@@ -89,11 +85,9 @@ data media_format png_transparent_50037 {
     name = 'PNG transparent'
 }
 
-data media_format id_480p_50038 {
-	name = '480p'
-}
-
 data media_format jpg_full_size_50033 {
  	name = 'JPG full size'
 }
+
+
 
