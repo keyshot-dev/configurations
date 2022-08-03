@@ -9,7 +9,7 @@ resource combo_value status_requires_tagging {
 }
 
 resource combo_value_label status_requires_tagging {
-    combo_id = resource.combo_value.options_status.combo_id
+    combo_id = resource.combo_value.status_requires_tagging.combo_id
     language_id = data.language.english.id
     label = 'Requires tagging'
 }
@@ -21,7 +21,7 @@ resource combo_value status_for_approval {
 }
 
 resource combo_value_label status_for_approval {
-    combo_id = resource.combo_value.options_status.combo_id
+    combo_id = resource.combo_value.status_for_approval.combo_id
     language_id = data.language.english.id
     label = 'For approval'
 }
@@ -33,7 +33,7 @@ resource combo_value status_approved {
 }
 
 resource combo_value_label status_approved {
-    combo_id = resource.combo_value.options_status.combo_id
+    combo_id = resource.combo_value.status_approved.combo_id
     language_id = data.language.english.id
     label = 'Approved'
 }
@@ -45,7 +45,7 @@ resource combo_value status_expired {
 }
 
 resource combo_value_label status_expired {
-    combo_id = resource.combo_value.options_status.combo_id
+    combo_id = resource.combo_value.status_expired.combo_id
     language_id = data.language.english.id
     label = 'Expired'
 }
@@ -57,7 +57,7 @@ resource combo_value status_archived {
 }
 
 resource combo_value_label status_archived {
-    combo_id = resource.combo_value.options_status.combo_id
+    combo_id = resource.combo_value.status_archived.combo_id
     language_id = data.language.english.id
     label = 'Archived'
 }
