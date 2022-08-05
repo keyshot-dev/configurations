@@ -43,7 +43,7 @@ data media_format thumb_200x120 {
 }
 
 data media_format video_preview_h264 {
-    name = 'VIDEO_preview_h264'
+    name = 'Video preview (1080p)'
 }
 
 data media_format h264_128_kbit_advanced_audio_codec {

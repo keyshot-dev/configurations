@@ -413,3 +413,34 @@ resource member_group administrator_22 {
         item_guid = '58efafcb-4ce9-43d0-b413-b842fbccb576'
     }
 }
+
+resource member_group light_user_24 {
+    name = 'Light user'
+    folder_id = data.member_group_folder.user_type.id
+    sort_index = 0
+    approved = true
+    ad_group_name = ''
+    parents = []
+    roles = [{
+            constant = 'MediaPortal_User'
+        }, {
+            constant = 'MediaPortal_Collection'
+        }, {
+            constant = 'MediaPortal_Downloader'
+        }, {
+            constant = 'Member_Viewer'
+        }, {
+            constant = 'MediaPortal_Share'
+        }, {
+            constant = 'Asset_Can_Download'
+        }, {
+            constant = 'Asset_Can_Download_Custom_Quality'
+        }, {
+            constant = 'Can_view_metadata_tab'
+        }, {
+            constant = 'Can_view_related_assets'
+        }]
+    autolink = {
+        item_guid = 'ea2b32ef-cd90-41c8-93ac-d026881b6c12'
+    }
+}

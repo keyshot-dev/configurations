@@ -1,5 +1,5 @@
 ﻿data member superadministrator {
-    username = 'Superadministrator'
+    username = 'SuperAdministrator'
 }
 
 patch member superadministrator_patch {
