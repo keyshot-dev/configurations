@@ -12,7 +12,7 @@ filter "If added values" {
 	value = "@deleted"
 	expected_value = "false"
 	negate = "false"
-	needs = ""
+	needs = []
 }
 
 action "RePublish Asset" {
