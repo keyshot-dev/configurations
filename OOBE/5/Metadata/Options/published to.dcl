@@ -79,7 +79,7 @@ resource tree_node published_to_public_access {
 }
 
 resource tree_node_label public_access {
-    tree_node_id = resource.tree_node.published_to_digizuite_media_manager.tree_node_id
+    tree_node_id = resource.tree_node.published_to_public_access.tree_node_id
     language_id = data.language.english.id
     label = 'Public access'
 }
@@ -120,7 +120,7 @@ resource tree_node published_to_internal_access {
 }
 
 resource tree_node_label internal_access {
-    tree_node_id = resource.tree_node.published_to_digizuite_media_manager.tree_node_id
+    tree_node_id = resource.tree_node.published_to_internal_access.tree_node_id
     language_id = data.language.english.id
     label = 'Internal access'
 }
