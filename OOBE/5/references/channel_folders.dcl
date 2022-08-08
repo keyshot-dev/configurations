@@ -45,5 +45,5 @@ data channel_folder public_access {
 
 data channel_folder internal_access {
     name = 'Internal access'
-    parent_id = resource.channel_folder.rights_management.channel_folder_id
+    parent_id = data.channel_folder.rights_management.channel_folder_id
 }

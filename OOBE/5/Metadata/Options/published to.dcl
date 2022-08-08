@@ -25,7 +25,7 @@ resource item_security published_to_metadata_viewer {
 
 resource item_security published_to_sa_full_access {
     accessor_item_id = resource.member_group.sa_full_access.item_id
-    item_id = resource.tree_metafield.published_to.title.item_id
+    item_id = resource.tree_metafield.published_to.item_id
     read = true
     write = true
 }
@@ -38,7 +38,7 @@ resource item_security published_to_upload_only_user_metadata {
 }
 
 resource tree_node published_to_digizuite_media_manager {
-    metafield_id = resource.tree_metafield.published_to_50361.metafield_id
+    metafield_id = resource.tree_metafield.published_to.metafield_id
     option_value = 'c44ab339-d8ba-490c-a0fc-ff73708d9b49'
     sort_index = 0
     parent_id = 0
@@ -72,7 +72,7 @@ resource item_security published_to_digizuite_media_manager_user_metadata {
 }
 
 resource tree_node published_to_public_access {
-    metafield_id = resource.tree_metafield.published_to_50361.metafield_id
+    metafield_id = resource.tree_metafield.published_to.metafield_id
     option_value = '${data.channel_folder.public_access.channel_folder_id}'
     sort_index = 0
     parent_id = resource.tree_node.published_to_digizuite_media_manager.tree_node_id
@@ -113,7 +113,7 @@ resource item_security published_to_public_access_public_access {
 }
 
 resource tree_node published_to_internal_access {
-    metafield_id = resource.tree_metafield.published_to_50361.metafield_id
+    metafield_id = resource.tree_metafield.published_to.metafield_id
     option_value = '${data.channel_folder.internal_access.channel_folder_id}'
     sort_index = 0
     parent_id = resource.tree_node.published_to_digizuite_media_manager.tree_node_id
