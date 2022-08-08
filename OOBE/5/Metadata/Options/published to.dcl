@@ -16,21 +16,21 @@
     item_guid = '541a8d9e-87bc-4b5f-a02a-bc7738b79286'
 }
 
-resource item_security title_metadata_viewer {
+resource item_security published_to_metadata_viewer {
     accessor_item_id = resource.member_group.metadata_viewer.item_id
     item_id = resource.tree_metafield.published_to.item_id
     read = true
     write = false
 }
 
-resource item_security title_sa_full_access {
+resource item_security published_to_sa_full_access {
     accessor_item_id = resource.member_group.sa_full_access.item_id
     item_id = resource.tree_metafield.published_to.title.item_id
     read = true
     write = true
 }
 
-resource item_security title_upload_only_user_metadata {
+resource item_security published_to_upload_only_user_metadata {
     accessor_item_id = resource.member_group.upload_only_user_metadata.item_id
     item_id = resource.tree_metafield.published_to.item_id
     read = true
@@ -105,7 +105,7 @@ resource item_security published_to_public_access_user_metadata {
     write = true
 }
 
-resource item_security published_to_public_access_user_metadata {
+resource item_security published_to_public_access_public_access {
     accessor_item_id = data.member_group.public_access.item_id
     item_id = resource.tree_node.published_to_public_access.item_id
     read = true
@@ -146,7 +146,7 @@ resource item_security published_to_internal_access_user_metadata {
     write = true
 }
 
-resource item_security published_to_internal_access_user_metadata {
+resource item_security published_to_internal_access_internal_access {
     accessor_item_id = data.member_group.internal_access.item_id
     item_id = resource.tree_node.published_to_internal_access.item_id
     read = true
