@@ -97,7 +97,7 @@ action "Move Asset To Folder 1" {
 
 filter "Is Number Filter 1" {
 	type = "Is Number Filter"
-	needs = ""
+	needs = []
 	value = "@Channel"
 	negate = "false"
 }

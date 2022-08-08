@@ -14,7 +14,7 @@ filter "Status empty?" {
 	asset_item_id = "@sourceAssetItemId"
 	metafield = "guid:${to_string(data.combovalue_metafield.options_status.item_guid)}"
 	negate = "false"
-	needs = ""
+	needs = []
 }
 
 action "Set Status = Requires tagging" {
