@@ -1,11 +1,3 @@
-data combovalue_metafield format_10032 {
-	item_guid = 'f2a9baa4-655d-4cb3-8649-1692f56950d9'
-}
-
-data combovalue_metafield rotation_50041 {
-	item_guid = 'c134e2d2-8caf-4739-bca0-767d34c7ac03'
-}
-
 data string_metafield title_50181 {
 	item_guid = '5eb3eefc-a043-410f-89b0-29ed3ef37078'
 }
