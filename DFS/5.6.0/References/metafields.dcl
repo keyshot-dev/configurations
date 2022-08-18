@@ -14,24 +14,10 @@ data note_metafield description_50182 {
 	item_guid = 'c8bb4af3-1598-4ea4-8d7a-98d54eead977'
 }
 
-data string_metafield crop_50185 {
-	item_guid = '050d76ad-822a-409b-a18c-e41e677c1716'
-}
-
-data tree_metafield media_manager_menu {
-	item_guid = 'bf0ad1a6-984a-494e-a227-9d70c6a864f9'
-}
-
 data string_metafield crop_name_50377 {
 	item_guid = 'fa70d7f6-12ae-4f51-af05-6296d5608b7c'
 }
 
-data metafield_label media_manager_menu {
-	label = 'Media Manager menu'
-	language_id = data.language.english.id
-}
-
-data metafield_label crop_name {
-	label = 'Crop name'
-	language_id = data.language.english.id
+data tree_metafield media_manager_menu {
+	item_guid = 'bf0ad1a6-984a-494e-a227-9d70c6a864f9'
 }

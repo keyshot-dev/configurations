@@ -7,21 +7,6 @@ data media_format_folder digizuite_media_manager_10003 {
     name = 'Digizuite™ Media Manager'
 }
 
-data media_format_folder video_193 {
-    parent_id = data.media_format_folder.oobe_185.id
-    name = 'Video'
-}
-
-data media_format_folder oobe_185 {
-	parent_id = data.media_format_folder.standard.id
-	name = 'OOBE'
-}
-
-data media_format_folder custom_10004 {
-    parent_id = data.media_format_folder.standard.id
-    name = 'Custom'
-}
-
 data media_format video_10053 {
     name = 'VIDEO'
 }
@@ -45,10 +30,6 @@ data media_format adobe_indesign_50011 {
 	is_identity_format = true
 }
 
-data media_format exifthumb_raw_50014 {
-    name = 'ExifThumb_Raw'
-}
-
 data media_format powerpoint_10077 {
     name = 'Powerpoint'
     is_identity_format = true
@@ -59,11 +40,6 @@ data media_format adobe_pdf_50009 {
     is_identity_format = true
 }
 
-data media_format source_copy_10061 {
-	format_type_id = data.media_format_type.archive_200001.media_format_type_id
-	name = 'Source Copy'
-}
-
 data media_format jpg_big {
     name = 'JPG big'
 }
@@ -71,7 +47,6 @@ data media_format jpg_big {
 data media_format video_1080p {
     name = '1080p (HD)'
 }
-
 
 data media_format jpg_medium_50035 {
     name = 'JPG medium'
@@ -89,5 +64,11 @@ data media_format jpg_full_size_50033 {
  	name = 'JPG full size'
 }
 
+data media_format video_480p {
+    name = '480p'
+}
 
+data media_format video_720p {
+    name = '720p (HD)'
+}
 
