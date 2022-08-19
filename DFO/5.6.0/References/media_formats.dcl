@@ -17,7 +17,7 @@ data media_format thumb_200x120_3 {
 }
 
 data media_format video_preview_h264_10079 {
-	name = 'VIDEO_preview_h264'
+	name = 'Video preview (1080p)'
 	is_identity_format = false
 	format_type_id = data.media_format_type.mpeg_4_10201.media_format_type_id
 }
