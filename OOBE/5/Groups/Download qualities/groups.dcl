@@ -35,5 +35,5 @@ resource member_group_download_quality downloadquality_image_jpg_medium {
 resource member_group_download_quality downloadquality_image_jpg_small {
     member_group_id = resource.member_group.download_qualities.member_group_id
     asset_type = 'Image'
-    media_transcode_id = data.media_transcode.jpg_small_transcoded.media_transcode_id
+    media_transcode_id = data.media_transcode.jpg_small_transcode.media_transcode_id
 }
