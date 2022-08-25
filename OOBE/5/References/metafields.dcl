@@ -22,3 +22,7 @@ data metafield_group options_50028 {
     name = 'Options'
 }
 
+data meta_group_folder asset {
+    name = 'Asset'
+}
+
