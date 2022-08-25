@@ -9,7 +9,7 @@
 action "Move to default preview icons" {
 	type = "Move Asset To Folder"
 	asset_item_id = "@sourceAssetItemId"
-	folder = "10,${to_string(resource.channel_folder.default_preview_icons.channel_folder_id)}"
+	folder = "10,${to_string(data.channel_folder.default_preview_icons.channel_folder_id)}"
 }
 '
     is_disabled = false

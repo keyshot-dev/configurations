@@ -1,5 +1,5 @@
 ﻿resource channelfolder_profile_destination default_preview_icons_sitecore_default_preview_icons_frontenddata_sm_10 {
-    channel_folder_id = resource.channel_folder.default_preview_icons_123.channel_folder_id
+    channel_folder_id = data.channel_folder.default_preview_icons.channel_folder_id
     destination_id = data.destination.frontenddata_sm.destination_id
     profile_id = resource.profile.sitecore_default_preview_icons_50042.profile_id
 }
