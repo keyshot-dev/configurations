@@ -28,7 +28,7 @@ resource member administrator {
     }
 }
 
-resource member contentcreator {
+resource member content_creator {
     username = 'ContentCreator'
     email = ''
     language = data.language.english.id
@@ -47,7 +47,7 @@ resource member contentcreator {
     }
 }
 
-resource member lightuser {
+resource member light_user {
     username = 'LightUser'
     email = ''
     language = data.language.english.id
@@ -71,7 +71,7 @@ resource member upload {
     email = ''
     language = data.language.english.id
     folder_id = data.member_folder.user_profiles.id
-    firstname = ''
+    firstname = 'Upload only user'
     lastname = '(user profile)'
     enabled = true
     ad_username = ''
