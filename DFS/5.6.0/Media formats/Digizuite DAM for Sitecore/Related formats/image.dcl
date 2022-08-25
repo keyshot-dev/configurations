@@ -9,7 +9,7 @@
 	format_xml = ''
 	multi_page_output = false
 	is_identity_format = false
-	settings = '%infile%[0] -strip -background white -flatten %iccconversion% -units PixelsPerInch -density 72x72 -resize 160x110 %Outfile%'
+	settings = '%infile%[0] -background white -flatten %iccconversion% -units PixelsPerInch -density 72x72 -resize 160x110 -strip %Outfile%'
 	encoding = 1002
 	encoding_bitrate = 0
 	linebreak = ''
@@ -55,7 +55,7 @@ resource media_format sitecore_video_thumb_640x360_50102 {
 	format_xml = ''
 	multi_page_output = false
 	is_identity_format = false
-	settings = '%infile%[0] -strip %iccconversion% -units PixelsPerInch -density 72x72 -resize 640x360 %Outfile%'
+	settings = '%infile%[0] %iccconversion% -units PixelsPerInch -density 72x72 -resize 640x360 -strip %Outfile%'
 	encoding = 1002
 	encoding_bitrate = 0
 	linebreak = ''
@@ -101,7 +101,7 @@ resource media_format sitecore_related_thumb_50103 {
 	format_xml = ''
 	multi_page_output = false
 	is_identity_format = false
-	settings = '%infile%[0] -flatten -auto-orient -strip -interlace Plane -quality 80 %iccconversion% -units PixelsPerInch -density 72x72 -resize 143x87 %outfile%'
+	settings = '%infile%[0] -flatten -auto-orient -interlace Plane -quality 80 %iccconversion% -units PixelsPerInch -density 72x72 -resize 143x87 -strip %outfile%'
 	encoding = 1002
 	encoding_bitrate = 0
 	linebreak = ''
@@ -147,7 +147,7 @@ resource media_format sitecore_related_tile_50104 {
 	format_xml = ''
 	multi_page_output = false
 	is_identity_format = false
-	settings = '%infile%[0] -flatten -auto-orient -strip -interlace Plane -quality 80 %iccconversion% -units PixelsPerInch -density 72x72 -resize 215x215 %outfile%'
+	settings = '%infile%[0] -flatten -auto-orient -interlace Plane -quality 80 %iccconversion% -units PixelsPerInch -density 72x72 -resize 215x215 -strip %outfile%'
 	encoding = 1002
 	encoding_bitrate = 0
 	linebreak = ''

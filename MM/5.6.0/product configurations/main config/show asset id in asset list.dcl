@@ -15,7 +15,7 @@ resource metafield_label show_asset_id_in_asset_list {
 }
 
 resource versioned_metadata_bool_value show_asset_id_in_asset_list {
-    value = false
+    value = true
     item_id = resource.product.media_manager.item_id
     version_id = resource.product.media_manager.base_version_id
     label_id = resource.metafield_label.show_asset_id_in_asset_list.label_id
