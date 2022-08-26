@@ -1,4 +1,4 @@
-﻿resource automation_workflow give_admin_access {
+﻿resource automation_workflow oobe_give_admin_access {
     name = 'OOBE 5.5: Give admin access'
     is_disabled = false
     content = 'trigger "Asset is uploaded" {

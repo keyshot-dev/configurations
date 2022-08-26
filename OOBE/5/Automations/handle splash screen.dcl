@@ -1,4 +1,4 @@
-﻿resource automation_workflow oobe_55_handle_splash_screen_8 {
+﻿resource automation_workflow oobe_handle_splash_screen {
     name = 'OOBE 5.5: Handle splash screen'
     content = 'trigger "Is intro material set to true" {
 	type = "Specific Metadata Value"

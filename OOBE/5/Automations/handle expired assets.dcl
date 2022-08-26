@@ -1,4 +1,4 @@
-﻿resource automation_workflow handle_expired_assets {
+﻿resource automation_workflow oobe_handle_expired_assets {
     name = 'OOBE 5.5: Handle Expired assets'
     content = 'trigger "CronScheduleTrigger" {
 	type = "CronScheduleTrigger"

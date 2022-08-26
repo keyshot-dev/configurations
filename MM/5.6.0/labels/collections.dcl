@@ -2336,7 +2336,7 @@ resource language_label collection_item_placeholder_more_menu_tooltip_da {
 
 resource language_label collection_item_asset_count_label_en {
     constant = 'COLLECTION_ITEM_ASSET_COUNT_LABEL'
-    label = '{count, cardinalPlural, one {asset} other {assets}}'
+    label = '{{count}} {count, cardinalPlural, one {asset} other {assets}}'
     language_id = data.language.english.id
     folder_id = resource.language_label_folder.media_manager.folder_id
     version_id = resource.product.media_manager.base_version_id
@@ -2344,7 +2344,7 @@ resource language_label collection_item_asset_count_label_en {
 
 resource language_label collection_item_asset_count_label_da {
     constant = 'COLLECTION_ITEM_ASSET_COUNT_LABEL'
-    label = '{count, cardinalPlural, one {asset} other {assets}}'
+    label = '{{count}} {count, cardinalPlural, one {asset} other {assets}}'
     language_id = data.language.danish.id
     folder_id = resource.language_label_folder.media_manager.folder_id
     version_id = resource.product.media_manager.base_version_id

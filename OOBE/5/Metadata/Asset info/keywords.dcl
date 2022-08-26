@@ -1,5 +1,6 @@
 ﻿data editmulticombovalue_metafield keywords {
     name = 'Keywords'
+    item_guid = '6afe78b7-3f24-49f3-bf95-24890ea62696'
 }
 
 resource item_security keywords_metadata_editor {

@@ -1,4 +1,4 @@
-﻿resource automation_workflow oobe_55_publishto_workflow__publishunpublish_9 {
+﻿resource automation_workflow oobe_publish_to_workflow__publish_unpublish {
     name = 'OOBE 5.5: Publish-to workflow - publish/unpublish'
     content = 'trigger "Published to changed" {
 	type = "metadata"

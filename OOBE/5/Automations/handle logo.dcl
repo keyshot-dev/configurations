@@ -1,4 +1,4 @@
-﻿resource automation_workflow handle_logo {
+﻿resource automation_workflow oobe_handle_logo {
     name = 'OOBE 5.5: Handle logo'
     is_disabled = false
     content = 'trigger "Is logo set to true" {

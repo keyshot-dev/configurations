@@ -1,4 +1,4 @@
-﻿resource automation_workflow republish_on_frameaccurate_thumbnail_changed {
+﻿resource automation_workflow oobe_republish_on_frameaccurate_thumbnail_changed {
     name = 'Republish on frameaccurate thumbnail changed'
     is_disabled = false
     content = 'trigger "When Frame Accurate thumbnail is changed" {
