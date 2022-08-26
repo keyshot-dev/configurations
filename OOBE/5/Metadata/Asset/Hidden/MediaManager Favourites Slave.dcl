@@ -3,5 +3,6 @@
 }
 
 patch slave_metafield mediamanager_favourites_slave {
-    group_id = resource.metafield_group.mediamanager_favourites_slave.metafield_group_id
+    target = data.slave_metafield.mediamanager_favourites_slave
+    group_id = resource.metafield_group.hidden.metafield_group_id
 }

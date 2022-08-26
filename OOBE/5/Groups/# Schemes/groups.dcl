@@ -255,7 +255,7 @@
 }
 
 resource member_group scheme_administrator {
-    name = 'Scheme - administrator'
+    name = 'Scheme - Administrator'
     folder_id = resource.member_group_folder.schemas.id
     sort_index = 0
     approved = true
@@ -453,11 +453,11 @@ resource member_group scheme_content_creator {
     parents = [{
                 member_group_id = resource.member_group.download_qualities.member_group_id
             },{
-                member_group_id = resource.member_group.administrator_access.member_group_id
+                member_group_id = data.member_group.content_creator.member_group_id
+            },{
+                member_group_id = resource.member_group.editor_access.member_group_id
             },{
                 member_group_id = resource.member_group.metadata_editor.member_group_id
-            },{
-                member_group_id = data.member_group.administrator.member_group_id
             },{
                 member_group_id = data.member_group.trusted.member_group_id
             }]
