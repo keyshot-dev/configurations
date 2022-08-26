@@ -18,6 +18,11 @@ data bit_metafield is_public {
     item_guid = '17c54460-e6cc-4bda-abe3-628532617ebd'
 }
 
+data metafield_label is_public {
+    metafield_id = data.bit_metafield.is_public.metafield_id
+    language_id = data.language.english.id
+}
+
 data metafield_group options_50028 {
     name = 'Options'
 }
