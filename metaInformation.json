@@ -23,5 +23,10 @@
         "name": "OOBE",
         "order": -10,
         "locked": false
+    },
+    {
+        "name": "OOBE - DFS patches",
+        "order": -9,
+        "locked": false
     }
 ]
