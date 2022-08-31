@@ -1,7 +1,7 @@
 ﻿resource datetime_metafield expiration_date {
     view_type = 'DateTime'
     name = 'Expiration date'
-    group_id = data.metafield_group.options_50028.metafield_group_id
+    group_id = data.metafield_group.options.metafield_group_id
     required = false
     readonly = false
     show_in_list = false

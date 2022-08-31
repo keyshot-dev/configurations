@@ -1,7 +1,7 @@
 ﻿resource tree_metafield published_to {
     select_to_root = true
     name = 'Published to'
-    group_id = data.metafield_group.options_50028.metafield_group_id
+    group_id = data.metafield_group.options.metafield_group_id
     sort_index = 50361
     visibility_metafield_id = 0
     visibility_regex = ''
@@ -14,6 +14,12 @@
     upload_tag_name = ''
     iterative = false
     item_guid = '541a8d9e-87bc-4b5f-a02a-bc7738b79286'
+}
+
+resource metafield_label published_to {
+    metafield_id = resource.tree_metafield.published_to.metafield_id
+    label = resource.tree_metafield.published_to.name
+    language_id = data.language.english.id
 }
 
 resource item_security published_to_metadata_viewer {
