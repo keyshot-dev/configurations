@@ -1,0 +1,53 @@
+﻿data masteritem_reference_metafield ccc_adobe_links {
+    item_guid = '9a1ce4b9-1e8c-449f-955c-c9a8f355bf61'
+    name = 'CCC - Adobe links'
+}
+
+data item_security ccc_adobe_links__anonymous {
+    accessor_item_id = data.member_group.anonymous.item_id
+    item_id = data.masteritem_reference_metafield.ccc_adobe_links.item_id
+    read = true
+    write = false
+}
+
+patch item_security ccc_adobe_links__anonymous {
+    target = data.item_security.ccc_adobe_links__anonymous
+    read = false
+}
+
+data item_security ccc_adobe_links__trusted {
+    accessor_item_id = data.member_group.trusted.item_id
+    item_id = data.masteritem_reference_metafield.ccc_adobe_links.item_id
+    read = true
+    write = true
+}
+
+patch item_security ccc_adobe_links__trusted {
+    target = data.item_security.ccc_adobe_links__trusted
+    read = false
+    write = false
+}
+
+resource item_security ccc_adobe_links__metadata_editor {
+    accessor_item_id = resource.member_group.metadata_editor.item_id
+    item_id = data.masteritem_reference_metafield.ccc_adobe_links.item_id
+    read = true
+    write = true
+}
+
+resource item_security ccc_adobe_links__metadata_viewer {
+    accessor_item_id = resource.member_group.metadata_viewer.item_id
+    item_id = data.masteritem_reference_metafield.ccc_adobe_links.item_id
+    read = true
+    write = false
+}
+
+resource item_security ccc_adobe_links__sa_full_access {
+    accessor_item_id = resource.member_group.sa_full_access.item_id
+    item_id = data.masteritem_reference_metafield.ccc_adobe_links.item_id
+    read = true
+    write = true
+}
+
+
+

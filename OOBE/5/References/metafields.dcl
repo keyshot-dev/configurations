@@ -2,10 +2,6 @@
     item_guid = '939d9ed0-a5c0-4fe4-9d45-23928db9c50a'
 }
 
-data string_metafield frameaccurate_thumbnail {
-    item_guid = 'cd420283-d734-4b0c-9849-3406466e0954'
-}
-
 data bit_metafield is_profile_material {
     item_guid = 'a09097b8-cb45-4b42-a922-65ea1edf9f04'
 }
