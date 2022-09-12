@@ -270,5 +270,9 @@ patch member_group super_administrator_patch {
               constant = 'Can_crud_rabbit_health'
           }, {
               constant = 'Collection_Super_Administrator'
+          }, {
+              constant = 'Can_Force_Unlock_Office_Document'
+          }, {
+             constant = 'Can_Open_Office_Documents'
           }]
 }
