@@ -1,5 +1,5 @@
 ﻿resource automation_workflow oobe_default_preview_icons {
-    name = 'OOBE 5.5: Default preview icons'
+    name = 'OOBE 5.6: Default preview icons'
     content = 'trigger "When moved into default preview icons" {
 	type = "Asset Folder Updated Trigger"
 	resolves = "Move to default preview icons"

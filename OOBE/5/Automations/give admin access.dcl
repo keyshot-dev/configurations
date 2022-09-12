@@ -1,5 +1,5 @@
 ﻿resource automation_workflow oobe_give_admin_access {
-    name = 'OOBE 5.5: Give admin access'
+    name = 'OOBE 5.6: Give admin access'
     is_disabled = false
     content = 'trigger "Asset is uploaded" {
 	type = "Location State Changed"

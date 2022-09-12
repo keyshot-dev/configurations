@@ -1,5 +1,5 @@
 ﻿resource automation_workflow oobe_handle_user_profile {
-    name = 'OOBE 5.5: Handle user profile'
+    name = 'OOBE 5.6: Handle user profile'
     content = 'trigger "Is profile set to true" {
 	type = "Specific Metadata Value"
 	resolves = ["Move asset to profile image channel folder 1","Move asset to profile image catalog folder 1"]
