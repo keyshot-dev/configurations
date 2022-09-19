@@ -34,15 +34,6 @@ resource digizuite_config search_google_termtype {
 	}
 }
 
-resource digizuite_config treelayoutfoldersynch_backend_all_group {
-    constant = 'TREELAYOUTFOLDERSYNCH_BACKEND_ALL_GROUP'
-    config_value = '${resource.member_group.trusted.member_group_id}'
-    description = 'The user group is used as a default for access rights.'
-	autolink {
-		constant = 'TREELAYOUTFOLDERSYNCH_BACKEND_ALL_GROUP'
-	}
-}
-
 resource digizuite_config download_name_replace_mask {
     constant = 'DOWNLOAD_NAME_REPLACE_MASK'
     config_value = ''
