@@ -28,5 +28,10 @@
         "name": "OOBE - DFS patches",
         "order": -9,
         "locked": false
+    },
+    {
+        "name": "OOBE - DFO patches",
+        "order": -8,
+        "locked": false
     }
 ]

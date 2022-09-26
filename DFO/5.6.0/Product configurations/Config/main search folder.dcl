@@ -40,7 +40,7 @@ resource item_security id_9471_anonymous {
 
 resource versioned_metadata_master_item_reference_value main_search_folder_9448_51453_1 {
     references = [{
-            ref_itemid = resource.channel_folder.episerver_124.item_id
+            ref_itemid = resource.channel_folder.episerver.item_id
         }]
     item_id = resource.product.episerver.item_id
     version_id = resource.product.episerver.base_version_id

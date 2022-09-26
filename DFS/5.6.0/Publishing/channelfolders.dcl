@@ -6,7 +6,7 @@
     }
 }
 
-resource channel_folder content_125 {
+resource channel_folder content {
     name = 'Content'
     parent_id = resource.channel_folder.dam_for_sitecore_124.channel_folder_id
     autolink = {
