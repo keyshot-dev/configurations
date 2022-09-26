@@ -13,7 +13,6 @@
     restrict_to_asset_type = 'All'
     upload_tag_name = ''
     iterative = false
-    item_guid = '541a8d9e-87bc-4b5f-a02a-bc7738b79286'
 }
 
 resource metafield_label published_to {

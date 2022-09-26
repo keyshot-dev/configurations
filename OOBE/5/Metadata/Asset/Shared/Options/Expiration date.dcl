@@ -9,7 +9,6 @@
     auto_translate = 'Overwrite'
     restrict_to_asset_type = 'All'
     iterative = false
-    item_guid = '21e44770-a7d2-41f7-b3bc-ece5431df3b0'
 }
 
 resource metafield_label expiration_date {

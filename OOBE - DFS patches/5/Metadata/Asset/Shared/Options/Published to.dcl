@@ -1,6 +1,6 @@
 ﻿data tree_metafield published_to {
     name = 'Published to'
-    item_guid = '541a8d9e-87bc-4b5f-a02a-bc7738b79286'
+    group_id = data.metafield_group.options.metafield_group_id
 }
 
 resource item_security published_to__sitecore_digizuite_dam_for_sitecore_administrators {
