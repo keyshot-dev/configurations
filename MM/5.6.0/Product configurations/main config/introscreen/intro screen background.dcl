@@ -5,7 +5,7 @@ resource masteritem_reference_metafield intro_screen_background_image {
     show_in_list = true
     auto_translate = 'Overwrite'
     item_type = 'Asset'
-    max_count = 1
+    
 }
 
 resource metafield_label intro_screen_background_image {
@@ -37,7 +37,7 @@ resource masteritem_reference_metafield intro_screen_background_video {
     show_in_list = true
     auto_translate = 'Overwrite'
     item_type = 'Asset'
-    max_count = 1
+    
 }
 
 resource metafield_label intro_screen_background_video {

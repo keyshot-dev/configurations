@@ -1,6 +1,6 @@
 ﻿resource masteritem_reference_metafield output_mediaformat_50382 {
 	item_type = 'MediaFormat'
-	max_count = 1
+	
 	related_metafield_id = 0
 	item_guid = 'a878ed1d-2933-418f-97bc-83069813a4a2'
 	name = 'Output Mediaformat'

@@ -5,7 +5,7 @@ resource masteritem_reference_metafield template_user_for_self_signup {
     show_in_list = true
     auto_translate = 'Overwrite'
     item_type = 'Member'
-    max_count = 1
+    
 }
 
 resource metafield_label template_user_for_self_signup {

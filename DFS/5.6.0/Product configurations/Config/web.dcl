@@ -1,6 +1,6 @@
 ﻿resource masteritem_reference_metafield web_50387 {
 	item_type = 'MediaFormat'
-	max_count = 1
+	
 	related_metafield_id = 0
 	item_guid = 'c3f081d5-6c3b-457e-a084-d4867b5abe0b'
 	name = 'Web'

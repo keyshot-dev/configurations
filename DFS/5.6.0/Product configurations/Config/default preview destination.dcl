@@ -1,6 +1,5 @@
 ﻿resource masteritem_reference_metafield default_preview_destination_50379 {
 	item_type = 'Destination'
-	max_count = 1
 	related_metafield_id = 0
 	item_guid = '1041e7cf-cdfb-41d0-9acf-732defeafa34'
 	name = 'Default Preview Destination'

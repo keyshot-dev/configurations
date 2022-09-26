@@ -1,6 +1,5 @@
 ﻿resource masteritem_reference_metafield related_tile_50394 {
 	item_type = 'MediaFormat'
-	max_count = 1
 	related_metafield_id = 0
 	item_guid = '889b2b9c-0b41-406c-a4d3-933c0927ccd3'
 	name = 'Related Tile'

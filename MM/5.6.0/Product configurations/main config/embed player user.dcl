@@ -5,7 +5,6 @@ resource masteritem_reference_metafield embed_player_user {
     auto_translate = 'Overwrite'
     show_in_list = true
     item_type = 'Member'
-    max_count = 1
     sort_index = 8000
 }
 

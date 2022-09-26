@@ -4,7 +4,7 @@ resource masteritem_reference_metafield main_search_folder {
     group_id = resource.metafield_group.main_config.metafield_group_id
     item_type = 'ChannelFolder'
     auto_translate = 'Overwrite'
-    max_count = 1
+    
 }
 
 resource metafield_label main_search_folder {

@@ -5,7 +5,7 @@ resource masteritem_reference_metafield content_owner_metafield {
     show_in_list = false
     auto_translate = 'Overwrite'
     item_type = 'Metafield'
-    max_count = 1
+    
     sort_index = 1030
 }
 

@@ -1,6 +1,5 @@
 ﻿resource masteritem_reference_metafield description_metafield_50398 {
 	item_type = 'Metafield'
-	max_count = 1
 	related_metafield_id = 0
 	item_guid = 'a9c18690-5e09-4f1b-bf8d-2f4a818abe77'
 	name = 'Description metafield'

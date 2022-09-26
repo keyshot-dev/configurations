@@ -1,6 +1,6 @@
 ﻿resource masteritem_reference_metafield sitecore_upload_username_metafield_50402 {
 	item_type = 'Metafield'
-	max_count = 1
+	
 	related_metafield_id = 0
 	item_guid = '9b7b8f66-cfb6-4590-a866-f0afdad6593c'
 	name = 'Sitecore upload username metafield'

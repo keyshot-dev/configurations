@@ -1,6 +1,5 @@
 ﻿resource masteritem_reference_metafield destination_50390 {
 	item_type = 'Destination'
-	max_count = 1
 	related_metafield_id = 0
 	item_guid = 'fe4dffc9-8241-4044-9c0d-65d60aae1e2f'
 	name = 'Destination'

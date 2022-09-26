@@ -1,6 +1,5 @@
 ﻿resource masteritem_reference_metafield preview_50386 {
 	item_type = 'MediaFormat'
-	max_count = 1
 	related_metafield_id = 0
 	item_guid = '0cfa3338-9199-43aa-8a03-245ea989fb82'
 	name = 'Preview'

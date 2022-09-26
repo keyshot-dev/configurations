@@ -1,6 +1,5 @@
 ﻿resource masteritem_reference_metafield search_channel_folder_50391 {
 	item_type = 'ChannelFolder'
-	max_count = 1
 	related_metafield_id = 0
 	item_guid = '0f474c9d-d05b-49de-9af2-deb779220e5d'
 	name = 'Search channel folder'

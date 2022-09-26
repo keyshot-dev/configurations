@@ -1,6 +1,5 @@
 ﻿resource masteritem_reference_metafield related_thumb_50393 {
 	item_type = 'MediaFormat'
-	max_count = 1
 	related_metafield_id = 0
 	item_guid = '32762b49-42c1-4e46-9b12-be478768b9d1'
 	name = 'Related Thumb'

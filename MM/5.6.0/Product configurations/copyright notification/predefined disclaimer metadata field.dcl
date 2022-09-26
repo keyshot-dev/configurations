@@ -4,7 +4,7 @@ resource masteritem_reference_metafield predefined_disclaimer_metadata_field {
     group_id = resource.metafield_group.copyright_notification.metafield_group_id
     show_in_list = true
     auto_translate = 'Overwrite'
-    max_count = 1
+    
     item_type = 'Metafield'
 }
 

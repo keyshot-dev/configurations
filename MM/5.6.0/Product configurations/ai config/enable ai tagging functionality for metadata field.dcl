@@ -4,7 +4,7 @@ resource masteritem_reference_metafield enable_ai_tagging_functionality_for_meta
     group_id = resource.metafield_group.ai_config.metafield_group_id
     show_in_list = true
     auto_translate = 'Overwrite'
-    max_count = 1
+    
     item_type = 'Metafield'
 }
 

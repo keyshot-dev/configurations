@@ -1,6 +1,5 @@
 ﻿resource masteritem_reference_metafield crop_name_metafield_50403 {
 	item_type = 'Metafield'
-	max_count = 1
 	related_metafield_id = 0
 	item_guid = 'e96d8ec7-b251-4468-9efb-b932c07d8505'
 	name = 'Crop name metafield'

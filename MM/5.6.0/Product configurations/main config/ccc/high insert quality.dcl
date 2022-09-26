@@ -5,7 +5,6 @@ resource masteritem_reference_metafield ccc_high_insert_quality {
     auto_translate = 'Overwrite'
     show_in_list = true
     item_type = 'MediaFormat'
-    max_count = 1
     sort_index = 13000
 }
 

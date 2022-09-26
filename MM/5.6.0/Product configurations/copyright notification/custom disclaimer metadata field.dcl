@@ -3,7 +3,7 @@ resource masteritem_reference_metafield custom_disclaimer_metadata_field {
     name = 'Custom disclaimer metadata field'
     group_id = resource.metafield_group.copyright_notification.metafield_group_id
     item_type = 'Metafield'
-    max_count = 1
+    
     show_in_list = true
     auto_translate = 'Overwrite'
     sort_index = 10040

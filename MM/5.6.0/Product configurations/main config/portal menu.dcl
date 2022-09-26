@@ -5,7 +5,6 @@ resource masteritem_reference_metafield portal_menu {
     auto_translate = 'Overwrite'
     show_in_list = true
     item_type = 'Metafield'
-    max_count = 1
 }
 
 resource metafield_label portal_menu {

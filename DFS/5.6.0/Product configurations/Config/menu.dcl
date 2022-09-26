@@ -1,6 +1,5 @@
 ﻿resource masteritem_reference_metafield menu_50392 {
 	item_type = 'Metafield'
-	max_count = 1
 	related_metafield_id = 0
 	item_guid = '27654dd8-b200-41f8-9b32-71cceedea454'
 	name = 'Menu'
