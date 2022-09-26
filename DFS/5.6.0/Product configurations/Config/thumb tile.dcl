@@ -1,6 +1,5 @@
 ﻿resource masteritem_reference_metafield thumb_tile_50385 {
 	item_type = 'MediaFormat'
-	
 	related_metafield_id = 0
 	item_guid = '77c4bb55-fc65-45e5-a022-997fc2fd5962'
 	name = 'Thumb tile'

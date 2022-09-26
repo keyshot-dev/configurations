@@ -4,8 +4,7 @@ resource masteritem_reference_metafield ccc_video_high_insert_quality {
     group_id = resource.metafield_group.main_config.metafield_group_id
     auto_translate = 'Overwrite'
     show_in_list = true
-    item_type = 'MediaFormat'
-    
+    item_type = 'MediaFormat' 
     sort_index = 13000
 }
 

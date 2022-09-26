@@ -1,6 +1,5 @@
 ﻿resource masteritem_reference_metafield input_mediaformat_50381 {
 	item_type = 'MediaFormat'
-	
 	related_metafield_id = 0
 	item_guid = '4fa0bcf8-239b-4adb-81b7-7ee2a564bedf'
 	name = 'Input Mediaformat'

@@ -4,7 +4,6 @@ resource masteritem_reference_metafield enable_ai_facial_recognition_for_metadat
     group_id = resource.metafield_group.ai_config.metafield_group_id
     auto_translate = 'Overwrite'
     show_in_list = true
-    
     item_type = 'Metafield'
 }
 

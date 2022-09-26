@@ -5,7 +5,6 @@ resource masteritem_reference_metafield enable_explicit_ai_content_detection_for
     auto_translate = 'Overwrite'
     show_in_list = true
     item_type = 'Metafield'
-    
 }
 
 resource metafield_label enable_explicit_ai_content_detection_for_metadata_field {

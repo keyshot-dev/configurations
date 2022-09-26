@@ -3,8 +3,7 @@ resource masteritem_reference_metafield logo {
     name = 'The logo shown in the top left corner'
     group_id = resource.metafield_group.main_config.metafield_group_id
     auto_translate = 'Overwrite'
-    show_in_list = true
-    
+    show_in_list = true   
     item_type = 'Asset'
 }
 
@@ -37,7 +36,6 @@ resource masteritem_reference_metafield secondary_logo {
     auto_translate = 'Overwrite'
     show_in_list = true
     item_type = 'Asset'
-    
 }
 
 resource metafield_label secondary_logo {

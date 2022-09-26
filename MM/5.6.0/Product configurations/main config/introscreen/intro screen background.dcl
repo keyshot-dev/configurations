@@ -4,8 +4,7 @@ resource masteritem_reference_metafield intro_screen_background_image {
     group_id = resource.metafield_group.main_config.metafield_group_id
     show_in_list = true
     auto_translate = 'Overwrite'
-    item_type = 'Asset'
-    
+    item_type = 'Asset'   
 }
 
 resource metafield_label intro_screen_background_image {
@@ -36,8 +35,7 @@ resource masteritem_reference_metafield intro_screen_background_video {
     group_id = resource.metafield_group.main_config.metafield_group_id
     show_in_list = true
     auto_translate = 'Overwrite'
-    item_type = 'Asset'
-    
+    item_type = 'Asset'   
 }
 
 resource metafield_label intro_screen_background_video {

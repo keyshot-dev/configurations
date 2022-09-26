@@ -1,6 +1,5 @@
 ﻿resource masteritem_reference_metafield thumb_small_50384 {
 	item_type = 'MediaFormat'
-	
 	related_metafield_id = 0
 	item_guid = 'a6265237-cc0a-4987-af8f-55b8543600a5'
 	name = 'Thumb small'

@@ -4,7 +4,6 @@ resource masteritem_reference_metafield enable_ai_description_for_metafield {
     group_id = resource.metafield_group.ai_config.metafield_group_id
     show_in_list = true
     auto_translate = 'Overwrite'
-    
     item_type = 'Metafield'
     sort_index = 10040
 }

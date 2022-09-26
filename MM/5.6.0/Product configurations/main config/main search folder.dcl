@@ -3,8 +3,7 @@ resource masteritem_reference_metafield main_search_folder {
     name = "Root channel folder of MM's content"
     group_id = resource.metafield_group.main_config.metafield_group_id
     item_type = 'ChannelFolder'
-    auto_translate = 'Overwrite'
-    
+    auto_translate = 'Overwrite' 
 }
 
 resource metafield_label main_search_folder {

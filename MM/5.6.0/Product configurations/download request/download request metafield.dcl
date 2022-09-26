@@ -4,7 +4,6 @@ resource masteritem_reference_metafield download_request_metafield {
     group_id = resource.metafield_group.download_request.metafield_group_id
     show_in_list = false
     auto_translate = 'Overwrite'
-    
     item_type = 'Metafield'
     sort_index = 1030
 }
