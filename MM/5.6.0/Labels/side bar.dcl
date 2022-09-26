@@ -1,4 +1,4 @@
-resource language_label side_bar_asset_fullscreen_tooltip_en {
+﻿resource language_label side_bar_asset_fullscreen_tooltip_en {
     constant = 'SIDE_BAR_ASSET_FULLSCREEN_TOOLTIP'
     label = 'Fullscreen'
     language_id = data.language.english.id

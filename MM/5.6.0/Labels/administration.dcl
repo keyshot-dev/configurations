@@ -1,4 +1,4 @@
-resource language_label administration_overview_title_en {
+﻿resource language_label administration_overview_title_en {
     constant = 'ADMINISTRATION_OVERVIEW_TITLE'
     label = 'Administration overview'
     language_id = data.language.english.id

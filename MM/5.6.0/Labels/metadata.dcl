@@ -1,4 +1,4 @@
-resource language_label metadata_editor_show_all_languages_tooltip_en {
+﻿resource language_label metadata_editor_show_all_languages_tooltip_en {
     constant = 'METADATA_EDITOR_SHOW_ALL_LANGUAGES_TOOLTIP'
     label = '{expanded, select, false {Show all languages} true {Hide other languages}}'
     language_id = data.language.english.id
@@ -1310,17 +1310,33 @@ resource language_label tooltip_multi_metadata_editor_asset_edit_selector_invali
     version_id = resource.product.media_manager.base_version_id
 }
 
-resource language_label error_metadata_editor_save_en {
-    constant = 'ERROR_METADATA_EDITOR_SAVE'
-    label = 'Error while saving metadata'
+resource language_label error_metadata_editor_save_title_en {
+    constant = 'ERROR_METADATA_EDITOR_SAVE_TITLE'
+    label = 'Warning'
     language_id = data.language.english.id
     folder_id = resource.language_label_folder.media_manager.folder_id
     version_id = resource.product.media_manager.base_version_id
 }
 
-resource language_label error_metadata_editor_save_da {
-    constant = 'ERROR_METADATA_EDITOR_SAVE'
-    label = 'Fejl under lagring af metadata'
+resource language_label error_metadata_editor_save_title_da {
+    constant = 'ERROR_METADATA_EDITOR_SAVE_TITLE'
+    label = 'Advarsel'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label error_metadata_editor_save_body_en {
+    constant = 'ERROR_METADATA_EDITOR_SAVE_BODY'
+    label = '{{field}} {error, select, required {is required} invalid {is invalid} pattern {has invalid pattern}}. Please correct this field.'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label error_metadata_editor_save_body_da {
+    constant = 'ERROR_METADATA_EDITOR_SAVE_BODY'
+    label = '{{field}} {error, select, required {er påkrævet} invalid {er ugyldig} pattern {har et ugyldigt mønster}}. Ret venligst dette felt.'
     language_id = data.language.danish.id
     folder_id = resource.language_label_folder.media_manager.folder_id
     version_id = resource.product.media_manager.base_version_id

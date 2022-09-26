@@ -1,4 +1,4 @@
-resource language_label notification_panel_notification_panel_list_comment_notification_en {
+﻿resource language_label notification_panel_notification_panel_list_comment_notification_en {
     constant = 'NOTIFICATION_PANEL_NOTIFICATION_PANEL_LIST_COMMENT_NOTIFICATION'
     label = '{actionType, select, 101 {<b>{{username}}</b> replied to your comment} 102 {<b>{{username}}</b> tagged you in a comment}}'
     language_id = data.language.english.id

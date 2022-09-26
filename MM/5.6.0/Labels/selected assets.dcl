@@ -1,4 +1,4 @@
-resource language_label selected_assets_overlay_metadata_download_field_selector_download_metadata_en {
+﻿resource language_label selected_assets_overlay_metadata_download_field_selector_download_metadata_en {
     constant = 'SELECTED_ASSETS_OVERLAY_METADATA_DOWNLOAD_FIELD_SELECTOR_DOWNLOAD_METADATA'
     label = '{metadata, select, true {{files, select, true {Download assets and metadata} false {Download metadata}}} false {Download assets}}'
     language_id = data.language.english.id
@@ -192,7 +192,7 @@ resource language_label selected_assets_overlay_not_public_assets_dialog_cancel_
 
 resource language_label selected_assets_overlay_not_public_assets_dialog_show_locked_en {
     constant = 'SELECTED_ASSETS_OVERLAY_NOT_PUBLIC_ASSETS_DIALOG_SHOW_LOCKED'
-    label = '(Show me the locked {count, cardinalPlural, one {asset} other {assets}})'
+    label = '(View the {count, cardinalPlural, one {asset} other {assets}} that cannot be downloaded)'
     language_id = data.language.english.id
     folder_id = resource.language_label_folder.media_manager.folder_id
     version_id = resource.product.media_manager.base_version_id
@@ -200,7 +200,7 @@ resource language_label selected_assets_overlay_not_public_assets_dialog_show_lo
 
 resource language_label selected_assets_overlay_not_public_assets_dialog_show_locked_da {
     constant = 'SELECTED_ASSETS_OVERLAY_NOT_PUBLIC_ASSETS_DIALOG_SHOW_LOCKED'
-    label = '(Vis mig {count, cardinalPlural, one {det} other {de}} låste)'
+    label = '(Se {count, cardinalPlural, one {assettet} other {assetsne}} som ikke kan downloades)'
     language_id = data.language.danish.id
     folder_id = resource.language_label_folder.media_manager.folder_id
     version_id = resource.product.media_manager.base_version_id
@@ -224,7 +224,7 @@ resource language_label selected_assets_overlay_not_public_assets_dialog_do_you_
 
 resource language_label selected_assets_overlay_not_public_assets_dialog_x_of_y_assets_are_locked_en {
     constant = 'SELECTED_ASSETS_OVERLAY_NOT_PUBLIC_ASSETS_DIALOG_X_OF_Y_ASSETS_ARE_LOCKED'
-    label = '{{nonPublicAssetCount}} out of the {{totalAssetCount}} selected assets are locked'
+    label = '{{nonPublicAssetCount}} out of the {{totalAssetCount}} selected assets cannot be downloaded'
     language_id = data.language.english.id
     folder_id = resource.language_label_folder.media_manager.folder_id
     version_id = resource.product.media_manager.base_version_id
@@ -232,7 +232,7 @@ resource language_label selected_assets_overlay_not_public_assets_dialog_x_of_y_
 
 resource language_label selected_assets_overlay_not_public_assets_dialog_x_of_y_assets_are_locked_da {
     constant = 'SELECTED_ASSETS_OVERLAY_NOT_PUBLIC_ASSETS_DIALOG_X_OF_Y_ASSETS_ARE_LOCKED'
-    label = '{{nonPublicAssetCount}} ud af de {{totalAssetCount}} valgte assets er låste.'
+    label = '{{nonPublicAssetCount}} ud af de {{totalAssetCount}} valgte assets kan ikke downloades.'
     language_id = data.language.danish.id
     folder_id = resource.language_label_folder.media_manager.folder_id
     version_id = resource.product.media_manager.base_version_id
@@ -240,7 +240,7 @@ resource language_label selected_assets_overlay_not_public_assets_dialog_x_of_y_
 
 resource language_label selected_assets_overlay_not_public_assets_dialog_some_assets_are_locked_title_en {
     constant = 'SELECTED_ASSETS_OVERLAY_NOT_PUBLIC_ASSETS_DIALOG_SOME_ASSETS_ARE_LOCKED_TITLE'
-    label = '{count, cardinalPlural, one {An asset is locked} other {Some assets are locked}}'
+    label = '{count, cardinalPlural, one {An asset cannot be downloaded} other {Some assets cannot be downloaded}}'
     language_id = data.language.english.id
     folder_id = resource.language_label_folder.media_manager.folder_id
     version_id = resource.product.media_manager.base_version_id
@@ -248,7 +248,7 @@ resource language_label selected_assets_overlay_not_public_assets_dialog_some_as
 
 resource language_label selected_assets_overlay_not_public_assets_dialog_some_assets_are_locked_title_da {
     constant = 'SELECTED_ASSETS_OVERLAY_NOT_PUBLIC_ASSETS_DIALOG_SOME_ASSETS_ARE_LOCKED_TITLE'
-    label = '{count, cardinalPlural, one {Et asset er låst} other {Nogle assets are låste}}'
+    label = '{count, cardinalPlural, one {Et asset kan ikke downloades} other {Nogle assets kan ikke downloades}}'
     language_id = data.language.danish.id
     folder_id = resource.language_label_folder.media_manager.folder_id
     version_id = resource.product.media_manager.base_version_id
@@ -256,7 +256,7 @@ resource language_label selected_assets_overlay_not_public_assets_dialog_some_as
 
 resource language_label selected_assets_overlay_not_requestable_assets_dialog_x_of_y_assets_are_not_requestable_en {
     constant = 'SELECTED_ASSETS_OVERLAY_NOT_REQUESTABLE_ASSETS_DIALOG_X_OF_Y_ASSETS_ARE_NOT_REQUESTABLE'
-    label = '{{nonPublicAssetCount}} out of the {{totalAssetCount}} selected assets can not be requested'
+    label = '{{nonPublicAssetCount}} out of the {{totalAssetCount}} selected assets cannot be requested'
     language_id = data.language.english.id
     folder_id = resource.language_label_folder.media_manager.folder_id
     version_id = resource.product.media_manager.base_version_id
@@ -288,7 +288,7 @@ resource language_label selected_assets_overlay_not_requestable_assets_dialog_so
 
 resource language_label selected_assets_overlay_not_requestable_assets_dialog_show_not_requestable_en {
     constant = 'SELECTED_ASSETS_OVERLAY_NOT_REQUESTABLE_ASSETS_DIALOG_SHOW_NOT_REQUESTABLE'
-    label = '(Show me the {count, cardinalPlural, one {asset} other {assets}} that cannot be requested)'
+    label = '(View the {count, cardinalPlural, one {asset} other {assets}} that can be downloaded without request)'
     language_id = data.language.english.id
     folder_id = resource.language_label_folder.media_manager.folder_id
     version_id = resource.product.media_manager.base_version_id
@@ -296,7 +296,7 @@ resource language_label selected_assets_overlay_not_requestable_assets_dialog_sh
 
 resource language_label selected_assets_overlay_not_requestable_assets_dialog_show_not_requestable_da {
     constant = 'SELECTED_ASSETS_OVERLAY_NOT_REQUESTABLE_ASSETS_DIALOG_SHOW_NOT_REQUESTABLE'
-    label = '(Vis mig {count, cardinalPlural, one {assettet} other {assetsne}} der ikke kan anmodes)'
+    label = '(Se {count, cardinalPlural, one {assettet} other {assetsne}} som kan downloades uden anmodning)'
     language_id = data.language.danish.id
     folder_id = resource.language_label_folder.media_manager.folder_id
     version_id = resource.product.media_manager.base_version_id

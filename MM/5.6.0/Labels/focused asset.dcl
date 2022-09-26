@@ -1,4 +1,4 @@
-resource language_label focused_asset_switch_to_light_mode_tooltip_en {
+﻿resource language_label focused_asset_switch_to_light_mode_tooltip_en {
     constant = 'FOCUSED_ASSET_SWITCH_TO_LIGHT_MODE_TOOLTIP'
     label = 'Switch to the light mode'
     language_id = data.language.english.id

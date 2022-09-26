@@ -1,4 +1,4 @@
-resource language_label settings_brand_portal_logo_title_en {
+﻿resource language_label settings_brand_portal_logo_title_en {
     constant = 'SETTINGS_BRAND_PORTAL_LOGO_TITLE'
     label = 'Logo'
     language_id = data.language.english.id
@@ -745,6 +745,54 @@ resource language_label brand_portal_settings_show_hide_language_options_en {
 resource language_label brand_portal_settings_show_hide_language_options_da {
     constant = 'BRAND_PORTAL_SETTINGS_SHOW_HIDE_LANGUAGE_OPTIONS'
     label = '{value, select, true {Skjul} false {Vis}} sprogindstillinger'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label brand_portal_settings_hero_banner_custom_colors_en {
+    constant = 'BRAND_PORTAL_SETTINGS_HERO_BANNER_CUSTOM_COLORS'
+    label = 'Use custom colors'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label brand_portal_settings_hero_banner_custom_colors_da {
+    constant = 'BRAND_PORTAL_SETTINGS_HERO_BANNER_CUSTOM_COLORS'
+    label = 'Brug brugerdefinerede farver'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label brand_portal_settings_hero_banner_text_color_en {
+    constant = 'BRAND_PORTAL_SETTINGS_HERO_BANNER_TEXT_COLOR'
+    label = 'Text color'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label brand_portal_settings_hero_banner_text_color_da {
+    constant = 'BRAND_PORTAL_SETTINGS_HERO_BANNER_TEXT_COLOR'
+    label = 'Tekstfarve'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label brand_portal_settings_hero_banner_text_bg_color_en {
+    constant = 'BRAND_PORTAL_SETTINGS_HERO_BANNER_TEXT_BG_COLOR'
+    label = 'Text background color'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label brand_portal_settings_hero_banner_text_bg_color_da {
+    constant = 'BRAND_PORTAL_SETTINGS_HERO_BANNER_TEXT_BG_COLOR'
+    label = 'Tekst-baggrundsfarve'
     language_id = data.language.danish.id
     folder_id = resource.language_label_folder.media_manager.folder_id
     version_id = resource.product.media_manager.base_version_id

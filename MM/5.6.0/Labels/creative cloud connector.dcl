@@ -1,4 +1,4 @@
-resource language_label creative_cloud_connector_progress_feedback_downloading_en {
+﻿resource language_label creative_cloud_connector_progress_feedback_downloading_en {
     constant = 'CREATIVE_CLOUD_CONNECTOR_PROGRESS_FEEDBACK_DOWNLOADING'
     label = 'Downloading'
     language_id = data.language.english.id

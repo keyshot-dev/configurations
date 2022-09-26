@@ -1,4 +1,4 @@
-resource language_label profile_credentials_change_password_en {
+﻿resource language_label profile_credentials_change_password_en {
     constant = 'PROFILE_CREDENTIALS_CHANGE_PASSWORD'
     label = 'Change password'
     language_id = data.language.english.id

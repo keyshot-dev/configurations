@@ -1,4 +1,4 @@
-resource language_label lbl_mp_assets_en {
+﻿resource language_label lbl_mp_assets_en {
     constant = 'LBL_MP_ASSETS'
     label = 'Assets'
     language_id = data.language.english.id
@@ -1584,7 +1584,7 @@ resource language_label asset_list_add_new_filter_input_add_fields_da {
 
 resource language_label asset_list_filter_property_title_en {
     constant = 'ASSET_LIST_FILTER_PROPERTY_TITLE'
-    label = '{property, select, assetId {Asset ID} itemId {Item ID} assetType {Asset type} uploadDate {Upload date} uploader {Upload user} fileSize {File size} lastChangedDate {Last updated} extension {Extension} derived {Derived from asset} replaced {Replaced by asset} deleted {Deleted} width {Width} height {Height} uploadComputer {Upload computer} originalFilename {Original filename} replacedWith {Replaced with}}'
+    label = '{property, select, assetId {Asset ID} itemId {Item ID} originalFileName {Original filename} assetType {Asset type} derivedFrom {Parent asset} replacedWith {Show old versions of} extension {Extension} uploader {Upload user} uploadComputer {Upload product} channelFolder {Channel folder} uploadDate {Upload date} fileSize {Original file size} lastChangedDate {Last updated} width {Pixel width} height {Pixel height} duration {Duration}}'
     language_id = data.language.english.id
     folder_id = resource.language_label_folder.media_manager.folder_id
     version_id = resource.product.media_manager.base_version_id
@@ -1592,7 +1592,7 @@ resource language_label asset_list_filter_property_title_en {
 
 resource language_label asset_list_filter_property_title_da {
     constant = 'ASSET_LIST_FILTER_PROPERTY_TITLE'
-    label = '{property, select, assetId {Asset-ID} itemId {Item-ID} assetType {Assettype} uploadDate {Uploaddato} uploader {Uploadbruger} fileSize {Filstørrelse} lastChangedDate {Sidst ændret} extension {Filendelse} derived {Afledt af asset} replaced {Erstattet af asset} deleted {Slettet} width {Bredde} height {Højde} uploadComputer {Uploadcomputer} originalFilename {Originalt filnavn} replacedWith {Erstattet med}}'
+    label = '{property, select, assetId {Asset-ID} itemId {Item-ID} originalFileName {Oprindeligt filnavn} assetType {Assettype} derivedFrom {Forælder-asset} replacedWith {Vis gamle versioner af} extension {Udvidelse} uploader {Upload-bruger} uploadComputer {Upload-produkt} channelFolder {Kanalmappe} uploadDate {Uploaddato} fileSize {Oprindelig filstørrelse} lastChangedDate {Sidst opdateret} width {Pixel-bredde} height {Pixel-højde} duration {Varighed}}'
     language_id = data.language.danish.id
     folder_id = resource.language_label_folder.media_manager.folder_id
     version_id = resource.product.media_manager.base_version_id
@@ -1632,7 +1632,7 @@ resource language_label asset_list_collection_notification_modal_body_da {
 
 resource language_label asset_list_collection_preview_notification_modal_header_en {
     constant = 'ASSET_LIST_COLLECTION_PREVIEW_NOTIFICATION_MODAL_HEADER'
-    label = 'Collection'
+    label = 'Collection not found'
     language_id = data.language.english.id
     folder_id = resource.language_label_folder.media_manager.folder_id
     version_id = resource.product.media_manager.base_version_id
@@ -1640,7 +1640,7 @@ resource language_label asset_list_collection_preview_notification_modal_header_
 
 resource language_label asset_list_collection_preview_notification_modal_header_da {
     constant = 'ASSET_LIST_COLLECTION_PREVIEW_NOTIFICATION_MODAL_HEADER'
-    label = 'Collection'
+    label = 'Collectionen kan ikke findes'
     language_id = data.language.danish.id
     folder_id = resource.language_label_folder.media_manager.folder_id
     version_id = resource.product.media_manager.base_version_id
@@ -1648,7 +1648,7 @@ resource language_label asset_list_collection_preview_notification_modal_header_
 
 resource language_label asset_list_collection_preview_notification_modal_body_en {
     constant = 'ASSET_LIST_COLLECTION_PREVIEW_NOTIFICATION_MODAL_BODY'
-    label = 'Collection not found'
+    label = 'You either have insufficient rights to view the collection or it has been deleted'
     language_id = data.language.english.id
     folder_id = resource.language_label_folder.media_manager.folder_id
     version_id = resource.product.media_manager.base_version_id
@@ -1656,7 +1656,7 @@ resource language_label asset_list_collection_preview_notification_modal_body_en
 
 resource language_label asset_list_collection_preview_notification_modal_body_da {
     constant = 'ASSET_LIST_COLLECTION_PREVIEW_NOTIFICATION_MODAL_BODY'
-    label = 'Collectionen blev ikke fundet'
+    label = 'Du har enten utilstrækkelig rettighed til at se collectionen, eller er den slettet'
     language_id = data.language.danish.id
     folder_id = resource.language_label_folder.media_manager.folder_id
     version_id = resource.product.media_manager.base_version_id

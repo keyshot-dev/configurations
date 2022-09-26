@@ -1,4 +1,4 @@
-resource language_label asset_id_en {
+﻿resource language_label asset_id_en {
     constant = 'ASSET_ID'
     label = 'ID'
     language_id = data.language.english.id

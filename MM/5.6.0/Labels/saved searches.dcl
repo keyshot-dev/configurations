@@ -1,4 +1,4 @@
-resource language_label lbl_mp_menu_saved_searches_en {
+﻿resource language_label lbl_mp_menu_saved_searches_en {
     constant = 'LBL_MP_MENU_SAVED_SEARCHES'
     label = 'Saved searches'
     language_id = data.language.english.id

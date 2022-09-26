@@ -1,4 +1,4 @@
-resource language_label asset_list_toggle_filters_button_en {
+﻿resource language_label asset_list_toggle_filters_button_en {
     constant = 'ASSET_LIST_TOGGLE_FILTERS_BUTTON'
     label = '{displayed, select, true {hide} false {show}} filters'
     language_id = data.language.english.id

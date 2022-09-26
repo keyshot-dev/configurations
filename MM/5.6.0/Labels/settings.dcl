@@ -1,4 +1,4 @@
-resource language_label settings_theme_settings_save_theme_en {
+﻿resource language_label settings_theme_settings_save_theme_en {
     constant = 'SETTINGS_THEME_SETTINGS_SAVE_THEME'
     label = '{saving, select, true {Saving...} false {Save}}'
     language_id = data.language.english.id
@@ -1424,7 +1424,7 @@ resource language_label settings_menu_workflows_desc_da {
 
 resource language_label settings_menu_digibatch_logs_title_en {
     constant = 'SETTINGS_MENU_DIGIBATCH_LOGS_TITLE'
-    label = 'DigiBatch Status'
+    label = 'DigiBatch status'
     language_id = data.language.english.id
     folder_id = resource.language_label_folder.media_manager.folder_id
     version_id = resource.product.media_manager.base_version_id
@@ -1432,7 +1432,7 @@ resource language_label settings_menu_digibatch_logs_title_en {
 
 resource language_label settings_menu_digibatch_logs_title_da {
     constant = 'SETTINGS_MENU_DIGIBATCH_LOGS_TITLE'
-    label = 'DigiBatch Status'
+    label = 'DigiBatch-status'
     language_id = data.language.danish.id
     folder_id = resource.language_label_folder.media_manager.folder_id
     version_id = resource.product.media_manager.base_version_id
@@ -1488,7 +1488,7 @@ resource language_label settings_menu_monitoring_desc_da {
 
 resource language_label settings_menu_member_management_title_en {
     constant = 'SETTINGS_MENU_MEMBER_MANAGEMENT_TITLE'
-    label = 'User Management'
+    label = 'User management'
     language_id = data.language.english.id
     folder_id = resource.language_label_folder.media_manager.folder_id
     version_id = resource.product.media_manager.base_version_id
@@ -1496,7 +1496,7 @@ resource language_label settings_menu_member_management_title_en {
 
 resource language_label settings_menu_member_management_title_da {
     constant = 'SETTINGS_MENU_MEMBER_MANAGEMENT_TITLE'
-    label = 'Brugeradministration'
+    label = 'Brugerstyring'
     language_id = data.language.danish.id
     folder_id = resource.language_label_folder.media_manager.folder_id
     version_id = resource.product.media_manager.base_version_id
@@ -1616,7 +1616,7 @@ resource language_label settings_menu_logs_desc_da {
 
 resource language_label settings_menu_audit_logs_title_en {
     constant = 'SETTINGS_MENU_AUDIT_LOGS_TITLE'
-    label = 'Audit Logs'
+    label = 'Audit logs'
     language_id = data.language.english.id
     folder_id = resource.language_label_folder.media_manager.folder_id
     version_id = resource.product.media_manager.base_version_id
@@ -1624,7 +1624,7 @@ resource language_label settings_menu_audit_logs_title_en {
 
 resource language_label settings_menu_audit_logs_title_da {
     constant = 'SETTINGS_MENU_AUDIT_LOGS_TITLE'
-    label = 'Revisionslogfiler'
+    label = 'Revisionslog'
     language_id = data.language.danish.id
     folder_id = resource.language_label_folder.media_manager.folder_id
     version_id = resource.product.media_manager.base_version_id

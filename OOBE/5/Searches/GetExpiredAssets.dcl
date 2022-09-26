@@ -1,5 +1,5 @@
 ﻿resource search get_expired_assets {
-    version_id = data.product_version.oobe.version_id
+    version_id = resource.product_version.digizuite_dam_center__oobe.version_id
     name = 'GetExpiredAssets'
     is_customizable = true
     search_xml = '<search name="GetExpiredAssets">

@@ -1,6 +1,6 @@
-resource language_label audit_trail_audit_logs_en {
+﻿resource language_label audit_trail_audit_logs_en {
     constant = 'AUDIT_TRAIL_AUDIT_LOGS'
-    label = 'Audit Logs'
+    label = 'Audit logs'
     language_id = data.language.english.id
     folder_id = resource.language_label_folder.media_manager.folder_id
     version_id = resource.product.media_manager.base_version_id
@@ -8,7 +8,7 @@ resource language_label audit_trail_audit_logs_en {
 
 resource language_label audit_trail_audit_logs_da {
     constant = 'AUDIT_TRAIL_AUDIT_LOGS'
-    label = 'Revisionslogfiler'
+    label = 'Revisionslog'
     language_id = data.language.danish.id
     folder_id = resource.language_label_folder.media_manager.folder_id
     version_id = resource.product.media_manager.base_version_id
@@ -496,7 +496,7 @@ resource language_label audit_trail_asset_profile_published_summary_da {
 
 resource language_label audit_trail_business_workflow_category_en {
     constant = 'AUDIT_TRAIL_BUSINESS_WORKFLOW_CATEGORY'
-    label = 'Business Workflow'
+    label = 'Workflow'
     language_id = data.language.english.id
     folder_id = resource.language_label_folder.media_manager.folder_id
     version_id = resource.product.media_manager.base_version_id
@@ -504,7 +504,7 @@ resource language_label audit_trail_business_workflow_category_en {
 
 resource language_label audit_trail_business_workflow_category_da {
     constant = 'AUDIT_TRAIL_BUSINESS_WORKFLOW_CATEGORY'
-    label = 'Business Workflow'
+    label = 'Workflow'
     language_id = data.language.danish.id
     folder_id = resource.language_label_folder.media_manager.folder_id
     version_id = resource.product.media_manager.base_version_id
@@ -512,7 +512,7 @@ resource language_label audit_trail_business_workflow_category_da {
 
 resource language_label audit_trail_business_workflow_instance_started_summary_en {
     constant = 'AUDIT_TRAIL_BUSINESS_WORKFLOW_INSTANCE_STARTED_SUMMARY'
-    label = 'Business workflow instance started from \'{{stageName}}\''
+    label = 'Task started from \'{{stageName}}\''
     language_id = data.language.english.id
     folder_id = resource.language_label_folder.media_manager.folder_id
     version_id = resource.product.media_manager.base_version_id
@@ -520,7 +520,7 @@ resource language_label audit_trail_business_workflow_instance_started_summary_e
 
 resource language_label audit_trail_business_workflow_instance_started_summary_da {
     constant = 'AUDIT_TRAIL_BUSINESS_WORKFLOW_INSTANCE_STARTED_SUMMARY'
-    label = 'Business workflow instans startede fra \'{{stageName}}\''
+    label = 'Opgave startede fra \'{{stageName}}\''
     language_id = data.language.danish.id
     folder_id = resource.language_label_folder.media_manager.folder_id
     version_id = resource.product.media_manager.base_version_id
@@ -528,7 +528,7 @@ resource language_label audit_trail_business_workflow_instance_started_summary_d
 
 resource language_label audit_trail_business_workflow_instance_deleted_summary_en {
     constant = 'AUDIT_TRAIL_BUSINESS_WORKFLOW_INSTANCE_DELETED_SUMMARY'
-    label = 'Business workflow instance with name \'{{workflowName}}\' is deleted'
+    label = 'Task \'{{workflowName}}\' deleted'
     language_id = data.language.english.id
     folder_id = resource.language_label_folder.media_manager.folder_id
     version_id = resource.product.media_manager.base_version_id
@@ -536,7 +536,7 @@ resource language_label audit_trail_business_workflow_instance_deleted_summary_e
 
 resource language_label audit_trail_business_workflow_instance_deleted_summary_da {
     constant = 'AUDIT_TRAIL_BUSINESS_WORKFLOW_INSTANCE_DELETED_SUMMARY'
-    label = 'Business workflow instans med navnet \'{{workflowName}}\' er slettet'
+    label = 'Opgave \'{{workflowName}}\' slettet'
     language_id = data.language.danish.id
     folder_id = resource.language_label_folder.media_manager.folder_id
     version_id = resource.product.media_manager.base_version_id
@@ -544,7 +544,7 @@ resource language_label audit_trail_business_workflow_instance_deleted_summary_d
 
 resource language_label audit_trail_business_workflow_instance_owner_changed_summary_en {
     constant = 'AUDIT_TRAIL_BUSINESS_WORKFLOW_INSTANCE_OWNER_CHANGED_SUMMARY'
-    label = 'Business workflow instance owner changed'
+    label = 'Task owner changed'
     language_id = data.language.english.id
     folder_id = resource.language_label_folder.media_manager.folder_id
     version_id = resource.product.media_manager.base_version_id
@@ -552,7 +552,7 @@ resource language_label audit_trail_business_workflow_instance_owner_changed_sum
 
 resource language_label audit_trail_business_workflow_instance_owner_changed_summary_da {
     constant = 'AUDIT_TRAIL_BUSINESS_WORKFLOW_INSTANCE_OWNER_CHANGED_SUMMARY'
-    label = 'Business workflow instans ejer ændret'
+    label = 'Opgaveejer ændret'
     language_id = data.language.danish.id
     folder_id = resource.language_label_folder.media_manager.folder_id
     version_id = resource.product.media_manager.base_version_id
@@ -560,7 +560,7 @@ resource language_label audit_trail_business_workflow_instance_owner_changed_sum
 
 resource language_label audit_trail_business_workflow_stage_assignee_changed_summary_en {
     constant = 'AUDIT_TRAIL_BUSINESS_WORKFLOW_STAGE_ASSIGNEE_CHANGED_SUMMARY'
-    label = 'Business workflow state assignee changed'
+    label = 'State assignee changed'
     language_id = data.language.english.id
     folder_id = resource.language_label_folder.media_manager.folder_id
     version_id = resource.product.media_manager.base_version_id
@@ -568,7 +568,7 @@ resource language_label audit_trail_business_workflow_stage_assignee_changed_sum
 
 resource language_label audit_trail_business_workflow_stage_assignee_changed_summary_da {
     constant = 'AUDIT_TRAIL_BUSINESS_WORKFLOW_STAGE_ASSIGNEE_CHANGED_SUMMARY'
-    label = 'Business workflow state ansvarlig ændret'
+    label = 'Fase-ansvarlig ændret'
     language_id = data.language.danish.id
     folder_id = resource.language_label_folder.media_manager.folder_id
     version_id = resource.product.media_manager.base_version_id
@@ -576,7 +576,7 @@ resource language_label audit_trail_business_workflow_stage_assignee_changed_sum
 
 resource language_label audit_trail_business_workflow_transition_summary_en {
     constant = 'AUDIT_TRAIL_BUSINESS_WORKFLOW_TRANSITION_SUMMARY'
-    label = 'Business workflow instance transitioned through \'{{transitionName}}\''
+    label = 'Task transitioned through \'{{transitionName}}\''
     language_id = data.language.english.id
     folder_id = resource.language_label_folder.media_manager.folder_id
     version_id = resource.product.media_manager.base_version_id
@@ -584,7 +584,7 @@ resource language_label audit_trail_business_workflow_transition_summary_en {
 
 resource language_label audit_trail_business_workflow_transition_summary_da {
     constant = 'AUDIT_TRAIL_BUSINESS_WORKFLOW_TRANSITION_SUMMARY'
-    label = 'Business workflow instans transitioneret gennem \'{{transitionName}}\''
+    label = 'Opgave transitioneret gennem \'{{transitionName}}\''
     language_id = data.language.danish.id
     folder_id = resource.language_label_folder.media_manager.folder_id
     version_id = resource.product.media_manager.base_version_id
@@ -592,7 +592,7 @@ resource language_label audit_trail_business_workflow_transition_summary_da {
 
 resource language_label audit_trail_business_workflow_current_stage_migrated_summary_en {
     constant = 'AUDIT_TRAIL_BUSINESS_WORKFLOW_CURRENT_STAGE_MIGRATED_SUMMARY'
-    label = 'Business workflow transitioned from \'{{fromStageName}}\' to \'{{toStageName}}\' state'
+    label = 'Task transitioned from \'{{fromStageName}}\' to \'{{toStageName}}\''
     language_id = data.language.english.id
     folder_id = resource.language_label_folder.media_manager.folder_id
     version_id = resource.product.media_manager.base_version_id
@@ -600,7 +600,7 @@ resource language_label audit_trail_business_workflow_current_stage_migrated_sum
 
 resource language_label audit_trail_business_workflow_current_stage_migrated_summary_da {
     constant = 'AUDIT_TRAIL_BUSINESS_WORKFLOW_CURRENT_STAGE_MIGRATED_SUMMARY'
-    label = 'Business workflow transitioneret fra \'{{fromStageName}}\' til \'{{toStageName}}\' state'
+    label = 'Opgave overgået fra \'{{fromStageName}}\' til \'{{toStageName}}\''
     language_id = data.language.danish.id
     folder_id = resource.language_label_folder.media_manager.folder_id
     version_id = resource.product.media_manager.base_version_id
@@ -608,7 +608,7 @@ resource language_label audit_trail_business_workflow_current_stage_migrated_sum
 
 resource language_label audit_trail_business_workflow_form_data_updated_summary_en {
     constant = 'AUDIT_TRAIL_BUSINESS_WORKFLOW_FORM_DATA_UPDATED_SUMMARY'
-    label = 'Business workflow form data updated'
+    label = 'Task constraint data updated'
     language_id = data.language.english.id
     folder_id = resource.language_label_folder.media_manager.folder_id
     version_id = resource.product.media_manager.base_version_id
@@ -616,7 +616,7 @@ resource language_label audit_trail_business_workflow_form_data_updated_summary_
 
 resource language_label audit_trail_business_workflow_form_data_updated_summary_da {
     constant = 'AUDIT_TRAIL_BUSINESS_WORKFLOW_FORM_DATA_UPDATED_SUMMARY'
-    label = 'Business workflow form data opdateret'
+    label = 'Opgavebegrænsnings data opdateret'
     language_id = data.language.danish.id
     folder_id = resource.language_label_folder.media_manager.folder_id
     version_id = resource.product.media_manager.base_version_id

@@ -1,4 +1,4 @@
-resource language_label feedback_feedback_send_feedback_en {
+﻿resource language_label feedback_feedback_send_feedback_en {
     constant = 'FEEDBACK_FEEDBACK_SEND_FEEDBACK'
     label = 'Send feedback'
     language_id = data.language.english.id

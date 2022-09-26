@@ -1,4 +1,4 @@
-resource language_label duplicate_asset_modal_title_en {
+﻿resource language_label duplicate_asset_modal_title_en {
     constant = 'DUPLICATE_ASSET_MODAL_TITLE'
     label = 'Duplicates found'
     language_id = data.language.english.id

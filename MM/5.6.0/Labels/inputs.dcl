@@ -1,4 +1,4 @@
-resource language_label inputs_tree_input_options_en {
+﻿resource language_label inputs_tree_input_options_en {
     constant = 'INPUTS_TREE_INPUT_OPTIONS'
     label = 'Options...'
     language_id = data.language.english.id
@@ -782,6 +782,54 @@ resource language_label input_date_time_disabled_da {
     version_id = resource.product.media_manager.base_version_id
 }
 
+resource language_label input_date_year_title_en {
+    constant = 'INPUT_DATE_YEAR_TITLE'
+    label = 'Year'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label input_date_year_title_da {
+    constant = 'INPUT_DATE_YEAR_TITLE'
+    label = 'År'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label input_date_month_title_en {
+    constant = 'INPUT_DATE_MONTH_TITLE'
+    label = 'Month'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label input_date_month_title_da {
+    constant = 'INPUT_DATE_MONTH_TITLE'
+    label = 'Måned'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label input_date_day_title_en {
+    constant = 'INPUT_DATE_DAY_TITLE'
+    label = 'Day'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label input_date_day_title_da {
+    constant = 'INPUT_DATE_DAY_TITLE'
+    label = 'Dag'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
 resource language_label input_edit_multi_combo_ai_generate_keywords_en {
     constant = 'INPUT_EDIT_MULTI_COMBO_AI_GENERATE_KEYWORDS'
     label = '{loading, select, false {Generate AI keywords} true {Loading...}}'
@@ -1289,6 +1337,22 @@ resource language_label inputs_metafield_selector_input_unknown_field_error_en {
 resource language_label inputs_metafield_selector_input_unknown_field_error_da {
     constant = 'INPUTS_METAFIELD_SELECTOR_INPUT_UNKNOWN_FIELD_ERROR'
     label = 'Ukendt felt'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label email_share_collection_input_popup_no_results_en {
+    constant = 'EMAIL_SHARE_COLLECTION_INPUT_POPUP_NO_RESULTS'
+    label = 'No email addresses found'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label email_share_collection_input_popup_no_results_da {
+    constant = 'EMAIL_SHARE_COLLECTION_INPUT_POPUP_NO_RESULTS'
+    label = 'Ingen email-adresser fundet'
     language_id = data.language.danish.id
     folder_id = resource.language_label_folder.media_manager.folder_id
     version_id = resource.product.media_manager.base_version_id

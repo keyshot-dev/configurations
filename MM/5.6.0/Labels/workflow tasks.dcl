@@ -1,4 +1,4 @@
-resource language_label workflow_task_delete_tooltip_en {
+﻿resource language_label workflow_task_delete_tooltip_en {
     constant = 'WORKFLOW_TASK_DELETE_TOOLTIP'
     label = 'Delete task'
     language_id = data.language.english.id
@@ -265,6 +265,22 @@ resource language_label workflow_task_list_detail_view_contents_en {
 resource language_label workflow_task_list_detail_view_contents_da {
     constant = 'WORKFLOW_TASK_LIST_DETAIL_VIEW_CONTENTS'
     label = '{value, select, asset {Assets} member {Brugere}}'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label workflow_task_list_detail_view_details_not_available_en {
+    constant = 'WORKFLOW_TASK_LIST_DETAIL_VIEW_DETAILS_NOT_AVAILABLE'
+    label = 'No transition details available'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label workflow_task_list_detail_view_details_not_available_da {
+    constant = 'WORKFLOW_TASK_LIST_DETAIL_VIEW_DETAILS_NOT_AVAILABLE'
+    label = 'Ingen overgangs-oplysninger tilgængelige'
     language_id = data.language.danish.id
     folder_id = resource.language_label_folder.media_manager.folder_id
     version_id = resource.product.media_manager.base_version_id

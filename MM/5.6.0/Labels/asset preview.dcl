@@ -1,4 +1,4 @@
-resource language_label asset_preview_metadata_tab_label_en {
+﻿resource language_label asset_preview_metadata_tab_label_en {
     constant = 'ASSET_PREVIEW_METADATA_TAB_LABEL'
     label = 'Metadata'
     language_id = data.language.english.id

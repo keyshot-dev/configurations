@@ -1,4 +1,4 @@
-resource language_label section_title_workflow_management_en {
+﻿resource language_label section_title_workflow_management_en {
     constant = 'SECTION_TITLE_WORKFLOW_MANAGEMENT'
     label = 'Workflows'
     language_id = data.language.english.id
@@ -1264,7 +1264,7 @@ resource language_label job_status_job_status_main_workflows_list_header_da {
 
 resource language_label section_title_workflow_job_status_en {
     constant = 'SECTION_TITLE_WORKFLOW_JOB_STATUS'
-    label = 'Job Status'
+    label = 'Job status'
     language_id = data.language.english.id
     folder_id = resource.language_label_folder.media_manager.folder_id
     version_id = resource.product.media_manager.base_version_id
@@ -2217,6 +2217,390 @@ resource language_label job_status_job_status_more_no_trace_available_en {
 resource language_label job_status_job_status_more_no_trace_available_da {
     constant = 'JOB_STATUS_JOB_STATUS_MORE_NO_TRACE_AVAILABLE'
     label = 'Ingen trace tilgængelig'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label workflow_editor_workflow_asset_search_request_text_input_variable_en {
+    constant = 'WORKFLOW_EDITOR_WORKFLOW_ASSET_SEARCH_REQUEST_TEXT_INPUT_VARIABLE'
+    label = 'Variable'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label workflow_editor_workflow_asset_search_request_text_input_variable_da {
+    constant = 'WORKFLOW_EDITOR_WORKFLOW_ASSET_SEARCH_REQUEST_TEXT_INPUT_VARIABLE'
+    label = 'Variabel'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label workflow_editor_workflow_asset_search_request_text_input_value_en {
+    constant = 'WORKFLOW_EDITOR_WORKFLOW_ASSET_SEARCH_REQUEST_TEXT_INPUT_VALUE'
+    label = 'Value'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label workflow_editor_workflow_asset_search_request_text_input_value_da {
+    constant = 'WORKFLOW_EDITOR_WORKFLOW_ASSET_SEARCH_REQUEST_TEXT_INPUT_VALUE'
+    label = 'Værdi'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label workflow_editor_workflow_asset_search_request_text_input_type_something_here_en {
+    constant = 'WORKFLOW_EDITOR_WORKFLOW_ASSET_SEARCH_REQUEST_TEXT_INPUT_TYPE_SOMETHING_HERE'
+    label = 'Type query here'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label workflow_editor_workflow_asset_search_request_text_input_type_something_here_da {
+    constant = 'WORKFLOW_EDITOR_WORKFLOW_ASSET_SEARCH_REQUEST_TEXT_INPUT_TYPE_SOMETHING_HERE'
+    label = 'Skriv søgeterm her'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label workflow_editor_workflow_asset_search_request_text_input_value_key_en {
+    constant = 'WORKFLOW_EDITOR_WORKFLOW_ASSET_SEARCH_REQUEST_TEXT_INPUT_VALUE_KEY'
+    label = 'Value:'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label workflow_editor_workflow_asset_search_request_text_input_value_key_da {
+    constant = 'WORKFLOW_EDITOR_WORKFLOW_ASSET_SEARCH_REQUEST_TEXT_INPUT_VALUE_KEY'
+    label = 'Værdi:'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label workflow_editor_workflow_asset_search_request_long_range_input_no_maximum_en {
+    constant = 'WORKFLOW_EDITOR_WORKFLOW_ASSET_SEARCH_REQUEST_LONG_RANGE_INPUT_NO_MAXIMUM'
+    label = 'No upper limit'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label workflow_editor_workflow_asset_search_request_long_range_input_no_maximum_da {
+    constant = 'WORKFLOW_EDITOR_WORKFLOW_ASSET_SEARCH_REQUEST_LONG_RANGE_INPUT_NO_MAXIMUM'
+    label = 'Ingen maks-grænse'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label workflow_editor_workflow_asset_search_request_long_range_input_to_en {
+    constant = 'WORKFLOW_EDITOR_WORKFLOW_ASSET_SEARCH_REQUEST_LONG_RANGE_INPUT_TO'
+    label = 'To:'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label workflow_editor_workflow_asset_search_request_long_range_input_to_da {
+    constant = 'WORKFLOW_EDITOR_WORKFLOW_ASSET_SEARCH_REQUEST_LONG_RANGE_INPUT_TO'
+    label = 'Til:'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label workflow_editor_workflow_asset_search_request_long_range_input_no_minimum_en {
+    constant = 'WORKFLOW_EDITOR_WORKFLOW_ASSET_SEARCH_REQUEST_LONG_RANGE_INPUT_NO_MINIMUM'
+    label = 'No lower limit'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label workflow_editor_workflow_asset_search_request_long_range_input_no_minimum_da {
+    constant = 'WORKFLOW_EDITOR_WORKFLOW_ASSET_SEARCH_REQUEST_LONG_RANGE_INPUT_NO_MINIMUM'
+    label = 'Ingen minimums-grænse'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label workflow_editor_workflow_asset_search_request_long_range_input_from_en {
+    constant = 'WORKFLOW_EDITOR_WORKFLOW_ASSET_SEARCH_REQUEST_LONG_RANGE_INPUT_FROM'
+    label = 'From:'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label workflow_editor_workflow_asset_search_request_long_range_input_from_da {
+    constant = 'WORKFLOW_EDITOR_WORKFLOW_ASSET_SEARCH_REQUEST_LONG_RANGE_INPUT_FROM'
+    label = 'Fra:'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label workflow_editor_workflow_asset_search_request_keyword_input_no_en {
+    constant = 'WORKFLOW_EDITOR_WORKFLOW_ASSET_SEARCH_REQUEST_KEYWORD_INPUT_NO'
+    label = 'No'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label workflow_editor_workflow_asset_search_request_keyword_input_no_da {
+    constant = 'WORKFLOW_EDITOR_WORKFLOW_ASSET_SEARCH_REQUEST_KEYWORD_INPUT_NO'
+    label = 'Nej'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label workflow_editor_workflow_asset_search_request_keyword_input_yes_en {
+    constant = 'WORKFLOW_EDITOR_WORKFLOW_ASSET_SEARCH_REQUEST_KEYWORD_INPUT_YES'
+    label = 'Yes'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label workflow_editor_workflow_asset_search_request_keyword_input_yes_da {
+    constant = 'WORKFLOW_EDITOR_WORKFLOW_ASSET_SEARCH_REQUEST_KEYWORD_INPUT_YES'
+    label = 'Ja'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label workflow_editor_workflow_asset_search_request_keyword_input_recursive_en {
+    constant = 'WORKFLOW_EDITOR_WORKFLOW_ASSET_SEARCH_REQUEST_KEYWORD_INPUT_RECURSIVE'
+    label = 'Recursive'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label workflow_editor_workflow_asset_search_request_keyword_input_recursive_da {
+    constant = 'WORKFLOW_EDITOR_WORKFLOW_ASSET_SEARCH_REQUEST_KEYWORD_INPUT_RECURSIVE'
+    label = 'Rekursiv'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label workflow_editor_workflow_asset_search_request_keyword_input_and_en {
+    constant = 'WORKFLOW_EDITOR_WORKFLOW_ASSET_SEARCH_REQUEST_KEYWORD_INPUT_AND'
+    label = 'And'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label workflow_editor_workflow_asset_search_request_keyword_input_and_da {
+    constant = 'WORKFLOW_EDITOR_WORKFLOW_ASSET_SEARCH_REQUEST_KEYWORD_INPUT_AND'
+    label = 'Og'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label workflow_editor_workflow_asset_search_request_keyword_input_or_en {
+    constant = 'WORKFLOW_EDITOR_WORKFLOW_ASSET_SEARCH_REQUEST_KEYWORD_INPUT_OR'
+    label = 'Or'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label workflow_editor_workflow_asset_search_request_keyword_input_or_da {
+    constant = 'WORKFLOW_EDITOR_WORKFLOW_ASSET_SEARCH_REQUEST_KEYWORD_INPUT_OR'
+    label = 'Eller'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label workflow_editor_workflow_asset_search_request_keyword_input_comparison_type_en {
+    constant = 'WORKFLOW_EDITOR_WORKFLOW_ASSET_SEARCH_REQUEST_KEYWORD_INPUT_COMPARISON_TYPE'
+    label = 'Comparison type'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label workflow_editor_workflow_asset_search_request_keyword_input_comparison_type_da {
+    constant = 'WORKFLOW_EDITOR_WORKFLOW_ASSET_SEARCH_REQUEST_KEYWORD_INPUT_COMPARISON_TYPE'
+    label = 'Sammenlignings-metode'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label workflow_editor_workflow_asset_search_request_keyword_input_excluded_values_en {
+    constant = 'WORKFLOW_EDITOR_WORKFLOW_ASSET_SEARCH_REQUEST_KEYWORD_INPUT_EXCLUDED_VALUES'
+    label = 'Excluded values'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label workflow_editor_workflow_asset_search_request_keyword_input_excluded_values_da {
+    constant = 'WORKFLOW_EDITOR_WORKFLOW_ASSET_SEARCH_REQUEST_KEYWORD_INPUT_EXCLUDED_VALUES'
+    label = 'Udelukkede værdier'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label workflow_editor_workflow_asset_search_request_keyword_input_included_values_en {
+    constant = 'WORKFLOW_EDITOR_WORKFLOW_ASSET_SEARCH_REQUEST_KEYWORD_INPUT_INCLUDED_VALUES'
+    label = 'Included values'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label workflow_editor_workflow_asset_search_request_keyword_input_included_values_da {
+    constant = 'WORKFLOW_EDITOR_WORKFLOW_ASSET_SEARCH_REQUEST_KEYWORD_INPUT_INCLUDED_VALUES'
+    label = 'Inkluderede værdier'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label workflow_editor_workflow_asset_search_request_keyword_input_value_group_add_en {
+    constant = 'WORKFLOW_EDITOR_WORKFLOW_ASSET_SEARCH_REQUEST_KEYWORD_INPUT_VALUE_GROUP_ADD'
+    label = 'Add'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label workflow_editor_workflow_asset_search_request_keyword_input_value_group_add_da {
+    constant = 'WORKFLOW_EDITOR_WORKFLOW_ASSET_SEARCH_REQUEST_KEYWORD_INPUT_VALUE_GROUP_ADD'
+    label = 'Tilføj'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label workflow_editor_workflow_asset_search_request_keyword_input_value_group_remove_en {
+    constant = 'WORKFLOW_EDITOR_WORKFLOW_ASSET_SEARCH_REQUEST_KEYWORD_INPUT_VALUE_GROUP_REMOVE'
+    label = 'Remove'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label workflow_editor_workflow_asset_search_request_keyword_input_value_group_remove_da {
+    constant = 'WORKFLOW_EDITOR_WORKFLOW_ASSET_SEARCH_REQUEST_KEYWORD_INPUT_VALUE_GROUP_REMOVE'
+    label = 'Fjern'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label workflow_editor_workflow_asset_search_request_input_open_editor_en {
+    constant = 'WORKFLOW_EDITOR_WORKFLOW_ASSET_SEARCH_REQUEST_INPUT_OPEN_EDITOR'
+    label = 'Open editor'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label workflow_editor_workflow_asset_search_request_input_open_editor_da {
+    constant = 'WORKFLOW_EDITOR_WORKFLOW_ASSET_SEARCH_REQUEST_INPUT_OPEN_EDITOR'
+    label = 'Åbn editor'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label workflow_editor_workflow_asset_search_request_input_dialog_apply_en {
+    constant = 'WORKFLOW_EDITOR_WORKFLOW_ASSET_SEARCH_REQUEST_INPUT_DIALOG_APPLY'
+    label = 'Apply'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label workflow_editor_workflow_asset_search_request_input_dialog_apply_da {
+    constant = 'WORKFLOW_EDITOR_WORKFLOW_ASSET_SEARCH_REQUEST_INPUT_DIALOG_APPLY'
+    label = 'Anvend'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label workflow_editor_workflow_asset_search_request_input_dialog_cancel_en {
+    constant = 'WORKFLOW_EDITOR_WORKFLOW_ASSET_SEARCH_REQUEST_INPUT_DIALOG_CANCEL'
+    label = 'Cancel'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label workflow_editor_workflow_asset_search_request_input_dialog_cancel_da {
+    constant = 'WORKFLOW_EDITOR_WORKFLOW_ASSET_SEARCH_REQUEST_INPUT_DIALOG_CANCEL'
+    label = 'Annuller'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label workflow_editor_workflow_asset_search_request_input_dialog_edit_search_en {
+    constant = 'WORKFLOW_EDITOR_WORKFLOW_ASSET_SEARCH_REQUEST_INPUT_DIALOG_EDIT_SEARCH'
+    label = 'Edit search'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label workflow_editor_workflow_asset_search_request_input_dialog_edit_search_da {
+    constant = 'WORKFLOW_EDITOR_WORKFLOW_ASSET_SEARCH_REQUEST_INPUT_DIALOG_EDIT_SEARCH'
+    label = 'Rediger søgning'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label workflow_editor_workflow_asset_search_request_date_range_input_end_of_time_en {
+    constant = 'WORKFLOW_EDITOR_WORKFLOW_ASSET_SEARCH_REQUEST_DATE_RANGE_INPUT_END_OF_TIME'
+    label = 'End of time'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label workflow_editor_workflow_asset_search_request_date_range_input_end_of_time_da {
+    constant = 'WORKFLOW_EDITOR_WORKFLOW_ASSET_SEARCH_REQUEST_DATE_RANGE_INPUT_END_OF_TIME'
+    label = 'Uden slutdato'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label workflow_editor_workflow_asset_search_request_date_range_input_start_of_time_en {
+    constant = 'WORKFLOW_EDITOR_WORKFLOW_ASSET_SEARCH_REQUEST_DATE_RANGE_INPUT_START_OF_TIME'
+    label = 'Beginning of time'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label workflow_editor_workflow_asset_search_request_date_range_input_start_of_time_da {
+    constant = 'WORKFLOW_EDITOR_WORKFLOW_ASSET_SEARCH_REQUEST_DATE_RANGE_INPUT_START_OF_TIME'
+    label = 'Tidernes begyndelse'
     language_id = data.language.danish.id
     folder_id = resource.language_label_folder.media_manager.folder_id
     version_id = resource.product.media_manager.base_version_id

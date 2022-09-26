@@ -1,4 +1,4 @@
-resource language_label login_login_dialog_username_required_en {
+﻿resource language_label login_login_dialog_username_required_en {
     constant = 'LOGIN_LOGIN_DIALOG_USERNAME_REQUIRED'
     label = 'Username is required'
     language_id = data.language.english.id

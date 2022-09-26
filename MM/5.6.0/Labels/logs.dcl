@@ -1,4 +1,4 @@
-resource language_label logs_logs_home_request_type_en {
+﻿resource language_label logs_logs_home_request_type_en {
     constant = 'LOGS_LOGS_HOME_REQUEST_TYPE'
     label = 'Request scope ({{type}})'
     language_id = data.language.english.id

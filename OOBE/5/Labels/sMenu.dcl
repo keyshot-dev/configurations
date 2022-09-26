@@ -1,47 +1,31 @@
-﻿data language_label smenu_english {
+﻿resource language_label smenu_english {
     constant = 'sMenu'
+    label = 'Folders'
     language_id = data.language.english.id
     folder_id = data.language_label_folder.filters.folder_id
-    version_id = data.product.digizuite_dam_center.base_version_id
+    version_id = resource.product_version.digizuite_dam_center__oobe.version_id
 }
 
-data language_label smenu_danish {
+resource language_label smenu_danish {
     constant = 'sMenu'
+    label = 'Foldere'
     language_id = data.language.danish.id
     folder_id = data.language_label_folder.filters.folder_id
-    version_id = data.product.digizuite_dam_center.base_version_id
+    version_id = resource.product_version.digizuite_dam_center__oobe.version_id
 }
 
-data language_label smenu_swedish {
+resource language_label smenu_swedish {
     constant = 'sMenu'
+    label = 'Folders'
     language_id = data.language.swedish.id
     folder_id = data.language_label_folder.filters.folder_id
-    version_id = data.product.digizuite_dam_center.base_version_id
+    version_id = resource.product_version.digizuite_dam_center__oobe.version_id
 }
 
-data language_label smenu_german {
+resource language_label smenu_german {
     constant = 'sMenu'
+    label = 'Folders'
     language_id = data.language.german.id
     folder_id = data.language_label_folder.filters.folder_id
-    version_id = data.product.digizuite_dam_center.base_version_id
-}
-
-patch language_label smenu_english {
-    target = data.language_label.smenu_english
-    label = 'Folders'
-}
-
-patch language_label smenu_danish {
-    target = data.language_label.smenu_danish 
-    label = 'Foldere'
-}
-
-patch language_label smenu_swedish {
-    target = data.language_label.smenu_swedish
-    label = 'Folders'
-}
-
-patch language_label smenu_german {
-    target = data.language_label.smenu_german 
-    label = 'Folders'
+    version_id = resource.product_version.digizuite_dam_center__oobe.version_id
 }
