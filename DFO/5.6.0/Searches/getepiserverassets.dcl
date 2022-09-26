@@ -77,7 +77,6 @@ resource search getepiserverassets_380 {
       </valueFields>            
       <valueField id="Description" itemGuid="${to_string(data.note_metafield.description_50182.item_guid)}" />
       <valueField fieldName="asset.image_height" id="ImageHeight" />
-      <valueField id="Software" itemGuid="9159f487-2b39-4e01-8bc6-da3bbbc9311e" />
       <valueField fieldName="asset.image_width" id="ImageWidth" />
       <valueField id="Crop_name" itemGuid="${to_string(data.string_metafield.crop_name_50377.item_guid)}" />
       <valueField field="item_tree_valueid" id="Folders" isArray="true" isTooltip="false" itemGuid="${to_string(data.tree_metafield.media_manager_menu.item_guid)}" />

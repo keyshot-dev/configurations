@@ -24,7 +24,6 @@ resource search getassetsbyid_369 {
       <valueField id="thumb" fieldName="asset.urlAbsolut(${to_string(data.destination.frontenddata_sm.item_guid)},${to_string(data.media_format.thumb_200x120_3.item_guid)})" />
       <valueField id="firstPublished" fieldName="asset_layoutfolder.firstpublished" aggregate="MIN" />
       <valueField id="lastPublished" fieldName="asset_layoutfolder.lastpublished" aggregate="MAX" />
-      <valueField fieldName="item.lockedbyitemid" id="isLocked" returnType="bool" />
     </valueFields>
   </searchSection>
 </search>'
