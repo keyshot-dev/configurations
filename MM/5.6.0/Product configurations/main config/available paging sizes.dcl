@@ -50,6 +50,7 @@ resource versioned_metadata_edit_multi_combo_value paging_size {
     item_id = resource.product.media_manager.item_id
     version_id = resource.product.media_manager.base_version_id
     label_id = resource.metafield_label.paging_size.label_id
+    row_id = 1
 }
 
 

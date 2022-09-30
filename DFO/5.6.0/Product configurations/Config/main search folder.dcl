@@ -45,4 +45,5 @@ resource versioned_metadata_master_item_reference_value main_search_folder_9448_
     item_id = resource.product.episerver.item_id
     version_id = resource.product.episerver.base_version_id
     label_id = resource.metafield_label.main_search_folder_51453.label_id
+    row_id = 1
 }

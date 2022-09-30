@@ -24,6 +24,7 @@ resource versioned_metadata_master_item_reference_value related_assets_metafield
     item_id = resource.product.media_manager.item_id
     version_id = resource.product.media_manager.base_version_id
     label_id = resource.metafield_label.related_assets_metafield.label_id
+    row_id = 1
 }
 
 resource item_security related_assets_metafield__anonymous {

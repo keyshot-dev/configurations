@@ -125,6 +125,7 @@ resource versioned_metadata_multi_combo_value custom_quality_image_types {
     item_id = resource.product.media_manager.item_id
     version_id = resource.product.media_manager.base_version_id
     label_id = resource.metafield_label.custom_quality_image_types.label_id
+    row_id = 1
 }
 
 

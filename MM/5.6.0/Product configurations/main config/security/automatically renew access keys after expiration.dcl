@@ -20,6 +20,7 @@ resource versioned_metadata_bool_value automatically_renew_accesskey_after_expir
     item_id = resource.product.media_manager.item_id
     version_id = resource.product.media_manager.base_version_id
     label_id = resource.metafield_label.automatically_renew_accesskey_after_expiration.label_id
+    row_id = 1
 }
 
 resource item_security automatically_renew_accesskey_after_expiration__anonymous {

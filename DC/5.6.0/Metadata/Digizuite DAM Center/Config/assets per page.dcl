@@ -113,4 +113,5 @@ resource versioned_metadata_edit_multi_combo_value assets_per_page {
     item_id = resource.product.digizuite_dam_center.item_id
     version_id = resource.product.digizuite_dam_center.base_version_id
     label_id = resource.metafield_label.assets_per_page.label_id
+    row_id = 1
 }

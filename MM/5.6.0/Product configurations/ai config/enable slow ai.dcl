@@ -19,6 +19,7 @@ resource versioned_metadata_bool_value enable_slow_ai {
     label_id = resource.metafield_label.enable_slow_ai.label_id
     version_id = resource.product.media_manager.base_version_id
     value = false
+    row_id = 1
 }
 
 resource item_security enable_slow_ai__anonymous {

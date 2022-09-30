@@ -3,7 +3,7 @@
     label = 'Folders'
     language_id = data.language.english.id
     folder_id = data.language_label_folder.filters.folder_id
-    version_id = resource.product_version.digizuite_dam_center__oobe.version_id
+    version_id = data.product_version.digizuite_dam_center__oobe.version_id
 }
 
 resource language_label smenu_danish {
@@ -11,7 +11,7 @@ resource language_label smenu_danish {
     label = 'Foldere'
     language_id = data.language.danish.id
     folder_id = data.language_label_folder.filters.folder_id
-    version_id = resource.product_version.digizuite_dam_center__oobe.version_id
+    version_id = data.product_version.digizuite_dam_center__oobe.version_id
 }
 
 resource language_label smenu_swedish {
@@ -19,7 +19,7 @@ resource language_label smenu_swedish {
     label = 'Folders'
     language_id = data.language.swedish.id
     folder_id = data.language_label_folder.filters.folder_id
-    version_id = resource.product_version.digizuite_dam_center__oobe.version_id
+    version_id = data.product_version.digizuite_dam_center__oobe.version_id
 }
 
 resource language_label smenu_german {
@@ -27,5 +27,5 @@ resource language_label smenu_german {
     label = 'Folders'
     language_id = data.language.german.id
     folder_id = data.language_label_folder.filters.folder_id
-    version_id = resource.product_version.digizuite_dam_center__oobe.version_id
+    version_id = data.product_version.digizuite_dam_center__oobe.version_id
 }

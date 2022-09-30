@@ -31,6 +31,7 @@ resource versioned_metadata_string_value aspect_ratio_x_51478_1 {
     item_id = resource.product.digizuite_dam_for_sitecore.item_id
     version_id = resource.product.digizuite_dam_for_sitecore.base_version_id
     label_id = resource.metafield_label.aspect_ratio_x_51478.label_id
+    row_id = 1
 }
 
 resource versioned_metadata_string_value aspect_ratio_x_51478_2 {
@@ -38,7 +39,7 @@ resource versioned_metadata_string_value aspect_ratio_x_51478_2 {
     item_id = resource.product.digizuite_dam_for_sitecore.item_id
     version_id = resource.product.digizuite_dam_for_sitecore.base_version_id
     label_id = resource.metafield_label.aspect_ratio_x_51478.label_id
-    previous_row = resource.versioned_metadata_string_value.aspect_ratio_x_51478_1.row_id
+    row_id = 2
 }
 
 resource versioned_metadata_string_value aspect_ratio_x_51478_3 {
@@ -46,7 +47,7 @@ resource versioned_metadata_string_value aspect_ratio_x_51478_3 {
     item_id = resource.product.digizuite_dam_for_sitecore.item_id
     version_id = resource.product.digizuite_dam_for_sitecore.base_version_id
     label_id = resource.metafield_label.aspect_ratio_x_51478.label_id
-    previous_row = resource.versioned_metadata_string_value.aspect_ratio_x_51478_2.row_id
+    row_id = 3
 }
 
 resource versioned_metadata_string_value aspect_ratio_x_51478_4 {
@@ -54,5 +55,5 @@ resource versioned_metadata_string_value aspect_ratio_x_51478_4 {
     item_id = resource.product.digizuite_dam_for_sitecore.item_id
     version_id = resource.product.digizuite_dam_for_sitecore.base_version_id
     label_id = resource.metafield_label.aspect_ratio_x_51478.label_id
-    previous_row = resource.versioned_metadata_string_value.aspect_ratio_x_51478_3.row_id
+    row_id = 4
 }

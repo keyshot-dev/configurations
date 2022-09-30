@@ -44,4 +44,5 @@ resource versioned_metadata_master_item_reference_value editor_qualities_9449_51
 	item_id = resource.product.digizuite_dam_for_sitecore.item_id
 	version_id = resource.product.digizuite_dam_for_sitecore.base_version_id
 	label_id = resource.metafield_label.editor_qualities_51471.label_id
+	row_id = 1
 }

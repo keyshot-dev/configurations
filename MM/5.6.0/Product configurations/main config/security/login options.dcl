@@ -116,6 +116,7 @@ resource versioned_metadata_combo_value login_options {
     item_id = resource.product.media_manager.item_id
     version_id = resource.product.media_manager.base_version_id
     label_id = resource.metafield_label.login_options.label_id
+    row_id = 1
 }
 
 

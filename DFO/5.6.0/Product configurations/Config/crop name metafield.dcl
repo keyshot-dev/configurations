@@ -38,4 +38,5 @@ resource versioned_metadata_master_item_reference_value crop_name_metafield_9448
     item_id = resource.product.episerver.item_id
     version_id = resource.product.episerver.base_version_id
     label_id = resource.metafield_label.crop_name_metafield_51460.label_id
+    row_id = 1
 }

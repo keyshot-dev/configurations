@@ -23,6 +23,7 @@ resource versioned_metadata_master_item_reference_value ccc_low_insert_quality {
     item_id = resource.product.media_manager.item_id
     version_id = resource.product.media_manager.base_version_id
     label_id = resource.metafield_label.ccc_low_insert_quality.label_id
+    row_id = 1
 }
 
 

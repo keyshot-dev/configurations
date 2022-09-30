@@ -31,6 +31,7 @@ resource versioned_metadata_string_value crop_name_51477_1 {
     item_id = resource.product.digizuite_dam_for_sitecore.item_id
     version_id = resource.product.digizuite_dam_for_sitecore.base_version_id
     label_id = resource.metafield_label.crop_name_51477.label_id
+    row_id = 1
 }
 
 resource versioned_metadata_string_value crop_name_51477_2 {
@@ -38,7 +39,7 @@ resource versioned_metadata_string_value crop_name_51477_2 {
     item_id = resource.product.digizuite_dam_for_sitecore.item_id
     version_id = resource.product.digizuite_dam_for_sitecore.base_version_id
     label_id = resource.metafield_label.crop_name_51477.label_id
-    previous_row = resource.versioned_metadata_string_value.crop_name_51477_1.row_id
+    row_id = 2
 }
 
 resource versioned_metadata_string_value crop_name_51477_3 {
@@ -46,7 +47,7 @@ resource versioned_metadata_string_value crop_name_51477_3 {
     item_id = resource.product.digizuite_dam_for_sitecore.item_id
     version_id = resource.product.digizuite_dam_for_sitecore.base_version_id
     label_id = resource.metafield_label.crop_name_51477.label_id
-    previous_row = resource.versioned_metadata_string_value.crop_name_51477_2.row_id
+    row_id = 3
 }
 
 resource versioned_metadata_string_value crop_name_51477_4 {
@@ -54,5 +55,5 @@ resource versioned_metadata_string_value crop_name_51477_4 {
     item_id = resource.product.digizuite_dam_for_sitecore.item_id
     version_id = resource.product.digizuite_dam_for_sitecore.base_version_id
     label_id = resource.metafield_label.crop_name_51477.label_id
-    previous_row = resource.versioned_metadata_string_value.crop_name_51477_3.row_id
+    row_id = 4
 }

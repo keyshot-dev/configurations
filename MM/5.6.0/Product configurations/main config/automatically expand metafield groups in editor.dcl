@@ -24,6 +24,7 @@ resource versioned_metadata_master_item_reference_value automatically_expand_met
     item_id = resource.product.media_manager.item_id
     version_id = resource.product.media_manager.base_version_id
     label_id = resource.metafield_label.automatically_expand_metadata_groups_in_editor.label_id
+    row_id = 1
 }
 
 resource item_security automatically_expand_metadata_groups_in_editor__anonymous {

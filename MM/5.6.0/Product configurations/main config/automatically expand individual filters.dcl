@@ -20,6 +20,7 @@ resource versioned_metadata_bool_value automatically_expand_individual_filters_i
     item_id = resource.product.media_manager.item_id
     version_id = resource.product.media_manager.base_version_id
     label_id = resource.metafield_label.automatically_expand_individual_filters_in_asset_list.label_id
+    row_id = 1
 }
 
 
