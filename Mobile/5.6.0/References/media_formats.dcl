@@ -8,6 +8,11 @@ data media_format_folder source_formats {
     name = 'Source formats'
 }
 
+data media_format_folder import_10000 {
+    parent_id = 0
+    name = 'Import'
+}
+
 data media_format_folder custom {
     parent_id = data.media_format_folder.standard.id
     name = 'Custom'
@@ -77,9 +82,88 @@ data media_format h264_128_kbit_advanced_audio_codec {
     name = 'H264 128 kbit Advanced Audio Codec'
 }
 
-
 data media_format thumb_200x120_3 {
     folder_id = data.media_format_folder.standard.id
     name = 'Thumb 200x120'
+}
+
+data media_format powerpoint_slideshow_ppsx_50048 {
+    folder_id = data.media_format_folder.source_formats.id
+    name = 'Powerpoint slideshow (.ppsx)'
+}
+
+data media_format design_web_format_dwf_50073 {
+    folder_id = data.media_format_folder.source_formats.id
+    name = 'Design Web Format (.dwf)'
+}
+
+data media_format hpgl_plot_plt_50072 {
+    folder_id = data.media_format_folder.source_formats.id
+    name = 'HPGL Plot (.plt)'
+}
+
+data media_format exifthumb_raw_50014 {
+    folder_id = data.media_format_folder.import_10000.id
+    name = 'ExifThumb_Raw'
+}
+
+data media_format openoffice_impress_document_odp_50078 {
+    folder_id = data.media_format_folder.source_formats.id
+    name = 'OpenOffice impress document (.odp)'
+}
+
+data media_format industry_foundation_classes_ifc_50069 {
+    folder_id = data.media_format_folder.source_formats.id
+    name = 'Industry Foundation Classes (.ifc)'
+}
+
+data media_format stereolithography_stl_50070 {
+    folder_id = data.media_format_folder.source_formats.id
+    name = 'Stereolithography (.stl)'
+}
+
+data media_format word_template_dotx_50053 {
+    folder_id = data.media_format_folder.source_formats.id
+    name = 'Word template (.dotx)'
+}
+
+data media_format excel_workbook_xlsx_50058 {
+    folder_id = data.media_format_folder.source_formats.id
+    name = 'Excel workbook (.xlsx)'
+}
+
+data media_format adobe_indesign_50011 {
+    folder_id = data.media_format_folder.source_formats.id
+    name = 'Adobe InDesign'
+}
+
+data media_format openoffice_writer_document_odt_50074 {
+    folder_id = data.media_format_folder.source_formats.id
+    name = 'OpenOffice writer document (.odt)'
+}
+
+data media_format visio_stencil_vssx_50065 {
+    folder_id = data.media_format_folder.source_formats.id
+    name = 'Visio stencil (.vssx)'
+}
+
+data media_format microstation_design_dgn_50068 {
+    folder_id = data.media_format_folder.source_formats.id
+    name = 'MicroStation Design (.dgn)'
+}
+
+data media_format adobe_pdf_50009 {
+    folder_id = data.media_format_folder.source_formats.id
+    name = 'Adobe PDF'
+}
+
+data media_format openoffice_calc_document_template_ots_50077 {
+    folder_id = data.media_format_folder.source_formats.id
+    name = 'OpenOffice calc document template (.ots)'
+}
+
+data media_format powerpoint_10077 {
+    folder_id = data.media_format_folder.source_formats.id
+    name = 'Powerpoint'
 }
 

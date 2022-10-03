@@ -346,49 +346,6 @@ resource media_transcode visio_template__mobile_video_thumb_50143 {
     prevref = 0
 }
 
-data media_format image_50030 {
-    folder_id = data.media_format_folder.source_formats.id
-    format_type_id = 200001
-    name = 'IMAGE'
-    description = ''
-    width = 0
-    height = 0
-    is_public = true
-    format_xml = ''
-    multi_page_output = false
-    is_identity_format = true
-    settings = ''
-    encoding = 1002
-    encoding_bitrate = 0
-    linebreak = ''
-    input_page = 1
-    bitrate = 0
-    video_bitrate = 0
-    audio_bitrate = 0
-    frequency = 0
-    fps = 0
-    stereo = false
-    encoder_profile_name = ''
-    use_cut_points = false
-    output_bits_per_pixel = 0
-    dpi_x = 0
-    dpi_y = 0
-    crop_x = 0
-    crop_y = 0
-    crop_width = 0
-    crop_height = 0
-    intensity = 0
-    contrast = 0
-    gamma_correct = 0
-    rotate = 0
-    watermark_file = ''
-    grayscale = false
-    grayscale_bits_per_pixel = 0
-    force_aspect = false
-    output_quality = 0
-    icc_profile = ''
-}
-
 resource media_transcode image__mobile_thumb_22 {
     name = 'Image - Mobile Thumb'
     description = ''
@@ -404,49 +361,6 @@ resource media_transcode image__mobile_thumb_22 {
     source_media_format_id = data.media_format.image_50030.media_format_id
     target_media_format_id = resource.media_format.mobile_video_thumb_50021.media_format_id
     prevref = 0
-}
-
-data media_format powerpoint_slideshow_ppsx_50048 {
-    folder_id = data.media_format_folder.source_formats.id
-    format_type_id = 50006
-    name = 'Powerpoint slideshow (.ppsx)'
-    description = ''
-    width = 0
-    height = 0
-    is_public = true
-    format_xml = ''
-    multi_page_output = false
-    is_identity_format = true
-    settings = ''
-    encoding = 1002
-    encoding_bitrate = 0
-    linebreak = ''
-    input_page = 1
-    bitrate = 0
-    video_bitrate = 0
-    audio_bitrate = 0
-    frequency = 0
-    fps = 0
-    stereo = false
-    encoder_profile_name = ''
-    use_cut_points = false
-    output_bits_per_pixel = 0
-    dpi_x = 0
-    dpi_y = 0
-    crop_x = 0
-    crop_y = 0
-    crop_width = 0
-    crop_height = 0
-    intensity = 0
-    contrast = 0
-    gamma_correct = 0
-    rotate = 0
-    watermark_file = ''
-    grayscale = false
-    grayscale_bits_per_pixel = 0
-    force_aspect = false
-    output_quality = 0
-    icc_profile = ''
 }
 
 resource media_transcode powerpoint_slideshow__mobile_video_thumb_50095 {
@@ -466,49 +380,6 @@ resource media_transcode powerpoint_slideshow__mobile_video_thumb_50095 {
     prevref = 0
 }
 
-data media_format design_web_format_dwf_50073 {
-    folder_id = data.media_format_folder.source_formats.id
-    format_type_id = 190008
-    name = 'Design Web Format (.dwf)'
-    description = ''
-    width = 0
-    height = 0
-    is_public = true
-    format_xml = ''
-    multi_page_output = false
-    is_identity_format = true
-    settings = ''
-    encoding = 1002
-    encoding_bitrate = 0
-    linebreak = ''
-    input_page = 1
-    bitrate = 0
-    video_bitrate = 0
-    audio_bitrate = 0
-    frequency = 0
-    fps = 0
-    stereo = false
-    encoder_profile_name = ''
-    use_cut_points = false
-    output_bits_per_pixel = 0
-    dpi_x = 0
-    dpi_y = 0
-    crop_x = 0
-    crop_y = 0
-    crop_width = 0
-    crop_height = 0
-    intensity = 0
-    contrast = 0
-    gamma_correct = 0
-    rotate = 0
-    watermark_file = ''
-    grayscale = false
-    grayscale_bits_per_pixel = 0
-    force_aspect = false
-    output_quality = 0
-    icc_profile = ''
-}
-
 resource media_transcode design_web_format_dwf__mobile_video_thumb_50215 {
     name = 'Design Web Format (.dwf) - Mobile Video Thumb'
     description = ''
@@ -524,49 +395,6 @@ resource media_transcode design_web_format_dwf__mobile_video_thumb_50215 {
     source_media_format_id = data.media_format.design_web_format_dwf_50073.media_format_id
     target_media_format_id = resource.media_format.mobile_video_thumb_50021.media_format_id
     prevref = 0
-}
-
-data media_format hpgl_plot_plt_50072 {
-    folder_id = data.media_format_folder.source_formats.id
-    format_type_id = 190007
-    name = 'HPGL Plot (.plt)'
-    description = ''
-    width = 0
-    height = 0
-    is_public = true
-    format_xml = ''
-    multi_page_output = false
-    is_identity_format = true
-    settings = ''
-    encoding = 1002
-    encoding_bitrate = 0
-    linebreak = ''
-    input_page = 1
-    bitrate = 0
-    video_bitrate = 0
-    audio_bitrate = 0
-    frequency = 0
-    fps = 0
-    stereo = false
-    encoder_profile_name = ''
-    use_cut_points = false
-    output_bits_per_pixel = 0
-    dpi_x = 0
-    dpi_y = 0
-    crop_x = 0
-    crop_y = 0
-    crop_width = 0
-    crop_height = 0
-    intensity = 0
-    contrast = 0
-    gamma_correct = 0
-    rotate = 0
-    watermark_file = ''
-    grayscale = false
-    grayscale_bits_per_pixel = 0
-    force_aspect = false
-    output_quality = 0
-    icc_profile = ''
 }
 
 resource media_transcode hpgl_plot_plt__mobile_video_thumb_50207 {
@@ -586,97 +414,6 @@ resource media_transcode hpgl_plot_plt__mobile_video_thumb_50207 {
     prevref = 0
 }
 
-data media_format_folder import_10000 {
-    parent_id = 0
-    name = 'Import'
-}
-
-data media_format exifthumb_raw_50014 {
-    folder_id = data.media_format_folder.import_10000.id
-    format_type_id = 40001
-    name = 'ExifThumb_Raw'
-    description = ''
-    width = 0
-    height = 0
-    is_public = true
-    format_xml = ''
-    multi_page_output = false
-    is_identity_format = false
-    settings = ''
-    encoding = 0
-    encoding_bitrate = 0
-    linebreak = ''
-    input_page = 1
-    bitrate = 0
-    video_bitrate = 0
-    audio_bitrate = 0
-    frequency = 0
-    fps = 0
-    stereo = false
-    encoder_profile_name = ''
-    use_cut_points = false
-    output_bits_per_pixel = 0
-    dpi_x = 0
-    dpi_y = 0
-    crop_x = 0
-    crop_y = 0
-    crop_width = 0
-    crop_height = 0
-    intensity = 0
-    contrast = 0
-    gamma_correct = 0
-    rotate = 0
-    watermark_file = ''
-    grayscale = false
-    grayscale_bits_per_pixel = 0
-    force_aspect = false
-    output_quality = 0
-    icc_profile = ''
-}
-
-data media_format openoffice_impress_document_odp_50078 {
-    folder_id = data.media_format_folder.source_formats.id
-    format_type_id = 1050001
-    name = 'OpenOffice impress document (.odp)'
-    description = ''
-    width = 0
-    height = 0
-    is_public = true
-    format_xml = ''
-    multi_page_output = false
-    is_identity_format = true
-    settings = ''
-    encoding = 1002
-    encoding_bitrate = 0
-    linebreak = ''
-    input_page = 1
-    bitrate = 0
-    video_bitrate = 0
-    audio_bitrate = 0
-    frequency = 0
-    fps = 0
-    stereo = false
-    encoder_profile_name = ''
-    use_cut_points = false
-    output_bits_per_pixel = 0
-    dpi_x = 0
-    dpi_y = 0
-    crop_x = 0
-    crop_y = 0
-    crop_width = 0
-    crop_height = 0
-    intensity = 0
-    contrast = 0
-    gamma_correct = 0
-    rotate = 0
-    watermark_file = ''
-    grayscale = false
-    grayscale_bits_per_pixel = 0
-    force_aspect = false
-    output_quality = 0
-    icc_profile = ''
-}
-
 resource media_transcode openoffice_impress_document__mobile_video_thumb_50255 {
     name = 'OpenOffice impress Document - Mobile Video Thumb'
     description = ''
@@ -692,49 +429,6 @@ resource media_transcode openoffice_impress_document__mobile_video_thumb_50255 {
     source_media_format_id = data.media_format.openoffice_impress_document_odp_50078.media_format_id
     target_media_format_id = resource.media_format.mobile_video_thumb_50021.media_format_id
     prevref = 0
-}
-
-data media_format industry_foundation_classes_ifc_50069 {
-    folder_id = data.media_format_folder.source_formats.id
-    format_type_id = 190004
-    name = 'Industry Foundation Classes (.ifc)'
-    description = ''
-    width = 0
-    height = 0
-    is_public = true
-    format_xml = ''
-    multi_page_output = false
-    is_identity_format = true
-    settings = ''
-    encoding = 1002
-    encoding_bitrate = 0
-    linebreak = ''
-    input_page = 1
-    bitrate = 0
-    video_bitrate = 0
-    audio_bitrate = 0
-    frequency = 0
-    fps = 0
-    stereo = false
-    encoder_profile_name = ''
-    use_cut_points = false
-    output_bits_per_pixel = 0
-    dpi_x = 0
-    dpi_y = 0
-    crop_x = 0
-    crop_y = 0
-    crop_width = 0
-    crop_height = 0
-    intensity = 0
-    contrast = 0
-    gamma_correct = 0
-    rotate = 0
-    watermark_file = ''
-    grayscale = false
-    grayscale_bits_per_pixel = 0
-    force_aspect = false
-    output_quality = 0
-    icc_profile = ''
 }
 
 resource media_transcode industry_foundation_classes_ifc__mobile_video_thumb_50183 {
@@ -754,49 +448,6 @@ resource media_transcode industry_foundation_classes_ifc__mobile_video_thumb_501
     prevref = 0
 }
 
-data media_format stereolithography_stl_50070 {
-    folder_id = data.media_format_folder.source_formats.id
-    format_type_id = 190005
-    name = 'Stereolithography (.stl)'
-    description = ''
-    width = 0
-    height = 0
-    is_public = true
-    format_xml = ''
-    multi_page_output = false
-    is_identity_format = true
-    settings = ''
-    encoding = 1002
-    encoding_bitrate = 0
-    linebreak = ''
-    input_page = 1
-    bitrate = 0
-    video_bitrate = 0
-    audio_bitrate = 0
-    frequency = 0
-    fps = 0
-    stereo = false
-    encoder_profile_name = ''
-    use_cut_points = false
-    output_bits_per_pixel = 0
-    dpi_x = 0
-    dpi_y = 0
-    crop_x = 0
-    crop_y = 0
-    crop_width = 0
-    crop_height = 0
-    intensity = 0
-    contrast = 0
-    gamma_correct = 0
-    rotate = 0
-    watermark_file = ''
-    grayscale = false
-    grayscale_bits_per_pixel = 0
-    force_aspect = false
-    output_quality = 0
-    icc_profile = ''
-}
-
 resource media_transcode stereolithography_stl__mobile_video_thumb_50191 {
     name = 'Stereolithography (.stl) - Mobile Video Thumb'
     description = ''
@@ -812,49 +463,6 @@ resource media_transcode stereolithography_stl__mobile_video_thumb_50191 {
     source_media_format_id = data.media_format.stereolithography_stl_50070.media_format_id
     target_media_format_id = resource.media_format.mobile_video_thumb_50021.media_format_id
     prevref = 0
-}
-
-data media_format word_template_dotx_50053 {
-    folder_id = data.media_format_folder.source_formats.id
-    format_type_id = 80003
-    name = 'Word template (.dotx)'
-    description = ''
-    width = 0
-    height = 0
-    is_public = true
-    format_xml = ''
-    multi_page_output = false
-    is_identity_format = true
-    settings = ''
-    encoding = 1002
-    encoding_bitrate = 0
-    linebreak = ''
-    input_page = 1
-    bitrate = 0
-    video_bitrate = 0
-    audio_bitrate = 0
-    frequency = 0
-    fps = 0
-    stereo = false
-    encoder_profile_name = ''
-    use_cut_points = false
-    output_bits_per_pixel = 0
-    dpi_x = 0
-    dpi_y = 0
-    crop_x = 0
-    crop_y = 0
-    crop_width = 0
-    crop_height = 0
-    intensity = 0
-    contrast = 0
-    gamma_correct = 0
-    rotate = 0
-    watermark_file = ''
-    grayscale = false
-    grayscale_bits_per_pixel = 0
-    force_aspect = false
-    output_quality = 0
-    icc_profile = ''
 }
 
 resource media_transcode word_template__mobile_video_thumb_50111 {
@@ -874,49 +482,6 @@ resource media_transcode word_template__mobile_video_thumb_50111 {
     prevref = 0
 }
 
-data media_format excel_workbook_xlsx_50058 {
-    folder_id = data.media_format_folder.source_formats.id
-    format_type_id = 90002
-    name = 'Excel workbook (.xlsx)'
-    description = ''
-    width = 0
-    height = 0
-    is_public = true
-    format_xml = ''
-    multi_page_output = false
-    is_identity_format = true
-    settings = ''
-    encoding = 1002
-    encoding_bitrate = 0
-    linebreak = ''
-    input_page = 1
-    bitrate = 0
-    video_bitrate = 0
-    audio_bitrate = 0
-    frequency = 0
-    fps = 0
-    stereo = false
-    encoder_profile_name = ''
-    use_cut_points = false
-    output_bits_per_pixel = 0
-    dpi_x = 0
-    dpi_y = 0
-    crop_x = 0
-    crop_y = 0
-    crop_width = 0
-    crop_height = 0
-    intensity = 0
-    contrast = 0
-    gamma_correct = 0
-    rotate = 0
-    watermark_file = ''
-    grayscale = false
-    grayscale_bits_per_pixel = 0
-    force_aspect = false
-    output_quality = 0
-    icc_profile = ''
-}
-
 resource media_transcode excel_document__mobile_video_thumb_50119 {
     name = 'Excel Document - Mobile Video Thumb'
     description = ''
@@ -931,71 +496,6 @@ resource media_transcode excel_document__mobile_video_thumb_50119 {
     embed_metadefinition = ''
     source_media_format_id = data.media_format.excel_workbook_xlsx_50058.media_format_id
     target_media_format_id = resource.media_format.mobile_video_thumb_50021.media_format_id
-    prevref = 0
-}
-
-data transcode_folder import_10000 {
-    parent_id = 0
-    name = 'Import'
-}
-
-data media_format adobe_indesign_50011 {
-    folder_id = data.media_format_folder.source_formats.id
-    format_type_id = 100001
-    name = 'Adobe InDesign'
-    description = ''
-    width = 0
-    height = 0
-    is_public = true
-    format_xml = ''
-    multi_page_output = false
-    is_identity_format = true
-    settings = ''
-    encoding = 0
-    encoding_bitrate = 0
-    linebreak = ''
-    input_page = 1
-    bitrate = 0
-    video_bitrate = 0
-    audio_bitrate = 0
-    frequency = 0
-    fps = 0
-    stereo = false
-    encoder_profile_name = ''
-    use_cut_points = false
-    output_bits_per_pixel = 0
-    dpi_x = 0
-    dpi_y = 0
-    crop_x = 0
-    crop_y = 0
-    crop_width = 0
-    crop_height = 0
-    intensity = 0
-    contrast = 0
-    gamma_correct = 0
-    rotate = 0
-    watermark_file = ''
-    grayscale = false
-    grayscale_bits_per_pixel = 0
-    force_aspect = false
-    output_quality = 0
-    icc_profile = ''
-}
-
-data media_transcode extract_exifthumb_from_indesign_50015 {
-    name = 'Extract ExifThumb from InDesign'
-    description = ''
-    is_public = true
-    settings = ''
-    encoder_profile_name = ''
-    prefix = ''
-    copy_target_icc_profile = false
-    only_explicit_use = false
-    prog_id = 'DigiExiftoolJobs.JobExifThumbnail'
-    folder_id = data.transcode_folder.import_10000.id
-    embed_metadefinition = ''
-    source_media_format_id = data.media_format.adobe_indesign_50011.media_format_id
-    target_media_format_id = data.media_format.exifthumb_raw_50014.media_format_id
     prevref = 0
 }
 
@@ -1033,49 +533,6 @@ data media_format_type jpeg_compressed_formats_40001 {
     identity_media_format_id = data.media_format.image_50030.media_format_id
 }
 
-data media_format openoffice_writer_document_odt_50074 {
-    folder_id = data.media_format_folder.source_formats.id
-    format_type_id = 1000001
-    name = 'OpenOffice writer document (.odt)'
-    description = ''
-    width = 0
-    height = 0
-    is_public = true
-    format_xml = ''
-    multi_page_output = false
-    is_identity_format = true
-    settings = ''
-    encoding = 1002
-    encoding_bitrate = 0
-    linebreak = ''
-    input_page = 1
-    bitrate = 0
-    video_bitrate = 0
-    audio_bitrate = 0
-    frequency = 0
-    fps = 0
-    stereo = false
-    encoder_profile_name = ''
-    use_cut_points = false
-    output_bits_per_pixel = 0
-    dpi_x = 0
-    dpi_y = 0
-    crop_x = 0
-    crop_y = 0
-    crop_width = 0
-    crop_height = 0
-    intensity = 0
-    contrast = 0
-    gamma_correct = 0
-    rotate = 0
-    watermark_file = ''
-    grayscale = false
-    grayscale_bits_per_pixel = 0
-    force_aspect = false
-    output_quality = 0
-    icc_profile = ''
-}
-
 resource media_transcode openoffice_writer_document__mobile_video_thumb_50223 {
     name = 'OpenOffice writer Document - Mobile Video Thumb'
     description = ''
@@ -1091,49 +548,6 @@ resource media_transcode openoffice_writer_document__mobile_video_thumb_50223 {
     source_media_format_id = data.media_format.openoffice_writer_document_odt_50074.media_format_id
     target_media_format_id = resource.media_format.mobile_video_thumb_50021.media_format_id
     prevref = 0
-}
-
-data media_format visio_stencil_vssx_50065 {
-    folder_id = data.media_format_folder.source_formats.id
-    format_type_id = 180002
-    name = 'Visio stencil (.vssx)'
-    description = ''
-    width = 0
-    height = 0
-    is_public = true
-    format_xml = ''
-    multi_page_output = false
-    is_identity_format = true
-    settings = ''
-    encoding = 1002
-    encoding_bitrate = 0
-    linebreak = ''
-    input_page = 1
-    bitrate = 0
-    video_bitrate = 0
-    audio_bitrate = 0
-    frequency = 0
-    fps = 0
-    stereo = false
-    encoder_profile_name = ''
-    use_cut_points = false
-    output_bits_per_pixel = 0
-    dpi_x = 0
-    dpi_y = 0
-    crop_x = 0
-    crop_y = 0
-    crop_width = 0
-    crop_height = 0
-    intensity = 0
-    contrast = 0
-    gamma_correct = 0
-    rotate = 0
-    watermark_file = ''
-    grayscale = false
-    grayscale_bits_per_pixel = 0
-    force_aspect = false
-    output_quality = 0
-    icc_profile = ''
 }
 
 resource media_transcode visio_stencil__mobile_video_thumb_50151 {
@@ -1231,49 +645,6 @@ resource media_transcode autocad_drawing_template_dwt__mobile_video_thumb_50199 
     prevref = 0
 }
 
-data media_format microstation_design_dgn_50068 {
-    folder_id = data.media_format_folder.source_formats.id
-    format_type_id = 190003
-    name = 'MicroStation Design (.dgn)'
-    description = ''
-    width = 0
-    height = 0
-    is_public = true
-    format_xml = ''
-    multi_page_output = false
-    is_identity_format = true
-    settings = ''
-    encoding = 1002
-    encoding_bitrate = 0
-    linebreak = ''
-    input_page = 1
-    bitrate = 0
-    video_bitrate = 0
-    audio_bitrate = 0
-    frequency = 0
-    fps = 0
-    stereo = false
-    encoder_profile_name = ''
-    use_cut_points = false
-    output_bits_per_pixel = 0
-    dpi_x = 0
-    dpi_y = 0
-    crop_x = 0
-    crop_y = 0
-    crop_width = 0
-    crop_height = 0
-    intensity = 0
-    contrast = 0
-    gamma_correct = 0
-    rotate = 0
-    watermark_file = ''
-    grayscale = false
-    grayscale_bits_per_pixel = 0
-    force_aspect = false
-    output_quality = 0
-    icc_profile = ''
-}
-
 resource media_transcode microstation_design_dgn__mobile_video_thumb_50175 {
     name = 'MicroStation Design (.dgn) - Mobile Video Thumb'
     description = ''
@@ -1289,49 +660,6 @@ resource media_transcode microstation_design_dgn__mobile_video_thumb_50175 {
     source_media_format_id = data.media_format.microstation_design_dgn_50068.media_format_id
     target_media_format_id = resource.media_format.mobile_video_thumb_50021.media_format_id
     prevref = 0
-}
-
-data media_format adobe_pdf_50009 {
-    folder_id = data.media_format_folder.source_formats.id
-    format_type_id = 40002
-    name = 'Adobe PDF'
-    description = ''
-    width = 0
-    height = 0
-    is_public = true
-    format_xml = ''
-    multi_page_output = false
-    is_identity_format = true
-    settings = ''
-    encoding = 1002
-    encoding_bitrate = 0
-    linebreak = ''
-    input_page = 1
-    bitrate = 0
-    video_bitrate = 0
-    audio_bitrate = 0
-    frequency = 0
-    fps = 0
-    stereo = false
-    encoder_profile_name = ''
-    use_cut_points = false
-    output_bits_per_pixel = 0
-    dpi_x = 0
-    dpi_y = 0
-    crop_x = 0
-    crop_y = 0
-    crop_width = 0
-    crop_height = 0
-    intensity = 0
-    contrast = 0
-    gamma_correct = 0
-    rotate = 0
-    watermark_file = ''
-    grayscale = false
-    grayscale_bits_per_pixel = 0
-    force_aspect = false
-    output_quality = 0
-    icc_profile = ''
 }
 
 resource media_transcode adobe_pdf__mobile_thumb_50053 {
@@ -1351,49 +679,6 @@ resource media_transcode adobe_pdf__mobile_thumb_50053 {
     prevref = 0
 }
 
-data media_format openoffice_calc_document_template_ots_50077 {
-    folder_id = data.media_format_folder.source_formats.id
-    format_type_id = 1030001
-    name = 'OpenOffice calc document template (.ots)'
-    description = ''
-    width = 0
-    height = 0
-    is_public = true
-    format_xml = ''
-    multi_page_output = false
-    is_identity_format = true
-    settings = ''
-    encoding = 1002
-    encoding_bitrate = 0
-    linebreak = ''
-    input_page = 1
-    bitrate = 0
-    video_bitrate = 0
-    audio_bitrate = 0
-    frequency = 0
-    fps = 0
-    stereo = false
-    encoder_profile_name = ''
-    use_cut_points = false
-    output_bits_per_pixel = 0
-    dpi_x = 0
-    dpi_y = 0
-    crop_x = 0
-    crop_y = 0
-    crop_width = 0
-    crop_height = 0
-    intensity = 0
-    contrast = 0
-    gamma_correct = 0
-    rotate = 0
-    watermark_file = ''
-    grayscale = false
-    grayscale_bits_per_pixel = 0
-    force_aspect = false
-    output_quality = 0
-    icc_profile = ''
-}
-
 resource media_transcode openoffice_calc_template__mobile_video_thumb_50247 {
     name = 'OpenOffice calc Template - Mobile Video Thumb'
     description = ''
@@ -1409,49 +694,6 @@ resource media_transcode openoffice_calc_template__mobile_video_thumb_50247 {
     source_media_format_id = data.media_format.openoffice_calc_document_template_ots_50077.media_format_id
     target_media_format_id = resource.media_format.mobile_video_thumb_50021.media_format_id
     prevref = 0
-}
-
-data media_format powerpoint_10077 {
-    folder_id = data.media_format_folder.source_formats.id
-    format_type_id = 50001
-    name = 'Powerpoint'
-    description = ''
-    width = 0
-    height = 0
-    is_public = true
-    format_xml = ''
-    multi_page_output = false
-    is_identity_format = true
-    settings = ''
-    encoding = 1002
-    encoding_bitrate = 0
-    linebreak = ''
-    input_page = 1
-    bitrate = 0
-    video_bitrate = 0
-    audio_bitrate = 0
-    frequency = 0
-    fps = 0
-    stereo = false
-    encoder_profile_name = ''
-    use_cut_points = false
-    output_bits_per_pixel = 0
-    dpi_x = 0
-    dpi_y = 0
-    crop_x = 0
-    crop_y = 0
-    crop_width = 0
-    crop_height = 0
-    intensity = 0
-    contrast = 0
-    gamma_correct = 0
-    rotate = 0
-    watermark_file = ''
-    grayscale = false
-    grayscale_bits_per_pixel = 0
-    force_aspect = false
-    output_quality = 0
-    icc_profile = ''
 }
 
 resource media_transcode powerpoint_presentation__mobile_video_thumb_50079 {
