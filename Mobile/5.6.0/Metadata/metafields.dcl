@@ -1408,13 +1408,6 @@ resource versioned_metadata_string_value name_10167_51890_1 {
     label_id = resource.metafield_label.name_51890.label_id
 }
 
-resource metafield_label custom_quality_image_types_51798 {
-    metafield_id = resource.masteritem_reference_metafield.user_template_for_self_created_users_50555.metafield_id
-    language_id = data.language.english.id
-    label = 'Template user for self sign up users'
-    description = ''
-}
-
 resource combo_value sorting_types_durationasc_50577 {
     metafield_id = resource.multicombovalue_metafield.sorting_types_50523.metafield_id
     option_value = 'duration,asc'
@@ -5012,30 +5005,6 @@ resource combovalue_metafield intro_screen_50515 {
     iterative = false
 }
 
-resource combovalue_metafield distribution_channel_50026 {
-    view_type = 'Radio'
-    name = 'Distribution channel'
-    group_id = data.metafield_group.asset_info.metafield_group_id
-    sort_index = 50026
-    visibility_metafield_id = 0
-    visibility_regex = ''
-    required = false
-    readonly = false
-    show_in_list = false
-    system = false
-    auto_translate = 'Overwrite'
-    restrict_to_asset_type = 'All'
-    upload_tag_name = ''
-    iterative = false
-}
-
-resource item_security combovalue_metafield_distribution_channel_50026__trusted_15 {
-    accessor_item_id = data.member_group.trusted.item_id
-    item_id = resource.combovalue_metafield.distribution_channel_50026.item_id
-    read = true
-    write = true
-}
-
 resource item_security combo_value_paging_mode_1_50525__trusted_15 {
     accessor_item_id = data.member_group.trusted.item_id
     item_id = resource.combo_value.paging_mode_1_50579.item_id
@@ -5049,39 +5018,6 @@ resource versioned_metadata_combo_value login_9932_51756_1 {
     item_id = resource.product.digizuite_mobile.item_id
     version_id = resource.product.digizuite_mobile.base_version_id
     label_id = resource.metafield_label.title_51756.label_id
-}
-
-resource masteritem_reference_metafield restrict_to_user_groups_10134 {
-    item_type = 'MemberGroup'
-    max_count = 0
-    related_metafield_id = 0
-    name = 'Restrict to user groups'
-    group_id = data.metafield_group.asset_info.metafield_group_id
-    sort_index = 10134
-    visibility_metafield_id = resource.combovalue_metafield.distribution_channel_50026.metafield_id
-    visibility_regex = '^distributeto\$'
-    required = false
-    readonly = false
-    show_in_list = false
-    system = false
-    auto_translate = 'Overwrite'
-    restrict_to_asset_type = 'All'
-    upload_tag_name = ''
-    iterative = false
-}
-
-resource item_security masteritem_reference_metafield_restrict_to_user_groups_10134__anonymous_31 {
-    accessor_item_id = data.member_group.anonymous.item_id
-    item_id = resource.masteritem_reference_metafield.restrict_to_user_groups_10134.item_id
-    read = true
-    write = false
-}
-
-resource metafield_label distribution_channel_50102 {
-    metafield_id = resource.combovalue_metafield.distribution_channel_50026.metafield_id
-    language_id = data.language.english.id
-    label = 'Distribution channel'
-    description = ''
 }
 
 resource combovalue_metafield paging_mode_50525 {
@@ -5113,12 +5049,6 @@ resource item_security combovalue_metafield_verification_when_creating_new_membe
     item_id = resource.combovalue_metafield.verification_when_creating_new_member_50553.item_id
     read = true
     write = false
-}
-
-resource combo_value distribution_channel_me_50026 {
-    metafield_id = resource.combovalue_metafield.distribution_channel_50026.metafield_id
-    option_value = 'Me'
-    sort_index = 0
 }
 
 resource versioned_metadata_combo_value solr_sort_type_9932_51812_1 {
@@ -5174,12 +5104,6 @@ resource item_security combo_value_solr_sort_type_2_50562__anonymous_31 {
     write = false
 }
 
-resource combo_value distribution_channel_distributeto_50026 {
-    metafield_id = resource.combovalue_metafield.distribution_channel_50026.metafield_id
-    option_value = 'distributeto'
-    sort_index = 1
-}
-
 resource item_security combovalue_metafield_intro_screen_50515__anonymous_31 {
     accessor_item_id = data.member_group.anonymous.item_id
     item_id = resource.combovalue_metafield.intro_screen_50515.item_id
@@ -5230,13 +5154,6 @@ resource item_security combo_value_login_0_50534__trusted_15 {
     item_id = resource.combo_value.login_0_50588.item_id
     read = true
     write = true
-}
-
-resource item_security combovalue_metafield_distribution_channel_50026__anonymous_31 {
-    accessor_item_id = data.member_group.anonymous.item_id
-    item_id = resource.combovalue_metafield.distribution_channel_50026.item_id
-    read = true
-    write = false
 }
 
 resource item_security combo_value_intro_screen_none_50515__trusted_15 {
@@ -5386,12 +5303,6 @@ resource item_security combo_value_distribution_channel_everyone_50026__anonymou
     write = false
 }
 
-resource combo_value distribution_channel_everyone_50026 {
-    metafield_id = resource.combovalue_metafield.distribution_channel_50026.metafield_id
-    option_value = 'Everyone'
-    sort_index = 2
-}
-
 resource item_security combovalue_metafield_default_asset_view_50510__anonymous_31 {
     accessor_item_id = data.member_group.anonymous.item_id
     item_id = resource.combovalue_metafield.default_asset_view_50510.item_id
@@ -5428,13 +5339,6 @@ resource item_security combo_value_verification_when_creating_new_member_2_50553
     write = true
 }
 
-resource metafield_label restrict_to_usergroups_10269 {
-    metafield_id = resource.masteritem_reference_metafield.restrict_to_user_groups_10134.metafield_id
-    language_id = data.language.english.id
-    label = 'Restrict to usergroups'
-    description = ''
-}
-
 resource combovalue_metafield default_asset_view_50510 {
     view_type = 'Radio'
     name = 'Default asset view'
@@ -5455,13 +5359,6 @@ resource combovalue_metafield default_asset_view_50510 {
 resource item_security combovalue_metafield_intro_screen_50515__trusted_15 {
     accessor_item_id = data.member_group.trusted.item_id
     item_id = resource.combovalue_metafield.intro_screen_50515.item_id
-    read = true
-    write = true
-}
-
-resource item_security masteritem_reference_metafield_restrict_to_user_groups_10134__trusted_15 {
-    accessor_item_id = data.member_group.trusted.item_id
-    item_id = resource.masteritem_reference_metafield.restrict_to_user_groups_10134.item_id
     read = true
     write = true
 }
@@ -5613,13 +5510,6 @@ resource item_security string_metafield_portal_title_50507__anonymous_31 {
     write = false
 }
 
-resource item_security string_metafield_end_50091__anonymous_31 {
-    accessor_item_id = data.member_group.anonymous.item_id
-    item_id = resource.string_metafield.end_50091.item_id
-    read = true
-    write = false
-}
-
 resource string_metafield microsoft_onedrive_client_id_50544 {
     max_length = 0
     name = 'Microsoft OneDrive client ID'
@@ -5637,23 +5527,6 @@ resource string_metafield microsoft_onedrive_client_id_50544 {
     iterative = false
 }
 
-resource string_metafield end_50091 {
-    max_length = 0
-    name = 'End'
-    group_id = resource.metafield_group.drawing_50007.metafield_group_id
-    sort_index = 50091
-    visibility_metafield_id = 0
-    visibility_regex = ''
-    required = false
-    readonly = false
-    show_in_list = true
-    system = false
-    auto_translate = 'Overwrite'
-    restrict_to_asset_type = 'All'
-    upload_tag_name = ''
-    iterative = true
-}
-
 resource string_metafield portal_title_50507 {
     max_length = 0
     name = 'Portal title'
@@ -5669,13 +5542,6 @@ resource string_metafield portal_title_50507 {
     restrict_to_asset_type = 'All'
     upload_tag_name = ''
     iterative = false
-}
-
-resource item_security string_metafield_end_50091__trusted_15 {
-    accessor_item_id = data.member_group.trusted.item_id
-    item_id = resource.string_metafield.end_50091.item_id
-    read = true
-    write = true
 }
 
 resource metafield_label intro_screens_text_fields_background_color_51724 {
@@ -5857,13 +5723,6 @@ resource item_security string_metafield_google_recaptcha_private_key_50552__trus
     write = true
 }
 
-resource metafield_label start_50358 {
-    metafield_id = resource.string_metafield.start_50090.metafield_id
-    language_id = data.language.english.id
-    label = 'Start'
-    description = ''
-}
-
 resource versioned_metadata_string_value content_9932_51838_1 {
     value = 'Digizuite™ Mobile – makes digital collaboration easy'
     row_id = 1
@@ -5907,23 +5766,6 @@ resource string_metafield mm5_base_url_50564 {
     iterative = false
 }
 
-resource string_metafield title_50095 {
-    max_length = 0
-    name = 'Title'
-    group_id = resource.metafield_group.drawing_50007.metafield_group_id
-    sort_index = 50095
-    visibility_metafield_id = 0
-    visibility_regex = ''
-    required = false
-    readonly = false
-    show_in_list = true
-    system = false
-    auto_translate = 'Overwrite'
-    restrict_to_asset_type = 'All'
-    upload_tag_name = ''
-    iterative = true
-}
-
 resource string_metafield google_analytics_service_account_email_50520 {
     max_length = 0
     name = 'Google Analytics service account email'
@@ -5962,20 +5804,6 @@ resource item_security string_metafield_google_drive_api_key_50545__trusted_15 {
     item_id = resource.string_metafield.google_drive_api_key_50545.item_id
     read = true
     write = true
-}
-
-resource item_security string_metafield_start_50090__anonymous_31 {
-    accessor_item_id = data.member_group.anonymous.item_id
-    item_id = resource.string_metafield.start_50090.item_id
-    read = true
-    write = false
-}
-
-resource metafield_label title_50378 {
-    metafield_id = resource.string_metafield.title_50095.metafield_id
-    language_id = data.language.english.id
-    label = 'Title'
-    description = ''
 }
 
 resource item_security string_metafield_copyright_text_50513__anonymous_31 {
@@ -6017,42 +5845,11 @@ resource string_metafield dropbox_api_key_50543 {
     iterative = false
 }
 
-resource string_metafield start_50090 {
-    max_length = 0
-    name = 'Start'
-    group_id = resource.metafield_group.drawing_50007.metafield_group_id
-    sort_index = 50090
-    visibility_metafield_id = 0
-    visibility_regex = ''
-    required = false
-    readonly = false
-    show_in_list = true
-    system = false
-    auto_translate = 'Overwrite'
-    restrict_to_asset_type = 'All'
-    upload_tag_name = ''
-    iterative = true
-}
-
-resource item_security string_metafield_start_50090__trusted_15 {
-    accessor_item_id = data.member_group.trusted.item_id
-    item_id = resource.string_metafield.start_50090.item_id
-    read = true
-    write = true
-}
-
 resource item_security string_metafield_content_50579__trusted_15 {
     accessor_item_id = data.member_group.trusted.item_id
     item_id = resource.string_metafield.content_50579.item_id
     read = true
     write = true
-}
-
-resource item_security string_metafield_title_50095__anonymous_31 {
-    accessor_item_id = data.member_group.anonymous.item_id
-    item_id = resource.string_metafield.title_50095.item_id
-    read = true
-    write = false
 }
 
 resource metafield_label google_analytics_service_account_email_51728 {
@@ -6101,13 +5898,6 @@ resource string_metafield google_recaptcha_public_key_50551 {
     iterative = false
 }
 
-resource item_security string_metafield_title_50095__trusted_15 {
-    accessor_item_id = data.member_group.trusted.item_id
-    item_id = resource.string_metafield.title_50095.item_id
-    read = true
-    write = true
-}
-
 resource item_security string_metafield_portal_title_50507__trusted_15 {
     accessor_item_id = data.member_group.trusted.item_id
     item_id = resource.string_metafield.portal_title_50507.item_id
@@ -6137,13 +5927,6 @@ resource item_security string_metafield_microsoft_onedrive_client_id_50544__anon
     item_id = resource.string_metafield.microsoft_onedrive_client_id_50544.item_id
     read = true
     write = false
-}
-
-resource metafield_label end_50362 {
-    metafield_id = resource.string_metafield.end_50091.metafield_id
-    language_id = data.language.english.id
-    label = 'End'
-    description = ''
 }
 
 resource versioned_metadata_string_value content_9932_51838_4 {
@@ -6679,13 +6462,6 @@ resource bit_metafield enable_sign_up_50556 {
     iterative = false
 }
 
-resource item_security int_metafield_nuvrende_playlistid_10360__trusted_15 {
-    accessor_item_id = data.member_group.trusted.item_id
-    item_id = resource.int_metafield.nuvrende_playlistid_10360.item_id
-    read = true
-    write = true
-}
-
 resource versioned_metadata_bool_value showuploadername_9932_51706_1 {
     value = false
     row_id = 1
@@ -6794,13 +6570,6 @@ resource int_metafield fail_upload_if_no_response_received_after_seconds_50560 {
     iterative = false
 }
 
-resource item_security int_metafield_nuvrende_playlistid_10360__anonymous_31 {
-    accessor_item_id = data.member_group.anonymous.item_id
-    item_id = resource.int_metafield.nuvrende_playlistid_10360.item_id
-    read = true
-    write = false
-}
-
 resource item_security bit_metafield_sharing_enabled_50536__anonymous_31 {
     accessor_item_id = data.member_group.anonymous.item_id
     item_id = resource.bit_metafield.sharing_enabled_50536.item_id
@@ -6893,13 +6662,6 @@ resource int_metafield accesskey_timeout_override_for_social_media_sharing_50541
     iterative = false
 }
 
-resource item_security int_metafield_assetversionid_10309__anonymous_31 {
-    accessor_item_id = data.member_group.anonymous.item_id
-    item_id = resource.int_metafield.assetversionid_10309.item_id
-    read = true
-    write = false
-}
-
 resource versioned_metadata_int_value accesskey_timeout_override_for_social_media_sharing_9932_51770_1 {
     value = 15724800
     row_id = 1
@@ -6916,33 +6678,10 @@ resource versioned_metadata_int_value fail_upload_if_no_response_received_after_
     label_id = resource.metafield_label.embed_player_user_51808.label_id
 }
 
-resource int_metafield assetversionid_10309 {
-    name = 'AssetVersionId'
-    group_id = data.metafield_group.asset_info.metafield_group_id
-    sort_index = 10309
-    visibility_metafield_id = 0
-    visibility_regex = ''
-    required = false
-    readonly = false
-    show_in_list = false
-    system = true
-    auto_translate = 'Overwrite'
-    restrict_to_asset_type = 'All'
-    upload_tag_name = ''
-    iterative = false
-}
-
 resource metafield_label is_public_51831 {
     metafield_id = resource.bit_metafield.is_public_50573.metafield_id
     language_id = data.language.english.id
     label = 'Is Public'
-    description = ''
-}
-
-resource metafield_label assetversionid_10781 {
-    metafield_id = resource.int_metafield.assetversionid_10309.metafield_id
-    language_id = data.language.english.id
-    label = 'AssetVersionId'
     description = ''
 }
 
@@ -6960,13 +6699,6 @@ resource bit_metafield use_profile_image_50508 {
     restrict_to_asset_type = 'All'
     upload_tag_name = ''
     iterative = false
-}
-
-resource item_security int_metafield_assetversionid_10309__trusted_15 {
-    accessor_item_id = data.member_group.trusted.item_id
-    item_id = resource.int_metafield.assetversionid_10309.item_id
-    read = true
-    write = true
 }
 
 resource bit_metafield showuploadername_50509 {
@@ -7058,22 +6790,6 @@ resource item_security int_metafield_fail_upload_if_no_response_received_after_s
     write = true
 }
 
-resource int_metafield nuvrende_playlistid_10360 {
-    name = 'Nuværende playlistid'
-    group_id = data.metafield_group.video.metafield_group_id
-    sort_index = 10360
-    visibility_metafield_id = 0
-    visibility_regex = ''
-    required = false
-    readonly = true
-    show_in_list = true
-    system = true
-    auto_translate = 'Overwrite'
-    restrict_to_asset_type = 'All'
-    upload_tag_name = ''
-    iterative = false
-}
-
 resource item_security bit_metafield_sharing_enabled_50536__trusted_15 {
     accessor_item_id = data.member_group.trusted.item_id
     item_id = resource.bit_metafield.sharing_enabled_50536.item_id
@@ -7109,13 +6825,6 @@ resource item_security bit_metafield_enable_sign_up_50556__trusted_15 {
     item_id = resource.bit_metafield.enable_sign_up_50556.item_id
     read = true
     write = true
-}
-
-resource metafield_label current_playlistid_11201 {
-    metafield_id = resource.int_metafield.nuvrende_playlistid_10360.metafield_id
-    language_id = data.language.english.id
-    label = 'Current playlistId'
-    description = ''
 }
 
 resource metafield_label make_asset_info_opened_by_default_51740 {
@@ -7209,43 +6918,11 @@ resource masteritem_reference_metafield logo_sd_50505 {
     iterative = false
 }
 
-resource note_metafield large_embed_player_640x360_10093 {
-    max_length = 0
-    show_richtext_editor = false
-    name = 'Large Embed player (640x360)'
-    group_id = resource.metafield_group.sharing_10035.metafield_group_id
-    sort_index = 10093
-    visibility_metafield_id = 0
-    visibility_regex = ''
-    required = false
-    readonly = false
-    show_in_list = true
-    system = false
-    auto_translate = 'Overwrite'
-    restrict_to_asset_type = 'All'
-    upload_tag_name = ''
-    iterative = false
-}
-
-resource metafield_label member_50370 {
-    metafield_id = resource.masteritem_reference_metafield.member_50093.metafield_id
-    language_id = data.language.english.id
-    label = 'Member'
-    description = ''
-}
-
 resource item_security masteritem_reference_metafield_user_for_social_sharing_50540__trusted_15 {
     accessor_item_id = data.member_group.trusted.item_id
     item_id = resource.masteritem_reference_metafield.user_for_social_sharing_50540.item_id
     read = true
     write = true
-}
-
-resource item_security note_metafield_drawing_data_50092__anonymous_31 {
-    accessor_item_id = data.member_group.anonymous.item_id
-    item_id = resource.note_metafield.drawing_data_50092.item_id
-    read = true
-    write = false
 }
 
 resource item_security masteritem_reference_metafield_embed_player_user_50533__anonymous_31 {
@@ -7270,13 +6947,6 @@ resource versioned_metadata_master_item_reference_value portal_menu_9932_51804_1
     item_id = resource.product.digizuite_mobile.item_id
     version_id = resource.product.digizuite_mobile.base_version_id
     label_id = resource.metafield_label.choose_available_embed_video_qualities_51804.label_id
-}
-
-resource item_security note_metafield_large_embed_player_640x360_10093__trusted_15 {
-    accessor_item_id = data.member_group.trusted.item_id
-    item_id = resource.note_metafield.large_embed_player_640x360_10093.item_id
-    read = true
-    write = true
 }
 
 resource item_security note_metafield_intro_screen_text_50517__anonymous_31 {
@@ -7319,43 +6989,6 @@ resource item_security masteritem_reference_metafield_logo_hd_50506__anonymous_3
     item_id = resource.masteritem_reference_metafield.logo_hd_50506.item_id
     read = true
     write = false
-}
-
-resource note_metafield drawing_data_50092 {
-    max_length = 0
-    show_richtext_editor = false
-    name = 'Drawing Data'
-    group_id = resource.metafield_group.drawing_50007.metafield_group_id
-    sort_index = 50092
-    visibility_metafield_id = 0
-    visibility_regex = ''
-    required = false
-    readonly = false
-    show_in_list = true
-    system = false
-    auto_translate = 'Overwrite'
-    restrict_to_asset_type = 'All'
-    upload_tag_name = ''
-    iterative = false
-}
-
-resource masteritem_reference_metafield member_50093 {
-    item_type = 'Member'
-    max_count = 0
-    related_metafield_id = 0
-    name = 'Member'
-    group_id = resource.metafield_group.drawing_50007.metafield_group_id
-    sort_index = 50093
-    visibility_metafield_id = 0
-    visibility_regex = ''
-    required = false
-    readonly = false
-    show_in_list = true
-    system = false
-    auto_translate = 'Overwrite'
-    restrict_to_asset_type = 'All'
-    upload_tag_name = ''
-    iterative = true
 }
 
 resource item_security masteritem_reference_metafield_logo_hd_50506__trusted_15 {
@@ -7465,13 +7098,6 @@ resource masteritem_reference_metafield portal_menu_50558 {
     iterative = false
 }
 
-resource item_security note_metafield_drawing_data_50092__trusted_15 {
-    accessor_item_id = data.member_group.trusted.item_id
-    item_id = resource.note_metafield.drawing_data_50092.item_id
-    read = true
-    write = true
-}
-
 resource item_security masteritem_reference_metafield_logo_sd_50505__trusted_15 {
     accessor_item_id = data.member_group.trusted.item_id
     item_id = resource.masteritem_reference_metafield.logo_sd_50505.item_id
@@ -7508,25 +7134,6 @@ resource versioned_metadata_master_item_reference_value extra_upload_required_fi
     label_id = resource.metafield_label.google_analytics_service_account_email_51782.label_id
 }
 
-resource masteritem_reference_metafield user_template_for_self_created_users_50555 {
-    item_type = 'Member'
-    max_count = 0
-    related_metafield_id = 0
-    name = 'User Template for self created users'
-    group_id = resource.metafield_group.mobile_config.metafield_group_id
-    sort_index = 12040
-    visibility_metafield_id = 0
-    visibility_regex = ''
-    required = false
-    readonly = false
-    show_in_list = true
-    system = false
-    auto_translate = 'Overwrite'
-    restrict_to_asset_type = 'All'
-    upload_tag_name = ''
-    iterative = false
-}
-
 resource combovalue_metafield media_manager_access_level_50353 {
     view_type = 'Combo'
     name = 'Media Manager access level'
@@ -7542,13 +7149,6 @@ resource combovalue_metafield media_manager_access_level_50353 {
     restrict_to_asset_type = 'All'
     upload_tag_name = ''
     iterative = false
-}
-
-resource item_security masteritem_reference_metafield_member_50093__trusted_15 {
-    accessor_item_id = data.member_group.trusted.item_id
-    item_id = resource.masteritem_reference_metafield.member_50093.item_id
-    read = true
-    write = true
 }
 
 resource datetime_metafield edited_50574 {
@@ -7627,13 +7227,6 @@ resource item_security masteritem_reference_metafield_portal_menu_50558__anonymo
     write = false
 }
 
-resource item_security masteritem_reference_metafield_user_template_for_self_created_users_50555__anonymous_31 {
-    accessor_item_id = data.member_group.anonymous.item_id
-    item_id = resource.masteritem_reference_metafield.user_template_for_self_created_users_50555.item_id
-    read = true
-    write = false
-}
-
 resource masteritem_reference_metafield embed_player_user_50533 {
     item_type = 'Member'
     max_count = 0
@@ -7660,13 +7253,6 @@ resource metafield_label intro_screens_text_fields_content_51722 {
     description = ''
 }
 
-resource item_security masteritem_reference_metafield_user_template_for_self_created_users_50555__trusted_15 {
-    accessor_item_id = data.member_group.trusted.item_id
-    item_id = resource.masteritem_reference_metafield.user_template_for_self_created_users_50555.item_id
-    read = true
-    write = true
-}
-
 resource masteritem_reference_metafield template_for_autocreated_users_50550 {
     item_type = 'Member'
     max_count = 0
@@ -7684,20 +7270,6 @@ resource masteritem_reference_metafield template_for_autocreated_users_50550 {
     restrict_to_asset_type = 'All'
     upload_tag_name = ''
     iterative = false
-}
-
-resource metafield_label large_embed_player_640x360_10111 {
-    metafield_id = resource.note_metafield.large_embed_player_640x360_10093.metafield_id
-    language_id = data.language.english.id
-    label = 'Large Embed player (640x360)'
-    description = ''
-}
-
-resource item_security note_metafield_large_embed_player_640x360_10093__anonymous_31 {
-    accessor_item_id = data.member_group.anonymous.item_id
-    item_id = resource.note_metafield.large_embed_player_640x360_10093.item_id
-    read = true
-    write = false
 }
 
 resource item_security masteritem_reference_metafield_main_search_folder_50557__anonymous_31 {
@@ -7724,13 +7296,6 @@ resource masteritem_reference_metafield splash_screen_video_50512 {
     restrict_to_asset_type = 'All'
     upload_tag_name = ''
     iterative = false
-}
-
-resource metafield_label drawing_data_50366 {
-    metafield_id = resource.note_metafield.drawing_data_50092.metafield_id
-    language_id = data.language.english.id
-    label = 'Drawing Data'
-    description = ''
 }
 
 resource masteritem_reference_metafield user_for_social_sharing_50540 {
@@ -7813,13 +7378,6 @@ resource item_security masteritem_reference_metafield_template_for_autocreated_u
     item_id = resource.masteritem_reference_metafield.template_for_autocreated_users_50550.item_id
     read = true
     write = true
-}
-
-resource item_security masteritem_reference_metafield_member_50093__anonymous_31 {
-    accessor_item_id = data.member_group.anonymous.item_id
-    item_id = resource.masteritem_reference_metafield.member_50093.item_id
-    read = true
-    write = false
 }
 
 resource item_security masteritem_reference_metafield_extra_upload_required_fields_50547__anonymous_31 {
