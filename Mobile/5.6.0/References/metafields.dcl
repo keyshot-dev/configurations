@@ -88,3 +88,8 @@ data bit_metafield is_public {
     name = 'Is Public'
     group_id = data.metafield_group.asset__product__media_manager.metafield_group_id
 }
+
+data tree_metafield media_manager_menu {
+    item_guid = 'bf0ad1a6-984a-494e-a227-9d70c6a864f9'
+    name = 'Media Manager menu'
+}

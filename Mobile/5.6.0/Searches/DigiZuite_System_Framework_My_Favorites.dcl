@@ -38,9 +38,8 @@
       <valueField id="imageDPI" fieldName="asset.image_xres" />
       <valueField id="filesize" fieldName="asset.file_size" playerView="1" />
       <valueField id="writeAccess" fieldName="item_security.writeaccess" returnType="bool" />
-      <valueField id="thumb" fieldName="asset.urlAbsolut(${to_string(data.destination.frontenddata_sm.item_guid)},${to_string(data.media_format.desktop_video_thumb_50019.item_guid)})" />
-      <valueField id="thumbTablet" fieldName="asset.urlAbsolut(${to_string(data.destination.frontenddata_sm.item_guid)},${to_string(resource.media_format.tablet_video_thumb_50020.item_guid)})" />
-      <valueField id="thumbMobile" fieldName="asset.urlAbsolut(${to_string(data.destination.frontenddata_sm.item_guid)},${to_string(resource.media_format.mobile_video_thumb_50021.item_guid)})" />
+      <valueField id="thumbTablet" fieldName="asset.urlAbsolut(${to_string(data.destination.frontenddata_sm.item_guid)},${to_string(data.media_format.desktop_video_thumb.item_guid)})" />
+      <valueField id="thumbMobile" fieldName="asset.urlAbsolut(${to_string(data.destination.frontenddata_sm.item_guid)},${to_string(data.media_format.desktop_video_thumb.item_guid)})" />
       <valueField id="desktopH264" fieldName="asset.urlAbsolut(${to_string(data.destination.frontenddata_sm.item_guid)},${to_string(data.media_format.desktop_h264_2048kbit_ffmpeg_50016.item_guid)})" />
       <valueField id="tabletH264" fieldName="asset.urlAbsolut(${to_string(data.destination.frontenddata_sm.item_guid)},${to_string(data.media_format.tablet_h264_2048kbit_ffmpeg_50017.item_guid)})" />
       <valueField id="mobileH264" fieldName="asset.urlAbsolut(${to_string(data.destination.frontenddata_sm.item_guid)},${to_string(data.media_format.mobile_h264_1024kbit_ffmpeg_50018.item_guid)})" />
@@ -79,10 +78,10 @@
       <valueField id="mediaTranscodeId" bindId="transcodeFilename" fieldName="media_transcode_proxy.Media_transcodeid" />
       <valueField id="mediaTranscodeDestinationId" bindId="transcodeFilename" fieldName="media_transcode_proxy_destination.destinationid" />
       <valueField id="menuItems" itemGuid="${to_string(data.tree_metafield.media_manager_menu.item_guid)}" field="item_tree_valueid" isArray="true" />
-      <valueField id="edited" itemGuid="${to_string(resource.datetime_metafield.edited_50574.item_guid)}" />
-      <valueField id="restored" itemGuid="${to_string(resource.datetime_metafield.restored_50575.item_guid)}" />
-      <valueField id="trimInProgress" itemGuid="${to_string(resource.bit_metafield.trim_in_progress_50576.item_guid)}" returnType="bool" />
-      <valueField id="isPublic" itemGuid="${to_string(resource.bit_metafield.is_public_50573.item_guid)}" returnType="bool" />
+      <valueField id="edited" itemGuid="${to_string(resource.datetime_metafield.edited.item_guid)}" />
+      <valueField id="restored" itemGuid="${to_string(resource.datetime_metafield.restored.item_guid)}" />
+      <valueField id="trimInProgress" itemGuid="${to_string(resource.bit_metafield.trim_in_progress.item_guid)}" returnType="bool" />
+      <valueField id="isPublic" itemGuid="${to_string(resource.bit_metafield.is_public.item_guid)}" returnType="bool" />
       <valueField id="firstPublished" fieldName="asset_layoutfolder.firstpublished" aggregate="MIN" />
       <valueField id="image1080p" fieldName="asset.urlAbsolut(${to_string(data.destination.asset_storage_sm.item_guid)},${to_string(data.media_format.thumb_1920x1080_2.item_guid)})" />
     </valueFields>

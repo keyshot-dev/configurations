@@ -1,4 +1,4 @@
-﻿resource member collectiontemplate {
+﻿resource member collection_template {
     username = 'CollectionTemplate'
     language = data.language.english.id
     folder_id = data.member_folder.system_users.id

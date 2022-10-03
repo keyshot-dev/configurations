@@ -25,7 +25,7 @@
       <valueField id="LogoHD" fieldName="asset.urlAbsolut(${to_string(data.destination.frontenddata_sm.item_guid)},${to_string(data.media_format.source_copy.item_guid)})">
         <bindField id="logoHDFieldId" itemGuid="${to_string(resource.masteritem_reference_metafield.logo_hd_50506.item_guid)}" />
       </valueField>
-      <valueField id="SplashscreenImage" fieldName="asset.urlAbsolut(${to_string(data.destination.frontenddata_sm.item_guid)},${to_string(data.media_format.desktop_video_thumb_50019.item_guid)})">
+      <valueField id="SplashscreenImage" fieldName="asset.urlAbsolut(${to_string(data.destination.frontenddata_sm.item_guid)},${to_string(data.media_format.desktop_video_thumb.item_guid)})">
         <bindField id="SplashscreenImageFieldId" itemGuid="${to_string(resource.masteritem_reference_metafield.splash_screen_image_50511.item_guid)}" />
       </valueField>
       <valueField id="SplashscreenVideoH264Desktop" fieldName="asset.urlAbsolut(${to_string(data.destination.frontenddata_sm.item_guid)},${to_string(data.media_format.desktop_h264_2048kbit_ffmpeg_50016.item_guid)})">
@@ -37,7 +37,7 @@
       <valueField id="SplashscreenVideoH264Mobile" fieldName="asset.urlAbsolut(${to_string(data.destination.frontenddata_sm.item_guid)},${to_string(data.media_format.mobile_h264_1024kbit_ffmpeg_50018.item_guid)})">
         <bindField id="SplashscreenVideoH264MobileFieldId" itemGuid="${to_string(resource.masteritem_reference_metafield.splash_screen_video_50512.item_guid)}" />
       </valueField>
-      <valueField id="SplashscreenVideoThumb" fieldName="asset.urlAbsolut(${to_string(data.destination.frontenddata_sm.item_guid)},${to_string(data.media_format.desktop_video_thumb_50019.item_guid)})">
+      <valueField id="SplashscreenVideoThumb" fieldName="asset.urlAbsolut(${to_string(data.destination.frontenddata_sm.item_guid)},${to_string(data.media_format.desktop_video_thumb.item_guid)})">
         <bindField id="SplashscreenVideoThumbId" itemGuid="${to_string(resource.masteritem_reference_metafield.splash_screen_video_50512.item_guid)}" />
       </valueField>
       <valueField id="MainSearchFolderId" fieldName="layoutfolders.layoutfolderid">
@@ -56,7 +56,7 @@
       <valueField id="SharingEnabled" itemGuid="${to_string(resource.bit_metafield.sharing_enabled_50536.item_guid)}" field="value" returnType="bool" />
       <valueField id="EmbedcodeEnabled" itemGuid="${to_string(resource.bit_metafield.embed_code_enabled_50538.item_guid)}" field="value" returnType="bool" />
       <valueField id="CustomQualityDownloadEnabled" itemGuid="${to_string(resource.bit_metafield.allow_custom_quality_download_50529.item_guid)}" field="value" returnType="bool" />
-      <valueField id="UserProfileEnabled" itemGuid="${to_string(resource.bit_metafield.showuploadername_50563.item_guid)}" field="value" returnType="bool" />
+      <valueField id="UserProfileEnabled" itemGuid="${to_string(resource.bit_metafield.enable_user_profile_50563.item_guid)}" field="value" returnType="bool" />
       <valueField id="GoogleAnalyticsId" itemGuid="${to_string(resource.string_metafield.google_analytics_tracking_id_50519.item_guid)}" field="value" />
       <valueField id="PortalTitle" itemGuid="${to_string(resource.string_metafield.portal_title_50507.item_guid)}" field="value" />
       <valueField id="SortTypes" itemGuid="${to_string(resource.multicombovalue_metafield.sorting_types_50523.item_guid)}" field="optionvalue" isArray="true" />
@@ -74,7 +74,7 @@
         <valueField id="languageName" fieldName="language.language_name" />
       </valueFields>
       <valueField id="DropboxApiKey" itemGuid="${to_string(resource.string_metafield.dropbox_api_key_50543.item_guid)}" field="value" />
-      <valueField id="EnableMobile" itemGuid="${to_string(resource.bit_metafield.showassetinfoinpreviewautomatically_50580.item_guid)}" field="value" />
+      <valueField id="EnableMobile" itemGuid="${to_string(resource.bit_metafield.enable_mobile_application_50580.item_guid)}" field="value" />
       <valueField id="SkyDriveClientId" itemGuid="${to_string(resource.string_metafield.microsoft_onedrive_client_id_50544.item_guid)}" field="value" />
       <valueField id="GoogleDriveApiKey" itemGuid="${to_string(resource.string_metafield.google_drive_api_key_50545.item_guid)}" field="value" />
       <valueField id="GoogleDriveClientId" itemGuid="${to_string(resource.string_metafield.google_drive_client_id_50546.item_guid)}" field="value" />
@@ -95,10 +95,10 @@
         <valueField id="ImageFormatValue" itemGuid="${to_string(resource.multicombovalue_metafield.image_formats_50528.item_guid)}" field="optionvalue" bindId="ImageFormatLabel" />
       </valueFields>
       <valueField id="DownloadDestinationId" fieldName="digitranscode_destination.digitranscode_destinationid">
-        <bindField id="DownloadDestinationIdField" itemGuid="${to_string(resource.masteritem_reference_metafield.logo_sd_50559.item_guid)}" />
+        <bindField id="DownloadDestinationIdField" itemGuid="${to_string(resource.masteritem_reference_metafield.frontend_destination_50559.item_guid)}" />
       </valueField>
       <valueField id="FrontendDestinationId" fieldName="digitranscode_destination.digitranscode_destinationid">
-        <bindField id="FrontendDestinationIdField" itemGuid="${to_string(resource.masteritem_reference_metafield.logo_sd_50559.item_guid)}" />
+        <bindField id="FrontendDestinationIdField" itemGuid="${to_string(resource.masteritem_reference_metafield.frontend_destination_50559.item_guid)}" />
       </valueField>
       <valueFields id="VideoEmbedSize" isArray="true">
         <valueField id="VideoEmbedSizeLabel" itemGuid="${to_string(resource.multicombovalue_metafield.video_embed_sizes_50530.item_guid)}" field="value" />
@@ -122,7 +122,7 @@
         <bindField id="EmbedMemberIdBind" itemGuid="${to_string(resource.masteritem_reference_metafield.embed_player_user_50533.item_guid)}" />
       </valueField>
       <valueField id="EnableSignUp" itemGuid="${to_string(resource.bit_metafield.enable_sign_up_50556.item_guid)}" field="value" returnType="bool" />
-      <valueField id="UploadName" itemGuid="${to_string(resource.string_metafield.portal_title_50561.item_guid)}" field="value" />
+      <valueField id="UploadName" itemGuid="${to_string(resource.string_metafield.upload_name_50561.item_guid)}" field="value" />
       <valueField id="Mm5BaseUrl" itemGuid="${to_string(resource.string_metafield.mm5_base_url_50564.item_guid)}" field="value" />
       <valueField id="ShowAssetInfoInPreviewAutomatically" itemGuid="${to_string(resource.bit_metafield.showassetinfoinpreviewautomatically_50526.item_guid)}" field="value" returnType="bool" />
       <valueField id="ShowUploaderName" itemGuid="${to_string(resource.bit_metafield.showuploadername_50509.item_guid)}" field="value" returnType="bool" />
@@ -142,3 +142,4 @@
     use_solr = false
     item_types = []
 }
+
