@@ -1,5 +1,8 @@
 resource string_metafield mm5_base_url {
     item_guid = 'f20cae2c-35f9-40f4-9654-38d863878a8e'
+    autolink = {
+        item_guid = 'f20cae2c-35f9-40f4-9654-38d863878a8e'
+    }
     name = 'MM5 base URL'
     group_id = resource.metafield_group.main_config.metafield_group_id
     auto_translate = 'Overwrite'

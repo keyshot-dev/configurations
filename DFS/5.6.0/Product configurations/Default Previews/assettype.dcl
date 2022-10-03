@@ -1,5 +1,8 @@
 ﻿resource combovalue_metafield assettype_50383 {
 	item_guid = 'ed13bd93-e6ca-4f77-991d-cf4df4ca32f3'
+    autolink = {
+        item_guid = 'ed13bd93-e6ca-4f77-991d-cf4df4ca32f3'
+    }
 	name = 'Assettype'
 	group_id = resource.metafield_group.dfs_default_previews.metafield_group_id
 	sort_index = 20

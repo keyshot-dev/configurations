@@ -1,5 +1,8 @@
 resource masteritem_reference_metafield ccc_high_insert_quality {
     item_guid = '4ab20421-ae2e-435a-bb0e-8c3ef543b8b0'
+    autolink = {
+        item_guid = '4ab20421-ae2e-435a-bb0e-8c3ef543b8b0'
+    }
     name = 'CCC - High insert quality'
     group_id = resource.metafield_group.main_config.metafield_group_id
     auto_translate = 'Overwrite'

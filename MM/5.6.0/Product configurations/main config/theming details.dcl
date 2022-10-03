@@ -1,5 +1,8 @@
 resource note_metafield theming_details {
     item_guid = 'a66f0cf2-ac6c-4f90-9f8c-eb6a7f2878db'
+    autolink = {
+        item_guid = 'a66f0cf2-ac6c-4f90-9f8c-eb6a7f2878db'
+    }
     name = 'Theming details. DO NOT EDIT MANUALLY!'
     group_id = resource.metafield_group.main_config.metafield_group_id
     auto_translate = 'Overwrite'

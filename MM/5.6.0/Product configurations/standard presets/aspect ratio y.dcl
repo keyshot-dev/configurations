@@ -1,5 +1,8 @@
 resource int_metafield aspect_ratio_y {
     item_guid = '67235d02-4949-42f0-b739-f50ab95234fb'
+    autolink = {
+        item_guid = '67235d02-4949-42f0-b739-f50ab95234fb'
+    }
     name = 'Aspect Ratio Y'
     group_id = resource.metafield_group.standard_presets.metafield_group_id
     show_in_list = true

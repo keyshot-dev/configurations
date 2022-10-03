@@ -1,6 +1,9 @@
 
 resource masteritem_reference_metafield automatically_expand_metadata_groups_in_editor {
     item_guid = 'e7fc19fd-0a00-4b2b-b401-8ec6e8a50a98'
+    autolink = {
+        item_guid = 'e7fc19fd-0a00-4b2b-b401-8ec6e8a50a98'
+    }
     name = 'Automatically expand metadata groups in editor'
     group_id = resource.metafield_group.main_config.metafield_group_id
     show_in_list = true

@@ -1,5 +1,8 @@
 resource bit_metafield enable_self_signup {
     item_guid = '421a98cd-2e3e-4d34-9507-7cd7bcfbf9ac'
+    autolink = {
+        item_guid = '421a98cd-2e3e-4d34-9507-7cd7bcfbf9ac'
+    }
     name = 'Enable self sign up'
     group_id = resource.metafield_group.main_config.metafield_group_id
     auto_translate = 'Overwrite'

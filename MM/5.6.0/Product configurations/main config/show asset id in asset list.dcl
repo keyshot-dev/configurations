@@ -1,5 +1,8 @@
 resource bit_metafield show_asset_id_in_asset_list {
     item_guid = '965d0136-c857-4f14-b01b-236e40afb5f4'
+    autolink = {
+        item_guid = '965d0136-c857-4f14-b01b-236e40afb5f4'
+    }
     name = 'Show asset ID in asset list'
     group_id = resource.metafield_group.main_config.metafield_group_id
     show_in_list = true

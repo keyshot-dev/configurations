@@ -1,5 +1,8 @@
 ﻿resource bit_metafield enable_remember_me {
     item_guid = 'cbfc6a71-bcde-4a5e-818a-d2ec8b478882'
+    autolink = {
+        item_guid = 'cbfc6a71-bcde-4a5e-818a-d2ec8b478882'
+    }
     name = 'Enable Remember me'
     group_id = resource.metafield_group.config.metafield_group_id
     show_in_list = true

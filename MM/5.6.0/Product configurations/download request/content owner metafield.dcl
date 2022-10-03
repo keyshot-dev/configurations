@@ -1,5 +1,8 @@
 resource masteritem_reference_metafield content_owner_metafield {
     item_guid = 'ad163c41-174b-1e23-b949-4b6c7d407a46'
+    autolink = {
+        item_guid = 'ad163c41-174b-1e23-b949-4b6c7d407a46'
+    }
     name = 'Content owner metafield'
     group_id = resource.metafield_group.download_request.metafield_group_id
     show_in_list = false

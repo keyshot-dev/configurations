@@ -1,5 +1,8 @@
 resource bit_metafield enable_profile_images {
     item_guid = '36c72b20-bde4-4cf3-b99c-775321168f5d'
+    autolink = {
+        item_guid = '36c72b20-bde4-4cf3-b99c-775321168f5d'
+    }
     name = 'Enable profile images'
     group_id = resource.metafield_group.main_config.metafield_group_id
     show_in_list = true

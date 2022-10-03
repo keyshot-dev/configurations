@@ -1,5 +1,8 @@
 ﻿resource string_metafield upload_name_pattern_50400 {
 	item_guid = '352f04bd-866b-4bb1-ba84-5b28e6e38976'
+    autolink = {
+        item_guid = '352f04bd-866b-4bb1-ba84-5b28e6e38976'
+    }
 	name = 'Upload name Pattern'
 	group_id = resource.metafield_group.dfs_config.metafield_group_id
 	sort_index = 0	max_length = 0

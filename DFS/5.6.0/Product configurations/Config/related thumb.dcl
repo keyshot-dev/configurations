@@ -2,6 +2,9 @@
 	item_type = 'MediaFormat'
 	related_metafield_id = 0
 	item_guid = '32762b49-42c1-4e46-9b12-be478768b9d1'
+    autolink = {
+        item_guid = '32762b49-42c1-4e46-9b12-be478768b9d1'
+    }
 	name = 'Related Thumb'
 	group_id = resource.metafield_group.dfs_config.metafield_group_id
 	sort_index = 0

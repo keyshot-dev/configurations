@@ -2,6 +2,9 @@
     auto_translate = 'Overwrite'
     group_id = resource.metafield_group.dfe_config.metafield_group_id
     item_guid = '03a7b78c-263f-4e4d-b00c-362274ec725b'
+    autolink = {
+        item_guid = '03a7b78c-263f-4e4d-b00c-362274ec725b'
+    }
     iterative = false
     max_length = 0
     name = 'Upload Name'

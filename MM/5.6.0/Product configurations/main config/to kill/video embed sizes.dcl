@@ -1,5 +1,8 @@
 resource multicombovalue_metafield video_embed_sizes {
     item_guid = '89a059d7-e85d-47a4-b6d7-1d60f269366b'
+    autolink = {
+        item_guid = '89a059d7-e85d-47a4-b6d7-1d60f269366b'
+    }
     name = 'Choose available embed video sizes'
     group_id = resource.metafield_group.main_config.metafield_group_id
     auto_translate = 'Overwrite'

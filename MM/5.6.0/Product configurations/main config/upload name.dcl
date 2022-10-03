@@ -1,5 +1,8 @@
 resource string_metafield upload_name {
     item_guid = 'ef407c53-79d5-4908-901b-2e50dc1750f9'
+    autolink = {
+        item_guid = 'ef407c53-79d5-4908-901b-2e50dc1750f9'
+    }
     name = 'Unique channel ID'
     group_id = resource.metafield_group.main_config.metafield_group_id
     show_in_list = true

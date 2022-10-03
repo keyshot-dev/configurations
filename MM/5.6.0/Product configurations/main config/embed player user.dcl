@@ -1,5 +1,8 @@
 resource masteritem_reference_metafield embed_player_user {
     item_guid = '3c1af9e5-ff40-4c72-8cec-31ca12985759'
+    autolink = {
+        item_guid = '3c1af9e5-ff40-4c72-8cec-31ca12985759'
+    }
     name = 'Embed player user'
     group_id = resource.metafield_group.main_config.metafield_group_id
     auto_translate = 'Overwrite'

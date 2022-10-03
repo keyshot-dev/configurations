@@ -1,5 +1,8 @@
 resource bit_metafield enable_duplicate_asset_check {
     item_guid = '071f7bbd-58cc-4aad-967a-fab7f1d065d0'
+    autolink = {
+        item_guid = '071f7bbd-58cc-4aad-967a-fab7f1d065d0'
+    }
     name = 'Enable duplicate asset check'
     group_id = resource.metafield_group.main_config.metafield_group_id
     auto_translate = 'Overwrite'

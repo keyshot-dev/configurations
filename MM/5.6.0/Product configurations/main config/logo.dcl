@@ -1,5 +1,8 @@
 resource masteritem_reference_metafield logo {
     item_guid = '587a788f-0962-4924-ab48-ba26967c8f4c'
+    autolink = {
+        item_guid = '587a788f-0962-4924-ab48-ba26967c8f4c'
+    }
     name = 'The logo shown in the top left corner'
     group_id = resource.metafield_group.main_config.metafield_group_id
     auto_translate = 'Overwrite'
@@ -31,6 +34,9 @@ resource item_security logo__field__trusted {
 
 resource masteritem_reference_metafield secondary_logo {
     item_guid = '0b359f3c-f0e7-4397-8904-c3f7347af809'
+    autolink = {
+        item_guid = '0b359f3c-f0e7-4397-8904-c3f7347af809'
+    }
     name = 'Secondary Logo'
     group_id = resource.metafield_group.main_config.metafield_group_id
     auto_translate = 'Overwrite'

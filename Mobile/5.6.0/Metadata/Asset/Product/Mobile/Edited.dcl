@@ -1,5 +1,8 @@
 ﻿resource datetime_metafield edited {
     item_guid = 'b09581a9-bae0-4922-84da-1fcd35f5ef44'
+    autolink = {
+        item_guid = 'b09581a9-bae0-4922-84da-1fcd35f5ef44'
+    }
     view_type = 'DateTime'
     name = 'Edited'
     group_id = resource.metafield_group.mobile.metafield_group_id

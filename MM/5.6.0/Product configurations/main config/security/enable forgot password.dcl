@@ -1,5 +1,8 @@
 resource bit_metafield enable_forgot_password {
     item_guid = 'c80faf00-ae41-465a-a705-3a61ad09be32'
+    autolink = {
+        item_guid = 'c80faf00-ae41-465a-a705-3a61ad09be32'
+    }
     name = "Enable the option to reset one's password"
     group_id = resource.metafield_group.main_config.metafield_group_id
     auto_translate = 'Overwrite'

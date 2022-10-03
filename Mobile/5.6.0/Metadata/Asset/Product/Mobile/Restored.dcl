@@ -1,5 +1,8 @@
 ﻿resource datetime_metafield restored {
     item_guid = '40bce1f3-22dc-493c-bcdb-1671ace2bbe7'
+    autolink = {
+        item_guid = '40bce1f3-22dc-493c-bcdb-1671ace2bbe7'
+    }
     view_type = 'DateTime'
     name = 'Restored'
     group_id = resource.metafield_group.mobile.metafield_group_id

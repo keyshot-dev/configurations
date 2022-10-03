@@ -1,5 +1,8 @@
 resource masteritem_reference_metafield intro_screen_background_image {
     item_guid = 'd589f951-b947-41a5-bdcc-579b67973af3'
+    autolink = {
+        item_guid = 'd589f951-b947-41a5-bdcc-579b67973af3'
+    }
     name = 'Intro screen background - Image'
     group_id = resource.metafield_group.main_config.metafield_group_id
     show_in_list = true
@@ -31,6 +34,9 @@ resource item_security intro_screen_background_image__trusted {
 
 resource masteritem_reference_metafield intro_screen_background_video {
     item_guid = 'ad0f030f-f3cb-47b7-a854-78315cbec400'
+    autolink = {
+        item_guid = 'ad0f030f-f3cb-47b7-a854-78315cbec400'
+    }
     name = 'Intro screen background - Video'
     group_id = resource.metafield_group.main_config.metafield_group_id
     show_in_list = true

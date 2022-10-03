@@ -1,5 +1,8 @@
 resource editmulticombovalue_metafield paging_size {
     item_guid = '9262b4c3-6553-4c4d-a0f6-fad9c1b7551d'
+    autolink = {
+        item_guid = '9262b4c3-6553-4c4d-a0f6-fad9c1b7551d'
+    }
     name = 'Available paging sizes'
     group_id = resource.metafield_group.main_config.metafield_group_id
     show_in_list = true 

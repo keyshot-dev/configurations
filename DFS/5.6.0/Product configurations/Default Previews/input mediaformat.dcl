@@ -2,6 +2,9 @@
 	item_type = 'MediaFormat'
 	related_metafield_id = 0
 	item_guid = '4fa0bcf8-239b-4adb-81b7-7ee2a564bedf'
+    autolink = {
+        item_guid = '4fa0bcf8-239b-4adb-81b7-7ee2a564bedf'
+    }
 	name = 'Input Mediaformat'
 	group_id = resource.metafield_group.dfs_default_previews.metafield_group_id
 	sort_index = 30

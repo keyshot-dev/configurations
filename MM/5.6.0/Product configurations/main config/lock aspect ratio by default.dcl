@@ -1,5 +1,8 @@
 resource bit_metafield lock_aspect_ratio_by_default {
     item_guid = '8a317f6b-f192-4874-b769-0967e6ccb461'
+    autolink = {
+        item_guid = '8a317f6b-f192-4874-b769-0967e6ccb461'
+    }
     name = 'Lock aspect ratio by default'
     group_id = resource.metafield_group.main_config.metafield_group_id
     show_in_list = true

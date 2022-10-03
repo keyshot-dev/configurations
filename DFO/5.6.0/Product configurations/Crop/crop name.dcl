@@ -2,6 +2,9 @@
     auto_translate = 'Overwrite'
     group_id = resource.metafield_group.dfe_crop.metafield_group_id
     item_guid = '1185cac4-8ac9-4abb-8bd8-392c9a7f29a6'
+    autolink = {
+        item_guid = '1185cac4-8ac9-4abb-8bd8-392c9a7f29a6'
+    }
     iterative = true
     max_length = 0
     name = 'Crop name'

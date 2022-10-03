@@ -1,5 +1,8 @@
 resource bit_metafield enable_persistent_login {
     item_guid = 'c1864c57-c9f3-4ab3-a85a-5670b9ee7519'
+    autolink = {
+        item_guid = 'c1864c57-c9f3-4ab3-a85a-5670b9ee7519'
+    }
     name = 'Enable persistent login'
     group_id = resource.metafield_group.main_config.metafield_group_id
     auto_translate = 'Overwrite'

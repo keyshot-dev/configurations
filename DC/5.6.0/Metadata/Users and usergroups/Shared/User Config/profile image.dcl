@@ -1,6 +1,9 @@
 ﻿resource masteritem_reference_metafield profile_image {
     item_type = 'Asset'
     item_guid = 'e2dced3c-a38a-45d5-959b-e57b80211bef'
+    autolink = {
+        item_guid = 'e2dced3c-a38a-45d5-959b-e57b80211bef'
+    }
     name = 'Profile Image'
     group_id = resource.metafield_group.user_config.metafield_group_id
     sort_index = 50166

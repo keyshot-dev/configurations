@@ -1,5 +1,8 @@
 resource bit_metafield disable_office_connector_uploads {
     item_guid = '07f3384e-ee07-4bbd-9444-365f19ba6401'
+    autolink = {
+        item_guid = '07f3384e-ee07-4bbd-9444-365f19ba6401'
+    }
     name = 'Disable Office Connector uploads'
     group_id = resource.metafield_group.main_config.metafield_group_id
     auto_translate = 'Overwrite'

@@ -1,5 +1,8 @@
 resource masteritem_reference_metafield main_search_folder {
     item_guid = '35ad9ace-da6a-4e8f-8d1c-8d35b7ca5989'
+    autolink = {
+        item_guid = '35ad9ace-da6a-4e8f-8d1c-8d35b7ca5989'
+    }
     name = "Root channel folder of MM's content"
     group_id = resource.metafield_group.main_config.metafield_group_id
     item_type = 'ChannelFolder'

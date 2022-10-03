@@ -1,5 +1,8 @@
 resource string_metafield administrative_verification_email {
     item_guid = '5872c473-f754-44dd-a563-7746fcbe1cef'
+    autolink = {
+        item_guid = '5872c473-f754-44dd-a563-7746fcbe1cef'
+    }
     name = 'Administrative verification email'
     group_id = resource.metafield_group.main_config.metafield_group_id
     auto_translate = 'Overwrite'

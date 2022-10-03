@@ -2,6 +2,9 @@
 	item_type = 'Metafield'
 	related_metafield_id = 0
 	item_guid = 'e96d8ec7-b251-4468-9efb-b932c07d8505'
+    autolink = {
+        item_guid = 'e96d8ec7-b251-4468-9efb-b932c07d8505'
+    }
 	name = 'Crop name metafield'
 	group_id = resource.metafield_group.dfs_config.metafield_group_id
 	sort_index = 0

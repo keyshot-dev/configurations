@@ -5,6 +5,9 @@
     show_in_list = false
     auto_translate = 'Overwrite'
     restrict_to_asset_type = 'All'
+    autolink = {
+        item_guid = '4a8ed71b-574a-43bb-a35e-8826598cf36f'
+    }
 }
 
 resource metafield_label asset_content {

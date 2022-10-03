@@ -2,6 +2,9 @@
 	item_type = 'MediaFormat'
 	related_metafield_id = 0
 	item_guid = '441a1c54-5149-4ced-8297-5a6fc63c9ebd'
+    autolink = {
+        item_guid = '441a1c54-5149-4ced-8297-5a6fc63c9ebd'
+    }
 	name = 'Audio preview'
 	group_id = resource.metafield_group.dfs_config.metafield_group_id
 	sort_index = 0

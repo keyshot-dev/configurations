@@ -1,6 +1,9 @@
 
 resource multicombovalue_metafield custom_quality_color_spaces {
     item_guid = '8d664b00-0c71-4dc1-b5be-7bb3d55996a0'
+    autolink = {
+        item_guid = '8d664b00-0c71-4dc1-b5be-7bb3d55996a0'
+    }
     name = 'Custom quality color spaces'
     group_id = resource.metafield_group.main_config.metafield_group_id
     auto_translate = 'Overwrite'

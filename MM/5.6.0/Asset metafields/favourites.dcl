@@ -1,5 +1,8 @@
 ﻿resource slave_metafield mediamanager_favourites_slave {
     item_guid = '54039ed7-c22f-418a-b319-f992d0af3ba6'
+    autolink = {
+        item_guid = '54039ed7-c22f-418a-b319-f992d0af3ba6'
+    }
     name = 'MediaManager Favourites Slave'
     group_id = data.metafield_group.asset_info.metafield_group_id
     item_type = 'Member'

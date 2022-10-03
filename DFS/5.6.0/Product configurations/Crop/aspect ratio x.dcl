@@ -1,5 +1,8 @@
 ﻿resource string_metafield aspect_ratio_x_50406 {
 	item_guid = '1207a07a-7bda-4f46-a10b-d2436556308a'
+    autolink = {
+        item_guid = '1207a07a-7bda-4f46-a10b-d2436556308a'
+    }
 	name = 'Aspect ratio x'
 	group_id = resource.metafield_group.dfs_crop.metafield_group_id
 	sort_index = 10	max_length = 0

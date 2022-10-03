@@ -2,6 +2,9 @@
     auto_translate = 'Overwrite'
     group_id = resource.metafield_group.dfe_config.metafield_group_id
     item_guid = 'a5105105-080b-4f9e-88a8-76a36a2a87a3'
+    autolink = {
+        item_guid = 'a5105105-080b-4f9e-88a8-76a36a2a87a3'
+    }
     item_type = 'MediaFormat'
     iterative = false
     max_count = 0

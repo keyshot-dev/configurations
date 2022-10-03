@@ -1,5 +1,8 @@
 resource masteritem_reference_metafield template_user_for_self_signup {
     item_guid = 'b2c04e4e-d341-4c8a-a83e-6b3638c089d6'
+    autolink = {
+        item_guid = 'b2c04e4e-d341-4c8a-a83e-6b3638c089d6'
+    }
     name = 'Template user for self sign up users'
     group_id = resource.metafield_group.main_config.metafield_group_id
     show_in_list = true

@@ -2,6 +2,9 @@
 	item_type = 'MediaFormat'
 	related_metafield_id = 0
 	item_guid = '0cfa3338-9199-43aa-8a03-245ea989fb82'
+    autolink = {
+        item_guid = '0cfa3338-9199-43aa-8a03-245ea989fb82'
+    }
 	name = 'Preview'
 	group_id = resource.metafield_group.dfs_config.metafield_group_id
 	sort_index = 0

@@ -1,5 +1,8 @@
 ﻿resource bit_metafield is_public {
     item_guid = '9d10b3c4-e217-4205-be38-15534d975a04'
+    autolink = {
+        item_guid = '9d10b3c4-e217-4205-be38-15534d975a04'
+    }
     name = 'Is Public'
     group_id = resource.metafield_group.mobile.metafield_group_id
     show_in_list = true

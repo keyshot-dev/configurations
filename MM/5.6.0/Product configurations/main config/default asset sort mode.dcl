@@ -1,5 +1,8 @@
 resource combovalue_metafield default_asset_sort_mode {
     item_guid = '0f9de4fd-27e9-497a-8924-d9463dbfcfc7'
+    autolink = {
+        item_guid = '0f9de4fd-27e9-497a-8924-d9463dbfcfc7'
+    }
     name = 'Default asset sort mode'
     group_id = resource.metafield_group.main_config.metafield_group_id
     auto_translate = 'Overwrite'

@@ -2,6 +2,9 @@
     auto_translate = 'Overwrite'
     group_id = resource.metafield_group.dfe_crop.metafield_group_id
     item_guid = '3285ee83-dfe8-424c-a21d-b7c7bb3c3be7'
+    autolink = {
+        item_guid = '3285ee83-dfe8-424c-a21d-b7c7bb3c3be7'
+    }
     iterative = true
     max_length = 0
     name = 'Aspect ratio x'

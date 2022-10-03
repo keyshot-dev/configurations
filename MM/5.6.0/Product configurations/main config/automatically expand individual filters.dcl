@@ -1,6 +1,9 @@
 
 resource bit_metafield automatically_expand_individual_filters_in_asset_list {
     item_guid = 'ef5b42c8-3eb6-4b19-be8b-737d8d8f4a7d'
+    autolink = {
+        item_guid = 'ef5b42c8-3eb6-4b19-be8b-737d8d8f4a7d'
+    }
     name = 'Automatically expand individual filters in asset list'
     group_id = resource.metafield_group.main_config.metafield_group_id
     show_in_list = true

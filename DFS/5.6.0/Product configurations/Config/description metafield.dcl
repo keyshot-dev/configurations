@@ -2,6 +2,9 @@
 	item_type = 'Metafield'
 	related_metafield_id = 0
 	item_guid = 'a9c18690-5e09-4f1b-bf8d-2f4a818abe77'
+    autolink = {
+        item_guid = 'a9c18690-5e09-4f1b-bf8d-2f4a818abe77'
+    }
 	name = 'Description metafield'
 	group_id = resource.metafield_group.dfs_config.metafield_group_id
 	sort_index = 0

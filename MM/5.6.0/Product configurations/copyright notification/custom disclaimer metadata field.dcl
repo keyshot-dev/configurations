@@ -1,5 +1,8 @@
 resource masteritem_reference_metafield custom_disclaimer_metadata_field {
     item_guid = '1d4f623f-9bd3-4c02-b17d-46cc53d7ebe1'
+    autolink = {
+        item_guid = '1d4f623f-9bd3-4c02-b17d-46cc53d7ebe1'
+    }
     name = 'Custom disclaimer metadata field'
     group_id = resource.metafield_group.copyright_notification.metafield_group_id
     item_type = 'Metafield'

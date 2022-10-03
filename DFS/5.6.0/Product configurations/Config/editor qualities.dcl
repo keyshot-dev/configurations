@@ -3,6 +3,9 @@
 	max_count = 0
 	related_metafield_id = 0
 	item_guid = '2eddd522-cbae-468b-9abe-2f59de115c58'
+    autolink = {
+        item_guid = '2eddd522-cbae-468b-9abe-2f59de115c58'
+    }
 	name = 'Editor qualities'
 	group_id = resource.metafield_group.dfs_config.metafield_group_id
 	sort_index = 0

@@ -2,6 +2,9 @@
     auto_translate = 'Overwrite'
     group_id = resource.metafield_group.dfe_config.metafield_group_id
     item_guid = '46f45cbc-38ca-4086-9872-7f683a242d6a'
+    autolink = {
+        item_guid = '46f45cbc-38ca-4086-9872-7f683a242d6a'
+    }
     item_type = 'ChannelFolder'
     iterative = false
     max_count = 0

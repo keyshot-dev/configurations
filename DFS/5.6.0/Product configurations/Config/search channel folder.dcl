@@ -2,6 +2,9 @@
 	item_type = 'ChannelFolder'
 	related_metafield_id = 0
 	item_guid = '0f474c9d-d05b-49de-9af2-deb779220e5d'
+    autolink = {
+        item_guid = '0f474c9d-d05b-49de-9af2-deb779220e5d'
+    }
 	name = 'Search channel folder'
 	group_id = resource.metafield_group.dfs_config.metafield_group_id
 	sort_index = 0

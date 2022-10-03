@@ -1,5 +1,8 @@
 ﻿resource string_metafield auto_created_user_folder_id {
     item_guid = '2f84e135-8d57-40ba-9917-d830aa7251c5'
+    autolink = {
+        item_guid = '2f84e135-8d57-40ba-9917-d830aa7251c5'
+    }
     name = 'Auto created user folder ID'
     group_id = resource.metafield_group.config.metafield_group_id
     show_in_list = true

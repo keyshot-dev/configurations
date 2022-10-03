@@ -2,6 +2,9 @@
 	item_type = 'MediaFormat'
 	related_metafield_id = 0
 	item_guid = 'a6265237-cc0a-4987-af8f-55b8543600a5'
+    autolink = {
+        item_guid = 'a6265237-cc0a-4987-af8f-55b8543600a5'
+    }
 	name = 'Thumb small'
 	group_id = resource.metafield_group.dfs_config.metafield_group_id
 	sort_index = 0

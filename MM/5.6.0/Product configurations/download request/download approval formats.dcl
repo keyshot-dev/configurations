@@ -1,5 +1,8 @@
 resource masteritem_reference_metafield download_approval_formats {
     item_guid = '6f966d04-1c5a-411d-b5a8-3f259a4a7cac'
+    autolink = {
+        item_guid = '6f966d04-1c5a-411d-b5a8-3f259a4a7cac'
+    }
     name = 'Download approval formats'
     group_id = resource.metafield_group.download_request.metafield_group_id
     item_type = 'MediaFormat'

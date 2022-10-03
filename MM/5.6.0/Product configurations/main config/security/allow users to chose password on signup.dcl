@@ -1,6 +1,9 @@
 
 resource bit_metafield allow_users_to_chose_password_on_signup {
     item_guid = '1a1faa20-20ab-4b64-b14e-c7002fd39754'
+    autolink = {
+        item_guid = '1a1faa20-20ab-4b64-b14e-c7002fd39754'
+    }
     name = 'Allow users to chose password on signup'
     group_id = resource.metafield_group.main_config.metafield_group_id
     auto_translate = 'Overwrite'

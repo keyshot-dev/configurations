@@ -1,5 +1,8 @@
 resource string_metafield corporate_preset_description {
     item_guid = '5bb28131-6c2d-4989-8db8-6848d291b734'
+    autolink = {
+        item_guid = '5bb28131-6c2d-4989-8db8-6848d291b734'
+    }
     name = 'Description'
     group_id = resource.metafield_group.corporate_presets.metafield_group_id
     show_in_list = true

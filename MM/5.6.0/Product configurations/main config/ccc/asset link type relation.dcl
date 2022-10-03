@@ -1,5 +1,8 @@
 resource masteritem_reference_metafield ccc_asset_linktype_relation {
     item_guid = '5790e0bc-e813-4b91-8d85-aade0bb9b5a4'
+    autolink = {
+        item_guid = '5790e0bc-e813-4b91-8d85-aade0bb9b5a4'
+    }
     name = 'CCC - Asset linktype relation'
     group_id = resource.metafield_group.main_config.metafield_group_id
     auto_translate = 'Overwrite'

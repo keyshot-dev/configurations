@@ -1,5 +1,8 @@
 ﻿resource datetime_metafield date {
     item_guid = 'b714b55b-025a-476c-8067-d1b16e0a20e4'
+    autolink = {
+        item_guid = 'b714b55b-025a-476c-8067-d1b16e0a20e4'
+    }
     group_id = resource.metafield_group.comments.metafield_group_id
     view_type = 'DateTime'
     name = 'Date'

@@ -1,5 +1,8 @@
 resource editmulticombovalue_metafield approved_download_request_stage_names {
     item_guid = 'c168dd9b-471b-4577-8fca-10f7612f94ad'
+    autolink = {
+        item_guid = 'c168dd9b-471b-4577-8fca-10f7612f94ad'
+    }
     name = 'Approved download request stage names'
     group_id = resource.metafield_group.download_request.metafield_group_id
     show_in_list = false

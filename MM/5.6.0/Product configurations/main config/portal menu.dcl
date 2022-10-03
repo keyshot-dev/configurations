@@ -1,5 +1,8 @@
 resource masteritem_reference_metafield portal_menu {
     item_guid = '1a6c5e99-303d-46f8-b8a9-e7a647724302'
+    autolink = {
+        item_guid = '1a6c5e99-303d-46f8-b8a9-e7a647724302'
+    }
     name = "The navigation menu's metadata field"
     group_id = resource.metafield_group.main_config.metafield_group_id
     auto_translate = 'Overwrite'

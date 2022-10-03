@@ -1,5 +1,8 @@
 resource combovalue_metafield pagination_mode {
     item_guid = '13edba01-f1c1-482c-b468-082924a14851'
+    autolink = {
+        item_guid = '13edba01-f1c1-482c-b468-082924a14851'
+    }
     name = 'Pagination mode'
     group_id = resource.metafield_group.main_config.metafield_group_id
     auto_translate = 'Overwrite'

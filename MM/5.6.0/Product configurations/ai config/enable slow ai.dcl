@@ -1,5 +1,8 @@
 resource bit_metafield enable_slow_ai {
     item_guid = '98fb95fc-dda6-4182-b2a0-2b0910c0364e'
+    autolink = {
+        item_guid = '98fb95fc-dda6-4182-b2a0-2b0910c0364e'
+    }
     name = 'Enable slow AI (Enable if your site is not public)'
     group_id = resource.metafield_group.ai_config.metafield_group_id
     show_in_list = true

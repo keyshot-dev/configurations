@@ -1,6 +1,9 @@
 ﻿resource masteritem_reference_metafield embed_player_user {
     item_type = 'Member'
     item_guid = '2c86c1ee-a5b3-4797-8ec3-09b2cd5eda8e'
+    autolink = {
+        item_guid = '2c86c1ee-a5b3-4797-8ec3-09b2cd5eda8e'
+    }
     name = 'Embed Player User'
     group_id = resource.metafield_group.config.metafield_group_id
     show_in_list = true

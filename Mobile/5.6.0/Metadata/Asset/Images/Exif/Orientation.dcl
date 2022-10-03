@@ -1,6 +1,9 @@
 ﻿resource string_metafield orientation {
     name = 'Orientation'
     item_guid = '668761dc-536e-41b3-bf05-caa178d10100'
+    autolink = {
+        item_guid = '668761dc-536e-41b3-bf05-caa178d10100'
+    }
     group_id = resource.metafield_group.exif.metafield_group_id
     sort_index = 50047
     readonly = true

@@ -1,5 +1,8 @@
 resource string_metafield social_media_config {
     item_guid = '42bd61bc-8239-4914-bee4-56a24740faf7'
+    autolink = {
+        item_guid = '42bd61bc-8239-4914-bee4-56a24740faf7'
+    }
     name = 'Social channels you should be able to share to'
     group_id = resource.metafield_group.main_config.metafield_group_id
     show_in_list = true

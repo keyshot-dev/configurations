@@ -1,5 +1,8 @@
 resource bit_metafield enable_check_in_out {
     item_guid = '1b8cd841-8a68-4ea7-9af0-e7964d4093dd'
+    autolink = {
+        item_guid = '1b8cd841-8a68-4ea7-9af0-e7964d4093dd'
+    }
     name = 'Enable check in/out'
     group_id = resource.metafield_group.main_config.metafield_group_id
     auto_translate = 'Overwrite'

@@ -1,5 +1,8 @@
 resource masteritem_reference_metafield enable_explicit_ai_content_detection_for_metadata_field {
     item_guid = 'be89f6b6-8427-4976-aebb-e1600cddfdc2'
+    autolink = {
+        item_guid = 'be89f6b6-8427-4976-aebb-e1600cddfdc2'
+    }
     name = 'Enable explicit AI content detection for metadata field'
     group_id = resource.metafield_group.ai_config.metafield_group_id
     auto_translate = 'Overwrite'

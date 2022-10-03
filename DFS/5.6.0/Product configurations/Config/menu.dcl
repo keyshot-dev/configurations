@@ -2,6 +2,9 @@
 	item_type = 'Metafield'
 	related_metafield_id = 0
 	item_guid = '27654dd8-b200-41f8-9b32-71cceedea454'
+    autolink = {
+        item_guid = '27654dd8-b200-41f8-9b32-71cceedea454'
+    }
 	name = 'Menu'
 	group_id = resource.metafield_group.dfs_config.metafield_group_id
 	sort_index = 0

@@ -1,5 +1,8 @@
 resource string_metafield download_approval_business_workflow_uid {
     item_guid = '90ad5793-bc20-47ad-9119-3699fc453be3'
+    autolink = {
+        item_guid = '90ad5793-bc20-47ad-9119-3699fc453be3'
+    }
     name = 'Download approval business workflow UID'
     group_id = resource.metafield_group.download_request.metafield_group_id
     show_in_list = false

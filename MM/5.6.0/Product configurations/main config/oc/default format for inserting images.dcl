@@ -1,5 +1,8 @@
 resource int_metafield default_mediaformatid_for_inserting_images {
     item_guid = '08f51a7c-7087-4cfc-a377-0b30b1e94b94'
+    autolink = {
+        item_guid = '08f51a7c-7087-4cfc-a377-0b30b1e94b94'
+    }
     name = 'Default mediaFormatId for inserting images'
     group_id = resource.metafield_group.main_config.metafield_group_id
     show_in_list = true

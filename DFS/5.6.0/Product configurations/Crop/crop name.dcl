@@ -1,5 +1,8 @@
 ﻿resource string_metafield crop_name_50405 {
 	item_guid = 'e1aebd94-0fd8-46a8-87e5-97abf8a32fee'
+    autolink = {
+        item_guid = 'e1aebd94-0fd8-46a8-87e5-97abf8a32fee'
+    }
 	name = 'Crop name'
 	group_id = resource.metafield_group.dfs_crop.metafield_group_id
 	sort_index = 10	max_length = 0

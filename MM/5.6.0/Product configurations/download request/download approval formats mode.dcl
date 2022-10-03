@@ -1,5 +1,8 @@
 resource combovalue_metafield download_approval_formats_mode {
     item_guid = '7f89a3f1-0611-44fe-b545-a94ec30f198a'
+    autolink = {
+        item_guid = '7f89a3f1-0611-44fe-b545-a94ec30f198a'
+    }
     name = 'Download approval formats mode'
     group_id = resource.metafield_group.download_request.metafield_group_id
     show_in_list = false

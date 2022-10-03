@@ -2,6 +2,9 @@
 	item_type = 'MediaFormat'
 	related_metafield_id = 0
 	item_guid = 'c3f081d5-6c3b-457e-a084-d4867b5abe0b'
+    autolink = {
+        item_guid = 'c3f081d5-6c3b-457e-a084-d4867b5abe0b'
+    }
 	name = 'Web'
 	group_id = resource.metafield_group.dfs_config.metafield_group_id
 	sort_index = 0

@@ -1,5 +1,8 @@
 ﻿resource note_metafield comment {
     item_guid = '4db76e4f-0952-4f22-b7b7-030bc4808c33'
+    autolink = {
+        item_guid = '4db76e4f-0952-4f22-b7b7-030bc4808c33'
+    }
     group_id = resource.metafield_group.comments.metafield_group_id
     name = 'Comment'
     sort_index = 10336

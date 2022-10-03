@@ -1,5 +1,8 @@
 resource combovalue_metafield download_request_metafield_mode {
     item_guid = '7c860c75-14fe-444e-bb48-86df20c309a1'
+    autolink = {
+        item_guid = '7c860c75-14fe-444e-bb48-86df20c309a1'
+    }
     name = 'Download request metafield mode'
     group_id = resource.metafield_group.download_request.metafield_group_id
     show_in_list = false

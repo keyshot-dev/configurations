@@ -1,6 +1,9 @@
 ﻿resource masteritem_reference_metafield config_layoutfolder {
     item_type = 'ChannelFolder'
     item_guid = '79b85f8e-68ae-49f7-b880-c946eb7f0055'
+    autolink = {
+        item_guid = '79b85f8e-68ae-49f7-b880-c946eb7f0055'
+    }
     name = 'Config LayoutFolder'
     group_id = resource.metafield_group.user_config.metafield_group_id
     sort_index = 50012

@@ -1,5 +1,8 @@
 resource bit_metafield enable_copyright_notification {
     item_guid = 'e1a8dc5b-b1ec-4cef-b456-2a2bccad4d0e'
+    autolink = {
+        item_guid = 'e1a8dc5b-b1ec-4cef-b456-2a2bccad4d0e'
+    }
     name = 'Enable copyright notification'
     group_id = resource.metafield_group.copyright_notification.metafield_group_id
     show_in_list = true

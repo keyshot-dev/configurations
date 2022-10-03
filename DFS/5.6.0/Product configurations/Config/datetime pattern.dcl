@@ -1,5 +1,8 @@
 ﻿resource string_metafield datetime_pattern_50396 {
 	item_guid = 'ffba3c5c-f311-41aa-b647-eeb7dd38222d'
+    autolink = {
+        item_guid = 'ffba3c5c-f311-41aa-b647-eeb7dd38222d'
+    }
 	name = 'DateTime Pattern'
 	group_id = resource.metafield_group.dfs_config.metafield_group_id
 	sort_index = 0	max_length = 0

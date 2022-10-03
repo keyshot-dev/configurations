@@ -1,5 +1,8 @@
 resource masteritem_reference_metafield enable_landmark_detection_for_metadata_field {
     item_guid = 'c6a0ea28-9972-4cc8-ba1d-c5e8505dd2aa'
+    autolink = {
+        item_guid = 'c6a0ea28-9972-4cc8-ba1d-c5e8505dd2aa'
+    }
     name = 'Enable landmark AI detection for metadata field'
     group_id = resource.metafield_group.ai_config.metafield_group_id
     show_in_list = true

@@ -1,14 +1,14 @@
 ﻿resource bit_metafield enable_approval_of_download_requests {
     item_guid = '83c9a029-1c80-4d80-899b-bf160b1f04c6'
+    autolink = {
+        item_guid = '83c9a029-1c80-4d80-899b-bf160b1f04c6'
+    }
     name = 'Enable approval of download requests (DO NOT edit manually)'
     group_id = resource.metafield_group.download_request.metafield_group_id
     sort_index = 1040
     show_in_list = true
     auto_translate = 'Overwrite'
     restrict_to_asset_type = 'All'
-    autolink = {
-        item_guid = '83c9a029-1c80-4d80-899b-bf160b1f04c6'
-    }
 }
 
 resource metafield_label enable_approval_of_download_requests {

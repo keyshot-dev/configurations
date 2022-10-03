@@ -2,6 +2,9 @@
 	item_type = 'Metafield'
 	related_metafield_id = 0
 	item_guid = '9b7b8f66-cfb6-4590-a866-f0afdad6593c'
+    autolink = {
+        item_guid = '9b7b8f66-cfb6-4590-a866-f0afdad6593c'
+    }
 	name = 'Sitecore upload username metafield'
 	group_id = resource.metafield_group.dfs_config.metafield_group_id
 	sort_index = 0

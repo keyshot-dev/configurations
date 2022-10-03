@@ -1,5 +1,8 @@
 resource multicombovalue_metafield custom_quality_image_types {
     item_guid = '5fbc88d0-a00d-4e03-8042-548934eb2d93'
+    autolink = {
+        item_guid = '5fbc88d0-a00d-4e03-8042-548934eb2d93'
+    }
     name = 'Custom quality image types'
     group_id = resource.metafield_group.main_config.metafield_group_id
     auto_translate = 'Overwrite'

@@ -1,6 +1,9 @@
 ﻿resource combovalue_metafield type {
     view_type = 'Radio'
     item_guid = '01a2bf07-5474-4479-b9e1-0a78805d4465'
+    autolink = {
+        item_guid = '01a2bf07-5474-4479-b9e1-0a78805d4465'
+    }
     name = 'Type'
     group_id = resource.metafield_group.valid_download_qualities.metafield_group_id
     sort_index = 10280

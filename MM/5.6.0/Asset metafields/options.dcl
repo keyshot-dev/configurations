@@ -25,6 +25,9 @@ resource item_security metafield_group_options_50028__trusted_15 {
 
 resource note_metafield options_message {
     item_guid = 'd658fe27-dbb2-415a-9771-f6781fd65f66'
+    autolink = {
+        item_guid = 'd658fe27-dbb2-415a-9771-f6781fd65f66'
+    }
     name = 'Message'
     group_id = resource.metafield_group.options_50028.metafield_group_id
     show_in_list = true
@@ -54,6 +57,9 @@ resource item_security options_message__trusted {
 
 resource masteritem_reference_metafield options_owner {
     item_guid = 'fc948200-c103-41fb-8dae-bd1c5c6ce281'
+    autolink = {
+        item_guid = 'fc948200-c103-41fb-8dae-bd1c5c6ce281'
+    }
     name = 'Owner'
     group_id = resource.metafield_group.options_50028.metafield_group_id
     show_in_list = true
@@ -84,6 +90,9 @@ resource item_security options_owner__trusted {
 
 resource combovalue_metafield options_status {
     item_guid = '6fe35f10-c810-497b-af9c-e52c3d583593'
+    autolink = {
+        item_guid = '6fe35f10-c810-497b-af9c-e52c3d583593'
+    }
     name = 'Status'
     group_id = resource.metafield_group.options_50028.metafield_group_id
     auto_translate = 'Overwrite'

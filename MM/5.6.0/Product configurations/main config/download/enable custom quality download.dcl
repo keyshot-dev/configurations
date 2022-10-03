@@ -1,6 +1,9 @@
 
 resource bit_metafield enable_custom_quality_download {
     item_guid = 'e723f46e-8c52-4b94-9d2e-f005c93929db'
+    autolink = {
+        item_guid = 'e723f46e-8c52-4b94-9d2e-f005c93929db'
+    }
     name = 'Allow custom quality download'
     group_id = resource.metafield_group.main_config.metafield_group_id
     auto_translate = 'Overwrite'

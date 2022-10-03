@@ -1,5 +1,8 @@
 resource masteritem_reference_metafield enable_ai_transcript_for_metadata_field {
     item_guid = '96102f30-edd6-4288-b534-a20baa1ea6b5'
+    autolink = {
+        item_guid = '96102f30-edd6-4288-b534-a20baa1ea6b5'
+    }
     name = 'Enable AI transcript for metadata field'
     group_id = resource.metafield_group.ai_config.metafield_group_id
     auto_translate = 'Overwrite'

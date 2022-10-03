@@ -1,5 +1,8 @@
 resource masteritem_reference_metafield predefined_disclaimer_metadata_field {
     item_guid = '1ece66fd-0209-411f-9601-86aefa2ab462'
+    autolink = {
+        item_guid = '1ece66fd-0209-411f-9601-86aefa2ab462'
+    }
     name = 'Predefined disclaimer metadata field'
     group_id = resource.metafield_group.copyright_notification.metafield_group_id
     show_in_list = true

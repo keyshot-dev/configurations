@@ -1,5 +1,8 @@
 resource editmulticombovalue_metafield denied_download_request_stage_names {
     item_guid = '93cd1a66-5577-410d-818e-94ccdadd122f'
+    autolink = {
+        item_guid = '93cd1a66-5577-410d-818e-94ccdadd122f'
+    }
     name = 'Denied download request stage names'
     group_id = resource.metafield_group.download_request.metafield_group_id
     show_in_list = false

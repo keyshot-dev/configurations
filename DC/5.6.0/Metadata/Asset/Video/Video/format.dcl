@@ -1,6 +1,9 @@
 ﻿resource combovalue_metafield format {
     view_type = 'Radio'
     item_guid = 'f2a9baa4-655d-4cb3-8649-1692f56950d9'
+    autolink = {
+        item_guid = 'f2a9baa4-655d-4cb3-8649-1692f56950d9'
+    }
     name = 'Format'
     group_id = resource.metafield_group.video.metafield_group_id
     sort_index = 10032

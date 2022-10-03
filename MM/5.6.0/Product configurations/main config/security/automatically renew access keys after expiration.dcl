@@ -1,6 +1,9 @@
 
 resource bit_metafield automatically_renew_accesskey_after_expiration {
     item_guid = '20515223-c0ea-4bbb-92a3-11a20ef4d0dd'
+    autolink = {
+        item_guid = '20515223-c0ea-4bbb-92a3-11a20ef4d0dd'
+    }
     name = 'Automatically renew accesskey after expiration'
     group_id = resource.metafield_group.main_config.metafield_group_id
     auto_translate = 'Overwrite'

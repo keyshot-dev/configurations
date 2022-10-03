@@ -1,5 +1,8 @@
 resource int_metafield corporate_preset_height {
     item_guid = '4faf4287-26cb-45c9-b65e-8a69a899422a'
+    autolink = {
+        item_guid = '4faf4287-26cb-45c9-b65e-8a69a899422a'
+    }
     name = 'Height'
     group_id = resource.metafield_group.corporate_presets.metafield_group_id
     show_in_list = true

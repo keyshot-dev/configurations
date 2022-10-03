@@ -1,6 +1,9 @@
 ﻿resource masteritem_reference_metafield download_destination {
     item_type = 'Destination'
     item_guid = '0712967c-3095-4f04-91e0-9f3d6f94b944'
+    autolink = {
+        item_guid = '0712967c-3095-4f04-91e0-9f3d6f94b944'
+    }
     name = 'Download Destination'
     group_id = resource.metafield_group.config.metafield_group_id
     show_in_list = true

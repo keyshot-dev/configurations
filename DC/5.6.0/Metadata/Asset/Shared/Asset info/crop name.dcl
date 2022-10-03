@@ -6,6 +6,9 @@
     show_in_list = true
     auto_translate = 'Overwrite'
     restrict_to_asset_type = 'All'
+    autolink = {
+        item_guid = 'fa70d7f6-12ae-4f51-af05-6296d5608b7c'
+    }
 }
 
 resource metafield_label crop_name {

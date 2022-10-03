@@ -1,5 +1,8 @@
 resource masteritem_reference_metafield ccc_video_high_insert_quality {
     item_guid = '3c7bdbe5-00eb-418f-8b7d-74c8d794b3f3'
+    autolink = {
+        item_guid = '3c7bdbe5-00eb-418f-8b7d-74c8d794b3f3'
+    }
     name = 'CCC - Video high insert quality'
     group_id = resource.metafield_group.main_config.metafield_group_id
     auto_translate = 'Overwrite'

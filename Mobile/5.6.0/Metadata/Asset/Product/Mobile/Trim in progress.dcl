@@ -1,5 +1,8 @@
 ﻿resource bit_metafield trim_in_progress {
     item_guid = 'debbf6e6-ded7-46f1-bde1-cd4fde18beda'
+    autolink = {
+        item_guid = 'debbf6e6-ded7-46f1-bde1-cd4fde18beda'
+    }
     name = 'Trim in progress'
     group_id = resource.metafield_group.mobile.metafield_group_id
     sort_index = 50183

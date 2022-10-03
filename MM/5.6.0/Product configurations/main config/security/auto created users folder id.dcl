@@ -1,6 +1,9 @@
 
 resource string_metafield auto_created_user_folder_id {
     item_guid = 'dfff1aca-90f5-4a48-bf65-32bbfaeaa8a0'
+    autolink = {
+        item_guid = 'dfff1aca-90f5-4a48-bf65-32bbfaeaa8a0'
+    }
     name = 'Auto created user folder ID'
     group_id = resource.metafield_group.main_config.metafield_group_id
     auto_translate = 'Overwrite'

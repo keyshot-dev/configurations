@@ -2,6 +2,9 @@
     auto_translate = 'Overwrite'
     group_id = resource.metafield_group.dfe_config.metafield_group_id
     item_guid = '165b930b-cbe9-45b8-8d83-10a78796b67e'
+    autolink = {
+        item_guid = '165b930b-cbe9-45b8-8d83-10a78796b67e'
+    }
     iterative = false
     name = 'Sorting types'
     readonly = false

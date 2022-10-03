@@ -1,5 +1,8 @@
 resource string_metafield member_self_signup_workflow {
     item_guid = 'f5122404-b8b1-489e-9926-725f78ae4d08'
+    autolink = {
+        item_guid = 'f5122404-b8b1-489e-9926-725f78ae4d08'
+    }
     name = 'Member self-signup workflow UID'
     group_id = resource.metafield_group.main_config.metafield_group_id
     show_in_list = false

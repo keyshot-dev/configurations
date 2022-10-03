@@ -1,5 +1,8 @@
 resource multicombovalue_metafield sorting_types {
     item_guid = '869cc8ce-171d-46f7-85b2-8661217ead84'
+    autolink = {
+        item_guid = '869cc8ce-171d-46f7-85b2-8661217ead84'
+    }
     name = 'Sorting types'
     group_id = resource.metafield_group.main_config.metafield_group_id
     auto_translate = 'Overwrite'

@@ -1,5 +1,8 @@
 ﻿resource string_metafield datetime_cultureinfo_50395 {
 	item_guid = 'c6ebba2e-85fc-4afc-ac39-e263f8f75d86'
+    autolink = {
+        item_guid = 'c6ebba2e-85fc-4afc-ac39-e263f8f75d86'
+    }
 	name = 'DateTime CultureInfo'
 	group_id = resource.metafield_group.dfs_config.metafield_group_id
 	sort_index = 0	max_length = 0

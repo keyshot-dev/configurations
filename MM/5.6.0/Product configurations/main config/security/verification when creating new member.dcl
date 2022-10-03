@@ -1,5 +1,8 @@
 resource combovalue_metafield verification_when_creating_new_member {
     item_guid = '29b5e870-4279-4434-a1b8-2027cbfbee82'
+    autolink = {
+        item_guid = '29b5e870-4279-4434-a1b8-2027cbfbee82'
+    }
     name = 'Verification when a user is created using self sign up'
     group_id = resource.metafield_group.main_config.metafield_group_id
     show_in_list = true

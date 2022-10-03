@@ -1,5 +1,8 @@
 resource masteritem_reference_metafield enable_ai_description_for_metafield {
     item_guid = '1859de2e-c20b-483c-85c6-f74f469085b8'
+    autolink = {
+        item_guid = '1859de2e-c20b-483c-85c6-f74f469085b8'
+    }
     name = 'Enable AI description for metadata field'
     group_id = resource.metafield_group.ai_config.metafield_group_id
     show_in_list = true

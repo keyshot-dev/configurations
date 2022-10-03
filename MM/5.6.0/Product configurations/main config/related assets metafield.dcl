@@ -1,6 +1,9 @@
 
 resource masteritem_reference_metafield related_assets_metafield {
     item_guid = '97ca8aca-56d1-48de-8c7f-acff38600f14'
+    autolink = {
+        item_guid = '97ca8aca-56d1-48de-8c7f-acff38600f14'
+    }
     name = 'Asset relation meta data fields'
     group_id = resource.metafield_group.main_config.metafield_group_id
     auto_translate = 'Overwrite'

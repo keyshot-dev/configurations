@@ -2,6 +2,9 @@
 	item_type = 'Destination'
 	related_metafield_id = 0
 	item_guid = '1041e7cf-cdfb-41d0-9acf-732defeafa34'
+    autolink = {
+        item_guid = '1041e7cf-cdfb-41d0-9acf-732defeafa34'
+    }
 	name = 'Default Preview Destination'
 	group_id = resource.metafield_group.dfs_config.metafield_group_id
 	sort_index = 0

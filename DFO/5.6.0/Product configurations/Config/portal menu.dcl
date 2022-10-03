@@ -2,6 +2,9 @@
     auto_translate = 'Overwrite'
     group_id = resource.metafield_group.dfe_config.metafield_group_id
     item_guid = 'efaf5dc1-0349-4d46-87fb-4e272e1fb37f'
+    autolink = {
+        item_guid = 'efaf5dc1-0349-4d46-87fb-4e272e1fb37f'
+    }
     item_type = 'Metafield'
     iterative = false
     max_count = 0

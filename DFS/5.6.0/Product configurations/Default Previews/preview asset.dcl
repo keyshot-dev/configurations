@@ -2,6 +2,9 @@
 	item_type = 'Asset'
 	related_metafield_id = 0
 	item_guid = 'ee4d4b20-1a5c-4490-a6b5-3e59de77f537'
+    autolink = {
+        item_guid = 'ee4d4b20-1a5c-4490-a6b5-3e59de77f537'
+    }
 	name = 'Preview Asset'
 	group_id = resource.metafield_group.dfs_default_previews.metafield_group_id
 	sort_index = 10

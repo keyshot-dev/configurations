@@ -1,5 +1,8 @@
 ﻿resource int_metafield left_side_refresh_interval_ms {
     item_guid = 'f157a308-d5d3-473f-bf13-958b41b6e031'
+    autolink = {
+        item_guid = 'f157a308-d5d3-473f-bf13-958b41b6e031'
+    }
     name = 'Left Side Refresh Interval (ms)'
     group_id = resource.metafield_group.config.metafield_group_id
     show_in_list = true

@@ -1,5 +1,8 @@
 resource string_metafield facebook_app_id {
     item_guid = 'd3182a2b-e7f9-412c-b24e-6c18732866d1'
+    autolink = {
+        item_guid = 'd3182a2b-e7f9-412c-b24e-6c18732866d1'
+    }
     name = 'Facebook App ID'
     group_id = resource.metafield_group.main_config.metafield_group_id
     auto_translate = 'Overwrite'

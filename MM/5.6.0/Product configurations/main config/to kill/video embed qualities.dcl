@@ -1,5 +1,8 @@
 resource multicombovalue_metafield video_embed_qualities {
     item_guid = '696ac740-8f33-4ca7-b8a6-2d693f1e3824'
+    autolink = {
+        item_guid = '696ac740-8f33-4ca7-b8a6-2d693f1e3824'
+    }
     name = 'Choose available embed video qualities'
     group_id = resource.metafield_group.main_config.metafield_group_id
     auto_translate = 'Overwrite'

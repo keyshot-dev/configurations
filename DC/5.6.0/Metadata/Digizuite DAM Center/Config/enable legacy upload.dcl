@@ -1,5 +1,8 @@
 ﻿resource bit_metafield enable_legacy_upload {
     item_guid = 'dc2b8a7e-f54e-42b0-bd01-31f2d5ce35df'
+    autolink = {
+        item_guid = 'dc2b8a7e-f54e-42b0-bd01-31f2d5ce35df'
+    }
     name = 'Enable legacy upload'
     group_id = resource.metafield_group.config.metafield_group_id
     show_in_list = true

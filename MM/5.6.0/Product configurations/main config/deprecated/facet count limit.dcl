@@ -1,5 +1,8 @@
 resource int_metafield facet_count_limit {
     item_guid = '10506554-6854-401f-80c3-d650c7bc0fef'
+    autolink = {
+        item_guid = '10506554-6854-401f-80c3-d650c7bc0fef'
+    }
     name = 'Facet count limit'
     group_id = resource.metafield_group.main_config.metafield_group_id
     auto_translate = 'Overwrite'

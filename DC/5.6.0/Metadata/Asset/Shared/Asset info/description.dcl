@@ -1,5 +1,8 @@
 ﻿resource note_metafield description {
     item_guid = 'c8bb4af3-1598-4ea4-8d7a-98d54eead977'
+    autolink = {
+        item_guid = 'c8bb4af3-1598-4ea4-8d7a-98d54eead977'
+    }
     name = 'Description'
     group_id = resource.metafield_group.asset_info.metafield_group_id
     sort_index = 20

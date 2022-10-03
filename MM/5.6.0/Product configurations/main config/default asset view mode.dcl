@@ -1,5 +1,8 @@
 resource combovalue_metafield default_asset_view_mode {
     item_guid = '842bc597-9083-4115-8259-c184ca1effc4'
+    autolink = {
+        item_guid = '842bc597-9083-4115-8259-c184ca1effc4'
+    }
     name = 'Default asset view mode'
     group_id = resource.metafield_group.main_config.metafield_group_id
     auto_translate = 'Overwrite'

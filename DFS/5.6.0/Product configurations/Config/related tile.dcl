@@ -2,6 +2,9 @@
 	item_type = 'MediaFormat'
 	related_metafield_id = 0
 	item_guid = '889b2b9c-0b41-406c-a4d3-933c0927ccd3'
+    autolink = {
+        item_guid = '889b2b9c-0b41-406c-a4d3-933c0927ccd3'
+    }
 	name = 'Related Tile'
 	group_id = resource.metafield_group.dfs_config.metafield_group_id
 	sort_index = 0
