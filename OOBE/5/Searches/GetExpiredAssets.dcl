@@ -22,6 +22,6 @@
     </valueFields>
   </searchSection>
 </search>'
-    use_solr = true
+    use_solr = false
     item_types = []
 }

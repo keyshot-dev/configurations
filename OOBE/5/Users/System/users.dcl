@@ -5,10 +5,6 @@
 patch member system_patch {
     target = data.member.system
     groups = [{
-                member_group_id = data.member_group.super_administrator.member_group_id
-            }, {
-                member_group_id = data.member_group.trusted.member_group_id
-            }, {
                 member_group_id = resource.member_group.scheme_super_administrator.member_group_id
             }]
     roles = [{
