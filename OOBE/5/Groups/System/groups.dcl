@@ -5,12 +5,14 @@
     approved = true
     ad_group_name = ''
     parents = []
-    roles = []  
+    roles = [{
+                 constant = 'Upload_Only'
+             }]
 }
 
 resource member_group social_media_user_profile {
     name = 'Social media user (profile)'
-    folder_id = data.member_group_folder.user_type.id
+    folder_id = data.member_group_folder.system.id
     sort_index = 0
     approved = true
     ad_group_name = ''
@@ -25,7 +27,7 @@ data member_group guest_profile {
 patch member_group guest_profile_patch {
   target = data.member_group.guest_profile
   name = 'Guest (profile)'
-  folder_id = data.member_group_folder.user_type.id
+  folder_id = data.member_group_folder.system.id
 }
 
 data member_group trusted {
