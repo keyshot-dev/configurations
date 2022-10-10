@@ -264,3 +264,75 @@ resource item_security trim_in_progress__trusted {
     read = true
     write = true
 }
+
+
+
+resource bit_metafield is_brandportal_hero_banner {
+    item_guid = 'f58a6acf-9678-489d-9a58-48a050b1afde'
+    autolink = {
+        item_guid = 'f58a6acf-9678-489d-9a58-48a050b1afde'
+    }
+    name = 'Is BrandPortal Hero Banner'
+    group_id = resource.metafield_group.asset__product__media_manager.metafield_group_id
+    show_in_list = false
+    auto_translate = 'Overwrite'
+    restrict_to_asset_type = 'All'
+    readonly = true
+    system = true
+}
+
+resource metafield_label is_brandportal_hero_banner {
+    metafield_id = resource.bit_metafield.is_brandportal_hero_banner.metafield_id
+    label = resource.bit_metafield.is_brandportal_hero_banner.name
+    language_id = data.language.english.id
+}
+
+resource item_security is_brandportal_hero_banner__anonymous {
+    accessor_item_id = data.member_group.anonymous.item_id
+    item_id = resource.bit_metafield.is_brandportal_hero_banner.item_id
+    read = true
+    write = false
+}
+
+resource item_security is_brandportal_hero_banner__trusted {
+    accessor_item_id = data.member_group.trusted.item_id
+    item_id = resource.bit_metafield.is_brandportal_hero_banner.item_id
+    read = true
+    write = true
+}
+
+
+
+resource bit_metafield is_brandportal_folder_image {
+    item_guid = 'b8e4f791-1fb8-4345-80b0-f2765fd056a3'
+    autolink = {
+        item_guid = 'b8e4f791-1fb8-4345-80b0-f2765fd056a3'
+    }
+    name = 'Is BrandPortal Folder Image'
+    group_id = resource.metafield_group.asset__product__media_manager.metafield_group_id
+    show_in_list = false
+    auto_translate = 'Overwrite'
+    restrict_to_asset_type = 'All'
+    readonly = true
+    system = true
+}
+
+resource metafield_label is_brandportal_folder_image {
+    metafield_id = resource.bit_metafield.is_brandportal_folder_image.metafield_id
+    label = resource.bit_metafield.is_brandportal_folder_image.name
+    language_id = data.language.english.id
+}
+
+resource item_security is_brandportal_folder_image__anonymous {
+    accessor_item_id = data.member_group.anonymous.item_id
+    item_id = resource.bit_metafield.is_brandportal_folder_image.item_id
+    read = true
+    write = false
+}
+
+resource item_security is_brandportal_folder_image__trusted {
+    accessor_item_id = data.member_group.trusted.item_id
+    item_id = resource.bit_metafield.is_brandportal_folder_image.item_id
+    read = true
+    write = true
+}
