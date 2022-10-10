@@ -130,7 +130,7 @@ resource language_label sassettype_en {
     constant = 'sAssetType'
     label = 'Asset type'
     language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
+    folder_id = resource.language_label_folder.search_fields.folder_id
     version_id = resource.product.media_manager.base_version_id
 }
 
@@ -138,7 +138,7 @@ resource language_label sassettype_da {
     constant = 'sAssetType'
     label = 'Assettype'
     language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
+    folder_id = resource.language_label_folder.search_fields.folder_id
     version_id = resource.product.media_manager.base_version_id
 }
 
@@ -146,7 +146,7 @@ resource language_label sdatebetween_en {
     constant = 'sDateBetween'
     label = 'Upload date'
     language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
+    folder_id = resource.language_label_folder.search_fields.folder_id
     version_id = resource.product.media_manager.base_version_id
 }
 
@@ -154,7 +154,7 @@ resource language_label sdatebetween_da {
     constant = 'sDateBetween'
     label = 'Uploaddato'
     language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
+    folder_id = resource.language_label_folder.search_fields.folder_id
     version_id = resource.product.media_manager.base_version_id
 }
 
@@ -162,7 +162,7 @@ resource language_label skeywords_en {
     constant = 'sKeywords'
     label = 'Keywords'
     language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
+    folder_id = resource.language_label_folder.search_fields.folder_id
     version_id = resource.product.media_manager.base_version_id
 }
 
@@ -170,7 +170,7 @@ resource language_label skeywords_da {
     constant = 'sKeywords'
     label = 'Nøgleord'
     language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
+    folder_id = resource.language_label_folder.search_fields.folder_id
     version_id = resource.product.media_manager.base_version_id
 }
 
@@ -178,7 +178,7 @@ resource language_label smenu_en {
     constant = 'sMenu'
     label = 'Portal menu'
     language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
+    folder_id = resource.language_label_folder.search_fields.folder_id
     version_id = resource.product.media_manager.base_version_id
 }
 
@@ -186,7 +186,7 @@ resource language_label smenu_da {
     constant = 'sMenu'
     label = 'Portalmenu'
     language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
+    folder_id = resource.language_label_folder.search_fields.folder_id
     version_id = resource.product.media_manager.base_version_id
 }
 

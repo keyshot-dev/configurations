@@ -8,3 +8,9 @@ resource language_label_folder asset_info {
     parent_id = resource.language_label_folder.media_manager.folder_id
     name = 'AssetInfo'
 }
+
+resource language_label_folder search_fields {
+    version_id = resource.product.media_manager.base_version_id
+    parent_id = resource.language_label_folder.media_manager.folder_id
+    name = 'SearchFields'
+}

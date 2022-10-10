@@ -2606,3 +2606,131 @@ resource language_label workflow_editor_workflow_asset_search_request_date_range
     version_id = resource.product.media_manager.base_version_id
 }
 
+resource language_label workflows_overview_workflows_overview_wrapper_lookups_en {
+    constant = 'WORKFLOWS_OVERVIEW_WORKFLOWS_OVERVIEW_WRAPPER_LOOKUPS'
+    label = 'Lookups'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label workflows_overview_workflows_overview_wrapper_lookups_da {
+    constant = 'WORKFLOWS_OVERVIEW_WORKFLOWS_OVERVIEW_WRAPPER_LOOKUPS'
+    label = 'Opslag'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label workflows_overview_automation_lookups_values_en {
+    constant = 'WORKFLOWS_OVERVIEW_AUTOMATION_LOOKUPS_VALUES'
+    label = 'Values:'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label workflows_overview_automation_lookups_values_da {
+    constant = 'WORKFLOWS_OVERVIEW_AUTOMATION_LOOKUPS_VALUES'
+    label = 'Værdier:'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label workflows_overview_automation_lookups_name_en {
+    constant = 'WORKFLOWS_OVERVIEW_AUTOMATION_LOOKUPS_NAME'
+    label = 'Name'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label workflows_overview_automation_lookups_name_da {
+    constant = 'WORKFLOWS_OVERVIEW_AUTOMATION_LOOKUPS_NAME'
+    label = 'Navn'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label workflows_overview_automation_lookups_save_en {
+    constant = 'WORKFLOWS_OVERVIEW_AUTOMATION_LOOKUPS_SAVE'
+    label = 'Save'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label workflows_overview_automation_lookups_save_da {
+    constant = 'WORKFLOWS_OVERVIEW_AUTOMATION_LOOKUPS_SAVE'
+    label = 'Gem'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label workflows_overview_automation_lookups_cancel_en {
+    constant = 'WORKFLOWS_OVERVIEW_AUTOMATION_LOOKUPS_CANCEL'
+    label = 'Cancel'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label workflows_overview_automation_lookups_cancel_da {
+    constant = 'WORKFLOWS_OVERVIEW_AUTOMATION_LOOKUPS_CANCEL'
+    label = 'Annuller'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label workflows_overview_automation_lookups_no_lookups_en {
+    constant = 'WORKFLOWS_OVERVIEW_AUTOMATION_LOOKUPS_NO_LOOKUPS'
+    label = 'No lookups'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label workflows_overview_automation_lookups_no_lookups_da {
+    constant = 'WORKFLOWS_OVERVIEW_AUTOMATION_LOOKUPS_NO_LOOKUPS'
+    label = 'Ingen opslag'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label workflows_overview_automation_lookups_create_lookup_en {
+    constant = 'WORKFLOWS_OVERVIEW_AUTOMATION_LOOKUPS_CREATE_LOOKUP'
+    label = 'Create lookup'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label workflows_overview_automation_lookups_create_lookup_da {
+    constant = 'WORKFLOWS_OVERVIEW_AUTOMATION_LOOKUPS_CREATE_LOOKUP'
+    label = 'Opret opslag'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label workflows_overview_automation_lookups_lookups_en {
+    constant = 'WORKFLOWS_OVERVIEW_AUTOMATION_LOOKUPS_LOOKUPS'
+    label = 'Lookups'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label workflows_overview_automation_lookups_lookups_da {
+    constant = 'WORKFLOWS_OVERVIEW_AUTOMATION_LOOKUPS_LOOKUPS'
+    label = 'Opslag'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+

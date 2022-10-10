@@ -1038,25 +1038,9 @@ resource language_label collections_share_field_item_remove_da {
     version_id = resource.product.media_manager.base_version_id
 }
 
-resource language_label collections_share_advanced_settings_label_en {
-    constant = 'COLLECTIONS_SHARE_ADVANCED_SETTINGS_LABEL'
-    label = 'Advanced settings'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label collections_share_advanced_settings_label_da {
-    constant = 'COLLECTIONS_SHARE_ADVANCED_SETTINGS_LABEL'
-    label = 'Avancerede indstillinger'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
 resource language_label collections_share_field_item_guids_label_en {
     constant = 'COLLECTIONS_SHARE_FIELD_ITEM_GUIDS_LABEL'
-    label = 'Metadata shown for shares'
+    label = 'Specify metadata fields'
     language_id = data.language.english.id
     folder_id = resource.language_label_folder.media_manager.folder_id
     version_id = resource.product.media_manager.base_version_id
@@ -1064,7 +1048,7 @@ resource language_label collections_share_field_item_guids_label_en {
 
 resource language_label collections_share_field_item_guids_label_da {
     constant = 'COLLECTIONS_SHARE_FIELD_ITEM_GUIDS_LABEL'
-    label = 'Metadata vist for delinger'
+    label = 'Angiv metadatafelter'
     language_id = data.language.danish.id
     folder_id = resource.language_label_folder.media_manager.folder_id
     version_id = resource.product.media_manager.base_version_id
@@ -1072,7 +1056,7 @@ resource language_label collections_share_field_item_guids_label_da {
 
 resource language_label collections_share_field_item_guids_description_en {
     constant = 'COLLECTIONS_SHARE_FIELD_ITEM_GUIDS_DESCRIPTION'
-    label = 'Set which metadata fields are shown when previewing assets in collections'
+    label = 'Specify which metadata fields are shown when accessing assets in this collection share. By default, some preset metadata fields will be shared.'
     language_id = data.language.english.id
     folder_id = resource.language_label_folder.media_manager.folder_id
     version_id = resource.product.media_manager.base_version_id
@@ -1080,7 +1064,7 @@ resource language_label collections_share_field_item_guids_description_en {
 
 resource language_label collections_share_field_item_guids_description_da {
     constant = 'COLLECTIONS_SHARE_FIELD_ITEM_GUIDS_DESCRIPTION'
-    label = 'Bestem hvilke metadatafelter skal vises, når man previewer assets i collections'
+    label = 'Angiv hvilke metadatafelter skal ses, når man tilgår assets i denne collection-deling. Som standard vil nogle forudindstillede metadatafelter blive delt.'
     language_id = data.language.danish.id
     folder_id = resource.language_label_folder.media_manager.folder_id
     version_id = resource.product.media_manager.base_version_id
@@ -1785,6 +1769,86 @@ resource language_label collections_share_permission_administrator_en {
 resource language_label collections_share_permission_administrator_da {
     constant = 'COLLECTIONS_SHARE_PERMISSION_ADMINISTRATOR'
     label = 'Administrator'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label collections_share_download_rights_label_en {
+    constant = 'COLLECTIONS_SHARE_DOWNLOAD_RIGHTS_LABEL'
+    label = 'Download rights'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label collections_share_download_rights_label_da {
+    constant = 'COLLECTIONS_SHARE_DOWNLOAD_RIGHTS_LABEL'
+    label = 'Download-rettigheder'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label collections_share_download_rights_none_option_en {
+    constant = 'COLLECTIONS_SHARE_DOWNLOAD_RIGHTS_NONE_OPTION'
+    label = 'None'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label collections_share_download_rights_none_option_da {
+    constant = 'COLLECTIONS_SHARE_DOWNLOAD_RIGHTS_NONE_OPTION'
+    label = 'Ingen'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label collections_share_download_rights_can_download_assets_option_en {
+    constant = 'COLLECTIONS_SHARE_DOWNLOAD_RIGHTS_CAN_DOWNLOAD_ASSETS_OPTION'
+    label = 'Can download assets'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label collections_share_download_rights_can_download_assets_option_da {
+    constant = 'COLLECTIONS_SHARE_DOWNLOAD_RIGHTS_CAN_DOWNLOAD_ASSETS_OPTION'
+    label = 'Kan downloade assets'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label collections_share_download_rights_can_download_metadata_option_en {
+    constant = 'COLLECTIONS_SHARE_DOWNLOAD_RIGHTS_CAN_DOWNLOAD_METADATA_OPTION'
+    label = 'Can download metadata'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label collections_share_download_rights_can_download_metadata_option_da {
+    constant = 'COLLECTIONS_SHARE_DOWNLOAD_RIGHTS_CAN_DOWNLOAD_METADATA_OPTION'
+    label = 'Kan downloade metadata'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label collections_share_download_rights_can_download_assets_and_metadata_option_en {
+    constant = 'COLLECTIONS_SHARE_DOWNLOAD_RIGHTS_CAN_DOWNLOAD_ASSETS_AND_METADATA_OPTION'
+    label = 'Can download assets and metadata'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label collections_share_download_rights_can_download_assets_and_metadata_option_da {
+    constant = 'COLLECTIONS_SHARE_DOWNLOAD_RIGHTS_CAN_DOWNLOAD_ASSETS_AND_METADATA_OPTION'
+    label = 'Kan downloade assets og metadata'
     language_id = data.language.danish.id
     folder_id = resource.language_label_folder.media_manager.folder_id
     version_id = resource.product.media_manager.base_version_id

@@ -1038,6 +1038,22 @@ resource language_label asset_list_filter_menu_string_search_da {
     version_id = resource.product.media_manager.base_version_id
 }
 
+resource language_label asset_list_filter_menu_apply_values_en {
+    constant = 'ASSET_LIST_FILTER_MENU_APPLY_VALUES'
+    label = 'Apply values'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label asset_list_filter_menu_apply_values_da {
+    constant = 'ASSET_LIST_FILTER_MENU_APPLY_VALUES'
+    label = 'Anvend værdier'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
 resource language_label mm_asset_list_asset_list_comments_for_this_collection_en {
     constant = 'MM_ASSET_LIST_ASSET_LIST_COMMENTS_FOR_THIS_COLLECTION'
     label = 'Comments for this Collection'
