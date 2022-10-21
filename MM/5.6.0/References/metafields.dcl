@@ -26,6 +26,10 @@ data masteritem_reference_metafield mediamanager_favourites {
     item_guid = 'd10aef8d-af0e-4e33-bcb8-4d71e2c55269'
 }
 
+data slave_metafield mediamanager_favourites_slave {
+    item_guid = '54039ed7-c22f-418a-b319-f992d0af3ba6'
+}
+
 data combovalue_metafield type {
     item_guid = '01a2bf07-5474-4479-b9e1-0a78805d4465'
 }

@@ -9,6 +9,7 @@
     sort_index = 26
     auto_translate = 'Overwrite'
     restrict_to_asset_type = 'All'
+    related_metafield_id = resource.slave_metafield.mediamanager_favourites_slave.metafield_id
 }
 
 resource metafield_label mediamanager_favourites {

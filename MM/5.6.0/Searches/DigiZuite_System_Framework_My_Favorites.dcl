@@ -6,7 +6,7 @@
   <searchSection>
     <searchFields>
       <searchFields id="favorit">
-        <bindField id="favorit_1" itemGuid="${to_string(resource.slave_metafield.mediamanager_favourites_slave.item_guid)}">
+        <bindField id="favorit_1" itemGuid="${to_string(data.slave_metafield.mediamanager_favourites_slave.item_guid)}">
           <searchFields id="favorit_2">
             <searchField id="memberid" fieldName="member.memberid" />
           </searchFields>
