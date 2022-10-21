@@ -271,6 +271,18 @@ resource member_group super_administrator {
             constant = 'Can_crud_rabbit_health'
         }, {
             constant = 'Collection_Super_Administrator'
+        }, {
+            constant = 'Collection_can_share_mail'
+        }, {
+            constant = 'Collection_can_share_zip'
+        }, {
+            constant = 'Collection_can_share_user'
+        }, {
+            constant = 'Collection_can_share_group'
+        }, {
+            constant = 'Collection_can_share_link'
+        }, {
+            constant = 'Can_Email_Crop'
         }]
     autolink = {
         item_guid = '0d8dff0a-53d5-4161-8484-aa8c1af5680d'
@@ -408,6 +420,16 @@ resource member_group administrator_22 {
             constant = 'Can_view_service_health'
         }, {
             constant = 'Asset_Can_Archive'
+        }, {
+            constant = 'Collection_can_share_mail'
+        }, {
+            constant = 'Collection_can_share_zip'
+        }, {
+            constant = 'Collection_can_share_user'
+        }, {
+            constant = 'Collection_can_share_group'
+        }, {
+            constant = 'Collection_can_share_link'
         }]
     autolink = {
         item_guid = '58efafcb-4ce9-43d0-b413-b842fbccb576'
