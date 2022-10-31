@@ -4,19 +4,6 @@
     group_id = data.metafield_group.asset_info.metafield_group_id
 }
 
-data item_security crop_name__trusted {
-    accessor_item_id = data.member_group.trusted.item_id
-    item_id = data.string_metafield.crop_name.item_id
-    read = true
-    write = true
-}
-
-patch item_security crop_name__trusted {
-    target = data.item_security.crop_name__trusted
-    read = false
-    write = false
-}
-
 resource item_security crop_name__sitecore_digizuite_dam_for_sitecore_editors {
     accessor_item_id = data.member_group.dam_for_sitecore_editors.item_id
     item_id = data.string_metafield.crop_name.item_id

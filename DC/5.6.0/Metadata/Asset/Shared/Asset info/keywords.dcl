@@ -17,17 +17,3 @@ resource metafield_label keywords {
     label = resource.editmulticombovalue_metafield.keywords.name
     language_id = resource.language.english.id
 }
-
-resource item_security keywords__anonymous {
-    accessor_item_id = resource.member_group.anonymous.item_id
-    item_id = resource.editmulticombovalue_metafield.keywords.item_id
-    read = true
-    write = false
-}
-
-resource item_security keywords__trusted {
-    accessor_item_id = resource.member_group.trusted.item_id
-    item_id = resource.editmulticombovalue_metafield.keywords.item_id
-    read = true
-    write = true
-}

@@ -3,28 +3,6 @@
     item_guid = '5eb3eefc-a043-410f-89b0-29ed3ef37078'
 }
 
-data item_security title__anonymous {
-    accessor_item_id = data.member_group.anonymous.item_id
-    item_id = data.string_metafield.title.item_id
-}
-
-patch item_security title__anonymous {
-    target = data.item_security.title__anonymous
-    read = false
-    write = false
-}
-
-data item_security title__trusted {
-    accessor_item_id = data.member_group.trusted.item_id
-    item_id = data.string_metafield.title.item_id
-}
-
-patch item_security title__trusted {
-    target = data.item_security.title__trusted
-    read = false
-    write = false
-}
-
 resource item_security title__metadata_editor {
     accessor_item_id = resource.member_group.metadata_editor.item_id
     item_id = data.string_metafield.title.item_id

@@ -3,31 +3,6 @@
     name = 'CCC - Contained'
 }
 
-data item_security ccc_contained__anonymous {
-    accessor_item_id = data.member_group.anonymous.item_id
-    item_id = data.slave_metafield.ccc_contained.item_id
-    read = true
-    write = false
-}
-
-patch item_security ccc_contained__anonymous {
-    target = data.item_security.ccc_contained__anonymous
-    read = false
-}
-
-data item_security ccc_contained__trusted {
-    accessor_item_id = data.member_group.trusted.item_id
-    item_id = data.slave_metafield.ccc_contained.item_id
-    read = true
-    write = true
-}
-
-patch item_security ccc_contained__trusted {
-    target = data.item_security.ccc_contained__trusted
-    read = false
-    write = false
-}
-
 resource item_security ccc_contained__metadata_editor {
     accessor_item_id = resource.member_group.metadata_editor.item_id
     item_id = data.slave_metafield.ccc_contained.item_id

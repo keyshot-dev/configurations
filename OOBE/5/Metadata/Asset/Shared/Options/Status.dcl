@@ -2,31 +2,6 @@
     name = 'Status'
 }
 
-data item_security options_status__anonymous {
-    accessor_item_id = data.member_group.anonymous.item_id
-    item_id = data.combovalue_metafield.options_status.item_id
-    read = true
-    write = false
-}
-
-patch item_security options_status__anonymous {
-    target = data.item_security.options_status__anonymous
-    read = false
-}
-
-data item_security options_status__trusted {
-    accessor_item_id = data.member_group.trusted.item_id
-    item_id = data.combovalue_metafield.options_status.item_id
-    read = true
-    write = true
-}
-
-patch item_security options_status__trusted {
-    target = data.item_security.options_status__trusted
-    read = false
-    write = false
-}
-
 resource item_security options_status__metadata_editor {
     accessor_item_id = resource.member_group.metadata_editor.item_id
     item_id = data.combovalue_metafield.options_status.item_id

@@ -15,17 +15,3 @@ resource metafield_label asset_content {
     label = resource.note_metafield.asset_content.name
     language_id = resource.language.english.id
 }
-
-resource item_security asset_content__anonymous {
-    accessor_item_id = resource.member_group.anonymous.item_id
-    item_id = resource.note_metafield.asset_content.item_id
-    read = true
-    write = false
-}
-
-resource item_security asset_content__trusted {
-    accessor_item_id = resource.member_group.trusted.item_id
-    item_id = resource.note_metafield.asset_content.item_id
-    read = true
-    write = true
-}

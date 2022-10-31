@@ -16,17 +16,3 @@ resource metafield_label media_manager_menu {
 	label = resource.tree_metafield.media_manager_menu.name
 	language_id = resource.language.english.id
 }
-
-resource item_security media_manager_menu__anonymous {
-    accessor_item_id = resource.member_group.anonymous.item_id
-    item_id = resource.tree_metafield.media_manager_menu.item_id
-    read = true
-    write = false
-}
-
-resource item_security media_manager_menu__trusted {
-    accessor_item_id = resource.member_group.trusted.item_id
-    item_id = resource.tree_metafield.media_manager_menu.item_id
-    read = true
-    write = true
-}

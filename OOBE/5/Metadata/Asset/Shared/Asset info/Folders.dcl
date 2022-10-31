@@ -17,28 +17,6 @@ patch metafield_label folders_patch {
     label = 'Folders'
 }
 
-data item_security folders__anonymous {
-    accessor_item_id = data.member_group.anonymous.item_id
-    item_id = data.tree_metafield.folders.item_id
-}
-
-patch item_security folders__anonymous {
-    target = data.item_security.folders__anonymous
-    read = false
-    write = false
-}
-
-data item_security folders__trusted {
-    accessor_item_id = data.member_group.trusted.item_id
-    item_id = data.tree_metafield.folders.item_id
-}
-
-patch item_security folders__trusted {
-    target = data.item_security.folders__trusted
-    read = false
-    write = false
-}
-
 resource item_security folders__metadata_editor {
     accessor_item_id = resource.member_group.metadata_editor.item_id
     item_id = data.tree_metafield.folders.item_id

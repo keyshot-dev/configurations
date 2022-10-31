@@ -40,21 +40,6 @@ resource metafield_label options_message {
     language_id = data.language.english.id
 }
 
-resource item_security options_message__anonymous {
-    accessor_item_id = data.member_group.anonymous.item_id
-    item_id = resource.note_metafield.options_message.item_id
-    read = true
-    write = false
-}
-
-resource item_security options_message__trusted {
-    accessor_item_id = data.member_group.trusted.item_id
-    item_id = resource.note_metafield.options_message.item_id
-    read = true
-    write = true
-}
-
-
 resource masteritem_reference_metafield options_owner {
     item_guid = 'fc948200-c103-41fb-8dae-bd1c5c6ce281'
     autolink = {
@@ -74,20 +59,6 @@ resource metafield_label options_owner {
     language_id = data.language.english.id
 }
 
-resource item_security options_owner__anonymous {
-    accessor_item_id = data.member_group.anonymous.item_id
-    item_id = resource.masteritem_reference_metafield.options_owner.item_id
-    read = true
-    write = false
-}
-
-resource item_security options_owner__trusted {
-    accessor_item_id = data.member_group.trusted.item_id
-    item_id = resource.masteritem_reference_metafield.options_owner.item_id
-    read = true
-    write = true
-}
-
 resource combovalue_metafield options_status {
     item_guid = '6fe35f10-c810-497b-af9c-e52c3d583593'
     autolink = {
@@ -104,19 +75,4 @@ resource metafield_label options_status {
     metafield_id = resource.combovalue_metafield.options_status.metafield_id
     label = resource.combovalue_metafield.options_status.name
     language_id = data.language.english.id
-}
-
-
-resource item_security options_status__anonymous {
-    accessor_item_id = data.member_group.anonymous.item_id
-    item_id = resource.combovalue_metafield.options_status.item_id
-    read = true
-    write = false
-}
-
-resource item_security options_status__trusted {
-    accessor_item_id = data.member_group.trusted.item_id
-    item_id = resource.combovalue_metafield.options_status.item_id
-    read = true
-    write = true
 }

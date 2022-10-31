@@ -16,17 +16,3 @@ resource metafield_label title {
     label = resource.string_metafield.title.name
     language_id = resource.language.english.id
 }
-
-resource item_security title__anonymous {
-    accessor_item_id = resource.member_group.anonymous.item_id
-    item_id = resource.string_metafield.title.item_id
-    read = true
-    write = false
-}
-
-resource item_security title__trusted {
-    accessor_item_id = resource.member_group.trusted.item_id
-    item_id = resource.string_metafield.title.item_id
-    read = true
-    write = true
-}

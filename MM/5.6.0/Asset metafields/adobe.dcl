@@ -16,23 +16,6 @@ resource metafield_label adobe_contained {
     language_id = data.language.english.id
 }
 
-
-resource item_security adobe_contained__anonymous {
-    accessor_item_id = data.member_group.anonymous.item_id
-    item_id = resource.slave_metafield.adobe_contained.item_id
-    read = true
-    write = false
-}
-
-resource item_security adobe_contained__trusted {
-    accessor_item_id = data.member_group.trusted.item_id
-    item_id = resource.slave_metafield.adobe_contained.item_id
-    read = true
-    write = true
-}
-
-
-
 resource masteritem_reference_metafield adobe_links {
     item_guid = '9a1ce4b9-1e8c-449f-955c-c9a8f355bf61'
     autolink = {
@@ -53,18 +36,3 @@ resource metafield_label adobe_links {
     label = resource.masteritem_reference_metafield.adobe_links.name
     language_id = data.language.english.id
 }
-
-resource item_security adobe_links__anonymous {
-    accessor_item_id = data.member_group.anonymous.item_id
-    item_id = resource.masteritem_reference_metafield.adobe_links.item_id
-    read = true
-    write = false
-}
-
-resource item_security adobe_links__trusted {
-    accessor_item_id = data.member_group.trusted.item_id
-    item_id = resource.masteritem_reference_metafield.adobe_links.item_id
-    read = true
-    write = true
-}
-
