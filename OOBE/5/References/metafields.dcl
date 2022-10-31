@@ -19,7 +19,3 @@ data metafield_label is_public {
     language_id = data.language.english.id
 }
 
-data meta_group_folder asset {
-    name = 'Asset'
-}
-

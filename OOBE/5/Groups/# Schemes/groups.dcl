@@ -76,7 +76,7 @@ resource member_group scheme_light_user {
     roles = []
 }
 
-resource member_group scheme_upload_only_user {
+resource member_group scheme_upload_only {
     name = 'Scheme - Upload only'
     folder_id = resource.member_group_folder.schemas.id
     sort_index = 0

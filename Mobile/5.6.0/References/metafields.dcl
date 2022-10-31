@@ -33,22 +33,10 @@ data masteritem_reference_metafield mediamanager_favourites {
     name = 'MediaManager Favourites'
 }
 
-data note_metafield comment {
-    item_guid = '4db76e4f-0952-4f22-b7b7-030bc4808c33'
-    group_id = data.metafield_group.comments.metafield_group_id
-    name = 'Comment'
-}
-
 data string_metafield crop {
     item_guid = '050d76ad-822a-409b-a18c-e41e677c1716'
     name = 'Crop'
     group_id = data.metafield_group.video.metafield_group_id
-}
-
-data datetime_metafield date {
-    item_guid = 'b714b55b-025a-476c-8067-d1b16e0a20e4'
-    group_id = data.metafield_group.comments.metafield_group_id
-    name = 'Date'
 }
 
 data string_metafield frameaccurate_thumbnail {

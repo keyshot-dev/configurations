@@ -18,11 +18,6 @@
       <valueField id="fileSize" fieldName="asset.file_size" returnType="long" format="fileSize" displayOrder="8" />
       <valueField id="menuItems" itemGuid="${to_string(data.tree_metafield.media_manager_menu.item_guid)}" isArray="true" hideOnDefaultValue="true" displayOrder="9" />
       <valueField id="videoLength" fieldName="asset.sourceout" format="duration" pattern="hh:mm:ss.fff" displayOrder="10" />
-      <!-- Iterative Metagroup -->
-      <valueFields id="comments" isIterative="true">
-        <valueField id="commentDate" itemGuid="${to_string(data.datetime_metafield.date.item_guid)}" returnType="datetime" />
-        <valueField id="commentText" itemGuid="${to_string(data.note_metafield.comment.item_guid)}" />
-      </valueFields>
     </valueFields>
     <sortFields />
   </searchSection>

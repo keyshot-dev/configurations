@@ -77,7 +77,7 @@ resource member upload {
     ad_username = ''
     avatar_id = ''
     groups = [{
-        member_group_id = resource.member_group.scheme_upload_only_user.member_group_id
+        member_group_id = resource.member_group.scheme_upload_only.member_group_id
     }]
     roles = []
     autolink = {
