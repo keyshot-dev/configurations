@@ -50,7 +50,6 @@ action "Set Status = Expired" {
 	needs = []
 	meta_field = "guid:${to_string(data.combovalue_metafield.options_status.item_guid)}"
 	new_value = "${to_string(resource.combo_value.status_expired.option_value)}"
-	asset_item_ids = "@asset"
 	use_versioned_metadata = "false"
 	asset_item_ids = "@asset"
 }
