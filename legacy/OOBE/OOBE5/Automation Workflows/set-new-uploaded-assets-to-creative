@@ -8,6 +8,6 @@ action "Set ComboValue Metafield" {
     type = "Set ComboValue Metafield"
     meta_field = "guid:6FE35F10-C810-497B-AF9C-E52C3D583593"
     new_value = "#54a0ff;creative"
-    asset_item_id = "@sourceAssetItemId"
+    asset_item_ids = "@sourceAssetItemId"
     use_versioned_metadata = "false"
 }

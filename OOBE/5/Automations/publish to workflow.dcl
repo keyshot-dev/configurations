@@ -105,7 +105,7 @@ filter "Is Number Filter 1" {
 filter "Check if Unlocked" {
 	type = "Metadata bit filter"
 	needs = "If added"
-	asset_item_id = "@sourceAssetItemId"
+	asset_item_ids = "@sourceAssetItemId"
 	metafield_item_id = "guid:${to_string(data.bit_metafield.is_public.item_guid)}"
 	expected_value = "false"
 	negate = "false"
@@ -116,7 +116,7 @@ action "Set Is Public" {
 	needs = "Check if Unlocked"
 	meta_field = "guid:${to_string(data.bit_metafield.is_public.item_guid)}"
 	new_value = "true"
-	asset_item_id = "@sourceAssetItemId"
+	asset_item_ids = "@sourceAssetItemId"
 	use_versioned_metadata = "false"
 }
 
@@ -133,7 +133,7 @@ action "Unset Is Public" {
 	needs = "Published to empty?"
 	meta_field = "guid:${to_string(data.bit_metafield.is_public.item_guid)}"
 	new_value = "false"
-	asset_item_id = "@sourceAssetItemId"
+	asset_item_ids = "@sourceAssetItemId"
 	use_versioned_metadata = "false"
 }
 '

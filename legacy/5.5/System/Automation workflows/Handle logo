@@ -31,7 +31,7 @@ action "Set Is logo to true" {
     needs = "If upload computer is logo uploader"
     meta_field = "guid:939D9ED0-A5C0-4FE4-9D45-23928DB9C50A"
     new_value = "true"
-    asset_item_id = "@sourceAssetItemId"
+    asset_item_ids = "@sourceAssetItemId"
     use_versioned_metadata = "false"
 }
 

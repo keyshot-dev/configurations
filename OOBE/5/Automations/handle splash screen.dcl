@@ -61,7 +61,7 @@ action "Set Bit Metafield" {
 	needs = "If uploaded by splash screen"
 	meta_field = "guid:${to_string(data.bit_metafield.is_intro_material.item_guid)}"
 	new_value = "true"
-	asset_item_id = "@sourceAssetItemId"
+	asset_item_ids = "@sourceAssetItemId"
 	use_versioned_metadata = "false"
 }
 

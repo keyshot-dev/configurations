@@ -67,7 +67,7 @@ action "Set IsIntro to true" {
     needs = "If splashscreen meterial upload"
     meta_field = "guid:DB42164C-8316-4C08-AD4A-05EA7ACD346C"
     new_value = "true"
-    asset_item_id = "@sourceAssetItemId"
+    asset_item_ids = "@sourceAssetItemId"
     use_versioned_metadata = "false"
 }
 

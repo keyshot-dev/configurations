@@ -32,7 +32,7 @@ action "Set Published to to Episerver" {
    update_method = "merge"
    meta_field = "guid:${data.tree_metafield.published_to.item_guid}"
    new_value = "${resource.tree_node.published_to__episerver.option_value}"
-   asset_item_id = "@sourceAssetItemId"
+   asset_item_ids = "@sourceAssetItemId"
    use_versioned_metadata = "false"
 }'
     is_disabled = false

@@ -53,7 +53,7 @@ action "Set Bit Metafield" {
 	needs = "If upload computer is profile uploader"
 	meta_field = "guid:${to_string(data.bit_metafield.is_profile_material.item_guid)}"
 	new_value = "true"
-	asset_item_id = "@sourceAssetItemId"
+	asset_item_ids = "@sourceAssetItemId"
 	use_versioned_metadata = "false"
 }
 '
