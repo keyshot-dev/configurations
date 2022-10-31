@@ -16,17 +16,3 @@ resource metafield_label frameaccurate_thumbnail {
     label = resource.string_metafield.frameaccurate_thumbnail.name
     language_id = resource.language.english.id
 }
-
-resource item_security frameaccurate_thumbnail__anonymous {
-    accessor_item_id = resource.member_group.anonymous.item_id
-    item_id = resource.string_metafield.frameaccurate_thumbnail.item_id
-    read = true
-    write = false
-}
-
-resource item_security frameaccurate_thumbnail__trusted {
-    accessor_item_id = resource.member_group.trusted.item_id
-    item_id = resource.string_metafield.frameaccurate_thumbnail.item_id
-    read = true
-    write = true
-}

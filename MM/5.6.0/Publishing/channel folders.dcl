@@ -49,27 +49,12 @@ resource item_security content__trusted {
     write = true
 }
 
-resource item_security content__super_administrator {
-    accessor_item_id = data.member_group.super_administrator.item_id
-    item_id = resource.channel_folder.content.item_id
-    read = true
-    write = true
-}
-
-
 resource channel_folder admin_access {
     name = 'Admin Access'
     parent_id = resource.channel_folder.content.channel_folder_id
     autolink {
         item_guid = 'f31536d3-9d7e-4b96-919b-8be89f0cc22e'
     }
-}
-
-resource item_security admin_access__super_administrator {
-    accessor_item_id = data.member_group.super_administrator.item_id
-    item_id = resource.channel_folder.admin_access.item_id
-    read = true
-    write = true
 }
 
 resource channel_folder rights_management {
@@ -87,21 +72,6 @@ resource item_security rights_management__anonymous {
     write = false
 }
 
-resource item_security rights_management__trusted {
-    accessor_item_id = data.member_group.trusted.item_id
-    item_id = resource.channel_folder.rights_management.item_id
-    read = true
-    write = true
-}
-
-resource item_security rights_management__super_administrator {
-    accessor_item_id = data.member_group.super_administrator.item_id
-    item_id = resource.channel_folder.rights_management.item_id
-    read = true
-    write = true
-}
-
-
 resource channel_folder public_access {
     name = 'Public access'
     parent_id = resource.channel_folder.rights_management.channel_folder_id
@@ -115,20 +85,6 @@ resource item_security public_access__anonymous {
     item_id = resource.channel_folder.public_access.item_id
     read = true
     write = false
-}
-
-resource item_security public_access__trusted {
-    accessor_item_id = data.member_group.trusted.item_id
-    item_id = resource.channel_folder.public_access.item_id
-    read = true
-    write = false
-}
-
-resource item_security public_access__content_creator {
-    accessor_item_id = data.member_group.content_creator.item_id
-    item_id = resource.channel_folder.public_access.item_id
-    read = true
-    write = true
 }
 
 resource item_security public_access__internal_access {
@@ -145,14 +101,6 @@ resource item_security public_access__public_access {
     write = false
 }
 
-resource item_security public_access__super_administrator {
-    accessor_item_id = data.member_group.super_administrator.item_id
-    item_id = resource.channel_folder.public_access.item_id
-    read = true
-    write = true
-}
-
-
 resource channel_folder internal_access {
     name = 'Internal access'
     parent_id = resource.channel_folder.rights_management.channel_folder_id
@@ -168,28 +116,6 @@ resource item_security internal_access__internal_access {
     write = false
 }
 
-resource item_security internal_access__trusted {
-    accessor_item_id = data.member_group.trusted.item_id
-    item_id = resource.channel_folder.internal_access.item_id
-    read = true
-    write = false
-}
-
-resource item_security internal_access__content_creator {
-    accessor_item_id = data.member_group.content_creator.item_id
-    item_id = resource.channel_folder.internal_access.item_id
-    read = true
-    write = true
-}
-
-resource item_security internal_access__super_administrator {
-    accessor_item_id = data.member_group.super_administrator.item_id
-    item_id = resource.channel_folder.internal_access.item_id
-    read = true
-    write = true
-}
-
-
 resource channel_folder portal_material {
     name = 'Portal Material'
     parent_id = resource.channel_folder.root.channel_folder_id
@@ -197,15 +123,6 @@ resource channel_folder portal_material {
         item_guid = '93194a08-9f90-4091-8f84-764e8f61be33'
     }
 }
-
-resource item_security portal_material__super_administrator {
-    accessor_item_id = data.member_group.super_administrator.item_id
-    item_id = resource.channel_folder.portal_material.item_id
-    read = true
-    write = true
-}
-
-
 
 resource channel_folder splashscreen {
     name = 'Splashscreen'
@@ -222,22 +139,6 @@ resource item_security splashscreen__anonymous {
     write = false
 }
 
-resource item_security splashscreen__trusted {
-    accessor_item_id = data.member_group.trusted.item_id
-    item_id = resource.channel_folder.splashscreen.item_id
-    read = true
-    write = true
-}
-
-resource item_security splashscreen__super_administrator {
-    accessor_item_id = data.member_group.super_administrator.item_id
-    item_id = resource.channel_folder.splashscreen.item_id
-    read = true
-    write = true
-}
-
-
-
 resource channel_folder logo {
     name = 'Logo'
     parent_id = resource.channel_folder.portal_material.channel_folder_id
@@ -253,21 +154,6 @@ resource item_security logo__anonymous {
     write = false
 }
 
-resource item_security logo__trusted {
-    accessor_item_id = data.member_group.trusted.item_id
-    item_id = resource.channel_folder.logo.item_id
-    read = true
-    write = true
-}
-
-resource item_security logo__super_administrator {
-    accessor_item_id = data.member_group.super_administrator.item_id
-    item_id = resource.channel_folder.logo.item_id
-    read = true
-    write = true
-}
-
-
 resource channel_folder profile_images {
     name = 'Profile images'
     parent_id = resource.channel_folder.portal_material.channel_folder_id
@@ -282,19 +168,3 @@ resource item_security profile_images__anonymous {
     read = true
     write = false
 }
-
-resource item_security profile_images__trusted {
-    accessor_item_id = data.member_group.trusted.item_id
-    item_id = resource.channel_folder.profile_images.item_id
-    read = true
-    write = true
-}
-
-resource item_security profile_images__super_administrator {
-    accessor_item_id = data.member_group.super_administrator.item_id
-    item_id = resource.channel_folder.profile_images.item_id
-    read = true
-    write = true
-}
-
-
