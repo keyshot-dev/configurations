@@ -2,10 +2,6 @@
     name = 'Trusted'
 }
 
-data member_group content_creator {
-    name = 'Content creator'
-}
-
 data member_group super_administrator {
     name = 'Super administrator'
 }
