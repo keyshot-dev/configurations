@@ -21,7 +21,3 @@ data member_group metadata_viewer {
 data member_group metadata_editor {
     name = 'Metadata editor'
 }
-
-data member_group trusted {
-    name = 'Trusted'
-}
