@@ -1072,7 +1072,7 @@ resource language_label collections_share_field_item_guids_description_da {
 
 resource language_label collections_share_expiration_date_label_en {
     constant = 'COLLECTIONS_SHARE_EXPIRATION_DATE_LABEL'
-    label = 'Expiration date'
+    label = 'Access period'
     language_id = data.language.english.id
     folder_id = resource.language_label_folder.media_manager.folder_id
     version_id = resource.product.media_manager.base_version_id
@@ -1080,7 +1080,7 @@ resource language_label collections_share_expiration_date_label_en {
 
 resource language_label collections_share_expiration_date_label_da {
     constant = 'COLLECTIONS_SHARE_EXPIRATION_DATE_LABEL'
-    label = 'Udløbsdato'
+    label = 'Adgangsperiode'
     language_id = data.language.danish.id
     folder_id = resource.language_label_folder.media_manager.folder_id
     version_id = resource.product.media_manager.base_version_id
@@ -1088,7 +1088,7 @@ resource language_label collections_share_expiration_date_label_da {
 
 resource language_label collections_share_expiration_date_info_en {
     constant = 'COLLECTIONS_SHARE_EXPIRATION_DATE_INFO'
-    label = 'Set an expiration date for the share'
+    label = 'Limit the active period for this share'
     language_id = data.language.english.id
     folder_id = resource.language_label_folder.media_manager.folder_id
     version_id = resource.product.media_manager.base_version_id
@@ -1096,7 +1096,7 @@ resource language_label collections_share_expiration_date_info_en {
 
 resource language_label collections_share_expiration_date_info_da {
     constant = 'COLLECTIONS_SHARE_EXPIRATION_DATE_INFO'
-    label = 'Sæt en udløbsdato for delingen'
+    label = 'Begræns den aktive periode for delingen'
     language_id = data.language.danish.id
     folder_id = resource.language_label_folder.media_manager.folder_id
     version_id = resource.product.media_manager.base_version_id
@@ -1120,7 +1120,7 @@ resource language_label collections_share_expiration_start_date_label_da {
 
 resource language_label collections_share_expiration_end_date_label_en {
     constant = 'COLLECTIONS_SHARE_EXPIRATION_END_DATE_LABEL'
-    label = 'End date'
+    label = 'End date (including)'
     language_id = data.language.english.id
     folder_id = resource.language_label_folder.media_manager.folder_id
     version_id = resource.product.media_manager.base_version_id
@@ -1128,7 +1128,7 @@ resource language_label collections_share_expiration_end_date_label_en {
 
 resource language_label collections_share_expiration_end_date_label_da {
     constant = 'COLLECTIONS_SHARE_EXPIRATION_END_DATE_LABEL'
-    label = 'Slutdato'
+    label = 'Slutdato (til og med)'
     language_id = data.language.danish.id
     folder_id = resource.language_label_folder.media_manager.folder_id
     version_id = resource.product.media_manager.base_version_id

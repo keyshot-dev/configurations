@@ -478,3 +478,35 @@ resource language_label selected_assets_overlay_selected_button_da {
     version_id = resource.product.media_manager.base_version_id
 }
 
+resource language_label selected_assets_overlay_metadata_download_no_quality_en {
+    constant = 'SELECTED_ASSETS_OVERLAY_METADATA_DOWNLOAD_NO_QUALITY'
+    label = 'No qualities available'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label selected_assets_overlay_metadata_download_no_quality_da {
+    constant = 'SELECTED_ASSETS_OVERLAY_METADATA_DOWNLOAD_NO_QUALITY'
+    label = 'Ingen tilgængelige kvaliteter'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label selected_assets_overlay_metadata_download_no_quality_tooltip_en {
+    constant = 'SELECTED_ASSETS_OVERLAY_METADATA_DOWNLOAD_NO_QUALITY_TOOLTIP'
+    label = 'No qualities available for download'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label selected_assets_overlay_metadata_download_no_quality_tooltip_da {
+    constant = 'SELECTED_ASSETS_OVERLAY_METADATA_DOWNLOAD_NO_QUALITY_TOOLTIP'
+    label = 'Ingen kvaliteter tilgængelige til download'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+

@@ -1054,6 +1054,22 @@ resource language_label asset_list_filter_menu_apply_values_da {
     version_id = resource.product.media_manager.base_version_id
 }
 
+resource language_label asset_list_filter_menu_na_placeholder_en {
+    constant = 'ASSET_LIST_FILTER_MENU_NA_PLACEHOLDER'
+    label = 'N/A'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label asset_list_filter_menu_na_placeholder_da {
+    constant = 'ASSET_LIST_FILTER_MENU_NA_PLACEHOLDER'
+    label = 'N/A'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
 resource language_label mm_asset_list_asset_list_comments_for_this_collection_en {
     constant = 'MM_ASSET_LIST_ASSET_LIST_COMMENTS_FOR_THIS_COLLECTION'
     label = 'Comments for this Collection'
@@ -1600,7 +1616,7 @@ resource language_label asset_list_add_new_filter_input_add_fields_da {
 
 resource language_label asset_list_filter_property_title_en {
     constant = 'ASSET_LIST_FILTER_PROPERTY_TITLE'
-    label = '{property, select, assetId {Asset ID} itemId {Item ID} originalFileName {Original filename} assetType {Asset type} derivedFrom {Parent asset} replacedWith {Show old versions of} extension {Extension} uploader {Upload user} uploadComputer {Upload product} channelFolder {Channel folder} uploadDate {Upload date} fileSize {Original file size} lastChangedDate {Last updated} width {Pixel width} height {Pixel height} duration {Duration}}'
+    label = '{property, select, assetId {Asset ID} itemId {Item ID} originalFileName {Original file name} assetType {Asset type} derivedFrom {Parent asset} replacedWith {Show old versions of} extension {Extension} uploader {Upload user} uploadComputer {Upload product} channelFolder {Channel folder} uploadDate {Upload date} fileSize {Original file size} lastChangedDate {Last updated} width {Pixel width} height {Pixel height} duration {Duration} deleted {Deleted}}'
     language_id = data.language.english.id
     folder_id = resource.language_label_folder.media_manager.folder_id
     version_id = resource.product.media_manager.base_version_id
@@ -1608,7 +1624,7 @@ resource language_label asset_list_filter_property_title_en {
 
 resource language_label asset_list_filter_property_title_da {
     constant = 'ASSET_LIST_FILTER_PROPERTY_TITLE'
-    label = '{property, select, assetId {Asset-ID} itemId {Item-ID} originalFileName {Oprindeligt filnavn} assetType {Assettype} derivedFrom {Forælder-asset} replacedWith {Vis gamle versioner af} extension {Udvidelse} uploader {Upload-bruger} uploadComputer {Upload-produkt} channelFolder {Kanalmappe} uploadDate {Uploaddato} fileSize {Oprindelig filstørrelse} lastChangedDate {Sidst opdateret} width {Pixel-bredde} height {Pixel-højde} duration {Varighed}}'
+    label = '{property, select, assetId {Asset-ID} itemId {Item-ID} originalFileName {Oprindeligt filnavn} assetType {Assettype} derivedFrom {Forælder-asset} replacedWith {Vis gamle versioner af} extension {Filendelse} uploader {Upload-bruger} uploadComputer {Upload-produkt} channelFolder {Kanalmappe} uploadDate {Uploaddato} fileSize {Oprindelig filstørrelse} lastChangedDate {Sidst opdateret} width {Pixel-bredde} height {Pixel-højde} duration {Varighed} deleted {Slettet}}'
     language_id = data.language.danish.id
     folder_id = resource.language_label_folder.media_manager.folder_id
     version_id = resource.product.media_manager.base_version_id
