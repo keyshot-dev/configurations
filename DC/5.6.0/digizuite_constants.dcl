@@ -494,3 +494,12 @@ resource digizuite_config damstat_excludedips {
 		constant = 'DamStat_ExcludedIPs'
 	}
 }
+
+resource digizuite_config download_destination_id {
+    constant = 'DOWNLOADDESTINATIONID'
+    config_value = to_string(resource.destination.frontend_zip_download_sm.destination_id)
+    description = 'Destination where crops and custom images are stored and downloaded from'
+	autolink {
+		constant = 'DOWNLOADDESTINATIONID'
+	}
+}
