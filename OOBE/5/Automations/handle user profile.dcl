@@ -3,7 +3,7 @@
     content = 'trigger "Is profile set to true" {
 	type = "Specific Metadata Value"
 	resolves = ["Move asset to profile image channel folder 1","Move asset to profile image catalog folder 1"]
-	value = "true"
+	values = "true"
 	ignore_casing = "true"
 	meta_field = "guid:${to_string(data.bit_metafield.is_profile_material.item_guid)}"
 	listen_to_metadata_changes = "addedonly"

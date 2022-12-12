@@ -4,7 +4,7 @@
     content = 'trigger "Is logo set to true" {
 	type = "Specific Metadata Value"
 	resolves = "Move to logo channel folder 1"
-	value = "true"
+	values = "true"
 	ignore_casing = "true"
 	meta_field = "guid:${to_string(data.bit_metafield.is_logo.item_guid)}"
 	listen_to_metadata_changes = "addedonly"

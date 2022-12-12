@@ -3,7 +3,7 @@
     content = 'trigger "Is intro material set to true" {
 	type = "Specific Metadata Value"
 	resolves = ["Move asset to Splash screen channel folder 1","Move asset to Splash screen catalog video folder 1","Move asset to Splash screen catalog image folder 1"]
-	value = "true"
+	values = "true"
 	ignore_casing = "true"
 	meta_field = "guid:${to_string(data.bit_metafield.is_intro_material.item_guid)}"
 	listen_to_metadata_changes = "addedonly"
