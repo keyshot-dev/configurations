@@ -1,4 +1,8 @@
-﻿data masteritem_reference_metafield profile_image {
+﻿data tree_metafield media_manager_menu {
+    item_guid = 'bf0ad1a6-984a-494e-a227-9d70c6a864f9'
+}
+
+data masteritem_reference_metafield profile_image {
     item_guid = 'e2dced3c-a38a-45d5-959b-e57b80211bef'
 }
 
