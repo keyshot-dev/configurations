@@ -1,17 +1,5 @@
-﻿data tree_metafield media_manager_menu {
-    item_guid = 'bf0ad1a6-984a-494e-a227-9d70c6a864f9'
-}
-
-data string_metafield cropname  {
-    item_guid = 'fa70d7f6-12ae-4f51-af05-6296d5608b7c'
-}
-
-data masteritem_reference_metafield profile_image {
+﻿data masteritem_reference_metafield profile_image {
     item_guid = 'e2dced3c-a38a-45d5-959b-e57b80211bef'
-}
-
-data editmulticombovalue_metafield keywords {
-    item_guid = '6afe78b7-3f24-49f3-bf95-24890ea62696'
 }
 
 data string_metafield title {
@@ -24,10 +12,6 @@ data note_metafield description {
 
 data masteritem_reference_metafield mediamanager_favourites {
     item_guid = 'd10aef8d-af0e-4e33-bcb8-4d71e2c55269'
-}
-
-data slave_metafield mediamanager_favourites_slave {
-    item_guid = '54039ed7-c22f-418a-b319-f992d0af3ba6'
 }
 
 data combovalue_metafield type {
