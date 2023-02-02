@@ -1,4 +1,4 @@
-﻿resource string_metafield frameaccurate_thumbnail {
+resource string_metafield frameaccurate_thumbnail {
     item_guid = 'cd420283-d734-4b0c-9849-3406466e0954'
     autolink = {
         item_guid = 'cd420283-d734-4b0c-9849-3406466e0954'

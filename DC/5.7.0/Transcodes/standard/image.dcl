@@ -1,4 +1,4 @@
-﻿resource media_transcode image__thumb_200x120_10 {
+resource media_transcode image__thumb_200x120_10 {
     name = 'Image - Thumb 200x120'
     description = ''
     is_public = true

@@ -1,4 +1,4 @@
-﻿resource search get_assets_by_id {
+resource search get_assets_by_id {
     version_id = resource.product.media_manager.base_version_id
     name = 'GetAssetsById'
     is_customizable = true

@@ -1,4 +1,4 @@
-﻿resource media_transcode indesign_exifthumb_to_jpg_small_50067 {
+resource media_transcode indesign_exifthumb_to_jpg_small_50067 {
     folder_id = resource.transcode_folder.digizuite_media_manager_10003.id
 	name = 'InDesign ExifThumb to JPG Small'
 	description = ''

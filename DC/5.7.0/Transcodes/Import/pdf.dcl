@@ -1,4 +1,4 @@
-﻿resource media_transcode adobe_pdf_page_image_im_50068 {
+resource media_transcode adobe_pdf_page_image_im_50068 {
     name = 'Adobe PDF Page Image (IM)'
     description = ''
     is_public = true

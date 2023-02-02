@@ -1,4 +1,4 @@
-﻿resource string_metafield crop {
+resource string_metafield crop {
     item_guid = '050d76ad-822a-409b-a18c-e41e677c1716'
     autolink = {
         item_guid = '050d76ad-822a-409b-a18c-e41e677c1716'

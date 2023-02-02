@@ -1,4 +1,4 @@
-﻿resource search get_assets {
+resource search get_assets {
     version_id = resource.product.digizuite_dam_center.base_version_id
     name = 'GetAssets'
     is_customizable = true

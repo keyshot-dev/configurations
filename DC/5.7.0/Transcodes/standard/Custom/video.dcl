@@ -1,4 +1,4 @@
-﻿
+
 resource media_transcode video_thumb_ffmpeg_10053 {
     name = 'Video Thumb ffmpeg'
     description = ''

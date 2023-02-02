@@ -1,4 +1,4 @@
-﻿resource search get_item_reference_info {
+resource search get_item_reference_info {
     version_id = resource.product.media_manager.base_version_id
     name = 'GetItemReferenceInfo'
     is_customizable = false

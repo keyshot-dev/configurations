@@ -1,4 +1,4 @@
-﻿resource search getmetagroups_119_0 {
+resource search getmetagroups_119_0 {
     version_id = resource.product.digizuite_dam_center.base_version_id
     name = 'GetMetaGroups'
     is_customizable = false

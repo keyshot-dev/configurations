@@ -1,4 +1,4 @@
-﻿resource search digizuite_system_metadata_listrowmetafieldsv2 {
+resource search digizuite_system_metadata_listrowmetafieldsv2 {
     version_id = resource.product.digizuite_dam_center.base_version_id
     name = 'DigiZuite_system_metadata_listRowMetafieldsv2'
     is_customizable = false

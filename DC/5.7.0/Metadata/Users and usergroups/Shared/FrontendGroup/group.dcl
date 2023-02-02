@@ -1,4 +1,4 @@
-﻿resource metafield_group frontendgroup {
+resource metafield_group frontendgroup {
     name = 'FrontendGroup'
     show_in_list = true
     folder_id = resource.meta_group_folder.users_and_usergroups_shared.id

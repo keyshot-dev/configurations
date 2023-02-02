@@ -1,4 +1,4 @@
-﻿resource media_format jpg_big {
+resource media_format jpg_big {
     folder_id = resource.media_format_folder.image_189.id
 	format_type_id = resource.media_format_type.jpeg_compressed_formats_40001.media_format_type_id
 	name = 'JPG big'

@@ -1,4 +1,4 @@
-﻿resource search get_assetuploaded_information {
+resource search get_assetuploaded_information {
     version_id = resource.product.media_manager.base_version_id
     name = 'GetAssetUploadedInformation'
     is_customizable = false

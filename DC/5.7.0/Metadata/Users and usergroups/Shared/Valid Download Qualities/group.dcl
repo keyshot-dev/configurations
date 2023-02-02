@@ -1,4 +1,4 @@
-﻿resource metafield_group valid_download_qualities {
+resource metafield_group valid_download_qualities {
     name = 'Download Qualities'
     show_in_list = true
     folder_id = resource.meta_group_folder.users_and_usergroups_shared.id

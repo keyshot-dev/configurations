@@ -1,4 +1,4 @@
-﻿resource search digizuite_system_layoutquickselect {
+resource search digizuite_system_layoutquickselect {
     version_id = resource.product.digizuite_dam_center.base_version_id
     name = 'Digizuite_system_layoutQuickSelect'
     is_customizable = false

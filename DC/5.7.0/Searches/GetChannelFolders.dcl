@@ -1,4 +1,4 @@
-﻿resource search get_channel_folders {
+resource search get_channel_folders {
     version_id = resource.product.digizuite_dam_center.base_version_id
     name = 'GetChannelFolders'
     is_customizable = false

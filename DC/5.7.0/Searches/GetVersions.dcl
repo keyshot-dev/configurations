@@ -1,4 +1,4 @@
-﻿resource search get_versions {
+resource search get_versions {
     version_id = resource.product.digizuite_dam_center.base_version_id
     name = 'GetVersions'
     is_customizable = false

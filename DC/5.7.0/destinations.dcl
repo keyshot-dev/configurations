@@ -2,7 +2,7 @@ resource destination asset_storage_azure {
     name = 'Asset storage Azure'
     destination_type = 'Azure'
     storage_manager_id = resource.destination.asset_storage_sm.destination_id
-    is_public = false
+    is_public = variable.storage_use_azure
     unc_share = ''
     ftp_host = ''
     ftp_port = 0
@@ -22,8 +22,8 @@ resource destination asset_storage_azure {
     upload_temp_and_rename = false
     skip_if_exists = false
     timeout = 0
-    azure_storage_account = '<fill_azure_storage_account>'
-    azure_access_key = '<fill_azure_access_key>'
+    azure_storage_account = variable.asset_storage_azure_storage_account
+    azure_access_key = variable.asset_storage_azure_access_key
     cdn_url = ''
     cache_public = false
     cache_no_cache = false
@@ -119,7 +119,7 @@ resource destination frontenddata_azure {
     name = 'FrontendData Azure'
     destination_type = 'Azure'
     storage_manager_id = resource.destination.frontenddata_sm.destination_id
-    is_public = false
+    is_public = variable.storage_use_azure
     unc_share = ''
     ftp_host = ''
     ftp_port = 0
@@ -139,8 +139,8 @@ resource destination frontenddata_azure {
     upload_temp_and_rename = false
     skip_if_exists = false
     timeout = 0
-    azure_storage_account = '<fill_frontend_azure_storage_account>'
-    azure_access_key = '<fill_frontend_azure_access_key>'
+    azure_storage_account = variable.frontend_storage_azure_storage_account
+    azure_access_key = variable.frontend_storage_azure_access_key
     cdn_url = ''
     cache_public = false
     cache_no_cache = false

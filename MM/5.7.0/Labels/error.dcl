@@ -1,4 +1,4 @@
-﻿resource language_label lbl_mp_error_403_en {
+resource language_label lbl_mp_error_403_en {
     constant = 'LBL_MP_ERROR_403'
     label = 'Access Denied'
     language_id = data.language.english.id

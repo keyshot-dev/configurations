@@ -1,4 +1,4 @@
-﻿resource media_format video_480p {
+resource media_format video_480p {
 	folder_id = resource.media_format_folder.video.id
     format_type_id = resource.media_format_type.mpeg_4_10201.media_format_type_id
 	name = '480p'

@@ -1,4 +1,4 @@
-﻿resource search exportsearch_193_0 {
+resource search exportsearch_193_0 {
     version_id = resource.product.digizuite_dam_center.base_version_id
     name = 'exportSearch'
     is_customizable = true

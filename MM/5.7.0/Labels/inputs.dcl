@@ -1,4 +1,4 @@
-﻿resource language_label inputs_tree_input_options_en {
+resource language_label inputs_tree_input_options_en {
     constant = 'INPUTS_TREE_INPUT_OPTIONS'
     label = 'Options...'
     language_id = data.language.english.id

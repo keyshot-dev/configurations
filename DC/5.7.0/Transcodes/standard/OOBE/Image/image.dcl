@@ -1,4 +1,4 @@
-﻿resource media_transcode jpg_medium_transcode_50057 {
+resource media_transcode jpg_medium_transcode_50057 {
     folder_id = resource.transcode_folder.image.id
 	name = 'JPG medium transcode'
 	description = ''

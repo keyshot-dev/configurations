@@ -1,4 +1,4 @@
-﻿resource media_transcode openoffice_calc_document__thumb_large_50232 {
+resource media_transcode openoffice_calc_document__thumb_large_50232 {
     name = 'OpenOffice calc Document - Thumb Large'
     description = ''
     is_public = true

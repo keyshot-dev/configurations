@@ -1,4 +1,4 @@
-﻿data language english {
+data language english {
     name = 'English'
 }
 

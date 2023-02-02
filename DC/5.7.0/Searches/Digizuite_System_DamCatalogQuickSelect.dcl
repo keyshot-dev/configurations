@@ -1,4 +1,4 @@
-﻿resource search digizuite_system_damcatalogquickselect {
+resource search digizuite_system_damcatalogquickselect {
     version_id = resource.product.digizuite_dam_center.base_version_id
     name = 'Digizuite_system_damcatalogQuickSelect'
     is_customizable = false

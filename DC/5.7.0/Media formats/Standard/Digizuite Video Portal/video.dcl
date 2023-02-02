@@ -1,4 +1,4 @@
-﻿resource media_format desktop_h264_2048kbit_ffmpeg_50016 {
+resource media_format desktop_h264_2048kbit_ffmpeg_50016 {
     folder_id = resource.media_format_folder.digizuite_video_portal_50001.id
     format_type_id = resource.media_format_type.mpeg_4_10201.media_format_type_id
     name = 'Desktop H264 2048kbit ffmpeg'

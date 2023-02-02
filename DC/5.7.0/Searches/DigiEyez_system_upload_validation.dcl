@@ -1,4 +1,4 @@
-﻿resource search digieyez_system_upload_validation {
+resource search digieyez_system_upload_validation {
     version_id = resource.product.digizuite_dam_center.base_version_id
     name = 'DigiEyez_system_upload_validation'
     is_customizable = false

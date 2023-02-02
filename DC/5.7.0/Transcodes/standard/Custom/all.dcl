@@ -1,4 +1,4 @@
-﻿resource media_transcode source_copy_10063 {
+resource media_transcode source_copy_10063 {
     name = 'Source Copy'
     description = ''
     is_public = true

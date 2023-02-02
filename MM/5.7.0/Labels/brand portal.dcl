@@ -1,4 +1,4 @@
-﻿resource language_label settings_brand_portal_logo_title_en {
+resource language_label settings_brand_portal_logo_title_en {
     constant = 'SETTINGS_BRAND_PORTAL_LOGO_TITLE'
     label = 'Logo'
     language_id = data.language.english.id

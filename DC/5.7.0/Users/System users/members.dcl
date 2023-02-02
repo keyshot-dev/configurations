@@ -1,4 +1,4 @@
-﻿resource member social_media_user {
+resource member social_media_user {
     username = 'Social_media_user'
     email = ''
     language = resource.language.english.id

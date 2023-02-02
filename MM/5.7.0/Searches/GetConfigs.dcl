@@ -1,4 +1,4 @@
-﻿resource search get_configs {
+resource search get_configs {
     version_id = resource.product.media_manager.base_version_id
     name = 'GetConfigs'
     is_customizable = false

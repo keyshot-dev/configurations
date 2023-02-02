@@ -1,4 +1,4 @@
-﻿resource int_metafield max_tooltip_width {
+resource int_metafield max_tooltip_width {
     item_guid = '8d6a4c71-1c16-423c-b52d-6437523e1507'
     autolink = {
         item_guid = '8d6a4c71-1c16-423c-b52d-6437523e1507'

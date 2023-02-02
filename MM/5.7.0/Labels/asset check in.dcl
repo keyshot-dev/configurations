@@ -1,4 +1,4 @@
-﻿resource language_label asset_check_in_button_check_in_text_en {
+resource language_label asset_check_in_button_check_in_text_en {
     constant = 'ASSET_CHECK_IN_BUTTON_CHECK_IN_TEXT'
     label = 'Check in'
     language_id = data.language.english.id

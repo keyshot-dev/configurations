@@ -1,4 +1,4 @@
-﻿resource metafield_group options_50028 {
+resource metafield_group options_50028 {
     name = 'Options'
     description = ''
     show_in_list = true

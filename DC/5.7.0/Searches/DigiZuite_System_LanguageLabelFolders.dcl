@@ -1,4 +1,4 @@
-﻿resource search digizuite_system_languagelabelfolders {
+resource search digizuite_system_languagelabelfolders {
     version_id = resource.product.digizuite_dam_center.base_version_id
     name = 'DigiZuite_System_LanguageLabelFolders'
     is_customizable = false

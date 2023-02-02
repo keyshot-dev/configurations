@@ -1,4 +1,4 @@
-﻿resource search get_metagroup_sub_groups {
+resource search get_metagroup_sub_groups {
     version_id = resource.product.digizuite_dam_center.base_version_id
     name = 'GetMetagroupSubGroups'
     is_customizable = false

@@ -1,4 +1,4 @@
-﻿resource media_transcode openoffice_writer_template__thumb_large_50224 {
+resource media_transcode openoffice_writer_template__thumb_large_50224 {
     name = 'OpenOffice writer Template - Thumb Large'
     description = ''
     is_public = true

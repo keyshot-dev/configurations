@@ -1,4 +1,4 @@
-﻿resource search get_metafield_validation {
+resource search get_metafield_validation {
     version_id = resource.product.digizuite_dam_center.base_version_id
     name = 'GetMetafieldValidation'
     is_customizable = false

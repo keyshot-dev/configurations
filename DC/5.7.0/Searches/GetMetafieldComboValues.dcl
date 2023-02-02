@@ -1,4 +1,4 @@
-﻿resource search get_metafield_combo_values {
+resource search get_metafield_combo_values {
     version_id = resource.product.digizuite_dam_center.base_version_id
     name = 'GetMetafieldComboValues'
     is_customizable = false

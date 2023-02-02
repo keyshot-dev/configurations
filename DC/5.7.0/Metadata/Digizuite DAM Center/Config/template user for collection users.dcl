@@ -1,4 +1,4 @@
-﻿resource masteritem_reference_metafield template_user_for_collection_users {
+resource masteritem_reference_metafield template_user_for_collection_users {
     item_type = 'Member'
     item_guid = '916b553d-f6cb-4306-bb47-a4551c5bf74b'
     autolink = {

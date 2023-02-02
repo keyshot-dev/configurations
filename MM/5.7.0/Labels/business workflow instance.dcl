@@ -1,4 +1,4 @@
-﻿resource language_label business_instance_submit_form_constraints_en {
+resource language_label business_instance_submit_form_constraints_en {
     constant = 'BUSINESS_INSTANCE_SUBMIT_FORM_CONSTRAINTS'
     label = '{saving, select, true {Continue...} false {Continue}}'
     language_id = data.language.english.id

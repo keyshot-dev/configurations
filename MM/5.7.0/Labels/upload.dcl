@@ -1,4 +1,4 @@
-﻿resource language_label upload_upload_job_item_processing_en {
+resource language_label upload_upload_job_item_processing_en {
     constant = 'UPLOAD_UPLOAD_JOB_ITEM_PROCESSING'
     label = 'Processing'
     language_id = data.language.english.id

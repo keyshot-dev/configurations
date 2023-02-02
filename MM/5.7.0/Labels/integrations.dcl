@@ -1,4 +1,4 @@
-﻿resource language_label integration_endpoint_list_title_en {
+resource language_label integration_endpoint_list_title_en {
     constant = 'INTEGRATION_ENDPOINT_LIST_TITLE'
     label = 'Integration endpoints'
     language_id = data.language.english.id

@@ -1,4 +1,4 @@
-﻿resource metafield_group asset_info {
+resource metafield_group asset_info {
     name = 'Asset info'
     description = 'Fælles metadata struktur'
     show_in_list = true

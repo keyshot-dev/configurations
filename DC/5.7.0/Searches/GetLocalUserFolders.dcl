@@ -1,4 +1,4 @@
-﻿resource search get_local_user_folders {
+resource search get_local_user_folders {
     version_id = resource.product.digizuite_dam_center.base_version_id
     name = 'GetLocalUserFolders'
     is_customizable = false

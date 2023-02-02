@@ -1,4 +1,4 @@
-﻿resource language_label sharing_quality_selector_dialog_quality_selector_en {
+resource language_label sharing_quality_selector_dialog_quality_selector_en {
     constant = 'SHARING_QUALITY_SELECTOR_DIALOG_QUALITY_SELECTOR'
     label = 'Quality selector'
     language_id = data.language.english.id

@@ -1,4 +1,4 @@
-﻿resource media_format video_thumb_dynamic_10026 {
+resource media_format video_thumb_dynamic_10026 {
     folder_id = resource.media_format_folder.custom_10004.id
     format_type_id = resource.media_format_type.jpeg_compressed_formats_40001.media_format_type_id
     name = 'Video Thumb Dynamic'

@@ -1,4 +1,4 @@
-﻿resource search digizuite_system_getlayoutfoldersforasset {
+resource search digizuite_system_getlayoutfoldersforasset {
     version_id = resource.product.digizuite_dam_center.base_version_id
     name = 'DigiZuite_System_GetLayoutFoldersForAsset'
     is_customizable = false

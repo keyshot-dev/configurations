@@ -1,4 +1,4 @@
-﻿resource search get_item_with_read_accessc_heck {
+resource search get_item_with_read_accessc_heck {
     version_id = resource.product.digizuite_dam_center.base_version_id
     name = 'GetItemWithReadAccessCheck'
     is_customizable = false

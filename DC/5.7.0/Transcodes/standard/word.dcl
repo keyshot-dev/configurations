@@ -1,4 +1,4 @@
-﻿resource media_transcode word_document__preview_thumb_50097 {
+resource media_transcode word_document__preview_thumb_50097 {
     name = 'Word Document - Preview Thumb'
     description = ''
     is_public = true

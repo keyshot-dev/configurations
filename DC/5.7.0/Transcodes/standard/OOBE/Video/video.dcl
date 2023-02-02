@@ -1,4 +1,4 @@
-﻿resource media_transcode tra1080p_transcode_50062 {
+resource media_transcode tra1080p_transcode_50062 {
 	name = '1080p transcode'
 	folder_id = resource.transcode_folder.video.id
 	description = ''

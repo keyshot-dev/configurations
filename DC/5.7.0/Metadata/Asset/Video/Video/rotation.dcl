@@ -1,4 +1,4 @@
-﻿resource combovalue_metafield rotation {
+resource combovalue_metafield rotation {
     view_type = 'Radio'
     item_guid = 'c134e2d2-8caf-4739-bca0-767d34c7ac03'
     autolink = {

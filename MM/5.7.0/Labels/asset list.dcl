@@ -1,4 +1,4 @@
-﻿resource language_label lbl_mp_assets_en {
+resource language_label lbl_mp_assets_en {
     constant = 'LBL_MP_ASSETS'
     label = 'Assets'
     language_id = data.language.english.id

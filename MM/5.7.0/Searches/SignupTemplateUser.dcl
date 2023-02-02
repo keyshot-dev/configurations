@@ -1,4 +1,4 @@
-﻿resource search signup_template_user {
+resource search signup_template_user {
     version_id = resource.product.media_manager.base_version_id
     name = 'SignupTemplateUser'
     is_customizable = false

@@ -1,4 +1,4 @@
-﻿resource media_transcode h264_128_kbit_advanced_audio_codec {
+resource media_transcode h264_128_kbit_advanced_audio_codec {
     name = 'H264 128 kbit Advanced Audio Codec'
     description = ''
     is_public = true

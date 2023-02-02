@@ -1,4 +1,4 @@
-﻿resource search getmediaformattypes_116_0 {
+resource search getmediaformattypes_116_0 {
     version_id = resource.product.digizuite_dam_center.base_version_id
     name = 'GetMediaFormatTypes'
     is_customizable = false

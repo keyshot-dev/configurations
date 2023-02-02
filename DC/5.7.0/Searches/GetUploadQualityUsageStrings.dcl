@@ -1,4 +1,4 @@
-﻿resource search get_upload_quality_usage_strings {
+resource search get_upload_quality_usage_strings {
     version_id = resource.product.digizuite_dam_center.base_version_id
     name = 'GetUploadQualityUsageStrings'
     is_customizable = false

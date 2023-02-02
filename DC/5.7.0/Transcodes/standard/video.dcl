@@ -1,4 +1,4 @@
-﻿resource media_transcode video__thumb_1920x1080_8 {
+resource media_transcode video__thumb_1920x1080_8 {
     name = 'Video - Thumb 1920x1080'
     description = ''
     is_public = true

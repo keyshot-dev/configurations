@@ -1,4 +1,4 @@
-﻿resource masteritem_reference_metafield config_layoutfolder {
+resource masteritem_reference_metafield config_layoutfolder {
     item_type = 'ChannelFolder'
     item_guid = '79b85f8e-68ae-49f7-b880-c946eb7f0055'
     autolink = {

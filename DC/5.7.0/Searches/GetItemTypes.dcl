@@ -1,4 +1,4 @@
-﻿resource search get_item_types {
+resource search get_item_types {
     version_id = resource.product.digizuite_dam_center.base_version_id
     name = 'GetItemTypes'
     is_customizable = false

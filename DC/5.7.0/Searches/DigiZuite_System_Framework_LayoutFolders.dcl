@@ -1,4 +1,4 @@
-﻿resource search digizuite_system_framework_layoutfolders {
+resource search digizuite_system_framework_layoutfolders {
     version_id = resource.product.digizuite_dam_center.base_version_id
     name = 'DigiZuite_System_Framework_LayoutFolders'
     is_customizable = false

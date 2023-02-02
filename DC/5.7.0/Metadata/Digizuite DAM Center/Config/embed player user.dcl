@@ -1,4 +1,4 @@
-﻿resource masteritem_reference_metafield embed_player_user {
+resource masteritem_reference_metafield embed_player_user {
     item_type = 'Member'
     item_guid = '2c86c1ee-a5b3-4797-8ec3-09b2cd5eda8e'
     autolink = {

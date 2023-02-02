@@ -1,4 +1,4 @@
-﻿resource string_metafield portal_title {
+resource string_metafield portal_title {
     item_guid = '7c4faa62-165e-4826-9243-9c61076d4af9'
     autolink = {
         item_guid = '7c4faa62-165e-4826-9243-9c61076d4af9'

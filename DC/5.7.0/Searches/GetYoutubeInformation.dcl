@@ -1,4 +1,4 @@
-﻿resource search get_youtube_information {
+resource search get_youtube_information {
     version_id = resource.product.digizuite_dam_center.base_version_id
     name = 'GetYoutubeInformation'
     is_customizable = true

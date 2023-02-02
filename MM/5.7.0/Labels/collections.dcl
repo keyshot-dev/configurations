@@ -1,4 +1,4 @@
-﻿resource language_label lbl_mp_collections_all_collections_en {
+resource language_label lbl_mp_collections_all_collections_en {
     constant = 'LBL_MP_COLLECTIONS_ALL_COLLECTIONS'
     label = 'All collections'
     language_id = data.language.english.id

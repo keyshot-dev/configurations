@@ -1,4 +1,4 @@
-﻿resource language_label description_en {
+resource language_label description_en {
     constant = 'description'
     label = 'Description'
     language_id = data.language.english.id

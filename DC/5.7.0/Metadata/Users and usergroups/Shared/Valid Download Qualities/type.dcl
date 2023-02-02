@@ -1,4 +1,4 @@
-﻿resource combovalue_metafield type {
+resource combovalue_metafield type {
     view_type = 'Radio'
     item_guid = '01a2bf07-5474-4479-b9e1-0a78805d4465'
     autolink = {

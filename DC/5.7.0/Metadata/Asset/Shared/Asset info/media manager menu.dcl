@@ -1,4 +1,4 @@
-﻿resource tree_metafield media_manager_menu {
+resource tree_metafield media_manager_menu {
     item_guid = 'bf0ad1a6-984a-494e-a227-9d70c6a864f9'
     autolink = {
         item_guid = 'bf0ad1a6-984a-494e-a227-9d70c6a864f9'
@@ -15,4 +15,12 @@ resource metafield_label media_manager_menu {
 	metafield_id = resource.tree_metafield.media_manager_menu.metafield_id
 	label = resource.tree_metafield.media_manager_menu.name
 	language_id = resource.language.english.id
+}
+
+
+resource item_security media_manager_menu__trusted {
+    accessor_item_id = resource.member_group.trusted.item_id
+    item_id = resource.tree_metafield.media_manager_menu.item_id
+    read = true
+    write = true
 }
