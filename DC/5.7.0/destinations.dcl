@@ -80,7 +80,7 @@ resource destination frontenddata_unc {
     name = 'FrontendData UNC'
     destination_type = 'UNC'
     storage_manager_id = resource.destination.frontenddata_sm.destination_id
-    is_public = true
+    is_public = not(variable.storage_use_azure)
     unc_share = "${variable.storage_path}\\Frontend.Data"
     ftp_host = ''
     ftp_port = 0
@@ -158,7 +158,7 @@ resource destination asset_storage_unc {
     name = 'Asset storage UNC'
     destination_type = 'UNC'
     storage_manager_id = resource.destination.asset_storage_sm.destination_id
-    is_public = true
+    is_public = not(variable.storage_use_azure)
     unc_share = "${variable.storage_path}\\dmm\\Assets"
     ftp_host = ''
     ftp_port = 0
