@@ -1,4 +1,4 @@
-﻿resource search get_transcode_setting_folders {
+resource search get_transcode_setting_folders {
     version_id = resource.product.digizuite_dam_center.base_version_id
     name = 'GetTranscodeSettingFolders'
     is_customizable = false

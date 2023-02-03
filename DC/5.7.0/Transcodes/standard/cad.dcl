@@ -1,4 +1,4 @@
-﻿resource media_transcode industry_foundation_classes_ifc__preview_pdf_50178 {
+resource media_transcode industry_foundation_classes_ifc__preview_pdf_50178 {
     name = 'Industry Foundation Classes (.ifc) - Preview Pdf'
     description = ''
     is_public = true

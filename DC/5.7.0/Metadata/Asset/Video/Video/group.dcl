@@ -1,4 +1,4 @@
-﻿resource metafield_group video {
+resource metafield_group video {
     name = 'Video'
     show_in_list = false
     folder_id = resource.meta_group_folder.video.id

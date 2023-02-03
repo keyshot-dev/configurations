@@ -1,4 +1,4 @@
-﻿resource masteritem_reference_metafield quality {
+resource masteritem_reference_metafield quality {
     item_type = 'MediaTranscode'
     item_guid = 'e67069a2-1b12-49fe-b408-e919a0a506dd'
     autolink = {

@@ -1,4 +1,4 @@
-﻿resource media_transcode indesign__thumb_1920x1080_4 {
+resource media_transcode indesign__thumb_1920x1080_4 {
     name = 'InDesign - Thumb 1920x1080'
     description = ''
     is_public = true

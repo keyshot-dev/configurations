@@ -1,4 +1,4 @@
-﻿resource media_transcode powerpoint_presentation__preview_thumb_50072 {
+resource media_transcode powerpoint_presentation__preview_thumb_50072 {
     name = 'Powerpoint presentation - Preview Thumb'
     description = ''
     is_public = true

@@ -1,4 +1,4 @@
-﻿resource media_transcode video_preview_h264_10096 {
+resource media_transcode video_preview_h264_10096 {
     name = 'VIDEO_preview_h264'
     description = ''
     is_public = true

@@ -1,4 +1,4 @@
-﻿resource media_format adobe_pdf_page_image_50010 {
+resource media_format adobe_pdf_page_image_50010 {
     folder_id = resource.media_format_folder.import_10000.id
     format_type_id = resource.media_format_type.tiff_without_lzw_compression_40003.media_format_type_id
     name = 'Adobe PDF Page Image'

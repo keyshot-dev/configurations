@@ -1,4 +1,4 @@
-﻿resource search digizuite_system_getautomationassetinformation {
+resource search digizuite_system_getautomationassetinformation {
     version_id = resource.product.digizuite_dam_center.base_version_id
     name = 'Digizuite_system_getAutomationAssetInformation'
     is_customizable = false

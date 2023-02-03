@@ -1,4 +1,4 @@
-﻿resource search get_crop_presets {
+resource search get_crop_presets {
     version_id = resource.product.media_manager.base_version_id
     name = 'GetCropPresets'
     is_customizable = false

@@ -1,4 +1,4 @@
-﻿resource profile mediaportal_openoffice_impress_document_50029 {
+resource profile mediaportal_openoffice_impress_document_50029 {
     name = 'Mediaportal openoffice impress document'
     asset_type = 'ODP'
     is_public = true

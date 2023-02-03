@@ -1,4 +1,4 @@
-﻿resource search getmetafieldtreevalues {
+resource search getmetafieldtreevalues {
     version_id = resource.product.digizuite_dam_center.base_version_id
     name = 'GetMetafieldTreeValues'
     is_customizable = false

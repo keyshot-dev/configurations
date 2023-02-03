@@ -1,4 +1,4 @@
-﻿resource search get_current_member_details {
+resource search get_current_member_details {
     version_id = resource.product.media_manager.base_version_id
     name = 'GetCurrentMemberDetails'
     is_customizable = false

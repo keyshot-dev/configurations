@@ -1,4 +1,4 @@
-﻿resource member_group content_creator {
+resource member_group content_creator {
     name = 'Content creator'
     folder_id = resource.member_group_folder.user_type.id
     approved = true

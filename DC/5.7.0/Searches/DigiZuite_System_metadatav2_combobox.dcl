@@ -1,4 +1,4 @@
-﻿resource search digizuite_system_metadatav2_combobox {
+resource search digizuite_system_metadatav2_combobox {
     version_id = resource.product.digizuite_dam_center.base_version_id
     name = 'DigiZuite_System_metadatav2_combobox'
     is_customizable = false

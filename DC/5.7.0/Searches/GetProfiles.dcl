@@ -1,4 +1,4 @@
-﻿resource search get_profiles {
+resource search get_profiles {
     version_id = resource.product.digizuite_dam_center.base_version_id
     name = 'GetProfiles'
     is_customizable = false

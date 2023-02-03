@@ -1,4 +1,4 @@
-﻿resource metafield_group user_config {
+resource metafield_group user_config {
     name = 'User Config'
     show_in_list = true
     folder_id = resource.meta_group_folder.users_and_usergroups_shared.id

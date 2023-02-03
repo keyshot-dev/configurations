@@ -1,4 +1,4 @@
-﻿resource bit_metafield enable_legacy_upload {
+resource bit_metafield enable_legacy_upload {
     item_guid = 'dc2b8a7e-f54e-42b0-bd01-31f2d5ce35df'
     autolink = {
         item_guid = 'dc2b8a7e-f54e-42b0-bd01-31f2d5ce35df'

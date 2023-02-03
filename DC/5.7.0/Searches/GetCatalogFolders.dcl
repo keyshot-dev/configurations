@@ -1,4 +1,4 @@
-﻿resource search get_catalog_folders {
+resource search get_catalog_folders {
     version_id = resource.product.digizuite_dam_center.base_version_id
     name = 'GetCatalogFolders'
     is_customizable = false

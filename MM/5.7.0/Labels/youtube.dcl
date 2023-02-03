@@ -1,4 +1,4 @@
-﻿resource language_label youtube_client_list_title_en {
+resource language_label youtube_client_list_title_en {
     constant = 'YOUTUBE_CLIENT_LIST_TITLE'
     label = 'YouTube clients'
     language_id = data.language.english.id

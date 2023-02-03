@@ -1,4 +1,4 @@
-﻿resource search get_layout_folder_updates {
+resource search get_layout_folder_updates {
     version_id = resource.product.digizuite_dam_center.base_version_id
     name = 'GetLayoutFolderUpdates'
     is_customizable = false

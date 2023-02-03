@@ -1,4 +1,4 @@
-﻿resource media_transcode excel_workbook__preview_thumb_50113 {
+resource media_transcode excel_workbook__preview_thumb_50113 {
     name = 'Excel workbook - Preview Thumb'
     description = ''
     is_public = true

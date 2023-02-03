@@ -1,4 +1,4 @@
-﻿resource search get_destinations {
+resource search get_destinations {
     version_id = resource.product.digizuite_dam_center.base_version_id
     name = 'GetDestinations'
     is_customizable = false

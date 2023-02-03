@@ -1,4 +1,4 @@
-﻿resource bit_metafield enable_approval_of_download_requests {
+resource bit_metafield enable_approval_of_download_requests {
     item_guid = '83c9a029-1c80-4d80-899b-bf160b1f04c6'
     autolink = {
         item_guid = '83c9a029-1c80-4d80-899b-bf160b1f04c6'

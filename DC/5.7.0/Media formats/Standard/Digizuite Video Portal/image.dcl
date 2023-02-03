@@ -1,4 +1,4 @@
-﻿resource media_format desktop_video_thumb_50019 {
+resource media_format desktop_video_thumb_50019 {
     folder_id = resource.media_format_folder.digizuite_video_portal_50001.id
     format_type_id = resource.media_format_type.jpeg_compressed_formats_40001.media_format_type_id
     name = 'Desktop Video Thumb'

@@ -1,4 +1,4 @@
-﻿resource media_transcode openoffice_impress_document__preview_thumb_50249 {
+resource media_transcode openoffice_impress_document__preview_thumb_50249 {
     name = 'OpenOffice impress Document - Preview Thumb'
     description = ''
     is_public = true

@@ -1,4 +1,4 @@
-﻿resource search get_metafield {
+resource search get_metafield {
     version_id = resource.product.digizuite_dam_center.base_version_id
     name = 'GetMetafield'
     is_customizable = false

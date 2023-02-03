@@ -1,4 +1,4 @@
-﻿resource media_transcode extract_exifthumb_from_indesign_50015 {
+resource media_transcode extract_exifthumb_from_indesign_50015 {
     name = 'Extract ExifThumb from InDesign'
     description = ''
     is_public = true

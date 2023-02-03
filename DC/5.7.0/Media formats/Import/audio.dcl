@@ -1,4 +1,4 @@
-﻿resource media_format audio_preview_10045 {
+resource media_format audio_preview_10045 {
     folder_id = resource.media_format_folder.import_10000.id
     format_type_id = resource.media_format_type.windows_media_audio_20001.media_format_type_id
     name = 'AUDIO_preview'

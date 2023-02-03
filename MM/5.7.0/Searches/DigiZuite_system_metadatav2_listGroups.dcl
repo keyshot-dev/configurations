@@ -1,4 +1,4 @@
-﻿resource search digizuite_system_metadatav2_listgroups {
+resource search digizuite_system_metadatav2_listgroups {
     version_id = resource.product.media_manager.base_version_id
     name = 'DigiZuite_system_metadatav2_listGroups'
     is_customizable = false

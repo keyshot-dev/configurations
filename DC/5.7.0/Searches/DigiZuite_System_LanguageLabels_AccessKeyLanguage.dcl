@@ -1,4 +1,4 @@
-﻿resource search digizuite_system_languagelabels_accesskeylanguage {
+resource search digizuite_system_languagelabels_accesskeylanguage {
     version_id = resource.product.digizuite_dam_center.base_version_id
     name = 'DigiZuite_System_LanguageLabels_AccessKeyLanguage'
     is_customizable = false

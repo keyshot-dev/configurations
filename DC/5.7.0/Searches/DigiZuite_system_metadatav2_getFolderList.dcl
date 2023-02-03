@@ -1,4 +1,4 @@
-﻿resource search digizuite_system_metadatav2_getfolderlist {
+resource search digizuite_system_metadatav2_getfolderlist {
     version_id = resource.product.digizuite_dam_center.base_version_id
     name = 'DigiZuite_system_metadatav2_getFolderList'
     is_customizable = false

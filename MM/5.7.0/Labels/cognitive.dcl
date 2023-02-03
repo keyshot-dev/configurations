@@ -1,4 +1,4 @@
-﻿resource language_label cognitive_overwrite_dialog_title_en {
+resource language_label cognitive_overwrite_dialog_title_en {
     constant = 'COGNITIVE_OVERWRITE_DIALOG_TITLE'
     label = 'Overwrite existing values'
     language_id = data.language.english.id

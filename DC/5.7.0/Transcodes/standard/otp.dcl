@@ -1,4 +1,4 @@
-﻿resource media_transcode openoffice_impress_template__thumb_large_50256 {
+resource media_transcode openoffice_impress_template__thumb_large_50256 {
     name = 'OpenOffice impress Template - Thumb Large'
     description = ''
     is_public = true

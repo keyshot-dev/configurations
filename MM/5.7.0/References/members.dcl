@@ -1,3 +1,3 @@
-﻿data member guest_user {
+data member guest_user {
     username = 'Guest'
 }

@@ -1,4 +1,4 @@
-﻿data member_group trusted {
+data member_group trusted {
     name = 'Trusted'
 }
 

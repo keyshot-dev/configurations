@@ -1,4 +1,4 @@
-﻿resource member_group anonymous {
+resource member_group anonymous {
     name = 'Anonymous'
     folder_id = resource.member_group_folder.system_groups.id
     sort_index = 0

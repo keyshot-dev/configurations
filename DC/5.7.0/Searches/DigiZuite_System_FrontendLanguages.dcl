@@ -1,4 +1,4 @@
-﻿resource search digizuite_system_frontendlanguages {
+resource search digizuite_system_frontendlanguages {
     version_id = resource.product.digizuite_dam_center.base_version_id
     name = 'DigiZuite_System_FrontendLanguages'
     is_customizable = false

@@ -1,4 +1,4 @@
-﻿resource member superadministrator {
+resource member superadministrator {
     username = 'SuperAdministrator'
     email = ''
     language = resource.language.english.id

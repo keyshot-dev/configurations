@@ -1,4 +1,4 @@
-﻿resource search get_catalog_folder_updates {
+resource search get_catalog_folder_updates {
     version_id = resource.product.digizuite_dam_center.base_version_id
     name = 'GetCatalogFolderUpdates'
     is_customizable = false

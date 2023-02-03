@@ -1,4 +1,4 @@
-﻿resource media_format adobe_pdf_preview_4 {
+resource media_format adobe_pdf_preview_4 {
     folder_id = resource.media_format_folder.standard_10001.id
     format_type_id = resource.media_format_type.portable_document_format_40002.media_format_type_id
     name = 'Adobe PDF Preview'

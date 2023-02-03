@@ -1,4 +1,4 @@
-﻿resource search get_languages_for_language_view {
+resource search get_languages_for_language_view {
     version_id = resource.product.digizuite_dam_center.base_version_id
     name = 'GetLanguagesForLanguageView'
     is_customizable = false

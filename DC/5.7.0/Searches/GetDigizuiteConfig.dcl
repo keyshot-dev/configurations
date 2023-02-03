@@ -1,4 +1,4 @@
-﻿resource search get_digizuite_config {
+resource search get_digizuite_config {
     version_id = resource.product.digizuite_dam_center.base_version_id
     name = 'GetDigizuiteConfig'
     is_customizable = false

@@ -1,4 +1,4 @@
-﻿resource masteritem_reference_metafield download_destination {
+resource masteritem_reference_metafield download_destination {
     item_type = 'Destination'
     item_guid = '0712967c-3095-4f04-91e0-9f3d6f94b944'
     autolink = {

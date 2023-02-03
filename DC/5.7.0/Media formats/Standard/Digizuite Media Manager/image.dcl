@@ -1,4 +1,4 @@
-﻿
+
 resource media_format digizuite_media_manager_user_profile_hd_30014 {
     folder_id = resource.media_format_folder.digizuite_media_manager_10003.id
     format_type_id = resource.media_format_type.jpeg_compressed_formats_40001.media_format_type_id

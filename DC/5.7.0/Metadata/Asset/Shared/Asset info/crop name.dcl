@@ -1,4 +1,4 @@
-﻿resource string_metafield crop_name {
+resource string_metafield crop_name {
     item_guid = 'fa70d7f6-12ae-4f51-af05-6296d5608b7c'
     name = 'Crop name'
     group_id = resource.metafield_group.asset_info.metafield_group_id

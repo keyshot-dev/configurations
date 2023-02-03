@@ -1,4 +1,4 @@
-﻿resource search digizuite_system_getroles {
+resource search digizuite_system_getroles {
     version_id = resource.product.digizuite_dam_center.base_version_id
     name = 'DigiZuite_System_GetRoles'
     is_customizable = false

@@ -1,4 +1,4 @@
-﻿resource media_format source_copy_10061 {
+resource media_format source_copy_10061 {
     folder_id = resource.media_format_folder.custom_10004.id
     format_type_id = resource.media_format_type.archive_200001.media_format_type_id
     name = 'Source Copy'

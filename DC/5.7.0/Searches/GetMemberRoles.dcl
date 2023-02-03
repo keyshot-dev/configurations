@@ -1,4 +1,4 @@
-﻿resource search get_member_roles {
+resource search get_member_roles {
     version_id = resource.product.digizuite_dam_center.base_version_id
     name = 'GetMemberRoles'
     is_customizable = false

@@ -1,4 +1,4 @@
-﻿resource media_transcode openoffice_calc_template__thumb_large_50240 {
+resource media_transcode openoffice_calc_template__thumb_large_50240 {
     name = 'OpenOffice calc Template - Thumb Large'
     description = ''
     is_public = true

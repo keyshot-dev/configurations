@@ -1,4 +1,4 @@
-﻿resource media_transcode visio_template__preview_thumb_50137 {
+resource media_transcode visio_template__preview_thumb_50137 {
     name = 'Visio Template - Preview Thumb'
     description = ''
     is_public = true

@@ -1,4 +1,4 @@
-﻿resource search digizuite_system_framework_search_embed {
+resource search digizuite_system_framework_search_embed {
     version_id = resource.product.media_manager.base_version_id
     name = 'DigiZuite_System_Framework_Search_Embed'
     is_customizable = true

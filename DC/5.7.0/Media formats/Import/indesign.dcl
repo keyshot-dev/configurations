@@ -1,4 +1,4 @@
-﻿resource media_format exifthumb_raw_50014 {
+resource media_format exifthumb_raw_50014 {
     folder_id = resource.media_format_folder.import_10000.id
     format_type_id = resource.media_format_type.jpeg_compressed_formats_40001.media_format_type_id
     name = 'ExifThumb_Raw'

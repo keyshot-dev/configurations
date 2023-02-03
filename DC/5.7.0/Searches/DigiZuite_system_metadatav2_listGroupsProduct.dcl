@@ -1,4 +1,4 @@
-﻿resource search digizuite_system_metadatav2_listgroupsproduct {
+resource search digizuite_system_metadatav2_listgroupsproduct {
     version_id = resource.product.digizuite_dam_center.base_version_id
     name = 'DigiZuite_system_metadatav2_listGroupsProduct'
     is_customizable = false

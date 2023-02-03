@@ -1,4 +1,4 @@
-﻿resource media_format video_preview_h264_10079 {
+resource media_format video_preview_h264_10079 {
     folder_id = resource.media_format_folder.import_10000.id
     format_type_id = resource.media_format_type.mpeg_4_10201.media_format_type_id
     name = 'Video preview (1080p)'

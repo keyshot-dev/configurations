@@ -1,4 +1,4 @@
-﻿resource search digizuite_system_assetreplacer_search1 {
+resource search digizuite_system_assetreplacer_search1 {
     version_id = resource.product.media_manager.base_version_id
     name = 'DigiZuite_System_AssetReplacer_Search1'
     is_customizable = true

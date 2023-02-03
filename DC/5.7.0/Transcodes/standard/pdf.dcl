@@ -1,4 +1,4 @@
-﻿resource media_transcode adobe_pdf__adobe_pdf_preview_50265 {
+resource media_transcode adobe_pdf__adobe_pdf_preview_50265 {
     name = 'Adobe Pdf - Adobe Pdf Preview'
     description = ''
     is_public = true

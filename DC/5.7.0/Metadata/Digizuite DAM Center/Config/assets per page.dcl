@@ -1,4 +1,4 @@
-﻿resource editmulticombovalue_metafield assets_per_page {
+resource editmulticombovalue_metafield assets_per_page {
     item_guid = '612d0b51-8700-4d19-be05-101db4cdb370'
     autolink = {
         item_guid = '612d0b51-8700-4d19-be05-101db4cdb370'

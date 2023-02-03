@@ -1,4 +1,4 @@
-﻿resource metafield_group config {
+resource metafield_group config {
     name = 'Config'
     show_in_list = true
     folder_id = resource.meta_group_folder.digizuite_dam_center.id

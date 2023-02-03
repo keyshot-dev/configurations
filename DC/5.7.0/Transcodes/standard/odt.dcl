@@ -1,4 +1,4 @@
-﻿resource media_transcode openoffice_writer_document__preview_pdf_50218 {
+resource media_transcode openoffice_writer_document__preview_pdf_50218 {
     name = 'OpenOffice writer Document - Preview Pdf'
     description = ''
     is_public = true

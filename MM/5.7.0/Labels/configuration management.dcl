@@ -1,4 +1,4 @@
-﻿resource language_label configuration_management_resource_card_link_to_existing_resource_en {
+resource language_label configuration_management_resource_card_link_to_existing_resource_en {
     constant = 'CONFIGURATION_MANAGEMENT_RESOURCE_CARD_LINK_TO_EXISTING_RESOURCE'
     label = 'Link to existing resource'
     language_id = data.language.english.id

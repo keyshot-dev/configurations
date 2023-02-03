@@ -1,4 +1,4 @@
-﻿resource search digizuite_system_productinfo {
+resource search digizuite_system_productinfo {
     version_id = resource.product.digizuite_dam_center.base_version_id
     name = 'DigiZuite_System_ProductInfo'
     is_customizable = false

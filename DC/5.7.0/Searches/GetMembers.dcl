@@ -1,4 +1,4 @@
-﻿resource search get_members {
+resource search get_members {
     version_id = resource.product.digizuite_dam_center.base_version_id
     name = 'GetMembers'
     is_customizable = false
