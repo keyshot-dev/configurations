@@ -1,4 +1,4 @@
-resource language_label lbl_mp_collections_all_collections_en {
+﻿resource language_label lbl_mp_collections_all_collections_en {
     constant = 'LBL_MP_COLLECTIONS_ALL_COLLECTIONS'
     label = 'All collections'
     language_id = data.language.english.id
@@ -8,6 +8,22 @@ resource language_label lbl_mp_collections_all_collections_en {
 
 resource language_label lbl_mp_collections_all_collections_da {
     constant = 'LBL_MP_COLLECTIONS_ALL_COLLECTIONS'
+    label = 'Alle collections'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label section_title_collections_en {
+    constant = 'SECTION_TITLE_COLLECTIONS'
+    label = 'All collections'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label section_title_collections_da {
+    constant = 'SECTION_TITLE_COLLECTIONS'
     label = 'Alle collections'
     language_id = data.language.danish.id
     folder_id = resource.language_label_folder.media_manager.folder_id
@@ -526,6 +542,22 @@ resource language_label shared_collections_da {
     version_id = resource.product.media_manager.base_version_id
 }
 
+resource language_label shared_with_me_collections_en {
+    constant = 'SHARED_WITH_ME_COLLECTIONS'
+    label = 'Shared with me'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label shared_with_me_collections_da {
+    constant = 'SHARED_WITH_ME_COLLECTIONS'
+    label = 'Delt med mig'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
 resource language_label asset_list_collections_title_en {
     constant = 'ASSET_LIST_COLLECTIONS_TITLE'
     label = 'Collections'
@@ -592,7 +624,7 @@ resource language_label asset_list_collection_menu_more_popup_remove_da {
 
 resource language_label asset_list_collection_menu_more_popup_share_en {
     constant = 'ASSET_LIST_COLLECTION_MENU_MORE_POPUP_SHARE'
-    label = '{loading, select, false {Share} true {Loading...}}'
+    label = 'Share'
     language_id = data.language.english.id
     folder_id = resource.language_label_folder.media_manager.folder_id
     version_id = resource.product.media_manager.base_version_id
@@ -600,7 +632,7 @@ resource language_label asset_list_collection_menu_more_popup_share_en {
 
 resource language_label asset_list_collection_menu_more_popup_share_da {
     constant = 'ASSET_LIST_COLLECTION_MENU_MORE_POPUP_SHARE'
-    label = '{loading, select, false {Del} true {Loading...}}'
+    label = 'Del'
     language_id = data.language.danish.id
     folder_id = resource.language_label_folder.media_manager.folder_id
     version_id = resource.product.media_manager.base_version_id
@@ -768,7 +800,7 @@ resource language_label mediamanager_collection_list_drop_to_collection_success_
 
 resource language_label mediamanager_collection_list_drop_to_collection_success_body_en {
     constant = 'MEDIAMANAGER_COLLECTION_LIST_DROP_TO_COLLECTION_SUCCESS_BODY'
-    label = '{count, cardinalPlural, one {Asset was added to the collection} other {Assets were added to the collection}}'
+    label = '{count, cardinalPlural, one {The asset was added to the collection} other {The assets were added to the collection}}'
     language_id = data.language.english.id
     folder_id = resource.language_label_folder.media_manager.folder_id
     version_id = resource.product.media_manager.base_version_id
@@ -809,6 +841,38 @@ resource language_label asset_list_collection_menu_more_popup_request_updated_do
 resource language_label asset_list_collection_menu_more_popup_request_updated_download_da {
     constant = 'ASSET_LIST_COLLECTION_MENU_MORE_POPUP_REQUEST_UPDATED_DOWNLOAD'
     label = 'Anmod om opdateret download'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label asset_list_collection_menu_more_shares_overview_en {
+    constant = 'ASSET_LIST_COLLECTION_MENU_MORE_SHARES_OVERVIEW'
+    label = 'Overview of shares'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label asset_list_collection_menu_more_shares_overview_da {
+    constant = 'ASSET_LIST_COLLECTION_MENU_MORE_SHARES_OVERVIEW'
+    label = 'Delingsoversigt'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label asset_list_collection_menu_more_comments_en {
+    constant = 'ASSET_LIST_COLLECTION_MENU_MORE_COMMENTS'
+    label = 'Comments'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label asset_list_collection_menu_more_comments_da {
+    constant = 'ASSET_LIST_COLLECTION_MENU_MORE_COMMENTS'
+    label = 'Kommentarer'
     language_id = data.language.danish.id
     folder_id = resource.language_label_folder.media_manager.folder_id
     version_id = resource.product.media_manager.base_version_id
@@ -1040,7 +1104,7 @@ resource language_label collections_share_field_item_remove_da {
 
 resource language_label collections_share_field_item_guids_label_en {
     constant = 'COLLECTIONS_SHARE_FIELD_ITEM_GUIDS_LABEL'
-    label = 'Specify metadata fields'
+    label = 'Metadata fields'
     language_id = data.language.english.id
     folder_id = resource.language_label_folder.media_manager.folder_id
     version_id = resource.product.media_manager.base_version_id
@@ -1048,7 +1112,7 @@ resource language_label collections_share_field_item_guids_label_en {
 
 resource language_label collections_share_field_item_guids_label_da {
     constant = 'COLLECTIONS_SHARE_FIELD_ITEM_GUIDS_LABEL'
-    label = 'Angiv metadatafelter'
+    label = 'Metadatafelter'
     language_id = data.language.danish.id
     folder_id = resource.language_label_folder.media_manager.folder_id
     version_id = resource.product.media_manager.base_version_id
@@ -1129,6 +1193,22 @@ resource language_label collections_share_expiration_end_date_label_en {
 resource language_label collections_share_expiration_end_date_label_da {
     constant = 'COLLECTIONS_SHARE_EXPIRATION_END_DATE_LABEL'
     label = 'Slutdato (til og med)'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label collections_share_share_settings_en {
+    constant = 'COLLECTIONS_SHARE_SHARE_SETTINGS'
+    label = 'Share options'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label collections_share_share_settings_da {
+    constant = 'COLLECTIONS_SHARE_SHARE_SETTINGS'
+    label = 'Dele muligheder'
     language_id = data.language.danish.id
     folder_id = resource.language_label_folder.media_manager.folder_id
     version_id = resource.product.media_manager.base_version_id
@@ -2000,7 +2080,7 @@ resource language_label collections_share_delete_notification_success_body_da {
 
 resource language_label collections_share_share_notification_duplicate_error_body_en {
     constant = 'COLLECTIONS_SHARE_SHARE_NOTIFICATION_DUPLICATE_ERROR_BODY'
-    label = 'You can not share collections with the same recipients twice. Go to the share overview panel to update existing shares instead.'
+    label = 'You can not share a collection with the same recipient twice if the active sharing periods overlap. Go to the share overview panel to update the existing share instead.'
     language_id = data.language.english.id
     folder_id = resource.language_label_folder.media_manager.folder_id
     version_id = resource.product.media_manager.base_version_id
@@ -2008,7 +2088,7 @@ resource language_label collections_share_share_notification_duplicate_error_bod
 
 resource language_label collections_share_share_notification_duplicate_error_body_da {
     constant = 'COLLECTIONS_SHARE_SHARE_NOTIFICATION_DUPLICATE_ERROR_BODY'
-    label = 'Du må ikke dele collections med de samme modtagere mere end én gang. Gå til deleoversigts-panelet for at opdatere eksisterende delinger i stedet.'
+    label = 'Du må ikke dele en collection med den samme modtager igen hvis de aktive delingsperioder overlapper. Gå til deleoversigts-panelet for at opdatere den eksisterende deling i stedet.'
     language_id = data.language.danish.id
     folder_id = resource.language_label_folder.media_manager.folder_id
     version_id = resource.product.media_manager.base_version_id
@@ -2078,6 +2158,86 @@ resource language_label collections_share_overview_group_share_da {
     version_id = resource.product.media_manager.base_version_id
 }
 
+resource language_label collections_share_overview_filter_all_en {
+    constant = 'COLLECTIONS_SHARE_OVERVIEW_FILTER_ALL'
+    label = 'All'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label collections_share_overview_filter_all_da {
+    constant = 'COLLECTIONS_SHARE_OVERVIEW_FILTER_ALL'
+    label = 'Alle'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label collections_share_overview_filter_links_en {
+    constant = 'COLLECTIONS_SHARE_OVERVIEW_FILTER_LINKS'
+    label = 'Links'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label collections_share_overview_filter_links_da {
+    constant = 'COLLECTIONS_SHARE_OVERVIEW_FILTER_LINKS'
+    label = 'Links'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label collections_share_overview_filter_emails_en {
+    constant = 'COLLECTIONS_SHARE_OVERVIEW_FILTER_EMAILS'
+    label = 'Emails'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label collections_share_overview_filter_emails_da {
+    constant = 'COLLECTIONS_SHARE_OVERVIEW_FILTER_EMAILS'
+    label = 'Emails'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label collections_share_overview_filter_users_en {
+    constant = 'COLLECTIONS_SHARE_OVERVIEW_FILTER_USERS'
+    label = 'Users'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label collections_share_overview_filter_users_da {
+    constant = 'COLLECTIONS_SHARE_OVERVIEW_FILTER_USERS'
+    label = 'Brugere'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label collections_share_overview_filters_groups_en {
+    constant = 'COLLECTIONS_SHARE_OVERVIEW_FILTERS_GROUPS'
+    label = 'Groups'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label collections_share_overview_filters_groups_da {
+    constant = 'COLLECTIONS_SHARE_OVERVIEW_FILTERS_GROUPS'
+    label = 'Grupper'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
 resource language_label collections_share_overview_start_label_en {
     constant = 'COLLECTIONS_SHARE_OVERVIEW_START_LABEL'
     label = 'Start'
@@ -2110,48 +2270,48 @@ resource language_label collections_share_overview_end_label_da {
     version_id = resource.product.media_manager.base_version_id
 }
 
-resource language_label collections_share_overview_delete_share_tooltip_en {
-    constant = 'COLLECTIONS_SHARE_OVERVIEW_DELETE_SHARE_TOOLTIP'
+resource language_label collections_share_overview_delete_share_en {
+    constant = 'COLLECTIONS_SHARE_OVERVIEW_DELETE_SHARE'
     label = 'Delete share'
     language_id = data.language.english.id
     folder_id = resource.language_label_folder.media_manager.folder_id
     version_id = resource.product.media_manager.base_version_id
 }
 
-resource language_label collections_share_overview_delete_share_tooltip_da {
-    constant = 'COLLECTIONS_SHARE_OVERVIEW_DELETE_SHARE_TOOLTIP'
+resource language_label collections_share_overview_delete_share_da {
+    constant = 'COLLECTIONS_SHARE_OVERVIEW_DELETE_SHARE'
     label = 'Slet deling'
     language_id = data.language.danish.id
     folder_id = resource.language_label_folder.media_manager.folder_id
     version_id = resource.product.media_manager.base_version_id
 }
 
-resource language_label collections_share_overview_edit_share_tooltip_en {
-    constant = 'COLLECTIONS_SHARE_OVERVIEW_EDIT_SHARE_TOOLTIP'
+resource language_label collections_share_overview_edit_share_en {
+    constant = 'COLLECTIONS_SHARE_OVERVIEW_EDIT_SHARE'
     label = 'Edit share'
     language_id = data.language.english.id
     folder_id = resource.language_label_folder.media_manager.folder_id
     version_id = resource.product.media_manager.base_version_id
 }
 
-resource language_label collections_share_overview_edit_share_tooltip_da {
-    constant = 'COLLECTIONS_SHARE_OVERVIEW_EDIT_SHARE_TOOLTIP'
+resource language_label collections_share_overview_edit_share_da {
+    constant = 'COLLECTIONS_SHARE_OVERVIEW_EDIT_SHARE'
     label = 'Rediger deling'
     language_id = data.language.danish.id
     folder_id = resource.language_label_folder.media_manager.folder_id
     version_id = resource.product.media_manager.base_version_id
 }
 
-resource language_label collections_share_overview_copy_link_tooltip_en {
-    constant = 'COLLECTIONS_SHARE_OVERVIEW_COPY_LINK_TOOLTIP'
+resource language_label collections_share_overview_copy_link_en {
+    constant = 'COLLECTIONS_SHARE_OVERVIEW_COPY_LINK'
     label = 'Copy link'
     language_id = data.language.english.id
     folder_id = resource.language_label_folder.media_manager.folder_id
     version_id = resource.product.media_manager.base_version_id
 }
 
-resource language_label collections_share_overview_copy_link_tooltip_da {
-    constant = 'COLLECTIONS_SHARE_OVERVIEW_COPY_LINK_TOOLTIP'
+resource language_label collections_share_overview_copy_link_da {
+    constant = 'COLLECTIONS_SHARE_OVERVIEW_COPY_LINK'
     label = 'Kopier link'
     language_id = data.language.danish.id
     folder_id = resource.language_label_folder.media_manager.folder_id
@@ -2190,17 +2350,33 @@ resource language_label collections_share_overview_unknown_member_info_da {
     version_id = resource.product.media_manager.base_version_id
 }
 
-resource language_label collections_share_overview_resend_invite_share_tooltip_en {
-    constant = 'COLLECTIONS_SHARE_OVERVIEW_RESEND_INVITE_SHARE_TOOLTIP'
+resource language_label collections_share_overview_resend_invite_share_en {
+    constant = 'COLLECTIONS_SHARE_OVERVIEW_RESEND_INVITE_SHARE'
     label = 'Resend invite'
     language_id = data.language.english.id
     folder_id = resource.language_label_folder.media_manager.folder_id
     version_id = resource.product.media_manager.base_version_id
 }
 
-resource language_label collections_share_overview_resend_invite_share_tooltip_da {
-    constant = 'COLLECTIONS_SHARE_OVERVIEW_RESEND_INVITE_SHARE_TOOLTIP'
+resource language_label collections_share_overview_resend_invite_share_da {
+    constant = 'COLLECTIONS_SHARE_OVERVIEW_RESEND_INVITE_SHARE'
     label = 'Gensend invitation'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label collections_share_overview_more_button_tooltip_en {
+    constant = 'COLLECTIONS_SHARE_OVERVIEW_MORE_BUTTON_TOOLTIP'
+    label = 'More'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label collections_share_overview_more_button_tooltip_da {
+    constant = 'COLLECTIONS_SHARE_OVERVIEW_MORE_BUTTON_TOOLTIP'
+    label = 'Mere'
     language_id = data.language.danish.id
     folder_id = resource.language_label_folder.media_manager.folder_id
     version_id = resource.product.media_manager.base_version_id
@@ -2510,16 +2686,16 @@ resource language_label share_to_collection_add_button_da {
     version_id = resource.product.media_manager.base_version_id
 }
 
-resource language_label collection_item_placeholder_icon_tooltip_en {
-    constant = 'COLLECTION_ITEM_PLACEHOLDER_ICON_TOOLTIP'
+resource language_label collection_item_placeholder_image_menu_manage_cover_en {
+    constant = 'COLLECTION_ITEM_PLACEHOLDER_IMAGE_MENU_MANAGE_COVER'
     label = 'Manage custom cover'
     language_id = data.language.english.id
     folder_id = resource.language_label_folder.media_manager.folder_id
     version_id = resource.product.media_manager.base_version_id
 }
 
-resource language_label collection_item_placeholder_icon_tooltip_da {
-    constant = 'COLLECTION_ITEM_PLACEHOLDER_ICON_TOOLTIP'
+resource language_label collection_item_placeholder_image_menu_manage_cover_da {
+    constant = 'COLLECTION_ITEM_PLACEHOLDER_IMAGE_MENU_MANAGE_COVER'
     label = 'Administrer brugerdefineret cover'
     language_id = data.language.danish.id
     folder_id = resource.language_label_folder.media_manager.folder_id
@@ -2606,9 +2782,25 @@ resource language_label collection_item_asset_count_label_da {
     version_id = resource.product.media_manager.base_version_id
 }
 
+resource language_label collection_item_parentheses_sub_collections_count_label_en {
+    constant = 'COLLECTION_ITEM_PARENTHESES_SUB_COLLECTIONS_COUNT_LABEL'
+    label = '({{count}} {count, cardinalPlural, one {sub collection} other {sub collections}})'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label collection_item_parentheses_sub_collections_count_label_da {
+    constant = 'COLLECTION_ITEM_PARENTHESES_SUB_COLLECTIONS_COUNT_LABEL'
+    label = '({{count}} {count, cardinalPlural, one {sub-collection} other {sub-collections}})'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
 resource language_label collection_item_sub_collections_count_label_en {
     constant = 'COLLECTION_ITEM_SUB_COLLECTIONS_COUNT_LABEL'
-    label = '({{count}} {count, cardinalPlural, one {sub collection} other {sub collections}})'
+    label = '{{count}} {count, cardinalPlural, one {sub collection} other {sub collections}}'
     language_id = data.language.english.id
     folder_id = resource.language_label_folder.media_manager.folder_id
     version_id = resource.product.media_manager.base_version_id
@@ -2616,7 +2808,7 @@ resource language_label collection_item_sub_collections_count_label_en {
 
 resource language_label collection_item_sub_collections_count_label_da {
     constant = 'COLLECTION_ITEM_SUB_COLLECTIONS_COUNT_LABEL'
-    label = '({{count}} {count, cardinalPlural, one {sub-collection} other {sub-collections}})'
+    label = '{{count}} {count, cardinalPlural, one {sub-collection} other {sub-collections}}'
     language_id = data.language.danish.id
     folder_id = resource.language_label_folder.media_manager.folder_id
     version_id = resource.product.media_manager.base_version_id
@@ -2665,6 +2857,22 @@ resource language_label collections_message_no_collections_found_en {
 resource language_label collections_message_no_collections_found_da {
     constant = 'COLLECTIONS_MESSAGE_NO_COLLECTIONS_FOUND'
     label = 'Ingen collections fundet'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label collections_message_no_sub_collections_found_en {
+    constant = 'COLLECTIONS_MESSAGE_NO_SUB_COLLECTIONS_FOUND'
+    label = 'This collection has no sub collections'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label collections_message_no_sub_collections_found_da {
+    constant = 'COLLECTIONS_MESSAGE_NO_SUB_COLLECTIONS_FOUND'
+    label = 'Denne collection har ingen sub-collections'
     language_id = data.language.danish.id
     folder_id = resource.language_label_folder.media_manager.folder_id
     version_id = resource.product.media_manager.base_version_id
@@ -2793,6 +3001,38 @@ resource language_label collections_add_item_to_collection_asset_picker_success_
 resource language_label collections_add_item_to_collection_asset_picker_success_body_da {
     constant = 'COLLECTIONS_ADD_ITEM_TO_COLLECTION_ASSET_PICKER_SUCCESS_BODY'
     label = '{count, cardinalPlural, one {Assetet blev tilføjet til collectionen} other {Assetsne blev tilføjet til collectionen}}'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label collections_add_item_to_collection_asset_picker_error_title_en {
+    constant = 'COLLECTIONS_ADD_ITEM_TO_COLLECTION_ASSET_PICKER_ERROR_TITLE'
+    label = 'Error'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label collections_add_item_to_collection_asset_picker_error_title_da {
+    constant = 'COLLECTIONS_ADD_ITEM_TO_COLLECTION_ASSET_PICKER_ERROR_TITLE'
+    label = 'Fejl'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label collections_add_item_to_collection_asset_picker_error_body_en {
+    constant = 'COLLECTIONS_ADD_ITEM_TO_COLLECTION_ASSET_PICKER_ERROR_BODY'
+    label = '{partialError, select, true {The collection owner does not have access to all selected assets. Adding the ones that are possible} false {The collection owner does not have access to the selected assets}}'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label collections_add_item_to_collection_asset_picker_error_body_da {
+    constant = 'COLLECTIONS_ADD_ITEM_TO_COLLECTION_ASSET_PICKER_ERROR_BODY'
+    label = '{partialError, select, true {Collection-ejeren har ikke adgang til alle de valgte assets. Tilføjer dem, der er mulige} false {Collection-ejeren har ikke adgang til de valgte asset}}'
     language_id = data.language.danish.id
     folder_id = resource.language_label_folder.media_manager.folder_id
     version_id = resource.product.media_manager.base_version_id
@@ -2985,6 +3225,70 @@ resource language_label collection_delete_confirmation_dialog_confirm_en {
 resource language_label collection_delete_confirmation_dialog_confirm_da {
     constant = 'COLLECTION_DELETE_CONFIRMATION_DIALOG_CONFIRM'
     label = 'Fjern'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label collection_protect_password_label_en {
+    constant = 'COLLECTION_PROTECT_PASSWORD_LABEL'
+    label = 'Password'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label collection_protect_password_label_da {
+    constant = 'COLLECTION_PROTECT_PASSWORD_LABEL'
+    label = 'Kodeord'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label collection_protect_continue_button_en {
+    constant = 'COLLECTION_PROTECT_CONTINUE_BUTTON'
+    label = 'Continue'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label collection_protect_continue_button_da {
+    constant = 'COLLECTION_PROTECT_CONTINUE_BUTTON'
+    label = 'Fortsæt'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label collection_protect_title_en {
+    constant = 'COLLECTION_PROTECT_TITLE'
+    label = 'Password protected collection'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label collection_protect_title_da {
+    constant = 'COLLECTION_PROTECT_TITLE'
+    label = 'Kodeords-beskyttet collection'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label collection_protect_description_en {
+    constant = 'COLLECTION_PROTECT_DESCRIPTION'
+    label = 'This collection is password protected. Please enter the password to access.'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label collection_protect_description_da {
+    constant = 'COLLECTION_PROTECT_DESCRIPTION'
+    label = 'Denne collection er kodeords-beskyttet. Indtast adgangskoden for at få adgang.'
     language_id = data.language.danish.id
     folder_id = resource.language_label_folder.media_manager.folder_id
     version_id = resource.product.media_manager.base_version_id

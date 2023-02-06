@@ -1,4 +1,4 @@
-resource language_label settings_theme_settings_save_theme_en {
+﻿resource language_label settings_theme_settings_save_theme_en {
     constant = 'SETTINGS_THEME_SETTINGS_SAVE_THEME'
     label = '{saving, select, true {Saving...} false {Save}}'
     language_id = data.language.english.id
@@ -782,17 +782,49 @@ resource language_label settings_about_da {
     version_id = resource.product.media_manager.base_version_id
 }
 
-resource language_label settings_about_product_version_en {
-    constant = 'SETTINGS_ABOUT_PRODUCT_VERSION'
-    label = 'Product version:'
+resource language_label settings_about_dc_product_version_en {
+    constant = 'SETTINGS_ABOUT_DC_PRODUCT_VERSION'
+    label = 'DC product version:'
     language_id = data.language.english.id
     folder_id = resource.language_label_folder.media_manager.folder_id
     version_id = resource.product.media_manager.base_version_id
 }
 
-resource language_label settings_about_product_version_da {
-    constant = 'SETTINGS_ABOUT_PRODUCT_VERSION'
-    label = 'Produktversion:'
+resource language_label settings_about_dc_product_version_da {
+    constant = 'SETTINGS_ABOUT_DC_PRODUCT_VERSION'
+    label = 'DC-produktversion:'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label settings_about_mm_product_version_en {
+    constant = 'SETTINGS_ABOUT_MM_PRODUCT_VERSION'
+    label = 'MM Product version:'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label settings_about_mm_product_version_da {
+    constant = 'SETTINGS_ABOUT_MM_PRODUCT_VERSION'
+    label = 'MM Produktversion:'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label settings_about_release_version_id_en {
+    constant = 'SETTINGS_ABOUT_RELEASE_VERSION_ID'
+    label = 'Release version:'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label settings_about_release_version_id_da {
+    constant = 'SETTINGS_ABOUT_RELEASE_VERSION_ID'
+    label = 'Releaseversion:'
     language_id = data.language.danish.id
     folder_id = resource.language_label_folder.media_manager.folder_id
     version_id = resource.product.media_manager.base_version_id
@@ -1358,6 +1390,70 @@ resource language_label settings_menu_site_settings_desc_da {
     version_id = resource.product.media_manager.base_version_id
 }
 
+resource language_label settings_menu_site_upload_active_document_title_en {
+    constant = 'SETTINGS_MENU_SITE_UPLOAD_ACTIVE_DOCUMENT_TITLE'
+    label = 'Upload current document'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label settings_menu_site_upload_active_document_title_da {
+    constant = 'SETTINGS_MENU_SITE_UPLOAD_ACTIVE_DOCUMENT_TITLE'
+    label = 'Upload det nuværende dokument'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label settings_menu_site_upload_active_document_desc_en {
+    constant = 'SETTINGS_MENU_SITE_UPLOAD_ACTIVE_DOCUMENT_DESC'
+    label = 'Upload the current document to the DAM'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label settings_menu_site_upload_active_document_desc_da {
+    constant = 'SETTINGS_MENU_SITE_UPLOAD_ACTIVE_DOCUMENT_DESC'
+    label = 'Upload det nuværende dokument til DAM'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label settings_menu_site_link_manager_title_en {
+    constant = 'SETTINGS_MENU_SITE_LINK_MANAGER_TITLE'
+    label = 'Link manager'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label settings_menu_site_link_manager_title_da {
+    constant = 'SETTINGS_MENU_SITE_LINK_MANAGER_TITLE'
+    label = 'Link-manager'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label settings_menu_site_link_manager_desc_en {
+    constant = 'SETTINGS_MENU_SITE_LINK_MANAGER_DESC'
+    label = 'Manage links'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label settings_menu_site_link_manager_desc_da {
+    constant = 'SETTINGS_MENU_SITE_LINK_MANAGER_DESC'
+    label = 'Håndtér links'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
 resource language_label settings_menu_automation_title_en {
     constant = 'SETTINGS_MENU_AUTOMATION_TITLE'
     label = 'Automation'
@@ -1448,7 +1544,7 @@ resource language_label settings_menu_digibatch_logs_desc_en {
 
 resource language_label settings_menu_digibatch_logs_desc_da {
     constant = 'SETTINGS_MENU_DIGIBATCH_LOGS_DESC'
-    label = 'Monitorér statusen af DigiBatch'
+    label = 'Monitorér statussen af DigiBatch'
     language_id = data.language.danish.id
     folder_id = resource.language_label_folder.media_manager.folder_id
     version_id = resource.product.media_manager.base_version_id
@@ -2425,6 +2521,22 @@ resource language_label settings_settings_left_menu_asset_search_en {
 resource language_label settings_settings_left_menu_asset_search_da {
     constant = 'SETTINGS_SETTINGS_LEFT_MENU_ASSET_SEARCH'
     label = 'Assetsøgning'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label settings_settings_left_menu_asset_info_en {
+    constant = 'SETTINGS_SETTINGS_LEFT_MENU_ASSET_INFO'
+    label = 'Asset info'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label settings_settings_left_menu_asset_info_da {
+    constant = 'SETTINGS_SETTINGS_LEFT_MENU_ASSET_INFO'
+    label = 'Asset-info'
     language_id = data.language.danish.id
     folder_id = resource.language_label_folder.media_manager.folder_id
     version_id = resource.product.media_manager.base_version_id
@@ -3417,6 +3529,726 @@ resource language_label collection_asset_settings_metadata_label_en {
 resource language_label collection_asset_settings_metadata_label_da {
     constant = 'COLLECTION_ASSET_SETTINGS_METADATA_LABEL'
     label = 'Metadata vist ved deling'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label asset_card_settings_filter_action_public_en {
+    constant = 'ASSET_CARD_SETTINGS_FILTER_ACTION_PUBLIC'
+    label = 'Not public'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label asset_card_settings_filter_action_public_da {
+    constant = 'ASSET_CARD_SETTINGS_FILTER_ACTION_PUBLIC'
+    label = 'Ikke offentlig'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label asset_card_settings_filter_action_favorite_en {
+    constant = 'ASSET_CARD_SETTINGS_FILTER_ACTION_FAVORITE'
+    label = 'Favorite'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label asset_card_settings_filter_action_favorite_da {
+    constant = 'ASSET_CARD_SETTINGS_FILTER_ACTION_FAVORITE'
+    label = 'Favorit'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label asset_card_settings_filter_action_download_en {
+    constant = 'ASSET_CARD_SETTINGS_FILTER_ACTION_DOWNLOAD'
+    label = 'Download'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label asset_card_settings_filter_action_download_da {
+    constant = 'ASSET_CARD_SETTINGS_FILTER_ACTION_DOWNLOAD'
+    label = 'Download'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label asset_card_settings_filter_action_info_en {
+    constant = 'ASSET_CARD_SETTINGS_FILTER_ACTION_INFO'
+    label = 'Asset info'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label asset_card_settings_filter_action_info_da {
+    constant = 'ASSET_CARD_SETTINGS_FILTER_ACTION_INFO'
+    label = 'Asset-info'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label asset_card_settings_filter_action_check_in_out_en {
+    constant = 'ASSET_CARD_SETTINGS_FILTER_ACTION_CHECK_IN_OUT'
+    label = 'Check in'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label asset_card_settings_filter_action_check_in_out_da {
+    constant = 'ASSET_CARD_SETTINGS_FILTER_ACTION_CHECK_IN_OUT'
+    label = 'Check ind'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label asset_card_settings_filter_action_share_en {
+    constant = 'ASSET_CARD_SETTINGS_FILTER_ACTION_SHARE'
+    label = 'Share'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label asset_card_settings_filter_action_share_da {
+    constant = 'ASSET_CARD_SETTINGS_FILTER_ACTION_SHARE'
+    label = 'Del'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label asset_card_settings_filter_action_insert_with_selected_quality_en {
+    constant = 'ASSET_CARD_SETTINGS_FILTER_ACTION_INSERT_WITH_SELECTED_QUALITY'
+    label = 'Insert asset'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label asset_card_settings_filter_action_insert_with_selected_quality_da {
+    constant = 'ASSET_CARD_SETTINGS_FILTER_ACTION_INSERT_WITH_SELECTED_QUALITY'
+    label = 'Indsæt asset'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label asset_card_settings_filter_action_open_office_document_or_insert_en {
+    constant = 'ASSET_CARD_SETTINGS_FILTER_ACTION_OPEN_OFFICE_DOCUMENT_OR_INSERT'
+    label = 'Open Office document'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label asset_card_settings_filter_action_open_office_document_or_insert_da {
+    constant = 'ASSET_CARD_SETTINGS_FILTER_ACTION_OPEN_OFFICE_DOCUMENT_OR_INSERT'
+    label = 'Åbn Office-dokument'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label asset_card_settings_filter_action_crop_or_trim_en {
+    constant = 'ASSET_CARD_SETTINGS_FILTER_ACTION_CROP_OR_TRIM'
+    label = 'Crop or trim'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label asset_card_settings_filter_action_crop_or_trim_da {
+    constant = 'ASSET_CARD_SETTINGS_FILTER_ACTION_CROP_OR_TRIM'
+    label = 'Beskær'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label asset_card_settings_filter_action_audit_en {
+    constant = 'ASSET_CARD_SETTINGS_FILTER_ACTION_AUDIT'
+    label = 'Audit trail'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label asset_card_settings_filter_action_audit_da {
+    constant = 'ASSET_CARD_SETTINGS_FILTER_ACTION_AUDIT'
+    label = 'Historik'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label asset_card_settings_filter_action_comments_en {
+    constant = 'ASSET_CARD_SETTINGS_FILTER_ACTION_COMMENTS'
+    label = 'Comments'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label asset_card_settings_filter_action_comments_da {
+    constant = 'ASSET_CARD_SETTINGS_FILTER_ACTION_COMMENTS'
+    label = 'Kommentarer'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label asset_card_settings_filter_action_instantiate_business_workflow_en {
+    constant = 'ASSET_CARD_SETTINGS_FILTER_ACTION_INSTANTIATE_BUSINESS_WORKFLOW'
+    label = 'Init workflow'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label asset_card_settings_filter_action_instantiate_business_workflow_da {
+    constant = 'ASSET_CARD_SETTINGS_FILTER_ACTION_INSTANTIATE_BUSINESS_WORKFLOW'
+    label = 'Init workflow'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label asset_card_settings_filter_action_replace_en {
+    constant = 'ASSET_CARD_SETTINGS_FILTER_ACTION_REPLACE'
+    label = 'Replace'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label asset_card_settings_filter_action_replace_da {
+    constant = 'ASSET_CARD_SETTINGS_FILTER_ACTION_REPLACE'
+    label = 'Udskift'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label asset_card_settings_filter_action_generate_thumbnail_en {
+    constant = 'ASSET_CARD_SETTINGS_FILTER_ACTION_GENERATE_THUMBNAIL'
+    label = 'Generate thumbnail'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label asset_card_settings_filter_action_generate_thumbnail_da {
+    constant = 'ASSET_CARD_SETTINGS_FILTER_ACTION_GENERATE_THUMBNAIL'
+    label = 'Generer thumbnail'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label asset_card_settings_filter_action_print_en {
+    constant = 'ASSET_CARD_SETTINGS_FILTER_ACTION_PRINT'
+    label = 'Print'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label asset_card_settings_filter_action_print_da {
+    constant = 'ASSET_CARD_SETTINGS_FILTER_ACTION_PRINT'
+    label = 'Print'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label asset_card_settings_filter_action_remove_from_collection_en {
+    constant = 'ASSET_CARD_SETTINGS_FILTER_ACTION_REMOVE_FROM_COLLECTION'
+    label = 'Remove from current collection'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label asset_card_settings_filter_action_remove_from_collection_da {
+    constant = 'ASSET_CARD_SETTINGS_FILTER_ACTION_REMOVE_FROM_COLLECTION'
+    label = 'Fjern fra nuværende collection'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label asset_card_settings_filter_action_archive_en {
+    constant = 'ASSET_CARD_SETTINGS_FILTER_ACTION_ARCHIVE'
+    label = 'Archive'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label asset_card_settings_filter_action_archive_da {
+    constant = 'ASSET_CARD_SETTINGS_FILTER_ACTION_ARCHIVE'
+    label = 'Arkiv'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label asset_card_settings_filter_action_delete_permanently_en {
+    constant = 'ASSET_CARD_SETTINGS_FILTER_ACTION_DELETE_PERMANENTLY'
+    label = 'Permanently delete'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label asset_card_settings_filter_action_delete_permanently_da {
+    constant = 'ASSET_CARD_SETTINGS_FILTER_ACTION_DELETE_PERMANENTLY'
+    label = 'Slet permanent'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label asset_card_settings_input_search_placeholder_en {
+    constant = 'ASSET_CARD_SETTINGS_INPUT_SEARCH_PLACEHOLDER'
+    label = 'Add button'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label asset_card_settings_input_search_placeholder_da {
+    constant = 'ASSET_CARD_SETTINGS_INPUT_SEARCH_PLACEHOLDER'
+    label = 'Tilføj knap'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label asset_card_settings_button_reorder_tooltip_en {
+    constant = 'ASSET_CARD_SETTINGS_BUTTON_REORDER_TOOLTIP'
+    label = 'Reorder'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label asset_card_settings_button_reorder_tooltip_da {
+    constant = 'ASSET_CARD_SETTINGS_BUTTON_REORDER_TOOLTIP'
+    label = 'Omarrangér'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label asset_card_settings_button_more_tooltip_en {
+    constant = 'ASSET_CARD_SETTINGS_BUTTON_MORE_TOOLTIP'
+    label = 'More'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label asset_card_settings_button_more_tooltip_da {
+    constant = 'ASSET_CARD_SETTINGS_BUTTON_MORE_TOOLTIP'
+    label = 'Mere'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label asset_card_settings_more_menu_button_remove_en {
+    constant = 'ASSET_CARD_SETTINGS_MORE_MENU_BUTTON_REMOVE'
+    label = 'Remove'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label asset_card_settings_more_menu_button_remove_da {
+    constant = 'ASSET_CARD_SETTINGS_MORE_MENU_BUTTON_REMOVE'
+    label = 'Fjern'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label asset_card_settings_no_selected_value_en {
+    constant = 'ASSET_CARD_SETTINGS_NO_SELECTED_VALUE'
+    label = 'No action selected'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label asset_card_settings_no_selected_value_da {
+    constant = 'ASSET_CARD_SETTINGS_NO_SELECTED_VALUE'
+    label = 'Ingen handling valgt'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label settings_settings_left_menu_asset_card_en {
+    constant = 'SETTINGS_SETTINGS_LEFT_MENU_ASSET_CARD'
+    label = 'Asset card'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label settings_settings_left_menu_asset_card_da {
+    constant = 'SETTINGS_SETTINGS_LEFT_MENU_ASSET_CARD'
+    label = 'Assetkort'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label asset_card_settings_title_en {
+    constant = 'ASSET_CARD_SETTINGS_TITLE'
+    label = 'Asset card'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label asset_card_settings_title_da {
+    constant = 'ASSET_CARD_SETTINGS_TITLE'
+    label = 'Assetkort'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label asset_card_settings_description_en {
+    constant = 'ASSET_CARD_SETTINGS_DESCRIPTION'
+    label = 'Customize buttons, more menu items, and metadata fields. Set the configuration for both Media Manager and connectors.'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label asset_card_settings_description_da {
+    constant = 'ASSET_CARD_SETTINGS_DESCRIPTION'
+    label = 'Tilpas knapper, mere-menu-elementer og metadatafelter. Sæt konfiguration for både Media Manager og connectors.'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label asset_card_settings_visible_actions_section_header_en {
+    constant = 'ASSET_CARD_SETTINGS_VISIBLE_ACTIONS_SECTION_HEADER'
+    label = 'Visible buttons'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label asset_card_settings_visible_actions_section_header_da {
+    constant = 'ASSET_CARD_SETTINGS_VISIBLE_ACTIONS_SECTION_HEADER'
+    label = 'Synlige knapper'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label asset_card_settings_section_button_cancel_en {
+    constant = 'ASSET_CARD_SETTINGS_SECTION_BUTTON_CANCEL'
+    label = 'Cancel'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label asset_card_settings_section_button_cancel_da {
+    constant = 'ASSET_CARD_SETTINGS_SECTION_BUTTON_CANCEL'
+    label = 'Annullér'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label asset_card_settings_section_button_save_en {
+    constant = 'ASSET_CARD_SETTINGS_SECTION_BUTTON_SAVE'
+    label = 'Save'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label asset_card_settings_section_button_save_da {
+    constant = 'ASSET_CARD_SETTINGS_SECTION_BUTTON_SAVE'
+    label = 'Gem'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label asset_card_settings_visible_actions_section_description_en {
+    constant = 'ASSET_CARD_SETTINGS_VISIBLE_ACTIONS_SECTION_DESCRIPTION'
+    label = 'Choose up to four buttons to display'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label asset_card_settings_visible_actions_section_description_da {
+    constant = 'ASSET_CARD_SETTINGS_VISIBLE_ACTIONS_SECTION_DESCRIPTION'
+    label = 'Vælg op til fire knapper, der skal vises'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label asset_card_settings_visible_actions_disabled_tooltip_en {
+    constant = 'ASSET_CARD_SETTINGS_VISIBLE_ACTIONS_DISABLED_TOOLTIP'
+    label = 'The upper limit is four buttons'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label asset_card_settings_visible_actions_disabled_tooltip_da {
+    constant = 'ASSET_CARD_SETTINGS_VISIBLE_ACTIONS_DISABLED_TOOLTIP'
+    label = 'Fire knapper er den øvre grænse'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label asset_card_settings_media_manager_tab_label_en {
+    constant = 'ASSET_CARD_SETTINGS_MEDIA_MANAGER_TAB_LABEL'
+    label = 'Media Manager'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label asset_card_settings_media_manager_tab_label_da {
+    constant = 'ASSET_CARD_SETTINGS_MEDIA_MANAGER_TAB_LABEL'
+    label = 'Media Manager'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label asset_card_settings_connector_tab_label_en {
+    constant = 'ASSET_CARD_SETTINGS_CONNECTOR_TAB_LABEL'
+    label = 'Connector'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label asset_card_settings_connector_tab_label_da {
+    constant = 'ASSET_CARD_SETTINGS_CONNECTOR_TAB_LABEL'
+    label = 'Connector'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label asset_card_settings_more_actions_section_header_en {
+    constant = 'ASSET_CARD_SETTINGS_MORE_ACTIONS_SECTION_HEADER'
+    label = 'More menu items'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label asset_card_settings_more_actions_section_header_da {
+    constant = 'ASSET_CARD_SETTINGS_MORE_ACTIONS_SECTION_HEADER'
+    label = 'Mere-menu-elementer'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label asset_card_settings_more_actions_section_description_en {
+    constant = 'ASSET_CARD_SETTINGS_MORE_ACTIONS_SECTION_DESCRIPTION'
+    label = 'Choose items to display in the more menu'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label asset_card_settings_more_actions_section_description_da {
+    constant = 'ASSET_CARD_SETTINGS_MORE_ACTIONS_SECTION_DESCRIPTION'
+    label = 'Vælg elementer, der skal vises i mere-menuen'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label asset_card_settings_title_description_section_header_en {
+    constant = 'ASSET_CARD_SETTINGS_TITLE_DESCRIPTION_SECTION_HEADER'
+    label = 'Title and description text'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label asset_card_settings_title_description_section_header_da {
+    constant = 'ASSET_CARD_SETTINGS_TITLE_DESCRIPTION_SECTION_HEADER'
+    label = 'Titel- og beskrivelsestekst'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label asset_card_settings_title_description_section_description_en {
+    constant = 'ASSET_CARD_SETTINGS_TITLE_DESCRIPTION_SECTION_DESCRIPTION'
+    label = 'Choose metadata fields to replace title and description'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label asset_card_settings_title_description_section_description_da {
+    constant = 'ASSET_CARD_SETTINGS_TITLE_DESCRIPTION_SECTION_DESCRIPTION'
+    label = 'Vælg metadatafelter der skal erstatte titel og beskrivelse'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label asset_card_settings_title_description_section_title_filter_label_en {
+    constant = 'ASSET_CARD_SETTINGS_TITLE_DESCRIPTION_SECTION_TITLE_FILTER_LABEL'
+    label = 'Title field'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label asset_card_settings_title_description_section_title_filter_label_da {
+    constant = 'ASSET_CARD_SETTINGS_TITLE_DESCRIPTION_SECTION_TITLE_FILTER_LABEL'
+    label = 'Titelfelt'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label asset_card_settings_title_description_section_description_filter_label_en {
+    constant = 'ASSET_CARD_SETTINGS_TITLE_DESCRIPTION_SECTION_DESCRIPTION_FILTER_LABEL'
+    label = 'Description field'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label asset_card_settings_title_description_section_description_filter_label_da {
+    constant = 'ASSET_CARD_SETTINGS_TITLE_DESCRIPTION_SECTION_DESCRIPTION_FILTER_LABEL'
+    label = 'Beskrivelsesfelt'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label asset_card_settings_title_description_section_no_selected_value_en {
+    constant = 'ASSET_CARD_SETTINGS_TITLE_DESCRIPTION_SECTION_NO_SELECTED_VALUE'
+    label = 'No value selected'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label asset_card_settings_title_description_section_no_selected_value_da {
+    constant = 'ASSET_CARD_SETTINGS_TITLE_DESCRIPTION_SECTION_NO_SELECTED_VALUE'
+    label = 'Ingen værdi valgt'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label asset_card_settings_notification_title_en {
+    constant = 'ASSET_CARD_SETTINGS_NOTIFICATION_TITLE'
+    label = '{success, select, true {Success} false {Error}}'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label asset_card_settings_notification_title_da {
+    constant = 'ASSET_CARD_SETTINGS_NOTIFICATION_TITLE'
+    label = '{success, select, true {Succes} false {Fejl}}'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label asset_card_settings_notification_body_en {
+    constant = 'ASSET_CARD_SETTINGS_NOTIFICATION_BODY'
+    label = '{success, select, true {Settings successfully updated} false {An error occurred while saving the settings}}'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label asset_card_settings_notification_body_da {
+    constant = 'ASSET_CARD_SETTINGS_NOTIFICATION_BODY'
+    label = '{success, select, true {Indstillinger opdatereret} false {Der skete en fejl under lagringen af indstillinger}}'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label settings_asset_info_settings_title_en {
+    constant = 'SETTINGS_ASSET_INFO_SETTINGS_TITLE'
+    label = 'Asset info'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label settings_asset_info_settings_title_da {
+    constant = 'SETTINGS_ASSET_INFO_SETTINGS_TITLE'
+    label = 'Asset-info'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label settings_asset_info_settings_description_en {
+    constant = 'SETTINGS_ASSET_INFO_SETTINGS_DESCRIPTION'
+    label = 'Choose which fields are shown in asset info'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label settings_asset_info_settings_description_da {
+    constant = 'SETTINGS_ASSET_INFO_SETTINGS_DESCRIPTION'
+    label = 'Vælg hvilke felter der skal vises i asset-info'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label settings_asset_info_settings_section_header_en {
+    constant = 'SETTINGS_ASSET_INFO_SETTINGS_SECTION_HEADER'
+    label = 'Asset info fields'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label settings_asset_info_settings_section_header_da {
+    constant = 'SETTINGS_ASSET_INFO_SETTINGS_SECTION_HEADER'
+    label = 'Asset-info-felter'
     language_id = data.language.danish.id
     folder_id = resource.language_label_folder.media_manager.folder_id
     version_id = resource.product.media_manager.base_version_id

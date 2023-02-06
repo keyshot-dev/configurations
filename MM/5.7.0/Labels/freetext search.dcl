@@ -1,4 +1,4 @@
-resource language_label freetext_search_freetext_search_popup_loading_en {
+﻿resource language_label freetext_search_freetext_search_popup_loading_en {
     constant = 'FREETEXT_SEARCH_FREETEXT_SEARCH_POPUP_LOADING'
     label = 'Loading'
     language_id = data.language.english.id

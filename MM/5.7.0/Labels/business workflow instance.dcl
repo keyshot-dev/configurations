@@ -1,3 +1,19 @@
+﻿resource language_label section_title_tasks_en {
+    constant = 'SECTION_TITLE_TASKS'
+    label = 'Tasks'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label section_title_tasks_da {
+    constant = 'SECTION_TITLE_TASKS'
+    label = 'Opgaver'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
 resource language_label business_instance_submit_form_constraints_en {
     constant = 'BUSINESS_INSTANCE_SUBMIT_FORM_CONSTRAINTS'
     label = '{saving, select, true {Continue...} false {Continue}}'

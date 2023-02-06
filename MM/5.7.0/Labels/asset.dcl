@@ -1,4 +1,4 @@
-resource language_label asset_id_en {
+﻿resource language_label asset_id_en {
     constant = 'ASSET_ID'
     label = 'ID'
     language_id = data.language.english.id
@@ -57,6 +57,22 @@ resource language_label asset_info_no_items_en {
 resource language_label asset_info_no_items_da {
     constant = 'ASSET_INFO_NO_ITEMS'
     label = 'Ingen asset-info tilgængelig'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label asset_info_list_dialog_title_en {
+    constant = 'ASSET_INFO_LIST_DIALOG_TITLE'
+    label = 'Asset info'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label asset_info_list_dialog_title_da {
+    constant = 'ASSET_INFO_LIST_DIALOG_TITLE'
+    label = 'Asset-info'
     language_id = data.language.danish.id
     folder_id = resource.language_label_folder.media_manager.folder_id
     version_id = resource.product.media_manager.base_version_id

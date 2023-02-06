@@ -1,4 +1,4 @@
-resource language_label duplicate_asset_modal_title_en {
+﻿resource language_label duplicate_asset_modal_title_en {
     constant = 'DUPLICATE_ASSET_MODAL_TITLE'
     label = 'Duplicates found'
     language_id = data.language.english.id
@@ -14,6 +14,22 @@ resource language_label duplicate_asset_modal_title_da {
     version_id = resource.product.media_manager.base_version_id
 }
 
+resource language_label identical_asset_modal_title_en {
+    constant = 'IDENTICAL_ASSET_MODAL_TITLE'
+    label = 'Duplicate assets found'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label identical_asset_modal_title_da {
+    constant = 'IDENTICAL_ASSET_MODAL_TITLE'
+    label = 'Dubletter fundet'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
 resource language_label duplicate_asset_modal_select_duplicate_en {
     constant = 'DUPLICATE_ASSET_MODAL_SELECT_DUPLICATE'
     label = 'Duplicates'
@@ -24,6 +40,22 @@ resource language_label duplicate_asset_modal_select_duplicate_en {
 
 resource language_label duplicate_asset_modal_select_duplicate_da {
     constant = 'DUPLICATE_ASSET_MODAL_SELECT_DUPLICATE'
+    label = 'Dubletter'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label identical_asset_modal_select_en {
+    constant = 'IDENTICAL_ASSET_MODAL_SELECT'
+    label = 'Duplicates'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label identical_asset_modal_select_da {
+    constant = 'IDENTICAL_ASSET_MODAL_SELECT'
     label = 'Dubletter'
     language_id = data.language.danish.id
     folder_id = resource.language_label_folder.media_manager.folder_id
@@ -169,6 +201,22 @@ resource language_label popup_duplicate_asset_cancel_confirmation_dialog_ok_en {
 resource language_label popup_duplicate_asset_cancel_confirmation_dialog_ok_da {
     constant = 'POPUP_DUPLICATE_ASSET_CANCEL_CONFIRMATION_DIALOG_OK'
     label = 'Ja'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label duplicate_asset_modal_done_en {
+    constant = 'DUPLICATE_ASSET_MODAL_DONE'
+    label = 'Done'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label duplicate_asset_modal_done_da {
+    constant = 'DUPLICATE_ASSET_MODAL_DONE'
+    label = 'Færdig'
     language_id = data.language.danish.id
     folder_id = resource.language_label_folder.media_manager.folder_id
     version_id = resource.product.media_manager.base_version_id

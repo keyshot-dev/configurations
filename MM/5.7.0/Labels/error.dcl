@@ -1,4 +1,4 @@
-resource language_label lbl_mp_error_403_en {
+﻿resource language_label lbl_mp_error_403_en {
     constant = 'LBL_MP_ERROR_403'
     label = 'Access Denied'
     language_id = data.language.english.id
@@ -126,32 +126,32 @@ resource language_label error_http_429_da {
     version_id = resource.product.media_manager.base_version_id
 }
 
-resource language_label shared_uknown_error_title_en {
-    constant = 'SHARED_UKNOWN_ERROR_TITLE'
+resource language_label collections_share_unknown_error_title_en {
+    constant = 'COLLECTIONS_SHARE_UNKNOWN_ERROR_TITLE'
     label = 'Error'
     language_id = data.language.english.id
     folder_id = resource.language_label_folder.media_manager.folder_id
     version_id = resource.product.media_manager.base_version_id
 }
 
-resource language_label shared_uknown_error_title_da {
-    constant = 'SHARED_UKNOWN_ERROR_TITLE'
+resource language_label collections_share_unknown_error_title_da {
+    constant = 'COLLECTIONS_SHARE_UNKNOWN_ERROR_TITLE'
     label = 'Fejl'
     language_id = data.language.danish.id
     folder_id = resource.language_label_folder.media_manager.folder_id
     version_id = resource.product.media_manager.base_version_id
 }
 
-resource language_label shared_uknown_error_body_en {
-    constant = 'SHARED_UKNOWN_ERROR_BODY'
+resource language_label collections_share_unknown_error_body_en {
+    constant = 'COLLECTIONS_SHARE_UNKNOWN_ERROR_BODY'
     label = 'An unknown error occurred'
     language_id = data.language.english.id
     folder_id = resource.language_label_folder.media_manager.folder_id
     version_id = resource.product.media_manager.base_version_id
 }
 
-resource language_label shared_uknown_error_body_da {
-    constant = 'SHARED_UKNOWN_ERROR_BODY'
+resource language_label collections_share_unknown_error_body_da {
+    constant = 'COLLECTIONS_SHARE_UNKNOWN_ERROR_BODY'
     label = 'Der opstod en ukendt fejl'
     language_id = data.language.danish.id
     folder_id = resource.language_label_folder.media_manager.folder_id

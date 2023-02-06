@@ -1,4 +1,4 @@
-resource language_label asset_comment_time_group_en {
+﻿resource language_label asset_comment_time_group_en {
     constant = 'ASSET_COMMENT_TIME_GROUP'
     label = '{timespan, select, 1w {This week} 1m {Last month} 3m {3 months} 6m {6 months} 1y {Last Year} +1y {Older than 1 year}}'
     language_id = data.language.english.id

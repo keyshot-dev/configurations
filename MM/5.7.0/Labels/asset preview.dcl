@@ -1,4 +1,4 @@
-resource language_label asset_preview_metadata_tab_label_en {
+﻿resource language_label asset_preview_metadata_tab_label_en {
     constant = 'ASSET_PREVIEW_METADATA_TAB_LABEL'
     label = 'Metadata'
     language_id = data.language.english.id
@@ -185,6 +185,38 @@ resource language_label preview_asset_crop_en {
 resource language_label preview_asset_crop_da {
     constant = 'PREVIEW_ASSET_CROP'
     label = 'Beskær'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label preview_asset_download_en {
+    constant = 'PREVIEW_ASSET_DOWNLOAD'
+    label = 'Download'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label preview_asset_download_da {
+    constant = 'PREVIEW_ASSET_DOWNLOAD'
+    label = 'Download'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label preview_asset_share_en {
+    constant = 'PREVIEW_ASSET_SHARE'
+    label = 'Share'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label preview_asset_share_da {
+    constant = 'PREVIEW_ASSET_SHARE'
+    label = 'Del'
     language_id = data.language.danish.id
     folder_id = resource.language_label_folder.media_manager.folder_id
     version_id = resource.product.media_manager.base_version_id

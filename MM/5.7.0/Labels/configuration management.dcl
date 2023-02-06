@@ -1,3 +1,19 @@
+﻿resource language_label section_title_configuration_management_en {
+    constant = 'SECTION_TITLE_CONFIGURATION_MANAGEMENT'
+    label = 'Configuration management'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label section_title_configuration_management_da {
+    constant = 'SECTION_TITLE_CONFIGURATION_MANAGEMENT'
+    label = 'Konfigurations-styring'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
 resource language_label configuration_management_resource_card_link_to_existing_resource_en {
     constant = 'CONFIGURATION_MANAGEMENT_RESOURCE_CARD_LINK_TO_EXISTING_RESOURCE'
     label = 'Link to existing resource'

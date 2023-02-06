@@ -238,6 +238,38 @@ resource language_label asset_list_filters_comparison_operator_da {
     version_id = resource.product.media_manager.base_version_id
 }
 
+resource language_label asset_list_filters_default_facet_count_en {
+    constant = 'ASSET_LIST_FILTERS_DEFAULT_FACET_COUNT'
+    label = 'Default'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label asset_list_filters_default_facet_count_da {
+    constant = 'ASSET_LIST_FILTERS_DEFAULT_FACET_COUNT'
+    label = 'Standard'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label asset_list_filters_default_facet_count_menu_en {
+    constant = 'ASSET_LIST_FILTERS_DEFAULT_FACET_COUNT_MENU'
+    label = 'Number of values'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label asset_list_filters_default_facet_count_menu_da {
+    constant = 'ASSET_LIST_FILTERS_DEFAULT_FACET_COUNT_MENU'
+    label = 'Antal værdier'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
 resource language_label asset_list_filters_configuration_tooltip_en {
     constant = 'ASSET_LIST_FILTERS_CONFIGURATION_TOOLTIP'
     label = 'Customize and reorder'

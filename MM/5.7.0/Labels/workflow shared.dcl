@@ -1,4 +1,4 @@
-resource language_label flow_editor_member_selector_placeholder_en {
+﻿resource language_label flow_editor_member_selector_placeholder_en {
     constant = 'FLOW_EDITOR_MEMBER_SELECTOR_PLACEHOLDER'
     label = 'Search for users'
     language_id = data.language.english.id

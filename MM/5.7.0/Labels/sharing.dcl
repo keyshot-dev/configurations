@@ -1,4 +1,4 @@
-resource language_label sharing_quality_selector_dialog_quality_selector_en {
+﻿resource language_label sharing_quality_selector_dialog_quality_selector_en {
     constant = 'SHARING_QUALITY_SELECTOR_DIALOG_QUALITY_SELECTOR'
     label = 'Quality selector'
     language_id = data.language.english.id
@@ -601,6 +601,22 @@ resource language_label sharing_sharing_dialog_collection_en {
 resource language_label sharing_sharing_dialog_collection_da {
     constant = 'SHARING_SHARING_DIALOG_COLLECTION'
     label = 'Collection'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label sharing_sharing_dialog_no_permissions_en {
+    constant = 'SHARING_SHARING_DIALOG_NO_PERMISSIONS'
+    label = 'You do not have permission to share collections'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label sharing_sharing_dialog_no_permissions_da {
+    constant = 'SHARING_SHARING_DIALOG_NO_PERMISSIONS'
+    label = 'Du har ikke rettigheder til at dele collections'
     language_id = data.language.danish.id
     folder_id = resource.language_label_folder.media_manager.folder_id
     version_id = resource.product.media_manager.base_version_id
@@ -1296,7 +1312,7 @@ resource language_label sharing_share_to_collection_success_title_da {
 
 resource language_label sharing_share_to_collection_success_body_en {
     constant = 'SHARING_SHARE_TO_COLLECTION_SUCCESS_BODY'
-    label = '{count, cardinalPlural, one {Asset was added to the collection} other {Assets were added to the collection}}'
+    label = '{count, cardinalPlural, one {The asset was added to the collection} other {The assets were added to the collection}}'
     language_id = data.language.english.id
     folder_id = resource.language_label_folder.media_manager.folder_id
     version_id = resource.product.media_manager.base_version_id
@@ -1497,6 +1513,134 @@ resource language_label collections_share_copy_link_success_body_en {
 resource language_label collections_share_copy_link_success_body_da {
     constant = 'COLLECTIONS_SHARE_COPY_LINK_SUCCESS_BODY'
     label = 'Link kopieret'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label collections_share_copy_link_error_title_en {
+    constant = 'COLLECTIONS_SHARE_COPY_LINK_ERROR_TITLE'
+    label = 'Error'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label collections_share_copy_link_error_title_da {
+    constant = 'COLLECTIONS_SHARE_COPY_LINK_ERROR_TITLE'
+    label = 'Fejl'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label collections_share_copy_link_error_body_en {
+    constant = 'COLLECTIONS_SHARE_COPY_LINK_ERROR_BODY'
+    label = 'Failed to copy link to clipboard'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label collections_share_copy_link_error_body_da {
+    constant = 'COLLECTIONS_SHARE_COPY_LINK_ERROR_BODY'
+    label = 'Kunne ikke kopiere linket til udklipsholderen'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label collections_share_password_protected_description_en {
+    constant = 'COLLECTIONS_SHARE_PASSWORD_PROTECTED_DESCRIPTION'
+    label = 'This collection share is password protected. The password cannot be changed. Create a new share instead.'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label collections_share_password_protected_description_da {
+    constant = 'COLLECTIONS_SHARE_PASSWORD_PROTECTED_DESCRIPTION'
+    label = 'Denne collection-deling er kodeords-beskyttet. Kodeordet kan ikke ændres. Opret en ny deling i stedet.'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label collections_share_password_label_en {
+    constant = 'COLLECTIONS_SHARE_PASSWORD_LABEL'
+    label = 'Password'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label collections_share_password_label_da {
+    constant = 'COLLECTIONS_SHARE_PASSWORD_LABEL'
+    label = 'Kodeord'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label collections_share_password_placeholder_en {
+    constant = 'COLLECTIONS_SHARE_PASSWORD_PLACEHOLDER'
+    label = 'Add password'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label collections_share_password_placeholder_da {
+    constant = 'COLLECTIONS_SHARE_PASSWORD_PLACEHOLDER'
+    label = 'Tilføj kodeord'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label collections_share_error_password_required_en {
+    constant = 'COLLECTIONS_SHARE_ERROR_PASSWORD_REQUIRED'
+    label = 'Password is required'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label collections_share_error_password_required_da {
+    constant = 'COLLECTIONS_SHARE_ERROR_PASSWORD_REQUIRED'
+    label = 'Kodeord er påkrævet'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label collections_share_password_info_en {
+    constant = 'COLLECTIONS_SHARE_PASSWORD_INFO'
+    label = 'Set the password for this share'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label collections_share_password_info_da {
+    constant = 'COLLECTIONS_SHARE_PASSWORD_INFO'
+    label = 'Indstil kodeordet til dette share'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label collection_comments_dialog_comments_title_en {
+    constant = 'COLLECTION_COMMENTS_DIALOG_COMMENTS_TITLE'
+    label = 'Comments'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label collection_comments_dialog_comments_title_da {
+    constant = 'COLLECTION_COMMENTS_DIALOG_COMMENTS_TITLE'
+    label = 'Kommentarer'
     language_id = data.language.danish.id
     folder_id = resource.language_label_folder.media_manager.folder_id
     version_id = resource.product.media_manager.base_version_id

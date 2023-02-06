@@ -1,4 +1,4 @@
-resource language_label side_bar_asset_fullscreen_tooltip_en {
+﻿resource language_label side_bar_asset_fullscreen_tooltip_en {
     constant = 'SIDE_BAR_ASSET_FULLSCREEN_TOOLTIP'
     label = 'Fullscreen'
     language_id = data.language.english.id
@@ -345,6 +345,198 @@ resource language_label side_bar_panel_title_edit_group_share_en {
 resource language_label side_bar_panel_title_edit_group_share_da {
     constant = 'SIDE_BAR_PANEL_TITLE_EDIT_GROUP_SHARE'
     label = 'Redigér gruppedeling'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label mobile_menu_back_en {
+    constant = 'MOBILE_MENU_BACK'
+    label = 'Back'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label mobile_menu_back_da {
+    constant = 'MOBILE_MENU_BACK'
+    label = 'Tilbage'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label mobile_menu_languages_en {
+    constant = 'MOBILE_MENU_LANGUAGES'
+    label = 'Languages'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label mobile_menu_languages_da {
+    constant = 'MOBILE_MENU_LANGUAGES'
+    label = 'Sprog'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label mobile_menu_options_en {
+    constant = 'MOBILE_MENU_OPTIONS'
+    label = 'Options'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label mobile_menu_options_da {
+    constant = 'MOBILE_MENU_OPTIONS'
+    label = 'Indstillinger'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label mobile_menu_home_en {
+    constant = 'MOBILE_MENU_HOME'
+    label = 'Home'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label mobile_menu_home_da {
+    constant = 'MOBILE_MENU_HOME'
+    label = 'Hjem'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label mobile_menu_tasks_en {
+    constant = 'MOBILE_MENU_TASKS'
+    label = 'Tasks'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label mobile_menu_tasks_da {
+    constant = 'MOBILE_MENU_TASKS'
+    label = 'Opgaver'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label mobile_menu_upload_en {
+    constant = 'MOBILE_MENU_UPLOAD'
+    label = 'Upload'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label mobile_menu_upload_da {
+    constant = 'MOBILE_MENU_UPLOAD'
+    label = 'Upload'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label mobile_menu_notification_en {
+    constant = 'MOBILE_MENU_NOTIFICATION'
+    label = 'Notifications'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label mobile_menu_notification_da {
+    constant = 'MOBILE_MENU_NOTIFICATION'
+    label = 'Notifikationer'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label mobile_menu_link_manager_en {
+    constant = 'MOBILE_MENU_LINK_MANAGER'
+    label = 'Link manager'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label mobile_menu_link_manager_da {
+    constant = 'MOBILE_MENU_LINK_MANAGER'
+    label = 'Link-manager'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label mobile_menu_link_manager_tooltip_not_available_en {
+    constant = 'MOBILE_MENU_LINK_MANAGER_TOOLTIP_NOT_AVAILABLE'
+    label = 'Please save the document to access the link manager'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label mobile_menu_link_manager_tooltip_not_available_da {
+    constant = 'MOBILE_MENU_LINK_MANAGER_TOOLTIP_NOT_AVAILABLE'
+    label = 'Gem dokumentet for at tilgå link-manageren'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label mobile_menu_upload_active_document_en {
+    constant = 'MOBILE_MENU_UPLOAD_ACTIVE_DOCUMENT'
+    label = 'Upload document'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label mobile_menu_upload_active_document_da {
+    constant = 'MOBILE_MENU_UPLOAD_ACTIVE_DOCUMENT'
+    label = 'Upload dokument'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label mobile_menu_upload_active_document_tooltip_not_available_en {
+    constant = 'MOBILE_MENU_UPLOAD_ACTIVE_DOCUMENT_TOOLTIP_NOT_AVAILABLE'
+    label = 'The active document contains either broken, local, or embedded links. To enable the upload of the active document, please resolve these, optionally via the link manager'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label mobile_menu_upload_active_document_tooltip_not_available_da {
+    constant = 'MOBILE_MENU_UPLOAD_ACTIVE_DOCUMENT_TOOLTIP_NOT_AVAILABLE'
+    label = 'Det aktive dokument indeholder enten ødelagte, lokale eller indlejrede links. For at åbne op for upload af det aktive dokument, skal disse fikses evt. gennem link-manageren'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label mobile_menu_file_manager_en {
+    constant = 'MOBILE_MENU_FILE_MANAGER'
+    label = 'File manager'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label mobile_menu_file_manager_da {
+    constant = 'MOBILE_MENU_FILE_MANAGER'
+    label = 'Fil-manager'
     language_id = data.language.danish.id
     folder_id = resource.language_label_folder.media_manager.folder_id
     version_id = resource.product.media_manager.base_version_id

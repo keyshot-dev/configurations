@@ -1,4 +1,4 @@
-resource language_label section_title_workflow_management_en {
+﻿resource language_label section_title_workflow_management_en {
     constant = 'SECTION_TITLE_WORKFLOW_MANAGEMENT'
     label = 'Workflows'
     language_id = data.language.english.id
@@ -1214,6 +1214,22 @@ resource language_label job_status_job_status_main_finished_da {
     version_id = resource.product.media_manager.base_version_id
 }
 
+resource language_label job_status_job_status_main_runtime_en {
+    constant = 'JOB_STATUS_JOB_STATUS_MAIN_RUNTIME'
+    label = 'Runtime'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label job_status_job_status_main_runtime_da {
+    constant = 'JOB_STATUS_JOB_STATUS_MAIN_RUNTIME'
+    label = 'køretid'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
 resource language_label job_status_job_status_main_all_workflows_en {
     constant = 'JOB_STATUS_JOB_STATUS_MAIN_ALL_WORKFLOWS'
     label = 'All workflows'
@@ -1854,6 +1870,22 @@ resource language_label job_status_digi_batch_job_status_main_not_finished_da {
     version_id = resource.product.media_manager.base_version_id
 }
 
+resource language_label job_status_digi_batch_job_status_main_not_known_en {
+    constant = 'JOB_STATUS_DIGI_BATCH_JOB_STATUS_MAIN_NOT_KNOWN'
+    label = 'N/A'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label job_status_digi_batch_job_status_main_not_known_da {
+    constant = 'JOB_STATUS_DIGI_BATCH_JOB_STATUS_MAIN_NOT_KNOWN'
+    label = 'Ugyldig'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
 resource language_label job_status_digi_batch_job_status_main_description_en {
     constant = 'JOB_STATUS_DIGI_BATCH_JOB_STATUS_MAIN_DESCRIPTION'
     label = 'Description'
@@ -2217,6 +2249,22 @@ resource language_label job_status_job_status_more_no_trace_available_en {
 resource language_label job_status_job_status_more_no_trace_available_da {
     constant = 'JOB_STATUS_JOB_STATUS_MORE_NO_TRACE_AVAILABLE'
     label = 'Ingen trace tilgængelig'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label job_status_job_status_main_edit_workflow_en {
+    constant = 'JOB_STATUS_JOB_STATUS_MAIN_EDIT_WORKFLOW'
+    label = 'Edit workflow'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label job_status_job_status_main_edit_workflow_da {
+    constant = 'JOB_STATUS_JOB_STATUS_MAIN_EDIT_WORKFLOW'
+    label = 'Rediger workflow'
     language_id = data.language.danish.id
     folder_id = resource.language_label_folder.media_manager.folder_id
     version_id = resource.product.media_manager.base_version_id
@@ -2601,6 +2649,22 @@ resource language_label workflow_editor_workflow_asset_search_request_date_range
 resource language_label workflow_editor_workflow_asset_search_request_date_range_input_start_of_time_da {
     constant = 'WORKFLOW_EDITOR_WORKFLOW_ASSET_SEARCH_REQUEST_DATE_RANGE_INPUT_START_OF_TIME'
     label = 'Tidernes begyndelse'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label workflow_editor_workflow_asset_search_request_remove_field_en {
+    constant = 'WORKFLOW_EDITOR_WORKFLOW_ASSET_SEARCH_REQUEST_REMOVE_FIELD'
+    label = 'Remove field'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label workflow_editor_workflow_asset_search_request_remove_field_da {
+    constant = 'WORKFLOW_EDITOR_WORKFLOW_ASSET_SEARCH_REQUEST_REMOVE_FIELD'
+    label = 'Fjern felt'
     language_id = data.language.danish.id
     folder_id = resource.language_label_folder.media_manager.folder_id
     version_id = resource.product.media_manager.base_version_id

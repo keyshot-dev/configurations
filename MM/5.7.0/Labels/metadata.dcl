@@ -1,4 +1,4 @@
-resource language_label metadata_editor_show_all_languages_tooltip_en {
+﻿resource language_label metadata_editor_show_all_languages_tooltip_en {
     constant = 'METADATA_EDITOR_SHOW_ALL_LANGUAGES_TOOLTIP'
     label = '{expanded, select, false {Show all languages} true {Hide other languages}}'
     language_id = data.language.english.id
@@ -142,49 +142,17 @@ resource language_label metadata_editor_multi_metadata_editor_notification_form_
     version_id = resource.product.media_manager.base_version_id
 }
 
-resource language_label metadata_editor_advanced_metadata_group_en {
-    constant = 'METADATA_EDITOR_ADVANCED_METADATA_GROUP'
-    label = 'Someone make a decision on how this should work exactly...'
+resource language_label metadata_editor_inline_metadata_group_edit_en {
+    constant = 'METADATA_EDITOR_INLINE_METADATA_GROUP_EDIT'
+    label = '{editing, select, true {Edit (off)} false {Edit}}'
     language_id = data.language.english.id
     folder_id = resource.language_label_folder.media_manager.folder_id
     version_id = resource.product.media_manager.base_version_id
 }
 
-resource language_label metadata_editor_advanced_metadata_group_da {
-    constant = 'METADATA_EDITOR_ADVANCED_METADATA_GROUP'
-    label = 'Dette er bare en midlertidig tekst ;-)'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label metadata_editor_inline_metadata_group_collapse_en {
-    constant = 'METADATA_EDITOR_INLINE_METADATA_GROUP_COLLAPSE'
-    label = 'Collapse'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label metadata_editor_inline_metadata_group_collapse_da {
-    constant = 'METADATA_EDITOR_INLINE_METADATA_GROUP_COLLAPSE'
-    label = 'Kollaps'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label metadata_editor_inline_metadata_group_expand_en {
-    constant = 'METADATA_EDITOR_INLINE_METADATA_GROUP_EXPAND'
-    label = 'Expand'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label metadata_editor_inline_metadata_group_expand_da {
-    constant = 'METADATA_EDITOR_INLINE_METADATA_GROUP_EXPAND'
-    label = 'Udvid'
+resource language_label metadata_editor_inline_metadata_group_edit_da {
+    constant = 'METADATA_EDITOR_INLINE_METADATA_GROUP_EDIT'
+    label = '{editing, select, true {Rediger (slå fra)} false {Rediger}}'
     language_id = data.language.danish.id
     folder_id = resource.language_label_folder.media_manager.folder_id
     version_id = resource.product.media_manager.base_version_id

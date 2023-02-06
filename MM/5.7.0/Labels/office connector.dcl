@@ -1,4 +1,4 @@
-resource language_label office_quality_no_available_qualities_en {
+﻿resource language_label office_quality_no_available_qualities_en {
     constant = 'OFFICE_QUALITY_NO_AVAILABLE_QUALITIES'
     label = 'No qualities available'
     language_id = data.language.english.id

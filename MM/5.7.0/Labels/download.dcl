@@ -1,4 +1,4 @@
-resource language_label download_custom_quality_dialog_width_en {
+﻿resource language_label download_custom_quality_dialog_width_en {
     constant = 'DOWNLOAD_CUSTOM_QUALITY_DIALOG_WIDTH'
     label = 'Width'
     language_id = data.language.english.id

@@ -1,4 +1,4 @@
-resource language_label creative_cloud_connector_progress_feedback_downloading_en {
+﻿resource language_label creative_cloud_connector_progress_feedback_downloading_en {
     constant = 'CREATIVE_CLOUD_CONNECTOR_PROGRESS_FEEDBACK_DOWNLOADING'
     label = 'Downloading'
     language_id = data.language.english.id
@@ -542,33 +542,273 @@ resource language_label office_upload_document_dialog_uploading_da {
     version_id = resource.product.media_manager.base_version_id
 }
 
-resource language_label creative_cloud_connector_notification_upload_title_en {
-    constant = 'CREATIVE_CLOUD_CONNECTOR_NOTIFICATION_UPLOAD_TITLE'
+resource language_label creative_cloud_connector_notification_title_en {
+    constant = 'CREATIVE_CLOUD_CONNECTOR_NOTIFICATION_TITLE'
     label = 'Success'
     language_id = data.language.english.id
     folder_id = resource.language_label_folder.media_manager.folder_id
     version_id = resource.product.media_manager.base_version_id
 }
 
-resource language_label creative_cloud_connector_notification_upload_title_da {
-    constant = 'CREATIVE_CLOUD_CONNECTOR_NOTIFICATION_UPLOAD_TITLE'
+resource language_label creative_cloud_connector_notification_title_da {
+    constant = 'CREATIVE_CLOUD_CONNECTOR_NOTIFICATION_TITLE'
     label = 'Succes'
     language_id = data.language.danish.id
     folder_id = resource.language_label_folder.media_manager.folder_id
     version_id = resource.product.media_manager.base_version_id
 }
 
-resource language_label creative_cloud_connector_notification_upload_title_error_en {
-    constant = 'CREATIVE_CLOUD_CONNECTOR_NOTIFICATION_UPLOAD_TITLE_ERROR'
+resource language_label creative_cloud_connector_notification_title_error_en {
+    constant = 'CREATIVE_CLOUD_CONNECTOR_NOTIFICATION_TITLE_ERROR'
     label = 'Error'
     language_id = data.language.english.id
     folder_id = resource.language_label_folder.media_manager.folder_id
     version_id = resource.product.media_manager.base_version_id
 }
 
-resource language_label creative_cloud_connector_notification_upload_title_error_da {
-    constant = 'CREATIVE_CLOUD_CONNECTOR_NOTIFICATION_UPLOAD_TITLE_ERROR'
+resource language_label creative_cloud_connector_notification_title_error_da {
+    constant = 'CREATIVE_CLOUD_CONNECTOR_NOTIFICATION_TITLE_ERROR'
     label = 'Fejl'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label creative_cloud_connector_notification_insert_asset_body_en {
+    constant = 'CREATIVE_CLOUD_CONNECTOR_NOTIFICATION_INSERT_ASSET_BODY'
+    label = 'The asset have been inserted'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label creative_cloud_connector_notification_insert_asset_body_da {
+    constant = 'CREATIVE_CLOUD_CONNECTOR_NOTIFICATION_INSERT_ASSET_BODY'
+    label = 'Assettet er blevet indsat'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label creative_cloud_connector_notification_insert_asset_body_error_en {
+    constant = 'CREATIVE_CLOUD_CONNECTOR_NOTIFICATION_INSERT_ASSET_BODY_ERROR'
+    label = 'The asset could not be inserted'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label creative_cloud_connector_notification_insert_asset_body_error_da {
+    constant = 'CREATIVE_CLOUD_CONNECTOR_NOTIFICATION_INSERT_ASSET_BODY_ERROR'
+    label = 'Assettet kunne ikke blive indsat'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label creative_cloud_connector_notification_selected_assets_overlay_body_en {
+    constant = 'CREATIVE_CLOUD_CONNECTOR_NOTIFICATION_SELECTED_ASSETS_OVERLAY_BODY'
+    label = 'All selected assets have been inserted'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label creative_cloud_connector_notification_selected_assets_overlay_body_da {
+    constant = 'CREATIVE_CLOUD_CONNECTOR_NOTIFICATION_SELECTED_ASSETS_OVERLAY_BODY'
+    label = 'Alle valgte assets er blevet indsat'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label creative_cloud_connector_notification_selected_assets_overlay_body_error_en {
+    constant = 'CREATIVE_CLOUD_CONNECTOR_NOTIFICATION_SELECTED_ASSETS_OVERLAY_BODY_ERROR'
+    label = 'One or more assets could not be inserted'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label creative_cloud_connector_notification_selected_assets_overlay_body_error_da {
+    constant = 'CREATIVE_CLOUD_CONNECTOR_NOTIFICATION_SELECTED_ASSETS_OVERLAY_BODY_ERROR'
+    label = 'En eller flere assets kunne ikke blive indsat'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label creative_cloud_connector_notification_link_manager_relink_assets_body_en {
+    constant = 'CREATIVE_CLOUD_CONNECTOR_NOTIFICATION_LINK_MANAGER_RELINK_ASSETS_BODY'
+    label = 'All selected links have been relinked'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label creative_cloud_connector_notification_link_manager_relink_assets_body_da {
+    constant = 'CREATIVE_CLOUD_CONNECTOR_NOTIFICATION_LINK_MANAGER_RELINK_ASSETS_BODY'
+    label = 'Alle valgte links er blevet genlinket'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label creative_cloud_connector_notification_link_manager_relink_assets_body_error_en {
+    constant = 'CREATIVE_CLOUD_CONNECTOR_NOTIFICATION_LINK_MANAGER_RELINK_ASSETS_BODY_ERROR'
+    label = 'One or more links could not be relinked'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label creative_cloud_connector_notification_link_manager_relink_assets_body_error_da {
+    constant = 'CREATIVE_CLOUD_CONNECTOR_NOTIFICATION_LINK_MANAGER_RELINK_ASSETS_BODY_ERROR'
+    label = 'En eller flere links kunne ikke blive genlinket'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label creative_cloud_connector_notification_link_manager_unembed_assets_body_en {
+    constant = 'CREATIVE_CLOUD_CONNECTOR_NOTIFICATION_LINK_MANAGER_UNEMBED_ASSETS_BODY'
+    label = 'All selected links have been unembedded'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label creative_cloud_connector_notification_link_manager_unembed_assets_body_da {
+    constant = 'CREATIVE_CLOUD_CONNECTOR_NOTIFICATION_LINK_MANAGER_UNEMBED_ASSETS_BODY'
+    label = 'Alle valgte links har fået fjernet deres indlejring'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label creative_cloud_connector_notification_link_manager_unembed_assets_body_error_en {
+    constant = 'CREATIVE_CLOUD_CONNECTOR_NOTIFICATION_LINK_MANAGER_UNEMBED_ASSETS_BODY_ERROR'
+    label = 'One or more links could not be unembedded'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label creative_cloud_connector_notification_link_manager_unembed_assets_body_error_da {
+    constant = 'CREATIVE_CLOUD_CONNECTOR_NOTIFICATION_LINK_MANAGER_UNEMBED_ASSETS_BODY_ERROR'
+    label = 'En eller flere links kunne ikke få fjernet deres indlejring'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label creative_cloud_connector_notification_link_manager_upload_assets_body_en {
+    constant = 'CREATIVE_CLOUD_CONNECTOR_NOTIFICATION_LINK_MANAGER_UPLOAD_ASSETS_BODY'
+    label = 'The link have been uploaded'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label creative_cloud_connector_notification_link_manager_upload_assets_body_da {
+    constant = 'CREATIVE_CLOUD_CONNECTOR_NOTIFICATION_LINK_MANAGER_UPLOAD_ASSETS_BODY'
+    label = 'Linket er blevet uploadet'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label creative_cloud_connector_notification_link_manager_upload_assets_body_error_en {
+    constant = 'CREATIVE_CLOUD_CONNECTOR_NOTIFICATION_LINK_MANAGER_UPLOAD_ASSETS_BODY_ERROR'
+    label = 'The link could not be uploaded'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label creative_cloud_connector_notification_link_manager_upload_assets_body_error_da {
+    constant = 'CREATIVE_CLOUD_CONNECTOR_NOTIFICATION_LINK_MANAGER_UPLOAD_ASSETS_BODY_ERROR'
+    label = 'Linket kunne ikke blive uploadet'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label creative_cloud_connector_notification_link_manager_change_quality_body_en {
+    constant = 'CREATIVE_CLOUD_CONNECTOR_NOTIFICATION_LINK_MANAGER_CHANGE_QUALITY_BODY'
+    label = 'All selected links have changed their quality'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label creative_cloud_connector_notification_link_manager_change_quality_body_da {
+    constant = 'CREATIVE_CLOUD_CONNECTOR_NOTIFICATION_LINK_MANAGER_CHANGE_QUALITY_BODY'
+    label = 'Alle valgte links har skiftet deres kvalitet'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label creative_cloud_connector_notification_link_manager_change_quality_body_error_en {
+    constant = 'CREATIVE_CLOUD_CONNECTOR_NOTIFICATION_LINK_MANAGER_CHANGE_QUALITY_BODY_ERROR'
+    label = 'One or more links could not change their quality'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label creative_cloud_connector_notification_link_manager_change_quality_body_error_da {
+    constant = 'CREATIVE_CLOUD_CONNECTOR_NOTIFICATION_LINK_MANAGER_CHANGE_QUALITY_BODY_ERROR'
+    label = 'En eller flere links kunne skifte deres kvalitet'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label creative_cloud_connector_notification_link_manager_removed_links_body_en {
+    constant = 'CREATIVE_CLOUD_CONNECTOR_NOTIFICATION_LINK_MANAGER_REMOVED_LINKS_BODY'
+    label = 'The {multiple, select, true {links were} false {link was}} removed'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label creative_cloud_connector_notification_link_manager_removed_links_body_da {
+    constant = 'CREATIVE_CLOUD_CONNECTOR_NOTIFICATION_LINK_MANAGER_REMOVED_LINKS_BODY'
+    label = '{multiple, select, true {Linksne} false {Linket}} blev fjernet'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label creative_cloud_connector_notification_link_manager_removed_links_body_error_en {
+    constant = 'CREATIVE_CLOUD_CONNECTOR_NOTIFICATION_LINK_MANAGER_REMOVED_LINKS_BODY_ERROR'
+    label = 'An error occurred while removing the {multiple, select, true {links} false {link}}'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label creative_cloud_connector_notification_link_manager_removed_links_body_error_da {
+    constant = 'CREATIVE_CLOUD_CONNECTOR_NOTIFICATION_LINK_MANAGER_REMOVED_LINKS_BODY_ERROR'
+    label = 'Der opstod en fejl under fjernelsen af {multiple, select, true {linksne} false {linket}}'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label creative_cloud_connector_notification_link_manager_located_missing_links_body_en {
+    constant = 'CREATIVE_CLOUD_CONNECTOR_NOTIFICATION_LINK_MANAGER_LOCATED_MISSING_LINKS_BODY'
+    label = 'Found {{locatedCount}} out of {{total}}'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label creative_cloud_connector_notification_link_manager_located_missing_links_body_da {
+    constant = 'CREATIVE_CLOUD_CONNECTOR_NOTIFICATION_LINK_MANAGER_LOCATED_MISSING_LINKS_BODY'
+    label = 'Fandt {{locatedCount}} ud af {{total}}'
     language_id = data.language.danish.id
     folder_id = resource.language_label_folder.media_manager.folder_id
     version_id = resource.product.media_manager.base_version_id
@@ -654,9 +894,25 @@ resource language_label creative_cloud_connector_notification_active_document_bo
     version_id = resource.product.media_manager.base_version_id
 }
 
+resource language_label creative_cloud_connector_notification_active_document_body_save_unsaved_document_en {
+    constant = 'CREATIVE_CLOUD_CONNECTOR_NOTIFICATION_ACTIVE_DOCUMENT_BODY_SAVE_UNSAVED_DOCUMENT'
+    label = 'To enable insertion, the active document must first be saved'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label creative_cloud_connector_notification_active_document_body_save_unsaved_document_da {
+    constant = 'CREATIVE_CLOUD_CONNECTOR_NOTIFICATION_ACTIVE_DOCUMENT_BODY_SAVE_UNSAVED_DOCUMENT'
+    label = 'For at aktivere indsættelse, skal det aktive dokument først gemmes'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
 resource language_label creative_cloud_connector_notification_active_document_body_save_document_link_manager_relink_en {
     constant = 'CREATIVE_CLOUD_CONNECTOR_NOTIFICATION_ACTIVE_DOCUMENT_BODY_SAVE_DOCUMENT_LINK_MANAGER_RELINK'
-    label = 'Please save the active document, before relinking'
+    label = 'To enable relinking, the active document must first be saved'
     language_id = data.language.english.id
     folder_id = resource.language_label_folder.media_manager.folder_id
     version_id = resource.product.media_manager.base_version_id
@@ -664,7 +920,7 @@ resource language_label creative_cloud_connector_notification_active_document_bo
 
 resource language_label creative_cloud_connector_notification_active_document_body_save_document_link_manager_relink_da {
     constant = 'CREATIVE_CLOUD_CONNECTOR_NOTIFICATION_ACTIVE_DOCUMENT_BODY_SAVE_DOCUMENT_LINK_MANAGER_RELINK'
-    label = 'Gem det aktive dokument, før du genlinker'
+    label = 'For at aktivere genlinking, skal det aktive dokument først gemmes'
     language_id = data.language.danish.id
     folder_id = resource.language_label_folder.media_manager.folder_id
     version_id = resource.product.media_manager.base_version_id
@@ -846,17 +1102,17 @@ resource language_label office_link_manager_da {
     version_id = resource.product.media_manager.base_version_id
 }
 
-resource language_label office_link_manager_page_assets_en {
-    constant = 'OFFICE_LINK_MANAGER_PAGE_ASSETS'
-    label = 'Assets'
+resource language_label office_link_manager_page_links_count_en {
+    constant = 'OFFICE_LINK_MANAGER_PAGE_LINKS_COUNT'
+    label = 'Links'
     language_id = data.language.english.id
     folder_id = resource.language_label_folder.media_manager.folder_id
     version_id = resource.product.media_manager.base_version_id
 }
 
-resource language_label office_link_manager_page_assets_da {
-    constant = 'OFFICE_LINK_MANAGER_PAGE_ASSETS'
-    label = 'Assets'
+resource language_label office_link_manager_page_links_count_da {
+    constant = 'OFFICE_LINK_MANAGER_PAGE_LINKS_COUNT'
+    label = 'Links'
     language_id = data.language.danish.id
     folder_id = resource.language_label_folder.media_manager.folder_id
     version_id = resource.product.media_manager.base_version_id
@@ -878,33 +1134,49 @@ resource language_label office_link_manager_page_title_da {
     version_id = resource.product.media_manager.base_version_id
 }
 
-resource language_label office_link_manager_page_asset_name_en {
-    constant = 'OFFICE_LINK_MANAGER_PAGE_ASSET_NAME'
-    label = 'Asset title'
+resource language_label office_link_manager_page_asset_title_en {
+    constant = 'OFFICE_LINK_MANAGER_PAGE_ASSET_TITLE'
+    label = 'Title'
     language_id = data.language.english.id
     folder_id = resource.language_label_folder.media_manager.folder_id
     version_id = resource.product.media_manager.base_version_id
 }
 
-resource language_label office_link_manager_page_asset_name_da {
-    constant = 'OFFICE_LINK_MANAGER_PAGE_ASSET_NAME'
-    label = 'Assettitel'
+resource language_label office_link_manager_page_asset_title_da {
+    constant = 'OFFICE_LINK_MANAGER_PAGE_ASSET_TITLE'
+    label = 'Titel'
     language_id = data.language.danish.id
     folder_id = resource.language_label_folder.media_manager.folder_id
     version_id = resource.product.media_manager.base_version_id
 }
 
-resource language_label office_link_manager_page_image_en {
-    constant = 'OFFICE_LINK_MANAGER_PAGE_IMAGE'
-    label = 'Image'
+resource language_label office_link_manager_page_filetype_en {
+    constant = 'OFFICE_LINK_MANAGER_PAGE_FILETYPE'
+    label = 'File type'
     language_id = data.language.english.id
     folder_id = resource.language_label_folder.media_manager.folder_id
     version_id = resource.product.media_manager.base_version_id
 }
 
-resource language_label office_link_manager_page_image_da {
-    constant = 'OFFICE_LINK_MANAGER_PAGE_IMAGE'
-    label = 'Billede'
+resource language_label office_link_manager_page_filetype_da {
+    constant = 'OFFICE_LINK_MANAGER_PAGE_FILETYPE'
+    label = 'Filtype'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label office_link_manager_page_filetype_tooltip_en {
+    constant = 'OFFICE_LINK_MANAGER_PAGE_FILETYPE_TOOLTIP'
+    label = 'Filetype (original asset)'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label office_link_manager_page_filetype_tooltip_da {
+    constant = 'OFFICE_LINK_MANAGER_PAGE_FILETYPE_TOOLTIP'
+    label = 'Filtype (oprindeligt asset)'
     language_id = data.language.danish.id
     folder_id = resource.language_label_folder.media_manager.folder_id
     version_id = resource.product.media_manager.base_version_id
@@ -921,6 +1193,614 @@ resource language_label office_link_manager_page_quality_en {
 resource language_label office_link_manager_page_quality_da {
     constant = 'OFFICE_LINK_MANAGER_PAGE_QUALITY'
     label = 'Kvalitet'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label office_link_manager_page_actions_en {
+    constant = 'OFFICE_LINK_MANAGER_PAGE_ACTIONS'
+    label = 'Actions'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label office_link_manager_page_actions_da {
+    constant = 'OFFICE_LINK_MANAGER_PAGE_ACTIONS'
+    label = 'Handlinger'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label office_link_manager_page_actions_select_link_tooltip_en {
+    constant = 'OFFICE_LINK_MANAGER_PAGE_ACTIONS_SELECT_LINK_TOOLTIP'
+    label = 'Select the link in the active document'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label office_link_manager_page_actions_select_link_tooltip_da {
+    constant = 'OFFICE_LINK_MANAGER_PAGE_ACTIONS_SELECT_LINK_TOOLTIP'
+    label = 'Vælg linket i det aktive dokument'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label office_link_manager_page_actions_show_sublink_tooltip_en {
+    constant = 'OFFICE_LINK_MANAGER_PAGE_ACTIONS_SHOW_SUBLINK_TOOLTIP'
+    label = 'Show sublink'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label office_link_manager_page_actions_show_sublink_tooltip_da {
+    constant = 'OFFICE_LINK_MANAGER_PAGE_ACTIONS_SHOW_SUBLINK_TOOLTIP'
+    label = 'Vis underlink'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label office_link_manager_page_results_per_page_en {
+    constant = 'OFFICE_LINK_MANAGER_PAGE_RESULTS_PER_PAGE'
+    label = 'Results per page'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label office_link_manager_page_results_per_page_da {
+    constant = 'OFFICE_LINK_MANAGER_PAGE_RESULTS_PER_PAGE'
+    label = 'Resultater per side'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label creative_cloud_connector_link_manager_loading_text_en {
+    constant = 'CREATIVE_CLOUD_CONNECTOR_LINK_MANAGER_LOADING_TEXT'
+    label = 'Loading...'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label creative_cloud_connector_link_manager_loading_text_da {
+    constant = 'CREATIVE_CLOUD_CONNECTOR_LINK_MANAGER_LOADING_TEXT'
+    label = 'Indlæser...'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label office_link_manager_page_filters_menu_filters_en {
+    constant = 'OFFICE_LINK_MANAGER_PAGE_FILTERS_MENU_FILTERS'
+    label = 'Filters'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label office_link_manager_page_filters_menu_filters_da {
+    constant = 'OFFICE_LINK_MANAGER_PAGE_FILTERS_MENU_FILTERS'
+    label = 'Filtre'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label office_link_manager_page_filter_title_en {
+    constant = 'OFFICE_LINK_MANAGER_PAGE_FILTER_TITLE'
+    label = 'Title'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label office_link_manager_page_filter_title_da {
+    constant = 'OFFICE_LINK_MANAGER_PAGE_FILTER_TITLE'
+    label = 'Titel'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label office_link_manager_page_filter_menu_freetext_search_placeholder_en {
+    constant = 'OFFICE_LINK_MANAGER_PAGE_FILTER_MENU_FREETEXT_SEARCH_PLACEHOLDER'
+    label = 'Search'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label office_link_manager_page_filter_menu_freetext_search_placeholder_da {
+    constant = 'OFFICE_LINK_MANAGER_PAGE_FILTER_MENU_FREETEXT_SEARCH_PLACEHOLDER'
+    label = 'Søg'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label office_link_manager_page_filter_asset_type_en {
+    constant = 'OFFICE_LINK_MANAGER_PAGE_FILTER_ASSET_TYPE'
+    label = 'Asset type'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label office_link_manager_page_filter_asset_type_da {
+    constant = 'OFFICE_LINK_MANAGER_PAGE_FILTER_ASSET_TYPE'
+    label = 'Assettype'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label office_link_manager_page_filter_quality_en {
+    constant = 'OFFICE_LINK_MANAGER_PAGE_FILTER_QUALITY'
+    label = 'Quality'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label office_link_manager_page_filter_quality_da {
+    constant = 'OFFICE_LINK_MANAGER_PAGE_FILTER_QUALITY'
+    label = 'Kvalitet'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label office_link_manager_page_filter_status_en {
+    constant = 'OFFICE_LINK_MANAGER_PAGE_FILTER_STATUS'
+    label = 'Status'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label office_link_manager_page_filter_status_da {
+    constant = 'OFFICE_LINK_MANAGER_PAGE_FILTER_STATUS'
+    label = 'Status'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label link_manager_filter_menu_status_option_en {
+    constant = 'LINK_MANAGER_FILTER_MENU_STATUS_OPTION'
+    label = '{option, select, DigizuiteContent {Asset} DigizuiteContent_Missing {Asset missing} DigizuiteContent_OutDated {Asset outdated} DigizuiteContent_AssetDeleted {Asset deleted} DigizuiteContent_LocalContent_Missing {Asset missing in DAM and local storage} DigizuiteContent_Embedded {Asset embedded} LocalContent {Local file} LocalContent_Missing {Local file missing} LocalContent_Embedded {Embedded in active document} Loading{Loading}}'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label link_manager_filter_menu_status_option_da {
+    constant = 'LINK_MANAGER_FILTER_MENU_STATUS_OPTION'
+    label = '{option, select, DigizuiteContent {Asset} DigizuiteContent_Missing {Mangler asset} DigizuiteContent_OutDated {Asset forældet} DigizuiteContent_AssetDeleted {Asset slettet} DigizuiteContent_LocalContent_Missing {Asset eksisterer ikke i DAM\'en eller lokal-lager} DigizuiteContent_Embedded {Indlejret asset} LocalContent {Lokal fil} LocalContent_Missing {Mangler lokal fil} LocalContent_Embedded {Indlejret i aktivt dokument} Loading{Indlæser}}'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label office_link_manager_page_filter_has_sublink_en {
+    constant = 'OFFICE_LINK_MANAGER_PAGE_FILTER_HAS_SUBLINK'
+    label = 'Has sublink'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label office_link_manager_page_filter_has_sublink_da {
+    constant = 'OFFICE_LINK_MANAGER_PAGE_FILTER_HAS_SUBLINK'
+    label = 'Har underlink'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label office_link_manager_page_filter_extension_en {
+    constant = 'OFFICE_LINK_MANAGER_PAGE_FILTER_EXTENSION'
+    label = 'Extension'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label office_link_manager_page_filter_extension_da {
+    constant = 'OFFICE_LINK_MANAGER_PAGE_FILTER_EXTENSION'
+    label = 'Filendelse'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label creative_cloud_connector_link_more_button_more_en {
+    constant = 'CREATIVE_CLOUD_CONNECTOR_LINK_MORE_BUTTON_MORE'
+    label = 'More'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label creative_cloud_connector_link_more_button_more_da {
+    constant = 'CREATIVE_CLOUD_CONNECTOR_LINK_MORE_BUTTON_MORE'
+    label = 'Mere'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label creative_cloud_connector_link_more_popup_reveal_in_explorer_en {
+    constant = 'CREATIVE_CLOUD_CONNECTOR_LINK_MORE_POPUP_REVEAL_IN_EXPLORER'
+    label = 'Reveal in Explorer'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label creative_cloud_connector_link_more_popup_reveal_in_explorer_da {
+    constant = 'CREATIVE_CLOUD_CONNECTOR_LINK_MORE_POPUP_REVEAL_IN_EXPLORER'
+    label = 'Se i Explorer'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label creative_cloud_connector_link_more_popup_change_quality_en {
+    constant = 'CREATIVE_CLOUD_CONNECTOR_LINK_MORE_POPUP_CHANGE_QUALITY'
+    label = 'Change quality'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label creative_cloud_connector_link_more_popup_change_quality_da {
+    constant = 'CREATIVE_CLOUD_CONNECTOR_LINK_MORE_POPUP_CHANGE_QUALITY'
+    label = 'Ændr kvalitet'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label creative_cloud_connector_link_more_popup_show_in_digizuite_en {
+    constant = 'CREATIVE_CLOUD_CONNECTOR_LINK_MORE_POPUP_SHOW_IN_DIGIZUITE'
+    label = 'Show in Digizuite'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label creative_cloud_connector_link_more_popup_show_in_digizuite_da {
+    constant = 'CREATIVE_CLOUD_CONNECTOR_LINK_MORE_POPUP_SHOW_IN_DIGIZUITE'
+    label = 'Se i Digizuite'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label creative_cloud_connector_link_more_popup_remove_link_en {
+    constant = 'CREATIVE_CLOUD_CONNECTOR_LINK_MORE_POPUP_REMOVE_LINK'
+    label = 'Remove'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label creative_cloud_connector_link_more_popup_remove_link_da {
+    constant = 'CREATIVE_CLOUD_CONNECTOR_LINK_MORE_POPUP_REMOVE_LINK'
+    label = 'Fjern'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label creative_cloud_connector_link_more_popup_remove_link_all_en {
+    constant = 'CREATIVE_CLOUD_CONNECTOR_LINK_MORE_POPUP_REMOVE_LINK_ALL'
+    label = 'All'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label creative_cloud_connector_link_more_popup_remove_link_all_da {
+    constant = 'CREATIVE_CLOUD_CONNECTOR_LINK_MORE_POPUP_REMOVE_LINK_ALL'
+    label = 'Alle'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label creative_cloud_connector_remove_link_title_en {
+    constant = 'CREATIVE_CLOUD_CONNECTOR_REMOVE_LINK_TITLE'
+    label = 'Remove'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label creative_cloud_connector_remove_link_title_da {
+    constant = 'CREATIVE_CLOUD_CONNECTOR_REMOVE_LINK_TITLE'
+    label = 'Fjern'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label creative_cloud_connector_remove_link_content_en {
+    constant = 'CREATIVE_CLOUD_CONNECTOR_REMOVE_LINK_CONTENT'
+    label = 'Are your sure you want to remove {multiple, select, true {these links} false {this link}}? This will not delete anything from your drive nor the DAM'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label creative_cloud_connector_remove_link_content_da {
+    constant = 'CREATIVE_CLOUD_CONNECTOR_REMOVE_LINK_CONTENT'
+    label = 'Er du sikker på, at du vil fjerne {multiple, select, true {disse links} false {dette link}}? Dette vil ikke slette noget fra dit drev eller i DAM\'en'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label creative_cloud_connector_remove_link_cancel_en {
+    constant = 'CREATIVE_CLOUD_CONNECTOR_REMOVE_LINK_CANCEL'
+    label = 'Cancel'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label creative_cloud_connector_remove_link_cancel_da {
+    constant = 'CREATIVE_CLOUD_CONNECTOR_REMOVE_LINK_CANCEL'
+    label = 'Annullér'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label creative_cloud_connector_remove_link_confirm_en {
+    constant = 'CREATIVE_CLOUD_CONNECTOR_REMOVE_LINK_CONFIRM'
+    label = 'Remove'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label creative_cloud_connector_remove_link_confirm_da {
+    constant = 'CREATIVE_CLOUD_CONNECTOR_REMOVE_LINK_CONFIRM'
+    label = 'Fjern'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label office_link_manager_deleted_dam_link_no_high_res_quality_title_en {
+    constant = 'OFFICE_LINK_MANAGER_DELETED_DAM_LINK_NO_HIGH_RES_QUALITY_TITLE'
+    label = 'Upload'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label office_link_manager_deleted_dam_link_no_high_res_quality_title_da {
+    constant = 'OFFICE_LINK_MANAGER_DELETED_DAM_LINK_NO_HIGH_RES_QUALITY_TITLE'
+    label = 'Upload'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label office_link_manager_deleted_dam_link_no_high_res_quality_content_en {
+    constant = 'OFFICE_LINK_MANAGER_DELETED_DAM_LINK_NO_HIGH_RES_QUALITY_CONTENT'
+    label = 'One or more items with their DAM asset deleted, will not be recreated, as you do not have a copy of the original source file on your local computer.'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label office_link_manager_deleted_dam_link_no_high_res_quality_content_da {
+    constant = 'OFFICE_LINK_MANAGER_DELETED_DAM_LINK_NO_HIGH_RES_QUALITY_CONTENT'
+    label = 'Et eller flere elementer med slettede DAM assets vil ikke blive genskabt, da du ikke har en kopi af den originale kildefil på din lokale computer.'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label office_link_manager_deleted_dam_link_no_high_res_quality_cancel_en {
+    constant = 'OFFICE_LINK_MANAGER_DELETED_DAM_LINK_NO_HIGH_RES_QUALITY_CANCEL'
+    label = 'Cancel'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label office_link_manager_deleted_dam_link_no_high_res_quality_cancel_da {
+    constant = 'OFFICE_LINK_MANAGER_DELETED_DAM_LINK_NO_HIGH_RES_QUALITY_CANCEL'
+    label = 'Annullér'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label office_link_manager_deleted_dam_link_no_high_res_quality_confirm_en {
+    constant = 'OFFICE_LINK_MANAGER_DELETED_DAM_LINK_NO_HIGH_RES_QUALITY_CONFIRM'
+    label = 'Continue'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label office_link_manager_deleted_dam_link_no_high_res_quality_confirm_da {
+    constant = 'OFFICE_LINK_MANAGER_DELETED_DAM_LINK_NO_HIGH_RES_QUALITY_CONFIRM'
+    label = 'Fortsæt'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label office_link_item_button_tooltip_en {
+    constant = 'OFFICE_LINK_ITEM_BUTTON_TOOLTIP'
+    label = 'Show items'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label office_link_item_button_tooltip_da {
+    constant = 'OFFICE_LINK_ITEM_BUTTON_TOOLTIP'
+    label = 'Vis elementer'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label office_link_item_button_title_en {
+    constant = 'OFFICE_LINK_ITEM_BUTTON_TITLE'
+    label = 'Items'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label office_link_item_button_title_da {
+    constant = 'OFFICE_LINK_ITEM_BUTTON_TITLE'
+    label = 'Elementer'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label office_link_info_button_tooltip_en {
+    constant = 'OFFICE_LINK_INFO_BUTTON_TOOLTIP'
+    label = 'Link info'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label office_link_info_button_tooltip_da {
+    constant = 'OFFICE_LINK_INFO_BUTTON_TOOLTIP'
+    label = 'Link-info'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label connector_link_info_title_en {
+    constant = 'CONNECTOR_LINK_INFO_TITLE'
+    label = 'Link info'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label connector_link_info_title_da {
+    constant = 'CONNECTOR_LINK_INFO_TITLE'
+    label = 'Link-info'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label office_link_info_title_en {
+    constant = 'OFFICE_LINK_INFO_TITLE'
+    label = 'Title'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label office_link_info_title_da {
+    constant = 'OFFICE_LINK_INFO_TITLE'
+    label = 'Titel'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label office_link_info_asset_id_en {
+    constant = 'OFFICE_LINK_INFO_ASSET_ID'
+    label = 'Asset ID'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label office_link_info_asset_id_da {
+    constant = 'OFFICE_LINK_INFO_ASSET_ID'
+    label = 'Asset-ID'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label office_link_info_filtype_en {
+    constant = 'OFFICE_LINK_INFO_FILTYPE'
+    label = 'File type'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label office_link_info_filtype_da {
+    constant = 'OFFICE_LINK_INFO_FILTYPE'
+    label = 'Filtype'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label office_link_info_page_en {
+    constant = 'OFFICE_LINK_INFO_PAGE'
+    label = 'Page'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label office_link_info_page_da {
+    constant = 'OFFICE_LINK_INFO_PAGE'
+    label = 'Side'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label office_link_info_size_en {
+    constant = 'OFFICE_LINK_INFO_SIZE'
+    label = 'Size'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label office_link_info_size_da {
+    constant = 'OFFICE_LINK_INFO_SIZE'
+    label = 'Størrelse'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label office_link_info_filepath_en {
+    constant = 'OFFICE_LINK_INFO_FILEPATH'
+    label = 'File path'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label office_link_info_filepath_da {
+    constant = 'OFFICE_LINK_INFO_FILEPATH'
+    label = 'Filsti'
     language_id = data.language.danish.id
     folder_id = resource.language_label_folder.media_manager.folder_id
     version_id = resource.product.media_manager.base_version_id
@@ -990,6 +1870,22 @@ resource language_label link_manager_page_deselect_all_da {
     version_id = resource.product.media_manager.base_version_id
 }
 
+resource language_label link_manager_page_select_visible_en {
+    constant = 'LINK_MANAGER_PAGE_SELECT_VISIBLE'
+    label = '{includeExisting, select, true {Select visible and existing} false {Select visible}}'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label link_manager_page_select_visible_da {
+    constant = 'LINK_MANAGER_PAGE_SELECT_VISIBLE'
+    label = '{includeExisting, select, true {Vælg synlige og eksisterende} false {Vælg synlige}}'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
 resource language_label link_manager_page_select_all_en {
     constant = 'LINK_MANAGER_PAGE_SELECT_ALL'
     label = 'Select all'
@@ -1054,6 +1950,22 @@ resource language_label link_manager_page_select_all_embedded_links_da {
     version_id = resource.product.media_manager.base_version_id
 }
 
+resource language_label link_manager_page_select_all_missing_links_en {
+    constant = 'LINK_MANAGER_PAGE_SELECT_ALL_MISSING_LINKS'
+    label = 'Select all assets with no connection to local content'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label link_manager_page_select_all_missing_links_da {
+    constant = 'LINK_MANAGER_PAGE_SELECT_ALL_MISSING_LINKS'
+    label = 'Vælg alle assets uden forbindelse til lokalt indhold'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
 resource language_label link_manager_page_select_all_digizuite_links_en {
     constant = 'LINK_MANAGER_PAGE_SELECT_ALL_DIGIZUITE_LINKS'
     label = 'Select all digizuite links'
@@ -1070,6 +1982,22 @@ resource language_label link_manager_page_select_all_digizuite_links_da {
     version_id = resource.product.media_manager.base_version_id
 }
 
+resource language_label link_manager_page_select_all_linked_assets_linked_en {
+    constant = 'LINK_MANAGER_PAGE_SELECT_ALL_LINKED_ASSETS_LINKED'
+    label = 'Select all linked assets'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label link_manager_page_select_all_linked_assets_linked_da {
+    constant = 'LINK_MANAGER_PAGE_SELECT_ALL_LINKED_ASSETS_LINKED'
+    label = 'Vælg alle linkede assets'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
 resource language_label link_manager_page_no_assets_en {
     constant = 'LINK_MANAGER_PAGE_NO_ASSETS'
     label = 'Please insert some content into your document so that the link manager has something to work with'
@@ -1081,6 +2009,22 @@ resource language_label link_manager_page_no_assets_en {
 resource language_label link_manager_page_no_assets_da {
     constant = 'LINK_MANAGER_PAGE_NO_ASSETS'
     label = 'Indsæt noget indhold på dit dokument, så link-manageren har noget at arbejde med'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label link_manager_page_no_links_matched_search_en {
+    constant = 'LINK_MANAGER_PAGE_NO_LINKS_MATCHED_SEARCH'
+    label = 'No links matched your search'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label link_manager_page_no_links_matched_search_da {
+    constant = 'LINK_MANAGER_PAGE_NO_LINKS_MATCHED_SEARCH'
+    label = 'Ingen links passer til din søgning'
     language_id = data.language.danish.id
     folder_id = resource.language_label_folder.media_manager.folder_id
     version_id = resource.product.media_manager.base_version_id
@@ -1454,6 +2398,54 @@ resource language_label office_link_manager_tooltip_umembed_all_da {
     version_id = resource.product.media_manager.base_version_id
 }
 
+resource language_label office_link_manager_tooltip_locate_all_missing_links_en {
+    constant = 'OFFICE_LINK_MANAGER_TOOLTIP_LOCATE_ALL_MISSING_LINKS'
+    label = 'Reconnect to local content'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label office_link_manager_tooltip_locate_all_missing_links_da {
+    constant = 'OFFICE_LINK_MANAGER_TOOLTIP_LOCATE_ALL_MISSING_LINKS'
+    label = 'Genetabler forbindelsen til lokalt indhold'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label office_link_manager_page_locate_missing_links_en {
+    constant = 'OFFICE_LINK_MANAGER_PAGE_LOCATE_MISSING_LINKS'
+    label = 'Reconnect to local content'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label office_link_manager_page_locate_missing_links_da {
+    constant = 'OFFICE_LINK_MANAGER_PAGE_LOCATE_MISSING_LINKS'
+    label = 'Genetabler forbindelsen til lokalt indhold'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label office_link_manager_page_clear_selection_en {
+    constant = 'OFFICE_LINK_MANAGER_PAGE_CLEAR_SELECTION'
+    label = 'Clear selection'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label office_link_manager_page_clear_selection_da {
+    constant = 'OFFICE_LINK_MANAGER_PAGE_CLEAR_SELECTION'
+    label = 'Ryd valgte'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
 resource language_label office_link_manager_no_upload_or_replace_role_en {
     constant = 'OFFICE_LINK_MANAGER_NO_UPLOAD_OR_REPLACE_ROLE'
     label = 'Your user lacks a license to upload or replace assets'
@@ -1465,6 +2457,22 @@ resource language_label office_link_manager_no_upload_or_replace_role_en {
 resource language_label office_link_manager_no_upload_or_replace_role_da {
     constant = 'OFFICE_LINK_MANAGER_NO_UPLOAD_OR_REPLACE_ROLE'
     label = 'Din bruger mangler en licens for at kunne uploade eller erstatte assets'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label office_link_manager_deleted_dam_link_no_high_res_quality_en {
+    constant = 'OFFICE_LINK_MANAGER_DELETED_DAM_LINK_NO_HIGH_RES_QUALITY'
+    label = 'The item with its DAM asset deleted cannot be recreated, as you do not have a copy of the original source file on your local computer.'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label office_link_manager_deleted_dam_link_no_high_res_quality_da {
+    constant = 'OFFICE_LINK_MANAGER_DELETED_DAM_LINK_NO_HIGH_RES_QUALITY'
+    label = 'Elementet hvis DAM asset er blevet slettet vil ikke blive genskabt, da du ikke har en kopi af den originale kildefil på din lokale computer.'
     language_id = data.language.danish.id
     folder_id = resource.language_label_folder.media_manager.folder_id
     version_id = resource.product.media_manager.base_version_id
@@ -2361,6 +3369,710 @@ resource language_label creative_cloud_connector_custom_filters_en {
 resource language_label creative_cloud_connector_custom_filters_da {
     constant = 'CREATIVE_CLOUD_CONNECTOR_CUSTOM_FILTERS'
     label = 'Filtre'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label selected_links_overlay_selected_button_en {
+    constant = 'SELECTED_LINKS_OVERLAY_SELECTED_BUTTON'
+    label = 'Selected'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label selected_links_overlay_selected_button_da {
+    constant = 'SELECTED_LINKS_OVERLAY_SELECTED_BUTTON'
+    label = 'Valgte'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label link_sort_criteria_default_custom_name_direction_en {
+    constant = 'LINK_SORT_CRITERIA_DEFAULT_CUSTOM_NAME_DIRECTION'
+    label = 'Custom order '
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label link_sort_criteria_default_custom_name_direction_da {
+    constant = 'LINK_SORT_CRITERIA_DEFAULT_CUSTOM_NAME_DIRECTION'
+    label = 'Brugerdefineret rækkefølge '
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label link_sort_criteria_direction_en {
+    constant = 'LINK_SORT_CRITERIA_DIRECTION'
+    label = '{option, select, alphabeticAsc {A-Z} alphabeticDesc {Z-A} assetidAsc {Oldest} assetidDesc {Latest} customNone {Custom order}}'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label link_sort_criteria_direction_da {
+    constant = 'LINK_SORT_CRITERIA_DIRECTION'
+    label = '{option, select, alphabeticAsc {A-Å} alphabeticDesc {Å-A} assetidAsc {Ældste} assetidDesc {Seneste} customNone {Brugerdefineret rækkefølge}}'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label link_progress_status_processing_multiple_items_en {
+    constant = 'LINK_PROGRESS_STATUS_PROCESSING_MULTIPLE_ITEMS'
+    label = '{count, cardinalPlural, one {{finished, select, true {Processed job} false {Processing job}}} other {{finished, select, true {Processed multiple jobs} false {Processing multiple jobs}}}}'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label link_progress_status_processing_multiple_items_da {
+    constant = 'LINK_PROGRESS_STATUS_PROCESSING_MULTIPLE_ITEMS'
+    label = '{count, cardinalPlural, one {{finished, select, true {Job færdigbehandlet} false {Job under behandling}}} other {{finished, select, true {Flere jobs færdigbehandlet} false {Flere jobs under behandling}}}}'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label link_progress_item_uploading_en {
+    constant = 'LINK_PROGRESS_ITEM_UPLOADING'
+    label = 'Uploading'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label link_progress_item_uploading_da {
+    constant = 'LINK_PROGRESS_ITEM_UPLOADING'
+    label = 'Uploader'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label link_progress_item_downloading_en {
+    constant = 'LINK_PROGRESS_ITEM_DOWNLOADING'
+    label = 'Downloading'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label link_progress_item_downloading_da {
+    constant = 'LINK_PROGRESS_ITEM_DOWNLOADING'
+    label = 'Downloader'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label link_progress_item_finished_en {
+    constant = 'LINK_PROGRESS_ITEM_FINISHED'
+    label = 'Done'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label link_progress_item_finished_da {
+    constant = 'LINK_PROGRESS_ITEM_FINISHED'
+    label = 'Færdigbehandlet'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label link_expanded_progress_status_title_en {
+    constant = 'LINK_EXPANDED_PROGRESS_STATUS_TITLE'
+    label = '{finished, select, true {Processed} false {Processing}}'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label link_expanded_progress_status_title_da {
+    constant = 'LINK_EXPANDED_PROGRESS_STATUS_TITLE'
+    label = '{finished, select, true {Færdigbehandlet} false {Behandler}}'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label link_progress_asset_list_list_cancel_en {
+    constant = 'LINK_PROGRESS_ASSET_LIST_LIST_CANCEL'
+    label = 'Abort'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label link_progress_asset_list_list_cancel_da {
+    constant = 'LINK_PROGRESS_ASSET_LIST_LIST_CANCEL'
+    label = 'Afbryd'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label link_progress_cancel_process_title_en {
+    constant = 'LINK_PROGRESS_CANCEL_PROCESS_TITLE'
+    label = 'Abort all jobs'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label link_progress_cancel_process_title_da {
+    constant = 'LINK_PROGRESS_CANCEL_PROCESS_TITLE'
+    label = 'Afbryd alle jobs'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label link_progress_cancel_process_body_en {
+    constant = 'LINK_PROGRESS_CANCEL_PROCESS_BODY'
+    label = 'Are you sure you want to abort the remaining jobs?'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label link_progress_cancel_process_body_da {
+    constant = 'LINK_PROGRESS_CANCEL_PROCESS_BODY'
+    label = 'Er du sikker på, at du vil afbryde de resterende jobs'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label link_progress_cancel_process_cancel_en {
+    constant = 'LINK_PROGRESS_CANCEL_PROCESS_CANCEL'
+    label = 'Don\'t abort'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label link_progress_cancel_process_cancel_da {
+    constant = 'LINK_PROGRESS_CANCEL_PROCESS_CANCEL'
+    label = 'Ikke afbryd'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label link_progress_cancel_process_confirm_en {
+    constant = 'LINK_PROGRESS_CANCEL_PROCESS_CONFIRM'
+    label = 'Abort all jobs'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label link_progress_cancel_process_confirm_da {
+    constant = 'LINK_PROGRESS_CANCEL_PROCESS_CONFIRM'
+    label = 'Afbryd alle jobs'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label creative_cloud_connector_download_progress_downloading_title_en {
+    constant = 'CREATIVE_CLOUD_CONNECTOR_DOWNLOAD_PROGRESS_DOWNLOADING_TITLE'
+    label = 'Downloading'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label creative_cloud_connector_download_progress_downloading_title_da {
+    constant = 'CREATIVE_CLOUD_CONNECTOR_DOWNLOAD_PROGRESS_DOWNLOADING_TITLE'
+    label = 'Downloader'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label creative_cloud_connector_download_progress_downloading_body_en {
+    constant = 'CREATIVE_CLOUD_CONNECTOR_DOWNLOAD_PROGRESS_DOWNLOADING_BODY'
+    label = 'Downloading to the Downloads folder'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label creative_cloud_connector_download_progress_downloading_body_da {
+    constant = 'CREATIVE_CLOUD_CONNECTOR_DOWNLOAD_PROGRESS_DOWNLOADING_BODY'
+    label = 'Downloader til Downloads-mappen'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label creative_cloud_connector_download_progress_downloaded_title_en {
+    constant = 'CREATIVE_CLOUD_CONNECTOR_DOWNLOAD_PROGRESS_DOWNLOADED_TITLE'
+    label = 'Downloaded'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label creative_cloud_connector_download_progress_downloaded_title_da {
+    constant = 'CREATIVE_CLOUD_CONNECTOR_DOWNLOAD_PROGRESS_DOWNLOADED_TITLE'
+    label = 'Downloadet'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label creative_cloud_connector_download_progress_downloaded_body_en {
+    constant = 'CREATIVE_CLOUD_CONNECTOR_DOWNLOAD_PROGRESS_DOWNLOADED_BODY'
+    label = 'The qualities are ready in the Downloads folder'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label creative_cloud_connector_download_progress_downloaded_body_da {
+    constant = 'CREATIVE_CLOUD_CONNECTOR_DOWNLOAD_PROGRESS_DOWNLOADED_BODY'
+    label = 'Kvaliteterne ligger klar i Downloads-mappen'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label link_manager_filters_overlay_clear_filters_button_en {
+    constant = 'LINK_MANAGER_FILTERS_OVERLAY_CLEAR_FILTERS_BUTTON'
+    label = 'Clear filters'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label link_manager_filters_overlay_clear_filters_button_da {
+    constant = 'LINK_MANAGER_FILTERS_OVERLAY_CLEAR_FILTERS_BUTTON'
+    label = 'Ryd filtre'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label link_manager_filters_overlay_view_assets_button_en {
+    constant = 'LINK_MANAGER_FILTERS_OVERLAY_VIEW_ASSETS_BUTTON'
+    label = 'View {{count}} {count, cardinalPlural, one {asset} other {assets}}'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label link_manager_filters_overlay_view_assets_button_da {
+    constant = 'LINK_MANAGER_FILTERS_OVERLAY_VIEW_ASSETS_BUTTON'
+    label = 'Vis {{count}} {count, cardinalPlural, one {asset} other {assets}}'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label link_manager_list_view_tooltip_en {
+    constant = 'LINK_MANAGER_LIST_VIEW_TOOLTIP'
+    label = 'List view'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label link_manager_list_view_tooltip_da {
+    constant = 'LINK_MANAGER_LIST_VIEW_TOOLTIP'
+    label = 'Listevisning'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label link_manager_box_view_tooltip_en {
+    constant = 'LINK_MANAGER_BOX_VIEW_TOOLTIP'
+    label = 'Grid view'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label link_manager_box_view_tooltip_da {
+    constant = 'LINK_MANAGER_BOX_VIEW_TOOLTIP'
+    label = 'Gallerivisning'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label office_file_manager_page_title_en {
+    constant = 'OFFICE_FILE_MANAGER_PAGE_TITLE'
+    label = 'File manager'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label office_file_manager_page_title_da {
+    constant = 'OFFICE_FILE_MANAGER_PAGE_TITLE'
+    label = 'Fil-manager'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label office_file_manager_page_links_count_en {
+    constant = 'OFFICE_FILE_MANAGER_PAGE_LINKS_COUNT'
+    label = 'Files'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label office_file_manager_page_links_count_da {
+    constant = 'OFFICE_FILE_MANAGER_PAGE_LINKS_COUNT'
+    label = 'Filer'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label office_file_manager_page_filter_menu_freetext_search_placeholder_en {
+    constant = 'OFFICE_FILE_MANAGER_PAGE_FILTER_MENU_FREETEXT_SEARCH_PLACEHOLDER'
+    label = 'Search'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label office_file_manager_page_filter_menu_freetext_search_placeholder_da {
+    constant = 'OFFICE_FILE_MANAGER_PAGE_FILTER_MENU_FREETEXT_SEARCH_PLACEHOLDER'
+    label = 'Søg'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label office_file_manager_button_delete_from_local_cache_en {
+    constant = 'OFFICE_FILE_MANAGER_BUTTON_DELETE_FROM_LOCAL_CACHE'
+    label = 'Delete from local storage'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label office_file_manager_button_delete_from_local_cache_da {
+    constant = 'OFFICE_FILE_MANAGER_BUTTON_DELETE_FROM_LOCAL_CACHE'
+    label = 'Slet fra lokalt lager'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label office_file_manager_page_select_all_en {
+    constant = 'OFFICE_FILE_MANAGER_PAGE_SELECT_ALL'
+    label = 'Select all'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label office_file_manager_page_select_all_da {
+    constant = 'OFFICE_FILE_MANAGER_PAGE_SELECT_ALL'
+    label = 'Vælg alle'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label office_file_manager_page_asset_title_en {
+    constant = 'OFFICE_FILE_MANAGER_PAGE_ASSET_TITLE'
+    label = 'Title'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label office_file_manager_page_asset_title_da {
+    constant = 'OFFICE_FILE_MANAGER_PAGE_ASSET_TITLE'
+    label = 'Titel'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label office_file_manager_page_asset_filetype_en {
+    constant = 'OFFICE_FILE_MANAGER_PAGE_ASSET_FILETYPE'
+    label = 'File type'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label office_file_manager_page_asset_filetype_da {
+    constant = 'OFFICE_FILE_MANAGER_PAGE_ASSET_FILETYPE'
+    label = 'Filtype'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label office_file_manager_page_asset_start_date_en {
+    constant = 'OFFICE_FILE_MANAGER_PAGE_ASSET_START_DATE'
+    label = 'Start date'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label office_file_manager_page_asset_start_date_da {
+    constant = 'OFFICE_FILE_MANAGER_PAGE_ASSET_START_DATE'
+    label = 'Startdato'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label office_file_manager_page_asset_last_visited_date_en {
+    constant = 'OFFICE_FILE_MANAGER_PAGE_ASSET_LAST_VISITED_DATE'
+    label = 'Last visited date'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label office_file_manager_page_asset_last_visited_date_da {
+    constant = 'OFFICE_FILE_MANAGER_PAGE_ASSET_LAST_VISITED_DATE'
+    label = 'Sidst besøgt-dato'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label office_file_manager_page_results_per_page_en {
+    constant = 'OFFICE_FILE_MANAGER_PAGE_RESULTS_PER_PAGE'
+    label = 'Results per page'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label office_file_manager_page_results_per_page_da {
+    constant = 'OFFICE_FILE_MANAGER_PAGE_RESULTS_PER_PAGE'
+    label = 'Resultater per side'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label creative_cloud_connector_file_manager_loading_text_en {
+    constant = 'CREATIVE_CLOUD_CONNECTOR_FILE_MANAGER_LOADING_TEXT'
+    label = 'Loading...'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label creative_cloud_connector_file_manager_loading_text_da {
+    constant = 'CREATIVE_CLOUD_CONNECTOR_FILE_MANAGER_LOADING_TEXT'
+    label = 'Indlæser...'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label office_file_manager_high_quality_autoload_en {
+    constant = 'OFFICE_FILE_MANAGER_HIGH_QUALITY_AUTOLOAD'
+    label = 'Automatic download'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label office_file_manager_high_quality_autoload_da {
+    constant = 'OFFICE_FILE_MANAGER_HIGH_QUALITY_AUTOLOAD'
+    label = 'Automatisk download'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label office_file_manager_high_quality_autoload_text_en {
+    constant = 'OFFICE_FILE_MANAGER_HIGH_QUALITY_AUTOLOAD_TEXT'
+    label = 'Always download the high-res quality in the background'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label office_file_manager_high_quality_autoload_text_da {
+    constant = 'OFFICE_FILE_MANAGER_HIGH_QUALITY_AUTOLOAD_TEXT'
+    label = 'Download altid high-res-kvaliteten i baggrunden'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label office_file_manager_high_quality_autoload_description_en {
+    constant = 'OFFICE_FILE_MANAGER_HIGH_QUALITY_AUTOLOAD_DESCRIPTION'
+    label = 'High-res qualities give a better experience working with the product. Also, exporting should always be done with high-res qualities. Enabling this will not make this plug-in slower.'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label office_file_manager_high_quality_autoload_description_da {
+    constant = 'OFFICE_FILE_MANAGER_HIGH_QUALITY_AUTOLOAD_DESCRIPTION'
+    label = 'High-res-kvaliteter giver en bedre brugeroplevelse med produktet. Derudover bør eksportering altid kun ske med high-res-kvaliteter. Aktivering af denne feature vil ikke gøre plug-in\'et langsommere.'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label creative_cloud_connector_delete_file_title_en {
+    constant = 'CREATIVE_CLOUD_CONNECTOR_DELETE_FILE_TITLE'
+    label = 'Delete'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label creative_cloud_connector_delete_file_title_da {
+    constant = 'CREATIVE_CLOUD_CONNECTOR_DELETE_FILE_TITLE'
+    label = 'Slet'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label creative_cloud_connector_delete_file_cancel_en {
+    constant = 'CREATIVE_CLOUD_CONNECTOR_DELETE_FILE_CANCEL'
+    label = 'Cancel'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label creative_cloud_connector_delete_file_cancel_da {
+    constant = 'CREATIVE_CLOUD_CONNECTOR_DELETE_FILE_CANCEL'
+    label = 'Annullér'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label creative_cloud_connector_delete_file_confirm_en {
+    constant = 'CREATIVE_CLOUD_CONNECTOR_DELETE_FILE_CONFIRM'
+    label = 'Delete'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label creative_cloud_connector_delete_file_confirm_da {
+    constant = 'CREATIVE_CLOUD_CONNECTOR_DELETE_FILE_CONFIRM'
+    label = 'Slet'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label creative_cloud_connector_delete_file_content_en {
+    constant = 'CREATIVE_CLOUD_CONNECTOR_DELETE_FILE_CONTENT'
+    label = 'Are your sure you want to delete {multiple, select, true {these files} false {this file}}?'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label creative_cloud_connector_delete_file_content_da {
+    constant = 'CREATIVE_CLOUD_CONNECTOR_DELETE_FILE_CONTENT'
+    label = 'Er du sikker på, at du vil slette {multiple, select, true {disse filer} false {denne fil}}?'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label office_file_item_button_title_en {
+    constant = 'OFFICE_FILE_ITEM_BUTTON_TITLE'
+    label = 'Quality'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label office_file_item_button_title_da {
+    constant = 'OFFICE_FILE_ITEM_BUTTON_TITLE'
+    label = 'Kvalitet'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label creative_cloud_connector_mobile_menu_new_asset_en {
+    constant = 'CREATIVE_CLOUD_CONNECTOR_MOBILE_MENU_NEW_ASSET'
+    label = 'New asset'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label creative_cloud_connector_mobile_menu_new_asset_da {
+    constant = 'CREATIVE_CLOUD_CONNECTOR_MOBILE_MENU_NEW_ASSET'
+    label = 'Nyt asset'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label creative_cloud_connector_mobile_menu_replace_asset_en {
+    constant = 'CREATIVE_CLOUD_CONNECTOR_MOBILE_MENU_REPLACE_ASSET'
+    label = 'Replace asset'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label creative_cloud_connector_mobile_menu_replace_asset_da {
+    constant = 'CREATIVE_CLOUD_CONNECTOR_MOBILE_MENU_REPLACE_ASSET'
+    label = 'Udskift asset'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label creative_cloud_connector_link_more_popup_search_in_dam_en {
+    constant = 'CREATIVE_CLOUD_CONNECTOR_LINK_MORE_POPUP_SEARCH_IN_DAM'
+    label = 'Link to asset'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label creative_cloud_connector_link_more_popup_search_in_dam_da {
+    constant = 'CREATIVE_CLOUD_CONNECTOR_LINK_MORE_POPUP_SEARCH_IN_DAM'
+    label = 'Link til asset'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label creative_cloud_connector_asset_picker_choose_asset_en {
+    constant = 'CREATIVE_CLOUD_CONNECTOR_ASSET_PICKER_CHOOSE_ASSET'
+    label = 'Choose asset'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label creative_cloud_connector_asset_picker_choose_asset_da {
+    constant = 'CREATIVE_CLOUD_CONNECTOR_ASSET_PICKER_CHOOSE_ASSET'
+    label = 'Vælg asset'
     language_id = data.language.danish.id
     folder_id = resource.language_label_folder.media_manager.folder_id
     version_id = resource.product.media_manager.base_version_id

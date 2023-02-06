@@ -1,4 +1,4 @@
-resource language_label login_login_dialog_username_required_en {
+﻿resource language_label login_login_dialog_username_required_en {
     constant = 'LOGIN_LOGIN_DIALOG_USERNAME_REQUIRED'
     label = 'Username is required'
     language_id = data.language.english.id
@@ -992,7 +992,7 @@ resource language_label login_signup_success_title_da {
 
 resource language_label login_signup_success_body_en {
     constant = 'LOGIN_SIGNUP_SUCCESS_BODY'
-    label = '{approvalType, select, none {Your profile has been created!} admin {An admin will review your sign up request. You will receive a mail when you have been approved or denied.} email {We have sent you an email with a confirmation link.}}'
+    label = '{approvalType, select, none {A sign-up request has been created in the system. Approval pending.} admin {An admin will review your sign-up request. You will receive an email when you have been approved or denied.} email {We have sent you an email with a confirmation link.}}'
     language_id = data.language.english.id
     folder_id = resource.language_label_folder.media_manager.folder_id
     version_id = resource.product.media_manager.base_version_id
@@ -1000,7 +1000,7 @@ resource language_label login_signup_success_body_en {
 
 resource language_label login_signup_success_body_da {
     constant = 'LOGIN_SIGNUP_SUCCESS_BODY'
-    label = '{approvalType, select, none {Din profil er oprettet!} admin {Vi sender en email efter godkendelse.} email {Vi har sendt dig en email med et link til bekræftelse.}}'
+    label = '{approvalType, select, none {En oprettelses-anmodning er blevet oprettet. Godkendelse afventer.} admin {Du får en email når du er godkendt.} email {Vi har sendt dig en email med et bekræftelses-link.}}'
     language_id = data.language.danish.id
     folder_id = resource.language_label_folder.media_manager.folder_id
     version_id = resource.product.media_manager.base_version_id

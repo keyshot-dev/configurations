@@ -1,4 +1,4 @@
-resource language_label lbl_mp_assets_en {
+﻿resource language_label lbl_mp_assets_en {
     constant = 'LBL_MP_ASSETS'
     label = 'Assets'
     language_id = data.language.english.id
@@ -192,7 +192,7 @@ resource language_label asset_list_list_title_column_description_da {
 
 resource language_label asset_list_list_title_column_action_en {
     constant = 'ASSET_LIST_LIST_TITLE_COLUMN_ACTION'
-    label = 'More'
+    label = 'Actions'
     language_id = data.language.english.id
     folder_id = resource.language_label_folder.media_manager.folder_id
     version_id = resource.product.media_manager.base_version_id
@@ -200,7 +200,7 @@ resource language_label asset_list_list_title_column_action_en {
 
 resource language_label asset_list_list_title_column_action_da {
     constant = 'ASSET_LIST_LIST_TITLE_COLUMN_ACTION'
-    label = 'Mere'
+    label = 'Handlinger'
     language_id = data.language.danish.id
     folder_id = resource.language_label_folder.media_manager.folder_id
     version_id = resource.product.media_manager.base_version_id
@@ -304,7 +304,9 @@ resource language_label asset_list_filter_bar_popup_type_da {
 
 resource language_label asset_list_filter_date_time_range_en {
     constant = 'ASSET_LIST_FILTER_DATE_TIME_RANGE'
-    label = '{preset, select, last-24-hours {Last 24 hours} last-7-days {Last 7 days} last-30-days {Last 30 days} more-30-days {Older than 30 days} custom {Custom}}'
+    label = '{preset, select, last-24-hours {Last 24 hours} last-7-days {Last 7 days} last-30-days {Last 30 days}
+ more-30-days {Older than 30 days} next-24-hours {Next 24 hours} next-7-days {Next 7 days} next-30-days {Next 30 days}
+ later-than-30-days {Later than 30 days} custom {Custom}}'
     language_id = data.language.english.id
     folder_id = resource.language_label_folder.media_manager.folder_id
     version_id = resource.product.media_manager.base_version_id
@@ -312,7 +314,9 @@ resource language_label asset_list_filter_date_time_range_en {
 
 resource language_label asset_list_filter_date_time_range_da {
     constant = 'ASSET_LIST_FILTER_DATE_TIME_RANGE'
-    label = '{preset, select, last-24-hours {Sidste 24 timer} last-7-days {Sidste 7 dage} last-30-days {Sidste 30 dage} more-30-days {Ældre end 30 dage} custom {Brugerdefineret}}'
+    label = '{preset, select, last-24-hours {Sidste 24 timer} last-7-days {Sidste 7 dage} last-30-days {Sidste 30
+ dage} more-30-days {Ældre end 30 dage} next-24-hours {Næste 24 timer} next-7-days {Næste 7 dage} next-30-days {Næste 30
+  dage} later-than-30-days {Senere end 30 dage} custom {Brugerdefineret}}'
     language_id = data.language.danish.id
     folder_id = resource.language_label_folder.media_manager.folder_id
     version_id = resource.product.media_manager.base_version_id
@@ -606,6 +610,38 @@ resource language_label asset_list_more_popup_share_da {
     version_id = resource.product.media_manager.base_version_id
 }
 
+resource language_label asset_list_more_popup_asset_info_en {
+    constant = 'ASSET_LIST_MORE_POPUP_ASSET_INFO'
+    label = 'Asset info'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label asset_list_more_popup_asset_info_da {
+    constant = 'ASSET_LIST_MORE_POPUP_ASSET_INFO'
+    label = 'Asset-info'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label asset_list_more_popup_insert_asset_en {
+    constant = 'ASSET_LIST_MORE_POPUP_INSERT_ASSET'
+    label = 'Insert asset'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label asset_list_more_popup_insert_asset_da {
+    constant = 'ASSET_LIST_MORE_POPUP_INSERT_ASSET'
+    label = 'Indsæt asset'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
 resource language_label asset_list_more_popup_download_en {
     constant = 'ASSET_LIST_MORE_POPUP_DOWNLOAD'
     label = 'Download'
@@ -665,6 +701,38 @@ resource language_label asset_list_more_popup_crop_en {
 resource language_label asset_list_more_popup_crop_da {
     constant = 'ASSET_LIST_MORE_POPUP_CROP'
     label = 'Beskær'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label asset_list_more_popup_crop_tool_en {
+    constant = 'ASSET_LIST_MORE_POPUP_CROP_TOOL'
+    label = 'Crop tool'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label asset_list_more_popup_crop_tool_da {
+    constant = 'ASSET_LIST_MORE_POPUP_CROP_TOOL'
+    label = 'Beskæringsværktøj'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label asset_list_more_popup_crop_no_crops_en {
+    constant = 'ASSET_LIST_MORE_POPUP_CROP_NO_CROPS'
+    label = 'No crops'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label asset_list_more_popup_crop_no_crops_da {
+    constant = 'ASSET_LIST_MORE_POPUP_CROP_NO_CROPS'
+    label = 'Ingen beskæringer'
     language_id = data.language.danish.id
     folder_id = resource.language_label_folder.media_manager.folder_id
     version_id = resource.product.media_manager.base_version_id
@@ -1017,6 +1085,22 @@ resource language_label asset_list_filter_menu_string_input_search_not_found_en 
 resource language_label asset_list_filter_menu_string_input_search_not_found_da {
     constant = 'ASSET_LIST_FILTER_MENU_STRING_INPUT_SEARCH_NOT_FOUND'
     label = 'Ingen resultater'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label asset_list_filter_menu_show_more_or_less_en {
+    constant = 'ASSET_LIST_FILTER_MENU_SHOW_MORE_OR_LESS'
+    label = '{showMore, select, true {Show top 10} false {Show more}}'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label asset_list_filter_menu_show_more_or_less_da {
+    constant = 'ASSET_LIST_FILTER_MENU_SHOW_MORE_OR_LESS'
+    label = '{showMore, select, true {Vis top-10} false {Vis flere}}'
     language_id = data.language.danish.id
     folder_id = resource.language_label_folder.media_manager.folder_id
     version_id = resource.product.media_manager.base_version_id

@@ -1,4 +1,4 @@
-resource language_label focused_asset_switch_to_light_mode_tooltip_en {
+﻿resource language_label focused_asset_switch_to_light_mode_tooltip_en {
     constant = 'FOCUSED_ASSET_SWITCH_TO_LIGHT_MODE_TOOLTIP'
     label = 'Switch to the light mode'
     language_id = data.language.english.id
@@ -649,6 +649,102 @@ resource language_label focused_asset_embedded_view_error_loading_asset_en {
 resource language_label focused_asset_embedded_view_error_loading_asset_da {
     constant = 'FOCUSED_ASSET_EMBEDDED_VIEW_ERROR_LOADING_ASSET'
     label = 'Assetet kunne ikke indlæses, enten grundet at asset ikke længere eksisterer eller utilstrækkelige rettigheder'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label focused_asset_crop_small_screen_warning_message_en {
+    constant = 'FOCUSED_ASSET_CROP_SMALL_SCREEN_WARNING_MESSAGE'
+    label = 'Please expand your window’s width to a minimum of 600px to use the crop tool'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label focused_asset_crop_small_screen_warning_message_da {
+    constant = 'FOCUSED_ASSET_CROP_SMALL_SCREEN_WARNING_MESSAGE'
+    label = 'Udvid venligst dit vindues bredde til minimum 600px for at bruge beskæringsværktøjet'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label asset_cropper_crop_focus_point_info_en {
+    constant = 'ASSET_CROPPER_CROP_FOCUS_POINT_INFO'
+    label = 'Press anywhere on the image, to create multiple crops from the same focus point.'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label asset_cropper_crop_focus_point_info_da {
+    constant = 'ASSET_CROPPER_CROP_FOCUS_POINT_INFO'
+    label = 'Tryk hvor som helst på billedet for at lave adskellige beskæringer ud fra ét fokuspunkt.'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label asset_cropper_crop_tabs_reset_all_en {
+    constant = 'ASSET_CROPPER_CROP_TABS_RESET_ALL'
+    label = 'Reset All'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label asset_cropper_crop_tabs_reset_all_da {
+    constant = 'ASSET_CROPPER_CROP_TABS_RESET_ALL'
+    label = 'Nulstil alle'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label asset_cropper_crop_tabs_focus_point_en {
+    constant = 'ASSET_CROPPER_CROP_TABS_FOCUS_POINT'
+    label = 'Focus point'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label asset_cropper_crop_tabs_focus_point_da {
+    constant = 'ASSET_CROPPER_CROP_TABS_FOCUS_POINT'
+    label = 'Fokuspunkt'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label asset_cropper_crop_tabs_add_new_crop_tooltip_en {
+    constant = 'ASSET_CROPPER_CROP_TABS_ADD_NEW_CROP_TOOLTIP'
+    label = 'Add new crop'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label asset_cropper_crop_tabs_add_new_crop_tooltip_da {
+    constant = 'ASSET_CROPPER_CROP_TABS_ADD_NEW_CROP_TOOLTIP'
+    label = 'Tilføj en ny beskæring'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label asset_cropper_crop_toolbox_crop_all_en {
+    constant = 'ASSET_CROPPER_CROP_TOOLBOX_CROP_ALL'
+    label = 'Crop All'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label asset_cropper_crop_toolbox_crop_all_da {
+    constant = 'ASSET_CROPPER_CROP_TOOLBOX_CROP_ALL'
+    label = 'Beskær Alle'
     language_id = data.language.danish.id
     folder_id = resource.language_label_folder.media_manager.folder_id
     version_id = resource.product.media_manager.base_version_id

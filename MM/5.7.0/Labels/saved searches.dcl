@@ -1,4 +1,4 @@
-resource language_label lbl_mp_menu_saved_searches_en {
+﻿resource language_label lbl_mp_menu_saved_searches_en {
     constant = 'LBL_MP_MENU_SAVED_SEARCHES'
     label = 'Saved searches'
     language_id = data.language.english.id
@@ -601,6 +601,22 @@ resource language_label open_routerlink_tooltip_en {
 resource language_label open_routerlink_tooltip_da {
     constant = 'OPEN_ROUTERLINK_TOOLTIP'
     label = 'Åbn {pathName, select, collection{collection} folder{mappe}}'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label asset_list_saved_searches_options_button_en {
+    constant = 'ASSET_LIST_SAVED_SEARCHES_OPTIONS_BUTTON'
+    label = 'Saved search'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label asset_list_saved_searches_options_button_da {
+    constant = 'ASSET_LIST_SAVED_SEARCHES_OPTIONS_BUTTON'
+    label = 'Gemt søgning'
     language_id = data.language.danish.id
     folder_id = resource.language_label_folder.media_manager.folder_id
     version_id = resource.product.media_manager.base_version_id

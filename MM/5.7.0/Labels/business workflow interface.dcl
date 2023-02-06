@@ -1,4 +1,4 @@
-resource language_label business_workflow_interface_no_workflows_en {
+﻿resource language_label business_workflow_interface_no_workflows_en {
     constant = 'BUSINESS_WORKFLOW_INTERFACE_NO_WORKFLOWS'
     label = 'No workflows found'
     language_id = data.language.english.id
