@@ -1,4 +1,4 @@
-resource language_label audit_trail_audit_logs_en {
+﻿resource language_label audit_trail_audit_logs_en {
     constant = 'AUDIT_TRAIL_AUDIT_LOGS'
     label = 'Audit logs'
     language_id = data.language.english.id
@@ -41,6 +41,38 @@ resource language_label audit_trail_filters_en {
 resource language_label audit_trail_filters_da {
     constant = 'AUDIT_TRAIL_FILTERS'
     label = 'Filtre'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label audit_trail_overylay_clear_audit_trail_button_en {
+    constant = 'AUDIT_TRAIL_OVERYLAY_CLEAR_AUDIT_TRAIL_BUTTON'
+    label = 'Clear filters'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label audit_trail_overylay_clear_audit_trail_button_da {
+    constant = 'AUDIT_TRAIL_OVERYLAY_CLEAR_AUDIT_TRAIL_BUTTON'
+    label = 'Ryd filtre'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label audit_trail_overylay_view_audit_trail_button_en {
+    constant = 'AUDIT_TRAIL_OVERYLAY_VIEW_AUDIT_TRAIL_BUTTON'
+    label = 'View history ({{count}} changes)'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label audit_trail_overylay_view_audit_trail_button_da {
+    constant = 'AUDIT_TRAIL_OVERYLAY_VIEW_AUDIT_TRAIL_BUTTON'
+    label = 'Vis historik ({{count}} ændringer)'
     language_id = data.language.danish.id
     folder_id = resource.language_label_folder.media_manager.folder_id
     version_id = resource.product.media_manager.base_version_id

@@ -1,4 +1,4 @@
-resource language_label asset_check_in_button_check_in_text_en {
+﻿resource language_label asset_check_in_button_check_in_text_en {
     constant = 'ASSET_CHECK_IN_BUTTON_CHECK_IN_TEXT'
     label = 'Check in'
     language_id = data.language.english.id
@@ -249,6 +249,22 @@ resource language_label asset_check_in_button_checked_out_by_someone_else_text_e
 resource language_label asset_check_in_button_checked_out_by_someone_else_text_da {
     constant = 'ASSET_CHECK_IN_BUTTON_CHECKED_OUT_BY_SOMEONE_ELSE_TEXT'
     label = 'Et eller flere af de valgte assets er tjekket ud af en anden.'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label asset_check_in_button_check_out_unknown_text_en {
+    constant = 'ASSET_CHECK_IN_BUTTON_CHECK_OUT_UNKNOWN_TEXT'
+    label = 'An unknown error has occurred.'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label asset_check_in_button_check_out_unknown_text_da {
+    constant = 'ASSET_CHECK_IN_BUTTON_CHECK_OUT_UNKNOWN_TEXT'
+    label = 'En ukendt fejl er sket.'
     language_id = data.language.danish.id
     folder_id = resource.language_label_folder.media_manager.folder_id
     version_id = resource.product.media_manager.base_version_id

@@ -1,4 +1,4 @@
-resource language_label description_en {
+﻿resource language_label description_en {
     constant = 'description'
     label = 'Description'
     language_id = data.language.english.id
@@ -270,6 +270,38 @@ resource language_label asset_list_filter_menu_freetext_simple_search_da {
     version_id = resource.product.media_manager.base_version_id
 }
 
+resource language_label asset_list_filter_menu_freetext_modal_search_en {
+    constant = 'ASSET_LIST_FILTER_MENU_FREETEXT_MODAL_SEARCH'
+    label = 'Search'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label asset_list_filter_menu_freetext_modal_search_da {
+    constant = 'ASSET_LIST_FILTER_MENU_FREETEXT_MODAL_SEARCH'
+    label = 'Søg'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label asset_list_filter_menu_freetext_modal_cancel_en {
+    constant = 'ASSET_LIST_FILTER_MENU_FREETEXT_MODAL_CANCEL'
+    label = 'Cancel'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label asset_list_filter_menu_freetext_modal_cancel_da {
+    constant = 'ASSET_LIST_FILTER_MENU_FREETEXT_MODAL_CANCEL'
+    label = 'Annullér'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
 resource language_label lbl_mp_menu_favorites_en {
     constant = 'LBL_MP_MENU_FAVORITES'
     label = 'Favorites'
@@ -313,6 +345,22 @@ resource language_label selected_assets_overlay_items_selected_en {
 resource language_label selected_assets_overlay_items_selected_da {
     constant = 'SELECTED_ASSETS_OVERLAY_ITEMS_SELECTED'
     label = '{count, cardinalPlural, one {Element} other {Elementer}} valgt'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label selected_assets_overlay_options_multi_insert_en {
+    constant = 'SELECTED_ASSETS_OVERLAY_OPTIONS_MULTI_INSERT'
+    label = 'Multi insert'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label selected_assets_overlay_options_multi_insert_da {
+    constant = 'SELECTED_ASSETS_OVERLAY_OPTIONS_MULTI_INSERT'
+    label = 'Multi-indsæt'
     language_id = data.language.danish.id
     folder_id = resource.language_label_folder.media_manager.folder_id
     version_id = resource.product.media_manager.base_version_id
@@ -990,6 +1038,22 @@ resource language_label topbar_notification_btn_tooltip_da {
     version_id = resource.product.media_manager.base_version_id
 }
 
+resource language_label topbar_connector_options_btn_tooltip_en {
+    constant = 'TOPBAR_CONNECTOR_OPTIONS_BTN_TOOLTIP'
+    label = 'Connector options'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label topbar_connector_options_btn_tooltip_da {
+    constant = 'TOPBAR_CONNECTOR_OPTIONS_BTN_TOOLTIP'
+    label = 'Connector-indstillinger'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
 resource language_label topbar_settings_btn_tooltip_en {
     constant = 'TOPBAR_SETTINGS_BTN_TOOLTIP'
     label = 'Settings'
@@ -1272,7 +1336,7 @@ resource language_label selected_assets_overlay_options_clear_selection_en {
 
 resource language_label selected_assets_overlay_options_clear_selection_da {
     constant = 'SELECTED_ASSETS_OVERLAY_OPTIONS_CLEAR_SELECTION'
-    label = 'Ryd valgte'
+    label = 'Afmarker valgte'
     language_id = data.language.danish.id
     folder_id = resource.language_label_folder.media_manager.folder_id
     version_id = resource.product.media_manager.base_version_id
@@ -1481,6 +1545,22 @@ resource language_label section_title_multi_editor_en {
 resource language_label section_title_multi_editor_da {
     constant = 'SECTION_TITLE_MULTI_EDITOR'
     label = 'Multi-rediger'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label section_title_generic_job_status_en {
+    constant = 'SECTION_TITLE_GENERIC_JOB_STATUS'
+    label = 'Job status'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label section_title_generic_job_status_da {
+    constant = 'SECTION_TITLE_GENERIC_JOB_STATUS'
+    label = 'Jobstatus'
     language_id = data.language.danish.id
     folder_id = resource.language_label_folder.media_manager.folder_id
     version_id = resource.product.media_manager.base_version_id
@@ -1785,6 +1865,150 @@ resource language_label no_matching_results_en {
 resource language_label no_matching_results_da {
     constant = 'NO_MATCHING_RESULTS'
     label = 'Ingen matchende resultater'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label mobile_topbar_saved_searches_tab_label_en {
+    constant = 'MOBILE_TOPBAR_SAVED_SEARCHES_TAB_LABEL'
+    label = 'Saved searches'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label mobile_topbar_saved_searches_tab_label_da {
+    constant = 'MOBILE_TOPBAR_SAVED_SEARCHES_TAB_LABEL'
+    label = 'Gemte søgninger'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label mobile_topbar_assets_tab_label_en {
+    constant = 'MOBILE_TOPBAR_ASSETS_TAB_LABEL'
+    label = 'Assets'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label mobile_topbar_assets_tab_label_da {
+    constant = 'MOBILE_TOPBAR_ASSETS_TAB_LABEL'
+    label = 'Assets'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label mobile_topbar_collections_tab_label_en {
+    constant = 'MOBILE_TOPBAR_COLLECTIONS_TAB_LABEL'
+    label = 'Collections'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label mobile_topbar_collections_tab_label_da {
+    constant = 'MOBILE_TOPBAR_COLLECTIONS_TAB_LABEL'
+    label = 'Collections'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label mobile_topbar_folders_tab_label_en {
+    constant = 'MOBILE_TOPBAR_FOLDERS_TAB_LABEL'
+    label = 'Folders'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label mobile_topbar_folders_tab_label_da {
+    constant = 'MOBILE_TOPBAR_FOLDERS_TAB_LABEL'
+    label = 'Mapper'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label mobile_topbar_search_result_title_en {
+    constant = 'MOBILE_TOPBAR_SEARCH_RESULT_TITLE'
+    label = 'Search result ({{count}})'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label mobile_topbar_search_result_title_da {
+    constant = 'MOBILE_TOPBAR_SEARCH_RESULT_TITLE'
+    label = 'Søgeresultat ({{count}})'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label mobile_topbar_saved_searches_title_en {
+    constant = 'MOBILE_TOPBAR_SAVED_SEARCHES_TITLE'
+    label = 'Saved searches ({{count}})'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label mobile_topbar_saved_searches_title_da {
+    constant = 'MOBILE_TOPBAR_SAVED_SEARCHES_TITLE'
+    label = 'Gemte søgninger ({{count}})'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label mobile_topbar_saved_no_results_en {
+    constant = 'MOBILE_TOPBAR_SAVED_NO_RESULTS'
+    label = 'Save your searches and find them here'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label mobile_topbar_saved_no_results_da {
+    constant = 'MOBILE_TOPBAR_SAVED_NO_RESULTS'
+    label = 'Dine gemte søgninger vil blive vist her'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label mobile_topbar_view_all_text_en {
+    constant = 'MOBILE_TOPBAR_VIEW_ALL_TEXT'
+    label = 'View all'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label mobile_topbar_view_all_text_da {
+    constant = 'MOBILE_TOPBAR_VIEW_ALL_TEXT'
+    label = 'Vis alle'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label mobile_topbar_input_search_placeholder_en {
+    constant = 'MOBILE_TOPBAR_INPUT_SEARCH_PLACEHOLDER'
+    label = 'Assets, folders, and collections'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label mobile_topbar_input_search_placeholder_da {
+    constant = 'MOBILE_TOPBAR_INPUT_SEARCH_PLACEHOLDER'
+    label = 'Assets, mapper og collections'
     language_id = data.language.danish.id
     folder_id = resource.language_label_folder.media_manager.folder_id
     version_id = resource.product.media_manager.base_version_id

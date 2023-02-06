@@ -1,4 +1,4 @@
-resource language_label upload_upload_job_item_processing_en {
+﻿resource language_label upload_upload_job_item_processing_en {
     constant = 'UPLOAD_UPLOAD_JOB_ITEM_PROCESSING'
     label = 'Processing'
     language_id = data.language.english.id
@@ -16,7 +16,7 @@ resource language_label upload_upload_job_item_processing_da {
 
 resource language_label upload_upload_job_item_finished_en {
     constant = 'UPLOAD_UPLOAD_JOB_ITEM_FINISHED'
-    label = 'Uploaded'
+    label = 'Done'
     language_id = data.language.english.id
     folder_id = resource.language_label_folder.media_manager.folder_id
     version_id = resource.product.media_manager.base_version_id
@@ -24,7 +24,7 @@ resource language_label upload_upload_job_item_finished_en {
 
 resource language_label upload_upload_job_item_finished_da {
     constant = 'UPLOAD_UPLOAD_JOB_ITEM_FINISHED'
-    label = 'Uploadet'
+    label = 'Færdig'
     language_id = data.language.danish.id
     folder_id = resource.language_label_folder.media_manager.folder_id
     version_id = resource.product.media_manager.base_version_id
@@ -110,9 +110,25 @@ resource language_label upload_upload_status_edit_all_da {
     version_id = resource.product.media_manager.base_version_id
 }
 
+resource language_label upload_upload_asset_list_list_more_en {
+    constant = 'UPLOAD_UPLOAD_ASSET_LIST_LIST_MORE'
+    label = 'More'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label upload_upload_asset_list_list_more_da {
+    constant = 'UPLOAD_UPLOAD_ASSET_LIST_LIST_MORE'
+    label = 'Mere'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
 resource language_label upload_upload_asset_list_list_edit_this_en {
     constant = 'UPLOAD_UPLOAD_ASSET_LIST_LIST_EDIT_THIS'
-    label = 'Edit this'
+    label = 'Edit'
     language_id = data.language.english.id
     folder_id = resource.language_label_folder.media_manager.folder_id
     version_id = resource.product.media_manager.base_version_id
@@ -120,7 +136,7 @@ resource language_label upload_upload_asset_list_list_edit_this_en {
 
 resource language_label upload_upload_asset_list_list_edit_this_da {
     constant = 'UPLOAD_UPLOAD_ASSET_LIST_LIST_EDIT_THIS'
-    label = 'Redigér asset'
+    label = 'Rediger'
     language_id = data.language.danish.id
     folder_id = resource.language_label_folder.media_manager.folder_id
     version_id = resource.product.media_manager.base_version_id
@@ -128,7 +144,7 @@ resource language_label upload_upload_asset_list_list_edit_this_da {
 
 resource language_label upload_upload_asset_list_list_remove_en {
     constant = 'UPLOAD_UPLOAD_ASSET_LIST_LIST_REMOVE'
-    label = 'Remove'
+    label = 'Clear'
     language_id = data.language.english.id
     folder_id = resource.language_label_folder.media_manager.folder_id
     version_id = resource.product.media_manager.base_version_id
@@ -136,39 +152,23 @@ resource language_label upload_upload_asset_list_list_remove_en {
 
 resource language_label upload_upload_asset_list_list_remove_da {
     constant = 'UPLOAD_UPLOAD_ASSET_LIST_LIST_REMOVE'
-    label = 'Fjern'
+    label = 'Ryd'
     language_id = data.language.danish.id
     folder_id = resource.language_label_folder.media_manager.folder_id
     version_id = resource.product.media_manager.base_version_id
 }
 
-resource language_label upload_expanded_upload_status_title_en {
-    constant = 'UPLOAD_EXPANDED_UPLOAD_STATUS_TITLE'
+resource language_label upload_upload_status_title_en {
+    constant = 'UPLOAD_UPLOAD_STATUS_TITLE'
     label = '{finished, select, true {Uploaded} false {Uploading}}'
     language_id = data.language.english.id
     folder_id = resource.language_label_folder.media_manager.folder_id
     version_id = resource.product.media_manager.base_version_id
 }
 
-resource language_label upload_expanded_upload_status_title_da {
-    constant = 'UPLOAD_EXPANDED_UPLOAD_STATUS_TITLE'
+resource language_label upload_upload_status_title_da {
+    constant = 'UPLOAD_UPLOAD_STATUS_TITLE'
     label = '{finished, select, true {Uploadede} false {Uploader}}'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label upload_expanded_upload_status_minimize_en {
-    constant = 'UPLOAD_EXPANDED_UPLOAD_STATUS_MINIMIZE'
-    label = 'Minimize'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label upload_expanded_upload_status_minimize_da {
-    constant = 'UPLOAD_EXPANDED_UPLOAD_STATUS_MINIMIZE'
-    label = 'Minimer'
     language_id = data.language.danish.id
     folder_id = resource.language_label_folder.media_manager.folder_id
     version_id = resource.product.media_manager.base_version_id
@@ -190,17 +190,65 @@ resource language_label upload_expanded_upload_status_close_da {
     version_id = resource.product.media_manager.base_version_id
 }
 
-resource language_label upload_expanded_upload_status_cancel_all_en {
-    constant = 'UPLOAD_EXPANDED_UPLOAD_STATUS_CANCEL_ALL'
-    label = '{count, select, 1 {Cancel} other {Cancel all}}'
+resource language_label upload_expanded_upload_status_cancel_en {
+    constant = 'UPLOAD_EXPANDED_UPLOAD_STATUS_CANCEL'
+    label = '{finished, select, true {Clear} other {Cancel}}'
     language_id = data.language.english.id
     folder_id = resource.language_label_folder.media_manager.folder_id
     version_id = resource.product.media_manager.base_version_id
 }
 
-resource language_label upload_expanded_upload_status_cancel_all_da {
-    constant = 'UPLOAD_EXPANDED_UPLOAD_STATUS_CANCEL_ALL'
-    label = '{count, select, 1 {Annullér} other {Annullér alle}}'
+resource language_label upload_expanded_upload_status_cancel_da {
+    constant = 'UPLOAD_EXPANDED_UPLOAD_STATUS_CANCEL'
+    label = '{finished, select, true {Ryd} true {Annullér}}'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label upload_expanded_upload_status_all_en {
+    constant = 'UPLOAD_EXPANDED_UPLOAD_STATUS_ALL'
+    label = 'all'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label upload_expanded_upload_status_all_da {
+    constant = 'UPLOAD_EXPANDED_UPLOAD_STATUS_ALL'
+    label = 'alle'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label upload_expanded_upload_status_upload_more_en {
+    constant = 'UPLOAD_EXPANDED_UPLOAD_STATUS_UPLOAD_MORE'
+    label = 'Upload more'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label upload_expanded_upload_status_upload_more_da {
+    constant = 'UPLOAD_EXPANDED_UPLOAD_STATUS_UPLOAD_MORE'
+    label = 'Upload flere'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label upload_expanded_upload_status_title_en {
+    constant = 'UPLOAD_EXPANDED_UPLOAD_STATUS_TITLE'
+    label = 'Upload'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label upload_expanded_upload_status_title_da {
+    constant = 'UPLOAD_EXPANDED_UPLOAD_STATUS_TITLE'
+    label = 'Upload'
     language_id = data.language.danish.id
     folder_id = resource.language_label_folder.media_manager.folder_id
     version_id = resource.product.media_manager.base_version_id
@@ -208,7 +256,7 @@ resource language_label upload_expanded_upload_status_cancel_all_da {
 
 resource language_label upload_expanded_upload_status_group_edit_en {
     constant = 'UPLOAD_EXPANDED_UPLOAD_STATUS_GROUP_EDIT'
-    label = '{count, select, 1 {Edit} other {Group Edit}}'
+    label = '{count, select, 1 {Edit} other {Group edit}}'
     language_id = data.language.english.id
     folder_id = resource.language_label_folder.media_manager.folder_id
     version_id = resource.product.media_manager.base_version_id
@@ -286,33 +334,17 @@ resource language_label upload_upload_status_toggle_size_da {
     version_id = resource.product.media_manager.base_version_id
 }
 
-resource language_label upload_upload_job_item_remove_en {
-    constant = 'UPLOAD_UPLOAD_JOB_ITEM_REMOVE'
-    label = 'Remove'
+resource language_label upload_cancel_upload_warning_yes_en {
+    constant = 'UPLOAD_CANCEL_UPLOAD_WARNING_YES'
+    label = 'Yes'
     language_id = data.language.english.id
     folder_id = resource.language_label_folder.media_manager.folder_id
     version_id = resource.product.media_manager.base_version_id
 }
 
-resource language_label upload_upload_job_item_remove_da {
-    constant = 'UPLOAD_UPLOAD_JOB_ITEM_REMOVE'
-    label = 'Fjern'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label upload_cancel_upload_warning_cancel_en {
-    constant = 'UPLOAD_CANCEL_UPLOAD_WARNING_CANCEL'
-    label = 'Cancel'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label upload_cancel_upload_warning_cancel_da {
-    constant = 'UPLOAD_CANCEL_UPLOAD_WARNING_CANCEL'
-    label = 'Annullér'
+resource language_label upload_cancel_upload_warning_yes_da {
+    constant = 'UPLOAD_CANCEL_UPLOAD_WARNING_YES'
+    label = 'Ja'
     language_id = data.language.danish.id
     folder_id = resource.language_label_folder.media_manager.folder_id
     version_id = resource.product.media_manager.base_version_id
@@ -350,17 +382,17 @@ resource language_label upload_cancel_upload_warning_are_you_sure_you_want_to_ca
     version_id = resource.product.media_manager.base_version_id
 }
 
-resource language_label upload_cancel_upload_warning_cancel_all_uploads_en {
-    constant = 'UPLOAD_CANCEL_UPLOAD_WARNING_CANCEL_ALL_UPLOADS'
-    label = 'Cancel all uploads'
+resource language_label upload_cancel_upload_warning_cancel_uploads_en {
+    constant = 'UPLOAD_CANCEL_UPLOAD_WARNING_CANCEL_UPLOADS'
+    label = 'Cancel uploads'
     language_id = data.language.english.id
     folder_id = resource.language_label_folder.media_manager.folder_id
     version_id = resource.product.media_manager.base_version_id
 }
 
-resource language_label upload_cancel_upload_warning_cancel_all_uploads_da {
-    constant = 'UPLOAD_CANCEL_UPLOAD_WARNING_CANCEL_ALL_UPLOADS'
-    label = 'Annullér alle uploads'
+resource language_label upload_cancel_upload_warning_cancel_uploads_da {
+    constant = 'UPLOAD_CANCEL_UPLOAD_WARNING_CANCEL_UPLOADS'
+    label = 'Annullér uploads'
     language_id = data.language.danish.id
     folder_id = resource.language_label_folder.media_manager.folder_id
     version_id = resource.product.media_manager.base_version_id
@@ -441,6 +473,22 @@ resource language_label upload_drag_and_drop_upload_dialog_upload_en {
 resource language_label upload_drag_and_drop_upload_dialog_upload_da {
     constant = 'UPLOAD_DRAG_AND_DROP_UPLOAD_DIALOG_UPLOAD'
     label = 'Upload'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label upload_drag_and_drop_upload_dialog_upload_invalid_upload_count_en {
+    constant = 'UPLOAD_DRAG_AND_DROP_UPLOAD_DIALOG_UPLOAD_INVALID_UPLOAD_COUNT'
+    label = 'You are not allowed to multi-upload assets'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label upload_drag_and_drop_upload_dialog_upload_invalid_upload_count_da {
+    constant = 'UPLOAD_DRAG_AND_DROP_UPLOAD_DIALOG_UPLOAD_INVALID_UPLOAD_COUNT'
+    label = 'Du har ikke tilladelse til at multi-uploade assets'
     language_id = data.language.danish.id
     folder_id = resource.language_label_folder.media_manager.folder_id
     version_id = resource.product.media_manager.base_version_id

@@ -1,4 +1,4 @@
-resource language_label copyright_notification_modal_header_en {
+﻿resource language_label copyright_notification_modal_header_en {
     constant = 'COPYRIGHT_NOTIFICATION_MODAL_HEADER'
     label = 'Copyright Notification'
     language_id = data.language.english.id

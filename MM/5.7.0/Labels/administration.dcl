@@ -1,4 +1,4 @@
-resource language_label administration_overview_title_en {
+﻿resource language_label administration_overview_title_en {
     constant = 'ADMINISTRATION_OVERVIEW_TITLE'
     label = 'Administration overview'
     language_id = data.language.english.id
@@ -94,6 +94,22 @@ resource language_label health_overview_refresh_service_tooltip_da {
     version_id = resource.product.media_manager.base_version_id
 }
 
+resource language_label health_overview_show_cache_tooltip_en {
+    constant = 'HEALTH_OVERVIEW_SHOW_CACHE_TOOLTIP'
+    label = 'Show caches'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label health_overview_show_cache_tooltip_da {
+    constant = 'HEALTH_OVERVIEW_SHOW_CACHE_TOOLTIP'
+    label = 'Vis caches'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
 resource language_label health_overview_headline_title_en {
     constant = 'HEALTH_OVERVIEW_HEADLINE_TITLE'
     label = 'Services'
@@ -153,6 +169,22 @@ resource language_label health_overview_service_status_en {
 resource language_label health_overview_service_status_da {
     constant = 'HEALTH_OVERVIEW_SERVICE_STATUS'
     label = 'Status'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label health_overview_service_actions_external_tooltip_en {
+    constant = 'HEALTH_OVERVIEW_SERVICE_ACTIONS_EXTERNAL_TOOLTIP'
+    label = 'Opens {{service}} health url'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label health_overview_service_actions_external_tooltip_da {
+    constant = 'HEALTH_OVERVIEW_SERVICE_ACTIONS_EXTERNAL_TOOLTIP'
+    label = 'Åbner {{service}} sundheds-url'
     language_id = data.language.danish.id
     folder_id = resource.language_label_folder.media_manager.folder_id
     version_id = resource.product.media_manager.base_version_id
@@ -286,6 +318,22 @@ resource language_label service_status_filter_title_da {
     version_id = resource.product.media_manager.base_version_id
 }
 
+resource language_label service_has_cache_filter_title_en {
+    constant = 'SERVICE_HAS_CACHE_FILTER_TITLE'
+    label = 'Has cache'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label service_has_cache_filter_title_da {
+    constant = 'SERVICE_HAS_CACHE_FILTER_TITLE'
+    label = 'Har cache'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
 resource language_label service_name_filter_placeholder_en {
     constant = 'SERVICE_NAME_FILTER_PLACEHOLDER'
     label = 'Search by title'
@@ -329,6 +377,486 @@ resource language_label health_overview_failed_to_load_services_en {
 resource language_label health_overview_failed_to_load_services_da {
     constant = 'HEALTH_OVERVIEW_FAILED_TO_LOAD_SERVICES'
     label = 'Kunne ikke indlæse tjenester. Administration-tjenesten kører sandsynligvis ikke. Tryk på opdateringsknappen for at prøve igen'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label health_overview_details_title_en {
+    constant = 'HEALTH_OVERVIEW_DETAILS_TITLE'
+    label = 'Caches'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label health_overview_details_title_da {
+    constant = 'HEALTH_OVERVIEW_DETAILS_TITLE'
+    label = 'Caches'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label health_overview_details_clear_all_caches_btn_tooltip_en {
+    constant = 'HEALTH_OVERVIEW_DETAILS_CLEAR_ALL_CACHES_BTN_TOOLTIP'
+    label = 'Clear all caches'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label health_overview_details_clear_all_caches_btn_tooltip_da {
+    constant = 'HEALTH_OVERVIEW_DETAILS_CLEAR_ALL_CACHES_BTN_TOOLTIP'
+    label = 'Ryd alle caches'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label health_overview_details_name_en {
+    constant = 'HEALTH_OVERVIEW_DETAILS_NAME'
+    label = 'Name'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label health_overview_details_name_da {
+    constant = 'HEALTH_OVERVIEW_DETAILS_NAME'
+    label = 'Navn'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label health_overview_details_data_hidden_en {
+    constant = 'HEALTH_OVERVIEW_DETAILS_DATA_HIDDEN'
+    label = 'Has hidden data'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label health_overview_details_data_hidden_da {
+    constant = 'HEALTH_OVERVIEW_DETAILS_DATA_HIDDEN'
+    label = 'Har skjult data'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label health_overview_details_get_cache_keys_btn_tooltip_en {
+    constant = 'HEALTH_OVERVIEW_DETAILS_GET_CACHE_KEYS_BTN_TOOLTIP'
+    label = 'Show cache keys'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label health_overview_details_get_cache_keys_btn_tooltip_da {
+    constant = 'HEALTH_OVERVIEW_DETAILS_GET_CACHE_KEYS_BTN_TOOLTIP'
+    label = 'Vis cache-nøgler'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label health_overview_details_clear_cache_btn_tooltip_en {
+    constant = 'HEALTH_OVERVIEW_DETAILS_CLEAR_CACHE_BTN_TOOLTIP'
+    label = 'Clear cache'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label health_overview_details_clear_cache_btn_tooltip_da {
+    constant = 'HEALTH_OVERVIEW_DETAILS_CLEAR_CACHE_BTN_TOOLTIP'
+    label = 'Ryd cache'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label health_overview_details_clear_cache_key_btn_tooltip_en {
+    constant = 'HEALTH_OVERVIEW_DETAILS_CLEAR_CACHE_KEY_BTN_TOOLTIP'
+    label = 'Clear cache key'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label health_overview_details_clear_cache_key_btn_tooltip_da {
+    constant = 'HEALTH_OVERVIEW_DETAILS_CLEAR_CACHE_KEY_BTN_TOOLTIP'
+    label = 'Ryd cache-nøgle'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label health_overview_details_expand_cache_values_btn_en {
+    constant = 'HEALTH_OVERVIEW_DETAILS_EXPAND_CACHE_VALUES_BTN'
+    label = 'Expand'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label health_overview_details_expand_cache_values_btn_da {
+    constant = 'HEALTH_OVERVIEW_DETAILS_EXPAND_CACHE_VALUES_BTN'
+    label = 'Udvid'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label health_overview_details_collapse_cache_values_btn_en {
+    constant = 'HEALTH_OVERVIEW_DETAILS_COLLAPSE_CACHE_VALUES_BTN'
+    label = 'Collapse'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label health_overview_details_collapse_cache_values_btn_da {
+    constant = 'HEALTH_OVERVIEW_DETAILS_COLLAPSE_CACHE_VALUES_BTN'
+    label = 'Kollaps'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label health_overview_details_cache_keys_results_per_page_en {
+    constant = 'HEALTH_OVERVIEW_DETAILS_CACHE_KEYS_RESULTS_PER_PAGE'
+    label = 'Results per page'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label health_overview_details_cache_keys_results_per_page_da {
+    constant = 'HEALTH_OVERVIEW_DETAILS_CACHE_KEYS_RESULTS_PER_PAGE'
+    label = 'Resultater per side'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label health_overview_details_no_caches_en {
+    constant = 'HEALTH_OVERVIEW_DETAILS_NO_CACHES'
+    label = 'No caches available'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label health_overview_details_no_caches_da {
+    constant = 'HEALTH_OVERVIEW_DETAILS_NO_CACHES'
+    label = 'Ingen caches tilgængelige'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label health_overview_details_no_cache_entries_en {
+    constant = 'HEALTH_OVERVIEW_DETAILS_NO_CACHE_ENTRIES'
+    label = 'No cache entries available'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label health_overview_details_no_cache_entries_da {
+    constant = 'HEALTH_OVERVIEW_DETAILS_NO_CACHE_ENTRIES'
+    label = 'Ingen cache-værdier tilgængelige'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label health_overview_details_empty_title_en {
+    constant = 'HEALTH_OVERVIEW_DETAILS_EMPTY_TITLE'
+    label = 'Empty'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label health_overview_details_empty_title_da {
+    constant = 'HEALTH_OVERVIEW_DETAILS_EMPTY_TITLE'
+    label = 'Tom'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label health_overview_details_empty_content_en {
+    constant = 'HEALTH_OVERVIEW_DETAILS_EMPTY_CONTENT'
+    label = 'The cache does not contain any keys'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label health_overview_details_empty_content_da {
+    constant = 'HEALTH_OVERVIEW_DETAILS_EMPTY_CONTENT'
+    label = 'Cachen indeholder ingen nøgler'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label health_overview_details_clear_cache_title_en {
+    constant = 'HEALTH_OVERVIEW_DETAILS_CLEAR_CACHE_TITLE'
+    label = 'Clear cache'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label health_overview_details_clear_cache_title_da {
+    constant = 'HEALTH_OVERVIEW_DETAILS_CLEAR_CACHE_TITLE'
+    label = 'Ryd cache'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label health_overview_details_clear_cache_content_en {
+    constant = 'HEALTH_OVERVIEW_DETAILS_CLEAR_CACHE_CONTENT'
+    label = 'Are you sure you want to clear the cache {{cacheKey}}?'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label health_overview_details_clear_cache_content_da {
+    constant = 'HEALTH_OVERVIEW_DETAILS_CLEAR_CACHE_CONTENT'
+    label = 'Er du sikker på at du vil rydde cachen {{cacheKey}}?'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label health_overview_details_clear_cache_cancel_en {
+    constant = 'HEALTH_OVERVIEW_DETAILS_CLEAR_CACHE_CANCEL'
+    label = 'Cancel'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label health_overview_details_clear_cache_cancel_da {
+    constant = 'HEALTH_OVERVIEW_DETAILS_CLEAR_CACHE_CANCEL'
+    label = 'Annullér'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label health_overview_details_clear_cache_confirm_en {
+    constant = 'HEALTH_OVERVIEW_DETAILS_CLEAR_CACHE_CONFIRM'
+    label = 'Clear cache'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label health_overview_details_clear_cache_confirm_da {
+    constant = 'HEALTH_OVERVIEW_DETAILS_CLEAR_CACHE_CONFIRM'
+    label = 'Ryd cache'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label health_overview_details_clear_cache_key_title_en {
+    constant = 'HEALTH_OVERVIEW_DETAILS_CLEAR_CACHE_KEY_TITLE'
+    label = 'Clear cache key'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label health_overview_details_clear_cache_key_title_da {
+    constant = 'HEALTH_OVERVIEW_DETAILS_CLEAR_CACHE_KEY_TITLE'
+    label = 'Ryd cache-nøgle'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label health_overview_details_clear_cache_key_content_en {
+    constant = 'HEALTH_OVERVIEW_DETAILS_CLEAR_CACHE_KEY_CONTENT'
+    label = 'Are you sure you want to clear the cache key {{key}}?'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label health_overview_details_clear_cache_key_content_da {
+    constant = 'HEALTH_OVERVIEW_DETAILS_CLEAR_CACHE_KEY_CONTENT'
+    label = 'Er du sikker på at du vil rydde cachen-nøglen {{key}}?'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label health_overview_details_clear_cache_key_cancel_en {
+    constant = 'HEALTH_OVERVIEW_DETAILS_CLEAR_CACHE_KEY_CANCEL'
+    label = 'Cancel'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label health_overview_details_clear_cache_key_cancel_da {
+    constant = 'HEALTH_OVERVIEW_DETAILS_CLEAR_CACHE_KEY_CANCEL'
+    label = 'Annullér'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label health_overview_details_clear_cache_key_confirm_en {
+    constant = 'HEALTH_OVERVIEW_DETAILS_CLEAR_CACHE_KEY_CONFIRM'
+    label = 'Clear cache key'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label health_overview_details_clear_cache_key_confirm_da {
+    constant = 'HEALTH_OVERVIEW_DETAILS_CLEAR_CACHE_KEY_CONFIRM'
+    label = 'Ryd cache-nøglen'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label health_overview_details_clear_all_caches_title_en {
+    constant = 'HEALTH_OVERVIEW_DETAILS_CLEAR_ALL_CACHES_TITLE'
+    label = 'Clear all caches'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label health_overview_details_clear_all_caches_title_da {
+    constant = 'HEALTH_OVERVIEW_DETAILS_CLEAR_ALL_CACHES_TITLE'
+    label = 'Ryd alle caches'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label health_overview_details_clear_all_caches_content_en {
+    constant = 'HEALTH_OVERVIEW_DETAILS_CLEAR_ALL_CACHES_CONTENT'
+    label = 'Are you sure that you want to clear all caches?'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label health_overview_details_clear_all_caches_content_da {
+    constant = 'HEALTH_OVERVIEW_DETAILS_CLEAR_ALL_CACHES_CONTENT'
+    label = 'Er du sikker på at du vil rydde alle caches?'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label health_overview_details_clear_all_caches_cancel_en {
+    constant = 'HEALTH_OVERVIEW_DETAILS_CLEAR_ALL_CACHES_CANCEL'
+    label = 'Cancel'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label health_overview_details_clear_all_caches_cancel_da {
+    constant = 'HEALTH_OVERVIEW_DETAILS_CLEAR_ALL_CACHES_CANCEL'
+    label = 'Annullér'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label health_overview_details_clear_all_caches_confirm_en {
+    constant = 'HEALTH_OVERVIEW_DETAILS_CLEAR_ALL_CACHES_CONFIRM'
+    label = 'Clear all caches'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label health_overview_details_clear_all_caches_confirm_da {
+    constant = 'HEALTH_OVERVIEW_DETAILS_CLEAR_ALL_CACHES_CONFIRM'
+    label = 'Ryd alle caches'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label health_overview_details_success_title_en {
+    constant = 'HEALTH_OVERVIEW_DETAILS_SUCCESS_TITLE'
+    label = 'Cleared'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label health_overview_details_success_title_da {
+    constant = 'HEALTH_OVERVIEW_DETAILS_SUCCESS_TITLE'
+    label = 'Ryddet'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label health_overview_details_clear_cache_success_body_en {
+    constant = 'HEALTH_OVERVIEW_DETAILS_CLEAR_CACHE_SUCCESS_BODY'
+    label = 'The cache was cleared'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label health_overview_details_clear_cache_success_body_da {
+    constant = 'HEALTH_OVERVIEW_DETAILS_CLEAR_CACHE_SUCCESS_BODY'
+    label = 'Cachen blev ryddet'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label health_overview_details_clear_cache_key_success_body_en {
+    constant = 'HEALTH_OVERVIEW_DETAILS_CLEAR_CACHE_KEY_SUCCESS_BODY'
+    label = 'The cache key was cleared'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label health_overview_details_clear_cache_key_success_body_da {
+    constant = 'HEALTH_OVERVIEW_DETAILS_CLEAR_CACHE_KEY_SUCCESS_BODY'
+    label = 'Cache-nøglen blev ryddet'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label health_overview_details_clear_all_caches_success_body_en {
+    constant = 'HEALTH_OVERVIEW_DETAILS_CLEAR_ALL_CACHES_SUCCESS_BODY'
+    label = 'All caches were cleared'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label health_overview_details_clear_all_caches_success_body_da {
+    constant = 'HEALTH_OVERVIEW_DETAILS_CLEAR_ALL_CACHES_SUCCESS_BODY'
+    label = 'Alle caches blev ryddet'
     language_id = data.language.danish.id
     folder_id = resource.language_label_folder.media_manager.folder_id
     version_id = resource.product.media_manager.base_version_id
@@ -478,17 +1006,17 @@ resource language_label rabbit_overview_queue_ack_da {
     version_id = resource.product.media_manager.base_version_id
 }
 
-resource language_label rabbit_overview_queue_action_en {
-    constant = 'RABBIT_OVERVIEW_QUEUE_ACTION'
-    label = 'Action'
+resource language_label rabbit_overview_queue_actions_en {
+    constant = 'RABBIT_OVERVIEW_QUEUE_ACTIONS'
+    label = 'Actions'
     language_id = data.language.english.id
     folder_id = resource.language_label_folder.media_manager.folder_id
     version_id = resource.product.media_manager.base_version_id
 }
 
-resource language_label rabbit_overview_queue_action_da {
-    constant = 'RABBIT_OVERVIEW_QUEUE_ACTION'
-    label = 'Handling'
+resource language_label rabbit_overview_queue_actions_da {
+    constant = 'RABBIT_OVERVIEW_QUEUE_ACTIONS'
+    label = 'Handlinger'
     language_id = data.language.danish.id
     folder_id = resource.language_label_folder.media_manager.folder_id
     version_id = resource.product.media_manager.base_version_id
@@ -560,7 +1088,7 @@ resource language_label rabbit_overview_filters_menu_filters_da {
 
 resource language_label rabbit_filter_title_en {
     constant = 'RABBIT_FILTER_TITLE'
-    label = 'Title'
+    label = 'Queue name'
     language_id = data.language.english.id
     folder_id = resource.language_label_folder.media_manager.folder_id
     version_id = resource.product.media_manager.base_version_id
@@ -568,7 +1096,23 @@ resource language_label rabbit_filter_title_en {
 
 resource language_label rabbit_filter_title_da {
     constant = 'RABBIT_FILTER_TITLE'
-    label = 'Titel'
+    label = 'Kø-navn'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label rabbit_filter_has_temp_queue_en {
+    constant = 'RABBIT_FILTER_HAS_TEMP_QUEUE'
+    label = 'Has temp queue'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label rabbit_filter_has_temp_queue_da {
+    constant = 'RABBIT_FILTER_HAS_TEMP_QUEUE'
+    label = 'Har midlertidig kø'
     language_id = data.language.danish.id
     folder_id = resource.language_label_folder.media_manager.folder_id
     version_id = resource.product.media_manager.base_version_id
@@ -576,7 +1120,7 @@ resource language_label rabbit_filter_title_da {
 
 resource language_label rabbit_filter_title_placeholder_en {
     constant = 'RABBIT_FILTER_TITLE_PLACEHOLDER'
-    label = 'Search by title'
+    label = 'Search by queue name'
     language_id = data.language.english.id
     folder_id = resource.language_label_folder.media_manager.folder_id
     version_id = resource.product.media_manager.base_version_id
@@ -584,7 +1128,7 @@ resource language_label rabbit_filter_title_placeholder_en {
 
 resource language_label rabbit_filter_title_placeholder_da {
     constant = 'RABBIT_FILTER_TITLE_PLACEHOLDER'
-    label = 'Søg efter titel'
+    label = 'Søg efter kø-navn'
     language_id = data.language.danish.id
     folder_id = resource.language_label_folder.media_manager.folder_id
     version_id = resource.product.media_manager.base_version_id
@@ -1408,7 +1952,7 @@ resource language_label rabbit_details_messages_get_messages_from_count_da {
 
 resource language_label rabbit_details_messages_get_messages_to_count_en {
     constant = 'RABBIT_DETAILS_MESSAGES_GET_MESSAGES_TO_COUNT'
-    label = 'To'
+    label = 'Count'
     language_id = data.language.english.id
     folder_id = resource.language_label_folder.media_manager.folder_id
     version_id = resource.product.media_manager.base_version_id
@@ -1416,7 +1960,7 @@ resource language_label rabbit_details_messages_get_messages_to_count_en {
 
 resource language_label rabbit_details_messages_get_messages_to_count_da {
     constant = 'RABBIT_DETAILS_MESSAGES_GET_MESSAGES_TO_COUNT'
-    label = 'Til'
+    label = 'Antal'
     language_id = data.language.danish.id
     folder_id = resource.language_label_folder.media_manager.folder_id
     version_id = resource.product.media_manager.base_version_id
@@ -1424,7 +1968,7 @@ resource language_label rabbit_details_messages_get_messages_to_count_da {
 
 resource language_label rabbit_details_messages_get_messages_first_less_or_equal_validation_en {
     constant = 'RABBIT_DETAILS_MESSAGES_GET_MESSAGES_FIRST_LESS_OR_EQUAL_VALIDATION'
-    label = 'The to count cannot be less or equal to the from count'
+    label = 'The count cannot be less or equal to the from count'
     language_id = data.language.english.id
     folder_id = resource.language_label_folder.media_manager.folder_id
     version_id = resource.product.media_manager.base_version_id
@@ -1432,7 +1976,23 @@ resource language_label rabbit_details_messages_get_messages_first_less_or_equal
 
 resource language_label rabbit_details_messages_get_messages_first_less_or_equal_validation_da {
     constant = 'RABBIT_DETAILS_MESSAGES_GET_MESSAGES_FIRST_LESS_OR_EQUAL_VALIDATION'
-    label = 'Til-antallet må ikke være mindre end, eller lig med, fra-antallet'
+    label = 'Antallet må ikke være mindre end, eller lig med, fra-antallet'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label rabbit_details_messages_get_messages_invalid_min_input_en {
+    constant = 'RABBIT_DETAILS_MESSAGES_GET_MESSAGES_INVALID_MIN_INPUT'
+    label = 'The value cannot be less than 0'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label rabbit_details_messages_get_messages_invalid_min_input_da {
+    constant = 'RABBIT_DETAILS_MESSAGES_GET_MESSAGES_INVALID_MIN_INPUT'
+    label = 'Værdien må ikke være mindre end 0'
     language_id = data.language.danish.id
     folder_id = resource.language_label_folder.media_manager.folder_id
     version_id = resource.product.media_manager.base_version_id
@@ -1712,7 +2272,7 @@ resource language_label rabbit_details_messages_move_messages_from_count_da {
 
 resource language_label rabbit_details_messages_move_messages_to_count_en {
     constant = 'RABBIT_DETAILS_MESSAGES_MOVE_MESSAGES_TO_COUNT'
-    label = 'To'
+    label = 'Count'
     language_id = data.language.english.id
     folder_id = resource.language_label_folder.media_manager.folder_id
     version_id = resource.product.media_manager.base_version_id
@@ -1720,7 +2280,7 @@ resource language_label rabbit_details_messages_move_messages_to_count_en {
 
 resource language_label rabbit_details_messages_move_messages_to_count_da {
     constant = 'RABBIT_DETAILS_MESSAGES_MOVE_MESSAGES_TO_COUNT'
-    label = 'Til'
+    label = 'Antal'
     language_id = data.language.danish.id
     folder_id = resource.language_label_folder.media_manager.folder_id
     version_id = resource.product.media_manager.base_version_id
@@ -1737,6 +2297,22 @@ resource language_label rabbit_details_messages_move_messages_first_less_or_equa
 resource language_label rabbit_details_messages_move_messages_first_less_or_equal_validation_da {
     constant = 'RABBIT_DETAILS_MESSAGES_MOVE_MESSAGES_FIRST_LESS_OR_EQUAL_VALIDATION'
     label = 'Til-antallet må ikke være mindre end, eller lig med, fra-antallet'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label rabbit_details_messages_move_messages_invalid_min_input_en {
+    constant = 'RABBIT_DETAILS_MESSAGES_MOVE_MESSAGES_INVALID_MIN_INPUT'
+    label = 'The value cannot be less than 0'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label rabbit_details_messages_move_messages_invalid_min_input_da {
+    constant = 'RABBIT_DETAILS_MESSAGES_MOVE_MESSAGES_INVALID_MIN_INPUT'
+    label = 'Værdien må ikke være mindre end 0'
     language_id = data.language.danish.id
     folder_id = resource.language_label_folder.media_manager.folder_id
     version_id = resource.product.media_manager.base_version_id
@@ -1840,7 +2416,7 @@ resource language_label rabbit_details_messages_move_messages_move_dialog_title_
 
 resource language_label rabbit_details_messages_move_messages_move_dialog_content_en {
     constant = 'RABBIT_DETAILS_MESSAGES_MOVE_MESSAGES_MOVE_DIALOG_CONTENT'
-    label = 'Are you sure that you want to move {count, cardinalPlural, one {1 message} other {{{count}} messages}} between {{from}} and {{to}}?'
+    label = 'Are you sure that you want to move the {{count}} {count, cardinalPlural, one {message} other {messages}} between {{from}} and {{to}}?'
     language_id = data.language.english.id
     folder_id = resource.language_label_folder.media_manager.folder_id
     version_id = resource.product.media_manager.base_version_id
@@ -1848,7 +2424,7 @@ resource language_label rabbit_details_messages_move_messages_move_dialog_conten
 
 resource language_label rabbit_details_messages_move_messages_move_dialog_content_da {
     constant = 'RABBIT_DETAILS_MESSAGES_MOVE_MESSAGES_MOVE_DIALOG_CONTENT'
-    label = 'Er du sikker på, at du vil flytte {count, cardinalPlural, one {1 besked} other {{{count}} beskeder}} mellem {{from}} og {{to}}?'
+    label = 'Er du sikker på, at du vil flytte {count, cardinalPlural, one {den ene besked} other {de {{count}} beskeder}} mellem {{from}} og {{to}}?'
     language_id = data.language.danish.id
     folder_id = resource.language_label_folder.media_manager.folder_id
     version_id = resource.product.media_manager.base_version_id

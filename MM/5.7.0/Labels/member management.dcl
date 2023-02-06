@@ -1,4 +1,4 @@
-resource language_label member_management_main_title_en {
+﻿resource language_label member_management_main_title_en {
     constant = 'MEMBER_MANAGEMENT_MAIN_TITLE'
     label = 'User management'
     language_id = data.language.english.id

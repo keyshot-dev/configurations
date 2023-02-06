@@ -1,3 +1,19 @@
+﻿resource language_label section_title_logs_en {
+    constant = 'SECTION_TITLE_LOGS'
+    label = 'Logs'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label section_title_logs_da {
+    constant = 'SECTION_TITLE_LOGS'
+    label = 'Logs'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
 resource language_label logs_logs_home_request_type_en {
     constant = 'LOGS_LOGS_HOME_REQUEST_TYPE'
     label = 'Request scope ({{type}})'

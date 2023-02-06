@@ -1022,6 +1022,22 @@ resource language_label asset_list_filter_menu_string_input_search_not_found_da 
     version_id = resource.product.media_manager.base_version_id
 }
 
+resource language_label asset_list_filter_menu_show_more_or_less_en {
+    constant = 'ASSET_LIST_FILTER_MENU_SHOW_MORE_OR_LESS'
+    label = '{showMore, select, true {Show top 10} false {Show more}}'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label asset_list_filter_menu_show_more_or_less_da {
+    constant = 'ASSET_LIST_FILTER_MENU_SHOW_MORE_OR_LESS'
+    label = '{showMore, select, true {Vis top-10} false {Vis flere}}'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
 resource language_label asset_list_filter_menu_string_search_en {
     constant = 'ASSET_LIST_FILTER_MENU_STRING_SEARCH'
     label = 'Search'

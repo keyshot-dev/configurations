@@ -1,4 +1,4 @@
-resource language_label workflow_task_delete_tooltip_en {
+﻿resource language_label workflow_task_delete_tooltip_en {
     constant = 'WORKFLOW_TASK_DELETE_TOOLTIP'
     label = 'Delete task'
     language_id = data.language.english.id
@@ -958,6 +958,22 @@ resource language_label workflow_task_list_detail_view_members_username_da {
     version_id = resource.product.media_manager.base_version_id
 }
 
+resource language_label workflow_task_list_detail_view_members_no_access_en {
+    constant = 'WORKFLOW_TASK_LIST_DETAIL_VIEW_MEMBERS_NO_ACCESS'
+    label = 'User details are not available due to your access level'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label workflow_task_list_detail_view_members_no_access_da {
+    constant = 'WORKFLOW_TASK_LIST_DETAIL_VIEW_MEMBERS_NO_ACCESS'
+    label = 'Brugeroplysninger er ikke tilgængelige på grund af dit adgangsniveau'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
 resource language_label workflow_task_list_detail_view_members_groups_en {
     constant = 'WORKFLOW_TASK_LIST_DETAIL_VIEW_MEMBERS_GROUPS'
     label = 'Groups'
@@ -1097,6 +1113,38 @@ resource language_label workflow_task_list_detail_view_assign_to_group_en {
 resource language_label workflow_task_list_detail_view_assign_to_group_da {
     constant = 'WORKFLOW_TASK_LIST_DETAIL_VIEW_ASSIGN_TO_GROUP'
     label = 'Tildelt gruppe'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label workflow_task_list_overylay_view_tasks_button_en {
+    constant = 'WORKFLOW_TASK_LIST_OVERYLAY_VIEW_TASKS_BUTTON'
+    label = 'View {{count}} {count, cardinalPlural, one {task} other {tasks}}'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label workflow_task_list_overylay_view_tasks_button_da {
+    constant = 'WORKFLOW_TASK_LIST_OVERYLAY_VIEW_TASKS_BUTTON'
+    label = 'Vis {{count}} {count, cardinalPlural, one {opgave} other {opgaver}}'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label workflow_task_list_overylay_clear_tasks_button_en {
+    constant = 'WORKFLOW_TASK_LIST_OVERYLAY_CLEAR_TASKS_BUTTON'
+    label = 'Clear filters'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label workflow_task_list_overylay_clear_tasks_button_da {
+    constant = 'WORKFLOW_TASK_LIST_OVERYLAY_CLEAR_TASKS_BUTTON'
+    label = 'Ryd filtre'
     language_id = data.language.danish.id
     folder_id = resource.language_label_folder.media_manager.folder_id
     version_id = resource.product.media_manager.base_version_id

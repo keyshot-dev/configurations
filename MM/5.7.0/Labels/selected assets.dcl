@@ -1,4 +1,4 @@
-resource language_label selected_assets_overlay_metadata_download_field_selector_download_metadata_en {
+﻿resource language_label selected_assets_overlay_metadata_download_field_selector_download_metadata_en {
     constant = 'SELECTED_ASSETS_OVERLAY_METADATA_DOWNLOAD_FIELD_SELECTOR_DOWNLOAD_METADATA'
     label = '{metadata, select, true {{files, select, true {Download assets and metadata} false {Download metadata}}} false {Download assets}}'
     language_id = data.language.english.id
@@ -505,6 +505,22 @@ resource language_label selected_assets_overlay_metadata_download_no_quality_too
 resource language_label selected_assets_overlay_metadata_download_no_quality_tooltip_da {
     constant = 'SELECTED_ASSETS_OVERLAY_METADATA_DOWNLOAD_NO_QUALITY_TOOLTIP'
     label = 'Ingen kvaliteter tilgængelige til download'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label selected_assets_overlay_locked_assets_tooltip_en {
+    constant = 'SELECTED_ASSETS_OVERLAY_LOCKED_ASSETS_TOOLTIP'
+    label = 'Some assets in this selection are checked out'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label selected_assets_overlay_locked_assets_tooltip_da {
+    constant = 'SELECTED_ASSETS_OVERLAY_LOCKED_ASSETS_TOOLTIP'
+    label = 'Nogle af dine valgte assets er checket ud'
     language_id = data.language.danish.id
     folder_id = resource.language_label_folder.media_manager.folder_id
     version_id = resource.product.media_manager.base_version_id

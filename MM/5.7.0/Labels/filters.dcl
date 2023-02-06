@@ -1,4 +1,4 @@
-resource language_label asset_list_toggle_filters_button_en {
+﻿resource language_label asset_list_toggle_filters_button_en {
     constant = 'ASSET_LIST_TOGGLE_FILTERS_BUTTON'
     label = '{displayed, select, true {hide} false {show}} filters'
     language_id = data.language.english.id
@@ -30,17 +30,17 @@ resource language_label asset_list_filters_filters_da {
     version_id = resource.product.media_manager.base_version_id
 }
 
-resource language_label asset_list_filters_apply_filters_en {
-    constant = 'ASSET_LIST_FILTERS_APPLY_FILTERS'
-    label = 'Apply filters'
+resource language_label asset_list_filters_edit_filters_en {
+    constant = 'ASSET_LIST_FILTERS_EDIT_FILTERS'
+    label = 'Edit filters'
     language_id = data.language.english.id
     folder_id = resource.language_label_folder.media_manager.folder_id
     version_id = resource.product.media_manager.base_version_id
 }
 
-resource language_label asset_list_filters_apply_filters_da {
-    constant = 'ASSET_LIST_FILTERS_APPLY_FILTERS'
-    label = 'Anvend filtre'
+resource language_label asset_list_filters_edit_filters_da {
+    constant = 'ASSET_LIST_FILTERS_EDIT_FILTERS'
+    label = 'Rediger filtre'
     language_id = data.language.danish.id
     folder_id = resource.language_label_folder.media_manager.folder_id
     version_id = resource.product.media_manager.base_version_id
@@ -142,6 +142,38 @@ resource language_label asset_list_filters_configuration_sort_da {
     version_id = resource.product.media_manager.base_version_id
 }
 
+resource language_label asset_list_filters_calendar_direction_en {
+    constant = 'ASSET_LIST_FILTERS_CALENDAR_DIRECTION'
+    label = 'Calendar direction'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label asset_list_filters_calendar_direction_da {
+    constant = 'ASSET_LIST_FILTERS_CALENDAR_DIRECTION'
+    label = 'Kalender retning'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label asset_list_filters_calendar_direction_options_en {
+    constant = 'ASSET_LIST_FILTERS_CALENDAR_DIRECTION_OPTIONS'
+    label = '{direction, select, forward {Forward} backward {Backward}}'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label asset_list_filters_calendar_direction_options_da {
+    constant = 'ASSET_LIST_FILTERS_CALENDAR_DIRECTION_OPTIONS'
+    label = '{direction, select, forward {Fremad} backward {Tilbage}}'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
 resource language_label asset_list_filters_search_in_sub_folders_en {
     constant = 'ASSET_LIST_FILTERS_SEARCH_IN_SUB_FOLDERS'
     label = 'Search in sub folders'
@@ -238,6 +270,38 @@ resource language_label asset_list_filters_comparison_operator_da {
     version_id = resource.product.media_manager.base_version_id
 }
 
+resource language_label asset_list_filters_default_facet_count_en {
+    constant = 'ASSET_LIST_FILTERS_DEFAULT_FACET_COUNT'
+    label = 'Default'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label asset_list_filters_default_facet_count_da {
+    constant = 'ASSET_LIST_FILTERS_DEFAULT_FACET_COUNT'
+    label = 'Standard'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label asset_list_filters_default_facet_count_menu_en {
+    constant = 'ASSET_LIST_FILTERS_DEFAULT_FACET_COUNT_MENU'
+    label = 'Number of values'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label asset_list_filters_default_facet_count_menu_da {
+    constant = 'ASSET_LIST_FILTERS_DEFAULT_FACET_COUNT_MENU'
+    label = 'Antal værdier'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
 resource language_label asset_list_filters_configuration_tooltip_en {
     constant = 'ASSET_LIST_FILTERS_CONFIGURATION_TOOLTIP'
     label = 'Customize and reorder'
@@ -281,6 +345,22 @@ resource language_label asset_list_filters_configuration_more_tooltip_en {
 resource language_label asset_list_filters_configuration_more_tooltip_da {
     constant = 'ASSET_LIST_FILTERS_CONFIGURATION_MORE_TOOLTIP'
     label = 'Mere'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label asset_list_filters_configuration_default_icon_tooltip_en {
+    constant = 'ASSET_LIST_FILTERS_CONFIGURATION_DEFAULT_ICON_TOOLTIP'
+    label = 'Default filter'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label asset_list_filters_configuration_default_icon_tooltip_da {
+    constant = 'ASSET_LIST_FILTERS_CONFIGURATION_DEFAULT_ICON_TOOLTIP'
+    label = 'Standardfiltre'
     language_id = data.language.danish.id
     folder_id = resource.language_label_folder.media_manager.folder_id
     version_id = resource.product.media_manager.base_version_id

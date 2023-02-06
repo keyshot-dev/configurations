@@ -1,4 +1,4 @@
-resource language_label settings_brand_portal_logo_title_en {
+﻿resource language_label settings_brand_portal_logo_title_en {
     constant = 'SETTINGS_BRAND_PORTAL_LOGO_TITLE'
     label = 'Logo'
     language_id = data.language.english.id
@@ -1832,7 +1832,7 @@ resource language_label brand_portal_edit_layout_apply_styles_option_inherit_en 
 
 resource language_label brand_portal_edit_layout_apply_styles_option_inherit_da {
     constant = 'BRAND_PORTAL_EDIT_LAYOUT_APPLY_STYLES_OPTION_INHERIT'
-    label = 'Nedarve style'
+    label = 'Nedarv style'
     language_id = data.language.danish.id
     folder_id = resource.language_label_folder.media_manager.folder_id
     version_id = resource.product.media_manager.base_version_id

@@ -1,4 +1,4 @@
-resource language_label inputs_tree_input_options_en {
+﻿resource language_label inputs_tree_input_options_en {
     constant = 'INPUTS_TREE_INPUT_OPTIONS'
     label = 'Options...'
     language_id = data.language.english.id
@@ -368,7 +368,7 @@ resource language_label inputs_bit_disabled_da {
 
 resource language_label inputs_bit_input_value_text_en {
     constant = 'INPUTS_BIT_INPUT_VALUE_TEXT'
-    label = ''
+    label = '{value, select, true {yes} false {no}}'
     language_id = data.language.english.id
     folder_id = resource.language_label_folder.media_manager.folder_id
     version_id = resource.product.media_manager.base_version_id
@@ -376,7 +376,7 @@ resource language_label inputs_bit_input_value_text_en {
 
 resource language_label inputs_bit_input_value_text_da {
     constant = 'INPUTS_BIT_INPUT_VALUE_TEXT'
-    label = ''
+    label = '{value, select, true {ja} false {nej}}'
     language_id = data.language.danish.id
     folder_id = resource.language_label_folder.media_manager.folder_id
     version_id = resource.product.media_manager.base_version_id
