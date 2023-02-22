@@ -161,15 +161,6 @@ resource digizuite_config member_group_metafieldgroupid {
 	}
 }
 
-resource digizuite_config site_base_url {
-    constant = 'SITE_BASE_URL'
-    config_value = "${variable.dam_center_url}"
-    description = 'Base URL til Digizuite Backend'
-	autolink {
-		constant = 'SITE_BASE_URL'
-	}
-}
-
 resource digizuite_config workarea_local_folder {
     constant = 'WORKAREA_LOCAL_FOLDER'
     config_value = "${variable.storage_path}\\dmm\\Workarea"
@@ -185,15 +176,6 @@ resource digizuite_config enable_autoasterisk_prepost_fulltextindexing {
     description = '0=Disabled, 1=Enabled'
 	autolink {
 		constant = 'ENABLE_AUTOASTERISK_PREPOST_FULLTEXTINDEXING'
-	}
-}
-
-resource digizuite_config site_installpath {
-    constant = 'SITE_INSTALLPATH'
-    config_value = "${variable.dam_center_install_path}"
-    description = 'Location of DMM3 Backend on webserver'
-	autolink {
-		constant = 'SITE_INSTALLPATH'
 	}
 }
 
