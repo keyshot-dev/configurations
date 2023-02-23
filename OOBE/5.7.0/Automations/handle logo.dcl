@@ -20,18 +20,12 @@ trigger "Asset uploaded" {
 	type = "Location State Changed"
 	resolves = ["Set Is logo to true","Move to logo channel folder 2"]
 	new_location_state = "online"
-}
-
-filter "If upload computer is logo uploader" {
-	type = "Upload Computer Filter"
-	asset_id = "@sourceAssetId"
-	expected_upload_computer = "Digizuite Media Manager logo"
-	negate = "false"
+	upload_computer = "Digizuite Media Manager logo"
 }
 
 action "Set Is logo to true" {
 	type = "Set Bit Metafield"
-	needs = "If upload computer is logo uploader"
+	needs = []
 	meta_field = "guid:${to_string(data.bit_metafield.is_logo.item_guid)}"
 	new_value = "true"
 	asset_item_ids = "@sourceAssetItemId"
@@ -40,7 +34,7 @@ action "Set Is logo to true" {
 
 action "Move to logo channel folder 2" {
 	type = "Move Asset To Folder"
-	needs = "If upload computer is logo uploader"
+	needs = []
 	asset_item_id = "@sourceAssetItemId"
 	folder = "10,${to_string(data.channel_folder.logo.channel_folder_id)}"
 }'

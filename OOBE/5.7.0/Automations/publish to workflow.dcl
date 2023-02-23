@@ -55,12 +55,7 @@ trigger "Location State Changed" {
 	type = "Location State Changed"
 	resolves = "ForEach"
 	new_location_state = "online"
-}
-
-filter "NOT Replaced Asset" {
-	type = "Is Replaced Asset"
-	asset_id = "@sourceAssetId"
-	negate = "true"
+	ignore_replaced_assets = "true"
 }
 
 filter "Retrieve metadata value for Published to" {
@@ -69,7 +64,7 @@ filter "Retrieve metadata value for Published to" {
 	meta_field = "guid:${to_string(resource.tree_metafield.published_to.item_guid)}"
 	value = "@PublishToChannels"
 	negate = "false"
-	needs = "NOT Replaced Asset"
+	needs = []
 }
 
 foreach "ForEach" {

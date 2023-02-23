@@ -47,18 +47,12 @@ trigger "Asset uploaded" {
 	type = "Location State Changed"
 	resolves = ["Set Bit Metafield","Move asset to Splash screen channel folder 2","Move asset to Splash screen catalog video folder 2","Move asset to Splash screen catalog image folder 2"]
 	new_location_state = "online"
-}
-
-filter "If uploaded by splash screen" {
-	type = "Upload Computer Filter"
-	asset_id = "@sourceAssetId"
-	expected_upload_computer = "Digizuite Media Manager splashscreen"
-	negate = "false"
+	upload_computer = "Digizuite Media Manager splashscreen"
 }
 
 action "Set Bit Metafield" {
 	type = "Set Bit Metafield"
-	needs = "If uploaded by splash screen"
+	needs = []
 	meta_field = "guid:${to_string(data.bit_metafield.is_intro_material.item_guid)}"
 	new_value = "true"
 	asset_item_ids = "@sourceAssetItemId"
@@ -67,14 +61,14 @@ action "Set Bit Metafield" {
 
 action "Move asset to Splash screen channel folder 2" {
 	type = "Move Asset To Folder"
-	needs = "If uploaded by splash screen"
+	needs = []
 	asset_item_id = "@sourceAssetItemId"
 	folder = "10,${to_string(data.channel_folder.splashscreen.channel_folder_id)}"
 }
 
 filter "If video 2" {
 	type = "Asset type filter"
-	needs = "If uploaded by splash screen"
+	needs = []
 	asset_type = "video"
 	asset_id = "@sourceAssetId"
 	negate = "false"
