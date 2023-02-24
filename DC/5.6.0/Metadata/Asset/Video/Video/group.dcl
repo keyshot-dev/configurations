@@ -10,6 +10,12 @@
     }
 }
 
+resource metafield_group_label video {
+    metafield_group_id = data.metafield_group.video.metafield_group_id
+    language_id = data.language.english.id
+    label = 'Video'
+}
+
 resource item_security video__anonymous {
     accessor_item_id = resource.member_group.anonymous.item_id
     item_id = resource.metafield_group.video.item_id

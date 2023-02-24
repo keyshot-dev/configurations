@@ -8,6 +8,12 @@ resource metafield_group copyright_notification {
     }
 }
 
+resource metafield_group_label copyright_notification {
+    metafield_group_id = data.metafield_group.copyright_notification.metafield_group_id
+    language_id = data.language.english.id
+    label = 'Copyright Notification'
+}
+
 resource item_security copyright_notification__anonymous {
     accessor_item_id = data.member_group.anonymous.item_id
     item_id = resource.metafield_group.copyright_notification.item_id

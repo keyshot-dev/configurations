@@ -8,6 +8,12 @@ resource metafield_group asset__product__media_manager {
     }
 }
 
+resource metafield_group_label asset__product__media_manager {
+    metafield_group_id = data.metafield_group.asset__product__media_manager.metafield_group_id
+    language_id = data.language.english.id
+    label = 'Media Manager'
+}
+
 resource item_security asset__product__media_manager__anonymous {
     accessor_item_id = data.member_group.anonymous.item_id
     item_id = resource.metafield_group.asset__product__media_manager.item_id

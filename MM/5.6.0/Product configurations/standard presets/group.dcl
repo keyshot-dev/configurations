@@ -9,6 +9,11 @@ resource metafield_group standard_presets {
     }
 }
 
+resource metafield_group_label standard_presets {
+    metafield_group_id = data.metafield_group.standard_presets.metafield_group_id
+    language_id = data.language.english.id
+    label = 'Standard Presets'
+}
 
 resource item_security standard_presets__anonymous {
     accessor_item_id = data.member_group.anonymous.item_id
