@@ -282,7 +282,7 @@ resource member_group super_administrator {
         }, {
             constant = 'Collection_can_share_link'
         }, {
-            constant = 'Can_Email_Crop'
+            constant = 'Can_crop_email'
         }, {
             constant = 'Can_publish'
         }]
