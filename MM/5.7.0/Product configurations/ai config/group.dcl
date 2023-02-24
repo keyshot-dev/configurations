@@ -8,6 +8,12 @@ resource metafield_group ai_config {
     }
 }
 
+resource metafield_group_label ai_config {
+    metafield_group_id = resource.metafield_group.ai_config.metafield_group_id
+    language_id = data.language.english.id
+    label = 'AI Config'
+}
+
 resource item_security ai_config__anonymous {
     accessor_item_id = data.member_group.anonymous.item_id
     item_id = resource.metafield_group.ai_config.item_id

@@ -7,6 +7,12 @@
     parent_group_id = resource.metafield_group.mobile_config.metafield_group_id
 }
 
+resource metafield_group_label meta_tags {
+    metafield_group_id = resource.metafield_group.meta_tags.metafield_group_id
+    language_id = data.language.english.id
+    label = 'Meta Tags'
+}
+
 resource item_security metafield_group_meta_tags__anonymous {
     accessor_item_id = data.member_group.anonymous.item_id
     item_id = resource.metafield_group.meta_tags.item_id

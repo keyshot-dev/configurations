@@ -9,6 +9,12 @@ resource metafield_group options_50028 {
     parent_group_id = data.metafield_group.asset_info.metafield_group_id
 }
 
+resource metafield_group_label options_51414 {
+    metafield_group_id = resource.metafield_group.options_50028.metafield_group_id
+    language_id = data.language.english.id
+    label = 'Options'
+}
+
 resource note_metafield options_message {
     item_guid = 'd658fe27-dbb2-415a-9771-f6781fd65f66'
     autolink = {

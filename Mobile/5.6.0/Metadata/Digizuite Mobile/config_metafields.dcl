@@ -764,6 +764,13 @@ resource combovalue_metafield media_manager_access_level_50353 {
     iterative = false
 }
 
+resource metafield_label media_manager_access_level_51578 {
+    metafield_id = resource.combovalue_metafield.media_manager_access_level_50353.metafield_id
+    language_id = data.language.english.id
+    label = 'Media Manager access level'
+    description = ''
+}
+
 resource metafield_label intro_screen_background__image_51710 {
     metafield_id = resource.masteritem_reference_metafield.splash_screen_image_50511.metafield_id
     language_id = data.language.english.id
@@ -1752,6 +1759,13 @@ resource multicombovalue_metafield availability_50352 {
     restrict_to_asset_type = 'All'
     upload_tag_name = ''
     iterative = false
+}
+
+resource metafield_label availability_51579 {
+    metafield_id = resource.multicombovalue_metafield.availability_50352.metafield_id
+    language_id = data.language.english.id
+    label = 'Availability'
+    description = ''
 }
 
 resource item_security masteritem_reference_metafield_user_for_social_sharing_50540__trusted_15 {

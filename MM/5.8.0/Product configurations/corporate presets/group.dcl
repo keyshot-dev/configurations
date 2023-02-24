@@ -9,7 +9,11 @@ resource metafield_group corporate_presets {
     }
 }
 
-
+resource metafield_group_label corporate_presets {
+    metafield_group_id = resource.metafield_group.corporate_presets.metafield_group_id
+    language_id = data.language.english.id
+    label = 'Corporate Presets'
+}
 
 resource item_security corporate_presets__anonymous {
     accessor_item_id = data.member_group.anonymous.item_id
