@@ -17,11 +17,3 @@ resource damcatalog_folder content {
     name = 'Content'
     parent_id = 0
 }
-
-resource item_security id_5580_4926 {
-    accessor_item_id = resource.member_group.trusted.item_id
-    item_id = resource.damcatalog_folder.uploads.item_id
-    read = true
-    write = true
-}
-
