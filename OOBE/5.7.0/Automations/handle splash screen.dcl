@@ -83,7 +83,7 @@ action "Move asset to Splash screen catalog video folder 2" {
 
 filter "If not video 2" {
 	type = "Asset type filter"
-	needs = "If uploaded by splash screen"
+	needs = []
 	asset_type = "video"
 	asset_id = "@sourceAssetId"
 	negate = "true"
