@@ -10,7 +10,7 @@ resource metafield_group standard_presets {
 }
 
 resource metafield_group_label standard_presets {
-    metafield_group_id = data.metafield_group.standard_presets.metafield_group_id
+    metafield_group_id = resource.metafield_group.standard_presets.metafield_group_id
     language_id = data.language.english.id
     label = 'Standard Presets'
 }

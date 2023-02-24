@@ -9,7 +9,7 @@ resource metafield_group ai_config {
 }
 
 resource metafield_group_label ai_config {
-    metafield_group_id = data.metafield_group.ai_config.metafield_group_id
+    metafield_group_id = resource.metafield_group.ai_config.metafield_group_id
     language_id = data.language.english.id
     label = 'AI Config'
 }

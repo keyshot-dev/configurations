@@ -11,8 +11,8 @@
 }
 
 resource metafield_group_label video {
-    metafield_group_id = data.metafield_group.video.metafield_group_id
-    language_id = data.language.english.id
+    metafield_group_id = resource.metafield_group.video.metafield_group_id
+    language_id = resource.language.english.id
     label = 'Video'
 }
 

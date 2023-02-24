@@ -10,7 +10,7 @@ resource metafield_group corporate_presets {
 }
 
 resource metafield_group_label corporate_presets {
-    metafield_group_id = data.metafield_group.corporate_presets.metafield_group_id
+    metafield_group_id = resource.metafield_group.corporate_presets.metafield_group_id
     language_id = data.language.english.id
     label = 'Corporate Presets'
 }

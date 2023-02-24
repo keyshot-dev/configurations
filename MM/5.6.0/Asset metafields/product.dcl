@@ -9,7 +9,7 @@ resource metafield_group asset__product__media_manager {
 }
 
 resource metafield_group_label asset__product__media_manager {
-    metafield_group_id = data.metafield_group.asset__product__media_manager.metafield_group_id
+    metafield_group_id = resource.metafield_group.asset__product__media_manager.metafield_group_id
     language_id = data.language.english.id
     label = 'Media Manager'
 }

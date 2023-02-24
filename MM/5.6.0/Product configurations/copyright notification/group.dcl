@@ -9,7 +9,7 @@ resource metafield_group copyright_notification {
 }
 
 resource metafield_group_label copyright_notification {
-    metafield_group_id = data.metafield_group.copyright_notification.metafield_group_id
+    metafield_group_id = resource.metafield_group.copyright_notification.metafield_group_id
     language_id = data.language.english.id
     label = 'Copyright Notification'
 }
