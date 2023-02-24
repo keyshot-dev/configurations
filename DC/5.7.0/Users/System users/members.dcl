@@ -38,6 +38,8 @@ resource member system {
             constant = 'Uploader_ShowFolderSelector'
         }, {
             constant = 'Editor_SystemTools_PlayerTemplate'
+        }, {
+            constant = 'Can_publish'
         }]
     autolink = {
         item_guid = 'a04cad8f-ea2f-438d-8003-ce4e54d25985'
