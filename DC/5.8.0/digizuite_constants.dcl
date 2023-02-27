@@ -485,3 +485,12 @@ resource digizuite_config download_destination_id {
         constant = 'DOWNLOADDESTINATIONID'
     }
 }
+
+resource digizuite_config DOWNLOAD_NAME_REPLACE_MASK_FALLBACK {
+    constant = 'DOWNLOAD_NAME_REPLACE_MASK_FALLBACK'
+    config_value = '[%AssetId%]_[%MediaFormatId%]'
+    description = 'Replace mask fallback for Download name'
+	autolink {
+		constant = 'DOWNLOAD_NAME_REPLACE_MASK_FALLBACK'
+	}
+}
