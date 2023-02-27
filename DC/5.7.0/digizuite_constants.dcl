@@ -504,7 +504,7 @@ resource digizuite_config download_destination_id {
     }
 }
 
-resource digizuite_config DOWNLOAD_NAME_REPLACE_MASK_FALLBACK {
+resource digizuite_config download_name_replace_mask_fallback {
     constant = 'DOWNLOAD_NAME_REPLACE_MASK_FALLBACK'
     config_value = '[%AssetId%]_[%MediaFormatId%]'
     description = 'Replace mask fallback for Download name'
