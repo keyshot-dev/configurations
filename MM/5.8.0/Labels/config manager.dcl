@@ -1,656 +1,1136 @@
-﻿resource language_label section_title_config_manager_en {
-    constant = 'SECTION_TITLE_CONFIG_MANAGER'
-    label = 'ConfigManager'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label section_title_config_manager_da {
-    constant = 'SECTION_TITLE_CONFIG_MANAGER'
-    label = 'ConfigManager'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label config_manager_tab_mail_templates_en {
-    constant = 'CONFIG_MANAGER_TAB_MAIL_TEMPLATES'
-    label = 'Mail templates'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label config_manager_tab_mail_templates_da {
-    constant = 'CONFIG_MANAGER_TAB_MAIL_TEMPLATES'
-    label = 'Mailskabeloner'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label mail_template_settings_select_existing_en {
-    constant = 'MAIL_TEMPLATE_SETTINGS_SELECT_EXISTING'
-    label = 'Select existing template'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label mail_template_settings_select_existing_da {
-    constant = 'MAIL_TEMPLATE_SETTINGS_SELECT_EXISTING'
-    label = 'Vælg eksisterende skabelon'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label mail_template_settings_template_language_en {
-    constant = 'MAIL_TEMPLATE_SETTINGS_TEMPLATE_LANGUAGE'
-    label = 'Template language'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label mail_template_settings_template_language_da {
-    constant = 'MAIL_TEMPLATE_SETTINGS_TEMPLATE_LANGUAGE'
-    label = 'Skabelonssprog'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label mail_template_settings_template_name_en {
-    constant = 'MAIL_TEMPLATE_SETTINGS_TEMPLATE_NAME'
-    label = 'Template name'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label mail_template_settings_template_name_da {
-    constant = 'MAIL_TEMPLATE_SETTINGS_TEMPLATE_NAME'
-    label = 'Skabelonsnavn'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label mail_template_settings_template_subject_en {
-    constant = 'MAIL_TEMPLATE_SETTINGS_TEMPLATE_SUBJECT'
-    label = 'Subject'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label mail_template_settings_template_subject_da {
-    constant = 'MAIL_TEMPLATE_SETTINGS_TEMPLATE_SUBJECT'
-    label = 'Emne'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label mail_template_settings_template_body_en {
-    constant = 'MAIL_TEMPLATE_SETTINGS_TEMPLATE_BODY'
-    label = 'Body'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label mail_template_settings_template_body_da {
-    constant = 'MAIL_TEMPLATE_SETTINGS_TEMPLATE_BODY'
-    label = 'Meddelelse'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label mail_template_settings_delete_en {
-    constant = 'MAIL_TEMPLATE_SETTINGS_DELETE'
-    label = '{deleting, select, true {Deleting...} false {Delete}}'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label mail_template_settings_delete_da {
-    constant = 'MAIL_TEMPLATE_SETTINGS_DELETE'
-    label = '{deleting, select, true {Sletter...} false {Slet}}'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label mail_template_settings_update_en {
-    constant = 'MAIL_TEMPLATE_SETTINGS_UPDATE'
-    label = '{updating, select, true {Updating...} false {Update}}'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label mail_template_settings_update_da {
-    constant = 'MAIL_TEMPLATE_SETTINGS_UPDATE'
-    label = '{updating, select, true {Opdaterer...} false {Opdater}}'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label mail_template_settings_create_new_en {
-    constant = 'MAIL_TEMPLATE_SETTINGS_CREATE_NEW'
-    label = '{creatingNew, select, true {Creating new...} false {Create new}}'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label mail_template_settings_create_new_da {
-    constant = 'MAIL_TEMPLATE_SETTINGS_CREATE_NEW'
-    label = '{creatingNew, select, true {Gemmer ny...} false {Gem ny}}'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label mail_template_settings_no_product_version_selected_en {
-    constant = 'MAIL_TEMPLATE_SETTINGS_NO_PRODUCT_VERSION_SELECTED'
-    label = 'Please select a product version'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label mail_template_settings_no_product_version_selected_da {
-    constant = 'MAIL_TEMPLATE_SETTINGS_NO_PRODUCT_VERSION_SELECTED'
-    label = 'Vælg venligst en produktversion'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label mail_template_settings_confirm_delete_title_en {
-    constant = 'MAIL_TEMPLATE_SETTINGS_CONFIRM_DELETE_TITLE'
-    label = 'Confirm deletion'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label mail_template_settings_confirm_delete_title_da {
-    constant = 'MAIL_TEMPLATE_SETTINGS_CONFIRM_DELETE_TITLE'
-    label = 'Bekræft sletning'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label mail_template_settings_confirm_delete_body_en {
-    constant = 'MAIL_TEMPLATE_SETTINGS_CONFIRM_DELETE_BODY'
-    label = 'Are you sure you want to delete the \'{{name}}\' mail template?'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label mail_template_settings_confirm_delete_body_da {
-    constant = 'MAIL_TEMPLATE_SETTINGS_CONFIRM_DELETE_BODY'
-    label = 'Er du sikker på at du vil slette mailskabelonen \'{{name}}\'?'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label mail_template_settings_confirm_delete_delete_en {
-    constant = 'MAIL_TEMPLATE_SETTINGS_CONFIRM_DELETE_DELETE'
-    label = 'Delete'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label mail_template_settings_confirm_delete_delete_da {
-    constant = 'MAIL_TEMPLATE_SETTINGS_CONFIRM_DELETE_DELETE'
-    label = 'Slet'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label mail_template_settings_confirm_delete_cancel_en {
-    constant = 'MAIL_TEMPLATE_SETTINGS_CONFIRM_DELETE_CANCEL'
-    label = 'Cancel'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label mail_template_settings_confirm_delete_cancel_da {
-    constant = 'MAIL_TEMPLATE_SETTINGS_CONFIRM_DELETE_CANCEL'
-    label = 'Annullér'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label config_manager_no_products_found_en {
-    constant = 'CONFIG_MANAGER_NO_PRODUCTS_FOUND'
-    label = 'No products were found'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label config_manager_no_products_found_da {
-    constant = 'CONFIG_MANAGER_NO_PRODUCTS_FOUND'
-    label = 'Ingen produkter blev fundet'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label mail_template_settings_request_failed_title_en {
-    constant = 'MAIL_TEMPLATE_SETTINGS_REQUEST_FAILED_TITLE'
-    label = 'Error'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label mail_template_settings_request_failed_title_da {
-    constant = 'MAIL_TEMPLATE_SETTINGS_REQUEST_FAILED_TITLE'
-    label = 'Fejl'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label mail_template_settings_request_failed_body_en {
-    constant = 'MAIL_TEMPLATE_SETTINGS_REQUEST_FAILED_BODY'
-    label = 'An error occurred. This might be caused by an invalid template.'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label mail_template_settings_request_failed_body_da {
-    constant = 'MAIL_TEMPLATE_SETTINGS_REQUEST_FAILED_BODY'
-    label = 'En fejl opstod. Dette kan skyldes, at skabelonsindholdet ikke er gyldigt.'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label mail_template_settings_load_error_en {
-    constant = 'MAIL_TEMPLATE_SETTINGS_LOAD_ERROR'
-    label = 'An error occurred while loading the mail templates.'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label mail_template_settings_load_error_da {
-    constant = 'MAIL_TEMPLATE_SETTINGS_LOAD_ERROR'
-    label = 'Mailskabelonerne kunne ikke hentes.'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label mail_template_settings_inherited_from_en {
-    constant = 'MAIL_TEMPLATE_SETTINGS_INHERITED_FROM'
-    label = 'inherited from'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label mail_template_settings_inherited_from_da {
-    constant = 'MAIL_TEMPLATE_SETTINGS_INHERITED_FROM'
-    label = 'nedarvet fra'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label config_manager_mail_template_docs_loading_docs_en {
-    constant = 'CONFIG_MANAGER_MAIL_TEMPLATE_DOCS_LOADING_DOCS'
-    label = 'Loading docs...'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label config_manager_mail_template_docs_loading_docs_da {
-    constant = 'CONFIG_MANAGER_MAIL_TEMPLATE_DOCS_LOADING_DOCS'
-    label = 'Indlæser dokumentation...'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label config_manager_mail_template_docs_options_en {
-    constant = 'CONFIG_MANAGER_MAIL_TEMPLATE_DOCS_OPTIONS'
-    label = 'Options'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label config_manager_mail_template_docs_options_da {
-    constant = 'CONFIG_MANAGER_MAIL_TEMPLATE_DOCS_OPTIONS'
-    label = 'Valgmuligheder'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label config_manager_mail_template_docs_list_type_en {
-    constant = 'CONFIG_MANAGER_MAIL_TEMPLATE_DOCS_LIST_TYPE'
-    label = 'List<{{ typeName }}>'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label config_manager_mail_template_docs_list_type_da {
-    constant = 'CONFIG_MANAGER_MAIL_TEMPLATE_DOCS_LIST_TYPE'
-    label = 'Liste<{{ typeName }}>'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label config_manager_mail_template_docs_properties_en {
-    constant = 'CONFIG_MANAGER_MAIL_TEMPLATE_DOCS_PROPERTIES'
-    label = 'Properties'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label config_manager_mail_template_docs_properties_da {
-    constant = 'CONFIG_MANAGER_MAIL_TEMPLATE_DOCS_PROPERTIES'
-    label = 'Egenskaber'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label config_manager_mail_template_docs_type_documentation_en {
-    constant = 'CONFIG_MANAGER_MAIL_TEMPLATE_DOCS_TYPE_DOCUMENTATION'
-    label = 'Type documentation'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label config_manager_mail_template_docs_type_documentation_da {
-    constant = 'CONFIG_MANAGER_MAIL_TEMPLATE_DOCS_TYPE_DOCUMENTATION'
-    label = 'Type-dokumentation'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label config_manager_mail_template_docs_function_documentation_en {
-    constant = 'CONFIG_MANAGER_MAIL_TEMPLATE_DOCS_FUNCTION_DOCUMENTATION'
-    label = 'Function documentation'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label config_manager_mail_template_docs_function_documentation_da {
-    constant = 'CONFIG_MANAGER_MAIL_TEMPLATE_DOCS_FUNCTION_DOCUMENTATION'
-    label = 'Funktions-dokumentation'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label config_manager_mail_template_docs_sample_calling_functions_en {
-    constant = 'CONFIG_MANAGER_MAIL_TEMPLATE_DOCS_SAMPLE_CALLING_FUNCTIONS'
-    label = 'Calling functions'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label config_manager_mail_template_docs_sample_calling_functions_da {
-    constant = 'CONFIG_MANAGER_MAIL_TEMPLATE_DOCS_SAMPLE_CALLING_FUNCTIONS'
-    label = 'Kald af funktioner'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label config_manager_mail_template_docs_sample_variable_assignment_en {
-    constant = 'CONFIG_MANAGER_MAIL_TEMPLATE_DOCS_SAMPLE_VARIABLE_ASSIGNMENT'
-    label = 'Variable assignment'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label config_manager_mail_template_docs_sample_variable_assignment_da {
-    constant = 'CONFIG_MANAGER_MAIL_TEMPLATE_DOCS_SAMPLE_VARIABLE_ASSIGNMENT'
-    label = 'Værdisætning af variabler'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label config_manager_mail_template_docs_sample_if_statements_en {
-    constant = 'CONFIG_MANAGER_MAIL_TEMPLATE_DOCS_SAMPLE_IF_STATEMENTS'
-    label = 'If statements'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label config_manager_mail_template_docs_sample_if_statements_da {
-    constant = 'CONFIG_MANAGER_MAIL_TEMPLATE_DOCS_SAMPLE_IF_STATEMENTS'
-    label = 'If-udsagn'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label config_manager_mail_template_docs_sample_for_loops_en {
-    constant = 'CONFIG_MANAGER_MAIL_TEMPLATE_DOCS_SAMPLE_FOR_LOOPS'
-    label = 'For loops'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label config_manager_mail_template_docs_sample_for_loops_da {
-    constant = 'CONFIG_MANAGER_MAIL_TEMPLATE_DOCS_SAMPLE_FOR_LOOPS'
-    label = 'For-loops'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label config_manager_mail_template_docs_scriban_sample_header_en {
-    constant = 'CONFIG_MANAGER_MAIL_TEMPLATE_DOCS_SCRIBAN_SAMPLE_HEADER'
-    label = 'Noticeable Scriban language constructs available:'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label config_manager_mail_template_docs_scriban_sample_header_da {
-    constant = 'CONFIG_MANAGER_MAIL_TEMPLATE_DOCS_SCRIBAN_SAMPLE_HEADER'
-    label = 'Markante tilgængelige Scriban-sprogkonstruktioner:'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label config_manager_mail_template_docs_template_documentation_en {
-    constant = 'CONFIG_MANAGER_MAIL_TEMPLATE_DOCS_TEMPLATE_DOCUMENTATION'
-    label = 'Template documentation'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label config_manager_mail_template_docs_template_documentation_da {
-    constant = 'CONFIG_MANAGER_MAIL_TEMPLATE_DOCS_TEMPLATE_DOCUMENTATION'
-    label = 'Skabelons-dokumentation'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label config_manager_mail_template_docs_general_scriban_introduction_part_1_en {
-    constant = 'CONFIG_MANAGER_MAIL_TEMPLATE_DOCS_GENERAL_SCRIBAN_INTRODUCTION_PART_1'
-    label = 'Digizuite™\'s mail template system uses'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label config_manager_mail_template_docs_general_scriban_introduction_part_1_da {
-    constant = 'CONFIG_MANAGER_MAIL_TEMPLATE_DOCS_GENERAL_SCRIBAN_INTRODUCTION_PART_1'
-    label = 'Digizuite™\'s mailskabelon-system bruger'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label config_manager_mail_template_docs_scriban_en {
-    constant = 'CONFIG_MANAGER_MAIL_TEMPLATE_DOCS_SCRIBAN'
-    label = 'Scriban'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label config_manager_mail_template_docs_scriban_da {
-    constant = 'CONFIG_MANAGER_MAIL_TEMPLATE_DOCS_SCRIBAN'
-    label = 'Scriban'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label config_manager_mail_template_docs_general_scriban_introduction_part_2_en {
-    constant = 'CONFIG_MANAGER_MAIL_TEMPLATE_DOCS_GENERAL_SCRIBAN_INTRODUCTION_PART_2'
-    label = 'for templating. It is strongly recommended that you take a look at the'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label config_manager_mail_template_docs_general_scriban_introduction_part_2_da {
-    constant = 'CONFIG_MANAGER_MAIL_TEMPLATE_DOCS_GENERAL_SCRIBAN_INTRODUCTION_PART_2'
-    label = ' til skabeloner. Det anbefales kraftigt, at du kigger på'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label config_manager_mail_template_docs_scriban_language_en {
-    constant = 'CONFIG_MANAGER_MAIL_TEMPLATE_DOCS_SCRIBAN_LANGUAGE'
-    label = 'Scriban language'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label config_manager_mail_template_docs_scriban_language_da {
-    constant = 'CONFIG_MANAGER_MAIL_TEMPLATE_DOCS_SCRIBAN_LANGUAGE'
-    label = 'Scriban-sproget'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label config_manager_mail_template_docs_general_scriban_introduction_part_3_en {
-    constant = 'CONFIG_MANAGER_MAIL_TEMPLATE_DOCS_GENERAL_SCRIBAN_INTRODUCTION_PART_3'
-    label = 'to see what options are available, and how the language works. In addition to the Scriban language we provide some additional functions on the'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label config_manager_mail_template_docs_general_scriban_introduction_part_3_da {
-    constant = 'CONFIG_MANAGER_MAIL_TEMPLATE_DOCS_GENERAL_SCRIBAN_INTRODUCTION_PART_3'
-    label = 'for at se, hvilke muligheder der er tilgængelige, og hvordan sproget fungerer. Ud over Scriban leverer vi yderligere funktioner på'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label config_manager_mail_template_docs_digizuite_en {
-    constant = 'CONFIG_MANAGER_MAIL_TEMPLATE_DOCS_DIGIZUITE'
-    label = 'Digizuite'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label config_manager_mail_template_docs_digizuite_da {
-    constant = 'CONFIG_MANAGER_MAIL_TEMPLATE_DOCS_DIGIZUITE'
-    label = 'Digizuite'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label config_manager_mail_template_docs_general_scriban_introduction_part_4_en {
-    constant = 'CONFIG_MANAGER_MAIL_TEMPLATE_DOCS_GENERAL_SCRIBAN_INTRODUCTION_PART_4'
-    label = 'object, which are documented below. The documentation is auto-generated, and should always be up-to-date with the things your Digizuite™ provides. In addition to the functions Digizuite™ provides, Scriban also provides a set of'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label config_manager_mail_template_docs_general_scriban_introduction_part_4_da {
-    constant = 'CONFIG_MANAGER_MAIL_TEMPLATE_DOCS_GENERAL_SCRIBAN_INTRODUCTION_PART_4'
-    label = '-objektet, som er dokumenteret nedenfor. Dokumentationen genereres automatisk og vil altid være opdateret med de ting, som Digizuite™ leverer. Ud over funktionerne som Digizuite™ tilbyder, leverer Scriban også et sæt'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label config_manager_mail_template_docs_builtins_en {
-    constant = 'CONFIG_MANAGER_MAIL_TEMPLATE_DOCS_BUILTINS'
-    label = 'builtins'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label config_manager_mail_template_docs_builtins_da {
-    constant = 'CONFIG_MANAGER_MAIL_TEMPLATE_DOCS_BUILTINS'
-    label = 'builtins'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label config_manager_mail_template_docs_general_scriban_introduction_part_5_en {
-    constant = 'CONFIG_MANAGER_MAIL_TEMPLATE_DOCS_GENERAL_SCRIBAN_INTRODUCTION_PART_5'
-    label = 'which are very useful.'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label config_manager_mail_template_docs_general_scriban_introduction_part_5_da {
-    constant = 'CONFIG_MANAGER_MAIL_TEMPLATE_DOCS_GENERAL_SCRIBAN_INTRODUCTION_PART_5'
-    label = 'som er meget nyttige.'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
+﻿resource configservice_label section_title_config_manager {
+  key = 'SECTION_TITLE_CONFIG_MANAGER'
+  group = 'Config Manager'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'ConfigManager'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'ConfigManager'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label config_manager_tab_mail_templates {
+  key = 'CONFIG_MANAGER_TAB_MAIL_TEMPLATES'
+  group = 'Config Manager'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Mail templates'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Mailskabeloner'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label mail_template_settings_select_existing {
+  key = 'MAIL_TEMPLATE_SETTINGS_SELECT_EXISTING'
+  group = 'Config Manager'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Select existing template'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Vælg eksisterende skabelon'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label mail_template_settings_template_language {
+  key = 'MAIL_TEMPLATE_SETTINGS_TEMPLATE_LANGUAGE'
+  group = 'Config Manager'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Template language'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Skabelonssprog'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label mail_template_settings_template_name {
+  key = 'MAIL_TEMPLATE_SETTINGS_TEMPLATE_NAME'
+  group = 'Config Manager'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Template name'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Skabelonsnavn'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label mail_template_settings_template_subject {
+  key = 'MAIL_TEMPLATE_SETTINGS_TEMPLATE_SUBJECT'
+  group = 'Config Manager'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Subject'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Emne'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label mail_template_settings_template_body {
+  key = 'MAIL_TEMPLATE_SETTINGS_TEMPLATE_BODY'
+  group = 'Config Manager'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Body'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Meddelelse'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label mail_template_settings_delete {
+  key = 'MAIL_TEMPLATE_SETTINGS_DELETE'
+  group = 'Config Manager'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = '{deleting, select, true {Deleting...} false {Delete}}'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = '{deleting, select, true {Sletter...} false {Slet}}'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label mail_template_settings_update {
+  key = 'MAIL_TEMPLATE_SETTINGS_UPDATE'
+  group = 'Config Manager'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = '{updating, select, true {Updating...} false {Update}}'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = '{updating, select, true {Opdaterer...} false {Opdater}}'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label mail_template_settings_create_new {
+  key = 'MAIL_TEMPLATE_SETTINGS_CREATE_NEW'
+  group = 'Config Manager'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = '{creatingNew, select, true {Creating new...} false {Create new}}'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = '{creatingNew, select, true {Gemmer ny...} false {Gem ny}}'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label mail_template_settings_no_product_version_selected {
+  key = 'MAIL_TEMPLATE_SETTINGS_NO_PRODUCT_VERSION_SELECTED'
+  group = 'Config Manager'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Please select a product version'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Vælg venligst en produktversion'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label mail_template_settings_confirm_delete_title {
+  key = 'MAIL_TEMPLATE_SETTINGS_CONFIRM_DELETE_TITLE'
+  group = 'Config Manager'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Confirm deletion'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Bekræft sletning'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label mail_template_settings_confirm_delete_body {
+  key = 'MAIL_TEMPLATE_SETTINGS_CONFIRM_DELETE_BODY'
+  group = 'Config Manager'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Are you sure you want to delete the \'{{name}}\' mail template?'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Er du sikker på at du vil slette mailskabelonen \'{{name}}\'?'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label mail_template_settings_confirm_delete_delete {
+  key = 'MAIL_TEMPLATE_SETTINGS_CONFIRM_DELETE_DELETE'
+  group = 'Config Manager'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Delete'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Slet'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label mail_template_settings_confirm_delete_cancel {
+  key = 'MAIL_TEMPLATE_SETTINGS_CONFIRM_DELETE_CANCEL'
+  group = 'Config Manager'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Cancel'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Annullér'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label config_manager_no_products_found {
+  key = 'CONFIG_MANAGER_NO_PRODUCTS_FOUND'
+  group = 'Config Manager'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'No products were found'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Ingen produkter blev fundet'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label mail_template_settings_request_failed_title {
+  key = 'MAIL_TEMPLATE_SETTINGS_REQUEST_FAILED_TITLE'
+  group = 'Config Manager'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Error'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Fejl'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label mail_template_settings_request_failed_body {
+  key = 'MAIL_TEMPLATE_SETTINGS_REQUEST_FAILED_BODY'
+  group = 'Config Manager'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'An error occurred. This might be caused by an invalid template.'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'En fejl opstod. Dette kan skyldes, at skabelonsindholdet ikke er gyldigt.'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label mail_template_settings_load_error {
+  key = 'MAIL_TEMPLATE_SETTINGS_LOAD_ERROR'
+  group = 'Config Manager'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'An error occurred while loading the mail templates.'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Mailskabelonerne kunne ikke hentes.'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label mail_template_settings_inherited_from {
+  key = 'MAIL_TEMPLATE_SETTINGS_INHERITED_FROM'
+  group = 'Config Manager'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'inherited from'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'nedarvet fra'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label config_manager_mail_template_docs_loading_docs {
+  key = 'CONFIG_MANAGER_MAIL_TEMPLATE_DOCS_LOADING_DOCS'
+  group = 'Config Manager'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Loading docs...'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Indlæser dokumentation...'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label config_manager_mail_template_docs_options {
+  key = 'CONFIG_MANAGER_MAIL_TEMPLATE_DOCS_OPTIONS'
+  group = 'Config Manager'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Options'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Valgmuligheder'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label config_manager_mail_template_docs_list_type {
+  key = 'CONFIG_MANAGER_MAIL_TEMPLATE_DOCS_LIST_TYPE'
+  group = 'Config Manager'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'List<{{ typeName }}>'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Liste<{{ typeName }}>'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label config_manager_mail_template_docs_properties {
+  key = 'CONFIG_MANAGER_MAIL_TEMPLATE_DOCS_PROPERTIES'
+  group = 'Config Manager'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Properties'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Egenskaber'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label config_manager_mail_template_docs_type_documentation {
+  key = 'CONFIG_MANAGER_MAIL_TEMPLATE_DOCS_TYPE_DOCUMENTATION'
+  group = 'Config Manager'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Type documentation'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Type-dokumentation'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label config_manager_mail_template_docs_function_documentation {
+  key = 'CONFIG_MANAGER_MAIL_TEMPLATE_DOCS_FUNCTION_DOCUMENTATION'
+  group = 'Config Manager'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Function documentation'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Funktions-dokumentation'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label config_manager_mail_template_docs_sample_calling_functions {
+  key = 'CONFIG_MANAGER_MAIL_TEMPLATE_DOCS_SAMPLE_CALLING_FUNCTIONS'
+  group = 'Config Manager'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Calling functions'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Kald af funktioner'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label config_manager_mail_template_docs_sample_variable_assignment {
+  key = 'CONFIG_MANAGER_MAIL_TEMPLATE_DOCS_SAMPLE_VARIABLE_ASSIGNMENT'
+  group = 'Config Manager'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Variable assignment'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Værdisætning af variabler'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label config_manager_mail_template_docs_sample_if_statements {
+  key = 'CONFIG_MANAGER_MAIL_TEMPLATE_DOCS_SAMPLE_IF_STATEMENTS'
+  group = 'Config Manager'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'If statements'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'If-udsagn'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label config_manager_mail_template_docs_sample_for_loops {
+  key = 'CONFIG_MANAGER_MAIL_TEMPLATE_DOCS_SAMPLE_FOR_LOOPS'
+  group = 'Config Manager'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'For loops'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'For-loops'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label config_manager_mail_template_docs_scriban_sample_header {
+  key = 'CONFIG_MANAGER_MAIL_TEMPLATE_DOCS_SCRIBAN_SAMPLE_HEADER'
+  group = 'Config Manager'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Noticeable Scriban language constructs available:'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Markante tilgængelige Scriban-sprogkonstruktioner:'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label config_manager_mail_template_docs_template_documentation {
+  key = 'CONFIG_MANAGER_MAIL_TEMPLATE_DOCS_TEMPLATE_DOCUMENTATION'
+  group = 'Config Manager'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Template documentation'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Skabelons-dokumentation'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label config_manager_mail_template_docs_general_scriban_introduction_part_1 {
+  key = 'CONFIG_MANAGER_MAIL_TEMPLATE_DOCS_GENERAL_SCRIBAN_INTRODUCTION_PART_1'
+  group = 'Config Manager'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Digizuite™\'s mail template system uses'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Digizuite™\'s mailskabelon-system bruger'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label config_manager_mail_template_docs_scriban {
+  key = 'CONFIG_MANAGER_MAIL_TEMPLATE_DOCS_SCRIBAN'
+  group = 'Config Manager'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Scriban'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Scriban'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label config_manager_mail_template_docs_general_scriban_introduction_part_2 {
+  key = 'CONFIG_MANAGER_MAIL_TEMPLATE_DOCS_GENERAL_SCRIBAN_INTRODUCTION_PART_2'
+  group = 'Config Manager'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'for templating. It is strongly recommended that you take a look at the'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = ' til skabeloner. Det anbefales kraftigt, at du kigger på'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label config_manager_mail_template_docs_scriban_language {
+  key = 'CONFIG_MANAGER_MAIL_TEMPLATE_DOCS_SCRIBAN_LANGUAGE'
+  group = 'Config Manager'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Scriban language'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Scriban-sproget'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label config_manager_mail_template_docs_general_scriban_introduction_part_3 {
+  key = 'CONFIG_MANAGER_MAIL_TEMPLATE_DOCS_GENERAL_SCRIBAN_INTRODUCTION_PART_3'
+  group = 'Config Manager'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'to see what options are available, and how the language works. In addition to the Scriban language we provide some additional functions on the'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'for at se, hvilke muligheder der er tilgængelige, og hvordan sproget fungerer. Ud over Scriban leverer vi yderligere funktioner på'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label config_manager_mail_template_docs_digizuite {
+  key = 'CONFIG_MANAGER_MAIL_TEMPLATE_DOCS_DIGIZUITE'
+  group = 'Config Manager'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Digizuite'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Digizuite'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label config_manager_mail_template_docs_general_scriban_introduction_part_4 {
+  key = 'CONFIG_MANAGER_MAIL_TEMPLATE_DOCS_GENERAL_SCRIBAN_INTRODUCTION_PART_4'
+  group = 'Config Manager'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'object, which are documented below. The documentation is auto-generated, and should always be up-to-date with the things your Digizuite™ provides. In addition to the functions Digizuite™ provides, Scriban also provides a set of'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = '-objektet, som er dokumenteret nedenfor. Dokumentationen genereres automatisk og vil altid være opdateret med de ting, som Digizuite™ leverer. Ud over funktionerne som Digizuite™ tilbyder, leverer Scriban også et sæt'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label config_manager_mail_template_docs_builtins {
+  key = 'CONFIG_MANAGER_MAIL_TEMPLATE_DOCS_BUILTINS'
+  group = 'Config Manager'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'builtins'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'builtins'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label config_manager_mail_template_docs_general_scriban_introduction_part_5 {
+  key = 'CONFIG_MANAGER_MAIL_TEMPLATE_DOCS_GENERAL_SCRIBAN_INTRODUCTION_PART_5'
+  group = 'Config Manager'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'which are very useful.'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'som er meget nyttige.'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label config_manager_central_media_manager_basic_configuration_settings_save {
+  key = 'CONFIG_MANAGER_CENTRAL_MEDIA_MANAGER_BASIC_CONFIGURATION_SETTINGS_SAVE'
+  group = 'Config Manager'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Save'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Gem'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label config_manager_central_media_manager_basic_configuration_settings_portal {
+  key = 'CONFIG_MANAGER_CENTRAL_MEDIA_MANAGER_BASIC_CONFIGURATION_SETTINGS_PORTAL'
+  group = 'Config Manager'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Portal'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Portal'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label config_manager_central_media_manager_basic_configuration_settings_enabled_features {
+  key = 'CONFIG_MANAGER_CENTRAL_MEDIA_MANAGER_BASIC_CONFIGURATION_SETTINGS_ENABLED_FEATURES'
+  group = 'Config Manager'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Enabled features'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Aktiverede funktioner'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label config_manager_central_media_manager_basic_configuration_settings_hostname {
+  key = 'CONFIG_MANAGER_CENTRAL_MEDIA_MANAGER_BASIC_CONFIGURATION_SETTINGS_HOSTNAME'
+  group = 'Config Manager'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Hostname'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Host navn'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label config_manager_central_media_manager_basic_configuration_settings_guest_password {
+  key = 'CONFIG_MANAGER_CENTRAL_MEDIA_MANAGER_BASIC_CONFIGURATION_SETTINGS_GUEST_PASSWORD'
+  group = 'Config Manager'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Guest password'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Guest kodeord'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label config_manager_central_media_manager_basic_configuration_settings_guest_username {
+  key = 'CONFIG_MANAGER_CENTRAL_MEDIA_MANAGER_BASIC_CONFIGURATION_SETTINGS_GUEST_USERNAME'
+  group = 'Config Manager'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Guest username'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Guest brugernavn'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label config_manager_central_media_manager_basic_configuration_settings_add_new {
+  key = 'CONFIG_MANAGER_CENTRAL_MEDIA_MANAGER_BASIC_CONFIGURATION_SETTINGS_ADD_NEW'
+  group = 'Config Manager'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Add new'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Tilføj ny'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label config_manager_central_media_manager_basic_configuration_settings_error {
+  key = 'CONFIG_MANAGER_CENTRAL_MEDIA_MANAGER_BASIC_CONFIGURATION_SETTINGS_ERROR'
+  group = 'Config Manager'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Error'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Fejl'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label config_manager_central_media_manager_basic_configuration_settings_saved {
+  key = 'CONFIG_MANAGER_CENTRAL_MEDIA_MANAGER_BASIC_CONFIGURATION_SETTINGS_SAVED'
+  group = 'Config Manager'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Saved'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Gemt'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label config_manager_central_media_manager_basic_configuration_settings_new_config_created_successfully {
+  key = 'CONFIG_MANAGER_CENTRAL_MEDIA_MANAGER_BASIC_CONFIGURATION_SETTINGS_NEW_CONFIG_CREATED_SUCCESSFULLY'
+  group = 'Config Manager'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'New config created successfully'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Ny konfiguration oprettet uden fejl'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label config_manager_central_media_manager_basic_configuration_settings_config_saved_successfully {
+  key = 'CONFIG_MANAGER_CENTRAL_MEDIA_MANAGER_BASIC_CONFIGURATION_SETTINGS_CONFIG_SAVED_SUCCESSFULLY'
+  group = 'Config Manager'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Changes saved successfully'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Konfiguration gemt uden fejl'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label config_manager_central_media_manager_basic_configuration_settings_error_check_dev_tools {
+  key = 'CONFIG_MANAGER_CENTRAL_MEDIA_MANAGER_BASIC_CONFIGURATION_SETTINGS_ERROR_CHECK_DEV_TOOLS'
+  group = 'Config Manager'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Failed to save changes, check developer tools'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Failed to save changes, check developer tools'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label config_manager_tab_mm_config {
+  key = 'CONFIG_MANAGER_TAB_MM_CONFIG'
+  group = 'Config Manager'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Media Manager Config'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Media Manager Config'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label portal_config_manager_root_save {
+  key = 'PORTAL_CONFIG_MANAGER_ROOT_SAVE'
+  group = 'Config Manager'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = '{saving, select, true {Saving...} false {Save}}'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = '{saving, select, true {Gemmer...} false {Gem}}'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label portal_config_manager_root_configuration_tab_title {
+  key = 'PORTAL_CONFIG_MANAGER_ROOT_CONFIGURATION_TAB_TITLE'
+  group = 'Config Manager'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Configuration'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Konfiguration'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label portal_config_manager_root_labels_tab_title {
+  key = 'PORTAL_CONFIG_MANAGER_ROOT_LABELS_TAB_TITLE'
+  group = 'Config Manager'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Labels'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Mærkater'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label portal_config_manager_root_search {
+  key = 'PORTAL_CONFIG_MANAGER_ROOT_SEARCH'
+  group = 'Config Manager'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Search'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Søg'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label portal_config_manager_portal_config_manager_root_no_portal_selected {
+  key = 'PORTAL_CONFIG_MANAGER_PORTAL_CONFIG_MANAGER_ROOT_NO_PORTAL_SELECTED'
+  group = 'Config Manager'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'No portal selected'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Ingen portal valgt'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label portal_config_manager_portal_config_manager_root_select_current {
+  key = 'PORTAL_CONFIG_MANAGER_PORTAL_CONFIG_MANAGER_ROOT_SELECT_CURRENT'
+  group = 'Config Manager'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Select current?'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Vælg nuværende?'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label portal_config_manager_portal_config_manager_root_loading {
+  key = 'PORTAL_CONFIG_MANAGER_PORTAL_CONFIG_MANAGER_ROOT_LOADING'
+  group = 'Config Manager'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Loading...'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Indlæser...'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_menu_portal_config_manager_title {
+  key = 'SETTINGS_MENU_PORTAL_CONFIG_MANAGER_TITLE'
+  group = 'Config Manager'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Portal config manager'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Portal config manager'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_menu_portal_config_manager_desc {
+  key = 'SETTINGS_MENU_PORTAL_CONFIG_MANAGER_DESC'
+  group = 'Config Manager'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Settings for specific portals'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Indstillinger for bestemte portaler'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label portal_config_manager_value_config_field_reset_to_default {
+  key = 'PORTAL_CONFIG_MANAGER_VALUE_CONFIG_FIELD_RESET_TO_DEFAULT'
+  group = 'Config Manager'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Reset to default'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Nulstil til standard'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label portal_config_manager_multi_int_config_field_remove {
+  key = 'PORTAL_CONFIG_MANAGER_MULTI_INT_CONFIG_FIELD_REMOVE'
+  group = 'Config Manager'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Remove'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Fjern'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label portal_config_manager_multi_int_config_field_add {
+  key = 'PORTAL_CONFIG_MANAGER_MULTI_INT_CONFIG_FIELD_ADD'
+  group = 'Config Manager'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Add'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Tilføj'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label portal_config_manager_label_editor_value_is_a_correctly_formatted_label {
+  key = 'PORTAL_CONFIG_MANAGER_LABEL_EDITOR_VALUE_IS_A_CORRECTLY_FORMATTED_LABEL'
+  group = 'Config Manager'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'The value is a correctly formatted label'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Værdien er et korrekt formateret mærkat'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label portal_config_manager_portal_labels_language {
+  key = 'PORTAL_CONFIG_MANAGER_PORTAL_LABELS_LANGUAGE'
+  group = 'Config Manager'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Language'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Sprog'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label portal_config_manager_portal_error_notification_title {
+  key = 'PORTAL_CONFIG_MANAGER_PORTAL_ERROR_NOTIFICATION_TITLE'
+  group = 'Config Manager'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Error'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Fejl'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label portal_config_manager_portal_labels_error_notification_body {
+  key = 'PORTAL_CONFIG_MANAGER_PORTAL_LABELS_ERROR_NOTIFICATION_BODY'
+  group = 'Config Manager'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Failed to save labels: {{error}}'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Fejl under opdatering af labels: {{error}}'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label portal_config_manager_portal_configs_error_notification_body {
+  key = 'PORTAL_CONFIG_MANAGER_PORTAL_CONFIGS_ERROR_NOTIFICATION_BODY'
+  group = 'Config Manager'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Failed to save configuration: {{error}}'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Fejl under opdatering af konfiguration: {{error}}'
+      language_id = data.language.danish.id
+    }
+  ]
 }
 
