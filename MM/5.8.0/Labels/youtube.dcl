@@ -1,512 +1,512 @@
-﻿resource language_label youtube_client_list_title_en {
-    constant = 'YOUTUBE_CLIENT_LIST_TITLE'
-    label = 'YouTube clients'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
+﻿resource configservice_label youtube_client_list_title {
+  key = 'YOUTUBE_CLIENT_LIST_TITLE'
+  group = 'Youtube'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'YouTube clients'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'YouTube-klienter'
+      language_id = data.language.danish.id
+    }
+  ]
 }
 
-resource language_label youtube_client_list_title_da {
-    constant = 'YOUTUBE_CLIENT_LIST_TITLE'
-    label = 'YouTube-klienter'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
+resource configservice_label youtube_client_list_new_client {
+  key = 'YOUTUBE_CLIENT_LIST_NEW_CLIENT'
+  group = 'Youtube'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Create new YouTube client'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Opret ny YouTube-klient'
+      language_id = data.language.danish.id
+    }
+  ]
 }
 
-resource language_label youtube_client_list_new_client_en {
-    constant = 'YOUTUBE_CLIENT_LIST_NEW_CLIENT'
-    label = 'Create new YouTube client'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
+resource configservice_label youtube_client_list_failed_to_load_clients {
+  key = 'YOUTUBE_CLIENT_LIST_FAILED_TO_LOAD_CLIENTS'
+  group = 'Youtube'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Failed to load YouTube clients'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'YouTube-klienter kunne ikke hentes'
+      language_id = data.language.danish.id
+    }
+  ]
 }
 
-resource language_label youtube_client_list_new_client_da {
-    constant = 'YOUTUBE_CLIENT_LIST_NEW_CLIENT'
-    label = 'Opret ny YouTube-klient'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
+resource configservice_label youtube_client_list_column_name {
+  key = 'YOUTUBE_CLIENT_LIST_COLUMN_NAME'
+  group = 'Youtube'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Name'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Navn'
+      language_id = data.language.danish.id
+    }
+  ]
 }
 
-resource language_label youtube_client_list_failed_to_load_clients_en {
-    constant = 'YOUTUBE_CLIENT_LIST_FAILED_TO_LOAD_CLIENTS'
-    label = 'Failed to load YouTube clients'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
+resource configservice_label youtube_client_list_column_authorization_status {
+  key = 'YOUTUBE_CLIENT_LIST_COLUMN_AUTHORIZATION_STATUS'
+  group = 'Youtube'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Authorization status'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Autoriseringsstatus'
+      language_id = data.language.danish.id
+    }
+  ]
 }
 
-resource language_label youtube_client_list_failed_to_load_clients_da {
-    constant = 'YOUTUBE_CLIENT_LIST_FAILED_TO_LOAD_CLIENTS'
-    label = 'YouTube-klienter kunne ikke hentes'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
+resource configservice_label youtube_client_list_authorization_status {
+  key = 'YOUTUBE_CLIENT_LIST_AUTHORIZATION_STATUS'
+  group = 'Youtube'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = '{isAuthorized, select, true {Authorized} false {Not authorized}}'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = '{isAuthorized, select, true {Autoriseret} false {Ikke autoriseret}}'
+      language_id = data.language.danish.id
+    }
+  ]
 }
 
-resource language_label youtube_client_list_column_name_en {
-    constant = 'YOUTUBE_CLIENT_LIST_COLUMN_NAME'
-    label = 'Name'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
+resource configservice_label youtube_client_list_authorize_btn {
+  key = 'YOUTUBE_CLIENT_LIST_AUTHORIZE_BTN'
+  group = 'Youtube'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Authorize'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Autoriser'
+      language_id = data.language.danish.id
+    }
+  ]
 }
 
-resource language_label youtube_client_list_column_name_da {
-    constant = 'YOUTUBE_CLIENT_LIST_COLUMN_NAME'
-    label = 'Navn'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
+resource configservice_label youtube_client_list_menu_btn_tooltip {
+  key = 'YOUTUBE_CLIENT_LIST_MENU_BTN_TOOLTIP'
+  group = 'Youtube'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'More'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Mere'
+      language_id = data.language.danish.id
+    }
+  ]
 }
 
-resource language_label youtube_client_list_column_authorization_status_en {
-    constant = 'YOUTUBE_CLIENT_LIST_COLUMN_AUTHORIZATION_STATUS'
-    label = 'Authorization status'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
+resource configservice_label youtube_client_list_menu_edit {
+  key = 'YOUTUBE_CLIENT_LIST_MENU_EDIT'
+  group = 'Youtube'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Edit'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Rediger'
+      language_id = data.language.danish.id
+    }
+  ]
 }
 
-resource language_label youtube_client_list_column_authorization_status_da {
-    constant = 'YOUTUBE_CLIENT_LIST_COLUMN_AUTHORIZATION_STATUS'
-    label = 'Autoriseringsstatus'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
+resource configservice_label youtube_client_list_menu_delete {
+  key = 'YOUTUBE_CLIENT_LIST_MENU_DELETE'
+  group = 'Youtube'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Delete'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Slet'
+      language_id = data.language.danish.id
+    }
+  ]
 }
 
-resource language_label youtube_client_list_authorization_status_en {
-    constant = 'YOUTUBE_CLIENT_LIST_AUTHORIZATION_STATUS'
-    label = '{isAuthorized, select, true {Authorized} false {Not authorized}}'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
+resource configservice_label youtube_client_list_no_available_clients {
+  key = 'YOUTUBE_CLIENT_LIST_NO_AVAILABLE_CLIENTS'
+  group = 'Youtube'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'No existing YouTube clients'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Ingen YouTube-klienter er oprettet'
+      language_id = data.language.danish.id
+    }
+  ]
 }
 
-resource language_label youtube_client_list_authorization_status_da {
-    constant = 'YOUTUBE_CLIENT_LIST_AUTHORIZATION_STATUS'
-    label = '{isAuthorized, select, true {Autoriseret} false {Ikke autoriseret}}'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
+resource configservice_label youtube_client_info_info_dialog_title {
+  key = 'YOUTUBE_CLIENT_INFO_INFO_DIALOG_TITLE'
+  group = 'Youtube'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'YouTube client configuration'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'YouTube-klient konfiguration'
+      language_id = data.language.danish.id
+    }
+  ]
 }
 
-resource language_label youtube_client_list_authorize_btn_en {
-    constant = 'YOUTUBE_CLIENT_LIST_AUTHORIZE_BTN'
-    label = 'Authorize'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
+resource configservice_label youtube_client_info_name {
+  key = 'YOUTUBE_CLIENT_INFO_NAME'
+  group = 'Youtube'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Name'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Navn'
+      language_id = data.language.danish.id
+    }
+  ]
 }
 
-resource language_label youtube_client_list_authorize_btn_da {
-    constant = 'YOUTUBE_CLIENT_LIST_AUTHORIZE_BTN'
-    label = 'Autoriser'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
+resource configservice_label youtube_client_info_name_validation_failed_required {
+  key = 'YOUTUBE_CLIENT_INFO_NAME_VALIDATION_FAILED_REQUIRED'
+  group = 'Youtube'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Name is required'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Navn er påkrævet'
+      language_id = data.language.danish.id
+    }
+  ]
 }
 
-resource language_label youtube_client_list_menu_btn_tooltip_en {
-    constant = 'YOUTUBE_CLIENT_LIST_MENU_BTN_TOOLTIP'
-    label = 'More'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
+resource configservice_label youtube_client_info_channel_id {
+  key = 'YOUTUBE_CLIENT_INFO_CHANNEL_ID'
+  group = 'Youtube'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Channel id'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Mappe-id'
+      language_id = data.language.danish.id
+    }
+  ]
 }
 
-resource language_label youtube_client_list_menu_btn_tooltip_da {
-    constant = 'YOUTUBE_CLIENT_LIST_MENU_BTN_TOOLTIP'
-    label = 'Mere'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
+resource configservice_label youtube_client_info_channel_id_validation_failed_required {
+  key = 'YOUTUBE_CLIENT_INFO_CHANNEL_ID_VALIDATION_FAILED_REQUIRED'
+  group = 'Youtube'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Channel id is required'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Kanal-id er påkrævet'
+      language_id = data.language.danish.id
+    }
+  ]
 }
 
-resource language_label youtube_client_list_menu_edit_en {
-    constant = 'YOUTUBE_CLIENT_LIST_MENU_EDIT'
-    label = 'Edit'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
+resource configservice_label youtube_client_info_client_id {
+  key = 'YOUTUBE_CLIENT_INFO_CLIENT_ID'
+  group = 'Youtube'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Client id'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Client id'
+      language_id = data.language.danish.id
+    }
+  ]
 }
 
-resource language_label youtube_client_list_menu_edit_da {
-    constant = 'YOUTUBE_CLIENT_LIST_MENU_EDIT'
-    label = 'Rediger'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
+resource configservice_label youtube_client_info_client_id_validation_failed_required {
+  key = 'YOUTUBE_CLIENT_INFO_CLIENT_ID_VALIDATION_FAILED_REQUIRED'
+  group = 'Youtube'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Client id from Google is required'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Client id fra Google er påkrævet'
+      language_id = data.language.danish.id
+    }
+  ]
 }
 
-resource language_label youtube_client_list_menu_delete_en {
-    constant = 'YOUTUBE_CLIENT_LIST_MENU_DELETE'
-    label = 'Delete'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
+resource configservice_label youtube_client_info_client_secret {
+  key = 'YOUTUBE_CLIENT_INFO_CLIENT_SECRET'
+  group = 'Youtube'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Client secret'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Client secret'
+      language_id = data.language.danish.id
+    }
+  ]
 }
 
-resource language_label youtube_client_list_menu_delete_da {
-    constant = 'YOUTUBE_CLIENT_LIST_MENU_DELETE'
-    label = 'Slet'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
+resource configservice_label youtube_client_info_client_secret_validation_failed_required {
+  key = 'YOUTUBE_CLIENT_INFO_CLIENT_SECRET_VALIDATION_FAILED_REQUIRED'
+  group = 'Youtube'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Client secret from Google is required'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Client secret fra Google er påkrævet'
+      language_id = data.language.danish.id
+    }
+  ]
 }
 
-resource language_label youtube_client_list_no_available_clients_en {
-    constant = 'YOUTUBE_CLIENT_LIST_NO_AVAILABLE_CLIENTS'
-    label = 'No existing YouTube clients'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
+resource configservice_label youtube_client_info_search_name {
+  key = 'YOUTUBE_CLIENT_INFO_SEARCH_NAME'
+  group = 'Youtube'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Search name'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Navn på søgning'
+      language_id = data.language.danish.id
+    }
+  ]
 }
 
-resource language_label youtube_client_list_no_available_clients_da {
-    constant = 'YOUTUBE_CLIENT_LIST_NO_AVAILABLE_CLIENTS'
-    label = 'Ingen YouTube-klienter er oprettet'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
+resource configservice_label youtube_client_info_search_name_validation_failed_required {
+  key = 'YOUTUBE_CLIENT_INFO_SEARCH_NAME_VALIDATION_FAILED_REQUIRED'
+  group = 'Youtube'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Search name is required'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Navn på søgning er påkrævet'
+      language_id = data.language.danish.id
+    }
+  ]
 }
 
-resource language_label youtube_client_info_info_dialog_title_en {
-    constant = 'YOUTUBE_CLIENT_INFO_INFO_DIALOG_TITLE'
-    label = 'YouTube client configuration'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
+resource configservice_label youtube_client_info_default_privacy_status {
+  key = 'YOUTUBE_CLIENT_INFO_DEFAULT_PRIVACY_STATUS'
+  group = 'Youtube'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Default privacy status'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Standard uploadtilgængelighed'
+      language_id = data.language.danish.id
+    }
+  ]
 }
 
-resource language_label youtube_client_info_info_dialog_title_da {
-    constant = 'YOUTUBE_CLIENT_INFO_INFO_DIALOG_TITLE'
-    label = 'YouTube-klient konfiguration'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
+resource configservice_label youtube_client_info_default_privacy_status_validation_failed_required {
+  key = 'YOUTUBE_CLIENT_INFO_DEFAULT_PRIVACY_STATUS_VALIDATION_FAILED_REQUIRED'
+  group = 'Youtube'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Default privacy status is required...'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'En standard uploadtilgængelighed er påkrævet...'
+      language_id = data.language.danish.id
+    }
+  ]
 }
 
-resource language_label youtube_client_info_name_en {
-    constant = 'YOUTUBE_CLIENT_INFO_NAME'
-    label = 'Name'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
+resource configservice_label youtube_client_info_error {
+  key = 'YOUTUBE_CLIENT_INFO_ERROR'
+  group = 'Youtube'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'The YouTube client could not be saved'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'YouTube-klienten kunne ikke gemmes'
+      language_id = data.language.danish.id
+    }
+  ]
 }
 
-resource language_label youtube_client_info_name_da {
-    constant = 'YOUTUBE_CLIENT_INFO_NAME'
-    label = 'Navn'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
+resource configservice_label youtube_client_info_cancel {
+  key = 'YOUTUBE_CLIENT_INFO_CANCEL'
+  group = 'Youtube'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Cancel'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Annuller'
+      language_id = data.language.danish.id
+    }
+  ]
 }
 
-resource language_label youtube_client_info_name_validation_failed_required_en {
-    constant = 'YOUTUBE_CLIENT_INFO_NAME_VALIDATION_FAILED_REQUIRED'
-    label = 'Name is required'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
+resource configservice_label youtube_client_info_save {
+  key = 'YOUTUBE_CLIENT_INFO_SAVE'
+  group = 'Youtube'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = '{saving, select, true {Saving...} false {Save}}'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = '{saving, select, true {Gemmer...} false {Gem}}'
+      language_id = data.language.danish.id
+    }
+  ]
 }
 
-resource language_label youtube_client_info_name_validation_failed_required_da {
-    constant = 'YOUTUBE_CLIENT_INFO_NAME_VALIDATION_FAILED_REQUIRED'
-    label = 'Navn er påkrævet'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
+resource configservice_label youtube_client_delete_confirmation_dialog_title {
+  key = 'YOUTUBE_CLIENT_DELETE_CONFIRMATION_DIALOG_TITLE'
+  group = 'Youtube'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Delete YouTube client'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Slet YouTube-klient'
+      language_id = data.language.danish.id
+    }
+  ]
 }
 
-resource language_label youtube_client_info_channel_id_en {
-    constant = 'YOUTUBE_CLIENT_INFO_CHANNEL_ID'
-    label = 'Channel id'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
+resource configservice_label youtube_client_delete_confirmation_dialog_body {
+  key = 'YOUTUBE_CLIENT_DELETE_CONFIRMATION_DIALOG_BODY'
+  group = 'Youtube'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Are you sure you want to delete the YouTube client \'{{youtubeClientName}}\'?'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Er du sikker på, at du vil slette YouTube-klienten \'{{youtubeClientName}}\'?'
+      language_id = data.language.danish.id
+    }
+  ]
 }
 
-resource language_label youtube_client_info_channel_id_da {
-    constant = 'YOUTUBE_CLIENT_INFO_CHANNEL_ID'
-    label = 'Mappe-id'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
+resource configservice_label youtube_client_delete_confirmation_dialog_error {
+  key = 'YOUTUBE_CLIENT_DELETE_CONFIRMATION_DIALOG_ERROR'
+  group = 'Youtube'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'The YouTube client could not be deleted'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'YouTube-klienten kunne ikke slettes'
+      language_id = data.language.danish.id
+    }
+  ]
 }
 
-resource language_label youtube_client_info_channel_id_validation_failed_required_en {
-    constant = 'YOUTUBE_CLIENT_INFO_CHANNEL_ID_VALIDATION_FAILED_REQUIRED'
-    label = 'Channel id is required'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
+resource configservice_label youtube_client_delete_confirmation_dialog_cancel {
+  key = 'YOUTUBE_CLIENT_DELETE_CONFIRMATION_DIALOG_CANCEL'
+  group = 'Youtube'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Cancel'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Annuller'
+      language_id = data.language.danish.id
+    }
+  ]
 }
 
-resource language_label youtube_client_info_channel_id_validation_failed_required_da {
-    constant = 'YOUTUBE_CLIENT_INFO_CHANNEL_ID_VALIDATION_FAILED_REQUIRED'
-    label = 'Kanal-id er påkrævet'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label youtube_client_info_client_id_en {
-    constant = 'YOUTUBE_CLIENT_INFO_CLIENT_ID'
-    label = 'Client id'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label youtube_client_info_client_id_da {
-    constant = 'YOUTUBE_CLIENT_INFO_CLIENT_ID'
-    label = 'Client id'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label youtube_client_info_client_id_validation_failed_required_en {
-    constant = 'YOUTUBE_CLIENT_INFO_CLIENT_ID_VALIDATION_FAILED_REQUIRED'
-    label = 'Client id from Google is required'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label youtube_client_info_client_id_validation_failed_required_da {
-    constant = 'YOUTUBE_CLIENT_INFO_CLIENT_ID_VALIDATION_FAILED_REQUIRED'
-    label = 'Client id fra Google er påkrævet'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label youtube_client_info_client_secret_en {
-    constant = 'YOUTUBE_CLIENT_INFO_CLIENT_SECRET'
-    label = 'Client secret'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label youtube_client_info_client_secret_da {
-    constant = 'YOUTUBE_CLIENT_INFO_CLIENT_SECRET'
-    label = 'Client secret'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label youtube_client_info_client_secret_validation_failed_required_en {
-    constant = 'YOUTUBE_CLIENT_INFO_CLIENT_SECRET_VALIDATION_FAILED_REQUIRED'
-    label = 'Client secret from Google is required'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label youtube_client_info_client_secret_validation_failed_required_da {
-    constant = 'YOUTUBE_CLIENT_INFO_CLIENT_SECRET_VALIDATION_FAILED_REQUIRED'
-    label = 'Client secret fra Google er påkrævet'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label youtube_client_info_search_name_en {
-    constant = 'YOUTUBE_CLIENT_INFO_SEARCH_NAME'
-    label = 'Search name'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label youtube_client_info_search_name_da {
-    constant = 'YOUTUBE_CLIENT_INFO_SEARCH_NAME'
-    label = 'Navn på søgning'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label youtube_client_info_search_name_validation_failed_required_en {
-    constant = 'YOUTUBE_CLIENT_INFO_SEARCH_NAME_VALIDATION_FAILED_REQUIRED'
-    label = 'Search name is required'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label youtube_client_info_search_name_validation_failed_required_da {
-    constant = 'YOUTUBE_CLIENT_INFO_SEARCH_NAME_VALIDATION_FAILED_REQUIRED'
-    label = 'Navn på søgning er påkrævet'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label youtube_client_info_default_privacy_status_en {
-    constant = 'YOUTUBE_CLIENT_INFO_DEFAULT_PRIVACY_STATUS'
-    label = 'Default privacy status'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label youtube_client_info_default_privacy_status_da {
-    constant = 'YOUTUBE_CLIENT_INFO_DEFAULT_PRIVACY_STATUS'
-    label = 'Standard uploadtilgængelighed'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label youtube_client_info_default_privacy_status_validation_failed_required_en {
-    constant = 'YOUTUBE_CLIENT_INFO_DEFAULT_PRIVACY_STATUS_VALIDATION_FAILED_REQUIRED'
-    label = 'Default privacy status is required...'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label youtube_client_info_default_privacy_status_validation_failed_required_da {
-    constant = 'YOUTUBE_CLIENT_INFO_DEFAULT_PRIVACY_STATUS_VALIDATION_FAILED_REQUIRED'
-    label = 'En standard uploadtilgængelighed er påkrævet...'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label youtube_client_info_error_en {
-    constant = 'YOUTUBE_CLIENT_INFO_ERROR'
-    label = 'The YouTube client could not be saved'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label youtube_client_info_error_da {
-    constant = 'YOUTUBE_CLIENT_INFO_ERROR'
-    label = 'YouTube-klienten kunne ikke gemmes'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label youtube_client_info_cancel_en {
-    constant = 'YOUTUBE_CLIENT_INFO_CANCEL'
-    label = 'Cancel'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label youtube_client_info_cancel_da {
-    constant = 'YOUTUBE_CLIENT_INFO_CANCEL'
-    label = 'Annuller'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label youtube_client_info_save_en {
-    constant = 'YOUTUBE_CLIENT_INFO_SAVE'
-    label = '{saving, select, true {Saving...} false {Save}}'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label youtube_client_info_save_da {
-    constant = 'YOUTUBE_CLIENT_INFO_SAVE'
-    label = '{saving, select, true {Gemmer...} false {Gem}}'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label youtube_client_delete_confirmation_dialog_title_en {
-    constant = 'YOUTUBE_CLIENT_DELETE_CONFIRMATION_DIALOG_TITLE'
-    label = 'Delete YouTube client'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label youtube_client_delete_confirmation_dialog_title_da {
-    constant = 'YOUTUBE_CLIENT_DELETE_CONFIRMATION_DIALOG_TITLE'
-    label = 'Slet YouTube-klient'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label youtube_client_delete_confirmation_dialog_body_en {
-    constant = 'YOUTUBE_CLIENT_DELETE_CONFIRMATION_DIALOG_BODY'
-    label = 'Are you sure you want to delete the YouTube client \'{{youtubeClientName}}\'?'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label youtube_client_delete_confirmation_dialog_body_da {
-    constant = 'YOUTUBE_CLIENT_DELETE_CONFIRMATION_DIALOG_BODY'
-    label = 'Er du sikker på, at du vil slette YouTube-klienten \'{{youtubeClientName}}\'?'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label youtube_client_delete_confirmation_dialog_error_en {
-    constant = 'YOUTUBE_CLIENT_DELETE_CONFIRMATION_DIALOG_ERROR'
-    label = 'The YouTube client could not be deleted'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label youtube_client_delete_confirmation_dialog_error_da {
-    constant = 'YOUTUBE_CLIENT_DELETE_CONFIRMATION_DIALOG_ERROR'
-    label = 'YouTube-klienten kunne ikke slettes'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label youtube_client_delete_confirmation_dialog_cancel_en {
-    constant = 'YOUTUBE_CLIENT_DELETE_CONFIRMATION_DIALOG_CANCEL'
-    label = 'Cancel'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label youtube_client_delete_confirmation_dialog_cancel_da {
-    constant = 'YOUTUBE_CLIENT_DELETE_CONFIRMATION_DIALOG_CANCEL'
-    label = 'Annuller'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label youtube_client_delete_confirmation_dialog_ok_en {
-    constant = 'YOUTUBE_CLIENT_DELETE_CONFIRMATION_DIALOG_OK'
-    label = '{deleting, select, true {Deleting...} false {Delete}}'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label youtube_client_delete_confirmation_dialog_ok_da {
-    constant = 'YOUTUBE_CLIENT_DELETE_CONFIRMATION_DIALOG_OK'
-    label = '{deleting, select, true {Sletter...} false {Slet}}'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
+resource configservice_label youtube_client_delete_confirmation_dialog_ok {
+  key = 'YOUTUBE_CLIENT_DELETE_CONFIRMATION_DIALOG_OK'
+  group = 'Youtube'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = '{deleting, select, true {Deleting...} false {Delete}}'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = '{deleting, select, true {Sletter...} false {Slet}}'
+      language_id = data.language.danish.id
+    }
+  ]
 }
 

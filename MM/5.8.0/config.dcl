@@ -26,6 +26,7 @@ resource configservice_string_config_field media_manager_5_default_freetext_sear
     title = 'Default Freetext Search Fields'
     description = 'Default freetext search fields'
     language_versioned = false
+	type = 'string'
 }
 
 resource configservice_string_config_field media_manager_5_default_filters {
@@ -37,6 +38,7 @@ resource configservice_string_config_field media_manager_5_default_filters {
     title = 'Default Filters'
     description = 'Default filters'
     language_versioned = false
+	type = 'string'
 }
 
 resource configservice_string_config_field media_manager_5_brand_portal_configuration {
@@ -48,6 +50,7 @@ resource configservice_string_config_field media_manager_5_brand_portal_configur
     title = 'Brand Portal Configuration'
     description = 'Brand portal configuration'
     language_versioned = false
+	type = 'string'
 }
 
 resource configservice_string_config_field media_manager_5_collection_metadata_fields {
@@ -59,6 +62,7 @@ resource configservice_string_config_field media_manager_5_collection_metadata_f
     title = 'Collection metadata fields'
     description = 'Fields that should be available in collections'
     language_versioned = false
+	type = 'string'
 }
 
 resource configservice_bit_config_field media_manager_5_enable_external_collection_sharing {
