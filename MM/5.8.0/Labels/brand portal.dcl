@@ -1,2112 +1,2112 @@
-﻿resource language_label settings_brand_portal_logo_title_en {
-    constant = 'SETTINGS_BRAND_PORTAL_LOGO_TITLE'
-    label = 'Logo'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label settings_brand_portal_logo_title_da {
-    constant = 'SETTINGS_BRAND_PORTAL_LOGO_TITLE'
-    label = 'Logo'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label settings_brand_portal_logo_desc_en {
-    constant = 'SETTINGS_BRAND_PORTAL_LOGO_DESC'
-    label = 'Change the logo in the top left corner'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label settings_brand_portal_logo_desc_da {
-    constant = 'SETTINGS_BRAND_PORTAL_LOGO_DESC'
-    label = 'Skift logoet oppe i venstre hjørne'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label settings_brand_portal_save_button_en {
-    constant = 'SETTINGS_BRAND_PORTAL_SAVE_BUTTON'
-    label = '{processing, select, true {Saving...} false {Save}}'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label settings_brand_portal_save_button_da {
-    constant = 'SETTINGS_BRAND_PORTAL_SAVE_BUTTON'
-    label = '{processing, select, true {Gemmer...} false {Gem}}'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label settings_brand_portal_discard_button_en {
-    constant = 'SETTINGS_BRAND_PORTAL_DISCARD_BUTTON'
-    label = 'Discard changes'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label settings_brand_portal_discard_button_da {
-    constant = 'SETTINGS_BRAND_PORTAL_DISCARD_BUTTON'
-    label = 'Kassér ændringer'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label settings_brand_portal_logo_config_title_en {
-    constant = 'SETTINGS_BRAND_PORTAL_LOGO_CONFIG_TITLE'
-    label = '{type, select, primary {Desktop view} secondary {Mobile view}}'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label settings_brand_portal_logo_config_title_da {
-    constant = 'SETTINGS_BRAND_PORTAL_LOGO_CONFIG_TITLE'
-    label = '{type, select, primary {Computervisning} secondary {Mobilvisning}}'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label settings_brand_portal_logo_config_info_en {
-    constant = 'SETTINGS_BRAND_PORTAL_LOGO_CONFIG_INFO'
-    label = '{type, select, primary {We recommend using PNGs and SVGs up to 100 KB} secondary {This logo will appear inside the mobile navigation menu. We recommend using PNGs and SVGs up to 100 KB}}'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label settings_brand_portal_logo_config_info_da {
-    constant = 'SETTINGS_BRAND_PORTAL_LOGO_CONFIG_INFO'
-    label = '{type, select, primary {Vi anbefaler at bruge max 100 KB filer af typerne PNG eller SVG} secondary {Dette logo vises på mobilers navigationsmenuer. Vi anbefaler at bruge max 100 KB filer af typerne PNG eller SVG}}'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label settings_brand_portal_theme_colors_title_en {
-    constant = 'SETTINGS_BRAND_PORTAL_THEME_COLORS_TITLE'
-    label = 'Theme colors'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label settings_brand_portal_theme_colors_title_da {
-    constant = 'SETTINGS_BRAND_PORTAL_THEME_COLORS_TITLE'
-    label = 'Temafarver'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label settings_brand_portal_theme_colors_desc_en {
-    constant = 'SETTINGS_BRAND_PORTAL_THEME_COLORS_DESC'
-    label = 'Style the colors of the navigation bar, buttons, etc'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label settings_brand_portal_theme_colors_desc_da {
-    constant = 'SETTINGS_BRAND_PORTAL_THEME_COLORS_DESC'
-    label = 'Style farverne på navigationslinjen, knapper osv'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label settings_brand_portal_save_error_title_en {
-    constant = 'SETTINGS_BRAND_PORTAL_SAVE_ERROR_TITLE'
-    label = 'Error'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label settings_brand_portal_save_error_title_da {
-    constant = 'SETTINGS_BRAND_PORTAL_SAVE_ERROR_TITLE'
-    label = 'Fejl'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label settings_brand_portal_save_error_desc_en {
-    constant = 'SETTINGS_BRAND_PORTAL_SAVE_ERROR_DESC'
-    label = 'An unexpected error occurred. Please contact an administrator if this issue persists'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label settings_brand_portal_save_error_desc_da {
-    constant = 'SETTINGS_BRAND_PORTAL_SAVE_ERROR_DESC'
-    label = 'Der opstod en uventet fejl. Kontakt venligst en administrator, hvis dette problem fortsætter'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label settings_brand_portal_asset_cards_title_en {
-    constant = 'SETTINGS_BRAND_PORTAL_ASSET_CARDS_TITLE'
-    label = 'Asset cards'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label settings_brand_portal_asset_cards_title_da {
-    constant = 'SETTINGS_BRAND_PORTAL_ASSET_CARDS_TITLE'
-    label = 'Assetkort'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label settings_brand_portal_asset_cards_layout_type_en {
-    constant = 'SETTINGS_BRAND_PORTAL_ASSET_CARDS_LAYOUT_TYPE'
-    label = 'Use asset card layout'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label settings_brand_portal_asset_cards_layout_type_da {
-    constant = 'SETTINGS_BRAND_PORTAL_ASSET_CARDS_LAYOUT_TYPE'
-    label = 'Brug assetkort-layout'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label settings_brand_portal_asset_cards_layout_type_default_en {
-    constant = 'SETTINGS_BRAND_PORTAL_ASSET_CARDS_LAYOUT_TYPE_DEFAULT'
-    label = 'Default'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label settings_brand_portal_asset_cards_layout_type_default_da {
-    constant = 'SETTINGS_BRAND_PORTAL_ASSET_CARDS_LAYOUT_TYPE_DEFAULT'
-    label = 'Standard'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label settings_brand_portal_asset_cards_layout_type_custom_en {
-    constant = 'SETTINGS_BRAND_PORTAL_ASSET_CARDS_LAYOUT_TYPE_CUSTOM'
-    label = 'Custom'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label settings_brand_portal_asset_cards_layout_type_custom_da {
-    constant = 'SETTINGS_BRAND_PORTAL_ASSET_CARDS_LAYOUT_TYPE_CUSTOM'
-    label = 'Tilpasset'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label settings_brand_portal_asset_cards_chose_ratio_en {
-    constant = 'SETTINGS_BRAND_PORTAL_ASSET_CARDS_CHOSE_RATIO'
-    label = 'Choose ratio'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label settings_brand_portal_asset_cards_chose_ratio_da {
-    constant = 'SETTINGS_BRAND_PORTAL_ASSET_CARDS_CHOSE_RATIO'
-    label = 'Vælg ratio'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label settings_brand_portal_asset_cards_custom_size_en {
-    constant = 'SETTINGS_BRAND_PORTAL_ASSET_CARDS_CUSTOM_SIZE'
-    label = 'Custom size (width x height)'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label settings_brand_portal_asset_cards_custom_size_da {
-    constant = 'SETTINGS_BRAND_PORTAL_ASSET_CARDS_CUSTOM_SIZE'
-    label = 'Brugerdefineret størrelse (bredde x højde)'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label settings_brand_portal_asset_cards_background_color_en {
-    constant = 'SETTINGS_BRAND_PORTAL_ASSET_CARDS_BACKGROUND_COLOR'
-    label = 'Background color'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label settings_brand_portal_asset_cards_background_color_da {
-    constant = 'SETTINGS_BRAND_PORTAL_ASSET_CARDS_BACKGROUND_COLOR'
-    label = 'Baggrundsfarve'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label settings_brand_portal_asset_cards_background_color_customize_en {
-    constant = 'SETTINGS_BRAND_PORTAL_ASSET_CARDS_BACKGROUND_COLOR_CUSTOMIZE'
-    label = 'Customize'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label settings_brand_portal_asset_cards_background_color_customize_da {
-    constant = 'SETTINGS_BRAND_PORTAL_ASSET_CARDS_BACKGROUND_COLOR_CUSTOMIZE'
-    label = 'Tilpas'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label settings_brand_portal_asset_cards_zoom_to_fit_en {
-    constant = 'SETTINGS_BRAND_PORTAL_ASSET_CARDS_ZOOM_TO_FIT'
-    label = 'Enlarge thumbnails to fit the cards'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label settings_brand_portal_asset_cards_zoom_to_fit_da {
-    constant = 'SETTINGS_BRAND_PORTAL_ASSET_CARDS_ZOOM_TO_FIT'
-    label = 'Forstør thumbnails, så de passer til kortene'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label settings_brand_portal_asset_cards_preview_en {
-    constant = 'SETTINGS_BRAND_PORTAL_ASSET_CARDS_PREVIEW'
-    label = 'Preview'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label settings_brand_portal_asset_cards_preview_da {
-    constant = 'SETTINGS_BRAND_PORTAL_ASSET_CARDS_PREVIEW'
-    label = 'Forhåndsvisning'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label settings_brand_portal_asset_cards_preview_quality_en {
-    constant = 'SETTINGS_BRAND_PORTAL_ASSET_CARDS_PREVIEW_QUALITY'
-    label = 'Increase the resolution of thumbnails'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label settings_brand_portal_asset_cards_preview_quality_da {
-    constant = 'SETTINGS_BRAND_PORTAL_ASSET_CARDS_PREVIEW_QUALITY'
-    label = 'Forøg opløsningen på thumbnails'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label settings_brand_portal_asset_cards_preview_quality_info_en {
-    constant = 'SETTINGS_BRAND_PORTAL_ASSET_CARDS_PREVIEW_QUALITY_INFO'
-    label = 'Choosing this option may result in a poor experience for older devices'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label settings_brand_portal_asset_cards_preview_quality_info_da {
-    constant = 'SETTINGS_BRAND_PORTAL_ASSET_CARDS_PREVIEW_QUALITY_INFO'
-    label = 'Hvis dette slås til kan det resultere i en dårligere oplevelse for ældre enheder'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label settings_brand_portal_edit_layout_live_edit_label_en {
-    constant = 'SETTINGS_BRAND_PORTAL_EDIT_LAYOUT_LIVE_EDIT_LABEL'
-    label = 'You are editing the page\'s layout'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label settings_brand_portal_edit_layout_live_edit_label_da {
-    constant = 'SETTINGS_BRAND_PORTAL_EDIT_LAYOUT_LIVE_EDIT_LABEL'
-    label = 'Du redigerer sidens layout'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label settings_brand_portal_edit_layout_en {
-    constant = 'SETTINGS_BRAND_PORTAL_EDIT_LAYOUT'
-    label = 'Edit layout'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label settings_brand_portal_edit_layout_da {
-    constant = 'SETTINGS_BRAND_PORTAL_EDIT_LAYOUT'
-    label = 'Rediger layout'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label settings_brand_portal_edit_layout_show_assets_en {
-    constant = 'SETTINGS_BRAND_PORTAL_EDIT_LAYOUT_SHOW_ASSETS'
-    label = 'Show assets'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label settings_brand_portal_edit_layout_show_assets_da {
-    constant = 'SETTINGS_BRAND_PORTAL_EDIT_LAYOUT_SHOW_ASSETS'
-    label = 'Vis assets'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label settings_brand_portal_edit_layout_hide_filter_en {
-    constant = 'SETTINGS_BRAND_PORTAL_EDIT_LAYOUT_HIDE_FILTER'
-    label = 'Hide filter panel'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label settings_brand_portal_edit_layout_hide_filter_da {
-    constant = 'SETTINGS_BRAND_PORTAL_EDIT_LAYOUT_HIDE_FILTER'
-    label = 'Gem filterpanelet væk'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label settings_brand_portal_edit_layout_cover_layout_on_folders_en {
-    constant = 'SETTINGS_BRAND_PORTAL_EDIT_LAYOUT_COVER_LAYOUT_ON_FOLDERS'
-    label = 'Cover layout on folders'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label settings_brand_portal_edit_layout_cover_layout_on_folders_da {
-    constant = 'SETTINGS_BRAND_PORTAL_EDIT_LAYOUT_COVER_LAYOUT_ON_FOLDERS'
-    label = 'Cover-layout på mapper'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label settings_brand_portal_edit_layout_hide_folder_titles_en {
-    constant = 'SETTINGS_BRAND_PORTAL_EDIT_LAYOUT_HIDE_FOLDER_TITLES'
-    label = 'Hide folder titles'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label settings_brand_portal_edit_layout_hide_folder_titles_da {
-    constant = 'SETTINGS_BRAND_PORTAL_EDIT_LAYOUT_HIDE_FOLDER_TITLES'
-    label = 'Skjul mappetitler'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label settings_brand_portal_edit_layout_hide_assets_en {
-    constant = 'SETTINGS_BRAND_PORTAL_EDIT_LAYOUT_HIDE_ASSETS'
-    label = 'Hide assets'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label settings_brand_portal_edit_layout_hide_assets_da {
-    constant = 'SETTINGS_BRAND_PORTAL_EDIT_LAYOUT_HIDE_ASSETS'
-    label = 'Gem assets væk'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label settings_brand_portal_edit_layout_btn_save_en {
-    constant = 'SETTINGS_BRAND_PORTAL_EDIT_LAYOUT_BTN_SAVE'
-    label = '{saving, select, true {Saving...} false {Save}}'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label settings_brand_portal_edit_layout_btn_save_da {
-    constant = 'SETTINGS_BRAND_PORTAL_EDIT_LAYOUT_BTN_SAVE'
-    label = '{saving, select, true {Gemmer...} false {Gem}}'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label settings_brand_portal_edit_layout_btn_close_en {
-    constant = 'SETTINGS_BRAND_PORTAL_EDIT_LAYOUT_BTN_CLOSE'
-    label = 'Close'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label settings_brand_portal_edit_layout_btn_close_da {
-    constant = 'SETTINGS_BRAND_PORTAL_EDIT_LAYOUT_BTN_CLOSE'
-    label = 'Luk'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label settings_brand_portal_edit_layout_btn_discard_en {
-    constant = 'SETTINGS_BRAND_PORTAL_EDIT_LAYOUT_BTN_DISCARD'
-    label = 'Discard'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label settings_brand_portal_edit_layout_btn_discard_da {
-    constant = 'SETTINGS_BRAND_PORTAL_EDIT_LAYOUT_BTN_DISCARD'
-    label = 'Kassér'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label settings_brand_portal_edit_layout_saving_error_en {
-    constant = 'SETTINGS_BRAND_PORTAL_EDIT_LAYOUT_SAVING_ERROR'
-    label = 'An error occurred while saving. Your changes have not been saved.'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label settings_brand_portal_edit_layout_saving_error_da {
-    constant = 'SETTINGS_BRAND_PORTAL_EDIT_LAYOUT_SAVING_ERROR'
-    label = 'Der skete en fejl da vi prøvede at gemme. Dine ændringer er ikke blevet gemt.'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label settings_brand_portal_edit_layout_saving_error_no_image_en {
-    constant = 'SETTINGS_BRAND_PORTAL_EDIT_LAYOUT_SAVING_ERROR_NO_IMAGE'
-    label = 'A banner is required.'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label settings_brand_portal_edit_layout_saving_error_no_image_da {
-    constant = 'SETTINGS_BRAND_PORTAL_EDIT_LAYOUT_SAVING_ERROR_NO_IMAGE'
-    label = 'Et banner er påkrævet.'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label settings_brand_portal_edit_layout_saving_error_invalid_url_en {
-    constant = 'SETTINGS_BRAND_PORTAL_EDIT_LAYOUT_SAVING_ERROR_INVALID_URL'
-    label = 'The URL is invalid.'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label settings_brand_portal_edit_layout_saving_error_invalid_url_da {
-    constant = 'SETTINGS_BRAND_PORTAL_EDIT_LAYOUT_SAVING_ERROR_INVALID_URL'
-    label = 'URL\'en er ugyldig.'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label brand_portal_hero_banner_asset_picker_title_en {
-    constant = 'BRAND_PORTAL_HERO_BANNER_ASSET_PICKER_TITLE'
-    label = 'Choose hero banner'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label brand_portal_hero_banner_asset_picker_title_da {
-    constant = 'BRAND_PORTAL_HERO_BANNER_ASSET_PICKER_TITLE'
-    label = 'Vælg hero banner'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label brand_portal_hero_banner_popup_option_upload_from_media_en {
-    constant = 'BRAND_PORTAL_HERO_BANNER_POPUP_OPTION_UPLOAD_FROM_MEDIA'
-    label = 'Choose from Media Manager'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label brand_portal_hero_banner_popup_option_upload_from_media_da {
-    constant = 'BRAND_PORTAL_HERO_BANNER_POPUP_OPTION_UPLOAD_FROM_MEDIA'
-    label = 'Vælg fra Media Manager'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label brand_portal_hero_banner_popup_option_upload_file_en {
-    constant = 'BRAND_PORTAL_HERO_BANNER_POPUP_OPTION_UPLOAD_FILE'
-    label = 'Upload from desktop'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label brand_portal_hero_banner_popup_option_upload_file_da {
-    constant = 'BRAND_PORTAL_HERO_BANNER_POPUP_OPTION_UPLOAD_FILE'
-    label = 'Upload fra skrivebordet'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label brand_portal_hero_banner_add_image_tooltip_en {
-    constant = 'BRAND_PORTAL_HERO_BANNER_ADD_IMAGE_TOOLTIP'
-    label = 'Add an image'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label brand_portal_hero_banner_add_image_tooltip_da {
-    constant = 'BRAND_PORTAL_HERO_BANNER_ADD_IMAGE_TOOLTIP'
-    label = 'Tilføj et billede'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label brand_portal_hero_banner_empty_image_text_en {
-    constant = 'BRAND_PORTAL_HERO_BANNER_EMPTY_IMAGE_TEXT'
-    label = 'No image has been chosen yet'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label brand_portal_hero_banner_empty_image_text_da {
-    constant = 'BRAND_PORTAL_HERO_BANNER_EMPTY_IMAGE_TEXT'
-    label = 'Der er ikke valgt et billede endnu'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label brand_portal_hero_banner_empty_image_button_en {
-    constant = 'BRAND_PORTAL_HERO_BANNER_EMPTY_IMAGE_BUTTON'
-    label = 'Choose image'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label brand_portal_hero_banner_empty_image_button_da {
-    constant = 'BRAND_PORTAL_HERO_BANNER_EMPTY_IMAGE_BUTTON'
-    label = 'Vælg billede'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label brand_portal_settings_show_hero_banner_toggle_label_en {
-    constant = 'BRAND_PORTAL_SETTINGS_SHOW_HERO_BANNER_TOGGLE_LABEL'
-    label = 'Show hero banner'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label brand_portal_settings_show_hero_banner_toggle_label_da {
-    constant = 'BRAND_PORTAL_SETTINGS_SHOW_HERO_BANNER_TOGGLE_LABEL'
-    label = 'Vis hero-banner'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label brand_portal_settings_show_hero_banner_headline_label_en {
-    constant = 'BRAND_PORTAL_SETTINGS_SHOW_HERO_BANNER_HEADLINE_LABEL'
-    label = 'Headline'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label brand_portal_settings_show_hero_banner_headline_label_da {
-    constant = 'BRAND_PORTAL_SETTINGS_SHOW_HERO_BANNER_HEADLINE_LABEL'
-    label = 'Overskrift'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label brand_portal_settings_show_hero_banner_subtitle_label_en {
-    constant = 'BRAND_PORTAL_SETTINGS_SHOW_HERO_BANNER_SUBTITLE_LABEL'
-    label = 'Subtitle'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label brand_portal_settings_show_hero_banner_subtitle_label_da {
-    constant = 'BRAND_PORTAL_SETTINGS_SHOW_HERO_BANNER_SUBTITLE_LABEL'
-    label = 'Undertekst'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label brand_portal_settings_show_hero_banner_link_url_label_en {
-    constant = 'BRAND_PORTAL_SETTINGS_SHOW_HERO_BANNER_LINK_URL_LABEL'
-    label = 'Link URL'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label brand_portal_settings_show_hero_banner_link_url_label_da {
-    constant = 'BRAND_PORTAL_SETTINGS_SHOW_HERO_BANNER_LINK_URL_LABEL'
-    label = 'Link URL'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label brand_portal_settings_show_hero_banner_open_link_in_new_tab_label_en {
-    constant = 'BRAND_PORTAL_SETTINGS_SHOW_HERO_BANNER_OPEN_LINK_IN_NEW_TAB_LABEL'
-    label = 'Open link in new tab'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label brand_portal_settings_show_hero_banner_open_link_in_new_tab_label_da {
-    constant = 'BRAND_PORTAL_SETTINGS_SHOW_HERO_BANNER_OPEN_LINK_IN_NEW_TAB_LABEL'
-    label = 'Åbn link i ny fane'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label brand_portal_settings_show_hide_language_options_en {
-    constant = 'BRAND_PORTAL_SETTINGS_SHOW_HIDE_LANGUAGE_OPTIONS'
-    label = '{value, select, true {Hide} false {Show}} language options'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label brand_portal_settings_show_hide_language_options_da {
-    constant = 'BRAND_PORTAL_SETTINGS_SHOW_HIDE_LANGUAGE_OPTIONS'
-    label = '{value, select, true {Skjul} false {Vis}} sprogindstillinger'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label brand_portal_settings_hero_banner_custom_colors_en {
-    constant = 'BRAND_PORTAL_SETTINGS_HERO_BANNER_CUSTOM_COLORS'
-    label = 'Use custom colors'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label brand_portal_settings_hero_banner_custom_colors_da {
-    constant = 'BRAND_PORTAL_SETTINGS_HERO_BANNER_CUSTOM_COLORS'
-    label = 'Brug brugerdefinerede farver'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label brand_portal_settings_hero_banner_text_color_en {
-    constant = 'BRAND_PORTAL_SETTINGS_HERO_BANNER_TEXT_COLOR'
-    label = 'Text color'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label brand_portal_settings_hero_banner_text_color_da {
-    constant = 'BRAND_PORTAL_SETTINGS_HERO_BANNER_TEXT_COLOR'
-    label = 'Tekstfarve'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label brand_portal_settings_hero_banner_text_bg_color_en {
-    constant = 'BRAND_PORTAL_SETTINGS_HERO_BANNER_TEXT_BG_COLOR'
-    label = 'Text background color'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label brand_portal_settings_hero_banner_text_bg_color_da {
-    constant = 'BRAND_PORTAL_SETTINGS_HERO_BANNER_TEXT_BG_COLOR'
-    label = 'Tekst-baggrundsfarve'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label brand_portal_folder_asset_picker_title_en {
-    constant = 'BRAND_PORTAL_FOLDER_ASSET_PICKER_TITLE'
-    label = 'Choose a cover image for the folder'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label brand_portal_folder_asset_picker_title_da {
-    constant = 'BRAND_PORTAL_FOLDER_ASSET_PICKER_TITLE'
-    label = 'Vælg et forsidebillede til mappen'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label brand_portal_folder_add_image_tooltip_en {
-    constant = 'BRAND_PORTAL_FOLDER_ADD_IMAGE_TOOLTIP'
-    label = 'Choose image'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label brand_portal_folder_add_image_tooltip_da {
-    constant = 'BRAND_PORTAL_FOLDER_ADD_IMAGE_TOOLTIP'
-    label = 'Vælg billede'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label brand_portal_settings_fonts_fonts_en {
-    constant = 'BRAND_PORTAL_SETTINGS_FONTS_FONTS'
-    label = 'Fonts'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label brand_portal_settings_fonts_fonts_da {
-    constant = 'BRAND_PORTAL_SETTINGS_FONTS_FONTS'
-    label = 'Fonte'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label brand_portal_settings_fonts_default_font_en {
-    constant = 'BRAND_PORTAL_SETTINGS_FONTS_DEFAULT_FONT'
-    label = 'Default font'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label brand_portal_settings_fonts_default_font_da {
-    constant = 'BRAND_PORTAL_SETTINGS_FONTS_DEFAULT_FONT'
-    label = 'Standardfont'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label brand_portal_settings_fonts_upload_fonts_en {
-    constant = 'BRAND_PORTAL_SETTINGS_FONTS_UPLOAD_FONTS'
-    label = 'Upload fonts'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label brand_portal_settings_fonts_upload_fonts_da {
-    constant = 'BRAND_PORTAL_SETTINGS_FONTS_UPLOAD_FONTS'
-    label = 'Upload fonte'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label brand_portal_settings_fonts_enter_font_name_en {
-    constant = 'BRAND_PORTAL_SETTINGS_FONTS_ENTER_FONT_NAME'
-    label = 'Enter font name'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label brand_portal_settings_fonts_enter_font_name_da {
-    constant = 'BRAND_PORTAL_SETTINGS_FONTS_ENTER_FONT_NAME'
-    label = 'Indtast fontnavn'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label brand_portal_settings_fonts_choose_font_file_en {
-    constant = 'BRAND_PORTAL_SETTINGS_FONTS_CHOOSE_FONT_FILE'
-    label = 'Choose font file'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label brand_portal_settings_fonts_choose_font_file_da {
-    constant = 'BRAND_PORTAL_SETTINGS_FONTS_CHOOSE_FONT_FILE'
-    label = 'Vælg font fil'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label brand_portal_settings_fonts_selected_file_en {
-    constant = 'BRAND_PORTAL_SETTINGS_FONTS_SELECTED_FILE'
-    label = 'Selected file'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label brand_portal_settings_fonts_selected_file_da {
-    constant = 'BRAND_PORTAL_SETTINGS_FONTS_SELECTED_FILE'
-    label = 'Valgt fil'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label brand_portal_settings_fonts_edit_fonts_en {
-    constant = 'BRAND_PORTAL_SETTINGS_FONTS_EDIT_FONTS'
-    label = 'Edit fonts'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label brand_portal_settings_fonts_edit_fonts_da {
-    constant = 'BRAND_PORTAL_SETTINGS_FONTS_EDIT_FONTS'
-    label = 'Rediger fonte'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label brand_portal_settings_fonts_font_name_en {
-    constant = 'BRAND_PORTAL_SETTINGS_FONTS_FONT_NAME'
-    label = 'Font name'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label brand_portal_settings_fonts_font_name_da {
-    constant = 'BRAND_PORTAL_SETTINGS_FONTS_FONT_NAME'
-    label = 'Fontnavn'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label brand_portal_settings_fonts_delete_en {
-    constant = 'BRAND_PORTAL_SETTINGS_FONTS_DELETE'
-    label = 'Delete'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label brand_portal_settings_fonts_delete_da {
-    constant = 'BRAND_PORTAL_SETTINGS_FONTS_DELETE'
-    label = 'Slet'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label brand_portal_settings_fonts_cancel_en {
-    constant = 'BRAND_PORTAL_SETTINGS_FONTS_CANCEL'
-    label = 'Cancel'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label brand_portal_settings_fonts_cancel_da {
-    constant = 'BRAND_PORTAL_SETTINGS_FONTS_CANCEL'
-    label = 'Annullér'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label brand_portal_settings_fonts_reset_form_en {
-    constant = 'BRAND_PORTAL_SETTINGS_FONTS_RESET_FORM'
-    label = 'Reset form'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label brand_portal_settings_fonts_reset_form_da {
-    constant = 'BRAND_PORTAL_SETTINGS_FONTS_RESET_FORM'
-    label = 'Nulstil form'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label brand_portal_settings_fonts_upload_en {
-    constant = 'BRAND_PORTAL_SETTINGS_FONTS_UPLOAD'
-    label = 'Upload'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label brand_portal_settings_fonts_upload_da {
-    constant = 'BRAND_PORTAL_SETTINGS_FONTS_UPLOAD'
-    label = 'Upload'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label brand_portal_settings_fonts_no_fonts_en {
-    constant = 'BRAND_PORTAL_SETTINGS_FONTS_NO_FONTS'
-    label = 'No fonts were found'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label brand_portal_settings_fonts_no_fonts_da {
-    constant = 'BRAND_PORTAL_SETTINGS_FONTS_NO_FONTS'
-    label = 'Der blev ikke fundet nogen fonte'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label brand_portal_settings_fonts_delete_font_en {
-    constant = 'BRAND_PORTAL_SETTINGS_FONTS_DELETE_FONT'
-    label = 'Delete font'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label brand_portal_settings_fonts_delete_font_da {
-    constant = 'BRAND_PORTAL_SETTINGS_FONTS_DELETE_FONT'
-    label = 'Slet font'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label brand_portal_settings_fonts_are_you_sure_delete_en {
-    constant = 'BRAND_PORTAL_SETTINGS_FONTS_ARE_YOU_SURE_DELETE'
-    label = 'Are you sure you want to delete this font?'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label brand_portal_settings_fonts_are_you_sure_delete_da {
-    constant = 'BRAND_PORTAL_SETTINGS_FONTS_ARE_YOU_SURE_DELETE'
-    label = 'Er du sikker på at du vil slette denne font?'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label brand_portal_settings_fonts_display_fonts_en {
-    constant = 'BRAND_PORTAL_SETTINGS_FONTS_DISPLAY_FONTS'
-    label = 'These will be applied to banner headings and folders with cover layout enabled'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label brand_portal_settings_fonts_display_fonts_da {
-    constant = 'BRAND_PORTAL_SETTINGS_FONTS_DISPLAY_FONTS'
-    label = 'Disse vil blive anvendt på banneroverskrifter og mapper med cover-layout aktiveret'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label brand_portal_settings_fonts_headline_font_en {
-    constant = 'BRAND_PORTAL_SETTINGS_FONTS_HEADLINE_FONT'
-    label = 'Hero banner headline font'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label brand_portal_settings_fonts_headline_font_da {
-    constant = 'BRAND_PORTAL_SETTINGS_FONTS_HEADLINE_FONT'
-    label = 'Hero-banner-overskrifts-font'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label brand_portal_settings_fonts_subtitle_font_en {
-    constant = 'BRAND_PORTAL_SETTINGS_FONTS_SUBTITLE_FONT'
-    label = 'Hero banner subtitle font'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label brand_portal_settings_fonts_subtitle_font_da {
-    constant = 'BRAND_PORTAL_SETTINGS_FONTS_SUBTITLE_FONT'
-    label = 'Hero-banner-underteksts-font'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label brand_portal_settings_fonts_cover_image_font_en {
-    constant = 'BRAND_PORTAL_SETTINGS_FONTS_COVER_IMAGE_FONT'
-    label = 'Cover image font'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label brand_portal_settings_fonts_cover_image_font_da {
-    constant = 'BRAND_PORTAL_SETTINGS_FONTS_COVER_IMAGE_FONT'
-    label = 'Coverbillede font'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label brand_portal_settings_fonts_manage_fonts_en {
-    constant = 'BRAND_PORTAL_SETTINGS_FONTS_MANAGE_FONTS'
-    label = 'Manage fonts'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label brand_portal_settings_fonts_manage_fonts_da {
-    constant = 'BRAND_PORTAL_SETTINGS_FONTS_MANAGE_FONTS'
-    label = 'Administrer fonte'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label brand_portal_folder_context_menu_tooltip_en {
-    constant = 'BRAND_PORTAL_FOLDER_CONTEXT_MENU_TOOLTIP'
-    label = 'Manage folder'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label brand_portal_folder_context_menu_tooltip_da {
-    constant = 'BRAND_PORTAL_FOLDER_CONTEXT_MENU_TOOLTIP'
-    label = 'Administrer mappe'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label brand_portal_folder_context_menu_delete_en {
-    constant = 'BRAND_PORTAL_FOLDER_CONTEXT_MENU_DELETE'
-    label = 'Delete'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label brand_portal_folder_context_menu_delete_da {
-    constant = 'BRAND_PORTAL_FOLDER_CONTEXT_MENU_DELETE'
-    label = 'Slet'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label brand_portal_folder_context_menu_rename_en {
-    constant = 'BRAND_PORTAL_FOLDER_CONTEXT_MENU_RENAME'
-    label = 'Rename'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label brand_portal_folder_context_menu_rename_da {
-    constant = 'BRAND_PORTAL_FOLDER_CONTEXT_MENU_RENAME'
-    label = 'Omdøb'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label brand_portal_folder_context_menu_duplicate_en {
-    constant = 'BRAND_PORTAL_FOLDER_CONTEXT_MENU_DUPLICATE'
-    label = 'Duplicate'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label brand_portal_folder_context_menu_duplicate_da {
-    constant = 'BRAND_PORTAL_FOLDER_CONTEXT_MENU_DUPLICATE'
-    label = 'Dupliker'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label brand_portal_folder_context_menu_access_en {
-    constant = 'BRAND_PORTAL_FOLDER_CONTEXT_MENU_ACCESS'
-    label = 'Access'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label brand_portal_folder_context_menu_access_da {
-    constant = 'BRAND_PORTAL_FOLDER_CONTEXT_MENU_ACCESS'
-    label = 'Tilgængelighed'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label brand_portal_folder_drag_en {
-    constant = 'BRAND_PORTAL_FOLDER_DRAG'
-    label = 'Drag to change the order'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label brand_portal_folder_drag_da {
-    constant = 'BRAND_PORTAL_FOLDER_DRAG'
-    label = 'Træk her for at ændre rækkefølgen'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label brand_portal_rename_folder_title_en {
-    constant = 'BRAND_PORTAL_RENAME_FOLDER_TITLE'
-    label = 'Rename'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label brand_portal_rename_folder_title_da {
-    constant = 'BRAND_PORTAL_RENAME_FOLDER_TITLE'
-    label = 'Omdøb'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label brand_portal_rename_folder_languages_en {
-    constant = 'BRAND_PORTAL_RENAME_FOLDER_LANGUAGES'
-    label = 'Languages'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label brand_portal_rename_folder_languages_da {
-    constant = 'BRAND_PORTAL_RENAME_FOLDER_LANGUAGES'
-    label = 'Sprog'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label brand_portal_save_folder_confirmation_body_en {
-    constant = 'BRAND_PORTAL_SAVE_FOLDER_CONFIRMATION_BODY'
-    label = 'Your changes will be saved and become visible to other users after confirmation. Do you wish to proceed?'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label brand_portal_save_folder_confirmation_body_da {
-    constant = 'BRAND_PORTAL_SAVE_FOLDER_CONFIRMATION_BODY'
-    label = 'Dine ændringer gemmes og bliver synlige for andre brugere efter bekræftelse. Ønsker du at fortsætte?'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label brand_portal_save_folder_confirmation_cancel_button_en {
-    constant = 'BRAND_PORTAL_SAVE_FOLDER_CONFIRMATION_CANCEL_BUTTON'
-    label = 'Cancel'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label brand_portal_save_folder_confirmation_cancel_button_da {
-    constant = 'BRAND_PORTAL_SAVE_FOLDER_CONFIRMATION_CANCEL_BUTTON'
-    label = 'Annuller'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label brand_portal_save_folder_confirmation_confirm_button_en {
-    constant = 'BRAND_PORTAL_SAVE_FOLDER_CONFIRMATION_CONFIRM_BUTTON'
-    label = 'Confirm'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label brand_portal_save_folder_confirmation_confirm_button_da {
-    constant = 'BRAND_PORTAL_SAVE_FOLDER_CONFIRMATION_CONFIRM_BUTTON'
-    label = 'Bekræft'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label brand_portal_edit_page_button_en {
-    constant = 'BRAND_PORTAL_EDIT_PAGE_BUTTON'
-    label = 'Edit page layout'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label brand_portal_edit_page_button_da {
-    constant = 'BRAND_PORTAL_EDIT_PAGE_BUTTON'
-    label = 'Rediger sidens layout'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label brand_portal_edit_page_button_tooltip_en {
-    constant = 'BRAND_PORTAL_EDIT_PAGE_BUTTON_TOOLTIP'
-    label = 'Edit page layout'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label brand_portal_edit_page_button_tooltip_da {
-    constant = 'BRAND_PORTAL_EDIT_PAGE_BUTTON_TOOLTIP'
-    label = 'Rediger sidens layout'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label brand_portal_create_folder_title_en {
-    constant = 'BRAND_PORTAL_CREATE_FOLDER_TITLE'
-    label = 'Create a new folder'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label brand_portal_create_folder_title_da {
-    constant = 'BRAND_PORTAL_CREATE_FOLDER_TITLE'
-    label = 'Opret en ny mappe'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label brand_portal_folder_toggle_en {
-    constant = 'BRAND_PORTAL_FOLDER_TOGGLE'
-    label = '{hide, select, true {Hide language options -} false {Show language options +}}'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label brand_portal_folder_toggle_da {
-    constant = 'BRAND_PORTAL_FOLDER_TOGGLE'
-    label = '{hide, select, true {Skjul sprogindstillinger -} false {Vis sprogindstillinger +}}'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label brand_portal_folder_ok_en {
-    constant = 'BRAND_PORTAL_FOLDER_OK'
-    label = '{isCreate, select, true {Create} false {Save}}'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label brand_portal_folder_ok_da {
-    constant = 'BRAND_PORTAL_FOLDER_OK'
-    label = '{isCreate, select, true {Opret} false {Gem}}'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label brand_portal_folder_cancel_en {
-    constant = 'BRAND_PORTAL_FOLDER_CANCEL'
-    label = 'Cancel'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label brand_portal_folder_cancel_da {
-    constant = 'BRAND_PORTAL_FOLDER_CANCEL'
-    label = 'Annuller'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label brand_portal_folder_create_en {
-    constant = 'BRAND_PORTAL_FOLDER_CREATE'
-    label = 'Create folder'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label brand_portal_folder_create_da {
-    constant = 'BRAND_PORTAL_FOLDER_CREATE'
-    label = 'Opret mappe'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label brand_portal_styles_create_new_style_button_en {
-    constant = 'BRAND_PORTAL_STYLES_CREATE_NEW_STYLE_BUTTON'
-    label = 'New portal style'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label brand_portal_styles_create_new_style_button_da {
-    constant = 'BRAND_PORTAL_STYLES_CREATE_NEW_STYLE_BUTTON'
-    label = 'Ny portal-style'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label brand_portal_style_create_dialog_title_en {
-    constant = 'BRAND_PORTAL_STYLE_CREATE_DIALOG_TITLE'
-    label = 'New portal style'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label brand_portal_style_create_dialog_title_da {
-    constant = 'BRAND_PORTAL_STYLE_CREATE_DIALOG_TITLE'
-    label = 'Ny portal-style'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label brand_portal_style_create_dialog_name_en {
-    constant = 'BRAND_PORTAL_STYLE_CREATE_DIALOG_NAME'
-    label = 'Enter name'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label brand_portal_style_create_dialog_name_da {
-    constant = 'BRAND_PORTAL_STYLE_CREATE_DIALOG_NAME'
-    label = 'Indtast navn'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label brand_portal_style_create_button_cancel_en {
-    constant = 'BRAND_PORTAL_STYLE_CREATE_BUTTON_CANCEL'
-    label = 'Cancel'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label brand_portal_style_create_button_cancel_da {
-    constant = 'BRAND_PORTAL_STYLE_CREATE_BUTTON_CANCEL'
-    label = 'Annullér'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label brand_portal_style_create_button_create_en {
-    constant = 'BRAND_PORTAL_STYLE_CREATE_BUTTON_CREATE'
-    label = 'Create'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label brand_portal_style_create_button_create_da {
-    constant = 'BRAND_PORTAL_STYLE_CREATE_BUTTON_CREATE'
-    label = 'Opret'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label brand_portal_style_create_error_name_required_en {
-    constant = 'BRAND_PORTAL_STYLE_CREATE_ERROR_NAME_REQUIRED'
-    label = 'Name required'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label brand_portal_style_create_error_name_required_da {
-    constant = 'BRAND_PORTAL_STYLE_CREATE_ERROR_NAME_REQUIRED'
-    label = 'Navn påkrævet'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label brand_portal_style_create_success_title_en {
-    constant = 'BRAND_PORTAL_STYLE_CREATE_SUCCESS_TITLE'
-    label = 'Success'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label brand_portal_style_create_success_title_da {
-    constant = 'BRAND_PORTAL_STYLE_CREATE_SUCCESS_TITLE'
-    label = 'Succes'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label brand_portal_style_create_success_body_en {
-    constant = 'BRAND_PORTAL_STYLE_CREATE_SUCCESS_BODY'
-    label = 'Portal style created.'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label brand_portal_style_create_success_body_da {
-    constant = 'BRAND_PORTAL_STYLE_CREATE_SUCCESS_BODY'
-    label = 'Portal-style oprettet.'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label brand_portal_style_rename_dialog_title_en {
-    constant = 'BRAND_PORTAL_STYLE_RENAME_DIALOG_TITLE'
-    label = 'Rename portal style'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label brand_portal_style_rename_dialog_title_da {
-    constant = 'BRAND_PORTAL_STYLE_RENAME_DIALOG_TITLE'
-    label = 'Omdøb portal-style'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label brand_portal_style_rename_dialog_name_en {
-    constant = 'BRAND_PORTAL_STYLE_RENAME_DIALOG_NAME'
-    label = 'Name'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label brand_portal_style_rename_dialog_name_da {
-    constant = 'BRAND_PORTAL_STYLE_RENAME_DIALOG_NAME'
-    label = 'Navn'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label brand_portal_style_rename_button_cancel_en {
-    constant = 'BRAND_PORTAL_STYLE_RENAME_BUTTON_CANCEL'
-    label = 'Cancel'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label brand_portal_style_rename_button_cancel_da {
-    constant = 'BRAND_PORTAL_STYLE_RENAME_BUTTON_CANCEL'
-    label = 'Annullér'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label brand_portal_style_rename_button_create_en {
-    constant = 'BRAND_PORTAL_STYLE_RENAME_BUTTON_CREATE'
-    label = 'Rename'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label brand_portal_style_rename_button_create_da {
-    constant = 'BRAND_PORTAL_STYLE_RENAME_BUTTON_CREATE'
-    label = 'Omdøb'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label brand_portal_style_rename_error_name_required_en {
-    constant = 'BRAND_PORTAL_STYLE_RENAME_ERROR_NAME_REQUIRED'
-    label = 'Portal name required'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label brand_portal_style_rename_error_name_required_da {
-    constant = 'BRAND_PORTAL_STYLE_RENAME_ERROR_NAME_REQUIRED'
-    label = 'Portalnavn påkrævet'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label brand_portal_style_rename_success_title_en {
-    constant = 'BRAND_PORTAL_STYLE_RENAME_SUCCESS_TITLE'
-    label = 'Success'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label brand_portal_style_rename_success_title_da {
-    constant = 'BRAND_PORTAL_STYLE_RENAME_SUCCESS_TITLE'
-    label = 'Succes'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label brand_portal_style_rename_success_body_en {
-    constant = 'BRAND_PORTAL_STYLE_RENAME_SUCCESS_BODY'
-    label = 'Portal style renamed.'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label brand_portal_style_rename_success_body_da {
-    constant = 'BRAND_PORTAL_STYLE_RENAME_SUCCESS_BODY'
-    label = 'Portal-style omdøbt.'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label brand_portal_styles_dialog_delete_style_title_en {
-    constant = 'BRAND_PORTAL_STYLES_DIALOG_DELETE_STYLE_TITLE'
-    label = 'Delete portal style'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label brand_portal_styles_dialog_delete_style_title_da {
-    constant = 'BRAND_PORTAL_STYLES_DIALOG_DELETE_STYLE_TITLE'
-    label = 'Slet portal-style'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label brand_portal_styles_dialog_delete_style_text_en {
-    constant = 'BRAND_PORTAL_STYLES_DIALOG_DELETE_STYLE_TEXT'
-    label = 'Are you sure you want to delete this portal style? Any references to this style on pages and collections will be removed.'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label brand_portal_styles_dialog_delete_style_text_da {
-    constant = 'BRAND_PORTAL_STYLES_DIALOG_DELETE_STYLE_TEXT'
-    label = 'Er du sikker på, at du vil slette portal-stylen? Enhver reference til denne style på sider og collections vil blive fjernet.'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label brand_portal_styles_dialog_delete_style_cancel_en {
-    constant = 'BRAND_PORTAL_STYLES_DIALOG_DELETE_STYLE_CANCEL'
-    label = 'Cancel'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label brand_portal_styles_dialog_delete_style_cancel_da {
-    constant = 'BRAND_PORTAL_STYLES_DIALOG_DELETE_STYLE_CANCEL'
-    label = 'Annullér'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label brand_portal_styles_dialog_delete_style_confirm_en {
-    constant = 'BRAND_PORTAL_STYLES_DIALOG_DELETE_STYLE_CONFIRM'
-    label = 'Confirm'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label brand_portal_styles_dialog_delete_style_confirm_da {
-    constant = 'BRAND_PORTAL_STYLES_DIALOG_DELETE_STYLE_CONFIRM'
-    label = 'Bekræft'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label brand_portal_style_delete_success_title_en {
-    constant = 'BRAND_PORTAL_STYLE_DELETE_SUCCESS_TITLE'
-    label = 'Success'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label brand_portal_style_delete_success_title_da {
-    constant = 'BRAND_PORTAL_STYLE_DELETE_SUCCESS_TITLE'
-    label = 'Succes'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label brand_portal_style_delete_success_body_en {
-    constant = 'BRAND_PORTAL_STYLE_DELETE_SUCCESS_BODY'
-    label = 'Portal style deleted.'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label brand_portal_style_delete_success_body_da {
-    constant = 'BRAND_PORTAL_STYLE_DELETE_SUCCESS_BODY'
-    label = 'Portal-style slettet.'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label brand_portal_portal_style_global_label_en {
-    constant = 'BRAND_PORTAL_PORTAL_STYLE_GLOBAL_LABEL'
-    label = 'Global style'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label brand_portal_portal_style_global_label_da {
-    constant = 'BRAND_PORTAL_PORTAL_STYLE_GLOBAL_LABEL'
-    label = 'Global style'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label brand_portal_edit_layout_apply_styles_en {
-    constant = 'BRAND_PORTAL_EDIT_LAYOUT_APPLY_STYLES'
-    label = 'Apply portal style'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label brand_portal_edit_layout_apply_styles_da {
-    constant = 'BRAND_PORTAL_EDIT_LAYOUT_APPLY_STYLES'
-    label = 'Anvend portal-style'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label brand_portal_edit_layout_apply_styles_tooltip_en {
-    constant = 'BRAND_PORTAL_EDIT_LAYOUT_APPLY_STYLES_TOOLTIP'
-    label = 'To change the style, navigate into a folder'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label brand_portal_edit_layout_apply_styles_tooltip_da {
-    constant = 'BRAND_PORTAL_EDIT_LAYOUT_APPLY_STYLES_TOOLTIP'
-    label = 'For at ændre stylen skal du navigere ind i en mappe'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label brand_portal_edit_layout_apply_styles_option_inherit_en {
-    constant = 'BRAND_PORTAL_EDIT_LAYOUT_APPLY_STYLES_OPTION_INHERIT'
-    label = 'Inherit style'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label brand_portal_edit_layout_apply_styles_option_inherit_da {
-    constant = 'BRAND_PORTAL_EDIT_LAYOUT_APPLY_STYLES_OPTION_INHERIT'
-    label = 'Nedarv style'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label settings_brand_portal_portal_styles_en {
-    constant = 'SETTINGS_BRAND_PORTAL_PORTAL_STYLES'
-    label = 'Portal styles'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label settings_brand_portal_portal_styles_da {
-    constant = 'SETTINGS_BRAND_PORTAL_PORTAL_STYLES'
-    label = 'Portal-styles'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label settings_brand_portal_portal_styles_global_info_en {
-    constant = 'SETTINGS_BRAND_PORTAL_PORTAL_STYLES_GLOBAL_INFO'
-    label = 'The global style is the overall style of your Media Manager. All subpages will inherit the style, until they are changed. The global style can not be deleted.'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label settings_brand_portal_portal_styles_global_info_da {
-    constant = 'SETTINGS_BRAND_PORTAL_PORTAL_STYLES_GLOBAL_INFO'
-    label = 'Den globale style er den overordnede style for din Media Manager. Alle undersider vil arve stylen, indtil de ændres. Den globale style kan ikke slettes.'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label settings_brand_portal_portal_style_global_save_warning_dialog_title_en {
-    constant = 'SETTINGS_BRAND_PORTAL_PORTAL_STYLE_GLOBAL_SAVE_WARNING_DIALOG_TITLE'
-    label = 'Save changes'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label settings_brand_portal_portal_style_global_save_warning_dialog_title_da {
-    constant = 'SETTINGS_BRAND_PORTAL_PORTAL_STYLE_GLOBAL_SAVE_WARNING_DIALOG_TITLE'
-    label = 'Gem ændringer'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label settings_brand_portal_portal_style_global_save_warning_dialog_body_en {
-    constant = 'SETTINGS_BRAND_PORTAL_PORTAL_STYLE_GLOBAL_SAVE_WARNING_DIALOG_BODY'
-    label = 'Are you sure you want to save your changes to the global style? These changes will affect the overall style of your Media Manager.'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label settings_brand_portal_portal_style_global_save_warning_dialog_body_da {
-    constant = 'SETTINGS_BRAND_PORTAL_PORTAL_STYLE_GLOBAL_SAVE_WARNING_DIALOG_BODY'
-    label = 'Er du sikker på, at du vil gemme dine ændringer til den globale style? Disse ændringer vil påvirke din Media Managers overordnede style.'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label settings_brand_portal_portal_style_global_save_warning_dialog_cancel_en {
-    constant = 'SETTINGS_BRAND_PORTAL_PORTAL_STYLE_GLOBAL_SAVE_WARNING_DIALOG_CANCEL'
-    label = 'Cancel'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label settings_brand_portal_portal_style_global_save_warning_dialog_cancel_da {
-    constant = 'SETTINGS_BRAND_PORTAL_PORTAL_STYLE_GLOBAL_SAVE_WARNING_DIALOG_CANCEL'
-    label = 'Annullér'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label settings_brand_portal_portal_style_global_save_warning_dialog_confirm_en {
-    constant = 'SETTINGS_BRAND_PORTAL_PORTAL_STYLE_GLOBAL_SAVE_WARNING_DIALOG_CONFIRM'
-    label = 'Confirm'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label settings_brand_portal_portal_style_global_save_warning_dialog_confirm_da {
-    constant = 'SETTINGS_BRAND_PORTAL_PORTAL_STYLE_GLOBAL_SAVE_WARNING_DIALOG_CONFIRM'
-    label = 'Bekræft'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label brand_portal_style_menu_rename_en {
-    constant = 'BRAND_PORTAL_STYLE_MENU_RENAME'
-    label = 'Rename'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label brand_portal_style_menu_rename_da {
-    constant = 'BRAND_PORTAL_STYLE_MENU_RENAME'
-    label = 'Omdøb'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label brand_portal_style_menu_delete_en {
-    constant = 'BRAND_PORTAL_STYLE_MENU_DELETE'
-    label = 'Delete'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label brand_portal_style_menu_delete_da {
-    constant = 'BRAND_PORTAL_STYLE_MENU_DELETE'
-    label = 'Slet'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label brand_portal_style_menu_delete_in_use_warning_en {
-    constant = 'BRAND_PORTAL_STYLE_MENU_DELETE_IN_USE_WARNING'
-    label = 'This style is in use and can therefore not be deleted'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label brand_portal_style_menu_delete_in_use_warning_da {
-    constant = 'BRAND_PORTAL_STYLE_MENU_DELETE_IN_USE_WARNING'
-    label = 'Denne style er i brug og kan derfor ikke slettes'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label brand_portal_style_menu_delete_global_style_warning_en {
-    constant = 'BRAND_PORTAL_STYLE_MENU_DELETE_GLOBAL_STYLE_WARNING'
-    label = 'Global can never be deleted'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label brand_portal_style_menu_delete_global_style_warning_da {
-    constant = 'BRAND_PORTAL_STYLE_MENU_DELETE_GLOBAL_STYLE_WARNING'
-    label = 'Global kan aldrig slettes'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label brand_portal_enable_brand_portals_button_en {
-    constant = 'BRAND_PORTAL_ENABLE_BRAND_PORTALS_BUTTON'
-    label = 'Enable portal styles'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label brand_portal_enable_brand_portals_button_da {
-    constant = 'BRAND_PORTAL_ENABLE_BRAND_PORTALS_BUTTON'
-    label = 'Aktiver portal-styles'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label brand_portal_folder_dialog_delete_folder_title_en {
-    constant = 'BRAND_PORTAL_FOLDER_DIALOG_DELETE_FOLDER_TITLE'
-    label = 'Delete folder'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label brand_portal_folder_dialog_delete_folder_title_da {
-    constant = 'BRAND_PORTAL_FOLDER_DIALOG_DELETE_FOLDER_TITLE'
-    label = 'Slet mappe'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label brand_portal_folder_dialog_delete_folder_text_en {
-    constant = 'BRAND_PORTAL_FOLDER_DIALOG_DELETE_FOLDER_TEXT'
-    label = 'Are you sure you want to delete this folder? This action CANNOT be undone!'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label brand_portal_folder_dialog_delete_folder_text_da {
-    constant = 'BRAND_PORTAL_FOLDER_DIALOG_DELETE_FOLDER_TEXT'
-    label = 'Er du sikker på, at du vil slette mappen? Denne handling KAN IKKE fortrydes!'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label brand_portal_folder_dialog_delete_folder_cancel_en {
-    constant = 'BRAND_PORTAL_FOLDER_DIALOG_DELETE_FOLDER_CANCEL'
-    label = 'Cancel'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label brand_portal_folder_dialog_delete_folder_cancel_da {
-    constant = 'BRAND_PORTAL_FOLDER_DIALOG_DELETE_FOLDER_CANCEL'
-    label = 'Annullér'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label brand_portal_folder_dialog_delete_folder_confirm_en {
-    constant = 'BRAND_PORTAL_FOLDER_DIALOG_DELETE_FOLDER_CONFIRM'
-    label = 'Confirm'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label brand_portal_folder_dialog_delete_folder_confirm_da {
-    constant = 'BRAND_PORTAL_FOLDER_DIALOG_DELETE_FOLDER_CONFIRM'
-    label = 'Bekræft'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label brand_portal_folder_dialog_delete_success_title_en {
-    constant = 'BRAND_PORTAL_FOLDER_DIALOG_DELETE_SUCCESS_TITLE'
-    label = 'Success'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label brand_portal_folder_dialog_delete_success_title_da {
-    constant = 'BRAND_PORTAL_FOLDER_DIALOG_DELETE_SUCCESS_TITLE'
-    label = 'Succes'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label brand_portal_folder_dialog_delete_success_body_en {
-    constant = 'BRAND_PORTAL_FOLDER_DIALOG_DELETE_SUCCESS_BODY'
-    label = 'Folder deleted'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label brand_portal_folder_dialog_delete_success_body_da {
-    constant = 'BRAND_PORTAL_FOLDER_DIALOG_DELETE_SUCCESS_BODY'
-    label = 'Mappen blev slettet'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
+﻿resource configservice_label settings_brand_portal_logo_title {
+  key = 'SETTINGS_BRAND_PORTAL_LOGO_TITLE'
+  group = 'Brand Portal'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Logo'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Logo'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_brand_portal_logo_desc {
+  key = 'SETTINGS_BRAND_PORTAL_LOGO_DESC'
+  group = 'Brand Portal'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Change the logo in the top left corner'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Skift logoet oppe i venstre hjørne'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_brand_portal_save_button {
+  key = 'SETTINGS_BRAND_PORTAL_SAVE_BUTTON'
+  group = 'Brand Portal'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = '{processing, select, true {Saving...} false {Save}}'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = '{processing, select, true {Gemmer...} false {Gem}}'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_brand_portal_discard_button {
+  key = 'SETTINGS_BRAND_PORTAL_DISCARD_BUTTON'
+  group = 'Brand Portal'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Discard changes'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Kassér ændringer'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_brand_portal_logo_config_title {
+  key = 'SETTINGS_BRAND_PORTAL_LOGO_CONFIG_TITLE'
+  group = 'Brand Portal'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = '{type, select, primary {Header} secondary {Login screen}}'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = '{type, select, primary {Sidehoved} secondary {Loginskærm}}'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_brand_portal_logo_config_info {
+  key = 'SETTINGS_BRAND_PORTAL_LOGO_CONFIG_INFO'
+  group = 'Brand Portal'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = '{type, select, primary {This logo will appear in the top left corner of the navigation bar. We recommend using PNGs and SVGs up to 100 KB.} secondary {This logo will appear on the login screen.}}'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = '{type, select, primary {Dette logo vises i øverste venstre hjørne af navigationslinjen. Vi anbefaler at bruge max 100 KB filer af typerne PNG eller SVG.} secondary {Dette logo vises på loginskærmen.}}'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_brand_portal_theme_colors_title {
+  key = 'SETTINGS_BRAND_PORTAL_THEME_COLORS_TITLE'
+  group = 'Brand Portal'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Theme colors'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Temafarver'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_brand_portal_theme_colors_desc {
+  key = 'SETTINGS_BRAND_PORTAL_THEME_COLORS_DESC'
+  group = 'Brand Portal'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Style the colors of the navigation bar, buttons, etc'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Style farverne på navigationslinjen, knapper osv'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_brand_portal_save_error_title {
+  key = 'SETTINGS_BRAND_PORTAL_SAVE_ERROR_TITLE'
+  group = 'Brand Portal'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Error'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Fejl'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_brand_portal_save_error_desc {
+  key = 'SETTINGS_BRAND_PORTAL_SAVE_ERROR_DESC'
+  group = 'Brand Portal'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'An unexpected error occurred. Please contact an administrator if this issue persists'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Der opstod en uventet fejl. Kontakt venligst en administrator, hvis dette problem fortsætter'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_brand_portal_asset_cards_title {
+  key = 'SETTINGS_BRAND_PORTAL_ASSET_CARDS_TITLE'
+  group = 'Brand Portal'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Asset cards'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Assetkort'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_brand_portal_asset_cards_layout_type {
+  key = 'SETTINGS_BRAND_PORTAL_ASSET_CARDS_LAYOUT_TYPE'
+  group = 'Brand Portal'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Use asset card layout'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Brug assetkort-layout'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_brand_portal_asset_cards_layout_type_default {
+  key = 'SETTINGS_BRAND_PORTAL_ASSET_CARDS_LAYOUT_TYPE_DEFAULT'
+  group = 'Brand Portal'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Default'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Standard'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_brand_portal_asset_cards_layout_type_custom {
+  key = 'SETTINGS_BRAND_PORTAL_ASSET_CARDS_LAYOUT_TYPE_CUSTOM'
+  group = 'Brand Portal'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Custom'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Tilpasset'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_brand_portal_asset_cards_chose_ratio {
+  key = 'SETTINGS_BRAND_PORTAL_ASSET_CARDS_CHOSE_RATIO'
+  group = 'Brand Portal'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Choose ratio'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Vælg ratio'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_brand_portal_asset_cards_custom_size {
+  key = 'SETTINGS_BRAND_PORTAL_ASSET_CARDS_CUSTOM_SIZE'
+  group = 'Brand Portal'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Custom size (width x height)'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Brugerdefineret størrelse (bredde x højde)'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_brand_portal_asset_cards_background_color {
+  key = 'SETTINGS_BRAND_PORTAL_ASSET_CARDS_BACKGROUND_COLOR'
+  group = 'Brand Portal'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Background color'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Baggrundsfarve'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_brand_portal_asset_cards_background_color_customize {
+  key = 'SETTINGS_BRAND_PORTAL_ASSET_CARDS_BACKGROUND_COLOR_CUSTOMIZE'
+  group = 'Brand Portal'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Customize'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Tilpas'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_brand_portal_asset_cards_zoom_to_fit {
+  key = 'SETTINGS_BRAND_PORTAL_ASSET_CARDS_ZOOM_TO_FIT'
+  group = 'Brand Portal'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Enlarge thumbnails to fit the cards'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Forstør thumbnails, så de passer til kortene'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_brand_portal_asset_cards_preview {
+  key = 'SETTINGS_BRAND_PORTAL_ASSET_CARDS_PREVIEW'
+  group = 'Brand Portal'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Preview'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Forhåndsvisning'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_brand_portal_asset_cards_preview_quality {
+  key = 'SETTINGS_BRAND_PORTAL_ASSET_CARDS_PREVIEW_QUALITY'
+  group = 'Brand Portal'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Increase the resolution of thumbnails'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Forøg opløsningen på thumbnails'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_brand_portal_asset_cards_preview_quality_info {
+  key = 'SETTINGS_BRAND_PORTAL_ASSET_CARDS_PREVIEW_QUALITY_INFO'
+  group = 'Brand Portal'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Choosing this option may result in a poor experience for older devices'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Hvis dette slås til kan det resultere i en dårligere oplevelse for ældre enheder'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_brand_portal_edit_layout_live_edit_label {
+  key = 'SETTINGS_BRAND_PORTAL_EDIT_LAYOUT_LIVE_EDIT_LABEL'
+  group = 'Brand Portal'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'You are editing the page\'s layout'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Du redigerer sidens layout'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_brand_portal_edit_layout {
+  key = 'SETTINGS_BRAND_PORTAL_EDIT_LAYOUT'
+  group = 'Brand Portal'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Edit layout'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Rediger layout'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_brand_portal_edit_layout_show_assets {
+  key = 'SETTINGS_BRAND_PORTAL_EDIT_LAYOUT_SHOW_ASSETS'
+  group = 'Brand Portal'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Show assets'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Vis assets'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_brand_portal_edit_layout_hide_filter {
+  key = 'SETTINGS_BRAND_PORTAL_EDIT_LAYOUT_HIDE_FILTER'
+  group = 'Brand Portal'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Hide filter panel'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Gem filterpanelet væk'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_brand_portal_edit_layout_cover_layout_on_folders {
+  key = 'SETTINGS_BRAND_PORTAL_EDIT_LAYOUT_COVER_LAYOUT_ON_FOLDERS'
+  group = 'Brand Portal'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Cover layout on folders'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Cover-layout på mapper'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_brand_portal_edit_layout_hide_folder_titles {
+  key = 'SETTINGS_BRAND_PORTAL_EDIT_LAYOUT_HIDE_FOLDER_TITLES'
+  group = 'Brand Portal'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Hide folder titles'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Skjul mappetitler'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_brand_portal_edit_layout_hide_assets {
+  key = 'SETTINGS_BRAND_PORTAL_EDIT_LAYOUT_HIDE_ASSETS'
+  group = 'Brand Portal'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Hide assets'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Gem assets væk'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_brand_portal_edit_layout_btn_save {
+  key = 'SETTINGS_BRAND_PORTAL_EDIT_LAYOUT_BTN_SAVE'
+  group = 'Brand Portal'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = '{saving, select, true {Saving...} false {Save}}'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = '{saving, select, true {Gemmer...} false {Gem}}'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_brand_portal_edit_layout_btn_close {
+  key = 'SETTINGS_BRAND_PORTAL_EDIT_LAYOUT_BTN_CLOSE'
+  group = 'Brand Portal'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Close'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Luk'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_brand_portal_edit_layout_btn_discard {
+  key = 'SETTINGS_BRAND_PORTAL_EDIT_LAYOUT_BTN_DISCARD'
+  group = 'Brand Portal'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Discard'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Kassér'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_brand_portal_edit_layout_saving_error {
+  key = 'SETTINGS_BRAND_PORTAL_EDIT_LAYOUT_SAVING_ERROR'
+  group = 'Brand Portal'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'An error occurred while saving. Your changes have not been saved.'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Der skete en fejl da vi prøvede at gemme. Dine ændringer er ikke blevet gemt.'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_brand_portal_edit_layout_saving_error_no_image {
+  key = 'SETTINGS_BRAND_PORTAL_EDIT_LAYOUT_SAVING_ERROR_NO_IMAGE'
+  group = 'Brand Portal'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'A banner is required.'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Et banner er påkrævet.'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_brand_portal_edit_layout_saving_error_invalid_url {
+  key = 'SETTINGS_BRAND_PORTAL_EDIT_LAYOUT_SAVING_ERROR_INVALID_URL'
+  group = 'Brand Portal'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'The URL is invalid.'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'URL\'en er ugyldig.'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label brand_portal_hero_banner_asset_picker_title {
+  key = 'BRAND_PORTAL_HERO_BANNER_ASSET_PICKER_TITLE'
+  group = 'Brand Portal'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Choose hero banner'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Vælg hero banner'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label brand_portal_hero_banner_popup_option_upload_from_media {
+  key = 'BRAND_PORTAL_HERO_BANNER_POPUP_OPTION_UPLOAD_FROM_MEDIA'
+  group = 'Brand Portal'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Choose from Media Manager'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Vælg fra Media Manager'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label brand_portal_hero_banner_popup_option_upload_file {
+  key = 'BRAND_PORTAL_HERO_BANNER_POPUP_OPTION_UPLOAD_FILE'
+  group = 'Brand Portal'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Upload from desktop'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Upload fra skrivebordet'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label brand_portal_hero_banner_add_image_tooltip {
+  key = 'BRAND_PORTAL_HERO_BANNER_ADD_IMAGE_TOOLTIP'
+  group = 'Brand Portal'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Add an image'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Tilføj et billede'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label brand_portal_hero_banner_empty_image_text {
+  key = 'BRAND_PORTAL_HERO_BANNER_EMPTY_IMAGE_TEXT'
+  group = 'Brand Portal'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'No image has been chosen yet'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Der er ikke valgt et billede endnu'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label brand_portal_hero_banner_empty_image_button {
+  key = 'BRAND_PORTAL_HERO_BANNER_EMPTY_IMAGE_BUTTON'
+  group = 'Brand Portal'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Choose image'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Vælg billede'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label brand_portal_settings_show_hero_banner_toggle_label {
+  key = 'BRAND_PORTAL_SETTINGS_SHOW_HERO_BANNER_TOGGLE_LABEL'
+  group = 'Brand Portal'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Show hero banner'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Vis hero-banner'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label brand_portal_settings_show_hero_banner_headline_label {
+  key = 'BRAND_PORTAL_SETTINGS_SHOW_HERO_BANNER_HEADLINE_LABEL'
+  group = 'Brand Portal'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Headline'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Overskrift'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label brand_portal_settings_show_hero_banner_subtitle_label {
+  key = 'BRAND_PORTAL_SETTINGS_SHOW_HERO_BANNER_SUBTITLE_LABEL'
+  group = 'Brand Portal'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Subtitle'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Undertekst'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label brand_portal_settings_show_hero_banner_link_url_label {
+  key = 'BRAND_PORTAL_SETTINGS_SHOW_HERO_BANNER_LINK_URL_LABEL'
+  group = 'Brand Portal'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Link URL'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Link URL'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label brand_portal_settings_show_hero_banner_open_link_in_new_tab_label {
+  key = 'BRAND_PORTAL_SETTINGS_SHOW_HERO_BANNER_OPEN_LINK_IN_NEW_TAB_LABEL'
+  group = 'Brand Portal'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Open link in new tab'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Åbn link i ny fane'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label brand_portal_settings_show_hide_language_options {
+  key = 'BRAND_PORTAL_SETTINGS_SHOW_HIDE_LANGUAGE_OPTIONS'
+  group = 'Brand Portal'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = '{value, select, true {Hide} false {Show}} language options'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = '{value, select, true {Skjul} false {Vis}} sprogindstillinger'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label brand_portal_settings_hero_banner_custom_colors {
+  key = 'BRAND_PORTAL_SETTINGS_HERO_BANNER_CUSTOM_COLORS'
+  group = 'Brand Portal'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Use custom colors'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Brug brugerdefinerede farver'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label brand_portal_settings_hero_banner_text_color {
+  key = 'BRAND_PORTAL_SETTINGS_HERO_BANNER_TEXT_COLOR'
+  group = 'Brand Portal'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Text color'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Tekstfarve'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label brand_portal_settings_hero_banner_text_bg_color {
+  key = 'BRAND_PORTAL_SETTINGS_HERO_BANNER_TEXT_BG_COLOR'
+  group = 'Brand Portal'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Text background color'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Tekst-baggrundsfarve'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label brand_portal_folder_asset_picker_title {
+  key = 'BRAND_PORTAL_FOLDER_ASSET_PICKER_TITLE'
+  group = 'Brand Portal'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Choose a cover image for the folder'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Vælg et forsidebillede til mappen'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label brand_portal_folder_add_image_tooltip {
+  key = 'BRAND_PORTAL_FOLDER_ADD_IMAGE_TOOLTIP'
+  group = 'Brand Portal'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Choose image'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Vælg billede'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label brand_portal_settings_fonts_fonts {
+  key = 'BRAND_PORTAL_SETTINGS_FONTS_FONTS'
+  group = 'Brand Portal'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Fonts'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Fonte'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label brand_portal_settings_fonts_default_font {
+  key = 'BRAND_PORTAL_SETTINGS_FONTS_DEFAULT_FONT'
+  group = 'Brand Portal'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Default font'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Standardfont'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label brand_portal_settings_fonts_upload_fonts {
+  key = 'BRAND_PORTAL_SETTINGS_FONTS_UPLOAD_FONTS'
+  group = 'Brand Portal'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Upload fonts'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Upload fonte'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label brand_portal_settings_fonts_enter_font_name {
+  key = 'BRAND_PORTAL_SETTINGS_FONTS_ENTER_FONT_NAME'
+  group = 'Brand Portal'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Enter font name'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Indtast fontnavn'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label brand_portal_settings_fonts_choose_font_file {
+  key = 'BRAND_PORTAL_SETTINGS_FONTS_CHOOSE_FONT_FILE'
+  group = 'Brand Portal'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Choose font file'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Vælg font fil'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label brand_portal_settings_fonts_selected_file {
+  key = 'BRAND_PORTAL_SETTINGS_FONTS_SELECTED_FILE'
+  group = 'Brand Portal'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Selected file'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Valgt fil'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label brand_portal_settings_fonts_edit_fonts {
+  key = 'BRAND_PORTAL_SETTINGS_FONTS_EDIT_FONTS'
+  group = 'Brand Portal'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Edit fonts'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Rediger fonte'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label brand_portal_settings_fonts_font_name {
+  key = 'BRAND_PORTAL_SETTINGS_FONTS_FONT_NAME'
+  group = 'Brand Portal'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Font name'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Fontnavn'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label brand_portal_settings_fonts_delete {
+  key = 'BRAND_PORTAL_SETTINGS_FONTS_DELETE'
+  group = 'Brand Portal'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Delete'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Slet'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label brand_portal_settings_fonts_cancel {
+  key = 'BRAND_PORTAL_SETTINGS_FONTS_CANCEL'
+  group = 'Brand Portal'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Cancel'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Annullér'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label brand_portal_settings_fonts_reset_form {
+  key = 'BRAND_PORTAL_SETTINGS_FONTS_RESET_FORM'
+  group = 'Brand Portal'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Reset form'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Nulstil form'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label brand_portal_settings_fonts_upload {
+  key = 'BRAND_PORTAL_SETTINGS_FONTS_UPLOAD'
+  group = 'Brand Portal'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Upload'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Upload'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label brand_portal_settings_fonts_no_fonts {
+  key = 'BRAND_PORTAL_SETTINGS_FONTS_NO_FONTS'
+  group = 'Brand Portal'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'No fonts were found'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Der blev ikke fundet nogen fonte'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label brand_portal_settings_fonts_delete_font {
+  key = 'BRAND_PORTAL_SETTINGS_FONTS_DELETE_FONT'
+  group = 'Brand Portal'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Delete font'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Slet font'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label brand_portal_settings_fonts_are_you_sure_delete {
+  key = 'BRAND_PORTAL_SETTINGS_FONTS_ARE_YOU_SURE_DELETE'
+  group = 'Brand Portal'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Are you sure you want to delete this font?'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Er du sikker på at du vil slette denne font?'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label brand_portal_settings_fonts_display_fonts {
+  key = 'BRAND_PORTAL_SETTINGS_FONTS_DISPLAY_FONTS'
+  group = 'Brand Portal'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'These will be applied to banner headings and folders with cover layout enabled'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Disse vil blive anvendt på banneroverskrifter og mapper med cover-layout aktiveret'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label brand_portal_settings_fonts_headline_font {
+  key = 'BRAND_PORTAL_SETTINGS_FONTS_HEADLINE_FONT'
+  group = 'Brand Portal'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Hero banner headline font'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Hero-banner-overskrifts-font'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label brand_portal_settings_fonts_subtitle_font {
+  key = 'BRAND_PORTAL_SETTINGS_FONTS_SUBTITLE_FONT'
+  group = 'Brand Portal'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Hero banner subtitle font'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Hero-banner-underteksts-font'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label brand_portal_settings_fonts_cover_image_font {
+  key = 'BRAND_PORTAL_SETTINGS_FONTS_COVER_IMAGE_FONT'
+  group = 'Brand Portal'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Cover image font'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Coverbillede font'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label brand_portal_settings_fonts_manage_fonts {
+  key = 'BRAND_PORTAL_SETTINGS_FONTS_MANAGE_FONTS'
+  group = 'Brand Portal'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Manage fonts'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Administrer fonte'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label brand_portal_folder_context_menu_tooltip {
+  key = 'BRAND_PORTAL_FOLDER_CONTEXT_MENU_TOOLTIP'
+  group = 'Brand Portal'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Manage folder'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Administrer mappe'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label brand_portal_folder_context_menu_delete {
+  key = 'BRAND_PORTAL_FOLDER_CONTEXT_MENU_DELETE'
+  group = 'Brand Portal'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Delete'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Slet'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label brand_portal_folder_context_menu_rename {
+  key = 'BRAND_PORTAL_FOLDER_CONTEXT_MENU_RENAME'
+  group = 'Brand Portal'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Rename'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Omdøb'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label brand_portal_folder_context_menu_duplicate {
+  key = 'BRAND_PORTAL_FOLDER_CONTEXT_MENU_DUPLICATE'
+  group = 'Brand Portal'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Duplicate'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Dupliker'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label brand_portal_folder_context_menu_access {
+  key = 'BRAND_PORTAL_FOLDER_CONTEXT_MENU_ACCESS'
+  group = 'Brand Portal'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Access'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Tilgængelighed'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label brand_portal_folder_drag {
+  key = 'BRAND_PORTAL_FOLDER_DRAG'
+  group = 'Brand Portal'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Drag to change the order'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Træk her for at ændre rækkefølgen'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label brand_portal_rename_folder_title {
+  key = 'BRAND_PORTAL_RENAME_FOLDER_TITLE'
+  group = 'Brand Portal'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Rename'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Omdøb'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label brand_portal_rename_folder_languages {
+  key = 'BRAND_PORTAL_RENAME_FOLDER_LANGUAGES'
+  group = 'Brand Portal'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Languages'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Sprog'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label brand_portal_save_folder_confirmation_body {
+  key = 'BRAND_PORTAL_SAVE_FOLDER_CONFIRMATION_BODY'
+  group = 'Brand Portal'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Your changes will be saved and become visible to other users after confirmation. Do you wish to proceed?'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Dine ændringer gemmes og bliver synlige for andre brugere efter bekræftelse. Ønsker du at fortsætte?'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label brand_portal_save_folder_confirmation_cancel_button {
+  key = 'BRAND_PORTAL_SAVE_FOLDER_CONFIRMATION_CANCEL_BUTTON'
+  group = 'Brand Portal'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Cancel'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Annuller'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label brand_portal_save_folder_confirmation_confirm_button {
+  key = 'BRAND_PORTAL_SAVE_FOLDER_CONFIRMATION_CONFIRM_BUTTON'
+  group = 'Brand Portal'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Confirm'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Bekræft'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label brand_portal_edit_page_button {
+  key = 'BRAND_PORTAL_EDIT_PAGE_BUTTON'
+  group = 'Brand Portal'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Edit page layout'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Rediger sidens layout'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label brand_portal_edit_page_button_tooltip {
+  key = 'BRAND_PORTAL_EDIT_PAGE_BUTTON_TOOLTIP'
+  group = 'Brand Portal'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Edit page layout'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Rediger sidens layout'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label brand_portal_create_folder_title {
+  key = 'BRAND_PORTAL_CREATE_FOLDER_TITLE'
+  group = 'Brand Portal'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Create a new folder'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Opret en ny mappe'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label brand_portal_folder_toggle {
+  key = 'BRAND_PORTAL_FOLDER_TOGGLE'
+  group = 'Brand Portal'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = '{hide, select, true {Hide language options -} false {Show language options +}}'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = '{hide, select, true {Skjul sprogindstillinger -} false {Vis sprogindstillinger +}}'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label brand_portal_folder_ok {
+  key = 'BRAND_PORTAL_FOLDER_OK'
+  group = 'Brand Portal'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = '{isCreate, select, true {Create} false {Save}}'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = '{isCreate, select, true {Opret} false {Gem}}'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label brand_portal_folder_cancel {
+  key = 'BRAND_PORTAL_FOLDER_CANCEL'
+  group = 'Brand Portal'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Cancel'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Annuller'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label brand_portal_folder_create {
+  key = 'BRAND_PORTAL_FOLDER_CREATE'
+  group = 'Brand Portal'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Create folder'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Opret mappe'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label brand_portal_styles_create_new_style_button {
+  key = 'BRAND_PORTAL_STYLES_CREATE_NEW_STYLE_BUTTON'
+  group = 'Brand Portal'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'New portal style'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Ny portal-style'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label brand_portal_style_create_dialog_title {
+  key = 'BRAND_PORTAL_STYLE_CREATE_DIALOG_TITLE'
+  group = 'Brand Portal'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'New portal style'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Ny portal-style'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label brand_portal_style_create_dialog_name {
+  key = 'BRAND_PORTAL_STYLE_CREATE_DIALOG_NAME'
+  group = 'Brand Portal'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Enter name'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Indtast navn'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label brand_portal_style_create_button_cancel {
+  key = 'BRAND_PORTAL_STYLE_CREATE_BUTTON_CANCEL'
+  group = 'Brand Portal'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Cancel'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Annullér'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label brand_portal_style_create_button_create {
+  key = 'BRAND_PORTAL_STYLE_CREATE_BUTTON_CREATE'
+  group = 'Brand Portal'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Create'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Opret'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label brand_portal_style_create_error_name_required {
+  key = 'BRAND_PORTAL_STYLE_CREATE_ERROR_NAME_REQUIRED'
+  group = 'Brand Portal'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Name required'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Navn påkrævet'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label brand_portal_style_create_success_title {
+  key = 'BRAND_PORTAL_STYLE_CREATE_SUCCESS_TITLE'
+  group = 'Brand Portal'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Success'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Succes'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label brand_portal_style_create_success_body {
+  key = 'BRAND_PORTAL_STYLE_CREATE_SUCCESS_BODY'
+  group = 'Brand Portal'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Portal style created.'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Portal-style oprettet.'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label brand_portal_style_rename_dialog_title {
+  key = 'BRAND_PORTAL_STYLE_RENAME_DIALOG_TITLE'
+  group = 'Brand Portal'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Rename portal style'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Omdøb portal-style'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label brand_portal_style_rename_dialog_name {
+  key = 'BRAND_PORTAL_STYLE_RENAME_DIALOG_NAME'
+  group = 'Brand Portal'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Name'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Navn'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label brand_portal_style_rename_button_cancel {
+  key = 'BRAND_PORTAL_STYLE_RENAME_BUTTON_CANCEL'
+  group = 'Brand Portal'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Cancel'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Annullér'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label brand_portal_style_rename_button_create {
+  key = 'BRAND_PORTAL_STYLE_RENAME_BUTTON_CREATE'
+  group = 'Brand Portal'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Rename'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Omdøb'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label brand_portal_style_rename_error_name_required {
+  key = 'BRAND_PORTAL_STYLE_RENAME_ERROR_NAME_REQUIRED'
+  group = 'Brand Portal'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Portal name required'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Portalnavn påkrævet'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label brand_portal_style_rename_success_title {
+  key = 'BRAND_PORTAL_STYLE_RENAME_SUCCESS_TITLE'
+  group = 'Brand Portal'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Success'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Succes'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label brand_portal_style_rename_success_body {
+  key = 'BRAND_PORTAL_STYLE_RENAME_SUCCESS_BODY'
+  group = 'Brand Portal'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Portal style renamed.'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Portal-style omdøbt.'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label brand_portal_styles_dialog_delete_style_title {
+  key = 'BRAND_PORTAL_STYLES_DIALOG_DELETE_STYLE_TITLE'
+  group = 'Brand Portal'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Delete portal style'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Slet portal-style'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label brand_portal_styles_dialog_delete_style_text {
+  key = 'BRAND_PORTAL_STYLES_DIALOG_DELETE_STYLE_TEXT'
+  group = 'Brand Portal'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Are you sure you want to delete this portal style? Any references to this style on pages and collections will be removed.'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Er du sikker på, at du vil slette portal-stylen? Enhver reference til denne style på sider og collections vil blive fjernet.'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label brand_portal_styles_dialog_delete_style_cancel {
+  key = 'BRAND_PORTAL_STYLES_DIALOG_DELETE_STYLE_CANCEL'
+  group = 'Brand Portal'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Cancel'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Annullér'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label brand_portal_styles_dialog_delete_style_confirm {
+  key = 'BRAND_PORTAL_STYLES_DIALOG_DELETE_STYLE_CONFIRM'
+  group = 'Brand Portal'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Confirm'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Bekræft'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label brand_portal_style_delete_success_title {
+  key = 'BRAND_PORTAL_STYLE_DELETE_SUCCESS_TITLE'
+  group = 'Brand Portal'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Success'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Succes'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label brand_portal_style_delete_success_body {
+  key = 'BRAND_PORTAL_STYLE_DELETE_SUCCESS_BODY'
+  group = 'Brand Portal'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Portal style deleted.'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Portal-style slettet.'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label brand_portal_portal_style_global_label {
+  key = 'BRAND_PORTAL_PORTAL_STYLE_GLOBAL_LABEL'
+  group = 'Brand Portal'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Global style'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Global style'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label brand_portal_edit_layout_apply_styles {
+  key = 'BRAND_PORTAL_EDIT_LAYOUT_APPLY_STYLES'
+  group = 'Brand Portal'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Apply portal style'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Anvend portal-style'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label brand_portal_edit_layout_apply_styles_tooltip {
+  key = 'BRAND_PORTAL_EDIT_LAYOUT_APPLY_STYLES_TOOLTIP'
+  group = 'Brand Portal'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'To change the style, navigate into a folder'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'For at ændre stylen skal du navigere ind i en mappe'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label brand_portal_edit_layout_apply_styles_option_inherit {
+  key = 'BRAND_PORTAL_EDIT_LAYOUT_APPLY_STYLES_OPTION_INHERIT'
+  group = 'Brand Portal'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Inherit style'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Nedarv style'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_brand_portal_portal_styles {
+  key = 'SETTINGS_BRAND_PORTAL_PORTAL_STYLES'
+  group = 'Brand Portal'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Portal styles'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Portal-styles'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_brand_portal_portal_styles_global_info {
+  key = 'SETTINGS_BRAND_PORTAL_PORTAL_STYLES_GLOBAL_INFO'
+  group = 'Brand Portal'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'The global style is the overall style of your Media Manager. All subpages will inherit the style, until they are changed. The global style can not be deleted.'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Den globale style er den overordnede style for din Media Manager. Alle undersider vil arve stylen, indtil de ændres. Den globale style kan ikke slettes.'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_brand_portal_portal_style_global_save_warning_dialog_title {
+  key = 'SETTINGS_BRAND_PORTAL_PORTAL_STYLE_GLOBAL_SAVE_WARNING_DIALOG_TITLE'
+  group = 'Brand Portal'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Save changes'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Gem ændringer'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_brand_portal_portal_style_global_save_warning_dialog_body {
+  key = 'SETTINGS_BRAND_PORTAL_PORTAL_STYLE_GLOBAL_SAVE_WARNING_DIALOG_BODY'
+  group = 'Brand Portal'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Are you sure you want to save your changes to the global style? These changes will affect the overall style of your Media Manager.'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Er du sikker på, at du vil gemme dine ændringer til den globale style? Disse ændringer vil påvirke din Media Managers overordnede style.'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_brand_portal_portal_style_global_save_warning_dialog_cancel {
+  key = 'SETTINGS_BRAND_PORTAL_PORTAL_STYLE_GLOBAL_SAVE_WARNING_DIALOG_CANCEL'
+  group = 'Brand Portal'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Cancel'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Annullér'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_brand_portal_portal_style_global_save_warning_dialog_confirm {
+  key = 'SETTINGS_BRAND_PORTAL_PORTAL_STYLE_GLOBAL_SAVE_WARNING_DIALOG_CONFIRM'
+  group = 'Brand Portal'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Confirm'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Bekræft'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label brand_portal_style_menu_rename {
+  key = 'BRAND_PORTAL_STYLE_MENU_RENAME'
+  group = 'Brand Portal'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Rename'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Omdøb'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label brand_portal_style_menu_delete {
+  key = 'BRAND_PORTAL_STYLE_MENU_DELETE'
+  group = 'Brand Portal'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Delete'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Slet'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label brand_portal_style_menu_delete_in_use_warning {
+  key = 'BRAND_PORTAL_STYLE_MENU_DELETE_IN_USE_WARNING'
+  group = 'Brand Portal'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'This style is in use and can therefore not be deleted'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Denne style er i brug og kan derfor ikke slettes'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label brand_portal_style_menu_delete_global_style_warning {
+  key = 'BRAND_PORTAL_STYLE_MENU_DELETE_GLOBAL_STYLE_WARNING'
+  group = 'Brand Portal'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Global can never be deleted'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Global kan aldrig slettes'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label brand_portal_enable_brand_portals_button {
+  key = 'BRAND_PORTAL_ENABLE_BRAND_PORTALS_BUTTON'
+  group = 'Brand Portal'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Enable portal styles'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Aktiver portal-styles'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label brand_portal_folder_dialog_delete_folder_title {
+  key = 'BRAND_PORTAL_FOLDER_DIALOG_DELETE_FOLDER_TITLE'
+  group = 'Brand Portal'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Delete folder'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Slet mappe'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label brand_portal_folder_dialog_delete_folder_text {
+  key = 'BRAND_PORTAL_FOLDER_DIALOG_DELETE_FOLDER_TEXT'
+  group = 'Brand Portal'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Are you sure you want to delete this folder? This action CANNOT be undone!'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Er du sikker på, at du vil slette mappen? Denne handling KAN IKKE fortrydes!'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label brand_portal_folder_dialog_delete_folder_cancel {
+  key = 'BRAND_PORTAL_FOLDER_DIALOG_DELETE_FOLDER_CANCEL'
+  group = 'Brand Portal'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Cancel'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Annullér'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label brand_portal_folder_dialog_delete_folder_confirm {
+  key = 'BRAND_PORTAL_FOLDER_DIALOG_DELETE_FOLDER_CONFIRM'
+  group = 'Brand Portal'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Confirm'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Bekræft'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label brand_portal_folder_dialog_delete_success_title {
+  key = 'BRAND_PORTAL_FOLDER_DIALOG_DELETE_SUCCESS_TITLE'
+  group = 'Brand Portal'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Success'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Succes'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label brand_portal_folder_dialog_delete_success_body {
+  key = 'BRAND_PORTAL_FOLDER_DIALOG_DELETE_SUCCESS_BODY'
+  group = 'Brand Portal'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Folder deleted'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Mappen blev slettet'
+      language_id = data.language.danish.id
+    }
+  ]
 }
 

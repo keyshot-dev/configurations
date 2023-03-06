@@ -8,6 +8,11 @@ resource metafield_group download_request {
     }
 }
 
+resource metafield_group_label download_request {
+    metafield_group_id = resource.metafield_group.download_request.metafield_group_id
+    language_id = data.language.english.id
+    label = 'Download request'
+}
 
 resource item_security download_request__anonymous {
     accessor_item_id = data.member_group.anonymous.item_id

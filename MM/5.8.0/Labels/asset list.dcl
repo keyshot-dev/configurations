@@ -1,1780 +1,1776 @@
-﻿resource language_label lbl_mp_assets_en {
-    constant = 'LBL_MP_ASSETS'
-    label = 'Assets'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label lbl_mp_assets_da {
-    constant = 'LBL_MP_ASSETS'
-    label = 'Assets'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label asset_archive_en {
-    constant = 'ASSET_ARCHIVE'
-    label = 'Archive'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label asset_archive_da {
-    constant = 'ASSET_ARCHIVE'
-    label = 'Arkiv'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label asset_list_select_all_assets_tooltip_en {
-    constant = 'ASSET_LIST_SELECT_ALL_ASSETS_TOOLTIP'
-    label = 'Select all'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label asset_list_select_all_assets_tooltip_da {
-    constant = 'ASSET_LIST_SELECT_ALL_ASSETS_TOOLTIP'
-    label = 'Vælg alle'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label asset_list_assets_total_en {
-    constant = 'ASSET_LIST_ASSETS_TOTAL'
-    label = 'Assets'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label asset_list_assets_total_da {
-    constant = 'ASSET_LIST_ASSETS_TOTAL'
-    label = 'Assets'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label asset_list_save_search_button_en {
-    constant = 'ASSET_LIST_SAVE_SEARCH_BUTTON'
-    label = 'Save Search'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label asset_list_save_search_button_da {
-    constant = 'ASSET_LIST_SAVE_SEARCH_BUTTON'
-    label = 'Gem søgning'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label asset_list_list_view_option_button_en {
-    constant = 'ASSET_LIST_LIST_VIEW_OPTION_BUTTON'
-    label = 'View'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label asset_list_list_view_option_button_da {
-    constant = 'ASSET_LIST_LIST_VIEW_OPTION_BUTTON'
-    label = 'Visning'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label asset_list_loading_text_en {
-    constant = 'ASSET_LIST_LOADING_TEXT'
-    label = 'Loading...'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label asset_list_loading_text_da {
-    constant = 'ASSET_LIST_LOADING_TEXT'
-    label = 'Indlæser...'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label asset_list_list_view_tooltip_en {
-    constant = 'ASSET_LIST_LIST_VIEW_TOOLTIP'
-    label = 'List view'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label asset_list_list_view_tooltip_da {
-    constant = 'ASSET_LIST_LIST_VIEW_TOOLTIP'
-    label = 'Listevisning'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label asset_list_box_view_tooltip_en {
-    constant = 'ASSET_LIST_BOX_VIEW_TOOLTIP'
-    label = 'Grid view'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label asset_list_box_view_tooltip_da {
-    constant = 'ASSET_LIST_BOX_VIEW_TOOLTIP'
-    label = 'Gallerivisning'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label asset_list_refresh_en {
-    constant = 'ASSET_LIST_REFRESH'
-    label = 'Refresh'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label asset_list_refresh_da {
-    constant = 'ASSET_LIST_REFRESH'
-    label = 'Genopfrisk'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label asset_list_list_title_column_title_en {
-    constant = 'ASSET_LIST_LIST_TITLE_COLUMN_TITLE'
-    label = 'Title'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label asset_list_list_title_column_title_da {
-    constant = 'ASSET_LIST_LIST_TITLE_COLUMN_TITLE'
-    label = 'Titel'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label asset_list_list_title_column_description_en {
-    constant = 'ASSET_LIST_LIST_TITLE_COLUMN_DESCRIPTION'
-    label = 'Description'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label asset_list_list_title_column_description_da {
-    constant = 'ASSET_LIST_LIST_TITLE_COLUMN_DESCRIPTION'
-    label = 'Beskrivelse'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label asset_list_list_title_column_action_en {
-    constant = 'ASSET_LIST_LIST_TITLE_COLUMN_ACTION'
-    label = 'Actions'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label asset_list_list_title_column_action_da {
-    constant = 'ASSET_LIST_LIST_TITLE_COLUMN_ACTION'
-    label = 'Handlinger'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label asset_list_folders_title_en {
-    constant = 'ASSET_LIST_FOLDERS_TITLE'
-    label = 'Folders'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label asset_list_folders_title_da {
-    constant = 'ASSET_LIST_FOLDERS_TITLE'
-    label = 'Mapper'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label asset_list_folders_add_folder_en {
-    constant = 'ASSET_LIST_FOLDERS_ADD_FOLDER'
-    label = 'Add folder'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label asset_list_folders_add_folder_da {
-    constant = 'ASSET_LIST_FOLDERS_ADD_FOLDER'
-    label = 'Tilføj mappe'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label asset_list_no_folders_en {
-    constant = 'ASSET_LIST_NO_FOLDERS'
-    label = 'This folder has no subfolders'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label asset_list_no_folders_da {
-    constant = 'ASSET_LIST_NO_FOLDERS'
-    label = 'Denne mappe har ingen undermapper'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label asset_list_no_collections_en {
-    constant = 'ASSET_LIST_NO_COLLECTIONS'
-    label = 'There are no collections'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label asset_list_no_collections_da {
-    constant = 'ASSET_LIST_NO_COLLECTIONS'
-    label = 'Der er ingen collections'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label asset_list_collection_menu_back_en {
-    constant = 'ASSET_LIST_COLLECTION_MENU_BACK'
-    label = 'Back'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label asset_list_collection_menu_back_da {
-    constant = 'ASSET_LIST_COLLECTION_MENU_BACK'
-    label = 'Tilbage'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label asset_list_filter_bar_popup_type_en {
-    constant = 'ASSET_LIST_FILTER_BAR_POPUP_TYPE'
-    label = 'Type'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label asset_list_filter_bar_popup_type_da {
-    constant = 'ASSET_LIST_FILTER_BAR_POPUP_TYPE'
-    label = 'Type'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label asset_list_filter_date_time_range_en {
-    constant = 'ASSET_LIST_FILTER_DATE_TIME_RANGE'
-    label = '{preset, select, last-24-hours {Last 24 hours} last-7-days {Last 7 days} last-30-days {Last 30 days}
- more-30-days {Older than 30 days} next-24-hours {Next 24 hours} next-7-days {Next 7 days} next-30-days {Next 30 days}
- later-than-30-days {Later than 30 days} custom {Custom}}'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label asset_list_filter_date_time_range_da {
-    constant = 'ASSET_LIST_FILTER_DATE_TIME_RANGE'
-    label = '{preset, select, last-24-hours {Sidste 24 timer} last-7-days {Sidste 7 dage} last-30-days {Sidste 30
- dage} more-30-days {Ældre end 30 dage} next-24-hours {Næste 24 timer} next-7-days {Næste 7 dage} next-30-days {Næste 30
-  dage} later-than-30-days {Senere end 30 dage} custom {Brugerdefineret}}'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label asset_list_filter_bar_popup_unsupported_en {
-    constant = 'ASSET_LIST_FILTER_BAR_POPUP_UNSUPPORTED'
-    label = 'is still unsupported'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label asset_list_filter_bar_popup_unsupported_da {
-    constant = 'ASSET_LIST_FILTER_BAR_POPUP_UNSUPPORTED'
-    label = 'er stadig ikke understøttet'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label asset_list_facet_menu_multicombo_no_options_en {
-    constant = 'ASSET_LIST_FACET_MENU_MULTICOMBO_NO_OPTIONS'
-    label = 'Not found'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label asset_list_facet_menu_multicombo_no_options_da {
-    constant = 'ASSET_LIST_FACET_MENU_MULTICOMBO_NO_OPTIONS'
-    label = 'Ikke fundet'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label asset_list_facet_menu_multicombo_show_all_en {
-    constant = 'ASSET_LIST_FACET_MENU_MULTICOMBO_SHOW_ALL'
-    label = '{showingAll, select, true {Show top 10} false {Show all}}'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label asset_list_facet_menu_multicombo_show_all_da {
-    constant = 'ASSET_LIST_FACET_MENU_MULTICOMBO_SHOW_ALL'
-    label = '{showingAll, select, true {Vis top 10} false {Vis alle}}'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label asset_list_archive_en {
-    constant = 'ASSET_LIST_ARCHIVE'
-    label = 'Folders'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label asset_list_archive_da {
-    constant = 'ASSET_LIST_ARCHIVE'
-    label = 'Mapper'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label asset_list_folders_show_more_en {
-    constant = 'ASSET_LIST_FOLDERS_SHOW_MORE'
-    label = 'Show {{count}} more'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label asset_list_folders_show_more_da {
-    constant = 'ASSET_LIST_FOLDERS_SHOW_MORE'
-    label = 'Vis {{count}} mere'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label asset_list_folders_hide_en {
-    constant = 'ASSET_LIST_FOLDERS_HIDE'
-    label = 'Show only {{count}}'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label asset_list_folders_hide_da {
-    constant = 'ASSET_LIST_FOLDERS_HIDE'
-    label = 'Vis {{count}}'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label asset_list_box_view_item_asset_info_en {
-    constant = 'ASSET_LIST_BOX_VIEW_ITEM_ASSET_INFO'
-    label = 'Asset info'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label asset_list_box_view_item_asset_info_da {
-    constant = 'ASSET_LIST_BOX_VIEW_ITEM_ASSET_INFO'
-    label = 'Asset-info'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label asset_list_box_view_item_favorite_en {
-    constant = 'ASSET_LIST_BOX_VIEW_ITEM_FAVORITE'
-    label = 'Favorite'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label asset_list_box_view_item_favorite_da {
-    constant = 'ASSET_LIST_BOX_VIEW_ITEM_FAVORITE'
-    label = 'Favorit'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label asset_list_box_view_item_more_en {
-    constant = 'ASSET_LIST_BOX_VIEW_ITEM_MORE'
-    label = 'More'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label asset_list_box_view_item_more_da {
-    constant = 'ASSET_LIST_BOX_VIEW_ITEM_MORE'
-    label = 'Mere'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label asset_list_box_view_item_download_en {
-    constant = 'ASSET_LIST_BOX_VIEW_ITEM_DOWNLOAD'
-    label = 'Download'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label asset_list_box_view_item_download_da {
-    constant = 'ASSET_LIST_BOX_VIEW_ITEM_DOWNLOAD'
-    label = 'Download'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label asset_list_pagination_previous_en {
-    constant = 'ASSET_LIST_PAGINATION_PREVIOUS'
-    label = 'Previous'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label asset_list_pagination_previous_da {
-    constant = 'ASSET_LIST_PAGINATION_PREVIOUS'
-    label = 'Forrige'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label asset_list_pagination_next_en {
-    constant = 'ASSET_LIST_PAGINATION_NEXT'
-    label = 'Next'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label asset_list_pagination_next_da {
-    constant = 'ASSET_LIST_PAGINATION_NEXT'
-    label = 'Næste'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label asset_list_filter_menu_start_date_en {
-    constant = 'ASSET_LIST_FILTER_MENU_START_DATE'
-    label = 'Start date'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label asset_list_filter_menu_start_date_da {
-    constant = 'ASSET_LIST_FILTER_MENU_START_DATE'
-    label = 'Startdato'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label asset_list_filter_menu_end_date_en {
-    constant = 'ASSET_LIST_FILTER_MENU_END_DATE'
-    label = 'End date'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label asset_list_filter_menu_end_date_da {
-    constant = 'ASSET_LIST_FILTER_MENU_END_DATE'
-    label = 'Slutdato'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label asset_list_filter_menu_date_between_date_selector_year_en {
-    constant = 'ASSET_LIST_FILTER_MENU_DATE_BETWEEN_DATE_SELECTOR_YEAR'
-    label = 'Year'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label asset_list_filter_menu_date_between_date_selector_year_da {
-    constant = 'ASSET_LIST_FILTER_MENU_DATE_BETWEEN_DATE_SELECTOR_YEAR'
-    label = 'År'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label asset_list_filter_menu_date_between_date_selector_month_en {
-    constant = 'ASSET_LIST_FILTER_MENU_DATE_BETWEEN_DATE_SELECTOR_MONTH'
-    label = 'Month'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label asset_list_filter_menu_date_between_date_selector_month_da {
-    constant = 'ASSET_LIST_FILTER_MENU_DATE_BETWEEN_DATE_SELECTOR_MONTH'
-    label = 'Måned'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label asset_list_filter_menu_date_between_date_selector_day_en {
-    constant = 'ASSET_LIST_FILTER_MENU_DATE_BETWEEN_DATE_SELECTOR_DAY'
-    label = 'Day'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label asset_list_filter_menu_date_between_date_selector_day_da {
-    constant = 'ASSET_LIST_FILTER_MENU_DATE_BETWEEN_DATE_SELECTOR_DAY'
-    label = 'Dag'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label asset_list_more_popup_share_en {
-    constant = 'ASSET_LIST_MORE_POPUP_SHARE'
-    label = 'Share'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label asset_list_more_popup_share_da {
-    constant = 'ASSET_LIST_MORE_POPUP_SHARE'
-    label = 'Del'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label asset_list_more_popup_asset_info_en {
-    constant = 'ASSET_LIST_MORE_POPUP_ASSET_INFO'
-    label = 'Asset info'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label asset_list_more_popup_asset_info_da {
-    constant = 'ASSET_LIST_MORE_POPUP_ASSET_INFO'
-    label = 'Asset-info'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label asset_list_more_popup_insert_asset_en {
-    constant = 'ASSET_LIST_MORE_POPUP_INSERT_ASSET'
-    label = 'Insert asset'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label asset_list_more_popup_insert_asset_da {
-    constant = 'ASSET_LIST_MORE_POPUP_INSERT_ASSET'
-    label = 'Indsæt asset'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label asset_list_more_popup_download_en {
-    constant = 'ASSET_LIST_MORE_POPUP_DOWNLOAD'
-    label = 'Download'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label asset_list_more_popup_download_da {
-    constant = 'ASSET_LIST_MORE_POPUP_DOWNLOAD'
-    label = 'Hent'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label asset_list_more_popup_instantiate_business_workflow_en {
-    constant = 'ASSET_LIST_MORE_POPUP_INSTANTIATE_BUSINESS_WORKFLOW'
-    label = 'Init BW'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label asset_list_more_popup_instantiate_business_workflow_da {
-    constant = 'ASSET_LIST_MORE_POPUP_INSTANTIATE_BUSINESS_WORKFLOW'
-    label = 'Init BW'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label asset_list_more_popup_trim_en {
-    constant = 'ASSET_LIST_MORE_POPUP_TRIM'
-    label = 'Trim'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label asset_list_more_popup_trim_da {
-    constant = 'ASSET_LIST_MORE_POPUP_TRIM'
-    label = 'Trim'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label asset_list_more_popup_crop_en {
-    constant = 'ASSET_LIST_MORE_POPUP_CROP'
-    label = 'Crop'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label asset_list_more_popup_crop_da {
-    constant = 'ASSET_LIST_MORE_POPUP_CROP'
-    label = 'Beskær'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label asset_list_more_popup_crop_tool_en {
-    constant = 'ASSET_LIST_MORE_POPUP_CROP_TOOL'
-    label = 'Crop tool'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label asset_list_more_popup_crop_tool_da {
-    constant = 'ASSET_LIST_MORE_POPUP_CROP_TOOL'
-    label = 'Beskæringsværktøj'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label asset_list_more_popup_crop_no_crops_en {
-    constant = 'ASSET_LIST_MORE_POPUP_CROP_NO_CROPS'
-    label = 'No crops'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label asset_list_more_popup_crop_no_crops_da {
-    constant = 'ASSET_LIST_MORE_POPUP_CROP_NO_CROPS'
-    label = 'Ingen beskæringer'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label asset_list_more_popup_generate_thumbnails_en {
-    constant = 'ASSET_LIST_MORE_POPUP_GENERATE_THUMBNAILS'
-    label = 'Generate Thumbnails'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label asset_list_more_popup_generate_thumbnails_da {
-    constant = 'ASSET_LIST_MORE_POPUP_GENERATE_THUMBNAILS'
-    label = 'Generér Thumbnails'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label asset_list_more_popup_remove_from_collection_en {
-    constant = 'ASSET_LIST_MORE_POPUP_REMOVE_FROM_COLLECTION'
-    label = 'Remove from current collection'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label asset_list_more_popup_remove_from_collection_da {
-    constant = 'ASSET_LIST_MORE_POPUP_REMOVE_FROM_COLLECTION'
-    label = 'Fjern fra nuværende collection'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label asset_list_more_popup_audit_trail_en {
-    constant = 'ASSET_LIST_MORE_POPUP_AUDIT_TRAIL'
-    label = 'Audit trail'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label asset_list_more_popup_audit_trail_da {
-    constant = 'ASSET_LIST_MORE_POPUP_AUDIT_TRAIL'
-    label = 'Historik'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label asset_list_more_popup_print_en {
-    constant = 'ASSET_LIST_MORE_POPUP_PRINT'
-    label = 'Print'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label asset_list_more_popup_print_da {
-    constant = 'ASSET_LIST_MORE_POPUP_PRINT'
-    label = 'Print'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label asset_list_more_popup_replace_en {
-    constant = 'ASSET_LIST_MORE_POPUP_REPLACE'
-    label = 'Replace'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label asset_list_more_popup_replace_da {
-    constant = 'ASSET_LIST_MORE_POPUP_REPLACE'
-    label = 'Udskift'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label asset_list_more_popup_open_en {
-    constant = 'ASSET_LIST_MORE_POPUP_OPEN'
-    label = 'Open'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label asset_list_more_popup_open_da {
-    constant = 'ASSET_LIST_MORE_POPUP_OPEN'
-    label = 'Åbn'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label asset_list_more_popup_comments_en {
-    constant = 'ASSET_LIST_MORE_POPUP_COMMENTS'
-    label = 'Comments'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label asset_list_more_popup_comments_da {
-    constant = 'ASSET_LIST_MORE_POPUP_COMMENTS'
-    label = 'Kommentarer'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label asset_list_filter_menu_facet_render_type_facetrendertype_is_currently_not_supported_en {
-    constant = 'ASSET_LIST_FILTER_MENU_FACET_RENDER_TYPE_FACETRENDERTYPE_IS_CURRENTLY_NOT_SUPPORTED'
-    label = 'Facet render type \'{{renderType}}\' is currently not supported.'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label asset_list_filter_menu_facet_render_type_facetrendertype_is_currently_not_supported_da {
-    constant = 'ASSET_LIST_FILTER_MENU_FACET_RENDER_TYPE_FACETRENDERTYPE_IS_CURRENTLY_NOT_SUPPORTED'
-    label = 'Facet-visningstypen \'{{renderType}}\' understøttes ikke nuværende.'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label asset_list_box_view_assets_selected_en {
-    constant = 'ASSET_LIST_BOX_VIEW_ASSETS_SELECTED'
-    label = 'assets selected'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label asset_list_box_view_assets_selected_da {
-    constant = 'ASSET_LIST_BOX_VIEW_ASSETS_SELECTED'
-    label = 'assets valgt'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label asset_list_asset_status_no_status_en {
-    constant = 'ASSET_LIST_ASSET_STATUS_NO_STATUS'
-    label = 'No status'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label asset_list_asset_status_no_status_da {
-    constant = 'ASSET_LIST_ASSET_STATUS_NO_STATUS'
-    label = 'Ingen status'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label asset_list_box_view_item_not_public_en {
-    constant = 'ASSET_LIST_BOX_VIEW_ITEM_NOT_PUBLIC'
-    label = 'Not public'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label asset_list_box_view_item_not_public_da {
-    constant = 'ASSET_LIST_BOX_VIEW_ITEM_NOT_PUBLIC'
-    label = 'Ikke offentlig'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label asset_list_box_view_item_select_tooltip_en {
-    constant = 'ASSET_LIST_BOX_VIEW_ITEM_SELECT_TOOLTIP'
-    label = 'Select'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label asset_list_box_view_item_select_tooltip_da {
-    constant = 'ASSET_LIST_BOX_VIEW_ITEM_SELECT_TOOLTIP'
-    label = 'Vælg'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label mm_asset_list_asset_selector_dropdown_select_visible_en {
-    constant = 'MM_ASSET_LIST_ASSET_SELECTOR_DROPDOWN_SELECT_VISIBLE'
-    label = '{includeExisting, select, true {Select visible and existing} false {Select visible}}'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label mm_asset_list_asset_selector_dropdown_select_visible_da {
-    constant = 'MM_ASSET_LIST_ASSET_SELECTOR_DROPDOWN_SELECT_VISIBLE'
-    label = '{includeExisting, select, true {Vælg synlige og eksisterende} false {Vælg synlige}}'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label mm_asset_list_asset_selector_dropdown_select_all_en {
-    constant = 'MM_ASSET_LIST_ASSET_SELECTOR_DROPDOWN_SELECT_ALL'
-    label = '{showTrueTotalCount, select, true {Select} false {Select all}}'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label mm_asset_list_asset_selector_dropdown_select_all_da {
-    constant = 'MM_ASSET_LIST_ASSET_SELECTOR_DROPDOWN_SELECT_ALL'
-    label = '{showTrueTotalCount, select, true {Vælg} false {Vælg alle}}'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label asset_list_asset_search_results_refine_text_en {
-    constant = 'ASSET_LIST_ASSET_SEARCH_RESULTS_REFINE_TEXT'
-    label = 'Only the first 10,000 assets can be shown. Please change either your search or sorting if there\'s an asset you cannot locate.'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label asset_list_asset_search_results_refine_text_da {
-    constant = 'ASSET_LIST_ASSET_SEARCH_RESULTS_REFINE_TEXT'
-    label = 'Kun de første 10.000 assets vil blive vist. Ændr evt. enten din søgning eller sortering hvis der er et asset du ikke kan finde.'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label new_assets_available_en {
-    constant = 'NEW_ASSETS_AVAILABLE'
-    label = 'New assets'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label new_assets_available_da {
-    constant = 'NEW_ASSETS_AVAILABLE'
-    label = 'Nye assets'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label asset_list_results_per_page_en {
-    constant = 'ASSET_LIST_RESULTS_PER_PAGE'
-    label = 'Results per page'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label asset_list_results_per_page_da {
-    constant = 'ASSET_LIST_RESULTS_PER_PAGE'
-    label = 'Resultater per side'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label asset_list_no_results_en {
-    constant = 'ASSET_LIST_NO_RESULTS'
-    label = 'No results available'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label asset_list_no_results_da {
-    constant = 'ASSET_LIST_NO_RESULTS'
-    label = 'Ingen resultater tilgængelige'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label asset_list_filter_menu_string_input_search_en {
-    constant = 'ASSET_LIST_FILTER_MENU_STRING_INPUT_SEARCH'
-    label = 'Search'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label asset_list_filter_menu_string_input_search_da {
-    constant = 'ASSET_LIST_FILTER_MENU_STRING_INPUT_SEARCH'
-    label = 'Søg'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label asset_list_filter_menu_string_input_search_filter_en {
-    constant = 'ASSET_LIST_FILTER_MENU_STRING_INPUT_SEARCH_FILTER'
-    label = 'Search in this filter'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label asset_list_filter_menu_string_input_search_filter_da {
-    constant = 'ASSET_LIST_FILTER_MENU_STRING_INPUT_SEARCH_FILTER'
-    label = 'Søg i dette filter'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label asset_list_filter_menu_string_input_search_filter_tooltip_en {
-    constant = 'ASSET_LIST_FILTER_MENU_STRING_INPUT_SEARCH_FILTER_TOOLTIP'
-    label = 'Search in this filter'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label asset_list_filter_menu_string_input_search_filter_tooltip_da {
-    constant = 'ASSET_LIST_FILTER_MENU_STRING_INPUT_SEARCH_FILTER_TOOLTIP'
-    label = 'Søg i dette filter'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label asset_list_filter_menu_string_input_search_not_found_en {
-    constant = 'ASSET_LIST_FILTER_MENU_STRING_INPUT_SEARCH_NOT_FOUND'
-    label = 'No results'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label asset_list_filter_menu_string_input_search_not_found_da {
-    constant = 'ASSET_LIST_FILTER_MENU_STRING_INPUT_SEARCH_NOT_FOUND'
-    label = 'Ingen resultater'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label asset_list_filter_menu_show_more_or_less_en {
-    constant = 'ASSET_LIST_FILTER_MENU_SHOW_MORE_OR_LESS'
-    label = '{showMore, select, true {Show top 10} false {Show more}}'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label asset_list_filter_menu_show_more_or_less_da {
-    constant = 'ASSET_LIST_FILTER_MENU_SHOW_MORE_OR_LESS'
-    label = '{showMore, select, true {Vis top-10} false {Vis flere}}'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label asset_list_filter_menu_string_search_en {
-    constant = 'ASSET_LIST_FILTER_MENU_STRING_SEARCH'
-    label = 'Search'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label asset_list_filter_menu_string_search_da {
-    constant = 'ASSET_LIST_FILTER_MENU_STRING_SEARCH'
-    label = 'Søg'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label asset_list_filter_menu_apply_values_en {
-    constant = 'ASSET_LIST_FILTER_MENU_APPLY_VALUES'
-    label = 'Apply values'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label asset_list_filter_menu_apply_values_da {
-    constant = 'ASSET_LIST_FILTER_MENU_APPLY_VALUES'
-    label = 'Anvend værdier'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label asset_list_filter_menu_na_placeholder_en {
-    constant = 'ASSET_LIST_FILTER_MENU_NA_PLACEHOLDER'
-    label = 'N/A'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label asset_list_filter_menu_na_placeholder_da {
-    constant = 'ASSET_LIST_FILTER_MENU_NA_PLACEHOLDER'
-    label = 'N/A'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label mm_asset_list_asset_list_comments_for_this_collection_en {
-    constant = 'MM_ASSET_LIST_ASSET_LIST_COMMENTS_FOR_THIS_COLLECTION'
-    label = 'Comments for this Collection'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label mm_asset_list_asset_list_comments_for_this_collection_da {
-    constant = 'MM_ASSET_LIST_ASSET_LIST_COMMENTS_FOR_THIS_COLLECTION'
-    label = 'Kommentarer til denne collection'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label asset_list_deleted_title_en {
-    constant = 'ASSET_LIST_DELETED_TITLE'
-    label = 'Success'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label asset_list_deleted_title_da {
-    constant = 'ASSET_LIST_DELETED_TITLE'
-    label = 'Succes'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label asset_list_deleted_body_en {
-    constant = 'ASSET_LIST_DELETED_BODY'
-    label = '{multiple, select, true {The assets were} false {The asset was}} successfully deleted'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label asset_list_deleted_body_da {
-    constant = 'ASSET_LIST_DELETED_BODY'
-    label = '{multiple, select, true {Assetsne} false {Assettet}} blev slettet'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label asset_list_archived_title_en {
-    constant = 'ASSET_LIST_ARCHIVED_TITLE'
-    label = 'Success'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label asset_list_archived_title_da {
-    constant = 'ASSET_LIST_ARCHIVED_TITLE'
-    label = 'Succes'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label asset_list_archived_body_en {
-    constant = 'ASSET_LIST_ARCHIVED_BODY'
-    label = '{multiple, select, true {The assets were} false {The asset was}} successfully deleted'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label asset_list_archived_body_da {
-    constant = 'ASSET_LIST_ARCHIVED_BODY'
-    label = '{multiple, select, true {Assetsne} false {Assettet}} blev slettet'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label asset_list_archive_asset_en {
-    constant = 'ASSET_LIST_ARCHIVE_ASSET'
-    label = 'Delete'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label asset_list_archive_asset_da {
-    constant = 'ASSET_LIST_ARCHIVE_ASSET'
-    label = 'Slet'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label asset_list_delete_permanently_en {
-    constant = 'ASSET_LIST_DELETE_PERMANENTLY'
-    label = 'Permanently delete'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label asset_list_delete_permanently_da {
-    constant = 'ASSET_LIST_DELETE_PERMANENTLY'
-    label = 'Slet permanent'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label asset_list_asset_search_error_title_en {
-    constant = 'ASSET_LIST_ASSET_SEARCH_ERROR_TITLE'
-    label = 'Asset search error'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label asset_list_asset_search_error_title_da {
-    constant = 'ASSET_LIST_ASSET_SEARCH_ERROR_TITLE'
-    label = 'Der skete en fejl under asset-søgningen'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label asset_list_asset_search_error_body_en {
-    constant = 'ASSET_LIST_ASSET_SEARCH_ERROR_BODY'
-    label = 'An error occured while searching for assets. Please contact your system administrator'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label asset_list_asset_search_error_body_da {
-    constant = 'ASSET_LIST_ASSET_SEARCH_ERROR_BODY'
-    label = 'Der opstod en fejl under asset-søgningen. Kontakt venligst din systemadministrator'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label asset_list_delete_error_en {
-    constant = 'ASSET_LIST_DELETE_ERROR'
-    label = 'An error occurred while deleting the {multiple, select, true {assets} false {asset}}'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label asset_list_delete_error_da {
-    constant = 'ASSET_LIST_DELETE_ERROR'
-    label = 'Der opstod en fejl under sletningen af {multiple, select, true {assetsne} false {assetet}}'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label asset_list_archive_error_en {
-    constant = 'ASSET_LIST_ARCHIVE_ERROR'
-    label = 'An error occurred while deleting the {multiple, select, true {assets} false {asset}}'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label asset_list_archive_error_da {
-    constant = 'ASSET_LIST_ARCHIVE_ERROR'
-    label = 'Der opstod en fejl under sletningen af {multiple, select, true {assetsne} false {assetet}}'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label asset_list_delete_confirmation_dialog_title_en {
-    constant = 'ASSET_LIST_DELETE_CONFIRMATION_DIALOG_TITLE'
-    label = '! WARNING Permanently delete'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label asset_list_delete_confirmation_dialog_title_da {
-    constant = 'ASSET_LIST_DELETE_CONFIRMATION_DIALOG_TITLE'
-    label = '! ADVARSEL Slet permanent'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label asset_list_delete_confirmation_dialog_content_en {
-    constant = 'ASSET_LIST_DELETE_CONFIRMATION_DIALOG_CONTENT'
-    label = 'Are you sure you want to permanently delete {multiple, select, true {these assets} false {this asset}}? This action cannot be undone and the {multiple, select, true {assets} false {asset}} cannot be recovered.'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label asset_list_delete_confirmation_dialog_content_da {
-    constant = 'ASSET_LIST_DELETE_CONFIRMATION_DIALOG_CONTENT'
-    label = 'Er du sikker på at du vil slette {multiple, select, true {assetsne} false {assettet}} permanent? Denne handling kan ikke fortrydes, og {multiple, select, true {assetsne} false {assettet}} kan ikke gendannes.'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label asset_list_delete_confirmation_dialog_cancel_en {
-    constant = 'ASSET_LIST_DELETE_CONFIRMATION_DIALOG_CANCEL'
-    label = 'Cancel'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label asset_list_delete_confirmation_dialog_cancel_da {
-    constant = 'ASSET_LIST_DELETE_CONFIRMATION_DIALOG_CANCEL'
-    label = 'Annullér'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label asset_list_delete_confirmation_dialog_ok_en {
-    constant = 'ASSET_LIST_DELETE_CONFIRMATION_DIALOG_OK'
-    label = 'Permanently delete'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label asset_list_delete_confirmation_dialog_ok_da {
-    constant = 'ASSET_LIST_DELETE_CONFIRMATION_DIALOG_OK'
-    label = 'Slet permanent'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label asset_list_archive_confirmation_dialog_title_en {
-    constant = 'ASSET_LIST_ARCHIVE_CONFIRMATION_DIALOG_TITLE'
-    label = 'Delete'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label asset_list_archive_confirmation_dialog_title_da {
-    constant = 'ASSET_LIST_ARCHIVE_CONFIRMATION_DIALOG_TITLE'
-    label = 'Slet'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label asset_list_archive_confirmation_dialog_content_en {
-    constant = 'ASSET_LIST_ARCHIVE_CONFIRMATION_DIALOG_CONTENT'
-    label = 'Are you sure you want to delete {multiple, select, true {these assets} false {this asset}}?'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label asset_list_archive_confirmation_dialog_content_da {
-    constant = 'ASSET_LIST_ARCHIVE_CONFIRMATION_DIALOG_CONTENT'
-    label = 'Er du sikker på at du vil slette {multiple, select, true {assetsne} false {assettet}}?'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label asset_list_archive_confirmation_dialog_cancel_en {
-    constant = 'ASSET_LIST_ARCHIVE_CONFIRMATION_DIALOG_CANCEL'
-    label = 'Cancel'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label asset_list_archive_confirmation_dialog_cancel_da {
-    constant = 'ASSET_LIST_ARCHIVE_CONFIRMATION_DIALOG_CANCEL'
-    label = 'Annullér'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label asset_list_archive_confirmation_dialog_ok_en {
-    constant = 'ASSET_LIST_ARCHIVE_CONFIRMATION_DIALOG_OK'
-    label = 'Delete'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label asset_list_archive_confirmation_dialog_ok_da {
-    constant = 'ASSET_LIST_ARCHIVE_CONFIRMATION_DIALOG_OK'
-    label = 'Slet'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label mm_asset_list_new_sort_configuration_dialog_saving_error_en {
-    constant = 'MM_ASSET_LIST_NEW_SORT_CONFIGURATION_DIALOG_SAVING_ERROR'
-    label = 'All fields must be filled out.'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label mm_asset_list_new_sort_configuration_dialog_saving_error_da {
-    constant = 'MM_ASSET_LIST_NEW_SORT_CONFIGURATION_DIALOG_SAVING_ERROR'
-    label = 'Alle felter skal udfyldes.'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label mm_asset_list_new_sort_configuration_dialog_save_en {
-    constant = 'MM_ASSET_LIST_NEW_SORT_CONFIGURATION_DIALOG_SAVE'
-    label = 'Save'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label mm_asset_list_new_sort_configuration_dialog_save_da {
-    constant = 'MM_ASSET_LIST_NEW_SORT_CONFIGURATION_DIALOG_SAVE'
-    label = 'Gem'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label mm_asset_list_new_sort_configuration_dialog_cancel_en {
-    constant = 'MM_ASSET_LIST_NEW_SORT_CONFIGURATION_DIALOG_CANCEL'
-    label = 'Cancel'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label mm_asset_list_new_sort_configuration_dialog_cancel_da {
-    constant = 'MM_ASSET_LIST_NEW_SORT_CONFIGURATION_DIALOG_CANCEL'
-    label = 'Annuller'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label mm_asset_list_new_sort_configuration_dialog_add_new_row_en {
-    constant = 'MM_ASSET_LIST_NEW_SORT_CONFIGURATION_DIALOG_ADD_NEW_ROW'
-    label = 'Add new row'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label mm_asset_list_new_sort_configuration_dialog_add_new_row_da {
-    constant = 'MM_ASSET_LIST_NEW_SORT_CONFIGURATION_DIALOG_ADD_NEW_ROW'
-    label = 'Tilføj ny række'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label mm_asset_list_new_sort_configuration_dialog_remove_row_en {
-    constant = 'MM_ASSET_LIST_NEW_SORT_CONFIGURATION_DIALOG_REMOVE_ROW'
-    label = 'Remove row'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label mm_asset_list_new_sort_configuration_dialog_remove_row_da {
-    constant = 'MM_ASSET_LIST_NEW_SORT_CONFIGURATION_DIALOG_REMOVE_ROW'
-    label = 'Fjern række'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label mm_asset_list_new_sort_configuration_dialog_reorder_en {
-    constant = 'MM_ASSET_LIST_NEW_SORT_CONFIGURATION_DIALOG_REORDER'
-    label = 'Reorder'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label mm_asset_list_new_sort_configuration_dialog_reorder_da {
-    constant = 'MM_ASSET_LIST_NEW_SORT_CONFIGURATION_DIALOG_REORDER'
-    label = 'Omroker'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label mm_asset_list_new_sort_configuration_dialog_select_placeholder_en {
-    constant = 'MM_ASSET_LIST_NEW_SORT_CONFIGURATION_DIALOG_SELECT_PLACEHOLDER'
-    label = 'Choose'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label mm_asset_list_new_sort_configuration_dialog_select_placeholder_da {
-    constant = 'MM_ASSET_LIST_NEW_SORT_CONFIGURATION_DIALOG_SELECT_PLACEHOLDER'
-    label = 'Vælg'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label mm_asset_list_new_sort_configuration_dialog_sort_by_en {
-    constant = 'MM_ASSET_LIST_NEW_SORT_CONFIGURATION_DIALOG_SORT_BY'
-    label = '{isFirst, select, true {Sort by} false {Then sort by}}'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label mm_asset_list_new_sort_configuration_dialog_sort_by_da {
-    constant = 'MM_ASSET_LIST_NEW_SORT_CONFIGURATION_DIALOG_SORT_BY'
-    label = '{isFirst, select, true {Sorter efter} false {Så sorter efter}}'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label mm_asset_list_new_sort_configuration_dialog_order_en {
-    constant = 'MM_ASSET_LIST_NEW_SORT_CONFIGURATION_DIALOG_ORDER'
-    label = 'Order'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label mm_asset_list_new_sort_configuration_dialog_order_da {
-    constant = 'MM_ASSET_LIST_NEW_SORT_CONFIGURATION_DIALOG_ORDER'
-    label = 'Ændr rækkefølge'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label mm_asset_list_new_sort_configuration_dialog_add_first_sorting_en {
-    constant = 'MM_ASSET_LIST_NEW_SORT_CONFIGURATION_DIALOG_ADD_FIRST_SORTING'
-    label = 'Add first sorting'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label mm_asset_list_new_sort_configuration_dialog_add_first_sorting_da {
-    constant = 'MM_ASSET_LIST_NEW_SORT_CONFIGURATION_DIALOG_ADD_FIRST_SORTING'
-    label = 'Tilføj første sortering'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label mm_asset_list_new_sort_configuration_dialog_then_by_en {
-    constant = 'MM_ASSET_LIST_NEW_SORT_CONFIGURATION_DIALOG_THEN_BY'
-    label = 'Then sort by...'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label mm_asset_list_new_sort_configuration_dialog_then_by_da {
-    constant = 'MM_ASSET_LIST_NEW_SORT_CONFIGURATION_DIALOG_THEN_BY'
-    label = 'Så sorter efter...'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label mm_asset_list_new_sort_configuration_dialog_configure_asset_sorting_en {
-    constant = 'MM_ASSET_LIST_NEW_SORT_CONFIGURATION_DIALOG_CONFIGURE_ASSET_SORTING'
-    label = 'Configure custom order'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label mm_asset_list_new_sort_configuration_dialog_configure_asset_sorting_da {
-    constant = 'MM_ASSET_LIST_NEW_SORT_CONFIGURATION_DIALOG_CONFIGURE_ASSET_SORTING'
-    label = 'Konfigurer brugerdefineret rækkefølge'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label filter_panel_filter_panel_filter_base_remove_filter_en {
-    constant = 'FILTER_PANEL_FILTER_PANEL_FILTER_BASE_REMOVE_FILTER'
-    label = 'Remove'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label filter_panel_filter_panel_filter_base_remove_filter_da {
-    constant = 'FILTER_PANEL_FILTER_PANEL_FILTER_BASE_REMOVE_FILTER'
-    label = 'Fjern'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label asset_list_new_filter_menu_filter_list_filter_type_is_not_yet_supported_en {
-    constant = 'ASSET_LIST_NEW_FILTER_MENU_FILTER_LIST_FILTER_TYPE_IS_NOT_YET_SUPPORTED'
-    label = 'The filter type \'{{ filterType }}\' is not yet supported'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label asset_list_new_filter_menu_filter_list_filter_type_is_not_yet_supported_da {
-    constant = 'ASSET_LIST_NEW_FILTER_MENU_FILTER_LIST_FILTER_TYPE_IS_NOT_YET_SUPPORTED'
-    label = 'Filtertypen \'{{ filterType }}\' er endnu ikke understøttet'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label asset_list_add_new_filter_input_add_fields_en {
-    constant = 'ASSET_LIST_ADD_NEW_FILTER_INPUT_ADD_FIELDS'
-    label = 'Add fields'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label asset_list_add_new_filter_input_add_fields_da {
-    constant = 'ASSET_LIST_ADD_NEW_FILTER_INPUT_ADD_FIELDS'
-    label = 'Tilføj felter'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label asset_list_filter_property_title_en {
-    constant = 'ASSET_LIST_FILTER_PROPERTY_TITLE'
-    label = '{property, select, assetId {Asset ID} itemId {Item ID} originalFileName {Original file name} assetType {Asset type} derivedFrom {Parent asset} replacedWith {Show old versions of} extension {Extension} uploader {Upload user} uploadComputer {Upload product} channelFolder {Channel folder} uploadDate {Upload date} fileSize {Original file size} lastChangedDate {Last updated} width {Pixel width} height {Pixel height} duration {Duration} deleted {Deleted}}'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label asset_list_filter_property_title_da {
-    constant = 'ASSET_LIST_FILTER_PROPERTY_TITLE'
-    label = '{property, select, assetId {Asset-ID} itemId {Item-ID} originalFileName {Oprindeligt filnavn} assetType {Assettype} derivedFrom {Forælder-asset} replacedWith {Vis gamle versioner af} extension {Filendelse} uploader {Upload-bruger} uploadComputer {Upload-produkt} channelFolder {Kanalmappe} uploadDate {Uploaddato} fileSize {Oprindelig filstørrelse} lastChangedDate {Sidst opdateret} width {Pixel-bredde} height {Pixel-højde} duration {Varighed} deleted {Slettet}}'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label asset_list_collection_notification_modal_header_en {
-    constant = 'ASSET_LIST_COLLECTION_NOTIFICATION_MODAL_HEADER'
-    label = 'Collection'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label asset_list_collection_notification_modal_header_da {
-    constant = 'ASSET_LIST_COLLECTION_NOTIFICATION_MODAL_HEADER'
-    label = 'Collection'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label asset_list_collection_notification_modal_body_en {
-    constant = 'ASSET_LIST_COLLECTION_NOTIFICATION_MODAL_BODY'
-    label = 'No assets found'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label asset_list_collection_notification_modal_body_da {
-    constant = 'ASSET_LIST_COLLECTION_NOTIFICATION_MODAL_BODY'
-    label = 'Der blev ikke fundet nogen assets'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label asset_list_collection_preview_notification_modal_header_en {
-    constant = 'ASSET_LIST_COLLECTION_PREVIEW_NOTIFICATION_MODAL_HEADER'
-    label = 'Collection not found'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label asset_list_collection_preview_notification_modal_header_da {
-    constant = 'ASSET_LIST_COLLECTION_PREVIEW_NOTIFICATION_MODAL_HEADER'
-    label = 'Collectionen kan ikke findes'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label asset_list_collection_preview_notification_modal_body_en {
-    constant = 'ASSET_LIST_COLLECTION_PREVIEW_NOTIFICATION_MODAL_BODY'
-    label = 'You either have insufficient rights to view the collection or it has been deleted'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label asset_list_collection_preview_notification_modal_body_da {
-    constant = 'ASSET_LIST_COLLECTION_PREVIEW_NOTIFICATION_MODAL_BODY'
-    label = 'Du har enten utilstrækkelig rettighed til at se collectionen, eller er den slettet'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
+﻿resource configservice_label lbl_mp_assets {
+  key = 'LBL_MP_ASSETS'
+  group = 'Asset List'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Assets'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Assets'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_archive {
+  key = 'ASSET_ARCHIVE'
+  group = 'Asset List'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Archive'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Arkiv'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_list_select_all_assets_tooltip {
+  key = 'ASSET_LIST_SELECT_ALL_ASSETS_TOOLTIP'
+  group = 'Asset List'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Select all'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Vælg alle'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_list_assets_total {
+  key = 'ASSET_LIST_ASSETS_TOTAL'
+  group = 'Asset List'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Assets'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Assets'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_list_save_search_button {
+  key = 'ASSET_LIST_SAVE_SEARCH_BUTTON'
+  group = 'Asset List'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Save Search'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Gem søgning'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_list_list_view_option_button {
+  key = 'ASSET_LIST_LIST_VIEW_OPTION_BUTTON'
+  group = 'Asset List'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'View'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Visning'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_list_loading_text {
+  key = 'ASSET_LIST_LOADING_TEXT'
+  group = 'Asset List'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Loading...'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Indlæser...'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_list_list_view_tooltip {
+  key = 'ASSET_LIST_LIST_VIEW_TOOLTIP'
+  group = 'Asset List'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'List view'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Listevisning'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_list_box_view_tooltip {
+  key = 'ASSET_LIST_BOX_VIEW_TOOLTIP'
+  group = 'Asset List'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Grid view'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Gallerivisning'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_list_refresh {
+  key = 'ASSET_LIST_REFRESH'
+  group = 'Asset List'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Refresh'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Genopfrisk'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_list_list_title_column_title {
+  key = 'ASSET_LIST_LIST_TITLE_COLUMN_TITLE'
+  group = 'Asset List'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Title'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Titel'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_list_list_title_column_description {
+  key = 'ASSET_LIST_LIST_TITLE_COLUMN_DESCRIPTION'
+  group = 'Asset List'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Description'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Beskrivelse'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_list_list_title_column_action {
+  key = 'ASSET_LIST_LIST_TITLE_COLUMN_ACTION'
+  group = 'Asset List'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Actions'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Handlinger'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_list_folders_title {
+  key = 'ASSET_LIST_FOLDERS_TITLE'
+  group = 'Asset List'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Folders'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Mapper'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_list_folders_add_folder {
+  key = 'ASSET_LIST_FOLDERS_ADD_FOLDER'
+  group = 'Asset List'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Add folder'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Tilføj mappe'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_list_no_folders {
+  key = 'ASSET_LIST_NO_FOLDERS'
+  group = 'Asset List'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'This folder has no subfolders'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Denne mappe har ingen undermapper'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_list_no_collections {
+  key = 'ASSET_LIST_NO_COLLECTIONS'
+  group = 'Asset List'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'There are no collections'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Der er ingen collections'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_list_collection_menu_back {
+  key = 'ASSET_LIST_COLLECTION_MENU_BACK'
+  group = 'Asset List'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Back'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Tilbage'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_list_filter_bar_popup_type {
+  key = 'ASSET_LIST_FILTER_BAR_POPUP_TYPE'
+  group = 'Asset List'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Type'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Type'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_list_filter_date_time_range {
+  key = 'ASSET_LIST_FILTER_DATE_TIME_RANGE'
+  group = 'Asset List'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = '{preset, select, last-24-hours {Last 24 hours} last-7-days {Last 7 days} last-30-days {Last 30 days} all-past-dates {All past dates} next-24-hours {Next 24 hours} next-7-days {Next 7 days} next-30-days {Next 30 days} all-future-dates {All future dates} custom {Custom}}'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = '{preset, select, last-24-hours {Sidste 24 timer} last-7-days {Sidste 7 dage} last-30-days {Sidste 30 dage} all-past-dates {Alle tidligere datoer} next-24-hours {Næste 24 timer} next-7-days {Næste 7 dage} next-30-days {Næste 30 dage} all-future-dates {Alle fremtidige datoer} custom {Brugerdefineret}}'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_list_filter_bar_popup_unsupported {
+  key = 'ASSET_LIST_FILTER_BAR_POPUP_UNSUPPORTED'
+  group = 'Asset List'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'is still unsupported'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'er stadig ikke understøttet'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_list_facet_menu_multicombo_no_options {
+  key = 'ASSET_LIST_FACET_MENU_MULTICOMBO_NO_OPTIONS'
+  group = 'Asset List'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Not found'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Ikke fundet'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_list_facet_menu_multicombo_show_all {
+  key = 'ASSET_LIST_FACET_MENU_MULTICOMBO_SHOW_ALL'
+  group = 'Asset List'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = '{showingAll, select, true {Show top 10} false {Show all}}'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = '{showingAll, select, true {Vis top 10} false {Vis alle}}'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_list_archive {
+  key = 'ASSET_LIST_ARCHIVE'
+  group = 'Asset List'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Folders'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Mapper'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_list_folders_show_more {
+  key = 'ASSET_LIST_FOLDERS_SHOW_MORE'
+  group = 'Asset List'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Show {{count}} more'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Vis {{count}} mere'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_list_folders_hide {
+  key = 'ASSET_LIST_FOLDERS_HIDE'
+  group = 'Asset List'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Show only {{count}}'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Vis {{count}}'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_list_box_view_item_asset_info {
+  key = 'ASSET_LIST_BOX_VIEW_ITEM_ASSET_INFO'
+  group = 'Asset List'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Asset info'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Asset-info'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_list_box_view_item_favorite {
+  key = 'ASSET_LIST_BOX_VIEW_ITEM_FAVORITE'
+  group = 'Asset List'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Favorite'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Favorit'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_list_box_view_item_more {
+  key = 'ASSET_LIST_BOX_VIEW_ITEM_MORE'
+  group = 'Asset List'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'More'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Mere'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_list_box_view_item_download {
+  key = 'ASSET_LIST_BOX_VIEW_ITEM_DOWNLOAD'
+  group = 'Asset List'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Download'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Download'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_list_pagination_previous {
+  key = 'ASSET_LIST_PAGINATION_PREVIOUS'
+  group = 'Asset List'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Previous'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Forrige'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_list_pagination_next {
+  key = 'ASSET_LIST_PAGINATION_NEXT'
+  group = 'Asset List'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Next'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Næste'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_list_filter_menu_start_date {
+  key = 'ASSET_LIST_FILTER_MENU_START_DATE'
+  group = 'Asset List'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Start date'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Startdato'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_list_filter_menu_end_date {
+  key = 'ASSET_LIST_FILTER_MENU_END_DATE'
+  group = 'Asset List'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'End date'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Slutdato'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_list_filter_menu_date_between_date_selector_year {
+  key = 'ASSET_LIST_FILTER_MENU_DATE_BETWEEN_DATE_SELECTOR_YEAR'
+  group = 'Asset List'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Year'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'År'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_list_filter_menu_date_between_date_selector_month {
+  key = 'ASSET_LIST_FILTER_MENU_DATE_BETWEEN_DATE_SELECTOR_MONTH'
+  group = 'Asset List'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Month'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Måned'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_list_filter_menu_date_between_date_selector_day {
+  key = 'ASSET_LIST_FILTER_MENU_DATE_BETWEEN_DATE_SELECTOR_DAY'
+  group = 'Asset List'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Day'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Dag'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_list_more_popup_share {
+  key = 'ASSET_LIST_MORE_POPUP_SHARE'
+  group = 'Asset List'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Share'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Del'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_list_more_popup_asset_info {
+  key = 'ASSET_LIST_MORE_POPUP_ASSET_INFO'
+  group = 'Asset List'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Asset info'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Asset-info'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_list_more_popup_insert_asset {
+  key = 'ASSET_LIST_MORE_POPUP_INSERT_ASSET'
+  group = 'Asset List'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Insert asset'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Indsæt asset'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_list_more_popup_download {
+  key = 'ASSET_LIST_MORE_POPUP_DOWNLOAD'
+  group = 'Asset List'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Download'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Hent'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_list_more_popup_instantiate_business_workflow {
+  key = 'ASSET_LIST_MORE_POPUP_INSTANTIATE_BUSINESS_WORKFLOW'
+  group = 'Asset List'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Init BW'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Init BW'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_list_more_popup_trim {
+  key = 'ASSET_LIST_MORE_POPUP_TRIM'
+  group = 'Asset List'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Trim'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Trim'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_list_more_popup_crop {
+  key = 'ASSET_LIST_MORE_POPUP_CROP'
+  group = 'Asset List'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Crop'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Beskær'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_list_more_popup_crop_tool {
+  key = 'ASSET_LIST_MORE_POPUP_CROP_TOOL'
+  group = 'Asset List'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Crop tool'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Beskæringsværktøj'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_list_more_popup_crop_no_crops {
+  key = 'ASSET_LIST_MORE_POPUP_CROP_NO_CROPS'
+  group = 'Asset List'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'No crops'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Ingen beskæringer'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_list_more_popup_generate_thumbnails {
+  key = 'ASSET_LIST_MORE_POPUP_GENERATE_THUMBNAILS'
+  group = 'Asset List'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Generate Thumbnails'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Generér Thumbnails'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_list_more_popup_remove_from_collection {
+  key = 'ASSET_LIST_MORE_POPUP_REMOVE_FROM_COLLECTION'
+  group = 'Asset List'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Remove from current collection'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Fjern fra nuværende collection'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_list_more_popup_audit_trail {
+  key = 'ASSET_LIST_MORE_POPUP_AUDIT_TRAIL'
+  group = 'Asset List'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Audit trail'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Historik'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_list_more_popup_print {
+  key = 'ASSET_LIST_MORE_POPUP_PRINT'
+  group = 'Asset List'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Print'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Print'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_list_more_popup_replace {
+  key = 'ASSET_LIST_MORE_POPUP_REPLACE'
+  group = 'Asset List'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Replace'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Udskift'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_list_more_popup_open {
+  key = 'ASSET_LIST_MORE_POPUP_OPEN'
+  group = 'Asset List'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Open'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Åbn'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_list_more_popup_comments {
+  key = 'ASSET_LIST_MORE_POPUP_COMMENTS'
+  group = 'Asset List'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Comments'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Kommentarer'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_list_filter_menu_facet_render_type_facetrendertype_is_currently_not_supported {
+  key = 'ASSET_LIST_FILTER_MENU_FACET_RENDER_TYPE_FACETRENDERTYPE_IS_CURRENTLY_NOT_SUPPORTED'
+  group = 'Asset List'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Facet render type \'{{renderType}}\' is currently not supported.'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Facet-visningstypen \'{{renderType}}\' understøttes ikke nuværende.'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_list_box_view_assets_selected {
+  key = 'ASSET_LIST_BOX_VIEW_ASSETS_SELECTED'
+  group = 'Asset List'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'assets selected'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'assets valgt'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_list_asset_status_no_status {
+  key = 'ASSET_LIST_ASSET_STATUS_NO_STATUS'
+  group = 'Asset List'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'No status'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Ingen status'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_list_box_view_item_not_public {
+  key = 'ASSET_LIST_BOX_VIEW_ITEM_NOT_PUBLIC'
+  group = 'Asset List'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Not public'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Ikke offentlig'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_list_box_view_item_select_tooltip {
+  key = 'ASSET_LIST_BOX_VIEW_ITEM_SELECT_TOOLTIP'
+  group = 'Asset List'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Select'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Vælg'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label mm_asset_list_asset_selector_dropdown_select_visible {
+  key = 'MM_ASSET_LIST_ASSET_SELECTOR_DROPDOWN_SELECT_VISIBLE'
+  group = 'Asset List'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = '{includeExisting, select, true {Select visible and existing} false {Select visible}}'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = '{includeExisting, select, true {Vælg synlige og eksisterende} false {Vælg synlige}}'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label mm_asset_list_asset_selector_dropdown_select_all {
+  key = 'MM_ASSET_LIST_ASSET_SELECTOR_DROPDOWN_SELECT_ALL'
+  group = 'Asset List'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = '{showTrueTotalCount, select, true {Select} false {Select all}}'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = '{showTrueTotalCount, select, true {Vælg} false {Vælg alle}}'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_list_asset_search_results_refine_text {
+  key = 'ASSET_LIST_ASSET_SEARCH_RESULTS_REFINE_TEXT'
+  group = 'Asset List'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Only the first 10,000 assets can be shown. Please change either your search or sorting if there\'s an asset you cannot locate.'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Kun de første 10.000 assets vil blive vist. Ændr evt. enten din søgning eller sortering hvis der er et asset du ikke kan finde.'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label new_assets_available {
+  key = 'NEW_ASSETS_AVAILABLE'
+  group = 'Asset List'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'New assets'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Nye assets'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_list_results_per_page {
+  key = 'ASSET_LIST_RESULTS_PER_PAGE'
+  group = 'Asset List'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Results per page'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Resultater per side'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_list_no_results {
+  key = 'ASSET_LIST_NO_RESULTS'
+  group = 'Asset List'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'No results available'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Ingen resultater tilgængelige'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_list_filter_menu_string_input_search {
+  key = 'ASSET_LIST_FILTER_MENU_STRING_INPUT_SEARCH'
+  group = 'Asset List'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Search'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Søg'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_list_filter_menu_string_input_search_filter {
+  key = 'ASSET_LIST_FILTER_MENU_STRING_INPUT_SEARCH_FILTER'
+  group = 'Asset List'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Search in this filter'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Søg i dette filter'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_list_filter_menu_string_input_search_filter_tooltip {
+  key = 'ASSET_LIST_FILTER_MENU_STRING_INPUT_SEARCH_FILTER_TOOLTIP'
+  group = 'Asset List'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Search in this filter'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Søg i dette filter'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_list_filter_menu_string_input_search_not_found {
+  key = 'ASSET_LIST_FILTER_MENU_STRING_INPUT_SEARCH_NOT_FOUND'
+  group = 'Asset List'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'No results'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Ingen resultater'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_list_filter_menu_show_more_or_less {
+  key = 'ASSET_LIST_FILTER_MENU_SHOW_MORE_OR_LESS'
+  group = 'Asset List'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = '{showMore, select, true {Show top 10} false {Show more}}'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = '{showMore, select, true {Vis top-10} false {Vis flere}}'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_list_filter_menu_string_search {
+  key = 'ASSET_LIST_FILTER_MENU_STRING_SEARCH'
+  group = 'Asset List'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Search'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Søg'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_list_filter_menu_apply_values {
+  key = 'ASSET_LIST_FILTER_MENU_APPLY_VALUES'
+  group = 'Asset List'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Apply values'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Anvend værdier'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_list_filter_menu_na_placeholder {
+  key = 'ASSET_LIST_FILTER_MENU_NA_PLACEHOLDER'
+  group = 'Asset List'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'N/A'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'N/A'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label mm_asset_list_asset_list_comments_for_this_collection {
+  key = 'MM_ASSET_LIST_ASSET_LIST_COMMENTS_FOR_THIS_COLLECTION'
+  group = 'Asset List'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Comments for this Collection'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Kommentarer til denne collection'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_list_deleted_title {
+  key = 'ASSET_LIST_DELETED_TITLE'
+  group = 'Asset List'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Success'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Succes'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_list_deleted_body {
+  key = 'ASSET_LIST_DELETED_BODY'
+  group = 'Asset List'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = '{multiple, select, true {The assets were} false {The asset was}} successfully deleted'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = '{multiple, select, true {Assetsne} false {Assettet}} blev slettet'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_list_archived_title {
+  key = 'ASSET_LIST_ARCHIVED_TITLE'
+  group = 'Asset List'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Success'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Succes'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_list_archived_body {
+  key = 'ASSET_LIST_ARCHIVED_BODY'
+  group = 'Asset List'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = '{multiple, select, true {The assets were} false {The asset was}} successfully deleted'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = '{multiple, select, true {Assetsne} false {Assettet}} blev slettet'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_list_archive_asset {
+  key = 'ASSET_LIST_ARCHIVE_ASSET'
+  group = 'Asset List'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Delete'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Slet'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_list_delete_permanently {
+  key = 'ASSET_LIST_DELETE_PERMANENTLY'
+  group = 'Asset List'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Permanently delete'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Slet permanent'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_list_asset_search_error_title {
+  key = 'ASSET_LIST_ASSET_SEARCH_ERROR_TITLE'
+  group = 'Asset List'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Asset search error'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Der skete en fejl under asset-søgningen'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_list_asset_search_error_body {
+  key = 'ASSET_LIST_ASSET_SEARCH_ERROR_BODY'
+  group = 'Asset List'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'An error occured while searching for assets. Please contact your system administrator'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Der opstod en fejl under asset-søgningen. Kontakt venligst din systemadministrator'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_list_delete_error {
+  key = 'ASSET_LIST_DELETE_ERROR'
+  group = 'Asset List'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'An error occurred while deleting the {multiple, select, true {assets} false {asset}}'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Der opstod en fejl under sletningen af {multiple, select, true {assetsne} false {assetet}}'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_list_archive_error {
+  key = 'ASSET_LIST_ARCHIVE_ERROR'
+  group = 'Asset List'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'An error occurred while deleting the {multiple, select, true {assets} false {asset}}'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Der opstod en fejl under sletningen af {multiple, select, true {assetsne} false {assetet}}'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_list_delete_confirmation_dialog_title {
+  key = 'ASSET_LIST_DELETE_CONFIRMATION_DIALOG_TITLE'
+  group = 'Asset List'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = '! WARNING Permanently delete'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = '! ADVARSEL Slet permanent'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_list_delete_confirmation_dialog_content {
+  key = 'ASSET_LIST_DELETE_CONFIRMATION_DIALOG_CONTENT'
+  group = 'Asset List'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Are you sure you want to permanently delete {multiple, select, true {these assets} false {this asset}}? This action cannot be undone and the {multiple, select, true {assets} false {asset}} cannot be recovered.'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Er du sikker på at du vil slette {multiple, select, true {assetsne} false {assettet}} permanent? Denne handling kan ikke fortrydes, og {multiple, select, true {assetsne} false {assettet}} kan ikke gendannes.'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_list_delete_confirmation_dialog_cancel {
+  key = 'ASSET_LIST_DELETE_CONFIRMATION_DIALOG_CANCEL'
+  group = 'Asset List'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Cancel'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Annullér'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_list_delete_confirmation_dialog_ok {
+  key = 'ASSET_LIST_DELETE_CONFIRMATION_DIALOG_OK'
+  group = 'Asset List'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Permanently delete'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Slet permanent'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_list_archive_confirmation_dialog_title {
+  key = 'ASSET_LIST_ARCHIVE_CONFIRMATION_DIALOG_TITLE'
+  group = 'Asset List'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Delete'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Slet'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_list_archive_confirmation_dialog_content {
+  key = 'ASSET_LIST_ARCHIVE_CONFIRMATION_DIALOG_CONTENT'
+  group = 'Asset List'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Are you sure you want to delete {multiple, select, true {these assets} false {this asset}}?'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Er du sikker på at du vil slette {multiple, select, true {assetsne} false {assettet}}?'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_list_archive_confirmation_dialog_cancel {
+  key = 'ASSET_LIST_ARCHIVE_CONFIRMATION_DIALOG_CANCEL'
+  group = 'Asset List'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Cancel'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Annullér'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_list_archive_confirmation_dialog_ok {
+  key = 'ASSET_LIST_ARCHIVE_CONFIRMATION_DIALOG_OK'
+  group = 'Asset List'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Delete'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Slet'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label mm_asset_list_new_sort_configuration_dialog_saving_error {
+  key = 'MM_ASSET_LIST_NEW_SORT_CONFIGURATION_DIALOG_SAVING_ERROR'
+  group = 'Asset List'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'All fields must be filled out.'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Alle felter skal udfyldes.'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label mm_asset_list_new_sort_configuration_dialog_save {
+  key = 'MM_ASSET_LIST_NEW_SORT_CONFIGURATION_DIALOG_SAVE'
+  group = 'Asset List'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Save'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Gem'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label mm_asset_list_new_sort_configuration_dialog_cancel {
+  key = 'MM_ASSET_LIST_NEW_SORT_CONFIGURATION_DIALOG_CANCEL'
+  group = 'Asset List'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Cancel'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Annuller'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label mm_asset_list_new_sort_configuration_dialog_add_new_row {
+  key = 'MM_ASSET_LIST_NEW_SORT_CONFIGURATION_DIALOG_ADD_NEW_ROW'
+  group = 'Asset List'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Add new row'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Tilføj ny række'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label mm_asset_list_new_sort_configuration_dialog_remove_row {
+  key = 'MM_ASSET_LIST_NEW_SORT_CONFIGURATION_DIALOG_REMOVE_ROW'
+  group = 'Asset List'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Remove row'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Fjern række'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label mm_asset_list_new_sort_configuration_dialog_reorder {
+  key = 'MM_ASSET_LIST_NEW_SORT_CONFIGURATION_DIALOG_REORDER'
+  group = 'Asset List'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Reorder'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Omroker'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label mm_asset_list_new_sort_configuration_dialog_select_placeholder {
+  key = 'MM_ASSET_LIST_NEW_SORT_CONFIGURATION_DIALOG_SELECT_PLACEHOLDER'
+  group = 'Asset List'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Choose'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Vælg'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label mm_asset_list_new_sort_configuration_dialog_sort_by {
+  key = 'MM_ASSET_LIST_NEW_SORT_CONFIGURATION_DIALOG_SORT_BY'
+  group = 'Asset List'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = '{isFirst, select, true {Sort by} false {Then sort by}}'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = '{isFirst, select, true {Sorter efter} false {Så sorter efter}}'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label mm_asset_list_new_sort_configuration_dialog_order {
+  key = 'MM_ASSET_LIST_NEW_SORT_CONFIGURATION_DIALOG_ORDER'
+  group = 'Asset List'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Order'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Ændr rækkefølge'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label mm_asset_list_new_sort_configuration_dialog_add_first_sorting {
+  key = 'MM_ASSET_LIST_NEW_SORT_CONFIGURATION_DIALOG_ADD_FIRST_SORTING'
+  group = 'Asset List'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Add first sorting'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Tilføj første sortering'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label mm_asset_list_new_sort_configuration_dialog_then_by {
+  key = 'MM_ASSET_LIST_NEW_SORT_CONFIGURATION_DIALOG_THEN_BY'
+  group = 'Asset List'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Then sort by...'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Så sorter efter...'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label mm_asset_list_new_sort_configuration_dialog_configure_asset_sorting {
+  key = 'MM_ASSET_LIST_NEW_SORT_CONFIGURATION_DIALOG_CONFIGURE_ASSET_SORTING'
+  group = 'Asset List'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Configure custom order'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Konfigurer brugerdefineret rækkefølge'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label filter_panel_filter_panel_filter_base_remove_filter {
+  key = 'FILTER_PANEL_FILTER_PANEL_FILTER_BASE_REMOVE_FILTER'
+  group = 'Asset List'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Remove'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Fjern'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_list_new_filter_menu_filter_list_filter_type_is_not_yet_supported {
+  key = 'ASSET_LIST_NEW_FILTER_MENU_FILTER_LIST_FILTER_TYPE_IS_NOT_YET_SUPPORTED'
+  group = 'Asset List'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'The filter type \'{{ filterType }}\' is not yet supported'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Filtertypen \'{{ filterType }}\' er endnu ikke understøttet'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_list_add_new_filter_input_add_fields {
+  key = 'ASSET_LIST_ADD_NEW_FILTER_INPUT_ADD_FIELDS'
+  group = 'Asset List'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Add fields'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Tilføj felter'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_list_filter_property_title {
+  key = 'ASSET_LIST_FILTER_PROPERTY_TITLE'
+  group = 'Asset List'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = '{property, select, assetId {Asset ID} itemId {Item ID} originalFileName {Original file name} assetType {Asset type} derivedFrom {Parent asset} replacedWith {Show old versions of} extension {Extension} uploader {Upload user} uploadComputer {Upload product} channelFolder {Channel folder} uploadDate {Upload date} fileSize {Original file size} lastChangedDate {Last updated} width {Pixel width} height {Pixel height} duration {Duration} deleted {Deleted}}'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = '{property, select, assetId {Asset-ID} itemId {Item-ID} originalFileName {Oprindeligt filnavn} assetType {Assettype} derivedFrom {Forælder-asset} replacedWith {Vis gamle versioner af} extension {Filendelse} uploader {Upload-bruger} uploadComputer {Upload-produkt} channelFolder {Kanalmappe} uploadDate {Uploaddato} fileSize {Oprindelig filstørrelse} lastChangedDate {Sidst opdateret} width {Pixel-bredde} height {Pixel-højde} duration {Varighed} deleted {Slettet}}'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_list_collection_notification_modal_header {
+  key = 'ASSET_LIST_COLLECTION_NOTIFICATION_MODAL_HEADER'
+  group = 'Asset List'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Collection'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Collection'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_list_collection_notification_modal_body {
+  key = 'ASSET_LIST_COLLECTION_NOTIFICATION_MODAL_BODY'
+  group = 'Asset List'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'No assets found'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Der blev ikke fundet nogen assets'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_list_collection_preview_notification_modal_header {
+  key = 'ASSET_LIST_COLLECTION_PREVIEW_NOTIFICATION_MODAL_HEADER'
+  group = 'Asset List'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Collection not found'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Collectionen kan ikke findes'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_list_collection_preview_notification_modal_body {
+  key = 'ASSET_LIST_COLLECTION_PREVIEW_NOTIFICATION_MODAL_BODY'
+  group = 'Asset List'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'You either have insufficient rights to view the collection or it has been deleted'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Du har enten utilstrækkelig rettighed til at se collectionen, eller er den slettet'
+      language_id = data.language.danish.id
+    }
+  ]
 }
 

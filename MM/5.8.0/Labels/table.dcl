@@ -1,96 +1,96 @@
-﻿resource language_label header_cell_menu_filter_section_en {
-    constant = 'HEADER_CELL_MENU_FILTER_SECTION'
-    label = 'Show or hide columns'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
+﻿resource configservice_label header_cell_menu_filter_section {
+  key = 'HEADER_CELL_MENU_FILTER_SECTION'
+  group = 'Table'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Show or hide columns'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Vis eller skjul kolonner'
+      language_id = data.language.danish.id
+    }
+  ]
 }
 
-resource language_label header_cell_menu_filter_section_da {
-    constant = 'HEADER_CELL_MENU_FILTER_SECTION'
-    label = 'Vis eller skjul kolonner'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
+resource configservice_label header_cell_menu_order_section {
+  key = 'HEADER_CELL_MENU_ORDER_SECTION'
+  group = 'Table'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Organize'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Organiser'
+      language_id = data.language.danish.id
+    }
+  ]
 }
 
-resource language_label header_cell_menu_order_section_en {
-    constant = 'HEADER_CELL_MENU_ORDER_SECTION'
-    label = 'Organize'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
+resource configservice_label header_cell_menu_column_order {
+  key = 'HEADER_CELL_MENU_COLUMN_ORDER'
+  group = 'Table'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Column order'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Kolonne-rækkefølge'
+      language_id = data.language.danish.id
+    }
+  ]
 }
 
-resource language_label header_cell_menu_order_section_da {
-    constant = 'HEADER_CELL_MENU_ORDER_SECTION'
-    label = 'Organiser'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
+resource configservice_label header_cell_menu_move_left {
+  key = 'HEADER_CELL_MENU_MOVE_LEFT'
+  group = 'Table'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Move left'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Flyt til venstre'
+      language_id = data.language.danish.id
+    }
+  ]
 }
 
-resource language_label header_cell_menu_column_order_en {
-    constant = 'HEADER_CELL_MENU_COLUMN_ORDER'
-    label = 'Column order'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
+resource configservice_label header_cell_menu_move_right {
+  key = 'HEADER_CELL_MENU_MOVE_RIGHT'
+  group = 'Table'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Move right'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Flyt til højre'
+      language_id = data.language.danish.id
+    }
+  ]
 }
 
-resource language_label header_cell_menu_column_order_da {
-    constant = 'HEADER_CELL_MENU_COLUMN_ORDER'
-    label = 'Kolonne-rækkefølge'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label header_cell_menu_move_left_en {
-    constant = 'HEADER_CELL_MENU_MOVE_LEFT'
-    label = 'Move left'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label header_cell_menu_move_left_da {
-    constant = 'HEADER_CELL_MENU_MOVE_LEFT'
-    label = 'Flyt til venstre'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label header_cell_menu_move_right_en {
-    constant = 'HEADER_CELL_MENU_MOVE_RIGHT'
-    label = 'Move right'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label header_cell_menu_move_right_da {
-    constant = 'HEADER_CELL_MENU_MOVE_RIGHT'
-    label = 'Flyt til højre'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label header_cell_sort_tooltip_en {
-    constant = 'HEADER_CELL_SORT_TOOLTIP'
-    label = 'Sort order'
-    language_id = data.language.english.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
-}
-
-resource language_label header_cell_sort_tooltip_da {
-    constant = 'HEADER_CELL_SORT_TOOLTIP'
-    label = 'Sortering'
-    language_id = data.language.danish.id
-    folder_id = resource.language_label_folder.media_manager.folder_id
-    version_id = resource.product.media_manager.base_version_id
+resource configservice_label header_cell_sort_tooltip {
+  key = 'HEADER_CELL_SORT_TOOLTIP'
+  group = 'Table'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Sort order'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Sortering'
+      language_id = data.language.danish.id
+    }
+  ]
 }
 
