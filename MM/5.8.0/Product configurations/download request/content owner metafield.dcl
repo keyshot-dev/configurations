@@ -1,33 +1,11 @@
-resource masteritem_reference_metafield content_owner_metafield {
-    item_guid = 'ad163c41-174b-1e23-b949-4b6c7d407a46'
-    autolink = {
-        item_guid = 'ad163c41-174b-1e23-b949-4b6c7d407a46'
-    }
-    name = 'Content owner metafield'
-    group_id = resource.metafield_group.download_request.metafield_group_id
-    show_in_list = false
-    auto_translate = 'Overwrite'
-    item_type = 'Metafield'
-    sort_index = 1030
+resource configservice_string_config_field content_owner_metafield {
+  default_value = ''
+  type = 'MetaField'
+  product_id = resource.configservice_product.media_manager_5.id
+  group = 'Download Request'
+  key = 'contentOwnerMetafield'
+  title = 'Content owner metafield'
+  description = 'If download approval is enabled and this metafield is set, then the users selected in the field will be able to skip download approval for the asset.'
+  meta_field_type = 'MasterItemReference'
 }
 
-resource metafield_label content_owner_metafield {
-    metafield_id = resource.masteritem_reference_metafield.content_owner_metafield.metafield_id
-    label = resource.masteritem_reference_metafield.content_owner_metafield.name
-    language_id = data.language.english.id
-}
-
-
-resource item_security content_owner_metafield__anonymous {
-    accessor_item_id = data.member_group.anonymous.item_id
-    item_id = resource.masteritem_reference_metafield.content_owner_metafield.item_id
-    read = true
-    write = false
-}
-
-resource item_security content_owner_metafield__trusted {
-    accessor_item_id = data.member_group.trusted.item_id
-    item_id = resource.masteritem_reference_metafield.content_owner_metafield.item_id
-    read = true
-    write = true
-}

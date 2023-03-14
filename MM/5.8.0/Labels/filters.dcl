@@ -1,4 +1,4 @@
-﻿resource configservice_label asset_list_toggle_filters_button {
+resource configservice_label asset_list_toggle_filters_button {
   key = 'ASSET_LIST_TOGGLE_FILTERS_BUTTON'
   group = 'Filters'
   product_id = resource.configservice_product.media_manager_5.id

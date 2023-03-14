@@ -1,4 +1,4 @@
-﻿resource configservice_label youtube_client_list_title {
+resource configservice_label youtube_client_list_title {
   key = 'YOUTUBE_CLIENT_LIST_TITLE'
   group = 'Youtube'
   product_id = resource.configservice_product.media_manager_5.id

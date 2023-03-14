@@ -1,4 +1,4 @@
-﻿resource configservice_label integration_endpoint_list_title {
+resource configservice_label integration_endpoint_list_title {
   key = 'INTEGRATION_ENDPOINT_LIST_TITLE'
   group = 'Integrations'
   product_id = resource.configservice_product.media_manager_5.id

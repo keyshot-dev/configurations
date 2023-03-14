@@ -1,4 +1,4 @@
-﻿resource configservice_label metadata_editor_show_all_languages_tooltip {
+resource configservice_label metadata_editor_show_all_languages_tooltip {
   key = 'METADATA_EDITOR_SHOW_ALL_LANGUAGES_TOOLTIP'
   group = 'Metadata'
   product_id = resource.configservice_product.media_manager_5.id

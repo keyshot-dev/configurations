@@ -1,4 +1,4 @@
-﻿resource configservice_label lbl_mp_error_403 {
+resource configservice_label lbl_mp_error_403 {
   key = 'LBL_MP_ERROR_403'
   group = 'Error'
   product_id = resource.configservice_product.media_manager_5.id

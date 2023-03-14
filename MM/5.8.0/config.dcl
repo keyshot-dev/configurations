@@ -57,7 +57,7 @@ resource configservice_string_config_field media_manager_5_collection_metadata_f
     default_value = '{}'
     product_id = resource.configservice_product.media_manager_5.id
     group = 'default'
-    hidden = false
+    hidden = true
     key = 'collectionMetadata'
     title = 'Collection metadata fields'
     description = 'Fields that should be available in collections'
@@ -74,5 +74,27 @@ resource configservice_bit_config_field media_manager_5_enable_external_collecti
     title = 'Enable external collection sharing'
     description = "Enables sharing collections with external users. Specifically it enables the 'link' and 'email' share type"
     language_versioned = false
+}
+
+resource configservice_string_config_field asset_info {
+    default_value = '[]'
+    type = 'String'
+    product_id = resource.configservice_product.media_manager_5.id
+    group = 'default'
+    hidden = true
+    key = 'assetInfo'
+    title = 'Asset info'
+    description = 'Used to save asset info config'
+}
+
+resource configservice_string_config_field asset_card {
+    default_value = '{}'
+    type = 'String'
+    product_id = resource.configservice_product.media_manager_5.id
+    group = 'default'
+    hidden = true
+    key = 'assetCard'
+    title = 'Asset card'
+    description = 'Used to save assetCard configuration, like title, description and icons'
 }
 

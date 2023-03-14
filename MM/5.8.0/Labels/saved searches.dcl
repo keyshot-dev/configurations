@@ -1,4 +1,4 @@
-﻿resource configservice_label lbl_mp_menu_saved_searches {
+resource configservice_label lbl_mp_menu_saved_searches {
   key = 'LBL_MP_MENU_SAVED_SEARCHES'
   group = 'Saved Searches'
   product_id = resource.configservice_product.media_manager_5.id

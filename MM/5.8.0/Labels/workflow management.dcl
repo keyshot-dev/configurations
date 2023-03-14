@@ -1,4 +1,4 @@
-﻿resource configservice_label section_title_workflow_management {
+resource configservice_label section_title_workflow_management {
   key = 'SECTION_TITLE_WORKFLOW_MANAGEMENT'
   group = 'Workflow Management'
   product_id = resource.configservice_product.media_manager_5.id

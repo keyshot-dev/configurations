@@ -1,4 +1,4 @@
-﻿resource configservice_label profile_credentials_change_password {
+resource configservice_label profile_credentials_change_password {
   key = 'PROFILE_CREDENTIALS_CHANGE_PASSWORD'
   group = 'Profile'
   product_id = resource.configservice_product.media_manager_5.id

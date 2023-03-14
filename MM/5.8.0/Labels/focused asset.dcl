@@ -1,4 +1,4 @@
-﻿resource configservice_label focused_asset_switch_to_light_mode_tooltip {
+resource configservice_label focused_asset_switch_to_light_mode_tooltip {
   key = 'FOCUSED_ASSET_SWITCH_TO_LIGHT_MODE_TOOLTIP'
   group = 'Focused Asset'
   product_id = resource.configservice_product.media_manager_5.id

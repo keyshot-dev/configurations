@@ -1,4 +1,4 @@
-﻿resource configservice_label section_title_logs {
+resource configservice_label section_title_logs {
   key = 'SECTION_TITLE_LOGS'
   group = 'Logs'
   product_id = resource.configservice_product.media_manager_5.id

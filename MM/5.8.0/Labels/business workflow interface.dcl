@@ -1,4 +1,4 @@
-﻿resource configservice_label business_workflow_interface_no_workflows {
+resource configservice_label business_workflow_interface_no_workflows {
   key = 'BUSINESS_WORKFLOW_INTERFACE_NO_WORKFLOWS'
   group = 'Business Workflow Interface'
   product_id = resource.configservice_product.media_manager_5.id

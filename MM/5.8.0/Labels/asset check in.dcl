@@ -1,4 +1,4 @@
-﻿resource configservice_label asset_check_in_button_check_in_text {
+resource configservice_label asset_check_in_button_check_in_text {
   key = 'ASSET_CHECK_IN_BUTTON_CHECK_IN_TEXT'
   group = 'Asset Check In'
   product_id = resource.configservice_product.media_manager_5.id

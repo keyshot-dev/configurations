@@ -1,4 +1,4 @@
-﻿resource configservice_label side_bar_asset_fullscreen_tooltip {
+resource configservice_label side_bar_asset_fullscreen_tooltip {
   key = 'SIDE_BAR_ASSET_FULLSCREEN_TOOLTIP'
   group = 'Side Bar'
   product_id = resource.configservice_product.media_manager_5.id

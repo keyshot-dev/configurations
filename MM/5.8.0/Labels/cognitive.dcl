@@ -1,4 +1,4 @@
-﻿resource configservice_label cognitive_overwrite_dialog_title {
+resource configservice_label cognitive_overwrite_dialog_title {
   key = 'COGNITIVE_OVERWRITE_DIALOG_TITLE'
   group = 'Cognitive'
   product_id = resource.configservice_product.media_manager_5.id

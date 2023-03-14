@@ -1,4 +1,4 @@
-﻿resource configservice_label description {
+resource configservice_label description {
   key = 'description'
   group = 'Z Misc Labels'
   product_id = resource.configservice_product.media_manager_5.id

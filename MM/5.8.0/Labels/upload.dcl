@@ -1,4 +1,4 @@
-﻿resource configservice_label upload_upload_job_item_processing {
+resource configservice_label upload_upload_job_item_processing {
   key = 'UPLOAD_UPLOAD_JOB_ITEM_PROCESSING'
   group = 'Upload'
   product_id = resource.configservice_product.media_manager_5.id

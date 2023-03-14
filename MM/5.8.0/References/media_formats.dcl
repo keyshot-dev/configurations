@@ -14,18 +14,6 @@ data media_format desktop_video_thumb {
     name = 'Desktop Video Thumb'
 }
 
-data media_format desktop_h264_2048kbit_ffmpeg {
-    name = 'Desktop H264 2048kbit ffmpeg'
-}
-
-data media_format tablet_h264_2048kbit_ffmpeg {
-    name = 'Tablet H264 2048kbit ffmpeg'
-}
-
-data media_format mobile_h264_1024kbit_ffmpeg {
-    name = 'Mobile H264 1024kbit ffmpeg'
-}
-
 data media_format thumb_1920x1080 {
     name = 'Thumb 1920x1080'
 }

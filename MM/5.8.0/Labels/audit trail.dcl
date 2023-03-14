@@ -1,4 +1,4 @@
-﻿resource configservice_label audit_trail_audit_logs {
+resource configservice_label audit_trail_audit_logs {
   key = 'AUDIT_TRAIL_AUDIT_LOGS'
   group = 'Audit Trail'
   product_id = resource.configservice_product.media_manager_5.id

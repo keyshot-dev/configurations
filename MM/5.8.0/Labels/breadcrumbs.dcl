@@ -1,4 +1,4 @@
-﻿resource configservice_label breadcrumb_item_label_home {
+resource configservice_label breadcrumb_item_label_home {
   key = 'BREADCRUMB_ITEM_LABEL_HOME'
   group = 'Breadcrumbs'
   product_id = resource.configservice_product.media_manager_5.id

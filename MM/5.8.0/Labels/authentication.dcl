@@ -1,4 +1,4 @@
-﻿resource configservice_label login_login_dialog_username_required {
+resource configservice_label login_login_dialog_username_required {
   key = 'LOGIN_LOGIN_DIALOG_USERNAME_REQUIRED'
   group = 'Authentication'
   product_id = resource.configservice_product.media_manager_5.id

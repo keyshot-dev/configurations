@@ -1,4 +1,4 @@
-﻿resource configservice_label asset_preview_container_sitecore_pages {
+resource configservice_label asset_preview_container_sitecore_pages {
   key = 'ASSET_PREVIEW_CONTAINER_SITECORE_PAGES'
   group = 'Sitecore'
   product_id = resource.configservice_product.media_manager_5.id

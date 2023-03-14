@@ -1,4 +1,4 @@
-﻿resource configservice_label asset_preview_metadata_tab_label {
+resource configservice_label asset_preview_metadata_tab_label {
   key = 'ASSET_PREVIEW_METADATA_TAB_LABEL'
   group = 'Asset Preview'
   product_id = resource.configservice_product.media_manager_5.id

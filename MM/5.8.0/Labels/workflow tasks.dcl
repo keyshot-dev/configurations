@@ -1,4 +1,4 @@
-﻿resource configservice_label workflow_task_delete_tooltip {
+resource configservice_label workflow_task_delete_tooltip {
   key = 'WORKFLOW_TASK_DELETE_TOOLTIP'
   group = 'Workflow Tasks'
   product_id = resource.configservice_product.media_manager_5.id

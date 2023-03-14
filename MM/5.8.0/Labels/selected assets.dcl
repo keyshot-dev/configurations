@@ -1,4 +1,4 @@
-﻿resource configservice_label selected_assets_overlay_metadata_download_field_selector_download_metadata {
+resource configservice_label selected_assets_overlay_metadata_download_field_selector_download_metadata {
   key = 'SELECTED_ASSETS_OVERLAY_METADATA_DOWNLOAD_FIELD_SELECTOR_DOWNLOAD_METADATA'
   group = 'Selected Assets'
   product_id = resource.configservice_product.media_manager_5.id

@@ -1,4 +1,4 @@
-﻿resource configservice_label settings_theme_settings_save_theme {
+resource configservice_label settings_theme_settings_save_theme {
   key = 'SETTINGS_THEME_SETTINGS_SAVE_THEME'
   group = 'Settings'
   product_id = resource.configservice_product.media_manager_5.id
