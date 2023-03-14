@@ -1,4 +1,4 @@
-﻿resource configservice_label settings_brand_portal_logo_title {
+resource configservice_label settings_brand_portal_logo_title {
   key = 'SETTINGS_BRAND_PORTAL_LOGO_TITLE'
   group = 'Brand Portal'
   product_id = resource.configservice_product.media_manager_5.id

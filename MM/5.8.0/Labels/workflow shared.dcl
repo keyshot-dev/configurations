@@ -1,4 +1,4 @@
-﻿resource configservice_label flow_editor_member_selector_placeholder {
+resource configservice_label flow_editor_member_selector_placeholder {
   key = 'FLOW_EDITOR_MEMBER_SELECTOR_PLACEHOLDER'
   group = 'Workflow Shared'
   product_id = resource.configservice_product.media_manager_5.id

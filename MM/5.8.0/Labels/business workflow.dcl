@@ -1,4 +1,4 @@
-﻿resource configservice_label workflows_overview_filters {
+resource configservice_label workflows_overview_filters {
   key = 'WORKFLOWS_OVERVIEW_FILTERS'
   group = 'Business Workflow'
   product_id = resource.configservice_product.media_manager_5.id

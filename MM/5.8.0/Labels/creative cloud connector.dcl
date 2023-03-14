@@ -1,4 +1,4 @@
-﻿resource configservice_label creative_cloud_connector_progress_feedback_downloading {
+resource configservice_label creative_cloud_connector_progress_feedback_downloading {
   key = 'CREATIVE_CLOUD_CONNECTOR_PROGRESS_FEEDBACK_DOWNLOADING'
   group = 'Creative Cloud Connector'
   product_id = resource.configservice_product.media_manager_5.id

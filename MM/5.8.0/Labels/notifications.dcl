@@ -1,4 +1,4 @@
-﻿resource configservice_label notification_panel_notification_panel_list_comment_notification {
+resource configservice_label notification_panel_notification_panel_list_comment_notification {
   key = 'NOTIFICATION_PANEL_NOTIFICATION_PANEL_LIST_COMMENT_NOTIFICATION'
   group = 'Notifications'
   product_id = resource.configservice_product.media_manager_5.id

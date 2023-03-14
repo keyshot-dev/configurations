@@ -1,4 +1,4 @@
-﻿resource configservice_label asset_comparator_modal_title {
+resource configservice_label asset_comparator_modal_title {
   key = 'ASSET_COMPARATOR_MODAL_TITLE'
   group = 'Asset Comparator'
   product_id = resource.configservice_product.media_manager_5.id

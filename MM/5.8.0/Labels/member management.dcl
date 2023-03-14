@@ -1,4 +1,4 @@
-﻿resource configservice_label member_management_main_title {
+resource configservice_label member_management_main_title {
   key = 'MEMBER_MANAGEMENT_MAIN_TITLE'
   group = 'Member Management'
   product_id = resource.configservice_product.media_manager_5.id

@@ -1,4 +1,4 @@
-﻿resource configservice_label lbl_mp_assets {
+resource configservice_label lbl_mp_assets {
   key = 'LBL_MP_ASSETS'
   group = 'Asset List'
   product_id = resource.configservice_product.media_manager_5.id

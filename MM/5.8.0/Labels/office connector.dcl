@@ -1,4 +1,4 @@
-﻿resource configservice_label office_quality_no_available_qualities {
+resource configservice_label office_quality_no_available_qualities {
   key = 'OFFICE_QUALITY_NO_AVAILABLE_QUALITIES'
   group = 'Office Connector'
   product_id = resource.configservice_product.media_manager_5.id

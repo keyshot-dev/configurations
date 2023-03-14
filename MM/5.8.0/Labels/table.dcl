@@ -1,4 +1,4 @@
-﻿resource configservice_label header_cell_menu_filter_section {
+resource configservice_label header_cell_menu_filter_section {
   key = 'HEADER_CELL_MENU_FILTER_SECTION'
   group = 'Table'
   product_id = resource.configservice_product.media_manager_5.id

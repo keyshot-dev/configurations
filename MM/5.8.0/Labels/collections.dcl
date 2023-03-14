@@ -1,4 +1,4 @@
-﻿resource configservice_label lbl_mp_collections_all_collections {
+resource configservice_label lbl_mp_collections_all_collections {
   key = 'LBL_MP_COLLECTIONS_ALL_COLLECTIONS'
   group = 'Collections'
   product_id = resource.configservice_product.media_manager_5.id

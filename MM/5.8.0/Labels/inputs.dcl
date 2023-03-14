@@ -1,4 +1,4 @@
-﻿resource configservice_label inputs_tree_input_options {
+resource configservice_label inputs_tree_input_options {
   key = 'INPUTS_TREE_INPUT_OPTIONS'
   group = 'Inputs'
   product_id = resource.configservice_product.media_manager_5.id

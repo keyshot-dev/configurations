@@ -1,4 +1,4 @@
-﻿resource configservice_label feedback_feedback_send_feedback {
+resource configservice_label feedback_feedback_send_feedback {
   key = 'FEEDBACK_FEEDBACK_SEND_FEEDBACK'
   group = 'Feedback'
   product_id = resource.configservice_product.media_manager_5.id

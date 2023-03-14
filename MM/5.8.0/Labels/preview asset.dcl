@@ -1,4 +1,4 @@
-﻿resource configservice_label asset_comment_time_group {
+resource configservice_label asset_comment_time_group {
   key = 'ASSET_COMMENT_TIME_GROUP'
   group = 'Preview Asset'
   product_id = resource.configservice_product.media_manager_5.id

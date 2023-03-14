@@ -1,4 +1,4 @@
-﻿resource configservice_label copyright_notification_modal_header {
+resource configservice_label copyright_notification_modal_header {
   key = 'COPYRIGHT_NOTIFICATION_MODAL_HEADER'
   group = 'Copyright Notification'
   product_id = resource.configservice_product.media_manager_5.id

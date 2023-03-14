@@ -1,4 +1,4 @@
-﻿resource configservice_label section_title_configuration_management {
+resource configservice_label section_title_configuration_management {
   key = 'SECTION_TITLE_CONFIGURATION_MANAGEMENT'
   group = 'Configuration Management'
   product_id = resource.configservice_product.media_manager_5.id

@@ -1,4 +1,4 @@
-﻿resource configservice_label administration_overview_title {
+resource configservice_label administration_overview_title {
   key = 'ADMINISTRATION_OVERVIEW_TITLE'
   group = 'Administration'
   product_id = resource.configservice_product.media_manager_5.id

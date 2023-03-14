@@ -1,4 +1,4 @@
-﻿resource configservice_label asset_id {
+resource configservice_label asset_id {
   key = 'ASSET_ID'
   group = 'Asset'
   product_id = resource.configservice_product.media_manager_5.id

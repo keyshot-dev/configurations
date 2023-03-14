@@ -1,4 +1,4 @@
-﻿resource configservice_label freetext_search_freetext_search_popup_loading {
+resource configservice_label freetext_search_freetext_search_popup_loading {
   key = 'FREETEXT_SEARCH_FREETEXT_SEARCH_POPUP_LOADING'
   group = 'Freetext Search'
   product_id = resource.configservice_product.media_manager_5.id

@@ -1,4 +1,4 @@
-﻿resource configservice_label duplicate_asset_modal_title {
+resource configservice_label duplicate_asset_modal_title {
   key = 'DUPLICATE_ASSET_MODAL_TITLE'
   group = 'Duplicate Assets'
   product_id = resource.configservice_product.media_manager_5.id

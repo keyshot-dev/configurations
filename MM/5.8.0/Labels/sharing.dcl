@@ -1,4 +1,4 @@
-﻿resource configservice_label sharing_quality_selector_dialog_quality_selector {
+resource configservice_label sharing_quality_selector_dialog_quality_selector {
   key = 'SHARING_QUALITY_SELECTOR_DIALOG_QUALITY_SELECTOR'
   group = 'Sharing'
   product_id = resource.configservice_product.media_manager_5.id

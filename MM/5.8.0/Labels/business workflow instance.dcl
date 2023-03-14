@@ -1,4 +1,4 @@
-﻿resource configservice_label section_title_tasks {
+resource configservice_label section_title_tasks {
   key = 'SECTION_TITLE_TASKS'
   group = 'Business Workflow Instance'
   product_id = resource.configservice_product.media_manager_5.id

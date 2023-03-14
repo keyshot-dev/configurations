@@ -1,4 +1,4 @@
-﻿resource configservice_label download_custom_quality_dialog_width {
+resource configservice_label download_custom_quality_dialog_width {
   key = 'DOWNLOAD_CUSTOM_QUALITY_DIALOG_WIDTH'
   group = 'Download'
   product_id = resource.configservice_product.media_manager_5.id
