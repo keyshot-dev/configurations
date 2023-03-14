@@ -14,20 +14,12 @@ data media_format desktop_video_thumb {
     name = 'Desktop Video Thumb'
 }
 
-data media_format thumb_1920x1080 {
-    name = 'Thumb 1920x1080'
-}
-
 data media_format source_copy {
     name = 'Source Copy'
 }
 
 data media_format adobe_pdf_preview {
     name = 'Adobe PDF Preview'
-}
-
-data media_format thumb_200x120 {
-    name = 'Thumb 200x120'
 }
 
 data media_format video_preview_h264 {
