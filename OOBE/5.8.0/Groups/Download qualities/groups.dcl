@@ -1,4 +1,9 @@
-﻿resource member_group download_qualities {
+﻿locals {
+    source_media_format_magic_id = -1
+}
+
+
+resource member_group download_qualities {
     name = 'Download qualities'
     folder_id = resource.member_group_folder.download_qualities.id
     sort_index = 0
@@ -8,7 +13,7 @@
     roles = []
     download_qualities = [
         {
-            media_format_id = -1
+            media_format_id = local.source_media_format_magic_id
         },
         {
             media_format_id = data.media_format.video_preview_h264.media_format_id
