@@ -248,7 +248,7 @@ resource member superadministrator {
           }, {
               constant = 'Can_manage_filters_and_fields'
           }, {
-              constant = 'Can_configure_external_sharing'
+              constant = 'Can_configure_metadata_sharing'
           }, {
               constant = 'Can_view_service_health'
           }, {
