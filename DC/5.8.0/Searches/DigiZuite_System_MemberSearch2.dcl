@@ -44,18 +44,7 @@ resource search digizuite_system_membersearch2 {
           <valueField id="groupSystemLanguageName" fieldName="language.name" bindId="groupSystemLanguageBind" />
           <valueField id="groupSystemLanguageShort" fieldName="language.language_short" bindId="groupSystemLanguageBind" />
         </valueFields>
-        <valueField id="rowid" itemGuid="${to_string(resource.combovalue_metafield.type.item_guid)}" field="rowid" />
-        <valueField id="downloadType" itemGuid="${to_string(resource.combovalue_metafield.type.item_guid)}" field="optionvalue" />
-        <valueFields id="mediaTranscode">
-          <bindField id="mediaTranscodeBind" itemGuid="${to_string(resource.masteritem_reference_metafield.quality.item_guid)}">
-            <filter id="downloadTypeRowid" fieldName="rowid" valueHandler="Equals">
-              <values bindFieldId="rowid" />
-            </filter>
-          </bindField>
-          <valueField id="downloadTranscodeId" fieldName="media_transcode.media_transcodeid" />
-          <valueField id="downloadMediaformatId" fieldName="media_transcode.target_media_formatid" />
-          <valueField id="downloadAlias" fieldName="media_transcode.alias" />
-        </valueFields>
+
         <sortFields>
           <sortField id="sortMemberGroup" fieldName="member_group.member_group" sortDirection="ascending" />
         </sortFields>
@@ -100,15 +89,7 @@ resource search digizuite_system_membersearch2 {
       <valueField id="usedigiupload" fieldName="member.use_digiupload" />
       <valueField id="advancedupload" fieldName="member.advanced_upload" />
       <valueField id="showdownloaddigiupload" fieldName="member.show_downloaddigiupload" />
-      <valueField id="configLayoutFolderId" fieldName="layoutfolders.layoutfolderid">
-        <bindField id="configLayoutFolderIdFieldId" itemGuid="${to_string(resource.masteritem_reference_metafield.config_layoutfolder.item_guid)}" />
-      </valueField>
-      <valueField id="profileImageSD" fieldName="asset.urlAbsolut(${to_string(resource.storage_manager_destination.frontenddata_sm.item_guid)},${to_string(resource.media_format.digizuite_media_manager_user_profile_sd_30013.item_guid)})">
-        <bindField id="profileImageSDFieldId" itemGuid="${to_string(resource.masteritem_reference_metafield.profile_image.item_guid)}" />
-      </valueField>
-      <valueField id="profileImageHD" fieldName="asset.urlAbsolut(${to_string(resource.storage_manager_destination.frontenddata_sm.item_guid)},${to_string(resource.media_format.digizuite_media_manager_user_profile_hd_30014.item_guid)})">
-        <bindField id="profileImageHDFieldId" itemGuid="${to_string(resource.masteritem_reference_metafield.profile_image.item_guid)}" />
-      </valueField>
+
     </valueFields>
     <sortFields />
   </searchSection>

@@ -1,4 +1,9 @@
-﻿resource member_group download_qualities {
+﻿locals {
+    source_media_format_magic_id = -1
+}
+
+
+resource member_group download_qualities {
     name = 'Download qualities'
     folder_id = resource.member_group_folder.download_qualities.id
     sort_index = 0
@@ -6,34 +11,21 @@
     ad_group_name = ''
     parents = []
     roles = []
-}
-
-resource member_group_download_quality downloadquality_all_source_copy {
-    member_group_id = resource.member_group.download_qualities.member_group_id
-    asset_type = 'All'
-    media_transcode_id = data.media_transcode.source_copy_10063.media_transcode_id
-}
-
-resource member_group_download_quality downloadquality_video_video_preview {
-    member_group_id = resource.member_group.download_qualities.member_group_id
-    asset_type = 'Video'
-    media_transcode_id = data.media_transcode.video_preview_h264.media_transcode_id
-}
-
-resource member_group_download_quality downloadquality_image_jpg_full_size {
-    member_group_id = resource.member_group.download_qualities.member_group_id
-    asset_type = 'Image'
-    media_transcode_id = data.media_transcode.jpg_full_size_transcode.media_transcode_id
-}
-
-resource member_group_download_quality downloadquality_image_jpg_medium {
-    member_group_id = resource.member_group.download_qualities.member_group_id
-    asset_type = 'Image'
-    media_transcode_id = data.media_transcode.jpg_medium_transcode.media_transcode_id
-}
-
-resource member_group_download_quality downloadquality_image_jpg_small {
-    member_group_id = resource.member_group.download_qualities.member_group_id
-    asset_type = 'Image'
-    media_transcode_id = data.media_transcode.jpg_small_transcode.media_transcode_id
+    download_qualities = [
+        {
+            media_format_id = local.source_media_format_magic_id
+        },
+        {
+            media_format_id = data.media_format.video_preview_h264.media_format_id
+        },
+        {
+            media_format_id = data.media_format.jpg_full_size.media_format_id
+        },
+        {
+            media_format_id = data.media_format.jpg_medium.media_format_id
+        },
+        {
+            media_format_id = data.media_format.jpg_small.media_format_id
+        }
+    ]
 }

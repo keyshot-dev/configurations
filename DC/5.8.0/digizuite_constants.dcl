@@ -152,15 +152,6 @@ resource digizuite_config language_default_id {
 	}
 }
 
-resource digizuite_config member_group_metafieldgroupid {
-    constant = 'MEMBER_GROUP_METAFIELDGROUPID'
-    config_value = to_string(resource.metafield_group.frontendgroup.metafield_group_id)
-    description = ''
-	autolink {
-		constant = 'MEMBER_GROUP_METAFIELDGROUPID'
-	}
-}
-
 resource digizuite_config workarea_local_folder {
     constant = 'WORKAREA_LOCAL_FOLDER'
     config_value = "${variable.storage_path}\\dmm\\Workarea"
@@ -194,15 +185,6 @@ resource digizuite_config itemlastchanged_debounce_strategy {
     description = 'This is the constant deciding the debounce strategy for searchproxy updates. The options are DEBOUNCE and THROTTLE'
 	autolink {
 		constant = 'ITEMLASTCHANGED_DEBOUNCE_STRATEGY'
-	}
-}
-
-resource digizuite_config frontend_member_group_metafieldgroupid {
-    constant = 'FRONTEND_MEMBER_GROUP_METAFIELDGROUPID'
-    config_value = to_string(resource.metafield_group.frontendgroup.metafield_group_id)
-    description = ''
-	autolink {
-		constant = 'FRONTEND_MEMBER_GROUP_METAFIELDGROUPID'
 	}
 }
 
