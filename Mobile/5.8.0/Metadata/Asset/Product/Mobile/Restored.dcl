@@ -1,8 +1,5 @@
-﻿resource datetime_metafield restored {
+resource datetime_metafield restored {
     item_guid = '40bce1f3-22dc-493c-bcdb-1671ace2bbe7'
-    autolink = {
-        item_guid = '40bce1f3-22dc-493c-bcdb-1671ace2bbe7'
-    }
     view_type = 'DateTime'
     name = 'Restored'
     group_id = resource.metafield_group.mobile.metafield_group_id
@@ -12,12 +9,9 @@
     system = true
     auto_translate = 'Overwrite'
     restrict_to_asset_type = 'All'
-}
-
-resource metafield_label restored {
-    metafield_id = resource.datetime_metafield.restored.metafield_id
-    language_id = data.language.english.id
-    label = resource.datetime_metafield.restored.name
+    autolink = {
+        item_guid = '40bce1f3-22dc-493c-bcdb-1671ace2bbe7'
+    }
 }
 
 resource item_security datetime_metafield_restored__anonymous {
@@ -33,3 +27,10 @@ resource item_security datetime_metafield_restored__trusted {
     read = true
     write = true
 }
+
+resource metafield_label restored {
+    metafield_id = resource.datetime_metafield.restored.metafield_id
+    language_id = data.language.english.id
+    label = resource.datetime_metafield.restored.name
+}
+

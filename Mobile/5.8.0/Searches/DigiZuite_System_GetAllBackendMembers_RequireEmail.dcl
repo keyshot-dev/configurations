@@ -1,4 +1,4 @@
-﻿resource search digizuite_system_getallbackendmembers_requireemail {
+resource search digizuite_system_getallbackendmembers_requireemail {
     version_id = resource.product.digizuite_mobile.base_version_id
     name = 'DigiZuite_System_GetAllBackendMembers_RequireEmail'
     is_customizable = false
@@ -29,3 +29,4 @@
     use_solr = false
     item_types = []
 }
+

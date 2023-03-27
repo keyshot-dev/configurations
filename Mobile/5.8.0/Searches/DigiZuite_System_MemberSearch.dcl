@@ -1,4 +1,4 @@
-﻿resource search digizuite_system_membersearch {
+resource search digizuite_system_membersearch {
     version_id = resource.product.digizuite_mobile.base_version_id
     name = 'DigiZuite_System_MemberSearch'
     is_customizable = false
@@ -43,3 +43,4 @@
     use_solr = false
     item_types = []
 }
+

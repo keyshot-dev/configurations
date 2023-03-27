@@ -1,4 +1,4 @@
-﻿resource search digizuite_system_framework_assetinfo {
+resource search digizuite_system_framework_assetinfo {
     version_id = resource.product.digizuite_mobile.base_version_id
     name = 'DigiZuite_System_Framework_AssetInfo'
     is_customizable = true
@@ -25,3 +25,4 @@
     use_solr = false
     item_types = []
 }
+
