@@ -37,3 +37,4 @@ resource search digizuite_system_assetreplacer_search2 {
     use_solr = false
     item_types = []
 }
+

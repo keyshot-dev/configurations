@@ -39,3 +39,4 @@ resource search digizuite_system_metadatav2_combobox {
             item_type = 'ComboValue'
         }]
 }
+

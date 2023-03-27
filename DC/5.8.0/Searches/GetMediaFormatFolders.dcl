@@ -25,3 +25,4 @@ resource search getmediaformatfolders {
     use_solr = false
     item_types = []
 }
+

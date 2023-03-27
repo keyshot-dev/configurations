@@ -131,3 +131,4 @@ resource search digizuite_system_metadatav2_listgroupsmetafields {
     use_solr = false
     item_types = []
 }
+

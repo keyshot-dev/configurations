@@ -23,3 +23,4 @@ resource search digizuite_system_getautomationassetinformation {
     use_solr = false
     item_types = []
 }
+

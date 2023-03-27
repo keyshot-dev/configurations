@@ -17,3 +17,4 @@ resource search digizuite_system_getlayoutfoldersforasset {
     use_solr = false
     item_types = []
 }
+

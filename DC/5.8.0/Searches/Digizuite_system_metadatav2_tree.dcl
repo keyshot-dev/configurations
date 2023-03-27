@@ -54,3 +54,4 @@ resource search digizuite_system_metadatav2_tree {
     use_solr = false
     item_types = []
 }
+

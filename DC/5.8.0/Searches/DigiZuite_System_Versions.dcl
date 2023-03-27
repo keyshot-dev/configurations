@@ -33,3 +33,4 @@ resource search digizuite_system_versions {
     use_solr = false
     item_types = []
 }
+

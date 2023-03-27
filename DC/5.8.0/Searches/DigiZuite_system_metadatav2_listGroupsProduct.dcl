@@ -118,3 +118,4 @@ resource search digizuite_system_metadatav2_listgroupsproduct {
     use_solr = false
     item_types = []
 }
+

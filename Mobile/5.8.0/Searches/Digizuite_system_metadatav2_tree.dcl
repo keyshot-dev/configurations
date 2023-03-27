@@ -1,4 +1,4 @@
-﻿resource search digizuite_system_metadatav2_tree {
+resource search digizuite_system_metadatav2_tree {
     version_id = resource.product.digizuite_mobile.base_version_id
     name = 'Digizuite_system_metadatav2_tree'
     is_customizable = false
@@ -61,3 +61,4 @@
     use_solr = false
     item_types = []
 }
+

@@ -34,3 +34,4 @@ resource search digizuite_system_membersearch {
     use_solr = false
     item_types = []
 }
+

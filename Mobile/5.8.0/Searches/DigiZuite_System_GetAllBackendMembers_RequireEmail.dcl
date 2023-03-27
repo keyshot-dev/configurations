@@ -1,4 +1,4 @@
-﻿resource search digizuite_system_getallbackendmembers_requireemail {
+resource search digizuite_system_getallbackendmembers_requireemail {
     version_id = resource.product.digizuite_mobile.base_version_id
     name = 'DigiZuite_System_GetAllBackendMembers_RequireEmail'
     is_customizable = false
@@ -22,9 +22,6 @@
       <valueField id="firstname" fieldName="community_member_setting.firstname" />
       <valueField id="lastname" fieldName="community_member_setting.lastname" />
       <valueField id="email" fieldName="community_member_setting.email" />
-      <valueField id="profileImageSD" fieldName="asset.urlAbsolut(${to_string(data.storage_manager_destination.frontenddata_sm.item_guid)},${to_string(data.media_format.digizuite_media_manager_user_profile_sd_30013.item_guid)})">
-        <bindField id="profileImageSDId" itemGuid="${to_string(data.masteritem_reference_metafield.profile_image.item_guid)}" />
-      </valueField>
     </valueFields>
     <sortFields />
   </searchSection>
@@ -32,3 +29,4 @@
     use_solr = false
     item_types = []
 }
+

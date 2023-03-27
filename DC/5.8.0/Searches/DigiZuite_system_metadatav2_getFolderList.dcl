@@ -28,3 +28,4 @@ resource search digizuite_system_metadatav2_getfolderlist {
     use_solr = false
     item_types = []
 }
+
