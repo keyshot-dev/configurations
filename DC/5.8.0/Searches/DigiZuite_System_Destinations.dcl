@@ -25,3 +25,4 @@ resource search digizuite_system_destinations {
     use_solr = false
     item_types = []
 }
+

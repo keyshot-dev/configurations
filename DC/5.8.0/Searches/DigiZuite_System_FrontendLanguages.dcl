@@ -24,3 +24,4 @@ resource search digizuite_system_frontendlanguages {
     use_solr = false
     item_types = []
 }
+

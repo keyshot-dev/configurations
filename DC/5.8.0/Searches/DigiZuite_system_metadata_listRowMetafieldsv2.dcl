@@ -72,3 +72,4 @@ resource search digizuite_system_metadata_listrowmetafieldsv2 {
     use_solr = false
     item_types = []
 }
+

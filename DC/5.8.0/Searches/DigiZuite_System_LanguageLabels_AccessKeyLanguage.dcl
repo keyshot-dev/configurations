@@ -26,3 +26,4 @@ resource search digizuite_system_languagelabels_accesskeylanguage {
     use_solr = false
     item_types = []
 }
+

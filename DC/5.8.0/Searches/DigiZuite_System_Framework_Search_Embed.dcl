@@ -31,3 +31,4 @@ resource search digizuite_system_framework_search_embed {
     use_solr = false
     item_types = []
 }
+

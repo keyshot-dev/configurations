@@ -34,3 +34,4 @@ resource search getmetafieldtreevalues {
     use_solr = false
     item_types = []
 }
+

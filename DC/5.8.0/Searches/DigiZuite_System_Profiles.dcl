@@ -25,3 +25,4 @@ resource search digizuite_system_profiles {
     use_solr = false
     item_types = []
 }
+

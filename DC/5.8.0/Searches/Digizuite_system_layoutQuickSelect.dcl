@@ -26,3 +26,4 @@ resource search digizuite_system_layoutquickselect {
     use_solr = false
     item_types = []
 }
+

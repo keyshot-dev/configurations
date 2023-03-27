@@ -24,3 +24,4 @@ resource search digizuite_system_languagelabelfolders {
     use_solr = false
     item_types = []
 }
+

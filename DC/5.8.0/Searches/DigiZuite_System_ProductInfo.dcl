@@ -58,3 +58,4 @@ resource search digizuite_system_productinfo {
     use_solr = false
     item_types = []
 }
+

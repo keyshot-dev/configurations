@@ -54,3 +54,4 @@ resource search digieyez_system_upload_validation {
     use_solr = false
     item_types = []
 }
+

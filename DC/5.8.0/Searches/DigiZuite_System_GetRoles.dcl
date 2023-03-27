@@ -20,3 +20,4 @@ resource search digizuite_system_getroles {
     use_solr = false
     item_types = []
 }
+
