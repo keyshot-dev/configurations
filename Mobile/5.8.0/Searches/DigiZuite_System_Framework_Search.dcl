@@ -70,22 +70,6 @@
         </bindField>
       </valueField>
       <valueField id="uploadMemberId" fieldName="asset_digiupload.memberid" />
-      <valueField id="profileImageSD" fieldName="asset.urlAbsolut(${to_string(data.storage_manager_destination.frontenddata_sm.item_guid)},${to_string(data.media_format.digizuite_media_manager_user_profile_sd_30013.item_guid)})">
-        <bindField id="profileFieldId" itemGuid="${to_string(data.masteritem_reference_metafield.profile_image.item_guid)}">
-          <bindField id="profileSDBind">
-            <new id="profileSD_new" fieldName="member.memberid" />
-            <current id="profileSD_current" fieldName="asset_digiupload.memberid" />
-          </bindField>
-        </bindField>
-      </valueField>
-      <valueField id="profileImageHD" fieldName="asset.urlAbsolut(${to_string(data.storage_manager_destination.frontenddata_sm.item_guid)},${to_string(data.media_format.digizuite_media_manager_user_profile_hd_30014.item_guid)})">
-        <bindField id="profileFieldIdHD" itemGuid="${to_string(data.masteritem_reference_metafield.profile_image.item_guid)}">
-          <bindField id="profileHDBind">
-            <new id="profileHD_new" fieldName="member.memberid" />
-            <current id="profileHD_current" fieldName="asset_digiupload.memberid" />
-          </bindField>
-        </bindField>
-      </valueField>
       <valueField id="transcodeFilename" fieldName="media_transcode_proxy_destination.fileName" isArray="true">
         <filter id="qualitiesState" fieldName="media_transcode_proxy_destination.state" valueHandler="Equals">
           <values valueType="String">

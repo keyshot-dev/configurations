@@ -14,14 +14,6 @@ data media_format mobile_h264_1024kbit_ffmpeg_50018 {
     name = 'Mobile H264 1024kbit ffmpeg'
 }
 
-data media_format digizuite_media_manager_user_profile_sd_30013 {
-    name = 'Digizuite™ Media Manager User Profile SD'
-}
-
-data media_format digizuite_media_manager_user_profile_hd_30014 {
-    name = 'Digizuite™ Media Manager User Profile HD'
-}
-
 data media_format thumb_1920x1080_2 {
     name = 'Thumb 1920x1080'
 }

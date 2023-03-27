@@ -23,11 +23,6 @@ data combovalue_metafield rotation {
     name = 'Rotation'
 }
 
-data masteritem_reference_metafield profile_image {
-    item_guid = 'e2dced3c-a38a-45d5-959b-e57b80211bef'
-    name = 'Profile Image'
-}
-
 data masteritem_reference_metafield mediamanager_favourites {
     item_guid = 'd10aef8d-af0e-4e33-bcb8-4d71e2c55269'
     name = 'MediaManager Favourites'
@@ -43,32 +38,6 @@ data string_metafield frameaccurate_thumbnail {
     item_guid = 'cd420283-d734-4b0c-9849-3406466e0954'
     name = 'Frameaccurate Thumbnail'
     group_id = data.metafield_group.video.metafield_group_id
-}
-
-data combovalue_metafield type {
-    item_guid = '01a2bf07-5474-4479-b9e1-0a78805d4465'
-    name = 'Type'
-    group_id = data.metafield_group.valid_download_qualities.metafield_group_id
-}
-
-data masteritem_reference_metafield quality {
-    item_type = 'MediaTranscode'
-    item_guid = 'e67069a2-1b12-49fe-b408-e919a0a506dd'
-    name = 'Quality'
-    group_id = data.metafield_group.valid_download_qualities.metafield_group_id
-}
-
-data bit_metafield allways_notify_when_asset_is_published {
-    item_guid = '33bf4a53-c6d2-425c-b0f1-25bc5130f432'
-    name = 'Allways Notify when asset is published'
-    group_id = data.metafield_group.user_config.metafield_group_id
-}
-
-data masteritem_reference_metafield config_layoutfolder {
-    item_type = 'ChannelFolder'
-    item_guid = '79b85f8e-68ae-49f7-b880-c946eb7f0055'
-    name = 'Config LayoutFolder'
-    group_id = data.metafield_group.user_config.metafield_group_id
 }
 
 data bit_metafield is_public {
