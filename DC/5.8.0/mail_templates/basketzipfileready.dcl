@@ -1,5 +1,5 @@
 resource mail_template basketzipfileready {
-    config_version = '/'
+    portal_name = ''
     language_id = resource.language.english.id
     template_name = 'basket-zip-file-ready'
     subject = 'Basket {{data.basketname}} are ready for download'
@@ -55,7 +55,7 @@ resource mail_template basketzipfileready {
 
 {{include \'standard-footer\'}}'
     autolink = {
-        config_version = '/'
+        portal_name = ''
         language_id = resource.language.english.id
         template_name = 'basket-zip-file-ready'
     }

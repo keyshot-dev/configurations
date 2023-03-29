@@ -1,5 +1,5 @@
 resource mail_template adminnotificationmembercreated {
-    config_version = '/'
+    portal_name = ''
     language_id = resource.language.english.id
     template_name = 'admin-notification-member-created'
     subject = 'User {{data.UserFullname | html.escape}} requested access to Media Manager'
@@ -27,7 +27,7 @@ resource mail_template adminnotificationmembercreated {
 
 {{include \'standard-footer\'}}'
     autolink = {
-        config_version = '/'
+        portal_name = ''
         language_id = resource.language.english.id
         template_name = 'admin-notification-member-created'
     }

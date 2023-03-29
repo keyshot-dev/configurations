@@ -1,5 +1,5 @@
 resource mail_template basestyling {
-    config_version = '/'
+    portal_name = ''
     language_id = resource.language.english.id
     template_name = 'base-styling'
     subject = 'base-styling'
@@ -169,7 +169,7 @@ resource mail_template basestyling {
     }
 </style>'
     autolink = {
-        config_version = '/'
+        portal_name = ''
         language_id = resource.language.english.id
         template_name = 'base-styling'
     }

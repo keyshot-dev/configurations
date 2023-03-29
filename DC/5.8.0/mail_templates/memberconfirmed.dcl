@@ -1,5 +1,5 @@
 resource mail_template memberconfirmed {
-    config_version = '/'
+    portal_name = ''
     language_id = resource.language.english.id
     template_name = 'member-confirmed'
     subject = 'Media Manager user creation confirmed'
@@ -11,7 +11,7 @@ resource mail_template memberconfirmed {
         UserName: {{data.UserName | html.escape}}<br/>
         {{include 'standard-footer'}}"
     autolink = {
-        config_version = '/'
+        portal_name = ''
         language_id = resource.language.english.id
         template_name = 'member-confirmed'
     }

@@ -1,5 +1,5 @@
 resource mail_template memberconfirmation {
-    config_version = '/'
+    portal_name = ''
     language_id = resource.language.english.id
     template_name = 'member-confirmation'
     subject = 'Please Confirm your Media Manager user'
@@ -42,7 +42,7 @@ resource mail_template memberconfirmation {
         </table>
         {{include \'standard-footer\'}}'
     autolink = {
-        config_version = '/'
+        portal_name = ''
         language_id = resource.language.english.id
         template_name = 'member-confirmation'
     }
