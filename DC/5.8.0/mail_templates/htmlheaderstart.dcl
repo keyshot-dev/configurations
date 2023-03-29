@@ -1,5 +1,5 @@
 resource mail_template htmlheaderstart {
-    config_version = '/'
+    portal_name = ''
     language_id = resource.language.english.id
     template_name = 'html-header-start'
     subject = 'html-header-start'
@@ -13,7 +13,7 @@ resource mail_template htmlheaderstart {
 {{include \'base-styling\'}}
 '
     autolink = {
-        config_version = '/'
+        portal_name = ''
         language_id = resource.language.english.id
         template_name = 'html-header-start'
     }

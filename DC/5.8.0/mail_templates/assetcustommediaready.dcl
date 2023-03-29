@@ -1,5 +1,5 @@
 resource mail_template assetcustommediaready {
-    config_version = '/'
+    portal_name = ''
     language_id = resource.language.english.id
     template_name = 'asset-custom-media-ready'
     subject = 'Your custom generated file is now ready for download'
@@ -53,7 +53,7 @@ resource mail_template assetcustommediaready {
 
 {{include \'standard-footer\'}}'
     autolink = {
-        config_version = '/'
+        portal_name = ''
         language_id = resource.language.english.id
         template_name = 'asset-custom-media-ready'
     }

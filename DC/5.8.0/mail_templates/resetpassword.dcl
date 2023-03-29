@@ -1,5 +1,5 @@
 resource mail_template resetpassword {
-    config_version = '/'
+    portal_name = ''
     language_id = resource.language.english.id
     template_name = 'reset-password'
     subject = 'Password reset code'
@@ -19,7 +19,7 @@ resource mail_template resetpassword {
 
 {{include 'standard-footer'}}"
     autolink = {
-        config_version = '/'
+        portal_name = ''
         language_id = resource.language.english.id
         template_name = 'reset-password'
     }

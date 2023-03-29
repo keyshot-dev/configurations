@@ -1,5 +1,5 @@
 resource mail_template standardfooter {
-    config_version = '/'
+    portal_name = ''
     language_id = resource.language.english.id
     template_name = 'standard-footer'
     subject = 'standard-footer'
@@ -35,7 +35,7 @@ resource mail_template standardfooter {
 </html>
 '
     autolink = {
-        config_version = '/'
+        portal_name = ''
         language_id = resource.language.english.id
         template_name = 'standard-footer'
     }

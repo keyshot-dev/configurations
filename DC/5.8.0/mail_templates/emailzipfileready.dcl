@@ -1,5 +1,5 @@
 resource mail_template emailzipfileready {
-    config_version = '/'
+    portal_name = ''
     language_id = resource.language.english.id
     template_name = 'email-zip-file-ready'
     subject = "Your selected file(s) are now ready for download from Digizuite' Media Manager."
@@ -55,7 +55,7 @@ resource mail_template emailzipfileready {
 
 {{include \'standard-footer\'}}'
     autolink = {
-        config_version = '/'
+        portal_name = ''
         language_id = resource.language.english.id
         template_name = 'email-zip-file-ready'
     }

@@ -1,5 +1,5 @@
 resource mail_template basketsharedbyemail {
-    config_version = '/'
+    portal_name = ''
     language_id = resource.language.english.id
     template_name = 'basket-shared-by-email'
     subject = "{{sender.name}} has invited you to join a shared collection in Digizuite' Media Manager"
@@ -54,7 +54,7 @@ resource mail_template basketsharedbyemail {
 
 {{include \'standard-footer\'}}'
     autolink = {
-        config_version = '/'
+        portal_name = ''
         language_id = resource.language.english.id
         template_name = 'basket-shared-by-email'
     }

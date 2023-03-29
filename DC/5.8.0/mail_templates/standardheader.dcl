@@ -1,5 +1,5 @@
 resource mail_template standardheader {
-    config_version = '/'
+    portal_name = ''
     language_id = resource.language.english.id
     template_name = 'standard-header'
     subject = 'standard-header'
@@ -23,7 +23,7 @@ resource mail_template standardheader {
                             <tr>
                                 <td class="content-cell">'
     autolink = {
-        config_version = '/'
+        portal_name = ''
         language_id = resource.language.english.id
         template_name = 'standard-header'
     }
