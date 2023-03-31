@@ -81,7 +81,7 @@ resource asset_type_configuration photoshop_photoshopmanifest {
                 media_format_id = resource.media_format.thumb_1920x1080_2.media_format_id
             }, {
                 media_format_id = resource.media_format.thumb_200x120_3.media_format_id
-            }}
+            }]
 }
 
 resource asset_type_configuration odp_odpmanifest {
@@ -107,7 +107,7 @@ resource asset_type_configuration illustrator_illustratormanifest {
                 media_format_id = resource.media_format.thumb_1920x1080_2.media_format_id
             }, {
                 media_format_id = resource.media_format.thumb_200x120_3.media_format_id
-            }}
+            }]
 }
 
 resource asset_type_configuration otp_otpmanifest {
