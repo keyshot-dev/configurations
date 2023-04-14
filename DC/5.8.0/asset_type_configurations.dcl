@@ -3,7 +3,13 @@ resource asset_type_configuration powerpoint_powerpointmanifest {
     destination_id = resource.storage_manager_destination.asset_storage_sm.destination_id
     file_prefix = 'powerpointmanifest'
     encoder_profile_location = '${variable.storage_path}\\dmm\\Profiles\\PowerPoint'
-    source_media_format_id = resource.media_format.powerpoint_10077.media_format_id
+    qualities = [{
+            media_format_id = resource.media_format.thumb_1920x1080_2.media_format_id
+        }, {
+            media_format_id = resource.media_format.thumb_200x120_3.media_format_id
+        }, {
+            media_format_id = resource.media_format.adobe_pdf_preview_4.media_format_id
+        }]
 }
 
 resource asset_type_configuration archive_archivemanifest {
@@ -11,7 +17,7 @@ resource asset_type_configuration archive_archivemanifest {
     destination_id = resource.storage_manager_destination.asset_storage_sm.destination_id
     file_prefix = 'archivemanifest'
     encoder_profile_location = ''
-    source_media_format_id = 0
+    qualities = []
 }
 
 resource asset_type_configuration all_ {
@@ -19,7 +25,7 @@ resource asset_type_configuration all_ {
     destination_id = resource.storage_manager_destination.asset_storage_sm.destination_id
     file_prefix = ''
     encoder_profile_location = ''
-    source_media_format_id = 0
+    qualities = []
 }
 
 resource asset_type_configuration html_htmlmanifest {
@@ -27,7 +33,7 @@ resource asset_type_configuration html_htmlmanifest {
     destination_id = resource.storage_manager_destination.asset_storage_sm.destination_id
     file_prefix = 'htmlmanifest'
     encoder_profile_location = ''
-    source_media_format_id = resource.media_format.html_50031.media_format_id
+    qualities = []
 }
 
 resource asset_type_configuration pdf_pdfmanifest {
@@ -35,7 +41,13 @@ resource asset_type_configuration pdf_pdfmanifest {
     destination_id = resource.storage_manager_destination.asset_storage_sm.destination_id
     file_prefix = 'pdfmanifest'
     encoder_profile_location = ''
-    source_media_format_id = resource.media_format.adobe_pdf_50009.media_format_id
+    qualities = [{
+                media_format_id = resource.media_format.thumb_1920x1080_2.media_format_id
+            }, {
+                media_format_id = resource.media_format.thumb_200x120_3.media_format_id
+            }, {
+                media_format_id = resource.media_format.adobe_pdf_preview_4.media_format_id
+            }]
 }
 
 resource asset_type_configuration ots_otsmanifest {
@@ -43,7 +55,13 @@ resource asset_type_configuration ots_otsmanifest {
     destination_id = resource.storage_manager_destination.asset_storage_sm.destination_id
     file_prefix = 'otsmanifest'
     encoder_profile_location = '${variable.storage_path}\\dmm\\Profiles\\ots'
-    source_media_format_id = resource.media_format.openoffice_calc_document_template_ots_50077.media_format_id
+    qualities = [{
+                media_format_id = resource.media_format.thumb_1920x1080_2.media_format_id
+            }, {
+                media_format_id = resource.media_format.thumb_200x120_3.media_format_id
+            }, {
+                media_format_id = resource.media_format.adobe_pdf_preview_4.media_format_id
+            }]
 }
 
 resource asset_type_configuration text_textmanifest {
@@ -51,7 +69,7 @@ resource asset_type_configuration text_textmanifest {
     destination_id = resource.storage_manager_destination.asset_storage_sm.destination_id
     file_prefix = 'textmanifest'
     encoder_profile_location = ''
-    source_media_format_id = 0
+    qualities = []
 }
 
 resource asset_type_configuration photoshop_photoshopmanifest {
@@ -59,7 +77,11 @@ resource asset_type_configuration photoshop_photoshopmanifest {
     destination_id = resource.storage_manager_destination.asset_storage_sm.destination_id
     file_prefix = 'photoshopmanifest'
     encoder_profile_location = ''
-    source_media_format_id = resource.media_format.image_50030.media_format_id
+    qualities = [{
+                media_format_id = resource.media_format.thumb_1920x1080_2.media_format_id
+            }, {
+                media_format_id = resource.media_format.thumb_200x120_3.media_format_id
+            }]
 }
 
 resource asset_type_configuration odp_odpmanifest {
@@ -67,7 +89,13 @@ resource asset_type_configuration odp_odpmanifest {
     destination_id = resource.storage_manager_destination.asset_storage_sm.destination_id
     file_prefix = 'odpmanifest'
     encoder_profile_location = '${variable.storage_path}\\dmm\\Profiles\\odp'
-    source_media_format_id = resource.media_format.openoffice_impress_document_odp_50078.media_format_id
+    qualities = [{
+                media_format_id = resource.media_format.thumb_1920x1080_2.media_format_id
+            }, {
+                media_format_id = resource.media_format.thumb_200x120_3.media_format_id
+            }, {
+                media_format_id = resource.media_format.adobe_pdf_preview_4.media_format_id
+            }]
 }
 
 resource asset_type_configuration illustrator_illustratormanifest {
@@ -75,7 +103,11 @@ resource asset_type_configuration illustrator_illustratormanifest {
     destination_id = resource.storage_manager_destination.asset_storage_sm.destination_id
     file_prefix = 'illustratormanifest'
     encoder_profile_location = ''
-    source_media_format_id = resource.media_format.image_50030.media_format_id
+    qualities = [{
+                media_format_id = resource.media_format.thumb_1920x1080_2.media_format_id
+            }, {
+                media_format_id = resource.media_format.thumb_200x120_3.media_format_id
+            }]
 }
 
 resource asset_type_configuration otp_otpmanifest {
@@ -83,7 +115,13 @@ resource asset_type_configuration otp_otpmanifest {
     destination_id = resource.storage_manager_destination.asset_storage_sm.destination_id
     file_prefix = 'otpmanifest'
     encoder_profile_location = '${variable.storage_path}\\dmm\\Profiles\\otp'
-    source_media_format_id = resource.media_format.openoffice_impress_document_template_otp_50079.media_format_id
+    qualities = [{
+                media_format_id = resource.media_format.thumb_1920x1080_2.media_format_id
+            }, {
+                media_format_id = resource.media_format.thumb_200x120_3.media_format_id
+            }, {
+                media_format_id = resource.media_format.adobe_pdf_preview_4.media_format_id
+            }]
 }
 
 resource asset_type_configuration meta_metamanifest {
@@ -91,7 +129,7 @@ resource asset_type_configuration meta_metamanifest {
     destination_id = resource.storage_manager_destination.asset_storage_sm.destination_id
     file_prefix = 'metamanifest'
     encoder_profile_location = ''
-    source_media_format_id = 0
+    qualities = []
 }
 
 resource asset_type_configuration odg_odgmanifest {
@@ -99,7 +137,7 @@ resource asset_type_configuration odg_odgmanifest {
     destination_id = resource.storage_manager_destination.asset_storage_sm.destination_id
     file_prefix = 'odgmanifest'
     encoder_profile_location = ''
-    source_media_format_id = 0
+    qualities = []
 }
 
 resource asset_type_configuration odt_odtmanifest {
@@ -107,7 +145,13 @@ resource asset_type_configuration odt_odtmanifest {
     destination_id = resource.storage_manager_destination.asset_storage_sm.destination_id
     file_prefix = 'odtmanifest'
     encoder_profile_location = '${variable.storage_path}\\dmm\\Profiles\\odt'
-    source_media_format_id = resource.media_format.openoffice_writer_document_odt_50074.media_format_id
+    qualities = [{
+                media_format_id = resource.media_format.thumb_1920x1080_2.media_format_id
+            }, {
+                media_format_id = resource.media_format.thumb_200x120_3.media_format_id
+            }, {
+                media_format_id = resource.media_format.adobe_pdf_preview_4.media_format_id
+            }]
 }
 
 resource asset_type_configuration otg_otgmanifest {
@@ -115,7 +159,7 @@ resource asset_type_configuration otg_otgmanifest {
     destination_id = resource.storage_manager_destination.asset_storage_sm.destination_id
     file_prefix = 'otgmanifest'
     encoder_profile_location = ''
-    source_media_format_id = 0
+    qualities = []
 }
 
 resource asset_type_configuration cad_cadmanifest {
@@ -123,7 +167,13 @@ resource asset_type_configuration cad_cadmanifest {
     destination_id = resource.storage_manager_destination.asset_storage_sm.destination_id
     file_prefix = 'Cadmanifest'
     encoder_profile_location = '${variable.storage_path}\\dmm\\Profiles\\Cad'
-    source_media_format_id = 0
+    qualities = [{
+                media_format_id = resource.media_format.thumb_1920x1080_2.media_format_id
+            }, {
+                media_format_id = resource.media_format.thumb_200x120_3.media_format_id
+            }, {
+                media_format_id = resource.media_format.adobe_pdf_preview_4.media_format_id
+            }]
 }
 
 resource asset_type_configuration ott_ottmanifest {
@@ -131,7 +181,13 @@ resource asset_type_configuration ott_ottmanifest {
     destination_id = resource.storage_manager_destination.asset_storage_sm.destination_id
     file_prefix = 'ottmanifest'
     encoder_profile_location = '${variable.storage_path}\\dmm\\Profiles\\ott'
-    source_media_format_id = resource.media_format.openoffice_writer_document_template_ott_50075.media_format_id
+    qualities = [{
+                media_format_id = resource.media_format.thumb_1920x1080_2.media_format_id
+            }, {
+                media_format_id = resource.media_format.thumb_200x120_3.media_format_id
+            }, {
+                media_format_id = resource.media_format.adobe_pdf_preview_4.media_format_id
+            }]
 }
 
 resource asset_type_configuration odb_odbmanifest {
@@ -139,7 +195,7 @@ resource asset_type_configuration odb_odbmanifest {
     destination_id = resource.storage_manager_destination.asset_storage_sm.destination_id
     file_prefix = 'odbmanifest'
     encoder_profile_location = ''
-    source_media_format_id = 0
+    qualities = []
 }
 
 resource asset_type_configuration visio_visiomanifest {
@@ -147,7 +203,13 @@ resource asset_type_configuration visio_visiomanifest {
     destination_id = resource.storage_manager_destination.asset_storage_sm.destination_id
     file_prefix = 'Visiomanifest'
     encoder_profile_location = '${variable.storage_path}\\dmm\\Profiles\\Visio'
-    source_media_format_id = 0
+    qualities = [{
+                media_format_id = resource.media_format.thumb_1920x1080_2.media_format_id
+            }, {
+                media_format_id = resource.media_format.thumb_200x120_3.media_format_id
+            }, {
+                media_format_id = resource.media_format.adobe_pdf_preview_4.media_format_id
+            }]
 }
 
 resource asset_type_configuration word_wordmanifest {
@@ -155,7 +217,13 @@ resource asset_type_configuration word_wordmanifest {
     destination_id = resource.storage_manager_destination.asset_storage_sm.destination_id
     file_prefix = 'wordmanifest'
     encoder_profile_location = '${variable.storage_path}\\dmm\\Profiles\\Word'
-    source_media_format_id = 0
+    qualities = [{
+                media_format_id = resource.media_format.thumb_1920x1080_2.media_format_id
+            }, {
+                media_format_id = resource.media_format.thumb_200x120_3.media_format_id
+            }, {
+                media_format_id = resource.media_format.adobe_pdf_preview_4.media_format_id
+            }]
 }
 
 resource asset_type_configuration ods_odsmanifest {
@@ -163,7 +231,13 @@ resource asset_type_configuration ods_odsmanifest {
     destination_id = resource.storage_manager_destination.asset_storage_sm.destination_id
     file_prefix = 'odsmanifest'
     encoder_profile_location = '${variable.storage_path}\\dmm\\Profiles\\ods'
-    source_media_format_id = resource.media_format.openoffice_calc_document_ods_50076.media_format_id
+    qualities = [{
+                media_format_id = resource.media_format.thumb_1920x1080_2.media_format_id
+            }, {
+                media_format_id = resource.media_format.thumb_200x120_3.media_format_id
+            }, {
+                media_format_id = resource.media_format.adobe_pdf_preview_4.media_format_id
+            }]
 }
 
 resource asset_type_configuration odf_odfmanifest {
@@ -171,7 +245,7 @@ resource asset_type_configuration odf_odfmanifest {
     destination_id = resource.storage_manager_destination.asset_storage_sm.destination_id
     file_prefix = 'odfmanifest'
     encoder_profile_location = ''
-    source_media_format_id = 0
+    qualities = []
 }
 
 resource asset_type_configuration video_videomanifest {
@@ -179,7 +253,13 @@ resource asset_type_configuration video_videomanifest {
     destination_id = resource.storage_manager_destination.asset_storage_sm.destination_id
     file_prefix = 'videomanifest'
     encoder_profile_location = '${variable.storage_path}\\dmm\\Profiles\\Video'
-    source_media_format_id = resource.media_format.video_10053.media_format_id
+    qualities = [{
+                media_format_id = resource.media_format.thumb_1920x1080_2.media_format_id
+            }, {
+                media_format_id = resource.media_format.thumb_200x120_3.media_format_id
+            }, {
+                media_format_id = resource.media_format.video_preview_h264_10079.media_format_id
+            }]
 }
 
 resource asset_type_configuration excel_excelmanifest {
@@ -187,7 +267,13 @@ resource asset_type_configuration excel_excelmanifest {
     destination_id = resource.storage_manager_destination.asset_storage_sm.destination_id
     file_prefix = 'excelmanifest'
     encoder_profile_location = '${variable.storage_path}\\dmm\\Profiles\\Excel'
-    source_media_format_id = 0
+    qualities = [{
+                media_format_id = resource.media_format.thumb_1920x1080_2.media_format_id
+            }, {
+                media_format_id = resource.media_format.thumb_200x120_3.media_format_id
+            }, {
+                media_format_id = resource.media_format.adobe_pdf_preview_4.media_format_id
+            }]
 }
 
 resource asset_type_configuration odm_odmmanifest {
@@ -195,7 +281,7 @@ resource asset_type_configuration odm_odmmanifest {
     destination_id = resource.storage_manager_destination.asset_storage_sm.destination_id
     file_prefix = 'odmmanifest'
     encoder_profile_location = ''
-    source_media_format_id = 0
+    qualities = []
 }
 
 resource asset_type_configuration aftereffects_aftereffectsmanifest {
@@ -203,7 +289,7 @@ resource asset_type_configuration aftereffects_aftereffectsmanifest {
     destination_id = resource.storage_manager_destination.asset_storage_sm.destination_id
     file_prefix = 'AfterEffectsmanifest'
     encoder_profile_location = '${variable.storage_path}\\dmm\\Profiles\\AfterEffects'
-    source_media_format_id = 0
+    qualities = []
 }
 
 resource asset_type_configuration audio_audiomanifest {
@@ -211,7 +297,9 @@ resource asset_type_configuration audio_audiomanifest {
     destination_id = resource.storage_manager_destination.asset_storage_sm.destination_id
     file_prefix = 'audiomanifest'
     encoder_profile_location = '${variable.storage_path}\\dmm\\Profiles\\Audio'
-    source_media_format_id = resource.media_format.audio_50029.media_format_id
+    qualities = [{
+                media_format_id = resource.media_format.audio_preview_10045.media_format_id
+            }]
 }
 
 resource asset_type_configuration indesign_indesignmanifest {
@@ -219,7 +307,13 @@ resource asset_type_configuration indesign_indesignmanifest {
     destination_id = resource.storage_manager_destination.asset_storage_sm.destination_id
     file_prefix = 'indesignmanifest'
     encoder_profile_location = ''
-    source_media_format_id = resource.media_format.adobe_indesign_50011.media_format_id
+    qualities = [{
+                media_format_id = resource.media_format.thumb_1920x1080_2.media_format_id
+            }, {
+                media_format_id = resource.media_format.thumb_200x120_3.media_format_id
+            }, {
+                media_format_id = resource.media_format.exifthumb_raw_50014.media_format_id
+            }]
 }
 
 resource asset_type_configuration oth_othmanifest {
@@ -227,7 +321,7 @@ resource asset_type_configuration oth_othmanifest {
     destination_id = resource.storage_manager_destination.asset_storage_sm.destination_id
     file_prefix = 'othmanifest'
     encoder_profile_location = ''
-    source_media_format_id = 0
+    qualities = []
 }
 
 resource asset_type_configuration premierepro_premierepromanifest {
@@ -235,7 +329,7 @@ resource asset_type_configuration premierepro_premierepromanifest {
     destination_id = resource.storage_manager_destination.asset_storage_sm.destination_id
     file_prefix = 'PremierePromanifest'
     encoder_profile_location = '${variable.storage_path}\\dmm\\Profiles\\PremierePro'
-    source_media_format_id = 0
+    qualities = []
 }
 
 resource asset_type_configuration image_imagemanifest {
@@ -243,7 +337,11 @@ resource asset_type_configuration image_imagemanifest {
     destination_id = resource.storage_manager_destination.asset_storage_sm.destination_id
     file_prefix = 'imagemanifest'
     encoder_profile_location = '${variable.storage_path}\\dmm\\Profiles\\images'
-    source_media_format_id = resource.media_format.image_50030.media_format_id
+    qualities = [{
+                media_format_id = resource.media_format.thumb_1920x1080_2.media_format_id
+            }, {
+                media_format_id = resource.media_format.thumb_200x120_3.media_format_id
+            }]
 }
 
 resource asset_type_configuration zip_zipmanifest {
@@ -251,7 +349,7 @@ resource asset_type_configuration zip_zipmanifest {
     destination_id = resource.storage_manager_destination.asset_storage_sm.destination_id
     file_prefix = 'zipmanifest'
     encoder_profile_location = ''
-    source_media_format_id = 0
+    qualities = []
 }
 
 resource asset_type_configuration live_livemanifest {
@@ -259,6 +357,6 @@ resource asset_type_configuration live_livemanifest {
     destination_id = resource.storage_manager_destination.asset_storage_sm.destination_id
     file_prefix = 'livemanifest'
     encoder_profile_location = ''
-    source_media_format_id = 0
+    qualities = []
 }
 
