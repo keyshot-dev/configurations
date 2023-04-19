@@ -82,8 +82,6 @@ resource member_group super_administrator {
         }, {
             constant = 'Editor_SystemTools_Stopwords'
         }, {
-            constant = 'Editor_SystemTools_License'
-        }, {
             constant = 'Editor_SystemTools_Status'
         }, {
             constant = 'Editor_SystemTools_Workflow'
