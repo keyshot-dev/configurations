@@ -804,38 +804,6 @@ resource language_label dam_nav_system_digizuite_config_swedish {
     version_id = resource.product.digizuite_dam_center.base_version_id
 }
 
-resource language_label dam_nav_system_license_danish {
-    constant = 'DAM_NAV_SYSTEM_LICENSE'
-    label = 'Licens'
-    language_id = resource.language.danish.id
-    folder_id = resource.language_label_folder.navigation_50031.folder_id
-    version_id = resource.product.digizuite_dam_center.base_version_id
-}
-
-resource language_label dam_nav_system_license_english {
-    constant = 'DAM_NAV_SYSTEM_LICENSE'
-    label = 'License'
-    language_id = resource.language.english.id
-    folder_id = resource.language_label_folder.navigation_50031.folder_id
-    version_id = resource.product.digizuite_dam_center.base_version_id
-}
-
-resource language_label dam_nav_system_license_german {
-    constant = 'DAM_NAV_SYSTEM_LICENSE'
-    label = 'Lizenz'
-    language_id = resource.language.german.id
-    folder_id = resource.language_label_folder.navigation_50031.folder_id
-    version_id = resource.product.digizuite_dam_center.base_version_id
-}
-
-resource language_label dam_nav_system_license_swedish {
-    constant = 'DAM_NAV_SYSTEM_LICENSE'
-    label = 'License'
-    language_id = resource.language.swedish.id
-    folder_id = resource.language_label_folder.navigation_50031.folder_id
-    version_id = resource.product.digizuite_dam_center.base_version_id
-}
-
 resource language_label dam_nav_system_local_groups_danish {
     constant = 'DAM_NAV_SYSTEM_LOCAL_GROUPS'
     label = 'Grupper'
