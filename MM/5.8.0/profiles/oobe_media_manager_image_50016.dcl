@@ -7,7 +7,7 @@ resource profile oobe_media_manager_image_50016 {
         }, {
             media_format_id = data.media_format.jpg_full_size.media_format_id
         }, {
-            media_format_id = data.media_format.jpg_big.media_format_id
+            media_format_id = data.media_format.png_transparent.media_format_id
         }, {
             media_format_id = data.media_format.jpg_medium.media_format_id
         }, {
