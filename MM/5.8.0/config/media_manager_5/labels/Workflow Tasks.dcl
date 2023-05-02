@@ -1150,3 +1150,115 @@ resource configservice_label workflow_task_list_overylay_clear_tasks_button {
   ]
 }
 
+resource configservice_label workflow_task_list_delete {
+  key = 'WORKFLOW_TASK_LIST_DELETE'
+  group = 'Workflow Tasks'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = '{count, select, 0 {Delete} other {Delete ({{count}})}}'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = '{count, select, 0 {Slet} other {Slet ({{count}})}}'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label workflow_tasks_delete_confirmation_dialog_title {
+  key = 'WORKFLOW_TASKS_DELETE_CONFIRMATION_DIALOG_TITLE'
+  group = 'Workflow Tasks'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Delete task'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Slet opgave'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label workflow_tasks_delete_confirmation_dialog_content {
+  key = 'WORKFLOW_TASKS_DELETE_CONFIRMATION_DIALOG_CONTENT'
+  group = 'Workflow Tasks'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Are you sure you want to delete the selected tasks?'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Er du sikker på, at du vil slette de valgte opgaver?'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label workflow_tasks_delete_confirmation_dialog_cancel {
+  key = 'WORKFLOW_TASKS_DELETE_CONFIRMATION_DIALOG_CANCEL'
+  group = 'Workflow Tasks'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Cancel'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Annullér'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label workflow_tasks_delete_confirmation_dialog_ok {
+  key = 'WORKFLOW_TASKS_DELETE_CONFIRMATION_DIALOG_OK'
+  group = 'Workflow Tasks'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Delete ({{count}})'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Slet ({{count}})'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label workflow_task_delete_success_title {
+  key = 'WORKFLOW_TASK_DELETE_SUCCESS_TITLE'
+  group = 'Workflow Tasks'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Success'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Succes'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label workflow_task_delete_success_body {
+  key = 'WORKFLOW_TASK_DELETE_SUCCESS_BODY'
+  group = 'Workflow Tasks'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = '{multiple, select, true {The tasks were} false {The task was}} successfully deleted'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = '{multiple, select, true {Opgaverne} false {Opgaven}} blev slettet'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+

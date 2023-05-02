@@ -1,62 +1,110 @@
-﻿resource configservice_label change_site_validate_request {
-  key = 'CHANGE_SITE_VALIDATE_REQUEST'
-  group = 'Creative Cloud Connector'
-  product_id = resource.configservice_product.media_manager_5.id
-  default_label_values = [
-    {
-      default_translation = 'Validating...'
-      language_id = data.language.english.id
-    },
-    {
-      default_translation = 'Validerer...'
-      language_id = data.language.danish.id
-    }
-  ]
-}
-
-resource configservice_label change_site_btn {
+﻿resource configservice_label change_site_btn {
   key = 'CHANGE_SITE_BTN'
   group = 'Creative Cloud Connector'
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Change'
+      default_translation = 'Change site'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Skift'
+      default_translation = 'Skift site'
       language_id = data.language.danish.id
     }
   ]
 }
 
-resource configservice_label change_site_media_manager_error {
-  key = 'CHANGE_SITE_MEDIA_MANAGER_ERROR'
+resource configservice_label change_site_dialog_title {
+  key = 'CHANGE_SITE_DIALOG_TITLE'
   group = 'Creative Cloud Connector'
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Either the provided URL is invalid, or the site is down.'
+      default_translation = 'Change site'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Enten er den angivne URL ugyldig, ellers er sitet nede'
+      default_translation = 'Skift site'
       language_id = data.language.danish.id
     }
   ]
 }
 
-resource configservice_label change_site_dam_center_error {
-  key = 'CHANGE_SITE_DAM_CENTER_ERROR'
+resource configservice_label change_site_dialog_description {
+  key = 'CHANGE_SITE_DIALOG_DESCRIPTION'
   group = 'Creative Cloud Connector'
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'The DAM Center of the requested site is not available.'
+      default_translation = 'An extension restart is required to change the site.'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'DAM Centeret for det anmodede site er ikke tilgængeligt.'
+      default_translation = 'En genstart af udvidelsen er påkrævet for at ændre site.'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label change_site_dialog_sub_description {
+  key = 'CHANGE_SITE_DIALOG_SUB_DESCRIPTION'
+  group = 'Creative Cloud Connector'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Please start the extension manually after it closes.'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Start venligst udvidelsen manuelt, efter den er blevet lukket.'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label change_site_dialog_cancel {
+  key = 'CHANGE_SITE_DIALOG_CANCEL'
+  group = 'Creative Cloud Connector'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Cancel'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Annullér'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label change_site_dialog_ok {
+  key = 'CHANGE_SITE_DIALOG_OK'
+  group = 'Creative Cloud Connector'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Change site'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Skift site'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label change_site_request_error {
+  key = 'CHANGE_SITE_REQUEST_ERROR'
+  group = 'Creative Cloud Connector'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'The URL is not valid. Please correct it and try again'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Den angivne URL er ugyldig. Ret den til og prøv igen'
       language_id = data.language.danish.id
     }
   ]
@@ -3124,11 +3172,11 @@ resource configservice_label creative_cloud_connector_document_already_open {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Already open'
+      default_translation = 'The document is already open'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Allerede åben'
+      default_translation = 'Dokumentet er allerede åbent'
       language_id = data.language.danish.id
     }
   ]
@@ -3161,6 +3209,54 @@ resource configservice_label creative_cloud_connector_missing_open_office_role {
     },
     {
       default_translation = 'Du har ikke rollen til at åbne Office-dokumenter'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label creative_cloud_connector_insert_asset_insert_quality_not_available {
+  key = 'CREATIVE_CLOUD_CONNECTOR_INSERT_ASSET_INSERT_QUALITY_NOT_AVAILABLE'
+  group = 'Creative Cloud Connector'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'The insert quality (id: {{mediaFormatId}}) is not available for this asset'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Indsæt-kvaliteten (id: {{mediaFormatId}}) er ikke tilgængelig for dette asset'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label creative_cloud_connector_insert_asset_no_access_to_source_quality {
+  key = 'CREATIVE_CLOUD_CONNECTOR_INSERT_ASSET_NO_ACCESS_TO_SOURCE_QUALITY'
+  group = 'Creative Cloud Connector'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'You do not have access to the quality named Original'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Du har ikke adgang til kvaliteten Original'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label creative_cloud_connector_insert_asset_cannot_select_qualities_for_document {
+  key = 'CREATIVE_CLOUD_CONNECTOR_INSERT_ASSET_CANNOT_SELECT_QUALITIES_FOR_DOCUMENT'
+  group = 'Creative Cloud Connector'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'This application only allows the insertion of its own file type in the original quality'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Denne applikation tillader kun indsættelse af sin egen filtype i den originale kvalitet'
       language_id = data.language.danish.id
     }
   ]
@@ -3289,6 +3385,22 @@ resource configservice_label office_link_manager_link_asset_deleted_has_local_co
     },
     {
       default_translation = 'Assettet er slettet fra DAMen'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label office_link_manager_link_asset_from_other_site_tooltip {
+  key = 'OFFICE_LINK_MANAGER_LINK_ASSET_FROM_OTHER_SITE_TOOLTIP'
+  group = 'Creative Cloud Connector'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'The asset does not belong to the connected DAM'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Assettet er ikke tilknyttet den tilsluttede DAM'
       language_id = data.language.danish.id
     }
   ]
@@ -3625,6 +3737,118 @@ resource configservice_label link_progress_status_processing_multiple_items {
     },
     {
       default_translation = '{count, cardinalPlural, one {{finished, select, true {Job færdigbehandlet} false {Job under behandling}}} other {{finished, select, true {Flere jobs færdigbehandlet} false {Flere jobs under behandling}}}}'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label link_progress_status_failed {
+  key = 'LINK_PROGRESS_STATUS_FAILED'
+  group = 'Creative Cloud Connector'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Job failed'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Job fejlede'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label link_progress_unknown_error {
+  key = 'LINK_PROGRESS_UNKNOWN_ERROR'
+  group = 'Creative Cloud Connector'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'An unknown error has occurred.'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'En ukendt fejl er sket.'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label link_progress_expanded_insert_status_title {
+  key = 'LINK_PROGRESS_EXPANDED_INSERT_STATUS_TITLE'
+  group = 'Creative Cloud Connector'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Job'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Job'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label link_progress_cancel_process_warning_cancel_processes {
+  key = 'LINK_PROGRESS_CANCEL_PROCESS_WARNING_CANCEL_PROCESSES'
+  group = 'Creative Cloud Connector'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Cancel job'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Annullér job'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label link_progress_cancel_process_warning_cancel_processes_are_you_sure_you_want_to_cancel_your_remaining_inserts {
+  key = 'LINK_PROGRESS_CANCEL_PROCESS_WARNING_CANCEL_PROCESSES_ARE_YOU_SURE_YOU_WANT_TO_CANCEL_YOUR_REMAINING_INSERTS'
+  group = 'Creative Cloud Connector'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Are you sure you want to cancel the remaining jobs?'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Er du sikker på at du vil annullere de resterende jobs?'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label link_progress_cancel_process_warning_yes {
+  key = 'LINK_PROGRESS_CANCEL_PROCESS_WARNING_YES'
+  group = 'Creative Cloud Connector'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Yes'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Ja'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label link_progress_cancel_process_warning_no {
+  key = 'LINK_PROGRESS_CANCEL_PROCESS_WARNING_NO'
+  group = 'Creative Cloud Connector'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'No'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Nej'
       language_id = data.language.danish.id
     }
   ]

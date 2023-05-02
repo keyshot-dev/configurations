@@ -2062,3 +2062,35 @@ resource configservice_label aria_label_pages {
   ]
 }
 
+resource configservice_label aria_label_close_modal {
+  key = 'ARIA_LABEL_CLOSE_MODAL'
+  group = 'Z Misc Labels'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Close modal'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Luk modal'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label aria_label_back_modal {
+  key = 'ARIA_LABEL_BACK_MODAL'
+  group = 'Z Misc Labels'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Back'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Tilbage'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+

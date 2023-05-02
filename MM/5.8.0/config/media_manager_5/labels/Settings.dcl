@@ -4068,11 +4068,11 @@ resource configservice_label asset_card_settings_visible_actions_subheader {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Asset card (max 4)'
+      default_translation = 'Asset card (max 3)'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Assetkort (maks 4)'
+      default_translation = 'Assetkort (maks 3)'
       language_id = data.language.danish.id
     }
   ]

@@ -606,6 +606,22 @@ resource configservice_label selected_assets_overlay_not_valid_asset_types_dialo
   ]
 }
 
+resource configservice_label selected_assets_overlay_not_valid_asset_types_dialog_show_locked {
+  key = 'SELECTED_ASSETS_OVERLAY_NOT_VALID_ASSET_TYPES_DIALOG_SHOW_LOCKED'
+  group = 'Selected Assets'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = '(View the {count, cardinalPlural, one {asset} other {assets}} that cannot be inserted)'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = '(Vis {count, cardinalPlural, one {assettet} other {assetsne}} der ikke kan indsættes)'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label selected_assets_overlay_not_valid_asset_types_dialog_continue {
   key = 'SELECTED_ASSETS_OVERLAY_NOT_VALID_ASSET_TYPES_DIALOG_CONTINUE'
   group = 'Selected Assets'

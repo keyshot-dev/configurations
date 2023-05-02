@@ -622,17 +622,17 @@ resource configservice_label asset_list_more_popup_asset_info {
   ]
 }
 
-resource configservice_label asset_list_more_popup_insert_asset {
-  key = 'ASSET_LIST_MORE_POPUP_INSERT_ASSET'
+resource configservice_label asset_list_more_popup_place_asset_quality {
+  key = 'ASSET_LIST_MORE_POPUP_PLACE_ASSET_QUALITY'
   group = 'Asset List'
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Insert asset'
+      default_translation = 'Place quality'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Indsæt asset'
+      default_translation = 'Placer kvalitet'
       language_id = data.language.danish.id
     }
   ]
