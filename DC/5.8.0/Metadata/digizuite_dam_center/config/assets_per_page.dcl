@@ -43,62 +43,6 @@ resource editmulticombovalue_metafield assets_per_page {
     }
 }
 
-resource item_security assets_per_page__anonymous {
-    accessor_item_id = resource.member_group.anonymous.item_id
-    item_id = resource.editmulticombovalue_metafield.assets_per_page.item_id
-    read = true
-    write = false
-}
-
-resource item_security assets_per_page__trusted {
-    accessor_item_id = resource.member_group.trusted.item_id
-    item_id = resource.editmulticombovalue_metafield.assets_per_page.item_id
-    read = true
-    write = true
-}
-
-resource item_security assets_per_page_100__anonymous {
-    accessor_item_id = resource.member_group.anonymous.item_id
-    item_id = resource.edit_combo_value.assets_per_page_100.item_id
-    read = true
-    write = false
-}
-
-resource item_security assets_per_page_100__trusted {
-    accessor_item_id = resource.member_group.trusted.item_id
-    item_id = resource.edit_combo_value.assets_per_page_100.item_id
-    read = true
-    write = true
-}
-
-resource item_security assets_per_page_20__anonymous {
-    accessor_item_id = resource.member_group.anonymous.item_id
-    item_id = resource.edit_combo_value.assets_per_page_20.item_id
-    read = true
-    write = false
-}
-
-resource item_security assets_per_page_20__trusted {
-    accessor_item_id = resource.member_group.trusted.item_id
-    item_id = resource.edit_combo_value.assets_per_page_20.item_id
-    read = true
-    write = true
-}
-
-resource item_security assets_per_page_50__anonymous {
-    accessor_item_id = resource.member_group.anonymous.item_id
-    item_id = resource.edit_combo_value.assets_per_page_50.item_id
-    read = true
-    write = false
-}
-
-resource item_security assets_per_page_50__trusted {
-    accessor_item_id = resource.member_group.trusted.item_id
-    item_id = resource.edit_combo_value.assets_per_page_50.item_id
-    read = true
-    write = true
-}
-
 resource metafield_label assets_per_page {
     metafield_id = resource.editmulticombovalue_metafield.assets_per_page.metafield_id
     label = resource.editmulticombovalue_metafield.assets_per_page.name
