@@ -38,13 +38,3 @@ resource metafield_label template_user_for_collection_users_51788 {
     description = ''
 }
 
-resource versioned_metadata_master_item_reference_value template_for_autocreated_users_9932_51788_1 {
-    references = [{
-            ref_itemid = resource.member.collection_template.item_id
-        }]
-    row_id = 1
-    item_id = resource.product.digizuite_mobile.item_id
-    version_id = resource.product.digizuite_mobile.base_version_id
-    label_id = resource.metafield_label.template_user_for_collection_users_51788.label_id
-}
-

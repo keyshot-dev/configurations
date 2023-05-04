@@ -36,11 +36,3 @@ resource string_metafield social_media_config_50537 {
     iterative = false
 }
 
-resource versioned_metadata_string_value social_media_config_9932_51762_1 {
-    value = 'email|facebook|linkedin|twitter|google'
-    row_id = 1
-    item_id = resource.product.digizuite_mobile.item_id
-    version_id = resource.product.digizuite_mobile.base_version_id
-    label_id = resource.metafield_label.social_channels_you_should_be_able_to_share_to_51762.label_id
-}
-

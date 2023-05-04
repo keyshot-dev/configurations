@@ -113,17 +113,3 @@ resource multicombovalue_metafield color_spaces_50527 {
     iterative = false
 }
 
-resource versioned_metadata_multi_combo_value color_spaces_9932_51742_1 {
-    references = [{
-            ref_itemid = resource.combo_value.color_spaces_srgb_50527.item_id
-        }, {
-            ref_itemid = resource.combo_value.color_spaces_cmyk_50527.item_id
-        }, {
-            ref_itemid = resource.combo_value.color_spaces_gray_50527.item_id
-        }]
-    row_id = 1
-    item_id = resource.product.digizuite_mobile.item_id
-    version_id = resource.product.digizuite_mobile.base_version_id
-    label_id = resource.metafield_label.custom_quality_color_spaces_51742.label_id
-}
-

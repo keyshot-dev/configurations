@@ -36,11 +36,3 @@ resource string_metafield intro_screen_header_50516 {
     iterative = false
 }
 
-resource versioned_metadata_string_value intro_screen_header_9932_51720_1 {
-    value = 'Digizuite'
-    row_id = 1
-    item_id = resource.product.digizuite_mobile.item_id
-    version_id = resource.product.digizuite_mobile.base_version_id
-    label_id = resource.metafield_label.intro_screens_text_fields_title_51720.label_id
-}
-

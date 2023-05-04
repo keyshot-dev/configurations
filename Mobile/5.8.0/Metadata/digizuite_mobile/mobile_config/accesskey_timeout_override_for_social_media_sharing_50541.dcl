@@ -35,11 +35,3 @@ resource metafield_label access_key_timeout_for_social_sharing_seconds_51770 {
     description = ''
 }
 
-resource versioned_metadata_int_value accesskey_timeout_override_for_social_media_sharing_9932_51770_1 {
-    value = 15724800
-    row_id = 1
-    item_id = resource.product.digizuite_mobile.item_id
-    version_id = resource.product.digizuite_mobile.base_version_id
-    label_id = resource.metafield_label.access_key_timeout_for_social_sharing_seconds_51770.label_id
-}
-
