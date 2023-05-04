@@ -23,11 +23,4 @@ resource metafield_label left_side_refresh_interval_ms {
     language_id = resource.language.english.id
 }
 
-resource versioned_metadata_int_value left_side_refresh_interval_ms {
-    value = 10000
-    item_id = resource.product.digizuite_dam_center.item_id
-    version_id = resource.product.digizuite_dam_center.base_version_id
-    label_id = resource.metafield_label.left_side_refresh_interval_ms.label_id
-    row_id = 1
-}
 
