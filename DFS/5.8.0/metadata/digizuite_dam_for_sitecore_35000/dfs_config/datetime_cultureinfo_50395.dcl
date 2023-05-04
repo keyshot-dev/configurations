@@ -30,11 +30,3 @@ resource string_metafield datetime_cultureinfo_50395 {
     }
 }
 
-resource versioned_metadata_string_value datetime_cultureinfo_9927_51715_1 {
-    value = 'da-DK|Greenwich Standard Time'
-    item_id = resource.product.digizuite_dam_for_sitecore.item_id
-    version_id = resource.product.digizuite_dam_for_sitecore.base_version_id
-    label_id = resource.metafield_label.datetime_cultureinfo_51467.label_id
-    row_id = 1
-}
-

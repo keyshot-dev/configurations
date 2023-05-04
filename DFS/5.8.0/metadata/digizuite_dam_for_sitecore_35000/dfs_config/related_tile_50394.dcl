@@ -31,13 +31,3 @@ resource metafield_label related_tile_51466 {
     language_id = data.language.english.id
 }
 
-resource versioned_metadata_master_item_reference_value related_tile_9449_51466_1 {
-    references = [{
-            ref_itemid = resource.media_format.sitecore_related_tile_50104.item_id
-        }]
-    item_id = resource.product.digizuite_dam_for_sitecore.item_id
-    version_id = resource.product.digizuite_dam_for_sitecore.base_version_id
-    label_id = resource.metafield_label.related_tile_51466.label_id
-    row_id = 1
-}
-

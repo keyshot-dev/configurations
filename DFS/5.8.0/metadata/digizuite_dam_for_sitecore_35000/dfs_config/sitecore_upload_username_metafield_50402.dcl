@@ -31,13 +31,3 @@ resource metafield_label sitecore_upload_username_metafield_51474 {
     language_id = data.language.english.id
 }
 
-resource versioned_metadata_master_item_reference_value sitecore_upload_username_metafield_9449_51474_1 {
-    references = [{
-            ref_itemid = resource.string_metafield.sitecore_upload_username_50401.item_id
-        }]
-    item_id = resource.product.digizuite_dam_for_sitecore.item_id
-    version_id = resource.product.digizuite_dam_for_sitecore.base_version_id
-    label_id = resource.metafield_label.sitecore_upload_username_metafield_51474.label_id
-    row_id = 1
-}
-

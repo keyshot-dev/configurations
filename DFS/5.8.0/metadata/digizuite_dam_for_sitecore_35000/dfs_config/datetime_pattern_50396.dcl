@@ -30,11 +30,3 @@ resource string_metafield datetime_pattern_50396 {
     }
 }
 
-resource versioned_metadata_string_value datetime_pattern_9927_51716_1 {
-    value = 'yyyy-MM-ddTHH:mm:ss'
-    item_id = resource.product.digizuite_dam_for_sitecore.item_id
-    version_id = resource.product.digizuite_dam_for_sitecore.base_version_id
-    label_id = resource.metafield_label.pattern_pattern_51468.label_id
-    row_id = 1
-}
-
