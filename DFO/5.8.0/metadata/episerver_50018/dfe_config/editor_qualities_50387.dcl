@@ -34,19 +34,3 @@ resource metafield_label editor_qualities_51459 {
     language_id = data.language.english.id
 }
 
-resource versioned_metadata_master_item_reference_value editor_qualities_9448_51459_1 {
-    references = [{
-            ref_itemid = data.media_format.video_1080p.item_id
-        }, {
-            ref_itemid = data.media_format.video_720p.item_id
-        }, {
-            ref_itemid = data.media_format.thumb_1920x1080_2.item_id
-        }, {
-            ref_itemid = data.media_format.thumb_200x120_3.item_id
-        }]
-    item_id = resource.product.episerver.item_id
-    version_id = resource.product.episerver.base_version_id
-    label_id = resource.metafield_label.editor_qualities_51459.label_id
-    row_id = 1
-}
-

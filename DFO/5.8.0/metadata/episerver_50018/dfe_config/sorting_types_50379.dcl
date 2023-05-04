@@ -98,15 +98,3 @@ resource multicombovalue_metafield sorting_types_50379 {
     }
 }
 
-resource versioned_metadata_multi_combo_value sorting_types_9448_51451_1 {
-    references = [{
-            ref_itemid = resource.combo_value.sorting_types_alphabeticasc_50379.item_id
-        }, {
-            ref_itemid = resource.combo_value.sorting_types_datedesc_50379.item_id
-        }]
-    item_id = resource.product.episerver.item_id
-    version_id = resource.product.episerver.base_version_id
-    label_id = resource.metafield_label.sorting_types_51451.label_id
-    row_id = 1
-}
-
