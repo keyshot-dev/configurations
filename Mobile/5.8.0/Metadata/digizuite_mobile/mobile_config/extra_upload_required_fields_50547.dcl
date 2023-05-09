@@ -38,15 +38,3 @@ resource metafield_label metadata_fields_required_to_save_51782 {
     description = ''
 }
 
-resource versioned_metadata_master_item_reference_value extra_upload_required_fields_9932_51782_1 {
-    references = [{
-            ref_itemid = resource.multicombovalue_metafield.availability_50352.item_id
-        }, {
-            ref_itemid = resource.combovalue_metafield.media_manager_access_level_50353.item_id
-        }]
-    row_id = 1
-    item_id = resource.product.digizuite_mobile.item_id
-    version_id = resource.product.digizuite_mobile.base_version_id
-    label_id = resource.metafield_label.metadata_fields_required_to_save_51782.label_id
-}
-

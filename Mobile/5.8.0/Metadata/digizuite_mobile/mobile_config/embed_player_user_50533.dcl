@@ -38,13 +38,3 @@ resource metafield_label embed_player_user_51754 {
     description = ''
 }
 
-resource versioned_metadata_master_item_reference_value embed_player_user_9932_51754_1 {
-    references = [{
-            ref_itemid = data.member.guest.item_id
-        }]
-    row_id = 1
-    item_id = resource.product.digizuite_mobile.item_id
-    version_id = resource.product.digizuite_mobile.base_version_id
-    label_id = resource.metafield_label.embed_player_user_51754.label_id
-}
-

@@ -35,11 +35,3 @@ resource metafield_label amount_of_seconds_a_collection_should_be_accessible_ext
     description = ''
 }
 
-resource versioned_metadata_int_value access_key_timeout_for_internal_and_email_sharing_seconds_9932_51766_1 {
-    value = 604800
-    row_id = 1
-    item_id = resource.product.digizuite_mobile.item_id
-    version_id = resource.product.digizuite_mobile.base_version_id
-    label_id = resource.metafield_label.amount_of_seconds_a_collection_should_be_accessible_externally_51766.label_id
-}
-

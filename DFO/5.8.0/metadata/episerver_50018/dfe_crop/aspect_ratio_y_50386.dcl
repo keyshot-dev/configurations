@@ -32,35 +32,3 @@ resource string_metafield aspect_ratio_y_50386 {
     }
 }
 
-resource versioned_metadata_string_value aspect_ratio_y_9448_51458_1 {
-    value = '1'
-    item_id = resource.product.episerver.item_id
-    version_id = resource.product.episerver.base_version_id
-    label_id = resource.metafield_label.aspect_ratio_y_51458.label_id
-    row_id = 1
-}
-
-resource versioned_metadata_string_value aspect_ratio_y_9448_51458_2 {
-    value = '2'
-    item_id = resource.product.episerver.item_id
-    version_id = resource.product.episerver.base_version_id
-    label_id = resource.metafield_label.aspect_ratio_y_51458.label_id
-    row_id = 2
-}
-
-resource versioned_metadata_string_value aspect_ratio_y_9448_51458_3 {
-    value = '9'
-    item_id = resource.product.episerver.item_id
-    version_id = resource.product.episerver.base_version_id
-    label_id = resource.metafield_label.aspect_ratio_y_51458.label_id
-    row_id = 3
-}
-
-resource versioned_metadata_string_value aspect_ratio_y_9448_51458_4 {
-    value = '1'
-    item_id = resource.product.episerver.item_id
-    version_id = resource.product.episerver.base_version_id
-    label_id = resource.metafield_label.aspect_ratio_y_51458.label_id
-    row_id = 4
-}
-

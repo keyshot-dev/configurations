@@ -30,35 +30,3 @@ resource string_metafield crop_name_50405 {
     }
 }
 
-resource versioned_metadata_string_value crop_name_51477_1 {
-    value = '1:1 Square'
-    item_id = resource.product.digizuite_dam_for_sitecore.item_id
-    version_id = resource.product.digizuite_dam_for_sitecore.base_version_id
-    label_id = resource.metafield_label.crop_name_51477.label_id
-    row_id = 1
-}
-
-resource versioned_metadata_string_value crop_name_51477_2 {
-    value = '3:2 Standard photo'
-    item_id = resource.product.digizuite_dam_for_sitecore.item_id
-    version_id = resource.product.digizuite_dam_for_sitecore.base_version_id
-    label_id = resource.metafield_label.crop_name_51477.label_id
-    row_id = 2
-}
-
-resource versioned_metadata_string_value crop_name_51477_3 {
-    value = '16:9 Widescreen'
-    item_id = resource.product.digizuite_dam_for_sitecore.item_id
-    version_id = resource.product.digizuite_dam_for_sitecore.base_version_id
-    label_id = resource.metafield_label.crop_name_51477.label_id
-    row_id = 3
-}
-
-resource versioned_metadata_string_value crop_name_51477_4 {
-    value = '4:1 Banner'
-    item_id = resource.product.digizuite_dam_for_sitecore.item_id
-    version_id = resource.product.digizuite_dam_for_sitecore.base_version_id
-    label_id = resource.metafield_label.crop_name_51477.label_id
-    row_id = 4
-}
-

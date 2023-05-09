@@ -114,11 +114,3 @@ resource metafield_label choose_intro_screen_mode_51718 {
     description = ''
 }
 
-resource versioned_metadata_combo_value intro_screen_9932_51718_1 {
-    ref_itemid = resource.combo_value.intro_screen_none_50515.item_id
-    row_id = 1
-    item_id = resource.product.digizuite_mobile.item_id
-    version_id = resource.product.digizuite_mobile.base_version_id
-    label_id = resource.metafield_label.choose_intro_screen_mode_51718.label_id
-}
-

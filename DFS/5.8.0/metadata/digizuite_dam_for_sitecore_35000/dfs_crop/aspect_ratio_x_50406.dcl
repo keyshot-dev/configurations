@@ -30,35 +30,3 @@ resource string_metafield aspect_ratio_x_50406 {
     }
 }
 
-resource versioned_metadata_string_value aspect_ratio_x_51478_1 {
-    value = '1'
-    item_id = resource.product.digizuite_dam_for_sitecore.item_id
-    version_id = resource.product.digizuite_dam_for_sitecore.base_version_id
-    label_id = resource.metafield_label.aspect_ratio_x_51478.label_id
-    row_id = 1
-}
-
-resource versioned_metadata_string_value aspect_ratio_x_51478_2 {
-    value = '3'
-    item_id = resource.product.digizuite_dam_for_sitecore.item_id
-    version_id = resource.product.digizuite_dam_for_sitecore.base_version_id
-    label_id = resource.metafield_label.aspect_ratio_x_51478.label_id
-    row_id = 2
-}
-
-resource versioned_metadata_string_value aspect_ratio_x_51478_3 {
-    value = '16'
-    item_id = resource.product.digizuite_dam_for_sitecore.item_id
-    version_id = resource.product.digizuite_dam_for_sitecore.base_version_id
-    label_id = resource.metafield_label.aspect_ratio_x_51478.label_id
-    row_id = 3
-}
-
-resource versioned_metadata_string_value aspect_ratio_x_51478_4 {
-    value = '4'
-    item_id = resource.product.digizuite_dam_for_sitecore.item_id
-    version_id = resource.product.digizuite_dam_for_sitecore.base_version_id
-    label_id = resource.metafield_label.aspect_ratio_x_51478.label_id
-    row_id = 4
-}
-

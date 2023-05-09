@@ -38,13 +38,3 @@ resource metafield_label the_navigation_menus_metadata_field_51804 {
     description = ''
 }
 
-resource versioned_metadata_master_item_reference_value portal_menu_9932_51804_1 {
-    references = [{
-            ref_itemid = data.tree_metafield.media_manager_menu.item_id
-        }]
-    row_id = 1
-    item_id = resource.product.digizuite_mobile.item_id
-    version_id = resource.product.digizuite_mobile.base_version_id
-    label_id = resource.metafield_label.the_navigation_menus_metadata_field_51804.label_id
-}
-

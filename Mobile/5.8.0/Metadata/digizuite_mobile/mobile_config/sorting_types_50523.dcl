@@ -165,13 +165,3 @@ resource multicombovalue_metafield sorting_types_50523 {
     iterative = false
 }
 
-resource versioned_metadata_multi_combo_value sorting_types_9932_51734_1 {
-    references = [{
-            ref_itemid = resource.combo_value.sorting_types_alphabeticasc_50523.item_id
-        }]
-    row_id = 1
-    item_id = resource.product.digizuite_mobile.item_id
-    version_id = resource.product.digizuite_mobile.base_version_id
-    label_id = resource.metafield_label.sorting_types_51734.label_id
-}
-

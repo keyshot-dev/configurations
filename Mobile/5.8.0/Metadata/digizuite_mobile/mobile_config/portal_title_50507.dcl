@@ -36,11 +36,3 @@ resource string_metafield portal_title_50507 {
     iterative = false
 }
 
-resource versioned_metadata_string_value portal_title_9932_51702_1 {
-    value = 'Digizuite™ Mobile'
-    row_id = 1
-    item_id = resource.product.digizuite_mobile.item_id
-    version_id = resource.product.digizuite_mobile.base_version_id
-    label_id = resource.metafield_label.title_51702.label_id
-}
-

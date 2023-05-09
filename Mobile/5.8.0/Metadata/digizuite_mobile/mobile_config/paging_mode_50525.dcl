@@ -88,11 +88,3 @@ resource metafield_label pagination_mode_51738 {
     description = ''
 }
 
-resource versioned_metadata_combo_value paging_mode_9932_51738_1 {
-    ref_itemid = resource.combo_value.paging_mode_2_50525.item_id
-    row_id = 1
-    item_id = resource.product.digizuite_mobile.item_id
-    version_id = resource.product.digizuite_mobile.base_version_id
-    label_id = resource.metafield_label.pagination_mode_51738.label_id
-}
-

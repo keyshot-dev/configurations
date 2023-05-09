@@ -139,19 +139,3 @@ resource multicombovalue_metafield image_formats_50528 {
     iterative = false
 }
 
-resource versioned_metadata_multi_combo_value image_formats_9932_51744_1 {
-    references = [{
-            ref_itemid = resource.combo_value.image_formats_gif_50528.item_id
-        }, {
-            ref_itemid = resource.combo_value.image_formats_jpg_50528.item_id
-        }, {
-            ref_itemid = resource.combo_value.image_formats_png_50528.item_id
-        }, {
-            ref_itemid = resource.combo_value.image_formats_tiff_50528.item_id
-        }]
-    row_id = 1
-    item_id = resource.product.digizuite_mobile.item_id
-    version_id = resource.product.digizuite_mobile.base_version_id
-    label_id = resource.metafield_label.custom_quality_image_types_51744.label_id
-}
-

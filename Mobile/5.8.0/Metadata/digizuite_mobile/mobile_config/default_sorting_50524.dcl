@@ -166,11 +166,3 @@ resource metafield_label default_asset_sort_mode_51736 {
     description = ''
 }
 
-resource versioned_metadata_combo_value default_sorting_9932_51736_1 {
-    ref_itemid = resource.combo_value.default_sorting_date_50524.item_id
-    row_id = 1
-    item_id = resource.product.digizuite_mobile.item_id
-    version_id = resource.product.digizuite_mobile.base_version_id
-    label_id = resource.metafield_label.default_asset_sort_mode_51736.label_id
-}
-

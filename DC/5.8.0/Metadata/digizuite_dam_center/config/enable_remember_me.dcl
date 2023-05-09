@@ -25,11 +25,4 @@ resource metafield_label enable_remember_me {
     description = ''
 }
 
-resource versioned_metadata_bool_value enable_remember_me {
-    value = true
-    item_id = resource.product.digizuite_dam_center.item_id
-    version_id = resource.product.digizuite_dam_center.base_version_id
-    label_id = resource.metafield_label.enable_remember_me.label_id
-    row_id = 1
-}
 

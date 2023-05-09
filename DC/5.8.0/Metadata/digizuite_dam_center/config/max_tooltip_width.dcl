@@ -30,11 +30,4 @@ resource metafield_label max_tooltip_width {
     language_id = resource.language.english.id
 }
 
-resource versioned_metadata_int_value max_tooltip_width {
-    value = 300
-    item_id = resource.product.digizuite_dam_center.item_id
-    version_id = resource.product.digizuite_dam_center.base_version_id
-    label_id = resource.metafield_label.max_tooltip_width.label_id
-    row_id = 1
-}
 

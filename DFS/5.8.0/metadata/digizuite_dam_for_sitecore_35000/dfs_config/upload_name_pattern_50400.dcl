@@ -30,11 +30,3 @@ resource string_metafield upload_name_pattern_50400 {
     }
 }
 
-resource versioned_metadata_string_value upload_name_pattern_9927_51720_1 {
-    value = 'dam for sitecore'
-    item_id = resource.product.digizuite_dam_for_sitecore.item_id
-    version_id = resource.product.digizuite_dam_for_sitecore.base_version_id
-    label_id = resource.metafield_label.upload_name_51472.label_id
-    row_id = 1
-}
-

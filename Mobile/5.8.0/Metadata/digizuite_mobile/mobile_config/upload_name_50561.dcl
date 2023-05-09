@@ -36,11 +36,3 @@ resource string_metafield upload_name_50561 {
     iterative = false
 }
 
-resource versioned_metadata_string_value upload_name_9932_51810_1 {
-    value = 'Digizuite Mobile'
-    row_id = 1
-    item_id = resource.product.digizuite_mobile.item_id
-    version_id = resource.product.digizuite_mobile.base_version_id
-    label_id = resource.metafield_label.unique_channel_id_51810.label_id
-}
-

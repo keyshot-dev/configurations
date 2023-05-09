@@ -165,21 +165,3 @@ resource multicombovalue_metafield video_embed_sizes_50530 {
     iterative = false
 }
 
-resource versioned_metadata_multi_combo_value video_embed_sizes_9932_51748_1 {
-    references = [{
-            ref_itemid = resource.combo_value.video_embed_sizes_640360_50530.item_id
-        }, {
-            ref_itemid = resource.combo_value.video_embed_sizes_480270_50530.item_id
-        }, {
-            ref_itemid = resource.combo_value.video_embed_sizes_320180_50530.item_id
-        }, {
-            ref_itemid = resource.combo_value.video_embed_sizes_auto_50530.item_id
-        }, {
-            ref_itemid = resource.combo_value.video_embed_sizes_custom_50530.item_id
-        }]
-    row_id = 1
-    item_id = resource.product.digizuite_mobile.item_id
-    version_id = resource.product.digizuite_mobile.base_version_id
-    label_id = resource.metafield_label.choose_available_embed_video_sizes_51748.label_id
-}
-

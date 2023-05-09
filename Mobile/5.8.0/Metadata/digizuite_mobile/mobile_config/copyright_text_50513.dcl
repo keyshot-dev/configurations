@@ -36,11 +36,3 @@ resource string_metafield copyright_text_50513 {
     iterative = false
 }
 
-resource versioned_metadata_string_value copyright_text_9932_51714_1 {
-    value = '<Company Name> 2017'
-    row_id = 1
-    item_id = resource.product.digizuite_mobile.item_id
-    version_id = resource.product.digizuite_mobile.base_version_id
-    label_id = resource.metafield_label.copyright_text_51714.label_id
-}
-

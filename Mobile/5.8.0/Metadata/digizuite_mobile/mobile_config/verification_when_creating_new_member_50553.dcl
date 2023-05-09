@@ -114,11 +114,3 @@ resource metafield_label verification_when_a_user_is_created_using_self_sign_up_
     description = ''
 }
 
-resource versioned_metadata_combo_value verification_when_creating_new_member_9932_51794_1 {
-    ref_itemid = resource.combo_value.verification_when_creating_new_member_2_50553.item_id
-    row_id = 1
-    item_id = resource.product.digizuite_mobile.item_id
-    version_id = resource.product.digizuite_mobile.base_version_id
-    label_id = resource.metafield_label.verification_when_a_user_is_created_using_self_sign_up_51794.label_id
-}
-

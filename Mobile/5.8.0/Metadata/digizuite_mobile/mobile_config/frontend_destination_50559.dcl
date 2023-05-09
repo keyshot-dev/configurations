@@ -38,13 +38,3 @@ resource metafield_label mm_specific_assets_destination_folder_in_storage_51806 
     description = ''
 }
 
-resource versioned_metadata_master_item_reference_value frontend_destination_9932_51806_1 {
-    references = [{
-            ref_itemid = data.storage_manager_destination.frontend_zip_download_sm.item_id
-        }]
-    row_id = 1
-    item_id = resource.product.digizuite_mobile.item_id
-    version_id = resource.product.digizuite_mobile.base_version_id
-    label_id = resource.metafield_label.mm_specific_assets_destination_folder_in_storage_51806.label_id
-}
-

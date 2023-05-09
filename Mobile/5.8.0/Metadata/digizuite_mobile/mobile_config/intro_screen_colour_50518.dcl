@@ -36,11 +36,3 @@ resource string_metafield intro_screen_colour_50518 {
     iterative = false
 }
 
-resource versioned_metadata_string_value intro_screen_colour_9932_51724_1 {
-    value = 'rgb(49,182,159)'
-    row_id = 1
-    item_id = resource.product.digizuite_mobile.item_id
-    version_id = resource.product.digizuite_mobile.base_version_id
-    label_id = resource.metafield_label.intro_screens_text_fields_background_color_51724.label_id
-}
-

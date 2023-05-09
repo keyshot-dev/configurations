@@ -34,13 +34,3 @@ resource metafield_label crop_name_metafield_51460 {
     language_id = data.language.english.id
 }
 
-resource versioned_metadata_master_item_reference_value crop_name_metafield_9448_51460_1 {
-    references = [{
-            ref_itemid = data.string_metafield.crop_name_50377.item_id
-        }]
-    item_id = resource.product.episerver.item_id
-    version_id = resource.product.episerver.base_version_id
-    label_id = resource.metafield_label.crop_name_metafield_51460.label_id
-    row_id = 1
-}
-

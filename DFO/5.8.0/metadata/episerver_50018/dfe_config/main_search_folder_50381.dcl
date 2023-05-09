@@ -41,13 +41,3 @@ resource metafield_label main_search_folder_51453 {
     language_id = data.language.english.id
 }
 
-resource versioned_metadata_master_item_reference_value main_search_folder_9448_51453_1 {
-    references = [{
-            ref_itemid = resource.channel_folder.episerver.item_id
-        }]
-    item_id = resource.product.episerver.item_id
-    version_id = resource.product.episerver.base_version_id
-    label_id = resource.metafield_label.main_search_folder_51453.label_id
-    row_id = 1
-}
-
