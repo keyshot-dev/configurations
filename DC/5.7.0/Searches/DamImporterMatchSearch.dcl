@@ -9,7 +9,7 @@
         <searchSection>
             <searchFields>
                 <searchField id="language" type="language" valueHandler="Equals" visible="false"/>
-                <searchField id="sFilename" itemGuid="0e82fae3-18a3-4a75-b985-749289565dfb" operator="AND" valueHandler="InList" visible="false"/>
+                <searchField id="sFilename" itemGuid="${to_string(resource.string_metafield.fullpath_unc.item_guid)}" operator="AND" valueHandler="InList" visible="false"/>
                 <searchField id="itemTypeId" fieldName="item.item_typeid" operator="AND" valueHandler="Equals" visible="false">
                     <values valueType="String">
                         <value>0</value>
@@ -36,7 +36,7 @@
                 <valueField id="total" fieldName="total_items"/>
                 <valueField id="itemId" fieldName="item.itemid"/>
                 <valueField id="assetId" fieldName="asset.assetid"/>
-                <valueField id="filename" itemGuid="0e82fae3-18a3-4a75-b985-749289565dfb"/>
+                <valueField id="filename" itemGuid="${to_string(resource.string_metafield.fullpath_unc.item_guid)}"/>
             </valueFields>
         </searchSection>
     </search>'
