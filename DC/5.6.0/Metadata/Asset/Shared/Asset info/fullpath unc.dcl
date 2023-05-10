@@ -16,3 +16,10 @@ resource metafield_label fullpath_unc {
     label = resource.string_metafield.fullpath_unc.name
     language_id = resource.language.english.id
 }
+
+resource item_security fullpath_unc__super_administrator {
+    accessor_item_id = resource.member_group.super_administrator.item_id
+    item_id = resource.string_metafield.fullpath_unc.item_id
+    read = true
+    write = true
+}
