@@ -36,11 +36,3 @@ resource string_metafield copyright_link_50514 {
     iterative = false
 }
 
-resource versioned_metadata_string_value copyright_link_9932_51716_1 {
-    value = 'http://www.digizuite.com'
-    row_id = 1
-    item_id = resource.product.digizuite_mobile.item_id
-    version_id = resource.product.digizuite_mobile.base_version_id
-    label_id = resource.metafield_label.the_copyright_texts_url_51716.label_id
-}
-

@@ -35,11 +35,3 @@ resource metafield_label enable_self_sign_up_51800 {
     description = ''
 }
 
-resource versioned_metadata_bool_value enable_sign_up_9932_51800_1 {
-    value = false
-    row_id = 1
-    item_id = resource.product.digizuite_mobile.item_id
-    version_id = resource.product.digizuite_mobile.base_version_id
-    label_id = resource.metafield_label.enable_self_sign_up_51800.label_id
-}
-

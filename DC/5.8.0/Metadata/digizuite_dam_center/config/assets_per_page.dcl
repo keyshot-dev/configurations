@@ -49,17 +49,4 @@ resource metafield_label assets_per_page {
     language_id = resource.language.english.id
 }
 
-resource versioned_metadata_edit_multi_combo_value assets_per_page {
-    references = [{
-            ref_itemid = resource.edit_combo_value.assets_per_page_20.item_id
-        }, {
-            ref_itemid = resource.edit_combo_value.assets_per_page_50.item_id
-        }, {
-            ref_itemid = resource.edit_combo_value.assets_per_page_100.item_id
-        }]
-    item_id = resource.product.digizuite_dam_center.item_id
-    version_id = resource.product.digizuite_dam_center.base_version_id
-    label_id = resource.metafield_label.assets_per_page.label_id
-    row_id = 1
-}
 

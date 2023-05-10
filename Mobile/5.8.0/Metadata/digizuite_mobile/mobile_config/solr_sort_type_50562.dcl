@@ -88,11 +88,3 @@ resource metafield_label choose_how_solr_will_sort_51812 {
     description = ''
 }
 
-resource versioned_metadata_combo_value solr_sort_type_9932_51812_1 {
-    ref_itemid = resource.combo_value.solr_sort_type_2_50562.item_id
-    row_id = 1
-    item_id = resource.product.digizuite_mobile.item_id
-    version_id = resource.product.digizuite_mobile.base_version_id
-    label_id = resource.metafield_label.choose_how_solr_will_sort_51812.label_id
-}
-

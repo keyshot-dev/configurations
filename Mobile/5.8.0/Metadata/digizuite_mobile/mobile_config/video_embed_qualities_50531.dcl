@@ -113,17 +113,3 @@ resource multicombovalue_metafield video_embed_qualities_50531 {
     iterative = false
 }
 
-resource versioned_metadata_multi_combo_value video_embed_qualities_9932_51750_1 {
-    references = [{
-            ref_itemid = resource.combo_value.video_embed_qualities_mobileh264_50531.item_id
-        }, {
-            ref_itemid = resource.combo_value.video_embed_qualities_desktoph264_50531.item_id
-        }, {
-            ref_itemid = resource.combo_value.video_embed_qualities_tableth264_50531.item_id
-        }]
-    row_id = 1
-    item_id = resource.product.digizuite_mobile.item_id
-    version_id = resource.product.digizuite_mobile.base_version_id
-    label_id = resource.metafield_label.choose_available_embed_video_qualities_51750.label_id
-}
-

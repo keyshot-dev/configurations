@@ -41,13 +41,3 @@ resource metafield_label portal_menu_51450 {
     language_id = data.language.english.id
 }
 
-resource versioned_metadata_master_item_reference_value portal_menu_9448_51450_1 {
-    references = [{
-            ref_itemid = data.tree_metafield.media_manager_menu.item_id
-        }]
-    item_id = resource.product.episerver.item_id
-    version_id = resource.product.episerver.base_version_id
-    label_id = resource.metafield_label.portal_menu_51450.label_id
-    row_id = 1
-}
-

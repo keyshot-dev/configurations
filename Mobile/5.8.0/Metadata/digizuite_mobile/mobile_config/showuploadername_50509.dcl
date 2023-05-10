@@ -35,11 +35,3 @@ resource metafield_label show_uploaders_name_on_assets_51706 {
     description = ''
 }
 
-resource versioned_metadata_bool_value showuploadername_9932_51706_1 {
-    value = false
-    row_id = 1
-    item_id = resource.product.digizuite_mobile.item_id
-    version_id = resource.product.digizuite_mobile.base_version_id
-    label_id = resource.metafield_label.show_uploaders_name_on_assets_51706.label_id
-}
-

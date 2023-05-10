@@ -99,11 +99,3 @@ resource metafield_label default_sorting_51452 {
     language_id = data.language.english.id
 }
 
-resource versioned_metadata_combo_value default_sorting_9448_51452_1 {
-    ref_itemid = resource.combo_value.default_sorting_datedesc_50380.item_id
-    item_id = resource.product.episerver.item_id
-    version_id = resource.product.episerver.base_version_id
-    label_id = resource.metafield_label.default_sorting_51452.label_id
-    row_id = 1
-}
-
