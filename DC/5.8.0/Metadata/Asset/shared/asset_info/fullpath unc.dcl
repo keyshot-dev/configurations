@@ -11,7 +11,7 @@
     restrict_to_asset_type = 'All'
 }
 
-resource metafield_label title {
+resource metafield_label fullpath_unc {
     metafield_id = resource.string_metafield.fullpath_unc.metafield_id
     label = resource.string_metafield.fullpath_unc.name
     language_id = resource.language.english.id
