@@ -257,6 +257,8 @@ resource member_group super_administrator {
             constant = 'Can_crop_email'
         }, {
             constant = 'Can_publish'
+        }, {
+            constant = 'Can_Configure_Importer'
         }]
     autolink = {
         item_guid = '0d8dff0a-53d5-4161-8484-aa8c1af5680d'
