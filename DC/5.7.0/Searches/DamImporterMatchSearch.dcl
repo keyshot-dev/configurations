@@ -1,7 +1,4 @@
 ﻿resource search dam_importer_match_search {
-    autolink = {
-            item_guid = 'd1a6152d-68f7-41cf-8f65-d4f0ef668212'
-        }
     version_id = resource.product.digizuite_dam_center.base_version_id
     name = 'DamImporterMatchSearch'
     is_customizable = true
