@@ -39,7 +39,7 @@ resource media_format audio_preview_10045 {
     force_aspect = false
     output_quality = 0
     icc_profile = ''
-    video_profile_xml = '<?xml version="1.0" encoding="utf-8"?><tns:FFMPegJobProfile xmlns:tns="http://documentation.digizuite.dk/schemas/digibatch/FFMPegJobProfile.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://documentation.digizuite.dk/schemas/digibatch/FFMPegJobProfile.xsd D:\Work\DigiBatch\Packages\DigiFFMpegJobs\FFMPegJobProfile.xsd"><tns:PassSetting><tns:cmdline>-i %infile% -vn -acodec wmav2 -ac %audiochannels% -ar %asamplingrate% -ab %audiobitrate% -y %outfile%</tns:cmdline></tns:PassSetting></tns:FFMPegJobProfile>'
+    video_profile_xml = '<?xml version="1.0" encoding="utf-8"?><tns:FFMPegJobProfile><tns:PassSetting><tns:cmdline>-i %infile% -vn -acodec wmav2 -ac %audiochannels% -ar %asamplingrate% -ab %audiobitrate% -y %outfile%</tns:cmdline></tns:PassSetting></tns:FFMPegJobProfile>'
     autolink = {
         item_guid = '7480703d-1af0-4b2c-a95f-fd8a1d63be10'
     }

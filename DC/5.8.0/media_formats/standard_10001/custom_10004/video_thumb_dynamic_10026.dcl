@@ -39,7 +39,7 @@ resource media_format video_thumb_dynamic_10026 {
     force_aspect = false
     output_quality = 0
     icc_profile = ''
-    video_profile_xml = '<?xml version="1.0" encoding="utf-8"?><tns:FFMPegJobProfile xmlns:tns="http://documentation.digizuite.dk/schemas/digibatch/FFMPegJobProfile.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://documentation.digizuite.dk/schemas/digibatch/FFMPegJobProfile.xsd D:\Work\DigiBatch\Packages\DigiFFMpegJobs\FFMPegJobProfile.xsd"><tns:PassSetting><tns:cmdline>-i %infile% -f image2 -an -ss %timecode% -v 10 -vframes 1 -vf yadif -y %outfile%</tns:cmdline></tns:PassSetting></tns:FFMPegJobProfile>'
+    video_profile_xml = '<?xml version="1.0" encoding="utf-8"?><tns:FFMPegJobProfile><tns:PassSetting><tns:cmdline>-i %infile% -f image2 -an -ss %timecode% -v 10 -vframes 1 -vf yadif -y %outfile%</tns:cmdline></tns:PassSetting></tns:FFMPegJobProfile>'
     autolink = {
         item_guid = '0fdbfeaf-6469-4a5b-9ed3-688722b87f2b'
     }
