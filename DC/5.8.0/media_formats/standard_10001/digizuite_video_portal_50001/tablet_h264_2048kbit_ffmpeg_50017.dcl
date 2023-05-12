@@ -39,6 +39,7 @@ resource media_format tablet_h264_2048kbit_ffmpeg_50017 {
     force_aspect = false
     output_quality = 0
     icc_profile = ''
+    video_profile_xml = '<?xml version="1.0" encoding="utf-8"?><tns:FFMPegJobProfile xmlns:tns="http://documentation.digizuite.dk/schemas/digibatch/FFMPegJobProfile.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://documentation.digizuite.dk/schemas/digibatch/FFMPegJobProfile.xsd D:\\Work\\DigiBatch\\Packages\\DigiFFMpegJobs\\FFMPegJobProfile.xsd"><tns:PassSetting><tns:cmdline>-i %infile% -vcodec libx264 -aspect %aspect% -s %videosize% -vb %videobitrate% -vprofile main -level 3.0 -pix_fmt yuv420p -sn -acodec aac -strict -2 -ac %audiochannels% -ar %asamplingrate% -ab %audiobitrate% -y %outfile%</tns:cmdline></tns:PassSetting></tns:FFMPegJobProfile>'        
     autolink = {
         item_guid = 'ad943682-0544-4dc3-8317-1e6af770f655'
     }

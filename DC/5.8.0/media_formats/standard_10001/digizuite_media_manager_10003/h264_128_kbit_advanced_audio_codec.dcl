@@ -39,6 +39,7 @@ resource media_format h264_128_kbit_advanced_audio_codec {
     force_aspect = false
     output_quality = 0
     icc_profile = ''
+    video_profile_xml = '<?xml version="1.0" encoding="utf-8"?><tns:FFMPegJobProfile xmlns:tns="http://documentation.digizuite.dk/schemas/digibatch/FFMPegJobProfile.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://documentation.digizuite.dk/schemas/digibatch/FFMPegJobProfile.xsd D:\\Work\\DigiBatch\\Packages\\DigiFFMpegJobs\\FFMPegJobProfile.xsd"><tns:PassSetting><tns:cmdline>-i %infile% -vn -acodec aac -ac %audiochannels% -ar %asamplingrate% -ab %audiobitrate% -y %outfile%</tns:cmdline></tns:PassSetting></tns:FFMPegJobProfile>'
     autolink = {
         item_guid = '75a39459-ba5f-46aa-897b-3cb915a91c70'
     }
