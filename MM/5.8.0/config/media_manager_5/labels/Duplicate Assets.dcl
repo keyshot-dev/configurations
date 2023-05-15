@@ -68,11 +68,11 @@ resource configservice_label duplicate_asset_resolution {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = '{resolution, select, 0 {Choose action} 1 {Upload as a new asset} 2 {Replace and keep metadata} 3 {Skip upload}}'
+      default_translation = '{resolution, select, 0 {Choose action} 1 {Upload as a new asset} 2 {Replace and keep metadata} 3 {Skip upload}} 4 {Link to existing asset instead}}'
       language_id = data.language.english.id
     },
     {
-      default_translation = '{resolution, select, 0 {Vælg handling} 1 {Upload som nyt asset} 2 {Udskift og bevar metadata} 3 {Upload ikke}}'
+      default_translation = '{resolution, select, 0 {Vælg handling} 1 {Upload som nyt asset} 2 {Udskift og bevar metadata} 3 {Upload ikke}} 4 {Link til eksisterende asset i stedet}}'
       language_id = data.language.danish.id
     }
   ]

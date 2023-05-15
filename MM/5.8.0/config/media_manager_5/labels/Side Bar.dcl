@@ -590,6 +590,22 @@ resource configservice_label mobile_menu_upload_active_document_tooltip_not_avai
   ]
 }
 
+resource configservice_label mobile_menu_upload_active_document_tooltip_no_upload_role {
+  key = 'MOBILE_MENU_UPLOAD_ACTIVE_DOCUMENT_TOOLTIP_NO_UPLOAD_ROLE'
+  group = 'Side Bar'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Your user does not have sufficient rights to be able to upload'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Din bruger har ikke tilstrækkelige rettigheder til at kunne uploade'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label mobile_menu_file_manager {
   key = 'MOBILE_MENU_FILE_MANAGER'
   group = 'Side Bar'

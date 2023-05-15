@@ -590,3 +590,19 @@ resource configservice_label upload_status_failed {
   ]
 }
 
+resource configservice_label upload_link_asset_failed {
+  key = 'UPLOAD_LINK_ASSET_FAILED'
+  group = 'Upload'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Asset linking failed'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Asset-linking fejlede'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+

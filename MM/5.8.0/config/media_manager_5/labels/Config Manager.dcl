@@ -30,6 +30,22 @@ resource configservice_label config_manager_tab_mail_templates {
   ]
 }
 
+resource configservice_label config_manager_tab_html_templates {
+  key = 'CONFIG_MANAGER_TAB_HTML_TEMPLATES'
+  group = 'Config Manager'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'HTML templates'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'HTML-skabeloner'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label mail_template_settings_select_existing {
   key = 'MAIL_TEMPLATE_SETTINGS_SELECT_EXISTING'
   group = 'Config Manager'
@@ -1513,6 +1529,310 @@ resource configservice_label portal_config_manager_create_new_mail_template_dial
     },
     {
       default_translation = 'Opret ny mail-skabelon'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label portal_config_manager_portal_html_templates_settings_inherited_from {
+  key = 'PORTAL_CONFIG_MANAGER_PORTAL_HTML_TEMPLATES_SETTINGS_INHERITED_FROM'
+  group = 'Config Manager'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'inherited from'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'nedarvet fra'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label portal_config_manager_portal_html_templates_delete_cancel {
+  key = 'PORTAL_CONFIG_MANAGER_PORTAL_HTML_TEMPLATES_DELETE_CANCEL'
+  group = 'Config Manager'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Keep'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Behold'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label portal_config_manager_portal_html_templates_delete_confirm {
+  key = 'PORTAL_CONFIG_MANAGER_PORTAL_HTML_TEMPLATES_DELETE_CONFIRM'
+  group = 'Config Manager'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Delete'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Slet'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label portal_config_manager_portal_html_templates_delete_content {
+  key = 'PORTAL_CONFIG_MANAGER_PORTAL_HTML_TEMPLATES_DELETE_CONTENT'
+  group = 'Config Manager'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Are you sure you want to delete the \'{{name}}\' HTML template?'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Er du sikker på at du vil slette HTML-skabelonen \'{{name}}\'?'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label portal_config_manager_portal_html_templates_delete_title {
+  key = 'PORTAL_CONFIG_MANAGER_PORTAL_HTML_TEMPLATES_DELETE_TITLE'
+  group = 'Config Manager'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Delete HTML template'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Slet HTML-skabelon'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label portal_config_manager_portal_html_templates_toggle_documentation {
+  key = 'PORTAL_CONFIG_MANAGER_PORTAL_HTML_TEMPLATES_TOGGLE_DOCUMENTATION'
+  group = 'Config Manager'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Show documentation'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Vis dokumentation'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label portal_config_manager_portal_html_templates_create_new {
+  key = 'PORTAL_CONFIG_MANAGER_PORTAL_HTML_TEMPLATES_CREATE_NEW'
+  group = 'Config Manager'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Create new'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Opret ny'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label portal_config_manager_portal_html_templates_select_existing {
+  key = 'PORTAL_CONFIG_MANAGER_PORTAL_HTML_TEMPLATES_SELECT_EXISTING'
+  group = 'Config Manager'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Select existing template'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Vælg eksisterende skabelon'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label portal_config_manager_portal_html_templates_delete {
+  key = 'PORTAL_CONFIG_MANAGER_PORTAL_HTML_TEMPLATES_DELETE'
+  group = 'Config Manager'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Delete'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Slet'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label portal_config_manager_portal_html_templates_template_body {
+  key = 'PORTAL_CONFIG_MANAGER_PORTAL_HTML_TEMPLATES_TEMPLATE_BODY'
+  group = 'Config Manager'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Body'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Meddelelse'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label portal_config_manager_create_new_html_template_dialog_create_new_html_template {
+  key = 'PORTAL_CONFIG_MANAGER_CREATE_NEW_HTML_TEMPLATE_DIALOG_CREATE_NEW_HTML_TEMPLATE'
+  group = 'Config Manager'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Create new HTML template'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Opret ny HTML-skabelon'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label portal_config_manager_create_new_html_template_dialog_select_base_template {
+  key = 'PORTAL_CONFIG_MANAGER_CREATE_NEW_HTML_TEMPLATE_DIALOG_SELECT_BASE_TEMPLATE'
+  group = 'Config Manager'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Select a base template'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Vælg en grund-skabelon'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label portal_config_manager_create_new_html_template_dialog_create_new {
+  key = 'PORTAL_CONFIG_MANAGER_CREATE_NEW_HTML_TEMPLATE_DIALOG_CREATE_NEW'
+  group = 'Config Manager'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Create new'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Opret ny'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label portal_config_manager_create_new_html_template_dialog_template_name {
+  key = 'PORTAL_CONFIG_MANAGER_CREATE_NEW_HTML_TEMPLATE_DIALOG_TEMPLATE_NAME'
+  group = 'Config Manager'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Template name'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Skabelons navn'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label portal_config_manager_create_new_html_template_dialog_template_language {
+  key = 'PORTAL_CONFIG_MANAGER_CREATE_NEW_HTML_TEMPLATE_DIALOG_TEMPLATE_LANGUAGE'
+  group = 'Config Manager'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Template language'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Skabelons sprog'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label portal_config_manager_create_new_html_template_dialog_already_created_in_all_languages {
+  key = 'PORTAL_CONFIG_MANAGER_CREATE_NEW_HTML_TEMPLATE_DIALOG_ALREADY_CREATED_IN_ALL_LANGUAGES'
+  group = 'Config Manager'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'All languages already have a template for this portal'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Alle sprog har allerede en skabelon for denne portal'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label portal_config_manager_create_new_html_template_dialog_cancel {
+  key = 'PORTAL_CONFIG_MANAGER_CREATE_NEW_HTML_TEMPLATE_DIALOG_CANCEL'
+  group = 'Config Manager'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Cancel'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Annuller'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label portal_config_manager_create_new_html_template_dialog_create {
+  key = 'PORTAL_CONFIG_MANAGER_CREATE_NEW_HTML_TEMPLATE_DIALOG_CREATE'
+  group = 'Config Manager'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Create'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Opret'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label portal_config_manager_create_new_html_template_dialog_none_option {
+  key = 'PORTAL_CONFIG_MANAGER_CREATE_NEW_HTML_TEMPLATE_DIALOG_NONE_OPTION'
+  group = 'Config Manager'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'None'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Ingen'
       language_id = data.language.danish.id
     }
   ]

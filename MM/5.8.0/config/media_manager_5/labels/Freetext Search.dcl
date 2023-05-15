@@ -158,3 +158,136 @@ resource configservice_label freetext_search_asset_list_in_foldername {
   ]
 }
 
+resource configservice_label advanced_search_title {
+  key = 'ADVANCED_SEARCH_TITLE'
+  group = 'Freetext Search'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Advanced search'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Avanceret søgning'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label advanced_search_keyword_operator {
+  key = 'ADVANCED_SEARCH_KEYWORD_OPERATOR'
+  group = 'Freetext Search'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = '{operator, select, empty {is empty} included {is} excluded {is not}}'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = '{operator, select, empty {er tom} included {er} excluded {ikke er}}'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label advanced_search_text_operator {
+  key = 'ADVANCED_SEARCH_TEXT_OPERATOR'
+  group = 'Freetext Search'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = '{operator, select, startsWith {starts with} endsWith {ends with} contains {contains} matches {matches} not {is not} empty {is empty}}'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = '{operator, select, startsWith {begynder med} endsWith {slutter med} contains {indeholder} matches {matcher} not {ikke er} empty {er tom}}'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label advanced_search_number_operator {
+  key = 'ADVANCED_SEARCH_NUMBER_OPERATOR'
+  group = 'Freetext Search'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = '{operator, select, equals {equals} greater {is greater than} less {is less than} between {is between} not {is not} empty {is empty}}'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = '{operator, select, equals {er lig med} greater {er større end} less {er mindre end} between {er mellem} not {ikke er} empty {er tom}}'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label advanced_search_date_operator {
+  key = 'ADVANCED_SEARCH_DATE_OPERATOR'
+  group = 'Freetext Search'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = '{operator, select, last {within past} next {within next} after {after} before {before} between {is between} empty {is empty}}'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = '{operator, select, last {indenfor de sidste} next {indenfor de kommende} after {efter} before {before} between {er mellem} empty {er tom}}'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label advanced_search_date_units {
+  key = 'ADVANCED_SEARCH_DATE_UNITS'
+  group = 'Freetext Search'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = '{operator, select, hours {hours} days {days} months {months}}'
+SET @labelEN = N'{operator, select, hours {timer} days {dage} months {måneder}}'
+EXECUTE update_mm_config_service_label @const, @group, @labelDK, @labelEN;
+
+SET @const   = N'ADVANCED_SEARCH_CLEAR'
+SET @labelEN = N'Clear'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Ryd'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label advanced_search_close {
+  key = 'ADVANCED_SEARCH_CLOSE'
+  group = 'Freetext Search'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Close'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Luk'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label advanced_search_add_new {
+  key = 'ADVANCED_SEARCH_ADD_NEW'
+  group = 'Freetext Search'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Add search criteria'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Tilføj søgekriterier'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+

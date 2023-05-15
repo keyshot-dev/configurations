@@ -510,6 +510,22 @@ resource configservice_label selected_assets_overlay_metadata_download_no_qualit
   ]
 }
 
+resource configservice_label selected_assets_overlay_insert_assets_no_quality_tooltip {
+  key = 'SELECTED_ASSETS_OVERLAY_INSERT_ASSETS_NO_QUALITY_TOOLTIP'
+  group = 'Selected Assets'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'No qualities available for insertion'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Ingen kvaliteter tilgængelige til indsættelse'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label selected_assets_overlay_locked_assets_tooltip {
   key = 'SELECTED_ASSETS_OVERLAY_LOCKED_ASSETS_TOOLTIP'
   group = 'Selected Assets'

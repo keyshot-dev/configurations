@@ -318,17 +318,17 @@ resource configservice_label office_state_filename_content {
   ]
 }
 
-resource configservice_label office_state_filename_save {
-  key = 'OFFICE_STATE_FILENAME_SAVE'
+resource configservice_label office_state_filename_upload {
+  key = 'OFFICE_STATE_FILENAME_UPLOAD'
   group = 'Office Connector'
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Save'
+      default_translation = 'Upload'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Gem'
+      default_translation = 'Upload'
       language_id = data.language.danish.id
     }
   ]
@@ -841,22 +841,6 @@ resource configservice_label office_about_dialog_3rd_party_licenses {
     },
     {
       default_translation = 'Tredjepartslicenser:'
-      language_id = data.language.danish.id
-    }
-  ]
-}
-
-resource configservice_label save_not_available_tooltip {
-  key = 'SAVE_NOT_AVAILABLE_TOOLTIP'
-  group = 'Office Connector'
-  product_id = resource.configservice_product.media_manager_5.id
-  default_label_values = [
-    {
-      default_translation = 'Insufficient rights'
-      language_id = data.language.english.id
-    },
-    {
-      default_translation = 'Manglende rettigheder'
       language_id = data.language.danish.id
     }
   ]

@@ -750,86 +750,6 @@ resource configservice_label asset_list_collection_menu_more_collection_ready_bo
   ]
 }
 
-resource configservice_label mediamanager_collection_list_drop_to_collection_some_failed_title {
-  key = 'MEDIAMANAGER_COLLECTION_LIST_DROP_TO_COLLECTION_SOME_FAILED_TITLE'
-  group = 'Collections'
-  product_id = resource.configservice_product.media_manager_5.id
-  default_label_values = [
-    {
-      default_translation = '{count, cardinalPlural, one {Asset could not be added} other {Assets could not be added}}'
-      language_id = data.language.english.id
-    },
-    {
-      default_translation = '{count, cardinalPlural, one {Asset kunne ikke blive tilføjet} other {Assets kunne ikke blive tilføjet}}'
-      language_id = data.language.danish.id
-    }
-  ]
-}
-
-resource configservice_label mediamanager_collection_list_drop_to_collection_some_failed_body {
-  key = 'MEDIAMANAGER_COLLECTION_LIST_DROP_TO_COLLECTION_SOME_FAILED_BODY'
-  group = 'Collections'
-  product_id = resource.configservice_product.media_manager_5.id
-  default_label_values = [
-    {
-      default_translation = '{count, cardinalPlural, one {One of the selected assets could not be added to the collection} other {Some of the selected assets could not be added to the collection}}'
-      language_id = data.language.english.id
-    },
-    {
-      default_translation = '{count, cardinalPlural, one {Et af de valgte assets kunne ikke tilføjes til collectionen} other {Nogle af de valgte assets kunne ikke tilføjes til collectionen}}'
-      language_id = data.language.danish.id
-    }
-  ]
-}
-
-resource configservice_label mediamanager_collection_list_drop_to_collection_success_title {
-  key = 'MEDIAMANAGER_COLLECTION_LIST_DROP_TO_COLLECTION_SUCCESS_TITLE'
-  group = 'Collections'
-  product_id = resource.configservice_product.media_manager_5.id
-  default_label_values = [
-    {
-      default_translation = 'Success'
-      language_id = data.language.english.id
-    },
-    {
-      default_translation = 'Success'
-      language_id = data.language.danish.id
-    }
-  ]
-}
-
-resource configservice_label mediamanager_collection_list_drop_to_collection_success_body {
-  key = 'MEDIAMANAGER_COLLECTION_LIST_DROP_TO_COLLECTION_SUCCESS_BODY'
-  group = 'Collections'
-  product_id = resource.configservice_product.media_manager_5.id
-  default_label_values = [
-    {
-      default_translation = '{count, cardinalPlural, one {The asset was added to the collection} other {The assets were added to the collection}}'
-      language_id = data.language.english.id
-    },
-    {
-      default_translation = '{count, cardinalPlural, one {Asset blev tilføjet til collectionen} other {Assets blev tilføjet til collectionen}}'
-      language_id = data.language.danish.id
-    }
-  ]
-}
-
-resource configservice_label mediamanager_collection_list_drop_to_collection_success_go_to_collection {
-  key = 'MEDIAMANAGER_COLLECTION_LIST_DROP_TO_COLLECTION_SUCCESS_GO_TO_COLLECTION'
-  group = 'Collections'
-  product_id = resource.configservice_product.media_manager_5.id
-  default_label_values = [
-    {
-      default_translation = 'Open the collection'
-      language_id = data.language.english.id
-    },
-    {
-      default_translation = 'Åbn collectionen'
-      language_id = data.language.danish.id
-    }
-  ]
-}
-
 resource configservice_label asset_list_collection_menu_more_popup_request_updated_download {
   key = 'ASSET_LIST_COLLECTION_MENU_MORE_POPUP_REQUEST_UPDATED_DOWNLOAD'
   group = 'Collections'
@@ -1049,54 +969,6 @@ resource configservice_label collections_create_new_collection_success_body {
     },
     {
       default_translation = 'Collection blev oprettet.'
-      language_id = data.language.danish.id
-    }
-  ]
-}
-
-resource configservice_label collections_create_new_collection_add_assets_warning_title {
-  key = 'COLLECTIONS_CREATE_NEW_COLLECTION_ADD_ASSETS_WARNING_TITLE'
-  group = 'Collections'
-  product_id = resource.configservice_product.media_manager_5.id
-  default_label_values = [
-    {
-      default_translation = 'Warning'
-      language_id = data.language.english.id
-    },
-    {
-      default_translation = 'Advarsel'
-      language_id = data.language.danish.id
-    }
-  ]
-}
-
-resource configservice_label collections_create_new_collection_add_assets_warning_body {
-  key = 'COLLECTIONS_CREATE_NEW_COLLECTION_ADD_ASSETS_WARNING_BODY'
-  group = 'Collections'
-  product_id = resource.configservice_product.media_manager_5.id
-  default_label_values = [
-    {
-      default_translation = '{partialError, select, true {One or more assets could not} false {No assets could}} be added to the collection due to insufficient permissions'
-      language_id = data.language.english.id
-    },
-    {
-      default_translation = '{partialError, select, true {Et eller flere assets kunne ikke} false {Ingen assets kunne}} tilføjes til collectionen på grund af utilstrækkelige tilladelser'
-      language_id = data.language.danish.id
-    }
-  ]
-}
-
-resource configservice_label collections_create_new_collection_add_assets_generic_warning_body {
-  key = 'COLLECTIONS_CREATE_NEW_COLLECTION_ADD_ASSETS_GENERIC_WARNING_BODY'
-  group = 'Collections'
-  product_id = resource.configservice_product.media_manager_5.id
-  default_label_values = [
-    {
-      default_translation = 'An error occurred while adding assets to a collection. Please contact your systems administrator'
-      language_id = data.language.english.id
-    },
-    {
-      default_translation = 'Der opstod en fejl under tilføjelsen af assets til collection. Kontakt venligst din systemadministrator'
       language_id = data.language.danish.id
     }
   ]
@@ -2740,11 +2612,11 @@ resource configservice_label collection_item_placeholder_image_menu_manage_cover
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Manage custom cover'
+      default_translation = 'Manage cover'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Administrer brugerdefineret cover'
+      default_translation = 'Administrer cover'
       language_id = data.language.danish.id
     }
   ]
@@ -2788,11 +2660,11 @@ resource configservice_label collection_item_placeholder_image_menu_remove_image
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Remove custom cover'
+      default_translation = 'Remove cover'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Fjern brugerdefineret cover'
+      default_translation = 'Fjern cover'
       language_id = data.language.danish.id
     }
   ]
@@ -3022,70 +2894,6 @@ resource configservice_label collections_asset_picker_choose_thumbnail {
   ]
 }
 
-resource configservice_label collections_add_item_to_collection_asset_picker_success_title {
-  key = 'COLLECTIONS_ADD_ITEM_TO_COLLECTION_ASSET_PICKER_SUCCESS_TITLE'
-  group = 'Collections'
-  product_id = resource.configservice_product.media_manager_5.id
-  default_label_values = [
-    {
-      default_translation = 'Success'
-      language_id = data.language.english.id
-    },
-    {
-      default_translation = 'Succes'
-      language_id = data.language.danish.id
-    }
-  ]
-}
-
-resource configservice_label collections_add_item_to_collection_asset_picker_success_body {
-  key = 'COLLECTIONS_ADD_ITEM_TO_COLLECTION_ASSET_PICKER_SUCCESS_BODY'
-  group = 'Collections'
-  product_id = resource.configservice_product.media_manager_5.id
-  default_label_values = [
-    {
-      default_translation = '{count, cardinalPlural, one {The asset was added to the collection} other {The assets were added to the collection}}'
-      language_id = data.language.english.id
-    },
-    {
-      default_translation = '{count, cardinalPlural, one {Assetet blev tilføjet til collectionen} other {Assetsne blev tilføjet til collectionen}}'
-      language_id = data.language.danish.id
-    }
-  ]
-}
-
-resource configservice_label collections_add_item_to_collection_asset_picker_error_title {
-  key = 'COLLECTIONS_ADD_ITEM_TO_COLLECTION_ASSET_PICKER_ERROR_TITLE'
-  group = 'Collections'
-  product_id = resource.configservice_product.media_manager_5.id
-  default_label_values = [
-    {
-      default_translation = 'Error'
-      language_id = data.language.english.id
-    },
-    {
-      default_translation = 'Fejl'
-      language_id = data.language.danish.id
-    }
-  ]
-}
-
-resource configservice_label collections_add_item_to_collection_asset_picker_error_body {
-  key = 'COLLECTIONS_ADD_ITEM_TO_COLLECTION_ASSET_PICKER_ERROR_BODY'
-  group = 'Collections'
-  product_id = resource.configservice_product.media_manager_5.id
-  default_label_values = [
-    {
-      default_translation = '{partialError, select, true {The collection owner does not have access to all selected assets. Adding the ones that are possible} false {The collection owner does not have access to the selected assets}}'
-      language_id = data.language.english.id
-    },
-    {
-      default_translation = '{partialError, select, true {Collection-ejeren har ikke adgang til alle de valgte assets. Tilføjer dem, der er mulige} false {Collection-ejeren har ikke adgang til de valgte asset}}'
-      language_id = data.language.danish.id
-    }
-  ]
-}
-
 resource configservice_label collections_asset_list_remove_from_collection_body {
   key = 'COLLECTIONS_ASSET_LIST_REMOVE_FROM_COLLECTION_BODY'
   group = 'Collections'
@@ -3177,54 +2985,6 @@ resource configservice_label collection_item_placeholder_remove_confirmation_dia
     },
     {
       default_translation = 'Fjern'
-      language_id = data.language.danish.id
-    }
-  ]
-}
-
-resource configservice_label collection_item_placeholder_update_notification_success_title {
-  key = 'COLLECTION_ITEM_PLACEHOLDER_UPDATE_NOTIFICATION_SUCCESS_TITLE'
-  group = 'Collections'
-  product_id = resource.configservice_product.media_manager_5.id
-  default_label_values = [
-    {
-      default_translation = 'Success'
-      language_id = data.language.english.id
-    },
-    {
-      default_translation = 'Succes'
-      language_id = data.language.danish.id
-    }
-  ]
-}
-
-resource configservice_label collection_item_placeholder_update_notification_success_body {
-  key = 'COLLECTION_ITEM_PLACEHOLDER_UPDATE_NOTIFICATION_SUCCESS_BODY'
-  group = 'Collections'
-  product_id = resource.configservice_product.media_manager_5.id
-  default_label_values = [
-    {
-      default_translation = 'Collection custom cover was updated'
-      language_id = data.language.english.id
-    },
-    {
-      default_translation = 'Collection brugerdefineret cover blev opdateret'
-      language_id = data.language.danish.id
-    }
-  ]
-}
-
-resource configservice_label collection_item_placeholder_update_notification_error_title {
-  key = 'COLLECTION_ITEM_PLACEHOLDER_UPDATE_NOTIFICATION_ERROR_TITLE'
-  group = 'Collections'
-  product_id = resource.configservice_product.media_manager_5.id
-  default_label_values = [
-    {
-      default_translation = 'Error'
-      language_id = data.language.english.id
-    },
-    {
-      default_translation = 'Fejl'
       language_id = data.language.danish.id
     }
   ]
@@ -3337,6 +3097,182 @@ resource configservice_label collection_protect_description {
     },
     {
       default_translation = 'Denne collection er kodeords-beskyttet. Indtast adgangskoden for at få adgang.'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label collection_set_assets_notification_error_title {
+  key = 'COLLECTION_SET_ASSETS_NOTIFICATION_ERROR_TITLE'
+  group = 'Collections'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = '{multiple, select, false {Asset could not be added} true {Assets could not be added}}'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = '{multiple, select, false {Asset kunne ikke blive tilføjet} true {Assets kunne ikke blive tilføjet}}'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label collection_set_assets_notification_error_body {
+  key = 'COLLECTION_SET_ASSETS_NOTIFICATION_ERROR_BODY'
+  group = 'Collections'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = '{multiple, select, false {One of the selected assets could not be added to the collection} true {Some of the selected assets could not be added to the collection}}'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = '{multiple, select, false {Et af de valgte assets kunne ikke tilføjes til collectionen} true {Nogle af de valgte assets kunne ikke tilføjes til collectionen}}'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label collection_set_assets_conflict_notification_error_title {
+  key = 'COLLECTION_SET_ASSETS_CONFLICT_NOTIFICATION_ERROR_TITLE'
+  group = 'Collections'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Warning'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Advarsel'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label collection_set_assets_conflict_notification_error_body {
+  key = 'COLLECTION_SET_ASSETS_CONFLICT_NOTIFICATION_ERROR_BODY'
+  group = 'Collections'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = '{partial, select, true {One or more assets could not} false {No assets could}} be added to the collection due to insufficient permissions'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = '{partial, select, true {Et eller flere assets kunne ikke} false {Ingen assets kunne}} tilføjes til collectionen på grund af utilstrækkelige tilladelser'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label collection_set_assets_generic_notification_error_body {
+  key = 'COLLECTION_SET_ASSETS_GENERIC_NOTIFICATION_ERROR_BODY'
+  group = 'Collections'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'An error occurred while adding assets to a collection. Please contact your systems administrator'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Der opstod en fejl under tilføjelsen af assets til collection. Kontakt venligst din systemadministrator'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label collection_set_assets_notification_success_title {
+  key = 'COLLECTION_SET_ASSETS_NOTIFICATION_SUCCESS_TITLE'
+  group = 'Collections'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Success'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Succes'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label collection_set_assets_notification_success_body {
+  key = 'COLLECTION_SET_ASSETS_NOTIFICATION_SUCCESS_BODY'
+  group = 'Collections'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = '{multiple, cardinalPlural, false {The asset was added to the collection} true {The assets were added to the collection}}'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = '{multiple, cardinalPlural, false {Assetet blev tilføjet til collectionen} true {Assetsne blev tilføjet til collectionen}}'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label collection_set_assets_notification_success_go_to_collection {
+  key = 'COLLECTION_SET_ASSETS_NOTIFICATION_SUCCESS_GO_TO_COLLECTION'
+  group = 'Collections'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Open the collection'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Åbn collectionen'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label collection_set_placeholder_notification_error_title {
+  key = 'COLLECTION_SET_PLACEHOLDER_NOTIFICATION_ERROR_TITLE'
+  group = 'Collections'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Error'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Fejl'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label collection_set_placeholder_notification_success_title {
+  key = 'COLLECTION_SET_PLACEHOLDER_NOTIFICATION_SUCCESS_TITLE'
+  group = 'Collections'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Success'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Succes'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label collection_set_placeholder_notification_success_body {
+  key = 'COLLECTION_SET_PLACEHOLDER_NOTIFICATION_SUCCESS_BODY'
+  group = 'Collections'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Collection cover was updated'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Collection cover blev opdateret'
       language_id = data.language.danish.id
     }
   ]

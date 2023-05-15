@@ -616,7 +616,7 @@ resource configservice_label office_upload_document_dialog_replace_existing_asse
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Udskift md et allerede-eksisterende asset'
+      default_translation = 'Udskift med et allerede-eksisterende asset'
       language_id = data.language.danish.id
     }
   ]
@@ -2414,6 +2414,22 @@ resource configservice_label office_link_manager_duplicate_list_title {
   ]
 }
 
+resource configservice_label office_link_manager_update {
+  key = 'OFFICE_LINK_MANAGER_UPDATE'
+  group = 'Creative Cloud Connector'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Update'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Opdater'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label office_link_manager_relink {
   key = 'OFFICE_LINK_MANAGER_RELINK'
   group = 'Creative Cloud Connector'
@@ -2548,11 +2564,11 @@ resource configservice_label office_link_manager_tooltip_status_local_content_em
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Local content is embedded, please unembed to use asset inside the link manager'
+      default_translation = 'Unembed to use asset in the link manager'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Lokalt indhold er indlejret, fjern indlejring for at bruge asset i link manageren'
+      default_translation = 'Fjern indlejring for at bruge asset i link manageren'
       language_id = data.language.danish.id
     }
   ]
@@ -3214,6 +3230,38 @@ resource configservice_label creative_cloud_connector_missing_open_office_role {
   ]
 }
 
+resource configservice_label creative_cloud_connector_insert_asset_export_quality_not_defined {
+  key = 'CREATIVE_CLOUD_CONNECTOR_INSERT_ASSET_EXPORT_QUALITY_NOT_DEFINED'
+  group = 'Creative Cloud Connector'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'A video and/or image export quality has/have not been defined in the Portal config manager'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'En eksport-kvalitet for video og/eller billede er ikke defineret i Portal config manageren'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label creative_cloud_connector_insert_asset_export_quality_not_available {
+  key = 'CREATIVE_CLOUD_CONNECTOR_INSERT_ASSET_EXPORT_QUALITY_NOT_AVAILABLE'
+  group = 'Creative Cloud Connector'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Either you do not have access rights to the defined export quality (id: {{mediaFormatId}}) or an export quality has not been defined.'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Enten har du ikke adgang til den definerede eksport-kvalitet (id: {{mediaFormatId}}) ellers er eksport-kvaliteten ikke defineret.'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label creative_cloud_connector_insert_asset_insert_quality_not_available {
   key = 'CREATIVE_CLOUD_CONNECTOR_INSERT_ASSET_INSERT_QUALITY_NOT_AVAILABLE'
   group = 'Creative Cloud Connector'
@@ -3262,65 +3310,161 @@ resource configservice_label creative_cloud_connector_insert_asset_cannot_select
   ]
 }
 
-resource configservice_label creative_cloud_connector_insert_dialog_title {
-  key = 'CREATIVE_CLOUD_CONNECTOR_INSERT_DIALOG_TITLE'
+resource configservice_label creative_cloud_connector_asset_outdated_dialog_title {
+  key = 'CREATIVE_CLOUD_CONNECTOR_ASSET_OUTDATED_DIALOG_TITLE'
   group = 'Creative Cloud Connector'
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = '{insertContext, select, NEWVERSION {Newer version detected} WORKINGDOCNEWVERSION {Newer version + work-in-progress detected} WORKINGDOC {Work-in-progress detected}}'
+      default_translation = '{context, select, ASSETNEWVERSION {Newer version detected} DOCUMENTOUTDATED {Newer version detected} DOCUMENTWITHLOCALCHANGES {Local changes detected} DOCUMENTOUTDATEDWITHLOCALCHANGES {Newer version and local changes detected}}'
       language_id = data.language.english.id
     },
     {
-      default_translation = '{insertContext, select, NEWVERSION {Nyere version fundet} WORKINGDOCNEWVERSION {Nyere version fundet + igangværende dokument registreret} WORKINGDOC {Igangværende arbejde registreret}}'
+      default_translation = '{context, select, ASSETNEWVERSION {Nyere version fundet} DOCUMENTOUTDATED {Nyere version fundet} DOCUMENTWITHLOCALCHANGES {Lokale ændringer fundet} DOCUMENTOUTDATEDWITHLOCALCHANGES {Nyere version samt lokale ændringer fundet}}'
       language_id = data.language.danish.id
     }
   ]
 }
 
-resource configservice_label creative_cloud_connector_insert_dialog_body {
-  key = 'CREATIVE_CLOUD_CONNECTOR_INSERT_DIALOG_BODY'
+resource configservice_label creative_cloud_connector_asset_outdated_dialog_description {
+  key = 'CREATIVE_CLOUD_CONNECTOR_ASSET_OUTDATED_DIALOG_DESCRIPTION'
   group = 'Creative Cloud Connector'
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = '{insertContext, select, NEWVERSION {A newer version of this asset exists in the DAM. Do you wish to continue working on the old version, or delete your local document and download the new version?} WORKINGDOCNEWVERSION {The asset is both out-of-date + you have local changes that possibly have not been saved. Do you wish to revert (delete) your changes?} WORKINGDOC {You have a local copy of this asset already. Do you wish to continue working on it, or revert (delete) your changes?}}'
+      default_translation = '{context, select, ASSETNEWVERSION {A newer version of this asset exists in the DAM.} DOCUMENTOUTDATED {A newer version of this asset exists in the DAM.} DOCUMENTWITHLOCALCHANGES {You have made changes to this document that have not been uploaded yet.} DOCUMENTOUTDATEDWITHLOCALCHANGES {A newer version of this asset exists in the DAM. Also, you have local changes.}}'
       language_id = data.language.english.id
     },
     {
-      default_translation = '{insertContext, select, NEWVERSION {En nyere version af dette asset findes i DAM. Ønsker du at fortsætte med at arbejde på den gamle version, eller slette dit lokale dokument og downloade den nye version?} WORKINGDOCNEWVERSION {Assettet er både forældet + du har lokale ændringer, der muligvis ikke er blevet gemt. Ønsker du at fortryde (slette) dine ændringer?} WORKINGDOC {Du har allerede en lokal kopi af dette asset. Ønsker du at fortsætte med at arbejde på det, eller fortryde (slette) dine ændringer?}}'
+      default_translation = '{context, select, ASSETNEWVERSION {En nyere version af dette asset findes i DAM\'en. Vil du downloade det?} DOCUMENTOUTDATED {En nyere version af dette asset findes i DAM\'en.} DOCUMENTWITHLOCALCHANGES {Du har foretaget ændringer i dette dokument, som ikke er blevet uploadet endnu.} DOCUMENTOUTDATEDWITHLOCALCHANGES {En nyere version af dette asset findes i DAM\'en, samt har du lokale ændringer.}}'
       language_id = data.language.danish.id
     }
   ]
 }
 
-resource configservice_label creative_cloud_connector_insert_dialog_local_btn {
-  key = 'CREATIVE_CLOUD_CONNECTOR_INSERT_DIALOG_LOCAL_BTN'
+resource configservice_label creative_cloud_connector_asset_outdated_dialog_sub_description {
+  key = 'CREATIVE_CLOUD_CONNECTOR_ASSET_OUTDATED_DIALOG_SUB_DESCRIPTION'
   group = 'Creative Cloud Connector'
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = '{insertContext, select, NEWVERSION {Continue with old version} WORKINGDOCNEWVERSION {Continue working on it} WORKINGDOC {Continue working on it}}'
+      default_translation = '{context, select, ASSETNEWVERSION {Would you like to continue with the old version, or get the new version?} DOCUMENTOUTDATED {Would you like to download it?} DOCUMENTWITHLOCALCHANGES {Do you want to continue where you left off, or revert the asset to the one in the DAM?} DOCUMENTOUTDATEDWITHLOCALCHANGES {Do you want to continue where you left off or download the new version?}}'
       language_id = data.language.english.id
     },
     {
-      default_translation = '{insertContext, select, NEWVERSION {Fortsæt med gammel version} WORKINGDOCNEWVERSION {Fortsæt hvor du slap} WORKINGDOC {Fortsæt hvor du slap}}'
+      default_translation = '{context, select, ASSETNEWVERSION {Ønsker du at fortsætte med at arbejde på den gamle version, eller slette dit lokale asset og downloade den nye version?} DOCUMENTOUTDATED {Ønsker du at fortryde (slette) dine ændringer?} DOCUMENTWITHLOCALCHANGES {Vil du fortsætte hvor du slap, eller vende tilbage til assettet som det er i DAM\'en?} DOCUMENTOUTDATEDWITHLOCALCHANGES {Vil du fortsætte hvor du slap, eller downloade den nye version?}}'
       language_id = data.language.danish.id
     }
   ]
 }
 
-resource configservice_label creative_cloud_connector_insert_dialog_download_btn {
-  key = 'CREATIVE_CLOUD_CONNECTOR_INSERT_DIALOG_DOWNLOAD_BTN'
+resource configservice_label creative_cloud_connector_asset_outdated_dialog_local_btn {
+  key = 'CREATIVE_CLOUD_CONNECTOR_ASSET_OUTDATED_DIALOG_LOCAL_BTN'
   group = 'Creative Cloud Connector'
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = '{insertContext, select, NEWVERSION {Delete old version and use new} WORKINGDOCNEWVERSION {Revert (delete)} WORKINGDOC {Revert (delete)}}'
+      default_translation = '{context, select, ASSETNEWVERSION {Continue with old version} DOCUMENTOUTDATED {Continue working on it} DOCUMENTWITHLOCALCHANGES {Continue working on it} DOCUMENTOUTDATEDWITHLOCALCHANGES {Continue working on it}}'
       language_id = data.language.english.id
     },
     {
-      default_translation = '{insertContext, select, NEWVERSION {Slet gammel version og brug den nye} WORKINGDOCNEWVERSION {Fortryd (slet)} WORKINGDOC {Fortryd (slet)}}'
+      default_translation = '{context, select, ASSETNEWVERSION {Fortsæt med gammel version} DOCUMENTOUTDATED {Fortsæt hvor du slap} DOCUMENTWITHLOCALCHANGES {Fortsæt hvor du slap} DOCUMENTOUTDATEDWITHLOCALCHANGES {Fortsæt hvor du slap}}'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label creative_cloud_connector_asset_outdated_dialog_download_btn {
+  key = 'CREATIVE_CLOUD_CONNECTOR_ASSET_OUTDATED_DIALOG_DOWNLOAD_BTN'
+  group = 'Creative Cloud Connector'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = '{context, select, ASSETNEWVERSION {Delete old version and use new} DOCUMENTOUTDATED {Revert (delete)} DOCUMENTWITHLOCALCHANGES {Revert (delete)} DOCUMENTOUTDATEDWITHLOCALCHANGES {Revert (delete)}}'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = '{context, select, ASSETNEWVERSION {Slet gammel version og brug den nye} DOCUMENTOUTDATED {Fortryd (slet)} DOCUMENTWITHLOCALCHANGES {Fortryd (slet)} DOCUMENTOUTDATEDWITHLOCALCHANGES {Fortryd (slet)}}'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label creative_cloud_connector_invalid_cache_dialog_title {
+  key = 'CREATIVE_CLOUD_CONNECTOR_INVALID_CACHE_DIALOG_TITLE'
+  group = 'Creative Cloud Connector'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Invalid cache'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Ugyldig cache'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label creative_cloud_connector_invalid_cache_dialog_description {
+  key = 'CREATIVE_CLOUD_CONNECTOR_INVALID_CACHE_DIALOG_DESCRIPTION'
+  group = 'Creative Cloud Connector'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'The cache contains downloaded files, but the db.json file has been deleted. So, your cache is invalid and will have to be wiped for you to continue working with the product.'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Cachen indeholder downloadede filer, men db.json filen er blevet slettet. Din din cache er derfor ugyldig og dens indhold bliver nødt til at blive slettet, for at du kan fortsætte med at bruge produktet.'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label creative_cloud_connector_invalid_cache_dialog_sub_description {
+  key = 'CREATIVE_CLOUD_CONNECTOR_INVALID_CACHE_DIALOG_SUB_DESCRIPTION'
+  group = 'Creative Cloud Connector'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Click \'Wipe cache\' to get back into a valid state.'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Tryk på \'Slet cache-indhold\' for at komme tilbage i en gyldig tilstand.'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label creative_cloud_connector_invalid_cache_dialog_cancel {
+  key = 'CREATIVE_CLOUD_CONNECTOR_INVALID_CACHE_DIALOG_CANCEL'
+  group = 'Creative Cloud Connector'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Cancel'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Annullér'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label creative_cloud_connector_invalid_cache_dialog_delete_cache {
+  key = 'CREATIVE_CLOUD_CONNECTOR_INVALID_CACHE_DIALOG_DELETE_CACHE'
+  group = 'Creative Cloud Connector'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Wipe cache'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Slet cache-indhold'
       language_id = data.language.danish.id
     }
   ]
@@ -4030,6 +4174,38 @@ resource configservice_label creative_cloud_connector_download_progress_download
   ]
 }
 
+resource configservice_label creative_cloud_connector_download_progress_download_failed_title {
+  key = 'CREATIVE_CLOUD_CONNECTOR_DOWNLOAD_PROGRESS_DOWNLOAD_FAILED_TITLE'
+  group = 'Creative Cloud Connector'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Download failed'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Download fejlede'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label creative_cloud_connector_download_progress_download_failed_body {
+  key = 'CREATIVE_CLOUD_CONNECTOR_DOWNLOAD_PROGRESS_DOWNLOAD_FAILED_BODY'
+  group = 'Creative Cloud Connector'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Failed to download. Please check your internet connection.'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Det lykkedes ikke at downloade. Tjek venligst din internetforbindelse.'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label creative_cloud_connector_download_progress_downloaded_title {
   key = 'CREATIVE_CLOUD_CONNECTOR_DOWNLOAD_PROGRESS_DOWNLOADED_TITLE'
   group = 'Creative Cloud Connector'
@@ -4478,6 +4654,70 @@ resource configservice_label creative_cloud_connector_mobile_menu_replace_asset 
   ]
 }
 
+resource configservice_label creative_cloud_connector_active_document_outdated_title {
+  key = 'CREATIVE_CLOUD_CONNECTOR_ACTIVE_DOCUMENT_OUTDATED_TITLE'
+  group = 'Creative Cloud Connector'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Outdated document'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Forældet dokument'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label creative_cloud_connector_active_document_outdated_body {
+  key = 'CREATIVE_CLOUD_CONNECTOR_ACTIVE_DOCUMENT_OUTDATED_BODY'
+  group = 'Creative Cloud Connector'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Your working document is outdated. Are you sure that you want to replace this document?'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Dit arbejdsdokument er forældet. Er du sikker på, at du vil erstatte dette dokument?'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label creative_cloud_connector_active_document_outdated_cancel {
+  key = 'CREATIVE_CLOUD_CONNECTOR_ACTIVE_DOCUMENT_OUTDATED_CANCEL'
+  group = 'Creative Cloud Connector'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Cancel'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Annullér'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label creative_cloud_connector_active_document_outdated_replace {
+  key = 'CREATIVE_CLOUD_CONNECTOR_ACTIVE_DOCUMENT_OUTDATED_REPLACE'
+  group = 'Creative Cloud Connector'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Replace'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Udskift'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label creative_cloud_connector_link_more_popup_search_in_dam {
   key = 'CREATIVE_CLOUD_CONNECTOR_LINK_MORE_POPUP_SEARCH_IN_DAM'
   group = 'Creative Cloud Connector'
@@ -4793,6 +5033,70 @@ resource configservice_label insert_job_item_finished {
     },
     {
       default_translation = 'Færdig'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label link_manager_link_status_linked_label {
+  key = 'LINK_MANAGER_LINK_STATUS_LINKED_LABEL'
+  group = 'Creative Cloud Connector'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Linked'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Linket'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label link_manager_link_status_auto_fix_required_label {
+  key = 'LINK_MANAGER_LINK_STATUS_AUTO_FIX_REQUIRED_LABEL'
+  group = 'Creative Cloud Connector'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Auto-fix required'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Auto-fix påkrævet'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label link_manager_link_status_manuel_fix_required_label {
+  key = 'LINK_MANAGER_LINK_STATUS_MANUEL_FIX_REQUIRED_LABEL'
+  group = 'Creative Cloud Connector'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Manual fix required'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Manuel-fix påkrævet'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label link_manager_link_status_loading_label {
+  key = 'LINK_MANAGER_LINK_STATUS_LOADING_LABEL'
+  group = 'Creative Cloud Connector'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Loading'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Indlæser'
       language_id = data.language.danish.id
     }
   ]

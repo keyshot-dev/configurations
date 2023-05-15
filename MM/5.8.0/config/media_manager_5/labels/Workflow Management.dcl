@@ -2798,3 +2798,67 @@ resource configservice_label workflows_overview_automation_lookups_lookups {
   ]
 }
 
+resource configservice_label workflow_editor_workflow_asset_search_request_keyword_input_only_include_assets_with_a_value {
+  key = 'WORKFLOW_EDITOR_WORKFLOW_ASSET_SEARCH_REQUEST_KEYWORD_INPUT_ONLY_INCLUDE_ASSETS_WITH_A_VALUE'
+  group = 'Workflow Management'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Only include assets with a value'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Inkluder kun assets som har en værdi'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label workflow_editor_workflow_asset_search_request_keyword_input_only_include_assets_without_a_value {
+  key = 'WORKFLOW_EDITOR_WORKFLOW_ASSET_SEARCH_REQUEST_KEYWORD_INPUT_ONLY_INCLUDE_ASSETS_WITHOUT_A_VALUE'
+  group = 'Workflow Management'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Only include assets without a value'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Inkluder kun assets uden værdier'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label workflow_editor_workflow_asset_search_request_keyword_input_ignore_empty_value_handling {
+  key = 'WORKFLOW_EDITOR_WORKFLOW_ASSET_SEARCH_REQUEST_KEYWORD_INPUT_IGNORE_EMPTY_VALUE_HANDLING'
+  group = 'Workflow Management'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Ignore empty value handling'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Ignorer håndtering af tomme værdier'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label workflow_editor_workflow_asset_search_request_keyword_input_empty_value_handling {
+  key = 'WORKFLOW_EDITOR_WORKFLOW_ASSET_SEARCH_REQUEST_KEYWORD_INPUT_EMPTY_VALUE_HANDLING'
+  group = 'Workflow Management'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Empty value handling'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Håndtering af tomme værdier'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+

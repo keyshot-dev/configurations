@@ -1342,24 +1342,8 @@ resource configservice_label error_metadata_editor_save_body {
   ]
 }
 
-resource configservice_label multi_metadata_editor_combo_value_input_placeholder_search {
-  key = 'MULTI_METADATA_EDITOR_COMBO_VALUE_INPUT_PLACEHOLDER_SEARCH'
-  group = 'Metadata'
-  product_id = resource.configservice_product.media_manager_5.id
-  default_label_values = [
-    {
-      default_translation = 'Search...'
-      language_id = data.language.english.id
-    },
-    {
-      default_translation = 'Søg...'
-      language_id = data.language.danish.id
-    }
-  ]
-}
-
-resource configservice_label multi_metadata_editor_edit_multi_combo_value_input_add_more_tags {
-  key = 'MULTI_METADATA_EDITOR_EDIT_MULTI_COMBO_VALUE_INPUT_ADD_MORE_TAGS'
+resource configservice_label multi_metadata_editor_multi_combo_value_input_add_more_tags {
+  key = 'MULTI_METADATA_EDITOR_MULTI_COMBO_VALUE_INPUT_ADD_MORE_TAGS'
   group = 'Metadata'
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
@@ -1369,6 +1353,134 @@ resource configservice_label multi_metadata_editor_edit_multi_combo_value_input_
     },
     {
       default_translation = 'Tilføj flere tags...'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label multi_metadata_editor_multi_combo_value_input_clear_all {
+  key = 'MULTI_METADATA_EDITOR_MULTI_COMBO_VALUE_INPUT_CLEAR_ALL'
+  group = 'Metadata'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Clear all'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Ryd alle'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label multi_metadata_editor_multi_combo_value_input_disabled {
+  key = 'MULTI_METADATA_EDITOR_MULTI_COMBO_VALUE_INPUT_DISABLED'
+  group = 'Metadata'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = ''
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = ''
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label multi_metadata_editor_multi_combo_value_input_popup_search_placeholder {
+  key = 'MULTI_METADATA_EDITOR_MULTI_COMBO_VALUE_INPUT_POPUP_SEARCH_PLACEHOLDER'
+  group = 'Metadata'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Search'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Søg'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label multi_metadata_editor_multi_combo_value_input_popup_sort_type {
+  key = 'MULTI_METADATA_EDITOR_MULTI_COMBO_VALUE_INPUT_POPUP_SORT_TYPE'
+  group = 'Metadata'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = '{option, select, defaultDesc {Default} selectedDesc {Selected} selectedAsc {Unselected} alphabeticAsc {A-Z} alphabeticDesc {Z-A}}'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = '{option, select, defaultDesc {Standard} selectedDesc {Valgte først} selectedAsc {Valgte sidst} alphabeticAsc {A-Å} alphabeticDesc {Å-A}}'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label multi_metadata_editor_multi_combo_value_input_popup_no_search_results {
+  key = 'MULTI_METADATA_EDITOR_MULTI_COMBO_VALUE_INPUT_POPUP_NO_SEARCH_RESULTS'
+  group = 'Metadata'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = '\'{{searchText}}\' is not in the list'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = '\'{{searchText}}\' er ikke på listen'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label multi_metadata_editor_multi_combo_value_input_popup_add_to_list {
+  key = 'MULTI_METADATA_EDITOR_MULTI_COMBO_VALUE_INPUT_POPUP_ADD_TO_LIST'
+  group = 'Metadata'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Add to list'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Tilføj til liste'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label multi_metadata_editor_multi_combo_value_input_popup_no_results {
+  key = 'MULTI_METADATA_EDITOR_MULTI_COMBO_VALUE_INPUT_POPUP_NO_RESULTS'
+  group = 'Metadata'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'No results found'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Ingen resultater fundet'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label multi_metadata_editor_multi_combo_value_input_popup_assets_sort_type {
+  key = 'MULTI_METADATA_EDITOR_MULTI_COMBO_VALUE_INPUT_POPUP_ASSETS_SORT_TYPE'
+  group = 'Metadata'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = '{option, select, alphabeticAsc {A-Z} alphabeticDesc {Z-A} assetidAsc {Oldest} assetidDesc {Latest}}'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = '{option, select, alphabeticAsc {A-Å} alphabeticDesc {Å-A} assetidAsc {Ældste} assetidDesc {Seneste}}'
       language_id = data.language.danish.id
     }
   ]
