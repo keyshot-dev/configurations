@@ -245,11 +245,22 @@ resource configservice_label advanced_search_date_units {
   default_label_values = [
     {
       default_translation = '{operator, select, hours {hours} days {days} months {months}}'
-SET @labelEN = N'{operator, select, hours {timer} days {dage} months {måneder}}'
-EXECUTE update_mm_config_service_label @const, @group, @labelDK, @labelEN;
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = '{operator, select, hours {timer} days {dage} months {måneder}}'
+      language_id = data.language.danish.id
+    }
+  ]
+}
 
-SET @const   = N'ADVANCED_SEARCH_CLEAR'
-SET @labelEN = N'Clear'
+resource configservice_label advanced_search_clear {
+  key = 'ADVANCED_SEARCH_CLEAR'
+  group = 'Freetext Search'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Clear'
       language_id = data.language.english.id
     },
     {
