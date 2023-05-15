@@ -19,7 +19,7 @@ resource mail_template basestyling {
         -webkit-text-size-adjust: none;
     }
     a {
-        color: #31b69f;
+        color: #32e65e;
     }
     a img {
         border: none;
@@ -120,11 +120,11 @@ resource mail_template basestyling {
     }
     /* Buttons ------------------------------ */
     .button {
-        background-color: #31b69f;
-        border-top: 10px solid #31b69f;
-        border-right: 18px solid #31b69f;
-        border-bottom: 10px solid #31b69f;
-        border-left: 18px solid #31b69f;
+        background-color: #32e65e;
+        border-top: 10px solid #32e65e;
+        border-right: 18px solid #32e65e;
+        border-bottom: 10px solid #32e65e;
+        border-left: 18px solid #32e65e;
         display: inline-block;
         color: #FFF;
         text-decoration: none;
