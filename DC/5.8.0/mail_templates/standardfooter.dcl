@@ -18,7 +18,7 @@ resource mail_template standardfooter {
                         reserved.</p>
                     <p class="sub align-center">
                         <strong>Digizuite&#8482; Nordics</strong>
-                        <br>Ryttergade 12, 1
+                        <br>Østergade 61
                         <br>5000 Odense C
                         <br>Denmark
                     </p>

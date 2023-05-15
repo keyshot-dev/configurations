@@ -369,7 +369,7 @@ resource mail_template basestyling {
         -webkit-text-size-adjust: none;
     }
     a {
-        color: #31b69f;
+        color: #32e65e;
     }
     a img {
         border: none;
@@ -470,11 +470,11 @@ resource mail_template basestyling {
     }
     /* Buttons ------------------------------ */
     .button {
-        background-color: #31b69f;
-        border-top: 10px solid #31b69f;
-        border-right: 18px solid #31b69f;
-        border-bottom: 10px solid #31b69f;
-        border-left: 18px solid #31b69f;
+        background-color: #32e65e;
+        border-top: 10px solid #32e65e;
+        border-right: 18px solid #32e65e;
+        border-bottom: 10px solid #32e65e;
+        border-left: 18px solid #32e65e;
         display: inline-block;
         color: #FFF;
         text-decoration: none;
@@ -626,7 +626,7 @@ resource mail_template standardfooter {
                         reserved.</p>
                     <p class="sub align-center">
                         <strong>Digizuite&#8482; Nordics</strong>
-                        <br>Ryttergade 12, 1
+                        <br>Østergade 61
                         <br>5000 Odense C
                         <br>Denmark
                     </p>
