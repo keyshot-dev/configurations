@@ -1694,6 +1694,22 @@ resource configservice_label asset_list_add_new_filter_input_add_fields {
   ]
 }
 
+resource configservice_label asset_list_filter_property_connector_title {
+  key = 'ASSET_LIST_FILTER_PROPERTY_CONNECTOR_TITLE'
+  group = 'Asset List'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = '{property, select, assetType {Asset type} mediaFormatId {Quality} linkType {Status} extension {Extension} hasSubLink {Has sublink}}'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = '{property, select, assetType {Assettype} mediaFormatId {Kvalitet} linkType {Status} extension {Filendelse} hasSubLink {Har underlink}}'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label asset_list_filter_property_title {
   key = 'ASSET_LIST_FILTER_PROPERTY_TITLE'
   group = 'Asset List'

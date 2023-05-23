@@ -4734,3 +4734,1643 @@ resource configservice_label settings_download_qualities_settings_error_body {
   ]
 }
 
+resource configservice_label settings_settings_left_menu_importer {
+  key = 'SETTINGS_SETTINGS_LEFT_MENU_IMPORTER'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Importer'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Importer'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_importer_settings_loading {
+  key = 'SETTINGS_IMPORTER_SETTINGS_LOADING'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Loading...'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Indlæser...'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_importer_settings_create_new {
+  key = 'SETTINGS_IMPORTER_SETTINGS_CREATE_NEW'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Create new'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Opret ny'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_import_config_editor_remove {
+  key = 'SETTINGS_IMPORT_CONFIG_EDITOR_REMOVE'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Remove'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Fjern'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_import_config_editor_optionvalue {
+  key = 'SETTINGS_IMPORT_CONFIG_EDITOR_OPTIONVALUE'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'OptionValue'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'OptionValue'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_import_config_editor_textvalue {
+  key = 'SETTINGS_IMPORT_CONFIG_EDITOR_TEXTVALUE'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'TextValue'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'TextValue'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_import_config_editor_combo_match_style {
+  key = 'SETTINGS_IMPORT_CONFIG_EDITOR_COMBO_MATCH_STYLE'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Combo match style'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Combo-matching stil'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_import_config_editor_combo_match_style_tooltip {
+  key = 'SETTINGS_IMPORT_CONFIG_EDITOR_COMBO_MATCH_STYLE_TOOLTIP'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Override the combo match style via the import configuration for a specific metafield'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Overstyr combo-matching stil via import-konfigurationen for et specifikt metafelt'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_import_config_editor_combo_separator {
+  key = 'SETTINGS_IMPORT_CONFIG_EDITOR_COMBO_SEPARATOR'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Combo separator'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Combo-separator'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_import_config_editor_combo_separator_tooltip {
+  key = 'SETTINGS_IMPORT_CONFIG_EDITOR_COMBO_SEPARATOR_TOOLTIP'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Override the Combo separator from the import configuration for a specific metafield. For future use (XML metadata does not support multi-values in same string input).'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Overstyr Combo-separator fra import-konfigurationen for et specifikt metafelt. Til fremtidig brug (XML-metadata understøtter ikke multi-værdier i samme streng-input).'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_import_config_editor_combo_separator_default_tooltip {
+  key = 'SETTINGS_IMPORT_CONFIG_EDITOR_COMBO_SEPARATOR_DEFAULT_TOOLTIP'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Use a special character as the delimiter for combo or tree values.'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Brug et specialtegn som skilletegn for kombinations- eller træ-værdier.'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_import_config_editor_xpath {
+  key = 'SETTINGS_IMPORT_CONFIG_EDITOR_XPATH'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'XPath'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'XPath'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_import_config_editor_xpath_tooltip {
+  key = 'SETTINGS_IMPORT_CONFIG_EDITOR_XPATH_TOOLTIP'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'The XPath selector for this metafield in the metadata XML files.'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'XPath-vælgeren for dette metafelt i metadata-XML-filerne.'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_import_config_editor_metafield {
+  key = 'SETTINGS_IMPORT_CONFIG_EDITOR_METAFIELD'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Metafield'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Metafelt'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_import_config_editor_metafield_tooltip {
+  key = 'SETTINGS_IMPORT_CONFIG_EDITOR_METAFIELD_TOOLTIP'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'The metafield to assign this value to.'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Metafeltet, som denne værdi skal tildeles.'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_import_config_editor_itemid {
+  key = 'SETTINGS_IMPORT_CONFIG_EDITOR_ITEMID'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'ItemId'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'ItemId'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_import_config_editor_tag_type {
+  key = 'SETTINGS_IMPORT_CONFIG_EDITOR_TAG_TYPE'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Tag type'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Tag-type'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_import_config_editor_tag_type_tooltip {
+  key = 'SETTINGS_IMPORT_CONFIG_EDITOR_TAG_TYPE_TOOLTIP'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Use ItemId to match this field against a specific asset\'s itemId. Otherwise, use Metafield to update a metafield to get the value found with the match.'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Brug ItemId til at matche dette felt med et specifikt assets itemId. Ellers skal du bruge Metafelt til at opdatere et metafelt til at få værdien fundet ved matchet.'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_import_config_editor_add_field {
+  key = 'SETTINGS_IMPORT_CONFIG_EDITOR_ADD_FIELD'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Add field'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Tilføj felt'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_import_config_editor_match_token_tag {
+  key = 'SETTINGS_IMPORT_CONFIG_EDITOR_MATCH_TOKEN_TAG'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Match token tag'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Match token-tag'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_import_config_editor_match_token_tag_tooltip {
+  key = 'SETTINGS_IMPORT_CONFIG_EDITOR_MATCH_TOKEN_TAG_TOOLTIP'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'The tag in the XML that contains the token used as input in Match token tag'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Tagget i XML\'en, der indeholder tokenet, der bruges som input i Match token-tag'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_import_config_editor_match_token_column {
+  key = 'SETTINGS_IMPORT_CONFIG_EDITOR_MATCH_TOKEN_COLUMN'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Match token column'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Match token-kolonne'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_import_config_editor_match_token_column_tooltip {
+  key = 'SETTINGS_IMPORT_CONFIG_EDITOR_MATCH_TOKEN_COLUMN_TOOLTIP'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'The 0-indexed column in the sheet holds the token used as input in Match token column. In practice, this means the first column in the sheet has the number 0, not 1.'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Den 0-indekserede kolonne i arket der indeholder tokenet, som bruges som input i Match token-kolonne. I praksis betyder det, at den første kolonne i arket har tallet 0, ikke 1.'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_import_config_editor_filename_column {
+  key = 'SETTINGS_IMPORT_CONFIG_EDITOR_FILENAME_COLUMN'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'File name column'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Filnavn-kolonne'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_import_config_editor_filename_column_tooltip {
+  key = 'SETTINGS_IMPORT_CONFIG_EDITOR_FILENAME_COLUMN_TOOLTIP'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'The 0-indexed column that contains the file name. In practice, this means the first column in the sheet has the number 0, not 1.'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Den 0-indekserede kolonne, der indeholder filnavnet. I praksis betyder det, at den første kolonne i arket har tallet 0, ikke 1.'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_import_config_editor_data_start_row {
+  key = 'SETTINGS_IMPORT_CONFIG_EDITOR_DATA_START_ROW'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Data\'s start row'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Datas start-række'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_import_config_editor_data_start_row_tooltip {
+  key = 'SETTINGS_IMPORT_CONFIG_EDITOR_DATA_START_ROW_TOOLTIP'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'The 0-indexed row the data in the sheet starts at. It has to be greater than the metafield ID\'s row. In practice, this means the first row in the sheet has the number 0, not 1.'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Den 0-indekserede række dataene i arket starter ved. Det skal være større end metafelt-id\'ets række. I praksis betyder det, at den første række i arket har tallet 0, ikke 1.'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_import_config_editor_metafield_id_row {
+  key = 'SETTINGS_IMPORT_CONFIG_EDITOR_METAFIELD_ID_ROW'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Metafield ID row'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Metafield ID-række'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_import_config_editor_metafield_id_row_tooltip {
+  key = 'SETTINGS_IMPORT_CONFIG_EDITOR_METAFIELD_ID_ROW_TOOLTIP'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'The 0-indexed row in which the metafield ID for each column is in. In practice, this means that the first row in the sheet has the number 0, not 1.'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Den 0-indekserede række, som metafelt-ID\'et for hver kolonne er i. I praksis betyder det, at den første række i arket har tallet 0, ikke 1.'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_import_config_editor_sheet_directory {
+  key = 'SETTINGS_IMPORT_CONFIG_EDITOR_SHEET_DIRECTORY'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Sheet directory'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Ark-mappe'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_import_config_editor_sheet_directory_tooltip {
+  key = 'SETTINGS_IMPORT_CONFIG_EDITOR_SHEET_DIRECTORY_TOOLTIP'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'The directory for metadata sheets. When left empty, it defaults to "Sheet directory".'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Mappe hvor ark ligger. Hvis tom, vil den bruge "Ark-mapper"'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_import_config_editor_csv {
+  key = 'SETTINGS_IMPORT_CONFIG_EDITOR_CSV'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'CSV'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'CSV'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_import_config_editor_excel {
+  key = 'SETTINGS_IMPORT_CONFIG_EDITOR_EXCEL'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Excel'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Excel'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_import_config_editor_sheet_type {
+  key = 'SETTINGS_IMPORT_CONFIG_EDITOR_SHEET_TYPE'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Sheet type'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Ark-type'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_import_config_editor_sheet_type_tooltip {
+  key = 'SETTINGS_IMPORT_CONFIG_EDITOR_SHEET_TYPE_TOOLTIP'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Sheet type'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Ark-type'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_import_config_editor_ingest_from_xml {
+  key = 'SETTINGS_IMPORT_CONFIG_EDITOR_INGEST_FROM_XML'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Import from XML'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Import fra XML'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_import_config_editor_ingest_from_sheets {
+  key = 'SETTINGS_IMPORT_CONFIG_EDITOR_INGEST_FROM_SHEETS'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Import from sheets'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Importer fra ark'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_import_config_editor_do_not_ingest_metadata {
+  key = 'SETTINGS_IMPORT_CONFIG_EDITOR_DO_NOT_INGEST_METADATA'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Do not import metadata'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Importer ikke metadata'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_import_config_editor_metadata_ingest_mode {
+  key = 'SETTINGS_IMPORT_CONFIG_EDITOR_METADATA_INGEST_MODE'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Metadata import mode'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Metadata-import-tilstand'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_import_config_editor_metadata_ingest_mode_tooltip {
+  key = 'SETTINGS_IMPORT_CONFIG_EDITOR_METADATA_INGEST_MODE_TOOLTIP'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Write the metadata input type here (if any)'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Skriv metadata-input-typen her (hvis der er nogen)'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_import_config_editor_absolutepath {
+  key = 'SETTINGS_IMPORT_CONFIG_EDITOR_ABSOLUTEPATH'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Absolute path'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Absolut sti'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_import_config_editor_relativepath {
+  key = 'SETTINGS_IMPORT_CONFIG_EDITOR_RELATIVEPATH'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Relative path'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Relativ sti'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_import_config_editor_filenamenoextension {
+  key = 'SETTINGS_IMPORT_CONFIG_EDITOR_FILENAMENOEXTENSION'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'File name (no extension)'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Filnavn (uden extension)'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_import_config_editor_filenameonly {
+  key = 'SETTINGS_IMPORT_CONFIG_EDITOR_FILENAMEONLY'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'File name (only)'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Filnavn (udelukkende)'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_import_config_editor_match_token_fallback_type {
+  key = 'SETTINGS_IMPORT_CONFIG_EDITOR_MATCH_TOKEN_FALLBACK_TYPE'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Match token fallback type'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Match token fallback-type'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_import_config_editor_match_token_fallback_type_tooltip {
+  key = 'SETTINGS_IMPORT_CONFIG_EDITOR_MATCH_TOKEN_FALLBACK_TYPE_TOOLTIP'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'When Match token column / Match token tag are either not set, or the value is empty, it will fall back to the uploaded asset\'s file name.'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Når Match token-kolonnen / Match token-tag enten ikke er angivet, eller værdien er tom, vil den i stedet bruge det uploadede assets filnavn.'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_import_config_editor_dont_use_a_search {
+  key = 'SETTINGS_IMPORT_CONFIG_EDITOR_DONT_USE_A_SEARCH'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Don\'t use a search'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Brug ikke en søgning'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_import_config_editor_match_search_name {
+  key = 'SETTINGS_IMPORT_CONFIG_EDITOR_MATCH_SEARCH_NAME'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Match search name'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Match søgenavn'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_import_config_editor_match_search_name_tooltip {
+  key = 'SETTINGS_IMPORT_CONFIG_EDITOR_MATCH_SEARCH_NAME_TOOLTIP'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'The search result will determine whether an asset should be replaced (during upload) or which asset will get its metadata updated (only when updating metadata).'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Søgeresultatet afgør, om et asset skal udskiftes (under upload), eller hvilket asset vil få sine metadata opdateret (kun ved opdatering af metadata).'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_import_config_editor_uploader_member_id {
+  key = 'SETTINGS_IMPORT_CONFIG_EDITOR_UPLOADER_MEMBER_ID'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Uploader\'s user ID'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Uploaders bruger-ID'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_import_config_editor_uploader_member_id_tooltip {
+  key = 'SETTINGS_IMPORT_CONFIG_EDITOR_UPLOADER_MEMBER_ID_TOOLTIP'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'The ID of the user who will be set as the asset uploader.'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'ID\'et på den bruger, der vil blive angivet som asset-uploaderen.'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_import_config_editor_invariant {
+  key = 'SETTINGS_IMPORT_CONFIG_EDITOR_INVARIANT'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Invariant'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Invariant'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_import_config_editor_culture {
+  key = 'SETTINGS_IMPORT_CONFIG_EDITOR_CULTURE'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Culture'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Kultur'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_import_config_editor_culture_tooltip {
+  key = 'SETTINGS_IMPORT_CONFIG_EDITOR_CULTURE_TOOLTIP'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'How it parses float and datetime values. If in doubt, use the "Invariant" culture.'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Hvordan den oversætter float- og datetime-værdier. Hvis du er i tvivl, så brug "Invariant"-kulturen.'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_import_config_editor_treat_zero_byte_files_as_failed {
+  key = 'SETTINGS_IMPORT_CONFIG_EDITOR_TREAT_ZERO_BYTE_FILES_AS_FAILED'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Treat zero byte files (empty files) as failed'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Behandl nulbyte-filer (tomme filer) som mislykkede'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_import_config_editor_treat_zero_byte_files_as_failed_tooltip {
+  key = 'SETTINGS_IMPORT_CONFIG_EDITOR_TREAT_ZERO_BYTE_FILES_AS_FAILED_TOOLTIP'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'How it handles zero-byte files. "True" will fail them. "False" will make it retry the import. It is important to set this to "False" when the input is either FTP or a similar input type that allocates a zero-byte file and writes to it later.
+
+The default is "False". This alters the system\'s behavior, as it always treated zero-byte files as failed before introducing this setting.'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Hvordan systemet håndterer nul-byte filer. "True" vil sætte dem som fejlede. "False" vil få systemet til at prøve at genkøre importeringen. Det er vigtigt at sætte det til "False", når inputtet er FTP eller en lignende input-type, som allokerer en nul-byte fil og så skriver til den senere.
+
+Den er som standard "False". Dette ændrer systemets adfærd, da systemet altid behandlede nulbyte-filer som mislykkede før introduktionen af denne indstilling.'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_import_config_editor_last_write_delay_before_upload {
+  key = 'SETTINGS_IMPORT_CONFIG_EDITOR_LAST_WRITE_DELAY_BEFORE_UPLOAD'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Last write delay before upload'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Sidste skriveforsinkelse før upload'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_import_config_editor_last_write_delay_before_upload_tooltip {
+  key = 'SETTINGS_IMPORT_CONFIG_EDITOR_LAST_WRITE_DELAY_BEFORE_UPLOAD_TOOLTIP'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Delay in seconds between when a file is last written into until the importer starts uploading it. The default is zero, which has been the default behavior for the Importer since the beginning.
+
+Leave this be 0 unless using FTP or perhaps a 3rd party file integration that fails even when "Treat zero byte files (empty files) as failed" is "False".'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Forsinkelse i sekunder mellem, hvornår en fil sidst bliver skrevet til, indtil importeren begynder at uploade den. Som standard er den nul, hvilket har været standardadfærden for importeren siden begyndelsen.
+
+Lad denne værdi være 0, medmindre du bruger FTP eller potentielt set tredjeparts fil-integration, der mislykkes, selv når "Behandl nulbyte-filer (tomme filer) som mislykkede" er "False".'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_import_config_editor_delete_empty_directories {
+  key = 'SETTINGS_IMPORT_CONFIG_EDITOR_DELETE_EMPTY_DIRECTORIES'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Delete empty directories'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Slet tomme mapper'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_import_config_editor_delete_empty_directories_tooltip {
+  key = 'SETTINGS_IMPORT_CONFIG_EDITOR_DELETE_EMPTY_DIRECTORIES_TOOLTIP'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'When "True" all empty directories below "Sheet directory" will be deleted after files and/or metadata have been imported.'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Når denne er sat til "True", vil alle tomme mapper under "Ark-mappe" blive slettet, efter at filer og/eller metadata er blevet importeret.'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_import_config_editor_destination_directory {
+  key = 'SETTINGS_IMPORT_CONFIG_EDITOR_DESTINATION_DIRECTORY'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Destination directory'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Destinations-mappe'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_import_config_editor_destination_directory_failed_tooltip {
+  key = 'SETTINGS_IMPORT_CONFIG_EDITOR_DESTINATION_DIRECTORY_FAILED_TOOLTIP'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'The directory where failed files are moved to'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Den mappe, hvor mislykkede filer flyttes til'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_import_config_editor_destination_directory_success_tooltip {
+  key = 'SETTINGS_IMPORT_CONFIG_EDITOR_DESTINATION_DIRECTORY_SUCCESS_TOOLTIP'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'The directory where successful files are moved to'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Den mappe, hvor vellykkede filer flyttes til'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_import_config_editor_move {
+  key = 'SETTINGS_IMPORT_CONFIG_EDITOR_MOVE'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Move'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Flyt'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_import_config_editor_delete {
+  key = 'SETTINGS_IMPORT_CONFIG_EDITOR_DELETE'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Delete'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Slet'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_import_config_editor_keep {
+  key = 'SETTINGS_IMPORT_CONFIG_EDITOR_KEEP'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Keep'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Behold'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_import_config_editor_failure_action {
+  key = 'SETTINGS_IMPORT_CONFIG_EDITOR_FAILURE_ACTION'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Failure action'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Handling ved fejl'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_import_config_editor_failure_action_tooltip {
+  key = 'SETTINGS_IMPORT_CONFIG_EDITOR_FAILURE_ACTION_TOOLTIP'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'What happens with the file when its import fails'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Hvad der sker med filen, når importeringen mislykkes'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_import_config_editor_success_action {
+  key = 'SETTINGS_IMPORT_CONFIG_EDITOR_SUCCESS_ACTION'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Success action'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Handling ved vellykket import'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_import_config_editor_success_action_tooltip {
+  key = 'SETTINGS_IMPORT_CONFIG_EDITOR_SUCCESS_ACTION_TOOLTIP'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'What happens to the file when it has was successfully imported.'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Hvad der sker med filen, når den er blevet importeret.'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_import_config_editor_stamp_field {
+  key = 'SETTINGS_IMPORT_CONFIG_EDITOR_STAMP_FIELD'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Stamp field'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Stempel-felt'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_import_config_editor_stamp_field_tooltip {
+  key = 'SETTINGS_IMPORT_CONFIG_EDITOR_STAMP_FIELD_TOOLTIP'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'The metadata field to stamp the file name into.'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Metadatafeltet til at stemple filnavnet ind i.'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_import_config_editor_do_not_stamp {
+  key = 'SETTINGS_IMPORT_CONFIG_EDITOR_DO_NOT_STAMP'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Do not stamp'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Stempl ikke'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_import_config_editor_file_name_stamp_type {
+  key = 'SETTINGS_IMPORT_CONFIG_EDITOR_FILE_NAME_STAMP_TYPE'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'File name stamp type'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Filnavns stempel-type'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_import_config_editor_file_name_stamp_type_tooltip {
+  key = 'SETTINGS_IMPORT_CONFIG_EDITOR_FILE_NAME_STAMP_TYPE_TOOLTIP'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Determine how the importer handles setting the file name as a metadata value on uploaded assets'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Bestem hvordan importeren skal sætte filnavnet som en metadataværdi på uploadede assets'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_import_config_editor_archive_on_replace {
+  key = 'SETTINGS_IMPORT_CONFIG_EDITOR_ARCHIVE_ON_REPLACE'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Archive on replace'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Arkiver ved udskiftning'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_import_config_editor_archive_on_replace_tooltip {
+  key = 'SETTINGS_IMPORT_CONFIG_EDITOR_ARCHIVE_ON_REPLACE_TOOLTIP'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Whether to overwrite (false) or archive (true) an asset when replacing.'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Om et asset skal overskrives (false) eller arkiveres (true) ved udskiftning.'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_import_config_editor_keep_metadata {
+  key = 'SETTINGS_IMPORT_CONFIG_EDITOR_KEEP_METADATA'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Keep metadata'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Keep metadata'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_import_config_editor_keep_metadata_tooltip {
+  key = 'SETTINGS_IMPORT_CONFIG_EDITOR_KEEP_METADATA_TOOLTIP'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'If existing metadata on the asset should be kept when it is replaced.'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'If existing metadata on the asset should be kept when it is replaced.'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_import_config_editor_computer_name {
+  key = 'SETTINGS_IMPORT_CONFIG_EDITOR_COMPUTER_NAME'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Computer name'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Computer-navn'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_import_config_editor_computer_name_tooltip {
+  key = 'SETTINGS_IMPORT_CONFIG_EDITOR_COMPUTER_NAME_TOOLTIP'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'An identification token of the uploading application.'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Et identifikations-token for upload-applikationen.'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_import_config_editor_run_upload {
+  key = 'SETTINGS_IMPORT_CONFIG_EDITOR_RUN_UPLOAD'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Run upload'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Kør upload'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_import_config_editor_run_upload_tooltip {
+  key = 'SETTINGS_IMPORT_CONFIG_EDITOR_RUN_UPLOAD_TOOLTIP'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Set to "True" when in need of asset import.'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Sæt til "True", når der er behov for asset-import.'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_import_config_editor_zip_content_directory {
+  key = 'SETTINGS_IMPORT_CONFIG_EDITOR_ZIP_CONTENT_DIRECTORY'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Zip content directory'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Zip-indholds mappe'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_import_config_editor_zip_content_directory_tooltip {
+  key = 'SETTINGS_IMPORT_CONFIG_EDITOR_ZIP_CONTENT_DIRECTORY_TOOLTIP'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Directory for zipped content. Zip content will be unpacked in the "Upload directory".'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Mappe for zippet indhold. Zip-indhold vil blive pakket ud i "Upload-mappen".'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_import_config_editor_upload_directory {
+  key = 'SETTINGS_IMPORT_CONFIG_EDITOR_UPLOAD_DIRECTORY'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Upload directory'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Upload-mappe'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_import_config_editor_upload_directory_tooltip {
+  key = 'SETTINGS_IMPORT_CONFIG_EDITOR_UPLOAD_DIRECTORY_TOOLTIP'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'The upload folder (hot folder) which is constantly waiting for input (files and sheets)'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Upload-mappen (hot folder) som konstant afventer input (filer og ark)'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_import_config_editor_active {
+  key = 'SETTINGS_IMPORT_CONFIG_EDITOR_ACTIVE'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Active'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Aktiv'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_import_config_editor_active_tooltip {
+  key = 'SETTINGS_IMPORT_CONFIG_EDITOR_ACTIVE_TOOLTIP'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Active'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Aktiv'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_import_config_editor_name {
+  key = 'SETTINGS_IMPORT_CONFIG_EDITOR_NAME'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Name'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Navn'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_import_config_editor_name_tooltip {
+  key = 'SETTINGS_IMPORT_CONFIG_EDITOR_NAME_TOOLTIP'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'The name of this import configuration. Only used for identification by humans.'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Navnet på denne import-konfiguration. Bruges kun til identifikation af mennesker.'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_import_config_editor_error_while_saving {
+  key = 'SETTINGS_IMPORT_CONFIG_EDITOR_ERROR_WHILE_SAVING'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Error while saving:'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Fejl under lagring:'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_import_config_editor_save {
+  key = 'SETTINGS_IMPORT_CONFIG_EDITOR_SAVE'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = '{saving, select, true {Saving} false {Save}}'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = '{saving, select, true {Saving} false {Save}}'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_importer_settings_confirm_delete_confirm {
+  key = 'SETTINGS_IMPORTER_SETTINGS_CONFIRM_DELETE_CONFIRM'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Delete'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Slet'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_importer_settings_confirm_delete_cancel {
+  key = 'SETTINGS_IMPORTER_SETTINGS_CONFIRM_DELETE_CANCEL'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Keep'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Behold'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_importer_settings_confirm_delete_title {
+  key = 'SETTINGS_IMPORTER_SETTINGS_CONFIRM_DELETE_TITLE'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Delete import configuration'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Slet importkonfiguration'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_importer_settings_confirm_delete_content {
+  key = 'SETTINGS_IMPORTER_SETTINGS_CONFIRM_DELETE_CONTENT'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Are you sure you want to delete the import configuration "{{name}}"?'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Er du sikker på, at du vil slette importkonfigurationen "{{name}}"?'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_import_config_editor_remove_specified_values {
+  key = 'SETTINGS_IMPORT_CONFIG_EDITOR_REMOVE_SPECIFIED_VALUES'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Remove specified values'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Remove specified values'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_import_config_editor_merge_with_existing_values {
+  key = 'SETTINGS_IMPORT_CONFIG_EDITOR_MERGE_WITH_EXISTING_VALUES'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Merge with existing values'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Merge with existing values'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_import_config_editor_override {
+  key = 'SETTINGS_IMPORT_CONFIG_EDITOR_OVERRIDE'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Override'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Override'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_import_config_editor_multi_value_update_method {
+  key = 'SETTINGS_IMPORT_CONFIG_EDITOR_MULTI_VALUE_UPDATE_METHOD'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Multi value update method'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Multi value update method'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_import_config_editor_multi_value_update_method_tooltip {
+  key = 'SETTINGS_IMPORT_CONFIG_EDITOR_MULTI_VALUE_UPDATE_METHOD_TOOLTIP'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'If updating an existing asset, how should the import deal with existing value?'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'If updating an existing asset, how should the import deal with existing value?'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
