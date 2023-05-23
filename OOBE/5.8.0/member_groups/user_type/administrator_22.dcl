@@ -26,7 +26,7 @@ patch member_group administrator_patch {
         }, {
             constant = 'RunningJobs_ChangePriority'
         }, {
-            constant = 'RunningJobs_AdminViewSubmitXML'
+            constant = 'RunningJobs_AdminViewBatchPackageInfo'
         }, {
             constant = 'Uploader_ShowFolderSelector'
         }, {
