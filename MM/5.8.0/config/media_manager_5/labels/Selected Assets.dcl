@@ -670,3 +670,35 @@ resource configservice_label selected_assets_overlay_not_valid_asset_types_dialo
   ]
 }
 
+resource configservice_label selected_assets_overlay_not_valid_insert_count_dialog_some_assets_are_locked_title {
+  key = 'SELECTED_ASSETS_OVERLAY_NOT_VALID_INSERT_COUNT_DIALOG_SOME_ASSETS_ARE_LOCKED_TITLE'
+  group = 'Selected Assets'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = '{count, cardinalPlural, one {An asset cannot be inserted with the selected quality} other {Some assets cannot be inserted with the selected quality}}'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = '{count, cardinalPlural, one {Et asset kan ikke indsættes med den valgte kvalitet} other {Nogle assets kan ikke indsættes med den valgte kvalitet}}'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label selected_assets_overlay_not_valid_insert_count_dialog_x_of_y_assets_are_locked {
+  key = 'SELECTED_ASSETS_OVERLAY_NOT_VALID_INSERT_COUNT_DIALOG_X_OF_Y_ASSETS_ARE_LOCKED'
+  group = 'Selected Assets'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = '{{notAvailableAssetCount}} out of the {{totalAssetCount}} selected assets cannot be inserted with the selected quality.'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = '{{notAvailableAssetCount}} ud af de {{totalAssetCount}} valgte assets kan ikke indsættes med den valgte kvalitet.'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+

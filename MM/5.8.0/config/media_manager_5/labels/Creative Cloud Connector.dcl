@@ -2228,11 +2228,11 @@ resource configservice_label link_manager_no_links_inserted_in_document {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = '{applicationId, select, PHXS {No items inserted into the document. Please be aware that the Photoshop link manager only supports assets and linked items. Insert via File → Place Linked… for items to appear here} PHSP {No items inserted into the document. Please note that the Photoshop link manager only supports assets and linked items. Insert via File → Place Linked… for items to appear here} IDSN {No items inserted into the document} ILST {No items inserted into the document} PPRO {No items inserted into the project}} AEFT {No items inserted into the project}}'
+      default_translation = '{applicationId, select, PHXS {No items inserted into the document. Please be aware that the Photoshop link manager only supports assets and linked items. Insert via File → Place Linked… for items to appear here} PHSP {No items inserted into the document. Please note that the Photoshop link manager only supports assets and linked items. Insert via File → Place Linked… for items to appear here} IDSN {No items inserted into the document} ILST {No items inserted into the document} PPRO {No items inserted into the project} AEFT {No items inserted into the project}}'
       language_id = data.language.english.id
     },
     {
-      default_translation = '{applicationId, select, PHXS {Ingen elementer indsat i dokumentet. Vær opmærksom på at Photoshop link manageren kun understøtter assets og lænkede elementer. Indsæt via Fil → Placer sammenkædet... for at vise elementer her} PHSP {Ingen elementer indsat i dokumentet. Vær opmærksom på at Photoshop link manageren kun understøtter assets og lænkede elementer. Indsæt via Fil → Placer sammenkædet... for at vise elementer her} IDSN {Ingen elementer indsat i dokumentet} ILST {Ingen elementer indsat i dokumentet} PPRO {Ingen elementer indsat i projektet}} AEFT {Ingen elementer indsat i projektet}}'
+      default_translation = '{applicationId, select, PHXS {Ingen elementer indsat i dokumentet. Vær opmærksom på at Photoshop link manageren kun understøtter assets og lænkede elementer. Indsæt via Fil → Placer sammenkædet... for at vise elementer her} PHSP {Ingen elementer indsat i dokumentet. Vær opmærksom på at Photoshop link manageren kun understøtter assets og lænkede elementer. Indsæt via Fil → Placer sammenkædet... for at vise elementer her} IDSN {Ingen elementer indsat i dokumentet} ILST {Ingen elementer indsat i dokumentet} PPRO {Ingen elementer indsat i projektet} AEFT {Ingen elementer indsat i projektet}}'
       language_id = data.language.danish.id
     }
   ]
@@ -3284,11 +3284,11 @@ resource configservice_label creative_cloud_connector_insert_asset_export_qualit
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Either you do not have access rights to the defined export quality (id: {{mediaFormatId}}) or an export quality has not been defined.'
+      default_translation = 'You do not have the required access rights to this system\'s export quality (id: {{mediaFormatId}})'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Enten har du ikke adgang til den definerede eksport-kvalitet (id: {{mediaFormatId}}) ellers er eksport-kvaliteten ikke defineret.'
+      default_translation = 'Du har ikke de fornødne rettigheder til at tilgå dette systems eksport-kvalitet (id: {{mediaFormatId}})'
       language_id = data.language.danish.id
     }
   ]
@@ -3300,11 +3300,11 @@ resource configservice_label creative_cloud_connector_insert_asset_insert_qualit
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Either you do not have the required access rights to this system\'s insert quality (id: {{mediaFormatId}}) or an insert quality has not been defined for this system.'
+      default_translation = 'You do not have the required access rights to this system\'s insert quality (id: {{mediaFormatId}})'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Enten har du ikke de fornødne rettigheder til at tilgå dette systems indsæt-kvalitet (id: {{mediaFormatId}}) ellers er indsæt-kvaliteten ikke defineret for dette system.'
+      default_translation = 'Du har ikke de fornødne rettigheder til at tilgå dette systems indsæt-kvalitet (id: {{mediaFormatId}})'
       language_id = data.language.danish.id
     }
   ]
@@ -3326,17 +3326,17 @@ resource configservice_label creative_cloud_connector_insert_asset_no_access_to_
   ]
 }
 
-resource configservice_label creative_cloud_connector_quality_is_downloaded {
-  key = 'CREATIVE_CLOUD_CONNECTOR_QUALITY_IS_DOWNLOADED'
+resource configservice_label creative_cloud_connector_quality_not_downloaded {
+  key = 'CREATIVE_CLOUD_CONNECTOR_QUALITY_NOT_DOWNLOADED'
   group = 'Creative Cloud Connector'
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Quality already downloaded'
+      default_translation = 'Quality not downloaded'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Kvalitet allerede downloadet'
+      default_translation = 'Kvalitet ikke downloadet'
       language_id = data.language.danish.id
     }
   ]
