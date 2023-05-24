@@ -134,10 +134,6 @@ patch member_group administrator_patch {
         }, {
             constant = 'Comments_Admin_Update'
         }, {
-            constant = 'Office_Can_Upload_New'
-        }, {
-            constant = 'Office_Can_Replace'
-        }, {
             constant = 'Business_Workflow_Instance_View'
         }, {
             constant = 'Business_Workflow_Instance_Transition'

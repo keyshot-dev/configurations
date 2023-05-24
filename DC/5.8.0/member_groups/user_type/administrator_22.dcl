@@ -98,10 +98,6 @@ resource member_group administrator_22 {
         }, {
             constant = 'Asset_Can_Download_Any'
         }, {
-            constant = 'Office_Can_Upload_New'
-        }, {
-            constant = 'Office_Can_Replace'
-        }, {
             constant = 'MailTemplates_CRUD'
         }, {
             constant = 'Can_Configure_Members'
