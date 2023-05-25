@@ -68,10 +68,6 @@ patch member_group content_creator_patch {
         }, {
             constant = 'Can_Live_Export_Metadata_Only'
         }, {
-            constant = 'Office_Can_Upload_New'
-        }, {
-            constant = 'Office_Can_Replace'
-        }, {
             constant = 'Business_Workflow_Instance_View'
         }, {
             constant = 'Business_Workflow_Instance_Transition'

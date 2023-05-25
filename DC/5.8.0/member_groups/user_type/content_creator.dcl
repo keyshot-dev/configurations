@@ -14,10 +14,6 @@ resource member_group content_creator {
         }, {
             constant = 'MediaPortal_Share'
         }, {
-            constant = 'Office_Can_Upload_New'
-        }, {
-            constant = 'Office_Can_Replace'
-        }, {
             constant = 'Can_view_metadata_tab'
         }, {
             constant = 'Can_view_related_assets'

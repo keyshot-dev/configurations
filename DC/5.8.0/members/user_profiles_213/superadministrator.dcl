@@ -192,10 +192,6 @@ resource member superadministrator {
         }, {
             constant = 'Business_Workflow_Instance_Delete'
         }, {
-            constant = 'Office_Can_Upload_New'
-        }, {
-            constant = 'Office_Can_Replace'
-        }, {
             constant = 'Business_Workflow_Instance_View'
         }, {
             constant = 'Business_Workflow_Instance_Transition'
