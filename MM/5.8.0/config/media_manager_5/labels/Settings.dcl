@@ -6374,3 +6374,19 @@ resource configservice_label settings_import_config_editor_multi_value_update_me
   ]
 }
 
+resource configservice_label settings_factory_reset_button {
+  key = 'SETTINGS_FACTORY_RESET_BUTTON'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Factory reset'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Gendan fabriksindstillinger'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+

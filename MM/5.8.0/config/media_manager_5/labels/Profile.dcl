@@ -126,6 +126,22 @@ resource configservice_label profile_credentials_repeat_password {
   ]
 }
 
+resource configservice_label profile_credentials_password_changed {
+  key = 'PROFILE_CREDENTIALS_PASSWORD_CHANGED'
+  group = 'Profile'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Password updated'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Kodeord opdateret'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label profile_credentials_error_passwords_identical {
   key = 'PROFILE_CREDENTIALS_ERROR_PASSWORDS_IDENTICAL'
   group = 'Profile'
@@ -136,7 +152,7 @@ resource configservice_label profile_credentials_error_passwords_identical {
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Kodeord stemmer ikke overens'
+      default_translation = 'Kodeordene stemmer ikke overens'
       language_id = data.language.danish.id
     }
   ]

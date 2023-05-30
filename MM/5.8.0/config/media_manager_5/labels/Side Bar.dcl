@@ -622,3 +622,19 @@ resource configservice_label mobile_menu_file_manager {
   ]
 }
 
+resource configservice_label mobile_menu_file_manager_settings {
+  key = 'MOBILE_MENU_FILE_MANAGER_SETTINGS'
+  group = 'Side Bar'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Settings'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Indstillinger'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+

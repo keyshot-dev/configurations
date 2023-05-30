@@ -1124,11 +1124,11 @@ resource configservice_label asset_list_filter_menu_apply_values {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Apply values'
+      default_translation = 'Apply'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Anvend værdier'
+      default_translation = 'Anvend'
       language_id = data.language.danish.id
     }
   ]
@@ -1145,6 +1145,38 @@ resource configservice_label asset_list_filter_menu_na_placeholder {
     },
     {
       default_translation = 'N/A'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_list_filter_menu_min {
+  key = 'ASSET_LIST_FILTER_MENU_MIN'
+  group = 'Asset List'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Min'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Min'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_list_filter_menu_max {
+  key = 'ASSET_LIST_FILTER_MENU_MAX'
+  group = 'Asset List'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Max'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Max'
       language_id = data.language.danish.id
     }
   ]

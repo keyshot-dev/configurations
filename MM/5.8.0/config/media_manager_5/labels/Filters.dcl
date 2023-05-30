@@ -318,6 +318,22 @@ resource configservice_label asset_list_filters_configuration_tooltip {
   ]
 }
 
+resource configservice_label asset_list_filters_reset_to_default_tooltip {
+  key = 'ASSET_LIST_FILTERS_RESET_TO_DEFAULT_TOOLTIP'
+  group = 'Filters'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Reset to default filters'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Nulstil til standardfiltre'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label asset_list_filters_configuration_reorder_tooltip {
   key = 'ASSET_LIST_FILTERS_CONFIGURATION_REORDER_TOOLTIP'
   group = 'Filters'

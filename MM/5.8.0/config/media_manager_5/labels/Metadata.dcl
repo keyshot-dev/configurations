@@ -1252,11 +1252,11 @@ resource configservice_label multi_metadata_editor_tree_input_options {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Edit'
+      default_translation = 'Open editor'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Redigér'
+      default_translation = 'Åbn editor'
       language_id = data.language.danish.id
     }
   ]
@@ -1673,6 +1673,70 @@ resource configservice_label multi_metadata_editor_metadata_pinned_description {
     },
     {
       default_translation = 'Find det i kategorien Fastgjorte Metadata'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label multi_metadata_editor_language_show_all_tooltip {
+  key = 'MULTI_METADATA_EDITOR_LANGUAGE_SHOW_ALL_TOOLTIP'
+  group = 'Metadata'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Show all languages'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Vis alle sprog'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label multi_metadata_editor_language_show_active_tooltip {
+  key = 'MULTI_METADATA_EDITOR_LANGUAGE_SHOW_ACTIVE_TOOLTIP'
+  group = 'Metadata'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Show active language only'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Vis kun det aktive sprog'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label multi_metadata_editor_edit_toogle_tooltip {
+  key = 'MULTI_METADATA_EDITOR_EDIT_TOOGLE_TOOLTIP'
+  group = 'Metadata'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Toggle edit mode'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Slå redigeringstilstand til/fra'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label multi_metadata_editor_edit_tooltip {
+  key = 'MULTI_METADATA_EDITOR_EDIT_TOOLTIP'
+  group = 'Metadata'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Edit'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Rediger'
       language_id = data.language.danish.id
     }
   ]

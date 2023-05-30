@@ -1134,8 +1134,24 @@ resource configservice_label creative_cloud_connector_restore_broken_links_finis
   ]
 }
 
-resource configservice_label creative_cloud_connector_insert_error {
-  key = 'CREATIVE_CLOUD_CONNECTOR_INSERT_ERROR'
+resource configservice_label creative_cloud_connector_insert_error_title {
+  key = 'CREATIVE_CLOUD_CONNECTOR_INSERT_ERROR_TITLE'
+  group = 'Creative Cloud Connector'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Error'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Fejl'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label creative_cloud_connector_insert_failed_to_download_error {
+  key = 'CREATIVE_CLOUD_CONNECTOR_INSERT_FAILED_TO_DOWNLOAD_ERROR'
   group = 'Creative Cloud Connector'
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
@@ -1150,17 +1166,33 @@ resource configservice_label creative_cloud_connector_insert_error {
   ]
 }
 
-resource configservice_label creative_cloud_connector_insert_error_title {
-  key = 'CREATIVE_CLOUD_CONNECTOR_INSERT_ERROR_TITLE'
+resource configservice_label creative_cloud_connector_insert_failed_to_insert_error {
+  key = 'CREATIVE_CLOUD_CONNECTOR_INSERT_FAILED_TO_INSERT_ERROR'
   group = 'Creative Cloud Connector'
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Error'
+      default_translation = 'Failed to insert the asset'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Fejl'
+      default_translation = 'Assettet kunne ikke indsættes'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label creative_cloud_connector_link_process_failed_to_update_error {
+  key = 'CREATIVE_CLOUD_CONNECTOR_LINK_PROCESS_FAILED_TO_UPDATE_ERROR'
+  group = 'Creative Cloud Connector'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Failed to update the item'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Elementet kunne ikke blive opdateret'
       language_id = data.language.danish.id
     }
   ]
@@ -4702,6 +4734,54 @@ resource configservice_label creative_cloud_connector_mobile_menu_replace_asset 
   ]
 }
 
+resource configservice_label creative_cloud_connector_mobile_menu_missing_upload_role {
+  key = 'CREATIVE_CLOUD_CONNECTOR_MOBILE_MENU_MISSING_UPLOAD_ROLE'
+  group = 'Creative Cloud Connector'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Your user does not have the right to upload'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Din bruger har ikke ret til at uploade'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label creative_cloud_connector_mobile_menu_document_not_uploaded_yet {
+  key = 'CREATIVE_CLOUD_CONNECTOR_MOBILE_MENU_DOCUMENT_NOT_UPLOADED_YET'
+  group = 'Creative Cloud Connector'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'No associated asset to replace'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Intet tilknyttet asset at overskrive'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label creative_cloud_connector_mobile_menu_missing_replace_role {
+  key = 'CREATIVE_CLOUD_CONNECTOR_MOBILE_MENU_MISSING_REPLACE_ROLE'
+  group = 'Creative Cloud Connector'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'You either do not have the right to replace or you don\'t have write access'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Du har enten ikke ret til at overskrive, eller også har du ikke skriveadgang'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label creative_cloud_connector_active_document_outdated_title {
   key = 'CREATIVE_CLOUD_CONNECTOR_ACTIVE_DOCUMENT_OUTDATED_TITLE'
   group = 'Creative Cloud Connector'
@@ -4777,6 +4857,22 @@ resource configservice_label creative_cloud_connector_link_more_popup_search_in_
     },
     {
       default_translation = 'Link til asset'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label creative_cloud_connector_link_more_popup_search_in_dam_failed_to_link {
+  key = 'CREATIVE_CLOUD_CONNECTOR_LINK_MORE_POPUP_SEARCH_IN_DAM_FAILED_TO_LINK'
+  group = 'Creative Cloud Connector'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Failed to link to asset'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Fejlede med at linke til asset'
       language_id = data.language.danish.id
     }
   ]
@@ -5145,6 +5241,86 @@ resource configservice_label link_manager_link_status_loading_label {
     },
     {
       default_translation = 'Indlæser'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label selected_links_overlay_non_manageable_links_dialog_some_links_are_locked_title {
+  key = 'SELECTED_LINKS_OVERLAY_NON_MANAGEABLE_LINKS_DIALOG_SOME_LINKS_ARE_LOCKED_TITLE'
+  group = 'Creative Cloud Connector'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = '{count, cardinalPlural, one {An item cannot be {action, select, relink {relinked} update {updated}}} other {Some items cannot be {action, select, relink {relinked} update {updated}}}}'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = '{count, cardinalPlural, one {Et element kan ikke blive {action, select, relink {genlinket} update {opdateret}}} other {Nogle elementer kan ikke blive {action, select, relink {genlinket} update {opdateret}}}}'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label selected_links_overlay_non_manageable_links_dialog_x_of_y_links_are_locked {
+  key = 'SELECTED_LINKS_OVERLAY_NON_MANAGEABLE_LINKS_DIALOG_X_OF_Y_LINKS_ARE_LOCKED'
+  group = 'Creative Cloud Connector'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = '{{notAvailableLinkCount}} out of the {{totalLinkCount}} selected items cannot be {action, select, relink {relinked} update {updated}}.'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = '{{notAvailableLinkCount}} ud af de {{totalLinkCount}} valgte elementer kan ikke {action, select, relink {genlinkes} update {opdateres}}.'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label selected_links_overlay_non_manageable_links_dialog_do_you_want_to_process_available_links {
+  key = 'SELECTED_LINKS_OVERLAY_NON_MANAGEABLE_LINKS_DIALOG_DO_YOU_WANT_TO_PROCESS_AVAILABLE_LINKS'
+  group = 'Creative Cloud Connector'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Do you want to {action, select, relink {relink} update {update}} the remaining {{count}} {count, cardinalPlural, one {item} other {items}}?'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Vil du {action, select, relink {genlinke} update {opdatere}} {count, cardinalPlural, one {det resterende element} other {de resterende {{count}} elementer}}?'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label selected_links_overlay_non_manageable_links_dialog_continue {
+  key = 'SELECTED_LINKS_OVERLAY_NON_MANAGEABLE_LINKS_DIALOG_CONTINUE'
+  group = 'Creative Cloud Connector'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Continue'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Fortsæt'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label selected_links_overlay_non_manageable_links_dialog_cancel {
+  key = 'SELECTED_LINKS_OVERLAY_NON_MANAGEABLE_LINKS_DIALOG_CANCEL'
+  group = 'Creative Cloud Connector'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Cancel'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Annullér'
       language_id = data.language.danish.id
     }
   ]

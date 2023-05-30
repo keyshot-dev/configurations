@@ -3278,3 +3278,35 @@ resource configservice_label collection_set_placeholder_notification_success_bod
   ]
 }
 
+resource configservice_label collection_item_link_view_collection {
+  key = 'COLLECTION_ITEM_LINK_VIEW_COLLECTION'
+  group = 'Collections'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'View collection'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Vis collection'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label collection_item_thumb_tag_collection {
+  key = 'COLLECTION_ITEM_THUMB_TAG_COLLECTION'
+  group = 'Collections'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Collection'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Collection'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
