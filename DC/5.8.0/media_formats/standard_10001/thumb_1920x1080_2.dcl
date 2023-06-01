@@ -39,6 +39,7 @@ resource media_format thumb_1920x1080_2 {
     force_aspect = false
     output_quality = 0
     icc_profile = 'sRGB.icc'
+    download_replace_mask = ''
     autolink = {
         item_guid = '7fb6d99b-9d25-4fb3-831f-b6c51ac08782'
     }

@@ -39,6 +39,7 @@ resource media_format openoffice_writer_document_odt_50074 {
     force_aspect = false
     output_quality = 0
     icc_profile = ''
+    download_replace_mask = ''
     autolink = {
         item_guid = '2d4ec431-b0fa-46af-afe7-9e69816a979a'
     }

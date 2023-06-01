@@ -39,6 +39,7 @@ resource media_format extract_indesign_thumb_10048 {
     force_aspect = false
     output_quality = 0
     icc_profile = ''
+    download_replace_mask = ''
     autolink = {
         item_guid = '7963a021-5cff-4e27-b4aa-a60167fc3a92'
     }

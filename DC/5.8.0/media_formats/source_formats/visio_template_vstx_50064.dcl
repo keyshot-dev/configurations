@@ -39,6 +39,7 @@ resource media_format visio_template_vstx_50064 {
     force_aspect = false
     output_quality = 0
     icc_profile = ''
+    download_replace_mask = ''
     autolink = {
         item_guid = 'e8074d05-be07-4347-90f8-ff9fab776858'
     }

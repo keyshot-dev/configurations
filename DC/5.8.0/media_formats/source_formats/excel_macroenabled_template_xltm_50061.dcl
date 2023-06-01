@@ -39,6 +39,7 @@ resource media_format excel_macroenabled_template_xltm_50061 {
     force_aspect = false
     output_quality = 0
     icc_profile = ''
+    download_replace_mask = ''
     autolink = {
         item_guid = 'a80a50e1-c038-4ce4-b7ed-467a8d931a02'
     }

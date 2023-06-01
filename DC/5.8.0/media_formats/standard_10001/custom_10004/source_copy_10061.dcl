@@ -39,6 +39,7 @@ resource media_format source_copy_10061 {
     force_aspect = false
     output_quality = 0
     icc_profile = ''
+    download_replace_mask = ''
     autolink = {
         item_guid = 'da6ead4e-6259-489c-98df-8581c23c0f0e'
     }

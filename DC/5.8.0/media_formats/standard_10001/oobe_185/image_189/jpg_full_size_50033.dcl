@@ -39,6 +39,7 @@ resource media_format jpg_full_size_50033 {
     force_aspect = false
     output_quality = 0
     icc_profile = 'sRGB.icc'
+    download_replace_mask = ''
     autolink = {
         item_guid = 'eda44d40-f8a9-431f-b4c0-936b3d0fca4e'
     }

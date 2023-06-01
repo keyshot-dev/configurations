@@ -39,6 +39,7 @@ resource media_format autocad_drawing_database_dwg_50066 {
     force_aspect = false
     output_quality = 0
     icc_profile = ''
+    download_replace_mask = ''
     autolink = {
         item_guid = 'e4ee534a-f055-4c3b-9a71-908057580c21'
     }

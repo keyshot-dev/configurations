@@ -39,6 +39,7 @@ resource media_format adobe_pdf_50009 {
     force_aspect = false
     output_quality = 0
     icc_profile = ''
+    download_replace_mask = ''
     autolink = {
         item_guid = 'c38805ce-0eb3-4b2b-92ee-4bfcff350c85'
     }

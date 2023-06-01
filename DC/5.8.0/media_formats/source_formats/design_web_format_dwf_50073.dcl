@@ -39,6 +39,7 @@ resource media_format design_web_format_dwf_50073 {
     force_aspect = false
     output_quality = 0
     icc_profile = ''
+    download_replace_mask = ''
     autolink = {
         item_guid = '82bddb48-0037-4ca6-a7c7-32fe45d3c7fe'
     }

@@ -39,6 +39,7 @@ resource media_format powerpoint_slideshow_ppsx_50048 {
     force_aspect = false
     output_quality = 0
     icc_profile = ''
+    download_replace_mask = ''
     autolink = {
         item_guid = '88eb4595-3b34-4fed-9494-fd12338cdc9c'
     }

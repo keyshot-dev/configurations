@@ -39,6 +39,7 @@ resource media_format powerpoint_template_potx_50045 {
     force_aspect = false
     output_quality = 0
     icc_profile = ''
+    download_replace_mask = ''
     autolink = {
         item_guid = 'c9243499-8ffe-4a24-a56d-ba187c1cd138'
     }

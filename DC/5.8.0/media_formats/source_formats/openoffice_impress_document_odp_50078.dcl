@@ -39,6 +39,7 @@ resource media_format openoffice_impress_document_odp_50078 {
     force_aspect = false
     output_quality = 0
     icc_profile = ''
+    download_replace_mask = ''
     autolink = {
         item_guid = '347753af-eaf5-4f39-bf43-1064fa7341e2'
     }

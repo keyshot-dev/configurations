@@ -39,6 +39,7 @@ resource media_format windows_font_library_fon_50090 {
     video_bitrate = 0
     watermark_file = ''
     width = 0
+    download_replace_mask = ''
     autolink = {
         item_guid = '8f30a6b6-abec-46cb-ad9b-d90847c155d4'
     }

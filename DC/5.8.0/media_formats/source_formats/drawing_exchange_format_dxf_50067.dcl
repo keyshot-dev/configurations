@@ -39,6 +39,7 @@ resource media_format drawing_exchange_format_dxf_50067 {
     force_aspect = false
     output_quality = 0
     icc_profile = ''
+    download_replace_mask = ''
     autolink = {
         item_guid = '07b31f29-341e-4ef0-8169-f52ead72c9da'
     }

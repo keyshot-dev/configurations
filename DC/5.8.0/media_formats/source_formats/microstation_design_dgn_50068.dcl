@@ -39,6 +39,7 @@ resource media_format microstation_design_dgn_50068 {
     force_aspect = false
     output_quality = 0
     icc_profile = ''
+    download_replace_mask = ''
     autolink = {
         item_guid = '4aba51a8-9d14-4882-a29d-d61bb2149ec3'
     }

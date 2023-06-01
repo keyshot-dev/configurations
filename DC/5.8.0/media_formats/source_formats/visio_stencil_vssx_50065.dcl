@@ -39,6 +39,7 @@ resource media_format visio_stencil_vssx_50065 {
     force_aspect = false
     output_quality = 0
     icc_profile = ''
+    download_replace_mask = ''
     autolink = {
         item_guid = 'cf2ff563-57d9-4cc2-ba7a-bdc1b8b6466a'
     }

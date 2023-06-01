@@ -39,6 +39,7 @@ resource media_format legacy_excel_workbook_xlt_50057 {
     force_aspect = false
     output_quality = 0
     icc_profile = ''
+    download_replace_mask = ''
     autolink = {
         item_guid = '6c06efdb-af10-402c-9e17-0f04a3dcf212'
     }

@@ -39,6 +39,7 @@ resource media_format after_effects_project_aep_50082 {
     force_aspect = false
     output_quality = 0
     icc_profile = ''
+    download_replace_mask = ''
     autolink = {
         item_guid = '1f9dba2e-bb04-41dc-8da7-9e39b013a4c2'
     }

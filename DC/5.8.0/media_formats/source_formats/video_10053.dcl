@@ -39,6 +39,7 @@ resource media_format video_10053 {
     force_aspect = false
     output_quality = 0
     icc_profile = ''
+    download_replace_mask = ''
     autolink = {
         item_guid = '0a66e709-820f-4b06-b7eb-7f919ef7eaf8'
     }

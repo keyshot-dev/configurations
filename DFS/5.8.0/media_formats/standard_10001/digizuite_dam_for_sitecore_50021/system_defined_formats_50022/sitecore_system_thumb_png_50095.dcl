@@ -39,6 +39,7 @@ resource media_format sitecore_system_thumb_png_50095 {
     force_aspect = true
     output_quality = 0
     icc_profile = 'sRGB.icc'
+    download_replace_mask = ''
     autolink = {
         item_guid = '40e240ba-0738-4b05-99cd-a953d9c97316'
     }

@@ -39,6 +39,7 @@ resource media_format sitecore_video_thumb_640x360_50102 {
     force_aspect = true
     output_quality = 0
     icc_profile = 'sRGB.icc'
+    download_replace_mask = ''
     autolink = {
         item_guid = 'a224b399-cff8-4fbd-b05e-3135ba75bfcb'
     }

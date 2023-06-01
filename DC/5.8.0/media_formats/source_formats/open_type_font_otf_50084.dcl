@@ -39,6 +39,7 @@ resource media_format open_type_font_otf_50084 {
     force_aspect = false
     output_quality = 0
     icc_profile = ''
+    download_replace_mask = ''
     autolink = {
         item_guid = '9fc3d8b0-8463-45f6-b026-961a6b1daeea'
     }

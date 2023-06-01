@@ -39,6 +39,7 @@ resource media_format png_transparent_50037 {
     force_aspect = false
     output_quality = 0
     icc_profile = 'sRGB.icc'
+    download_replace_mask = ''
     autolink = {
         item_guid = 'b16f6dfa-389d-449e-b85b-8253f7dde2e4'
     }

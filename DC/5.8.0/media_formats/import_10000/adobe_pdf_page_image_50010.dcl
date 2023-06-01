@@ -39,6 +39,7 @@ resource media_format adobe_pdf_page_image_50010 {
     force_aspect = false
     output_quality = 0
     icc_profile = 'sRGB.icc'
+    download_replace_mask = ''
     autolink = {
         item_guid = '08c1637b-c280-4cf4-9cf4-1cae366a4b9e'
     }

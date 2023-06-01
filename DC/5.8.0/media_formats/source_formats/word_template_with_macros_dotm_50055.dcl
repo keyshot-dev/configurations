@@ -39,6 +39,7 @@ resource media_format word_template_with_macros_dotm_50055 {
     force_aspect = false
     output_quality = 0
     icc_profile = ''
+    download_replace_mask = ''
     autolink = {
         item_guid = '68a78c18-5465-4fcd-85c0-befe4e80fee1'
     }

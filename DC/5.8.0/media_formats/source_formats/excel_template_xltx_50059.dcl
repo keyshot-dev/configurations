@@ -39,6 +39,7 @@ resource media_format excel_template_xltx_50059 {
     force_aspect = false
     output_quality = 0
     icc_profile = ''
+    download_replace_mask = ''
     autolink = {
         item_guid = 'a82e63a9-9e35-49d6-9591-d2905a2d8e4f'
     }

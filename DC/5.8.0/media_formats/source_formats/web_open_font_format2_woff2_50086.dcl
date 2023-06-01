@@ -39,6 +39,7 @@ resource media_format web_open_font_format2_woff2_50086 {
     force_aspect = false
     output_quality = 0
     icc_profile = ''
+    download_replace_mask = ''
     autolink = {
         item_guid = '91da5244-f8b0-4bb2-a077-54e8ca29eb06'
     }

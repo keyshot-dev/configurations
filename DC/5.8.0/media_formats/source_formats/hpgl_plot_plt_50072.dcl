@@ -39,6 +39,7 @@ resource media_format hpgl_plot_plt_50072 {
     force_aspect = false
     output_quality = 0
     icc_profile = ''
+    download_replace_mask = ''
     autolink = {
         item_guid = '60c8bcee-bef3-4c1a-9551-7b6251202cf0'
     }

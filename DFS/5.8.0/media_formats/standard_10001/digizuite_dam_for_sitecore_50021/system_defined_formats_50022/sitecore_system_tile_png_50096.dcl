@@ -39,6 +39,7 @@ resource media_format sitecore_system_tile_png_50096 {
     force_aspect = true
     output_quality = 0
     icc_profile = 'sRGB.icc'
+    download_replace_mask = ''
     autolink = {
         item_guid = '3ace858f-4ba8-4b77-8856-a16778a1fdb1'
     }

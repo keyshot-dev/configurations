@@ -39,6 +39,7 @@ resource media_format visio_drawing_vsdx_50063 {
     force_aspect = false
     output_quality = 0
     icc_profile = ''
+    download_replace_mask = ''
     autolink = {
         item_guid = 'df0bff6a-4332-4d5b-841c-f85b672e5406'
     }

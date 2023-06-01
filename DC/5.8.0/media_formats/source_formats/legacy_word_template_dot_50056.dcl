@@ -39,6 +39,7 @@ resource media_format legacy_word_template_dot_50056 {
     force_aspect = false
     output_quality = 0
     icc_profile = ''
+    download_replace_mask = ''
     autolink = {
         item_guid = '9c0f8211-567a-4be7-862b-f59b4be228cd'
     }

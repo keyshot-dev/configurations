@@ -39,6 +39,7 @@ resource media_format powerpoint_page_image_50100 {
     force_aspect = false
     output_quality = 0
     icc_profile = ''
+    download_replace_mask = ''
     autolink = {
         item_guid = '570a9ce1-1813-4594-b58b-778364148248'
     }

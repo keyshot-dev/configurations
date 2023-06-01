@@ -39,6 +39,7 @@ resource media_format adobe_pdf_preview_4 {
     force_aspect = false
     output_quality = 0
     icc_profile = ''
+    download_replace_mask = ''
     autolink = {
         item_guid = 'ad44feb1-7038-42a3-a56a-453c76eec8c0'
     }

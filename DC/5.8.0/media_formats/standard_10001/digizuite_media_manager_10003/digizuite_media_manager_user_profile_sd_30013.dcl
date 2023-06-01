@@ -39,6 +39,7 @@ resource media_format digizuite_media_manager_user_profile_sd_30013 {
     force_aspect = false
     output_quality = 0
     icc_profile = 'sRGB.icc'
+    download_replace_mask = ''
     autolink = {
         item_guid = '1795f4d7-aaa0-4c5a-9500-773fdbdea0db'
     }

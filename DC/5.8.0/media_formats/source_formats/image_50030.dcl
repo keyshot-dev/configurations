@@ -39,6 +39,7 @@ resource media_format image_50030 {
     force_aspect = false
     output_quality = 0
     icc_profile = ''
+    download_replace_mask = ''
     autolink = {
         item_guid = 'daea5597-fa75-4eb3-9931-46003e5b61de'
     }

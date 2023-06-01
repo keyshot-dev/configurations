@@ -39,6 +39,7 @@ resource media_format autodesk_3d_studio_max_file_50026 {
     force_aspect = true
     output_quality = 0
     icc_profile = ''
+    download_replace_mask = ''
     autolink = {
         item_guid = '1d6e60ac-7ea3-4f4e-a02a-31dd17fa7177'
     }
