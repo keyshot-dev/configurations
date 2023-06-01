@@ -39,6 +39,7 @@ resource media_format powerpoint_macroenabled_presentation_pptm_50046 {
     force_aspect = false
     output_quality = 0
     icc_profile = ''
+    download_replace_mask = ''
     autolink = {
         item_guid = '187823a6-8794-49c5-a9a5-bcfcfd5f9da4'
     }

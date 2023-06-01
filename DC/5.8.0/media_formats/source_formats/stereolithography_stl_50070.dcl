@@ -39,6 +39,7 @@ resource media_format stereolithography_stl_50070 {
     force_aspect = false
     output_quality = 0
     icc_profile = ''
+    download_replace_mask = ''
     autolink = {
         item_guid = 'b247e78c-fbe1-49ca-9005-eff9c485d829'
     }

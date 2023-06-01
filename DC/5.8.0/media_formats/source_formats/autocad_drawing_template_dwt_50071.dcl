@@ -39,6 +39,7 @@ resource media_format autocad_drawing_template_dwt_50071 {
     force_aspect = false
     output_quality = 0
     icc_profile = ''
+    download_replace_mask = ''
     autolink = {
         item_guid = '924aaf6b-91cf-4ff3-bb11-9749be905720'
     }

@@ -39,6 +39,7 @@ resource media_format word_document_docx_50052 {
     force_aspect = false
     output_quality = 0
     icc_profile = ''
+    download_replace_mask = ''
     autolink = {
         item_guid = '7931115a-46f5-47cc-a66f-7c1c4095d095'
     }

@@ -39,6 +39,7 @@ resource media_format word_template_dotx_50053 {
     force_aspect = false
     output_quality = 0
     icc_profile = ''
+    download_replace_mask = ''
     autolink = {
         item_guid = '86e694ec-9584-4d4c-914a-2ef8a3b51e8b'
     }

@@ -39,6 +39,7 @@ resource media_format openoffice_calc_document_template_ots_50077 {
     force_aspect = false
     output_quality = 0
     icc_profile = ''
+    download_replace_mask = ''
     autolink = {
         item_guid = '45b71de4-917d-44fa-86df-290962de1528'
     }

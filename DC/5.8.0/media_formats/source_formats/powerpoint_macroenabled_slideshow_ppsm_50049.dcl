@@ -39,6 +39,7 @@ resource media_format powerpoint_macroenabled_slideshow_ppsm_50049 {
     force_aspect = false
     output_quality = 0
     icc_profile = ''
+    download_replace_mask = ''
     autolink = {
         item_guid = 'ed3574c6-f999-4f68-a322-85e368b08d71'
     }

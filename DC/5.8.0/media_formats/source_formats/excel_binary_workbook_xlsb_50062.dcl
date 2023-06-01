@@ -39,6 +39,7 @@ resource media_format excel_binary_workbook_xlsb_50062 {
     force_aspect = false
     output_quality = 0
     icc_profile = ''
+    download_replace_mask = ''
     autolink = {
         item_guid = '942d06b4-9f24-4cfb-a102-6ed2084ed10b'
     }

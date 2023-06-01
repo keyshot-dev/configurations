@@ -39,6 +39,7 @@ resource media_format adobe_indesign_50011 {
     force_aspect = false
     output_quality = 0
     icc_profile = ''
+    download_replace_mask = ''
     autolink = {
         item_guid = '82660883-cf9f-42bb-b9d0-b89de68b8821'
     }

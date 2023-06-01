@@ -39,6 +39,7 @@ resource media_format audio_50029 {
     force_aspect = false
     output_quality = 0
     icc_profile = ''
+    download_replace_mask = ''
     autolink = {
         item_guid = '0f5dce2c-b26e-41d6-85a9-97a0b9f11a33'
     }

@@ -39,6 +39,7 @@ resource media_format sitecore_system_video_preview_50098 {
     force_aspect = false
     output_quality = 0
     icc_profile = ''
+    download_replace_mask = ''
     autolink = {
         item_guid = '91715d28-3271-4342-b402-4ea4a5ea453a'
     }

@@ -39,6 +39,7 @@ resource media_format powerpoint_macroenabled_template_potm_50047 {
     force_aspect = false
     output_quality = 0
     icc_profile = ''
+    download_replace_mask = ''
     autolink = {
         item_guid = '33898b44-33c4-4a94-b978-e84b11bd6c5c'
     }

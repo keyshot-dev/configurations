@@ -39,6 +39,7 @@ resource media_format legacy_powerpoint_template_pot_50050 {
     force_aspect = false
     output_quality = 0
     icc_profile = ''
+    download_replace_mask = ''
     autolink = {
         item_guid = '2c2c1a74-ebf5-4f1c-915e-e15eaadb537a'
     }

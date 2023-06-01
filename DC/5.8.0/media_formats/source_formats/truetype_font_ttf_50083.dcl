@@ -39,6 +39,7 @@ resource media_format truetype_font_ttf_50083 {
     force_aspect = false
     output_quality = 0
     icc_profile = ''
+    download_replace_mask = ''
     autolink = {
         item_guid = '05c3726e-1fdb-4ef8-981c-c0735de66a63'
     }

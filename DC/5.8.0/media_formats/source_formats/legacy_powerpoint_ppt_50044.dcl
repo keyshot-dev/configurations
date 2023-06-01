@@ -39,6 +39,7 @@ resource media_format legacy_powerpoint_ppt_50044 {
     force_aspect = false
     output_quality = 0
     icc_profile = ''
+    download_replace_mask = ''
     autolink = {
         item_guid = 'ae13ff38-f740-4eba-af8c-908d8f77d3eb'
     }

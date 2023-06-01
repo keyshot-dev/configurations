@@ -39,6 +39,7 @@ resource media_format industry_foundation_classes_ifc_50069 {
     force_aspect = false
     output_quality = 0
     icc_profile = ''
+    download_replace_mask = ''
     autolink = {
         item_guid = '1964fbe0-fa7c-4c46-8a26-dee10ed0ff50'
     }

@@ -39,6 +39,7 @@ resource media_format exifthumb_raw_50014 {
     force_aspect = false
     output_quality = 0
     icc_profile = ''
+    download_replace_mask = ''
     autolink = {
         item_guid = 'fa1d55d5-9bec-445d-9558-9522fe6af673'
     }

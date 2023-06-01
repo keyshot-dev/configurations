@@ -39,6 +39,7 @@ resource media_format desktop_video_thumb_50019 {
     force_aspect = false
     output_quality = 0
     icc_profile = 'sRGB.icc'
+    download_replace_mask = ''
     autolink = {
         item_guid = '84409e98-bd3b-4b1d-8e8e-bdcc1a745293'
     }

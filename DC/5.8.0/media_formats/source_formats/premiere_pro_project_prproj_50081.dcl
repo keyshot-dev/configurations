@@ -39,6 +39,7 @@ resource media_format premiere_pro_project_prproj_50081 {
     force_aspect = false
     output_quality = 0
     icc_profile = ''
+    download_replace_mask = ''
     autolink = {
         item_guid = '8b66fd69-46a1-40c2-98fc-1fe1aed1ff07'
     }

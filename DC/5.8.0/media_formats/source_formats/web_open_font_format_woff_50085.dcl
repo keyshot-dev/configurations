@@ -39,6 +39,7 @@ resource media_format web_open_font_format_woff_50085 {
     force_aspect = false
     output_quality = 0
     icc_profile = ''
+    download_replace_mask = ''
     autolink = {
         item_guid = 'bc6717cc-3b1f-436e-bd80-1638398a9ad2'
     }

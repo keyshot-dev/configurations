@@ -39,6 +39,7 @@ resource media_format windows_font_fnt_50089 {
     force_aspect = false
     output_quality = 0
     icc_profile = ''
+    download_replace_mask = ''
     autolink = {
         item_guid = '938324c4-8457-4680-80a1-9a20017b0a38'
     }

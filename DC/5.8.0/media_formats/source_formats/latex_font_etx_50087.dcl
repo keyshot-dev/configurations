@@ -39,6 +39,7 @@ resource media_format latex_font_etx_50087 {
     force_aspect = false
     output_quality = 0
     icc_profile = ''
+    download_replace_mask = ''
     autolink = {
         item_guid = '365a65c0-d6c1-47ae-a14a-adf2b196bec3'
     }

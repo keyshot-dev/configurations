@@ -39,6 +39,7 @@ resource media_format adobe_type1_font_pfa_50088 {
     force_aspect = false
     output_quality = 0
     icc_profile = ''
+    download_replace_mask = ''
     autolink = {
         item_guid = 'bb922aa4-4740-4e98-b41e-740695bc7191'
     }

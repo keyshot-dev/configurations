@@ -39,6 +39,7 @@ resource media_format openoffice_calc_document_ods_50076 {
     force_aspect = false
     output_quality = 0
     icc_profile = ''
+    download_replace_mask = ''
     autolink = {
         item_guid = '7aad8ffb-5391-4c06-a76e-579bbfd82e92'
     }

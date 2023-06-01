@@ -38,6 +38,7 @@ resource media_format jpg_big {
     grayscale_bits_per_pixel = 0
     force_aspect = false
     output_quality = 0
+    download_replace_mask = ''
     icc_profile = 'sRGB.icc'
     autolink = {
         item_guid = 'e0e5e3b4-8195-41ca-9658-d94829f9d92e'

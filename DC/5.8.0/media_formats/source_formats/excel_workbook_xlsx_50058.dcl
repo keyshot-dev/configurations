@@ -39,6 +39,7 @@ resource media_format excel_workbook_xlsx_50058 {
     force_aspect = false
     output_quality = 0
     icc_profile = ''
+    download_replace_mask = ''
     autolink = {
         item_guid = 'ab4d83d8-f23e-4480-bcbc-3bb54016e09b'
     }

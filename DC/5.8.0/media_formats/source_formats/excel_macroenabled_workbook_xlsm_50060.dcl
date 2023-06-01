@@ -39,6 +39,7 @@ resource media_format excel_macroenabled_workbook_xlsm_50060 {
     force_aspect = false
     output_quality = 0
     icc_profile = ''
+    download_replace_mask = ''
     autolink = {
         item_guid = '908c2d77-e81e-43e0-a386-ce14e031c0ca'
     }

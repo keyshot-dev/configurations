@@ -39,6 +39,7 @@ resource media_format powerpoint_10077 {
     force_aspect = false
     output_quality = 0
     icc_profile = ''
+    download_replace_mask = ''
     autolink = {
         item_guid = 'cd3f3df0-171e-4145-ad76-7edbfe63fc44'
     }

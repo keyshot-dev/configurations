@@ -39,6 +39,7 @@ resource media_format legacy_word_document_doc_50051 {
     force_aspect = false
     output_quality = 0
     icc_profile = ''
+    download_replace_mask = ''
     autolink = {
         item_guid = 'c174a76f-ef89-4873-b5ba-de01e55a88ca'
     }
