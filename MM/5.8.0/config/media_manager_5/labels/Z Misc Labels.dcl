@@ -1342,6 +1342,22 @@ resource configservice_label search_anything {
   ]
 }
 
+resource configservice_label search_input_clear_button_aria_label {
+  key = 'SEARCH_INPUT_CLEAR_BUTTON_ARIA_LABEL'
+  group = 'Z Misc Labels'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Clear search'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Ryd søgning'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label selected_assets_overlay_options_clear_selection {
   key = 'SELECTED_ASSETS_OVERLAY_OPTIONS_CLEAR_SELECTION'
   group = 'Z Misc Labels'
@@ -2089,6 +2105,38 @@ resource configservice_label aria_label_back_modal {
     },
     {
       default_translation = 'Tilbage'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label aria_label_clear_text {
+  key = 'ARIA_LABEL_CLEAR_TEXT'
+  group = 'Z Misc Labels'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Clear text'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Ryd tekst'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label aria_label_expand {
+  key = 'ARIA_LABEL_EXPAND'
+  group = 'Z Misc Labels'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Expand'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Udvid'
       language_id = data.language.danish.id
     }
   ]

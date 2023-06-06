@@ -3358,6 +3358,22 @@ resource configservice_label creative_cloud_connector_insert_asset_no_access_to_
   ]
 }
 
+resource configservice_label creative_cloud_connector_current_quality_selected {
+  key = 'CREATIVE_CLOUD_CONNECTOR_CURRENT_QUALITY_SELECTED'
+  group = 'Creative Cloud Connector'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Current quality'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Nuværende kvalitet'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label creative_cloud_connector_quality_not_downloaded {
   key = 'CREATIVE_CLOUD_CONNECTOR_QUALITY_NOT_DOWNLOADED'
   group = 'Creative Cloud Connector'
@@ -3369,6 +3385,38 @@ resource configservice_label creative_cloud_connector_quality_not_downloaded {
     },
     {
       default_translation = 'Kvalitet ikke downloadet'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label creative_cloud_connector_insert_quality {
+  key = 'CREATIVE_CLOUD_CONNECTOR_INSERT_QUALITY'
+  group = 'Creative Cloud Connector'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Insert quality'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Indsæt-kvalitet'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label creative_cloud_connector_export_quality {
+  key = 'CREATIVE_CLOUD_CONNECTOR_EXPORT_QUALITY'
+  group = 'Creative Cloud Connector'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Export quality'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Eksport-kvalitet'
       language_id = data.language.danish.id
     }
   ]
@@ -3748,11 +3796,75 @@ resource configservice_label creative_cloud_connector_download_selected_assets_t
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Insert assets'
+      default_translation = '{isInsertion, select, true {Insert assets} false {Change quality}}'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Indsæt assets'
+      default_translation = '{isInsertion, select, true {Indsæt assets} false {Ændr kvalitet}}'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label creative_cloud_connector_download_selected_assets_insert_simple_tab_label {
+  key = 'CREATIVE_CLOUD_CONNECTOR_DOWNLOAD_SELECTED_ASSETS_INSERT_SIMPLE_TAB_LABEL'
+  group = 'Creative Cloud Connector'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Simple'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Enkel'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label creative_cloud_connector_download_selected_assets_insert_advanced_tab_label {
+  key = 'CREATIVE_CLOUD_CONNECTOR_DOWNLOAD_SELECTED_ASSETS_INSERT_ADVANCED_TAB_LABEL'
+  group = 'Creative Cloud Connector'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Advanced'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Avanceret'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label creative_cloud_connector_download_selected_assets_insert_quality_title {
+  key = 'CREATIVE_CLOUD_CONNECTOR_DOWNLOAD_SELECTED_ASSETS_INSERT_QUALITY_TITLE'
+  group = 'Creative Cloud Connector'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Insert quality'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Indsæt-kvalitet'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label creative_cloud_connector_download_selected_assets_export_quality_title {
+  key = 'CREATIVE_CLOUD_CONNECTOR_DOWNLOAD_SELECTED_ASSETS_EXPORT_QUALITY_TITLE'
+  group = 'Creative Cloud Connector'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Export quality'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Eksport-kvalitet'
       language_id = data.language.danish.id
     }
   ]
@@ -3860,11 +3972,11 @@ resource configservice_label creative_cloud_connector_download_selected_assets_i
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Insert'
+      default_translation = '{isInsertion, select, true {Insert} false {Change}}'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Indsæt'
+      default_translation = '{isInsertion, select, true {Indsæt} false {Ændr}}'
       language_id = data.language.danish.id
     }
   ]

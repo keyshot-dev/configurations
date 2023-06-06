@@ -3204,11 +3204,11 @@ resource configservice_label collection_set_assets_notification_success_body {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = '{multiple, cardinalPlural, false {The asset was added to the collection} true {The assets were added to the collection}}'
+      default_translation = '{multiple, select, false {The asset was added to the collection} true {The assets were added to the collection}}'
       language_id = data.language.english.id
     },
     {
-      default_translation = '{multiple, cardinalPlural, false {Assetet blev tilføjet til collectionen} true {Assetsne blev tilføjet til collectionen}}'
+      default_translation = '{multiple, select, false {Assetet blev tilføjet til collectionen} true {Assetsne blev tilføjet til collectionen}}'
       language_id = data.language.danish.id
     }
   ]

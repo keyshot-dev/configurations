@@ -3614,17 +3614,17 @@ resource configservice_label collection_asset_settings_metadata_label {
   ]
 }
 
-resource configservice_label asset_card_settings_filter_action_public {
-  key = 'ASSET_CARD_SETTINGS_FILTER_ACTION_PUBLIC'
+resource configservice_label asset_card_settings_property_public {
+  key = 'ASSET_CARD_SETTINGS_PROPERTY_PUBLIC'
   group = 'Settings'
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Not public'
+      default_translation = '{public, select, true {Public} false {Not public}}'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Ikke offentlig'
+      default_translation = '{public, select, true {Offentlig} false {Ikke offentlig}}'
       language_id = data.language.danish.id
     }
   ]

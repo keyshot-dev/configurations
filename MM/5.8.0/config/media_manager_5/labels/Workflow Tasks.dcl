@@ -1086,6 +1086,38 @@ resource configservice_label workflow_task_list_detail_view_assignee_type {
   ]
 }
 
+resource configservice_label workflow_task_list_detail_view_assignee_type_user {
+  key = 'WORKFLOW_TASK_LIST_DETAIL_VIEW_ASSIGNEE_TYPE_USER'
+  group = 'Workflow Tasks'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'User'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Bruger'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label workflow_task_list_detail_view_assignee_type_group {
+  key = 'WORKFLOW_TASK_LIST_DETAIL_VIEW_ASSIGNEE_TYPE_GROUP'
+  group = 'Workflow Tasks'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Group'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Gruppe'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label workflow_task_list_detail_view_assign_to_user {
   key = 'WORKFLOW_TASK_LIST_DETAIL_VIEW_ASSIGN_TO_USER'
   group = 'Workflow Tasks'
