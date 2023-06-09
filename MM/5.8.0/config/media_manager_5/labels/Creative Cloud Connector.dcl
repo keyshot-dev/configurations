@@ -1150,6 +1150,38 @@ resource configservice_label creative_cloud_connector_insert_error_title {
   ]
 }
 
+resource configservice_label creative_cloud_connector_filepath_locked_error_title {
+  key = 'CREATIVE_CLOUD_CONNECTOR_FILEPATH_LOCKED_ERROR_TITLE'
+  group = 'Creative Cloud Connector'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'The file path was locked'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Filstien var låst'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label creative_cloud_connector_filepath_locked_error_body {
+  key = 'CREATIVE_CLOUD_CONNECTOR_FILEPATH_LOCKED_ERROR_BODY'
+  group = 'Creative Cloud Connector'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'The file path was locked by the Adobe application due to a broken item. Please use the link manager to resolve broken items in the active document before inserting'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Filstien blev låst af Adobe-applikationen på grund af et ødelagt element. Brug link manageren til at fikse ødelagte elementer i det aktive dokument, før du forsøger at indsætte'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label creative_cloud_connector_insert_failed_to_download_error {
   key = 'CREATIVE_CLOUD_CONNECTOR_INSERT_FAILED_TO_DOWNLOAD_ERROR'
   group = 'Creative Cloud Connector'
