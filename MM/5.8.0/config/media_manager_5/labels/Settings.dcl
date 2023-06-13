@@ -62,81 +62,17 @@ resource configservice_label settings_theme_settings_factory_reset {
   ]
 }
 
-resource configservice_label settings_theme_settings_get_hover_and_active_color {
-  key = 'SETTINGS_THEME_SETTINGS_GET_HOVER_AND_ACTIVE_COLOR'
+resource configservice_label settings_theme_settings_button_text_on_theme_color {
+  key = 'SETTINGS_THEME_SETTINGS_BUTTON_TEXT_ON_THEME_COLOR'
   group = 'Settings'
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Get hover and active color'
+      default_translation = 'Buttons\' text color'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Beregn "hover"- og "active"-farver'
-      language_id = data.language.danish.id
-    }
-  ]
-}
-
-resource configservice_label settings_theme_settings_icons_and_text_on_theme_color {
-  key = 'SETTINGS_THEME_SETTINGS_ICONS_AND_TEXT_ON_THEME_COLOR'
-  group = 'Settings'
-  product_id = resource.configservice_product.media_manager_5.id
-  default_label_values = [
-    {
-      default_translation = 'Icons and text'
-      language_id = data.language.english.id
-    },
-    {
-      default_translation = 'Ikoner og tekst'
-      language_id = data.language.danish.id
-    }
-  ]
-}
-
-resource configservice_label settings_theme_settings_theme_color_active_effect {
-  key = 'SETTINGS_THEME_SETTINGS_THEME_COLOR_ACTIVE_EFFECT'
-  group = 'Settings'
-  product_id = resource.configservice_product.media_manager_5.id
-  default_label_values = [
-    {
-      default_translation = 'Theme color (Active effect)'
-      language_id = data.language.english.id
-    },
-    {
-      default_translation = 'Temafarve (Active effect)'
-      language_id = data.language.danish.id
-    }
-  ]
-}
-
-resource configservice_label settings_theme_settings_theme_color_hover_effect {
-  key = 'SETTINGS_THEME_SETTINGS_THEME_COLOR_HOVER_EFFECT'
-  group = 'Settings'
-  product_id = resource.configservice_product.media_manager_5.id
-  default_label_values = [
-    {
-      default_translation = 'Theme color (Hover effect)'
-      language_id = data.language.english.id
-    },
-    {
-      default_translation = 'Temafarve (Hover effect)'
-      language_id = data.language.danish.id
-    }
-  ]
-}
-
-resource configservice_label settings_theme_settings_darkening_percentage_of_hover_and_active {
-  key = 'SETTINGS_THEME_SETTINGS_DARKENING_PERCENTAGE_OF_HOVER_AND_ACTIVE'
-  group = 'Settings'
-  product_id = resource.configservice_product.media_manager_5.id
-  default_label_values = [
-    {
-      default_translation = 'Darkening percentage of hover and active:'
-      language_id = data.language.english.id
-    },
-    {
-      default_translation = 'Mørkeprocent på "hover"- og "aktive"-farve:'
+      default_translation = 'Knappers tekstfarve'
       language_id = data.language.danish.id
     }
   ]
@@ -148,11 +84,11 @@ resource configservice_label settings_theme_settings_theme_color {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Theme color'
+      default_translation = 'Buttons\' background and highlight color'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Temafarve'
+      default_translation = 'Knappers baggrunds- og fremhævningsfarve'
       language_id = data.language.danish.id
     }
   ]
@@ -830,6 +766,22 @@ resource configservice_label settings_about_release_version {
   ]
 }
 
+resource configservice_label settings_about_ccc_plugin_version {
+  key = 'SETTINGS_ABOUT_CCC_PLUGIN_VERSION'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'CCC extension version'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'CCC-udvidelsesversion'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label settings_about_product_version {
   key = 'SETTINGS_ABOUT_PRODUCT_VERSION'
   group = 'Settings'
@@ -1380,7 +1332,7 @@ resource configservice_label settings_theme_settings_topbar_background_color {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Top bar background-color'
+      default_translation = 'Top bar background color'
       language_id = data.language.english.id
     },
     {
@@ -1396,43 +1348,27 @@ resource configservice_label settings_theme_settings_topbar_text_color {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Top bar text color'
+      default_translation = 'Top bar\'s text and icon color'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Tekstfarve på øverste bjælke'
+      default_translation = 'Øverste bjælkes tekst- og ikonfarve'
       language_id = data.language.danish.id
     }
   ]
 }
 
-resource configservice_label settings_theme_settings_topbar_color_active_effect {
-  key = 'SETTINGS_THEME_SETTINGS_TOPBAR_COLOR_ACTIVE_EFFECT'
+resource configservice_label settings_theme_settings_topbar_text_color_tooltip {
+  key = 'SETTINGS_THEME_SETTINGS_TOPBAR_TEXT_COLOR_TOOLTIP'
   group = 'Settings'
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Top bar background-color (Active effect)'
+      default_translation = 'This color is calculated by the system and can not be manually changed'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Baggrundsfarve på øverste bjælke (Aktiv-effekt)'
-      language_id = data.language.danish.id
-    }
-  ]
-}
-
-resource configservice_label settings_theme_settings_topbar_color_hover_effect {
-  key = 'SETTINGS_THEME_SETTINGS_TOPBAR_COLOR_HOVER_EFFECT'
-  group = 'Settings'
-  product_id = resource.configservice_product.media_manager_5.id
-  default_label_values = [
-    {
-      default_translation = 'Top bar background-color (Hover effect)'
-      language_id = data.language.english.id
-    },
-    {
-      default_translation = 'Baggrundsfarve på øverste bjælke (Hover-effekt)'
+      default_translation = 'Denne farve beregnes af systemet og kan ikke ændres manuelt'
       language_id = data.language.danish.id
     }
   ]

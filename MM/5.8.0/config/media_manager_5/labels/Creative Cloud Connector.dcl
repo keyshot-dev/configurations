@@ -3902,6 +3902,38 @@ resource configservice_label creative_cloud_connector_download_selected_assets_e
   ]
 }
 
+resource configservice_label creative_cloud_connector_download_selected_assets_no_assets_can_be_insert_with_insert_quality {
+  key = 'CREATIVE_CLOUD_CONNECTOR_DOWNLOAD_SELECTED_ASSETS_NO_ASSETS_CAN_BE_INSERT_WITH_INSERT_QUALITY'
+  group = 'Creative Cloud Connector'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'No assets can be inserted with the insert quality'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Ingen assets kan indsættes med indsæt-kvaliteten'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label creative_cloud_connector_download_selected_assets_no_assets_can_be_insert_with_export_quality {
+  key = 'CREATIVE_CLOUD_CONNECTOR_DOWNLOAD_SELECTED_ASSETS_NO_ASSETS_CAN_BE_INSERT_WITH_EXPORT_QUALITY'
+  group = 'Creative Cloud Connector'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'No assets can be inserted with the export quality'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Ingen assets kan indsættes med eksport-kvaliteten'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label creative_cloud_connector_download_selected_assets_download_only_quality_tooltip {
   key = 'CREATIVE_CLOUD_CONNECTOR_DOWNLOAD_SELECTED_ASSETS_DOWNLOAD_ONLY_QUALITY_TOOLTIP'
   group = 'Creative Cloud Connector'
