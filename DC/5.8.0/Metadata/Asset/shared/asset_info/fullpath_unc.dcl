@@ -3,7 +3,7 @@
     autolink = {
         item_guid = '0e82fae3-18a3-4a75-b985-749289565dfb'
     }
-    name = 'Ingest'
+    name = 'Fullpath UNC'
     group_id = resource.metafield_group.asset_info.metafield_group_id
     sort_index = 10148
     show_in_list = false
