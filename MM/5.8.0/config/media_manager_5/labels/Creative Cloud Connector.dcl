@@ -3278,6 +3278,22 @@ resource configservice_label creative_cloud_connector_document_already_open {
   ]
 }
 
+resource configservice_label office_connector_insert_asset_document_cannot_be_opened_from_office_online {
+  key = 'OFFICE_CONNECTOR_INSERT_ASSET_DOCUMENT_CANNOT_BE_OPENED_FROM_OFFICE_ONLINE'
+  group = 'Creative Cloud Connector'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'It\'s not possible open documents via online Office products'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Det er ikke muligt at åbne dokumenter fra online Office-produkter'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label creative_cloud_connector_insert_asset_invalid_asset_type {
   key = 'CREATIVE_CLOUD_CONNECTOR_INSERT_ASSET_INVALID_ASSET_TYPE'
   group = 'Creative Cloud Connector'
@@ -3289,6 +3305,22 @@ resource configservice_label creative_cloud_connector_insert_asset_invalid_asset
     },
     {
       default_translation = 'Assettypen kan ikke blive indsat'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label office_connector_images_cannot_be_inserted_in_excel_online {
+  key = 'OFFICE_CONNECTOR_IMAGES_CANNOT_BE_INSERTED_IN_EXCEL_ONLINE'
+  group = 'Creative Cloud Connector'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Inserting image assets is not supported in the online version of Excel'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Indsættelse af billedassets er ikke understøttet i onlineversionen af Excel'
       language_id = data.language.danish.id
     }
   ]
