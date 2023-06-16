@@ -328,7 +328,7 @@ resource configservice_label focused_asset_crop_presets_portal {
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Side skabelon'
+      default_translation = 'Side-skabeloner'
       language_id = data.language.danish.id
     }
   ]
@@ -344,7 +344,7 @@ resource configservice_label focused_asset_crop_presets_global {
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Global skabelon'
+      default_translation = 'Globale skabeloner'
       language_id = data.language.danish.id
     }
   ]
