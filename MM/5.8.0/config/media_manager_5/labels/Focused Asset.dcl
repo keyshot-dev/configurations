@@ -318,33 +318,33 @@ resource configservice_label focused_asset_crop_toolbox_output_dimensions_info {
   ]
 }
 
-resource configservice_label focused_asset_crop_presets_corporate {
-  key = 'FOCUSED_ASSET_CROP_PRESETS_CORPORATE'
+resource configservice_label focused_asset_crop_presets_portal {
+  key = 'FOCUSED_ASSET_CROP_PRESETS_PORTAL'
   group = 'Focused Asset'
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Presets'
+      default_translation = 'Site presets'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Forudindstillinger'
+      default_translation = 'Side skabelon'
       language_id = data.language.danish.id
     }
   ]
 }
 
-resource configservice_label focused_asset_crop_presets_standard {
-  key = 'FOCUSED_ASSET_CROP_PRESETS_STANDARD'
+resource configservice_label focused_asset_crop_presets_global {
+  key = 'FOCUSED_ASSET_CROP_PRESETS_GLOBAL'
   group = 'Focused Asset'
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Standard presets'
+      default_translation = 'Global presets'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Standardforudindstillinger'
+      default_translation = 'Global skabelon'
       language_id = data.language.danish.id
     }
   ]
