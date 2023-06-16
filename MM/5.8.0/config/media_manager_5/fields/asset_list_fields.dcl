@@ -1,5 +1,5 @@
 resource configservice_string_config_field asset_list_fields {
-    default_value = '[]'
+    default_value = ''
     type = 'String'
     product_id = resource.configservice_product.media_manager_5.id
     group = 'default'
