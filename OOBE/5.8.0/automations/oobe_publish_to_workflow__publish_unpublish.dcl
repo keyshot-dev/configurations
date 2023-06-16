@@ -101,7 +101,7 @@ filter "Check if Unlocked" {
 	type = "Metadata bit filter"
 	needs = "If added"
 	asset_item_ids = "@sourceAssetItemId"
-	metafield_item_id = "guid:${to_string(data.bit_metafield.is_public.item_guid)}"
+	meta_field = "guid:${to_string(data.bit_metafield.is_public.item_guid)}"
 	expected_value = "false"
 	negate = "false"
 }
