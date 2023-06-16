@@ -318,33 +318,33 @@ resource language_label focused_asset_crop_toolbox_output_dimensions_info_da {
     version_id = resource.product.media_manager.base_version_id
 }
 
-resource language_label focused_asset_crop_presets_corporate_en {
-    constant = 'FOCUSED_ASSET_CROP_PRESETS_CORPORATE'
-    label = 'Presets'
+resource language_label focused_asset_crop_presets_portal_en {
+    constant = 'FOCUSED_ASSET_CROP_PRESETS_PORTAL'
+    label = 'Site presets'
     language_id = data.language.english.id
     folder_id = resource.language_label_folder.media_manager.folder_id
     version_id = resource.product.media_manager.base_version_id
 }
 
-resource language_label focused_asset_crop_presets_corporate_da {
-    constant = 'FOCUSED_ASSET_CROP_PRESETS_CORPORATE'
-    label = 'Forudindstillinger'
+resource language_label focused_asset_crop_presets_portal_da {
+    constant = 'FOCUSED_ASSET_CROP_PRESETS_PORTAL'
+    label = 'Side skabelon'
     language_id = data.language.danish.id
     folder_id = resource.language_label_folder.media_manager.folder_id
     version_id = resource.product.media_manager.base_version_id
 }
 
-resource language_label focused_asset_crop_presets_standard_en {
-    constant = 'FOCUSED_ASSET_CROP_PRESETS_STANDARD'
-    label = 'Standard presets'
+resource language_label focused_asset_crop_presets_global_en {
+    constant = 'FOCUSED_ASSET_CROP_PRESETS_GLOBAL'
+    label = 'Global presets'
     language_id = data.language.english.id
     folder_id = resource.language_label_folder.media_manager.folder_id
     version_id = resource.product.media_manager.base_version_id
 }
 
-resource language_label focused_asset_crop_presets_standard_da {
-    constant = 'FOCUSED_ASSET_CROP_PRESETS_STANDARD'
-    label = 'Standardforudindstillinger'
+resource language_label focused_asset_crop_presets_global_da {
+    constant = 'FOCUSED_ASSET_CROP_PRESETS_GLOBAL'
+    label = 'Global skabelon'
     language_id = data.language.danish.id
     folder_id = resource.language_label_folder.media_manager.folder_id
     version_id = resource.product.media_manager.base_version_id
