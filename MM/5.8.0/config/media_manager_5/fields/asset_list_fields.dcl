@@ -5,7 +5,7 @@ data note_metafield assetdescription {
 resource configservice_multi_string_config_field  asset_list_fields {
   default_values = [
     {
-      value = data.note_metafield.description.item_guid
+      value = data.note_metafield.assetdescription .item_guid
     },
     {
       value = 'uploadDate'
