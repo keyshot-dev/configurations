@@ -302,3 +302,35 @@ resource configservice_label advanced_search_add_new {
   ]
 }
 
+resource configservice_label advanced_search_button_add_criteria_tooltip {
+  key = 'ADVANCED_SEARCH_BUTTON_ADD_CRITERIA_TOOLTIP'
+  group = 'Freetext Search'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Add search criteria'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Tilføj søgekriterie'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label advanced_search_button_remove_criteria_tooltip {
+  key = 'ADVANCED_SEARCH_BUTTON_REMOVE_CRITERIA_TOOLTIP'
+  group = 'Freetext Search'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Remove search criteria'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Fjern søgekriterie'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
