@@ -742,7 +742,7 @@ resource language_label dam_search_editor_succesfully_deleted_inactive_searches_
 
 resource language_label dam_search_editor_succesfully_repopulated_search_cache_danish {
     constant = 'DAM_SEARCH_EDITOR_SUCCESFULLY_REPOPULATED_SEARCH_CACHE'
-    label = "Skabte et job, som vil repopulere søge cache'n"
+    label = "Skabte et job, som vil repopulere søge-cachen"
     language_id = resource.language.danish.id
     folder_id = resource.language_label_folder.searches_50019.folder_id
     version_id = resource.product.digizuite_dam_center.base_version_id
@@ -934,7 +934,7 @@ resource language_label lbl_fjs_cm_searches_delete_confirm_swedish {
 
 resource language_label lbl_fjs_cm_searches_populate_msg_danish {
     constant = 'LBL_FJS_CM_SEARCHES_POPULATE_MSG'
-    label = 'Ønsker du at sætte generering af søge cache igang?'
+    label = 'Ønsker du at sætte generering af søge-cachen igang?'
     language_id = resource.language.danish.id
     folder_id = resource.language_label_folder.searches_50019.folder_id
     version_id = resource.product.digizuite_dam_center.base_version_id
@@ -966,7 +966,7 @@ resource language_label lbl_fjs_cm_searches_populate_msg_swedish {
 
 resource language_label lbl_fjs_cm_searches_populate_tooltip_danish {
     constant = 'LBL_FJS_CM_SEARCHES_POPULATE_TOOLTIP'
-    label = 'Generer søge cache'
+    label = 'Generer søge-cache'
     language_id = resource.language.danish.id
     folder_id = resource.language_label_folder.searches_50019.folder_id
     version_id = resource.product.digizuite_dam_center.base_version_id

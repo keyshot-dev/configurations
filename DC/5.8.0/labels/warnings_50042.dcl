@@ -5158,7 +5158,7 @@ resource language_label dam_warning_812_swedish {
 
 resource language_label dam_warning_813_danish {
     constant = 'DAM_WARNING_813'
-    label = 'Folder skal have et navn'
+    label = 'Mappen skal have et navn'
     language_id = resource.language.danish.id
     folder_id = resource.language_label_folder.warnings_50042.folder_id
     version_id = resource.product.digizuite_dam_center.base_version_id
@@ -6438,7 +6438,7 @@ resource language_label dam_warning_852_swedish {
 
 resource language_label dam_warning_853_danish {
     constant = 'DAM_WARNING_853'
-    label = 'Parent folderid ikke eksisterer'
+    label = 'Mappens overmappes ID eksisterer ikke'
     language_id = resource.language.danish.id
     folder_id = resource.language_label_folder.warnings_50042.folder_id
     version_id = resource.product.digizuite_dam_center.base_version_id
@@ -6534,7 +6534,7 @@ resource language_label dam_warning_855_swedish {
 
 resource language_label dam_warning_856_danish {
     constant = 'DAM_WARNING_856'
-    label = 'FolderId Er ikke eksisterer'
+    label = 'Mappes ID eksisterer ikke'
     language_id = resource.language.danish.id
     folder_id = resource.language_label_folder.warnings_50042.folder_id
     version_id = resource.product.digizuite_dam_center.base_version_id
