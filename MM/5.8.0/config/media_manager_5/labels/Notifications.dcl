@@ -132,11 +132,11 @@ resource configservice_label notification_panel_notification_panel_list_asset_no
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = '{actionType, select, 201 {<b>{{assetName}}</b> created} 202 {<b>{{assetName}}</b> uploaded} 203 {Asset replaced} 204 {Asset restored} 205 {Crop/trim created}}'
+      default_translation = '{actionType, select, 201 {Created {{assetName}}} 202 {Uploaded {{assetName}}} 203 {Replaced {{assetName}}} 204 {Restored {{assetName}}} 205 {Created crop/trim}}'
       language_id = data.language.english.id
     },
     {
-      default_translation = '{actionType, select, 201 {<b>{{assetName}}</b> oprettet} 202 {<b>{{assetName}}</b> uploadet} 203 {Asset udskiftet} 204 {Asset gendannet} 205 {Beskæring oprettet}}'
+      default_translation = '{actionType, select, 201 {Oprettede {{assetName}}} 202 {Uploadede {{assetName}}} 203 {Udskiftede {{assetName}}} 204 {Gendannede {{assetName}}} 205 {Oprettede beskæring}}'
       language_id = data.language.danish.id
     }
   ]
