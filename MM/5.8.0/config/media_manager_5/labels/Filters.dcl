@@ -504,7 +504,7 @@ resource configservice_label asset_list_filters_configuration_reset_button {
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Reset to default values'
+      default_translation = 'Nulstil til standardværdier'
       language_id = data.language.danish.id
     }
   ]
