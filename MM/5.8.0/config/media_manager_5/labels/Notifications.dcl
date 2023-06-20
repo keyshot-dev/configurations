@@ -68,11 +68,11 @@ resource configservice_label notification_panel_notification_panel_list_collecti
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = '{actionType, select, 401 {<b>{{userName}}</b> has invited you to join a shared collection called "{{collectionName}}".}}'
+      default_translation = '{actionType, select, 421 {<b>{{userName}}</b> has invited you to join a shared collection called "{{collectionName}}".}}'
       language_id = data.language.english.id
     },
     {
-      default_translation = '{actionType, select, 401 {<b>{{userName}}</b> har inviteret dig til at deltage i en collection called "{{collectionName}}".}}'
+      default_translation = '{actionType, select, 421 {<b>{{userName}}</b> har inviteret dig til at deltage i en collection called "{{collectionName}}".}}'
       language_id = data.language.danish.id
     }
   ]
