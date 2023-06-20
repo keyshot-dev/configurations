@@ -3406,6 +3406,22 @@ resource configservice_label settings_asset_list_columns_settings_title {
   ]
 }
 
+resource configservice_label settings_asset_list_columns_settings_filters {
+  key = 'SETTINGS_ASSET_LIST_COLUMNS_SETTINGS_FILTERS'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Asset list columns'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Assetliste-kolonner'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label collection_asset_settings_title {
   key = 'COLLECTION_ASSET_SETTINGS_TITLE'
   group = 'Settings'
