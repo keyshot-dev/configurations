@@ -8,7 +8,7 @@
 
 resource language_label smenu_danish {
     constant = 'sMenu'
-    label = 'Foldere'
+    label = 'Mapper'
     language_id = data.language.danish.id
     folder_id = data.language_label_folder.filters.folder_id
     version_id = data.product_version.digizuite_dam_center__oobe.version_id

@@ -582,7 +582,7 @@ resource language_label lbl_fjs_upload_btn_save_begin_upload_swedish {
 
 resource language_label lbl_fjs_upload_cannot_write_to_upload_folder_danish {
     constant = 'LBL_FJS_UPLOAD_CANNOT_WRITE_TO_UPLOAD_FOLDER'
-    label = 'Kunne ikke skrive til upload-folderen. Stien: '
+    label = 'Kunne ikke skrive til upload-mappen. Stien: '
     language_id = resource.language.danish.id
     folder_id = resource.language_label_folder.upload_50007.folder_id
     version_id = resource.product.digizuite_dam_center.base_version_id

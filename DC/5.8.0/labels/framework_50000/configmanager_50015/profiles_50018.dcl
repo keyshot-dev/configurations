@@ -326,7 +326,7 @@ resource language_label lbl_fjs_cm_profiles_remove_profiles_destination_msg_swed
 
 resource language_label lbl_fjs_cm_profiles_select_folder_danish {
     constant = 'LBL_FJS_CM_PROFILES_SELECT_FOLDER'
-    label = 'Vælg foldere'
+    label = 'Vælg mapper'
     language_id = resource.language.danish.id
     folder_id = resource.language_label_folder.profiles_50018.folder_id
     version_id = resource.product.digizuite_dam_center.base_version_id

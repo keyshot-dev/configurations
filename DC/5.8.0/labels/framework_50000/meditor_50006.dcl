@@ -2310,7 +2310,7 @@ resource language_label lbl_fjs_meditor_validation_errors_swedish {
 
 resource language_label lbl_fjs_upload_cannot_write_to_upload_folder_unauthorized_access_danish {
     constant = 'LBL_FJS_UPLOAD_CANNOT_WRITE_TO_UPLOAD_FOLDER_UNAUTHORIZED_ACCESS'
-    label = 'Upload-brugeren har ikke tilstrækkelige rettigheder til at uploade til upload-folderen.'
+    label = 'Upload-brugeren har ikke tilstrækkelige rettigheder til at uploade til upload-mappen.'
     language_id = resource.language.danish.id
     folder_id = resource.language_label_folder.meditor_50006.folder_id
     version_id = resource.product.digizuite_dam_center.base_version_id
