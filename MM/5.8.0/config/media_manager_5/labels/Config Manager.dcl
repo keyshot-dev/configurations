@@ -596,11 +596,11 @@ resource configservice_label portal_config_manager_portal_mail_templates_delete_
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Are you sure you want to delete the mail template ''{{name}}''?'
+      default_translation = 'Are you sure you want to delete the mail template \'{{name}}\'?'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Er du sikker på at du vil slette email-skabelonen ''{{name}}''?'
+      default_translation = 'Er du sikker på at du vil slette email-skabelonen \'{{name}}\'?'
       language_id = data.language.danish.id
     }
   ]
