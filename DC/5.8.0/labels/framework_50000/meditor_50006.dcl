@@ -390,7 +390,7 @@ resource language_label dam_metafield_treeeditor_tree_values_must_unique_swedish
 
 resource language_label dam_nav_allowed_letters_in_folder_name_danish {
     constant = 'DAM_NAV_ALLOWED_LETTERS_IN_FOLDER_NAME'
-    label = 'Nogle karakterer er ikke tilladte for foldernavne.\\nDe invalide bogstaver er |, <, >, ", \' og \\.'
+    label = 'Nogle karakterer er ikke tilladte i mappenavne.\\nDe invalide bogstaver er |, <, >, ", \' og \\.'
     language_id = resource.language.danish.id
     folder_id = resource.language_label_folder.meditor_50006.folder_id
     version_id = resource.product.digizuite_dam_center.base_version_id

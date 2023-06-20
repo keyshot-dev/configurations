@@ -14278,7 +14278,7 @@ resource language_label lbl_assetversion_confirm_replace_swedish {
 
 resource language_label lbl_assetview_admin_application_reload_mouseover_description_danish {
     constant = 'LBL_ASSETVIEW_ADMIN_APPLICATION_RELOAD_MOUSEOVER_DESCRIPTION'
-    label = 'Genindlæs cache objekter her.'
+    label = 'Genindlæs cache-objekter her.'
     language_id = resource.language.danish.id
     folder_id = resource.language_label_folder.legacy_50030.folder_id
     version_id = resource.product.digizuite_dam_center.base_version_id
@@ -30630,7 +30630,7 @@ resource language_label lbl_dlg_admin_newsearchstopword_name_swedish {
 
 resource language_label lbl_dlg_admin_newsearchstopword_title_danish {
     constant = 'LBL_DLG_ADMIN_NEWSEARCHSTOPWORD_TITLE'
-    label = 'Nyt søge stopord'
+    label = 'Nyt søge-stopord'
     language_id = resource.language.danish.id
     folder_id = resource.language_label_folder.legacy_50030.folder_id
     version_id = resource.product.digizuite_dam_center.base_version_id

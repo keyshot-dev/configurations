@@ -4550,7 +4550,7 @@ resource language_label dam_warning_719_swedish {
 
 resource language_label dam_warning_720_danish {
     constant = 'DAM_WARNING_720'
-    label = 'Itemid svarer ikke til en gyldig layoutfolder'
+    label = 'Item-ID svarer ikke til en gyldig kanal-mappe'
     language_id = resource.language.danish.id
     folder_id = resource.language_label_folder.warnings_50042.folder_id
     version_id = resource.product.digizuite_dam_center.base_version_id
@@ -5862,7 +5862,7 @@ resource language_label dam_warning_834_swedish {
 
 resource language_label dam_warning_835_danish {
     constant = 'DAM_WARNING_835'
-    label = 'Valgte FolderId ikke eksisterer'
+    label = 'Valgte mappes ID eksisterer ikke'
     language_id = resource.language.danish.id
     folder_id = resource.language_label_folder.warnings_50042.folder_id
     version_id = resource.product.digizuite_dam_center.base_version_id

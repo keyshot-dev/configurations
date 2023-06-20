@@ -6,7 +6,7 @@ resource language_label_folder language_labels_50016 {
 
 resource language_label lbl_fjs_cm_languagelabels_add_folder_btn_danish {
     constant = 'LBL_FJS_CM_LANGUAGELABELS_ADD_FOLDER_BTN'
-    label = 'Tilføj folder'
+    label = 'Tilføj mappe'
     language_id = resource.language.danish.id
     folder_id = resource.language_label_folder.language_labels_50016.folder_id
     version_id = resource.product.digizuite_dam_center.base_version_id
@@ -102,7 +102,7 @@ resource language_label lbl_fjs_cm_languagelabels_column_constant_swedish {
 
 resource language_label lbl_fjs_cm_languagelabels_column_foldername_danish {
     constant = 'LBL_FJS_CM_LANGUAGELABELS_COLUMN_FOLDERNAME'
-    label = 'Foldernavn'
+    label = 'Mappenavn'
     language_id = resource.language.danish.id
     folder_id = resource.language_label_folder.language_labels_50016.folder_id
     version_id = resource.product.digizuite_dam_center.base_version_id
@@ -166,7 +166,7 @@ resource language_label lbl_fjs_cm_languagelabels_column_label_swedish {
 
 resource language_label lbl_fjs_cm_languagelabels_delete_folder_btn_danish {
     constant = 'LBL_FJS_CM_LANGUAGELABELS_DELETE_FOLDER_BTN'
-    label = 'Slet folder'
+    label = 'Slet mappe'
     language_id = resource.language.danish.id
     folder_id = resource.language_label_folder.language_labels_50016.folder_id
     version_id = resource.product.digizuite_dam_center.base_version_id
@@ -198,7 +198,7 @@ resource language_label lbl_fjs_cm_languagelabels_delete_folder_btn_swedish {
 
 resource language_label lbl_fjs_cm_languagelabels_delete_folder_msg_danish {
     constant = 'LBL_FJS_CM_LANGUAGELABELS_DELETE_FOLDER_MSG'
-    label = 'Ønsker du at slette den valgte folder?'
+    label = 'Ønsker du at slette den valgte mappe?'
     language_id = resource.language.danish.id
     folder_id = resource.language_label_folder.language_labels_50016.folder_id
     version_id = resource.product.digizuite_dam_center.base_version_id

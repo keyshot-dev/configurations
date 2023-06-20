@@ -4262,7 +4262,7 @@ resource language_label dam_warning_previewing_filetype_not_supported_swedish {
 
 resource language_label lbl_system_action_move_folder_danish {
     constant = 'LBL_SYSTEM_ACTION_MOVE_FOLDER'
-    label = 'Flyt folder'
+    label = 'Flyt mappe'
     language_id = resource.language.danish.id
     folder_id = resource.language_label_folder.browser_50034.folder_id
     version_id = resource.product.digizuite_dam_center.base_version_id

@@ -1482,7 +1482,7 @@ resource language_label dam_search_editor_error_while_retrieving_metafields_swed
 
 resource language_label dam_search_editor_failed_the_for_searchname_uniqueness_danish {
     constant = 'DAM_SEARCH_EDITOR_FAILED_THE_FOR_SEARCHNAME_UNIQUENESS'
-    label = 'Kunne ikke verificere, om søge navnet er unikt'
+    label = 'Kunne ikke verificere, om søge-navnet er unikt'
     language_id = resource.language.danish.id
     folder_id = resource.language_label_folder.system_tools_50044.folder_id
     version_id = resource.product.digizuite_dam_center.base_version_id
