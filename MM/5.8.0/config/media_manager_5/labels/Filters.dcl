@@ -494,3 +494,20 @@ resource configservice_label asset_list_filters_overylay_view_assets_button {
   ]
 }
 
+resource configservice_label asset_list_filters_configuration_reset_button {
+  key = 'ASSET_LIST_FILTERS_CONFIGURATION_RESET_BUTTON'
+  group = 'Filters'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Reset to default values'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Reset to default values'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+
