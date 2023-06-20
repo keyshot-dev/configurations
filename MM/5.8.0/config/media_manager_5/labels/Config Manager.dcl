@@ -126,134 +126,6 @@ resource configservice_label mail_template_settings_template_body {
   ]
 }
 
-resource configservice_label mail_template_settings_delete {
-  key = 'MAIL_TEMPLATE_SETTINGS_DELETE'
-  group = 'Config Manager'
-  product_id = resource.configservice_product.media_manager_5.id
-  default_label_values = [
-    {
-      default_translation = '{deleting, select, true {Deleting...} false {Delete}}'
-      language_id = data.language.english.id
-    },
-    {
-      default_translation = '{deleting, select, true {Sletter...} false {Slet}}'
-      language_id = data.language.danish.id
-    }
-  ]
-}
-
-resource configservice_label mail_template_settings_update {
-  key = 'MAIL_TEMPLATE_SETTINGS_UPDATE'
-  group = 'Config Manager'
-  product_id = resource.configservice_product.media_manager_5.id
-  default_label_values = [
-    {
-      default_translation = '{updating, select, true {Updating...} false {Update}}'
-      language_id = data.language.english.id
-    },
-    {
-      default_translation = '{updating, select, true {Opdaterer...} false {Opdater}}'
-      language_id = data.language.danish.id
-    }
-  ]
-}
-
-resource configservice_label mail_template_settings_create_new {
-  key = 'MAIL_TEMPLATE_SETTINGS_CREATE_NEW'
-  group = 'Config Manager'
-  product_id = resource.configservice_product.media_manager_5.id
-  default_label_values = [
-    {
-      default_translation = '{creatingNew, select, true {Creating new...} false {Create new}}'
-      language_id = data.language.english.id
-    },
-    {
-      default_translation = '{creatingNew, select, true {Gemmer ny...} false {Gem ny}}'
-      language_id = data.language.danish.id
-    }
-  ]
-}
-
-resource configservice_label mail_template_settings_no_product_version_selected {
-  key = 'MAIL_TEMPLATE_SETTINGS_NO_PRODUCT_VERSION_SELECTED'
-  group = 'Config Manager'
-  product_id = resource.configservice_product.media_manager_5.id
-  default_label_values = [
-    {
-      default_translation = 'Please select a product version'
-      language_id = data.language.english.id
-    },
-    {
-      default_translation = 'Vælg venligst en produktversion'
-      language_id = data.language.danish.id
-    }
-  ]
-}
-
-resource configservice_label mail_template_settings_confirm_delete_title {
-  key = 'MAIL_TEMPLATE_SETTINGS_CONFIRM_DELETE_TITLE'
-  group = 'Config Manager'
-  product_id = resource.configservice_product.media_manager_5.id
-  default_label_values = [
-    {
-      default_translation = 'Confirm deletion'
-      language_id = data.language.english.id
-    },
-    {
-      default_translation = 'Bekræft sletning'
-      language_id = data.language.danish.id
-    }
-  ]
-}
-
-resource configservice_label mail_template_settings_confirm_delete_body {
-  key = 'MAIL_TEMPLATE_SETTINGS_CONFIRM_DELETE_BODY'
-  group = 'Config Manager'
-  product_id = resource.configservice_product.media_manager_5.id
-  default_label_values = [
-    {
-      default_translation = 'Are you sure you want to delete the \'{{name}}\' mail template?'
-      language_id = data.language.english.id
-    },
-    {
-      default_translation = 'Er du sikker på at du vil slette mailskabelonen \'{{name}}\'?'
-      language_id = data.language.danish.id
-    }
-  ]
-}
-
-resource configservice_label mail_template_settings_confirm_delete_delete {
-  key = 'MAIL_TEMPLATE_SETTINGS_CONFIRM_DELETE_DELETE'
-  group = 'Config Manager'
-  product_id = resource.configservice_product.media_manager_5.id
-  default_label_values = [
-    {
-      default_translation = 'Delete'
-      language_id = data.language.english.id
-    },
-    {
-      default_translation = 'Slet'
-      language_id = data.language.danish.id
-    }
-  ]
-}
-
-resource configservice_label mail_template_settings_confirm_delete_cancel {
-  key = 'MAIL_TEMPLATE_SETTINGS_CONFIRM_DELETE_CANCEL'
-  group = 'Config Manager'
-  product_id = resource.configservice_product.media_manager_5.id
-  default_label_values = [
-    {
-      default_translation = 'Cancel'
-      language_id = data.language.english.id
-    },
-    {
-      default_translation = 'Annullér'
-      language_id = data.language.danish.id
-    }
-  ]
-}
-
 resource configservice_label config_manager_no_products_found {
   key = 'CONFIG_MANAGER_NO_PRODUCTS_FOUND'
   group = 'Config Manager'
@@ -665,6 +537,86 @@ resource configservice_label config_manager_mail_template_docs_general_scriban_i
     },
     {
       default_translation = 'som er meget nyttige.'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label portal_config_manager_portal_mail_templates_delete {
+  key = 'PORTAL_CONFIG_MANAGER_PORTAL_MAIL_TEMPLATES_DELETE'
+  group = 'Config Manager'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Delete'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Slet'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label portal_config_manager_portal_mail_templates_delete_cancel {
+  key = 'PORTAL_CONFIG_MANAGER_PORTAL_MAIL_TEMPLATES_DELETE_CANCEL'
+  group = 'Config Manager'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Keep'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Behold'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label portal_config_manager_portal_mail_templates_delete_confirm {
+  key = 'PORTAL_CONFIG_MANAGER_PORTAL_MAIL_TEMPLATES_DELETE_CONFIRM'
+  group = 'Config Manager'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Delete'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Slet'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label portal_config_manager_portal_mail_templates_delete_content {
+  key = 'PORTAL_CONFIG_MANAGER_PORTAL_MAIL_TEMPLATES_DELETE_CONTENT'
+  group = 'Config Manager'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Are you sure you want to delete the mail template ''{{name}}''?'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Er du sikker på at du vil slette email-skabelonen ''{{name}}''?'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label portal_config_manager_portal_mail_templates_delete_title {
+  key = 'PORTAL_CONFIG_MANAGER_PORTAL_MAIL_TEMPLATES_DELETE_TITLE'
+  group = 'Config Manager'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Delete mail template'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Slet email-skabelon'
       language_id = data.language.danish.id
     }
   ]
