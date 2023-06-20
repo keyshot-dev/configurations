@@ -3416,7 +3416,7 @@ resource configservice_label settings_asset_list_columns_settings_filters {
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Asset list columns'
+      default_translation = 'Assetliste-kolonner'
       language_id = data.language.danish.id
     }
   ]
