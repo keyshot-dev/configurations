@@ -72,7 +72,7 @@ resource configservice_label notification_panel_notification_panel_list_collecti
       language_id = data.language.english.id
     },
     {
-      default_translation = '{actionType, select, 421 {<b>{{userName}}</b> har inviteret dig til at deltage i en collection called "{{collectionName}}".}}'
+      default_translation = '{actionType, select, 421 {<b>{{userName}}</b> har inviteret dig til at deltage i en collection kaldet "{{collectionName}}".}}'
       language_id = data.language.danish.id
     }
   ]
