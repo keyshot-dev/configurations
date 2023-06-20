@@ -614,7 +614,7 @@ resource language_label dam_search_editor_query_string_swedish {
 
 resource language_label dam_search_editor_repopulate_search_cache_danish {
     constant = 'DAM_SEARCH_EDITOR_REPOPULATE_SEARCH_CACHE'
-    label = 'Regenerér søge cache'
+    label = 'Regenerér søge-cache'
     language_id = resource.language.danish.id
     folder_id = resource.language_label_folder.searches_50019.folder_id
     version_id = resource.product.digizuite_dam_center.base_version_id
