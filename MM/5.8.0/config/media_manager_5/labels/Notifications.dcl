@@ -136,7 +136,7 @@ resource configservice_label notification_panel_notification_panel_list_asset_no
       language_id = data.language.english.id
     },
     {
-      default_translation = '{actionType, select, 201 {Oprettet {{assetName}}} 202 {Uploadet {{assetName}}} 203 {Asset udskiftet} 204 {Asset gendannet} 205 {Beskæring oprettet}}'
+      default_translation = '{actionType, select, 201 {Oprettede {{assetName}}} 202 {Uploadede {{assetName}}} 203 {Udskiftede {{assetName}}} 204 {Gendannede {{assetName}}} 205 {Oprettede beskæring}}'
       language_id = data.language.danish.id
     }
   ]
