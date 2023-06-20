@@ -6,7 +6,7 @@ resource language_label_folder profiles_50018 {
 
 resource language_label lbl_fjs_cm_profiles_add_folder_btn_danish {
     constant = 'LBL_FJS_CM_PROFILES_ADD_FOLDER_BTN'
-    label = 'Tilføj folder'
+    label = 'Tilføj mappe'
     language_id = resource.language.danish.id
     folder_id = resource.language_label_folder.profiles_50018.folder_id
     version_id = resource.product.digizuite_dam_center.base_version_id
@@ -262,7 +262,7 @@ resource language_label lbl_fjs_cm_profiles_folder_select_ok_swedish {
 
 resource language_label lbl_fjs_cm_profiles_remove_folder_msg_danish {
     constant = 'LBL_FJS_CM_PROFILES_REMOVE_FOLDER_MSG'
-    label = 'Ønsker du at fjerne den valgt folder?'
+    label = 'Ønsker du at fjerne den valgte mappe?'
     language_id = resource.language.danish.id
     folder_id = resource.language_label_folder.profiles_50018.folder_id
     version_id = resource.product.digizuite_dam_center.base_version_id
