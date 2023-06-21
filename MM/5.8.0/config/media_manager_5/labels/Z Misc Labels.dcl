@@ -580,11 +580,11 @@ resource configservice_label comment_notification_header_title {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Notification'
+      default_translation = 'Notifications'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Notifikation'
+      default_translation = 'Notifikationer'
       language_id = data.language.danish.id
     }
   ]
