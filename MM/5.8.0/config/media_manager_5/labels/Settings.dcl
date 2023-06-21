@@ -4702,6 +4702,22 @@ resource configservice_label settings_settings_left_menu_importer {
   ]
 }
 
+resource configservice_label settings_settings_left_menu_service_configuration {
+  key = 'SETTINGS_SETTINGS_LEFT_MENU_SERVICE_CONFIGURATION'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Service configuration'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Tjenestekonfiguration'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label settings_importer_settings_loading {
   key = 'SETTINGS_IMPORTER_SETTINGS_LOADING'
   group = 'Settings'
@@ -6342,3 +6358,210 @@ resource configservice_label settings_factory_reset_button {
   ]
 }
 
+resource configservice_label settings_service_configuration_title {
+  key = 'SETTINGS_SERVICE_CONFIGURATION_TITLE'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Service configuration'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Tjenestekonfiguration'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_service_configuration_shrink_some_groups {
+  key = 'SETTINGS_SERVICE_CONFIGURATION_SHRINK_SOME_GROUPS'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Collapse'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Kollaps'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_service_configuration_shrink_all_groups {
+  key = 'SETTINGS_SERVICE_CONFIGURATION_SHRINK_ALL_GROUPS'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Collapse all'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Kollaps alle'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_service_configuration_expand_all_groups {
+  key = 'SETTINGS_SERVICE_CONFIGURATION_EXPAND_ALL_GROUPS'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Expand all'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Udvid alle'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_service_configuration_discard {
+  key = 'SETTINGS_SERVICE_CONFIGURATION_DISCARD'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Discard'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Kassér'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_service_configuration_saving {
+  key = 'SETTINGS_SERVICE_CONFIGURATION_SAVING'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Saving...'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Gemmer...'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_service_configuration_save {
+  key = 'SETTINGS_SERVICE_CONFIGURATION_SAVE'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Save'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Gem'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_service_configuration_success_title {
+  key = 'SETTINGS_SERVICE_CONFIGURATION_SUCCESS_TITLE'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Success'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Succes'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_service_configuration_success_body {
+  key = 'SETTINGS_SERVICE_CONFIGURATION_SUCCESS_BODY'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Settings successfully updated'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Indstillinger opdatereret'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_service_configuration_failed_title {
+  key = 'SETTINGS_SERVICE_CONFIGURATION_FAILED_TITLE'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Error'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Fejl'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_service_configuration_failed_body {
+  key = 'SETTINGS_SERVICE_CONFIGURATION_FAILED_BODY'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'An error occurred while saving the settings'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Der skete en fejl under lagringen af indstillinger'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_service_configuration_loading {
+  key = 'SETTINGS_SERVICE_CONFIGURATION_LOADING'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Loading....'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Indlæser...'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_service_configuration_not_found {
+  key = 'SETTINGS_SERVICE_CONFIGURATION_NOT_FOUND'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Not found'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Ikke fundet'
+      language_id = data.language.danish.id
+    }
+  ]
+}
