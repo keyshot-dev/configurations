@@ -3694,6 +3694,22 @@ resource configservice_label asset_card_settings_filter_action_insert_asset {
   ]
 }
 
+resource configservice_label asset_card_settings_filter_action_edit_asset_in_optimizely {
+  key = 'ASSET_CARD_SETTINGS_FILTER_ACTION_EDIT_ASSET_IN_OPTIMIZELY'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Edit asset in Optimizely'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Redigér asset i Optimizely'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label asset_card_settings_filter_action_open_office_document {
   key = 'ASSET_CARD_SETTINGS_FILTER_ACTION_OPEN_OFFICE_DOCUMENT'
   group = 'Settings'
