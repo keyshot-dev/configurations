@@ -5534,3 +5534,19 @@ resource configservice_label selected_links_overlay_non_manageable_links_dialog_
   ]
 }
 
+resource configservice_label creative_cloud_connector_cache_manager_download_outdated_autoload_text {
+  key = 'CREATIVE_CLOUD_CONNECTOR_CACHE_MANAGER_DOWNLOAD_OUTDATED_AUTOLOAD_TEXT'
+  group = 'Creative Cloud Connector'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Automatically download the latest version of assets in the background'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Download automatisk den seneste version af assets i baggrunden'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
