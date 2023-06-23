@@ -1358,6 +1358,22 @@ resource configservice_label multi_metadata_editor_multi_combo_value_input_selec
   ]
 }
 
+resource configservice_label multi_metadata_editor_multi_combo_value_input_select_tags {
+  key = 'MULTI_METADATA_EDITOR_MULTI_COMBO_VALUE_INPUT_SELECT_TAGS'
+  group = 'Metadata'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = '{multiple, select, false {Select tag...} true {Select tags...}}'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = '{multiple, select, false {Vælg tag...} true {Vælg tags...}}'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label multi_metadata_editor_multi_combo_value_input_select {
   key = 'MULTI_METADATA_EDITOR_MULTI_COMBO_VALUE_INPUT_SELECT'
   group = 'Metadata'
