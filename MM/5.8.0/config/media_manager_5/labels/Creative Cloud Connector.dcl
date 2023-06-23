@@ -5534,3 +5534,19 @@ resource configservice_label selected_links_overlay_non_manageable_links_dialog_
   ]
 }
 
+resource language_label creative_cloud_connector_cache_manager_download_outdated_autoload_text_en {
+    constant = 'CREATIVE_CLOUD_CONNECTOR_CACHE_MANAGER_DOWNLOAD_OUTDATED_AUTOLOAD_TEXT'
+    label = 'Always download outdated assets in the background'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label creative_cloud_connector_cache_manager_download_outdated_autoload_text_da {
+    constant = 'CREATIVE_CLOUD_CONNECTOR_CACHE_MANAGER_DOWNLOAD_OUTDATED_AUTOLOAD_TEXT'
+    label = 'Download altid forældede assets i baggrunden'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+

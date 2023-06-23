@@ -3904,7 +3904,7 @@ resource language_label office_file_manager_high_quality_autoload_da {
 
 resource language_label office_file_manager_high_quality_autoload_text_en {
     constant = 'OFFICE_FILE_MANAGER_HIGH_QUALITY_AUTOLOAD_TEXT'
-    label = 'Always download the high-res quality in the background'
+    label = 'Always download the export quality in the background'
     language_id = data.language.english.id
     folder_id = resource.language_label_folder.media_manager.folder_id
     version_id = resource.product.media_manager.base_version_id
@@ -3912,7 +3912,7 @@ resource language_label office_file_manager_high_quality_autoload_text_en {
 
 resource language_label office_file_manager_high_quality_autoload_text_da {
     constant = 'OFFICE_FILE_MANAGER_HIGH_QUALITY_AUTOLOAD_TEXT'
-    label = 'Download altid high-res-kvaliteten i baggrunden'
+    label = 'Download altid eksport-kvaliteten i baggrunden'
     language_id = data.language.danish.id
     folder_id = resource.language_label_folder.media_manager.folder_id
     version_id = resource.product.media_manager.base_version_id
