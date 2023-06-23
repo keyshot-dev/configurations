@@ -1342,17 +1342,49 @@ resource configservice_label error_metadata_editor_save_body {
   ]
 }
 
-resource configservice_label multi_metadata_editor_multi_combo_value_input_add_more_tags {
-  key = 'MULTI_METADATA_EDITOR_MULTI_COMBO_VALUE_INPUT_ADD_MORE_TAGS'
+resource configservice_label multi_metadata_editor_multi_combo_value_input_select_or_add_tags {
+  key = 'MULTI_METADATA_EDITOR_MULTI_COMBO_VALUE_INPUT_SELECT_OR_ADD_TAGS'
   group = 'Metadata'
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Add more tags...'
+      default_translation = '{multiple, select, false {Select or add tag...} true {Select or add tags...}}'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Tilføj flere tags...'
+      default_translation = '{multiple, select, false {Vælg eller tilføj tag...} true {Vælg eller tilføj tags...}}'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label multi_metadata_editor_multi_combo_value_input_select {
+  key = 'MULTI_METADATA_EDITOR_MULTI_COMBO_VALUE_INPUT_SELECT'
+  group = 'Metadata'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Select'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Vælg'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label multi_metadata_editor_multi_combo_value_input_popup_select_all {
+  key = 'MULTI_METADATA_EDITOR_MULTI_COMBO_VALUE_INPUT_POPUP_SELECT_ALL'
+  group = 'Metadata'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Select all'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Vælg alle'
       language_id = data.language.danish.id
     }
   ]
@@ -1438,17 +1470,17 @@ resource configservice_label multi_metadata_editor_multi_combo_value_input_popup
   ]
 }
 
-resource configservice_label multi_metadata_editor_multi_combo_value_input_popup_add_to_list {
-  key = 'MULTI_METADATA_EDITOR_MULTI_COMBO_VALUE_INPUT_POPUP_ADD_TO_LIST'
+resource configservice_label multi_metadata_editor_multi_combo_value_input_popup_add_tag {
+  key = 'MULTI_METADATA_EDITOR_MULTI_COMBO_VALUE_INPUT_POPUP_ADD_TAG'
   group = 'Metadata'
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Add to list'
+      default_translation = 'Add tag'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Tilføj til liste'
+      default_translation = 'Tilføj tag'
       language_id = data.language.danish.id
     }
   ]
