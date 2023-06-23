@@ -5540,11 +5540,11 @@ resource configservice_label creative_cloud_connector_cache_manager_download_out
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Always download outdated assets in the background'
+      default_translation = 'Automatically download the latest version of assets in the background'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Download altid forældede assets i baggrunden'
+      default_translation = 'Download automatisk den seneste version af assets i baggrunden'
       language_id = data.language.danish.id
     }
   ]
