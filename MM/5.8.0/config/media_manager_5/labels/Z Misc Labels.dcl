@@ -260,11 +260,11 @@ resource configservice_label asset_list_filter_menu_freetext_simple_search {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Search'
+      default_translation = 'Search in assets'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Søg'
+      default_translation = 'Søg i assets'
       language_id = data.language.danish.id
     }
   ]
@@ -2137,6 +2137,22 @@ resource configservice_label aria_label_expand {
     },
     {
       default_translation = 'Udvid'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label aria_label_hide_search {
+  key = 'ARIA_LABEL_HIDE_SEARCH_INPUT'
+  group = 'Z Misc Labels'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Hide search'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Skjul søgning'
       language_id = data.language.danish.id
     }
   ]
