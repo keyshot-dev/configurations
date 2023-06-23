@@ -2142,3 +2142,19 @@ resource configservice_label aria_label_expand {
   ]
 }
 
+resource configservice_label aria_label_hide_search {
+  key = 'ARIA_LABEL_HIDE_SEARCH_INPUT'
+  group = 'Z Misc Labels'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Hide search'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Skjul søgning'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
