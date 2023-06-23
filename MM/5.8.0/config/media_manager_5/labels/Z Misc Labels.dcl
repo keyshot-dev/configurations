@@ -260,11 +260,11 @@ resource configservice_label asset_list_filter_menu_freetext_simple_search {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Search in assets'
+      default_translation = 'Search'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Søg i assets'
+      default_translation = 'Søg'
       language_id = data.language.danish.id
     }
   ]
