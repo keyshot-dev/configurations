@@ -1870,17 +1870,17 @@ resource configservice_label collections_share_overview_filters_tooltip {
   ]
 }
 
-resource configservice_label collections_share_overview_filters_by {
-  key = 'COLLECTIONS_SHARE_OVERVIEW_FILTERS_BY'
+resource configservice_label collections_share_overview_filter_by {
+  key = 'COLLECTIONS_SHARE_OVERVIEW_FILTER_BY'
   group = 'Collections'
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Filter by'
+      default_translation = 'Filter by:'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Sorter efter'
+      default_translation = 'Sorter efter:'
       language_id = data.language.danish.id
     }
   ]
