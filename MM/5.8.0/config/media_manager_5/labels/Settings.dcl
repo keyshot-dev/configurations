@@ -4712,7 +4712,7 @@ resource configservice_label settings_settings_left_menu_service_configuration {
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Tjenestekonfiguration'
+      default_translation = 'Service-konfiguration'
       language_id = data.language.danish.id
     }
   ]
@@ -6368,7 +6368,7 @@ resource configservice_label settings_service_configuration_title {
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Tjenestekonfiguration'
+      default_translation = 'Service-konfiguration'
       language_id = data.language.danish.id
     }
   ]
@@ -6528,7 +6528,7 @@ resource configservice_label settings_service_configuration_failed_body {
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Der skete en fejl under lagringen af indstillinger'
+      default_translation = 'Der skete en fejl da systemet prøvede at gemme indstillingerne'
       language_id = data.language.danish.id
     }
   ]
