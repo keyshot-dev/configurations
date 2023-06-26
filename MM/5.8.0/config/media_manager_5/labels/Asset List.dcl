@@ -206,6 +206,22 @@ resource configservice_label asset_list_list_title_column_action {
   ]
 }
 
+resource configservice_label asset_list_column_label {
+  key = 'ASSET_LIST_LIST_COLUMN_LABEL'
+  group = 'Asset List'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = '{column, select, description {Description} height {Height} width {Width} extension {Extension} fileSize {File size} duration {Duration} uploadDate {Upload date} assetId {Asset id} uploader {Upload user}  lastModified {Last updated} title {Title} tasks {Tasks} actions {Actions}}'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = '{column, select, description {Beskrivelse} height {Højde} width {Bredde} extension {Filendelse} fileSize {File size} duration {Varighed} uploadDate {Uploaddato} assetId {Asset id} uploader {Upload user}  lastModified {Sidst opdateret} title {Titel} tasks {Opgaver} actions {Handlinger}}'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label asset_list_folders_title {
   key = 'ASSET_LIST_FOLDERS_TITLE'
   group = 'Asset List'
