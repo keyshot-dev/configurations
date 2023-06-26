@@ -4734,6 +4734,22 @@ resource configservice_label settings_settings_left_menu_service_configuration {
   ]
 }
 
+resource configservice_label settings_settings_left_menu_connectors_settings {
+  key = 'SETTINGS_SETTINGS_LEFT_MENU_CONNECTORS_SETTINGS'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Connector settings'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Connector-indstillinger'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label settings_importer_settings_loading {
   key = 'SETTINGS_IMPORTER_SETTINGS_LOADING'
   group = 'Settings'
@@ -6577,6 +6593,134 @@ resource configservice_label settings_service_configuration_not_found {
     },
     {
       default_translation = 'Ikke fundet'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_connector_settings_ccc_label {
+  key = 'SETTINGS_CONNECTOR_SETTINGS_CCC_LABEL'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Creative Cloud Connector'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Creative Cloud Connector'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_connector_settings_ccc_image_insert_quality_title {
+  key = 'SETTINGS_CONNECTOR_SETTINGS_CCC_IMAGE_INSERT_QUALITY_TITLE'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Image insert quality'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Billeders indsættelses-kvalitet'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_connector_settings_ccc_image_export_quality_title {
+  key = 'SETTINGS_CONNECTOR_SETTINGS_CCC_IMAGE_EXPORT_QUALITY_TITLE'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Image export quality'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Billeders eksport-kvalitet'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_connector_settings_ccc_video_insert_quality_title {
+  key = 'SETTINGS_CONNECTOR_SETTINGS_CCC_VIDEO_INSERT_QUALITY_TITLE'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Video insert quality'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Videoers indsæt-kvalitet'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_connector_settings_ccc_video_export_quality_title {
+  key = 'SETTINGS_CONNECTOR_SETTINGS_CCC_VIDEO_EXPORT_QUALITY_TITLE'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Video export quality'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Videoers eksport-kvalitet'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_connector_settings_save {
+  key = 'SETTINGS_CONNECTOR_SETTINGS_SAVE'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = '{processing, select, true {Saving...} false {Save}}'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = '{processing, select, true {Gemmer...} false {Gem}}'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_connector_settings_save_error_title {
+  key = 'SETTINGS_CONNECTOR_SETTINGS_SAVE_ERROR_TITLE'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Error'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Fejl'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_connector_settings_save_error_message {
+  key = 'SETTINGS_CONNECTOR_SETTINGS_SAVE_ERROR_MESSAGE'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'An error occurred while saving the configuration'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Der skete en fejl mens konfigurationen gemtes'
       language_id = data.language.danish.id
     }
   ]
