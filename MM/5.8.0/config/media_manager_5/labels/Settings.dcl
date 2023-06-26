@@ -4740,11 +4740,11 @@ resource configservice_label settings_settings_left_menu_connectors_settings {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Connectors settings'
+      default_translation = 'Connector settings'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Integrationsindstillinger'
+      default_translation = 'Connector-indstillinger'
       language_id = data.language.danish.id
     }
   ]
@@ -6624,7 +6624,7 @@ resource configservice_label settings_connector_settings_ccc_image_insert_qualit
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Billed-indsæt-kvalitet'
+      default_translation = 'Billeders indsættelses-kvalitet'
       language_id = data.language.danish.id
     }
   ]
@@ -6640,7 +6640,7 @@ resource configservice_label settings_connector_settings_ccc_image_export_qualit
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Billed-eksport-kvalitet'
+      default_translation = 'Billeders eksport-kvalitet'
       language_id = data.language.danish.id
     }
   ]
@@ -6656,7 +6656,7 @@ resource configservice_label settings_connector_settings_ccc_video_insert_qualit
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Video-indsæt-kvalitet'
+      default_translation = 'Videoers indsæt-kvalitet'
       language_id = data.language.danish.id
     }
   ]
@@ -6672,7 +6672,7 @@ resource configservice_label settings_connector_settings_ccc_video_export_qualit
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Video-eksport-kvalitet'
+      default_translation = 'Videoers eksport-kvalitet'
       language_id = data.language.danish.id
     }
   ]
