@@ -2046,6 +2046,70 @@ resource configservice_label mobile_topbar_input_search_placeholder {
   ]
 }
 
+resource configservice_label mobile_topbar_open_search {
+  key = 'MOBILE_TOPBAR_OPEN_SEARCH'
+  group = 'Z Misc Labels'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Open search'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Åbn søgning'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label mobile_topbar_close_search {
+  key = 'MOBILE_TOPBAR_CLOSE_SEARCH'
+  group = 'Z Misc Labels'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Close search'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Luk søgning'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label mobile_topbar_open_menu {
+  key = 'MOBILE_TOPBAR_OPEN_MENU'
+  group = 'Z Misc Labels'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Open menu'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Åbn menu'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label mobile_topbar_refresh_product {
+  key = 'MOBILE_TOPBAR_REFRESH_PRODUCT'
+  group = 'Z Misc Labels'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Refresh'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Genopfrisk'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label aria_label_chip {
   key = 'ARIA_LABEL_CHIP'
   group = 'Z Misc Labels'
@@ -2142,6 +2206,22 @@ resource configservice_label aria_label_expand {
   ]
 }
 
+resource configservice_label aria_label_collapse {
+  key = 'ARIA_LABEL_COLLAPSE'
+  group = 'Z Misc Labels'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Collapse'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Kollaps'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label aria_label_hide_search {
   key = 'ARIA_LABEL_HIDE_SEARCH_INPUT'
   group = 'Z Misc Labels'
@@ -2158,3 +2238,67 @@ resource configservice_label aria_label_hide_search {
   ]
 }
 
+
+resource configservice_label aria_label_tabs_next {
+  key = 'ARIA_LABEL_TABS_NEXT'
+  group = 'Z Misc Labels'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Next'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Næste'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label aria_label_tabs_previous {
+  key = 'ARIA_LABEL_TABS_PREVIOUS'
+  group = 'Z Misc Labels'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Previous'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Forrige'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label aria_label_navigation_next {
+  key = 'ARIA_LABEL_NAVIGATION_NEXT'
+  group = 'Z Misc Labels'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Next'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Næste'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label aria_label_navigation_previous {
+  key = 'ARIA_LABEL_NAVIGATION_PREVIOUS'
+  group = 'Z Misc Labels'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Previous'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Forrige'
+      language_id = data.language.danish.id
+    }
+  ]
+}
