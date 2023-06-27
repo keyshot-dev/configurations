@@ -2104,7 +2104,7 @@ resource configservice_label mobile_topbar_refresh_product {
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Genopfrisk'
+      default_translation = 'Genindlæs'
       language_id = data.language.danish.id
     }
   ]
