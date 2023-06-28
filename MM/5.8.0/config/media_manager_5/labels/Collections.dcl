@@ -1300,7 +1300,7 @@ resource configservice_label collections_share_error_user_required {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'At last one receiver is required'
+      default_translation = 'At least one receiver is required'
       language_id = data.language.english.id
     },
     {
