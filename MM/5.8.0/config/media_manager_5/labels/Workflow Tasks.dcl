@@ -718,6 +718,22 @@ resource configservice_label workflow_task_list_detail_view_delete {
   ]
 }
 
+resource configservice_label workflow_task_list_detail_view_secrets {
+  key = 'WORKFLOW_TASK_LIST_DETAIL_VIEW_SECRETS'
+  group = 'Workflow Tasks'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Show'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Vis'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label workflow_task_list_detail_view_delete_confirmation_dialog_title {
   key = 'WORKFLOW_TASK_LIST_DETAIL_VIEW_DELETE_CONFIRMATION_DIALOG_TITLE'
   group = 'Workflow Tasks'
