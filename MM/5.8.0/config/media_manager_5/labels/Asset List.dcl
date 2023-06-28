@@ -910,22 +910,6 @@ resource configservice_label asset_list_asset_status_no_status {
   ]
 }
 
-resource configservice_label asset_list_box_view_item_not_public {
-  key = 'ASSET_LIST_BOX_VIEW_ITEM_NOT_PUBLIC'
-  group = 'Asset List'
-  product_id = resource.configservice_product.media_manager_5.id
-  default_label_values = [
-    {
-      default_translation = 'Not public'
-      language_id = data.language.english.id
-    },
-    {
-      default_translation = 'Ikke offentlig'
-      language_id = data.language.danish.id
-    }
-  ]
-}
-
 resource configservice_label asset_list_box_view_item_select_tooltip {
   key = 'ASSET_LIST_BOX_VIEW_ITEM_SELECT_TOOLTIP'
   group = 'Asset List'
