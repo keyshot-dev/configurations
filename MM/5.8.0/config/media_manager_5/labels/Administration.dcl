@@ -1956,11 +1956,11 @@ resource configservice_label rabbit_details_messages_get_messages_to_count {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Count'
+      default_translation = 'To'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Antal'
+      default_translation = 'Til'
       language_id = data.language.danish.id
     }
   ]
