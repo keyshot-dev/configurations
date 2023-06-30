@@ -286,7 +286,7 @@ resource language_label dam_metafield_editor_metafield_is_case_sensitive_swedish
 
 resource language_label dam_metafield_editor_metafield_is_html_danish {
     constant = 'DAM_METAFIELD_EDITOR_METAFIELD_IS_HTML'
-    label = 'Vis HTML editor'
+    label = 'Vis HTML-editor'
     language_id = resource.language.danish.id
     folder_id = resource.language_label_folder.metafield_editor_50038.folder_id
     version_id = resource.product.digizuite_dam_center.base_version_id
