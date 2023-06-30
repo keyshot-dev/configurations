@@ -6214,7 +6214,7 @@ resource language_label lbl_admin_metafieldmanager_confirm_language_delete_swedi
 
 resource language_label lbl_admin_metafieldmanager_css_class_danish {
     constant = 'LBL_ADMIN_METAFIELDMANAGER_CSS_CLASS'
-    label = 'CSS klasse'
+    label = 'CSS-klasse'
     language_id = resource.language.danish.id
     folder_id = resource.language_label_folder.legacy_50030.folder_id
     version_id = resource.product.digizuite_dam_center.base_version_id
@@ -6470,7 +6470,7 @@ resource language_label lbl_admin_metafieldmanager_isflashhtml_swedish {
 
 resource language_label lbl_admin_metafieldmanager_ishtml_danish {
     constant = 'LBL_ADMIN_METAFIELDMANAGER_ISHTML'
-    label = 'Vis HTML editor for dette felt'
+    label = 'Vis HTML-editor for dette felt'
     language_id = resource.language.danish.id
     folder_id = resource.language_label_folder.legacy_50030.folder_id
     version_id = resource.product.digizuite_dam_center.base_version_id
@@ -51390,7 +51390,7 @@ resource language_label lbl_treeview_portal_layout_swedish {
 
 resource language_label lbl_treeview_portal_pages_danish {
     constant = 'LBL_TREEVIEW_PORTAL_PAGES'
-    label = 'HTML sider'
+    label = 'HTML-sider'
     language_id = resource.language.danish.id
     folder_id = resource.language_label_folder.legacy_50030.folder_id
     version_id = resource.product.digizuite_dam_center.base_version_id
