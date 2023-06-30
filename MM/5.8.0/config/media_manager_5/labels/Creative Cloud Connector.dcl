@@ -1134,6 +1134,70 @@ resource configservice_label creative_cloud_connector_restore_broken_links_finis
   ]
 }
 
+resource configservice_label creative_cloud_connector_download_error_title {
+  key = 'CREATIVE_CLOUD_CONNECTOR_DOWNLOAD_ERROR_TITLE'
+  group = 'Creative Cloud Connector'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Error'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Fejl'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label creative_cloud_connector_download_error_body {
+  key = 'CREATIVE_CLOUD_CONNECTOR_DOWNLOAD_ERROR_BODY'
+  group = 'Creative Cloud Connector'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Failed to download the asset. Please check your internet connection.'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Det lykkedes ikke at downloade assettet. Tjek venligst din internetforbindelse.'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label creative_cloud_connector_precache_export_quality_title {
+  key = 'CREATIVE_CLOUD_CONNECTOR_PRECACHE_EXPORT_QUALITY_TITLE'
+  group = 'Creative Cloud Connector'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Preload export quality'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Forudindlæs eksport-kvalitet'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label creative_cloud_connector_precache_export_quality_asset_is_downloaded {
+  key = 'CREATIVE_CLOUD_CONNECTOR_PRECACHE_EXPORT_QUALITY_ASSET_IS_DOWNLOADED'
+  group = 'Creative Cloud Connector'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'The latest version of the asset is already downloaded to your cache'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Den seneste version af assettet er allerede downloadet til din cache'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label creative_cloud_connector_insert_error_title {
   key = 'CREATIVE_CLOUD_CONNECTOR_INSERT_ERROR_TITLE'
   group = 'Creative Cloud Connector'
