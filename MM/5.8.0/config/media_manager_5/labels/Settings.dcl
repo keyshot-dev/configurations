@@ -3710,6 +3710,22 @@ resource configservice_label asset_card_settings_filter_action_edit_asset_in_opt
   ]
 }
 
+resource configservice_label asset_card_settings_filter_precache_export_quality {
+  key = 'ASSET_CARD_SETTINGS_FILTER_ACTION_PRECACHE_EXPORT_QUALITY'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Preload export quality'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Forudindlæst eksport-kvalitet'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label asset_card_settings_filter_action_open_office_document {
   key = 'ASSET_CARD_SETTINGS_FILTER_ACTION_OPEN_OFFICE_DOCUMENT'
   group = 'Settings'
