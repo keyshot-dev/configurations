@@ -84,11 +84,11 @@ resource configservice_label workflow_task_list_column {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = '{option, select, title {Task name} owner {Created by} assignee {Assigned to} created {Creation date} status {Status} action {Action} actionHeader {Options}}'
+      default_translation = '{column, select, title {Task name} owner {Created by} assignee {Assigned to} created {Creation date} status {Status} action {Action} actionHeader {Options}}'
       language_id = data.language.english.id
     },
     {
-      default_translation = '{option, select, title {Opgavenavn} owner {Oprettet af} assignee {Tildelt til} created {Oprettelsesdato} status {Status} action {Handling} actionHeader {Valgmuligheder}}'
+      default_translation = '{column, select, title {Opgavenavn} owner {Oprettet af} assignee {Tildelt til} created {Oprettelsesdato} status {Status} action {Handling} actionHeader {Valgmuligheder}}'
       language_id = data.language.danish.id
     }
   ]
@@ -713,6 +713,22 @@ resource configservice_label workflow_task_list_detail_view_delete {
     },
     {
       default_translation = 'Slet'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label workflow_task_list_detail_view_secrets {
+  key = 'WORKFLOW_TASK_LIST_DETAIL_VIEW_SECRETS'
+  group = 'Workflow Tasks'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Show'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Vis'
       language_id = data.language.danish.id
     }
   ]
