@@ -3014,7 +3014,7 @@ resource language_label dam_warning_603_swedish {
 
 resource language_label dam_warning_604_danish {
     constant = 'DAM_WARNING_604'
-    label = 'MetaDataType MetaGroup giveren ingen mening på metadatere.'
+    label = 'Det giver ikke mening at redigere metadatatypen MetaGroup.'
     language_id = resource.language.danish.id
     folder_id = resource.language_label_folder.warnings_50042.folder_id
     version_id = resource.product.digizuite_dam_center.base_version_id
@@ -3302,7 +3302,7 @@ resource language_label dam_warning_615_swedish {
 
 resource language_label dam_warning_616_danish {
     constant = 'DAM_WARNING_616'
-    label = 'Du kan ikke oprette et asset uden en metafield_group'
+    label = 'Man kan ikke oprette et asset uden en metafelt-gruppe'
     language_id = resource.language.danish.id
     folder_id = resource.language_label_folder.warnings_50042.folder_id
     version_id = resource.product.digizuite_dam_center.base_version_id
@@ -6022,7 +6022,7 @@ resource language_label dam_warning_839_swedish {
 
 resource language_label dam_warning_840_danish {
     constant = 'DAM_WARNING_840'
-    label = 'refereres Metagroupid ikke eksisterer'
+    label = 'Det refererede metagruppe-ID eksisterer ikke'
     language_id = resource.language.danish.id
     folder_id = resource.language_label_folder.warnings_50042.folder_id
     version_id = resource.product.digizuite_dam_center.base_version_id
@@ -6566,7 +6566,7 @@ resource language_label dam_warning_856_swedish {
 
 resource language_label dam_warning_857_danish {
     constant = 'DAM_WARNING_857'
-    label = 'Specificeret metagroup eksisterer ikke eller er en Sub Metagroup'
+    label = 'Den specificerede metagruppe eksisterer ikke eller er en under-metagruppe'
     language_id = resource.language.danish.id
     folder_id = resource.language_label_folder.warnings_50042.folder_id
     version_id = resource.product.digizuite_dam_center.base_version_id

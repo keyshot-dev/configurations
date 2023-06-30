@@ -2461,7 +2461,7 @@ resource language_label dam_search_editor_meta_data_field_swedish {
 
 resource language_label dam_search_editor_metafield_group_id_danish {
     constant = 'DAM_SEARCH_EDITOR_METAFIELD_GROUP_ID'
-    label = 'Metadata gelt gruppe ID'
+    label = 'Metadatafelts gruppe-ID'
     language_id = resource.language.danish.id
     folder_id = resource.language_label_folder.system_tools_50044.folder_id
     version_id = resource.product.digizuite_dam_center.base_version_id
@@ -7645,7 +7645,7 @@ resource language_label dam_system_tools_metagroup_subgroup_swedish {
 
 resource language_label dam_system_tools_metagroup_upload_danish {
     constant = 'DAM_SYSTEM_TOOLS_METAGROUP_UPLOAD'
-    label = 'Upload gruppe'
+    label = 'Upload-gruppe'
     language_id = resource.language.danish.id
     folder_id = resource.language_label_folder.system_tools_50044.folder_id
     version_id = resource.product.digizuite_dam_center.base_version_id

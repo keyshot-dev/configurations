@@ -38,7 +38,7 @@ resource language_label freetext_swedish {
 
 resource language_label sallowedadgroups_danish {
     constant = 'sAllowedAdGroups'
-    label = 'Tilladte AD brugergrupper'
+    label = 'Tilladte AD-brugergrupper'
     language_id = resource.language.danish.id
     folder_id = resource.language_label_folder.filters_50029.folder_id
     version_id = resource.product.digizuite_dam_center.base_version_id

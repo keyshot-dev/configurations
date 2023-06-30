@@ -9638,7 +9638,7 @@ resource language_label lbl_admin_metagroupmanager_issubgroup_swedish {
 
 resource language_label lbl_admin_metagroupmanager_isuploadgroup_danish {
     constant = 'LBL_ADMIN_METAGROUPMANAGER_ISUPLOADGROUP'
-    label = 'Upload gruppe'
+    label = 'Upload-gruppe'
     language_id = resource.language.danish.id
     folder_id = resource.language_label_folder.legacy_50030.folder_id
     version_id = resource.product.digizuite_dam_center.base_version_id
