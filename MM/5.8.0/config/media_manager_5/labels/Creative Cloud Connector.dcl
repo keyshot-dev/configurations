@@ -1176,7 +1176,7 @@ resource configservice_label creative_cloud_connector_precache_export_quality_ti
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Forudindlæst eksport-kvalitet'
+      default_translation = 'Forudindlæs eksport-kvalitet'
       language_id = data.language.danish.id
     }
   ]

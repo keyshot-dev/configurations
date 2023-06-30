@@ -3720,7 +3720,7 @@ resource configservice_label asset_card_settings_filter_precache_export_quality 
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Forudindlæst eksport-kvalitet'
+      default_translation = 'Forudindlæs eksport-kvalitet'
       language_id = data.language.danish.id
     }
   ]
