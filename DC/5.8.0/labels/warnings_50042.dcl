@@ -2214,7 +2214,7 @@ resource language_label dam_warning_406_swedish {
 
 resource language_label dam_warning_407_danish {
     constant = 'DAM_WARNING_407'
-    label = 'Kunne ikke finde søgning xml'
+    label = 'Kunne ikke finde søge-XML'
     language_id = resource.language.danish.id
     folder_id = resource.language_label_folder.warnings_50042.folder_id
     version_id = resource.product.digizuite_dam_center.base_version_id
@@ -6278,7 +6278,7 @@ resource language_label dam_warning_847_swedish {
 
 resource language_label dam_warning_848_danish {
     constant = 'DAM_WARNING_848'
-    label = 'Ugyldig playertemplate skabelon xml dokument'
+    label = 'Ugyldig playertemplate-skabelon-XML-dokument'
     language_id = resource.language.danish.id
     folder_id = resource.language_label_folder.warnings_50042.folder_id
     version_id = resource.product.digizuite_dam_center.base_version_id

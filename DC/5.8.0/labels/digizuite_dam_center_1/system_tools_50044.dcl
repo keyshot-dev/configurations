@@ -3901,7 +3901,7 @@ resource language_label dam_search_editor_when_paired_with_swedish {
 
 resource language_label dam_search_editor_xml_textarea_danish {
     constant = 'DAM_SEARCH_EDITOR_XML_TEXTAREA'
-    label = 'Søgning XML'
+    label = 'Søge-XML'
     language_id = resource.language.danish.id
     folder_id = resource.language_label_folder.system_tools_50044.folder_id
     version_id = resource.product.digizuite_dam_center.base_version_id
@@ -6877,7 +6877,7 @@ resource language_label dam_system_tools_format_width_swedish {
 
 resource language_label dam_system_tools_format_xml_danish {
     constant = 'DAM_SYSTEM_TOOLS_FORMAT_XML'
-    label = 'Format XML'
+    label = 'Formater XML'
     language_id = resource.language.danish.id
     folder_id = resource.language_label_folder.system_tools_50044.folder_id
     version_id = resource.product.digizuite_dam_center.base_version_id
