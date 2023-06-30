@@ -2813,7 +2813,7 @@ resource language_label dam_search_editor_predetermined_values_swedish {
 
 resource language_label dam_search_editor_product_version_id_danish {
     constant = 'DAM_SEARCH_EDITOR_PRODUCT_VERSION_ID'
-    label = 'Produktversion ID'
+    label = 'Produktversions-ID'
     language_id = resource.language.danish.id
     folder_id = resource.language_label_folder.system_tools_50044.folder_id
     version_id = resource.product.digizuite_dam_center.base_version_id

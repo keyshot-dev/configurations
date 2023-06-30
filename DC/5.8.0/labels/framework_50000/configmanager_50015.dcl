@@ -390,7 +390,7 @@ resource language_label lbl_fjs_cm_version_info_version_guid_swedish {
 
 resource language_label lbl_fjs_cm_version_info_version_id_danish {
     constant = 'LBL_FJS_CM_VERSION_INFO_VERSION_ID'
-    label = 'Version id'
+    label = 'Versions-ID'
     language_id = resource.language.danish.id
     folder_id = resource.language_label_folder.configmanager_50015.folder_id
     version_id = resource.product.digizuite_dam_center.base_version_id
