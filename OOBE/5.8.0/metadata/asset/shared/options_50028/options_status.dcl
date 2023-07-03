@@ -36,30 +36,50 @@ resource combo_value status_approved {
     metafield_id = data.combovalue_metafield.options_status.metafield_id
     option_value = '#20bf6b;approved'
     sort_index = 3
+    autolink = {
+        option_value = '#1dd1a1;approved'
+        metafield_id = data.combovalue_metafield.options_status.metafield_id
+    }
 }
 
 resource combo_value status_archived {
     metafield_id = data.combovalue_metafield.options_status.metafield_id
     option_value = '#ff9f43;archived'
     sort_index = 5
+    autolink = {
+        option_value = '#ffa500;archived'
+        metafield_id = data.combovalue_metafield.options_status.metafield_id
+    }
 }
 
 resource combo_value status_expired {
     metafield_id = data.combovalue_metafield.options_status.metafield_id
     option_value = '#d33a17;expired'
     sort_index = 4
+    autolink = {
+        option_value = '#ee5253;expired'
+        metafield_id = data.combovalue_metafield.options_status.metafield_id
+    }
 }
 
 resource combo_value status_for_approval {
     metafield_id = data.combovalue_metafield.options_status.metafield_id
     option_value = '#ffd32a;for approval'
     sort_index = 2
+    autolink = {
+        option_value = '#ffff00;for approval'
+        metafield_id = data.combovalue_metafield.options_status.metafield_id
+    }
 }
 
 resource combo_value status_requires_tagging {
     metafield_id = data.combovalue_metafield.options_status.metafield_id
     option_value = '#1e90ff;requires tagging'
     sort_index = 1
+    autolink =  {
+        option_value = '#1E90FF;requires tagging'
+        metafield_id = data.combovalue_metafield.options_status.metafield_id
+    }
 }
 
 resource item_security options_status__metadata_editor {
