@@ -5,17 +5,10 @@ resource configservice_combo_config_field_option custom_quality_color_spaces__cm
     is_default_selected = true
 }
 
-resource configservice_combo_config_field_option custom_quality_color_spaces__gray {
+resource configservice_combo_config_field_option custom_quality_color_spaces__grayscale {
     configservice_field_id = resource.configservice_multi_combo_config_field.custom_quality_color_spaces.id
     value = 'gray'
-    title = 'Gray'
-    is_default_selected = true
-}
-
-resource configservice_combo_config_field_option custom_quality_color_spaces__lineargray {
-    configservice_field_id = resource.configservice_multi_combo_config_field.custom_quality_color_spaces.id
-    value = 'LinearGray'
-    title = 'Linear Gray'
+    title = 'Grayscale'
     is_default_selected = true
 }
 
