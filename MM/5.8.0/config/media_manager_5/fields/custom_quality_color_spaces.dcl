@@ -7,7 +7,7 @@ resource configservice_combo_config_field_option custom_quality_color_spaces__cm
 
 resource configservice_combo_config_field_option custom_quality_color_spaces__grayscale {
     configservice_field_id = resource.configservice_multi_combo_config_field.custom_quality_color_spaces.id
-    value = 'Grayscale'
+    value = 'gray'
     title = 'Grayscale'
     is_default_selected = true
 }
