@@ -14,8 +14,8 @@ resource media_format video_preview_h264_10079 {
     encoding_bitrate = 0
     linebreak = ''
     input_page = 1
-    bitrate = 512000
-    video_bitrate = 380000
+    bitrate = 2000000
+    video_bitrate = 1900000
     audio_bitrate = 48000
     frequency = 22050
     fps = 25
