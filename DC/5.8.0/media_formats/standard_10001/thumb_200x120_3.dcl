@@ -9,7 +9,7 @@ resource media_format thumb_200x120_3 {
     format_xml = ''
     multi_page_output = false
     is_identity_format = false
-    settings = '%infile%[0] -background white -flatten -auto-orient %iccconversion% -interlace Plane -quality 80 -density 72x72 -resize 200x120> -strip %Outfile%'
+    settings = '%infile%[0] -background white -flatten -auto-orient %iccconversion% -interlace Plane -quality 80 -density 72x72 -resize 600x360> -strip %Outfile%'
     encoding = 1002
     encoding_bitrate = 0
     linebreak = ''
