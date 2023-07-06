@@ -4804,11 +4804,11 @@ resource configservice_label cache_manager_last_used_time_title {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Time since last used'
+      default_translation = 'Time since last edited'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Tid siden sidst brugt'
+      default_translation = 'Tid siden sidst ændret'
       language_id = data.language.danish.id
     }
   ]
