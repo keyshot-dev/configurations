@@ -3518,6 +3518,22 @@ resource configservice_label creative_cloud_connector_quality_not_downloaded {
   ]
 }
 
+resource configservice_label creative_cloud_connector_quality_downloading {
+  key = 'CREATIVE_CLOUD_CONNECTOR_QUALITY_DOWNLOADING'
+  group = 'Creative Cloud Connector'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Downloading'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Downloader'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label creative_cloud_connector_insert_quality {
   key = 'CREATIVE_CLOUD_CONNECTOR_INSERT_QUALITY'
   group = 'Creative Cloud Connector'
