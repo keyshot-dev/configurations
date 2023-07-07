@@ -1,10 +1,9 @@
-resource unc_destination frontend_zip_download {
-    name = 'Frontend Zip download'
+resource azure_destination frontend_zip_download_azure {
+    name = 'Frontend Zip Download Azure'
     storage_manager_id = resource.storage_manager_destination.frontend_zip_download_sm.destination_id
-    is_public = not(variable.storage_use_azure)
-    unc_share = '${variable.storage_path}\\Frontend.Data\\transcode'
-    unc_username = ''
-    unc_password = ''
+    is_public = variable.storage_use_azure
+    azure_storage_account = variable.frontend_storage_azure_storage_account
+    azure_access_key = variable.frontend_storage_azure_access_key
     make_transcode_path = false
     reuse_mode = 'AllowReUse'
     out_filename_mask = ''
@@ -18,7 +17,7 @@ resource unc_destination frontend_zip_download {
     cache_must_revalidate = false
     cache_proxy_revalidate = false
     autolink = {
-        item_guid = '3876575f-ab4c-422f-926f-4cf175d346df'
+        item_guid = '159e7dab-9574-4955-b59e-7aff7b5b9cfc'
     }
 }
 

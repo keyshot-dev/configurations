@@ -226,7 +226,7 @@ resource digizuite_config download_use_static_name {
 
 resource digizuite_config destinations_to_allowd_direct_download {
     constant = 'DESTINATIONS_TO_ALLOWD_DIRECT_DOWNLOAD'
-    config_value = ',${resource.unc_destination.zipftp_9.destination_id},${resource.unc_destination.frontend_zip_download.destination_id},${resource.storage_manager_destination.frontend_zip_download_sm.destination_id},${resource.storage_manager_destination.frontenddata_no_security_sm.destination_id},${resource.unc_destination.frontenddata_no_security.destination_id},'
+    config_value = ',${resource.unc_destination.zipftp_9.destination_id},${resource.unc_destination.frontend_zip_download.destination_id},${resource.azure_destination.frontend_zip_download_azure.destination_id},${resource.storage_manager_destination.frontend_zip_download_sm.destination_id},${resource.storage_manager_destination.frontenddata_no_security_sm.destination_id},${resource.unc_destination.frontenddata_no_security.destination_id},'
     description = ''
 	autolink {
 		constant = 'DESTINATIONS_TO_ALLOWD_DIRECT_DOWNLOAD'
