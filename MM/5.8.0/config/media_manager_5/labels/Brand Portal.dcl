@@ -318,6 +318,38 @@ resource configservice_label settings_brand_portal_asset_cards_preview {
   ]
 }
 
+resource configservice_label settings_brand_portal_asset_cards_preview_choose_image_button {
+  key = 'SETTINGS_BRAND_PORTAL_ASSET_CARDS_PREVIEW_CHOOSE_IMAGE_BUTTON'
+  group = 'Brand Portal'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = '{loaded, select, true {Change asset} false {Choose an asset}}'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = '{loaded, select, true {Skift asset} false {Vælg et asset}}'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_brand_portal_asset_cards_preview_choose_image_header {
+  key = 'SETTINGS_BRAND_PORTAL_ASSET_CARDS_PREVIEW_CHOOSE_IMAGE_HEADER'
+  group = 'Brand Portal'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Choose an asset to preview'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Vælg et asset til forhåndsvisning'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label settings_brand_portal_asset_cards_preview_quality {
   key = 'SETTINGS_BRAND_PORTAL_ASSET_CARDS_PREVIEW_QUALITY'
   group = 'Brand Portal'

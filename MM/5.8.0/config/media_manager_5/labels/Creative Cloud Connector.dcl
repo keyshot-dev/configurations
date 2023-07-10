@@ -3518,6 +3518,22 @@ resource configservice_label creative_cloud_connector_quality_not_downloaded {
   ]
 }
 
+resource configservice_label creative_cloud_connector_quality_downloading {
+  key = 'CREATIVE_CLOUD_CONNECTOR_QUALITY_DOWNLOADING'
+  group = 'Creative Cloud Connector'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Downloading'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Downloader'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label creative_cloud_connector_insert_quality {
   key = 'CREATIVE_CLOUD_CONNECTOR_INSERT_QUALITY'
   group = 'Creative Cloud Connector'
@@ -4761,6 +4777,38 @@ resource configservice_label office_file_manager_page_asset_filetype {
     },
     {
       default_translation = 'Filtype'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label cache_manager_asset_type_title {
+  key = 'CACHE_MANAGER_ASSET_TYPE_TITLE'
+  group = 'Creative Cloud Connector'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Asset type'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Assettype'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label cache_manager_last_used_time_title {
+  key = 'CACHE_MANAGER_LAST_USED_TIME_TITLE'
+  group = 'Creative Cloud Connector'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Time since last edited'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Tid siden sidst ændret'
       language_id = data.language.danish.id
     }
   ]
