@@ -317,7 +317,7 @@ resource configservice_label download_custom_quality_dialog_format {
     }
   ]
 }
-resource configservice_label download_custom_quality_density {
+resource configservice_label download_custom_quality_dialog_density {
   key = 'DOWNLOAD_CUSTOM_QUALITY_DIALOG_DENSITY'
   group = 'Download'
   product_id = resource.configservice_product.media_manager_5.id
