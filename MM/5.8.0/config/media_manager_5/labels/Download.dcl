@@ -94,6 +94,38 @@ resource configservice_label download_custom_quality_dialog_invalid_height {
   ]
 }
 
+resource configservice_label download_custom_quality_dialog_required_density {
+  key = 'DOWNLOAD_CUSTOM_QUALITY_DIALOG_REQUIRED_DENSITY'
+  group = 'Download'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Density is required'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Massefylde er påkrævet'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label download_custom_quality_dialog_invalid_height {
+  key = 'DOWNLOAD_CUSTOM_QUALITY_DIALOG_INVALID_HEIGHT'
+  group = 'Download'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Density not a valid number'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Massefylden er ikke et validt tal'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label download_custom_quality_dialog_required_email {
   key = 'DOWNLOAD_CUSTOM_QUALITY_DIALOG_REQUIRED_EMAIL'
   group = 'Download'
@@ -285,6 +317,22 @@ resource configservice_label download_custom_quality_dialog_format {
     }
   ]
 }
+resource configservice_label download_custom_quality_density {
+  key = 'DOWNLOAD_CUSTOM_QUALITY_DIALOG_DENSITY'
+  group = 'Download'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Density'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Massefylde'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 
 resource configservice_label download_custom_quality_dialog_email {
   key = 'DOWNLOAD_CUSTOM_QUALITY_DIALOG_EMAIL'
