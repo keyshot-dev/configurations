@@ -110,8 +110,8 @@ resource configservice_label download_custom_quality_dialog_required_density {
   ]
 }
 
-resource configservice_label download_custom_quality_dialog_invalid_height {
-  key = 'DOWNLOAD_CUSTOM_QUALITY_DIALOG_INVALID_HEIGHT'
+resource configservice_label download_custom_quality_dialog_invalid_density {
+  key = 'DOWNLOAD_CUSTOM_QUALITY_DIALOG_INVALID_DENSITY'
   group = 'Download'
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
