@@ -52,7 +52,7 @@ resource configservice_label download_custom_quality_dialog_invalid_width {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Width not a valid number'
+      default_translation = 'The width is not a valid number'
       language_id = data.language.english.id
     },
     {
@@ -84,11 +84,43 @@ resource configservice_label download_custom_quality_dialog_invalid_height {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Height not a valid number'
+      default_translation = 'The height is not a valid number'
       language_id = data.language.english.id
     },
     {
       default_translation = 'Højden er ikke et validt tal'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label download_custom_quality_dialog_required_density {
+  key = 'DOWNLOAD_CUSTOM_QUALITY_DIALOG_REQUIRED_DENSITY'
+  group = 'Download'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Density is required'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Tætheden er påkrævet'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label download_custom_quality_dialog_invalid_density {
+  key = 'DOWNLOAD_CUSTOM_QUALITY_DIALOG_INVALID_DENSITY'
+  group = 'Download'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'The Density is not a valid number'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Tætheden er ikke et validt tal'
       language_id = data.language.danish.id
     }
   ]
@@ -116,7 +148,7 @@ resource configservice_label download_custom_quality_dialog_invalid_email {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Email not valid'
+      default_translation = 'The email is not valid'
       language_id = data.language.english.id
     },
     {
@@ -285,6 +317,22 @@ resource configservice_label download_custom_quality_dialog_format {
     }
   ]
 }
+resource configservice_label download_custom_quality_dialog_density {
+  key = 'DOWNLOAD_CUSTOM_QUALITY_DIALOG_DENSITY'
+  group = 'Download'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Density'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Tæthed'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 
 resource configservice_label download_custom_quality_dialog_email {
   key = 'DOWNLOAD_CUSTOM_QUALITY_DIALOG_EMAIL'
