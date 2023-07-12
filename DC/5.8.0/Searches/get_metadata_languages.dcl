@@ -5,19 +5,11 @@ resource search get_metadata_languages {
     search_xml = '<search name="GetMetadataLanguages">
   <searchSection>
     <searchFields>
-      <searchFields id="languageSearch">
-        <bindField id="languageBind">
-          <new id="langageBindNew" fieldName="damcatalog_language.languageid" />
-          <current id="languageBindCurrent" fieldName="language.languageid" />
-          <searchFields id="sDamcatalog" operator="AND">
-            <searchField id="enabledLanguages" fieldName="damcatalog_language.enabled" valueHandler="Equals" operator="AND">
-              <values valueType="String">
-                <value>1</value>
-              </values>
-            </searchField>
-          </searchFields>
-        </bindField>
-      </searchFields>
+      <searchField id="enabled" fieldName="language.systemsprog" valueHandler="Equals" operator="AND">
+        <values valueType="String">
+          <value>1</value>
+        </values>
+      </searchField>
       <searchField id="security" securityType="language" operator="AND" />
     </searchFields>
     <valueFields OutputType="SQLXML">
