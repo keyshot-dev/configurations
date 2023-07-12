@@ -62,8 +62,8 @@ resource configservice_label workflow_overview_filter_menu_filters {
   ]
 }
 
-resource configservice_label workflow_overview_filter_menu_filters {
-  key = 'WORKFLOW_OVERVIEW_FILTER_MENU_FILTERS'
+resource configservice_label workflow_overview_filter_status_filter_options {
+  key = 'WORKFLOW_OVERVIEW_FILTER_STATUS_FILTER_OPTIONS'
   group = 'Workflow Shared'
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
