@@ -72,7 +72,7 @@ resource configservice_label workflow_overview_filter_status_filter_options {
       language_id = data.language.english.id
     },
     {
-      default_translation = '{value, select, 0 {Alle} 1 {Deaktiveret} 2 {Aktive}}'
+      default_translation = '{value, select, 0 {Alle} 1 {Deaktiverede} 2 {Aktive}}'
       language_id = data.language.danish.id
     }
   ]
