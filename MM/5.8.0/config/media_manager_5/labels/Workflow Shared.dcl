@@ -62,6 +62,22 @@ resource configservice_label workflow_overview_filter_menu_filters {
   ]
 }
 
+resource configservice_label workflow_overview_filter_menu_filters {
+  key = 'WORKFLOW_OVERVIEW_FILTER_MENU_FILTERS'
+  group = 'Workflow Shared'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = '{value, select, 0 {All} 1 {Disabled} 2 {Active}}'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = '{value, select, 0 {Alle} 1 {Deaktiveret} 2 {Aktive}}'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label workflow_tasks_filter_workflow_type_filter_title {
   key = 'WORKFLOW_TASKS_FILTER_WORKFLOW_TYPE_FILTER_TITLE'
   group = 'Workflow Shared'
