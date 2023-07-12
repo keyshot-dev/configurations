@@ -142,6 +142,22 @@ resource configservice_label workflow_name_filter_title {
   ]
 }
 
+resource configservice_label workflow_status_filter_title {
+  key = 'WORKFLOW_STATUS_FILTER_TITLE'
+  group = 'Workflow Shared'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Status'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Status'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label workflow_name_filter_placeholder {
   key = 'WORKFLOW_NAME_FILTER_PLACEHOLDER'
   group = 'Workflow Shared'
