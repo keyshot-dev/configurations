@@ -13,7 +13,7 @@ resource search get_catalog_folders {
         </values>
       </searchField>
       <searchField id="language" valueHandler="Equals" type="language" visible="false" />
-      <searchField id="security" securityType="ItemSecurityReadAccessRoleException" visible="false" />
+      <searchField id="security" securityType="DamCatalogFolder" visible="false" />
     </searchFields>
     <valueFields OutputType="SQLXML">
       <valueField id="totalCases" fieldName="total_items" />

@@ -6,7 +6,7 @@ resource search get_catalog_folder_updates {
   <searchSection>
     <searchFields>
       <searchField id="sModified" fieldName="damcatalog_folderstructure.AssetsInFolderDateModified" valueHandler="GreaterThan" />
-      <searchField id="security" securityType="ItemSecurityReadAccess" visible="false" />
+      <searchField id="security" securityType="DamCatalogFolder" visible="false" />
     </searchFields>
     <valueFields OutputType="SQLXML">
       <valueField id="totalCases" fieldName="total_items" />

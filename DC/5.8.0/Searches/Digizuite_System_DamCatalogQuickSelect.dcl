@@ -7,7 +7,7 @@ resource search digizuite_system_damcatalogquickselect {
     <searchFields>
       <searchField id="language" valueHandler="Equals" type="language" visible="false" />
       <searchField id="itemid" fieldName="item.itemid" valueHandler="Equals" />
-      <searchField id="security" securityType="ItemSecurityReadAccess" visible="false" />
+      <searchField id="security" securityType="DamCatalogFolder" visible="false" />
     </searchFields>
     <valueFields OutputType="SQLXML">
       <valueFields id="folder">
