@@ -1384,7 +1384,7 @@ resource configservice_label asset_list_delete_confirmation_dialog_content {
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Er du sikker på at du vil slette {multiple, select, true {assetsne} false {assettet}} permanent? Denne handling kan ikke fortrydes, og {multiple, select, true {assetsne} false {assettet}} kan ikke gendannes.'
+      default_translation = 'Er du sikker på at du vil slette {multiple, select, true {assets} false {asset}} permanent? Denne handling kan ikke fortrydes, og {multiple, select, true {assetsne} false {assettet}} kan ikke gendannes.'
       language_id = data.language.danish.id
     }
   ]
