@@ -168,7 +168,7 @@ resource configservice_label upload_upload_status_title {
       language_id = data.language.english.id
     },
     {
-      default_translation = '{finished, select, true {Uploadede} false {Uploader}}'
+      default_translation = '{finished, select, true {Uploadet} false {Uploader}}'
       language_id = data.language.danish.id
     }
   ]
