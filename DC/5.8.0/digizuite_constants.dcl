@@ -478,4 +478,7 @@ resource digizuite_config upload_destinationid {
     constant = 'UPLOAD_DESTINATIONID'
     config_value = to_string(resource.storage_manager_destination.asset_storage_sm.destination_id)
     description = 'The destinationId of the destination to upload assets to'
+    autolink {
+        constant = 'UPLOAD_DESTINATIONID'
+    }
 }
