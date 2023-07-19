@@ -226,7 +226,7 @@ resource digizuite_config download_use_static_name {
 
 resource digizuite_config destinations_to_allowd_direct_download {
     constant = 'DESTINATIONS_TO_ALLOWD_DIRECT_DOWNLOAD'
-    config_value = ',${resource.unc_destination.zipftp_9.destination_id},${resource.unc_destination.frontend_zip_download.destination_id},${resource.azure_destination.frontend_zip_download_azure.destination_id},${resource.storage_manager_destination.frontend_zip_download_sm.destination_id},${resource.storage_manager_destination.frontenddata_no_security_sm.destination_id},${resource.unc_destination.frontenddata_no_security.destination_id},'
+    config_value = ',${resource.unc_destination.zipftp_9.destination_id},${resource.unc_destination.frontend_zip_download.destination_id},${resource.azure_destination.frontend_zip_download_azure.destination_id},${resource.storage_manager_destination.frontend_zip_download_sm.destination_id},${resource.storage_manager_destination.frontenddata_no_security_sm.destination_id},${resource.unc_destination.frontenddata_no_security.destination_id},${resource.azure_destination.frontenddata_no_security_azure.destination_id},'
     description = ''
 	autolink {
 		constant = 'DESTINATIONS_TO_ALLOWD_DIRECT_DOWNLOAD'
@@ -472,4 +472,13 @@ resource digizuite_config download_name_replace_mask_fallback {
     constant = 'DOWNLOAD_NAME_REPLACE_MASK_FALLBACK'
     config_value = '[%AssetId%]_[%MediaFormatId%]'
     description = 'Replace mask fallback for Download name'
+}
+
+resource digizuite_config upload_destinationid {
+    constant = 'UPLOAD_DESTINATIONID'
+    config_value = to_string(resource.storage_manager_destination.asset_storage_sm.destination_id)
+    description = 'The destinationId of the destination to upload assets to'
+    autolink {
+        constant = 'UPLOAD_DESTINATIONID'
+    }
 }
