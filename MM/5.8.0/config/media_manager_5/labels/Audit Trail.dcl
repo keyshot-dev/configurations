@@ -446,13 +446,13 @@ resource configservice_label audit_trail_metadata_category {
   ]
 }
 
-resource configservice_label audit_trail_uknown_category {
+resource configservice_label audit_trail_unknown_category {
   key = 'AUDIT_TRAIL_UNKNOWN_CATEGORY'
   group = 'Audit Trail'
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Uknown'
+      default_translation = 'Unknown'
       language_id = data.language.english.id
     },
     {
