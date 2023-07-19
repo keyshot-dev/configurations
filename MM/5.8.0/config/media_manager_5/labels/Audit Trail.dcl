@@ -447,7 +447,7 @@ resource configservice_label audit_trail_metadata_category {
 }
 
 resource configservice_label audit_trail_metadata_category {
-  key = 'AUDIT_TRAIL_UKNOWN_CATEGORY'
+  key = 'AUDIT_TRAIL_UNKNOWN_CATEGORY'
   group = 'Audit Trail'
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
