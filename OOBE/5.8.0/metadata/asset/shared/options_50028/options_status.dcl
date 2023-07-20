@@ -8,12 +8,6 @@ resource combo_value_label status_approved {
     label = 'Approved'
 }
 
-resource combo_value_label status_archived {
-    combo_id = resource.combo_value.status_archived.combo_id
-    language_id = data.language.english.id
-    label = 'Archived'
-}
-
 resource combo_value_label status_expired {
     combo_id = resource.combo_value.status_expired.combo_id
     language_id = data.language.english.id
@@ -38,16 +32,6 @@ resource combo_value status_approved {
     sort_index = 3
     autolink = {
         option_value = '#1dd1a1;approved'
-        metafield_id = data.combovalue_metafield.options_status.metafield_id
-    }
-}
-
-resource combo_value status_archived {
-    metafield_id = data.combovalue_metafield.options_status.metafield_id
-    option_value = '#ff9f43;archived'
-    sort_index = 5
-    autolink = {
-        option_value = '#ffa500;archived'
         metafield_id = data.combovalue_metafield.options_status.metafield_id
     }
 }
@@ -120,27 +104,6 @@ resource item_security status_approved__metadata_viewer {
 resource item_security status_approved__sa_full_access {
     accessor_item_id = resource.member_group.sa_full_access.item_id
     item_id = resource.combo_value.status_approved.item_id
-    read = true
-    write = true
-}
-
-resource item_security status_archived__metadata_editor {
-    accessor_item_id = resource.member_group.metadata_editor.item_id
-    item_id = resource.combo_value.status_archived.item_id
-    read = true
-    write = true
-}
-
-resource item_security status_archived__metadata_viewer {
-    accessor_item_id = resource.member_group.metadata_viewer.item_id
-    item_id = resource.combo_value.status_archived.item_id
-    read = true
-    write = false
-}
-
-resource item_security status_archived__sa_full_access {
-    accessor_item_id = resource.member_group.sa_full_access.item_id
-    item_id = resource.combo_value.status_archived.item_id
     read = true
     write = true
 }
