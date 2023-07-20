@@ -446,6 +446,54 @@ resource configservice_label audit_trail_metadata_category {
   ]
 }
 
+resource configservice_label audit_trail_unknown_category {
+  key = 'AUDIT_TRAIL_UNKNOWN_CATEGORY'
+  group = 'Audit Trail'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Unknown'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Ukendt'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label audit_trail_security_category {
+  key = 'AUDIT_TRAIL_SECURITY_CATEGORY'
+  group = 'Audit Trail'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Security'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Sikkerhedsindstillinger'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label audit_trail_security_changed_summary {
+  key = 'AUDIT_TRAIL_SECURITY_CHANGED_SUMMARY'
+  group = 'Audit Trail'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Security updated for asset'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Assets sikkerhedsindstillinger opdateret'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label audit_trail_metadata_changed_summary {
   key = 'AUDIT_TRAIL_METADATA_CHANGED_SUMMARY'
   group = 'Audit Trail'
