@@ -472,7 +472,7 @@ resource configservice_label audit_trail_security_category {
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Sikkerhed'
+      default_translation = 'Sikkerhedsindstillinger'
       language_id = data.language.danish.id
     }
   ]
