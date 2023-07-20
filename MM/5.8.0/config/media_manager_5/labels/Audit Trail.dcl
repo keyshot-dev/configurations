@@ -488,7 +488,7 @@ resource configservice_label audit_trail_security_changed_summary {
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Security updated for asset'
+      default_translation = 'Assets sikkerhedsindstillinger opdateret'
       language_id = data.language.danish.id
     }
   ]
