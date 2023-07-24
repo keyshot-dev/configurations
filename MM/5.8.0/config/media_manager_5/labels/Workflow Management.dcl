@@ -728,7 +728,7 @@ resource configservice_label workflow_editor_text_editor_compare {
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Compare'
+      default_translation = 'Sammenlign'
       language_id = data.language.danish.id
     }
   ]
