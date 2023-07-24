@@ -24,10 +24,4 @@ resource item_security keywords__sa_full_access {
     write = true
 }
 
-resource item_security keywords__upload_only_user_metadata {
-    accessor_item_id = resource.member_group.upload_only_user_metadata.item_id
-    item_id = data.editmulticombovalue_metafield.keywords.item_id
-    read = true
-    write = true
-}
 

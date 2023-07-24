@@ -23,11 +23,3 @@ resource item_security description__sa_full_access {
     read = true
     write = true
 }
-
-resource item_security description__upload_only_user_metadata {
-    accessor_item_id = resource.member_group.upload_only_user_metadata.item_id
-    item_id = data.note_metafield.description.item_id
-    read = true
-    write = true
-}
-
