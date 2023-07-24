@@ -1,41 +1,43 @@
 resource automation_workflow oobe_give_admin_access {
     name = 'OOBE 5.6: Give admin access'
-    is_disabled = false
+    description = ''
     content = 'trigger "Asset is uploaded" {
 	type = "Location State Changed"
-	resolves = ["Upload Computer nor user profile image","Move Asset to Admin access"]
+	resolves = "Move Asset to Admin access"
 	ignore_replaced_assets = "true"
 	new_location_state = "online"
+	ignore_derived_assets = "false"
 }
 
-filter "Upload Computer nor user profile image" {
-	type = "Upload Computer Filter"
+action "Get Asset Information" {
+	type = "Get Asset Information"
 	asset_id = "@sourceAssetId"
-	expected_upload_computer = "Digizuite Media Manager profile"
-	negate = "true"
+	member_id = "@sourceMemberId"
+	member_username = "@username"
+	upload_computer = "@uploadcomputer"
+	is_soft_deleted = "@softdeleted"
+	source_file_name = "@filename"
+	asset_code = "@assetcode"
+	derived_from = "@derivedfrom"
+	replaced_with = "@replacedwith"
 }
 
-filter "Upload Computer not logo upload" {
-	type = "Upload Computer Filter"
-	needs = "Upload Computer nor user profile image"
-	asset_id = "@sourceAssetId"
-	expected_upload_computer = "Digizuite Media Manager logo"
-	negate = "true"
-}
-
-filter "Upload Computer not splash screen upload" {
-	type = "Upload Computer Filter"
-	needs = "Upload Computer not logo upload"
-	asset_id = "@sourceAssetId"
-	expected_upload_computer = "Digizuite Media Manager splashscreen"
+filter "Upload computer not logo profile splashscreen" {
+	type = "Matches Regex Filter"
+	needs = "Get Asset Information"
+	value = "@uploadcomputer"
+	regex = "(logo|profile|splashscreen)"
+	ignore_case = "true"
 	negate = "true"
 }
 
 action "Move Asset to Admin access" {
 	type = "Move Asset To Folder"
-	needs = "Upload Computer not splash screen upload"
+	needs = "Upload computer not logo profile splashscreen"
 	asset_item_id = "@sourceAssetItemId"
 	folder = "10,${to_string(data.channel_folder.admin_access.channel_folder_id)}"
-}'
+}
+'
+    is_disabled = false
 }
 
