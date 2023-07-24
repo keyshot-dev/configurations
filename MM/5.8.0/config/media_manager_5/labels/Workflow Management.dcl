@@ -718,6 +718,39 @@ resource configservice_label workflow_editor_new_step_selector_insert {
   ]
 }
 
+resource configservice_label workflow_editor_text_editor_compare {
+  key = 'WORKFLOW_EDITOR_TEXT_EDITOR_COMPARE'
+  group = 'Workflow Management'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Compare'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Compare'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+
+resource configservice_label workflow_editor_text_editor_none {
+  key = 'WORKFLOW_EDITOR_TEXT_EDITOR_NONE'
+  group = 'Workflow Management'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'None'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'None'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label workflow_editor_text_editor_flow_mode {
   key = 'WORKFLOW_EDITOR_TEXT_EDITOR_FLOW_MODE'
   group = 'Workflow Management'
