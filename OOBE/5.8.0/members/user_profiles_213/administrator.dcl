@@ -7,7 +7,6 @@ resource member administrator {
     lastname = '(user profile)'
     enabled = true
     ad_username = ''
-    avatar_id = ''
     groups = [{
             member_group_id = resource.member_group.scheme_administrator.member_group_id
         }]

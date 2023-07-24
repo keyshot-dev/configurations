@@ -7,7 +7,6 @@ resource member light_user {
     lastname = '(user profile)'
     enabled = true
     ad_username = ''
-    avatar_id = ''
     groups = [{
             member_group_id = resource.member_group.scheme_light_user.member_group_id
         }]

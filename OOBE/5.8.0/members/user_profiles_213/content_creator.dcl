@@ -7,7 +7,6 @@ resource member content_creator {
     lastname = '(user profile)'
     enabled = true
     ad_username = ''
-    avatar_id = ''
     groups = [{
             member_group_id = resource.member_group.scheme_content_creator.member_group_id
         }]
