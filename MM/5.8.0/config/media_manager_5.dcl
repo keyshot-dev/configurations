@@ -11,7 +11,7 @@ resource media_manager_basic_portal_configuration root {
     host_name = variable.media_manager_site_name
     legacy_version_id = resource.product.media_manager.base_version_id
     guest_username = data.member.guest_user.username
-    guest_password = '0ea2f02d5f73c86c220ff08b23d1c3f1'
+    guest_password = variable.guest_password_md5
     enabled_features = []
     sso_login_mode = 'DigizuiteOnly'
     portal_id = resource.configservice_portal.media_manager_5.id
