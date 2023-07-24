@@ -414,6 +414,24 @@ resource configservice_label audit_trail_unknown_type {
   ]
 }
 
+resource configservice_label audit_trail_access_type {
+  key = 'AUDIT_TRAIL_ACCESS_TYPE'
+  group = 'Audit Trail'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = '{type, select, 0 {no access} 1 {read} 2 {write}}'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = '{type, select, 0 {no access} 1 {read} 2 {write}}'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+
+
 resource configservice_label audit_trail_period_title {
   key = 'AUDIT_TRAIL_PERIOD_TITLE'
   group = 'Audit Trail'
