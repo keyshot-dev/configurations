@@ -745,7 +745,7 @@ resource configservice_label workflow_editor_text_editor_none {
       language_id = data.language.english.id
     },
     {
-      default_translation = 'None'
+      default_translation = 'Sammenlign ikke'
       language_id = data.language.danish.id
     }
   ]
