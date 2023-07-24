@@ -741,7 +741,7 @@ resource configservice_label workflow_editor_text_editor_none {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'None'
+      default_translation = 'Don\'t compare'
       language_id = data.language.english.id
     },
     {
