@@ -7,7 +7,6 @@ resource member upload {
     lastname = '(user profile)'
     enabled = true
     ad_username = ''
-    avatar_id = ''
     groups = [{
             member_group_id = resource.member_group.scheme_upload_only.member_group_id
         }]

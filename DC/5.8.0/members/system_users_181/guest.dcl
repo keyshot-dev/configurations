@@ -7,7 +7,6 @@ resource member guest {
     lastname = ''
     enabled = true
     ad_username = ''
-    avatar_id = ''
     groups = [{
             member_group_id = resource.member_group.anonymous.member_group_id
         }, {
