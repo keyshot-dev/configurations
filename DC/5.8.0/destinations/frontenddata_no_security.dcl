@@ -1,7 +1,7 @@
 resource unc_destination frontenddata_no_security {
     name = 'FrontendData No Security'
     storage_manager_id = resource.storage_manager_destination.frontenddata_no_security_sm.destination_id
-    is_public = true
+    is_public = not(variable.storage_use_azure)
     unc_username = ''
     unc_password = ''
     unc_share = '${variable.storage_path}\\Frontend.Data\\NoSecurity'
