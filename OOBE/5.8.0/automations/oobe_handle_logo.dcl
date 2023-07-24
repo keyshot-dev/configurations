@@ -1,6 +1,6 @@
 resource automation_workflow oobe_handle_logo {
     name = 'OOBE 5.6: Handle logo'
-    is_disabled = false
+    description = ''
     content = 'trigger "Is logo set to true" {
 	type = "Specific Metadata Value"
 	resolves = "Move to logo channel folder 1"
@@ -13,7 +13,7 @@ resource automation_workflow oobe_handle_logo {
 action "Move to logo channel folder 1" {
 	type = "Move Asset To Folder"
 	asset_item_id = "@sourceAssetItemId"
-	folder = "10,${to_string(data.channel_folder.logo.channel_folder_id)}"
+	folder = "1,${to_string(resource.damcatalog_folder.logo.damcatalog_folder_id)}"
 }
 
 trigger "Asset uploaded" {
@@ -37,6 +37,8 @@ action "Move to logo channel folder 2" {
 	needs = []
 	asset_item_id = "@sourceAssetItemId"
 	folder = "10,${to_string(data.channel_folder.logo.channel_folder_id)}"
-}'
+}
+'
+    is_disabled = false
 }
 
