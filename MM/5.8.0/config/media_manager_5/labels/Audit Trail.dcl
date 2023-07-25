@@ -430,6 +430,38 @@ resource configservice_label audit_trail_access_type {
   ]
 }
 
+resource configservice_label audit_trail_group_name {
+  key = 'AUDIT_TRAIL_MEMBER_NAME'
+  group = 'Audit Trail'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Member'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Member'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label audit_trail_group_name {
+  key = AUDIT_TRAIL_GROUP_NAME'
+  group = 'Audit Trail'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Group'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Gruppe'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 
 
 resource configservice_label audit_trail_period_title {
