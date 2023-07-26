@@ -430,6 +430,70 @@ resource configservice_label audit_trail_access_type {
   ]
 }
 
+resource configservice_label audit_trail_column_author {
+  key = 'AUDIT_TRAIL_COLUMN_AUTHOR'
+  group = 'Audit Trail'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Changed by'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Changed by'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label audit_trail_column_reciever {
+  key = 'AUDIT_TRAIL_COLUMN_RECIEVER'
+  group = 'Audit Trail'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Changed for {type, select, member {member} group {group}}'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Changed for {type, select, member {member} group {group}}'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label audit_trail_column_old_state {
+  key = 'AUDIT_TRAIL_COLUMN_OLD_STATE'
+  group = 'Audit Trail'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Old access'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Old access'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label audit_trail_column_new_state {
+  key = 'AUDIT_TRAIL_COLUMN_NEW_STATE'
+  group = 'Audit Trail'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'New access'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'New access'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label audit_trail_group_name {
   key = 'AUDIT_TRAIL_MEMBER_NAME'
   group = 'Audit Trail'
