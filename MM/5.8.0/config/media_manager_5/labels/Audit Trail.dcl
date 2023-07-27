@@ -456,7 +456,7 @@ resource configservice_label audit_trail_column_reciever {
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Changed for {type, select, member {member} group {group}}'
+      default_translation = 'Ændret for {type, select, member {bruger} group {gruppe}}'
       language_id = data.language.danish.id
     }
   ]
