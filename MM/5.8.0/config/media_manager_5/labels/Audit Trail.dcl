@@ -504,7 +504,7 @@ resource configservice_label audit_trail_group_name {
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Member'
+      default_translation = 'Bruger'
       language_id = data.language.danish.id
     }
   ]
