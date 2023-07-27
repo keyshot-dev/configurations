@@ -440,7 +440,7 @@ resource configservice_label audit_trail_column_author {
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Changed by'
+      default_translation = 'Ændret af'
       language_id = data.language.danish.id
     }
   ]
