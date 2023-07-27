@@ -488,7 +488,7 @@ resource configservice_label audit_trail_column_new_state {
       language_id = data.language.english.id
     },
     {
-      default_translation = 'New access'
+      default_translation = 'Nuværende adgang'
       language_id = data.language.danish.id
     }
   ]
