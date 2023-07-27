@@ -452,7 +452,7 @@ resource configservice_label audit_trail_column_reciever {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Changed for {type, select, member {member} group {group}}'
+      default_translation = 'Changed for {type, select, member {user} group {group}}'
       language_id = data.language.english.id
     },
     {
