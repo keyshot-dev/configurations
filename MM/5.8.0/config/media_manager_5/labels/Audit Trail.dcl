@@ -500,7 +500,7 @@ resource configservice_label audit_trail_group_name {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Member'
+      default_translation = 'User'
       language_id = data.language.english.id
     },
     {
