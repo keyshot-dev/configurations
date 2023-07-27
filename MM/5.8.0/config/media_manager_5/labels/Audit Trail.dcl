@@ -468,7 +468,7 @@ resource configservice_label audit_trail_column_old_state {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Old access'
+      default_translation = 'Previous access'
       language_id = data.language.english.id
     },
     {
