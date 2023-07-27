@@ -472,7 +472,7 @@ resource configservice_label audit_trail_column_old_state {
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Old access'
+      default_translation = 'Forrige adgang'
       language_id = data.language.danish.id
     }
   ]
