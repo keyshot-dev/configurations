@@ -424,7 +424,7 @@ resource configservice_label audit_trail_access_type {
       language_id = data.language.english.id
     },
     {
-      default_translation = '{type, select, 0 {no access} 1 {read} 2 {write}}'
+      default_translation = '{type, select, 0 {ingen adgang} 1 {læse} 2 {skrive}}'
       language_id = data.language.danish.id
     }
   ]
