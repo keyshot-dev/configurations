@@ -5,7 +5,7 @@ data combovalue_metafield options_status {
 resource combo_value_label status_approved {
     combo_id = resource.combo_value.status_approved.combo_id
     language_id = data.language.english.id
-    label = 'Approved'
+    label = 'Published'
 }
 
 resource combo_value_label status_expired {
@@ -28,7 +28,7 @@ resource combo_value_label status_requires_tagging {
 
 resource combo_value status_approved {
     metafield_id = data.combovalue_metafield.options_status.metafield_id
-    option_value = '#20bf6b;approved'
+    option_value = '#20bf6b;published'
     sort_index = 3
     autolink = {
         option_value = '#1dd1a1;approved'
@@ -60,7 +60,7 @@ resource combo_value status_requires_tagging {
     metafield_id = data.combovalue_metafield.options_status.metafield_id
     option_value = '#1e90ff;requires tagging'
     sort_index = 1
-    autolink =  {
+    autolink = {
         option_value = '#1E90FF;requires tagging'
         metafield_id = data.combovalue_metafield.options_status.metafield_id
     }
