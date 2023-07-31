@@ -446,8 +446,8 @@ resource configservice_label audit_trail_column_author {
   ]
 }
 
-resource configservice_label audit_trail_column_reciever {
-  key = 'AUDIT_TRAIL_COLUMN_RECIEVER'
+resource configservice_label audit_trail_column_receiver {
+  key = 'AUDIT_TRAIL_COLUMN_RECEIVER'
   group = 'Audit Trail'
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
