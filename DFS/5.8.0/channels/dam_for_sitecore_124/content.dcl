@@ -14,7 +14,7 @@ resource item_security content__super_administrator {
 }
 
 resource item_security content_dam_for_sitecore_administrators {
-    accessor_item_id = data.member_group.dam_for_sitecore_administrators.item_id
+    accessor_item_id = resource.member_group.dam_for_sitecore_administrators.item_id
     item_id = resource.channel_folder.content.item_id
     read = true
     write = true
