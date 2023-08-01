@@ -20,3 +20,17 @@ resource item_security dam_for_sitecore_124_dam_for_sitecore_administrators {
     write = true
 }
 
+resource item_security dam_for_sitecore_124_dam_for_sitecore_editors {
+    accessor_item_id = resource.member_group.dam_for_sitecore_editors.item_id
+    item_id = resource.channel_folder.content.item_id
+    read = true
+    write = true
+}
+
+resource item_security dam_for_sitecore_124_dam_for_sitecore_users {
+    accessor_item_id = resource.member_group.dam_for_sitecore_users.item_id
+    item_id = resource.channel_folder.content.item_id
+    read = true
+    write = false
+}
+
