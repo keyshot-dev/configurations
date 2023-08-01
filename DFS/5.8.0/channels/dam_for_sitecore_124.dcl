@@ -13,7 +13,7 @@ resource item_security root__super_administrator {
     write = true
 }
 
-resource item_security dam_for_sitecore_administrators {
+resource item_security dam_for_sitecore_124_dam_for_sitecore_administrators {
     accessor_item_id = data.member_group.dam_for_sitecore_administrators.item_id
     item_id = resource.channel_folder.dam_for_sitecore_124.item_id
     read = true
