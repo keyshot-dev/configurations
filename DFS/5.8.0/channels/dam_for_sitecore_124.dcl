@@ -6,7 +6,7 @@ resource channel_folder dam_for_sitecore_124 {
     }
 }
 
-resource item_security root__super_administrator {
+resource item_security dam_for_sitecore_124__super_administrator {
     accessor_item_id = data.member_group.super_administrator.item_id
     item_id = resource.channel_folder.dam_for_sitecore_124.item_id
     read = true
