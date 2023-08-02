@@ -10,21 +10,21 @@ resource item_security episerver__content__super_administrator {
     write = true
 }
 
-resource item_security episerver__content_Episerver_Administrators {
+resource item_security episerver__content_episerver_administrators {
     accessor_item_id = resource.member_group.episerver_administrators_34.item_id
     item_id = resource.channel_folder.episerver__content.item_id
     read = true
     write = true
 }
 
-resource item_security episerver__content_Episerver_Editors {
+resource item_security episerver__content_episerver_editors {
     accessor_item_id = resource.member_group.episerver_editors_33.item_id
     item_id = resource.channel_folder.episerver__content.item_id
     read = true
     write = true
 }
 
-resource item_security episerver__content_Episerver_Users {
+resource item_security episerver__content_episerver_users {
     accessor_item_id = resource.member_group.episerver_users_32.item_id
     item_id = resource.channel_folder.episerver__content.item_id
     read = true
