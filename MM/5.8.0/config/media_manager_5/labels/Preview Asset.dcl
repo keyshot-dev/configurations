@@ -468,11 +468,11 @@ resource configservice_label preview_thumbnail_selector_generate_new_thumbnails 
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Generate'
+      default_translation = 'Re-generate'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Generer'
+      default_translation = 'Genskabe'
       language_id = data.language.danish.id
     }
   ]
@@ -484,11 +484,11 @@ resource configservice_label preview_thumbnail_selector_thumbnail_generator {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Video thumbnail'
+      default_translation = 'Change video thumbnail'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Video thumbnail'
+      default_translation = 'Skift video thumbnail'
       language_id = data.language.danish.id
     }
   ]
@@ -516,43 +516,43 @@ resource configservice_label preview_thumbnail_selector_generate_random_descript
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Select your preferred thumbnail and click \'Save\', or generate new'
+      default_translation = 'Select your preferred thumbnail and click \'Save\', or re-generate options'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Vælg dit foretrukne miniaturebillede, og klik på \'Gem\', eller generer nyt'
+      default_translation = 'Vælg dit foretrukne miniaturebillede, og klik på \'Gem\', eller genskabe muligheder'
       language_id = data.language.danish.id
     }
   ]
 }
 
-resource configservice_label preview_thumbnail_selector_frame {
-  key = 'PREVIEW_THUMBNAIL_SELECTOR_FRAME'
+resource configservice_label preview_thumbnail_selector_specific_frame {
+  key = 'PREVIEW_THUMBNAIL_SELECTOR_SPECIFIC_FRAME'
   group = 'Preview Asset'
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Frame'
+      default_translation = 'Specific frame'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Ramme'
+      default_translation = 'Specifik ramme'
       language_id = data.language.danish.id
     }
   ]
 }
 
-resource configservice_label preview_thumbnail_selector_random{
-  key = 'PREVIEW_THUMBNAIL_SELECTOR_RANDOM'
+resource configservice_label preview_thumbnail_selector_random_frame{
+  key = 'PREVIEW_THUMBNAIL_SELECTOR_RANDOM_FRAME'
   group = 'Preview Asset'
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Random'
+      default_translation = 'Random frame'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Tilfældig'
+      default_translation = 'Tilfældig ramme'
       language_id = data.language.danish.id
     }
   ]
