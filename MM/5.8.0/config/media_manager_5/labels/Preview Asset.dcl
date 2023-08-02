@@ -504,7 +504,7 @@ resource configservice_label preview_thumbnail_selector_generate_frame_descripti
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Træk skyderen for at vælge dit foretrukne miniaturebillede, og klik på \'Gem\''
+      default_translation = 'Træk i slideren for at vælge dit foretrukne miniaturebillede. Klik derefter \'Gem\''
       language_id = data.language.danish.id
     }
   ]
