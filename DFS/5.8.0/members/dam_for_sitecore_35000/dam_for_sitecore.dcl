@@ -21,6 +21,10 @@ resource member dam_for_sitecore {
             constant = 'Integration_Endpoints_CRUD'
         }, {
             constant = 'Integration_Endpoints_View'
+        }, {
+            constant = 'Editor_SystemTools_MetaDataLanguage'
+        }, {
+            constant = 'Editor_SystemTools_MediaFormat'
         }]
     autolink = {
         item_guid = '2533bf24-a2ce-45ce-bdda-b790213008a1'
