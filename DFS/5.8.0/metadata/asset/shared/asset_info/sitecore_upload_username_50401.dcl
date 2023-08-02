@@ -5,6 +5,13 @@ resource item_security id_9606_4926 {
     write = true
 }
 
+resource item_security sitecore_upload_username_50401_dam_for_sitecore_administrators {
+    accessor_item_id = resource.member_group.dam_for_sitecore_administrators.item_id
+    item_id = resource.string_metafield.sitecore_upload_username_50401.item_id
+    read = true
+    write = true
+}
+
 resource metafield_label sitecore_upload_username_51473 {
     metafield_id = resource.string_metafield.sitecore_upload_username_50401.metafield_id
     label = 'Sitecore upload username'
