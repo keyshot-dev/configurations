@@ -12,6 +12,20 @@ resource item_security sitecore_upload_username_50401_dam_for_sitecore_administr
     write = true
 }
 
+resource item_security sitecore_upload_username_50401_dam_for_sitecore_editors {
+    accessor_item_id = resource.member_group.dam_for_sitecore_editors.item_id
+    item_id = resource.string_metafield.sitecore_upload_username_50401.item_id
+    read = true
+    write = true
+}
+
+resource item_security sitecore_upload_username_50401_dam_for_sitecore_users {
+    accessor_item_id = resource.member_group.dam_for_sitecore_users.item_id
+    item_id = resource.string_metafield.sitecore_upload_username_50401.item_id
+    read = true
+    write = false
+}
+
 resource metafield_label sitecore_upload_username_51473 {
     metafield_id = resource.string_metafield.sitecore_upload_username_50401.metafield_id
     label = 'Sitecore upload username'
