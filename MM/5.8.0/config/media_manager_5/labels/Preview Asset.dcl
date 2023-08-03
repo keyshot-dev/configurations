@@ -552,7 +552,7 @@ resource configservice_label preview_thumbnail_selector_random_frame{
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Tilfældig ramme'
+      default_translation = 'Tilfældigt stillbillede'
       language_id = data.language.danish.id
     }
   ]
