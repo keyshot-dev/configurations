@@ -484,7 +484,7 @@ resource configservice_label preview_thumbnail_selector_thumbnail_generator {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Change video thumbnail'
+      default_translation = 'Change thumbnail'
       language_id = data.language.english.id
     },
     {
