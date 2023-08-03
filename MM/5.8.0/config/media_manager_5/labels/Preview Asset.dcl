@@ -536,7 +536,7 @@ resource configservice_label preview_thumbnail_selector_specific_frame {
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Specifik ramme'
+      default_translation = 'Specifikt stillbillede'
       language_id = data.language.danish.id
     }
   ]
