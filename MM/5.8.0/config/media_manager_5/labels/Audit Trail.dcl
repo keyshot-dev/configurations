@@ -494,7 +494,7 @@ resource configservice_label audit_trail_column_new_state {
   ]
 }
 
-resource configservice_label audit_trail_group_name {
+resource configservice_label audit_trail_member_name {
   key = 'AUDIT_TRAIL_MEMBER_NAME'
   group = 'Audit Trail'
   product_id = resource.configservice_product.media_manager_5.id
