@@ -110,22 +110,6 @@ resource configservice_label audit_trail_column_date {
   ]
 }
 
-resource configservice_label audit_trail_column_author {
-  key = 'AUDIT_TRAIL_COLUMN_AUTHOR'
-  group = 'Audit Trail'
-  product_id = resource.configservice_product.media_manager_5.id
-  default_label_values = [
-    {
-      default_translation = 'Author'
-      language_id = data.language.english.id
-    },
-    {
-      default_translation = 'Ophavsmand'
-      language_id = data.language.danish.id
-    }
-  ]
-}
-
 resource configservice_label audit_trail_column_category {
   key = 'AUDIT_TRAIL_COLUMN_CATEGORY'
   group = 'Audit Trail'
