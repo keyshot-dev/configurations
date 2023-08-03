@@ -488,7 +488,7 @@ resource configservice_label preview_thumbnail_selector_thumbnail_generator {
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Skift video thumbnail'
+      default_translation = 'Skift thumbnail'
       language_id = data.language.danish.id
     }
   ]
