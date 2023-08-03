@@ -516,7 +516,7 @@ resource configservice_label preview_thumbnail_selector_generate_random_descript
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Select your preferred thumbnail and click \'Save\', or re-generate options'
+      default_translation = 'Select your preferred thumbnail and click \'Save\', or generate new thumbails'
       language_id = data.language.english.id
     },
     {
