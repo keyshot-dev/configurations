@@ -468,7 +468,7 @@ resource configservice_label preview_thumbnail_selector_generate_new_thumbnails 
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Re-generate'
+      default_translation = 'Generate new thumbnails'
       language_id = data.language.english.id
     },
     {
