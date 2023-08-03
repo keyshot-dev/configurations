@@ -110,22 +110,6 @@ resource configservice_label audit_trail_column_date {
   ]
 }
 
-resource configservice_label audit_trail_column_author {
-  key = 'AUDIT_TRAIL_COLUMN_AUTHOR'
-  group = 'Audit Trail'
-  product_id = resource.configservice_product.media_manager_5.id
-  default_label_values = [
-    {
-      default_translation = 'Author'
-      language_id = data.language.english.id
-    },
-    {
-      default_translation = 'Ophavsmand'
-      language_id = data.language.danish.id
-    }
-  ]
-}
-
 resource configservice_label audit_trail_column_category {
   key = 'AUDIT_TRAIL_COLUMN_CATEGORY'
   group = 'Audit Trail'
@@ -494,7 +478,7 @@ resource configservice_label audit_trail_column_new_state {
   ]
 }
 
-resource configservice_label audit_trail_group_name {
+resource configservice_label audit_trail_member_name {
   key = 'AUDIT_TRAIL_MEMBER_NAME'
   group = 'Audit Trail'
   product_id = resource.configservice_product.media_manager_5.id
@@ -511,7 +495,7 @@ resource configservice_label audit_trail_group_name {
 }
 
 resource configservice_label audit_trail_group_name {
-  key = AUDIT_TRAIL_GROUP_NAME'
+  key = 'AUDIT_TRAIL_GROUP_NAME'
   group = 'Audit Trail'
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
