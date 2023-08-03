@@ -511,7 +511,7 @@ resource configservice_label audit_trail_member_name {
 }
 
 resource configservice_label audit_trail_group_name {
-  key = AUDIT_TRAIL_GROUP_NAME'
+  key = 'AUDIT_TRAIL_GROUP_NAME'
   group = 'Audit Trail'
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
