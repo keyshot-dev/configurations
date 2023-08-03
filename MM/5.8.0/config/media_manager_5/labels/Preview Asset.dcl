@@ -472,7 +472,7 @@ resource configservice_label preview_thumbnail_selector_generate_new_thumbnails 
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Genskabe'
+      default_translation = 'Generer nye thumbnails'
       language_id = data.language.danish.id
     }
   ]
