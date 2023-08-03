@@ -520,7 +520,7 @@ resource configservice_label preview_thumbnail_selector_generate_random_descript
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Vælg dit foretrukne miniaturebillede, og klik på \'Gem\', eller genskabe muligheder'
+      default_translation = 'Vælg dit foretrukne thumbnail, og klik på \'Gem\', ellers generer nye thumbnails'
       language_id = data.language.danish.id
     }
   ]
