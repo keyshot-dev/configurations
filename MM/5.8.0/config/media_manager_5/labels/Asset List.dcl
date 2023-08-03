@@ -756,11 +756,11 @@ resource configservice_label asset_list_more_popup_generate_thumbnails {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Generate Thumbnails'
+      default_translation = 'Change thumbnail'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Generér Thumbnails'
+      default_translation = 'Skift thumbnail'
       language_id = data.language.danish.id
     }
   ]
