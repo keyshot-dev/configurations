@@ -6614,6 +6614,22 @@ resource configservice_label settings_service_configuration_not_found {
   ]
 }
 
+resource configservice_label settings_connector_settings_label {
+  key = 'SETTINGS_CONNECTOR_SETTINGS_LABEL'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Connector settings'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Connector-indstillinger'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label settings_connector_settings_ccc_label {
   key = 'SETTINGS_CONNECTOR_SETTINGS_CCC_LABEL'
   group = 'Settings'
@@ -6630,8 +6646,24 @@ resource configservice_label settings_connector_settings_ccc_label {
   ]
 }
 
-resource configservice_label settings_connector_settings_ccc_image_insert_quality_title {
-  key = 'SETTINGS_CONNECTOR_SETTINGS_CCC_IMAGE_INSERT_QUALITY_TITLE'
+resource configservice_label settings_connector_settings_oc_label {
+  key = 'SETTINGS_CONNECTOR_SETTINGS_OC_LABEL'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Office Connector'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Office Connector'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_connector_settings_image_insert_quality_title {
+  key = 'SETTINGS_CONNECTOR_SETTINGS_IMAGE_INSERT_QUALITY_TITLE'
   group = 'Settings'
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
@@ -6646,8 +6678,24 @@ resource configservice_label settings_connector_settings_ccc_image_insert_qualit
   ]
 }
 
-resource configservice_label settings_connector_settings_ccc_image_export_quality_title {
-  key = 'SETTINGS_CONNECTOR_SETTINGS_CCC_IMAGE_EXPORT_QUALITY_TITLE'
+resource configservice_label settings_connector_settings_image_insert_quality_description {
+  key = 'SETTINGS_CONNECTOR_SETTINGS_IMAGE_INSERT_QUALITY_DESCRIPTION'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Sets the insert quality for all inserted images'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Indstiller indsættelses-kvaliteten for alle billeder, der indsættes'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_connector_settings_image_export_quality_title {
+  key = 'SETTINGS_CONNECTOR_SETTINGS_IMAGE_EXPORT_QUALITY_TITLE'
   group = 'Settings'
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
@@ -6662,8 +6710,24 @@ resource configservice_label settings_connector_settings_ccc_image_export_qualit
   ]
 }
 
-resource configservice_label settings_connector_settings_ccc_video_insert_quality_title {
-  key = 'SETTINGS_CONNECTOR_SETTINGS_CCC_VIDEO_INSERT_QUALITY_TITLE'
+resource configservice_label settings_connector_settings_image_export_quality_description {
+  key = 'SETTINGS_CONNECTOR_SETTINGS_IMAGE_EXPORT_QUALITY_DESCRIPTION'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Sets the export quality for all inserted images'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Indstiller eksport-kvaliteten for alle billeder, der indsættes'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_connector_settings_video_insert_quality_title {
+  key = 'SETTINGS_CONNECTOR_SETTINGS_VIDEO_INSERT_QUALITY_TITLE'
   group = 'Settings'
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
@@ -6678,8 +6742,24 @@ resource configservice_label settings_connector_settings_ccc_video_insert_qualit
   ]
 }
 
-resource configservice_label settings_connector_settings_ccc_video_export_quality_title {
-  key = 'SETTINGS_CONNECTOR_SETTINGS_CCC_VIDEO_EXPORT_QUALITY_TITLE'
+resource configservice_label settings_connector_settings_video_insert_quality_description {
+  key = 'SETTINGS_CONNECTOR_SETTINGS_VIDEO_INSERT_QUALITY_DESCRIPTION'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Sets the insert quality for all inserted videos'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Indstiller indsættelses-kvaliteten for alle videoer, der indsættes'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_connector_settings_video_export_quality_title {
+  key = 'SETTINGS_CONNECTOR_SETTINGS_VIDEO_EXPORT_QUALITY_TITLE'
   group = 'Settings'
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
@@ -6689,6 +6769,70 @@ resource configservice_label settings_connector_settings_ccc_video_export_qualit
     },
     {
       default_translation = 'Videoers eksport-kvalitet'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_connector_settings_video_export_quality_description {
+  key = 'SETTINGS_CONNECTOR_SETTINGS_VIDEO_EXPORT_QUALITY_DESCRIPTION'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Sets the insert quality for all inserted videos'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Indstiller indsættelses-kvaliteten for alle videoer, der indsættes'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_connector_settings_disabled_asset_types_title {
+  key = 'SETTINGS_CONNECTOR_SETTINGS_DISABLED_ASSET_TYPES_TITLE'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Disable asset types'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Deaktiver asset-typer'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_connector_settings_disabled_asset_types_description {
+  key = 'SETTINGS_CONNECTOR_SETTINGS_DISABLED_ASSET_TYPES_DESCRIPTION'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'The selected asset types will be excluded from the search results'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'De valgte asset-typer vil blive ekskluderet fra søgeresultaterne'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_connector_settings_loading {
+  key = 'SETTINGS_CONNECTOR_SETTINGS_LOADING'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Loading'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Indlæser'
       language_id = data.language.danish.id
     }
   ]
