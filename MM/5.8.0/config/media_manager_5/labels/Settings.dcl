@@ -6790,33 +6790,33 @@ resource configservice_label settings_connector_settings_video_export_quality_de
   ]
 }
 
-resource configservice_label settings_connector_settings_disabled_asset_types_title {
-  key = 'SETTINGS_CONNECTOR_SETTINGS_DISABLED_ASSET_TYPES_TITLE'
+resource configservice_label settings_connector_settings_allowed_asset_types_title {
+  key = 'SETTINGS_CONNECTOR_SETTINGS_ALLOWED_ASSET_TYPES_TITLE'
   group = 'Settings'
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Disable asset types'
+      default_translation = 'Allowed asset types'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Deaktiver asset-typer'
+      default_translation = 'Tilladte asset-typer'
       language_id = data.language.danish.id
     }
   ]
 }
 
-resource configservice_label settings_connector_settings_disabled_asset_types_description {
-  key = 'SETTINGS_CONNECTOR_SETTINGS_DISABLED_ASSET_TYPES_DESCRIPTION'
+resource configservice_label settings_connector_settings_allowed_asset_types_description {
+  key = 'SETTINGS_CONNECTOR_SETTINGS_ALLOWED_ASSET_TYPES_DESCRIPTION'
   group = 'Settings'
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'The selected asset types will be excluded from the search results'
+      default_translation = 'Only the selected asset types will be shown in the search results'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'De valgte asset-typer vil blive ekskluderet fra søgeresultaterne'
+      default_translation = 'Kun de valgte asset-typer vil blive vist i søgeresultaterne'
       language_id = data.language.danish.id
     }
   ]
