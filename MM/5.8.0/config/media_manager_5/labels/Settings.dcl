@@ -6684,11 +6684,11 @@ resource configservice_label settings_connector_settings_image_insert_quality_de
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Sets the insert quality for all inserted images'
+      default_translation = 'Defines the default quality for inserting image assets'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Indstiller indsættelses-kvaliteten for alle billeder, der indsættes'
+      default_translation = 'Definerer standard-kvaliteten for indsættelse af billede-assets'
       language_id = data.language.danish.id
     }
   ]
@@ -6716,11 +6716,11 @@ resource configservice_label settings_connector_settings_image_export_quality_de
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Sets the export quality for all inserted images'
+      default_translation = 'Defines the quality you should by default use when when you exporting documents containing image assets'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Indstiller eksport-kvaliteten for alle billeder, der indsættes'
+      default_translation = 'Definerer den kvalitet, du som standard skal bruge, når du eksporterer dokumenter, der indeholder billede-assets'
       language_id = data.language.danish.id
     }
   ]
@@ -6748,11 +6748,11 @@ resource configservice_label settings_connector_settings_video_insert_quality_de
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Sets the insert quality for all inserted videos'
+      default_translation = 'Defines the default quality for inserting video assets'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Indstiller indsættelses-kvaliteten for alle videoer, der indsættes'
+      default_translation = 'Definerer standard-kvaliteten for indsættelse af video-assets'
       language_id = data.language.danish.id
     }
   ]
@@ -6780,11 +6780,11 @@ resource configservice_label settings_connector_settings_video_export_quality_de
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Sets the insert quality for all inserted videos'
+      default_translation = 'Defines the quality you should by default use when when you exporting documents containing video assets'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Indstiller indsættelses-kvaliteten for alle videoer, der indsættes'
+      default_translation = 'Definerer den kvalitet, du som standard skal bruge, når du eksporterer dokumenter, der indeholder video-assets'
       language_id = data.language.danish.id
     }
   ]
