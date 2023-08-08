@@ -1112,7 +1112,7 @@ resource configservice_label multi_metadata_editor_group_availability_visible_in
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Nogle af de valgte assets har ikke den påkrævede værdi for at sætte dette gruppe'
+      default_translation = 'Nogle af de valgte assets har ikke én påkrævet værdi sat, så denne gruppe kan ikke redigeres'
       language_id = data.language.danish.id
     }
   ]
