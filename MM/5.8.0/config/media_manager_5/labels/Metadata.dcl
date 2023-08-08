@@ -1102,6 +1102,22 @@ resource configservice_label multi_metadata_editor_error_popup_resolve {
   ]
 }
 
+resource configservice_label multi_metadata_editor_group_availability_visible_info {
+  key = 'MULTI_METADATA_EDITOR_GROUP_AVAILABILITY_VISIBLE_INFO'
+  group = 'Metadata'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Some of the selected assets don\'t have the required value set, so this group cannot be edited.'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Nogle af de valgte assets har ikke én påkrævet værdi sat, så denne gruppe kan ikke redigeres'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label multi_metadata_editor_input_field_availability_visible_info {
   key = 'MULTI_METADATA_EDITOR_INPUT_FIELD_AVAILABILITY_VISIBLE_INFO'
   group = 'Metadata'
