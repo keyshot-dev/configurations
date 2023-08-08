@@ -1108,7 +1108,7 @@ resource configservice_label multi_metadata_editor_group_availability_visible_in
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Some of the selected assets don\'t have the required value to set this group.'
+      default_translation = 'Some of the selected assets don\'t have the required value set, so this group cannot be edited.'
       language_id = data.language.english.id
     },
     {
