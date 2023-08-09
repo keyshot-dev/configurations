@@ -222,3 +222,35 @@ resource configservice_label duplicate_asset_modal_done {
   ]
 }
 
+resource configservice_label duplicate_asset_sort_selector_detection_mode_label {
+  key = 'DUPLICATE_ASSET_SORT_SELECTOR_DETECTION_MODE_LABEL'
+  group = 'Duplicate Assets'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Detection mode'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Detekterings-tilstand'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label duplicate_asset_sort_selector_detection_mode_option {
+  key = 'DUPLICATE_ASSET_SORT_SELECTOR_DETECTION_MODE_OPTION'
+  group = 'Duplicate Assets'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = '{mode, select, Filename {File name} PerceptualHash {Similarity} Sha1Hash {Only identical}}'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = '{mode, select, Filename {Filnavn} PerceptualHash {Lighed} Sha1Hash {Kun identisk}}'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
