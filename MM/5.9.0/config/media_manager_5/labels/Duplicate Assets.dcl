@@ -228,11 +228,11 @@ resource configservice_label duplicate_asset_sort_selector_detection_mode_label 
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Detection mode'
+      default_translation = 'Detection type'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Detekterings-tilstand'
+      default_translation = 'Dublet-søgnings-type'
       language_id = data.language.danish.id
     }
   ]
