@@ -1,6 +1,6 @@
 resource configservice_int_config_field upload_duplicate_detection_perceptual_hash_threshold {
-    default_value = 80.0
-    type = 'Double'
+    default_value = 80
+    type = 'Int'
     product_id = resource.configservice_product.media_manager_5.id
     group = 'Duplicate detection'
     key = 'uploadDuplicateDetectionPerceptualHashThreshold'
