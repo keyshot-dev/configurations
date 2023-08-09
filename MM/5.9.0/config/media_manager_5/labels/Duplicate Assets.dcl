@@ -222,3 +222,35 @@ resource configservice_label duplicate_asset_modal_done {
   ]
 }
 
+resource configservice_label duplicate_asset_sort_selector_detection_mode_label {
+  key = 'DUPLICATE_ASSET_SORT_SELECTOR_DETECTION_MODE_LABEL'
+  group = 'Duplicate Assets'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Detection type'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Dublet-søgnings-type'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label duplicate_asset_sort_selector_detection_mode_option {
+  key = 'DUPLICATE_ASSET_SORT_SELECTOR_DETECTION_MODE_OPTION'
+  group = 'Duplicate Assets'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = '{mode, select, Filename {Identical file name} PerceptualHash {Similar images} Sha1Hash {Identical files}}'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = '{mode, select, Filename {Identisk filnavn} PerceptualHash {Lignende billeder} Sha1Hash {Identiske filer}}'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
