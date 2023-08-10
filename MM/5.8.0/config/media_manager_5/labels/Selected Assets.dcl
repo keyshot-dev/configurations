@@ -440,7 +440,7 @@ resource configservice_label selected_assets_overlay_metadata_download_field_sel
       language_id = data.language.english.id
     },
     {
-      default_translation = 'System data'
+      default_translation = 'Egenskaber'
       language_id = data.language.danish.id
     }
   ]
