@@ -244,11 +244,11 @@ resource configservice_label duplicate_asset_sort_selector_detection_mode_option
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = '{mode, select, Filename {Identical file name} PerceptualHash {Similar images} Sha1Hash {Identical files}}'
+      default_translation = '{mode, select, FilenameWithExtension {Identical file name with extension} FilenameWithoutExtension {Identical file name without extension} PerceptualHash {Similar images} Sha1Hash {Identical files}}'
       language_id = data.language.english.id
     },
     {
-      default_translation = '{mode, select, Filename {Identisk filnavn} PerceptualHash {Lignende billeder} Sha1Hash {Identiske filer}}'
+      default_translation = '{mode, select, FilenameWithExtension {Identisk filnavn med filtypenavn} FilenameWithoutExtension {Identisk filnavn uden filtypenavn} PerceptualHash {Lignende billeder} Sha1Hash {Identiske filer}}'
       language_id = data.language.danish.id
     }
   ]
