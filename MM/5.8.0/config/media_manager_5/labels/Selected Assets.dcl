@@ -452,7 +452,7 @@ resource configservice_label selected_assets_overlay_metadata_download_field_sel
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = '{all, select, true {All properties selected} false {Select system data...}}'
+      default_translation = '{all, select, true {All properties selected} false {No properties selected}}'
       language_id = data.language.english.id
     },
     {
