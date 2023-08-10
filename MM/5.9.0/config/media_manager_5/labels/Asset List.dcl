@@ -216,7 +216,7 @@ resource configservice_label asset_list_column_label {
       language_id = data.language.english.id
     },
     {
-      default_translation = '{column, select, description {Beskrivelse} height {Højde} width {Bredde} extension {Filendelse} fileSize {Filstørrelse} duration {Varighed} uploadDate {Uploaddato} assetId {Asset-ID} uploader {Uploadbruger} lastModified {Sidst opdateret} assetType {Assettype} itemId {Item-ID} title {Titel} tasks {Opgaver} actions {Handlinger} score {Score}}}'
+      default_translation = '{column, select, description {Beskrivelse} height {Højde} width {Bredde} extension {Filendelse} fileSize {Filstørrelse} duration {Varighed} uploadDate {Uploaddato} assetId {Asset-ID} uploader {Uploadbruger} lastModified {Sidst opdateret} assetType {Assettype} itemId {Item-ID} title {Titel} tasks {Opgaver} actions {Handlinger} score {Score}}'
       language_id = data.language.danish.id
     }
   ]
