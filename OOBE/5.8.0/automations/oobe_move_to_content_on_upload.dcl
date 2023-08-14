@@ -1,5 +1,5 @@
 resource automation_workflow oobe_move_to_content_on_upload {
-    name = 'OOBE 5.6: Move to content on upload'
+    name = 'OOBE 5.8: Move to content on upload'
     description = ''
     content = 'trigger "Asset uploaded to Uploads" {
 	type = "Asset Folder Updated Trigger"
