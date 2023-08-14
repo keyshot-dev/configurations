@@ -1726,6 +1726,38 @@ resource configservice_label creative_cloud_connector_cache_manager_cache_info_c
   ]
 }
 
+resource configservice_label cache_manager_cache_info_cached_asset_type_title {
+  key = 'CACHE_MANAGER_CACHE_INFO_CACHED_ASSET_TYPE_TITLE'
+  group = 'Creative Cloud Connector'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Cached asset types'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Cached asset-typer'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label cache_manager_cache_info_cached_asset_type {
+  key = 'CACHE_MANAGER_CACHE_INFO_CACHED_ASSET_TYPE'
+  group = 'Creative Cloud Connector'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = '{{count}} {count, cardinalPlural, one {{{assetType}} file} other {{{assetType}} files}}'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = '{{count}} {count, cardinalPlural, one {{{assetType}} fil} other {{{assetType}} filer}}'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label creative_cloud_connector_cache_manager_cache_info_cache_location {
   key = 'CREATIVE_CLOUD_CONNECTOR_CACHE_MANAGER_CACHE_INFO_CACHE_LOCATION'
   group = 'Creative Cloud Connector'
