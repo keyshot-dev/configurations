@@ -1752,7 +1752,7 @@ resource configservice_label cache_manager_cache_info_cached_asset_type {
       language_id = data.language.english.id
     },
     {
-      default_translation = '{{count}} {{assetType}} {count, cardinalPlural, one {fil} other {filer}}'
+      default_translation = '{{count}} {{assetType}}-{count, cardinalPlural, one {fil} other {filer}}'
       language_id = data.language.danish.id
     }
   ]
