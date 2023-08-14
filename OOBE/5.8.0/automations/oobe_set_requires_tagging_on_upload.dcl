@@ -1,5 +1,5 @@
 resource automation_workflow oobe_set_requires_tagging_on_upload {
-    name = 'OOBE 5.6: Set Requires tagging on upload'
+    name = 'OOBE 5.8: Set Requires tagging on upload'
     content = 'trigger "Location State Changed" {
 	type = "Location State Changed"
 	resolves = "Set Status = Requires tagging"
