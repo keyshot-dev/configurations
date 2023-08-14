@@ -1736,7 +1736,7 @@ resource configservice_label cache_manager_cache_info_cached_asset_type_title {
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Cached asset-typer'
+      default_translation = 'Cachede asset-typer'
       language_id = data.language.danish.id
     }
   ]
@@ -1748,11 +1748,11 @@ resource configservice_label cache_manager_cache_info_cached_asset_type {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = '{{count}} {count, cardinalPlural, one {{{assetType}} file} other {{{assetType}} files}}'
+      default_translation = '{{count}} {{assetType}} {count, cardinalPlural, one {file} other {files}}'
       language_id = data.language.english.id
     },
     {
-      default_translation = '{{count}} {count, cardinalPlural, one {{{assetType}} fil} other {{{assetType}} filer}}'
+      default_translation = '{{count}} {{assetType}} {count, cardinalPlural, one {fil} other {filer}}'
       language_id = data.language.danish.id
     }
   ]
