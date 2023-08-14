@@ -1,5 +1,5 @@
 resource automation_workflow oobe_handle_logo {
-    name = 'OOBE 5.6: Handle logo'
+    name = 'OOBE 5.8: Handle logo'
     description = ''
     content = 'trigger "Is logo set to true" {
 	type = "Specific Metadata Value"
