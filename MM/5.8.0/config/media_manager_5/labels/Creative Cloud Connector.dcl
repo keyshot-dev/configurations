@@ -3742,6 +3742,198 @@ resource configservice_label creative_cloud_connector_invalid_cache_dialog_delet
   ]
 }
 
+resource configservice_label creative_cloud_connector_change_cache_location_title {
+  key = 'CREATIVE_CLOUD_CONNECTOR_CHANGE_CACHE_LOCATION_TITLE'
+  group = 'Creative Cloud Connector'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Change storage location'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Skift lager-placering'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label creative_cloud_connector_change_cache_location_reset_default_description {
+  key = 'CREATIVE_CLOUD_CONNECTOR_CHANGE_CACHE_LOCATION_RESET_DEFAULT_DESCRIPTION'
+  group = 'Creative Cloud Connector'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'You are about to reset your cache location to the default setting'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Du er ved at nulstille din cache-placering til standard-indstillingen'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label creative_cloud_connector_change_cache_location_change_location_description {
+  key = 'CREATIVE_CLOUD_CONNECTOR_CHANGE_CACHE_LOCATION_CHANGE_LOCATION_DESCRIPTION'
+  group = 'Creative Cloud Connector'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'You are about to change your storage location'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Du er ved at ændre din lager-placering'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label creative_cloud_connector_change_cache_location_description {
+  key = 'CREATIVE_CLOUD_CONNECTOR_CHANGE_CACHE_LOCATION_DESCRIPTION'
+  group = 'Creative Cloud Connector'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'An extension restart is required to change the storage location.'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'En genstart af udvidelsen er påkrævet for at ændre lager-placeringen.'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label creative_cloud_connector_change_cache_location_sub_description {
+  key = 'CREATIVE_CLOUD_CONNECTOR_CHANGE_CACHE_LOCATION_SUB_DESCRIPTION'
+  group = 'Creative Cloud Connector'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Please start the extension manually after it closes.'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Start venligst udvidelsen manuelt, efter den er blevet lukket.'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label creative_cloud_connector_change_cache_location_to {
+  key = 'CREATIVE_CLOUD_CONNECTOR_CHANGE_CACHE_LOCATION_TO'
+  group = 'Creative Cloud Connector'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'To: {{storagePath}}'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Til: {{storagePath}}'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label creative_cloud_connector_change_cache_location_from {
+  key = 'CREATIVE_CLOUD_CONNECTOR_CHANGE_CACHE_LOCATION_FROM'
+  group = 'Creative Cloud Connector'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'From: {{storagePath}}'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Fra: {{storagePath}}'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label creative_cloud_connector_change_cache_location_cancel_btn {
+  key = 'CREATIVE_CLOUD_CONNECTOR_CHANGE_CACHE_LOCATION_CANCEL_BTN'
+  group = 'Creative Cloud Connector'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Cancel'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Annullér'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label creative_cloud_connector_change_cache_location_change_btn {
+  key = 'CREATIVE_CLOUD_CONNECTOR_CHANGE_CACHE_LOCATION_CHANGE_BTN'
+  group = 'Creative Cloud Connector'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Change'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Ændre'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label cache_manager_settings_storage_title {
+  key = 'CACHE_MANAGER_SETTINGS_STORAGE_TITLE'
+  group = 'Creative Cloud Connector'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Storage'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Lager'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label cache_manager_settings_storage_current_storage_path {
+  key = 'CACHE_MANAGER_SETTINGS_STORAGE_CURRENT_STORAGE_PATH'
+  group = 'Creative Cloud Connector'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Current storage path'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Nuværende lager-sti'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label cache_manager_settings_storage_reset_to_default {
+  key = 'CACHE_MANAGER_SETTINGS_STORAGE_RESET_TO_DEFAULT'
+  group = 'Creative Cloud Connector'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Reset to default'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Nulstil til standard'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label creative_cloud_connector_insert_dialog_newversion_download_btn {
   key = 'CREATIVE_CLOUD_CONNECTOR_INSERT_DIALOG_NEWVERSION_DOWNLOAD_BTN'
   group = 'Creative Cloud Connector'
