@@ -5886,3 +5886,19 @@ resource configservice_label creative_cloud_connector_cache_manager_download_out
   ]
 }
 
+resource configservice_label creative_cloud_connector_quality {
+  key = 'CREATIVE_CLOUD_CONNECTOR_QUALITY'
+  group = 'Creative Cloud Connector'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Quality'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Kvalitet'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
