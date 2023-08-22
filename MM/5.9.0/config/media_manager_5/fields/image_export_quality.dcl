@@ -6,5 +6,6 @@ resource configservice_int_config_field image_export_quality {
     key = 'creativeCloudConnectorHighQuality'
     title = 'Image export quality'
     description = ''
+    hidden = true
 }
 

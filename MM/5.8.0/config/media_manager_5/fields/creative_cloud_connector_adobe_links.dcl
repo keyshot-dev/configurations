@@ -7,5 +7,6 @@ resource configservice_string_config_field creative_cloud_connector_adobe_links 
     title = 'CCC - Asset linktype relation'
     description = 'The metafield to store links to contained assets for Adobe Creative Cloud files'
     meta_field_type = 'MasterItemReference'
+    hidden = true
 }
 
