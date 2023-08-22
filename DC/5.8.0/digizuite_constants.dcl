@@ -16,15 +16,6 @@ resource digizuite_config connection_pool_timeout {
 	}
 }
 
-resource digizuite_config member_metafieldgroupid {
-    constant = 'MEMBER_METAFIELDGROUPID'
-	config_value = to_string(resource.metafield_group.user_config.metafield_group_id)
-    description = ''
-	autolink {
-		constant = 'MEMBER_METAFIELDGROUPID'
-	}
-}
-
 resource digizuite_config search_google_termtype {
     constant = 'SEARCH_GOOGLE_TERMTYPE'
     config_value = '1'
@@ -85,15 +76,6 @@ resource digizuite_config connection_nonpool_timeout {
     description = 'Timeout in seconds when using non pooled connet'
 	autolink {
 		constant = 'CONNECTION_NONPOOL_TIMEOUT'
-	}
-}
-
-resource digizuite_config frontend_member_metafieldgroupid {
-    constant = 'FRONTEND_MEMBER_METAFIELDGROUPID'
-	config_value = to_string(resource.metafield_group.user_config.metafield_group_id)
-    description = ''
-	autolink {
-		constant = 'FRONTEND_MEMBER_METAFIELDGROUPID'
 	}
 }
 
