@@ -6,5 +6,6 @@ resource configservice_int_config_field image_insert_quality {
     key = 'creativeCloudConnectorLowQuality'
     title = 'Image insert quality'
     description = ''
+    hidden = true
 }
 

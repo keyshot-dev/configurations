@@ -6,5 +6,6 @@ resource configservice_int_config_field video_insert_quality {
     key = 'creativeCloudConnectorVideoLowQuality'
     title = 'Video insert quality'
     description = ''
+    hidden = true
 }
 

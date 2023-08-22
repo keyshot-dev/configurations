@@ -6,5 +6,6 @@ resource configservice_int_config_field video_export_quality {
     key = 'creativeCloudConnectorVideoHighQuality'
     title = 'Video export quality'
     description = ''
+    hidden = true
 }
 
