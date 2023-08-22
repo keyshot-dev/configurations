@@ -1,90 +1,90 @@
 resource configservice_combo_config_field_option creative_cloud_connector_allowed_asset_type_image {
     configservice_field_id = resource.configservice_multi_combo_config_field.creative_cloud_connector_allowed_asset_types.id
-    value = 'Image'
+    value = '4'
     title = 'Image'
     is_default_selected = true
 }
 
 resource configservice_combo_config_field_option creative_cloud_connector_allowed_asset_type_video {
     configservice_field_id = resource.configservice_multi_combo_config_field.creative_cloud_connector_allowed_asset_types.id
-    value = 'Video'
+    value = '1'
     title = 'Video'
     is_default_selected = true
 }
 
 resource configservice_combo_config_field_option creative_cloud_connector_allowed_asset_type_illustrator {
     configservice_field_id = resource.configservice_multi_combo_config_field.creative_cloud_connector_allowed_asset_types.id
-    value = 'Illustrator'
+    value = '17'
     title = 'Illustrator'
     is_default_selected = true
 }
 
 resource configservice_combo_config_field_option creative_cloud_connector_allowed_asset_type_photoshop {
     configservice_field_id = resource.configservice_multi_combo_config_field.creative_cloud_connector_allowed_asset_types.id
-    value = 'Photoshop'
+    value = '16'
     title = 'Photoshop'
     is_default_selected = true
 }
 
 resource configservice_combo_config_field_option creative_cloud_connector_allowed_asset_type_indesign {
     configservice_field_id = resource.configservice_multi_combo_config_field.creative_cloud_connector_allowed_asset_types.id
-    value = 'InDesign'
+    value = '10'
     title = 'InDesign'
     is_default_selected = true
 }
 
 resource configservice_combo_config_field_option creative_cloud_connector_allowed_asset_type_after_effects {
     configservice_field_id = resource.configservice_multi_combo_config_field.creative_cloud_connector_allowed_asset_types.id
-    value = 'AfterEffects'
+    value = '21'
     title = 'After Effects'
     is_default_selected = true
 }
 
 resource configservice_combo_config_field_option creative_cloud_connector_allowed_asset_type_premiere_pro {
     configservice_field_id = resource.configservice_multi_combo_config_field.creative_cloud_connector_allowed_asset_types.id
-    value = 'PremierePro'
+    value = '22'
     title = 'Premiere Pro'
     is_default_selected = true
 }
 
 resource configservice_combo_config_field_option creative_cloud_connector_allowed_asset_type_word {
     configservice_field_id = resource.configservice_multi_combo_config_field.creative_cloud_connector_allowed_asset_types.id
-    value = 'Word'
+    value = '8'
     title = 'Word'
     is_default_selected = true
 }
 
 resource configservice_combo_config_field_option creative_cloud_connector_allowed_asset_type_excel {
     configservice_field_id = resource.configservice_multi_combo_config_field.creative_cloud_connector_allowed_asset_types.id
-    value = 'Excel'
+    value = '9'
     title = 'Excel'
     is_default_selected = true
 }
 
 resource configservice_combo_config_field_option creative_cloud_connector_allowed_asset_type_archive {
     configservice_field_id = resource.configservice_multi_combo_config_field.creative_cloud_connector_allowed_asset_types.id
-    value = 'Archive'
+    value = '15'
     title = 'Archive'
     is_default_selected = true
 }
 
 resource configservice_combo_config_field_option creative_cloud_connector_allowed_asset_type_pdf {
     configservice_field_id = resource.configservice_multi_combo_config_field.creative_cloud_connector_allowed_asset_types.id
-    value = 'PDF'
+    value = '14'
     title = 'PDF'
     is_default_selected = true
 }
 
 resource configservice_combo_config_field_option creative_cloud_connector_allowed_asset_type_text {
     configservice_field_id = resource.configservice_multi_combo_config_field.creative_cloud_connector_allowed_asset_types.id
-    value = 'Text'
+    value = '7'
     title = 'Text'
     is_default_selected = true
 }
 
 resource configservice_combo_config_field_option creative_cloud_connector_allowed_asset_type_audio {
     configservice_field_id = resource.configservice_multi_combo_config_field.creative_cloud_connector_allowed_asset_types.id
-    value = 'Audio'
+    value = '2'
     title = 'Audio'
     is_default_selected = true
 }
