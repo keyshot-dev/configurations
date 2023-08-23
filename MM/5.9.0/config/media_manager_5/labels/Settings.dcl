@@ -5246,22 +5246,6 @@ resource configservice_label settings_import_config_editor_sheet_directory_toolt
   ]
 }
 
-resource configservice_label settings_import_config_editor_csv {
-  key = 'SETTINGS_IMPORT_CONFIG_EDITOR_CSV'
-  group = 'Settings'
-  product_id = resource.configservice_product.media_manager_5.id
-  default_label_values = [
-    {
-      default_translation = 'CSV'
-      language_id = data.language.english.id
-    },
-    {
-      default_translation = 'CSV'
-      language_id = data.language.danish.id
-    }
-  ]
-}
-
 resource configservice_label settings_import_config_editor_excel {
   key = 'SETTINGS_IMPORT_CONFIG_EDITOR_EXCEL'
   group = 'Settings'
