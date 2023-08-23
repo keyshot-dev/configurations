@@ -60,8 +60,6 @@ resource member_group dam_for_sitecore_users {
             constant = 'Can_view_metadata_tab'
         }, {
             constant = 'Can_view_related_assets'
-        }, {
-            constant = 'Asset_Can_Archive'
         }]
 }
 
