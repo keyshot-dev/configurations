@@ -6822,6 +6822,38 @@ resource configservice_label settings_connector_settings_allowed_asset_types_des
   ]
 }
 
+resource configservice_label settings_connector_settings_show_all_asset_type_filter_options_title {
+  key = 'SETTINGS_CONNECTOR_SETTINGS_SHOW_ALL_ASSET_TYPE_FILTER_OPTIONS_TITLE'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Show all asset types in the asset type filter'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Vis alle asset-typer i asset-type-filter'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_connector_settings_show_all_asset_type_filter_options_description {
+  key = 'SETTINGS_CONNECTOR_SETTINGS_SHOW_ALL_ASSET_TYPE_FILTER_OPTIONS_DESCRIPTION'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'If checked, you can filter on all asset types. If unchecked, you can only filter on asset types included in the Allowed asset types field'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Hvis slået til, kan du filtrere på alle asset-typer i asset-type-filteret. Hvis slået fra, kan man kun filtrere på asset-typer inkluderet i feltet Tilladte asset-typer'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label settings_connector_settings_loading {
   key = 'SETTINGS_CONNECTOR_SETTINGS_LOADING'
   group = 'Settings'
