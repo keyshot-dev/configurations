@@ -1,5 +1,5 @@
 resource automation_workflow oobe_handle_user_profile {
-    name = 'OOBE 5.8: Handle user profile'
+    name = 'OOBE: Handle user profile'
     description = ''
     content = 'trigger "Is profile set to true" {
 	type = "Specific Metadata Value"
