@@ -990,6 +990,22 @@ resource configservice_label creative_cloud_connector_notification_active_docume
   ]
 }
 
+resource configservice_label creative_cloud_connector_notification_active_document_body_cloud_document {
+  key = 'CREATIVE_CLOUD_CONNECTOR_NOTIFICATION_ACTIVE_DOCUMENT_BODY_CLOUD_DOCUMENT'
+  group = 'Creative Cloud Connector'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'The document is stored in Creative Cloud. The document has to be stored locally before it can be uploaded to Digizuite DAM'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Dokumentet er gemt i Creative Cloud. Dokumentet skal gemmes lokalt, før det kan uploades til Digizuite DAM'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label creative_cloud_connector_notification_active_document_body_save_document {
   key = 'CREATIVE_CLOUD_CONNECTOR_NOTIFICATION_ACTIVE_DOCUMENT_BODY_SAVE_DOCUMENT'
   group = 'Creative Cloud Connector'
