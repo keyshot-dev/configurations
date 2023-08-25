@@ -996,11 +996,11 @@ resource configservice_label creative_cloud_connector_notification_active_docume
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'The document is stored in Creative Cloud. The document has to be stored locally before it can be uploaded to Digizuite DAM'
+      default_translation = 'Please save the document to your drive to enable uploading to the Digizuite DAM'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Dokumentet er gemt i Creative Cloud. Dokumentet skal gemmes lokalt, før det kan uploades til Digizuite DAM'
+      default_translation = 'Gem dokumentet på dit lokale drev for at slå upload til Digizuite DAM til'
       language_id = data.language.danish.id
     }
   ]
