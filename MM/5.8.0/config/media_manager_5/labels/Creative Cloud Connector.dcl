@@ -990,6 +990,22 @@ resource configservice_label creative_cloud_connector_notification_active_docume
   ]
 }
 
+resource configservice_label creative_cloud_connector_notification_active_document_body_cloud_document {
+  key = 'CREATIVE_CLOUD_CONNECTOR_NOTIFICATION_ACTIVE_DOCUMENT_BODY_CLOUD_DOCUMENT'
+  group = 'Creative Cloud Connector'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Please save the document to your drive to enable uploading to the Digizuite DAM'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Gem dokumentet på dit lokale drev for at slå upload til Digizuite DAM til'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label creative_cloud_connector_notification_active_document_body_save_document {
   key = 'CREATIVE_CLOUD_CONNECTOR_NOTIFICATION_ACTIVE_DOCUMENT_BODY_SAVE_DOCUMENT'
   group = 'Creative Cloud Connector'
