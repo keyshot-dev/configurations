@@ -4,14 +4,7 @@ resource channel_folder sitecore {
 }
 
 resource item_security sitecore__dam_for_sitecore_editors {
-    accessor_item_id = resource.member_group.dam_for_sitecore_editors.item_id
-    item_id = resource.channel_folder.sitecore.item_id
-    read = true
-    write = true
-}
-
-resource item_security sitecore__dam_for_sitecore_users {
-    accessor_item_id = resource.member_group.dam_for_sitecore_users.item_id
+    accessor_item_id = resource.member_group.dfs_system.item_id
     item_id = resource.channel_folder.sitecore.item_id
     read = true
     write = false
