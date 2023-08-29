@@ -1054,6 +1054,408 @@ resource configservice_label portal_config_manager_portal_labels_language {
   ]
 }
 
+resource configservice_label portal_config_manager_portal_labels_title_import_export {
+  key = 'PORTAL_CONFIG_MANAGER_PORTAL_LABELS_TITLE_IMPORT_EXPORT'
+  group = 'Config Manager'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Import/Export labels'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Import/eksport mærkater'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label portal_config_manager_portal_labels_description_import_export {
+  key = 'PORTAL_CONFIG_MANAGER_PORTAL_LABELS_DESCRIPTION_IMPORT_EXPORT'
+  group = 'Config Manager'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Export the labels in your chosen language as an Excel sheet using the Export button. Any changes you make in the Excel file can be imported using the Import button.'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Eksporter mærkater på dit valgte sprog som et Excel-ark ved at bruge knappen Eksport. Eventuelle ændringer, du foretager i Excel-filen, kan importeres ved hjælp af knappen Import.'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label portal_config_manager_portal_labels_button_import {
+  key = 'PORTAL_CONFIG_MANAGER_PORTAL_LABELS_BUTTON_IMPORT'
+  group = 'Config Manager'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Import'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Import'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label portal_config_manager_portal_labels_button_export {
+  key = 'PORTAL_CONFIG_MANAGER_PORTAL_LABELS_BUTTON_EXPORT'
+  group = 'Config Manager'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Export'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Export'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label portal_config_manager_portal_labels_button_disabled_tooltip {
+  key = 'PORTAL_CONFIG_MANAGER_PORTAL_LABELS_BUTTON_DISABLED_TOOLTIP'
+  group = 'Config Manager'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'You have unsaved changes. Save changes before importing or exporting labels.'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Du har ikke-gemte ændringer. Gem ændringer før import eller eksport af mærkater.'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label portal_config_manager_portal_labels_export_dialog_title {
+  key = 'PORTAL_CONFIG_MANAGER_PORTAL_LABELS_EXPORT_DIALOG_TITLE'
+  group = 'Config Manager'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Export labels'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Export mærkater'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+
+resource configservice_label portal_config_manager_portal_labels_export_dialog_body {
+  key = 'PORTAL_CONFIG_MANAGER_PORTAL_LABELS_EXPORT_DIALOG_BODY'
+  group = 'Config Manager'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Are you sure you want to export all labels for \'{{language}}\'?'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Er du sikker på, at du vil eksportere alle mærkater for \'{{sprog}}\'?'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label portal_config_manager_portal_labels_export_dialog_button_confirm {
+  key = 'PORTAL_CONFIG_MANAGER_PORTAL_LABELS_EXPORT_DIALOG_BUTTON_CONFIRM'
+  group = 'Config Manager'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Confirm'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Bekræft'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label portal_config_manager_portal_labels_export_dialog_button_cancel {
+  key = 'PORTAL_CONFIG_MANAGER_PORTAL_LABELS_EXPORT_DIALOG_BUTTON_CANCEL'
+  group = 'Config Manager'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Cancel'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Annullér'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label portal_config_manager_portal_labels_export_notification_success_title {
+  key = 'PORTAL_CONFIG_MANAGER_PORTAL_LABELS_EXPORT_NOTIFICATION_SUCCESS_TITLE'
+  group = 'Config Manager'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Success'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Succes'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label portal_config_manager_portal_labels_export_notification_success_body {
+  key = 'PORTAL_CONFIG_MANAGER_PORTAL_LABELS_EXPORT_NOTIFICATION_SUCCESS_BODY'
+  group = 'Config Manager'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'The labels have been downloaded to your browser\'s download directory'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Mærkaterne er blevet downloadet til din browsers downloadmappe'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label portal_config_manager_portal_labels_export_notification_error_title {
+  key = 'PORTAL_CONFIG_MANAGER_PORTAL_LABELS_EXPORT_NOTIFICATION_ERROR_TITLE'
+  group = 'Config Manager'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Error'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Fejl'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label portal_config_manager_portal_labels_export_notification_error_body {
+  key = 'PORTAL_CONFIG_MANAGER_PORTAL_LABELS_EXPORT_NOTIFICATION_ERROR_BODY'
+  group = 'Config Manager'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Error exporting labels. Check your browser\'s console for more details.'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Fejl ved eksport af mærkaterne. Tjek din browsers konsol for flere detaljer.'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label portal_config_manager_portal_labels_import_dialog_title {
+  key = 'PORTAL_CONFIG_MANAGER_PORTAL_LABELS_IMPORT_DIALOG_TITLE'
+  group = 'Config Manager'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'WARNING: Overwriting labels'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'ADVARSEL: Overskrivning af mærkater'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+
+resource configservice_label portal_config_manager_portal_labels_import_dialog_body {
+  key = 'PORTAL_CONFIG_MANAGER_PORTAL_LABELS_IMPORT_DIALOG_BODY'
+  group = 'Config Manager'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Are you sure you want to overwrite all \'{{language}}\' labels with \'{{filename}}\'? \n\n We recommend backing up labels before overwriting!'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Er du sikker på, at du vil overskrive alle \'{{language}}\' etiketter med \'{{filename}}\'? \n\n Vi anbefaler at sikkerhedskopiere etiketter før overskrivning!'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label portal_config_manager_portal_labels_import_dialog_button_confirm {
+  key = 'PORTAL_CONFIG_MANAGER_PORTAL_LABELS_IMPORT_DIALOG_BUTTON_CONFIRM'
+  group = 'Config Manager'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Overwrite'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Overskriv'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label portal_config_manager_portal_labels_import_dialog_button_cancel {
+  key = 'PORTAL_CONFIG_MANAGER_PORTAL_LABELS_IMPORT_DIALOG_BUTTON_CANCEL'
+  group = 'Config Manager'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Cancel'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Annullér'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label portal_config_manager_portal_labels_import_notification_success_title {
+  key = 'PORTAL_CONFIG_MANAGER_PORTAL_LABELS_IMPORT_NOTIFICATION_SUCCESS_TITLE'
+  group = 'Config Manager'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Success'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Succes'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label portal_config_manager_portal_labels_import_notification_success_body {
+  key = 'PORTAL_CONFIG_MANAGER_PORTAL_LABELS_IMPORT_NOTIFICATION_SUCCESS_BODY'
+  group = 'Config Manager'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'The labels have been imported. Refresh your page to see any changes.'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Mærkaterne er blevet downloadet til din browsers downloadmappe'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label portal_config_manager_portal_labels_import_notification_success_button_reload {
+  key = 'PORTAL_CONFIG_MANAGER_PORTAL_LABELS_IMPORT_NOTIFICATION_SUCCESS_BUTTON_RELOAD'
+  group = 'Config Manager'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Reload'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Genindlæs'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label portal_config_manager_portal_labels_import_notification_success_button_cancel {
+  key = 'PORTAL_CONFIG_MANAGER_PORTAL_LABELS_IMPORT_NOTIFICATION_SUCCESS_BUTTON_CANCEL'
+  group = 'Config Manager'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Cancel'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Genindlæs'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+
+resource configservice_label portal_config_manager_portal_labels_import_notification_error_title {
+  key = 'PORTAL_CONFIG_MANAGER_PORTAL_LABELS_IMPORT_NOTIFICATION_ERROR_TITLE'
+  group = 'Config Manager'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Error'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Fejl'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label portal_config_manager_portal_labels_import_notification_error_body {
+  key = 'PORTAL_CONFIG_MANAGER_PORTAL_LABELS_IMPORT_NOTIFICATION_ERROR_BODY'
+  group = 'Config Manager'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Error importing labels. Check your browser\'s console for more details.'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Fejl ved import af mærkaterne. Tjek din browsers konsol for flere detaljer.'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label portal_config_manager_portal_labels_import_notification_error_continue {
+  key = 'PORTAL_CONFIG_MANAGER_PORTAL_LABELS_IMPORT_NOTIFICATION_ERROR_CONTINUE'
+  group = 'Config Manager'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Ok'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Ok'
+      language_id = data.language.danish.id
+    }
+  ]
+
+resource configservice_label portal_config_manager_portal_labels_import_processing {
+  key = 'PORTAL_CONFIG_MANAGER_PORTAL_LABELS_IMPORT_PROCESSING'
+  group = 'Config Manager'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Importing ...'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Importerer ...'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label portal_config_manager_portal_error_notification_title {
   key = 'PORTAL_CONFIG_MANAGER_PORTAL_ERROR_NOTIFICATION_TITLE'
   group = 'Config Manager'
