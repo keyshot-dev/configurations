@@ -1286,11 +1286,15 @@ resource configservice_label portal_config_manager_portal_labels_import_dialog_b
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Are you sure you want to overwrite all \'{{language}}\' labels with \'{{filename}}\'? \n\n We recommend backing up labels before overwriting!'
+      default_translation = 'Are you sure you want to overwrite all \'{{language}}\' labels with \'{{filename}}\'? 
+       
+We recommend backing up labels before overwriting!'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Er du sikker på, at du vil overskrive alle \'{{language}}\'e labels med \'{{filename}}\'? \n\n Vi anbefaler at sikkerhedskopierer labels før overskrivning!'
+      default_translation = 'Er du sikker på, at du vil overskrive alle \'{{language}}\'e labels med \'{{filename}}\'? 
+       
+Vi anbefaler at sikkerhedskopierer labels før overskrivning!'
       language_id = data.language.danish.id
     }
   ]
@@ -1439,6 +1443,7 @@ resource configservice_label portal_config_manager_portal_labels_import_notifica
       language_id = data.language.danish.id
     }
   ]
+}
 
 resource configservice_label portal_config_manager_portal_labels_import_processing {
   key = 'PORTAL_CONFIG_MANAGER_PORTAL_LABELS_IMPORT_PROCESSING'
