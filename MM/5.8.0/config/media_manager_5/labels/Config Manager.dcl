@@ -1060,11 +1060,11 @@ resource configservice_label portal_config_manager_portal_labels_title_import_ex
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Import/Export labels'
+      default_translation = 'Import and export labels'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Import/eksport mærkater'
+      default_translation = 'Importer og eksporter labels'
       language_id = data.language.danish.id
     }
   ]
@@ -1080,7 +1080,7 @@ resource configservice_label portal_config_manager_portal_labels_description_imp
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Eksporter mærkater på dit valgte sprog som et Excel-ark ved at bruge knappen Eksport. Eventuelle ændringer, du foretager i Excel-filen, kan importeres ved hjælp af knappen Import.'
+      default_translation = 'Eksporter alle labels fra det valgte sprog til et Excel-ark ved at trykke Eksporter. Ændringer du foretager i Excel-arket, kan importeres ved at trykke Importer.'
       language_id = data.language.danish.id
     }
   ]
@@ -1096,7 +1096,7 @@ resource configservice_label portal_config_manager_portal_labels_button_import {
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Import'
+      default_translation = 'Importer'
       language_id = data.language.danish.id
     }
   ]
@@ -1112,7 +1112,7 @@ resource configservice_label portal_config_manager_portal_labels_button_export {
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Export'
+      default_translation = 'Eksporter'
       language_id = data.language.danish.id
     }
   ]
@@ -1124,11 +1124,11 @@ resource configservice_label portal_config_manager_portal_labels_button_disabled
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'You have unsaved changes. Save changes before importing or exporting labels.'
+      default_translation = 'You have unsaved changes. Save all changes before importing or exporting labels.'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Du har ikke-gemte ændringer. Gem ændringer før import eller eksport af mærkater.'
+      default_translation = 'Du har ændringer som ikke er gemt. Gem ændringerne før importering eller eksportering af labels.'
       language_id = data.language.danish.id
     }
   ]
@@ -1144,7 +1144,7 @@ resource configservice_label portal_config_manager_portal_labels_export_dialog_t
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Export mærkater'
+      default_translation = 'Eksporter labels'
       language_id = data.language.danish.id
     }
   ]
@@ -1157,11 +1157,11 @@ resource configservice_label portal_config_manager_portal_labels_export_dialog_b
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Are you sure you want to export all labels for \'{{language}}\'?'
+      default_translation = 'Are you sure you want to export all {{language}} labels?'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Er du sikker på, at du vil eksportere alle mærkater for \'{{sprog}}\'?'
+      default_translation = 'Er du sikker på, at du vil eksportere alle labels for \'{{sprog}}\'?'
       language_id = data.language.danish.id
     }
   ]
@@ -1221,11 +1221,11 @@ resource configservice_label portal_config_manager_portal_labels_export_notifica
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'The labels have been downloaded to your browser\'s download directory'
+      default_translation = 'All {{language}} labels have been downloaded to your browser\'s download directory'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Mærkaterne er blevet downloadet til din browsers downloadmappe'
+      default_translation = 'Alle {{sprog}}e labels er downloadet til din browsers downloadmappe'
       language_id = data.language.danish.id
     }
   ]
@@ -1257,7 +1257,7 @@ resource configservice_label portal_config_manager_portal_labels_export_notifica
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Fejl ved eksport af mærkaterne. Tjek din browsers konsol for flere detaljer.'
+      default_translation = 'Fejl under label-eksport. Tjek din browsers konsol for flere detaljer.'
       language_id = data.language.danish.id
     }
   ]
@@ -1273,7 +1273,7 @@ resource configservice_label portal_config_manager_portal_labels_import_dialog_t
       language_id = data.language.english.id
     },
     {
-      default_translation = 'ADVARSEL: Overskrivning af mærkater'
+      default_translation = 'ADVARSEL: Overskrivning af labels'
       language_id = data.language.danish.id
     }
   ]
@@ -1290,7 +1290,7 @@ resource configservice_label portal_config_manager_portal_labels_import_dialog_b
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Er du sikker på, at du vil overskrive alle \'{{language}}\' etiketter med \'{{filename}}\'? \n\n Vi anbefaler at sikkerhedskopiere etiketter før overskrivning!'
+      default_translation = 'Er du sikker på, at du vil overskrive alle \'{{language}}\'e labels med \'{{filename}}\'? \n\n Vi anbefaler at sikkerhedskopierer labels før overskrivning!'
       language_id = data.language.danish.id
     }
   ]
@@ -1350,11 +1350,11 @@ resource configservice_label portal_config_manager_portal_labels_import_notifica
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'The labels have been imported. Refresh your page to see any changes.'
+      default_translation = 'The labels have been imported. Refresh the page to see changes.'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Mærkaterne er blevet downloadet til din browsers downloadmappe'
+      default_translation = 'Labels er blevet importeret. Opdater siden for at se ændringerne.'
       language_id = data.language.danish.id
     }
   ]
@@ -1419,7 +1419,7 @@ resource configservice_label portal_config_manager_portal_labels_import_notifica
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Fejl ved import af mærkaterne. Tjek din browsers konsol for flere detaljer.'
+      default_translation = 'Fejl under label-import. Tjek din browsers konsol for flere detaljer.'
       language_id = data.language.danish.id
     }
   ]
