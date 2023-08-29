@@ -942,6 +942,22 @@ resource configservice_label rabbit_overview_queue_unacked {
   ]
 }
 
+resource configservice_label rabbit_overview_queue_fanout_total {
+  key = 'RABBIT_OVERVIEW_QUEUE_FANOUT_TOTAL'
+  group = 'Administration'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Fanout total active'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Fanout antal aktive'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label rabbit_overview_queue_total {
   key = 'RABBIT_OVERVIEW_QUEUE_TOTAL'
   group = 'Administration'
