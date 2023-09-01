@@ -1286,13 +1286,13 @@ resource configservice_label portal_config_manager_portal_labels_import_dialog_b
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Are you sure you want to overwrite all \'{{language}}\' labels with \'{{filename}}\'? 
+      default_translation = 'Are you sure you want to overwrite all {{language}} labels with \'{{filename}}\'?
        
 We recommend backing up labels before overwriting!'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Er du sikker på, at du vil overskrive alle \'{{language}}\'e labels med \'{{filename}}\'? 
+      default_translation = 'Er du sikker på, at du vil overskrive alle {{language}}e labels med \'{{filename}}\'?
        
 Vi anbefaler at sikkerhedskopierer labels før overskrivning!'
       language_id = data.language.danish.id
@@ -1354,11 +1354,11 @@ resource configservice_label portal_config_manager_portal_labels_import_notifica
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'The labels have been imported. Refresh the page to see changes.'
+      default_translation = 'The labels have been imported. Reload the page to see changes.'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Labels er blevet importeret. Opdater siden for at se ændringerne.'
+      default_translation = 'Labels er blevet importeret. Genindlæs siden for at se ændringerne.'
       language_id = data.language.danish.id
     }
   ]
