@@ -126,6 +126,22 @@ resource configservice_label asset_list_filters_configuration_sort_by {
   ]
 }
 
+resource configservice_label asset_list_filters_configuration_sort_order {
+  key = 'ASSET_LIST_FILTERS_CONFIGURATION_SORT_ORDER'
+  group = 'Filters'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Sort order'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Sortering'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label asset_list_filters_configuration_sort {
   key = 'ASSET_LIST_FILTERS_CONFIGURATION_SORT'
   group = 'Filters'
