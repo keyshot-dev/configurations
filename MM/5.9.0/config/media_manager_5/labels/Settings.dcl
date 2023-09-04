@@ -6896,7 +6896,7 @@ resource configservice_label settings_connector_settings_view_in_connector_title
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Visning i connector'
+      default_translation = 'Vis i connector'
       language_id = data.language.danish.id
     }
   ]
@@ -6908,11 +6908,11 @@ resource configservice_label settings_connector_settings_view_in_connector_descr
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'If enabled, a button will appear in assets\' more menu. Pressing it, it\'ll dispatch an event containing the asset\'s assetId.'
+      default_translation = 'If enabled, a button will appear in assets\' more menu. Pressing it, it\'ll dispatch an event containing the asset\'s ID.'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Hvis slået til, vises en knap i assets\' mere menu. Hvis du trykker på den så vil den sende et event som indholder asset\'s assetId.'
+      default_translation = 'Hvis slået til, vises en knap i assets\' mere menu. Når man trykker på den, vil den sende et event som indeholder IDet for assetet.'
       language_id = data.language.danish.id
     }
   ]
@@ -6928,7 +6928,7 @@ resource configservice_label settings_connector_settings_connector_usages_title 
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Vis connector brug'
+      default_translation = 'Vis brug i connector'
       language_id = data.language.danish.id
     }
   ]
@@ -6940,11 +6940,11 @@ resource configservice_label settings_connector_settings_connector_usages_descri
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'If enabled, assets\' previews will show the tab \'Connector usages\', which allows you to see usages in your product.'
+      default_translation = 'If enabled, assets\' previews will show the tab \'Connector usages\', which gives you an overview of applications of the asset in your product.'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Hvis slået til, vil forhåndsvisninger af assets\' vise fanen \'Connector brug\', som tillader dig at se brugen af assets i dit produkt.'
+      default_translation = 'Hvis slået til, vil forhåndsvisning af assets have fanen \'Vis brug i connector \', som giver et overblik over anvendelser af assetet i dit produkt.'
       language_id = data.language.danish.id
     }
   ]
