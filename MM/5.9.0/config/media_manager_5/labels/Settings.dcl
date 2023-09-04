@@ -6886,6 +6886,70 @@ resource configservice_label settings_connector_settings_show_change_site_descri
   ]
 }
 
+resource configservice_label settings_connector_settings_view_in_connector_title {
+  key = 'SETTINGS_CONNECTOR_SETTINGS_VIEW_IN_CONNECTOR_TITLE'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'View in connector'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Vis i connector'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_connector_settings_view_in_connector_description {
+  key = 'SETTINGS_CONNECTOR_SETTINGS_VIEW_IN_CONNECTOR_DESCRIPTION'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'If enabled, a button will appear in assets\' more menu. Pressing it, it\'ll dispatch an event containing the asset\'s ID.'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Hvis slået til, vises en knap i assets\' mere menu. Når man trykker på den, vil den sende et event som indeholder IDet for assetet.'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_connector_settings_connector_usages_title {
+  key = 'SETTINGS_CONNECTOR_SETTINGS_CONNECTOR_USAGES_TITLE'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Show connector usages'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Vis brug i connector'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_connector_settings_connector_usages_description {
+  key = 'SETTINGS_CONNECTOR_SETTINGS_CONNECTOR_USAGES_DESCRIPTION'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'If enabled, assets\' previews will show the tab \'Connector usages\', which gives you an overview of applications of the asset in your product.'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Hvis slået til, vil forhåndsvisning af assets have fanen \'Vis brug i connector \', som giver et overblik over anvendelser af assetet i dit produkt.'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label settings_connector_settings_loading {
   key = 'SETTINGS_CONNECTOR_SETTINGS_LOADING'
   group = 'Settings'
