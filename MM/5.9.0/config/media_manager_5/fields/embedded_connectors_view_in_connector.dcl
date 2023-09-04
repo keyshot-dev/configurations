@@ -1,5 +1,5 @@
 resource configservice_bit_config_field embedded_connectors_view_in_connector {
-    default_value = true
+    default_value = false
     product_id = resource.configservice_product.media_manager_5.id
     group = 'Embedded Connectors'
     key = 'embeddedConnectorsViewInConnector'
