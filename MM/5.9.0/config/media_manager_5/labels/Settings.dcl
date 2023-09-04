@@ -6652,11 +6652,11 @@ resource configservice_label settings_connector_settings_embedded_connectors_lab
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Embedded Connectors'
+      default_translation = 'Embedded connectors'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Embedded Connectors'
+      default_translation = 'Embedded connectors'
       language_id = data.language.danish.id
     }
   ]
@@ -6860,11 +6860,11 @@ resource configservice_label settings_connector_settings_show_change_site_title 
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Show change site'
+      default_translation = 'Show \'Change site\''
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Vis skift site'
+      default_translation = 'Vis \'Skift side\''
       language_id = data.language.danish.id
     }
   ]
@@ -6876,11 +6876,11 @@ resource configservice_label settings_connector_settings_show_change_site_descri
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'If checked, the change site feature will be enabled.'
+      default_translation = 'If checked, the \'Change site\' option will show.'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Hvis slået til, vil funktionen til skift site blive aktiveret.'
+      default_translation = 'Hvis slået til, vil knappen \'Skift side\' vises.'
       language_id = data.language.danish.id
     }
   ]
