@@ -6646,6 +6646,22 @@ resource configservice_label settings_connector_settings_oc_label {
   ]
 }
 
+resource configservice_label settings_connector_settings_embedded_connectors_label {
+  key = 'SETTINGS_CONNECTOR_SETTINGS_EMBEDDED_CONNECTORS_LABEL'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Embedded Connectors'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Embedded Connectors'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label settings_connector_settings_image_insert_quality_title {
   key = 'SETTINGS_CONNECTOR_SETTINGS_IMAGE_INSERT_QUALITY_TITLE'
   group = 'Settings'
@@ -6833,6 +6849,38 @@ resource configservice_label settings_connector_settings_show_all_asset_type_fil
     },
     {
       default_translation = 'Hvis slået til, kan du filtrere på alle asset-typer i asset-type-filteret. Hvis slået fra, kan man kun filtrere på asset-typer inkluderet i feltet Tilladte asset-typer'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_connector_settings_show_change_site_title {
+  key = 'SETTINGS_CONNECTOR_SETTINGS_SHOW_CHANGE_SITE_TITLE'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Show change site'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Vis skift site'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_connector_settings_show_change_site_description {
+  key = 'SETTINGS_CONNECTOR_SETTINGS_SHOW_CHANGE_SITE_DESCRIPTION'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'If checked, the change site feature will be enabled.'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Hvis slået til, vil funktionen til skift site blive aktiveret.'
       language_id = data.language.danish.id
     }
   ]
