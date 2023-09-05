@@ -4,11 +4,11 @@
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Duplicates detected'
+      default_translation = 'Potential duplicates detected'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Dubletter identificeret'
+      default_translation = 'Potentielle dubletter fundet'
       language_id = data.language.danish.id
     }
   ]
@@ -20,11 +20,11 @@ resource configservice_label duplicate_asset_modal_duplicates_found_content {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'The current upload contains duplicate assets'
+      default_translation = 'The system contains asset(s) similar to the file you\'re uploading'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Den nuværende upload indeholder dubletter'
+      default_translation = 'Systemet indeholder asset(s) der ligner den fil du er ved at uploade'
       language_id = data.language.danish.id
     }
   ]
@@ -104,7 +104,7 @@ resource configservice_label duplicate_asset_action_selector_tooltip {
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Gå til muligheder og vælg en handling'
+      default_translation = 'Gå til egenskaber og vælg en handling'
       language_id = data.language.danish.id
     }
   ]
@@ -212,7 +212,7 @@ resource configservice_label popup_duplicate_asset_cancel_confirmation_dialog_bo
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Are you sure that you want to abort the upload of {{count}} {count, select, 1 {asset} other {assets}}?'
+      default_translation = 'Are you sure you want to abort the upload of {{count}} {count, select, 1 {asset} other {assets}}?'
       language_id = data.language.english.id
     },
     {
