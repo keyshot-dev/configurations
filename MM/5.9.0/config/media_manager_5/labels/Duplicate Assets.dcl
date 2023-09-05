@@ -1,4 +1,36 @@
-﻿resource configservice_label duplicate_asset_modal_title {
+﻿resource configservice_label duplicate_asset_modal_duplicates_found_title {
+  key = 'DUPLICATE_ASSET_MODAL_DUPLICATES_FOUND_TITLE'
+  group = 'Duplicate Assets'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Potential duplicates detected'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Potentielle dubletter fundet'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label duplicate_asset_modal_duplicates_found_content {
+  key = 'DUPLICATE_ASSET_MODAL_DUPLICATES_FOUND_CONTENT'
+  group = 'Duplicate Assets'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'The system contains asset(s) similar to the file you\'re uploading'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Systemet indeholder asset(s) der ligner den fil du er ved at uploade'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label duplicate_asset_modal_title {
   key = 'DUPLICATE_ASSET_MODAL_TITLE'
   group = 'Duplicate Assets'
   product_id = resource.configservice_product.media_manager_5.id
@@ -62,6 +94,22 @@ resource configservice_label identical_asset_modal_select {
   ]
 }
 
+resource configservice_label duplicate_asset_action_selector_tooltip {
+  key = 'DUPLICATE_ASSET_ACTION_SELECTOR_TOOLTIP'
+  group = 'Duplicate Assets'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Go to options and select an action'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Gå til egenskaber og vælg en handling'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label duplicate_asset_resolution {
   key = 'DUPLICATE_ASSET_RESOLUTION'
   group = 'Duplicate Assets'
@@ -100,11 +148,11 @@ resource configservice_label duplicate_asset_modal_next {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = '{hasNext, select, true {Next} false {Done}}'
+      default_translation = '{hasNext, select, true {Confirm} false {Done}}'
       language_id = data.language.english.id
     },
     {
-      default_translation = '{hasNext, select, true {Næste} false {Done}}'
+      default_translation = '{hasNext, select, true {Bekræft} false {Færdig}}'
       language_id = data.language.danish.id
     }
   ]
@@ -148,11 +196,11 @@ resource configservice_label popup_duplicate_asset_cancel_confirmation_dialog_ti
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Cancel upload'
+      default_translation = 'Abort upload'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Annullér upload'
+      default_translation = 'Afbryd upload'
       language_id = data.language.danish.id
     }
   ]
@@ -164,11 +212,11 @@ resource configservice_label popup_duplicate_asset_cancel_confirmation_dialog_bo
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'You\'re about to cancel the upload of {{count}} {count, select, 1 {asset} other {assets}}. Do you wish to proceed?'
+      default_translation = 'Are you sure you want to abort the upload of {{count}} {count, select, 1 {asset} other {assets}}?'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Du er i gang med at annullere upload af {{count}} {count, select, 1 {asset} other {assets}}. Ønsker du at fortsætte?'
+      default_translation = 'Er du sikker på at du vil afbryde upload af {{count}} {count, select, 1 {asset} other {assets}}?'
       language_id = data.language.danish.id
     }
   ]
@@ -180,11 +228,11 @@ resource configservice_label popup_duplicate_asset_cancel_confirmation_dialog_ca
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'No'
+      default_translation = 'Continue upload'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Nej'
+      default_translation = 'Fortsæt upload'
       language_id = data.language.danish.id
     }
   ]
@@ -196,11 +244,11 @@ resource configservice_label popup_duplicate_asset_cancel_confirmation_dialog_ok
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Yes'
+      default_translation = 'Abort upload'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Ja'
+      default_translation = 'Afbryd upload'
       language_id = data.language.danish.id
     }
   ]
@@ -228,11 +276,11 @@ resource configservice_label duplicate_asset_sort_selector_detection_mode_label 
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Detection type'
+      default_translation = 'Detect by'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Dublet-søgnings-type'
+      default_translation = 'Opdag ved'
       language_id = data.language.danish.id
     }
   ]
@@ -244,11 +292,11 @@ resource configservice_label duplicate_asset_sort_selector_detection_mode_option
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = '{mode, select, FilenameWithExtension {Identical file name with extension} FilenameWithoutExtension {Identical file name without extension} PerceptualHash {Similar images} Sha1Hash {Identical files}}'
+      default_translation = '{mode, select, FilenameWithExtension {Title and extension} FilenameWithoutExtension {Title} PerceptualHash {Similar images} Sha1Hash {Identical files}}'
       language_id = data.language.english.id
     },
     {
-      default_translation = '{mode, select, FilenameWithExtension {Identisk filnavn med filtypenavn} FilenameWithoutExtension {Identisk filnavn uden filtypenavn} PerceptualHash {Lignende billeder} Sha1Hash {Identiske filer}}'
+      default_translation = '{mode, select, FilenameWithExtension {Titel og filendelse} FilenameWithoutExtension {Titel} PerceptualHash {Lignende billeder} Sha1Hash {Identiske filer}}'
       language_id = data.language.danish.id
     }
   ]
