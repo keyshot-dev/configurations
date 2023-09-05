@@ -1806,3 +1806,51 @@ resource configservice_label multi_metadata_editor_edit_tooltip {
   ]
 }
 
+resource configservice_label multi_metadata_editor_navigation_menu_title {
+  key = 'MULTI_METADATA_EDITOR_NAVIGATION_MENU_TITLE'
+  group = 'Metadata'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Navigation'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Navigation'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label multi_metadata_editor_options_button_text {
+  key = 'MULTI_METADATA_EDITOR_OPTIONS_BUTTON_TEXT'
+  group = 'Metadata'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Options'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Egenskaber'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label multi_metadata_editor_expand_all_groups_menu {
+  key = 'MULTI_METADATA_EDITOR_EXPAND_ALL_GROUPS_MENU'
+  group = 'Metadata'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = '{expand, select, false {Collapse all groups} true {Expand all groups}}'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = '{expand, select, false {Kollaps alle grupper} true {Udvid alle grupper}}'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
