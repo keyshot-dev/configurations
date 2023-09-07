@@ -7,7 +7,7 @@ resource item_security optimizely__optimizely_editors {
     accessor_item_id = resource.member_group.dfo_system.item_id
     item_id = resource.channel_folder.optimizely.item_id
     read = true
-    write = false
+    write = true
 }
 
 resource item_security optimizely__super_administrator_profile {
