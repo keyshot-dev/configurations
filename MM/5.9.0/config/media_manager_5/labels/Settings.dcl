@@ -734,33 +734,17 @@ resource configservice_label settings_about_dc_version {
   ]
 }
 
-resource configservice_label settings_about_mm_version {
-  key = 'SETTINGS_ABOUT_MM_VERSION'
+resource configservice_label settings_about_product_version {
+  key = 'SETTINGS_ABOUT_PRODUCT_VERSION'
   group = 'Settings'
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'MM version:'
+      default_translation = '{prefix, select, MM5 {MM} EMBED {Embedded} CCC {CCC} OC {OC} version:}'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'MM-version:'
-      language_id = data.language.danish.id
-    }
-  ]
-}
-
-resource configservice_label settings_about_release_version {
-  key = 'SETTINGS_ABOUT_RELEASE_VERSION'
-  group = 'Settings'
-  product_id = resource.configservice_product.media_manager_5.id
-  default_label_values = [
-    {
-      default_translation = '{option, select, MM5 {Release version:} EMBED {Release version:} CCC {CCC release version:} OC {OC release version:}}'
-      language_id = data.language.english.id
-    },
-    {
-      default_translation = '{option, select, MM5 {Udgivelses-version:} EMBED {Udgivelses-version:} CCC {CCC-udgivelses-version:} OC {OC-udgivelses-version:}}'
+      default_translation = '{prefix, select, MM5 {MM-version:} EMBED {Embedded-version:} CCC {CCC-version:} OC {OC-version:}}'
       language_id = data.language.danish.id
     }
   ]
