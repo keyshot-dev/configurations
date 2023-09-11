@@ -734,8 +734,8 @@ resource configservice_label settings_about_dc_version {
   ]
 }
 
-resource configservice_label settings_about_product_version {
-  key = 'SETTINGS_ABOUT_PRODUCT_VERSION'
+resource configservice_label settings_about_app_product_version {
+  key = 'SETTINGS_ABOUT_APP_PRODUCT_VERSION'
   group = 'Settings'
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
