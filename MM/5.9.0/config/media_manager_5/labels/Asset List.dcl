@@ -1352,7 +1352,7 @@ resource configservice_label asset_list_delete_error_title {
       language_id = data.language.english.id
     },
     {
-      default_translation = '{multiple, select, true {Assetsne} false {Assetet}} blev ikke slettet'
+      default_translation = 'Fejl'
       language_id = data.language.danish.id
     }
   ]
