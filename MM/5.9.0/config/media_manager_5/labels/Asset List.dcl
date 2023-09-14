@@ -1342,6 +1342,22 @@ resource configservice_label asset_list_delete_error {
   ]
 }
 
+resource configservice_label asset_list_delete_error_title {
+  key = 'ASSET_LIST_DELETE_ERROR_TITLE'
+  group = 'Asset List'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Error'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Fejl'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label asset_list_archive_error {
   key = 'ASSET_LIST_ARCHIVE_ERROR'
   group = 'Asset List'
