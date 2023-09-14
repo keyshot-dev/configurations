@@ -1348,7 +1348,7 @@ resource configservice_label asset_list_delete_error_title {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'The {multiple, select, true {assets were} false {asset was}} not deleted'
+      default_translation = 'Error'
       language_id = data.language.english.id
     },
     {
