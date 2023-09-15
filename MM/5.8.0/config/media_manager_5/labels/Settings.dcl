@@ -318,22 +318,6 @@ resource configservice_label settings_settings_root_theming {
   ]
 }
 
-resource configservice_label settings_settings_root_labels {
-  key = 'SETTINGS_SETTINGS_ROOT_LABELS'
-  group = 'Settings'
-  product_id = resource.configservice_product.media_manager_5.id
-  default_label_values = [
-    {
-      default_translation = 'Labels'
-      language_id = data.language.english.id
-    },
-    {
-      default_translation = 'Tekster'
-      language_id = data.language.danish.id
-    }
-  ]
-}
-
 resource configservice_label settings_settings_root_introscreen {
   key = 'SETTINGS_SETTINGS_ROOT_INTROSCREEN'
   group = 'Settings'
@@ -345,22 +329,6 @@ resource configservice_label settings_settings_root_introscreen {
     },
     {
       default_translation = 'Introskærm'
-      language_id = data.language.danish.id
-    }
-  ]
-}
-
-resource configservice_label settings_settings_root_config_parameters {
-  key = 'SETTINGS_SETTINGS_ROOT_CONFIG_PARAMETERS'
-  group = 'Settings'
-  product_id = resource.configservice_product.media_manager_5.id
-  default_label_values = [
-    {
-      default_translation = 'Config Parameters'
-      language_id = data.language.english.id
-    },
-    {
-      default_translation = 'Konfigurationsparametre'
       language_id = data.language.danish.id
     }
   ]
@@ -681,22 +649,6 @@ resource configservice_label settings_label_settings_works {
     },
     {
       default_translation = 'Etiket-instillinger virker!'
-      language_id = data.language.danish.id
-    }
-  ]
-}
-
-resource configservice_label settings_config_parameters_settings_works {
-  key = 'SETTINGS_CONFIG_PARAMETERS_SETTINGS_WORKS'
-  group = 'Settings'
-  product_id = resource.configservice_product.media_manager_5.id
-  default_label_values = [
-    {
-      default_translation = 'Config parameters work!'
-      language_id = data.language.english.id
-    },
-    {
-      default_translation = 'Konfigurations-parametre virker!'
       language_id = data.language.danish.id
     }
   ]
