@@ -830,6 +830,38 @@ resource configservice_label brand_portal_settings_hero_banner_text_bg_color {
   ]
 }
 
+resource configservice_label brand_portal_settings_hero_banner_options {
+  key = 'BRAND_PORTAL_HERO_BANNER_OPTIONS'
+  group = 'Brand Portal'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Options'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Egenskaber'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label brand_portal_settings_hero_banner_remove_image {
+  key = 'BRAND_PORTAL_HERO_BANNER_REMOVE_IMAGE'
+  group = 'Brand Portal'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Remove image'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Remove image'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label brand_portal_folder_asset_picker_title {
   key = 'BRAND_PORTAL_FOLDER_ASSET_PICKER_TITLE'
   group = 'Brand Portal'
@@ -1198,17 +1230,33 @@ resource configservice_label brand_portal_folder_context_menu_tooltip {
   ]
 }
 
+resource configservice_label brand_portal_folder_context_menu_remove_image {
+  key = 'BRAND_PORTAL_FOLDER_CONTEXT_MENU_REMOVE_IMAGE'
+  group = 'Brand Portal'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Remove image'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Remove image'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label brand_portal_folder_context_menu_delete {
   key = 'BRAND_PORTAL_FOLDER_CONTEXT_MENU_DELETE'
   group = 'Brand Portal'
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Delete'
+      default_translation = 'Delete folder'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Slet'
+      default_translation = 'Slet mappe'
       language_id = data.language.danish.id
     }
   ]
@@ -1220,11 +1268,11 @@ resource configservice_label brand_portal_folder_context_menu_rename {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Rename'
+      default_translation = 'Rename folder'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Omdøb'
+      default_translation = 'Omdøb mappe'
       language_id = data.language.danish.id
     }
   ]
