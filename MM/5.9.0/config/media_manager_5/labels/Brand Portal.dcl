@@ -644,11 +644,11 @@ resource configservice_label brand_portal_hero_banner_add_image_tooltip {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Add an image'
+      default_translation = 'Choose image'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Tilføj et billede'
+      default_translation = 'Vælg billede'
       language_id = data.language.danish.id
     }
   ]
