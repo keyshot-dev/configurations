@@ -1220,11 +1220,11 @@ resource configservice_label brand_portal_folder_context_menu_tooltip {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Manage folder'
+      default_translation = 'Options'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Administrer mappe'
+      default_translation = 'Egenskaber'
       language_id = data.language.danish.id
     }
   ]
