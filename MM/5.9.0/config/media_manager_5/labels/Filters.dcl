@@ -541,4 +541,51 @@ resource configservice_label asset_list_filters_configuration_reset_button {
   ]
 }
 
+resource configservice_label asset_list_filters_options {
+  key = 'ASSET_LIST_FILTERS_OPTIONS'
+  group = 'Filters'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Options'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Muligheder'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_list_filters_expand_option {
+  key = 'ASSET_LIST_FILTERS_EXPAND_OPTION'
+  group = 'Filters'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Expand all'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Expand all'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_list_filters_collapse_option {
+  key = 'ASSET_LIST_FILTERS_COLLAPSE_OPTION'
+  group = 'Filters'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Collapse all'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Collapse all'
+      language_id = data.language.danish.id
+    }
+  ]
+}
 
