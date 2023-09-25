@@ -5976,7 +5976,7 @@ resource configservice_label cache_cancel_download_warning_yes {
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Annulér downloads'
+      default_translation = 'Annullér downloads'
       language_id = data.language.danish.id
     }
   ]
