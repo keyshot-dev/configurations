@@ -5918,3 +5918,211 @@ resource configservice_label creative_cloud_connector_quality {
   ]
 }
 
+resource configservice_label creative_cloud_connector_cache_download_status_title {
+  key = 'CREATIVE_CLOUD_CONNECTOR_CACHE_DOWNLOAD_STATUS_TITLE'
+  group = 'Creative Cloud Connector'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = '{finished, select, true {Downloaded} false {Downloading}}'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = '{finished, select, true {Downloadet} false {Downloader}}'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label cache_cancel_download_warning_cancel_downloads {
+  key = 'CACHE_CANCEL_DOWNLOAD_WARNING_CANCEL_DOWNLOADS'
+  group = 'Creative Cloud Connector'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Cancel downloads'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Annullér downloads'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label cache_cancel_download_warning_are_you_sure_you_want_to_cancel_your_remaining_downloads {
+  key = 'CACHE_CANCEL_DOWNLOAD_WARNING_ARE_YOU_SURE_YOU_WANT_TO_CANCEL_YOUR_REMAINING_DOWNLOADS'
+  group = 'Creative Cloud Connector'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Are you sure you want to cancel your remaining downloads?'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Er du sikker på, at du vil annullere dine resterende downloads?'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label cache_cancel_download_warning_yes {
+  key = 'CACHE_CANCEL_DOWNLOAD_WARNING_YES'
+  group = 'Creative Cloud Connector'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Cancel downloads'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Annullér downloads'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label cache_cancel_download_warning_no {
+  key = 'CACHE_CANCEL_DOWNLOAD_WARNING_NO'
+  group = 'Creative Cloud Connector'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Continue downloading'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Fortsæt med at downloade'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label cache_expanded_download_status_title {
+  key = 'CACHE_EXPANDED_DOWNLOAD_STATUS_TITLE'
+  group = 'Creative Cloud Connector'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Download'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Download'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label cache_expanded_download_status_cancel {
+  key = 'CACHE_EXPANDED_DOWNLOAD_STATUS_CANCEL'
+  group = 'Creative Cloud Connector'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = '{finished, select, true {Clear} other {Cancel}}'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = '{finished, select, true {Ryd} true {Annullér}}'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label cache_expanded_download_status_all {
+  key = 'CACHE_EXPANDED_DOWNLOAD_STATUS_ALL'
+  group = 'Creative Cloud Connector'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'all'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'alle'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label cache_download_job_item_waiting {
+  key = 'CACHE_DOWNLOAD_JOB_ITEM_WAITING'
+  group = 'Creative Cloud Connector'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Waiting'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Venter'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label cache_download_job_item_downloading {
+  key = 'CACHE_DOWNLOAD_JOB_ITEM_DOWNLOADING'
+  group = 'Creative Cloud Connector'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Downloading'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Downloader'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label cache_download_job_item_finished {
+  key = 'CACHE_DOWNLOAD_JOB_ITEM_FINISHED'
+  group = 'Creative Cloud Connector'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Done'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Færdig'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label cache_download_asset_list_more {
+  key = 'CACHE_DOWNLOAD_ASSET_LIST_MORE
+  group = 'Creative Cloud Connector'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'More'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Mere'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label cache_download_asset_list_remove {
+  key = 'CACHE_DOWNLOAD_ASSET_LIST_REMOVE'
+  group = 'Creative Cloud Connector'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Clear'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Ryd'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
