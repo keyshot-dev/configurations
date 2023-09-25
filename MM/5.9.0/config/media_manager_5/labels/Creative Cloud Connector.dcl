@@ -5934,8 +5934,8 @@ resource configservice_label creative_cloud_connector_cache_download_status_titl
   ]
 }
 
-resource configservice_label cache_cancel_download_warning_cancel_downloads {
-  key = 'CACHE_CANCEL_DOWNLOAD_WARNING_CANCEL_DOWNLOADS'
+resource configservice_label creative_cloud_connector_cache_cancel_download_warning_cancel_downloads {
+  key = 'CREATIVE_CLOUD_CONNECTOR_CACHE_CANCEL_DOWNLOAD_WARNING_CANCEL_DOWNLOADS'
   group = 'Creative Cloud Connector'
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
@@ -5950,8 +5950,8 @@ resource configservice_label cache_cancel_download_warning_cancel_downloads {
   ]
 }
 
-resource configservice_label cache_cancel_download_warning_are_you_sure_you_want_to_cancel_your_remaining_downloads {
-  key = 'CACHE_CANCEL_DOWNLOAD_WARNING_ARE_YOU_SURE_YOU_WANT_TO_CANCEL_YOUR_REMAINING_DOWNLOADS'
+resource configservice_label creative_cloud_connector_cache_cancel_download_warning_are_you_sure_you_want_to_cancel_your_remaining_downloads {
+  key = 'CREATIVE_CLOUD_CONNECTOR_CACHE_CANCEL_DOWNLOAD_WARNING_ARE_YOU_SURE_YOU_WANT_TO_CANCEL_YOUR_REMAINING_DOWNLOADS'
   group = 'Creative Cloud Connector'
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
@@ -5966,8 +5966,8 @@ resource configservice_label cache_cancel_download_warning_are_you_sure_you_want
   ]
 }
 
-resource configservice_label cache_cancel_download_warning_yes {
-  key = 'CACHE_CANCEL_DOWNLOAD_WARNING_YES'
+resource configservice_label creative_cloud_connector_cache_cancel_download_warning_yes {
+  key = 'CREATIVE_CLOUD_CONNECTOR_CACHE_CANCEL_DOWNLOAD_WARNING_YES'
   group = 'Creative Cloud Connector'
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
@@ -5982,8 +5982,8 @@ resource configservice_label cache_cancel_download_warning_yes {
   ]
 }
 
-resource configservice_label cache_cancel_download_warning_no {
-  key = 'CACHE_CANCEL_DOWNLOAD_WARNING_NO'
+resource configservice_label creative_cloud_connector_cache_cancel_download_warning_no {
+  key = 'CREATIVE_CLOUD_CONNECTOR_CACHE_CANCEL_DOWNLOAD_WARNING_NO'
   group = 'Creative Cloud Connector'
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
@@ -5998,8 +5998,8 @@ resource configservice_label cache_cancel_download_warning_no {
   ]
 }
 
-resource configservice_label cache_expanded_download_status_title {
-  key = 'CACHE_EXPANDED_DOWNLOAD_STATUS_TITLE'
+resource configservice_label creative_cloud_connector_cache_expanded_download_status_title {
+  key = 'CREATIVE_CLOUD_CONNECTOR_CACHE_EXPANDED_DOWNLOAD_STATUS_TITLE'
   group = 'Creative Cloud Connector'
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
@@ -6014,8 +6014,8 @@ resource configservice_label cache_expanded_download_status_title {
   ]
 }
 
-resource configservice_label cache_expanded_download_status_cancel {
-  key = 'CACHE_EXPANDED_DOWNLOAD_STATUS_CANCEL'
+resource configservice_label creative_cloud_connector_cache_expanded_download_status_cancel {
+  key = 'CREATIVE_CLOUD_CONNECTOR_CACHE_EXPANDED_DOWNLOAD_STATUS_CANCEL'
   group = 'Creative Cloud Connector'
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
@@ -6030,8 +6030,8 @@ resource configservice_label cache_expanded_download_status_cancel {
   ]
 }
 
-resource configservice_label cache_expanded_download_status_all {
-  key = 'CACHE_EXPANDED_DOWNLOAD_STATUS_ALL'
+resource configservice_label creative_cloud_connector_cache_expanded_download_status_all {
+  key = 'CREATIVE_CLOUD_CONNECTOR_CACHE_EXPANDED_DOWNLOAD_STATUS_ALL'
   group = 'Creative Cloud Connector'
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
@@ -6046,8 +6046,8 @@ resource configservice_label cache_expanded_download_status_all {
   ]
 }
 
-resource configservice_label cache_download_job_item_waiting {
-  key = 'CACHE_DOWNLOAD_JOB_ITEM_WAITING'
+resource configservice_label creative_cloud_connector_cache_download_job_item_waiting {
+  key = 'CREATIVE_CLOUD_CONNECTOR_CACHE_DOWNLOAD_JOB_ITEM_WAITING'
   group = 'Creative Cloud Connector'
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
@@ -6062,8 +6062,8 @@ resource configservice_label cache_download_job_item_waiting {
   ]
 }
 
-resource configservice_label cache_download_job_item_downloading {
-  key = 'CACHE_DOWNLOAD_JOB_ITEM_DOWNLOADING'
+resource configservice_label creative_cloud_connector_cache_download_job_item_downloading {
+  key = 'CREATIVE_CLOUD_CONNECTOR_CACHE_DOWNLOAD_JOB_ITEM_DOWNLOADING'
   group = 'Creative Cloud Connector'
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
@@ -6078,8 +6078,8 @@ resource configservice_label cache_download_job_item_downloading {
   ]
 }
 
-resource configservice_label cache_download_job_item_finished {
-  key = 'CACHE_DOWNLOAD_JOB_ITEM_FINISHED'
+resource configservice_label creative_cloud_connector_cache_download_job_item_finished {
+  key = 'CREATIVE_CLOUD_CONNECTOR_CACHE_DOWNLOAD_JOB_ITEM_FINISHED'
   group = 'Creative Cloud Connector'
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
@@ -6094,8 +6094,8 @@ resource configservice_label cache_download_job_item_finished {
   ]
 }
 
-resource configservice_label cache_download_asset_list_more {
-  key = 'CACHE_DOWNLOAD_ASSET_LIST_MORE
+resource configservice_label creative_cloud_connector_cache_download_asset_list_more {
+  key = 'CREATIVE_CLOUD_CONNECTOR_CACHE_DOWNLOAD_ASSET_LIST_MORE
   group = 'Creative Cloud Connector'
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
@@ -6110,8 +6110,8 @@ resource configservice_label cache_download_asset_list_more {
   ]
 }
 
-resource configservice_label cache_download_asset_list_remove {
-  key = 'CACHE_DOWNLOAD_ASSET_LIST_REMOVE'
+resource configservice_label creative_cloud_connector_cache_download_asset_list_remove {
+  key = 'CREATIVE_CLOUD_CONNECTOR_CACHE_DOWNLOAD_ASSET_LIST_REMOVE'
   group = 'Creative Cloud Connector'
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
