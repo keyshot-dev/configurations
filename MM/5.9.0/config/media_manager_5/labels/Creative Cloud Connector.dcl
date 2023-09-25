@@ -5960,7 +5960,7 @@ resource configservice_label cache_cancel_download_warning_are_you_sure_you_want
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Er du sikker på at du vil annullere dine resterende downloads?'
+      default_translation = 'Er du sikker på, at du vil annullere dine resterende downloads?'
       language_id = data.language.danish.id
     }
   ]
@@ -5972,11 +5972,11 @@ resource configservice_label cache_cancel_download_warning_yes {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Yes'
+      default_translation = 'Cancel downloads'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Ja'
+      default_translation = 'Annulér downloads'
       language_id = data.language.danish.id
     }
   ]
@@ -5988,11 +5988,11 @@ resource configservice_label cache_cancel_download_warning_no {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'No'
+      default_translation = 'Continue downloading'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Nej'
+      default_translation = 'Fortsæt med at downloade'
       language_id = data.language.danish.id
     }
   ]
