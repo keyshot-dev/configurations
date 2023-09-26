@@ -1006,6 +1006,22 @@ resource configservice_label preview_asset_options_asset_options_video_index {
   ]
 }
 
+resource configservice_label preview_asset_refresh_metadata {
+  key = 'PREVIEW_ASSET_REFRESH_METADATA'
+  group = 'Preview Asset'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Refresh metadata'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Genindlæs metadata'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label preview_add_comment_tag_asset {
   key = 'PREVIEW_ADD_COMMENT_TAG_ASSET'
   group = 'Preview Asset'
