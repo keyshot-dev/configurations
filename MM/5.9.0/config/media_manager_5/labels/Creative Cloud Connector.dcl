@@ -6095,7 +6095,7 @@ resource configservice_label creative_cloud_connector_cache_download_job_item_fi
 }
 
 resource configservice_label creative_cloud_connector_cache_download_asset_list_more {
-  key = 'CREATIVE_CLOUD_CONNECTOR_CACHE_DOWNLOAD_ASSET_LIST_MORE
+  key = 'CREATIVE_CLOUD_CONNECTOR_CACHE_DOWNLOAD_ASSET_LIST_MORE'
   group = 'Creative Cloud Connector'
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
