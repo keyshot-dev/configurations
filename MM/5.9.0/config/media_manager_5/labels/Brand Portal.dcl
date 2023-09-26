@@ -856,7 +856,7 @@ resource configservice_label brand_portal_settings_hero_banner_remove_image {
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Remove image'
+      default_translation = 'Fjern billede'
       language_id = data.language.danish.id
     }
   ]
