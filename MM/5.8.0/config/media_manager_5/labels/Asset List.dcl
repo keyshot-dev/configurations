@@ -1748,11 +1748,11 @@ resource configservice_label asset_list_filter_property_title {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = '{property, select, assetId {Asset ID} itemId {Item ID} originalFileName {Original file name} assetType {Asset type} derivedFrom {Parent asset} replacedWith {Show old versions of} extension {Extension} uploader {Upload user} uploadComputer {Upload product} channelFolder {Channel folder} uploadDate {Upload date} fileSize {Original file size} lastChangedDate {Last updated} width {Pixel width} height {Pixel height} duration {Duration} deleted {Deleted} favoriteByMemberId {Favorited by user}}'
+      default_translation = '{property, select, assetId {Asset ID} itemId {Item ID} originalFileName {Original file name} assetType {Asset type} derivedFrom {Parent asset} replacedWith {Show old versions of} extension {Extension} uploader {Upload user} uploadComputer {Upload product} channelFolder {Channel folder} uploadDate {Upload date} fileSize {Original file size} lastChangedDate {Last updated} width {Pixel width} height {Pixel height} duration {Duration} deleted {Deleted} deletedDate {Deleted date} sha1Hash {SHA1 hash} md5Hash {MD5 Hash} favoriteByMemberId {Favorited by user}}'
       language_id = data.language.english.id
     },
     {
-      default_translation = '{property, select, assetId {Asset-ID} itemId {Item-ID} originalFileName {Oprindeligt filnavn} assetType {Assettype} derivedFrom {Forælder-asset} replacedWith {Vis gamle versioner af} extension {Filendelse} uploader {Upload-bruger} uploadComputer {Upload-produkt} channelFolder {Kanalmappe} uploadDate {Uploaddato} fileSize {Oprindelig filstørrelse} lastChangedDate {Sidst opdateret} width {Pixel-bredde} height {Pixel-højde} duration {Varighed} deleted {Slettet} favoriteByMemberId {Brugers favorit}}'
+      default_translation = '{property, select, assetId {Asset-ID} itemId {Item-ID} originalFileName {Oprindeligt filnavn} assetType {Assettype} derivedFrom {Forælder-asset} replacedWith {Vis gamle versioner af} extension {Filendelse} uploader {Upload-bruger} uploadComputer {Upload-produkt} channelFolder {Kanalmappe} uploadDate {Uploaddato} fileSize {Oprindelig filstørrelse} lastChangedDate {Sidst opdateret} width {Pixel-bredde} height {Pixel-højde} duration {Varighed} deleted {Slettet} deletedDate {Dato for sletning} sha1Hash {SHA1 hash} md5Hash {MD5 Hash} favoriteByMemberId {Brugers favorit}}'
       language_id = data.language.danish.id
     }
   ]
