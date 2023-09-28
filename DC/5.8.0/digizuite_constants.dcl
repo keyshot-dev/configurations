@@ -262,7 +262,7 @@ resource digizuite_config folderupdate_debounce_time {
 
 resource digizuite_config icc_profile_local_folder {
     constant = 'ICC_PROFILE_LOCAL_FOLDER'
-    config_value = "${variable.storage_path}\\dmm\\iccprofiles"
+    config_value = "/home/dmm/Profiles/icc"
     description = 'ICC Profile local folder'
 	autolink {
 		constant = 'ICC_PROFILE_LOCAL_FOLDER'
