@@ -333,22 +333,6 @@ resource configservice_label asset_list_filters_default_facet_count_menu {
   ]
 }
 
-resource configservice_label asset_list_filters_configuration_tooltip {
-  key = 'ASSET_LIST_FILTERS_CONFIGURATION_TOOLTIP'
-  group = 'Filters'
-  product_id = resource.configservice_product.media_manager_5.id
-  default_label_values = [
-    {
-      default_translation = 'Customize and reorder'
-      language_id = data.language.english.id
-    },
-    {
-      default_translation = 'Tilpas og omarrangér'
-      language_id = data.language.danish.id
-    }
-  ]
-}
-
 resource configservice_label asset_list_filters_reset_to_default_tooltip {
   key = 'ASSET_LIST_FILTERS_RESET_TO_DEFAULT_TOOLTIP'
   group = 'Filters'
@@ -541,4 +525,51 @@ resource configservice_label asset_list_filters_configuration_reset_button {
   ]
 }
 
+resource configservice_label asset_list_filters_expand_option {
+  key = 'ASSET_LIST_FILTERS_EXPAND_OPTION'
+  group = 'Filters'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Expand all'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Udvid alle'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_list_filters_collapse_option {
+  key = 'ASSET_LIST_FILTERS_COLLAPSE_OPTION'
+  group = 'Filters'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Collapse all'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Kollaps alle'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_list_filters_configuration_option {
+  key = 'ASSET_LIST_FILTERS_CONFIGURATION_OPTION'
+  group = 'Filters'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Customize and reorder'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Tilpas og omarrangér'
+      language_id = data.language.danish.id
+    }
+  ]
+}
 
