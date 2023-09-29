@@ -5718,22 +5718,6 @@ resource configservice_label settings_import_config_editor_destination_directory
   ]
 }
 
-resource configservice_label settings_import_config_editor_destination_directory_success_tooltip {
-  key = 'SETTINGS_IMPORT_CONFIG_EDITOR_DESTINATION_DIRECTORY_SUCCESS_TOOLTIP'
-  group = 'Settings'
-  product_id = resource.configservice_product.media_manager_5.id
-  default_label_values = [
-    {
-      default_translation = 'The directory where successful files are moved to'
-      language_id = data.language.english.id
-    },
-    {
-      default_translation = 'Den mappe, hvor vellykkede filer flyttes til'
-      language_id = data.language.danish.id
-    }
-  ]
-}
-
 resource configservice_label settings_import_config_editor_move {
   key = 'SETTINGS_IMPORT_CONFIG_EDITOR_MOVE'
   group = 'Settings'
