@@ -333,22 +333,6 @@ resource configservice_label asset_list_filters_default_facet_count_menu {
   ]
 }
 
-resource configservice_label asset_list_filters_configuration_tooltip {
-  key = 'ASSET_LIST_FILTERS_CONFIGURATION_TOOLTIP'
-  group = 'Filters'
-  product_id = resource.configservice_product.media_manager_5.id
-  default_label_values = [
-    {
-      default_translation = 'Customize and reorder'
-      language_id = data.language.english.id
-    },
-    {
-      default_translation = 'Tilpas og omarrangér'
-      language_id = data.language.danish.id
-    }
-  ]
-}
-
 resource configservice_label asset_list_filters_reset_to_default_tooltip {
   key = 'ASSET_LIST_FILTERS_RESET_TO_DEFAULT_TOOLTIP'
   group = 'Filters'
@@ -583,7 +567,7 @@ resource configservice_label asset_list_filters_configuration_option {
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Customize and reorder'
+      default_translation = 'Tilpas og omarrangér'
       language_id = data.language.danish.id
     }
   ]
