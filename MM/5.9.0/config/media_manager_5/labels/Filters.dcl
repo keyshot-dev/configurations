@@ -573,3 +573,19 @@ resource configservice_label asset_list_filters_collapse_option {
   ]
 }
 
+resource configservice_label asset_list_filters_configuration_option {
+  key = 'ASSET_LIST_FILTERS_CONFIGURATION_OPTION'
+  group = 'Filters'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Customize and reorder'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Customize and reorder'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
