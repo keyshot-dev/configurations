@@ -5814,38 +5814,6 @@ resource configservice_label settings_import_config_editor_failure_action_toolti
   ]
 }
 
-resource configservice_label settings_import_config_editor_success_action {
-  key = 'SETTINGS_IMPORT_CONFIG_EDITOR_SUCCESS_ACTION'
-  group = 'Settings'
-  product_id = resource.configservice_product.media_manager_5.id
-  default_label_values = [
-    {
-      default_translation = 'Success action'
-      language_id = data.language.english.id
-    },
-    {
-      default_translation = 'Handling ved vellykket import'
-      language_id = data.language.danish.id
-    }
-  ]
-}
-
-resource configservice_label settings_import_config_editor_success_action_tooltip {
-  key = 'SETTINGS_IMPORT_CONFIG_EDITOR_SUCCESS_ACTION_TOOLTIP'
-  group = 'Settings'
-  product_id = resource.configservice_product.media_manager_5.id
-  default_label_values = [
-    {
-      default_translation = 'What happens to the file when it has was successfully imported.'
-      language_id = data.language.english.id
-    },
-    {
-      default_translation = 'Hvad der sker med filen, når den er blevet importeret.'
-      language_id = data.language.danish.id
-    }
-  ]
-}
-
 resource configservice_label settings_import_config_editor_stamp_field {
   key = 'SETTINGS_IMPORT_CONFIG_EDITOR_STAMP_FIELD'
   group = 'Settings'
