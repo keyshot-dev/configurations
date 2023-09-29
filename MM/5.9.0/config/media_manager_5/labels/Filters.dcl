@@ -535,7 +535,7 @@ resource configservice_label asset_list_filters_expand_option {
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Expand all'
+      default_translation = 'Udvid alle'
       language_id = data.language.danish.id
     }
   ]
@@ -551,7 +551,7 @@ resource configservice_label asset_list_filters_collapse_option {
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Collapse all'
+      default_translation = 'Kollaps alle'
       language_id = data.language.danish.id
     }
   ]
