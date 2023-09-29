@@ -5718,22 +5718,6 @@ resource configservice_label settings_import_config_editor_destination_directory
   ]
 }
 
-resource configservice_label settings_import_config_editor_destination_directory_success_tooltip {
-  key = 'SETTINGS_IMPORT_CONFIG_EDITOR_DESTINATION_DIRECTORY_SUCCESS_TOOLTIP'
-  group = 'Settings'
-  product_id = resource.configservice_product.media_manager_5.id
-  default_label_values = [
-    {
-      default_translation = 'The directory where successful files are moved to'
-      language_id = data.language.english.id
-    },
-    {
-      default_translation = 'Den mappe, hvor vellykkede filer flyttes til'
-      language_id = data.language.danish.id
-    }
-  ]
-}
-
 resource configservice_label settings_import_config_editor_move {
   key = 'SETTINGS_IMPORT_CONFIG_EDITOR_MOVE'
   group = 'Settings'
@@ -5809,38 +5793,6 @@ resource configservice_label settings_import_config_editor_failure_action_toolti
     },
     {
       default_translation = 'Hvad der sker med filen, når importeringen mislykkes'
-      language_id = data.language.danish.id
-    }
-  ]
-}
-
-resource configservice_label settings_import_config_editor_success_action {
-  key = 'SETTINGS_IMPORT_CONFIG_EDITOR_SUCCESS_ACTION'
-  group = 'Settings'
-  product_id = resource.configservice_product.media_manager_5.id
-  default_label_values = [
-    {
-      default_translation = 'Success action'
-      language_id = data.language.english.id
-    },
-    {
-      default_translation = 'Handling ved vellykket import'
-      language_id = data.language.danish.id
-    }
-  ]
-}
-
-resource configservice_label settings_import_config_editor_success_action_tooltip {
-  key = 'SETTINGS_IMPORT_CONFIG_EDITOR_SUCCESS_ACTION_TOOLTIP'
-  group = 'Settings'
-  product_id = resource.configservice_product.media_manager_5.id
-  default_label_values = [
-    {
-      default_translation = 'What happens to the file when it has was successfully imported.'
-      language_id = data.language.english.id
-    },
-    {
-      default_translation = 'Hvad der sker med filen, når den er blevet importeret.'
       language_id = data.language.danish.id
     }
   ]
