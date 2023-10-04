@@ -5534,6 +5534,55 @@ resource configservice_label settings_import_config_editor_uploader_member_id_to
   ]
 }
 
+
+resource configservice_label settings_import_config_editor_uploader_language_id {
+  key = 'SETTINGS_IMPORT_CONFIG_EDITOR_UPLOADER_LANGUAGE_ID'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Uploader\'s language'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Uploaders sprog'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_import_config_editor_uploader_language_id_tooltip {
+  key = 'SETTINGS_IMPORT_CONFIG_EDITOR_UPLOADER_LANGUAGE_ID_TOOLTIP'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'The language that will be used when importing metadata.'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Sproget der vil blive brugt under import af metadata.'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_import_config_editor_uploader_language_id_default {
+  key = 'SETTINGS_IMPORT_CONFIG_EDITOR_UPLOADER_LANGUAGE_ID_DEFAULT'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Default for user'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Standard for bruger'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label settings_import_config_editor_invariant {
   key = 'SETTINGS_IMPORT_CONFIG_EDITOR_INVARIANT'
   group = 'Settings'
