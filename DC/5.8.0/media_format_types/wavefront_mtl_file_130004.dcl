@@ -1,7 +1,7 @@
 resource media_format_type wavefront_mtl_file_130004 {
     media_format_type_id = 130004
     name = 'Wavefront mtl file'
-    asset_type = 'Archive'
+    asset_type = 'Cad'
     can_be_source = true
     can_be_target = true
     can_be_manual = true
