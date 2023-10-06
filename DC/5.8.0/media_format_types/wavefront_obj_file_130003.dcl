@@ -1,7 +1,7 @@
 resource media_format_type wavefront_obj_file_130003 {
     media_format_type_id = 130003
     name = 'Wavefront obj file'
-    asset_type = 'Archive'
+    asset_type = 'Cad'
     can_be_source = true
     can_be_target = true
     can_be_manual = true
