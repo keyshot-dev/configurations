@@ -1,4 +1,5 @@
 resource media_format_type filmbox_fbx_190009 {
+    media_format_type_id = 190009
     name = 'Filmbox (fbx)'
     asset_type = 'Cad'
     can_be_source = true

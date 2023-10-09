@@ -1,4 +1,5 @@
 resource media_format_type cinema_4d_c4d_190012 {
+    media_format_type_id = 190012
     name = 'Cinema 4d (c4d)'
     asset_type = 'Cad'
     can_be_source = true
