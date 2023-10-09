@@ -1,6 +1,6 @@
 resource media_format waveform_obj_file_50027 {
     folder_id = resource.media_format_folder.source_formats.id
-    format_type_id = resource.media_format_type.wavefront_obj_file_130003.media_format_type_id
+    format_type_id = resource.media_format_type.cad_container_130000.media_format_type_id
     name = 'Waveform obj file'
     description = ''
     width = 0

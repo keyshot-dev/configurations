@@ -1,6 +1,6 @@
 resource media_format waveform_mtl_file_50028 {
     folder_id = resource.media_format_folder.source_formats.id
-    format_type_id = resource.media_format_type.wavefront_mtl_file_130004.media_format_type_id
+    format_type_id = resource.media_format_type.cad_container_130000.media_format_type_id
     name = 'Waveform mtl file'
     description = ''
     width = 0

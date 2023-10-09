@@ -1,6 +1,6 @@
 resource media_format filmbox_fbx_50091 {
     folder_id = resource.media_format_folder.source_formats.id
-    format_type_id = resource.media_format_type.filmbox_fbx_190009.media_format_type_id
+    format_type_id = resource.media_format_type.cad_container_130000.media_format_type_id
     name = 'Filmbox (fbx)'
     description = ''
     width = 0

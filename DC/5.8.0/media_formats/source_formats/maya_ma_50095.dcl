@@ -1,6 +1,6 @@
 resource media_format maya_ma_50095 {
     folder_id = resource.media_format_folder.source_formats.id
-    format_type_id = resource.media_format_type.maya_ma_190013.media_format_type_id
+    format_type_id = resource.media_format_type.cad_container_130000.media_format_type_id
     name = 'Maya (ma)'
     description = ''
     width = 0

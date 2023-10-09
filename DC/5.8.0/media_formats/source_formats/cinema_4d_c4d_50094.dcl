@@ -1,6 +1,6 @@
 resource media_format cinema_4d_c4d_50094 {
     folder_id = resource.media_format_folder.source_formats.id
-    format_type_id = resource.media_format_type.cinema_4d_c4d_190012.media_format_type_id
+    format_type_id = resource.media_format_type.cad_container_130000.media_format_type_id
     name = 'Cinema 4d (c4d)'
     description = ''
     width = 0

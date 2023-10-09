@@ -1,6 +1,6 @@
 resource media_format keyshot_package_ksp_50093 {
     folder_id = resource.media_format_folder.source_formats.id
-    format_type_id = resource.media_format_type.keyshot_package_ksp_190011.media_format_type_id
+    format_type_id = resource.media_format_type.cad_container_130000.media_format_type_id
     name = 'KeyShot Package (ksp)'
     description = ''
     width = 0

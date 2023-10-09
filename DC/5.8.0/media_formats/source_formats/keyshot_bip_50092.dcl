@@ -1,6 +1,6 @@
 resource media_format keyshot_bip_50092 {
     folder_id = resource.media_format_folder.source_formats.id
-    format_type_id = resource.media_format_type.keyshot_bip_190010.media_format_type_id
+    format_type_id = resource.media_format_type.cad_container_130000.media_format_type_id
     name = 'KeyShot (bip)'
     description = ''
     width = 0
