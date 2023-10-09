@@ -1,5 +1,4 @@
 resource media_format_type keyshot_bip_190010 {
-    media_format_type_id = 190010
     name = 'KeyShot (bip)'
     asset_type = 'Cad'
     can_be_source = true

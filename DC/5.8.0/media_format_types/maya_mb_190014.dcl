@@ -1,5 +1,4 @@
 resource media_format_type maya_mb_190014 {
-    media_format_type_id = 190014
     name = 'Maya (mb)'
     asset_type = 'Cad'
     can_be_source = true

@@ -1,5 +1,4 @@
 resource media_format_type keyshot_package_ksp_190011 {
-    media_format_type_id = 190011
     name = 'KeyShot Package (ksp)'
     asset_type = 'Cad'
     can_be_source = true
