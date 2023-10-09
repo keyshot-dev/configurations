@@ -3710,6 +3710,22 @@ resource configservice_label creative_cloud_connector_invalid_cache_dialog_descr
   ]
 }
 
+resource configservice_label creative_cloud_connector_invalid_cache_outdated_dialog_description {
+  key = 'CREATIVE_CLOUD_CONNECTOR_INVALID_CACHE_OUTDATED_DIALOG_DESCRIPTION'
+  group = 'Creative Cloud Connector'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Your cache is not up to date. To continue working with the product, please clear your cache.'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Din cache er ikke opdateret. Ryd din cache for at fortsætte med at arbejde med produktet.'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label creative_cloud_connector_invalid_cache_dialog_sub_description {
   key = 'CREATIVE_CLOUD_CONNECTOR_INVALID_CACHE_DIALOG_SUB_DESCRIPTION'
   group = 'Creative Cloud Connector'
