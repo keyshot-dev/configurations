@@ -40,6 +40,7 @@ resource media_format waveform_obj_file_50027 {
     output_quality = 0
     icc_profile = ''
     download_replace_mask = ''
+    video_profile_xml = ''
     autolink = {
         item_guid = '74952fda-f1a7-418c-94c1-5ab80220ae27'
     }

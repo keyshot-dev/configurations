@@ -40,6 +40,7 @@ resource media_format waveform_mtl_file_50028 {
     output_quality = 0
     icc_profile = ''
     download_replace_mask = ''
+    video_profile_xml = ''
     autolink = {
         item_guid = 'f40ad61d-8bb5-487e-83bc-27da16e48e76'
     }
