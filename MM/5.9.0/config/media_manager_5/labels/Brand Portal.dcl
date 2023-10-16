@@ -414,6 +414,70 @@ resource configservice_label settings_brand_portal_edit_layout {
   ]
 }
 
+resource configservice_label settings_brand_portal_edit_layout_section_portal {
+  key = 'SETTINGS_BRAND_PORTAL_EDIT_LAYOUT_SECTION_PORTAL'
+  group = 'Brand Portal'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Portal style'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Portal style'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_brand_portal_edit_layout_section_banner {
+  key = 'SETTINGS_BRAND_PORTAL_EDIT_LAYOUT_SECTION_BANNER'
+  group = 'Brand Portal'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Hero banner'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Hero banner'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_brand_portal_edit_layout_section_folders {
+  key = 'SETTINGS_BRAND_PORTAL_EDIT_LAYOUT_SECTION_FOLDERS'
+  group = 'Brand Portal'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Folders'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Mapper'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_brand_portal_edit_layout_section_general {
+  key = 'SETTINGS_BRAND_PORTAL_EDIT_LAYOUT_SECTION_GENERAL'
+  group = 'Brand Portal'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'General'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'General'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label settings_brand_portal_edit_layout_show_assets {
   key = 'SETTINGS_BRAND_PORTAL_EDIT_LAYOUT_SHOW_ASSETS'
   group = 'Brand Portal'
@@ -452,11 +516,11 @@ resource configservice_label settings_brand_portal_edit_layout_cover_layout_on_f
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Cover layout on folders'
+      default_translation = 'Cover layout'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Cover-layout på mapper'
+      default_translation = 'Cover-layout'
       language_id = data.language.danish.id
     }
   ]
@@ -468,11 +532,75 @@ resource configservice_label settings_brand_portal_edit_layout_hide_folder_title
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Hide folder titles'
+      default_translation = 'Folder titles on hover only'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Skjul mappetitler'
+      default_translation = 'Mappetitler kun ved hover'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label brand_portal_settings_folders_custom_colors {
+  key = 'BRAND_PORTAL_SETTINGS_FOLDERS_CUSTOM_COLORS'
+  group = 'Brand Portal'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Use custom colors'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Brug brugerdefinerede farver'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label brand_portal_settings_folders_text_color {
+  key = 'BRAND_PORTAL_SETTINGS_FOLDERS_TEXT_COLOR'
+  group = 'Brand Portal'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Text color'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Tekstfarve'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label brand_portal_settings_folders_text_bg_color {
+  key = 'BRAND_PORTAL_SETTINGS_FOLDERS_TEXT_BG_COLOR'
+  group = 'Brand Portal'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Text background color'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Tekst-baggrundsfarve'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label brand_portal_settings_folders_text_shadow {
+  key = 'BRAND_PORTAL_SETTINGS_FOLDERS_TEXT_SHADOW'
+  group = 'Brand Portal'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Hide text shadow'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Skjul tekst skygge'
       language_id = data.language.danish.id
     }
   ]
