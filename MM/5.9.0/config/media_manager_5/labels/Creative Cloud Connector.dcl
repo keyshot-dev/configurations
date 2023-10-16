@@ -3406,6 +3406,22 @@ resource configservice_label office_connector_insert_asset_document_cannot_be_op
   ]
 }
 
+resource configservice_label creative_cloud_connector_insert_asset_no_active_document {
+  key = 'CREATIVE_CLOUD_CONNECTOR_INSERT_ASSET_NO_ACTIVE_DOCUMENT'
+  group = 'Creative Cloud Connector'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Please save the active document to insert the asset'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Gem venligst det aktive dokument for at indsætte assettet'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label creative_cloud_connector_insert_asset_invalid_asset_type {
   key = 'CREATIVE_CLOUD_CONNECTOR_INSERT_ASSET_INVALID_ASSET_TYPE'
   group = 'Creative Cloud Connector'
