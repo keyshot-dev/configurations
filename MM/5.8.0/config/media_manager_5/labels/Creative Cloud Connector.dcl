@@ -3326,6 +3326,22 @@ resource configservice_label creative_cloud_connector_place_asset_btn {
   ]
 }
 
+resource configservice_label creative_cloud_connector_open_asset_as_document_btn {
+  key = 'CREATIVE_CLOUD_CONNECTOR_OPEN_ASSET_AS_DOCUMENT_BTN'
+  group = 'Creative Cloud Connector'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Open as document'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Åben som dokument'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label creative_cloud_connector_open_asset_btn {
   key = 'CREATIVE_CLOUD_CONNECTOR_OPEN_ASSET_BTN'
   group = 'Creative Cloud Connector'
