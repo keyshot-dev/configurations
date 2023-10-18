@@ -62,6 +62,22 @@ resource configservice_label change_site_dialog_sub_description {
   ]
 }
 
+resource configservice_label change_site_dialog_extra_description {
+  key = 'CHANGE_SITE_DIALOG_EXTRA_DESCRIPTION'
+  group = 'Creative Cloud Connector'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Please restart {applicationId, select, AEFT {After Effects} IDSN {InDesign} ILST {Illustrator} PHXS {Photoshop} PHSP {Photoshop} PPRO {Premiere Pro}} for the change to take effect.'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Genstart venligst Please restart {applicationId, select, AEFT {After Effects} IDSN {InDesign} ILST {Illustrator} PHXS {Photoshop} PHSP {Photoshop} PPRO {Premiere Pro}} for at ændringen træder i kraft.'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label change_site_dialog_cancel {
   key = 'CHANGE_SITE_DIALOG_CANCEL'
   group = 'Creative Cloud Connector'
