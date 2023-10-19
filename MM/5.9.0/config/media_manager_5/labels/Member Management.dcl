@@ -244,11 +244,11 @@ resource configservice_label member_management_more_popup_instantiate_business_w
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Init workflow'
+      default_translation = 'Instantiate workflow'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Init workflow'
+      default_translation = 'Instantér workflow'
       language_id = data.language.danish.id
     }
   ]

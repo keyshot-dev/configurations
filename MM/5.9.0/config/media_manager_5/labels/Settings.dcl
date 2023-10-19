@@ -3780,11 +3780,11 @@ resource configservice_label asset_card_settings_filter_action_instantiate_busin
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Init workflow'
+      default_translation = 'Instantiate workflow'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Init workflow'
+      default_translation = 'Instantér workflow'
       language_id = data.language.danish.id
     }
   ]
