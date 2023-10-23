@@ -452,7 +452,7 @@ resource configservice_label selected_assets_overlay_options_instantiate_busines
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Instantiate workflow'
+      default_translation = 'Start workflow'
       language_id = data.language.english.id
     },
     {
