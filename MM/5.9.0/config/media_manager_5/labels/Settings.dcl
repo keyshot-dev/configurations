@@ -3784,7 +3784,7 @@ resource configservice_label asset_card_settings_filter_action_instantiate_busin
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Instantér workflow'
+      default_translation = 'Start workflow'
       language_id = data.language.danish.id
     }
   ]
