@@ -248,7 +248,7 @@ resource configservice_label member_management_more_popup_instantiate_business_w
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Instantér workflow'
+      default_translation = 'Start workflow'
       language_id = data.language.danish.id
     }
   ]
