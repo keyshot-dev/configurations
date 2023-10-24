@@ -94,6 +94,22 @@ resource configservice_label audit_trail_filter_title_asset {
   ]
 }
 
+resource configservice_label audit_trail_filter_title_metafield {
+  key = 'AUDIT_TRAIL_FILTER_TITLE_METAFIELD'
+  group = 'Audit Trail'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Metafields'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Metafelter'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label audit_trail_column_date {
   key = 'AUDIT_TRAIL_COLUMN_DATE'
   group = 'Audit Trail'
