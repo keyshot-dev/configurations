@@ -1599,6 +1599,22 @@ resource configservice_label job_status_job_status_filter_meta_field_filter_titl
   ]
 }
 
+resource configservice_label job_status_job_status_filter_job_kind {
+  key = 'JOB_STATUS_JOB_STATUS_FILTER_JOB_KIND'
+  group = 'Workflow Management'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Name'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Navn'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label job_status_job_status_details_dialog_affected_assets {
   key = 'JOB_STATUS_JOB_STATUS_DETAILS_DIALOG_AFFECTED_ASSETS'
   group = 'Workflow Management'
