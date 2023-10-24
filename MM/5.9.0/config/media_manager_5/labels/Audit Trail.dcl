@@ -104,7 +104,7 @@ resource configservice_label audit_trail_filter_title_metafield {
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Metafields'
+      default_translation = 'Metafelter'
       language_id = data.language.danish.id
     }
   ]
