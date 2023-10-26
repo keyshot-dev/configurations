@@ -72,7 +72,7 @@ resource configservice_label change_site_dialog_extra_description {
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Genstart venligst Please restart {applicationId, select, AEFT {After Effects} IDSN {InDesign} ILST {Illustrator} PHXS {Photoshop} PHSP {Photoshop} PPRO {Premiere Pro}} for at ændringen træder i kraft.'
+      default_translation = 'Genstart venligst {applicationId, select, AEFT {After Effects} IDSN {InDesign} ILST {Illustrator} PHXS {Photoshop} PHSP {Photoshop} PPRO {Premiere Pro}} for at ændringen træder i kraft.'
       language_id = data.language.danish.id
     }
   ]
