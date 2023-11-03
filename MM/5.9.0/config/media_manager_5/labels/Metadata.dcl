@@ -1902,6 +1902,38 @@ resource configservice_label multi_metadata_editor_show_group_navigation_no_menu
   ]
 }
 
+resource configservice_label multi_metadata_editor_language_option_all {
+  key = 'MULTI_METADATA_EDITOR_LANGUAGE_OPTION_ALL'
+  group = 'Metadata'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'All'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Alle'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label multi_metadata_editor_languages_title {
+  key = 'MULTI_METADATA_EDITOR_LANGUAGES_TITLE'
+  group = 'Metadata'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Languages'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Sprog'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label multi_metadata_editor_no_results {
   key = 'MULTI_METADATA_EDITOR_NO_RESULTS'
   group = 'Metadata'
