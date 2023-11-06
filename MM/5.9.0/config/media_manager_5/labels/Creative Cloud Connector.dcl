@@ -3374,6 +3374,54 @@ resource configservice_label creative_cloud_connector_place_asset_btn {
   ]
 }
 
+resource configservice_label creative_cloud_connector_open_document_btn {
+  key = 'CREATIVE_CLOUD_CONNECTOR_OPEN_DOCUMENT_BTN'
+  group = 'Creative Cloud Connector'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Open document'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Åben dokumentet'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label creative_cloud_connector_place_document_in_document_btn {
+  key = 'CREATIVE_CLOUD_CONNECTOR_PLACE_DOCUMENT_IN_DOCUMENT_BTN'
+  group = 'Creative Cloud Connector'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Place in document'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Placer i dokumentet'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label creative_cloud_connector_place_as_linked_btn {
+  key = 'CREATIVE_CLOUD_CONNECTOR_PLACE_AS_LINKED_BTN'
+  group = 'Creative Cloud Connector'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Place as linked'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Placer som linket'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label creative_cloud_connector_open_asset_as_document_btn {
   key = 'CREATIVE_CLOUD_CONNECTOR_OPEN_ASSET_AS_DOCUMENT_BTN'
   group = 'Creative Cloud Connector'
