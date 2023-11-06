@@ -3390,8 +3390,8 @@ resource configservice_label creative_cloud_connector_open_document_btn {
   ]
 }
 
-resource configservice_label creative_cloud_connector_place_document_in_document_btn {
-  key = 'CREATIVE_CLOUD_CONNECTOR_PLACE_DOCUMENT_IN_DOCUMENT_BTN'
+resource configservice_label creative_cloud_connector_place_asset_in_document_btn {
+  key = 'CREATIVE_CLOUD_CONNECTOR_PLACE_ASSET_IN_DOCUMENT_BTN'
   group = 'Creative Cloud Connector'
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
