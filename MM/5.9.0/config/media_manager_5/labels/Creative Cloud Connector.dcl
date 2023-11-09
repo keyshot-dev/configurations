@@ -3384,7 +3384,7 @@ resource configservice_label creative_cloud_connector_open_document_btn {
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Åben dokumentet'
+      default_translation = 'Åbn dokumentet'
       language_id = data.language.danish.id
     }
   ]
