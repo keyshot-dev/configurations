@@ -622,6 +622,38 @@ resource configservice_label asset_list_more_popup_share {
   ]
 }
 
+resource configservice_label asset_list_more_popup_share_asset {
+  key = 'ASSET_LIST_MORE_POPUP_SHARE_ASSET'
+  group = 'Asset List'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Share asset'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Del asset'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_list_more_popup_share_asset_overview {
+  key = 'ASSET_LIST_MORE_POPUP_SHARE_ASSET_OVERVIEW'
+  group = 'Asset List'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Overview of shares'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Delingoversigt'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label asset_list_more_popup_asset_info {
   key = 'ASSET_LIST_MORE_POPUP_ASSET_INFO'
   group = 'Asset List'
