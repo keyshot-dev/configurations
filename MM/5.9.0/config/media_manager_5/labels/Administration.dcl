@@ -2606,3 +2606,373 @@ resource configservice_label rabbit_details_messages_purge_messages_purge_dialog
   ]
 }
 
+resource configservice_label administration_tools_dashboard_tool_delete {
+  key = 'ADMINISTRATION_TOOLS_DASHBOARD_TOOL_DELETE'
+  group = 'administration-tools - dashboard-tool
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Delete'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Slet'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_dashboard_tool_close {
+  key = 'ADMINISTRATION_TOOLS_DASHBOARD_TOOL_CLOSE'
+  group = 'administration-tools - dashboard-tool
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Close'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Luk'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_dashboard_tool_edit {
+  key = 'ADMINISTRATION_TOOLS_DASHBOARD_TOOL_EDIT'
+  group = 'administration-tools - dashboard-tool
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Edit'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Rediger'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+
+resource configservice_label administration_tools_dashboard_tool_delete_dashboard {
+  key = 'ADMINISTRATION_TOOLS_DASHBOARD_TOOL_DELETE_DASHBOARD'
+  group = 'administration-tools - dashboard-tool
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Delete dashboard'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Slet dashboard'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_dashboard_tool_cancel {
+  key = 'ADMINISTRATION_TOOLS_DASHBOARD_TOOL_CANCEL'
+  group = 'administration-tools - dashboard-tool
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Cancel'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Annuller'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_dashboard_tool_save {
+  key = 'ADMINISTRATION_TOOLS_DASHBOARD_TOOL_SAVE'
+  group = 'administration-tools - dashboard-tool
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Save'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Gem'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_dashboard_tool_add_item {
+  key = 'ADMINISTRATION_TOOLS_DASHBOARD_TOOL_ADD_ITEM'
+  group = 'administration-tools - dashboard-tool
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Add item'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Tilføj element'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_dashboard_tool_add_dashboard {
+  key = 'ADMINISTRATION_TOOLS_DASHBOARD_TOOL_ADD_DASHBOARD'
+  group = 'administration-tools - dashboard-tool
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Add dashboard'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Tilføj dashboard'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_dashboard_tool_generate_member_logins {
+  key = 'ADMINISTRATION_TOOLS_DASHBOARD_TOOL_GENERATE_MEMBER_LOGINS'
+  group = 'administration-tools - dashboard-tool
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Generate member logins'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Lav bruger logins'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_dashboard_tool_generate_asset_downloads {
+  key = 'ADMINISTRATION_TOOLS_DASHBOARD_TOOL_GENERATE_ASSET_DOWNLOADS'
+  group = 'administration-tools - dashboard-tool
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Generate asset downloads'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Lav asset downloads'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_dashboard_tool_unsaved {
+  key = 'ADMINISTRATION_TOOLS_DASHBOARD_TOOL_UNSAVED'
+  group = 'administration-tools - dashboard-tool
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Unsaved'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Ikke gemt'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_dashboard_tool_new {
+  key = 'ADMINISTRATION_TOOLS_DASHBOARD_TOOL_NEW'
+  group = 'administration-tools - dashboard-tool
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'New'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Ny'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_dashboard_block_edit {
+  key = 'ADMINISTRATION_TOOLS_DASHBOARD_BLOCK_EDIT'
+  group = 'administration-tools - dashboard-block
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Edit'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Rediger'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_analytics_block_builder_time_bucket_size {
+  key = 'ADMINISTRATION_TOOLS_ANALYTICS_BLOCK_BUILDER_TIME_BUCKET_SIZE'
+  group = 'administration-tools - analytics-block-builder
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Time bucket size'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Tidsspandsstørrelse'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_analytics_block_builder_end_date {
+  key = 'ADMINISTRATION_TOOLS_ANALYTICS_BLOCK_BUILDER_END_DATE'
+  group = 'administration-tools - analytics-block-builder
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'End date'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Slut dato'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_analytics_block_builder_start_date {
+  key = 'ADMINISTRATION_TOOLS_ANALYTICS_BLOCK_BUILDER_START_DATE'
+  group = 'administration-tools - analytics-block-builder
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Start date'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Start dato'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_analytics_block_builder_edit_asset_filter {
+  key = 'ADMINISTRATION_TOOLS_ANALYTICS_BLOCK_BUILDER_EDIT_ASSET_FILTER'
+  group = 'administration-tools - analytics-block-builder
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Edit asset filter'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Rediger asset filter'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_analytics_block_builder_chart_type {
+  key = 'ADMINISTRATION_TOOLS_ANALYTICS_BLOCK_BUILDER_CHART_TYPE'
+  group = 'administration-tools - analytics-block-builder
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Chart type'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Graf type'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_analytics_block_builder_property_dimensions {
+  key = 'ADMINISTRATION_TOOLS_ANALYTICS_BLOCK_BUILDER_PROPERTY_DIMENSIONS'
+  group = 'administration-tools - analytics-block-builder
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Property dimensions'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Egenskab dimensioner'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_analytics_block_builder_time_dimensions {
+  key = 'ADMINISTRATION_TOOLS_ANALYTICS_BLOCK_BUILDER_TIME_DIMENSIONS'
+  group = 'administration-tools - analytics-block-builder
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Time dimensions'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Tids dimensioner'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_analytics_block_builder_group_by {
+  key = 'ADMINISTRATION_TOOLS_ANALYTICS_BLOCK_BUILDER_GROUP_BY'
+  group = 'administration-tools - analytics-block-builder
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Group by'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Grupper efter'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_analytics_block_builder_statistic {
+  key = 'ADMINISTRATION_TOOLS_ANALYTICS_BLOCK_BUILDER_STATISTIC'
+  group = 'administration-tools - analytics-block-builder
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Statistic'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Statistik'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_analytics_block_builder_title {
+  key = 'ADMINISTRATION_TOOLS_ANALYTICS_BLOCK_BUILDER_TITLE'
+  group = 'administration-tools - analytics-block-builder
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Title'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Titel'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+
