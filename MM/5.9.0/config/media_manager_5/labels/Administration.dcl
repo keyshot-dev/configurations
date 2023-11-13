@@ -2741,11 +2741,11 @@ resource configservice_label administration_tools_dashboard_tool_generate_member
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Generate member logins'
+      default_translation = 'Generate user logins'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Lav bruger logins'
+      default_translation = 'Lav bruger-logins'
       language_id = data.language.danish.id
     }
   ]
@@ -2761,7 +2761,7 @@ resource configservice_label administration_tools_dashboard_tool_generate_asset_
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Lav asset downloads'
+      default_translation = 'Lav asset-downloads'
       language_id = data.language.danish.id
     }
   ]
@@ -2825,7 +2825,7 @@ resource configservice_label administration_tools_analytics_block_builder_time_b
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Tidsspandsstørrelse'
+      default_translation = 'Tids-spands-størrelse'
       language_id = data.language.danish.id
     }
   ]
@@ -2841,7 +2841,7 @@ resource configservice_label administration_tools_analytics_block_builder_end_da
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Slut dato'
+      default_translation = 'Slutdato'
       language_id = data.language.danish.id
     }
   ]
@@ -2857,7 +2857,7 @@ resource configservice_label administration_tools_analytics_block_builder_start_
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Start dato'
+      default_translation = 'Startdato'
       language_id = data.language.danish.id
     }
   ]
@@ -2873,7 +2873,7 @@ resource configservice_label administration_tools_analytics_block_builder_edit_a
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Rediger asset filter'
+      default_translation = 'Rediger assetfilter'
       language_id = data.language.danish.id
     }
   ]
@@ -2889,7 +2889,7 @@ resource configservice_label administration_tools_analytics_block_builder_chart_
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Graf type'
+      default_translation = 'Graftype'
       language_id = data.language.danish.id
     }
   ]
@@ -2905,7 +2905,7 @@ resource configservice_label administration_tools_analytics_block_builder_proper
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Egenskab dimensioner'
+      default_translation = 'Egenskabs-dimensioner'
       language_id = data.language.danish.id
     }
   ]
@@ -2921,7 +2921,7 @@ resource configservice_label administration_tools_analytics_block_builder_time_d
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Tids dimensioner'
+      default_translation = 'Tids-dimensioner'
       language_id = data.language.danish.id
     }
   ]
