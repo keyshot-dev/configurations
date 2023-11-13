@@ -2608,7 +2608,7 @@ resource configservice_label rabbit_details_messages_purge_messages_purge_dialog
 
 resource configservice_label administration_tools_dashboard_tool_delete {
   key = 'ADMINISTRATION_TOOLS_DASHBOARD_TOOL_DELETE'
-  group = 'administration-tools - dashboard-tool
+  group = 'administration-tools - dashboard-tool'
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
@@ -2624,7 +2624,7 @@ resource configservice_label administration_tools_dashboard_tool_delete {
 
 resource configservice_label administration_tools_dashboard_tool_close {
   key = 'ADMINISTRATION_TOOLS_DASHBOARD_TOOL_CLOSE'
-  group = 'administration-tools - dashboard-tool
+  group = 'administration-tools - dashboard-tool'
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
@@ -2640,7 +2640,7 @@ resource configservice_label administration_tools_dashboard_tool_close {
 
 resource configservice_label administration_tools_dashboard_tool_edit {
   key = 'ADMINISTRATION_TOOLS_DASHBOARD_TOOL_EDIT'
-  group = 'administration-tools - dashboard-tool
+  group = 'administration-tools - dashboard-tool'
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
@@ -2657,7 +2657,7 @@ resource configservice_label administration_tools_dashboard_tool_edit {
 
 resource configservice_label administration_tools_dashboard_tool_delete_dashboard {
   key = 'ADMINISTRATION_TOOLS_DASHBOARD_TOOL_DELETE_DASHBOARD'
-  group = 'administration-tools - dashboard-tool
+  group = 'administration-tools - dashboard-tool'
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
@@ -2673,7 +2673,7 @@ resource configservice_label administration_tools_dashboard_tool_delete_dashboar
 
 resource configservice_label administration_tools_dashboard_tool_cancel {
   key = 'ADMINISTRATION_TOOLS_DASHBOARD_TOOL_CANCEL'
-  group = 'administration-tools - dashboard-tool
+  group = 'administration-tools - dashboard-tool'
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
@@ -2689,7 +2689,7 @@ resource configservice_label administration_tools_dashboard_tool_cancel {
 
 resource configservice_label administration_tools_dashboard_tool_save {
   key = 'ADMINISTRATION_TOOLS_DASHBOARD_TOOL_SAVE'
-  group = 'administration-tools - dashboard-tool
+  group = 'administration-tools - dashboard-tool'
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
@@ -2705,7 +2705,7 @@ resource configservice_label administration_tools_dashboard_tool_save {
 
 resource configservice_label administration_tools_dashboard_tool_add_item {
   key = 'ADMINISTRATION_TOOLS_DASHBOARD_TOOL_ADD_ITEM'
-  group = 'administration-tools - dashboard-tool
+  group = 'administration-tools - dashboard-tool'
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
@@ -2721,7 +2721,7 @@ resource configservice_label administration_tools_dashboard_tool_add_item {
 
 resource configservice_label administration_tools_dashboard_tool_add_dashboard {
   key = 'ADMINISTRATION_TOOLS_DASHBOARD_TOOL_ADD_DASHBOARD'
-  group = 'administration-tools - dashboard-tool
+  group = 'administration-tools - dashboard-tool'
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
@@ -2737,7 +2737,7 @@ resource configservice_label administration_tools_dashboard_tool_add_dashboard {
 
 resource configservice_label administration_tools_dashboard_tool_generate_member_logins {
   key = 'ADMINISTRATION_TOOLS_DASHBOARD_TOOL_GENERATE_MEMBER_LOGINS'
-  group = 'administration-tools - dashboard-tool
+  group = 'administration-tools - dashboard-tool'
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
@@ -2753,7 +2753,7 @@ resource configservice_label administration_tools_dashboard_tool_generate_member
 
 resource configservice_label administration_tools_dashboard_tool_generate_asset_downloads {
   key = 'ADMINISTRATION_TOOLS_DASHBOARD_TOOL_GENERATE_ASSET_DOWNLOADS'
-  group = 'administration-tools - dashboard-tool
+  group = 'administration-tools - dashboard-tool'
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
@@ -2769,7 +2769,7 @@ resource configservice_label administration_tools_dashboard_tool_generate_asset_
 
 resource configservice_label administration_tools_dashboard_tool_unsaved {
   key = 'ADMINISTRATION_TOOLS_DASHBOARD_TOOL_UNSAVED'
-  group = 'administration-tools - dashboard-tool
+  group = 'administration-tools - dashboard-tool'
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
@@ -2785,7 +2785,7 @@ resource configservice_label administration_tools_dashboard_tool_unsaved {
 
 resource configservice_label administration_tools_dashboard_tool_new {
   key = 'ADMINISTRATION_TOOLS_DASHBOARD_TOOL_NEW'
-  group = 'administration-tools - dashboard-tool
+  group = 'administration-tools - dashboard-tool'
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
@@ -2801,7 +2801,7 @@ resource configservice_label administration_tools_dashboard_tool_new {
 
 resource configservice_label administration_tools_dashboard_block_edit {
   key = 'ADMINISTRATION_TOOLS_DASHBOARD_BLOCK_EDIT'
-  group = 'administration-tools - dashboard-block
+  group = 'administration-tools - dashboard-block'
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
@@ -2817,7 +2817,7 @@ resource configservice_label administration_tools_dashboard_block_edit {
 
 resource configservice_label administration_tools_analytics_block_builder_time_bucket_size {
   key = 'ADMINISTRATION_TOOLS_ANALYTICS_BLOCK_BUILDER_TIME_BUCKET_SIZE'
-  group = 'administration-tools - analytics-block-builder
+  group = 'administration-tools - analytics-block-builder'
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
@@ -2833,7 +2833,7 @@ resource configservice_label administration_tools_analytics_block_builder_time_b
 
 resource configservice_label administration_tools_analytics_block_builder_end_date {
   key = 'ADMINISTRATION_TOOLS_ANALYTICS_BLOCK_BUILDER_END_DATE'
-  group = 'administration-tools - analytics-block-builder
+  group = 'administration-tools - analytics-block-builder'
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
@@ -2849,7 +2849,7 @@ resource configservice_label administration_tools_analytics_block_builder_end_da
 
 resource configservice_label administration_tools_analytics_block_builder_start_date {
   key = 'ADMINISTRATION_TOOLS_ANALYTICS_BLOCK_BUILDER_START_DATE'
-  group = 'administration-tools - analytics-block-builder
+  group = 'administration-tools - analytics-block-builder'
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
@@ -2865,7 +2865,7 @@ resource configservice_label administration_tools_analytics_block_builder_start_
 
 resource configservice_label administration_tools_analytics_block_builder_edit_asset_filter {
   key = 'ADMINISTRATION_TOOLS_ANALYTICS_BLOCK_BUILDER_EDIT_ASSET_FILTER'
-  group = 'administration-tools - analytics-block-builder
+  group = 'administration-tools - analytics-block-builder'
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
@@ -2881,7 +2881,7 @@ resource configservice_label administration_tools_analytics_block_builder_edit_a
 
 resource configservice_label administration_tools_analytics_block_builder_chart_type {
   key = 'ADMINISTRATION_TOOLS_ANALYTICS_BLOCK_BUILDER_CHART_TYPE'
-  group = 'administration-tools - analytics-block-builder
+  group = 'administration-tools - analytics-block-builder'
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
@@ -2897,7 +2897,7 @@ resource configservice_label administration_tools_analytics_block_builder_chart_
 
 resource configservice_label administration_tools_analytics_block_builder_property_dimensions {
   key = 'ADMINISTRATION_TOOLS_ANALYTICS_BLOCK_BUILDER_PROPERTY_DIMENSIONS'
-  group = 'administration-tools - analytics-block-builder
+  group = 'administration-tools - analytics-block-builder'
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
@@ -2913,7 +2913,7 @@ resource configservice_label administration_tools_analytics_block_builder_proper
 
 resource configservice_label administration_tools_analytics_block_builder_time_dimensions {
   key = 'ADMINISTRATION_TOOLS_ANALYTICS_BLOCK_BUILDER_TIME_DIMENSIONS'
-  group = 'administration-tools - analytics-block-builder
+  group = 'administration-tools - analytics-block-builder'
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
@@ -2929,7 +2929,7 @@ resource configservice_label administration_tools_analytics_block_builder_time_d
 
 resource configservice_label administration_tools_analytics_block_builder_group_by {
   key = 'ADMINISTRATION_TOOLS_ANALYTICS_BLOCK_BUILDER_GROUP_BY'
-  group = 'administration-tools - analytics-block-builder
+  group = 'administration-tools - analytics-block-builder'
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
@@ -2945,7 +2945,7 @@ resource configservice_label administration_tools_analytics_block_builder_group_
 
 resource configservice_label administration_tools_analytics_block_builder_statistic {
   key = 'ADMINISTRATION_TOOLS_ANALYTICS_BLOCK_BUILDER_STATISTIC'
-  group = 'administration-tools - analytics-block-builder
+  group = 'administration-tools - analytics-block-builder'
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
@@ -2961,7 +2961,7 @@ resource configservice_label administration_tools_analytics_block_builder_statis
 
 resource configservice_label administration_tools_analytics_block_builder_title {
   key = 'ADMINISTRATION_TOOLS_ANALYTICS_BLOCK_BUILDER_TITLE'
-  group = 'administration-tools - analytics-block-builder
+  group = 'administration-tools - analytics-block-builder'
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
