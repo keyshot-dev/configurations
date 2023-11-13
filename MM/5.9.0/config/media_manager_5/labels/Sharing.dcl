@@ -36,11 +36,11 @@ resource configservice_label sharing_share_embed_embed_size_value {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = '{size, select, auto {Full width} custom {Custom dimensions} other {{{size}}px}}'
+      default_translation = '{size, select, auto {Full width} custom {Custom dimensions} other {{{size}} px}}'
       language_id = data.language.english.id
     },
     {
-      default_translation = '{size, select, auto {Fuld bredde} custom {Brugerdefinerede dimensioner} other {{{size}}px}}'
+      default_translation = '{size, select, auto {Fuld bredde} custom {Brugerdefinerede dimensioner} other {{{size}} px}}'
       language_id = data.language.danish.id
     }
   ]
@@ -104,7 +104,7 @@ resource configservice_label sharing_share_embed_autostart {
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Start automatisk'
+      default_translation = 'Afspil automatisk'
       language_id = data.language.danish.id
     }
   ]
@@ -662,11 +662,11 @@ resource configservice_label asset_share_desc {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = '{shareType, select, link { Share via link that will download the asset } mail { Share via email containing a link to download the asset} }'
+      default_translation = '{shareType, select, link { Share download link to the asset } mail { Share download link to the asset via email } }'
       language_id = data.language.english.id
     },
     {
-      default_translation = '{shareType, select, link { Del via et link, der vil downloade asset. } mail { Del via e-mail med et link til at downloade asset. } }'
+      default_translation = '{shareType, select, link { Del download-link til assettet } mail { Del download-link til assettet via e-mail } }'
       language_id = data.language.danish.id
     }
   ]
@@ -701,7 +701,7 @@ resource configservice_label asset_share_shared_success {
       language_id = data.language.english.id
     },
     {
-      default_translation = '{shareType, select, link { Linket er klar } mail { Emailen er sendt } }'
+      default_translation = '{shareType, select, link { Linket er klar } mail { E-mailen er afsendt } }'
       language_id = data.language.danish.id
     }
   ]
