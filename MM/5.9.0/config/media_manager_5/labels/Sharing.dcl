@@ -640,22 +640,6 @@ resource configservice_label asset_share_button_update {
   ]
 }
 
-resource configservice_label asset_share_button_update {
-  key = 'ASSET_SHARE_BUTTON_UPDATE'
-  group = 'Collections'
-  product_id = resource.configservice_product.media_manager_5.id
-  default_label_values = [
-    {
-      default_translation = 'Update'
-      language_id = data.language.english.id
-    },
-    {
-      default_translation = 'Opdater'
-      language_id = data.language.danish.id
-    }
-  ]
-}
-
 resource configservice_label asset_share_desc {
   key = 'ASSET_SHARE_DESC'
   group = 'Collections'
