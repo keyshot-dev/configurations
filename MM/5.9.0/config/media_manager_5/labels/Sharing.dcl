@@ -646,11 +646,11 @@ resource configservice_label asset_share_desc {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = '{shareType, select, link { Share download link to the asset } mail { Share download link to the asset via email } }'
+      default_translation = '{shareType, select, Link { Share download link to the asset } Mail { Share download link to the asset via email } }'
       language_id = data.language.english.id
     },
     {
-      default_translation = '{shareType, select, link { Del download-link til assettet } mail { Del download-link til assettet via e-mail } }'
+      default_translation = '{shareType, select, Link { Del download-link til assettet } Mail { Del download-link til assettet via e-mail } }'
       language_id = data.language.danish.id
     }
   ]
@@ -663,11 +663,11 @@ resource configservice_label asset_share_button_submit {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = '{shareType, select, link { Generate link } mail { Send email } }'
+      default_translation = '{shareType, select, Link { Generate link } Mail { Send email } }'
       language_id = data.language.english.id
     },
     {
-      default_translation = '{shareType, select, link { Generer link } mail { Send e-mail } }'
+      default_translation = '{shareType, select, Link { Generer link } Mail { Send e-mail } }'
       language_id = data.language.danish.id
     }
   ]
@@ -681,11 +681,11 @@ resource configservice_label asset_share_shared_success {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = '{shareType, select, link { The link is ready } mail { The email has been sent } }'
+      default_translation = '{shareType, select, Link { The link is ready } Mail { The email has been sent } }'
       language_id = data.language.english.id
     },
     {
-      default_translation = '{shareType, select, link { Linket er klar } mail { E-mailen er afsendt } }'
+      default_translation = '{shareType, select, Link { Linket er klar } Mail { E-mailen er afsendt } }'
       language_id = data.language.danish.id
     }
   ]
@@ -698,11 +698,11 @@ resource configservice_label asset_share_overview_share_type {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = '{shareType, select, link { Link } mail { Email } }'
+      default_translation = '{shareType, select, Link { Link } Mail { Email } }'
       language_id = data.language.english.id
     },
     {
-      default_translation = '{shareType, select, link { Link } mail { E-mail } }'
+      default_translation = '{shareType, select, Link { Link } Mail { E-mail } }'
       language_id = data.language.danish.id
     }
   ]
