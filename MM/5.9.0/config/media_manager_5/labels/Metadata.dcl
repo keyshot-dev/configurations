@@ -1566,6 +1566,22 @@ resource configservice_label metadata_editor_input_field_field_type_not_supporte
   ]
 }
 
+resource configservice_label metadata_editor_input_field_empty_value {
+  key = 'METADATA_EDITOR_INPUT_FIELD_EMPTY_VALUE'
+  group = 'Metadata'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = '-'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = '-'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label metadata_editor_input_field_only_for_single_editing {
   key = 'METADATA_EDITOR_INPUT_FIELD_ONLY_FOR_SINGLE_EDITING'
   group = 'Metadata'
