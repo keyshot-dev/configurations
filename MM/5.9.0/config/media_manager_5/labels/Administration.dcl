@@ -2975,4 +2975,195 @@ resource configservice_label administration_tools_analytics_block_builder_title 
   ]
 }
 
+resource configservice_label administration_tools_dashboard_tool_add_table {
+  key = 'ADMINISTRATION_TOOLS_DASHBOARD_TOOL_ADD_TABLE'
+  group = 'administration-tools - dashboard-tool'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Add table'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Tilføj tabel'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_dashboard_tool_add_chart {
+  key = 'ADMINISTRATION_TOOLS_DASHBOARD_TOOL_ADD_CHART'
+  group = 'administration-tools - dashboard-tool'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Add chart'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Tilføj diagram'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_analytics_table_something_went_wrong_when_fetching_the_data {
+  key = 'ADMINISTRATION_TOOLS_ANALYTICS_TABLE_SOMETHING_WENT_WRONG_WHEN_FETCHING_THE_DATA'
+  group = 'administration-tools - analytics-table'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Something went wrong when fetching the data'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Noget gik galt under indlæsningen af data'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_analytics_table_total {
+  key = 'ADMINISTRATION_TOOLS_ANALYTICS_TABLE_TOTAL'
+  group = 'administration-tools - analytics-table'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Total'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Total'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_analytics_table_builder_how_many_entries_to_show {
+  key = 'ADMINISTRATION_TOOLS_ANALYTICS_TABLE_BUILDER_HOW_MANY_ENTRIES_TO_SHOW'
+  group = 'administration-tools - analytics-table-builder'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'How many rows to show?'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'hvor mange rækker skal vises?'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_analytics_table_builder_descending {
+  key = 'ADMINISTRATION_TOOLS_ANALYTICS_TABLE_BUILDER_DESCENDING'
+  group = 'administration-tools - analytics-table-builder'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Descending'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Faldende'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_analytics_table_builder_ascending {
+  key = 'ADMINISTRATION_TOOLS_ANALYTICS_TABLE_BUILDER_ASCENDING'
+  group = 'administration-tools - analytics-table-builder'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Ascending'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Stigende'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_analytics_table_builder_sort_results_in_direction {
+  key = 'ADMINISTRATION_TOOLS_ANALYTICS_TABLE_BUILDER_SORT_RESULTS_IN_DIRECTION'
+  group = 'administration-tools - analytics-table-builder'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Sort results in direction'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Sorter resultater i rækkefælge'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_analytics_table_builder_total_only {
+  key = 'ADMINISTRATION_TOOLS_ANALYTICS_TABLE_BUILDER_TOTAL_ONLY'
+  group = 'administration-tools - analytics-table-builder'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Total only'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Kun total'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_analytics_table_builder_column_source {
+  key = 'ADMINISTRATION_TOOLS_ANALYTICS_TABLE_BUILDER_COLUMN_SOURCE'
+  group = 'administration-tools - analytics-table-builder'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Column source'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Kolone kilde'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_analytics_table_builder_row_source {
+  key = 'ADMINISTRATION_TOOLS_ANALYTICS_TABLE_BUILDER_ROW_SOURCE'
+  group = 'administration-tools - analytics-table-builder'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Row source'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Række kilde'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_analytics_chart_builder_sort_results_by {
+  key = 'ADMINISTRATION_TOOLS_ANALYTICS_CHART_BUILDER_SORT_RESULTS_BY'
+  group = 'administration-tools - analytics-chart-builder'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Sort results by?'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Sorter resultater baseret på?'
+      language_id = data.language.danish.id
+    }
+  ]
+}
 
