@@ -4,5 +4,5 @@ resource configservice_bit_config_field upload_duplicate_detection_enabled {
     group = 'Duplicate detection'
     key = 'uploadDuplicateDetectionEnabled'
     title = 'Enable duplicate detection'
-    description = 'If this is enabled, users will be able to detect duplicates when uploading assets.'
+    description = 'By enabling this, the system will check for duplicate assets during asset upload.'
 }
