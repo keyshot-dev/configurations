@@ -3049,7 +3049,7 @@ resource configservice_label administration_tools_analytics_table_builder_how_ma
       language_id = data.language.english.id
     },
     {
-      default_translation = 'hvor mange rækker skal vises?'
+      default_translation = 'Hvor mange rækker skal vises?'
       language_id = data.language.danish.id
     }
   ]
@@ -3129,7 +3129,7 @@ resource configservice_label administration_tools_analytics_table_builder_column
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Kolone kilde'
+      default_translation = 'Kolonne-kilde'
       language_id = data.language.danish.id
     }
   ]
@@ -3145,7 +3145,7 @@ resource configservice_label administration_tools_analytics_table_builder_row_so
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Række kilde'
+      default_translation = 'Række-kilde'
       language_id = data.language.danish.id
     }
   ]
@@ -3157,11 +3157,11 @@ resource configservice_label administration_tools_analytics_chart_builder_sort_r
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Sort results by?'
+      default_translation = 'Sort results by'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Sorter resultater baseret på?'
+      default_translation = 'Sorter resultater baseret på'
       language_id = data.language.danish.id
     }
   ]
