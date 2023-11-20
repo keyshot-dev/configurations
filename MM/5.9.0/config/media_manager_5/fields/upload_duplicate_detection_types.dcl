@@ -30,6 +30,6 @@ resource configservice_multi_combo_config_field upload_duplicate_detection_types
     product_id = resource.configservice_product.media_manager_5.id
     group = 'Duplicate detection'
     key = 'uploadDuplicateDetectionTypes'
-    title = 'Upload detection types'
-    description = 'The chosen upload detection types will be used when uploading.'
+    title = 'Duplicate detection types'
+    description = 'If duplicate detection is enabled, the chosen upload detection types will be used when uploading.'
 }
