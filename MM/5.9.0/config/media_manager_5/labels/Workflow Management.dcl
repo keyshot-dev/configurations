@@ -718,34 +718,81 @@ resource configservice_label workflow_editor_new_step_selector_insert {
   ]
 }
 
-resource configservice_label workflow_editor_text_editor_compare {
-  key = 'WORKFLOW_EDITOR_TEXT_EDITOR_COMPARE'
+resource configservice_label workflow_editor_text_editor_compare_button {
+  key = 'WORKFLOW_EDITOR_TEXT_EDITOR_COMPARE_BUTTON'
   group = 'Workflow Management'
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Compare'
+      default_translation = 'Compare version'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Sammenlign'
+      default_translation = 'Sammenlign version'
       language_id = data.language.danish.id
     }
   ]
 }
 
-
-resource configservice_label workflow_editor_text_editor_none {
-  key = 'WORKFLOW_EDITOR_TEXT_EDITOR_NONE'
+resource configservice_label workflow_editor_text_editor_compare_current_version {
+  key = 'WORKFLOW_EDITOR_TEXT_EDITOR_COMPARE_CURRENT_VERSION'
   group = 'Workflow Management'
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Don\'t compare'
+      default_translation = 'Current version'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Sammenlign ikke'
+      default_translation = 'Nuværende version'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label workflow_editor_text_editor_compare_last_updated {
+  key = 'WORKFLOW_EDITOR_TEXT_EDITOR_COMPARE_LAST_UPDATED'
+  group = 'Workflow Management'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Last updated'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Sidst opdateret'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label workflow_editor_text_editor_compare_version {
+  key = 'WORKFLOW_EDITOR_TEXT_EDITOR_COMPARE_VERSION'
+  group = 'Workflow Management'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Version'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Version'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label workflow_editor_text_editor_nothing_to_compare {
+  key = 'WORKFLOW_EDITOR_TEXT_EDITOR_NOTHING_TO_COMPARE'
+  group = 'Workflow Management'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Nothing to compare'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Intet at sammenligne'
       language_id = data.language.danish.id
     }
   ]
