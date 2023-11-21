@@ -6429,11 +6429,11 @@ resource configservice_label settings_import_config_editor_match_metafield {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Match metafield'
+      default_translation = 'Match field'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Match metafield'
+      default_translation = 'Match field'
       language_id = data.language.danish.id
     }
   ]
