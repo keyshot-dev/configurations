@@ -724,11 +724,11 @@ resource configservice_label workflow_editor_text_editor_compare_button {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Compare version'
+      default_translation = 'Compare with version'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Sammenlign version'
+      default_translation = 'Sammenlign med version'
       language_id = data.language.danish.id
     }
   ]
