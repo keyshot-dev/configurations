@@ -6369,7 +6369,7 @@ resource configservice_label settings_import_config_editor_asset_match_strategy 
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Asset match strategy'
+      default_translation = 'Asset-matching-strategi'
       language_id = data.language.danish.id
     }
   ]
