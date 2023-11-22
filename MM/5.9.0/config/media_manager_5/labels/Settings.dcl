@@ -6397,7 +6397,7 @@ resource configservice_label settings_import_config_editor_asset_match_metafield
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'MetaField'
+      default_translation = 'Metafield'
       language_id = data.language.english.id
     },
     {
