@@ -6381,7 +6381,7 @@ resource configservice_label settings_import_config_editor_asset_no_matching {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'No matching'
+      default_translation = 'No matches'
       language_id = data.language.english.id
     },
     {
