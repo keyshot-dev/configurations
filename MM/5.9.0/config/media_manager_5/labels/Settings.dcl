@@ -6417,7 +6417,7 @@ resource configservice_label settings_import_config_editor_asset_match_asset_id 
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Asset id'
+      default_translation = 'Asset-ID'
       language_id = data.language.danish.id
     }
   ]
