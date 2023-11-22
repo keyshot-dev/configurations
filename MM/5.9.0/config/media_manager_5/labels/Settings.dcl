@@ -6413,7 +6413,7 @@ resource configservice_label settings_import_config_editor_asset_match_asset_id 
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Asset id'
+      default_translation = 'Asset ID'
       language_id = data.language.english.id
     },
     {
