@@ -5470,22 +5470,6 @@ resource configservice_label settings_import_config_editor_dont_use_a_search {
   ]
 }
 
-resource configservice_label settings_import_config_editor_match_search_name {
-  key = 'SETTINGS_IMPORT_CONFIG_EDITOR_MATCH_SEARCH_NAME'
-  group = 'Settings'
-  product_id = resource.configservice_product.media_manager_5.id
-  default_label_values = [
-    {
-      default_translation = 'Match search name'
-      language_id = data.language.english.id
-    },
-    {
-      default_translation = 'Match søgenavn'
-      language_id = data.language.danish.id
-    }
-  ]
-}
-
 resource configservice_label settings_import_config_editor_match_search_name_tooltip {
   key = 'SETTINGS_IMPORT_CONFIG_EDITOR_MATCH_SEARCH_NAME_TOOLTIP'
   group = 'Settings'
@@ -6354,6 +6338,118 @@ resource configservice_label settings_import_config_editor_multi_value_update_me
     },
     {
       default_translation = 'If updating an existing asset, how should the import deal with existing value?'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_import_config_editor_asset_match_strategy_tooltip {
+  key = 'SETTINGS_IMPORT_CONFIG_EDITOR_ASSET_MATCH_STRATEGY_TOOLTIP'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Asset match strategy'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Asset-matching-strategi'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_import_config_editor_asset_match_strategy {
+  key = 'SETTINGS_IMPORT_CONFIG_EDITOR_ASSET_MATCH_STRATEGY'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Asset match strategy'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Asset-matching-strategi'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_import_config_editor_asset_no_matching {
+  key = 'SETTINGS_IMPORT_CONFIG_EDITOR_ASSET_NO_MATCHING'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'No matches'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Ingen matches'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_import_config_editor_asset_match_metafield {
+  key = 'SETTINGS_IMPORT_CONFIG_EDITOR_ASSET_MATCH_METAFIELD'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Metafield'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Metafelt'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_import_config_editor_asset_match_asset_id {
+  key = 'SETTINGS_IMPORT_CONFIG_EDITOR_ASSET_MATCH_ASSET_ID'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Asset ID'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Asset-ID'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_import_config_editor_match_metafield {
+  key = 'SETTINGS_IMPORT_CONFIG_EDITOR_MATCH_METAFIELD'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Match field'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Matching-felt'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_import_config_editor_match_metafield_tooltip {
+  key = 'SETTINGS_IMPORT_CONFIG_EDITOR_MATCH_METAFIELD_TOOLTIP'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Match field'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Matching-felt'
       language_id = data.language.danish.id
     }
   ]
