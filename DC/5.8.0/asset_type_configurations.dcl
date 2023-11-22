@@ -176,6 +176,14 @@ resource asset_type_configuration cad_cadmanifest {
             }]
 }
 
+resource asset_type_configuration font_fontmanifest {
+    asset_type = 'Font'
+    destination_id = resource.storage_manager_destination.asset_storage_sm.destination_id
+    encoder_profile_location = '${variable.storage_path}\\dmm\\Profiles\\Font'
+    file_prefix = 'Fontmanifest'
+    qualities = []
+}
+
 resource asset_type_configuration ott_ottmanifest {
     asset_type = 'OTT'
     destination_id = resource.storage_manager_destination.asset_storage_sm.destination_id
