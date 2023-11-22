@@ -6385,7 +6385,7 @@ resource configservice_label settings_import_config_editor_asset_no_matching {
       language_id = data.language.english.id
     },
     {
-      default_translation = 'No matching'
+      default_translation = 'Ingen matches'
       language_id = data.language.danish.id
     }
   ]
