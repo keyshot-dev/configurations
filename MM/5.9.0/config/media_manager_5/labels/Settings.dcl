@@ -6401,7 +6401,7 @@ resource configservice_label settings_import_config_editor_asset_match_metafield
       language_id = data.language.english.id
     },
     {
-      default_translation = 'MetaField'
+      default_translation = 'Metafelt'
       language_id = data.language.danish.id
     }
   ]
