@@ -270,6 +270,22 @@ resource configservice_label side_bar_panel_title_collection_shares {
   ]
 }
 
+resource configservice_label side_bar_panel_title_asset_shares {
+  key = 'SIDE_BAR_PANEL_TITLE_ASSET_SHARES'
+  group = 'Side Bar'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Overview'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Overblik'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label side_bar_panel_title_custom_quality {
   key = 'SIDE_BAR_PANEL_TITLE_CUSTOM_QUALITY'
   group = 'Side Bar'
