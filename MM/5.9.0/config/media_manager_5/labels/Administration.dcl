@@ -3167,3 +3167,258 @@ resource configservice_label administration_tools_analytics_chart_builder_sort_r
   ]
 }
 
+resource configservice_label administration_tools_analytics_color_builder_add {
+  key = 'ADMINISTRATION_TOOLS_ANALYTICS_COLOR_BUILDER_ADD'
+  group = 'administration-tools - analytics-color-builder'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Add'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Add'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_analytics_color_builder_remove {
+  key = 'ADMINISTRATION_TOOLS_ANALYTICS_COLOR_BUILDER_REMOVE'
+  group = 'administration-tools - analytics-color-builder'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Remove'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Remove'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_analytics_color_builder_colors {
+  key = 'ADMINISTRATION_TOOLS_ANALYTICS_COLOR_BUILDER_COLORS'
+  group = 'administration-tools - analytics-color-builder'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Colors'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Colors'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_analytics_color_builder_color {
+  key = 'ADMINISTRATION_TOOLS_ANALYTICS_COLOR_BUILDER_COLOR'
+  group = 'administration-tools - analytics-color-builder'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Color'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Color'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_analytics_color_builder_from_custom_palette {
+  key = 'ADMINISTRATION_TOOLS_ANALYTICS_COLOR_BUILDER_FROM_CUSTOM_PALETTE'
+  group = 'administration-tools - analytics-color-builder'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'From custom palette'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'From custom palette'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_analytics_color_builder_from_standard_palette {
+  key = 'ADMINISTRATION_TOOLS_ANALYTICS_COLOR_BUILDER_FROM_STANDARD_PALETTE'
+  group = 'administration-tools - analytics-color-builder'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'From standard palette'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'From standard palette'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_analytics_color_builder_single_color {
+  key = 'ADMINISTRATION_TOOLS_ANALYTICS_COLOR_BUILDER_SINGLE_COLOR'
+  group = 'administration-tools - analytics-color-builder'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Single color'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Single color'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_analytics_color_builder_color_scheme {
+  key = 'ADMINISTRATION_TOOLS_ANALYTICS_COLOR_BUILDER_COLOR_SCHEME'
+  group = 'administration-tools - analytics-color-builder'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Color scheme'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Color scheme'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_analytics_chart_builder_display_legend {
+  key = 'ADMINISTRATION_TOOLS_ANALYTICS_CHART_BUILDER_DISPLAY_LEGEND'
+  group = 'administration-tools - analytics-chart-builder'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Display legend'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Display legend'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_analytics_chart_builder_vertical {
+  key = 'ADMINISTRATION_TOOLS_ANALYTICS_CHART_BUILDER_VERTICAL'
+  group = 'administration-tools - analytics-chart-builder'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Vertical'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Vertical'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_analytics_chart_builder_horizontal {
+  key = 'ADMINISTRATION_TOOLS_ANALYTICS_CHART_BUILDER_HORIZONTAL'
+  group = 'administration-tools - analytics-chart-builder'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Horizontal'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Horizontal'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_analytics_chart_builder_chart_orientation {
+  key = 'ADMINISTRATION_TOOLS_ANALYTICS_CHART_BUILDER_CHART_ORIENTATION'
+  group = 'administration-tools - analytics-chart-builder'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Chart orientation'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Chart orientation'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_analytics_chart_builder_tension {
+  key = 'ADMINISTRATION_TOOLS_ANALYTICS_CHART_BUILDER_TENSION'
+  group = 'administration-tools - analytics-chart-builder'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Tension'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Tension'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_analytics_chart_builder_automatic {
+  key = 'ADMINISTRATION_TOOLS_ANALYTICS_CHART_BUILDER_AUTOMATIC'
+  group = 'administration-tools - analytics-chart-builder'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Automatic'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Automatic'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_analytics_chart_builder_max_value {
+  key = 'ADMINISTRATION_TOOLS_ANALYTICS_CHART_BUILDER_MAX_VALUE'
+  group = 'administration-tools - analytics-chart-builder'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Max value'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Max value'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_analytics_chart_builder_min_value {
+  key = 'ADMINISTRATION_TOOLS_ANALYTICS_CHART_BUILDER_MIN_VALUE'
+  group = 'administration-tools - analytics-chart-builder'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Min value'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Min value'
+      language_id = data.language.danish.id
+    }
+  ]
+}
