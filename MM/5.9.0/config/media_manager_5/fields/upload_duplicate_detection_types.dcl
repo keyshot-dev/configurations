@@ -26,6 +26,13 @@ resource configservice_combo_config_field_option upload_duplicate_detection_type
     is_default_selected = false
 }
 
+resource configservice_combo_config_field_option upload_duplicate_detection_types__use_meta_field {
+    configservice_field_id = resource.configservice_multi_combo_config_field.upload_duplicate_detection_types.id
+    value = 'UseMetaField'
+    title = 'Use metadata field'
+    is_default_selected = false
+}
+
 resource configservice_multi_combo_config_field upload_duplicate_detection_types {
     product_id = resource.configservice_product.media_manager_5.id
     group = 'Duplicate detection'
