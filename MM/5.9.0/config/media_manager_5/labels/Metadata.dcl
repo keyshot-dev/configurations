@@ -238,6 +238,22 @@ resource configservice_label metadata_editor_multi_metadata_editor_save {
   ]
 }
 
+resource configservice_label metadata_editor_multi_metadata_editor_changes_saved {
+  key = 'METADATA_EDITOR_MULTI_METADATA_EDITOR_CHANGES_SAVED'
+  group = 'Metadata'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Changes saved'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Ændringer blev gemt'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label metadata_editor_multi_metadata_editor_save_selected {
   key = 'METADATA_EDITOR_MULTI_METADATA_EDITOR_SAVE_SELECTED'
   group = 'Metadata'
@@ -985,6 +1001,70 @@ resource configservice_label metadata_editor_cancel_text {
     },
     {
       default_translation = 'Kassér'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label metadata_editor_discard_confirmation_dialog_title {
+  key = 'METADATA_EDITOR_DISCARD_CONFIRMATION_DIALOG_TITLE'
+  group = 'Metadata'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Discard changes'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Kassér ændringer'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label metadata_editor_discard_confirmation_dialog_text {
+  key = 'METADATA_EDITOR_DISCARD_CONFIRMATION_DIALOG_TEXT'
+  group = 'Metadata'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Are you sure you want to discard all changes?'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Er du sikker på, at du vil kassere alle ændringer?'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label metadata_editor_discard_confirmation_dialog_no {
+  key = 'METADATA_EDITOR_DISCARD_CONFIRMATION_DIALOG_NO'
+  group = 'Metadata'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'No'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Nej'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label metadata_editor_discard_confirmation_dialog_yes {
+  key = 'METADATA_EDITOR_DISCARD_CONFIRMATION_DIALOG_YES'
+  group = 'Metadata'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Yes'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Ja'
       language_id = data.language.danish.id
     }
   ]
