@@ -3422,3 +3422,58 @@ resource configservice_label administration_tools_analytics_chart_builder_min_va
     }
   ]
 }
+
+resource configservice_label administration_tools_dashboard_tool_add_example_dashboard {
+  key = 'ADMINISTRATION_TOOLS_DASHBOARD_TOOL_ADD_EXAMPLE_DASHBOARD'
+  group = 'administration-tools - dashboard-tool'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Add example dashboard'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Add example dashboard'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_analytics_chart_builder_map_projection {
+  key = 'ADMINISTRATION_TOOLS_ANALYTICS_CHART_BUILDER_MAP_PROJECTION'
+  group = 'administration-tools - analytics-chart-builder'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Map projection'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Map projection'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_analytics_chart_builder_show_graticule {
+  key = 'ADMINISTRATION_TOOLS_ANALYTICS_CHART_BUILDER_SHOW_GRATICULE'
+  group = 'administration-tools - analytics-chart-builder'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Show graticule'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Show graticule'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+
+
+
+
+
+
