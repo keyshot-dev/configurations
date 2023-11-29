@@ -3177,7 +3177,7 @@ resource configservice_label administration_tools_analytics_color_builder_add {
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Add'
+      default_translation = 'Tilføj'
       language_id = data.language.danish.id
     }
   ]
@@ -3193,7 +3193,7 @@ resource configservice_label administration_tools_analytics_color_builder_remove
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Remove'
+      default_translation = 'Fjern'
       language_id = data.language.danish.id
     }
   ]
@@ -3209,7 +3209,7 @@ resource configservice_label administration_tools_analytics_color_builder_colors
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Colors'
+      default_translation = 'Farver'
       language_id = data.language.danish.id
     }
   ]
@@ -3225,7 +3225,7 @@ resource configservice_label administration_tools_analytics_color_builder_color 
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Color'
+      default_translation = 'Farve'
       language_id = data.language.danish.id
     }
   ]
@@ -3241,7 +3241,7 @@ resource configservice_label administration_tools_analytics_color_builder_from_c
       language_id = data.language.english.id
     },
     {
-      default_translation = 'From custom palette'
+      default_translation = 'Fra brugerdefineret palet'
       language_id = data.language.danish.id
     }
   ]
@@ -3257,7 +3257,7 @@ resource configservice_label administration_tools_analytics_color_builder_from_s
       language_id = data.language.english.id
     },
     {
-      default_translation = 'From standard palette'
+      default_translation = 'Fra standard palet'
       language_id = data.language.danish.id
     }
   ]
@@ -3273,7 +3273,7 @@ resource configservice_label administration_tools_analytics_color_builder_single
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Single color'
+      default_translation = 'Enkelt farve'
       language_id = data.language.danish.id
     }
   ]
@@ -3289,7 +3289,7 @@ resource configservice_label administration_tools_analytics_color_builder_color_
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Color scheme'
+      default_translation = 'Farveskema'
       language_id = data.language.danish.id
     }
   ]
@@ -3305,7 +3305,7 @@ resource configservice_label administration_tools_analytics_chart_builder_displa
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Display legend'
+      default_translation = 'Vis signaturforklaring'
       language_id = data.language.danish.id
     }
   ]
@@ -3321,7 +3321,7 @@ resource configservice_label administration_tools_analytics_chart_builder_vertic
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Vertical'
+      default_translation = 'Vertikal'
       language_id = data.language.danish.id
     }
   ]
@@ -3337,7 +3337,7 @@ resource configservice_label administration_tools_analytics_chart_builder_horizo
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Horizontal'
+      default_translation = 'Horisontal'
       language_id = data.language.danish.id
     }
   ]
@@ -3353,7 +3353,7 @@ resource configservice_label administration_tools_analytics_chart_builder_chart_
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Chart orientation'
+      default_translation = 'Graf retning'
       language_id = data.language.danish.id
     }
   ]
@@ -3369,7 +3369,7 @@ resource configservice_label administration_tools_analytics_chart_builder_tensio
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Tension'
+      default_translation = 'Spænding'
       language_id = data.language.danish.id
     }
   ]
@@ -3385,7 +3385,7 @@ resource configservice_label administration_tools_analytics_chart_builder_automa
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Automatic'
+      default_translation = 'Automatisk'
       language_id = data.language.danish.id
     }
   ]
@@ -3401,7 +3401,7 @@ resource configservice_label administration_tools_analytics_chart_builder_max_va
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Max value'
+      default_translation = 'Maksimum værdi'
       language_id = data.language.danish.id
     }
   ]
@@ -3417,7 +3417,7 @@ resource configservice_label administration_tools_analytics_chart_builder_min_va
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Min value'
+      default_translation = 'Minimum værdi'
       language_id = data.language.danish.id
     }
   ]
@@ -3433,7 +3433,7 @@ resource configservice_label administration_tools_dashboard_tool_add_example_das
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Add example dashboard'
+      default_translation = 'Tilføj eksempel dashboard'
       language_id = data.language.danish.id
     }
   ]
@@ -3449,7 +3449,7 @@ resource configservice_label administration_tools_analytics_chart_builder_map_pr
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Map projection'
+      default_translation = 'Kort projektion'
       language_id = data.language.danish.id
     }
   ]
@@ -3465,7 +3465,7 @@ resource configservice_label administration_tools_analytics_chart_builder_show_g
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Show graticule'
+      default_translation = 'Vis gratikulering'
       language_id = data.language.danish.id
     }
   ]
