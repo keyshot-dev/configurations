@@ -3241,7 +3241,7 @@ resource configservice_label administration_tools_analytics_color_builder_from_c
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Fra brugerdefineret palet'
+      default_translation = 'Fra brugerdefineret palette'
       language_id = data.language.danish.id
     }
   ]
@@ -3257,7 +3257,7 @@ resource configservice_label administration_tools_analytics_color_builder_from_s
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Fra standard palet'
+      default_translation = 'Fra standard palette'
       language_id = data.language.danish.id
     }
   ]
@@ -3321,7 +3321,7 @@ resource configservice_label administration_tools_analytics_chart_builder_vertic
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Vertikal'
+      default_translation = 'Lodret'
       language_id = data.language.danish.id
     }
   ]
@@ -3337,7 +3337,7 @@ resource configservice_label administration_tools_analytics_chart_builder_horizo
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Horisontal'
+      default_translation = 'Vandret'
       language_id = data.language.danish.id
     }
   ]
@@ -3353,7 +3353,7 @@ resource configservice_label administration_tools_analytics_chart_builder_chart_
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Graf retning'
+      default_translation = 'Graf-retning'
       language_id = data.language.danish.id
     }
   ]
@@ -3433,7 +3433,7 @@ resource configservice_label administration_tools_dashboard_tool_add_example_das
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Tilføj eksempel dashboard'
+      default_translation = 'Tilføj eksempel-dashboard'
       language_id = data.language.danish.id
     }
   ]
@@ -3449,7 +3449,7 @@ resource configservice_label administration_tools_analytics_chart_builder_map_pr
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Kort projektion'
+      default_translation = 'Kort-projektion'
       language_id = data.language.danish.id
     }
   ]
