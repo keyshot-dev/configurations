@@ -2382,6 +2382,38 @@ resource configservice_label settings_sso_settings_name_claim_type {
   ]
 }
 
+resource configservice_label settings_sso_settings_response_type {
+  key = 'SETTINGS_SSO_SETTINGS_RESPONSE_TYPE'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Response type'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Response type'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_sso_settings_response_type_tooltip {
+  key = 'SETTINGS_SSO_SETTINGS_RESPONSE_TYPE_TOOLTIP'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Response type'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Response type'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label settings_sso_settings_client_secret {
   key = 'SETTINGS_SSO_SETTINGS_CLIENT_SECRET'
   group = 'Settings'
