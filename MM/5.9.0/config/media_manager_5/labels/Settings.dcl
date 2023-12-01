@@ -2392,7 +2392,7 @@ resource configservice_label settings_sso_settings_response_type {
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Response type'
+      default_translation = 'Svartype'
       language_id = data.language.danish.id
     }
   ]
@@ -2408,7 +2408,7 @@ resource configservice_label settings_sso_settings_response_type_tooltip {
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Response type'
+      default_translation = 'Svartype'
       language_id = data.language.danish.id
     }
   ]
