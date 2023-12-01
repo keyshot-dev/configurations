@@ -7169,7 +7169,7 @@ resource configservice_label settings_required_claims_editor_remove {
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Remove'
+      default_translation = 'Fjern'
       language_id = data.language.danish.id
     }
   ]
