@@ -7126,3 +7126,53 @@ resource configservice_label settings_connector_settings_save_error_message {
     }
   ]
 }
+
+resource configservice_label settings_sso_settings_required_claims {
+  key = 'SETTINGS_SSO_SETTINGS_REQUIRED_CLAIMS'
+  group = 'settings - sso-settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Required claims'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Påkrævede claims'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_required_claims_editor_add {
+  key = 'SETTINGS_REQUIRED_CLAIMS_EDITOR_ADD'
+  group = 'settings - required-claims-editor'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Add'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Tilføj'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_required_claims_editor_remove {
+  key = 'SETTINGS_REQUIRED_CLAIMS_EDITOR_REMOVE'
+  group = 'settings - required-claims-editor'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Remove'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Fjern'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+
