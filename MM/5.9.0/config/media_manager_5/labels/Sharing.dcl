@@ -714,11 +714,11 @@ resource configservice_label sharing_sharing_dialog_no_permissions {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'You do not have permission to share collections'
+      default_translation = 'You do not have permission to share collections. Please contact your administrator.'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Du har ikke rettigheder til at dele collections'
+      default_translation = 'Du har ikke rettigheder til at dele collections. Kontakt venligst din administrator.'
       language_id = data.language.danish.id
     }
   ]
