@@ -26,3 +26,9 @@ resource member system {
     }
 }
 
+resource analytics_ignored_member system {
+    member_id = resource.member.system.member_id
+    reason = 'System user is used for a lot internally and will mess with statistics if not ignored'
+    ignore_enabled = true
+}
+
