@@ -1,24 +1,9 @@
-resource item_security string_metafield_byline__anonymous {
-    accessor_item_id = data.member_group.anonymous.item_id
-    item_id = resource.string_metafield.byline.item_id
-    read = true
-    write = false
-}
-
-resource item_security string_metafield_byline__trusted {
-    accessor_item_id = data.member_group.trusted.item_id
+resource item_security string_metafield_byline__system {
+    accessor_item_id = data.member.system.item_id
     item_id = resource.string_metafield.byline.item_id
     read = true
     write = true
 }
-
-resource metafield_label byline {
-    metafield_id = resource.string_metafield.byline.metafield_id
-    language_id = data.language.english.id
-    label = 'By-Line'
-    description = ''
-}
-
 
 resource string_metafield byline {
     max_length = 0

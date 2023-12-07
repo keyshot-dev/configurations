@@ -1,24 +1,9 @@
-resource item_security string_metafield_scenetype__anonymous {
-    accessor_item_id = data.member_group.anonymous.item_id
-    item_id = resource.string_metafield.scenetype.item_id
-    read = true
-    write = false
-}
-
-resource item_security string_metafield_scenetype__trusted {
-    accessor_item_id = data.member_group.trusted.item_id
+resource item_security string_metafield_scenetype__system {
+    accessor_item_id = data.member.system.item_id
     item_id = resource.string_metafield.scenetype.item_id
     read = true
     write = true
 }
-
-resource metafield_label scenetype {
-    metafield_id = resource.string_metafield.scenetype.metafield_id
-    language_id = data.language.english.id
-    label = 'Scenetype'
-    description = ''
-}
-
 
 resource string_metafield scenetype {
     max_length = 0

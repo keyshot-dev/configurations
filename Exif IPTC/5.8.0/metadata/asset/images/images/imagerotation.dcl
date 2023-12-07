@@ -14,16 +14,9 @@ resource int_metafield imagerotation {
     iterative = false
 }
 
-resource item_security int_metafield_imagerotation__trusted {
-    accessor_item_id = data.member_group.trusted.item_id
+resource item_security int_metafield_imagerotation__system {
+    accessor_item_id = data.member.system.item_id
     item_id = resource.int_metafield.imagerotation.item_id
     read = true
     write = true
-}
-
-resource metafield_label imagerotation {
-    metafield_id = resource.int_metafield.imagerotation.metafield_id
-    language_id = data.language.english.id
-    label = 'ImageRotation'
-    description = ''
 }

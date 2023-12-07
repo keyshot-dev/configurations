@@ -1,22 +1,8 @@
-resource item_security string_metafield_software__anonymous {
-    accessor_item_id = data.member_group.anonymous.item_id
-    item_id = resource.string_metafield.software.item_id
-    read = true
-    write = false
-}
-
-resource item_security string_metafield_software__trusted {
-    accessor_item_id = data.member_group.trusted.item_id
+resource item_security string_metafield_software__system {
+    accessor_item_id = data.member.system.item_id
     item_id = resource.string_metafield.software.item_id
     read = true
     write = true
-}
-
-resource metafield_label software {
-    metafield_id = resource.string_metafield.software.metafield_id
-    language_id = data.language.english.id
-    label = 'Software'
-    description = ''
 }
 
 resource string_metafield software {

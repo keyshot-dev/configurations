@@ -1,22 +1,8 @@
-resource item_security string_metafield_scenecapturetype__anonymous {
-    accessor_item_id = data.member_group.anonymous.item_id
-    item_id = resource.string_metafield.scenecapturetype.item_id
-    read = true
-    write = false
-}
-
-resource item_security string_metafield_scenecapturetype__trusted {
-    accessor_item_id = data.member_group.trusted.item_id
+resource item_security string_metafield_scenecapturetype__system {
+    accessor_item_id = data.member.system.item_id
     item_id = resource.string_metafield.scenecapturetype.item_id
     read = true
     write = true
-}
-
-resource metafield_label scenecapturetype {
-    metafield_id = resource.string_metafield.scenecapturetype.metafield_id
-    language_id = data.language.english.id
-    label = 'Scenecapturetype'
-    description = ''
 }
 
 resource string_metafield scenecapturetype {

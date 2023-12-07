@@ -14,25 +14,10 @@ resource bit_metafield source_contains_thumbnail {
     iterative = false
 }
 
-resource item_security bit_metafield_source_contains_thumbnail__anonymous {
-    accessor_item_id = data.member_group.anonymous.item_id
-    item_id = resource.bit_metafield.source_contains_thumbnail.item_id
-    read = true
-    write = false
-}
-
-resource item_security bit_metafield_source_contains_thumbnail__trusted {
-    accessor_item_id = data.member_group.trusted.item_id
+resource item_security bit_metafield_source_contains_thumbnail__system {
+    accessor_item_id = data.member.system.item_id
     item_id = resource.bit_metafield.source_contains_thumbnail.item_id
     read = true
     write = true
 }
-
-resource metafield_label source_contains_thumbnail {
-    metafield_id = resource.bit_metafield.source_contains_thumbnail.metafield_id
-    language_id = data.language.english.id
-    label = 'Source Contains Thumbnail'
-    description = ''
-}
-
 

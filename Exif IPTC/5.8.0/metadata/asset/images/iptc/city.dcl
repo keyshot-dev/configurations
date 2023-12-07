@@ -1,24 +1,9 @@
-resource item_security string_metafield_city__anonymous {
-    accessor_item_id = data.member_group.anonymous.item_id
-    item_id = resource.string_metafield.city.item_id
-    read = true
-    write = false
-}
-
-resource item_security string_metafield_city__trusted {
-    accessor_item_id = data.member_group.trusted.item_id
+resource item_security string_metafield_city__system {
+    accessor_item_id = data.member.system.item_id
     item_id = resource.string_metafield.city.item_id
     read = true
     write = true
 }
-
-resource metafield_label city {
-    metafield_id = resource.string_metafield.city.metafield_id
-    language_id = data.language.english.id
-    label = 'City'
-    description = ''
-}
-
 
 resource string_metafield city {
     max_length = 0

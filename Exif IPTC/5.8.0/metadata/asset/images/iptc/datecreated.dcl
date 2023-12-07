@@ -1,24 +1,9 @@
-resource item_security string_metafield_datecreated__anonymous {
-    accessor_item_id = data.member_group.anonymous.item_id
-    item_id = resource.string_metafield.datecreated.item_id
-    read = true
-    write = false
-}
-
-resource item_security string_metafield_datecreated__trusted {
-    accessor_item_id = data.member_group.trusted.item_id
+resource item_security string_metafield_datecreated__system {
+    accessor_item_id = data.member.system.item_id
     item_id = resource.string_metafield.datecreated.item_id
     read = true
     write = true
 }
-
-resource metafield_label datecreated {
-    metafield_id = resource.string_metafield.datecreated.metafield_id
-    language_id = data.language.english.id
-    label = 'DateCreated'
-    description = ''
-}
-
 
 resource string_metafield datecreated {
     max_length = 0

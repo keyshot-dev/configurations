@@ -1,24 +1,9 @@
-resource item_security string_metafield_exposureprogram__anonymous {
-    accessor_item_id = data.member_group.anonymous.item_id
-    item_id = resource.string_metafield.exposureprogram.item_id
-    read = true
-    write = false
-}
-
-resource item_security string_metafield_exposureprogram__trusted {
-    accessor_item_id = data.member_group.trusted.item_id
+resource item_security string_metafield_exposureprogram__system {
+    accessor_item_id = data.member.system.item_id
     item_id = resource.string_metafield.exposureprogram.item_id
     read = true
     write = true
 }
-
-resource metafield_label exposureprogram {
-    metafield_id = resource.string_metafield.exposureprogram.metafield_id
-    language_id = data.language.english.id
-    label = 'Exposureprogram'
-    description = ''
-}
-
 
 resource string_metafield exposureprogram {
     max_length = 0

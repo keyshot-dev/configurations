@@ -1,24 +1,9 @@
-resource item_security string_metafield_source_icc_profile__anonymous {
-    accessor_item_id = data.member_group.anonymous.item_id
-    item_id = resource.string_metafield.source_icc_profile.item_id
-    read = true
-    write = false
-}
-
-resource item_security string_metafield_source_icc_profile__trusted {
-    accessor_item_id = data.member_group.trusted.item_id
+resource item_security string_metafield_source_icc_profile__system {
+    accessor_item_id = data.member.system.item_id
     item_id = resource.string_metafield.source_icc_profile.item_id
     read = true
     write = true
 }
-
-resource metafield_label source_icc_profile {
-    metafield_id = resource.string_metafield.source_icc_profile.metafield_id
-    language_id = data.language.english.id
-    label = 'Source ICC Profile'
-    description = ''
-}
-
 
 resource string_metafield source_icc_profile {
     max_length = 0

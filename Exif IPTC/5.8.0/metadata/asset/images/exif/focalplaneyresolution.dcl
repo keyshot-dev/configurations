@@ -1,24 +1,9 @@
-resource item_security string_metafield_focalplaneyresolution__anonymous {
-    accessor_item_id = data.member_group.anonymous.item_id
-    item_id = resource.string_metafield.focalplaneyresolution.item_id
-    read = true
-    write = false
-}
-
-resource item_security string_metafield_focalplaneyresolution__trusted {
-    accessor_item_id = data.member_group.trusted.item_id
+resource item_security string_metafield_focalplaneyresolution__system {
+    accessor_item_id = data.member.system.item_id
     item_id = resource.string_metafield.focalplaneyresolution.item_id
     read = true
     write = true
 }
-
-resource metafield_label focalplaneyresolution {
-    metafield_id = resource.string_metafield.focalplaneyresolution.metafield_id
-    language_id = data.language.english.id
-    label = 'Focalplaneyresolution'
-    description = ''
-}
-
 
 resource string_metafield focalplaneyresolution {
     max_length = 0

@@ -1,22 +1,8 @@
-resource item_security string_metafield_datetimeoriginal__anonymous {
-    accessor_item_id = data.member_group.anonymous.item_id
-    item_id = resource.string_metafield.datetimeoriginal.item_id
-    read = true
-    write = false
-}
-
-resource item_security string_metafield_datetimeoriginal__trusted {
-    accessor_item_id = data.member_group.trusted.item_id
+resource item_security string_metafield_datetimeoriginal__system {
+    accessor_item_id = data.member.system.item_id
     item_id = resource.string_metafield.datetimeoriginal.item_id
     read = true
     write = true
-}
-
-resource metafield_label datetimeoriginal {
-    metafield_id = resource.string_metafield.datetimeoriginal.metafield_id
-    language_id = data.language.english.id
-    label = 'Datetimeoriginal'
-    description = ''
 }
 
 resource string_metafield datetimeoriginal {

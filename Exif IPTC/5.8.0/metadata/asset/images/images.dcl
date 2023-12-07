@@ -1,23 +1,9 @@
-resource item_security metafield_group_images__anonymous {
-    accessor_item_id = data.member_group.anonymous.item_id
-    item_id = resource.metafield_group.images.item_id
-    read = true
-    write = false
-}
-
-resource item_security metafield_group_images__trusted {
-    accessor_item_id = data.member_group.trusted.item_id
+resource item_security metafield_group_images__system {
+    accessor_item_id = data.member.system.item_id
     item_id = resource.metafield_group.images.item_id
     read = true
     write = true
 }
-
-resource metafield_group_label image {
-    metafield_group_id = resource.metafield_group.images.metafield_group_id
-    language_id = data.language.english.id
-    label = 'Image'
-}
-
 
 resource metafield_group images {
     name = 'Images'

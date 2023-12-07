@@ -1,24 +1,9 @@
-resource item_security string_metafield_copyrightnotice__anonymous {
-    accessor_item_id = data.member_group.anonymous.item_id
-    item_id = resource.string_metafield.copyrightnotice.item_id
-    read = true
-    write = false
-}
-
-resource item_security string_metafield_copyrightnotice__trusted {
-    accessor_item_id = data.member_group.trusted.item_id
+resource item_security string_metafield_copyrightnotice__system {
+    accessor_item_id = data.member.system.item_id
     item_id = resource.string_metafield.copyrightnotice.item_id
     read = true
     write = true
 }
-
-resource metafield_label copyrightnotice {
-    metafield_id = resource.string_metafield.copyrightnotice.metafield_id
-    language_id = data.language.english.id
-    label = 'CopyrightNotice'
-    description = ''
-}
-
 
 resource string_metafield copyrightnotice {
     max_length = 0

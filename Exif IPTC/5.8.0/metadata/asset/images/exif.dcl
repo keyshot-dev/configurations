@@ -1,23 +1,9 @@
-resource item_security metafield_group_exif__anonymous {
-    accessor_item_id = data.member_group.anonymous.item_id
-    item_id = resource.metafield_group.exif.item_id
-    read = true
-    write = false
-}
-
-resource item_security metafield_group_exif__trusted {
-    accessor_item_id = data.member_group.trusted.item_id
+resource item_security metafield_group_exif__system {
+    accessor_item_id = data.member.system.item_id
     item_id = resource.metafield_group.exif.item_id
     read = true
     write = true
 }
-
-resource metafield_group_label exif {
-    metafield_group_id = resource.metafield_group.exif.metafield_group_id
-    language_id = data.language.english.id
-    label = 'Exif'
-}
-
 
 resource metafield_group exif {
     name = 'Exif'

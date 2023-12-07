@@ -1,24 +1,9 @@
-resource item_security string_metafield_subjectdistance__anonymous {
-    accessor_item_id = data.member_group.anonymous.item_id
-    item_id = resource.string_metafield.subjectdistance.item_id
-    read = true
-    write = false
-}
-
-resource item_security string_metafield_subjectdistance__trusted {
-    accessor_item_id = data.member_group.trusted.item_id
+resource item_security string_metafield_subjectdistance__system{
+    accessor_item_id = data.member.system.item_id
     item_id = resource.string_metafield.subjectdistance.item_id
     read = true
     write = true
 }
-
-resource metafield_label subjectdistance {
-    metafield_id = resource.string_metafield.subjectdistance.metafield_id
-    language_id = data.language.english.id
-    label = 'Subjectdistance'
-    description = ''
-}
-
 
 resource string_metafield subjectdistance {
     max_length = 0

@@ -1,21 +1,8 @@
-resource item_security metafield_group_iptc__anonymous {
-    accessor_item_id = data.member_group.anonymous.item_id
-    item_id = resource.metafield_group.iptc.item_id
-    read = true
-    write = false
-}
-
-resource item_security metafield_group_iptc__trusted {
-    accessor_item_id = data.member_group.trusted.item_id
+resource item_security metafield_group_iptc__system {
+    accessor_item_id = data.member.system.item_id
     item_id = resource.metafield_group.iptc.item_id
     read = true
     write = true
-}
-
-resource metafield_group_label iptc {
-    metafield_group_id = resource.metafield_group.iptc.metafield_group_id
-    language_id = data.language.english.id
-    label = 'IPTC'
 }
 
 resource metafield_group iptc {

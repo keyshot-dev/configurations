@@ -1,24 +1,9 @@
-resource item_security string_metafield_keywords__anonymous {
-    accessor_item_id = data.member_group.anonymous.item_id
-    item_id = resource.string_metafield.keywords.item_id
-    read = true
-    write = false
-}
-
-resource item_security string_metafield_keywords__trusted {
-    accessor_item_id = data.member_group.trusted.item_id
+resource item_security string_metafield_keywords__system {
+    accessor_item_id = data.member.system.item_id
     item_id = resource.string_metafield.keywords.item_id
     read = true
     write = true
 }
-
-resource metafield_label keywords {
-    metafield_id = resource.string_metafield.keywords.metafield_id
-    language_id = data.language.english.id
-    label = 'Keywords'
-    description = ''
-}
-
 
 resource string_metafield keywords {
     max_length = 0

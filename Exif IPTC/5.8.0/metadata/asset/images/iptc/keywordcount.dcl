@@ -14,23 +14,9 @@ resource int_metafield keywordcount {
     iterative = false
 }
 
-resource item_security int_metafield_keywordcount__anonymous {
-    accessor_item_id = data.member_group.anonymous.item_id
-    item_id = resource.int_metafield.keywordcount.item_id
-    read = true
-    write = false
-}
-
-resource item_security int_metafield_keywordcount__trusted {
-    accessor_item_id = data.member_group.trusted.item_id
+resource item_security int_metafield_keywordcount__system {
+    accessor_item_id = data.member.system.item_id
     item_id = resource.int_metafield.keywordcount.item_id
     read = true
     write = true
-}
-
-resource metafield_label keywordcount {
-    metafield_id = resource.int_metafield.keywordcount.metafield_id
-    language_id = data.language.english.id
-    label = 'KeywordCount'
-    description = ''
 }

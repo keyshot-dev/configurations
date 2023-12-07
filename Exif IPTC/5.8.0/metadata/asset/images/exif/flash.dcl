@@ -1,22 +1,8 @@
-resource item_security string_metafield_flash__anonymous {
-    accessor_item_id = data.member_group.anonymous.item_id
-    item_id = resource.string_metafield.flash.item_id
-    read = true
-    write = false
-}
-
-resource item_security string_metafield_flash__trusted {
-    accessor_item_id = data.member_group.trusted.item_id
+resource item_security string_metafield_flash__system {
+    accessor_item_id = data.member.system.item_id
     item_id = resource.string_metafield.flash.item_id
     read = true
     write = true
-}
-
-resource metafield_label flash {
-    metafield_id = resource.string_metafield.flash.metafield_id
-    language_id = data.language.english.id
-    label = 'Flash'
-    description = ''
 }
 
 resource string_metafield flash {

@@ -1,24 +1,9 @@
-resource item_security string_metafield_writereditor__anonymous {
-    accessor_item_id = data.member_group.anonymous.item_id
-    item_id = resource.string_metafield.writereditor.item_id
-    read = true
-    write = false
-}
-
-resource item_security string_metafield_writereditor__trusted {
-    accessor_item_id = data.member_group.trusted.item_id
+resource item_security string_metafield_writereditor__system {
+    accessor_item_id = data.member.system.item_id
     item_id = resource.string_metafield.writereditor.item_id
     read = true
     write = true
 }
-
-resource metafield_label writereditor {
-    metafield_id = resource.string_metafield.writereditor.metafield_id
-    language_id = data.language.english.id
-    label = 'Writer-Editor'
-    description = ''
-}
-
 
 resource string_metafield writereditor {
     max_length = 0

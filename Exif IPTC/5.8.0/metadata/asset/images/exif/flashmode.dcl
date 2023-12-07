@@ -14,24 +14,10 @@ resource int_metafield flashmode {
     iterative = false
 }
 
-resource item_security int_metafield_flashmode__anonymous {
-    accessor_item_id = data.member_group.anonymous.item_id
-    item_id = resource.int_metafield.flashmode.item_id
-    read = true
-    write = false
-}
-
-resource item_security int_metafield_flashmode__trusted {
-    accessor_item_id = data.member_group.trusted.item_id
+resource item_security int_metafield_flashmode__system {
+    accessor_item_id = data.member.system.item_id
     item_id = resource.int_metafield.flashmode.item_id
     read = true
     write = true
-}
-
-resource metafield_label flashmode {
-    metafield_id = resource.int_metafield.flashmode.metafield_id
-    language_id = data.language.english.id
-    label = 'FlashMode'
-    description = ''
 }
 
