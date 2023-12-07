@@ -25,6 +25,11 @@
         "locked": true
     },
     {
+        "name": "Exif IPTC",
+        "order": -50,
+        "locked": false
+    },
+    {
         "name": "OOBE",
         "order": -10,
         "locked": false
