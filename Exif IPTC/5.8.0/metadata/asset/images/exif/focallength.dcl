@@ -1,29 +1,29 @@
-resource item_security string_metafield_focallength_50455__anonymous_31 {
+resource item_security string_metafield_focallength__anonymous {
     accessor_item_id = data.member_group.anonymous.item_id
-    item_id = resource.string_metafield.focallength_50455.item_id
+    item_id = resource.string_metafield.focallength.item_id
     read = true
     write = false
 }
 
-resource item_security string_metafield_focallength_50455__trusted_15 {
+resource item_security string_metafield_focallength__trusted {
     accessor_item_id = data.member_group.trusted.item_id
-    item_id = resource.string_metafield.focallength_50455.item_id
+    item_id = resource.string_metafield.focallength.item_id
     read = true
     write = true
 }
 
-resource metafield_label focallength_51634 {
-    metafield_id = resource.string_metafield.focallength_50455.metafield_id
+resource metafield_label focallength {
+    metafield_id = resource.string_metafield.focallength.metafield_id
     language_id = data.language.english.id
     label = 'Focallength'
     description = ''
 }
 
 
-resource string_metafield focallength_50455 {
+resource string_metafield focallength {
     max_length = 0
     name = 'Focallength'
-    group_id = resource.metafield_group.exif_50014.metafield_group_id
+    group_id = resource.metafield_group.exif.metafield_group_id
     sort_index = 10395
     visibility_metafield_id = 0
     visibility_regex = ''

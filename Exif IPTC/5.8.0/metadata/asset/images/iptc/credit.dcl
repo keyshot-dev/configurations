@@ -1,29 +1,29 @@
-resource item_security string_metafield_credit_50421__anonymous_31 {
+resource item_security string_metafield_credit__anonymous {
     accessor_item_id = data.member_group.anonymous.item_id
-    item_id = resource.string_metafield.credit_50421.item_id
+    item_id = resource.string_metafield.credit.item_id
     read = true
     write = false
 }
 
-resource item_security string_metafield_credit_50421__trusted_15 {
+resource item_security string_metafield_credit__trusted {
     accessor_item_id = data.member_group.trusted.item_id
-    item_id = resource.string_metafield.credit_50421.item_id
+    item_id = resource.string_metafield.credit.item_id
     read = true
     write = true
 }
 
-resource metafield_label credit_51566 {
-    metafield_id = resource.string_metafield.credit_50421.metafield_id
+resource metafield_label credit {
+    metafield_id = resource.string_metafield.credit.metafield_id
     language_id = data.language.english.id
     label = 'Credit'
     description = ''
 }
 
 
-resource string_metafield credit_50421 {
+resource string_metafield credit {
     max_length = 0
     name = 'Credit'
-    group_id = resource.metafield_group.iptc_50015.metafield_group_id
+    group_id = resource.metafield_group.iptc.metafield_group_id
     sort_index = 50067
     visibility_metafield_id = 0
     visibility_regex = ''

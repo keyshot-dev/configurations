@@ -1,28 +1,28 @@
-resource item_security string_metafield_sharpness_50465__anonymous_31 {
+resource item_security string_metafield_sharpness__anonymous {
     accessor_item_id = data.member_group.anonymous.item_id
-    item_id = resource.string_metafield.sharpness_50465.item_id
+    item_id = resource.string_metafield.sharpness.item_id
     read = true
     write = false
 }
 
-resource item_security string_metafield_sharpness_50465__trusted_15 {
+resource item_security string_metafield_sharpness__trusted {
     accessor_item_id = data.member_group.trusted.item_id
-    item_id = resource.string_metafield.sharpness_50465.item_id
+    item_id = resource.string_metafield.sharpness.item_id
     read = true
     write = true
 }
 
-resource metafield_label sharpness_51656 {
-    metafield_id = resource.string_metafield.sharpness_50465.metafield_id
+resource metafield_label sharpness {
+    metafield_id = resource.string_metafield.sharpness.metafield_id
     language_id = data.language.english.id
     label = 'Sharpness'
     description = ''
 }
 
-resource string_metafield sharpness_50465 {
+resource string_metafield sharpness {
     max_length = 0
     name = 'Sharpness'
-    group_id = resource.metafield_group.exif_50014.metafield_group_id
+    group_id = resource.metafield_group.exif.metafield_group_id
     sort_index = 10401
     visibility_metafield_id = 0
     visibility_regex = ''

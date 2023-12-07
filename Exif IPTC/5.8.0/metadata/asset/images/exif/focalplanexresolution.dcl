@@ -1,29 +1,29 @@
-resource item_security string_metafield_focalplanexresolution_50456__anonymous_31 {
+resource item_security string_metafield_focalplanexresolution__anonymous {
     accessor_item_id = data.member_group.anonymous.item_id
-    item_id = resource.string_metafield.focalplanexresolution_50456.item_id
+    item_id = resource.string_metafield.focalplanexresolution.item_id
     read = true
     write = false
 }
 
-resource item_security string_metafield_focalplanexresolution_50456__trusted_15 {
+resource item_security string_metafield_focalplanexresolution__trusted {
     accessor_item_id = data.member_group.trusted.item_id
-    item_id = resource.string_metafield.focalplanexresolution_50456.item_id
+    item_id = resource.string_metafield.focalplanexresolution.item_id
     read = true
     write = true
 }
 
-resource metafield_label focalplanexresolution_51640 {
-    metafield_id = resource.string_metafield.focalplanexresolution_50456.metafield_id
+resource metafield_label focalplanexresolution {
+    metafield_id = resource.string_metafield.focalplanexresolution.metafield_id
     language_id = data.language.english.id
     label = 'Focalplanexresolution'
     description = ''
 }
 
 
-resource string_metafield focalplanexresolution_50456 {
+resource string_metafield focalplanexresolution {
     max_length = 0
     name = 'Focalplanexresolution'
-    group_id = resource.metafield_group.exif_50014.metafield_group_id
+    group_id = resource.metafield_group.exif.metafield_group_id
     sort_index = 10396
     visibility_metafield_id = 0
     visibility_regex = ''

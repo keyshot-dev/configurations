@@ -1,29 +1,29 @@
-resource item_security string_metafield_shutterspeedvalue_50471__anonymous_31 {
+resource item_security string_metafield_shutterspeedvalue__anonymous {
     accessor_item_id = data.member_group.anonymous.item_id
-    item_id = resource.string_metafield.shutterspeedvalue_50471.item_id
+    item_id = resource.string_metafield.shutterspeedvalue.item_id
     read = true
     write = false
 }
 
-resource item_security string_metafield_shutterspeedvalue_50471__trusted_15 {
+resource item_security string_metafield_shutterspeedvalue__trusted {
     accessor_item_id = data.member_group.trusted.item_id
-    item_id = resource.string_metafield.shutterspeedvalue_50471.item_id
+    item_id = resource.string_metafield.shutterspeedvalue.item_id
     read = true
     write = true
 }
 
-resource metafield_label shutterspeedvalue_51666 {
-    metafield_id = resource.string_metafield.shutterspeedvalue_50471.metafield_id
+resource metafield_label shutterspeedvalue {
+    metafield_id = resource.string_metafield.shutterspeedvalue.metafield_id
     language_id = data.language.english.id
     label = 'Shutterspeedvalue'
     description = ''
 }
 
 
-resource string_metafield shutterspeedvalue_50471 {
+resource string_metafield shutterspeedvalue {
     max_length = 0
     name = 'Shutterspeedvalue'
-    group_id = resource.metafield_group.exif_50014.metafield_group_id
+    group_id = resource.metafield_group.exif.metafield_group_id
     sort_index = 10392
     visibility_metafield_id = 0
     visibility_regex = ''

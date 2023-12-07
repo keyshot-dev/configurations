@@ -1,29 +1,29 @@
-resource item_security string_metafield_copyrightnotice_50417__anonymous_31 {
+resource item_security string_metafield_copyrightnotice__anonymous {
     accessor_item_id = data.member_group.anonymous.item_id
-    item_id = resource.string_metafield.copyrightnotice_50417.item_id
+    item_id = resource.string_metafield.copyrightnotice.item_id
     read = true
     write = false
 }
 
-resource item_security string_metafield_copyrightnotice_50417__trusted_15 {
+resource item_security string_metafield_copyrightnotice__trusted {
     accessor_item_id = data.member_group.trusted.item_id
-    item_id = resource.string_metafield.copyrightnotice_50417.item_id
+    item_id = resource.string_metafield.copyrightnotice.item_id
     read = true
     write = true
 }
 
-resource metafield_label copyrightnotice_51558 {
-    metafield_id = resource.string_metafield.copyrightnotice_50417.metafield_id
+resource metafield_label copyrightnotice {
+    metafield_id = resource.string_metafield.copyrightnotice.metafield_id
     language_id = data.language.english.id
     label = 'CopyrightNotice'
     description = ''
 }
 
 
-resource string_metafield copyrightnotice_50417 {
+resource string_metafield copyrightnotice {
     max_length = 0
     name = 'CopyrightNotice'
-    group_id = resource.metafield_group.iptc_50015.metafield_group_id
+    group_id = resource.metafield_group.iptc.metafield_group_id
     sort_index = 50052
     visibility_metafield_id = 0
     visibility_regex = ''

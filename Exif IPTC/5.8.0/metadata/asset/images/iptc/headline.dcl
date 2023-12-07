@@ -1,28 +1,28 @@
-resource item_security string_metafield_headline_50424__anonymous_31 {
+resource item_security string_metafield_headline__anonymous {
     accessor_item_id = data.member_group.anonymous.item_id
-    item_id = resource.string_metafield.headline_50424.item_id
+    item_id = resource.string_metafield.headline.item_id
     read = true
     write = false
 }
 
-resource item_security string_metafield_headline_50424__trusted_15 {
+resource item_security string_metafield_headline__trusted {
     accessor_item_id = data.member_group.trusted.item_id
-    item_id = resource.string_metafield.headline_50424.item_id
+    item_id = resource.string_metafield.headline.item_id
     read = true
     write = true
 }
 
-resource metafield_label headline_51574 {
-    metafield_id = resource.string_metafield.headline_50424.metafield_id
+resource metafield_label headline {
+    metafield_id = resource.string_metafield.headline.metafield_id
     language_id = data.language.english.id
     label = 'Headline'
     description = ''
 }
 
-resource string_metafield headline_50424 {
+resource string_metafield headline {
     max_length = 0
     name = 'Headline'
-    group_id = resource.metafield_group.iptc_50015.metafield_group_id
+    group_id = resource.metafield_group.iptc.metafield_group_id
     sort_index = 50065
     visibility_metafield_id = 0
     visibility_regex = ''

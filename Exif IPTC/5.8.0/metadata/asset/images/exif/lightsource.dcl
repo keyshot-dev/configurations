@@ -1,29 +1,29 @@
-resource item_security string_metafield_lightsource_50458__anonymous_31 {
+resource item_security string_metafield_lightsource__anonymous {
     accessor_item_id = data.member_group.anonymous.item_id
-    item_id = resource.string_metafield.lightsource_50458.item_id
+    item_id = resource.string_metafield.lightsource.item_id
     read = true
     write = false
 }
 
-resource item_security string_metafield_lightsource_50458__trusted_15 {
+resource item_security string_metafield_lightsource__trusted {
     accessor_item_id = data.member_group.trusted.item_id
-    item_id = resource.string_metafield.lightsource_50458.item_id
+    item_id = resource.string_metafield.lightsource.item_id
     read = true
     write = true
 }
 
-resource metafield_label lightsource_51638 {
-    metafield_id = resource.string_metafield.lightsource_50458.metafield_id
+resource metafield_label lightsource {
+    metafield_id = resource.string_metafield.lightsource.metafield_id
     language_id = data.language.english.id
     label = 'Lightsource'
     description = ''
 }
 
 
-resource string_metafield lightsource_50458 {
+resource string_metafield lightsource {
     max_length = 0
     name = 'Lightsource'
-    group_id = resource.metafield_group.exif_50014.metafield_group_id
+    group_id = resource.metafield_group.exif.metafield_group_id
     sort_index = 10379
     visibility_metafield_id = 0
     visibility_regex = ''

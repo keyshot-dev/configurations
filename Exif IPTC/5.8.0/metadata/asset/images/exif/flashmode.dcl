@@ -1,6 +1,6 @@
-resource int_metafield flashmode_50451 {
+resource int_metafield flashmode {
     name = 'FlashMode'
-    group_id = resource.metafield_group.exif_50014.metafield_group_id
+    group_id = resource.metafield_group.exif.metafield_group_id
     sort_index = 50078
     visibility_metafield_id = 0
     visibility_regex = ''
@@ -14,22 +14,22 @@ resource int_metafield flashmode_50451 {
     iterative = false
 }
 
-resource item_security int_metafield_flashmode_50451__anonymous_31 {
+resource item_security int_metafield_flashmode__anonymous {
     accessor_item_id = data.member_group.anonymous.item_id
-    item_id = resource.int_metafield.flashmode_50451.item_id
+    item_id = resource.int_metafield.flashmode.item_id
     read = true
     write = false
 }
 
-resource item_security int_metafield_flashmode_50451__trusted_15 {
+resource item_security int_metafield_flashmode__trusted {
     accessor_item_id = data.member_group.trusted.item_id
-    item_id = resource.int_metafield.flashmode_50451.item_id
+    item_id = resource.int_metafield.flashmode.item_id
     read = true
     write = true
 }
 
-resource metafield_label flashmode_51626 {
-    metafield_id = resource.int_metafield.flashmode_50451.metafield_id
+resource metafield_label flashmode {
+    metafield_id = resource.int_metafield.flashmode.metafield_id
     language_id = data.language.english.id
     label = 'FlashMode'
     description = ''

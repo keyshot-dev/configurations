@@ -1,28 +1,28 @@
-resource item_security string_metafield_aperture_50440__anonymous_31 {
+resource item_security string_metafield_aperture__anonymous {
     accessor_item_id = data.member_group.anonymous.item_id
-    item_id = resource.string_metafield.aperture_50440.item_id
+    item_id = resource.string_metafield.aperture.item_id
     read = true
     write = false
 }
 
-resource item_security string_metafield_aperture_50440__trusted_15 {
+resource item_security string_metafield_aperture__trusted {
     accessor_item_id = data.member_group.trusted.item_id
-    item_id = resource.string_metafield.aperture_50440.item_id
+    item_id = resource.string_metafield.aperture.item_id
     read = true
     write = true
 }
 
-resource metafield_label aperture_51604 {
-    metafield_id = resource.string_metafield.aperture_50440.metafield_id
+resource metafield_label aperture {
+    metafield_id = resource.string_metafield.aperture.metafield_id
     language_id = data.language.english.id
     label = 'Aperture'
     description = ''
 }
 
-resource string_metafield aperture_50440 {
+resource string_metafield aperture {
     max_length = 0
     name = 'Aperture'
-    group_id = resource.metafield_group.exif_50014.metafield_group_id
+    group_id = resource.metafield_group.exif.metafield_group_id
     sort_index = 10377
     visibility_metafield_id = 0
     visibility_regex = ''

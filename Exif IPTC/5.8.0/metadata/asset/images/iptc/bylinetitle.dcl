@@ -1,29 +1,29 @@
-resource item_security string_metafield_bylinetitle_50420__anonymous_31 {
+resource item_security string_metafield_bylinetitle__anonymous {
     accessor_item_id = data.member_group.anonymous.item_id
-    item_id = resource.string_metafield.bylinetitle_50420.item_id
+    item_id = resource.string_metafield.bylinetitle.item_id
     read = true
     write = false
 }
 
-resource item_security string_metafield_bylinetitle_50420__trusted_15 {
+resource item_security string_metafield_bylinetitle__trusted {
     accessor_item_id = data.member_group.trusted.item_id
-    item_id = resource.string_metafield.bylinetitle_50420.item_id
+    item_id = resource.string_metafield.bylinetitle.item_id
     read = true
     write = true
 }
 
-resource metafield_label bylinetitle_51564 {
-    metafield_id = resource.string_metafield.bylinetitle_50420.metafield_id
+resource metafield_label bylinetitle {
+    metafield_id = resource.string_metafield.bylinetitle.metafield_id
     language_id = data.language.english.id
     label = 'By-lineTitle'
     description = ''
 }
 
 
-resource string_metafield bylinetitle_50420 {
+resource string_metafield bylinetitle {
     max_length = 0
     name = 'By-lineTitle'
-    group_id = resource.metafield_group.iptc_50015.metafield_group_id
+    group_id = resource.metafield_group.iptc.metafield_group_id
     sort_index = 50050
     visibility_metafield_id = 0
     visibility_regex = ''

@@ -1,28 +1,28 @@
-resource item_security metafield_group_iptc_50015__anonymous_31 {
+resource item_security metafield_group_iptc__anonymous {
     accessor_item_id = data.member_group.anonymous.item_id
-    item_id = resource.metafield_group.iptc_50015.item_id
+    item_id = resource.metafield_group.iptc.item_id
     read = true
     write = false
 }
 
-resource item_security metafield_group_iptc_50015__trusted_15 {
+resource item_security metafield_group_iptc__trusted {
     accessor_item_id = data.member_group.trusted.item_id
-    item_id = resource.metafield_group.iptc_50015.item_id
+    item_id = resource.metafield_group.iptc.item_id
     read = true
     write = true
 }
 
-resource metafield_group_label iptc_51546 {
-    metafield_group_id = resource.metafield_group.iptc_50015.metafield_group_id
+resource metafield_group_label iptc {
+    metafield_group_id = resource.metafield_group.iptc.metafield_group_id
     language_id = data.language.english.id
     label = 'IPTC'
 }
 
-resource metafield_group iptc_50015 {
+resource metafield_group iptc {
     name = 'IPTC'
     description = ''
     show_in_list = true
-    folder_id = resource.meta_group_folder.images_50055.id
+    folder_id = resource.meta_group_folder.images.id
     sort_index = 50048
     restrict_to_asset = 'Image'
     iterative = false

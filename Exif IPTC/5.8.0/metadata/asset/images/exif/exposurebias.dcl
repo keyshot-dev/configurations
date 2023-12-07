@@ -1,29 +1,29 @@
-resource item_security string_metafield_exposurebias_50446__anonymous_31 {
+resource item_security string_metafield_exposurebias__anonymous {
     accessor_item_id = data.member_group.anonymous.item_id
-    item_id = resource.string_metafield.exposurebias_50446.item_id
+    item_id = resource.string_metafield.exposurebias.item_id
     read = true
     write = false
 }
 
-resource item_security string_metafield_exposurebias_50446__trusted_15 {
+resource item_security string_metafield_exposurebias__trusted {
     accessor_item_id = data.member_group.trusted.item_id
-    item_id = resource.string_metafield.exposurebias_50446.item_id
+    item_id = resource.string_metafield.exposurebias.item_id
     read = true
     write = true
 }
 
-resource metafield_label exposurebias_51616 {
-    metafield_id = resource.string_metafield.exposurebias_50446.metafield_id
+resource metafield_label exposurebias {
+    metafield_id = resource.string_metafield.exposurebias.metafield_id
     language_id = data.language.english.id
     label = 'Exposurebias'
     description = ''
 }
 
 
-resource string_metafield exposurebias_50446 {
+resource string_metafield exposurebias {
     max_length = 0
     name = 'Exposurebias'
-    group_id = resource.metafield_group.exif_50014.metafield_group_id
+    group_id = resource.metafield_group.exif.metafield_group_id
     sort_index = 10381
     visibility_metafield_id = 0
     visibility_regex = ''

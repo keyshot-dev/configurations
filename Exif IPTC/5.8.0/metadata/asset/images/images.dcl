@@ -1,29 +1,29 @@
-resource item_security metafield_group_images_50013__anonymous_31 {
+resource item_security metafield_group_images__anonymous {
     accessor_item_id = data.member_group.anonymous.item_id
-    item_id = resource.metafield_group.images_50013.item_id
+    item_id = resource.metafield_group.images.item_id
     read = true
     write = false
 }
 
-resource item_security metafield_group_images_50013__trusted_15 {
+resource item_security metafield_group_images__trusted {
     accessor_item_id = data.member_group.trusted.item_id
-    item_id = resource.metafield_group.images_50013.item_id
+    item_id = resource.metafield_group.images.item_id
     read = true
     write = true
 }
 
-resource metafield_group_label image_51550 {
-    metafield_group_id = resource.metafield_group.images_50013.metafield_group_id
+resource metafield_group_label image {
+    metafield_group_id = resource.metafield_group.images.metafield_group_id
     language_id = data.language.english.id
     label = 'Image'
 }
 
 
-resource metafield_group images_50013 {
+resource metafield_group images {
     name = 'Images'
     description = ''
     show_in_list = false
-    folder_id = resource.meta_group_folder.images_50055.id
+    folder_id = resource.meta_group_folder.images.id
     sort_index = 50035
     restrict_to_asset = 'Image'
     iterative = false

@@ -1,6 +1,6 @@
-resource int_metafield imagerotation_50430 {
+resource int_metafield imagerotation {
     name = 'ImageRotation'
-    group_id = resource.metafield_group.images_50013.metafield_group_id
+    group_id = resource.metafield_group.images.metafield_group_id
     sort_index = 0
     visibility_metafield_id = 0
     visibility_regex = ''
@@ -14,15 +14,15 @@ resource int_metafield imagerotation_50430 {
     iterative = false
 }
 
-resource item_security int_metafield_imagerotation_50430__trusted_15 {
+resource item_security int_metafield_imagerotation__trusted {
     accessor_item_id = data.member_group.trusted.item_id
-    item_id = resource.int_metafield.imagerotation_50430.item_id
+    item_id = resource.int_metafield.imagerotation.item_id
     read = true
     write = true
 }
 
-resource metafield_label imagerotation_51582 {
-    metafield_id = resource.int_metafield.imagerotation_50430.metafield_id
+resource metafield_label imagerotation {
+    metafield_id = resource.int_metafield.imagerotation.metafield_id
     language_id = data.language.english.id
     label = 'ImageRotation'
     description = ''

@@ -1,28 +1,28 @@
-resource item_security string_metafield_exiftoolversion_50445__anonymous_31 {
+resource item_security string_metafield_exiftoolversion__anonymous {
     accessor_item_id = data.member_group.anonymous.item_id
-    item_id = resource.string_metafield.exiftoolversion_50445.item_id
+    item_id = resource.string_metafield.exiftoolversion.item_id
     read = true
     write = false
 }
 
-resource item_security string_metafield_exiftoolversion_50445__trusted_15 {
+resource item_security string_metafield_exiftoolversion__trusted {
     accessor_item_id = data.member_group.trusted.item_id
-    item_id = resource.string_metafield.exiftoolversion_50445.item_id
+    item_id = resource.string_metafield.exiftoolversion.item_id
     read = true
     write = true
 }
 
-resource metafield_label exiftoolversion_51614 {
-    metafield_id = resource.string_metafield.exiftoolversion_50445.metafield_id
+resource metafield_label exiftoolversion {
+    metafield_id = resource.string_metafield.exiftoolversion.metafield_id
     language_id = data.language.english.id
     label = 'Exiftoolversion'
     description = ''
 }
 
-resource string_metafield exiftoolversion_50445 {
+resource string_metafield exiftoolversion {
     max_length = 0
     name = 'Exiftoolversion'
-    group_id = resource.metafield_group.exif_50014.metafield_group_id
+    group_id = resource.metafield_group.exif.metafield_group_id
     sort_index = 10374
     visibility_metafield_id = 0
     visibility_regex = ''

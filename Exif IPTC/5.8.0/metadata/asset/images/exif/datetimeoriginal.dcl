@@ -1,28 +1,28 @@
-resource item_security string_metafield_datetimeoriginal_50443__anonymous_31 {
+resource item_security string_metafield_datetimeoriginal__anonymous {
     accessor_item_id = data.member_group.anonymous.item_id
-    item_id = resource.string_metafield.datetimeoriginal_50443.item_id
+    item_id = resource.string_metafield.datetimeoriginal.item_id
     read = true
     write = false
 }
 
-resource item_security string_metafield_datetimeoriginal_50443__trusted_15 {
+resource item_security string_metafield_datetimeoriginal__trusted {
     accessor_item_id = data.member_group.trusted.item_id
-    item_id = resource.string_metafield.datetimeoriginal_50443.item_id
+    item_id = resource.string_metafield.datetimeoriginal.item_id
     read = true
     write = true
 }
 
-resource metafield_label datetimeoriginal_51610 {
-    metafield_id = resource.string_metafield.datetimeoriginal_50443.metafield_id
+resource metafield_label datetimeoriginal {
+    metafield_id = resource.string_metafield.datetimeoriginal.metafield_id
     language_id = data.language.english.id
     label = 'Datetimeoriginal'
     description = ''
 }
 
-resource string_metafield datetimeoriginal_50443 {
+resource string_metafield datetimeoriginal {
     max_length = 0
     name = 'Datetimeoriginal'
-    group_id = resource.metafield_group.exif_50014.metafield_group_id
+    group_id = resource.metafield_group.exif.metafield_group_id
     sort_index = 10376
     visibility_metafield_id = 0
     visibility_regex = ''

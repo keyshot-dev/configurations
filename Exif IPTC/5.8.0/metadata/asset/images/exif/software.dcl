@@ -1,28 +1,28 @@
-resource item_security string_metafield_software_50469__anonymous_31 {
+resource item_security string_metafield_software__anonymous {
     accessor_item_id = data.member_group.anonymous.item_id
-    item_id = resource.string_metafield.software_50469.item_id
+    item_id = resource.string_metafield.software.item_id
     read = true
     write = false
 }
 
-resource item_security string_metafield_software_50469__trusted_15 {
+resource item_security string_metafield_software__trusted {
     accessor_item_id = data.member_group.trusted.item_id
-    item_id = resource.string_metafield.software_50469.item_id
+    item_id = resource.string_metafield.software.item_id
     read = true
     write = true
 }
 
-resource metafield_label software_51660 {
-    metafield_id = resource.string_metafield.software_50469.metafield_id
+resource metafield_label software {
+    metafield_id = resource.string_metafield.software.metafield_id
     language_id = data.language.english.id
     label = 'Software'
     description = ''
 }
 
-resource string_metafield software_50469 {
+resource string_metafield software {
     max_length = 0
     name = 'Software'
-    group_id = resource.metafield_group.exif_50014.metafield_group_id
+    group_id = resource.metafield_group.exif.metafield_group_id
     sort_index = 10373
     visibility_metafield_id = 0
     visibility_regex = ''

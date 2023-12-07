@@ -1,29 +1,29 @@
-resource item_security string_metafield_countrycode_50419__anonymous_31 {
+resource item_security string_metafield_countrycode__anonymous {
     accessor_item_id = data.member_group.anonymous.item_id
-    item_id = resource.string_metafield.countrycode_50419.item_id
+    item_id = resource.string_metafield.countrycode.item_id
     read = true
     write = false
 }
 
-resource item_security string_metafield_countrycode_50419__trusted_15 {
+resource item_security string_metafield_countrycode__trusted {
     accessor_item_id = data.member_group.trusted.item_id
-    item_id = resource.string_metafield.countrycode_50419.item_id
+    item_id = resource.string_metafield.countrycode.item_id
     read = true
     write = true
 }
 
-resource metafield_label countrycode_51552 {
-    metafield_id = resource.string_metafield.countrycode_50419.metafield_id
+resource metafield_label countrycode {
+    metafield_id = resource.string_metafield.countrycode.metafield_id
     language_id = data.language.english.id
     label = 'CountryCode'
     description = ''
 }
 
 
-resource string_metafield countrycode_50419 {
+resource string_metafield countrycode {
     max_length = 0
     name = 'CountryCode'
-    group_id = resource.metafield_group.iptc_50015.metafield_group_id
+    group_id = resource.metafield_group.iptc.metafield_group_id
     sort_index = 50059
     visibility_metafield_id = 0
     visibility_regex = ''
