@@ -7,5 +7,6 @@ resource configservice_string_config_field intro_screen_text {
     title = "Intro screen's text field's content"
     description = "This text will appear in the middle of the intro screen's text field (Only if splashscreen or disclaimer is chosen)."
     language_versioned = true
+    hidden = true
 }
 
