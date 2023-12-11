@@ -12,18 +12,11 @@ resource configservice_combo_config_field_option upload_duplicate_detection_type
     is_default_selected = false
 }
 
-resource configservice_combo_config_field_option upload_duplicate_detection_types__filename_with_extension {
+resource configservice_combo_config_field_option upload_duplicate_detection_types__original_filename {
     configservice_field_id = resource.configservice_multi_combo_config_field.upload_duplicate_detection_types.id
-    value = 'FilenameWithExtension'
-    title = 'Filename with extension'
+    value = 'OriginalFilename'
+    title = 'Original filename'
     is_default_selected = true
-}
-
-resource configservice_combo_config_field_option upload_duplicate_detection_types__filename_without_extension {
-    configservice_field_id = resource.configservice_multi_combo_config_field.upload_duplicate_detection_types.id
-    value = 'FilenameWithoutExtension'
-    title = 'Filename without extension'
-    is_default_selected = false
 }
 
 resource configservice_combo_config_field_option upload_duplicate_detection_types__use_meta_field {
