@@ -7176,3 +7176,19 @@ resource configservice_label settings_required_claims_editor_remove {
 }
 
 
+resource configservice_label settings_sso_settings_additional_valid_audiences {
+  key = 'SETTINGS_SSO_SETTINGS_ADDITIONAL_VALID_AUDIENCES'
+  group = 'settings - sso-settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Additional valid audiences'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Yderligere gyldige audiences'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
