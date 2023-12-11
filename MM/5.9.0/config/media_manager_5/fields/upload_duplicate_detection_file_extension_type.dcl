@@ -7,7 +7,7 @@ resource configservice_combo_config_field_option upload_duplicate_detection_file
 
 resource configservice_combo_config_field_option upload_duplicate_detection_file_extension_type__with_extension {
     configservice_field_id = resource.configservice_combo_config_field.upload_duplicate_detection_file_extension_type.id
-    value = 'WithExtension
+    value = 'WithExtension'
     title = 'With extension'
     is_default_selected = true
 }
