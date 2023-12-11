@@ -7182,11 +7182,11 @@ resource configservice_label settings_sso_settings_additional_valid_audiences {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Additional valid "audiences"'
+      default_translation = 'Additional valid audiences'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Yderligere gyldige "audiences"'
+      default_translation = 'Yderligere gyldige audiences'
       language_id = data.language.danish.id
     }
   ]
