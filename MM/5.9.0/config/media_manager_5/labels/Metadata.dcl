@@ -1438,7 +1438,7 @@ resource configservice_label error_metadata_editor_save_body {
   ]
 }
 
-resource configservice_label error_metadata_editor_save_body {
+resource configservice_label error_metadata_editor_save {
   key = 'ERROR_METADATA_EDITOR_SAVE'
   group = 'Metadata'
   product_id = resource.configservice_product.media_manager_5.id
