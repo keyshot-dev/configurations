@@ -1438,6 +1438,22 @@ resource configservice_label error_metadata_editor_save_body {
   ]
 }
 
+resource configservice_label error_metadata_editor_save {
+  key = 'ERROR_METADATA_EDITOR_SAVE'
+  group = 'Metadata'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'An error occurred while saving. Your changes have not been saved.'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Der skete en fejl da vi prøvede at gemme. Dine ændringer er ikke blevet gemt.'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label multi_metadata_editor_multi_combo_value_input_select_or_add_tags {
   key = 'MULTI_METADATA_EDITOR_MULTI_COMBO_VALUE_INPUT_SELECT_OR_ADD_TAGS'
   group = 'Metadata'
