@@ -430,6 +430,70 @@ resource configservice_label selected_assets_overlay_metadata_download_field_sel
   ]
 }
 
+resource configservice_label selected_assets_overlay_metadata_download_field_selector_system {
+  key = 'SELECTED_ASSETS_OVERLAY_METADATA_DOWNLOAD_FIELD_SELECTOR_SYSTEM'
+  group = 'Selected Assets'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Properties'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Egenskaber'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label selected_assets_overlay_metadata_download_field_selector_system_placeholder {
+  key = 'SELECTED_ASSETS_OVERLAY_METADATA_DOWNLOAD_FIELD_SELECTOR_SYSTEM_PLACEHOLDER'
+  group = 'Selected Assets'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = '{all, select, true {All properties selected} false {No properties selected}}'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = '{all, select, true {Alle egenskaber er valgt} false {Ingen egenskaber er valgt}}'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label selected_assets_overlay_metadata_download_field_selector_system_mixed {
+  key = 'SELECTED_ASSETS_OVERLAY_METADATA_DOWNLOAD_FIELD_SELECTOR_SYSTEM_MIXED'
+  group = 'Selected Assets'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Multiple properties selected'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Flere egenskaber er valgt'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label selected_assets_overlay_metadata_download_field_selector_system_select_all {
+  key = 'SELECTED_ASSETS_OVERLAY_METADATA_DOWNLOAD_FIELD_SELECTOR_SYSTEM_SELECT_ALL'
+  group = 'Selected Assets'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Select all properties'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Vælg alle egenskaber'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label selected_assets_overlay_not_public_assets_dialog_do_you_want_to_create_collection {
   key = 'SELECTED_ASSETS_OVERLAY_NOT_PUBLIC_ASSETS_DIALOG_DO_YOU_WANT_TO_CREATE_COLLECTION'
   group = 'Selected Assets'
