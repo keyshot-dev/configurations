@@ -6439,6 +6439,22 @@ resource configservice_label settings_import_config_editor_asset_match_metafield
   ]
 }
 
+resource configservice_label settings_import_config_match_metafield_tooltip {
+  key = 'SETTINGS_IMPORT_CONFIG_MATCH_METAFIELD_TOOLTIP'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Match field'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Matching-felt'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label settings_import_config_editor_asset_match_asset_id {
   key = 'SETTINGS_IMPORT_CONFIG_EDITOR_ASSET_MATCH_ASSET_ID'
   group = 'Settings'
