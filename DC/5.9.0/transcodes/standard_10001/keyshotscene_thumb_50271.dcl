@@ -8,7 +8,7 @@ resource media_transcode keyshotscene_thumb_50271 {
     copy_target_icc_profile = false
     only_explicit_use = false
     prog_id = 'DigiKeyShotJobs.ExtractThumbnail'
-    folder_id = data.transcode_folder.standard_10001.id
+    folder_id = resource.transcode_folder.standard_10001.id
     embed_metadefinition = ''
     source_media_format_id = resource.media_format.keyshot_scene_50093.media_format_id
     target_media_format_id = resource.media_format.thumb_200x120_3.media_format_id
