@@ -7267,7 +7267,7 @@ resource configservice_label settings_menu_administration_tools_desc {
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Manage system (beta version)'
+      default_translation = 'Administrer system (beta version)'
       language_id = data.language.danish.id
     }
   ]
