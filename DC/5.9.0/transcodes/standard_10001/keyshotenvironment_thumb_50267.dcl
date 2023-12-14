@@ -14,7 +14,7 @@ resource media_transcode keyshotenvironment_thumb_50267 {
     target_media_format_id = resource.media_format.thumb_200x120_3.media_format_id
     prevref = 0
     autolink = {
-        item_guid = '1a91c9e0-b404-4a36-ac9d-93a41fcb5570'
+        item_guid = 'a8984596-428d-4d63-9f97-d89b340a87d8'
     }
 }
 

@@ -14,7 +14,7 @@ resource media_transcode keyshotenvironment_preview_50266 {
     target_media_format_id = resource.media_format.thumb_1920x1080_2.media_format_id
     prevref = 0
     autolink = {
-        item_guid = 'fb72e759-f40c-4f19-852b-74c642b15a0d'
+        item_guid = '1a91c9e0-b404-4a36-ac9d-93a41fcb5570'
     }
 }
 
