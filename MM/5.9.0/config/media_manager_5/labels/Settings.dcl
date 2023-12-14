@@ -1646,33 +1646,33 @@ resource configservice_label settings_menu_brand_portal_desc {
   ]
 }
 
-resource configservice_label settings_menu_system_administration_title {
-  key = 'SETTINGS_MENU_SYSTEM_ADMINISTRATION_TITLE'
+resource configservice_label settings_menu_services_overview_title {
+  key = 'SETTINGS_MENU_SERVICES_OVERVIEW_TITLE'
   group = 'Settings'
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'System administration'
+      default_translation = 'Services overview'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Systemadministration'
+      default_translation = 'Services-overblik'
       language_id = data.language.danish.id
     }
   ]
 }
 
-resource configservice_label settings_menu_system_administration_desc {
-  key = 'SETTINGS_MENU_SYSTEM_ADMINISTRATION_DESC'
+resource configservice_label settings_menu_services_overview_desc {
+  key = 'SETTINGS_MENU_SYSTEM_SERVICES_OVERVIEW_DESC'
   group = 'Settings'
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Administration'
+      default_translation = 'View status'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Administration'
+      default_translation = 'Se status'
       language_id = data.language.danish.id
     }
   ]
@@ -7208,3 +7208,67 @@ resource configservice_label settings_sso_settings_additional_valid_audiences {
   ]
 }
 
+
+resource configservice_label settings_menu_analytics_title {
+  key = 'SETTINGS_MENU_ANALYTICS_TITLE'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Analytics'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Analytics'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_menu_analytics_desc {
+  key = 'SETTINGS_MENU_ANALYTICS_DESC'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Usage data'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Usage data'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_menu_administration_tools_title {
+  key = 'SETTINGS_MENU_ADMINISTRATION_TOOLS_TITLE'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'System administration'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'System administration'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_menu_administration_tools_desc {
+  key = 'SETTINGS_MENU_ADMINISTRATION_TOOLS_DESC'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Manage system (beta version)'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Manage system (beta version)'
+      language_id = data.language.danish.id
+    }
+  ]
+}

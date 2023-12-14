@@ -2606,17 +2606,17 @@ resource configservice_label rabbit_details_messages_purge_messages_purge_dialog
   ]
 }
 
-resource configservice_label administration_tools_dashboard_tool_delete {
-  key = 'ADMINISTRATION_TOOLS_DASHBOARD_TOOL_DELETE'
+resource configservice_label administration_tools_dashboard_tool_delete_item {
+  key = 'ADMINISTRATION_TOOLS_DASHBOARD_TOOL_DELETE_ITEM'
   group = 'administration-tools - dashboard-tool'
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Delete'
+      default_translation = 'Remove'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Slet'
+      default_translation = 'Fjern'
       language_id = data.language.danish.id
     }
   ]
@@ -2661,11 +2661,76 @@ resource configservice_label administration_tools_dashboard_tool_delete_dashboar
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
+      default_translation = 'Delete'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Slet'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+
+resource configservice_label administration_tools_dashboard_tool_delete_dashboard_dialog_title {
+  key = 'ADMINISTRATION_TOOLS_DASHBOARD_TOOL_DELETE_DASHBOARD_DIALOG_TITLE'
+  group = 'administration-tools - dashboard-tool'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
       default_translation = 'Delete dashboard'
       language_id = data.language.english.id
     },
     {
       default_translation = 'Slet dashboard'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_dashboard_tool_delete_dashboard_dialog_body {
+  key = 'ADMINISTRATION_TOOLS_DASHBOARD_TOOL_DELETE_DASHBOARD_DIALOG_BODY'
+  group = 'administration-tools - dashboard-tool'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Are you sure you want to delete this dashboard?'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Er du sikker på, at du vil slette dette dashboard?'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_dashboard_tool_delete_dashboard_dialog_confirm {
+  key = 'ADMINISTRATION_TOOLS_DASHBOARD_TOOL_DELETE_DASHBOARD_DIALOG_CONFIRM'
+  group = 'administration-tools - dashboard-tool'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Delete dashboard'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Slet dashboard'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_dashboard_tool_delete_dashboard_dialog_cancel {
+  key = 'ADMINISTRATION_TOOLS_DASHBOARD_TOOL_DELETE_DASHBOARD_DIALOG_CANCEL'
+  group = 'administration-tools - dashboard-tool'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Keep'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Behold'
       language_id = data.language.danish.id
     }
   ]
@@ -3472,8 +3537,52 @@ resource configservice_label administration_tools_analytics_chart_builder_show_g
 }
 
 
+resource configservice_label ADMINISTRATION_TOOLS_PAGE_TITLE {
+  key = 'ADMINISTRATION_TOOLS_PAGE_TITLE'
+  group = 'administration-tools'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Administration'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Administration'
+      language_id = data.language.danish.id
+    }
+  ]
+}
 
+resource configservice_label administration_tools_section_label_dashboard {
+  key = 'ADMINISTRATION_TOOLS_SECTION_LABEL_DASHBOARD'
+  group = 'administration-tools'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Dashboard'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Dashboard'
+      language_id = data.language.danish.id
+    }
+  ]
+}
 
-
+resource configservice_label administration_tools_section_label_system {
+  key = 'ADMINISTRATION_TOOLS_SECTION_LABEL_SYSTEM'
+  group = 'administration-tools'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'System'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'System'
+      language_id = data.language.danish.id
+    }
+  ]
+}
 
 
