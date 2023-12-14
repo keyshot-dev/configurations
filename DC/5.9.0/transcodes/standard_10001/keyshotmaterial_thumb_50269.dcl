@@ -11,7 +11,7 @@ resource media_transcode keyshotmaterial_thumb_50269 {
     folder_id = data.transcode_folder.standard_10001.id
     embed_metadefinition = ''
     source_media_format_id = resource.media_format.keyshot_material_50092.media_format_id
-    target_media_format_id = data.media_format.thumb_200x120_3.media_format_id
+    target_media_format_id = resource.media_format.thumb_200x120_3.media_format_id
     prevref = 0
     autolink = {
         item_guid = '34dd38ca-435f-4949-8e48-d7897e5c8aec'
