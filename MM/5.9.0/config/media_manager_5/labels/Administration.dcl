@@ -3537,7 +3537,7 @@ resource configservice_label administration_tools_analytics_chart_builder_show_g
 }
 
 
-resource configservice_label ADMINISTRATION_TOOLS_PAGE_TITLE {
+resource configservice_label administration_tools_page_title {
   key = 'ADMINISTRATION_TOOLS_PAGE_TITLE'
   group = 'administration-tools'
   product_id = resource.configservice_product.media_manager_5.id
