@@ -1,14 +1,14 @@
-﻿resource configservice_label administration_overview_title {
-  key = 'ADMINISTRATION_OVERVIEW_TITLE'
+﻿resource configservice_label administration_services_overview_title {
+  key = 'ADMINISTRATION_SERVICES_OVERVIEW_TITLE'
   group = 'Administration'
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Administration overview'
+      default_translation = 'Services overview'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Administrations-oversigt'
+      default_translation = 'Services-oversigt'
       language_id = data.language.danish.id
     }
   ]

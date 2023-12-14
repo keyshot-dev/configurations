@@ -1656,7 +1656,7 @@ resource configservice_label settings_menu_services_overview_title {
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Services-overblik'
+      default_translation = 'Services-oversigt'
       language_id = data.language.danish.id
     }
   ]
