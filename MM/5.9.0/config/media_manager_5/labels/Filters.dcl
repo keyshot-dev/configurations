@@ -583,7 +583,7 @@ resource configservice_label asset_list_filters_configuration_option_tooltip {
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Indstillinger'
+      default_translation = 'Muligheder'
       language_id = data.language.danish.id
     }
   ]
