@@ -2077,3 +2077,19 @@ resource configservice_label multi_metadata_editor_no_results {
     }
   ]
 }
+
+resource configservice_label multi_metadata_editor_button_navigate_to_group {
+  key = 'MULTI_METADATA_EDITOR_BUTTON_NAVIGATE_TO_GROUP'
+  group = 'Metadata'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Navigate to group'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Gå til gruppe'
+      language_id = data.language.danish.id
+    }
+  ]
+}
