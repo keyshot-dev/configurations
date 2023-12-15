@@ -368,3 +368,39 @@ resource asset_type_configuration live_livemanifest {
     qualities = []
 }
 
+resource asset_type_configuration keyshotenvironment_keyshotenvironmentmanifest {
+    asset_type = 'KeyShotEnvironment'
+    destination_id = resource.storage_manager_destination.asset_storage_sm.destination_id
+    file_prefix = 'KeyShotEnvironmentmanifest'
+    encoder_profile_location = ''
+    qualities = [{
+            media_format_id = resource.media_format.thumb_200x120_3.media_format_id
+        }, {
+            media_format_id = resource.media_format.thumb_1920x1080_2.media_format_id
+        }]
+}
+
+resource asset_type_configuration keyshotmaterial_keyshotmaterialmanifest {
+    asset_type = 'KeyShotMaterial'
+    destination_id = resource.storage_manager_destination.asset_storage_sm.destination_id
+    file_prefix = 'KeyShotMaterialmanifest'
+    encoder_profile_location = ''
+    qualities = [{
+            media_format_id = resource.media_format.thumb_200x120_3.media_format_id
+        }, {
+            media_format_id = resource.media_format.thumb_1920x1080_2.media_format_id
+        }]
+}
+
+resource asset_type_configuration keyshotscene_keyshotscenemanifest {
+    asset_type = 'KeyShotScene'
+    destination_id = resource.storage_manager_destination.asset_storage_sm.destination_id
+    file_prefix = 'KeyShotScenemanifest'
+    encoder_profile_location = ''
+    qualities = [{
+            media_format_id = resource.media_format.thumb_200x120_3.media_format_id
+        }, {
+            media_format_id = resource.media_format.thumb_1920x1080_2.media_format_id
+        }]
+}
+

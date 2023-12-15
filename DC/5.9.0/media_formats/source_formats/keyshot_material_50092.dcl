@@ -1,7 +1,7 @@
-resource media_format waveform_mtl_file_50028 {
+resource media_format keyshot_material_50092 {
     folder_id = resource.media_format_folder.source_formats.id
-    format_type_id = resource.media_format_type.wavefront_mtl_file_130004.media_format_type_id
-    name = 'Waveform mtl file'
+    format_type_id = resource.media_format_type.keyshotmaterial_1060003.media_format_type_id
+    name = 'Keyshot Material'
     description = ''
     width = 0
     height = 0
@@ -10,7 +10,7 @@ resource media_format waveform_mtl_file_50028 {
     multi_page_output = false
     is_identity_format = true
     settings = ''
-    encoding = 1002
+    encoding = 0
     encoding_bitrate = 0
     linebreak = ''
     input_page = 1
@@ -36,12 +36,13 @@ resource media_format waveform_mtl_file_50028 {
     watermark_file = ''
     grayscale = false
     grayscale_bits_per_pixel = 0
-    force_aspect = true
+    force_aspect = false
     output_quality = 0
     icc_profile = ''
+    video_profile_xml = ''
     download_replace_mask = ''
     autolink = {
-        item_guid = 'f40ad61d-8bb5-487e-83bc-27da16e48e76'
+        item_guid = '3473392a-5598-4526-b021-b854dabcbc5b'
     }
 }
 

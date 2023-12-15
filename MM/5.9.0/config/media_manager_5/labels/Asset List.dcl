@@ -1870,3 +1870,20 @@ resource configservice_label asset_list_collection_preview_notification_modal_bo
   ]
 }
 
+
+resource configservice_label asset_list_facet_assettype {
+  group = 'Asset List'
+  key = 'ASSET_LIST_FACET_assetType'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      language_id = data.language.english.id
+      default_translation = '{value, select, KeyShotEnvironment {KeyShot Environment} KeyShotMaterial {KeyShot Material} KeyShotScene {KeyShot Scene} other {{{value}}}}'
+    },
+    {
+      language_id = data.language.danish.id
+      default_translation = '{value, select, KeyShotEnvironment {KeyShot Miljø} KeyShotMaterial {KeyShot Materiale} KeyShotScene {KeyShot Scene} other {{{value}}}}'
+    }
+  ]
+}
+
