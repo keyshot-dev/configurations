@@ -494,6 +494,38 @@ resource configservice_label asset_list_box_view_item_download {
   ]
 }
 
+resource configservice_label asset_list_box_view_item_file_type {
+  key = 'ASSET_LIST_BOX_VIEW_ITEM_FILE_TYPE'
+  group = 'Asset List'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'File type'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Filtype'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_list_box_view_item_asset_id {
+  key = 'ASSET_LIST_BOX_VIEW_ITEM_ASSET_ID'
+  group = 'Asset List'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Asset id'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Asset-id'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label asset_list_pagination_previous {
   key = 'ASSET_LIST_PAGINATION_PREVIOUS'
   group = 'Asset List'

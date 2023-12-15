@@ -573,3 +573,19 @@ resource configservice_label asset_list_filters_configuration_option {
   ]
 }
 
+resource configservice_label asset_list_filters_configuration_option_tooltip {
+  key = 'ASSET_LIST_FILTERS_CONFIGURATION_OPTION_TOOLTIP'
+  group = 'Filters'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Options'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Indstillinger'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
