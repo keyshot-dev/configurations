@@ -2784,6 +2784,22 @@ resource configservice_label administration_tools_dashboard_tool_add_item {
   ]
 }
 
+resource configservice_label administration_tools_dashboard_tool_more_button_tooltip {
+  key = 'ADMINISTRATION_TOOLS_DASHBOARD_TOOL_MORE_BUTTON_TOOLTIP'
+  group = 'administration-tools - dashboard-tool'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Manage'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Administrer'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label administration_tools_dashboard_tool_add_dashboard {
   key = 'ADMINISTRATION_TOOLS_DASHBOARD_TOOL_ADD_DASHBOARD'
   group = 'administration-tools - dashboard-tool'
