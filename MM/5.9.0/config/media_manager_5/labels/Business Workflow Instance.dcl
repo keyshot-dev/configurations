@@ -286,6 +286,22 @@ resource configservice_label business_instance_constraint_loading_constraints {
   ]
 }
 
+resource configservice_label business_instance_constraint_error_message {
+  key = 'BUSINESS_INSTANCE_CONSTRAINT_ERROR_MESSAGE'
+  group = 'Business Workflow Instance'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Some of the metafields in the workflow are invalid'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Nogle af metafelterne i arbejdsgangen er ugyldige'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label business_instance_tasks_input_search_placeholder {
   key = 'BUSINESS_INSTANCE_TASKS_INPUT_SEARCH_PLACEHOLDER'
   group = 'Business Workflow Instance'
