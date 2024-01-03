@@ -15,7 +15,7 @@ resource media_format_type high_dynamic_range_hdr_1060010 {
     icon_thumbnail = ''
     icon_large = ''
     mime_type = ''
-    identity_media_format_id = data.media_format.image_50030.media_format_id
+    identity_media_format_id = resource.media_format.image_50030.media_format_id
 	autolink = {
         item_guid = '1ebd5347-be38-435b-a35b-85b30ca62bcd'
     }
