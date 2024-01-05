@@ -526,6 +526,22 @@ resource configservice_label preview_thumbnail_selector_generate_random_descript
   ]
 }
 
+resource configservice_label preview_thumbnail_selector_generate_custom_image_description {
+  key = 'PREVIEW_THUMBNAIL_SELECTOR_GENERATE_CUSTOM_IMAGE_DESCRIPTION'
+  group = 'Preview Asset'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Select an existing image'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Vælg et eksisterende billede'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label preview_thumbnail_selector_specific_frame {
   key = 'PREVIEW_THUMBNAIL_SELECTOR_SPECIFIC_FRAME'
   group = 'Preview Asset'
@@ -557,6 +573,39 @@ resource configservice_label preview_thumbnail_selector_random_frame{
     }
   ]
 }
+
+resource configservice_label preview_thumbnail_selector_custom_image{
+  key = 'PREVIEW_THUMBNAIL_SELECTOR_CUSTOM_IMAGE'
+  group = 'Preview Asset'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Custom image'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Brugerdefineret billede'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label preview_thumbnail_selector_custom_image_choose_btn{
+  key = 'PREVIEW_THUMBNAIL_SELECTOR_CUSTOM_IMAGE_CHOOSE_BTN'
+  group = 'Preview Asset'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Choose image'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Vælg billede'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 
 resource configservice_label preview_asset_options_generate_thumbnails {
   key = 'PREVIEW_ASSET_OPTIONS_GENERATE_THUMBNAILS'
