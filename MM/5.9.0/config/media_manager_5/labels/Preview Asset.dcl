@@ -558,7 +558,7 @@ resource configservice_label preview_thumbnail_selector_specific_frame {
   ]
 }
 
-resource configservice_label preview_thumbnail_selector_random_frame{
+resource configservice_label preview_thumbnail_selector_random_frame {
   key = 'PREVIEW_THUMBNAIL_SELECTOR_RANDOM_FRAME'
   group = 'Preview Asset'
   product_id = resource.configservice_product.media_manager_5.id
@@ -574,7 +574,7 @@ resource configservice_label preview_thumbnail_selector_random_frame{
   ]
 }
 
-resource configservice_label preview_thumbnail_selector_custom_image{
+resource configservice_label preview_thumbnail_selector_custom_image {
   key = 'PREVIEW_THUMBNAIL_SELECTOR_CUSTOM_IMAGE'
   group = 'Preview Asset'
   product_id = resource.configservice_product.media_manager_5.id
@@ -590,7 +590,7 @@ resource configservice_label preview_thumbnail_selector_custom_image{
   ]
 }
 
-resource configservice_label preview_thumbnail_selector_custom_image_choose_btn{
+resource configservice_label preview_thumbnail_selector_custom_image_choose_btn {
   key = 'PREVIEW_THUMBNAIL_SELECTOR_CUSTOM_IMAGE_CHOOSE_BTN'
   group = 'Preview Asset'
   product_id = resource.configservice_product.media_manager_5.id
@@ -606,6 +606,21 @@ resource configservice_label preview_thumbnail_selector_custom_image_choose_btn{
   ]
 }
 
+resource configservice_label video_thumbnail_asset_picker_title {
+  key = 'VIDEO_THUMBNAIL_ASSET_PICKER_TITLE'
+  group = 'Preview Asset'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Choose thumbnail'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Vælg thumbnail'
+      language_id = data.language.danish.id
+    }
+  ]
+}
 
 resource configservice_label preview_asset_options_generate_thumbnails {
   key = 'PREVIEW_ASSET_OPTIONS_GENERATE_THUMBNAILS'
