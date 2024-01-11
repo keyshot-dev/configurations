@@ -7,7 +7,7 @@ variable keyshot_organization_id {
 variable keyshot_client_id {
     type = "string"
     description = "The clientId of Keyshot Cognito SSO solution"
-    default = "4eluo3pv043c1jkdabec78qdem
+    default = "4eluo3pv043c1jkdabec78qdem"
 }
 
 variable keyshot_client_secret {
