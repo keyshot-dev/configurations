@@ -27,7 +27,7 @@ resource configservice_string_config_field creative_cloud_connector_adobe_links 
             value = resource.editcombovalue_metafield.location_50407.item_guid
         },
 		{
-            value = resource.editcombovalue_metafield.material_50401.item_guid
+            value = resource.editmulticombovalue_metafield.material_50401.item_guid
         },
 		{
             value = resource.combovalue_metafield.material_type_50403.item_guid
@@ -36,7 +36,7 @@ resource configservice_string_config_field creative_cloud_connector_adobe_links 
             value = resource.editcombovalue_metafield.process_status_50410.item_guid
         },
 		{
-            value = resource.editcombovalue_metafield.project_50405.item_guid
+            value = resource.editmulticombovalue_metafield.project_50405.item_guid
         },
 		{
             value = resource.editcombovalue_metafield.texture_type_50406.item_guid
