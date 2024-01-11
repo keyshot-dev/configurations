@@ -6503,6 +6503,71 @@ resource configservice_label settings_import_config_editor_match_metafield_toolt
   ]
 }
 
+resource configservice_label settings_import_config_editor_reject_combo {
+  key = 'SETTINGS_IMPORT_CONFIG_EDITOR_REJECT_COMBO'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = "Reject if combo doesn't exist"
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = "Afvis hvis combo ikke eksisterer"
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_import_config_editor_reject_combo_tooltip {
+  key = 'SETTINGS_IMPORT_CONFIG_EDITOR_REJECT_COMBO_TOOLTIP'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = "Reject if combo doesn't exist"
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = "Afvis hvis combo ikke eksisterer"
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_import_config_editor_reject_tree {
+  key = 'SETTINGS_IMPORT_CONFIG_EDITOR_REJECT_TREE'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = "Reject if tree node doesn't exist"
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = "Afvis hvis trænoden ikke eksisterer"
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_import_config_editor_reject_tree_tooltip {
+  key = 'SETTINGS_IMPORT_CONFIG_EDITOR_REJECT_TREE_TOOLTIP'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = "Reject if tree node doesn't exist"
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = "Afvis hvis trænoden ikke eksisterer"
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+
 resource configservice_label settings_factory_reset_button {
   key = 'SETTINGS_FACTORY_RESET_BUTTON'
   group = 'Settings'
