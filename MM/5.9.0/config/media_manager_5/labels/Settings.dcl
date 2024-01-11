@@ -6561,7 +6561,7 @@ resource configservice_label settings_import_config_editor_reject_tree_tooltip {
       language_id = data.language.english.id
     },
     {
-      default_translation = "Reject if tree doesn't exist"
+      default_translation = "Afvis hvis trænoden ikke eksisterer"
       language_id = data.language.danish.id
     }
   ]
