@@ -43,5 +43,10 @@
         "name": "OOBE - DFO patches",
         "order": -8,
         "locked": false
-    }
+    },
+	{	
+		"name": "KeyShot",
+		"order": -7,
+		"locked": true
+	}
 ]
