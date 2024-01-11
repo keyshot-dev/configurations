@@ -4,4 +4,3 @@ data language english {
     locale_id = 1033
     enabled = true
 }
-
