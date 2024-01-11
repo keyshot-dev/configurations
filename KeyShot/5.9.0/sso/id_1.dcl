@@ -1,5 +1,5 @@
 resource sso_configuration id_1 {
-    provider_id = 1
+    provider_id = resource.open_id_connect_provider_configuration.keyshot.id
     template_member_id = data.member.superadministrator.member_id
     group_sync_level = 'Ignore'
     user_folder_id = 0
