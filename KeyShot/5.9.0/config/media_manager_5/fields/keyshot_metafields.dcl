@@ -2,7 +2,7 @@ data string_metafield title {
     item_guid = '5eb3eefc-a043-410f-89b0-29ed3ef37078'
 }
 
-resource configservice_string_config_field creative_cloud_connector_adobe_links {
+resource configservice_multi_string_config_field creative_cloud_connector_adobe_links {
     default_values = [{
             value = data.string_metafield.title.item_guid
         },{
