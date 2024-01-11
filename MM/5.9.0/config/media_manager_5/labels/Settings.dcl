@@ -6513,7 +6513,7 @@ resource configservice_label settings_import_config_editor_reject_combo {
       language_id = data.language.english.id
     },
     {
-      default_translation = "Reject if combo doesn't exist"
+      default_translation = "Afvis hvis combo ikke eksisterer"
       language_id = data.language.danish.id
     }
   ]
