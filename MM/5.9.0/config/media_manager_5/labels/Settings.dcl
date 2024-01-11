@@ -6557,7 +6557,7 @@ resource configservice_label settings_import_config_editor_reject_tree_tooltip {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = "Reject if tree doesn't exist"
+      default_translation = "Reject if tree node doesn't exist"
       language_id = data.language.english.id
     },
     {
