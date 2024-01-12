@@ -44,9 +44,9 @@
         "order": -8,
         "locked": false
     },
-	{	
-		"name": "KeyShot",
-		"order": -5,
-		"locked": true
-	}
+	  {	
+		  "name": "KeyShot",
+		  "order": -5,
+		  "locked": true
+	  }
 ]
