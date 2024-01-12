@@ -1,7 +1,6 @@
 variable keyshot_organization_id {
     type = "string"
     description = "The organizationId in Keyshot to which the user is connected. This controls which KeyShot users should be allowed to login"
-    default = "10000000-0000-0000-0000-000000000000"
 }
 
 variable keyshot_client_id {
