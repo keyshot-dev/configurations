@@ -94,3 +94,18 @@ resource configservice_label header_cell_sort_tooltip {
   ]
 }
 
+resource configservice_label header_cell_menu_filter_section_manage_columns {
+  key = 'HEADER_CELL_MENU_FILTER_SECTION_MANAGE_COLUMNS'
+  group = 'Table'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Customize columns'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Tilpas kolonner'
+      language_id = data.language.danish.id
+    }
+  ]
+}

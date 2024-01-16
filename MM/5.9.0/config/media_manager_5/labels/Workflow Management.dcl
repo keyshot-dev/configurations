@@ -1374,6 +1374,22 @@ resource configservice_label section_title_workflow_job_status {
   ]
 }
 
+resource configservice_label workflow_overview_more_btn_manage {
+  key = 'WORKFLOW_OVERVIEW_MORE_BTN_MANAGE'
+  group = 'Workflow Management'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Manage'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Administrer'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label workflow_overview_more_options_edit {
   key = 'WORKFLOW_OVERVIEW_MORE_OPTIONS_EDIT'
   group = 'Workflow Management'

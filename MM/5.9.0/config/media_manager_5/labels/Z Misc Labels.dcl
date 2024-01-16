@@ -1086,6 +1086,23 @@ resource configservice_label topbar_settings_btn_tooltip {
   ]
 }
 
+resource configservice_label topbar_question_mark_btn_tooltip {
+  key = 'TOPBAR_QUESTION_MARK_BTN_TOOLTIP'
+  group = 'Z Misc Labels'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'System info'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Systemoplysninger'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+
 resource configservice_label topbar_monitoring_btn_tooltip {
   key = 'TOPBAR_MONITORING_BTN_TOOLTIP'
   group = 'Z Misc Labels'
@@ -2298,6 +2315,22 @@ resource configservice_label aria_label_navigation_previous {
     },
     {
       default_translation = 'Forrige'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label aria_label_select_asset {
+  key = 'ARIA_LABEL_SELECT_ASSET'
+  group = 'Z Misc Labels'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Select asset'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Vælg asset'
       language_id = data.language.danish.id
     }
   ]

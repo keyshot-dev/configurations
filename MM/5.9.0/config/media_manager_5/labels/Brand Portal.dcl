@@ -2158,6 +2158,22 @@ resource configservice_label brand_portal_style_menu_rename {
   ]
 }
 
+resource configservice_label brand_portal_style_menu_more_btn {
+  key = 'BRAND_PORTAL_STYLE_MENU_MORE_BTN'
+  group = 'Brand Portal'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Options'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Muligheder'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label brand_portal_style_menu_delete {
   key = 'BRAND_PORTAL_STYLE_MENU_DELETE'
   group = 'Brand Portal'
