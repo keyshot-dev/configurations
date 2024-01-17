@@ -3601,4 +3601,34 @@ resource configservice_label administration_tools_section_label_system {
   ]
 }
 
+resource configservice_label administration_tools_analytics_chart_builder_metadata {
+  key = 'ADMINISTRATION_TOOLS_ANALYTICS_CHART_BUILDER_METADATA'
+  group = 'administration-tools - analytics-chart-builder'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Metadata'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Metadata'
+      language_id = data.language.danish.id
+    }
+  ]
+}
 
+resource configservice_label administration_tools_analytics_chart_builder_by_metadata {
+  key = 'ADMINISTRATION_TOOLS_ANALYTICS_CHART_BUILDER_BY_METADATA'
+  group = 'administration-tools - analytics-chart-builder'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'By metadata'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Efter metadata'
+      language_id = data.language.danish.id
+    }
+  ]
+}
