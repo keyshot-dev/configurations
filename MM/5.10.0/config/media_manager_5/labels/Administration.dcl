@@ -3627,7 +3627,7 @@ resource configservice_label administration_tools_analytics_chart_builder_by_met
       language_id = data.language.english.id
     },
     {
-      default_translation = 'By metadata'
+      default_translation = 'Efter metadata'
       language_id = data.language.danish.id
     }
   ]
