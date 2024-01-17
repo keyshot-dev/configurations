@@ -1615,6 +1615,22 @@ resource configservice_label section_title_generic_job_status {
   ]
 }
 
+resource configservice_label section_title_focused_crop {
+  key = 'SECTION_TITLE_FOCUSED_CROP'
+  group = 'Z Misc Labels'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Crop asset'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Beskær asset'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label expansion_panel_expand {
   key = 'EXPANSION_PANEL_EXPAND'
   group = 'Z Misc Labels'
