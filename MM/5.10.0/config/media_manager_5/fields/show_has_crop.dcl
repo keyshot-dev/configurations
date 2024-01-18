@@ -3,6 +3,6 @@ resource configservice_bit_config_field show_has_crop {
     product_id = resource.configservice_product.media_manager_5.id
     group = 'default'
     key = 'showHasCrop'
-    title = 'Show availability of crops on asset card'
-    description = 'If checked, the asset card will show if crops are available for the asset'
+    title = 'Show crops on asset card'
+    description = 'If checked, the asset card will both indicate when there are crops, and allow you to quickly go to them'
 }
