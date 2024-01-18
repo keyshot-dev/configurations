@@ -2351,3 +2351,19 @@ resource configservice_label aria_label_select_asset {
     }
   ]
 }
+
+resource configservice_label aria_label_select_task {
+  key = 'ARIA_LABEL_SELECT_TASK'
+  group = 'Z Misc Labels'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Select task'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Vælg opgave'
+      language_id = data.language.danish.id
+    }
+  ]
+}
