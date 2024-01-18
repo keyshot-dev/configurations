@@ -2974,3 +2974,36 @@ resource configservice_label workflow_editor_workflow_asset_search_request_keywo
   ]
 }
 
+
+resource configservice_label job_status_job_status_filter_asset_filter_title {
+  key = 'JOB_STATUS_JOB_STATUS_FILTER_FORMAT_FILTER_TITLE'
+  group = 'Workflow Management'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Format'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Format'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+
+resource configservice_label job_status_transcode_job_status_main_format {
+  key = 'JOB_STATUS_TRANSCODE_JOB_STATUS_MAIN_FORMAT'
+  group = 'job-status - transcode-job-status-main'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Format'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Format'
+      language_id = data.language.danish.id
+    }
+  ]
+}
