@@ -1,6 +1,6 @@
 resource mail_template assetsharedbyemail {
     portal_name = ''
-    language_id = data.language.english.id
+    language_id = resource.language.english.id
     template_name = 'asset-shared-by-email'
     subject = "{{sender.name}} has invited you to join a shared asset in Digizuite' Media Manager"
     body = '{{include \'html-header-start\'}}
