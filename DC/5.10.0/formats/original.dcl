@@ -2,7 +2,7 @@
     name = 'Original'
     description = 'The original file that was uploaded.'
     immediately_generated_for = []
-    download_replace_mask = ''
+    download_replace_mask = '[%AssetId%]'
     mapped_media_formats = []
     type = 'SourceFormat'
     details = []
