@@ -1044,11 +1044,11 @@ resource configservice_label login_dialog_login_with_sso {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = "Login with '{{name}}'"
+      default_translation = "Login using {{name}}"
       language_id = data.language.english.id
     },
     {
-      default_translation = "Login med '{{name}}'"
+      default_translation = "Login gennem {{name}}"
       language_id = data.language.danish.id
     }
   ]
