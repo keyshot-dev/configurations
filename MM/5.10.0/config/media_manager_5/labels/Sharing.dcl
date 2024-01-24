@@ -723,3 +723,131 @@ resource configservice_label sharing_sharing_dialog_no_permissions {
     }
   ]
 }
+
+resource configservice_label asset_share_resend_invite_modal_title {
+  key = 'ASSET_SHARE_RESEND_INVITE_MODAL_TITLE'
+  group = 'Sharing'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Resend invite'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Gensend invitation'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_share_resend_invite_modal_body {
+  key = 'ASSET_SHARE_RESEND_INVITE_MODAL_BODY'
+  group = 'Sharing'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Do you want to resend the invitation email of this asset share?'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Vil du gensende invitations-mailen til denne assetdeling?'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_share_resend_invite_modal_cancel_button {
+  key = 'ASSET_SHARE_RESEND_INVITE_MODAL_CANCEL_BUTTON'
+  group = 'Sharing'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Cancel'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Annullér'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_share_resend_invite_modal_resend_button {
+  key = 'ASSET_SHARE_RESEND_INVITE_MODAL_RESEND_BUTTON'
+  group = 'Sharing'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Proceed'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Fortsæt'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_share_resend_invite_notification_success_title {
+  key = 'ASSET_SHARE_RESEND_INVITE_NOTIFICATION_SUCCESS_TITLE'
+  group = 'Sharing'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Success'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Succes'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_share_resend_invite_notification_success_body {
+  key = 'ASSET_SHARE_RESEND_INVITE_NOTIFICATION_SUCCESS_BODY'
+  group = 'Sharing'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'The invitation email has been resent'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Invitations-mailen er blevet gensendt'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_share_resend_invite_notification_error_title {
+  key = 'ASSET_SHARE_RESEND_INVITE_NOTIFICATION_ERROR_TITLE'
+  group = 'Sharing'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Error'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Fejl'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_share_resend_invite_notification_error_body {
+  key = 'ASSET_SHARE_RESEND_INVITE_NOTIFICATION_ERROR_BODY'
+  group = 'Sharing'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'The invitation email could not be resent'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Invitations-mailen kunne ikke sendes'
+      language_id = data.language.danish.id
+    }
+  ]
+}
