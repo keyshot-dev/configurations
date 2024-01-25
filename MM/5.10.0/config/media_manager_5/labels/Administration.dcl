@@ -3687,7 +3687,7 @@ resource configservice_label administration_tools_sso_signing_certificate_sectio
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Id'
+      default_translation = 'ID'
       language_id = data.language.english.id
     },
     {
@@ -3805,7 +3805,7 @@ resource configservice_label administration_tools_sso_section_is_default_provide
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Standard-leverandør'
+      default_translation = 'Standard-udbyder'
       language_id = data.language.danish.id
     }
   ]
@@ -3839,7 +3839,7 @@ resource configservice_label administration_tools_sso_section_sort_index {
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Sort index'
+      default_translation = 'Sorterings-indeks'
       language_id = data.language.danish.id
     }
   ]
@@ -4124,7 +4124,7 @@ resource configservice_label administration_tools_sso_section_unsaved_changes_co
       language_id = data.language.english.id
     },
     {
-      default_translation = "Du har ændringer der ikke er blevet gemt. Vil du fortsætte?"
+      default_translation = "Du har ugemte ændringer. Vil du fortsætte?""
       language_id = data.language.danish.id
     }
   ]
