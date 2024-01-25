@@ -3632,3 +3632,568 @@ resource configservice_label administration_tools_analytics_chart_builder_by_met
     }
   ]
 }
+
+resource configservice_label administration_tools_sso_signing_certificate_section_no_certificates_found {
+  key = 'ADMINISTRATION_TOOLS_SSO_SIGNING_CERTIFICATE_SECTION_NO_CERTIFICATES_FOUND'
+  group = 'administration-tools - sso-signing-certificate-section'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'No certificates found'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Ingen certifikater fundet'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_sso_signing_certificate_section_delete_certificate {
+  key = 'ADMINISTRATION_TOOLS_SSO_SIGNING_CERTIFICATE_SECTION_DELETE_CERTIFICATE'
+  group = 'administration-tools - sso-signing-certificate-section'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Delete certificate'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Slet certifikat'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_sso_signing_certificate_section_name {
+  key = 'ADMINISTRATION_TOOLS_SSO_SIGNING_CERTIFICATE_SECTION_NAME'
+  group = 'administration-tools - sso-signing-certificate-section'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Name'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Navn'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_sso_signing_certificate_section_id {
+  key = 'ADMINISTRATION_TOOLS_SSO_SIGNING_CERTIFICATE_SECTION_ID'
+  group = 'administration-tools - sso-signing-certificate-section'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'ID'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Id'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_sso_signing_certificate_section_refresh {
+  key = 'ADMINISTRATION_TOOLS_SSO_SIGNING_CERTIFICATE_SECTION_REFRESH'
+  group = 'administration-tools - sso-signing-certificate-section'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Refresh'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Genindlæs'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_sso_signing_certificate_section_add_certificate {
+  key = 'ADMINISTRATION_TOOLS_SSO_SIGNING_CERTIFICATE_SECTION_ADD_CERTIFICATE'
+  group = 'administration-tools - sso-signing-certificate-section'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Add certificate'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Tilføj certifikat'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_sso_signing_certificate_section_configure_signing_certificates_for_sso {
+  key = 'ADMINISTRATION_TOOLS_SSO_SIGNING_CERTIFICATE_SECTION_CONFIGURE_SIGNING_CERTIFICATES_FOR_SSO'
+  group = 'administration-tools - sso-signing-certificate-section'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Configure signing certificates for SSO'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Konfigurer signeringscertifikater til SSO'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_sso_signing_certificate_section_sso_signing_certificates {
+  key = 'ADMINISTRATION_TOOLS_SSO_SIGNING_CERTIFICATE_SECTION_SSO_SIGNING_CERTIFICATES'
+  group = 'administration-tools - sso-signing-certificate-section'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'SSO signing certificates'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'SSO-signeringscertifikater'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_sso_section_no_configurations_found {
+  key = 'ADMINISTRATION_TOOLS_SSO_SECTION_NO_CONFIGURATIONS_FOUND'
+  group = 'administration-tools - sso-section'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'No configurations found'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Ingen konfigurationer fundet'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+
+resource configservice_label administration_tools_sso_section_is_default_tooltip {
+  key = 'ADMINISTRATION_TOOLS_SSO_SECTION_IS_DEFAULT_TOOLTIP'
+  group = 'administration-tools - sso-section'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'If true, this SSO provider will be used for old integrations that do not support utilizing multiple SSO providers.'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Hvis valgt, vil denne SSO-udbyder blive brugt for ældre integrationer, som ikke understøtter brugen af flere SSO-udbydere på samme tid.'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+
+resource configservice_label administration_tools_sso_section_is_default_provider {
+  key = 'ADMINISTRATION_TOOLS_SSO_SECTION_IS_DEFAULT_PROVIDER'
+  group = 'administration-tools - sso-section'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Default provider'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Standard-udbyder'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+
+resource configservice_label administration_tools_sso_section_sort_index_tooltip {
+  key = 'ADMINISTRATION_TOOLS_SSO_SECTION_SORT_INDEX_TOOLTIP'
+  group = 'administration-tools - sso-section'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'This index indicates the order in which this SSO option will appear when multiple SSO providers are active simultaneously.'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Dette indeks angiver den rækkefølge, som denne SSO-indstilling vises i, når flere SSO-udbydere er aktive samtidigt.'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+
+resource configservice_label administration_tools_sso_section_sort_index {
+  key = 'ADMINISTRATION_TOOLS_SSO_SECTION_SORT_INDEX'
+  group = 'administration-tools - sso-section'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Sort index'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Sorterings-indeks'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_sso_section_delete_configuration {
+  key = 'ADMINISTRATION_TOOLS_SSO_SECTION_DELETE_CONFIGURATION'
+  group = 'administration-tools - sso-section'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Delete configuration'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Slet konfiguration'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_sso_section_name {
+  key = 'ADMINISTRATION_TOOLS_SSO_SECTION_NAME'
+  group = 'administration-tools - sso-section'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Name'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Navn'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+
+resource configservice_label administration_tools_sso_section_id {
+  key = 'ADMINISTRATION_TOOLS_SSO_SECTION_ID'
+  group = 'administration-tools - sso-section'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'ID'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Id'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+
+resource configservice_label administration_tools_sso_section_refresh {
+  key = 'ADMINISTRATION_TOOLS_SSO_SECTION_REFRESH'
+  group = 'administration-tools - sso-section'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Refresh'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Genindlæs'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+
+resource configservice_label administration_tools_sso_section_add_sso_provider {
+  key = 'ADMINISTRATION_TOOLS_SSO_SECTION_ADD_SSO_PROVIDER'
+  group = 'administration-tools - sso-section'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Add SSO provider'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Tilføj SSO-udbyder'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+
+resource configservice_label administration_tools_sso_section_configure_single_signon {
+  key = 'ADMINISTRATION_TOOLS_SSO_SECTION_CONFIGURE_SINGLE_SIGNON'
+  group = 'administration-tools - sso-section'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Configure single sign-on'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Konfigurer single sign-on'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+
+resource configservice_label administration_tools_sso_section_single_signon {
+  key = 'ADMINISTRATION_TOOLS_SSO_SECTION_SINGLE_SIGNON'
+  group = 'administration-tools - sso-section'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Single sign-on (SSO)'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Single sign-on (SSO)'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+
+resource configservice_label administration_tools_sso_section_delete_confirmation_dialog_title {
+  key = 'ADMINISTRATION_TOOLS_SSO_SECTION_DELETE_CONFIRMATION_DIALOG_TITLE'
+  group = 'administration-tools - sso-section'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Delete?'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Slet?'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_sso_section_delete_confirmation_dialog_content {
+  key = 'ADMINISTRATION_TOOLS_SSO_SECTION_DELETE_CONFIRMATION_DIALOG_CONTENT'
+  group = 'administration-tools - sso-section'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = "Are you sure you want to delete the SSO configuration '{{name}}'? There is no way to recover it afterward."
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = "Er du sikker på at du ville slette SSO-konfigurationen '{{name}}'? Der er ikke nogen måde at gendanne den efterfølgende."
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_sso_section_delete_confirmation_dialog_confirm {
+  key = 'ADMINISTRATION_TOOLS_SSO_SECTION_DELETE_CONFIRMATION_DIALOG_CONFIRM'
+  group = 'administration-tools - sso-section'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Delete'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Slet'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+
+resource configservice_label administration_tools_sso_section_delete_confirmation_dialog_cancel {
+  key = 'ADMINISTRATION_TOOLS_SSO_SECTION_DELETE_CONFIRMATION_DIALOG_CANCEL'
+  group = 'administration-tools - sso-section'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Keep'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Behold'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+
+resource configservice_label administration_tools_sso_signing_certificate_section_delete_confirmation_dialog_title {
+  key = 'ADMINISTRATION_TOOLS_SSO_SIGNING_CERTIFICATE_SECTION_DELETE_CONFIRMATION_DIALOG_TITLE'
+  group = 'administration-tools - sso-signing-certificate-section'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Delete?'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Slet?'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_sso_signing_certificate_section_delete_confirmation_dialog_content {
+  key = 'ADMINISTRATION_TOOLS_SSO_SIGNING_CERTIFICATE_SECTION_DELETE_CONFIRMATION_DIALOG_CONTENT'
+  group = 'administration-tools - sso-signing-certificate-section'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = "Are you sure you want to delete the certificate '{{name}}'? There is no way to recover it afterward."
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = "Er du sikker på at du ville slette certifikatet '{{name}}'? Der er ikke nogen måde at gendanne den efterfølgende."
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_sso_signing_certificate_section_delete_confirmation_dialog_confirm {
+  key = 'ADMINISTRATION_TOOLS_SSO_SIGNING_CERTIFICATE_SECTION_DELETE_CONFIRMATION_DIALOG_CONFIRM'
+  group = 'administration-tools - sso-signing-certificate-section'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Delete'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Slet'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+
+resource configservice_label administration_tools_sso_signing_certificate_section_delete_confirmation_dialog_cancel {
+  key = 'ADMINISTRATION_TOOLS_SSO_SIGNING_CERTIFICATE_SECTION_DELETE_CONFIRMATION_DIALOG_CANCEL'
+  group = 'administration-tools - sso-signing-certificate-section'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Keep'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Behold'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+
+
+
+
+resource configservice_label administration_tools_sso_section_unsaved_changes_confirmation_dialog_title {
+  key = 'ADMINISTRATION_TOOLS_SSO_SECTION_UNSAVED_CHANGES_CONFIRMATION_DIALOG_TITLE'
+  group = 'administration-tools - sso-section'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Changed values'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Ændrede værdier'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_sso_section_unsaved_changes_confirmation_dialog_content {
+  key = 'ADMINISTRATION_TOOLS_SSO_SECTION_UNSAVED_CHANGES_CONFIRMATION_DIALOG_CONTENT'
+  group = 'administration-tools - sso-section'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = "You have unsaved changes. Do you want to continue?"
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = "Du har ugemte ændringer. Vil du fortsætte?""
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_sso_section_unsaved_changes_confirmation_dialog_confirm {
+  key = 'ADMINISTRATION_TOOLS_SSO_SECTION_UNSAVED_CHANGES_CONFIRMATION_DIALOG_CONFIRM'
+  group = 'administration-tools - sso-section'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Yes, reset values'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Ja, nulstil værdier'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+
+resource configservice_label administration_tools_sso_section_unsaved_changes_confirmation_dialog_cancel {
+  key = 'ADMINISTRATION_TOOLS_SSO_SECTION_UNSAVED_CHANGES_CONFIRMATION_DIALOG_CANCEL'
+  group = 'administration-tools - sso-section'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Keep unsaved changes'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Behold ugemte ændringer'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_sso_section_configuration_saved_error_during_apply_title {
+  key = 'ADMINISTRATION_TOOLS_SSO_SECTION_CONFIGURATION_SAVED_ERROR_DURING_APPLY_TITLE'
+  group = 'administration-tools - sso-section'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Error'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Fejl'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_sso_section_configuration_saved_error_during_apply_content {
+  key = 'ADMINISTRATION_TOOLS_SSO_SECTION_CONFIGURATION_SAVED_ERROR_DURING_APPLY_CONTENT'
+  group = 'administration-tools - sso-section'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'The configuration was saved successfully. However, the following error occurred during the activation: {{error}}'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Konfigurationen blev gemt. Men følgende fejl opstod under aktiveringen: {{error}}'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+
+

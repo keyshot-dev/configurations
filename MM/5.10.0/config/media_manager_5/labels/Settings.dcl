@@ -2276,11 +2276,11 @@ resource configservice_label settings_sso_settings_signing_behavior_value_toolti
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = '{option, select, 0 {Sign authentication requests if the idp is configured for it.} 1 {Always sign Authentication Requests. \'AuthnRequestsSigned\' is set to true in metadata.} 3 {Never sign Authentication Requests.}}'
+      default_translation = '{option, select, IfIdpWantAuthnRequestsSigned {Sign authentication requests if the IdP is configured for it.} Always {Always sign authentication requests. \'AuthnRequestsSigned\' is set to true in metadata.} Never {Never sign authentication requests.}}'
       language_id = data.language.english.id
     },
     {
-      default_translation = '{option, select, 0 {Sign authnrequests if the idp is configured for it.} 1 {Always sign AuthnRequests. AuthnRequestsSigned is set to true in metadata.} 3 {Never sign AuthnRequests.}}'
+      default_translation = ''{option, select, IfIdpWantAuthnRequestsSigned {Signer godkendelsesanmodninger hvis IdP'en er konfigureret til det.} Always {Signer altid godkendelsesanmodninger. \'AuthnRequestsSigned\' er sat til sand i metadata.} Never {Aldrig signer godkendelsesanmodninger}}''
       language_id = data.language.danish.id
     }
   ]
