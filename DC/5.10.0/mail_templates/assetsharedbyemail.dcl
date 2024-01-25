@@ -2,19 +2,19 @@ resource mail_template assetsharedbyemail {
     portal_name = ''
     language_id = resource.language.english.id
     template_name = 'asset-shared-by-email'
-    subject = "{{sender.name}} has invited you to join a shared asset in Digizuite' Media Manager"
+    subject = "{{sender.name}} has invited you to download a shared asset from Digizuite&#8482; Media Manager"
     body = '{{include \'html-header-start\'}}
 
-<title>Join a shared asset form Digizuite&#8482;</title>
+<title>Download a shared asset from Digizuite&#8482;</title>
 
 {{include \'html-header-end\'}}
 
-<span class="preheader">{{sender.name  | html.escape}} has invited you to join a shared asset in Digizuite&#8482; Media Manager</span>
+<span class="preheader">{{sender.name  | html.escape}} has invited you to download a shared asset from Digizuite&#8482; Media Manager</span>
 
 {{include \'standard-header\'}}
 
 <h1>Hi {{receiver.name | html.escape}},</h1>
-<p>{{sender.name | html.escape}} ({{sender.email_address | html.escape}}) has invited you to join a shared asset in Digizuite&#8482; Media Manager. Enjoy!
+<p>{{sender.name | html.escape}} ({{sender.email_address | html.escape}}) has invited you to download a shared asset from Digizuite&#8482; Media Manager. Enjoy!
     <br>
     <br>
     <strong>Message from {{sender.name | html.escape}}:</strong>
@@ -31,7 +31,7 @@ resource mail_template assetsharedbyemail {
                             <tr>
                                 <td>
                                     <a href="{{data.url}}"
-                                       class="button button--green" target="_blank">Join the asset</a>
+                                       class="button button--green" target="_blank">Download the asset</a>
                                 </td>
                             </tr>
                         </table>
