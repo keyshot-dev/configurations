@@ -3755,7 +3755,7 @@ resource configservice_label administration_tools_sso_signing_certificate_sectio
       language_id = data.language.english.id
     },
     {
-      default_translation = 'SSO signeringscertifikater'
+      default_translation = 'SSO-signeringscertifikater'
       language_id = data.language.danish.id
     }
   ]
@@ -3784,11 +3784,11 @@ resource configservice_label administration_tools_sso_section_is_default_tooltip
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'If true, this sso provider will be used for older integrations that doesn\'t support multiple sso providers.'
+      default_translation = 'If true, this SSO provider will be used for old integrations that do not support utilizing multiple SSO providers.'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Hvis valgt vil den her sso leverandør blive brugt for ældrer integrationer der ikke understytter flere sso samtidige leverandører.'
+      default_translation = 'Hvis valgt, vil denne SSO-udbyder blive brugt for ældre integrationer, som ikke understøtter brugen af flere SSO-udbydere på samme tid.'
       language_id = data.language.danish.id
     }
   ]
@@ -3805,7 +3805,7 @@ resource configservice_label administration_tools_sso_section_is_default_provide
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Standard leverandør'
+      default_translation = 'Standard-leverandør'
       language_id = data.language.danish.id
     }
   ]
@@ -3818,11 +3818,11 @@ resource configservice_label administration_tools_sso_section_sort_index_tooltip
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'An index indicating the order this sso option will be displayed in if multiple sso providers are enabled.'
+      default_translation = 'This index indicates the order in which this SSO option will appear when multiple SSO providers are active simultaneously.'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Et index der indikere rækkefølgen denne sso mulighed vil blive vist i, hvis flere sso leverandører er slået til.'
+      default_translation = 'Dette indeks angiver den rækkefølge, som denne SSO-indstilling vises i, når flere SSO-udbydere er aktive samtidigt.'
       language_id = data.language.danish.id
     }
   ]
@@ -3884,7 +3884,7 @@ resource configservice_label administration_tools_sso_section_id {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Id'
+      default_translation = 'ID'
       language_id = data.language.english.id
     },
     {
@@ -3922,7 +3922,7 @@ resource configservice_label administration_tools_sso_section_add_sso_provider {
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Tilføj SSO leverandør'
+      default_translation = 'Tilføj SSO-udbyder'
       language_id = data.language.danish.id
     }
   ]
@@ -3935,11 +3935,11 @@ resource configservice_label administration_tools_sso_section_configure_single_s
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Configure Single sign-on'
+      default_translation = 'Configure single sign-on'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Konfigurer Single sign-on'
+      default_translation = 'Konfigurer single sign-on'
       language_id = data.language.danish.id
     }
   ]
@@ -3952,11 +3952,11 @@ resource configservice_label administration_tools_sso_section_single_signon {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Single sign-on'
+      default_translation = 'Single sign-on (SSO)'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Single sign-on'
+      default_translation = 'Single sign-on (SSO)'
       language_id = data.language.danish.id
     }
   ]
@@ -3985,11 +3985,11 @@ resource configservice_label administration_tools_sso_section_delete_confirmatio
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = "Are you sure you want to delete the '{{name}}' sso configuration? There is no way to recover it afterwards."
+      default_translation = "Are you sure you want to delete the SSO configuration '{{name}}'? There is no way to recover it afterward."
       language_id = data.language.english.id
     },
     {
-      default_translation = "Er du sikker på at du ville slette '{{name}}' sso konfigurationen? Der er ikke nogen måde at gendanne den efterfølgende."
+      default_translation = "Er du sikker på at du ville slette SSO-konfigurationen '{{name}}'? Der er ikke nogen måde at gendanne den efterfølgende."
       language_id = data.language.danish.id
     }
   ]
@@ -4051,11 +4051,11 @@ resource configservice_label administration_tools_sso_signing_certificate_sectio
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = "Are you sure you want to delete the '{{name}}' certificate? There is no way to recover it afterwards."
+      default_translation = "Are you sure you want to delete the certificate '{{name}}'? There is no way to recover it afterward."
       language_id = data.language.english.id
     },
     {
-      default_translation = "Er du sikker på at du vil slette '{{name}}' certifikatet? Der er ikke nogen måde at gendanne det efterfølgende."
+      default_translation = "Er du sikker på at du ville slette certifikatet '{{name}}'? Der er ikke nogen måde at gendanne den efterfølgende."
       language_id = data.language.danish.id
     }
   ]
@@ -4120,11 +4120,11 @@ resource configservice_label administration_tools_sso_section_unsaved_changes_co
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = "You have changes that have not been saved, do you want to continue?"
+      default_translation = "You have unsaved changes. Do you want to continue?"
       language_id = data.language.english.id
     },
     {
-      default_translation = "Du har ændringer der ikke er gemt, vil du fortsætte?"
+      default_translation = "Du har ændringer der ikke er blevet gemt. Vil du fortsætte?"
       language_id = data.language.danish.id
     }
   ]
@@ -4185,11 +4185,11 @@ resource configservice_label administration_tools_sso_section_configuration_save
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Configuration was saved successfully however an error occurred during activation: {{error}}'
+      default_translation = 'The configuration was saved successfully. However, the following error occurred during the activation: {{error}}'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Konfigurationen blev gemt, men der skete en fejl da den skulle aktiveres: {{error}}'
+      default_translation = 'Konfigurationen blev gemt. Men følgende fejl opstod under aktiveringen: {{error}}'
       language_id = data.language.danish.id
     }
   ]
