@@ -1668,11 +1668,11 @@ resource configservice_label metadata_editor_input_field_empty_value {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = '-'
+      default_translation = 'No value'
       language_id = data.language.english.id
     },
     {
-      default_translation = '-'
+      default_translation = 'Ingen værdi'
       language_id = data.language.danish.id
     }
   ]
