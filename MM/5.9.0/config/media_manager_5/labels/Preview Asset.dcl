@@ -212,11 +212,11 @@ resource configservice_label preview_asset_versions_header {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = '{assetType, select, 1 {Trims} 4 {Crops}}'
+      default_translation = '{assetType, select, 1 {Trims} other {Crops}}'
       language_id = data.language.english.id
     },
     {
-      default_translation = '{assetType, select, 1 {Beskæringer} 4 {Beskæringer}}'
+      default_translation = '{assetType, select, 1 {Beskæringer} other {Beskæringer}}'
       language_id = data.language.danish.id
     }
   ]
