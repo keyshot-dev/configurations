@@ -2,7 +2,7 @@ resource mail_template assetsharedbyemail {
     portal_name = ''
     language_id = resource.language.english.id
     template_name = 'asset-shared-by-email'
-    subject = "{{sender.name}} has invited you to download a shared asset from Digizuite' Media Manager"
+    subject = "{{sender.name}} has invited you to download a shared asset from Digizuite&#8482; Media Manager"
     body = '{{include \'html-header-start\'}}
 
 <title>Download a shared asset from Digizuite&#8482;</title>
