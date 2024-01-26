@@ -4124,7 +4124,7 @@ resource configservice_label administration_tools_sso_section_unsaved_changes_co
       language_id = data.language.english.id
     },
     {
-      default_translation = "Du har ugemte ændringer. Vil du fortsætte?""
+      default_translation = "Du har ugemte ændringer. Vil du fortsætte?"
       language_id = data.language.danish.id
     }
   ]
