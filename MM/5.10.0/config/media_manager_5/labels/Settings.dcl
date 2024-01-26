@@ -2280,7 +2280,7 @@ resource configservice_label settings_sso_settings_signing_behavior_value_toolti
       language_id = data.language.english.id
     },
     {
-      default_translation = ''{option, select, IfIdpWantAuthnRequestsSigned {Signer godkendelsesanmodninger hvis IdP'en er konfigureret til det.} Always {Signer altid godkendelsesanmodninger. \'AuthnRequestsSigned\' er sat til sand i metadata.} Never {Aldrig signer godkendelsesanmodninger}}''
+      default_translation = '{option, select, IfIdpWantAuthnRequestsSigned {Signer godkendelsesanmodninger hvis IdP\'en er konfigureret til det.} Always {Signer altid godkendelsesanmodninger. \'AuthnRequestsSigned\' er sat til sand i metadata.} Never {Aldrig signer godkendelsesanmodninger}}'
       language_id = data.language.danish.id
     }
   ]
