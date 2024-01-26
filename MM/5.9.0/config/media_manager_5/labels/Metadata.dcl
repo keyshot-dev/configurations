@@ -1988,11 +1988,11 @@ resource configservice_label multi_metadata_editor_toogle_group_navigation_menu 
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = '{show, select, true {Show} false {Hide} navigation}'
+      default_translation = '{show, select, true {Show navigation} false {Hide navigation}}'
       language_id = data.language.english.id
     },
     {
-      default_translation = '{show, select, true {Vis} false {Skjul} navigation}'
+      default_translation = '{show, select, true {Vis navigation} false {Skjul navigation}}'
       language_id = data.language.danish.id
     }
   ]
