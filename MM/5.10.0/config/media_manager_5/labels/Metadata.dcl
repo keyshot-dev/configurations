@@ -2014,6 +2014,22 @@ resource configservice_label multi_metadata_editor_language_option_all {
   ]
 }
 
+resource configservice_label multi_metadata_editor_language_option_required_tooltip {
+  key = 'MULTI_METADATA_EDITOR_LANGUAGE_OPTION_REQUIRED_TOOLTIP'
+  group = 'Metadata'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'At least one language is required'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Mindst ét sprog er påkrævet'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label multi_metadata_editor_languages_title {
   key = 'MULTI_METADATA_EDITOR_LANGUAGES_TITLE'
   group = 'Metadata'
