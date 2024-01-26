@@ -1668,11 +1668,11 @@ resource configservice_label metadata_editor_input_field_empty_value {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'No value'
+      default_translation = ''
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Ingen værdi'
+      default_translation = ''
       language_id = data.language.danish.id
     }
   ]
@@ -1988,11 +1988,11 @@ resource configservice_label multi_metadata_editor_toogle_group_navigation_menu 
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = '{show, select, true {Show} false {Hide} navigation}'
+      default_translation = '{show, select, true {Show navigation} false {Hide navigation}}'
       language_id = data.language.english.id
     },
     {
-      default_translation = '{show, select, true {Vis} false {Skjul} navigation}'
+      default_translation = '{show, select, true {Vis navigation} false {Skjul navigation}}'
       language_id = data.language.danish.id
     }
   ]
@@ -2009,6 +2009,22 @@ resource configservice_label multi_metadata_editor_language_option_all {
     },
     {
       default_translation = 'Alle'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label multi_metadata_editor_language_option_required_tooltip {
+  key = 'MULTI_METADATA_EDITOR_LANGUAGE_OPTION_REQUIRED_TOOLTIP'
+  group = 'Metadata'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'At least one language is required'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Mindst ét sprog er påkrævet'
       language_id = data.language.danish.id
     }
   ]
