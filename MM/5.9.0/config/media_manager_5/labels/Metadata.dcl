@@ -1982,49 +1982,17 @@ resource configservice_label multi_metadata_editor_expand_all_groups_menu {
   ]
 }
 
-resource configservice_label multi_metadata_editor_show_group_navigation_menu {
-  key = 'MULTI_METADATA_EDITOR_SHOW_GROUP_NAVIGATION_MENU'
+resource configservice_label multi_metadata_editor_toogle_group_navigation_menu {
+  key = 'MULTI_METADATA_EDITOR_TOOGLE_GROUP_NAVIGATION_MENU'
   group = 'Metadata'
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Show navigation'
+      default_translation = '{show, select, true {Show} false {Hide} navigation}'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Vis navigation'
-      language_id = data.language.danish.id
-    }
-  ]
-}
-
-resource configservice_label multi_metadata_editor_show_group_navigation_yes_menu {
-  key = 'MULTI_METADATA_EDITOR_SHOW_GROUP_NAVIGATION_YES_MENU'
-  group = 'Metadata'
-  product_id = resource.configservice_product.media_manager_5.id
-  default_label_values = [
-    {
-      default_translation = 'Yes'
-      language_id = data.language.english.id
-    },
-    {
-      default_translation = 'Ja'
-      language_id = data.language.danish.id
-    }
-  ]
-}
-
-resource configservice_label multi_metadata_editor_show_group_navigation_no_menu {
-  key = 'MULTI_METADATA_EDITOR_SHOW_GROUP_NAVIGATION_NO_MENU'
-  group = 'Metadata'
-  product_id = resource.configservice_product.media_manager_5.id
-  default_label_values = [
-    {
-      default_translation = 'No'
-      language_id = data.language.english.id
-    },
-    {
-      default_translation = 'Nej'
+      default_translation = '{show, select, true {Vis} false {Skjul} navigation}'
       language_id = data.language.danish.id
     }
   ]
