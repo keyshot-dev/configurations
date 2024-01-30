@@ -3838,6 +3838,22 @@ resource configservice_label creative_cloud_connector_invalid_cache_outdated_dia
   ]
 }
 
+resource configservice_label creative_cloud_connector_invalid_cache_invalid_files_dialog_description {
+  key = 'CREATIVE_CLOUD_CONNECTOR_INVALID_CACHE_INVALID_FILES_DIALOG_DESCRIPTION'
+  group = 'Creative Cloud Connector'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Your cache contains invalid files. To continue working with the product, please clear your cache to remove invalid files.'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Din cache indeholder ugyldige filer. For at fortsætte med at arbejde med produktet skal du rydde din cache for at fjerne ugyldige filer.'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label creative_cloud_connector_invalid_cache_dialog_sub_description {
   key = 'CREATIVE_CLOUD_CONNECTOR_INVALID_CACHE_DIALOG_SUB_DESCRIPTION'
   group = 'Creative Cloud Connector'
