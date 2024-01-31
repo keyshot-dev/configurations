@@ -254,6 +254,38 @@ resource configservice_label preview_asset_not_found_error_content {
   ]
 }
 
+resource configservice_label preview_upload_asset_not_found_error_title {
+  key = 'PREVIEW_UPLOAD_ASSET_NOT_FOUND_ERROR_TITLE'
+  group = 'Asset Preview'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Asset unavailable'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Asset ikke tilgængelig'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label preview_upload_asset_not_found_error_content {
+  key = 'PREVIEW_UPLOAD_ASSET_NOT_FOUND_ERROR_CONTENT'
+  group = 'Asset Preview'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'This asset is temporarily unavailable. Please navigate to this asset from the asset list.'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Dette asset er midlertidigt utilgængeligt. Naviger til dette asset fra assetlisten.'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label preview_asset_collapse_panel_aria_label {
   key = 'PREVIEW_ASSET_COLLAPSE_PANEL_ARIA_LABEL'
   group = 'Asset Preview'
