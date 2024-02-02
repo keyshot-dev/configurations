@@ -260,7 +260,7 @@ resource configservice_label preview_upload_asset_not_found_error_title {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Asset unavailable'
+      default_translation = 'The link to the asset is not valid anymore'
       language_id = data.language.english.id
     },
     {
