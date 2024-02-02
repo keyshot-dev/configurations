@@ -264,7 +264,7 @@ resource configservice_label preview_upload_asset_not_found_error_title {
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Asset ikke tilgængelig'
+      default_translation = 'Linket til assettet er ikke længere gyldigt'
       language_id = data.language.danish.id
     }
   ]
