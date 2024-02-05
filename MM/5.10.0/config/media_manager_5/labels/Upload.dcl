@@ -500,7 +500,7 @@ resource configservice_label upload_drag_and_drop_upload_dialog_tag_folder {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Tag with a current folder'
+      default_translation = 'Add to current folder'
       language_id = data.language.english.id
     },
     {
