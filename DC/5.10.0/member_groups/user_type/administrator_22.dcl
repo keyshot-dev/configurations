@@ -133,6 +133,8 @@ resource member_group administrator_22 {
             constant = 'Collection_can_share_group'
         }, {
             constant = 'Collection_can_share_link'
+        }, {
+            constant = 'Can_Get_Custom_Rendition'
         }]
     autolink = {
         item_guid = '58efafcb-4ce9-43d0-b413-b842fbccb576'

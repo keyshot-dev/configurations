@@ -17,6 +17,8 @@ resource member_group content_creator {
             constant = 'Can_view_metadata_tab'
         }, {
             constant = 'Can_view_related_assets'
+        }, {
+            constant = 'Can_Get_Custom_Rendition'
         }]
 }
 
