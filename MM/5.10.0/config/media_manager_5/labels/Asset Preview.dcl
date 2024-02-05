@@ -280,7 +280,7 @@ resource configservice_label preview_upload_asset_not_found_error_content {
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Linket til assettet er ikke længere gyldigt. Naviger i stedet til assettet via assetlisten.'
+      default_translation = 'Naviger i stedet til assettet via assetlisten.'
       language_id = data.language.danish.id
     }
   ]
