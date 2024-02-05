@@ -504,7 +504,7 @@ resource configservice_label upload_drag_and_drop_upload_dialog_tag_folder {
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Tag with a current folder'
+      default_translation = 'Tilføj til nuværende mappe'
       language_id = data.language.danish.id
     }
   ]
