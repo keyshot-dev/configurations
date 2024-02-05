@@ -494,6 +494,22 @@ resource configservice_label upload_drag_and_drop_upload_dialog_upload_invalid_u
   ]
 }
 
+resource configservice_label upload_drag_and_drop_upload_dialog_tag_folder {
+  key = 'UPLOAD_DRAG_AND_DROP_UPLOAD_DIALOG_TAG_FOLDER'
+  group = 'Upload'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Add to current folder'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Tilføj til nuværende mappe'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label mediamanager_topbar_upload_invalid_file {
   key = 'MEDIAMANAGER_TOPBAR_UPLOAD_INVALID_FILE'
   group = 'Upload'
