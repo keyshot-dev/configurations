@@ -260,11 +260,11 @@ resource configservice_label preview_upload_asset_not_found_error_title {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Asset unavailable'
+      default_translation = 'The link to the asset is not valid anymore'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Asset ikke tilgængelig'
+      default_translation = 'Linket til assettet er ikke længere gyldigt'
       language_id = data.language.danish.id
     }
   ]
@@ -276,11 +276,11 @@ resource configservice_label preview_upload_asset_not_found_error_content {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'This asset is temporarily unavailable. Please navigate to this asset from the asset list.'
+      default_translation = 'The link to the asset is not valid anymore. Please navigate to the asset via the asset list instead.'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Dette asset er midlertidigt utilgængeligt. Naviger til dette asset fra assetlisten.'
+      default_translation = 'Linket til assettet er ikke længere gyldigt. Naviger i stedet til assettet via assetlisten.'
       language_id = data.language.danish.id
     }
   ]
