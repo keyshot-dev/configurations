@@ -436,11 +436,11 @@ resource configservice_label upload_drag_and_drop_upload_dialog_body {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Do you want to upload {{total}} assets?'
+      default_translation = 'Do you want to upload {{total}} {multiple, select, true {assets} false {asset}}?'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Vil du uploade {{total}} assets?'
+      default_translation = 'Vil du uploade {{total}} {multiple, select, true {assets} false {asset}}?'
       language_id = data.language.danish.id
     }
   ]
