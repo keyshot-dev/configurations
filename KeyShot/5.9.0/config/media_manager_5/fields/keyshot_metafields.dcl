@@ -40,6 +40,9 @@ resource configservice_multi_string_config_field keyshot_metafields {
         },
 		{
             value = resource.editcombovalue_metafield.texture_type_50406.item_guid
+        }, 
+		{
+            value = data.tree_metafield.media_manager_menu.item_guid
         }]
     type = 'MetaField'
     product_id = data.configservice_product.media_manager_5.id
