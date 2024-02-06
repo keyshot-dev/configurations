@@ -50,5 +50,4 @@ resource configservice_string_config_field asset_list_footer_text {
     title = "Asset list footer content"
     description = "This text will appear in the middle of the footer"
     language_versioned = true
-    hidden = true
 }
