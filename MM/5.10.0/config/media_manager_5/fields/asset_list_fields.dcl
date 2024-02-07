@@ -37,7 +37,7 @@ resource configservice_bit_config_field show_page_footer {
     product_id = resource.configservice_product.media_manager_5.id
     group = 'Asset list'
     key = 'pageFooterEnabled'
-    title = 'Asset list footer'
+    title = 'Page footer'
     description = 'If enabled, footer will appear in the bottom of the page'
 }
 
@@ -47,7 +47,7 @@ resource configservice_string_config_field page_footer_text {
     product_id = resource.configservice_product.media_manager_5.id
     group = 'Asset list'
     key = 'pageFooterText'
-    title = "Asset list footer content"
+    title = "Page footer content"
     description = "This text will appear in the middle of the footer"
     language_versioned = true
     hidden = true
