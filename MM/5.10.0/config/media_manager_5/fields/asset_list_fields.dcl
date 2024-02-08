@@ -33,7 +33,7 @@ resource configservice_multi_string_config_field  asset_list_fields {
 }
 
 resource configservice_bit_config_field show_page_footer {
-    default_value = true
+    default_value = false
     product_id = resource.configservice_product.media_manager_5.id
     group = 'Asset list'
     key = 'pageFooterEnabled'
