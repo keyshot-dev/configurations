@@ -206,6 +206,55 @@ resource configservice_label settings_splashscreen_settings_upload_background_as
   ]
 }
 
+resource configservice_label settings_pagefooter_settings_description {
+  key = 'SETTINGS_PAGEFOOTER_SETTINGS_DESCRIPTION'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = '{languageId, select, 1 {Danish } 3 {English } other {}}Footer text'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = '{languageId, select, 1 {Dansk } 3 {Engelsk } other {}}Footer text'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_pagefooter_settings_save {
+  key = 'SETTINGS_PAGEFOOTER_SETTINGS_SAVE'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = '{saving, select, true {Saving...} false {Save}}'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = '{saving, select, true {Gemmer...} false {Gem}}'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_pagefooter_settings_title {
+  key = 'SETTINGS_PAGEFOOTER_SETTINGS_TITLE'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = '{languageId, select, 1 {Danish } 3 {English } other {}}Title'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = '{languageId, select, 1 {Dansk } 3 {Engelsk } other {}}Titel'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+
 resource configservice_label settings_background_asset_picker_select_asset {
   key = 'SETTINGS_BACKGROUND_ASSET_PICKER_SELECT_ASSET'
   group = 'Settings'
