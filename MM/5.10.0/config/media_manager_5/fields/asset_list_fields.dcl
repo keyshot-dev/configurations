@@ -38,7 +38,7 @@ resource configservice_bit_config_field show_page_footer {
     group = 'Asset list'
     key = 'pageFooterEnabled'
     title = 'Page footer'
-    description = 'If enabled, footer will appear in the bottom of the page'
+    description = 'If enabled, footer will appear at the bottom of the page'
 }
 
 resource configservice_string_config_field page_footer_text {
