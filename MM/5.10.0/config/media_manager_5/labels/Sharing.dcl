@@ -851,3 +851,19 @@ resource configservice_label asset_share_resend_invite_notification_error_body {
     }
   ]
 }
+
+resource configservice_label asset_share_not_downloadable_message {
+  key = 'ASSET_SHARE_NOT_DOWNLOADABLE_MESSAGE'
+  group = 'Sharing'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'This asset can not be shared due to download restrictions'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Dette asset kan ikke deles på grund af downloadbegrænsninger'
+      language_id = data.language.danish.id
+    }
+  ]
+}
