@@ -238,17 +238,17 @@ resource configservice_label settings_pagefooter_settings_save {
   ]
 }
 
-resource configservice_label settings_pagefooter_settings_title {
-  key = 'SETTINGS_PAGEFOOTER_SETTINGS_TITLE'
+resource configservice_label settings_pagefooter_settings_select_language {
+  key = 'SETTINGS_PAGEFOOTER_SETTINGS_SELECT_LANGUAGE'
   group = 'Settings'
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = '{languageId, select, 1 {Danish } 3 {English } other {}}Title'
+      default_translation = 'Select language'
       language_id = data.language.english.id
     },
     {
-      default_translation = '{languageId, select, 1 {Dansk } 3 {Engelsk } other {}}Titel'
+      default_translation = 'Vælg sprog'
       language_id = data.language.danish.id
     }
   ]
