@@ -42,7 +42,7 @@ resource configservice_bit_config_field show_page_footer {
 }
 
 resource configservice_string_config_field page_footer_text {
-    default_value = '<strong>Terms of use</strong>'
+    default_value = ''
     type = 'String'
     product_id = resource.configservice_product.media_manager_5.id
     group = 'Asset list'
