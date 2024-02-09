@@ -335,23 +335,6 @@ resource configservice_label settings_asset_picker_select_background_asset {
   ]
 }
 
-resource configservice_label settings_settings_root_pagefooter {
-  key = 'SETTINGS_SETTINGS_ROOT_PAGEFOOTER'
-  group = 'Settings'
-  product_id = resource.configservice_product.media_manager_5.id
-  default_label_values = [
-    {
-      default_translation = 'Page footer'
-      language_id = data.language.english.id
-    },
-    {
-      default_translation = 'Page footer'
-      language_id = data.language.danish.id
-    }
-  ]
-}
-
-
 resource configservice_label settings_asset_picker_select_logo {
   key = 'SETTINGS_ASSET_PICKER_SELECT_LOGO'
   group = 'Settings'
@@ -395,6 +378,22 @@ resource configservice_label settings_settings_root_labels {
     },
     {
       default_translation = 'Tekster'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_settings_root_pagefooter {
+  key = 'SETTINGS_SETTINGS_ROOT_PAGEFOOTER'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Page footer'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Page footer'
       language_id = data.language.danish.id
     }
   ]
