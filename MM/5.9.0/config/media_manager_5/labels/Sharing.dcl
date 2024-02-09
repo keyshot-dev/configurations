@@ -862,7 +862,7 @@ resource configservice_label asset_share_not_downloadable_message {
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Dette asset kan ikke deles på grund af downloadbegrænsninger'
+      default_translation = 'Assetet kan ikke deles grundet download-restriktioner'
       language_id = data.language.danish.id
     }
   ]
