@@ -393,7 +393,7 @@ resource configservice_label settings_settings_root_pagefooter {
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Page footer'
+      default_translation = 'Side-footer'
       language_id = data.language.danish.id
     }
   ]
