@@ -13,8 +13,8 @@ resource configservice_string_config_field page_footer_text {
     product_id = resource.configservice_product.media_manager_5.id
     group = 'default'
     key = 'pageFooterText'
-    title = "Page footer content"
-    description = "This text will appear in the middle of the footer"
+    title = 'Page footer content'
+    description = 'This text will appear in the middle of the footer'
     language_versioned = true
     hidden = true
 }
