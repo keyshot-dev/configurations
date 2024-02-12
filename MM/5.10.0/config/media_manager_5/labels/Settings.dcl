@@ -212,7 +212,7 @@ resource configservice_label settings_pagefooter_settings_description {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = '{languageId, select, 1 {Danish f} 3 {English f} other {F}}ooter text'
+      default_translation = '{languageId, select, 1 {Danish footer} 3 {English footer} other {Footer}} text'
       language_id = data.language.english.id
     },
     {
