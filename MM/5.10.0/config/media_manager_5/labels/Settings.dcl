@@ -216,7 +216,7 @@ resource configservice_label settings_pagefooter_settings_description {
       language_id = data.language.english.id
     },
     {
-      default_translation = '{languageId, select, 1 {Dansk } 3 {Engelsk } other {}}Footer text'
+      default_translation = '{languageId, select, 1 {Dansk footer} 3 {Engelsk footer} other {Footer}} text'
       language_id = data.language.danish.id
     }
   ]
