@@ -1919,3 +1919,35 @@ resource configservice_label asset_list_facet_assettype {
   ]
 }
 
+resource configservice_label asset_list_box_view_item_no_crops {
+  group = 'Asset List'
+  key = 'ASSET_LIST_BOX_VIEW_ITEM_NO_CROPS'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      language_id = data.language.english.id
+      default_translation = 'No crops'
+    },
+    {
+      language_id = data.language.danish.id
+      default_translation = 'Ingen beskæringer'
+    }
+  ]
+}
+
+resource configservice_label asset_list_box_view_item_show_crops {
+  group = 'Asset List'
+  key = 'ASSET_LIST_BOX_VIEW_ITEM_SHOW_CROPS'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      language_id = data.language.english.id
+      default_translation = 'Show crops'
+    },
+    {
+      language_id = data.language.danish.id
+      default_translation = 'Vis beskæringer'
+    }
+  ]
+}
+
