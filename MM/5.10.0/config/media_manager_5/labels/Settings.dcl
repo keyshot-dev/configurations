@@ -7445,7 +7445,7 @@ resource configservice_label settings_menu_transcode_job_status_title {
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Transcode job status'
+      default_translation = 'Transkode-job-status'
       language_id = data.language.danish.id
     }
   ]
@@ -7461,7 +7461,7 @@ resource configservice_label settings_menu_transcode_job_status_desc {
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Monitorér transcode statussen'
+      default_translation = 'Monitorér transkode-statussen'
       language_id = data.language.danish.id
     }
   ]
