@@ -180,11 +180,11 @@ resource configservice_label advanced_search_keyword_operator {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = '{operator, select, empty {is empty} not_empty {is not empty} included {is} excluded {is not}}'
+      default_translation = '{operator, select, empty {is empty} not_empty {has values} included {is} excluded {is not}}'
       language_id = data.language.english.id
     },
     {
-      default_translation = '{operator, select, empty {er tom} not_empty {er ikke tom} included {er} excluded {ikke er}}'
+      default_translation = '{operator, select, empty {er tom} not_empty {har værdier} included {er} excluded {ikke er}}'
       language_id = data.language.danish.id
     }
   ]
@@ -196,11 +196,11 @@ resource configservice_label advanced_search_text_operator {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = '{operator, select, startsWith {starts with} endsWith {ends with} contains {contains} matches {matches} not {is not} empty {is empty}} not_empty {is not empty}'
+      default_translation = '{operator, select, startsWith {starts with} endsWith {ends with} contains {contains} matches {matches} not {is not} empty {is empty}} not_empty {has values}'
       language_id = data.language.english.id
     },
     {
-      default_translation = '{operator, select, startsWith {begynder med} endsWith {slutter med} contains {indeholder} matches {matcher} not {ikke er} empty {er tom}} not_empty {er ikke tom}'
+      default_translation = '{operator, select, startsWith {begynder med} endsWith {slutter med} contains {indeholder} matches {matcher} not {ikke er} empty {er tom}} not_empty {har værdier}'
       language_id = data.language.danish.id
     }
   ]
@@ -212,11 +212,11 @@ resource configservice_label advanced_search_number_operator {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = '{operator, select, equals {equals} greater {is greater than} less {is less than} between {is between} not {is not} empty {is empty}} not_empty {is not empty}'
+      default_translation = '{operator, select, equals {equals} greater {is greater than} less {is less than} between {is between} not {is not} empty {is empty}} not_empty {has values}'
       language_id = data.language.english.id
     },
     {
-      default_translation = '{operator, select, equals {er lig med} greater {er større end} less {er mindre end} between {er mellem} not {ikke er} empty {er tom}} not_empty {er ikke tom}'
+      default_translation = '{operator, select, equals {er lig med} greater {er større end} less {er mindre end} between {er mellem} not {ikke er} empty {er tom}} not_empty {har værdier}'
       language_id = data.language.danish.id
     }
   ]
@@ -228,11 +228,11 @@ resource configservice_label advanced_search_date_operator {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = '{operator, select, last {within past} next {within next} after {after} before {before} between {is between} empty {is empty}} not_empty {is not empty}'
+      default_translation = '{operator, select, last {within past} next {within next} after {after} before {before} between {is between} empty {is empty}} not_empty {has values}'
       language_id = data.language.english.id
     },
     {
-      default_translation = '{operator, select, last {indenfor de sidste} next {indenfor de kommende} after {efter} before {before} between {er mellem} empty {er tom}} not_empty {er ikke tom}'
+      default_translation = '{operator, select, last {indenfor de sidste} next {indenfor de kommende} after {efter} before {before} between {er mellem} empty {er tom}} not_empty {har værdier}'
       language_id = data.language.danish.id
     }
   ]
