@@ -7434,3 +7434,36 @@ resource configservice_label settings_menu_administration_tools_desc {
     }
   ]
 }
+
+resource configservice_label settings_menu_transcode_job_status_title {
+  key = 'SETTINGS_MENU_TRANSCODE_JOB_STATUS_TITLE'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Transcode job status'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Transcode job status'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_menu_transcode_job_status_desc {
+  key = 'SETTINGS_MENU_TRANSCODE_JOB_STATUS_DESC'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Monitor the transcode status'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Monitorér transcode statussen'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
