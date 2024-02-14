@@ -6912,11 +6912,11 @@ resource configservice_label settings_connector_settings_sf_label {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'SalesForce Connector'
+      default_translation = 'SalesForce сonnector'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'SalesForce Connector'
+      default_translation = 'SalesForce-connector'
       language_id = data.language.danish.id
     }
   ]
@@ -7169,11 +7169,11 @@ resource configservice_label settings_connector_settings_sales_force_azure_url_t
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Azure Backend URL'
+      default_translation = 'Azure backend URL'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Azure Backend URL'
+      default_translation = 'Azure-backend-URL'
       language_id = data.language.danish.id
     }
   ]
@@ -7201,11 +7201,11 @@ resource configservice_label settings_connector_settings_sales_force_azure_code_
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Azure Backend Code'
+      default_translation = 'Azure backend password'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Azure backend-kode'
+      default_translation = 'Azure-backend-kode'
       language_id = data.language.danish.id
     }
   ]
@@ -7217,7 +7217,7 @@ resource configservice_label settings_connector_settings_sales_force_azure_code_
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'The Code for the backend service in Azure.'
+      default_translation = 'The password for the backend service in Azure.'
       language_id = data.language.english.id
     },
     {
@@ -7233,11 +7233,11 @@ resource configservice_label settings_connector_settings_sales_force_client_id_t
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'SalesForce Client ID'
+      default_translation = 'SalesForce client ID'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'SalesForce klient ID'
+      default_translation = 'Salesforce-klient-ID'
       language_id = data.language.danish.id
     }
   ]
@@ -7249,11 +7249,11 @@ resource configservice_label settings_connector_settings_sales_force_client_id_d
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'The unique identifier assigned to your application within the Salesforce environment, enabling secure access to Salesforce APIs and resources.'
+      default_translation = 'The unique identifier assigned to your application within the Salesforce environment. Enables secure access to the Salesforce\'s APIs and resources.'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Den unikke identifikator tildelt din ansøgning inden for Salesforce-miljøet, hvilket muliggør sikker adgang til Salesforce API\'er og ressourcer.'
+      default_translation = 'Det unikke ID, der er tildelt din applikation i Salesforce-miljøet. Muliggør sikker adgang til Salesforces API\'er og ressourcer.'
       language_id = data.language.danish.id
     }
   ]
@@ -7265,11 +7265,11 @@ resource configservice_label settings_connector_settings_sales_force_client_secr
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'SalesForce Client Secret'
+      default_translation = 'Salesforce client secret'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'SalesForce klienthemmelighed'
+      default_translation = 'Salesforce client secret'
       language_id = data.language.danish.id
     }
   ]
@@ -7281,11 +7281,11 @@ resource configservice_label settings_connector_settings_sales_force_client_secr
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'The secret key that serves as an additional layer of security for your application when communicating with Salesforce APIs and services.'
+      default_translation = 'The secret key that serves as an additional layer of security for your application when communicating with Salesforce\'s APIs and services.'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Den hemmelige nøgle, der fungerer som et ekstra lag af sikkerhed for din ansøgning, når den kommunikerer med Salesforce API\'er og tjenester.'
+      default_translation = 'Den hemmelige nøgle, der fungerer som et ekstra lag af sikkerhed for din applikation, når du kommunikerer med Salesforces API\'er og tjenester.'
       language_id = data.language.danish.id
     }
   ]
@@ -7297,11 +7297,11 @@ resource configservice_label settings_connector_settings_sales_force_base_auth_t
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Salesforce Base Authentication URL'
+      default_translation = 'Salesforce base authentication URL'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Salesforce base autentificerings-URL'
+      default_translation = 'Salesforce-base-autentificerings-URL'
       language_id = data.language.danish.id
     }
   ]
@@ -7317,7 +7317,7 @@ resource configservice_label settings_connector_settings_sales_force_base_auth_d
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Den grundlæggende URL for Salesforce-godkendelse.'
+      default_translation = 'Base-URL\'et for Salesforce-autentificering.'
       language_id = data.language.danish.id
     }
   ]
@@ -7329,11 +7329,11 @@ resource configservice_label settings_connector_settings_sales_force_redirect_ur
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Salesforce Redirect Authentication URL'
+      default_translation = 'Salesforce redirect authentication URL'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Salesforce Omdirigeringsgodkendelses-URL'
+      default_translation = 'Salesforce-omdirigerings-autentificerings-URL'
       language_id = data.language.danish.id
     }
   ]
@@ -7349,7 +7349,7 @@ resource configservice_label settings_connector_settings_sales_force_redirect_ur
       language_id = data.language.english.id
     },
     {
-      default_translation = 'URL\'en bruges til at omdirigere godkendelsesanmodninger til Salesforce.'
+      default_translation = 'URL\'et der bruges til at omdirigere autentificerings-anmodninger til Salesforce. '
       language_id = data.language.danish.id
     }
   ]
