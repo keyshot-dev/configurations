@@ -6905,6 +6905,24 @@ resource configservice_label settings_connector_settings_oc_label {
   ]
 }
 
+
+resource configservice_label settings_connector_settings_sf_label {
+  key = 'SETTINGS_CONNECTOR_SETTINGS_SF_LABEL'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'SalesForce сonnector'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'SalesForce-connector'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+
 resource configservice_label settings_connector_settings_embedded_connectors_label {
   key = 'SETTINGS_CONNECTOR_SETTINGS_EMBEDDED_CONNECTORS_LABEL'
   group = 'Settings'
@@ -7140,6 +7158,198 @@ resource configservice_label settings_connector_settings_use_dam_generated_thumb
     },
     {
       default_translation = 'Når aktiveret, vil Cache og Link Manager bruge thumbnails genereret af DAM-systemet, i stedet for at anvende lokalt genererede thumbnails.'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_connector_settings_sales_force_azure_url_title {
+  key = 'SETTINGS_CONNECTOR_SETTINGS_SALES_FORCE_AZURE_URL_TITLE'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Azure backend URL'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Azure-backend-URL'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_connector_settings_sales_force_azure_url_description {
+  key = 'SETTINGS_CONNECTOR_SETTINGS_SALES_FORCE_AZURE_URL_DESCRIPTION'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'The URL for the backend service in Azure.'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'URL\'en til backend-tjenesten i Azure.'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_connector_settings_sales_force_azure_code_title {
+  key = 'SETTINGS_CONNECTOR_SETTINGS_SALES_FORCE_AZURE_CODE_TITLE'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Azure backend password'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Azure-backend-kode'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_connector_settings_sales_force_azure_code_description {
+  key = 'SETTINGS_CONNECTOR_SETTINGS_SALES_FORCE_AZURE_CODE_DESCRIPTION'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'The password for the backend service in Azure.'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Koden til backend-tjenesten i Azure.'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_connector_settings_sales_force_client_id_title {
+  key = 'SETTINGS_CONNECTOR_SETTINGS_SALES_FORCE_CLIENT_ID_TITLE'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'SalesForce client ID'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Salesforce-klient-ID'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_connector_settings_sales_force_client_id_description {
+  key = 'SETTINGS_CONNECTOR_SETTINGS_SALES_FORCE_CLIENT_ID_DESCRIPTION'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'The unique identifier assigned to your application within the Salesforce environment. Enables secure access to the Salesforce\'s APIs and resources.'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Det unikke ID, der er tildelt din applikation i Salesforce-miljøet. Muliggør sikker adgang til Salesforces API\'er og ressourcer.'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_connector_settings_sales_force_client_secret_title {
+  key = 'SETTINGS_CONNECTOR_SETTINGS_SALES_FORCE_CLIENT_SECRET_TITLE'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Salesforce client secret'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Salesforce client secret'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_connector_settings_sales_force_client_secret_description {
+  key = 'SETTINGS_CONNECTOR_SETTINGS_SALES_FORCE_CLIENT_SECRET_DESCRIPTION'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'The secret key that serves as an additional layer of security for your application when communicating with Salesforce\'s APIs and services.'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Den hemmelige nøgle, der fungerer som et ekstra lag af sikkerhed for din applikation, når du kommunikerer med Salesforces API\'er og tjenester.'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_connector_settings_sales_force_base_auth_title {
+  key = 'SETTINGS_CONNECTOR_SETTINGS_SALES_FORCE_BASE_AUTH_TITLE'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Salesforce base authentication URL'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Salesforce-base-autentificerings-URL'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_connector_settings_sales_force_base_auth_description {
+  key = 'SETTINGS_CONNECTOR_SETTINGS_SALES_FORCE_BASE_AUTH_DESCRIPTION'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'The base URL for Salesforce authentication.'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Base-URL\'et for Salesforce-autentificering.'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_connector_settings_sales_force_redirect_url_title {
+  key = 'SETTINGS_CONNECTOR_SETTINGS_SALES_FORCE_REDIRECT_URL_TITLE'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Salesforce redirect authentication URL'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Salesforce-omdirigerings-autentificerings-URL'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_connector_settings_sales_force_redirect_url_description {
+  key = 'SETTINGS_CONNECTOR_SETTINGS_SALES_FORCE_REDIRECT_URL_DESCRIPTION'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'The URL used for redirecting authentication requests to Salesforce.'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'URL\'et der bruges til at omdirigere autentificerings-anmodninger til Salesforce. '
       language_id = data.language.danish.id
     }
   ]
