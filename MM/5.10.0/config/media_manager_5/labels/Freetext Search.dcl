@@ -196,7 +196,7 @@ resource configservice_label advanced_search_text_operator {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = '{operator, select, startsWith {starts with} endsWith {ends with} contains {contains} matches {matches} not {is not} empty {is empty}} not_empty {er ikke tom}'
+      default_translation = '{operator, select, startsWith {starts with} endsWith {ends with} contains {contains} matches {matches} not {is not} empty {is empty}} not_empty {is not empty}'
       language_id = data.language.english.id
     },
     {
