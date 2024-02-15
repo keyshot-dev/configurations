@@ -1951,7 +1951,7 @@ resource configservice_label asset_list_box_view_item_show_crops {
   ]
 }
 
-resource configservice_label asset_list_box_view_item_show_crops {
+resource configservice_label asset_list_related_assets_modal_header {
   group = 'Asset List'
   key = 'ASSET_LIST_RELATED_ASSETS_MODAL_HEADER'
   product_id = resource.configservice_product.media_manager_5.id
