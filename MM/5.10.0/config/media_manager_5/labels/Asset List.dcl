@@ -1926,11 +1926,11 @@ resource configservice_label asset_list_box_view_item_no_crops {
   default_label_values = [
     {
       language_id = data.language.english.id
-      default_translation = 'No crops'
+      default_translation = 'No {assetType, select, 1 {trims} other {crops}}'
     },
     {
       language_id = data.language.danish.id
-      default_translation = 'Ingen beskæringer'
+      default_translation = 'Ingen {assetType, select, 1 {beskæringer} other {beskæringer}}'
     }
   ]
 }
@@ -1942,11 +1942,27 @@ resource configservice_label asset_list_box_view_item_show_crops {
   default_label_values = [
     {
       language_id = data.language.english.id
-      default_translation = 'Show crops'
+      default_translation = 'Show {assetType, select, 1 {trims} other {crops}}'
     },
     {
       language_id = data.language.danish.id
-      default_translation = 'Vis beskæringer'
+      default_translation = 'Vis {assetType, select, 1 {beskæringer} other {beskæringer}}'
+    }
+  ]
+}
+
+resource configservice_label asset_list_related_assets_modal_header {
+  group = 'Asset List'
+  key = 'ASSET_LIST_RELATED_ASSETS_MODAL_HEADER'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      language_id = data.language.english.id
+      default_translation = '{assetType, select, 1 {Trims} other {Crops}}'
+    },
+    {
+      language_id = data.language.danish.id
+      default_translation = '{assetType, select, 1 {Beskæringer} other {Beskæringer}}'
     }
   ]
 }
