@@ -148,11 +148,27 @@ resource configservice_label duplicate_asset_modal_next {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = '{hasNext, select, true {Confirm} false {Done}}'
+      default_translation = '{hasNext, select, true {Next} false {Done}}'
       language_id = data.language.english.id
     },
     {
-      default_translation = '{hasNext, select, true {Bekræft} false {Færdig}}'
+      default_translation = '{hasNext, select, true {Næste} false {Færdig}}'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label duplicate_asset_modal_do_for_all {
+  key = 'DUPLICATE_ASSET_MODAL_DO_FOR_ALL'
+  group = 'Duplicate Assets'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Repeat action for all'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Gentag handling for alle'
       language_id = data.language.danish.id
     }
   ]
