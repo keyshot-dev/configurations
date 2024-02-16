@@ -164,11 +164,11 @@ resource configservice_label duplicate_asset_modal_do_for_all {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Do for all'
+      default_translation = 'Repeat action for all''
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Gør for alle'
+      default_translation = 'Gentag handling for alle'
       language_id = data.language.danish.id
     }
   ]
