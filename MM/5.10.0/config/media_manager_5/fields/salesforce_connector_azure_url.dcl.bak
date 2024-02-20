@@ -1,5 +1,5 @@
 resource configservice_string_config_field salesforce_connector_azure_url {    
-    default_value = ''
+    default_values = ''
 	type = 'String'
     product_id = resource.configservice_product.media_manager_5.id
     group = 'SalesForce connector'
