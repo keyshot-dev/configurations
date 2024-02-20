@@ -164,7 +164,7 @@ resource configservice_label duplicate_asset_modal_do_for_all {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Repeat action for all''
+      default_translation = 'Repeat action for all'
       language_id = data.language.english.id
     },
     {
