@@ -16,12 +16,6 @@ resource combo_value_label keyshot_type__environments__english_50172 {
     label = 'Environments'
 }
 
-resource combo_value_label keyshot_type__frontplates__english_50273 {
-    combo_id = resource.combo_value.keyshot_type_frontplates_50399.combo_id
-    language_id = data.language.english.id
-    label = 'Frontplates'
-}
-
 resource combo_value_label keyshot_type__materials__english_50175 {
     combo_id = resource.combo_value.keyshot_type_materials_50399.combo_id
     language_id = data.language.english.id
@@ -67,12 +61,6 @@ resource combo_value keyshot_type_colors_50399 {
 resource combo_value keyshot_type_environments_50399 {
     metafield_id = resource.combovalue_metafield.keyshot_type_50399.metafield_id
     option_value = 'Environments'
-    sort_index = 0
-}
-
-resource combo_value keyshot_type_frontplates_50399 {
-    metafield_id = resource.combovalue_metafield.keyshot_type_50399.metafield_id
-    option_value = 'Frontplates'
     sort_index = 0
 }
 
@@ -228,41 +216,6 @@ resource item_security combo_value_keyshot_type_environments_50399__sa_full_acce
 resource item_security combo_value_keyshot_type_environments_50399__superadministrator {
     accessor_item_id = data.member.superadministrator.item_id
     item_id = resource.combo_value.keyshot_type_environments_50399.item_id
-    read = true
-    write = true
-}
-
-resource item_security combo_value_keyshot_type_frontplates_50399__editor_access_32 {
-    accessor_item_id = data.member_group.editor_access.item_id
-    item_id = resource.combo_value.keyshot_type_frontplates_50399.item_id
-    read = true
-    write = true
-}
-
-resource item_security combo_value_keyshot_type_frontplates_50399__metadata_editor_36 {
-    accessor_item_id = data.member_group.metadata_editor.item_id
-    item_id = resource.combo_value.keyshot_type_frontplates_50399.item_id
-    read = true
-    write = true
-}
-
-resource item_security combo_value_keyshot_type_frontplates_50399__metadata_viewer_35 {
-    accessor_item_id = data.member_group.metadata_viewer.item_id
-    item_id = resource.combo_value.keyshot_type_frontplates_50399.item_id
-    read = true
-    write = false
-}
-
-resource item_security combo_value_keyshot_type_frontplates_50399__sa_full_access_37 {
-    accessor_item_id = data.member_group.sa_full_access.item_id
-    item_id = resource.combo_value.keyshot_type_frontplates_50399.item_id
-    read = true
-    write = true
-}
-
-resource item_security combo_value_keyshot_type_frontplates_50399__superadministrator {
-    accessor_item_id = data.member.superadministrator.item_id
-    item_id = resource.combo_value.keyshot_type_frontplates_50399.item_id
     read = true
     write = true
 }
