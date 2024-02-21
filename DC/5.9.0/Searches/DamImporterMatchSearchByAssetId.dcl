@@ -2,7 +2,7 @@
     version_id = resource.product.digizuite_dam_center.base_version_id
     name = 'DamImporterMatchSearchByAssetId'
     is_customizable = true
-    search_xml = '<search name="DamImporterMatchSearch">
+    search_xml = '<search name="DamImporterMatchSearchByAssetId">
         <searchSection>
             <searchFields>
                 <searchField id="language" type="language" valueHandler="Equals" visible="false"/>
