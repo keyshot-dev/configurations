@@ -126,17 +126,48 @@ resource configservice_label asset_list_filters_configuration_sort_by {
   ]
 }
 
+resource configservice_label asset_list_filters_configuration_sort_order {
+  key = 'ASSET_LIST_FILTERS_CONFIGURATION_SORT_ORDER'
+  group = 'Filters'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Sort order'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Sortering'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label asset_list_filters_configuration_sort {
   key = 'ASSET_LIST_FILTERS_CONFIGURATION_SORT'
   group = 'Filters'
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = '{criteria, select, index {A-Z} count {Usage}}'
+      default_translation = '{criteria, select, alphabetical {A-Z} count {Usage}}'
       language_id = data.language.english.id
     },
     {
-      default_translation = '{criteria, select, index {A-Å} count {Brug}}'
+      default_translation = '{criteria, select, alphabetical {A-Å} count {Brug}}'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+resource configservice_label asset_list_filters_configuration_sort_option {
+  key = 'ASSET_LIST_FILTERS_CONFIGURATION_SORT_OPTION'
+  group = 'Filters'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = '{order, select, ascending {Ascending} descending {Descending}}'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = '{order, select, ascending {Stigende} descending {Faldende}}'
       language_id = data.language.danish.id
     }
   ]

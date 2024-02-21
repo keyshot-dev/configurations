@@ -656,7 +656,7 @@ resource language_label asset_sort_header_da {
 
 resource language_label asset_type_en {
     constant = 'ASSET_TYPE'
-    label = '{id, select, -1 {Unknown} 0 {Unknown} 1 {Video} 2 {Audio} 4 {Image} 5 {PowerPoint} 6 {Html} 7 {Text} 8 {Word} 9 {Excel} 10 {InDesign} 11 {Zip} 12 {META} 14 {PDF} 15 {Archive} 16 {Photoshop} 17 {Illustrator} 18 {Visio} 19 {Cad} 20 {Font} 21 {Adobe After Effects} 22 {Adobe Premiere Pro} 100 {ODT} 101 {OTT} 102 {ODS} 103 {OTS} 105 {ODP} 106 {OTP} 107 {ODG} 108 {OTG} 109 {ODB} 110 {ODF} 111 {ODM} 112 {OTH} 1000 {Live}}'
+    label = '{id, select, -1 {Unknown} 0 {All} 1 {Video} 2 {Audio} 4 {Image} 5 {PowerPoint} 6 {Html} 7 {Text} 8 {Word} 9 {Excel} 10 {InDesign} 11 {Zip} 12 {META} 14 {PDF} 15 {Archive} 16 {Photoshop} 17 {Illustrator} 18 {Visio} 19 {Cad} 20 {Font} 21 {Adobe After Effects} 22 {Adobe Premiere Pro} 100 {ODT} 101 {OTT} 102 {ODS} 103 {OTS} 105 {ODP} 106 {OTP} 107 {ODG} 108 {OTG} 109 {ODB} 110 {ODF} 111 {ODM} 112 {OTH} 1000 {Live}}'
     language_id = data.language.english.id
     folder_id = resource.language_label_folder.media_manager.folder_id
     version_id = resource.product.media_manager.base_version_id
@@ -664,7 +664,7 @@ resource language_label asset_type_en {
 
 resource language_label asset_type_da {
     constant = 'ASSET_TYPE'
-    label = '{id, select, -1 {Ukendt} 0 {Ukendt} 1 {Video} 2 {Lyd} 4 {Billede} 5 {PowerPoint} 6 {Html} 7 {Tekst} 8 {Word} 9 {Excel} 10 {InDesign} 11 {Zip} 12 {META} 14 {PDF} 15 {Arkiv} 16 {Photoshop} 17 {Illustrator} 18 {Visio} 19 {Cad} 20 {Font} 21 {Adobe After Effects} 22 {Adobe Premiere Pro} 100 {ODT} 101 {OTT} 102 {ODS} 103 {OTS} 105 {ODP} 106 {OTP} 107 {ODG} 108 {OTG} 109 {ODB} 110 {ODF} 111 {ODM} 112 {OTH} 1000 {Live}}'
+    label = '{id, select, -1 {Ukendt} 0 {Alle} 1 {Video} 2 {Lyd} 4 {Billede} 5 {PowerPoint} 6 {Html} 7 {Tekst} 8 {Word} 9 {Excel} 10 {InDesign} 11 {Zip} 12 {META} 14 {PDF} 15 {Arkiv} 16 {Photoshop} 17 {Illustrator} 18 {Visio} 19 {Cad} 20 {Font} 21 {Adobe After Effects} 22 {Adobe Premiere Pro} 100 {ODT} 101 {OTT} 102 {ODS} 103 {OTS} 105 {ODP} 106 {OTP} 107 {ODG} 108 {OTG} 109 {ODB} 110 {ODF} 111 {ODM} 112 {OTH} 1000 {Live}}'
     language_id = data.language.danish.id
     folder_id = resource.language_label_folder.media_manager.folder_id
     version_id = resource.product.media_manager.base_version_id

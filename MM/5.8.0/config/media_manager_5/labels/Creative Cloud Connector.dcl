@@ -62,6 +62,22 @@ resource configservice_label change_site_dialog_sub_description {
   ]
 }
 
+resource configservice_label change_site_dialog_extra_description {
+  key = 'CHANGE_SITE_DIALOG_EXTRA_DESCRIPTION'
+  group = 'Creative Cloud Connector'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Please restart {applicationId, select, AEFT {After Effects} IDSN {InDesign} ILST {Illustrator} PHXS {Photoshop} PHSP {Photoshop} PPRO {Premiere Pro}} for the change to take effect.'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Genstart venligst {applicationId, select, AEFT {After Effects} IDSN {InDesign} ILST {Illustrator} PHXS {Photoshop} PHSP {Photoshop} PPRO {Premiere Pro}} for at ændringen træder i kraft.'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label change_site_dialog_cancel {
   key = 'CHANGE_SITE_DIALOG_CANCEL'
   group = 'Creative Cloud Connector'
@@ -985,6 +1001,22 @@ resource configservice_label creative_cloud_connector_notification_active_docume
     },
     {
       default_translation = 'Der blev ikke fundet noget aktivt dokument'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label creative_cloud_connector_notification_active_document_body_cloud_document {
+  key = 'CREATIVE_CLOUD_CONNECTOR_NOTIFICATION_ACTIVE_DOCUMENT_BODY_CLOUD_DOCUMENT'
+  group = 'Creative Cloud Connector'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Please save the document to your drive to enable uploading to the Digizuite DAM'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Gem dokumentet på dit lokale drev for at slå upload til Digizuite DAM til'
       language_id = data.language.danish.id
     }
   ]
@@ -3310,6 +3342,70 @@ resource configservice_label creative_cloud_connector_place_asset_btn {
   ]
 }
 
+resource configservice_label creative_cloud_connector_open_document_btn {
+  key = 'CREATIVE_CLOUD_CONNECTOR_OPEN_DOCUMENT_BTN'
+  group = 'Creative Cloud Connector'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Open document'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Åbn dokumentet'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label creative_cloud_connector_place_asset_in_document_btn {
+  key = 'CREATIVE_CLOUD_CONNECTOR_PLACE_ASSET_IN_DOCUMENT_BTN'
+  group = 'Creative Cloud Connector'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Place in document'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Placer i dokumentet'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label creative_cloud_connector_place_as_linked_btn {
+  key = 'CREATIVE_CLOUD_CONNECTOR_PLACE_AS_LINKED_BTN'
+  group = 'Creative Cloud Connector'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Place as linked'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Placer som linket'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label creative_cloud_connector_open_asset_as_document_btn {
+  key = 'CREATIVE_CLOUD_CONNECTOR_OPEN_ASSET_AS_DOCUMENT_BTN'
+  group = 'Creative Cloud Connector'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Open as document'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Åben som dokument'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label creative_cloud_connector_open_asset_btn {
   key = 'CREATIVE_CLOUD_CONNECTOR_OPEN_ASSET_BTN'
   group = 'Creative Cloud Connector'
@@ -3694,6 +3790,22 @@ resource configservice_label creative_cloud_connector_invalid_cache_dialog_descr
   ]
 }
 
+resource configservice_label creative_cloud_connector_invalid_cache_outdated_dialog_description {
+  key = 'CREATIVE_CLOUD_CONNECTOR_INVALID_CACHE_OUTDATED_DIALOG_DESCRIPTION'
+  group = 'Creative Cloud Connector'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Your cache is not up to date. To continue working with the product, please clear your cache.'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Din cache er ikke opdateret. Ryd din cache for at fortsætte med at arbejde med produktet.'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label creative_cloud_connector_invalid_cache_dialog_sub_description {
   key = 'CREATIVE_CLOUD_CONNECTOR_INVALID_CACHE_DIALOG_SUB_DESCRIPTION'
   group = 'Creative Cloud Connector'
@@ -3737,6 +3849,198 @@ resource configservice_label creative_cloud_connector_invalid_cache_dialog_delet
     },
     {
       default_translation = 'Slet cache-indhold'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label creative_cloud_connector_change_cache_location_title {
+  key = 'CREATIVE_CLOUD_CONNECTOR_CHANGE_CACHE_LOCATION_TITLE'
+  group = 'Creative Cloud Connector'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Change storage location'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Skift lager-placering'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label creative_cloud_connector_change_cache_location_reset_default_description {
+  key = 'CREATIVE_CLOUD_CONNECTOR_CHANGE_CACHE_LOCATION_RESET_DEFAULT_DESCRIPTION'
+  group = 'Creative Cloud Connector'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'You are about to reset your cache location to the default setting'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Du er ved at nulstille din cache-placering til standard-indstillingen'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label creative_cloud_connector_change_cache_location_change_location_description {
+  key = 'CREATIVE_CLOUD_CONNECTOR_CHANGE_CACHE_LOCATION_CHANGE_LOCATION_DESCRIPTION'
+  group = 'Creative Cloud Connector'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'You are about to change your storage location'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Du er ved at ændre din lager-placering'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label creative_cloud_connector_change_cache_location_description {
+  key = 'CREATIVE_CLOUD_CONNECTOR_CHANGE_CACHE_LOCATION_DESCRIPTION'
+  group = 'Creative Cloud Connector'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'An extension restart is required to change the storage location.'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'En genstart af udvidelsen er påkrævet for at ændre lager-placeringen.'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label creative_cloud_connector_change_cache_location_sub_description {
+  key = 'CREATIVE_CLOUD_CONNECTOR_CHANGE_CACHE_LOCATION_SUB_DESCRIPTION'
+  group = 'Creative Cloud Connector'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Please start the extension manually after it closes.'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Start venligst udvidelsen manuelt, efter den er blevet lukket.'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label creative_cloud_connector_change_cache_location_to {
+  key = 'CREATIVE_CLOUD_CONNECTOR_CHANGE_CACHE_LOCATION_TO'
+  group = 'Creative Cloud Connector'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'To: {{storagePath}}'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Til: {{storagePath}}'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label creative_cloud_connector_change_cache_location_from {
+  key = 'CREATIVE_CLOUD_CONNECTOR_CHANGE_CACHE_LOCATION_FROM'
+  group = 'Creative Cloud Connector'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'From: {{storagePath}}'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Fra: {{storagePath}}'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label creative_cloud_connector_change_cache_location_cancel_btn {
+  key = 'CREATIVE_CLOUD_CONNECTOR_CHANGE_CACHE_LOCATION_CANCEL_BTN'
+  group = 'Creative Cloud Connector'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Cancel'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Annullér'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label creative_cloud_connector_change_cache_location_change_btn {
+  key = 'CREATIVE_CLOUD_CONNECTOR_CHANGE_CACHE_LOCATION_CHANGE_BTN'
+  group = 'Creative Cloud Connector'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Change'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Ændre'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label cache_manager_settings_storage_title {
+  key = 'CACHE_MANAGER_SETTINGS_STORAGE_TITLE'
+  group = 'Creative Cloud Connector'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Storage'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Lager'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label cache_manager_settings_storage_current_storage_path {
+  key = 'CACHE_MANAGER_SETTINGS_STORAGE_CURRENT_STORAGE_PATH'
+  group = 'Creative Cloud Connector'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Current storage path'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Nuværende lager-sti'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label cache_manager_settings_storage_reset_to_default {
+  key = 'CACHE_MANAGER_SETTINGS_STORAGE_RESET_TO_DEFAULT'
+  group = 'Creative Cloud Connector'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Reset to default'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Nulstil til standard'
       language_id = data.language.danish.id
     }
   ]
@@ -5657,6 +5961,22 @@ resource configservice_label creative_cloud_connector_cache_manager_download_out
     },
     {
       default_translation = 'Download automatisk den seneste version af assets i baggrunden'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label creative_cloud_connector_quality {
+  key = 'CREATIVE_CLOUD_CONNECTOR_QUALITY'
+  group = 'Creative Cloud Connector'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Quality'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Kvalitet'
       language_id = data.language.danish.id
     }
   ]

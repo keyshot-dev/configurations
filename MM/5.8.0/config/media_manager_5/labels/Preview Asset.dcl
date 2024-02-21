@@ -436,11 +436,11 @@ resource configservice_label preview_thumbnail_selector_use {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = '{loading, select, true {Saving} false {Use}}'
+      default_translation = '{loading, select, true {Saving} false {Save}}'
       language_id = data.language.english.id
     },
     {
-      default_translation = '{loading, select, true {Gemmer} false {Brug}}'
+      default_translation = '{loading, select, true {Gemmer} false {Gem}}'
       language_id = data.language.danish.id
     }
   ]
@@ -484,11 +484,75 @@ resource configservice_label preview_thumbnail_selector_thumbnail_generator {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Thumbnail generator'
+      default_translation = 'Change thumbnail'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Thumbnail generator'
+      default_translation = 'Skift thumbnail'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label preview_thumbnail_selector_generate_frame_description {
+  key = 'PREVIEW_THUMBNAIL_SELECTOR_GENERATE_FRAME_DESCRIPTION'
+  group = 'Preview Asset'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Drag the slider to select your preferred thumbnail and click \'Save\''
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Træk i slideren for at vælge dit foretrukne miniaturebillede. Klik derefter \'Gem\''
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label preview_thumbnail_selector_generate_random_description {
+  key = 'PREVIEW_THUMBNAIL_SELECTOR_GENERATE_RANDOM_DESCRIPTION'
+  group = 'Preview Asset'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Select your preferred thumbnail and click \'Save\', or generate new thumbails'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Vælg dit foretrukne thumbnail, og klik på \'Gem\', ellers generer nye thumbnails'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label preview_thumbnail_selector_specific_frame {
+  key = 'PREVIEW_THUMBNAIL_SELECTOR_SPECIFIC_FRAME'
+  group = 'Preview Asset'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Specific frame'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Specifikt stillbillede'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label preview_thumbnail_selector_random_frame{
+  key = 'PREVIEW_THUMBNAIL_SELECTOR_RANDOM_FRAME'
+  group = 'Preview Asset'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Random frame'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Tilfældigt stillbillede'
       language_id = data.language.danish.id
     }
   ]

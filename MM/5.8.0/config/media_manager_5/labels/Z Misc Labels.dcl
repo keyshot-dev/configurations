@@ -2302,3 +2302,20 @@ resource configservice_label aria_label_navigation_previous {
     }
   ]
 }
+
+resource configservice_label aria_label_select_asset {
+  key = 'ARIA_LABEL_SELECT_ASSET'
+  group = 'Z Misc Labels'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Select asset'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Vælg asset'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+

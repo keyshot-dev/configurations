@@ -91,8 +91,6 @@ patch member_group content_creator_patch {
             constant = 'Can_view_metadata_tab'
         }, {
             constant = 'Can_view_related_assets'
-        }, {
-            constant = 'Asset_Can_Archive'
         }]
 }
 
