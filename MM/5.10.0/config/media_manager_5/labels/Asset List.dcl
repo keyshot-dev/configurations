@@ -782,6 +782,22 @@ resource configservice_label asset_list_more_popup_crop {
   ]
 }
 
+resource configservice_label asset_list_more_popup_crop_detailed {
+  key = 'ASSET_LIST_MORE_POPUP_CROP_DETAILED'
+  group = 'Asset List'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = '{isVideo, select, true {Trim} false {Crop}} ({hasDerivedVersions, select, true {Has crops} false {No crops}})'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = '{isVideo, select, true {Trim} false {Beskær}} ({hasDerivedVersions, select, true {Har beskæringer} false {Ingen beskæringer}})'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label asset_list_more_popup_crop_tool {
   key = 'ASSET_LIST_MORE_POPUP_CROP_TOOL'
   group = 'Asset List'
@@ -793,6 +809,22 @@ resource configservice_label asset_list_more_popup_crop_tool {
     },
     {
       default_translation = 'Beskæringsværktøj'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_list_more_popup_trim_tool {
+  key = 'ASSET_LIST_MORE_POPUP_TRIM_TOOL'
+  group = 'Asset List'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Trim tool'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Trim-værktøj'
       language_id = data.language.danish.id
     }
   ]

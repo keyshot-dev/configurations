@@ -798,6 +798,22 @@ resource configservice_label asset_list_more_popup_crop_tool {
   ]
 }
 
+resource configservice_label asset_list_more_popup_trim_tool {
+  key = 'ASSET_LIST_MORE_POPUP_TRIM_TOOL'
+  group = 'Asset List'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Trim tool'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Trim-værktøj'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label asset_list_more_popup_crop_no_crops {
   key = 'ASSET_LIST_MORE_POPUP_CROP_NO_CROPS'
   group = 'Asset List'
