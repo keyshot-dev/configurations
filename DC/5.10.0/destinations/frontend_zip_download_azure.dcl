@@ -2,8 +2,6 @@ resource azure_destination frontend_zip_download_azure {
     name = 'Frontend Zip Download Azure'
     storage_manager_id = resource.storage_manager_destination.frontend_zip_download_sm.destination_id
     is_public = variable.storage_use_azure
-    azure_storage_account = variable.frontend_storage_azure_storage_account
-    azure_access_key = variable.frontend_storage_azure_access_key
     make_transcode_path = false
     reuse_mode = 'AllowReUse'
     out_filename_mask = ''
