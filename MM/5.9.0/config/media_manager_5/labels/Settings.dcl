@@ -6846,11 +6846,11 @@ resource configservice_label settings_connector_settings_sf_label {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'SalesForce сonnector'
+      default_translation = 'Salesforce сonnector'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'SalesForce-connector'
+      default_translation = 'Salesforce-connector'
       language_id = data.language.danish.id
     }
   ]
@@ -7122,7 +7122,7 @@ resource configservice_label settings_connector_settings_sales_force_azure_url_d
       language_id = data.language.english.id
     },
     {
-      default_translation = 'URL\'en til backend-tjenesten i Azure.'
+      default_translation = 'URL\'et til backend-tjenesten i Azure.'
       language_id = data.language.danish.id
     }
   ]
@@ -7166,7 +7166,7 @@ resource configservice_label settings_connector_settings_sales_force_client_id_t
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'SalesForce client ID'
+      default_translation = 'Salesforce client ID'
       language_id = data.language.english.id
     },
     {
@@ -7186,7 +7186,7 @@ resource configservice_label settings_connector_settings_sales_force_client_id_d
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Det unikke ID, der er tildelt din applikation i Salesforce-miljøet. Muliggør sikker adgang til Salesforces API\'er og ressourcer.'
+      default_translation = 'Det unikke ID, der er tildelt din applikation i Salesforce-miljøet. Muliggører sikker adgang til Salesforces API\'er og ressourcer.'
       language_id = data.language.danish.id
     }
   ]
@@ -7202,7 +7202,7 @@ resource configservice_label settings_connector_settings_sales_force_client_secr
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Salesforce client secret'
+      default_translation = 'Salesforce-klient-hemmelighed'
       language_id = data.language.danish.id
     }
   ]
