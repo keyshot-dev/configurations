@@ -13,7 +13,7 @@ resource configservice_string_config_field tracking_code_head {
     group = 'Tracking code'
     key = 'trackingCodeHead'
     title = 'Tracking code for <head> tag'
-    description = 'The code snippet will be placed in the <head> tag of the page. WARNING: ONLY INSERT CODE FROM TRUSTED SOURCES!'
+    description = 'The code needs to be wrapped in a <script> tag and will be placed in the <head> tag of the page. WARNING: ONLY INSERT CODE FROM TRUSTED SOURCES!'
     type = 'String'
 }
 
@@ -23,6 +23,6 @@ resource configservice_string_config_field tracking_code_body {
     group = 'Tracking code'
     key = 'trackingCodeBody'
     title = 'Tracking code for <body> tag'
-    description = 'The code snippet will be placed after the opening <body> tag. WARNING: ONLY INSERT CODE FROM TRUSTED SOURCES! '
+    description = 'Ensure a valid code snippet. It will be placed after the opening <body> tag. WARNING: ONLY INSERT CODE FROM TRUSTED SOURCES! '
     type = 'String'
 }
