@@ -1,5 +1,5 @@
 resource configservice_bit_config_field creative_cloud_connector_use_asset_preview_thumbnail {
-    default_value = false
+    default_value = true
     product_id = resource.configservice_product.media_manager_5.id
     group = 'Creative Cloud Connector'
     key = 'creativeCloudConnectorUseAssetPreviewThumbnail'
