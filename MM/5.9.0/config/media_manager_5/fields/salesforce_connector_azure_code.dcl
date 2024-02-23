@@ -5,5 +5,6 @@ resource configservice_string_config_field salesforce_connector_azure_code {
     group = 'SalesForce connector'
     key = 'salesForceConnectorAzureCode'
     title = 'Azure backend password'
-    description = 'The password for the backend service in Azure.'	
+    description = 'The password for the backend service in Azure.'
+    hidden = true
 }

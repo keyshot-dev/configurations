@@ -5,5 +5,6 @@ resource configservice_string_config_field salesforce_connector_client_secret {
     group = 'SalesForce connector'
     key = 'salesForceConnectorClientSecret'
     title = 'Salesforce client secret'
-    description = 'The secret key that serves as an additional layer of security for your application when communicating with Salesforce\'s APIs and services.'	
+    description = 'The secret key that serves as an additional layer of security for your application when communicating with Salesforce\'s APIs and services.'
+    hidden = true
 }

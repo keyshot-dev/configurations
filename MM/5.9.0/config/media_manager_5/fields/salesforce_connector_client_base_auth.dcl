@@ -5,5 +5,6 @@ resource configservice_string_config_field salesforce_connector_base_auth {
     group = 'SalesForce connector'
     key = 'salesForceConnectorBaseAuth'
     title = 'Salesforce base authentication URL'
-    description = 'The base URL for Salesforce authentication.'	
+    description = 'The base URL for Salesforce authentication.'
+    hidden = true
 }

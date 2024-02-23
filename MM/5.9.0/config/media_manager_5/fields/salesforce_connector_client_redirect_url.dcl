@@ -5,5 +5,6 @@ resource configservice_string_config_field salesforce_connector_redirect_url {
     group = 'SalesForce connector'
     key = 'salesForceConnectorRedirectUrl'
     title = 'Salesforce redirect authentication URL'
-    description = 'The URL used for redirecting authentication requests to Salesforce.'	
+    description = 'The URL used for redirecting authentication requests to Salesforce.'
+    hidden = true
 }

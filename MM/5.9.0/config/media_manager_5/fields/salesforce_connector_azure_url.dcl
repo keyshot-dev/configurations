@@ -6,4 +6,5 @@ resource configservice_string_config_field salesforce_connector_azure_url {
     key = 'salesForceConnectorAzureUrl'
     title = 'Azure backend URL'
     description = 'The URL for the backend service in Azure.'
+    hidden = true
 }
