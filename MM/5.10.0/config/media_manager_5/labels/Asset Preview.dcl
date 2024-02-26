@@ -356,7 +356,7 @@ resource configservice_label asset_preview_container_template_fullscreen {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Fullscreen'
+      default_translation = 'Maximize'
       language_id = data.language.english.id
     },
     {

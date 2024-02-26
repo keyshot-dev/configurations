@@ -2203,11 +2203,11 @@ resource configservice_label portal_config_manager_portal_html_templates_choose_
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Restrict template visibility by'
+      default_translation = 'Only show template for'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Begræns template synlighed med'
+      default_translation = 'Vis kun skabelon for'
       language_id = data.language.danish.id
     }
   ]
