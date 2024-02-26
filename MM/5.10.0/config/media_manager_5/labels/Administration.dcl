@@ -4269,7 +4269,7 @@ resource configservice_label administration_tools_managed_integrations_section_s
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Save'
+      default_translation = 'Gem'
       language_id = data.language.danish.id
     }
   ]
@@ -4285,7 +4285,7 @@ resource configservice_label administration_tools_managed_integrations_section_i
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Integration configuration'
+      default_translation = 'Integration konfiguration'
       language_id = data.language.danish.id
     }
   ]
@@ -4301,7 +4301,7 @@ resource configservice_label administration_tools_managed_integrations_section_a
       language_id = data.language.english.id
     },
     {
-      default_translation = 'The Digizuite member the integration is using. Used for item security, so very important to get correct.'
+      default_translation = 'Digizuite bruger, som integrationen bruger. Den bliver brugt til item security, så det er meget vigtigt at den er korrekt.'
       language_id = data.language.danish.id
     }
   ]
@@ -4317,7 +4317,7 @@ resource configservice_label administration_tools_managed_integrations_section_a
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Api user'
+      default_translation = 'Api bruger'
       language_id = data.language.danish.id
     }
   ]
@@ -4333,7 +4333,7 @@ resource configservice_label administration_tools_managed_integrations_section_a
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Actions'
+      default_translation = 'Handlinger'
       language_id = data.language.danish.id
     }
   ]
@@ -4365,7 +4365,7 @@ resource configservice_label administration_tools_managed_integrations_section_r
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Request timeout in seconds. This is per batch.'
+      default_translation = 'Request timeout i sekunder. Dette er per batch.'
       language_id = data.language.danish.id
     }
   ]
@@ -4381,7 +4381,7 @@ resource configservice_label administration_tools_managed_integrations_section_m
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Max batch size'
+      default_translation = 'Maks batch størrelse'
       language_id = data.language.danish.id
     }
   ]
@@ -4397,7 +4397,7 @@ resource configservice_label administration_tools_managed_integrations_section_m
       language_id = data.language.english.id
     },
     {
-      default_translation = 'How many assets to include at most per request to the integration. This doesn\'t prevent multiple in-flight requests at the same time.'
+      default_translation = 'Hvor mange assets må der maksimalt sendes til integrationen per batch. Dette forhindrer ikke flere samtidige requests.'
       language_id = data.language.danish.id
     }
   ]
@@ -4413,7 +4413,7 @@ resource configservice_label administration_tools_managed_integrations_section_l
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Language'
+      default_translation = 'Sprog'
       language_id = data.language.danish.id
     }
   ]
@@ -4429,7 +4429,7 @@ resource configservice_label administration_tools_managed_integrations_section_l
       language_id = data.language.english.id
     },
     {
-      default_translation = 'The language to use when loading data/matching asset filters'
+      default_translation = 'Sprog der skal bruges når der loades/matches assets'
       language_id = data.language.danish.id
     }
   ]
@@ -4445,7 +4445,7 @@ resource configservice_label administration_tools_managed_integrations_section_c
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Custom headers'
+      default_translation = 'Brugerdefinerede headers'
       language_id = data.language.danish.id
     }
   ]
@@ -4461,7 +4461,7 @@ resource configservice_label administration_tools_managed_integrations_section_c
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Extra headers to send along with the request. Useful for authorization to avoid malicious actors being able to invoke the integration.'
+      default_translation = 'Ekstra headers der skal sendes sammen med requesten. Nyttig til authentikering for at forhindre ondsindede aktører i at kalde integrationen.'
       language_id = data.language.danish.id
     }
   ]
@@ -4493,7 +4493,7 @@ resource configservice_label administration_tools_managed_integrations_section_a
       language_id = data.language.english.id
     },
     {
-      default_translation = 'A filter to use to limit which assets the integration will be informed about. In addition to this filter item security on the asset will always apply.'
+      default_translation = 'Et filter der bliver brugt til at begrænse hvilke assets integrationen skal se. Ud over dette vil item security altid blive respekteret.'
       language_id = data.language.danish.id
     }
   ]
@@ -4509,7 +4509,7 @@ resource configservice_label administration_tools_managed_integrations_section_a
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Always trigger integration'
+      default_translation = 'Altid aktiver integration'
       language_id = data.language.danish.id
     }
   ]
@@ -4526,7 +4526,7 @@ resource configservice_label administration_tools_managed_integrations_section_a
       language_id = data.language.english.id
     },
     {
-      default_translation = 'If enabled the integration will always be invoked whenever an asset changes, even if we don\'t detect any relevant changes.'
+      default_translation = 'Hvis slået til vil integrationen altid få information om et assets, selvom Digizuite ikke mener der er nogle relevante ændringer.'
       language_id = data.language.danish.id
     }
   ]
@@ -4558,7 +4558,7 @@ resource configservice_label administration_tools_managed_integrations_section_t
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Trigger on formats change'
+      default_translation = 'Aktiver på format ændringer'
       language_id = data.language.danish.id
     }
   ]
@@ -4574,7 +4574,7 @@ resource configservice_label administration_tools_managed_integrations_section_t
       language_id = data.language.english.id
     },
     {
-      default_translation = 'If any of the formats selected here changes their results on the assets the integration will be informed.'
+      default_translation = 'Hvis nogle af de her formatter ændrer sig vil integrationen blive informeret.'
       language_id = data.language.danish.id
     }
   ]
@@ -4590,7 +4590,7 @@ resource configservice_label administration_tools_managed_integrations_section_a
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Additional metadata fields'
+      default_translation = 'Ekstra metadata felter'
       language_id = data.language.danish.id
     }
   ]
@@ -4606,7 +4606,7 @@ resource configservice_label administration_tools_managed_integrations_section_a
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Additional metadata field values that should be passed to the integration. Also used to diff assets between invocation if "Always trigger integration" is not enabled.'
+      default_translation = 'Ekstra metadata felter der skal sendes til integrationen. Bliver også brugt til at diffe mellem kald hvis "Altid aktiver integration" ikke er til.'
       language_id = data.language.danish.id
     }
   ]
@@ -4638,7 +4638,7 @@ resource configservice_label administration_tools_managed_integrations_section_e
       language_id = data.language.english.id
     },
     {
-      default_translation = 'The url to send the notification to'
+      default_translation = 'Det url notifikationer skal sendes til.'
       language_id = data.language.danish.id
     }
   ]
@@ -4654,7 +4654,7 @@ resource configservice_label administration_tools_managed_integrations_section_e
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Enabled'
+      default_translation = 'Aktiveret'
       language_id = data.language.danish.id
     }
   ]
@@ -4670,7 +4670,7 @@ resource configservice_label administration_tools_managed_integrations_section_e
       language_id = data.language.english.id
     },
     {
-      default_translation = 'If notification should actually be send to this integration right now'
+      default_translation = 'Hvis notifikationen faktisk skal sendes til integrationen lige nu.'
       language_id = data.language.danish.id
     }
   ]
@@ -4686,7 +4686,7 @@ resource configservice_label administration_tools_managed_integrations_section_n
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Name'
+      default_translation = 'Navn'
       language_id = data.language.danish.id
     }
   ]
@@ -4698,11 +4698,11 @@ resource configservice_label administration_tools_managed_integrations_section_n
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Name'
+      default_translation = 'Human readable name for this integration'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Name'
+      default_translation = 'Menneskeligt læselige navn for den her integration.'
       language_id = data.language.danish.id
     }
   ]
@@ -4718,7 +4718,7 @@ resource configservice_label administration_tools_managed_integrations_section_d
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Delete'
+      default_translation = 'Slet'
       language_id = data.language.danish.id
     }
   ]
@@ -4734,7 +4734,7 @@ resource configservice_label administration_tools_managed_integrations_section_v
       language_id = data.language.english.id
     },
     {
-      default_translation = 'View tracked assets'
+      default_translation = 'Hvis sporede assets'
       language_id = data.language.danish.id
     }
   ]
@@ -4749,7 +4749,7 @@ resource configservice_label administration_tools_managed_integrations_section_f
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Failed notifications'
+      default_translation = 'Fejlede notifikationer'
       language_id = data.language.danish.id
     }
   ]
@@ -4765,7 +4765,7 @@ resource configservice_label administration_tools_managed_integrations_section_t
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Tracked assets'
+      default_translation = 'Sporede assets'
       language_id = data.language.danish.id
     }
   ]
@@ -4781,7 +4781,7 @@ resource configservice_label administration_tools_managed_integrations_section_f
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Failed notifications'
+      default_translation = 'Fejlede notifikationer'
       language_id = data.language.danish.id
     }
   ]
@@ -4813,7 +4813,7 @@ resource configservice_label administration_tools_managed_integrations_section_r
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Refresh'
+      default_translation = 'Genindlæs'
       language_id = data.language.danish.id
     }
   ]
@@ -4829,7 +4829,7 @@ resource configservice_label administration_tools_managed_integrations_section_a
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Add new integration'
+      default_translation = 'Tilføj ny integration'
       language_id = data.language.danish.id
     }
   ]
@@ -4861,7 +4861,7 @@ resource configservice_label administration_tools_managed_integrations_failed_no
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Retry all'
+      default_translation = 'Genkør alle'
       language_id = data.language.danish.id
     }
   ]
@@ -4909,7 +4909,7 @@ resource configservice_label administration_tools_managed_integrations_failed_no
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Retry'
+      default_translation = 'Genkør'
       language_id = data.language.danish.id
     }
   ]
@@ -4925,7 +4925,7 @@ resource configservice_label administration_tools_managed_integrations_failed_no
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Copy Postman request'
+      default_translation = 'Copier Postman request'
       language_id = data.language.danish.id
     }
   ]
@@ -4941,7 +4941,7 @@ resource configservice_label administration_tools_managed_integrations_failed_no
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Actions'
+      default_translation = 'Handlinger'
       language_id = data.language.danish.id
     }
   ]
@@ -4957,7 +4957,7 @@ resource configservice_label administration_tools_managed_integrations_failed_no
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Last attempted'
+      default_translation = 'Sidst forsøgt'
       language_id = data.language.danish.id
     }
   ]
@@ -4973,7 +4973,7 @@ resource configservice_label administration_tools_managed_integrations_failed_no
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Status code'
+      default_translation = 'Status kode'
       language_id = data.language.danish.id
     }
   ]
@@ -5005,7 +5005,7 @@ resource configservice_label administration_tools_managed_integrations_failed_no
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Failed notifications'
+      default_translation = 'Fejlede notifikationer'
       language_id = data.language.danish.id
     }
   ]
@@ -5021,7 +5021,7 @@ resource configservice_label administration_tools_managed_integration_tracked_as
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Sync all assets'
+      default_translation = 'Synk alle assets'
       language_id = data.language.danish.id
     }
   ]
@@ -5037,7 +5037,7 @@ resource configservice_label administration_tools_managed_integration_tracked_as
       language_id = data.language.english.id
     },
     {
-      default_translation = 'This will start a sync of all assets in the system that matches the configured search, and remove any assets the integration shouldn\'t know about.'
+      default_translation = 'Dette vil starte en sync af alle assets i systemet som integrationen bør kende til, som matcher den konfigurerede asset søgning. Ydermere vil der fjerne alle assets som integrationen ikke bør kende til.'
       language_id = data.language.danish.id
     }
   ]
@@ -5053,7 +5053,7 @@ resource configservice_label administration_tools_managed_integration_tracked_as
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Integration state:'
+      default_translation = 'Integration status:'
       language_id = data.language.danish.id
     }
   ]
@@ -5069,7 +5069,7 @@ resource configservice_label administration_tools_managed_integration_tracked_as
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Sync'
+      default_translation = 'Synk'
       language_id = data.language.danish.id
     }
   ]
@@ -5085,7 +5085,7 @@ resource configservice_label administration_tools_managed_integration_tracked_as
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Actions'
+      default_translation = 'Handlinger'
       language_id = data.language.danish.id
     }
   ]
@@ -5101,7 +5101,7 @@ resource configservice_label administration_tools_managed_integration_tracked_as
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Has failure'
+      default_translation = 'Har fejl'
       language_id = data.language.danish.id
     }
   ]
@@ -5117,7 +5117,7 @@ resource configservice_label administration_tools_managed_integration_tracked_as
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Last updated'
+      default_translation = 'Sidst opdateret'
       language_id = data.language.danish.id
     }
   ]
@@ -5133,7 +5133,7 @@ resource configservice_label administration_tools_managed_integration_tracked_as
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Integration state'
+      default_translation = 'Integration status'
       language_id = data.language.danish.id
     }
   ]
@@ -5165,7 +5165,7 @@ resource configservice_label administration_tools_managed_integration_tracked_as
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Tracked assets'
+      default_translation = 'Sporede assets'
       language_id = data.language.danish.id
     }
   ]
@@ -5182,7 +5182,7 @@ resource configservice_label administration_tools_managed_integration_section_de
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Delete integration'
+      default_translation = 'Slet integration'
       language_id = data.language.danish.id
     }
   ]
@@ -5198,7 +5198,7 @@ resource configservice_label administration_tools_managed_integration_section_de
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Are you sure you want to delete this integration? The integration will not be informed and there is no way to recover the configuration'
+      default_translation = 'Er du sikker på at du vil slette denne integration? Integrationen vil ikke bliver informeret og der er ikke nogen måde at gendanne konfigurationen.'
       language_id = data.language.danish.id
     }
   ]
@@ -5214,7 +5214,7 @@ resource configservice_label administration_tools_managed_integration_section_de
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Keep'
+      default_translation = 'Behold'
       language_id = data.language.danish.id
     }
   ]
@@ -5230,7 +5230,7 @@ resource configservice_label administration_tools_managed_integration_section_de
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Delete'
+      default_translation = 'Slet'
       language_id = data.language.danish.id
     }
   ]
@@ -5246,7 +5246,7 @@ resource configservice_label administration_tools_managed_integration_failed_not
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Retry all failed notifications'
+      default_translation = 'Gengør alle fejlede notifikationer'
       language_id = data.language.danish.id
     }
   ]
@@ -5262,7 +5262,7 @@ resource configservice_label administration_tools_managed_integration_failed_not
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Are you sure you want to retry all failed notifications? This can put quite a lot of load on the integration.'
+      default_translation = 'Er du sikker på at du vil prøve alle fejlede notifikationer ikke? Dette kan putte ret meget belastning på integrationen.'
       language_id = data.language.danish.id
     }
   ]
@@ -5278,7 +5278,7 @@ resource configservice_label administration_tools_managed_integration_failed_not
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Cancel'
+      default_translation = 'Annuller'
       language_id = data.language.danish.id
     }
   ]
@@ -5294,7 +5294,7 @@ resource configservice_label administration_tools_managed_integration_failed_not
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Retry'
+      default_translation = 'Genkør'
       language_id = data.language.danish.id
     }
   ]
@@ -5310,7 +5310,7 @@ resource configservice_label administration_tools_managed_integration_failed_not
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Retry'
+      default_translation = 'Genkør'
       language_id = data.language.danish.id
     }
   ]
@@ -5326,7 +5326,7 @@ resource configservice_label administration_tools_managed_integration_failed_not
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Retry all started'
+      default_translation = 'Genkør alle igangsat'
       language_id = data.language.danish.id
     }
   ]
@@ -5358,7 +5358,7 @@ resource configservice_label administration_tools_managed_integration_failed_not
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Asset was synchronized successfully'
+      default_translation = 'Asset blev synkronseret uden fejl'
       language_id = data.language.danish.id
     }
   ]
@@ -5377,7 +5377,7 @@ resource configservice_label administration_tools_managed_integration_tracked_as
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Start full sync'
+      default_translation = 'Start fuld sunk'
       language_id = data.language.danish.id
     }
   ]
@@ -5393,7 +5393,7 @@ resource configservice_label administration_tools_managed_integration_tracked_as
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Are you absolutely sure you want to start a full sync? This can put quite a lot of load on the integration.'
+      default_translation = 'Er du helt sikker på at du vil starte en fuld synkronisering? Dette kan putte ret meget belastning på integrationen.'
       language_id = data.language.danish.id
     }
   ]
@@ -5409,7 +5409,7 @@ resource configservice_label administration_tools_managed_integration_tracked_as
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Cancel'
+      default_translation = 'Annuller'
       language_id = data.language.danish.id
     }
   ]
@@ -5425,7 +5425,7 @@ resource configservice_label administration_tools_managed_integration_tracked_as
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Sync'
+      default_translation = 'Synk'
       language_id = data.language.danish.id
     }
   ]
@@ -5441,7 +5441,7 @@ resource configservice_label administration_tools_managed_integration_tracked_as
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Full sync started'
+      default_translation = 'Fuld synk igangsat'
       language_id = data.language.danish.id
     }
   ]
@@ -5457,7 +5457,7 @@ resource configservice_label administration_tools_managed_integration_tracked_as
       language_id = data.language.english.id
     },
     {
-      default_translation = 'The full sync has been started. This can take a while.'
+      default_translation = 'En fuld synk er blevet sat i gang. Dette kan tage et stykke tid.'
       language_id = data.language.danish.id
     }
   ]
