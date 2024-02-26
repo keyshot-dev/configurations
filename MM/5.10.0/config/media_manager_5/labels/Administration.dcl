@@ -5294,7 +5294,7 @@ resource configservice_label administration_tools_managed_integration_failed_not
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Genkør alle igangsat'
+      default_translation = 'Genkører alle notifikationer'
       language_id = data.language.danish.id
     }
   ]
