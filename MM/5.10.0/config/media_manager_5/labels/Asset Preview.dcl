@@ -334,3 +334,34 @@ resource configservice_label asset_preview_external_tab_label {
   ]
 }
 
+resource configservice_label preview_asset_render_html_template_content_error {
+  key = 'PREVIEW_ASSET_RENDER_HTML_TEMPLATE_CONTENT_ERROR'
+  group = 'Asset Preview'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Error loading content. Please try again.'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Fejl ved indlæsning af indhold. Prøv igen.'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_preview_container_template_fullscreen {
+  key = 'ASSET_PREVIEW_CONTAINER_TEMPLATE_FULLSCREEN'
+  group = 'Asset Preview'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Maximize'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Maksimér'
+      language_id = data.language.danish.id
+    }
+  ]
+}

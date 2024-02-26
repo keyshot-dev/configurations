@@ -1893,17 +1893,17 @@ resource configservice_label portal_config_manager_create_new_mail_template_dial
   ]
 }
 
-resource configservice_label portal_config_manager_portal_html_templates_settings_inherited_from {
-  key = 'PORTAL_CONFIG_MANAGER_PORTAL_HTML_TEMPLATES_SETTINGS_INHERITED_FROM'
+resource configservice_label portal_config_manager_portal_html_templates_settings_all_languages {
+  key = 'PORTAL_CONFIG_MANAGER_PORTAL_HTML_TEMPLATES_SETTINGS_ALL_LANGUAGES'
   group = 'Config Manager'
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'inherited from'
+      default_translation = 'All languages'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'nedarvet fra'
+      default_translation = 'Alle sprog'
       language_id = data.language.danish.id
     }
   ]
@@ -2187,11 +2187,75 @@ resource configservice_label portal_config_manager_create_new_html_template_dial
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'None'
+      default_translation = 'All languages'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Ingen'
+      default_translation = 'Alle sprog'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label portal_config_manager_portal_html_templates_choose_restrictions {
+  key = 'PORTAL_CONFIG_MANAGER_PORTAL_HTML_TEMPLATES_CHOOSE_RESTRICTIONS'
+  group = 'Config Manager'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Only show template for'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Vis kun skabelon for'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label portal_config_manager_portal_html_templates_asset_type {
+  key = 'PORTAL_CONFIG_MANAGER_PORTAL_HTML_TEMPLATES_ASSET_TYPE'
+  group = 'Config Manager'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Asset type'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Assettype'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label portal_config_manager_portal_html_templates_metafield {
+  key = 'PORTAL_CONFIG_MANAGER_PORTAL_HTML_TEMPLATES_METAFIELD'
+  group = 'Config Manager'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Metadata field'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Metadatafelt'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label portal_config_manager_portal_html_templates_regex {
+  key = 'PORTAL_CONFIG_MANAGER_PORTAL_HTML_TEMPLATES_REGEX'
+  group = 'Config Manager'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Regular expression'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Regular expression'
       language_id = data.language.danish.id
     }
   ]
