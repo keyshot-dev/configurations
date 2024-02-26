@@ -2239,7 +2239,7 @@ resource configservice_label portal_config_manager_portal_html_templates_metafie
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Metadata field'
+      default_translation = 'Metadatafelt'
       language_id = data.language.danish.id
     }
   ]
