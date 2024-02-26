@@ -4195,5 +4195,1276 @@ resource configservice_label administration_tools_sso_section_configuration_save
   ]
 }
 
+resource configservice_label inputs_key_value_input_add {
+  key = 'INPUTS_KEY_VALUE_INPUT_ADD'
+  group = 'inputs - key-value-input'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Add'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Tilføj'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label inputs_key_value_input_remove {
+  key = 'INPUTS_KEY_VALUE_INPUT_REMOVE'
+  group = 'inputs - key-value-input'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Remove'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Fjern'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_search_request_builder_asset_search_request_builder_input_edit {
+  key = 'ASSET_SEARCH_REQUEST_BUILDER_ASSET_SEARCH_REQUEST_BUILDER_INPUT_EDIT'
+  group = 'asset-search-request-builder - asset-search-request-builder-input'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Edit'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Rediger'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_managed_integrations_section_no_managed_integrations_found {
+  key = 'ADMINISTRATION_TOOLS_MANAGED_INTEGRATIONS_SECTION_NO_MANAGED_INTEGRATIONS_FOUND'
+  group = 'administration-tools - managed-integrations-section'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'No managed integrations found'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Ingen managed integrations blev fundet'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_managed_integrations_section_save {
+  key = 'ADMINISTRATION_TOOLS_MANAGED_INTEGRATIONS_SECTION_SAVE'
+  group = 'administration-tools - managed-integrations-section'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Save'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Save'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_managed_integrations_section_integration_configuration {
+  key = 'ADMINISTRATION_TOOLS_MANAGED_INTEGRATIONS_SECTION_INTEGRATION_CONFIGURATION'
+  group = 'administration-tools - managed-integrations-section'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Integration configuration'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Integration configuration'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_managed_integrations_section_api_user_tooltip {
+  key = 'ADMINISTRATION_TOOLS_MANAGED_INTEGRATIONS_SECTION_API_USER_TOOLTIP'
+  group = 'administration-tools - managed-integrations-section'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'The Digizuite member the integration is using. Used for item security, so very important to get correct.'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'The Digizuite member the integration is using. Used for item security, so very important to get correct.'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_managed_integrations_section_api_user {
+  key = 'ADMINISTRATION_TOOLS_MANAGED_INTEGRATIONS_SECTION_API_USER'
+  group = 'administration-tools - managed-integrations-section'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Api user'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Api user'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_managed_integrations_section_actions {
+  key = 'ADMINISTRATION_TOOLS_MANAGED_INTEGRATIONS_SECTION_ACTIONS'
+  group = 'administration-tools - managed-integrations-section'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Actions'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Actions'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_managed_integrations_section_request_timeout {
+  key = 'ADMINISTRATION_TOOLS_MANAGED_INTEGRATIONS_SECTION_REQUEST_TIMEOUT'
+  group = 'administration-tools - managed-integrations-section'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Request timeout'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Request timeout'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_managed_integrations_section_request_timeout_tooltip {
+  key = 'ADMINISTRATION_TOOLS_MANAGED_INTEGRATIONS_SECTION_REQUEST_TIMEOUT_TOOLTIP'
+  group = 'administration-tools - managed-integrations-section'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Request timeout in seconds. This is per batch.'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Request timeout in seconds. This is per batch.'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_managed_integrations_section_max_batch_size {
+  key = 'ADMINISTRATION_TOOLS_MANAGED_INTEGRATIONS_SECTION_MAX_BATCH_SIZE'
+  group = 'administration-tools - managed-integrations-section'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Max batch size'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Max batch size'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_managed_integrations_section_max_batch_size_tooltip {
+  key = 'ADMINISTRATION_TOOLS_MANAGED_INTEGRATIONS_SECTION_MAX_BATCH_SIZE_TOOLTIP'
+  group = 'administration-tools - managed-integrations-section'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'How many assets to include at most per request to the integration. This doesn\'t prevent multiple in-flight requests at the same time.'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'How many assets to include at most per request to the integration. This doesn\'t prevent multiple in-flight requests at the same time.'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_managed_integrations_section_language {
+  key = 'ADMINISTRATION_TOOLS_MANAGED_INTEGRATIONS_SECTION_LANGUAGE'
+  group = 'administration-tools - managed-integrations-section'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Language'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Language'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_managed_integrations_section_language_tooltip {
+  key = 'ADMINISTRATION_TOOLS_MANAGED_INTEGRATIONS_SECTION_LANGUAGE_TOOLTIP'
+  group = 'administration-tools - managed-integrations-section'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'The language to use when loading data/matching asset filters'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'The language to use when loading data/matching asset filters'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_managed_integrations_section_custom_headers {
+  key = 'ADMINISTRATION_TOOLS_MANAGED_INTEGRATIONS_SECTION_CUSTOM_HEADERS'
+  group = 'administration-tools - managed-integrations-section'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Custom headers'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Custom headers'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_managed_integrations_section_custom_headers_tooltip {
+  key = 'ADMINISTRATION_TOOLS_MANAGED_INTEGRATIONS_SECTION_CUSTOM_HEADERS_TOOLTIP'
+  group = 'administration-tools - managed-integrations-section'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Extra headers to send along with the request. Useful for authorization to avoid malicious actors being able to invoke the integration.'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Extra headers to send along with the request. Useful for authorization to avoid malicious actors being able to invoke the integration.'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_managed_integrations_section_asset_filter {
+  key = 'ADMINISTRATION_TOOLS_MANAGED_INTEGRATIONS_SECTION_ASSET_FILTER'
+  group = 'administration-tools - managed-integrations-section'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Asset filter'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Asset filter'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_managed_integrations_section_asset_filter_tooltip {
+  key = 'ADMINISTRATION_TOOLS_MANAGED_INTEGRATIONS_SECTION_ASSET_FILTER_TOOLTIP'
+  group = 'administration-tools - managed-integrations-section'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'A filter to use to limit which assets the integration will be informed about. In addition to this filter item security on the asset will always apply.'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'A filter to use to limit which assets the integration will be informed about. In addition to this filter item security on the asset will always apply.'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_managed_integrations_section_always_trigger_integration {
+  key = 'ADMINISTRATION_TOOLS_MANAGED_INTEGRATIONS_SECTION_ALWAYS_TRIGGER_INTEGRATION'
+  group = 'administration-tools - managed-integrations-section'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Always trigger integration'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Always trigger integration'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+
+resource configservice_label administration_tools_managed_integrations_section_always_trigger_integration_tooltip {
+  key = 'ADMINISTRATION_TOOLS_MANAGED_INTEGRATIONS_SECTION_ALWAYS_TRIGGER_INTEGRATION_TOOLTIP'
+  group = 'administration-tools - managed-integrations-section'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'If enabled the integration will always be invoked whenever an asset changes, even if we don\'t detect any relevant changes.'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'If enabled the integration will always be invoked whenever an asset changes, even if we don\'t detect any relevant changes.'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_managed_integrations_section_original {
+  key = 'ADMINISTRATION_TOOLS_MANAGED_INTEGRATIONS_SECTION_ORIGINAL'
+  group = 'administration-tools - managed-integrations-section'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Original'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Original'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_managed_integrations_section_trigger_on_formats_change {
+  key = 'ADMINISTRATION_TOOLS_MANAGED_INTEGRATIONS_SECTION_TRIGGER_ON_FORMATS_CHANGE'
+  group = 'administration-tools - managed-integrations-section'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Trigger on formats change'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Trigger on formats change'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_managed_integrations_section_trigger_on_formats_change_tooltip {
+  key = 'ADMINISTRATION_TOOLS_MANAGED_INTEGRATIONS_SECTION_TRIGGER_ON_FORMATS_CHANGE_TOOLTIP'
+  group = 'administration-tools - managed-integrations-section'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'If any of the formats selected here changes their results on the assets the integration will be informed.'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'If any of the formats selected here changes their results on the assets the integration will be informed.'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_managed_integrations_section_additional_metadata_fields {
+  key = 'ADMINISTRATION_TOOLS_MANAGED_INTEGRATIONS_SECTION_ADDITIONAL_METADATA_FIELDS'
+  group = 'administration-tools - managed-integrations-section'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Additional metadata fields'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Additional metadata fields'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_managed_integrations_section_additional_metadata_fields_tooltip {
+  key = 'ADMINISTRATION_TOOLS_MANAGED_INTEGRATIONS_SECTION_ADDITIONAL_METADATA_FIELDS_TOOLTIP'
+  group = 'administration-tools - managed-integrations-section'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Additional metadata field values that should be passed to the integration. Also used to diff assets between invocation if "Always trigger integration" is not enabled.'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Additional metadata field values that should be passed to the integration. Also used to diff assets between invocation if "Always trigger integration" is not enabled.'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_managed_integrations_section_endpoint_url {
+  key = 'ADMINISTRATION_TOOLS_MANAGED_INTEGRATIONS_SECTION_ENDPOINT_URL'
+  group = 'administration-tools - managed-integrations-section'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Endpoint url'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Endpoint url'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_managed_integrations_section_endpoint_url_tooltip {
+  key = 'ADMINISTRATION_TOOLS_MANAGED_INTEGRATIONS_SECTION_ENDPOINT_URL_TOOLTIP'
+  group = 'administration-tools - managed-integrations-section'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'The url to send the notification to'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'The url to send the notification to'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_managed_integrations_section_enabled {
+  key = 'ADMINISTRATION_TOOLS_MANAGED_INTEGRATIONS_SECTION_ENABLED'
+  group = 'administration-tools - managed-integrations-section'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Enabled'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Enabled'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_managed_integrations_section_enabled_tooltip {
+  key = 'ADMINISTRATION_TOOLS_MANAGED_INTEGRATIONS_SECTION_ENABLED_TOOLTIP'
+  group = 'administration-tools - managed-integrations-section'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'If notification should actually be send to this integration right now'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'If notification should actually be send to this integration right now'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_managed_integrations_section_name {
+  key = 'ADMINISTRATION_TOOLS_MANAGED_INTEGRATIONS_SECTION_NAME'
+  group = 'administration-tools - managed-integrations-section'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Name'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Name'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_managed_integrations_section_name_tooltip {
+  key = 'ADMINISTRATION_TOOLS_MANAGED_INTEGRATIONS_SECTION_NAME_TOOLTIP'
+  group = 'administration-tools - managed-integrations-section'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Name'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Name'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_managed_integrations_section_delete {
+  key = 'ADMINISTRATION_TOOLS_MANAGED_INTEGRATIONS_SECTION_DELETE'
+  group = 'administration-tools - managed-integrations-section'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Delete'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Delete'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_managed_integrations_section_view_tracked_assets {
+  key = 'ADMINISTRATION_TOOLS_MANAGED_INTEGRATIONS_SECTION_VIEW_TRACKED_ASSETS'
+  group = 'administration-tools - managed-integrations-section'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'View tracked assets'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'View tracked assets'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+resource configservice_label administration_tools_managed_integrations_section_failed_notifications {
+  key = 'ADMINISTRATION_TOOLS_MANAGED_INTEGRATIONS_SECTION_FAILED_NOTIFICATIONS'
+  group = 'administration-tools - managed-integrations-section'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Failed notifications'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Failed notifications'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_managed_integrations_section_tracked_assets {
+  key = 'ADMINISTRATION_TOOLS_MANAGED_INTEGRATIONS_SECTION_TRACKED_ASSETS'
+  group = 'administration-tools - managed-integrations-section'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Tracked assets'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Tracked assets'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_managed_integrations_section_failed_notifications {
+  key = 'ADMINISTRATION_TOOLS_MANAGED_INTEGRATIONS_SECTION_FAILED_NOTIFICATIONS'
+  group = 'administration-tools - managed-integrations-section'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Failed notifications'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Failed notifications'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_managed_integrations_section_id {
+  key = 'ADMINISTRATION_TOOLS_MANAGED_INTEGRATIONS_SECTION_ID'
+  group = 'administration-tools - managed-integrations-section'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Id'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Id'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_managed_integrations_section_refresh {
+  key = 'ADMINISTRATION_TOOLS_MANAGED_INTEGRATIONS_SECTION_REFRESH'
+  group = 'administration-tools - managed-integrations-section'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Refresh'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Refresh'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_managed_integrations_section_add_new_integration {
+  key = 'ADMINISTRATION_TOOLS_MANAGED_INTEGRATIONS_SECTION_ADD_NEW_INTEGRATION'
+  group = 'administration-tools - managed-integrations-section'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Add new integration'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Add new integration'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_managed_integrations_section_managed_integrations {
+  key = 'ADMINISTRATION_TOOLS_MANAGED_INTEGRATIONS_SECTION_MANAGED_INTEGRATIONS'
+  group = 'administration-tools - managed-integrations-section'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Managed integrations'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Managed integrations'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_managed_integrations_failed_notifications_retry_all {
+  key = 'ADMINISTRATION_TOOLS_MANAGED_INTEGRATIONS_FAILED_NOTIFICATIONS_RETRY_ALL'
+  group = 'administration-tools - managed-integrations-failed-notifications'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Retry all'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Retry all'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_managed_integrations_failed_notifications_response_body {
+  key = 'ADMINISTRATION_TOOLS_MANAGED_INTEGRATIONS_FAILED_NOTIFICATIONS_RESPONSE_BODY'
+  group = 'administration-tools - managed-integrations-failed-notifications'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Response body:'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Response body:'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_managed_integrations_failed_notifications_response_headers {
+  key = 'ADMINISTRATION_TOOLS_MANAGED_INTEGRATIONS_FAILED_NOTIFICATIONS_RESPONSE_HEADERS'
+  group = 'administration-tools - managed-integrations-failed-notifications'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Response headers:'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Response headers:'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_managed_integrations_failed_notifications_retry {
+  key = 'ADMINISTRATION_TOOLS_MANAGED_INTEGRATIONS_FAILED_NOTIFICATIONS_RETRY'
+  group = 'administration-tools - managed-integrations-failed-notifications'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Retry'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Retry'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_managed_integrations_failed_notifications_copy_postman_request {
+  key = 'ADMINISTRATION_TOOLS_MANAGED_INTEGRATIONS_FAILED_NOTIFICATIONS_COPY_POSTMAN_REQUEST'
+  group = 'administration-tools - managed-integrations-failed-notifications'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Copy Postman request'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Copy Postman request'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_managed_integrations_failed_notifications_actions {
+  key = 'ADMINISTRATION_TOOLS_MANAGED_INTEGRATIONS_FAILED_NOTIFICATIONS_ACTIONS'
+  group = 'administration-tools - managed-integrations-failed-notifications'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Actions'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Actions'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_managed_integrations_failed_notifications_last_attempted {
+  key = 'ADMINISTRATION_TOOLS_MANAGED_INTEGRATIONS_FAILED_NOTIFICATIONS_LAST_ATTEMPTED'
+  group = 'administration-tools - managed-integrations-failed-notifications'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Last attempted'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Last attempted'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_managed_integrations_failed_notifications_status_code {
+  key = 'ADMINISTRATION_TOOLS_MANAGED_INTEGRATIONS_FAILED_NOTIFICATIONS_STATUS_CODE'
+  group = 'administration-tools - managed-integrations-failed-notifications'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Status code'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Status code'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_managed_integrations_failed_notifications_asset {
+  key = 'ADMINISTRATION_TOOLS_MANAGED_INTEGRATIONS_FAILED_NOTIFICATIONS_ASSET'
+  group = 'administration-tools - managed-integrations-failed-notifications'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Asset'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Asset'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_managed_integrations_failed_notifications_failed_notifications {
+  key = 'ADMINISTRATION_TOOLS_MANAGED_INTEGRATIONS_FAILED_NOTIFICATIONS_FAILED_NOTIFICATIONS'
+  group = 'administration-tools - managed-integrations-failed-notifications'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Failed notifications'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Failed notifications'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_managed_integration_tracked_assets_sync_all_assets {
+  key = 'ADMINISTRATION_TOOLS_MANAGED_INTEGRATION_TRACKED_ASSETS_SYNC_ALL_ASSETS'
+  group = 'administration-tools - managed-integration-tracked-assets'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Sync all assets'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Sync all assets'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_managed_integration_tracked_assets_sync_all_assets_tooltip {
+  key = 'ADMINISTRATION_TOOLS_MANAGED_INTEGRATION_TRACKED_ASSETS_SYNC_ALL_ASSETS_TOOLTIP'
+  group = 'administration-tools - managed-integration-tracked-assets'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'This will start a sync of all assets in the system that matches the configured search, and remove any assets the integration shouldn\'t know about.'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'This will start a sync of all assets in the system that matches the configured search, and remove any assets the integration shouldn\'t know about.'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_managed_integration_tracked_assets_integration_state {
+  key = 'ADMINISTRATION_TOOLS_MANAGED_INTEGRATION_TRACKED_ASSETS_INTEGRATION_STATE'
+  group = 'administration-tools - managed-integration-tracked-assets'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Integration state:'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Integration state:'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_managed_integration_tracked_assets_sync {
+  key = 'ADMINISTRATION_TOOLS_MANAGED_INTEGRATION_TRACKED_ASSETS_SYNC'
+  group = 'administration-tools - managed-integration-tracked-assets'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Sync'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Sync'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_managed_integration_tracked_assets_actions {
+  key = 'ADMINISTRATION_TOOLS_MANAGED_INTEGRATION_TRACKED_ASSETS_ACTIONS'
+  group = 'administration-tools - managed-integration-tracked-assets'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Actions'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Actions'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_managed_integration_tracked_assets_has_failure {
+  key = 'ADMINISTRATION_TOOLS_MANAGED_INTEGRATION_TRACKED_ASSETS_HAS_FAILURE'
+  group = 'administration-tools - managed-integration-tracked-assets'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Has failure'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Has failure'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_managed_integration_tracked_assets_last_updated {
+  key = 'ADMINISTRATION_TOOLS_MANAGED_INTEGRATION_TRACKED_ASSETS_LAST_UPDATED'
+  group = 'administration-tools - managed-integration-tracked-assets'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Last updated'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Last updated'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_managed_integration_tracked_assets_integration_state {
+  key = 'ADMINISTRATION_TOOLS_MANAGED_INTEGRATION_TRACKED_ASSETS_INTEGRATION_STATE'
+  group = 'administration-tools - managed-integration-tracked-assets'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Integration state'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Integration state'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_managed_integration_tracked_assets_asset {
+  key = 'ADMINISTRATION_TOOLS_MANAGED_INTEGRATION_TRACKED_ASSETS_ASSET'
+  group = 'administration-tools - managed-integration-tracked-assets'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Asset'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Asset'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_managed_integration_tracked_assets_tracked_assets {
+  key = 'ADMINISTRATION_TOOLS_MANAGED_INTEGRATION_TRACKED_ASSETS_TRACKED_ASSETS'
+  group = 'administration-tools - managed-integration-tracked-assets'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Tracked assets'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Tracked assets'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+
+resource configservice_label administration_tools_managed_integration_section_delete_integration_confirm_title {
+  key = 'ADMINISTRATION_TOOLS_MANAGED_INTEGRATION_SECTION_DELETE_INTEGRATION_CONFIRM_TITLE'
+  group = 'administration-tools - managed-integration-section'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Delete integration'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Delete integration'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_managed_integration_section_delete_integration_confirm_content {
+  key = 'ADMINISTRATION_TOOLS_MANAGED_INTEGRATION_SECTION_DELETE_INTEGRATION_CONFIRM_CONTENT'
+  group = 'administration-tools - managed-integration-section'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Are you sure you want to delete this integration? The integration will not be informed and there is no way to recover the configuration'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Are you sure you want to delete this integration? The integration will not be informed and there is no way to recover the configuration'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_managed_integration_section_delete_integration_confirm_cancel {
+  key = 'ADMINISTRATION_TOOLS_MANAGED_INTEGRATION_SECTION_DELETE_INTEGRATION_CONFIRM_CANCEL'
+  group = 'administration-tools - managed-integration-section'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Keep'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Keep'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_managed_integration_section_delete_integration_confirm_confirm {
+  key = 'ADMINISTRATION_TOOLS_MANAGED_INTEGRATION_SECTION_DELETE_INTEGRATION_CONFIRM_CONFIRM'
+  group = 'administration-tools - managed-integration-section'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Delete'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Delete'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_managed_integration_failed_notifications_retry_all_confirm_title {
+  key = 'ADMINISTRATION_TOOLS_MANAGED_INTEGRATION_FAILED_NOTIFICATIONS_RETRY_ALL_CONFIRM_TITLE'
+  group = 'administration-tools - managed-integration-failed-notifications'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Retry all failed notifications'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Retry all failed notifications'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_managed_integration_failed_notifications_retry_all_confirm_content {
+  key = 'ADMINISTRATION_TOOLS_MANAGED_INTEGRATION_FAILED_NOTIFICATIONS_RETRY_ALL_CONFIRM_CONTENT'
+  group = 'administration-tools - managed-integration-failed-notifications'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Are you sure you want to retry all failed notifications? This can put quite a lot of load on the integration.'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Are you sure you want to retry all failed notifications? This can put quite a lot of load on the integration.'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_managed_integration_failed_notifications_retry_all_confirm_cancel {
+  key = 'ADMINISTRATION_TOOLS_MANAGED_INTEGRATION_FAILED_NOTIFICATIONS_RETRY_ALL_CONFIRM_CANCEL'
+  group = 'administration-tools - managed-integration-failed-notifications'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Cancel'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Cancel'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_managed_integration_failed_notifications_retry_all_confirm_confirm {
+  key = 'ADMINISTRATION_TOOLS_MANAGED_INTEGRATION_FAILED_NOTIFICATIONS_RETRY_ALL_CONFIRM_CONFIRM'
+  group = 'administration-tools - managed-integration-failed-notifications'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Retry'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Retry'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_managed_integration_failed_notifications_retry_all_success_title {
+  key = 'ADMINISTRATION_TOOLS_MANAGED_INTEGRATION_FAILED_NOTIFICATIONS_RETRY_ALL_CONFIRM_SUCCESS_TITLE'
+  group = 'administration-tools - managed-integration-failed-notifications'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Retry'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Retry'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_managed_integration_failed_notifications_retry_all_success_body {
+  key = 'ADMINISTRATION_TOOLS_MANAGED_INTEGRATION_FAILED_NOTIFICATIONS_RETRY_ALL_CONFIRM_SUCCESS_BODY'
+  group = 'administration-tools - managed-integration-failed-notifications'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Retry all started'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Retry all started'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_managed_integration_failed_notifications_retry_success_title {
+  key = 'ADMINISTRATION_TOOLS_MANAGED_INTEGRATION_FAILED_NOTIFICATIONS_RETRY_SUCCESS_TITLE'
+  group = 'administration-tools - managed-integration-failed-notifications'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Success'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Success'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_managed_integration_failed_notifications_retry_success_body {
+  key = 'ADMINISTRATION_TOOLS_MANAGED_INTEGRATION_FAILED_NOTIFICATIONS_RETRY_SUCCESS_BODY'
+  group = 'administration-tools - managed-integration-failed-notifications'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Asset was synchronized successfully'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Asset was synchronized successfully'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+
+
+
+resource configservice_label administration_tools_managed_integration_tracked_assets_sync_all_confirm_title {
+  key = 'ADMINISTRATION_TOOLS_MANAGED_INTEGRATION_TRACKED_ASSETS_SYNC_ALL_CONFIRM_TITLE'
+  group = 'administration-tools - managed-integration-tracked-assets'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Start full sync'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Start full sync'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_managed_integration_tracked_assets_sync_all_confirm_content {
+  key = 'ADMINISTRATION_TOOLS_MANAGED_INTEGRATION_TRACKED_ASSETS_SYNC_ALL_CONFIRM_CONTENT'
+  group = 'administration-tools - managed-integration-tracked-assets'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Are you absolutely sure you want to start a full sync? This can put quite a lot of load on the integration.'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Are you absolutely sure you want to start a full sync? This can put quite a lot of load on the integration.'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_managed_integration_tracked_assets_sync_all_confirm_cancel {
+  key = 'ADMINISTRATION_TOOLS_MANAGED_INTEGRATION_TRACKED_ASSETS_SYNC_ALL_CONFIRM_CANCEL'
+  group = 'administration-tools - managed-integration-tracked-assets'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Cancel'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Cancel'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_managed_integration_tracked_assets_sync_all_confirm_confirm {
+  key = 'ADMINISTRATION_TOOLS_MANAGED_INTEGRATION_TRACKED_ASSETS_SYNC_ALL_CONFIRM_CONFIRM'
+  group = 'administration-tools - managed-integration-tracked-assets'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Sync'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Sync'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_managed_integration_tracked_assets_sync_all_success_title {
+  key = 'ADMINISTRATION_TOOLS_MANAGED_INTEGRATION_TRACKED_ASSETS_SYNC_ALL_SUCCESS_TITLE'
+  group = 'administration-tools - managed-integration-tracked-assets'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Full sync started'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Full sync started'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_managed_integration_tracked_assets_sync_all_success_body {
+  key = 'ADMINISTRATION_TOOLS_MANAGED_INTEGRATION_TRACKED_ASSETS_SYNC_ALL_SUCCESS_BODY'
+  group = 'administration-tools - managed-integration-tracked-assets'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'The full sync has been started. This can take a while.'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'The full sync has been started. This can take a while.'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+
+
+
 
 
