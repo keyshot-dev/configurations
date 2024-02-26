@@ -4771,22 +4771,6 @@ resource configservice_label administration_tools_managed_integrations_section_t
   ]
 }
 
-resource configservice_label administration_tools_managed_integrations_section_failed_notifications {
-  key = 'ADMINISTRATION_TOOLS_MANAGED_INTEGRATIONS_SECTION_FAILED_NOTIFICATIONS'
-  group = 'administration-tools - managed-integrations-section'
-  product_id = resource.configservice_product.media_manager_5.id
-  default_label_values = [
-    {
-      default_translation = 'Failed notifications'
-      language_id = data.language.english.id
-    },
-    {
-      default_translation = 'Fejlede notifikationer'
-      language_id = data.language.danish.id
-    }
-  ]
-}
-
 resource configservice_label administration_tools_managed_integrations_section_id {
   key = 'ADMINISTRATION_TOOLS_MANAGED_INTEGRATIONS_SECTION_ID'
   group = 'administration-tools - managed-integrations-section'
@@ -5038,22 +5022,6 @@ resource configservice_label administration_tools_managed_integration_tracked_as
     },
     {
       default_translation = 'Dette vil starte en synkronisering af alle assets i systemet, der matcher den konfigurerede søgning. Alle assets der ikke matcher, dvs. assets, som integrationen ikke burde kende til, vil blive fjernet.'
-      language_id = data.language.danish.id
-    }
-  ]
-}
-
-resource configservice_label administration_tools_managed_integration_tracked_assets_integration_state {
-  key = 'ADMINISTRATION_TOOLS_MANAGED_INTEGRATION_TRACKED_ASSETS_INTEGRATION_STATE'
-  group = 'administration-tools - managed-integration-tracked-assets'
-  product_id = resource.configservice_product.media_manager_5.id
-  default_label_values = [
-    {
-      default_translation = 'Integration state:'
-      language_id = data.language.english.id
-    },
-    {
-      default_translation = 'Integrations-status:'
       language_id = data.language.danish.id
     }
   ]
