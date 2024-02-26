@@ -4,5 +4,5 @@ resource configservice_bit_config_field show_has_crop {
     group = 'default'
     key = 'showHasCrop'
     title = 'Show crops on asset card'
-    description = 'If checked, the asset card will both indicate when there are crops, and allow you to quickly go to them.'
+    description = 'If checked, the asset card will indicate when it has crops and allow you to access them quickly.'
 }
