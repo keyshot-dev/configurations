@@ -3018,7 +3018,7 @@ resource configservice_label transcode_status_main_transcode_status {
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Transcode status'
+      default_translation = 'Transcode-status'
       language_id = data.language.danish.id
     }
   ]
