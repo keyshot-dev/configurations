@@ -2735,7 +2735,7 @@ resource language_label workflows_overview_automation_lookups_lookups_da {
 }
 
 resource language_label job_status_transcode_status_main_filename_en {
-    constant = 'JOB_STATUS_TRANSCODE-STATUS-MAIN_FILENAME'
+    constant = 'JOB_STATUS_TRANSCODE_STATUS_MAIN_FILENAME'
     label = 'File Name'
     language_id = data.language.english.id
     folder_id = resource.language_label_folder.media_manager.folder_id
@@ -2743,7 +2743,7 @@ resource language_label job_status_transcode_status_main_filename_en {
 }
 
 resource language_label job_status_transcode_status_main_filename_da {
-    constant = 'JOB_STATUS_TRANSCODE-STATUS-MAIN_FILENAME'
+    constant = 'JOB_STATUS_TRANSCODE_STATUS_MAIN_FILENAME'
     label = 'Filnavn'
     language_id = data.language.danish.id
     folder_id = resource.language_label_folder.media_manager.folder_id
@@ -2751,7 +2751,7 @@ resource language_label job_status_transcode_status_main_filename_da {
 }
 
 resource language_label job_status_transcode_status_main_transcode_status_en {
-    constant = 'JOB_STATUS_TRANSCODE-STATUS-MAIN_TRANSCODE_STATUS'
+    constant = 'JOB_STATUS_TRANSCODE_STATUS_MAIN_TRANSCODE_STATUS'
     label = 'Transcode Status'
     language_id = data.language.english.id
     folder_id = resource.language_label_folder.media_manager.folder_id
@@ -2759,7 +2759,7 @@ resource language_label job_status_transcode_status_main_transcode_status_en {
 }
 
 resource language_label job_status_transcode_status_main_transcode_status_da {
-    constant = 'JOB_STATUS_TRANSCODE-STATUS-MAIN_TRANSCODE_STATUS'
+    constant = 'JOB_STATUS_TRANSCODE_STATUS_MAIN_TRANSCODE_STATUS'
     label = 'Transcode status'
     language_id = data.language.danish.id
     folder_id = resource.language_label_folder.media_manager.folder_id
