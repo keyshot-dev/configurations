@@ -2733,4 +2733,3 @@ resource language_label workflows_overview_automation_lookups_lookups_da {
     folder_id = resource.language_label_folder.media_manager.folder_id
     version_id = resource.product.media_manager.base_version_id
 }
-
