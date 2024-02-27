@@ -2734,3 +2734,82 @@ resource language_label workflows_overview_automation_lookups_lookups_da {
     version_id = resource.product.media_manager.base_version_id
 }
 
+resource language_label job_status_transcode_status_main_filename_en {
+    constant = 'JOB_STATUS_TRANSCODE-STATUS-MAIN_FILENAME'
+    label = 'File Name'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label job_status_transcode_status_main_filename_da {
+    constant = 'JOB_STATUS_TRANSCODE-STATUS-MAIN_FILENAME'
+    label = 'Filnavn'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label job_status_transcode_status_main_transcode_status_en {
+    constant = 'JOB_STATUS_TRANSCODE-STATUS-MAIN_TRANSCODE_STATUS'
+    label = 'Transcode Status'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label job_status_transcode_status_main_transcode_status_da {
+    constant = 'JOB_STATUS_TRANSCODE-STATUS-MAIN_TRANSCODE_STATUS'
+    label = 'Transcode status'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label job_status_transcode_status_main_renditions_en {
+    constant = 'JOB_STATUS_TRANSCODE_STATUS_MAIN_RENDITIONS'
+    label = 'Renditions'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label job_status_transcode_status_main_renditions_da {
+    constant = 'JOB_STATUS_TRANSCODE_STATUS_MAIN_RENDITIONS'
+    label = 'Kvalitet'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label job_status_transcode_status_main_renditions_en {
+    constant = 'JOB_STATUS_TRANSCODE_STATUS_MAIN_RENDITIONS'
+    label = 'Renditions'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label job_status_transcode_status_main_renditions_da {
+    constant = 'JOB_STATUS_TRANSCODE_STATUS_MAIN_RENDITIONS'
+    label = 'Kvalitet'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label job_status_transcode_rendition_status_en {
+    constant = 'JOB_STATUS_TRANSCODE_RENDITION_STATUS_STATE'
+    label = 'State'
+    language_id = data.language.english.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
+
+resource language_label job_status_transcode_rendition_status_da {
+    constant = 'JOB_STATUS_TRANSCODE_RENDITION_STATUS_STATE'
+    label = 'Status'
+    language_id = data.language.danish.id
+    folder_id = resource.language_label_folder.media_manager.folder_id
+    version_id = resource.product.media_manager.base_version_id
+}
