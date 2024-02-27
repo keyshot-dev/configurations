@@ -644,11 +644,11 @@ resource configservice_label download_main_window_not_recommended_quality {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'This version is not recommended for use as it may require stretching the asset to a larger size, resulting in loss of quality.'
+      default_translation = 'This quality is not recommended for use as it may require stretching the asset to a larger size, resulting in loss of quality.'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Denne version anbefales ikke, da den vil kræve, at assettet strækkes til en større dimension, hvilket vil resultere i tab af kvalitet.'
+      default_translation = 'Denne kvalitet anbefales ikke, da den vil kræve, at assettet strækkes til en større dimension, hvilket vil resultere i tab af kvalitet.'
       language_id = data.language.danish.id
     }
   ]
