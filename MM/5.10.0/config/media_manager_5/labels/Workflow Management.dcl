@@ -3010,7 +3010,7 @@ resource configservice_label job_status_transcode_job_status_main_format {
 
 resource configservice_label transcode_status_main_transcode_status {
   key = 'TRANSCODE_STATUS_MAIN_TRANSCODE_STATUS'
-  group = 'Transcode status main- transcode-status-main'
+  group = 'Transcode status main - transcode-status-main'
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
@@ -3018,7 +3018,7 @@ resource configservice_label transcode_status_main_transcode_status {
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Transcode status'
+      default_translation = 'Transcodestatus'
       language_id = data.language.danish.id
     }
   ]
@@ -3026,7 +3026,7 @@ resource configservice_label transcode_status_main_transcode_status {
 
 resource configservice_label transcode_status_main_transcode_rendition {
   key = 'TRANSCODE_STATUS_MAIN_TRANSCODE_RENDITION'
-  group = 'Transcode status main- transcode-status-main'
+  group = 'Transcode status main - transcode-status-main'
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
