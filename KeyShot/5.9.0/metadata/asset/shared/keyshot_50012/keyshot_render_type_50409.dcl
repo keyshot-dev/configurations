@@ -132,13 +132,6 @@ resource item_security combo_value_keyshot_render_type_animation_50406__superadm
     write = true
 }
 
-resource item_security combo_value_keyshot_render_type_animation_50406__system {
-    accessor_item_id = data.member.system.item_id
-    item_id = resource.combo_value.keyshot_render_type_animation_50406.item_id
-    read = true
-    write = true
-}
-
 resource item_security combo_value_keyshot_render_type_cmf_50406__editor_access_34 {
     accessor_item_id = data.member_group.editor_access.item_id
     item_id = resource.combo_value.keyshot_render_type_cmf_50406.item_id
@@ -169,13 +162,6 @@ resource item_security combo_value_keyshot_render_type_cmf_50406__sa_full_access
 
 resource item_security combo_value_keyshot_render_type_cmf_50406__superadministrator {
     accessor_item_id = data.member.superadministrator.item_id
-    item_id = resource.combo_value.keyshot_render_type_cmf_50406.item_id
-    read = true
-    write = true
-}
-
-resource item_security combo_value_keyshot_render_type_cmf_50406__system {
-    accessor_item_id = data.member.system.item_id
     item_id = resource.combo_value.keyshot_render_type_cmf_50406.item_id
     read = true
     write = true
@@ -215,18 +201,3 @@ resource item_security combo_value_keyshot_render_type_still_image_50406__supera
     read = true
     write = true
 }
-
-resource item_security combo_value_keyshot_render_type_still_image_50406__system {
-    accessor_item_id = data.member.system.item_id
-    item_id = resource.combo_value.keyshot_render_type_still_image_50406.item_id
-    read = true
-    write = true
-}
-
-resource item_security combovalue_metafield_keyshot_render_type_50406__system {
-    accessor_item_id = data.member.system.item_id
-    item_id = resource.combovalue_metafield.keyshot_render_type_50409.item_id
-    read = true
-    write = true
-}
-
