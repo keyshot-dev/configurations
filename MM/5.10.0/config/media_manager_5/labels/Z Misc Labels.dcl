@@ -1849,7 +1849,7 @@ resource configservice_label create_link_confirmation_dialog_input_title {
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Title'
+      default_translation = 'Titel'
       language_id = data.language.danish.id
     }
   ]
