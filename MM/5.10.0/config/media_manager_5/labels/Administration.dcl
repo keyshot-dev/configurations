@@ -5431,8 +5431,132 @@ resource configservice_label administration_tools_managed_integration_tracked_as
   ]
 }
 
+resource configservice_label administration_tools_integration_configurations_section_no_configurations_found {
+  key = 'ADMINISTRATION_TOOLS_INTEGRATION_CONFIGURATIONS_SECTION_NO_CONFIGURATIONS_FOUND'
+  group = 'administration-tools - integration-configurations-section'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'No configurations found'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Ingen konfigurationer fundet'
+      language_id = data.language.danish.id
+    }
+  ]
+}
 
+resource configservice_label administration_tools_integration_configurations_section_save {
+  key = 'ADMINISTRATION_TOOLS_INTEGRATION_CONFIGURATIONS_SECTION_SAVE'
+  group = 'administration-tools - integration-configurations-section'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Save'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Gem'
+      language_id = data.language.danish.id
+    }
+  ]
+}
 
+resource configservice_label administration_tools_integration_configurations_section_configuration {
+  key = 'ADMINISTRATION_TOOLS_INTEGRATION_CONFIGURATIONS_SECTION_CONFIGURATION'
+  group = 'administration-tools - integration-configurations-section'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Configuration'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Konfiguration'
+      language_id = data.language.danish.id
+    }
+  ]
+}
 
+resource configservice_label administration_tools_integration_configurations_section_the_name_of_this_integration {
+  key = 'ADMINISTRATION_TOOLS_INTEGRATION_CONFIGURATIONS_SECTION_THE_NAME_OF_THIS_INTEGRATION'
+  group = 'administration-tools - integration-configurations-section'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'The name of the integration'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Navnet på integrationen'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_integration_configurations_section_delete_configuration {
+  key = 'ADMINISTRATION_TOOLS_INTEGRATION_CONFIGURATIONS_SECTION_DELETE_CONFIGURATION'
+  group = 'administration-tools - integration-configurations-section'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Delete configuration'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Slet konfiguration'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_integration_configurations_section_refresh {
+  key = 'ADMINISTRATION_TOOLS_INTEGRATION_CONFIGURATIONS_SECTION_REFRESH'
+  group = 'administration-tools - integration-configurations-section'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Refresh'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Genindlæs'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_integration_configurations_section_add_new {
+  key = 'ADMINISTRATION_TOOLS_INTEGRATION_CONFIGURATIONS_SECTION_ADD_NEW'
+  group = 'administration-tools - integration-configurations-section'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Add new'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Tilføj ny'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_integration_configurations_section_integration_configurations {
+  key = 'ADMINISTRATION_TOOLS_INTEGRATION_CONFIGURATIONS_SECTION_INTEGRATION_CONFIGURATIONS'
+  group = 'administration-tools - integration-configurations-section'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Integration configurations'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Integrations-konfigurationer'
+      language_id = data.language.danish.id
+    }
+  ]
+}
 
 
