@@ -1839,17 +1839,33 @@ resource configservice_label create_link_confirmation_dialog_input_url {
   ]
 }
 
-resource configservice_label create_link_confirmation_dialog_input_url_placeholder {
-  key = 'CREATE_LINK_CONFIRMATION_DIALOG_INPUT_URL_PLACEHOLDER'
+resource configservice_label create_link_confirmation_dialog_input_title {
+  key = 'CREATE_LINK_CONFIRMATION_DIALOG_INPUT_TITLE'
   group = 'Z Misc Labels'
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'URL...'
+      default_translation = 'Title'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'URL...'
+      default_translation = 'Titel'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label create_link_confirmation_dialog_input_target {
+  key = 'CREATE_LINK_CONFIRMATION_DIALOG_INPUT_TARGET'
+  group = 'Z Misc Labels'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Open in new tab'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Åbn i ny fane'
       language_id = data.language.danish.id
     }
   ]
