@@ -5485,7 +5485,7 @@ resource configservice_label administration_tools_integration_configurations_sec
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'The name of this integration'
+      default_translation = 'The name of the integration'
       language_id = data.language.english.id
     },
     {
@@ -5553,7 +5553,7 @@ resource configservice_label administration_tools_integration_configurations_sec
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Integrations-konfigurations'
+      default_translation = 'Integrations-konfigurationer'
       language_id = data.language.danish.id
     }
   ]
