@@ -3018,7 +3018,7 @@ resource configservice_label transcode_status_main_transcode_status {
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Transcodestatus'
+      default_translation = 'Transcode-status'
       language_id = data.language.danish.id
     }
   ]
@@ -3046,7 +3046,7 @@ resource configservice_label transcode_rendition_status_filename {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Filename'
+      default_translation = 'File name'
       language_id = data.language.english.id
     },
     {
