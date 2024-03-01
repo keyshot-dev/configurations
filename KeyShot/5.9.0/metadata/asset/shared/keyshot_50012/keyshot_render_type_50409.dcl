@@ -61,3 +61,143 @@ resource metafield_label keyshot_render_type_51481 {
     description = ''
 }
 
+resource combo_value_label keyshot_render_type__animation__english_50215 {
+    combo_id = resource.combo_value.keyshot_render_type_animation_50406.combo_id
+    language_id = data.language.english.id
+    label = 'Animation'
+}
+
+resource combo_value_label keyshot_render_type__cmf__english_50216 {
+    combo_id = resource.combo_value.keyshot_render_type_cmf_50406.combo_id
+    language_id = data.language.english.id
+    label = 'CMF'
+}
+
+resource combo_value_label keyshot_render_type__still_image__english_50214 {
+    combo_id = resource.combo_value.keyshot_render_type_still_image_50406.combo_id
+    language_id = data.language.english.id
+    label = 'Still Image'
+}
+
+resource combo_value keyshot_render_type_animation_50406 {
+    metafield_id = resource.combovalue_metafield.keyshot_render_type_50409.metafield_id
+    option_value = 'Animation'
+    sort_index = 0
+}
+
+resource combo_value keyshot_render_type_cmf_50406 {
+    metafield_id = resource.combovalue_metafield.keyshot_render_type_50409.metafield_id
+    option_value = 'CMF'
+    sort_index = 0
+}
+
+resource combo_value keyshot_render_type_still_image_50406 {
+    metafield_id = resource.combovalue_metafield.keyshot_render_type_50409.metafield_id
+    option_value = 'Still Image'
+    sort_index = 0
+}
+
+resource item_security combo_value_keyshot_render_type_animation_50406__editor_access_34 {
+    accessor_item_id = data.member_group.editor_access.item_id
+    item_id = resource.combo_value.keyshot_render_type_animation_50406.item_id
+    read = true
+    write = true
+}
+
+resource item_security combo_value_keyshot_render_type_animation_50406__metadata_editor_36 {
+    accessor_item_id = data.member_group.metadata_editor.item_id
+    item_id = resource.combo_value.keyshot_render_type_animation_50406.item_id
+    read = true
+    write = true
+}
+
+resource item_security combo_value_keyshot_render_type_animation_50406__metadata_viewer_35 {
+    accessor_item_id = data.member_group.metadata_viewer.item_id
+    item_id = resource.combo_value.keyshot_render_type_animation_50406.item_id
+    read = true
+    write = false
+}
+
+resource item_security combo_value_keyshot_render_type_animation_50406__sa_full_access_32 {
+    accessor_item_id = data.member_group.sa_full_access.item_id
+    item_id = resource.combo_value.keyshot_render_type_animation_50406.item_id
+    read = true
+    write = true
+}
+
+resource item_security combo_value_keyshot_render_type_animation_50406__superadministrator {
+    accessor_item_id = data.member.superadministrator.item_id
+    item_id = resource.combo_value.keyshot_render_type_animation_50406.item_id
+    read = true
+    write = true
+}
+
+resource item_security combo_value_keyshot_render_type_cmf_50406__editor_access_34 {
+    accessor_item_id = data.member_group.editor_access.item_id
+    item_id = resource.combo_value.keyshot_render_type_cmf_50406.item_id
+    read = true
+    write = true
+}
+
+resource item_security combo_value_keyshot_render_type_cmf_50406__metadata_editor_36 {
+    accessor_item_id = data.member_group.metadata_editor.item_id
+    item_id = resource.combo_value.keyshot_render_type_cmf_50406.item_id
+    read = true
+    write = true
+}
+
+resource item_security combo_value_keyshot_render_type_cmf_50406__metadata_viewer_35 {
+    accessor_item_id = data.member_group.metadata_viewer.item_id
+    item_id = resource.combo_value.keyshot_render_type_cmf_50406.item_id
+    read = true
+    write = false
+}
+
+resource item_security combo_value_keyshot_render_type_cmf_50406__sa_full_access_32 {
+    accessor_item_id = data.member_group.sa_full_access.item_id
+    item_id = resource.combo_value.keyshot_render_type_cmf_50406.item_id
+    read = true
+    write = true
+}
+
+resource item_security combo_value_keyshot_render_type_cmf_50406__superadministrator {
+    accessor_item_id = data.member.superadministrator.item_id
+    item_id = resource.combo_value.keyshot_render_type_cmf_50406.item_id
+    read = true
+    write = true
+}
+
+resource item_security combo_value_keyshot_render_type_still_image_50406__editor_access_34 {
+    accessor_item_id = data.member_group.editor_access.item_id
+    item_id = resource.combo_value.keyshot_render_type_still_image_50406.item_id
+    read = true
+    write = true
+}
+
+resource item_security combo_value_keyshot_render_type_still_image_50406__metadata_editor_36 {
+    accessor_item_id = data.member_group.metadata_editor.item_id
+    item_id = resource.combo_value.keyshot_render_type_still_image_50406.item_id
+    read = true
+    write = true
+}
+
+resource item_security combo_value_keyshot_render_type_still_image_50406__metadata_viewer_35 {
+    accessor_item_id = data.member_group.metadata_viewer.item_id
+    item_id = resource.combo_value.keyshot_render_type_still_image_50406.item_id
+    read = true
+    write = false
+}
+
+resource item_security combo_value_keyshot_render_type_still_image_50406__sa_full_access_32 {
+    accessor_item_id = data.member_group.sa_full_access.item_id
+    item_id = resource.combo_value.keyshot_render_type_still_image_50406.item_id
+    read = true
+    write = true
+}
+
+resource item_security combo_value_keyshot_render_type_still_image_50406__superadministrator {
+    accessor_item_id = data.member.superadministrator.item_id
+    item_id = resource.combo_value.keyshot_render_type_still_image_50406.item_id
+    read = true
+    write = true
+}
