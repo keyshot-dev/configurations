@@ -3094,7 +3094,7 @@ resource configservice_label transcode_rendition_status_search_for_asset_id {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Search for asset ID'
+      default_translation = 'Search by asset ID'
       language_id = data.language.english.id
     },
     {
