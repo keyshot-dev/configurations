@@ -420,11 +420,11 @@ resource configservice_label upload_drag_and_drop_upload_dialog_title {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Upload assets to DAM'
+      default_translation = 'Upload {multiple, select, true {assets} false {asset}} to DAM'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Upload assets til DAM'
+      default_translation = 'Upload {multiple, select, true {assets} false {asset}} til DAM'
       language_id = data.language.danish.id
     }
   ]
