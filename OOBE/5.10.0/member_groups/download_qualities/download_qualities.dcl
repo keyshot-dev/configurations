@@ -7,7 +7,7 @@ resource member_group download_qualities {
     parents = []
     roles = []
     download_qualities = [{
-            media_format_id = local.source_media_format_magic_id
+            media_format_id = data.format.original.id
         }, {
             media_format_id = data.media_format.video_preview_h264.media_format_id
         }, {
