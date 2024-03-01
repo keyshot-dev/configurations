@@ -7581,24 +7581,24 @@ resource configservice_label settings_sso_settings_additional_valid_audiences {
 }
 
 
-resource configservice_label settings_menu_analytics_title {
-  key = 'SETTINGS_MENU_ANALYTICS_TITLE'
+resource configservice_label settings_menu_insights_title {
+  key = 'SETTINGS_MENU_INSIGHTS_TITLE'
   group = 'Settings'
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Analytics'
+      default_translation = 'Insights'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Analytics'
+      default_translation = 'Insights'
       language_id = data.language.danish.id
     }
   ]
 }
 
-resource configservice_label settings_menu_analytics_desc {
-  key = 'SETTINGS_MENU_ANALYTICS_DESC'
+resource configservice_label settings_menu_insights_desc {
+  key = 'SETTINGS_MENU_INSIGHTS_DESC'
   group = 'Settings'
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
