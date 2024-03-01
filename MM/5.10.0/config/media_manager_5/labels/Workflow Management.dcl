@@ -3078,13 +3078,28 @@ resource configservice_label transcode_rendition_status_no_qualitites {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'No qualities'
+      default_translation = 'No qualities found'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Ingen kvaliteter'
+      default_translation = 'Ingen kvaliteter fundet'
       language_id = data.language.danish.id
     }
   ]
 }
 
+resource configservice_label transcode_rendition_status_search_for_asset_id {
+  key = 'TRANSCODE_RENDITION_STATUS_SEARCH_FOR_ASSET_ID'
+  group = 'Transcode rendition status - transcode-renditions-status'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Search by asset ID'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Søg med asset-id'
+      language_id = data.language.danish.id
+    }
+  ]
+}
