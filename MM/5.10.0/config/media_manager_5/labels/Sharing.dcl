@@ -84,11 +84,11 @@ resource configservice_label sharing_share_embed_quality {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Quality'
+      default_translation = 'Rendition'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Kvalitet'
+      default_translation = 'Rendition'
       language_id = data.language.danish.id
     }
   ]

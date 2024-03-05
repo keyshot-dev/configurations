@@ -3030,11 +3030,11 @@ resource configservice_label transcode_status_main_transcode_rendition {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Quality status'
+      default_translation = 'Rendition status'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Kvalitets-status'
+      default_translation = 'Rendition-status'
       language_id = data.language.danish.id
     }
   ]
@@ -3078,11 +3078,11 @@ resource configservice_label transcode_rendition_status_no_qualitites {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'No qualities found'
+      default_translation = 'No renditions found'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Ingen kvaliteter fundet'
+      default_translation = 'Ingen renditions fundet'
       language_id = data.language.danish.id
     }
   ]

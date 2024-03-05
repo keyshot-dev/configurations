@@ -4,11 +4,11 @@
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = '{metadata, select, true {{files, select, true {Download assets and metadata} false {Download metadata}}} false {Download assets}}'
+      default_translation = '{metadata, select, true {{files, select, true {Download renditions and metadata} false {Download metadata}}} false {Download renditions}}'
       language_id = data.language.english.id
     },
     {
-      default_translation = '{metadata, select, true {{files, select, true {Download assets and metadata} false {Download metadata}}} false {Download assets}}'
+      default_translation = '{metadata, select, true {{files, select, true {Download renditions and metadata} false {Download metadata}}} false {Download renditions}}'
       language_id = data.language.danish.id
     }
   ]
@@ -356,11 +356,11 @@ resource configservice_label selected_assets_overlay_metadata_download_field_sel
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Asset qualities'
+      default_translation = 'Renditions'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Assetkvaliteter'
+      default_translation = 'Renditions'
       language_id = data.language.danish.id
     }
   ]
@@ -420,11 +420,11 @@ resource configservice_label selected_assets_overlay_metadata_download_field_sel
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = '{all, select, true {All qualities selected} false {Mixed qualities}}'
+      default_translation = '{all, select, true {All renditions selected} false {Mixed renditions}}'
       language_id = data.language.english.id
     },
     {
-      default_translation = '{all, select, true {Alle kvaliteter valgt} false {Blandede kvaliteter}}'
+      default_translation = '{all, select, true {Alle renditions valgt} false {Blandede renditions}}'
       language_id = data.language.danish.id
     }
   ]
@@ -516,11 +516,11 @@ resource configservice_label selected_assets_overlay_metadata_download_only_qual
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Only quality available'
+      default_translation = 'Only rendition available'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Eneste tilgængelige kvalitet'
+      default_translation = 'Eneste tilgængelige rendition'
       language_id = data.language.danish.id
     }
   ]
@@ -548,11 +548,11 @@ resource configservice_label selected_assets_overlay_metadata_download_no_qualit
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'No qualities available'
+      default_translation = 'No renditions available'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Ingen tilgængelige kvaliteter'
+      default_translation = 'Ingen tilgængelige renditions'
       language_id = data.language.danish.id
     }
   ]
@@ -568,7 +568,7 @@ resource configservice_label selected_assets_overlay_metadata_download_no_qualit
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Ingen kvaliteter tilgængelige til download'
+      default_translation = 'Ingen renditions tilgængelige til download'
       language_id = data.language.danish.id
     }
   ]
@@ -580,11 +580,11 @@ resource configservice_label selected_assets_overlay_insert_assets_no_quality_to
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'No qualities available for insertion'
+      default_translation = 'No renditions available for insertion'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Ingen kvaliteter tilgængelige til indsættelse'
+      default_translation = 'Ingen renditions tilgængelige til indsættelse'
       language_id = data.language.danish.id
     }
   ]
@@ -740,11 +740,11 @@ resource configservice_label selected_assets_overlay_not_valid_insert_count_dial
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = '{count, cardinalPlural, one {An asset cannot be inserted with the selected quality} other {Some assets cannot be inserted with the selected quality}}'
+      default_translation = '{count, cardinalPlural, one {An asset cannot be inserted with the selected rendition} other {Some assets cannot be inserted with the selected rendition}}'
       language_id = data.language.english.id
     },
     {
-      default_translation = '{count, cardinalPlural, one {Et asset kan ikke indsættes med den valgte kvalitet} other {Nogle assets kan ikke indsættes med den valgte kvalitet}}'
+      default_translation = '{count, cardinalPlural, one {Et asset kan ikke indsættes med den valgte rendition} other {Nogle assets kan ikke indsættes med den valgte rendition}}'
       language_id = data.language.danish.id
     }
   ]
@@ -756,11 +756,11 @@ resource configservice_label selected_assets_overlay_not_valid_insert_count_dial
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = '{count, cardinalPlural, one {An asset cannot be changed to the selected quality} other {Some assets cannot be changed to the selected quality}}'
+      default_translation = '{count, cardinalPlural, one {An asset cannot be changed to the selected rendition} other {Some assets cannot be changed to the selected rendition}}'
       language_id = data.language.english.id
     },
     {
-      default_translation = '{count, cardinalPlural, one {Et asset kan ikke ændres til den valgte kvalitet} other {Nogle assets kan ikke ændres til den valgte kvalitet}}'
+      default_translation = '{count, cardinalPlural, one {Et asset kan ikke ændres til den valgte rendition} other {Nogle assets kan ikke ændres til den valgte rendition}}'
       language_id = data.language.danish.id
     }
   ]
@@ -772,11 +772,11 @@ resource configservice_label selected_assets_overlay_not_valid_insert_count_dial
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = '{{notAvailableAssetCount}} out of the {{totalAssetCount}} selected assets cannot be inserted with the selected quality.'
+      default_translation = '{{notAvailableAssetCount}} out of the {{totalAssetCount}} selected assets cannot be inserted with the selected rendition.'
       language_id = data.language.english.id
     },
     {
-      default_translation = '{{notAvailableAssetCount}} ud af de {{totalAssetCount}} valgte assets kan ikke indsættes med den valgte kvalitet.'
+      default_translation = '{{notAvailableAssetCount}} ud af de {{totalAssetCount}} valgte assets kan ikke indsættes med den valgte rendition.'
       language_id = data.language.danish.id
     }
   ]
@@ -788,11 +788,11 @@ resource configservice_label selected_assets_overlay_not_valid_insert_count_dial
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = '{{notAvailableAssetCount}} out of the {{totalAssetCount}} selected assets cannot be changed to the selected quality.'
+      default_translation = '{{notAvailableAssetCount}} out of the {{totalAssetCount}} selected assets cannot be changed to the selected rendition.'
       language_id = data.language.english.id
     },
     {
-      default_translation = '{{notAvailableAssetCount}} ud af de {{totalAssetCount}} valgte assets kan ikke ændres til den valgte kvalitet.'
+      default_translation = '{{notAvailableAssetCount}} ud af de {{totalAssetCount}} valgte assets kan ikke ændres til den valgte rendition.'
       language_id = data.language.danish.id
     }
   ]

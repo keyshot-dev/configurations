@@ -24,6 +24,6 @@ resource configservice_multi_combo_config_field custom_quality_color_spaces {
     group = 'Custom Quality Download'
     key = 'colorSpace'
     title = 'Custom quality color spaces'
-    description = 'Used when downloading images in a custom quality. At least one must be set for it to work. Is also visible when cropping.'
+    description = 'Used when downloading images in a custom rendition. At least one must be set for it to work. Is also visible when cropping.'
 }
 
