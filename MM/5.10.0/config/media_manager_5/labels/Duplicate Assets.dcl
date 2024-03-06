@@ -164,11 +164,11 @@ resource configservice_label duplicate_asset_modal_next {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = '{hasNext, select, true {Confirm and process} false {Confirm and close}}'
+      default_translation = '{hasNext, select, true {Confirm and proceed} false {Confirm and close}}'
       language_id = data.language.english.id
     },
     {
-      default_translation = '{hasNext, select, true {Bekræft og behandl} false {Bekræft og luk}}'
+      default_translation = '{hasNext, select, true {Bekræft og fortsæt} false {Bekræft og luk}}'
       language_id = data.language.danish.id
     }
   ]
