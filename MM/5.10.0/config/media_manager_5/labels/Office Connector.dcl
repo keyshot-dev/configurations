@@ -4,11 +4,11 @@
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'No qualities available'
+      default_translation = 'No renditions available'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Ingen kvaliteter tilgængelige'
+      default_translation = 'Ingen renditions tilgængelige'
       language_id = data.language.danish.id
     }
   ]
@@ -68,11 +68,11 @@ resource configservice_label office_choose_quality {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Choose quality'
+      default_translation = 'Choose rendition'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Vælg kvalitet'
+      default_translation = 'Vælg rendition'
       language_id = data.language.danish.id
     }
   ]
@@ -260,11 +260,11 @@ resource configservice_label office_preview_download_qualities {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Download qualities'
+      default_translation = 'Download renditions'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Download-kvaliteter'
+      default_translation = 'Download-renditions'
       language_id = data.language.danish.id
     }
   ]
