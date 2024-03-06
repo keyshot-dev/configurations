@@ -868,11 +868,11 @@ resource configservice_label creative_cloud_connector_notification_link_manager_
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'All selected links have changed their quality'
+      default_translation = 'All selected links have changed their rendition'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Alle valgte links har skiftet deres kvalitet'
+      default_translation = 'Alle valgte links har skiftet deres rendition'
       language_id = data.language.danish.id
     }
   ]
@@ -884,11 +884,11 @@ resource configservice_label creative_cloud_connector_notification_link_manager_
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'One or more links could not change their quality'
+      default_translation = 'One or more links could not change their rendition'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'En eller flere links kunne skifte deres kvalitet'
+      default_translation = 'En eller flere links kunne skifte deres rendition'
       language_id = data.language.danish.id
     }
   ]
@@ -1076,11 +1076,11 @@ resource configservice_label creative_cloud_connector_notification_active_docume
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Please save the active document, before changing the asset quality'
+      default_translation = 'Please save the active document, before changing the rendition'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Gem det aktive dokument, før du ændrer asset kvaliteten'
+      default_translation = 'Gem det aktive dokument, før du ændrer renditionen'
       language_id = data.language.danish.id
     }
   ]
@@ -1204,11 +1204,11 @@ resource configservice_label creative_cloud_connector_precache_export_quality_ti
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Preload export quality'
+      default_translation = 'Preload export rendition'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Forudindlæs eksport-kvalitet'
+      default_translation = 'Forudindlæs eksport-rendition'
       language_id = data.language.danish.id
     }
   ]
@@ -1460,11 +1460,11 @@ resource configservice_label office_link_manager_page_quality {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Quality'
+      default_translation = 'Rendition'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Kvalitet'
+      default_translation = 'Rendition'
       language_id = data.language.danish.id
     }
   ]
@@ -1620,11 +1620,11 @@ resource configservice_label office_link_manager_page_filter_quality {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Quality'
+      default_translation = 'Rendition'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Kvalitet'
+      default_translation = 'Rendition'
       language_id = data.language.danish.id
     }
   ]
@@ -1812,11 +1812,11 @@ resource configservice_label creative_cloud_connector_link_more_popup_change_qua
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Change quality'
+      default_translation = 'Change rendition'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Ændr kvalitet'
+      default_translation = 'Ændr rendition'
       language_id = data.language.danish.id
     }
   ]
@@ -2052,11 +2052,11 @@ resource configservice_label office_file_item_button_tooltip {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Show qualities'
+      default_translation = 'Show renditions'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Vis kvaliteter'
+      default_translation = 'Vis renditions'
       language_id = data.language.danish.id
     }
   ]
@@ -2068,11 +2068,11 @@ resource configservice_label office_file_item_button_title {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Qualities'
+      default_translation = 'Renditions'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Kvaliteter'
+      default_translation = 'Renditions'
       language_id = data.language.danish.id
     }
   ]
@@ -2244,11 +2244,11 @@ resource configservice_label office_link_manager_page_change_quality {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Change quality'
+      default_translation = 'Change rendition'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Ændr kvalitet'
+      default_translation = 'Ændr rendition'
       language_id = data.language.danish.id
     }
   ]
@@ -2964,11 +2964,11 @@ resource configservice_label office_link_manager_tooltip_change_quality_all {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Click to change the quality of all selected assets'
+      default_translation = 'Click to change the rendition of all selected assets'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Tryk her for at ændre kvaliteten på alle valgte assets'
+      default_translation = 'Tryk her for at ændre renditioneb på alle valgte assets'
       language_id = data.language.danish.id
     }
   ]
@@ -3204,11 +3204,11 @@ resource configservice_label office_link_manager_change_quality_dialog_title {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Change quality'
+      default_translation = 'Change rendition'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Ændr kvalitet'
+      default_translation = 'Ændr rendition'
       language_id = data.language.danish.id
     }
   ]
@@ -3220,11 +3220,11 @@ resource configservice_label office_link_manager_change_quality_dialog_body {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Please select either high og low quality for all the selected assets and press the Change quality button.'
+      default_translation = 'Please select either high og low quality for all the selected assets and press the Change rendition button.'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Vælg mellem høj og lav kvalitet på alle valgte assets og tryk så på knappen Ændr kvalitet.'
+      default_translation = 'Vælg mellem høj og lav kvalitet på alle valgte assets og tryk så på knappen Ændr rendition.'
       language_id = data.language.danish.id
     }
   ]
@@ -3268,11 +3268,11 @@ resource configservice_label office_link_manager_change_quality_dialog_change_bt
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Change quality'
+      default_translation = 'Change rendition'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Ændr kvalitet'
+      default_translation = 'Ændr rendition'
       language_id = data.language.danish.id
     }
   ]
@@ -3284,11 +3284,11 @@ resource configservice_label office_link_manager_change_quality_dialog_finished_
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'All selected assets qualities have now been changed.'
+      default_translation = 'All selected assets renditions have now been changed.'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Kvaliteten er ændret for alle assets.'
+      default_translation = 'Renditionen er ændret for alle assets.'
       language_id = data.language.danish.id
     }
   ]
@@ -3300,11 +3300,11 @@ resource configservice_label office_link_manager_change_quality_dialog_changing_
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Changing qualities and relinking content'
+      default_translation = 'Changing renditions and relinking content'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Ændrer kvaliteter og genlinkinker indhold'
+      default_translation = 'Ændrer renditions og genlinkinker indhold'
       language_id = data.language.danish.id
     }
   ]
@@ -3540,11 +3540,11 @@ resource configservice_label creative_cloud_connector_insert_asset_insert_qualit
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'A video and/or image insert quality has/have not been defined in the Portal config manager'
+      default_translation = 'A video and/or image insert rendition has/have not been defined in the Portal config manager'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'En indsæt-kvalitet for video og/eller billede er ikke defineret i Portal config manageren'
+      default_translation = 'En indsæt-rendition for video og/eller billede er ikke defineret i Portal config manageren'
       language_id = data.language.danish.id
     }
   ]
@@ -3556,11 +3556,11 @@ resource configservice_label creative_cloud_connector_insert_asset_export_qualit
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'A video and/or image export quality has/have not been defined in the Portal config manager'
+      default_translation = 'A video and/or image export rendition has/have not been defined in the Portal config manager'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'En eksport-kvalitet for video og/eller billede er ikke defineret i Portal config manageren'
+      default_translation = 'En eksport-rendition for video og/eller billede er ikke defineret i Portal config manageren'
       language_id = data.language.danish.id
     }
   ]
@@ -3572,11 +3572,11 @@ resource configservice_label creative_cloud_connector_insert_asset_export_qualit
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'You do not have the required access rights to this system\'s export quality (id: {{mediaFormatId}})'
+      default_translation = 'You do not have the required access rights to this system\'s export rendition (id: {{mediaFormatId}})'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Du har ikke de fornødne rettigheder til at tilgå dette systems eksport-kvalitet (id: {{mediaFormatId}})'
+      default_translation = 'Du har ikke de fornødne rettigheder til at tilgå dette systems eksport-rendition (id: {{mediaFormatId}})'
       language_id = data.language.danish.id
     }
   ]
@@ -3588,11 +3588,11 @@ resource configservice_label creative_cloud_connector_insert_asset_insert_qualit
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'You do not have the required access rights to this system\'s insert quality (id: {{mediaFormatId}})'
+      default_translation = 'You do not have the required access rights to this system\'s insert rendition (id: {{mediaFormatId}})'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Du har ikke de fornødne rettigheder til at tilgå dette systems indsæt-kvalitet (id: {{mediaFormatId}})'
+      default_translation = 'Du har ikke de fornødne rettigheder til at tilgå dette systems indsæt-rendition (id: {{mediaFormatId}})'
       language_id = data.language.danish.id
     }
   ]
@@ -3604,11 +3604,11 @@ resource configservice_label creative_cloud_connector_insert_asset_no_access_to_
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'You do not have access to the quality named Original'
+      default_translation = 'You do not have access to the rendition named Original'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Du har ikke adgang til kvaliteten Original'
+      default_translation = 'Du har ikke adgang til renditionen Original'
       language_id = data.language.danish.id
     }
   ]
@@ -3620,11 +3620,11 @@ resource configservice_label creative_cloud_connector_current_quality_selected {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Current quality'
+      default_translation = 'Current rendition'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Nuværende kvalitet'
+      default_translation = 'Nuværende rendition'
       language_id = data.language.danish.id
     }
   ]
@@ -3636,11 +3636,11 @@ resource configservice_label creative_cloud_connector_quality_not_downloaded {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Quality not downloaded'
+      default_translation = 'Rendition not downloaded'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Kvalitet ikke downloadet'
+      default_translation = 'Rendition ikke downloadet'
       language_id = data.language.danish.id
     }
   ]
@@ -3668,11 +3668,11 @@ resource configservice_label creative_cloud_connector_insert_quality {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Insert quality'
+      default_translation = 'Insert rendition'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Indsæt-kvalitet'
+      default_translation = 'Indsæt-rendition'
       language_id = data.language.danish.id
     }
   ]
@@ -3684,11 +3684,11 @@ resource configservice_label creative_cloud_connector_export_quality {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Export quality'
+      default_translation = 'Export rendition'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Eksport-kvalitet'
+      default_translation = 'Eksport-rendition'
       language_id = data.language.danish.id
     }
   ]
@@ -3700,11 +3700,11 @@ resource configservice_label creative_cloud_connector_insert_asset_cannot_select
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'This application only allows the insertion of its own file type in the original quality'
+      default_translation = 'This application only allows the insertion of its own file type in the original rendition'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Denne applikation tillader kun indsættelse af sin egen filtype i den originale kvalitet'
+      default_translation = 'Denne applikation tillader kun indsættelse af sin egen filtype i den originale rendition'
       language_id = data.language.danish.id
     }
   ]
@@ -4292,11 +4292,11 @@ resource configservice_label creative_cloud_connector_download_selected_assets_t
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = '{isInsertion, select, true {Insert assets} false {Change quality}}'
+      default_translation = '{isInsertion, select, true {Insert rendition} false {Change rendition}}'
       language_id = data.language.english.id
     },
     {
-      default_translation = '{isInsertion, select, true {Indsæt assets} false {Ændr kvalitet}}'
+      default_translation = '{isInsertion, select, true {Indsæt rendition} false {Ændr rendition}}'
       language_id = data.language.danish.id
     }
   ]
@@ -4340,11 +4340,11 @@ resource configservice_label creative_cloud_connector_download_selected_assets_i
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Insert quality'
+      default_translation = 'Insert rendition'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Indsæt-kvalitet'
+      default_translation = 'Indsæt-rendition'
       language_id = data.language.danish.id
     }
   ]
@@ -4356,11 +4356,11 @@ resource configservice_label creative_cloud_connector_download_selected_assets_e
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Export quality'
+      default_translation = 'Export rendition'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Eksport-kvalitet'
+      default_translation = 'Eksport-rendition'
       language_id = data.language.danish.id
     }
   ]
@@ -4372,11 +4372,11 @@ resource configservice_label creative_cloud_connector_download_selected_assets_n
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'No assets can be inserted with the insert quality'
+      default_translation = 'No assets can be inserted with the insert rendition'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Ingen assets kan indsættes med indsæt-kvaliteten'
+      default_translation = 'Ingen assets kan indsættes med indsæt-renditionen'
       language_id = data.language.danish.id
     }
   ]
@@ -4388,11 +4388,11 @@ resource configservice_label creative_cloud_connector_download_selected_assets_n
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'No assets can be inserted with the export quality'
+      default_translation = 'No assets can be inserted with the export rendition'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Ingen assets kan indsættes med eksport-kvaliteten'
+      default_translation = 'Ingen assets kan indsættes med eksport-renditionen'
       language_id = data.language.danish.id
     }
   ]
@@ -4404,11 +4404,11 @@ resource configservice_label creative_cloud_connector_download_selected_assets_d
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Only quality available'
+      default_translation = 'Only rendition available'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Eneste tilgængelige kvalitet'
+      default_translation = 'Eneste tilgængelige rendition'
       language_id = data.language.danish.id
     }
   ]
@@ -4420,11 +4420,11 @@ resource configservice_label creative_cloud_connector_download_selected_assets_f
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = '{all, select, true {All qualities selected} false {Mixed qualities}}'
+      default_translation = '{all, select, true {All renditions selected} false {Mixed renditions}}'
       language_id = data.language.english.id
     },
     {
-      default_translation = '{all, select, true {Alle kvaliteter valgt} false {Blandede kvaliteter}}'
+      default_translation = '{all, select, true {Alle renditions valgt} false {Blandede renditions}}'
       language_id = data.language.danish.id
     }
   ]
@@ -4948,11 +4948,11 @@ resource configservice_label creative_cloud_connector_download_progress_download
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'The qualities are ready in the Downloads folder'
+      default_translation = 'The renditions are ready in the Downloads folder'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Kvaliteterne ligger klar i Downloads-mappen'
+      default_translation = 'De valgte renditions ligger klar i Downloads-mappen'
       language_id = data.language.danish.id
     }
   ]
@@ -5284,11 +5284,11 @@ resource configservice_label office_file_manager_high_quality_autoload_text {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Always download the high-res quality in the background'
+      default_translation = 'Always download the high-res rendition in the background'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Download altid high-res-kvaliteten i baggrunden'
+      default_translation = 'Download altid high-res-renditionen i baggrunden'
       language_id = data.language.danish.id
     }
   ]
@@ -5300,11 +5300,11 @@ resource configservice_label office_file_manager_high_quality_autoload_descripti
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'High-res qualities give a better experience working with the product. Also, exporting should always be done with high-res qualities. Enabling this will not make this plug-in slower.'
+      default_translation = 'High-res renditions give a better experience working with the product. Also, exporting should always be done with high-res renditions. Enabling this will not make this plug-in slower.'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'High-res-kvaliteter giver en bedre brugeroplevelse med produktet. Derudover bør eksportering altid kun ske med high-res-kvaliteter. Aktivering af denne feature vil ikke gøre plug-in\'et langsommere.'
+      default_translation = 'High-res-renditions giver en bedre brugeroplevelse med produktet. Derudover bør eksportering altid kun ske med high-res-renditions. Aktivering af denne feature vil ikke gøre plug-in\'et langsommere.'
       language_id = data.language.danish.id
     }
   ]
@@ -6020,11 +6020,11 @@ resource configservice_label creative_cloud_connector_quality {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Quality'
+      default_translation = 'Rendition'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Kvalitet'
+      default_translation = 'Rendition'
       language_id = data.language.danish.id
     }
   ]
