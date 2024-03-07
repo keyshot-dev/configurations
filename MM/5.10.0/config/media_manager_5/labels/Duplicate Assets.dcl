@@ -142,17 +142,33 @@ resource configservice_label duplicate_asset_modal_current_upload {
   ]
 }
 
+resource configservice_label duplicate_asset_modal_confirm {
+  key = 'DUPLICATE_ASSET_MODAL_CONFIRM'
+  group = 'Duplicate Assets'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Confirm'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Bekræft'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label duplicate_asset_modal_next {
   key = 'DUPLICATE_ASSET_MODAL_NEXT'
   group = 'Duplicate Assets'
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = '{hasNext, select, true {Next} false {Done}}'
+      default_translation = '{hasNext, select, true {Confirm and proceed} false {Confirm and close}}'
       language_id = data.language.english.id
     },
     {
-      default_translation = '{hasNext, select, true {Næste} false {Færdig}}'
+      default_translation = '{hasNext, select, true {Bekræft og fortsæt} false {Bekræft og luk}}'
       language_id = data.language.danish.id
     }
   ]
