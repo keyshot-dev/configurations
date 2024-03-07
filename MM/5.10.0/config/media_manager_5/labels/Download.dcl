@@ -874,7 +874,7 @@ resource configservice_label download_custom_quality_dialog_validation_error_req
       language_id = data.language.english.id
     },
     {
-      default_translation = '{{param}} er påkrævet''
+      default_translation = '{{param}} er påkrævet'
       language_id = data.language.danish.id
     }
   ]
