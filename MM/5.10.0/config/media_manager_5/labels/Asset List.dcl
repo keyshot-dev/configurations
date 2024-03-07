@@ -708,11 +708,11 @@ resource configservice_label asset_list_more_popup_place_asset_quality {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Place quality'
+      default_translation = 'Place rendition'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Placer kvalitet'
+      default_translation = 'Placer rendition'
       language_id = data.language.danish.id
     }
   ]
@@ -1844,11 +1844,11 @@ resource configservice_label asset_list_filter_property_connector_title {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = '{property, select, assetType {Asset type} mediaFormatId {Quality} linkType {Status} extension {Extension} hasSubLink {Has sublink}}'
+      default_translation = '{property, select, assetType {Asset type} mediaFormatId {Rendition} linkType {Status} extension {Extension} hasSubLink {Has sublink}}'
       language_id = data.language.english.id
     },
     {
-      default_translation = '{property, select, assetType {Assettype} mediaFormatId {Kvalitet} linkType {Status} extension {Filendelse} hasSubLink {Har underlink}}'
+      default_translation = '{property, select, assetType {Assettype} mediaFormatId {Rendition} linkType {Status} extension {Filendelse} hasSubLink {Har underlink}}'
       language_id = data.language.danish.id
     }
   ]

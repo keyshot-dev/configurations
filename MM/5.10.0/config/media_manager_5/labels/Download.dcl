@@ -180,11 +180,11 @@ resource configservice_label download_download_popup_request_custom {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Custom quality'
+      default_translation = 'Custom rendition'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Brugerdefineret kvalitet'
+      default_translation = 'Brugerdefineret rendition'
       language_id = data.language.danish.id
     }
   ]
@@ -196,11 +196,11 @@ resource configservice_label download_download_popup_no_downloads {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'No downloads available'
+      default_translation = 'No renditions available'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Ingen downloads tilgængelige'
+      default_translation = 'Ingen renditions tilgængelige'
       language_id = data.language.danish.id
     }
   ]
@@ -212,11 +212,11 @@ resource configservice_label download_custom_quality_dialog {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Download custom quality'
+      default_translation = 'Download custom rendition'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Download brugerdefineret kvalitet'
+      default_translation = 'Download brugerdefineret rendition'
       language_id = data.language.danish.id
     }
   ]
@@ -388,11 +388,11 @@ resource configservice_label download_custom_quality_dialog_title {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Custom Quality'
+      default_translation = 'Custom rendition'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Brugerdefineret kvalitet'
+      default_translation = 'Brugerdefineret rendition'
       language_id = data.language.danish.id
     }
   ]
@@ -420,11 +420,11 @@ resource configservice_label download_custom_quality_dialog_description {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'You can order a custom quality of the selected image. Choose your settings and press send. You will then receive an email with a link to download the converted image.'
+      default_translation = 'You can order a custom rendition of the selected image. Choose your settings and press send. You will then receive an email with a link to download the resulting rendition.'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Du kan bestille en brugerdefineret kvalitet af det valgte billede. Vælg dine indstillinger og tryk send. Du vil modtage en email med det konverterede billede'
+      default_translation = 'Du kan bestille en brugerdefineret rendition af det valgte billede. Vælg dine indstillinger og tryk send. Du vil modtage en email med den resulterende rendition'
       language_id = data.language.danish.id
     }
   ]
@@ -548,11 +548,11 @@ resource configservice_label download_main_window_available_versions {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Available versions'
+      default_translation = 'Select all'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Tilgængelige versioner'
+      default_translation = 'Vælg alle'
       language_id = data.language.danish.id
     }
   ]
@@ -564,11 +564,11 @@ resource configservice_label download_main_window_requested_qualities {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Requested qualities'
+      default_translation = 'Requested renditions'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Forespurgte kvaliteter'
+      default_translation = 'Forespurgte renditions'
       language_id = data.language.danish.id
     }
   ]
@@ -580,11 +580,11 @@ resource configservice_label download_main_window_custom_quality {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Custom quality'
+      default_translation = 'Custom'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Brugerdefineret kvalitet'
+      default_translation = 'Brugerdefineret'
       language_id = data.language.danish.id
     }
   ]
@@ -596,11 +596,11 @@ resource configservice_label download_main_window_custom_quality_info {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Export a custom quality'
+      default_translation = 'Export a custom rendition'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Eksporter en brugerdefineret kvalitet'
+      default_translation = 'Eksporter en brugerdefineret rendition'
       language_id = data.language.danish.id
     }
   ]
@@ -644,11 +644,11 @@ resource configservice_label download_main_window_not_recommended_quality {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'This quality is not recommended for use as it may require stretching the asset to a larger size, resulting in loss of quality.'
+      default_translation = 'This rendition is not recommended for use as it may require stretching the asset to a larger size, resulting in loss of quality.'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Denne kvalitet anbefales ikke, da den vil kræve, at assettet strækkes til en større dimension, hvilket vil resultere i tab af kvalitet.'
+      default_translation = 'Denne rendition anbefales ikke, da den vil kræve, at assettet strækkes til en større dimension, hvilket vil resultere i tab af kvalitet.'
       language_id = data.language.danish.id
     }
   ]

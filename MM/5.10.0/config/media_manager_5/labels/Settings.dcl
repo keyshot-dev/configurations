@@ -1221,11 +1221,11 @@ resource configservice_label settings_download_approval_select_media_formats {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Media formats'
+      default_translation = 'Formats'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Medieformater'
+      default_translation = 'Formater'
       language_id = data.language.danish.id
     }
   ]
@@ -3749,11 +3749,11 @@ resource configservice_label asset_card_settings_filter_action_insert_with_selec
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Insert asset with the selected quality'
+      default_translation = 'Insert asset with the selected rendition'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Indsæt asset med den valgte kvalitet'
+      default_translation = 'Indsæt asset med den valgte rendition'
       language_id = data.language.danish.id
     }
   ]
@@ -3797,11 +3797,11 @@ resource configservice_label asset_card_settings_filter_precache_export_quality 
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Preload export quality'
+      default_translation = 'Preload export rendition'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Forudindlæs eksport-kvalitet'
+      default_translation = 'Forudindlæs eksport-rendition'
       language_id = data.language.danish.id
     }
   ]
@@ -4677,11 +4677,11 @@ resource configservice_label settings_settings_left_menu_download_qualities {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Download qualities'
+      default_translation = 'Download'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Download-kvaliteter'
+      default_translation = 'Download'
       language_id = data.language.danish.id
     }
   ]
@@ -4757,11 +4757,11 @@ resource configservice_label settings_download_qualities_settings_success_body {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Download qualities saved'
+      default_translation = 'Saved'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Download-kvaliteter gemt'
+      default_translation = 'Gemt'
       language_id = data.language.danish.id
     }
   ]
@@ -4789,11 +4789,11 @@ resource configservice_label settings_download_qualities_settings_error_body {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Error saving download qualities'
+      default_translation = 'An error occurred while saving'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Fejl ved lagring af download-kvaliteter'
+      default_translation = 'Der skete en fejl da systemet prøvede at gemme'
       language_id = data.language.danish.id
     }
   ]
@@ -6945,11 +6945,11 @@ resource configservice_label settings_connector_settings_image_insert_quality_ti
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Image insert quality'
+      default_translation = 'Image insert rendition'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Billeders indsættelses-kvalitet'
+      default_translation = 'Billeders indsættelses-rendition'
       language_id = data.language.danish.id
     }
   ]
@@ -6961,11 +6961,11 @@ resource configservice_label settings_connector_settings_image_insert_quality_de
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Defines the default quality for inserting image assets'
+      default_translation = 'Defines the default rendition for inserting image assets'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Definerer standard-kvaliteten for indsættelse af billede-assets'
+      default_translation = 'Definerer standard-renditionen for indsættelse af billede-assets'
       language_id = data.language.danish.id
     }
   ]
@@ -6977,11 +6977,11 @@ resource configservice_label settings_connector_settings_image_export_quality_ti
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Image export quality'
+      default_translation = 'Image export rendition'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Billeders eksport-kvalitet'
+      default_translation = 'Billeders eksport-rendition'
       language_id = data.language.danish.id
     }
   ]
@@ -6993,11 +6993,11 @@ resource configservice_label settings_connector_settings_image_export_quality_de
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Defines the quality you should by default use when when you exporting documents containing image assets'
+      default_translation = 'Defines the rendition you should by default use when when you exporting documents containing image assets'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Definerer den kvalitet, du som standard skal bruge, når du eksporterer dokumenter, der indeholder billede-assets'
+      default_translation = 'Definerer den rendition, du som standard skal bruge, når du eksporterer dokumenter, der indeholder billede-assets'
       language_id = data.language.danish.id
     }
   ]
@@ -7009,11 +7009,11 @@ resource configservice_label settings_connector_settings_video_insert_quality_ti
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Video insert quality'
+      default_translation = 'Video insert rendition'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Videoers indsæt-kvalitet'
+      default_translation = 'Videoers indsæt-rendition'
       language_id = data.language.danish.id
     }
   ]
@@ -7025,11 +7025,11 @@ resource configservice_label settings_connector_settings_video_insert_quality_de
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Defines the default quality for inserting video assets'
+      default_translation = 'Defines the default rendition for inserting video assets'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Definerer standard-kvaliteten for indsættelse af video-assets'
+      default_translation = 'Definerer standard-rendition for indsættelse af video-assets'
       language_id = data.language.danish.id
     }
   ]
@@ -7041,11 +7041,11 @@ resource configservice_label settings_connector_settings_video_export_quality_ti
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Video export quality'
+      default_translation = 'Video export rendition'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Videoers eksport-kvalitet'
+      default_translation = 'Videoers eksport-rendition'
       language_id = data.language.danish.id
     }
   ]
@@ -7057,11 +7057,11 @@ resource configservice_label settings_connector_settings_video_export_quality_de
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Defines the quality you should by default use when when you exporting documents containing video assets'
+      default_translation = 'Defines the rendition you should by default use when when you exporting documents containing video assets'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Definerer den kvalitet, du som standard skal bruge, når du eksporterer dokumenter, der indeholder video-assets'
+      default_translation = 'Definerer den rendition, du som standard skal bruge, når du eksporterer dokumenter, der indeholder video-assets'
       language_id = data.language.danish.id
     }
   ]
