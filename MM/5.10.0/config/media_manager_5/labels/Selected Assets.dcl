@@ -824,7 +824,7 @@ resource configservice_label selected_assets_overlay_notification_downloading_se
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Downloader valg'
+      default_translation = 'Downloader valgte'
       language_id = data.language.danish.id
     }
   ]

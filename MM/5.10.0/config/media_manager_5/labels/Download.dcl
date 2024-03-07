@@ -789,11 +789,11 @@ resource configservice_label download_custom_quality_dialog_watermark_asset_pick
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Choose a watermark'
+      default_translation = 'Choose watermark'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Vælg et watermark'
+      default_translation = 'Vælg vandmærke'
       language_id = data.language.danish.id
     }
   ]
