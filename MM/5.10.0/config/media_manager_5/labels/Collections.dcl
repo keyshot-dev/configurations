@@ -1812,11 +1812,11 @@ resource configservice_label collections_share_download_rights_can_download_asse
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Can download renditions'
+      default_translation = 'Can download assets'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Kan downloade renditions'
+      default_translation = 'Kan downloade assets'
       language_id = data.language.danish.id
     }
   ]
@@ -1844,11 +1844,11 @@ resource configservice_label collections_share_download_rights_can_download_asse
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Can download renditions and metadata'
+      default_translation = 'Can download assets and metadata'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Kan downloade renditions og metadata'
+      default_translation = 'Kan downloade assets og metadata'
       language_id = data.language.danish.id
     }
   ]
