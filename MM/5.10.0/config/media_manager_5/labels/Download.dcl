@@ -653,3 +653,261 @@ resource configservice_label download_main_window_not_recommended_quality {
     }
   ]
 }
+
+resource configservice_label download_main_window_notification_downloading_selected_renditions {
+  key = 'DOWNLOAD_MAIN_WINDOW_NOTIFICATION_DOWNLOADING_SELECTED_RENDITIONS'
+  group = 'Download'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Downloading selected renditions'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Downloader udvalgte renditions'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label download_main_window_notification_downloading_rendition {
+  key = 'DOWNLOAD_MAIN_WINDOW_NOTIFICATION_DOWNLOADING_RENDITION'
+  group = 'Download'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Downloading rendition "{{quality}}"'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Downloader rendition "{{quality}}"'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+
+resource configservice_label download_custom_quality_dialog_download_button {
+  key = 'DOWNLOAD_CUSTOM_QUALITY_DIALOG_DOWNLOAD_BUTTON'
+  group = 'Download'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Download'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Download'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label download_custom_quality_dialog_cancel_button {
+  key = 'DOWNLOAD_CUSTOM_QUALITY_DIALOG_CANCEL_BUTTON'
+  group = 'Download'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Cancel'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Annullér'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label download_custom_quality_dialog_format_type {
+  key = 'DOWNLOAD_CUSTOM_QUALITY_DIALOG_FORMAT_TYPE'
+  group = 'Download'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Format type'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Formattype'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label download_custom_quality_dialog_format_type_select_placeholder {
+  key = 'DOWNLOAD_CUSTOM_QUALITY_DIALOG_FORMAT_TYPE_SELECT_PLACEHOLDER'
+  group = 'Download'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Select'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Vælg'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label download_custom_quality_dialog_watermark_choose_asset {
+  key = 'DOWNLOAD_CUSTOM_QUALITY_DIALOG_WATERMARK_CHOOSE_ASSET'
+  group = 'Download'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Choose asset'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Vælg asset'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label download_custom_quality_dialog_watermark_clear_asset {
+  key = 'DOWNLOAD_CUSTOM_QUALITY_DIALOG_WATERMARK_CLEAR_ASSET'
+  group = 'Download'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Clear asset'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Ryd asset'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label download_custom_quality_dialog_watermark_asset_picker_title {
+  key = 'DOWNLOAD_CUSTOM_QUALITY_DIALOG_WATERMARK_ASSET_PICKER_TITLE'
+  group = 'Download'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Choose watermark'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Vælg vandmærke'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label download_custom_quality_dialog_unknown_input_type {
+  key = 'DOWNLOAD_CUSTOM_QUALITY_DIALOG_UNKNOWN_INPUT_TYPE'
+  group = 'Download'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Unknown input type'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Ukendt inputtype'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label download_custom_quality_dialog_notification_downloading_custom_rendition {
+  key = 'DOWNLOAD_CUSTOM_QUALITY_DIALOG_NOTIFICATION_DOWNLOADING_CUSTOM_RENDITION'
+  group = 'Download'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Downloading custom rendition'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Downloader brugerdefineret rendition'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label download_custom_quality_dialog_notification_download_error_title {
+  key = 'DOWNLOAD_CUSTOM_QUALITY_DIALOG_NOTIFICATION_DOWNLOAD_ERROR_TITLE'
+  group = 'Download'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Error'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Fejl'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label download_custom_quality_dialog_notification_download_error_body {
+  key = 'DOWNLOAD_CUSTOM_QUALITY_DIALOG_NOTIFICATION_DOWNLOAD_ERROR_BODY'
+  group = 'Download'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Something went wrong during download. Please try again.'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Noget gik galt under download. Prøv igen.'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+
+resource configservice_label download_custom_quality_dialog_validation_error_required {
+  key = 'DOWNLOAD_CUSTOM_QUALITY_DIALOG_VALIDATION_ERROR_REQUIRED'
+  group = 'Download'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = '{{param}} is required'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = '{{param}} er påkrævet''
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label download_custom_quality_dialog_validation_error_min {
+  key = 'DOWNLOAD_CUSTOM_QUALITY_DIALOG_VALIDATION_ERROR_MIN'
+  group = 'Download'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = '{{param}} should not be less than {{value}}'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = '{{param}} bør ikke være mindre end {{value}}'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label download_custom_quality_dialog_validation_error_max {
+  key = 'DOWNLOAD_CUSTOM_QUALITY_DIALOG_VALIDATION_ERROR_MAX'
+  group = 'Download'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = '{{param}} should not be more than {{value}}'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = '{{param}} bør ikke være mere end {{value}}'
+      language_id = data.language.danish.id
+    }
+  ]
+}

@@ -814,3 +814,20 @@ resource configservice_label selected_assets_overlay_not_valid_asset_types_dialo
   ]
 }
 
+resource configservice_label selected_assets_overlay_notification_downloading_selection {
+  key = 'SELECTED_ASSETS_OVERLAY_NOTIFICATION_DOWNLOADING_SELECTION'
+  group = 'Selected Assets'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Downloading selection'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Downloader valgte'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+
