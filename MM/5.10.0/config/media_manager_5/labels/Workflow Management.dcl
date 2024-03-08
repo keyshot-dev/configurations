@@ -3130,7 +3130,7 @@ resource configservice_label transcode_pipe_state_label {
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Fil reference mangler i databasen'
+      default_translation = 'Fil-referencen mangler i databasen'
       language_id = data.language.danish.id
     }
   ]
