@@ -3034,7 +3034,7 @@ resource configservice_label transcode_status_main_transcode_rendition {
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Rendering status'
+      default_translation = 'fil-status'
       language_id = data.language.danish.id
     }
   ]
