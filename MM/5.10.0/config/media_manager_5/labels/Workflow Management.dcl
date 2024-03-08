@@ -3082,7 +3082,7 @@ resource configservice_label transcode_rendition_status_no_qualitites {
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Ingen rendering fundet'
+      default_translation = 'Ingen renderinger fundet'
       language_id = data.language.danish.id
     }
   ]
