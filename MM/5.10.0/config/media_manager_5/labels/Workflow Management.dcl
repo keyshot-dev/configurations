@@ -3088,7 +3088,7 @@ resource configservice_label transcode_rendition_status_no_qualitites {
   ]
 }
 
-resource configservice_label transcode_pipe_state_label {
+resource configservice_label transcode_pipe_state_label_files_found_both_units {
   key = 'TRANSCODE_PIPE_STATE_LABEL_FILES_FOUND_BOTH_UNITS'
   group = 'Transcode rendition status - transcode-renditions-status'
   product_id = resource.configservice_product.media_manager_5.id
@@ -3104,7 +3104,7 @@ resource configservice_label transcode_pipe_state_label {
   ]
 }
 
-resource configservice_label transcode_pipe_state_label {
+resource configservice_label transcode_pipe_state_label_file_missing_blobstorage {
   key = 'TRANSCODE_PIPE_STATE_LABEL_FILE_MISSING_BLOBSTORAGE'
   group = 'Transcode rendition status - transcode-renditions-status'
   product_id = resource.configservice_product.media_manager_5.id
@@ -3120,7 +3120,7 @@ resource configservice_label transcode_pipe_state_label {
   ]
 }
 
-resource configservice_label transcode_pipe_state_label {
+resource configservice_label transcode_pipe_state_label_file_missing_database {
   key = 'TRANSCODE_PIPE_STATE_LABEL_FILE_MISSING_DATABASE'
   group = 'Transcode rendition status - transcode-renditions-status'
   product_id = resource.configservice_product.media_manager_5.id
