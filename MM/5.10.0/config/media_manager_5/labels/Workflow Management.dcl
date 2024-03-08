@@ -3082,7 +3082,7 @@ resource configservice_label transcode_rendition_status_no_qualitites {
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Ingen renderinger fundet'
+      default_translation = 'Ingen renditions fundet'
       language_id = data.language.danish.id
     }
   ]
@@ -3130,7 +3130,7 @@ resource configservice_label transcode_pipe_state_label {
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Fil reference mangler i databasen'
+      default_translation = 'Fil-referencen mangler i databasen'
       language_id = data.language.danish.id
     }
   ]
@@ -3142,11 +3142,11 @@ resource configservice_label transcode_pipe_state_label {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Files found in both storage units'
+      default_translation = 'Both the file and the file reference exist'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Filer fundet i begge opbevaringsenheder'
+      default_translation = 'Både filen og fil-referencen findes'
       language_id = data.language.danish.id
     }
   ]
