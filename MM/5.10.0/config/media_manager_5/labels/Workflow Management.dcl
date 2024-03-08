@@ -3146,7 +3146,7 @@ resource configservice_label transcode_pipe_state_label {
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Filer fundet i begge opbevaringsenheder'
+      default_translation = 'Både filen og fil-referencen findes'
       language_id = data.language.danish.id
     }
   ]
