@@ -3142,7 +3142,7 @@ resource configservice_label transcode_pipe_state_label {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Files found in both storage units'
+      default_translation = 'Both the file and the file reference exist'
       language_id = data.language.english.id
     },
     {
