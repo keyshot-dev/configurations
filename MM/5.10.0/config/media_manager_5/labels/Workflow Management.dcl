@@ -3030,11 +3030,11 @@ resource configservice_label transcode_status_main_transcode_rendition {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Quality status'
+      default_translation = 'Rendition status'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Kvalitet status'
+      default_translation = 'Rendering status'
       language_id = data.language.danish.id
     }
   ]
@@ -3078,13 +3078,60 @@ resource configservice_label transcode_rendition_status_no_qualitites {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'No qualities'
+      default_translation = 'No rendition'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Ingen kvaliteter'
+      default_translation = 'Ingen rendering'
       language_id = data.language.danish.id
     }
   ]
 }
 
+resource configservice_label transcode_pipe_state_label {
+  key = 'TRANSCODE_PIPE_STATE_LABEL_FILES_FOUND_BOTH_UNITS'
+  group = 'Transcode rendition status - transcode-renditions-status'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Files found in both storage units'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Filer fundet i begge opbevaringsenheder'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label transcode_pipe_state_label {
+  key = 'TRANSCODE_PIPE_STATE_LABEL_FILE_MISSING_BLOBSTORAGE'
+  group = 'Transcode rendition status - transcode-renditions-status'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'File missing in the Blob storage'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Filen mangler i Blob opbevaringsenhed'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label transcode_pipe_state_label {
+  key = 'TRANSCODE_PIPE_STATE_LABEL_FILE_MISSING_DATABASE'
+  group = 'Transcode rendition status - transcode-renditions-status'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'File missing in the database'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Filen mangler i databasen'
+      language_id = data.language.danish.id
+    }
+  ]
+}
