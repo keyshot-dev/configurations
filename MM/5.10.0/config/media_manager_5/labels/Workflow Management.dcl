@@ -3030,11 +3030,11 @@ resource configservice_label transcode_status_main_transcode_rendition {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Rendition status'
+      default_translation = 'File status'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Rendition-status'
+      default_translation = 'Fil-status'
       language_id = data.language.danish.id
     }
   ]
@@ -3099,6 +3099,54 @@ resource configservice_label transcode_rendition_status_search_for_asset_id {
     },
     {
       default_translation = 'Søg med asset-id'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label transcode_pipe_state_label {
+  key = 'TRANSCODE_PIPE_STATE_LABEL_FILE_MISSING_BLOBSTORAGE'
+  group = 'Transcode rendition status - transcode-renditions-status'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'File missing in the Blob storage'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Filen mangler i Blob-storage'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label transcode_pipe_state_label {
+  key = 'TRANSCODE_PIPE_STATE_LABEL_FILE_MISSING_DATABASE'
+  group = 'Transcode rendition status - transcode-renditions-status'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'File reference missing in database'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Fil-referencen mangler i databasen'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label transcode_pipe_state_label {
+  key = 'TRANSCODE_PIPE_STATE_LABEL_FILES_FOUND_BOTH_UNITS'
+  group = 'Transcode rendition status - transcode-renditions-status'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Both the file and the file reference exist'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Både filen og fil-referencen findes'
       language_id = data.language.danish.id
     }
   ]
