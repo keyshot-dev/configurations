@@ -1075,11 +1075,11 @@ resource configservice_label metadata_editor_refresh_confirmation_dialog_title {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Refresh metadata editor'
+      default_translation = 'Discard and refresh'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Opdater metadata-editor'
+      default_translation = 'Kassér og opdater'
       language_id = data.language.danish.id
     }
   ]
