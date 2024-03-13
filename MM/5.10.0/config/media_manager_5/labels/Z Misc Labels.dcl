@@ -2390,11 +2390,11 @@ resource configservice_label aria_label_go_to_asset {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Go to asset page'
+      default_translation = 'Go to asset'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Gå til asset-siden'
+      default_translation = 'Gå til asset'
       language_id = data.language.danish.id
     }
   ]
