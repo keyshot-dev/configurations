@@ -2383,3 +2383,19 @@ resource configservice_label aria_label_select_task {
     }
   ]
 }
+
+resource configservice_label aria_label_go_to_asset {
+  key = 'ARIA_LABEL_GO_TO_ASSET'
+  group = 'Z Misc Labels'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Go to asset page'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Gå til asset-siden'
+      language_id = data.language.danish.id
+    }
+  ]
+}
