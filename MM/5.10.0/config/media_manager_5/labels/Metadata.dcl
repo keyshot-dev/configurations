@@ -1069,6 +1069,69 @@ resource configservice_label metadata_editor_discard_confirmation_dialog_yes {
     }
   ]
 }
+resource configservice_label metadata_editor_refresh_confirmation_dialog_title {
+  key = 'METADATA_EDITOR_REFRESH_CONFIRMATION_DIALOG_TITLE'
+  group = 'Metadata'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Discard and refresh'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Kassér og opdater'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label metadata_editor_refresh_confirmation_dialog_text {
+  key = 'METADATA_EDITOR_REFRESH_CONFIRMATION_DIALOG_TEXT'
+  group = 'Metadata'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Are you sure you want to refresh the metadata editor and discard all changes?'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Er du sikker på, at du vil opdatere metadata-editoren og kassere alle ændringer?'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label metadata_editor_refresh_confirmation_dialog_no {
+  key = 'METADATA_EDITOR_REFRESH_CONFIRMATION_DIALOG_NO'
+  group = 'Metadata'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'No'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Nej'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label metadata_editor_refresh_confirmation_dialog_yes {
+  key = 'METADATA_EDITOR_REFRESH_CONFIRMATION_DIALOG_YES'
+  group = 'Metadata'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Yes'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Ja'
+      language_id = data.language.danish.id
+    }
+  ]
+}
 
 resource configservice_label multi_metadata_editor_asset_selector_search {
   key = 'MULTI_METADATA_EDITOR_ASSET_SELECTOR_SEARCH'
