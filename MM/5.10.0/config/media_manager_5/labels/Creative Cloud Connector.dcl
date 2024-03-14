@@ -3502,17 +3502,17 @@ resource configservice_label creative_cloud_connector_insert_asset_invalid_asset
   ]
 }
 
-resource configservice_label office_connector_images_cannot_be_inserted_in_excel_online {
-  key = 'OFFICE_CONNECTOR_IMAGES_CANNOT_BE_INSERTED_IN_EXCEL_ONLINE'
+resource configservice_label office_connector_assets_cannot_be_inserted_in_excel_online {
+  key = 'OFFICE_CONNECTOR_ASSETS_CANNOT_BE_INSERTED_IN_EXCEL_ONLINE'
   group = 'Creative Cloud Connector'
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Inserting image assets is not supported in the online version of Excel'
+      default_translation = 'Inserting assets is not supported in the online version of Excel'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Indsættelse af billedassets er ikke understøttet i onlineversionen af Excel'
+      default_translation = 'Indsættelse af assets er ikke understøttet i onlineversionen af Excel'
       language_id = data.language.danish.id
     }
   ]
