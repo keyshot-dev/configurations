@@ -5607,8 +5607,8 @@ resource configservice_label administration_tools_users_and_groups_groups_toolti
   ]
 }
 
-resource configservice_label administration_tools_users_and_groups_add_new_group {
-  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_ADD_NEW_GROUP'
+resource configservice_label ADMINISTRATION_TOOLS_USERS_AND_GROUPS_ADD_NEW_BTN {
+  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_ADD_NEW_BTN'
   group = 'administration-tools - users-and-groups'
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
@@ -5623,8 +5623,8 @@ resource configservice_label administration_tools_users_and_groups_add_new_group
   ]
 }
 
-resource configservice_label administration_tools_users_and_groups_refresh_group {
-  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_REFRESH_GROUP'
+resource configservice_label administration_tools_users_and_groups_refresh_btn {
+  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_REFRESH_BTN'
   group = 'administration-tools - users-and-groups'
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
@@ -5640,8 +5640,8 @@ resource configservice_label administration_tools_users_and_groups_refresh_group
 }
 
 
-resource configservice_label administration_tools_users_and_groups_group_view_users {
-  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_GROUP_VIEW_USERS'
+resource configservice_label administration_tools_users_and_groups_group_view_users_btn {
+  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_GROUP_VIEW_USERS_BTN'
   group = 'administration-tools - users-and-groups'
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
@@ -5656,8 +5656,8 @@ resource configservice_label administration_tools_users_and_groups_group_view_us
   ]
 }
 
-resource configservice_label administration_tools_users_and_groups_group_delete_group {
-  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_GROUP_DELETE_GROUP'
+resource configservice_label administration_tools_users_and_groups_group_delete_group_btn {
+  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_GROUP_DELETE_GROUP_BTN'
   group = 'administration-tools - users-and-groups'
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
@@ -5786,8 +5786,8 @@ resource configservice_label administration_tools_users_and_groups_group_inherit
   ]
 }
 
-resource configservice_label administration_tools_users_and_groups_group_expand {
-  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_GROUP_EXPAND'
+resource configservice_label administration_tools_users_and_groups_expand_btn {
+  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_EXPAND_BTN'
   group = 'administration-tools - users-and-groups'
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
@@ -5802,8 +5802,8 @@ resource configservice_label administration_tools_users_and_groups_group_expand 
   ]
 }
 
-resource configservice_label administration_tools_users_and_groups_group_collapse {
-  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_GROUP_COLLAPSE'
+resource configservice_label administration_tools_users_and_groups_collapse_btn {
+  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_COLLAPSE_BTN'
   group = 'administration-tools - users-and-groups'
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
@@ -5850,8 +5850,8 @@ resource configservice_label administration_tools_users_and_groups_group_inherit
   ]
 }
 
-resource configservice_label administration_tools_users_and_groups_group_save_group_btn {
-  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_GROUP_SAVE_GROUP_BTN'
+resource configservice_label ADMINISTRATION_TOOLS_USERS_AND_GROUPS_EDIT_SAVE_BTN {
+  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_EDIT_SAVE_BTN'
   group = 'administration-tools - users-and-groups'
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
@@ -5866,8 +5866,8 @@ resource configservice_label administration_tools_users_and_groups_group_save_gr
   ]
 }
 
-resource configservice_label administration_tools_users_and_groups_group_cancel_group_btn {
-  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_GROUP_CANCEL_GROUP_BTN'
+resource configservice_label administration_tools_users_and_groups_group_edit_cancel_btn {
+  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_GROUP_EDIT_CANCEL_BTN'
   group = 'administration-tools - users-and-groups'
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
@@ -5882,8 +5882,8 @@ resource configservice_label administration_tools_users_and_groups_group_cancel_
   ]
 }
 
-resource configservice_label administration_tools_users_and_groups_group_add_subfolder {
-  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_GROUP_ADD_SUBFOLDER'
+resource configservice_label administration_tools_users_and_groups_add_subfolder {
+  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_ADD_SUBFOLDER'
   group = 'administration-tools - users-and-groups'
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
@@ -5898,8 +5898,8 @@ resource configservice_label administration_tools_users_and_groups_group_add_sub
   ]
 }
 
-resource configservice_label administration_tools_users_and_groups_group_update_folder {
-  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_GROUP_UPDATE_FOLDER'
+resource configservice_label administration_tools_users_and_groups_update_folder {
+  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_UPDATE_FOLDER'
   group = 'administration-tools - users-and-groups'
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
@@ -5914,8 +5914,8 @@ resource configservice_label administration_tools_users_and_groups_group_update_
   ]
 }
 
-resource configservice_label administration_tools_users_and_groups_group_delete_folder {
-  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_GROUP_DELETE_FOLDER'
+resource configservice_label administration_tools_users_and_groups_delete_folder {
+  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_DELETE_FOLDER'
   group = 'administration-tools - users-and-groups'
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
@@ -5930,8 +5930,8 @@ resource configservice_label administration_tools_users_and_groups_group_delete_
   ]
 }
 
-resource configservice_label administration_tools_users_and_groups_group_rename_folder {
-  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_GROUP_RENAME_FOLDER'
+resource configservice_label administration_tools_users_and_groups_rename_folder {
+  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_RENAME_FOLDER'
   group = 'administration-tools - users-and-groups'
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
@@ -5946,8 +5946,8 @@ resource configservice_label administration_tools_users_and_groups_group_rename_
   ]
 }
 
-resource configservice_label administration_tools_users_and_groups_group_folder_name {
-  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_GROUP_FOLDER_NAME'
+resource configservice_label administration_tools_users_and_groups_folder_dialog_name {
+  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_FOLDER_DIALOG_NAME'
   group = 'administration-tools - users-and-groups'
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
@@ -5962,8 +5962,8 @@ resource configservice_label administration_tools_users_and_groups_group_folder_
   ]
 }
 
-resource configservice_label administration_tools_users_and_groups_group_folder_name_required {
-  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_GROUP_FOLDER_NAME_REQUIRED'
+resource configservice_label administration_tools_users_and_groups_folder_dialog_name_required {
+  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_FOLDER_DIALOG_NAME_REQUIRED'
   group = 'administration-tools - users-and-groups'
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
@@ -5978,8 +5978,8 @@ resource configservice_label administration_tools_users_and_groups_group_folder_
   ]
 }
 
-resource configservice_label administration_tools_users_and_groups_group_save_folder {
-  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_GROUP_SAVE_FOLDER'
+resource configservice_label administration_tools_users_and_groups_folder_dialog_save_btn {
+  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_FOLDER_DIALOG_SAVE_BTN'
   group = 'administration-tools - users-and-groups'
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
@@ -5994,8 +5994,8 @@ resource configservice_label administration_tools_users_and_groups_group_save_fo
   ]
 }
 
-resource configservice_label administration_tools_users_and_groups_group_cancel_folder {
-  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_GROUP_CANCEL_FOLDER'
+resource configservice_label administration_tools_users_and_groups_folder_dialog_cancel_btn {
+  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_FOLDER_DIALOG_CANCEL_BTN'
   group = 'administration-tools - users-and-groups'
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
@@ -6010,8 +6010,8 @@ resource configservice_label administration_tools_users_and_groups_group_cancel_
   ]
 }
 
-resource configservice_label administration_tools_users_and_groups_group_folder_dialog_body_success {
-  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_GROUP_FOLDER_DIALOG_BODY_SUCCESS'
+resource configservice_label administration_tools_users_and_groups_folder_dialog_body_success {
+  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_FOLDER_DIALOG_BODY_SUCCESS'
   group = 'administration-tools - users-and-groups'
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
@@ -6026,8 +6026,8 @@ resource configservice_label administration_tools_users_and_groups_group_folder_
   ]
 }
 
-resource configservice_label administration_tools_users_and_groups_group_folder_dialog_body_error {
-  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_GROUP_FOLDER_DIALOG_BODY_ERROR'
+resource configservice_label administration_tools_users_and_groups_folder_dialog_body_error {
+  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_FOLDER_DIALOG_BODY_ERROR'
   group = 'administration-tools - users-and-groups'
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
@@ -6042,8 +6042,8 @@ resource configservice_label administration_tools_users_and_groups_group_folder_
   ]
 }
 
-resource configservice_label administration_tools_users_and_groups_group_folder_dialog_title_error {
-  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_GROUP_FOLDER_DIALOG_TITLE_ERROR'
+resource configservice_label administration_tools_users_and_groups_folder_dialog_title_error {
+  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_FOLDER_DIALOG_TITLE_ERROR'
   group = 'administration-tools - users-and-groups'
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
