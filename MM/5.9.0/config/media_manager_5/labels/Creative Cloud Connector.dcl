@@ -3524,11 +3524,11 @@ resource configservice_label office_connector_assets_cannot_be_inserted_in_excel
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Inserting assets is not supported in the online version of Excel'
+      default_translation = 'Inserting renditions is not supported in the online version of Excel'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Indsættelse af assets er ikke understøttet i onlineversionen af Excel'
+      default_translation = 'Indsættelse af renditions er ikke understøttet i online-versionen af Excel'
       language_id = data.language.danish.id
     }
   ]
