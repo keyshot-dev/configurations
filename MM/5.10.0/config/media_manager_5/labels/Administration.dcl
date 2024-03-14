@@ -5559,4 +5559,522 @@ resource configservice_label administration_tools_integration_configurations_sec
   ]
 }
 
+resource configservice_label administration_tools_users_and_groups_groups {
+  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_GROUPS'
+  group = 'administration-tools - users-and-groups'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Groups'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Grupper'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_users_and_groups_manage_group_folders {
+  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_MANAGE_GROUP_FOLDERS'
+  group = 'administration-tools - users-and-groups'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Manage group folders'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Administrer gruppemapper'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_users_and_groups_groups_tooltip {
+  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_GROUPS_TOOLTIP'
+  group = 'administration-tools - users-and-groups'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Configure group'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Konfigurer gruppe'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_users_and_groups_add_new_group {
+  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_ADD_NEW_GROUP'
+  group = 'administration-tools - users-and-groups'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Add new'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Opret ny'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_users_and_groups_refresh_group {
+  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_REFRESH_GROUP'
+  group = 'administration-tools - users-and-groups'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Refresh'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Genopfrisk'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+
+resource configservice_label administration_tools_users_and_groups_group_view_users {
+  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_GROUP_VIEW_USERS'
+  group = 'administration-tools - users-and-groups'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'View users'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Se brugere'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_users_and_groups_group_delete_group {
+  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_GROUP_DELETE_GROUP'
+  group = 'administration-tools - users-and-groups'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Delete group'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Slet gruppe'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_users_and_groups_group_name {
+  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_GROUP_NAME'
+  group = 'administration-tools - users-and-groups'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Group name'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Gruppenavn'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_users_and_groups_binding_group_name {
+  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_BINDING_GROUP_NAME'
+  group = 'administration-tools - users-and-groups'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Binding group name'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Binding gruppenavn'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_users_and_groups_group_name_required {
+  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_GROUP_NAME_REQUIRED'
+  group = 'administration-tools - users-and-groups'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Group name is required'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Gruppenavn er påkrævet'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_users_and_groups_group_sort_index {
+  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_GROUP_SORT_INDEX'
+  group = 'administration-tools - users-and-groups'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Sort index'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Sorteringsindeks'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_users_and_groups_group_approved {
+  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_GROUP_APPROVED'
+  group = 'administration-tools - users-and-groups'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Approved'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Godkendt'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+
+resource configservice_label administration_tools_users_and_groups_group_parents {
+  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_GROUP_PARENTS'
+  group = 'administration-tools - users-and-groups'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Parents'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Forældre'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+
+resource configservice_label administration_tools_users_and_groups_group_inherited_groups {
+  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_GROUP_INHERITED_GROUPS'
+  group = 'administration-tools - users-and-groups'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Inherited groups'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Nedarvede grupper'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_users_and_groups_group_expand {
+  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_GROUP_EXPAND'
+  group = 'administration-tools - users-and-groups'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'More'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Mere'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_users_and_groups_group_collapse {
+  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_GROUP_COLLAPSE'
+  group = 'administration-tools - users-and-groups'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Less'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Mindre'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_users_and_groups_group_roles {
+  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_GROUP_ROLES'
+  group = 'administration-tools - users-and-groups'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Roles'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Roller'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_users_and_groups_group_inherited_roles {
+  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_GROUP_INHERITED_ROLES'
+  group = 'administration-tools - users-and-groups'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Inherited roles'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Nedarvede roller'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_users_and_groups_group_save_group {
+  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_GROUP_SAVE_GROUP'
+  group = 'administration-tools - users-and-groups'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = '{saving, select, true {Saving...} false {Save}}'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = '{saving, select, true {Gemmer...} false {Gem}}'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_users_and_groups_group_add_subfolder {
+  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_GROUP_ADD_SUBFOLDER'
+  group = 'administration-tools - users-and-groups'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Add subfolder'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Tilføj undermappe'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_users_and_groups_group_update_folder {
+  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_GROUP_UPDATE_FOLDER'
+  group = 'administration-tools - users-and-groups'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Update folder'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Opdater mappe'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_users_and_groups_group_delete_folder {
+  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_GROUP_DELETE_FOLDER'
+  group = 'administration-tools - users-and-groups'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Delete folder'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Slet mappe'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_users_and_groups_group_rename_folder {
+  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_GROUP_RENAME_FOLDER'
+  group = 'administration-tools - users-and-groups'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Rename folder'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Omdøbe mappe'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_users_and_groups_group_folder_name {
+  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_GROUP_FOLDER_NAME'
+  group = 'administration-tools - users-and-groups'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Name'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Navn'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_users_and_groups_group_folder_name_required {
+  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_GROUP_FOLDER_NAME_REQUIRED'
+  group = 'administration-tools - users-and-groups'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Name is required'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Navn er påkrævet'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_users_and_groups_group_save_folder {
+  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_GROUP_SAVE_FOLDER'
+  group = 'administration-tools - users-and-groups'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = '{processing, select, true {Saving...} false {Save}}'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = '{processing, select, true {Gemmer...} false {Gem}}'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_users_and_groups_group_cancel_folder {
+  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_GROUP_CANCEL_FOLDER'
+  group = 'administration-tools - users-and-groups'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Cancel'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Annullér'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_users_and_groups_group_folder_dialog_body_success {
+  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_GROUP_FOLDER_DIALOG_BODY_SUCCESS'
+  group = 'administration-tools - users-and-groups'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = '{isUpdate, select, true {Folder updates saved} false {Folder created}}'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = '{isUpdate, select, true {Mappeopdateringer blev gemt} false {Mappe oprettet}}'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_users_and_groups_group_folder_dialog_body_error {
+  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_GROUP_FOLDER_DIALOG_BODY_ERROR'
+  group = 'administration-tools - users-and-groups'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = '{isUpdate, select, true {Folder updates failed} false {Folder creation failed}}'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = '{isUpdate, select, true {Mappeopdateringer mislykkedes} false {Oprettelse af mappe mislykkedes}}'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_users_and_groups_group_folder_dialog_title_error {
+  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_GROUP_FOLDER_DIALOG_TITLE_ERROR'
+  group = 'administration-tools - users-and-groups'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Error'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Fejl'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+
+resource configservice_label administration_tools_users_and_groups_group_no_groups_found {
+  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_GROUP_NO_GROUPS_FOUND'
+  group = 'administration-tools - users-and-groups'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'No groups found'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Ingen grupper fundet'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_users_and_groups_group_select_to_edit {
+  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_GROUP_SELECT_TO_EDIT'
+  group = 'administration-tools - users-and-groups'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Select to edit'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Vælg for at redigere'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+
+
 
