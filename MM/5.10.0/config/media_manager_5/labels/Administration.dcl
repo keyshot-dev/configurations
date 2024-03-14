@@ -5850,8 +5850,8 @@ resource configservice_label administration_tools_users_and_groups_group_inherit
   ]
 }
 
-resource configservice_label administration_tools_users_and_groups_group_save_group {
-  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_GROUP_SAVE_GROUP'
+resource configservice_label administration_tools_users_and_groups_group_save_group_btn {
+  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_GROUP_SAVE_GROUP_BTN'
   group = 'administration-tools - users-and-groups'
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
@@ -5861,6 +5861,22 @@ resource configservice_label administration_tools_users_and_groups_group_save_gr
     },
     {
       default_translation = '{saving, select, true {Gemmer...} false {Gem}}'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_users_and_groups_group_cancel_group_btn {
+  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_GROUP_CANCEL_GROUP_BTN'
+  group = 'administration-tools - users-and-groups'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Cancel'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Annullér'
       language_id = data.language.danish.id
     }
   ]
