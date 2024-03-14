@@ -5559,8 +5559,8 @@ resource configservice_label administration_tools_integration_configurations_sec
   ]
 }
 
-resource configservice_label administration_tools_users_and_groups_groups {
-  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_GROUPS'
+resource configservice_label administration_tools_users_and_groups_groups_section {
+  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_GROUPS_SECTION'
   group = 'administration-tools - users-and-groups'
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
@@ -5575,8 +5575,8 @@ resource configservice_label administration_tools_users_and_groups_groups {
   ]
 }
 
-resource configservice_label administration_tools_users_and_groups_manage_group_folders {
-  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_MANAGE_GROUP_FOLDERS'
+resource configservice_label administration_tools_users_and_groups_manage_folders {
+  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_MANAGE_FOLDERS'
   group = 'administration-tools - users-and-groups'
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
@@ -5591,17 +5591,17 @@ resource configservice_label administration_tools_users_and_groups_manage_group_
   ]
 }
 
-resource configservice_label administration_tools_users_and_groups_groups_tooltip {
-  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_GROUPS_TOOLTIP'
+resource configservice_label administration_tools_users_and_groups_groups_section_tooltip {
+  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_GROUPS_SECTION_TOOLTIP'
   group = 'administration-tools - users-and-groups'
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Configure group'
+      default_translation = 'Configure groups'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Konfigurer gruppe'
+      default_translation = 'Konfigurer grupper'
       language_id = data.language.danish.id
     }
   ]
@@ -5640,8 +5640,8 @@ resource configservice_label administration_tools_users_and_groups_refresh_btn {
 }
 
 
-resource configservice_label administration_tools_users_and_groups_group_view_users_btn {
-  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_GROUP_VIEW_USERS_BTN'
+resource configservice_label administration_tools_users_and_groups_view_users_btn {
+  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_VIEW_USERS_BTN'
   group = 'administration-tools - users-and-groups'
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
@@ -5656,8 +5656,8 @@ resource configservice_label administration_tools_users_and_groups_group_view_us
   ]
 }
 
-resource configservice_label administration_tools_users_and_groups_group_delete_group_btn {
-  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_GROUP_DELETE_GROUP_BTN'
+resource configservice_label administration_tools_users_and_groups_delete_group_btn {
+  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_DELETE_GROUP_BTN'
   group = 'administration-tools - users-and-groups'
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
@@ -5770,8 +5770,8 @@ resource configservice_label administration_tools_users_and_groups_group_parents
 }
 
 
-resource configservice_label administration_tools_users_and_groups_group_inherited_groups {
-  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_GROUP_INHERITED_GROUPS'
+resource configservice_label administration_tools_users_and_groups_inherited_groups {
+  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_INHERITED_GROUPS'
   group = 'administration-tools - users-and-groups'
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
@@ -5818,8 +5818,8 @@ resource configservice_label administration_tools_users_and_groups_collapse_btn 
   ]
 }
 
-resource configservice_label administration_tools_users_and_groups_group_roles {
-  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_GROUP_ROLES'
+resource configservice_label administration_tools_users_and_groups_roles {
+  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_ROLES'
   group = 'administration-tools - users-and-groups'
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
@@ -5834,8 +5834,8 @@ resource configservice_label administration_tools_users_and_groups_group_roles {
   ]
 }
 
-resource configservice_label administration_tools_users_and_groups_group_inherited_roles {
-  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_GROUP_INHERITED_ROLES'
+resource configservice_label administration_tools_users_and_groups_inherited_roles {
+  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_INHERITED_ROLES'
   group = 'administration-tools - users-and-groups'
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
@@ -5866,8 +5866,8 @@ resource configservice_label ADMINISTRATION_TOOLS_USERS_AND_GROUPS_EDIT_SAVE_BTN
   ]
 }
 
-resource configservice_label administration_tools_users_and_groups_group_edit_cancel_btn {
-  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_GROUP_EDIT_CANCEL_BTN'
+resource configservice_label administration_tools_users_and_groups_edit_cancel_btn {
+  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_EDIT_CANCEL_BTN'
   group = 'administration-tools - users-and-groups'
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
@@ -6075,8 +6075,8 @@ resource configservice_label administration_tools_users_and_groups_group_no_grou
   ]
 }
 
-resource configservice_label administration_tools_users_and_groups_group_select_to_edit {
-  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_GROUP_SELECT_TO_EDIT'
+resource configservice_label administration_tools_users_and_groups_select_to_edit {
+  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_SELECT_TO_EDIT'
   group = 'administration-tools - users-and-groups'
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
@@ -6091,6 +6091,226 @@ resource configservice_label administration_tools_users_and_groups_group_select_
   ]
 }
 
+resource configservice_label administration_tools_users_and_groups_inherited_none {
+  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_INHERITED_NONE'
+  group = 'administration-tools - users-and-groups'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'None'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Ingen'
+      language_id = data.language.danish.id
+    }
+  ]
+}
 
+resource configservice_label administration_tools_users_and_groups_users_users_section {
+  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_USERS_USERS_SECTION'
+  group = 'administration-tools - users-and-groups'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Users'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Bruger'
+      language_id = data.language.danish.id
+    }
+  ]
+}
 
+resource configservice_label administration_tools_users_and_groups_users_users_section_tooltip {
+  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_USERS_USERS_SECTION_TOOLTIP'
+  group = 'administration-tools - users-and-groups'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+      {
+        default_translation = 'Configure users'
+        language_id = data.language.english.id
+      },
+      {
+        default_translation = 'Konfigurer bruger'
+        language_id = data.language.danish.id
+      }
+    ]
+ }
 
+resource configservice_label administration_tools_users_and_groups_delete_user_btn {
+  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_DELETE_USER_BTN'
+  group = 'administration-tools - users-and-groups'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Delete user'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Slet user'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_users_and_groups_user_username {
+  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_USER_USERNAME'
+  group = 'administration-tools - users-and-groups'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Username'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Brugernavn'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_users_and_groups_user_password {
+  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_USER_PASSWORD'
+  group = 'administration-tools - users-and-groups'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Password'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Kodeord'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_users_and_groups_user_email {
+  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_USER_EMAIL'
+  group = 'administration-tools - users-and-groups'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Email'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'E-mail'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_users_and_groups_user_binding_username {
+  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_USER_BINDING_USERNAME'
+  group = 'administration-tools - users-and-groups'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Binding username'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Binding brugernavn'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_users_and_groups_username_required {
+  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_USERNAME_REQUIRED'
+  group = 'administration-tools - users-and-groups'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Username is required'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Brugernavn er påkræveet'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_users_and_groups_user_firstname {
+  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_USER_FIRSTNAME'
+  group = 'administration-tools - users-and-groups'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'First name'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Fornavn'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_users_and_groups_user_lastname {
+  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_USER_LASTNAME'
+  group = 'administration-tools - users-and-groups'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Last name'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Efternavn'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_users_and_groups_user_approved {
+  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_USER_APPROVED'
+  group = 'administration-tools - users-and-groups'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Approved'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Godkendt'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_users_and_groups_user_change_password_btn {
+  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_USER_CHANGE_PASSWORD_BTN'
+  group = 'administration-tools - users-and-groups'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Change password'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Skift kodeord'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_users_and_groups_group_no_users_found {
+  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_GROUP_NO_USERS_FOUND'
+  group = 'administration-tools - users-and-groups'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'No users found'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Ingen bruger fundet'
+      language_id = data.language.danish.id
+    }
+  ]
+}
