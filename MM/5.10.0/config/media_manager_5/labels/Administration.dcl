@@ -5714,7 +5714,7 @@ resource configservice_label administration_tools_users_and_groups_binding_group
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Binding gruppenavn'
+      default_translation = 'Binding-gruppe-navn'
       language_id = data.language.danish.id
     }
   ]
@@ -5812,7 +5812,7 @@ resource configservice_label administration_tools_users_and_groups_expand_btn {
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Mere'
+      default_translation = 'Flere'
       language_id = data.language.danish.id
     }
   ]
@@ -5824,11 +5824,11 @@ resource configservice_label administration_tools_users_and_groups_collapse_btn 
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Less'
+      default_translation = 'Fewer'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Mindre'
+      default_translation = 'Færre'
       language_id = data.language.danish.id
     }
   ]
@@ -5956,7 +5956,7 @@ resource configservice_label administration_tools_users_and_groups_rename_folder
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Omdøbe mappe'
+      default_translation = 'Omdøb mappe'
       language_id = data.language.danish.id
     }
   ]
@@ -6032,11 +6032,11 @@ resource configservice_label administration_tools_users_and_groups_folder_dialog
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = '{isUpdate, select, true {Folder updates saved} false {Folder created}}'
+      default_translation = '{isUpdate, select, true {Updates saved} false {Folder created}}'
       language_id = data.language.english.id
     },
     {
-      default_translation = '{isUpdate, select, true {Mappeopdateringer blev gemt} false {Mappe oprettet}}'
+      default_translation = '{isUpdate, select, true {Opdateringerne er gemt} false {Mappe oprettet}}'
       language_id = data.language.danish.id
     }
   ]
@@ -6048,11 +6048,11 @@ resource configservice_label administration_tools_users_and_groups_folder_dialog
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = '{isUpdate, select, true {Folder updates failed} false {Folder creation failed}}'
+      default_translation = '{isUpdate, select, true {Updates failed} false {Folder creation failed}}'
       language_id = data.language.english.id
     },
     {
-      default_translation = '{isUpdate, select, true {Mappeopdateringer mislykkedes} false {Oprettelse af mappe mislykkedes}}'
+      default_translation = '{isUpdate, select, true {Opdateringerne mislykkedes} false {Oprettelse af mappe mislykkedes}}'
       language_id = data.language.danish.id
     }
   ]
@@ -6133,7 +6133,7 @@ resource configservice_label administration_tools_users_and_groups_users_users_s
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Bruger'
+      default_translation = 'Brugere'
       language_id = data.language.danish.id
     }
   ]
@@ -6149,7 +6149,7 @@ resource configservice_label administration_tools_users_and_groups_users_users_s
         language_id = data.language.english.id
       },
       {
-        default_translation = 'Konfigurer bruger'
+        default_translation = 'Konfigurer brugere'
         language_id = data.language.danish.id
       }
     ]
@@ -6165,7 +6165,7 @@ resource configservice_label administration_tools_users_and_groups_delete_user_b
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Slet user'
+      default_translation = 'Slet bruger'
       language_id = data.language.danish.id
     }
   ]
@@ -6245,7 +6245,7 @@ resource configservice_label administration_tools_users_and_groups_user_binding_
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Binding brugernavn'
+      default_translation = 'Binding-brugernavn'
       language_id = data.language.danish.id
     }
   ]
@@ -6341,7 +6341,7 @@ resource configservice_label administration_tools_users_and_groups_group_no_user
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Ingen bruger fundet'
+      default_translation = 'Kunne ikke finde nogen brugere'
       language_id = data.language.danish.id
     }
   ]
