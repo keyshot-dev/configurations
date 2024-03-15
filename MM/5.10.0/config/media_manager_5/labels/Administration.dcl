@@ -5607,7 +5607,7 @@ resource configservice_label administration_tools_users_and_groups_groups_sectio
   ]
 }
 
-resource configservice_label ADMINISTRATION_TOOLS_USERS_AND_GROUPS_ADD_NEW_BTN {
+resource configservice_label administration_tools_users_and_groups_add_new_btn {
   key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_ADD_NEW_BTN'
   group = 'administration-tools - users-and-groups'
   product_id = resource.configservice_product.media_manager_5.id
