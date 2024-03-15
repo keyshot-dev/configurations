@@ -6353,7 +6353,7 @@ resource configservice_label administration_tools_users_and_groups_user_groups {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = Groups'
+      default_translation = 'Groups'
       language_id = data.language.english.id
     },
     {
