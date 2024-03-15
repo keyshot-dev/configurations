@@ -5866,7 +5866,7 @@ resource configservice_label administration_tools_users_and_groups_inherited_rol
   ]
 }
 
-resource configservice_label ADMINISTRATION_TOOLS_USERS_AND_GROUPS_EDIT_SAVE_BTN {
+resource configservice_label administration_tools_users_and_groups_edit_save_btn {
   key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_EDIT_SAVE_BTN'
   group = 'administration-tools - users-and-groups'
   product_id = resource.configservice_product.media_manager_5.id
