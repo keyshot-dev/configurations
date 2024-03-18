@@ -1,164 +1,4 @@
-﻿resource configservice_label download_custom_quality_dialog_width {
-  key = 'DOWNLOAD_CUSTOM_QUALITY_DIALOG_WIDTH'
-  group = 'Download'
-  product_id = resource.configservice_product.media_manager_5.id
-  default_label_values = [
-    {
-      default_translation = 'Width'
-      language_id = data.language.english.id
-    },
-    {
-      default_translation = 'Bredde'
-      language_id = data.language.danish.id
-    }
-  ]
-}
-
-resource configservice_label download_custom_quality_dialog_height {
-  key = 'DOWNLOAD_CUSTOM_QUALITY_DIALOG_HEIGHT'
-  group = 'Download'
-  product_id = resource.configservice_product.media_manager_5.id
-  default_label_values = [
-    {
-      default_translation = 'Height'
-      language_id = data.language.english.id
-    },
-    {
-      default_translation = 'Højde'
-      language_id = data.language.danish.id
-    }
-  ]
-}
-
-resource configservice_label download_custom_quality_dialog_required_width {
-  key = 'DOWNLOAD_CUSTOM_QUALITY_DIALOG_REQUIRED_WIDTH'
-  group = 'Download'
-  product_id = resource.configservice_product.media_manager_5.id
-  default_label_values = [
-    {
-      default_translation = 'Width is required'
-      language_id = data.language.english.id
-    },
-    {
-      default_translation = 'Bredde er påkrævet'
-      language_id = data.language.danish.id
-    }
-  ]
-}
-
-resource configservice_label download_custom_quality_dialog_invalid_width {
-  key = 'DOWNLOAD_CUSTOM_QUALITY_DIALOG_INVALID_WIDTH'
-  group = 'Download'
-  product_id = resource.configservice_product.media_manager_5.id
-  default_label_values = [
-    {
-      default_translation = 'The width is not a valid number'
-      language_id = data.language.english.id
-    },
-    {
-      default_translation = 'Bredden er ikke et validt tal'
-      language_id = data.language.danish.id
-    }
-  ]
-}
-
-resource configservice_label download_custom_quality_dialog_required_height {
-  key = 'DOWNLOAD_CUSTOM_QUALITY_DIALOG_REQUIRED_HEIGHT'
-  group = 'Download'
-  product_id = resource.configservice_product.media_manager_5.id
-  default_label_values = [
-    {
-      default_translation = 'Height is required'
-      language_id = data.language.english.id
-    },
-    {
-      default_translation = 'Højde er påkrævet'
-      language_id = data.language.danish.id
-    }
-  ]
-}
-
-resource configservice_label download_custom_quality_dialog_invalid_height {
-  key = 'DOWNLOAD_CUSTOM_QUALITY_DIALOG_INVALID_HEIGHT'
-  group = 'Download'
-  product_id = resource.configservice_product.media_manager_5.id
-  default_label_values = [
-    {
-      default_translation = 'The height is not a valid number'
-      language_id = data.language.english.id
-    },
-    {
-      default_translation = 'Højden er ikke et validt tal'
-      language_id = data.language.danish.id
-    }
-  ]
-}
-
-resource configservice_label download_custom_quality_dialog_required_density {
-  key = 'DOWNLOAD_CUSTOM_QUALITY_DIALOG_REQUIRED_DENSITY'
-  group = 'Download'
-  product_id = resource.configservice_product.media_manager_5.id
-  default_label_values = [
-    {
-      default_translation = 'Density is required'
-      language_id = data.language.english.id
-    },
-    {
-      default_translation = 'Tætheden er påkrævet'
-      language_id = data.language.danish.id
-    }
-  ]
-}
-
-resource configservice_label download_custom_quality_dialog_invalid_density {
-  key = 'DOWNLOAD_CUSTOM_QUALITY_DIALOG_INVALID_DENSITY'
-  group = 'Download'
-  product_id = resource.configservice_product.media_manager_5.id
-  default_label_values = [
-    {
-      default_translation = 'The Density is not a valid number'
-      language_id = data.language.english.id
-    },
-    {
-      default_translation = 'Tætheden er ikke et validt tal'
-      language_id = data.language.danish.id
-    }
-  ]
-}
-
-resource configservice_label download_custom_quality_dialog_required_email {
-  key = 'DOWNLOAD_CUSTOM_QUALITY_DIALOG_REQUIRED_EMAIL'
-  group = 'Download'
-  product_id = resource.configservice_product.media_manager_5.id
-  default_label_values = [
-    {
-      default_translation = 'Email is required'
-      language_id = data.language.english.id
-    },
-    {
-      default_translation = 'Email er påkrævet'
-      language_id = data.language.danish.id
-    }
-  ]
-}
-
-resource configservice_label download_custom_quality_dialog_invalid_email {
-  key = 'DOWNLOAD_CUSTOM_QUALITY_DIALOG_INVALID_EMAIL'
-  group = 'Download'
-  product_id = resource.configservice_product.media_manager_5.id
-  default_label_values = [
-    {
-      default_translation = 'The email is not valid'
-      language_id = data.language.english.id
-    },
-    {
-      default_translation = 'Emailen er ikke valid'
-      language_id = data.language.danish.id
-    }
-  ]
-}
-
-resource configservice_label download_source_copy_quality_name {
+﻿resource configservice_label download_source_copy_quality_name {
   key = 'DOWNLOAD_SOURCE_COPY_QUALITY_NAME'
   group = 'Download'
   product_id = resource.configservice_product.media_manager_5.id
@@ -222,38 +62,6 @@ resource configservice_label download_custom_quality_dialog {
   ]
 }
 
-resource configservice_label download_custom_quality_dialog_defined_sizes {
-  key = 'DOWNLOAD_CUSTOM_QUALITY_DIALOG_DEFINED_SIZES'
-  group = 'Download'
-  product_id = resource.configservice_product.media_manager_5.id
-  default_label_values = [
-    {
-      default_translation = 'Dimensions (in Pixels)'
-      language_id = data.language.english.id
-    },
-    {
-      default_translation = 'Dimensioner (i pixels)'
-      language_id = data.language.danish.id
-    }
-  ]
-}
-
-resource configservice_label download_custom_quality_dialog_keep_aspect_ratio {
-  key = 'DOWNLOAD_CUSTOM_QUALITY_DIALOG_KEEP_ASPECT_RATIO'
-  group = 'Download'
-  product_id = resource.configservice_product.media_manager_5.id
-  default_label_values = [
-    {
-      default_translation = 'Lock ratio'
-      language_id = data.language.english.id
-    },
-    {
-      default_translation = 'Bevar billedformat'
-      language_id = data.language.danish.id
-    }
-  ]
-}
-
 resource configservice_label download_custom_quality_dialog_yes {
   key = 'DOWNLOAD_CUSTOM_QUALITY_DIALOG_YES'
   group = 'Download'
@@ -286,22 +94,6 @@ resource configservice_label download_custom_quality_dialog_no {
   ]
 }
 
-resource configservice_label download_custom_quality_dialog_colorspace {
-  key = 'DOWNLOAD_CUSTOM_QUALITY_DIALOG_COLORSPACE'
-  group = 'Download'
-  product_id = resource.configservice_product.media_manager_5.id
-  default_label_values = [
-    {
-      default_translation = 'Colorspace'
-      language_id = data.language.english.id
-    },
-    {
-      default_translation = 'Farverum'
-      language_id = data.language.danish.id
-    }
-  ]
-}
-
 resource configservice_label download_custom_quality_dialog_format {
   key = 'DOWNLOAD_CUSTOM_QUALITY_DIALOG_FORMAT'
   group = 'Download'
@@ -313,54 +105,6 @@ resource configservice_label download_custom_quality_dialog_format {
     },
     {
       default_translation = 'Format'
-      language_id = data.language.danish.id
-    }
-  ]
-}
-resource configservice_label download_custom_quality_dialog_density {
-  key = 'DOWNLOAD_CUSTOM_QUALITY_DIALOG_DENSITY'
-  group = 'Download'
-  product_id = resource.configservice_product.media_manager_5.id
-  default_label_values = [
-    {
-      default_translation = 'Density'
-      language_id = data.language.english.id
-    },
-    {
-      default_translation = 'Tæthed'
-      language_id = data.language.danish.id
-    }
-  ]
-}
-
-
-resource configservice_label download_custom_quality_dialog_email {
-  key = 'DOWNLOAD_CUSTOM_QUALITY_DIALOG_EMAIL'
-  group = 'Download'
-  product_id = resource.configservice_product.media_manager_5.id
-  default_label_values = [
-    {
-      default_translation = 'Email'
-      language_id = data.language.english.id
-    },
-    {
-      default_translation = 'Email'
-      language_id = data.language.danish.id
-    }
-  ]
-}
-
-resource configservice_label download_custom_quality_dialog_send {
-  key = 'DOWNLOAD_CUSTOM_QUALITY_DIALOG_SEND'
-  group = 'Download'
-  product_id = resource.configservice_product.media_manager_5.id
-  default_label_values = [
-    {
-      default_translation = '{sending, select, false {Send} true {Sending}}'
-      language_id = data.language.english.id
-    },
-    {
-      default_translation = '{sending, select, false {Send} true {Sender}}'
       language_id = data.language.danish.id
     }
   ]
@@ -393,38 +137,6 @@ resource configservice_label download_custom_quality_dialog_title {
     },
     {
       default_translation = 'Brugerdefineret rendition'
-      language_id = data.language.danish.id
-    }
-  ]
-}
-
-resource configservice_label download_custom_quality_did_you_know {
-  key = 'DOWNLOAD_CUSTOM_QUALITY_DID_YOU_KNOW'
-  group = 'Download'
-  product_id = resource.configservice_product.media_manager_5.id
-  default_label_values = [
-    {
-      default_translation = 'DID YOU KNOW'
-      language_id = data.language.english.id
-    },
-    {
-      default_translation = 'VIDSTE DU AT'
-      language_id = data.language.danish.id
-    }
-  ]
-}
-
-resource configservice_label download_custom_quality_dialog_description {
-  key = 'DOWNLOAD_CUSTOM_QUALITY_DIALOG_DESCRIPTION'
-  group = 'Download'
-  product_id = resource.configservice_product.media_manager_5.id
-  default_label_values = [
-    {
-      default_translation = 'You can order a custom rendition of the selected image. Choose your settings and press send. You will then receive an email with a link to download the resulting rendition.'
-      language_id = data.language.english.id
-    },
-    {
-      default_translation = 'Du kan bestille en brugerdefineret rendition af det valgte billede. Vælg dine indstillinger og tryk send. Du vil modtage en email med den resulterende rendition'
       language_id = data.language.danish.id
     }
   ]
@@ -686,7 +398,6 @@ resource configservice_label download_main_window_notification_downloading_rendi
   ]
 }
 
-
 resource configservice_label download_custom_quality_dialog_download_button {
   key = 'DOWNLOAD_CUSTOM_QUALITY_DIALOG_DOWNLOAD_BUTTON'
   group = 'Download'
@@ -862,7 +573,6 @@ resource configservice_label download_custom_quality_dialog_notification_downloa
     }
   ]
 }
-
 
 resource configservice_label download_custom_quality_dialog_validation_error_required {
   key = 'DOWNLOAD_CUSTOM_QUALITY_DIALOG_VALIDATION_ERROR_REQUIRED'
