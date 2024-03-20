@@ -2117,6 +2117,22 @@ resource configservice_label portal_config_manager_create_new_html_template_dial
   ]
 }
 
+resource configservice_label portal_config_manager_create_new_html_template_dialog_template_name_tooltip {
+  key = 'PORTAL_CONFIG_MANAGER_CREATE_NEW_HTML_TEMPLATE_DIALOG_TEMPLATE_NAME_TOOLTIP'
+  group = 'Config Manager'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'This name is used as Tab label in the asset page'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Dette navn bruges som Tab-etiket på asset-siden'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label portal_config_manager_create_new_html_template_dialog_template_language {
   key = 'PORTAL_CONFIG_MANAGER_CREATE_NEW_HTML_TEMPLATE_DIALOG_TEMPLATE_LANGUAGE'
   group = 'Config Manager'
@@ -2128,6 +2144,22 @@ resource configservice_label portal_config_manager_create_new_html_template_dial
     },
     {
       default_translation = 'Skabelons sprog'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label portal_config_manager_create_new_html_template_dialog_template_language_tooltip {
+  key = 'PORTAL_CONFIG_MANAGER_CREATE_NEW_HTML_TEMPLATE_DIALOG_TEMPLATE_LANGUAGE_TOOLTIP'
+  group = 'Config Manager'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Choose to display a template for a specific user language or create templates that are language-independent'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Vælg at vise en skabelon for et specifikt brugersprog eller oprette skabeloner, der er sproguafhængige'
       language_id = data.language.danish.id
     }
   ]
