@@ -606,6 +606,86 @@ resource configservice_label mobile_menu_upload_active_document_tooltip_not_avai
   ]
 }
 
+resource configservice_label mobile_menu_upload_active_document_tooltip_failed_to_save {
+  key = 'MOBILE_MENU_UPLOAD_ACTIVE_DOCUMENT_TOOLTIP_FAILED_TO_SAVE'
+  group = 'Side Bar'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Failed to save the active document'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Kunne ikke gemme det aktive dokument'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label mobile_menu_upload_active_document_upload_new_title {
+  key = 'MOBILE_MENU_UPLOAD_ACTIVE_DOCUMENT_UPLOAD_NEW_TITLE'
+  group = 'Side Bar'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = '{isUploading, select, true {Uploading...} false {Save as new asset}}'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = '{isUploading, select, true {Uploader...} false {Gem som nyt asset}}'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label mobile_menu_upload_active_document_upload_new_tooltip {
+  key = 'MOBILE_MENU_UPLOAD_ACTIVE_DOCUMENT_UPLOAD_NEW_TOOLTIP'
+  group = 'Side Bar'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Save the active document as new asset'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Gem det aktive dokument som nyt asset'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label mobile_menu_upload_active_document_replace_title {
+  key = 'MOBILE_MENU_UPLOAD_ACTIVE_DOCUMENT_REPLACE_TITLE'
+  group = 'Side Bar'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = '{isReplacing, select, true {Replacing...} false {Replace asset}}'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = '{isReplacing, select, true {Udskiftning...} false {Udskift asset}}'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label mobile_menu_upload_active_document_replace_tooltip {
+  key = 'MOBILE_MENU_UPLOAD_ACTIVE_DOCUMENT_REPLACE_TOOLTIP'
+  group = 'Side Bar'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Replace active document with changes'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Erstat det aktive dokument med ændringer'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label mobile_menu_upload_active_document_tooltip_no_upload_role {
   key = 'MOBILE_MENU_UPLOAD_ACTIVE_DOCUMENT_TOOLTIP_NO_UPLOAD_ROLE'
   group = 'Side Bar'

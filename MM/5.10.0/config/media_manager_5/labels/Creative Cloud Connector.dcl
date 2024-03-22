@@ -3172,11 +3172,11 @@ resource configservice_label creative_cloud_connector_lock_asset_tooltip {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Checked out by {{memberName}}. Auto check-in will occur at {{expirationDate}}'
+      default_translation = 'Checked out by {{memberName}}. Auto check-in will occur at {{expirationDate}} your time'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Checked ud af {{memberName}}. Auto check ind vil ske den {{expirationDate}}'
+      default_translation = 'Checked ud af {{memberName}}. Auto check ind vil ske den {{expirationDate}} din tid'
       language_id = data.language.danish.id
     }
   ]
