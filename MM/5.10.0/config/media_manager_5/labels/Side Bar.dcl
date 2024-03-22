@@ -664,7 +664,7 @@ resource configservice_label mobile_menu_upload_active_document_replace_title {
       language_id = data.language.english.id
     },
     {
-      default_translation = '{isReplacing, select, true {Udskiftning...} false {Udskift asset}}'
+      default_translation = '{isReplacing, select, true {Udskifter...} false {Udskift asset}}'
       language_id = data.language.danish.id
     }
   ]
@@ -676,11 +676,11 @@ resource configservice_label mobile_menu_upload_active_document_replace_tooltip 
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Replace active document with changes'
+      default_translation = 'Replace active document'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Erstat det aktive dokument med ændringer'
+      default_translation = 'Udskift aktivt dokument'
       language_id = data.language.danish.id
     }
   ]
