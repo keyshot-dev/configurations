@@ -1501,6 +1501,22 @@ resource configservice_label error_metadata_editor_save_body {
   ]
 }
 
+resource configservice_label error_metadata_editor_multilingual_field_save_body {
+  key = 'ERROR_METADATA_EDITOR_MULTILINGUAL_FIELD_SAVE_BODY'
+  group = 'Metadata'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'All language fields on {{field}} are required. Please enable all languages in your editor to set them'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Alle sprogfelter på {{field}} er obligatoriske. Aktiver venligst alle sprog i din editor for at indstille dem'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label error_metadata_editor_save {
   key = 'ERROR_METADATA_EDITOR_SAVE'
   group = 'Metadata'
