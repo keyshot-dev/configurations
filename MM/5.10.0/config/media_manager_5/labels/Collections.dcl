@@ -3326,3 +3326,18 @@ resource configservice_label collection_item_thumb_tag_collection {
   ]
 }
 
+resource configservice_label collections_share_rendition_label {
+  key = 'COLLECTIONS_SHARE_RENDITION_LABEL'
+  group = 'Collections'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Rendition'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Rendition'
+      language_id = data.language.danish.id
+    }
+  ]
+}
