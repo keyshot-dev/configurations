@@ -766,6 +766,22 @@ resource configservice_label creative_cloud_connector_notification_selected_asse
   ]
 }
 
+resource configservice_label creative_cloud_connector_link_manager_custom_format_label {
+  key = 'CREATIVE_CLOUD_CONNECTOR_LINK_MANAGER_CUSTOM_FORMAT_LABEL'
+  group = 'Creative Cloud Connector'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Custom'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Brugerdefineret'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label creative_cloud_connector_notification_link_manager_relink_assets_body {
   key = 'CREATIVE_CLOUD_CONNECTOR_NOTIFICATION_LINK_MANAGER_RELINK_ASSETS_BODY'
   group = 'Creative Cloud Connector'
@@ -1145,6 +1161,38 @@ resource configservice_label creative_cloud_connector_notification_insert_error_
     },
     {
       default_translation = 'Asset kan ikke indsættes, der findes ikke noget aktivt dokument'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label creative_cloud_connector_notification_insert_invalid_asset_type_body {
+  key = 'CREATIVE_CLOUD_CONNECTOR_NOTIFICATION_INSERT_INVALID_ASSET_TYPE_BODY'
+  group = 'Creative Cloud Connector'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'The asset type: {{assetType}} could not be inserted'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Asset-typen: {{assetType}} kunne ikke blive indsat'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label creative_cloud_connector_notification_insert_invalid_custom_type_body {
+  key = 'CREATIVE_CLOUD_CONNECTOR_NOTIFICATION_INSERT_INVALID_CUSTOM_TYPE_BODY'
+  group = 'Creative Cloud Connector'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'The custom type: {{type}} could not be inserted'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Den brugerdefinerede type: {{type}} kunne ikke blive indsat'
       language_id = data.language.danish.id
     }
   ]
@@ -1737,6 +1785,22 @@ resource configservice_label creative_cloud_connector_open_cache_info {
     },
     {
       default_translation = 'Cache-info'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label creative_cloud_connector_cache_manager_custom_format_label {
+  key = 'CREATIVE_CLOUD_CONNECTOR_CACHE_MANAGER_CUSTOM_FORMAT_LABEL'
+  group = 'Creative Cloud Connector'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Custom'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Brugerdefineret'
       language_id = data.language.danish.id
     }
   ]
@@ -4281,6 +4345,22 @@ resource configservice_label creative_cloud_connector_selected_assets_overlay_op
     },
     {
       default_translation = 'Ryd valgte'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label creative_cloud_connector_quality-selection-modal-title {
+  key = 'CREATIVE_CLOUD_CONNECTOR_QUALITY_SELECTION_MODAL_TITLE'
+  group = 'Creative Cloud Connector'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = '{isInsertion, select, true {Insert rendition} false {Change rendition}}'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = '{isInsertion, select, true {Indsæt rendition} false {Ændr rendition}}'
       language_id = data.language.danish.id
     }
   ]

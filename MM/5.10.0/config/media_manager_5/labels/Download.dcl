@@ -350,6 +350,22 @@ resource configservice_label download_main_window_download_button {
   ]
 }
 
+resource configservice_label download_main_window_insert_button {
+  key = 'DOWNLOAD_MAIN_WINDOW_INSERT_BUTTON'
+  group = 'Download'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Insert'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Indsæt'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label download_main_window_not_recommended_quality {
   key = 'DOWNLOAD_MAIN_WINDOW_NOT_RECOMMENDED_QUALITY'
   group = 'Download'
@@ -409,6 +425,22 @@ resource configservice_label download_custom_quality_dialog_download_button {
     },
     {
       default_translation = 'Download'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label download_custom_quality_dialog_insert_button {
+  key = 'DOWNLOAD_CUSTOM_QUALITY_DIALOG_INSERT_BUTTON'
+  group = 'Download'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Insert'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Indsæt'
       language_id = data.language.danish.id
     }
   ]
