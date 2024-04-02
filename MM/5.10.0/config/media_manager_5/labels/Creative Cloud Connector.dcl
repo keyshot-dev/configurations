@@ -1172,11 +1172,11 @@ resource configservice_label creative_cloud_connector_notification_insert_invali
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'The asset type: {{assetType}} could not be inserted'
+      default_translation = 'The asset type {{assetType}} cannot be inserted'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Asset-typen: {{assetType}} kunne ikke blive indsat'
+      default_translation = 'Asset-typen {{assetType}} kan ikke indsættes'
       language_id = data.language.danish.id
     }
   ]
@@ -1188,11 +1188,11 @@ resource configservice_label creative_cloud_connector_notification_insert_invali
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'The custom type: {{type}} could not be inserted'
+      default_translation = 'The custom type {{type}} cannot be inserted'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Den brugerdefinerede type: {{type}} kunne ikke blive indsat'
+      default_translation = 'Den brugerdefinerede type {{type}} kan ikke indsættes'
       language_id = data.language.danish.id
     }
   ]
