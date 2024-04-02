@@ -4350,7 +4350,7 @@ resource configservice_label creative_cloud_connector_selected_assets_overlay_op
   ]
 }
 
-resource configservice_label creative_cloud_connector_quality-selection-modal-title {
+resource configservice_label creative_cloud_connector_quality_selection_modal_title {
   key = 'CREATIVE_CLOUD_CONNECTOR_QUALITY_SELECTION_MODAL_TITLE'
   group = 'Creative Cloud Connector'
   product_id = resource.configservice_product.media_manager_5.id
