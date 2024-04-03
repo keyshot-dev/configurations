@@ -40,7 +40,7 @@ resource configservice_label background_color_picker_checker_board_label {
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Skakternbræt'
+      default_translation = 'Skaktern'
       language_id = data.language.danish.id
     }
   ]
