@@ -3341,3 +3341,19 @@ resource configservice_label collections_share_rendition_label {
     }
   ]
 }
+
+resource configservice_label collections_share_unknown_rendition {
+  key = 'COLLECTIONS_SHARE_UNKNOWN_RENDITION'
+  group = 'Collections'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Unknown'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Ukendt'
+      language_id = data.language.danish.id
+    }
+  ]
+}
