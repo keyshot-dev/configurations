@@ -2008,7 +2008,7 @@ resource configservice_label asset_list_facet_assettype {
           language_id = data.language.english.id
         },
         {
-          default_translation = 'Annuller genudregning'
+          default_translation = 'Annuller genberegning'
           language_id = data.language.danish.id
         }
       ]
