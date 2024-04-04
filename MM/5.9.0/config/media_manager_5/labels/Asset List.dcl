@@ -1944,7 +1944,7 @@ resource configservice_label asset_list_facet_assettype {
         language_id = data.language.english.id
       },
       {
-        default_translation = 'Genudregn asset-information'
+        default_translation = 'Genberegn asset-information'
         language_id = data.language.danish.id
       }
     ]
