@@ -2041,7 +2041,7 @@ resource configservice_label asset_list_recalculate_confirm {
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Er du sikker på, du vil genberegne?'
+      default_translation = 'Bekræft'
       language_id = data.language.danish.id
     }
   ]
@@ -2057,7 +2057,7 @@ resource configservice_label asset_list_recalculate_cancel {
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Annuller genberegning'
+      default_translation = 'Annuller'
       language_id = data.language.danish.id
     }
   ]
