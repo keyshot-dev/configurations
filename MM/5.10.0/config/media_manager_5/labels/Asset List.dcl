@@ -2117,11 +2117,11 @@ resource configservice_label asset_list_recalculate_notification_failure_body {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Re-calculating failed'
+      default_translation = 'Re-calculating failed!'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Genberegningen fejlede'
+      default_translation = 'Genberegningen fejlede!'
       language_id = data.language.danish.id
     }
   ]
