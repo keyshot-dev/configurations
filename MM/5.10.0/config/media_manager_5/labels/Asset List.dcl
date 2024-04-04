@@ -2037,7 +2037,7 @@ resource configservice_label asset_list_recalculate_confirm {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Confirm re-calculation'
+      default_translation = 'Confirm'
       language_id = data.language.english.id
     },
     {
@@ -2053,7 +2053,7 @@ resource configservice_label asset_list_recalculate_cancel {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Cancel re-calculation'
+      default_translation = 'Cancel'
       language_id = data.language.english.id
     },
     {
