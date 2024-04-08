@@ -7635,11 +7635,11 @@ resource configservice_label settings_menu_administration_tools_desc {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Manage system (beta version)'
+      default_translation = 'Manage system'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Administrer system (beta version)'
+      default_translation = 'Administrer system'
       language_id = data.language.danish.id
     }
   ]
