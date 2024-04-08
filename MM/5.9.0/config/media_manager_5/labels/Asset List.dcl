@@ -1933,8 +1933,9 @@ resource configservice_label asset_list_facet_assettype {
       default_translation = '{value, select, KeyShotEnvironment {KeyShot Miljø} KeyShotMaterial {KeyShot Materiale} KeyShotScene {KeyShot Scene} other {{{value}}}}'
     }
   ]
+}
 
-  resource configservice_label asset_list_recalculate {
+resource configservice_label asset_list_recalculate {
     key = 'ASSET_LIST_RECALCULATE'
     group = 'Asset List'
     product_id = resource.configservice_product.media_manager_5.id
@@ -1948,103 +1949,101 @@ resource configservice_label asset_list_facet_assettype {
         language_id = data.language.danish.id
       }
     ]
-  }
+}
 
-  resource configservice_label asset_list_recalculate_title {
+resource configservice_label asset_list_recalculate_title {
     key = 'ASSET_LIST_RECALCULATE_TITLE'
-     group = 'Asset List'
-     product_id = resource.configservice_product.media_manager_5.id
-     default_label_values = [
-       {
+    group = 'Asset List'
+    product_id = resource.configservice_product.media_manager_5.id
+    default_label_values = [
+        {
           default_translation = 'Re-calculate asset information'
           language_id = data.language.english.id
-       },
-       {
+        },
+        {
           default_translation = 'Genberegn asset-information'
           language_id = data.language.danish.id
-       }
-     ]
-  }
-
-  resource configservice_label asset_list_recalculate_body {
-            key = 'ASSET_LIST_RECALCULATE_BODY'
-        group = 'Asset List'
-        product_id = resource.configservice_product.media_manager_5.id
-        default_label_values = [
-          {
-            default_translation = 'Are you sure you want re-calculate asset information?'
-            language_id = data.language.english.id
-          },
-          {
-            default_translation = 'Er du sikker på, du vil genberegne asset-information?'
-            language_id = data.language.danish.id
-          }
-        ]
-  }
-
-  resource configservice_label asset_list_recalculate_confirm {
-      key = 'ASSET_LIST_RECALCULATE_CONFIRM'
-      group = 'Asset List'
-      product_id = resource.configservice_product.media_manager_5.id
-      default_label_values = [
-        {
-          default_translation = 'Confirm re-calculation'
-          language_id = data.language.english.id
-        },
-        {
-          default_translation = 'Er du sikker på, du vil genberegne?'
-          language_id = data.language.danish.id
         }
-      ]
-  }
+    ]
+}
 
-  resource configservice_label asset_list_recalculate_cancel {
-      key = 'ASSET_LIST_RECALCULATE_CANCEL'
-      group = 'Asset List'
-      product_id = resource.configservice_product.media_manager_5.id
-      default_label_values = [
-        {
-          default_translation = 'Cancel re-calculation'
-          language_id = data.language.english.id
-        },
-        {
-          default_translation = 'Annuller genberegning'
-          language_id = data.language.danish.id
-        }
-      ]
-  }
+resource configservice_label asset_list_recalculate_body {
+    key = 'ASSET_LIST_RECALCULATE_BODY'
+    group = 'Asset List'
+    product_id = resource.configservice_product.media_manager_5.id
+    default_label_values = [
+      {
+        default_translation = 'Are you sure you want re-calculate asset information?'
+        language_id = data.language.english.id
+      },
+      {
+        default_translation = 'Er du sikker på, du vil genberegne asset-information?'
+        language_id = data.language.danish.id
+      }
+    ]
+}
 
-  resource configservice_label asset_list_recalculate_notification_success_title {
-      key = 'ASSET_LIST_RECALCULATE_NOTIFICATION_SUCCESS_TITLE'
-      group = 'Asset List'
-      product_id = resource.configservice_product.media_manager_5.id
-      default_label_values = [
-        {
-          default_translation = 'Success'
-          language_id = data.language.english.id
-        },
-        {
-          default_translation = 'Succes'
-          language_id = data.language.danish.id
-        }
-      ]
-  }
+resource configservice_label asset_list_recalculate_confirm {
+  key = 'ASSET_LIST_RECALCULATE_CONFIRM'
+  group = 'Asset List'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Confirm re-calculation'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Er du sikker på, du vil genberegne?'
+      language_id = data.language.danish.id
+    }
+  ]
+}
 
-  resource configservice_label asset_list_recalculate_notification_success_body {
-      key = 'ASSET_LIST_RECALCULATE_NOTIFICATION_SUCCESS_BODY'
-      group = 'Asset List'
-      product_id = resource.configservice_product.media_manager_5.id
-      default_label_values = [
-        {
-          default_translation = 'Re-calculating asset information'
-          language_id = data.language.english.id
-        },
-        {
-          default_translation = 'Genberegner asset-information'
-          language_id = data.language.danish.id
-        }
-      ]
-  }
+resource configservice_label asset_list_recalculate_cancel {
+  key = 'ASSET_LIST_RECALCULATE_CANCEL'
+  group = 'Asset List'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Cancel re-calculation'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Annuller genberegning'
+      language_id = data.language.danish.id
+    }
+  ]
+}
 
+resource configservice_label asset_list_recalculate_notification_success_title {
+  key = 'ASSET_LIST_RECALCULATE_NOTIFICATION_SUCCESS_TITLE'
+  group = 'Asset List'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Success'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Succes'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_list_recalculate_notification_success_body {
+  key = 'ASSET_LIST_RECALCULATE_NOTIFICATION_SUCCESS_BODY'
+  group = 'Asset List'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Re-calculating asset information'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Genberegner asset-information'
+      language_id = data.language.danish.id
+    }
+  ]
 }
 
