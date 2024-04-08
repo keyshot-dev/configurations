@@ -1,5 +1,6 @@
 data member_group content_creator {
     name = 'Content creator (profile)'
+    folder_id = data.member_folder.user_type.id
 }
 
 patch member_group content_creator_patch {
