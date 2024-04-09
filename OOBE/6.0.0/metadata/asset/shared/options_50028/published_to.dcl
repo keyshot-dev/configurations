@@ -102,7 +102,6 @@ resource tree_metafield published_to {
     auto_translate = 'Overwrite'
     restrict_to_asset_type = 'All'
     upload_tag_name = ''
-    iterative = false
 }
 
 resource tree_node_label digizuite_media_manager {
