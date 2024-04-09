@@ -21,7 +21,6 @@ resource metafield_group_label video {
 resource metafield_group video {
     name = 'Video'
     show_in_list = false
-    folder_id = resource.meta_group_folder.video.id
     sort_index = 50034
     restrict_to_asset = 'Video'
     parent_group_id = resource.metafield_group.asset_info.metafield_group_id

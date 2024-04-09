@@ -17,7 +17,7 @@ action "Get Current Date 1" {
 
 trigger "Status = Expired" {
 	type = "Specific Metadata Value"
-	resolves = ["Remove Asset From All Channels","Move Asset To Folder"]
+	resolves = ["Remove Asset From All Channels"]
 	value = "#ee5253;expired"
 	ignore_casing = "true"
 	meta_field = "guid:${to_string(data.combovalue_metafield.options_status.item_guid)}"
@@ -30,13 +30,6 @@ action "Remove Asset From All Channels" {
 	needs = []
 	excluded_folders = []
 	asset_item_id = "@sourceAssetItemId"
-}
-
-action "Move Asset To Folder" {
-	type = "Move Asset To Folder"
-	needs = []
-	asset_item_id = "@sourceAssetItemId"
-	folder = "1,${to_string(resource.damcatalog_folder.expired_assets.damcatalog_folder_id)}"
 }
 
 action "Find assets" {

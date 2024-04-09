@@ -5,9 +5,6 @@
             asset_type = 'All'
         }]
     download_replace_mask = ''
-    mapped_media_formats = [{
-            media_format_id = resource.media_format.thumb_200x120_3.media_format_id
-        }]
     type = 'WebPImageFormat'
     details = [{
             key = 'ColorSpace'

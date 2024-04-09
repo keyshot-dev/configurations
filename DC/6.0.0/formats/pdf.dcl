@@ -31,9 +31,6 @@
             asset_type = 'OTH'
         }]
     download_replace_mask = ''
-    mapped_media_formats = [{
-            media_format_id = resource.media_format.adobe_pdf_preview_4.media_format_id
-        }]
     type = 'PdfFormat'
     details = []
 }

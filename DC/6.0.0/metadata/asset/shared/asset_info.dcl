@@ -14,9 +14,8 @@ resource item_security asset_info__trusted {
 
 resource metafield_group asset_info {
     name = 'Asset info'
-    description = 'Fælles metadata struktur'
+    description = 'Shared metadata structure'
     show_in_list = true
-    folder_id = resource.meta_group_folder.shared.id
     restrict_to_asset = 'All'
     autolink = {
         item_guid = '616ec756-b6f3-401c-b8ae-5521a30ccf60'
