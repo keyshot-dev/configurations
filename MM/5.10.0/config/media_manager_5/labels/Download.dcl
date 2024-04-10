@@ -404,11 +404,11 @@ resource configservice_label download_main_window_notification_downloading_selec
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Your download will be available shortly'
+      default_translation = 'Your download will be available shortly. Please refrain from refreshing the page.'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Din download vil være tilgængelig inden for kort tid'
+      default_translation = 'Din download vil være tilgængelig inden for kort tid. Undlad venligst at opdatere siden.'
       language_id = data.language.danish.id
     }
   ]
@@ -436,11 +436,11 @@ resource configservice_label download_main_window_notification_downloading_rendi
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Your download of rendition "{{quality}}" will be available shortly'
+      default_translation = 'Your download of rendition "{{quality}}" will be available shortly. Please refrain from refreshing the page.'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Din download af rendition "{{quality}}" vil være tilgængelig inden for kort tid'
+      default_translation = 'Din download af rendition "{{quality}}" vil være tilgængelig inden for kort tid. Undlad venligst at opdatere siden.'
       language_id = data.language.danish.id
     }
   ]
@@ -612,11 +612,11 @@ resource configservice_label download_custom_quality_dialog_notification_downloa
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Your download will be available shortly'
+      default_translation = 'Your download will be available shortly. Please refrain from refreshing the page.'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Din download vil være tilgængelig inden for kort tid'
+      default_translation = 'Din download vil være tilgængelig inden for kort tid. Undlad venligst at opdatere siden.'
       language_id = data.language.danish.id
     }
   ]
