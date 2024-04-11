@@ -596,11 +596,11 @@ resource configservice_label download_custom_quality_dialog_notification_downloa
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'You can continue using the site. Please do not refresh'
+      default_translation = 'Downloading when ready'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Du kan fortsætte at bruge siden, dog ikke genindlæse den'
+      default_translation = 'Downloader når tilgængelig
       language_id = data.language.danish.id
     }
   ]
