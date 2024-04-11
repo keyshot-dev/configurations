@@ -388,11 +388,11 @@ resource configservice_label download_main_window_notification_downloading_selec
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Processing renditions ...'
+      default_translation = 'Creating renditions...'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Behandler renditions ...'
+      default_translation = 'Skaber renditions...'
       language_id = data.language.danish.id
     }
   ]
@@ -404,11 +404,11 @@ resource configservice_label download_main_window_notification_downloading_selec
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Your download will be available shortly. Please refrain from refreshing the page.'
+      default_translation = 'Your download will start shortly. You can use the site as you would normally, but please do not refresh it'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Din download vil være tilgængelig inden for kort tid. Undlad venligst at opdatere siden.'
+      default_translation = 'Om et øjeblik vil dit download starte. Du kan bruge siden som du plejer, dog ikke genindlæse den'
       language_id = data.language.danish.id
     }
   ]
