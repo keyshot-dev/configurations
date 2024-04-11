@@ -388,11 +388,11 @@ resource configservice_label download_main_window_notification_downloading_selec
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Creating renditions...'
+      default_translation = 'Downloading when ready'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Skaber renditions...'
+      default_translation = 'Downloader når tilgængelig'
       language_id = data.language.danish.id
     }
   ]
@@ -404,11 +404,11 @@ resource configservice_label download_main_window_notification_downloading_selec
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Your download will start shortly. You can use the site as you would normally, but please do not refresh it'
+      default_translation = 'You can continue using the site. Please do not refresh'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Om et øjeblik vil dit download starte. Du kan bruge siden som du plejer, dog ikke genindlæse den'
+      default_translation = 'Du kan fortsætte at bruge siden, dog ikke genindlæse den'
       language_id = data.language.danish.id
     }
   ]
@@ -420,11 +420,11 @@ resource configservice_label download_main_window_notification_downloading_rendi
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Creating rendition...'
+      default_translation = 'Downloading when ready'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Skaber rendition...'
+      default_translation = 'Downloader når tilgængelig'
       language_id = data.language.danish.id
     }
   ]
@@ -436,11 +436,11 @@ resource configservice_label download_main_window_notification_downloading_rendi
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = '"Your download of "{{quality}}" will start shortly. You can use the site as you would normally, but please do not refresh it'
+      default_translation = 'You can continue using the site. Please do not refresh'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Om et øjeblik vil dit download af "{{quality}}" starte. Du kan bruge siden som du plejer, dog ikke genindlæse den'
+      default_translation = 'Du kan fortsætte at bruge siden, dog ikke genindlæse den'
       language_id = data.language.danish.id
     }
   ]
@@ -596,11 +596,11 @@ resource configservice_label download_custom_quality_dialog_notification_downloa
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Creating custom rendition...'
+      default_translation = 'You can continue using the site. Please do not refresh'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Skaber brugerdefineret rendition...'
+      default_translation = 'Du kan fortsætte at bruge siden, dog ikke genindlæse den'
       language_id = data.language.danish.id
     }
   ]
@@ -612,11 +612,27 @@ resource configservice_label download_custom_quality_dialog_notification_downloa
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Your download will start shortly. You can use the site as you would normally, but please do not refresh it'
+      default_translation = 'You can use the site as you would normally, but please do not refresh it'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Om et øjeblik vil dit download starte. Du kan bruge siden som du plejer, dog ikke genindlæse den'
+      default_translation = 'Du kan bruge siden som du plejer, dog ikke genindlæse den'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label download_main_window_rendition_not_available {
+  key = 'DOWNLOAD_MAIN_WINDOW_RENDITION_NOT_AVAILABLE'
+  group = 'Download'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Not yet generated'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Endnu ikke genereret'
       language_id = data.language.danish.id
     }
   ]
