@@ -382,17 +382,49 @@ resource configservice_label download_main_window_not_recommended_quality {
   ]
 }
 
+resource configservice_label download_main_window_notification_downloading_selected_renditions_title {
+  key = 'DOWNLOAD_MAIN_WINDOW_NOTIFICATION_DOWNLOADING_SELECTED_RENDITIONS_TITLE'
+  group = 'Download'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Creating renditions...'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Skaber renditions...'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label download_main_window_notification_downloading_selected_renditions {
   key = 'DOWNLOAD_MAIN_WINDOW_NOTIFICATION_DOWNLOADING_SELECTED_RENDITIONS'
   group = 'Download'
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Downloading selected renditions'
+      default_translation = 'Your download will start shortly. You can use the site as you would normally, but please do not refresh it'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Downloader udvalgte renditions'
+      default_translation = 'Om et øjeblik vil dit download starte. Du kan bruge siden som du plejer, dog ikke genindlæse den'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label download_main_window_notification_downloading_rendition_title {
+  key = 'DOWNLOAD_MAIN_WINDOW_NOTIFICATION_DOWNLOADING_RENDITION_TITLE'
+  group = 'Download'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Creating rendition...'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Skaber rendition...'
       language_id = data.language.danish.id
     }
   ]
@@ -404,11 +436,11 @@ resource configservice_label download_main_window_notification_downloading_rendi
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Downloading rendition "{{quality}}"'
+      default_translation = '"Your download of "{{quality}}" will start shortly. You can use the site as you would normally, but please do not refresh it'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Downloader rendition "{{quality}}"'
+      default_translation = 'Om et øjeblik vil dit download af "{{quality}}" starte. Du kan bruge siden som du plejer, dog ikke genindlæse den'
       language_id = data.language.danish.id
     }
   ]
@@ -558,17 +590,33 @@ resource configservice_label download_custom_quality_dialog_unknown_input_type {
   ]
 }
 
+resource configservice_label download_custom_quality_dialog_notification_downloading_custom_rendition_title {
+  key = 'DOWNLOAD_CUSTOM_QUALITY_DIALOG_NOTIFICATION_DOWNLOADING_CUSTOM_RENDITION_TITLE'
+  group = 'Download'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Creating custom rendition...'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Skaber brugerdefineret rendition...'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label download_custom_quality_dialog_notification_downloading_custom_rendition {
   key = 'DOWNLOAD_CUSTOM_QUALITY_DIALOG_NOTIFICATION_DOWNLOADING_CUSTOM_RENDITION'
   group = 'Download'
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Downloading custom rendition'
+      default_translation = 'Your download will start shortly. You can use the site as you would normally, but please do not refresh it'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Downloader brugerdefineret rendition'
+      default_translation = 'Om et øjeblik vil dit download starte. Du kan bruge siden som du plejer, dog ikke genindlæse den'
       language_id = data.language.danish.id
     }
   ]
