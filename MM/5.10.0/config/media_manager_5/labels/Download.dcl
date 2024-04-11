@@ -600,7 +600,7 @@ resource configservice_label download_custom_quality_dialog_notification_downloa
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Downloader når tilgængelig
+      default_translation = 'Downloader når tilgængelig'
       language_id = data.language.danish.id
     }
   ]
