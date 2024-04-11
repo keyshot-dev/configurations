@@ -420,11 +420,11 @@ resource configservice_label download_main_window_notification_downloading_rendi
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Processing rendition ...'
+      default_translation = 'Creating rendition...'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Behandler rendition ...'
+      default_translation = 'Skaber rendition...'
       language_id = data.language.danish.id
     }
   ]
@@ -436,11 +436,11 @@ resource configservice_label download_main_window_notification_downloading_rendi
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Your download of rendition "{{quality}}" will be available shortly. Please refrain from refreshing the page.'
+      default_translation = '"Your download of "{{quality}}" will start shortly. You can use the site as you would normally, but please do not refresh it'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Din download af rendition "{{quality}}" vil være tilgængelig inden for kort tid. Undlad venligst at opdatere siden.'
+      default_translation = 'Om et øjeblik vil dit download af "{{quality}}" starte. Du kan bruge siden som du plejer, dog ikke genindlæse den'
       language_id = data.language.danish.id
     }
   ]
@@ -596,11 +596,11 @@ resource configservice_label download_custom_quality_dialog_notification_downloa
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Processing custom rendition ...'
+      default_translation = 'Creating custom rendition...'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Processing brugerdefineret rendition ...'
+      default_translation = 'Skaber brugerdefineret rendition...'
       language_id = data.language.danish.id
     }
   ]
@@ -612,11 +612,11 @@ resource configservice_label download_custom_quality_dialog_notification_downloa
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Your download will be available shortly. Please refrain from refreshing the page.'
+      default_translation = 'Your download will start shortly. You can use the site as you would normally, but please do not refresh it'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Din download vil være tilgængelig inden for kort tid. Undlad venligst at opdatere siden.'
+      default_translation = 'Om et øjeblik vil dit download starte. Du kan bruge siden som du plejer, dog ikke genindlæse den'
       language_id = data.language.danish.id
     }
   ]
