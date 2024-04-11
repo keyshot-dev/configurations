@@ -612,11 +612,11 @@ resource configservice_label download_custom_quality_dialog_notification_downloa
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'You can use the site as you would normally, but please do not refresh it'
+      default_translation = 'You can continue using the site. Please do not refresh'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Du kan bruge siden som du plejer, dog ikke genindlæse den'
+      default_translation = 'Du kan fortsætte at bruge siden, dog ikke genindlæse den'
       language_id = data.language.danish.id
     }
   ]
