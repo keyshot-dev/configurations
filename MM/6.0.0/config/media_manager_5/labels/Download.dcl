@@ -628,11 +628,11 @@ resource configservice_label download_main_window_rendition_not_available {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Not yet generated'
+      default_translation = 'Genererate and download'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Endnu ikke genereret'
+      default_translation = 'Generer og download'
       language_id = data.language.danish.id
     }
   ]
