@@ -16,6 +16,10 @@ resource member_group download_qualities {
             media_format_id = data.media_format.jpg_medium.media_format_id
         }, {
             media_format_id = data.media_format.jpg_small.media_format_id
+        }, {
+            media_format_id = data.format.large_thumbnail.id
+        }, {
+            media_format_id = data.format.video_preview.id
         }]
 }
 
