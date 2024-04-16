@@ -1999,8 +1999,8 @@ resource configservice_label asset_list_related_assets_modal_header {
   ]
 }
 
-resource configservice_label asset_list_recalculate_title {
-  key = 'ASSET_LIST_RECALCULATE_TITLE'
+resource configservice_label asset_list_trigger_asset_media_title {
+  key = 'ASSET_LIST_TRIGGER_ASSET_MEDIA_INFORMATION_TITLE'
   group = 'Asset List'
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
@@ -2015,8 +2015,8 @@ resource configservice_label asset_list_recalculate_title {
   ]
 }
 
-resource configservice_label asset_list_recalculate_body {
-  key = 'ASSET_LIST_RECALCULATE_BODY'
+resource configservice_label asset_list_trigger_asset_media_body {
+  key = 'ASSET_LIST_TRIGGER_ASSET_MEDIA_INFORMATION_BODY'
   group = 'Asset List'
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
@@ -2031,8 +2031,8 @@ resource configservice_label asset_list_recalculate_body {
   ]
 }
 
-resource configservice_label asset_list_recalculate_confirm {
-  key = 'ASSET_LIST_RECALCULATE_CONFIRM'
+resource configservice_label asset_list_trigger_asset_media_confirm {
+  key = 'ASSET_LIST_TRIGGER_ASSET_MEDIA_INFORMATION_CONFIRM'
   group = 'Asset List'
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
@@ -2047,8 +2047,8 @@ resource configservice_label asset_list_recalculate_confirm {
   ]
 }
 
-resource configservice_label asset_list_recalculate_cancel {
-  key = 'ASSET_LIST_RECALCULATE_CANCEL'
+resource configservice_label asset_list_trigger_asset_media_cancel {
+  key = 'ASSET_LIST_TRIGGER_ASSET_MEDIA_INFORMATION_CANCEL'
   group = 'Asset List'
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
@@ -2063,8 +2063,8 @@ resource configservice_label asset_list_recalculate_cancel {
   ]
 }
 
-resource configservice_label asset_list_recalculate_notification_success_title {
-  key = 'ASSET_LIST_RECALCULATE_NOTIFICATION_SUCCESS_TITLE'
+resource configservice_label asset_list_trigger_asset_media_notification_success_title {
+  key = 'ASSET_LIST_TRIGGER_ASSET_MEDIA_INFORMATION_NOTIFICATION_SUCCESS_TITLE'
   group = 'Asset List'
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
@@ -2079,8 +2079,8 @@ resource configservice_label asset_list_recalculate_notification_success_title {
   ]
 }
 
-resource configservice_label asset_list_recalculate_notification_success_body {
-  key = 'ASSET_LIST_RECALCULATE_NOTIFICATION_SUCCESS_BODY'
+resource configservice_label asset_list_trigger_asset_media_notification_success_body {
+  key = 'ASSET_LIST_TRIGGER_ASSET_MEDIA_INFORMATION_NOTIFICATION_SUCCESS_BODY'
   group = 'Asset List'
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
@@ -2095,8 +2095,8 @@ resource configservice_label asset_list_recalculate_notification_success_body {
   ]
 }
 
-resource configservice_label asset_list_recalculate_notification_failure_title {
-  key = 'ASSET_LIST_RECALCULATE_NOTIFICATION_FAILURE_TITLE'
+resource configservice_label asset_list_trigger_asset_media_notification_failure_title {
+  key = 'ASSET_LIST_TRIGGER_ASSET_MEDIA_INFORMATION_NOTIFICATION_FAILURE_TITLE'
   group = 'Asset List'
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
@@ -2111,8 +2111,8 @@ resource configservice_label asset_list_recalculate_notification_failure_title {
   ]
 }
 
-resource configservice_label asset_list_recalculate_notification_failure_body {
-  key = 'ASSET_LIST_RECALCULATE_NOTIFICATION_FAILURE_BODY'
+resource configservice_label asset_list_trigger_asset_media_notification_failure_body {
+  key = 'ASSET_LIST_TRIGGER_ASSET_MEDIA_INFORMATION_NOTIFICATION_FAILURE_BODY'
   group = 'Asset List'
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
