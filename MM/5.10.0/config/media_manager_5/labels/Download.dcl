@@ -446,6 +446,22 @@ resource configservice_label download_main_window_notification_downloading_rendi
   ]
 }
 
+resource configservice_label download_main_window_notification_inserting_rendition_title {
+  key = 'DOWNLOAD_MAIN_WINDOW_NOTIFICATION_INSERTING_RENDITION_TITLE'
+  group = 'Download'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = '{isInsertion, select, true {Inserting} false {Changing rendition}} when ready'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = '{isInsertion, select, true {Indsætter} false {Ændrer rendition}} når tilgængelig'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label download_custom_quality_dialog_download_button {
   key = 'DOWNLOAD_CUSTOM_QUALITY_DIALOG_DOWNLOAD_BUTTON'
   group = 'Download'
