@@ -638,6 +638,22 @@ resource configservice_label download_main_window_rendition_not_available {
   ]
 }
 
+resource configservice_label download_main_window_insert_rendition_not_available {
+  key = 'DOWNLOAD_MAIN_WINDOW_INSERT_RENDITION_NOT_AVAILABLE'
+  group = 'Download'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Generate and insert'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Generer og indsæt'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label download_custom_quality_dialog_notification_download_error_title {
   key = 'DOWNLOAD_CUSTOM_QUALITY_DIALOG_NOTIFICATION_DOWNLOAD_ERROR_TITLE'
   group = 'Download'
