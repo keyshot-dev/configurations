@@ -622,6 +622,22 @@ resource configservice_label download_custom_quality_dialog_notification_downloa
   ]
 }
 
+resource configservice_label download_custom_quality_dialog_notification_inserting_custom_rendition_title {
+  key = 'DOWNLOAD_CUSTOM_QUALITY_DIALOG_NOTIFICATION_INSERTING_CUSTOM_RENDITION_TITLE'
+  group = 'Download'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Inserting when ready'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Indsætter når tilgængelig'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label download_custom_quality_dialog_notification_downloading_custom_rendition {
   key = 'DOWNLOAD_CUSTOM_QUALITY_DIALOG_NOTIFICATION_DOWNLOADING_CUSTOM_RENDITION'
   group = 'Download'
