@@ -6385,11 +6385,11 @@ resource configservice_label administration_tools_formats_change_format_type_dia
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Are you sure you want to change the current format type? Incompatible data will be lost.'
+      default_translation = 'Are you sure you want to change the format type? Incompatible data will be lost.'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Er du sikker på, at du vil ændre den nuværende formattype? Inkompatible data vil gå tabt.'
+      default_translation = 'Er du sikker på, at du vil ændre formattypen? Inkompatible data vil gå tabt.'
       language_id = data.language.danish.id
     }
   ]
