@@ -6426,3 +6426,19 @@ resource configservice_label administration_tools_formats_change_format_type_dia
     }
   ]
 }
+
+resource configservice_label administration_tools_users_and_groups_download_qualities {
+  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_DOWNLOAD_QUALITIES'
+  group = 'administration-tools - users-and-groups'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Format'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Format'
+      language_id = data.language.danish.id
+    }
+  ]
+}
