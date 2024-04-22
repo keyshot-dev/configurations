@@ -382,17 +382,49 @@ resource configservice_label download_main_window_not_recommended_quality {
   ]
 }
 
+resource configservice_label download_main_window_notification_downloading_selected_renditions_title {
+  key = 'DOWNLOAD_MAIN_WINDOW_NOTIFICATION_DOWNLOADING_SELECTED_RENDITIONS_TITLE'
+  group = 'Download'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Downloading when ready'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Downloader når tilgængelig'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label download_main_window_notification_downloading_selected_renditions {
   key = 'DOWNLOAD_MAIN_WINDOW_NOTIFICATION_DOWNLOADING_SELECTED_RENDITIONS'
   group = 'Download'
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Downloading selected renditions'
+      default_translation = 'You can continue using the site. Please do not refresh'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Downloader udvalgte renditions'
+      default_translation = 'Du kan fortsætte at bruge siden, dog ikke genindlæse den'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label download_main_window_notification_downloading_rendition_title {
+  key = 'DOWNLOAD_MAIN_WINDOW_NOTIFICATION_DOWNLOADING_RENDITION_TITLE'
+  group = 'Download'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Downloading when ready'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Downloader når tilgængelig'
       language_id = data.language.danish.id
     }
   ]
@@ -404,11 +436,27 @@ resource configservice_label download_main_window_notification_downloading_rendi
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Downloading rendition "{{quality}}"'
+      default_translation = 'You can continue using the site. Please do not refresh'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Downloader rendition "{{quality}}"'
+      default_translation = 'Du kan fortsætte at bruge siden, dog ikke genindlæse den'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label download_main_window_notification_inserting_rendition_title {
+  key = 'DOWNLOAD_MAIN_WINDOW_NOTIFICATION_INSERTING_RENDITION_TITLE'
+  group = 'Download'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = '{isInsertion, select, true {Inserting} false {Changing rendition}} when ready'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = '{isInsertion, select, true {Indsætter} false {Ændrer rendition}} når tilgængelig'
       language_id = data.language.danish.id
     }
   ]
@@ -558,17 +606,81 @@ resource configservice_label download_custom_quality_dialog_unknown_input_type {
   ]
 }
 
+resource configservice_label download_custom_quality_dialog_notification_downloading_custom_rendition_title {
+  key = 'DOWNLOAD_CUSTOM_QUALITY_DIALOG_NOTIFICATION_DOWNLOADING_CUSTOM_RENDITION_TITLE'
+  group = 'Download'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Downloading when ready'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Downloader når tilgængelig'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label download_custom_quality_dialog_notification_inserting_custom_rendition_title {
+  key = 'DOWNLOAD_CUSTOM_QUALITY_DIALOG_NOTIFICATION_INSERTING_CUSTOM_RENDITION_TITLE'
+  group = 'Download'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Inserting when ready'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Indsætter når tilgængelig'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label download_custom_quality_dialog_notification_downloading_custom_rendition {
   key = 'DOWNLOAD_CUSTOM_QUALITY_DIALOG_NOTIFICATION_DOWNLOADING_CUSTOM_RENDITION'
   group = 'Download'
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Downloading custom rendition'
+      default_translation = 'You can continue using the site. Please do not refresh'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Downloader brugerdefineret rendition'
+      default_translation = 'Du kan fortsætte at bruge siden, dog ikke genindlæse den'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label download_main_window_rendition_not_available {
+  key = 'DOWNLOAD_MAIN_WINDOW_RENDITION_NOT_AVAILABLE'
+  group = 'Download'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Genererate and download'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Generer og download'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label download_main_window_insert_rendition_not_available {
+  key = 'DOWNLOAD_MAIN_WINDOW_INSERT_RENDITION_NOT_AVAILABLE'
+  group = 'Download'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Generate and insert'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Generer og indsæt'
       language_id = data.language.danish.id
     }
   ]

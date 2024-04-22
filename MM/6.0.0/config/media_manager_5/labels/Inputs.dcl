@@ -884,11 +884,11 @@ resource configservice_label input_button_ai_keywords_helper_text {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Click here to generate AI keywords for all or selected languages.'
+      default_translation = '{feature, select, Click here to generate AI 0 {keywords} 1 {explicit content check} 2 {landmarks} 3 {description} for all or selected languages.}'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Klik her for at generere AI-nøgleord for alle eller udvalgte sprog.'
+      default_translation = '{feature, select, Klik her for at generere 0 {AI-nøgleord} 1 {AI-Tjek for potentielt stødende indhold} 2 {AI-landemærker} 3 {AI-beskrivelse} for alle eller udvalgte sprog.}'
       language_id = data.language.danish.id
     }
   ]

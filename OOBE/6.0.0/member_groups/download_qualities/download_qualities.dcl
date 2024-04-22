@@ -8,6 +8,10 @@ resource member_group download_qualities {
     roles = []
     download_qualities = [{
             media_format_id = local.source_media_format_magic_id
+        }, {
+            media_format_id = data.format.video_preview.id
+        }, {
+            media_format_id = data.format.large_thumbnail.id
         }]
 }
 

@@ -6363,3 +6363,66 @@ resource configservice_label administration_tools_users_and_groups_user_groups {
   ]
 }
 
+resource configservice_label administration_tools_formats_change_format_type_dialog_title {
+  key = 'ADMINISTRATION_TOOLS_FORMATS_CHANGE_FORMAT_TYPE_DIALOG_TITLE'
+  group = 'administration-tools - formats'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Change format type'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Skift formattype'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_formats_change_format_type_dialog_body {
+  key = 'ADMINISTRATION_TOOLS_FORMATS_CHANGE_FORMAT_TYPE_DIALOG_BODY'
+  group = 'administration-tools - formats'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Are you sure you want to change the format type? Incompatible data will be lost.'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Er du sikker på, at du vil ændre formattypen? Inkompatible data vil gå tabt.'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_formats_change_format_type_dialog_cancel_btn {
+  key = 'ADMINISTRATION_TOOLS_FORMATS_CHANGE_FORMAT_TYPE_DIALOG_CANCEL_BTN'
+  group = 'administration-tools - formats'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Cancel'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Annullér'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_formats_change_format_type_dialog_confirm_btn {
+  key = 'ADMINISTRATION_TOOLS_FORMATS_CHANGE_FORMAT_TYPE_DIALOG_CONFIRM_BTN'
+  group = 'administration-tools - formats'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Confirm'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Bekræft'
+      language_id = data.language.danish.id
+    }
+  ]
+}

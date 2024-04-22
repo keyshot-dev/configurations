@@ -814,17 +814,33 @@ resource configservice_label selected_assets_overlay_not_valid_asset_types_dialo
   ]
 }
 
+resource configservice_label selected_assets_overlay_notification_downloading_selection_title {
+  key = 'SELECTED_ASSETS_OVERLAY_NOTIFICATION_DOWNLOADING_SELECTION_TITLE'
+  group = 'Selected Assets'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Downloading when ready'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Downloader når tilgængelig'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label selected_assets_overlay_notification_downloading_selection {
   key = 'SELECTED_ASSETS_OVERLAY_NOTIFICATION_DOWNLOADING_SELECTION'
   group = 'Selected Assets'
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Downloading selection'
+      default_translation = 'You can continue using the site. Please do not refresh'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Downloader valgte'
+      default_translation = 'Du kan fortsætte at bruge siden, dog ikke genindlæse den'
       language_id = data.language.danish.id
     }
   ]
