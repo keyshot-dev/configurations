@@ -8,7 +8,6 @@ resource datetime_metafield expiration_date {
     system = false
     auto_translate = 'Overwrite'
     restrict_to_asset_type = 'All'
-    iterative = false
 }
 
 resource item_security datetime_metafield_expiration_date__metadata_editor {

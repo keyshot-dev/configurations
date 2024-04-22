@@ -5,9 +5,6 @@
             asset_type = 'Video'
         }]
     download_replace_mask = ''
-    mapped_media_formats = [{
-            media_format_id = resource.media_format.video_preview_h264_10079.media_format_id
-        }]
     type = 'Mp4VideoFormat'
     details = [{
             key = 'BackgroundColor'

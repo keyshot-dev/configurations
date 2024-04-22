@@ -3,7 +3,6 @@
     description = 'A large thumbnail, intended to be used for Azure AI Vision Analysis.'
     immediately_generated_for = []
     download_replace_mask = ''
-    mapped_media_formats = []
     type = 'PngImageFormat'
     details = [{
             key = 'ColorSpace'
