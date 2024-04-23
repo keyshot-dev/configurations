@@ -431,38 +431,6 @@ resource configservice_label settings_settings_root_config_parameters {
   ]
 }
 
-resource configservice_label settings_settings_root_language {
-  key = 'SETTINGS_SETTINGS_ROOT_LANGUAGE'
-  group = 'Settings'
-  product_id = resource.configservice_product.media_manager_5.id
-  default_label_values = [
-    {
-      default_translation = 'Language'
-      language_id = data.language.english.id
-    },
-    {
-      default_translation = 'Sprog'
-      language_id = data.language.danish.id
-    }
-  ]
-}
-
-resource configservice_label settings_language_settings_choose_language {
-  key = 'SETTINGS_LANGUAGE_SETTINGS_CHOOSE_LANGUAGE'
-  group = 'Settings'
-  product_id = resource.configservice_product.media_manager_5.id
-  default_label_values = [
-    {
-      default_translation = 'Choose language'
-      language_id = data.language.english.id
-    },
-    {
-      default_translation = 'Vælg sprog'
-      language_id = data.language.danish.id
-    }
-  ]
-}
-
 resource configservice_label settings_label_editor_specify_the_keys {
   key = 'SETTINGS_LABEL_EDITOR_SPECIFY_THE_KEYS'
   group = 'Settings'
@@ -762,22 +730,6 @@ resource configservice_label settings_config_parameters_settings_works {
     },
     {
       default_translation = 'Konfigurations-parametre virker!'
-      language_id = data.language.danish.id
-    }
-  ]
-}
-
-resource configservice_label settings_about {
-  key = 'SETTINGS_ABOUT'
-  group = 'Settings'
-  product_id = resource.configservice_product.media_manager_5.id
-  default_label_values = [
-    {
-      default_translation = 'About'
-      language_id = data.language.english.id
-    },
-    {
-      default_translation = 'Produktinformation'
       language_id = data.language.danish.id
     }
   ]
