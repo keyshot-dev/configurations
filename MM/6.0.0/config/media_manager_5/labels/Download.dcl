@@ -72,7 +72,7 @@ resource configservice_label download_unknown_error {
       language_id = data.language.english.id
     },
     {
-      default_translation = 'En ukendt fejl er sket.'
+      default_translation = 'Der skete en uventet fejl.'
       language_id = data.language.danish.id
     }
   ]
