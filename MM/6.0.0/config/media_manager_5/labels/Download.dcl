@@ -46,6 +46,38 @@ resource configservice_label download_download_popup_no_downloads {
   ]
 }
 
+resource configservice_label download_status_failed {
+  key = 'DOWNLOAD_STATUS_FAILED'
+  group = 'Download'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Download failed'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Download fejlede'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label download_unknown_error {
+  key = 'DOWNLOAD_UNKNOWN_ERROR'
+  group = 'Download'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'An unknown error has occurred.'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Der skete en uventet fejl.'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label download_custom_quality_dialog {
   key = 'DOWNLOAD_CUSTOM_QUALITY_DIALOG'
   group = 'Download'
