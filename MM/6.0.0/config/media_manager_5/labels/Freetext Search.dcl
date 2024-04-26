@@ -356,7 +356,7 @@ resource configservice_label advanced_search_db_mode_tooltip {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'When enabled, your search runs directly on the database, bypassing the Elastic index, searching across all channels'
+      default_translation = 'When enabled, your searches will go directly on the database. In other words, bypassing the Elastic index, and searching across all channels'
       language_id = data.language.english.id
     },
     {
