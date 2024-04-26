@@ -334,35 +334,4 @@ resource configservice_label advanced_search_button_remove_criteria_tooltip {
   ]
 }
 
-resource configservice_label advanced_search_db_mode {
-  key = 'ADVANCED_SEARCH_DB_MODE'
-  group = 'Freetext Search'
-  product_id = resource.configservice_product.media_manager_5.id
-  default_label_values = [
-    {
-      default_translation = 'Database mode'
-      language_id = data.language.english.id
-    },
-    {
-      default_translation = 'Database mode'
-      language_id = data.language.danish.id
-    }
-  ]
-}
-
-resource configservice_label advanced_search_db_mode_tooltip {
-  key = 'ADVANCED_SEARCH_DB_MODE_TOOLTIP'
-  group = 'Freetext Search'
-  product_id = resource.configservice_product.media_manager_5.id
-  default_label_values = [
-    {
-      default_translation = 'When enabled, your search runs directly on the database, bypassing the Elastic index, searching across all channels'
-      language_id = data.language.english.id
-    },
-    {
-      default_translation = 'Når aktiveret, kører din søgning direkte på databasen, uden om Elastic-indekset, og søger på tværs af alle kanaler'
-      language_id = data.language.danish.id
-    }
-  ]
-}
 
