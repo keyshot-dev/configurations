@@ -344,7 +344,7 @@ resource configservice_label advanced_search_db_mode {
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Database mode'
+      default_translation = 'Database-tilstand'
       language_id = data.language.danish.id
     }
   ]
