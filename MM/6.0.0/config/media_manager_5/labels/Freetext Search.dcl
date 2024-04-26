@@ -360,7 +360,7 @@ resource configservice_label advanced_search_db_mode_tooltip {
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Når aktiveret, kører din søgning direkte på databasen, uden om Elastic-indekset, og søger på tværs af alle kanaler'
+      default_translation = 'Når den her er slået til vil dine søgninger ske direkte mod databasen. Med andre ord, uden om Elastic-indekset, og på tværs af alle kanaler'
       language_id = data.language.danish.id
     }
   ]
