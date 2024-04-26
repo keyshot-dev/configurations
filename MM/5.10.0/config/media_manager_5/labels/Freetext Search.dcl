@@ -334,4 +334,3 @@ resource configservice_label advanced_search_button_remove_criteria_tooltip {
   ]
 }
 
-
