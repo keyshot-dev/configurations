@@ -279,7 +279,7 @@ resource configservice_label workflow_editor_side_view_tab_name {
       language_id = data.language.english.id
     },
     {
-      default_translation = 'General'
+      default_translation = 'Generelt'
       language_id = data.language.danish.id
     }
   ]
