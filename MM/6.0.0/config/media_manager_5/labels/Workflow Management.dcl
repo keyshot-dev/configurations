@@ -222,6 +222,164 @@ resource configservice_label workflow_editor_dry_run_dry_run {
   ]
 }
 
+resource configservice_label workflow_editor_workflow_title_edit {
+  key = 'WORKFLOW_EDITOR_WORKFLOW_TITLE_EDIT'
+  group = 'Workflow Management'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Edit'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Rediger'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+resource configservice_label workflow_editor_workflow_title_delete {
+  key = 'WORKFLOW_EDITOR_WORKFLOW_TITLE_DELETE'
+  group = 'Workflow Management'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Delete'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Slet'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label workflow_editor_workflow_title_more_tooltip{
+  key = 'WORKFLOW_EDITOR_WORKFLOW_TITLE_MORE_TOOLTIP'
+  group = 'Workflow Management'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'More'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Mere'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label workflow_editor_side_view_tab_name {
+  key = 'WORKFLOW_EDITOR_SIDE_VIEW_TAB_NAME'
+  group = 'Workflow Management'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'General'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Generelt'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+resource configservice_label workflow_editor_side_view_title_label {
+  key = 'WORKFLOW_EDITOR_SIDE_VIEW_TITLE_LABEL'
+  group = 'Workflow Management'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Title'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Titel'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label workflow_editor_side_view_description_label {
+  key = 'WORKFLOW_EDITOR_SIDE_VIEW_DESCRIPTION_LABEL'
+  group = 'Workflow Management'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Description'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Beskrivelse'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label workflow_editor_side_view_status_label {
+  key = 'WORKFLOW_EDITOR_SIDE_VIEW_STATUS_LABEL'
+  group = 'Workflow Management'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Status'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Status'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label workflow_editor_side_view_status_text {
+  key = 'WORKFLOW_EDITOR_SIDE_VIEW_STATUS_TEXT'
+  group = 'Workflow Management'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'This automation is {value, select, true {disabled} false {active}}'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Denne automation er {value, select, true {deaktiveret} false {aktiv}}'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label workflow_editor_side_view_content_cancel {
+  key = 'WORKFLOW_EDITOR_SIDE_VIEW_CONTENT_CANCEL'
+  group = 'Workflow Management'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Cancel'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Annullér'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label workflow_editor_side_view_content_apply {
+  key = 'WORKFLOW_EDITOR_SIDE_VIEW_CONTENT_APPLY'
+  group = 'Workflow Management'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Apply'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Anvend'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label workflow_editor_editor_node_side_view_settings {
   key = 'WORKFLOW_EDITOR_EDITOR_NODE_SIDE_VIEW_SETTINGS'
   group = 'Workflow Management'
