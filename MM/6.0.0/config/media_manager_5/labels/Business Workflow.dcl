@@ -638,6 +638,22 @@ resource configservice_label workflows_list_view_title_column_header {
   ]
 }
 
+resource configservice_label workflows_list_view_description_column_header {
+  key = 'WORKFLOWS_LIST_VIEW_DESCRIPTION_COLUMN_HEADER'
+  group = 'Business Workflow'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Description'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Beskrivelse'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label workflows_list_view_icons_column_header {
   key = 'WORKFLOWS_LIST_VIEW_ICONS_COLUMN_HEADER'
   group = 'Business Workflow'
