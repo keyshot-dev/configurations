@@ -251,7 +251,7 @@ resource language english {
     short_name = 'en'
     locale_id = 1033
     enabled = true
-    is_default_language = false
+    is_default_language = true
 }
 
 resource language english_australien {
