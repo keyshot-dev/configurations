@@ -225,7 +225,7 @@ resource language czech {
 resource language danish {
     name = 'Danish'
     short_name = 'da'
-    locale_id = 1030,
+    locale_id = 1030
     enabled = false
     is_default_language = false
 }
