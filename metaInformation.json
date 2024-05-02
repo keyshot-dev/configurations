@@ -48,5 +48,10 @@
         "name": "KeyShot",
         "order": -5,
         "locked": true
+    },
+    {	
+        "name": "QA",
+        "order": -4,
+        "locked": true
     }
 ]
