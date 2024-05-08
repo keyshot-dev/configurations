@@ -542,6 +542,22 @@ resource configservice_label download_custom_quality_dialog_insert_button {
   ]
 }
 
+resource configservice_label download_custom_quality_dialog_change_button {
+  key = 'DOWNLOAD_CUSTOM_QUALITY_DIALOG_CHANGE_BUTTON'
+  group = 'Download'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Use'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Brug'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label download_custom_quality_dialog_cancel_button {
   key = 'DOWNLOAD_CUSTOM_QUALITY_DIALOG_CANCEL_BUTTON'
   group = 'Download'
