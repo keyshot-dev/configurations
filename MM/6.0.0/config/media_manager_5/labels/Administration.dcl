@@ -6454,7 +6454,7 @@ resource configservice_label administration_tools_languages_section_languages {
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Languages'
+      default_translation = 'Sprog'
       language_id = data.language.danish.id
     }
   ]
@@ -6594,11 +6594,11 @@ resource configservice_label administration_tools_languages_default_change_disab
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'To change default language, select another language and mark as default'
+      default_translation = 'To change default language, select another language and mark it as default'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'For at ændre standardsprog skal du vælge et andet sprog og markere som standard'
+      default_translation = 'For at ændre standardsprog skal du vælge et andet sprog og markere det som standard'
       language_id = data.language.danish.id
     }
   ]
@@ -6610,7 +6610,7 @@ resource configservice_label administration_tools_languages_remove_language_btn_
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Default language cannot be removed'
+      default_translation = 'The default language cannot be removed'
       language_id = data.language.english.id
     },
     {
@@ -6630,7 +6630,7 @@ resource configservice_label administration_tools_languages_name_is_required {
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Navn er påkravet'
+      default_translation = 'Navn påkravet'
       language_id = data.language.danish.id
     }
   ]
@@ -6674,7 +6674,7 @@ resource configservice_label administration_tools_languages_add_a_language {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Add a language'
+      default_translation = 'Add language'
       language_id = data.language.english.id
     },
     {
@@ -6694,7 +6694,7 @@ resource configservice_label administration_tools_languages_no_language_found {
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Ingen sprog'
+      default_translation = 'Ingen sprog fundet'
       language_id = data.language.danish.id
     }
   ]
@@ -6706,11 +6706,11 @@ resource configservice_label administration_tools_languages_success_language_sav
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Language changes saved'
+      default_translation = 'Changes saved'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Sprogændringer gemt'
+      default_translation = 'Ændringerne er gemt'
       language_id = data.language.danish.id
     }
   ]
@@ -6722,11 +6722,11 @@ resource configservice_label administration_tools_languages_error_saving_body {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Language changes not saved'
+      default_translation = 'Changes not saved'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Sprogændringer blev ikke gemt'
+      default_translation = 'Ændringerne blev ikke gemt'
       language_id = data.language.danish.id
     }
   ]
@@ -6774,7 +6774,7 @@ resource configservice_label administration_tools_languages_dialog_remove_langua
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Fjern sprog'
+      default_translation = 'Er du sikker på, at du vil fjerne dette sprog?'
       language_id = data.language.danish.id
     }
   ]
