@@ -1294,3 +1294,147 @@ resource configservice_label access_key_expired_error_reload {
   ]
 }
 
+resource configservice_label sso_feedback_details_sso_failed {
+  key = 'SSO_FEEDBACK_DETAILS_SSO_FAILED'
+  group = 'Authentication'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Failed to login with SSO.'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Login med SSO mislykkedes.'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label sso_feedback_details_dialog_already_open {
+  key = 'SSO_FEEDBACK_DETAILS_DIALOG_ALREADY_OPEN'
+  group = 'Authentication'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'A login dialog is already open'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Et login-vindue er allerede åbent'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label sso_feedback_details_info {
+  key = 'SSO_FEEDBACK_DETAILS_INFO'
+  group = 'Authentication'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'We opened an browser tab/window to you external login screen. Please login on that page and you can continue in this application.'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Vi åbnede et browserfane/vindue for dig til en ekstern login side. Log venligst ind på denne side, og du kan derefter fortsætte i denne applikation.'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label sso_feedback_details_info2 {
+  key = 'SSO_FEEDBACK_DETAILS_INFO2'
+  group = 'Authentication'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'If for some reason, the browser did not open, then click on this button.'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Hvis browseren af en eller anden grund ikke åbnede, skal du trykke på denne knap.'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label sso_feedback_details_open_external_login_screen {
+  key = 'SSO_FEEDBACK_DETAILS_OPEN_EXTERNAL_LOGIN_SCREEN'
+  group = 'Authentication'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Open external login screen'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Åbn ekstern login-skærm'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label sso_feedback_details_copy_url {
+  key = 'SSO_FEEDBACK_DETAILS_COPY_URL'
+  group = 'Authentication'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Or copy the url and paste in a browser'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Eller kopier urlen og indsæt i en browser'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label sso_feedback_details_clipboard_url {
+  key = 'SSO_FEEDBACK_DETAILS_CLIPBOARD_URL'
+  group = 'Authentication'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Copy url to clipboard'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Kopier urlen til clipboard'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label sso_feedback_details_opened_window_info {
+  key = 'SSO_FEEDBACK_DETAILS_OPENED_WINDOW_INFO'
+  group = 'Authentication'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'We have opened an login window, please continue there'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Vi har åbnet et loginvindue, fortsæt venligst dér'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label sso_feedback_title {
+  key = 'SSO_FEEDBACK_TITLE'
+  group = 'Creative Cloud Connector'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'SSO feedback'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'SSO-feedback'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+

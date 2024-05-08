@@ -1279,6 +1279,38 @@ resource configservice_label asset_status_update_success_title {
   ]
 }
 
+resource configservice_label notification_title_success {
+  key = 'NOTIFICATION_TITLE_SUCCESS'
+  group = 'Z Misc Labels'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Success'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Succes'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label notification_title_error {
+  key = 'NOTIFICATION_TITLE_ERROR'
+  group = 'Z Misc Labels'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Error'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Fejl'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label asset_status_update_success_body {
   key = 'ASSET_STATUS_UPDATE_SUCCESS_BODY'
   group = 'Z Misc Labels'

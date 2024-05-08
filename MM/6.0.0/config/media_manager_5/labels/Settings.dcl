@@ -399,6 +399,22 @@ resource configservice_label settings_settings_root_pagefooter {
   ]
 }
 
+resource configservice_label settings_settings_root_change_site {
+  key = 'SETTINGS_SETTINGS_ROOT_CHANGE_SITE'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Change site'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Skift site'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label settings_settings_root_introscreen {
   key = 'SETTINGS_SETTINGS_ROOT_INTROSCREEN'
   group = 'Settings'
