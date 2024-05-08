@@ -366,6 +366,22 @@ resource configservice_label download_main_window_insert_button {
   ]
 }
 
+resource configservice_label download_main_window_change_button {
+  key = 'DOWNLOAD_MAIN_WINDOW_CHANGE_BUTTON'
+  group = 'Download'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Use'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Brug'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label download_main_window_not_recommended_quality {
   key = 'DOWNLOAD_MAIN_WINDOW_NOT_RECOMMENDED_QUALITY'
   group = 'Download'
@@ -681,6 +697,22 @@ resource configservice_label download_main_window_insert_rendition_not_available
     },
     {
       default_translation = 'Generer og indsæt'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label download_main_window_change_rendition_not_available {
+  key = 'DOWNLOAD_MAIN_WINDOW_CHANGE_RENDITION_NOT_AVAILABLE'
+  group = 'Download'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Generate and use'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Generer og brug'
       language_id = data.language.danish.id
     }
   ]
