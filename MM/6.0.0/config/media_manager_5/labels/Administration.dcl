@@ -6442,3 +6442,373 @@ resource configservice_label administration_tools_users_and_groups_download_qual
     }
   ]
 }
+
+
+resource configservice_label administration_tools_languages_section_languages {
+  key = 'ADMINISTRATION_TOOLS_LANGUAGES_SECTION_LANGUAGES'
+  group = 'administration-tools - languages'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Languages'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Sprog'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_languages_section_languages_tooltip {
+  key = 'ADMINISTRATION_TOOLS_LANGUAGES_SECTION_LANGUAGES_TOOLTIP'
+  group = 'administration-tools - languages'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Configure system languages'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Konfigurer systemsprog'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_languages_add_language_btn {
+  key = 'ADMINISTRATION_TOOLS_LANGUAGES_ADD_LANGUAGE_BTN'
+  group = 'administration-tools - languages'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Add language'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Tilføj sprog'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_languages_refresh_languages_btn {
+  key = 'ADMINISTRATION_TOOLS_LANGUAGES_REFRESH_LANGUAGES_BTN'
+  group = 'administration-tools - languages'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Refresh'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Genindlæs'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_languages_id {
+  key = 'ADMINISTRATION_TOOLS_LANGUAGES_ID'
+  group = 'administration-tools - languages'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'ID'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Id'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_languages_name {
+  key = 'ADMINISTRATION_TOOLS_LANGUAGES_NAME'
+  group = 'administration-tools - languages'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Name'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Navn'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_languages_actions {
+  key = 'ADMINISTRATION_TOOLS_LANGUAGES_ACTIONS'
+  group = 'administration-tools - languages'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Actions'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Handlinger'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_languages_default {
+  key = 'ADMINISTRATION_TOOLS_LANGUAGES_DEFAULT'
+  group = 'administration-tools - languages'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Default'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Standard'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_languages_remove_language_btn {
+  key = 'ADMINISTRATION_TOOLS_LANGUAGES_REMOVE_LANGUAGE_BTN'
+  group = 'administration-tools - languages'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Remove'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Fjern'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_languages_default_change_disabled {
+  key = 'ADMINISTRATION_TOOLS_LANGUAGES_DEFAULT_CHANGE_DISABLED'
+  group = 'administration-tools - languages'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'To change default language, select another language and mark it as default'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'For at ændre standardsprog skal du vælge et andet sprog og markere det som standard'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_languages_remove_language_btn_disabled {
+  key = 'ADMINISTRATION_TOOLS_LANGUAGES_REMOVE_LANGUAGE_BTN_DISABLED'
+  group = 'administration-tools - languages'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'The default language cannot be removed'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Standardsproget kan ikke fjernes'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_languages_name_is_required {
+  key = 'ADMINISTRATION_TOOLS_LANGUAGES_NAME_IS_REQUIRED'
+  group = 'administration-tools - languages'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Name is required'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Navn påkravet'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_languages_edit_cancel_btn {
+  key = 'ADMINISTRATION_TOOLS_LANGUAGES_EDIT_CANCEL_BTN'
+  group = 'administration-tools - languages'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Cancel'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Annullér'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_languages_edit_save_btn {
+  key = 'ADMINISTRATION_TOOLS_LANGUAGES_EDIT_SAVE_BTN'
+  group = 'administration-tools - languages'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = '{saving, select, true {Saving...} false {Save}}'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = '{saving, select, true {Gemmer...} false {Gem}}'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_languages_add_a_language {
+  key = 'ADMINISTRATION_TOOLS_LANGUAGES_ADD_A_LANGUAGE'
+  group = 'administration-tools - languages'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Add language'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Tilføj sprog'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_languages_no_language_found {
+  key = 'ADMINISTRATION_TOOLS_LANGUAGES_NO_LANGUAGE_FOUND'
+  group = 'administration-tools - languages'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'No languages found'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Ingen sprog fundet'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_languages_success_language_saved {
+  key = 'ADMINISTRATION_TOOLS_LANGUAGES_SUCCESS_LANGUAGE_SAVED'
+  group = 'administration-tools - languages'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Changes saved'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Ændringerne er gemt'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_languages_error_saving_body {
+  key = 'ADMINISTRATION_TOOLS_LANGUAGES_ERROR_SAVING_BODY'
+  group = 'administration-tools - languages'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Changes not saved'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Ændringerne blev ikke gemt'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_languages_error_saving_title {
+  key = 'ADMINISTRATION_TOOLS_LANGUAGES_ERROR_SAVING_TITLE'
+  group = 'administration-tools - languages'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Error'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Fejl'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_languages_dialog_remove_language_title {
+  key = 'ADMINISTRATION_TOOLS_LANGUAGES_DIALOG_REMOVE_LANGUAGE_TITLE'
+  group = 'administration-tools - languages'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Remove language'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Fjern sprog'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_languages_dialog_remove_language_body {
+  key = 'ADMINISTRATION_TOOLS_LANGUAGES_DIALOG_REMOVE_LANGUAGE_BODY'
+  group = 'administration-tools - languages'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Are you sure you want to remove this language?'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Er du sikker på, at du vil fjerne dette sprog?'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_languages_dialog_remove_language_confirm_btn {
+  key = 'ADMINISTRATION_TOOLS_LANGUAGES_DIALOG_REMOVE_LANGUAGE_CONFIRM_BTN'
+  group = 'administration-tools - languages'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Remove'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Fjern'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_languages_dialog_remove_language_cancel_btn {
+  key = 'ADMINISTRATION_TOOLS_LANGUAGES_DIALOG_REMOVE_LANGUAGE_CANCEL_BTN'
+  group = 'administration-tools - languages'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Cancel'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Annullér'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
