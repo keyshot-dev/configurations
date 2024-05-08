@@ -622,3 +622,50 @@ resource configservice_label upload_link_asset_failed {
   ]
 }
 
+resource configservice_label upload_active_document_set_document_filename_document_description {
+  key = 'UPLOAD_ACTIVE_DOCUMENT_SET_DOCUMENT_FILENAME_DOCUMENT_DESCRIPTION'
+  group = 'Upload'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Asset linking failed'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Asset-linking fejlede'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label upload_active_document_set_document_filename_cancel {
+  key = 'UPLOAD_ACTIVE_DOCUMENT_SET_DOCUMENT_FILENAME_CANCEL'
+  group = 'Upload'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Upload'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Upload'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label upload_active_document_set_document_filename_upload {
+  key = 'UPLOAD_ACTIVE_DOCUMENT_SET_DOCUMENT_FILENAME_UPLOAD'
+  group = 'Upload'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Cancel'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Annullér'
+      language_id = data.language.danish.id
+    }
+  ]
+}
