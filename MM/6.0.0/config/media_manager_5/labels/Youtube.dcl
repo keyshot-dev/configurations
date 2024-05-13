@@ -488,7 +488,7 @@ resource configservice_label youtube_youtube_client_info_dialog_privacy_status_m
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Privacy status metafield'
+      default_translation = 'Privacy status metafelt'
       language_id = data.language.danish.id
     }
   ]
@@ -504,7 +504,7 @@ resource configservice_label youtube_youtube_client_info_dialog_description_meta
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Description metafield'
+      default_translation = 'Beskrivelse metafelt'
       language_id = data.language.danish.id
     }
   ]
@@ -520,7 +520,7 @@ resource configservice_label youtube_youtube_client_info_dialog_title_metafield 
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Title metafield'
+      default_translation = 'Titel metafelt'
       language_id = data.language.danish.id
     }
   ]
