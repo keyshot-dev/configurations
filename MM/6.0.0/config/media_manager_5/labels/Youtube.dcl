@@ -318,38 +318,6 @@ resource configservice_label youtube_client_info_client_secret_validation_failed
   ]
 }
 
-resource configservice_label youtube_client_info_search_name {
-  key = 'YOUTUBE_CLIENT_INFO_SEARCH_NAME'
-  group = 'Youtube'
-  product_id = resource.configservice_product.media_manager_5.id
-  default_label_values = [
-    {
-      default_translation = 'Search name'
-      language_id = data.language.english.id
-    },
-    {
-      default_translation = 'Navn på søgning'
-      language_id = data.language.danish.id
-    }
-  ]
-}
-
-resource configservice_label youtube_client_info_search_name_validation_failed_required {
-  key = 'YOUTUBE_CLIENT_INFO_SEARCH_NAME_VALIDATION_FAILED_REQUIRED'
-  group = 'Youtube'
-  product_id = resource.configservice_product.media_manager_5.id
-  default_label_values = [
-    {
-      default_translation = 'Search name is required'
-      language_id = data.language.english.id
-    },
-    {
-      default_translation = 'Navn på søgning er påkrævet'
-      language_id = data.language.danish.id
-    }
-  ]
-}
-
 resource configservice_label youtube_client_info_default_privacy_status {
   key = 'YOUTUBE_CLIENT_INFO_DEFAULT_PRIVACY_STATUS'
   group = 'Youtube'
@@ -509,4 +477,71 @@ resource configservice_label youtube_client_delete_confirmation_dialog_ok {
     }
   ]
 }
+
+resource configservice_label youtube_youtube_client_info_dialog_privacy_status_metafield {
+  key = 'YOUTUBE_YOUTUBE_CLIENT_INFO_DIALOG_PRIVACY_STATUS_METAFIELD'
+  group = 'youtube - youtube-client-info-dialog'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Privacy status metafield'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Privacy status metafelt'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label youtube_youtube_client_info_dialog_description_metafield {
+  key = 'YOUTUBE_YOUTUBE_CLIENT_INFO_DIALOG_DESCRIPTION_METAFIELD'
+  group = 'youtube - youtube-client-info-dialog'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Description metafield'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Beskrivelse metafelt'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label youtube_youtube_client_info_dialog_title_metafield {
+  key = 'YOUTUBE_YOUTUBE_CLIENT_INFO_DIALOG_TITLE_METAFIELD'
+  group = 'youtube - youtube-client-info-dialog'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Title metafield'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Titel metafelt'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label youtube_youtube_client_info_dialog_asset_filter {
+  key = 'YOUTUBE_YOUTUBE_CLIENT_INFO_DIALOG_ASSET_FILTER'
+  group = 'youtube - youtube-client-info-dialog'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Asset filter'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Asset filter'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+
+
 
