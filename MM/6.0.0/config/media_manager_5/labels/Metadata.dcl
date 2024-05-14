@@ -228,11 +228,11 @@ resource configservice_label metadata_editor_multi_metadata_editor_save {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = '{saving, select, true {Saving metadata...} false {Save}}'
+      default_translation = '{saving, select, true {Saving...} false {Save}}'
       language_id = data.language.english.id
     },
     {
-      default_translation = '{saving, select, true {Gemmer metadata...} false {Gem}}'
+      default_translation = '{saving, select, true {Gemmer...} false {Gem}}'
       language_id = data.language.danish.id
     }
   ]
