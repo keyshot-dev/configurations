@@ -2163,11 +2163,11 @@ resource configservice_label multi_metadata_editor_show_hide_field_values_toolti
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = '{showValue, select, false {Show} true {Hide} value on asset panel}'
+      default_translation = '{showValue, select, false {Show} true {Hide} field on asset panel}'
       language_id = data.language.english.id
     },
     {
-      default_translation = '{showValue, select, false {Vis} true {Skjul} værdi i assetpanelet}'
+      default_translation = '{showValue, select, false {Vis} true {Skjul} felt i assetpanelet}'
       language_id = data.language.danish.id
     }
   ]
