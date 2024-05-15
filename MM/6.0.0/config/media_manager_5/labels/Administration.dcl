@@ -6812,3 +6812,450 @@ resource configservice_label administration_tools_languages_dialog_remove_langua
   ]
 }
 
+resource configservice_label administration_tools_channels_section_title_channels {
+  key = 'ADMINISTRATION_TOOLS_CHANNELS_SECTION_TITLE_CHANNELS'
+  group = 'administration-tools - channels'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Channels'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Kanaler'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_channels_section_tooltip {
+  key = 'ADMINISTRATION_TOOLS_CHANNELS_SECTION_TOOLTIP'
+  group = 'administration-tools - channels'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Configure channels'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Konfigurer kanaler'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_channels_manage_channels_btn {
+  key = 'ADMINISTRATION_TOOLS_CHANNELS_MANAGE_CHANNELS_BTN'
+  group = 'administration-tools - channels'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Manage channels'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Administrer kanaler'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_channels_add_channel {
+  key = 'ADMINISTRATION_TOOLS_CHANNELS_ADD_CHANNEL'
+  group = 'administration-tools - channels'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Add channel'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Add kanal'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_channels_manage_channel_folders_btn {
+  key = 'ADMINISTRATION_TOOLS_CHANNELS_REFRESH_CHANNELS_BTN'
+  group = 'administration-tools - channels'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Refresh'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Genopfrisk'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_channels_table_id {
+  key = 'ADMINISTRATION_TOOLS_CHANNELS_TABLE_ID'
+  group = 'administration-tools - channels'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'ID'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Id'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_channels_table_name {
+  key = 'ADMINISTRATION_TOOLS_CHANNELS_TABLE_NAME'
+  group = 'administration-tools - channels'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Name'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Navn'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_channels_table_assets {
+  key = 'ADMINISTRATION_TOOLS_CHANNELS_TABLE_ASSETS'
+  group = 'administration-tools - channels'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Assets'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Assets'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_channels_table_actions {
+  key = 'ADMINISTRATION_TOOLS_CHANNELS_TABLE_ACTIONS'
+  group = 'administration-tools - channels'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Actions'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Handlinger'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_channels_view_assets_btn {
+  key = 'ADMINISTRATION_TOOLS_CHANNELS_VIEW_ASSETS_BTN'
+  group = 'administration-tools - channels'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'View assets'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Vis assets'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_channels_manage_access_btn {
+  key = 'ADMINISTRATION_TOOLS_CHANNELS_MANAGE_ACCESS_BTN'
+  group = 'administration-tools - channels'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Manage access'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Administrer adgang'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_channels_delete_channel {
+  key = 'ADMINISTRATION_TOOLS_CHANNELS_DELETE_CHANNEL'
+  group = 'administration-tools - channels'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Delete channel'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Slet kanal'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_channels_rename_channel {
+  key = 'ADMINISTRATION_TOOLS_CHANNELS_RENAME_CHANNEL'
+  group = 'administration-tools - channels'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Rename channel'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Omdøb kanal'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_channels_edit_name {
+  key = 'ADMINISTRATION_TOOLS_CHANNELS_EDIT_NAME'
+  group = 'administration-tools - channels'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Name'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Navn'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_channels_edit_name_required {
+  key = 'ADMINISTRATION_TOOLS_CHANNELS_EDIT_NAME_REQUIRED'
+  group = 'administration-tools - channels'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Name is required'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Navn påkravet'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_channels_edit_cancel_btn {
+  key = 'ADMINISTRATION_TOOLS_CHANNELS_EDIT_CANCEL_BTN'
+  group = 'administration-tools - channels'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Cancel'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Annullér'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_channels_edit_save_btn {
+  key = 'ADMINISTRATION_TOOLS_CHANNELS_EDIT_SAVE_BTN'
+  group = 'administration-tools - channels'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = '{saving, select, true {Saving...} false {Save}}'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = '{saving, select, true {Gemmer...} false {Gem}}'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_channels_no_channels {
+  key = 'ADMINISTRATION_TOOLS_CHANNELS_NO_CHANNELS'
+  group = 'administration-tools - channels'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'No channels found'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Ingen kanaler fundet'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_channels_select_to_edit {
+  key = 'ADMINISTRATION_TOOLS_CHANNELS_SELECT_TO_EDIT'
+  group = 'administration-tools - channels'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Select channel to edit'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Vælg kanal for at redigere'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_channels_dialog_delete_channel_content {
+  key = 'ADMINISTRATION_TOOLS_CHANNELS_DIALOG_DELETE_CHANNEL_CONTENT'
+  group = 'administration-tools - channels'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = "Are you sure you want to delete the channel '{{name}}'?"
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = "Er du sikker på at du ville slette kanalet '{{name}}'?"
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_channels_dialog_delete_channel_cancel {
+  key = 'ADMINISTRATION_TOOLS_CHANNELS_DIALOG_DELETE_CHANNEL_CANCEL'
+  group = 'administration-tools - channels'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Cancel'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Annullér'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_channels_dialog_delete_channel_confirm {
+  key = 'ADMINISTRATION_TOOLS_CHANNELS_DIALOG_DELETE_CHANNEL_CONFIRM'
+  group = 'administration-tools - channels'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Delete'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Slet'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_channels_changes_saved {
+  key = 'ADMINISTRATION_TOOLS_CHANNELS_CHANGES_SAVED'
+  group = 'administration-tools - channels'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Changes saved'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Ændringerne er gemt'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_channels_channel_created {
+  key = 'ADMINISTRATION_TOOLS_CHANNELS_CHANNEL_CREATED'
+  group = 'administration-tools - channels'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Channel created'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Kanal oprettet'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_channels_channel_not_created {
+  key = 'ADMINISTRATION_TOOLS_CHANNELS_CHANNEL_NOT_CREATED'
+  group = 'administration-tools - channels'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Channel not created'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Kanal ikke oprettet'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_channels_channel_deleted {
+  key = 'ADMINISTRATION_TOOLS_CHANNELS_CHANNEL_DELETED'
+  group = 'administration-tools - channels'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Channel deleted'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Kanal blev slettet'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_channels_error_saving_body {
+  key = 'ADMINISTRATION_TOOLS_CHANNELS_ERROR_SAVING_BODY'
+  group = 'administration-tools - channels'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Changes not saved'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Ændringerne blev ikke gemt'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_channels_error_saving_title {
+  key = 'ADMINISTRATION_TOOLS_CHANNELS_ERROR_SAVING_TITLE'
+  group = 'administration-tools - channels'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Error'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Fejl'
+      language_id = data.language.danish.id
+    }
+  ]
+}
