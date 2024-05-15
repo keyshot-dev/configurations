@@ -6870,7 +6870,7 @@ resource configservice_label administration_tools_channels_add_channel {
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Add kanal'
+      default_translation = 'Tilføj kanal'
       language_id = data.language.danish.id
     }
   ]
@@ -7110,7 +7110,7 @@ resource configservice_label administration_tools_channels_select_to_edit {
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Vælg kanal for at redigere'
+      default_translation = 'Vælg kanal for at redigere den'
       language_id = data.language.danish.id
     }
   ]
@@ -7126,7 +7126,7 @@ resource configservice_label administration_tools_channels_dialog_delete_channel
       language_id = data.language.english.id
     },
     {
-      default_translation = "Er du sikker på at du ville slette kanalet '{{name}}'?"
+      default_translation = "Er du sikker på at du vil slette kanalen '{{name}}'?"
       language_id = data.language.danish.id
     }
   ]
