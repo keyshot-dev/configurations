@@ -2156,3 +2156,19 @@ resource configservice_label multi_metadata_editor_button_navigate_to_group {
     }
   ]
 }
+
+resource configservice_label multi_metadata_editor_show_hide_field_values_tooltip{
+  key = 'MULTI_METADATA_EDITOR_SHOW_HIDE_FIELD_VALUES_TOOLTIP'
+  group = 'Metadata'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = '{showValue, select, false {Show} true {Hide} field on asset panel}'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = '{showValue, select, false {Vis} true {Skjul} felt i assetpanelet}'
+      language_id = data.language.danish.id
+    }
+  ]
+}
