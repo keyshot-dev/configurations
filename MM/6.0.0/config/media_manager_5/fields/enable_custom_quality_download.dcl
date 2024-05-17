@@ -6,3 +6,4 @@ resource configservice_bit_config_field enable_custom_quality_download {
     title = 'Allow custom quality download'
     description = 'Enabling this will give you the custom quality download option on images when downloading.'
 }
+
