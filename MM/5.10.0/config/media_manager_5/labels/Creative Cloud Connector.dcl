@@ -3854,6 +3854,54 @@ resource configservice_label creative_cloud_connector_asset_outdated_dialog_down
   ]
 }
 
+resource configservice_label creative_cloud_connector_invalid_cache_notification_title {
+  key = 'CREATIVE_CLOUD_CONNECTOR_INVALID_CACHE_NOTIFICATION_TITLE'
+  group = 'Creative Cloud Connector'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Invalid cache'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Ugyldig cache'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label creative_cloud_connector_invalid_cache_notification_body {
+  key = 'CREATIVE_CLOUD_CONNECTOR_INVALID_CACHE_NOTIFICATION_BODY'
+  group = 'Creative Cloud Connector'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Your cache contains invalid files. To ensure the Connector works as expected, please resolve these, via the Cache manager'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Din cache indeholder ugyldige filer. For at sikre, at Connectoren fungerer som forventet, bedes du løse disse via Cache-manageren'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label creative_cloud_connector_invalid_cache_notification_action_label {
+  key = 'CREATIVE_CLOUD_CONNECTOR_INVALID_CACHE_NOTIFICATION_ACTION_LABEL'
+  group = 'Creative Cloud Connector'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Cache Manager'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Cache-manager'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label creative_cloud_connector_invalid_cache_dialog_title {
   key = 'CREATIVE_CLOUD_CONNECTOR_INVALID_CACHE_DIALOG_TITLE'
   group = 'Creative Cloud Connector'
