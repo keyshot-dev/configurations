@@ -1663,38 +1663,6 @@ resource configservice_label settings_menu_brand_portal_desc {
   ]
 }
 
-resource configservice_label settings_menu_services_overview_title {
-  key = 'SETTINGS_MENU_SERVICES_OVERVIEW_TITLE'
-  group = 'Settings'
-  product_id = resource.configservice_product.media_manager_5.id
-  default_label_values = [
-    {
-      default_translation = 'Services overview'
-      language_id = data.language.english.id
-    },
-    {
-      default_translation = 'Services-oversigt'
-      language_id = data.language.danish.id
-    }
-  ]
-}
-
-resource configservice_label settings_menu_services_overview_desc {
-  key = 'SETTINGS_MENU_SYSTEM_SERVICES_OVERVIEW_DESC'
-  group = 'Settings'
-  product_id = resource.configservice_product.media_manager_5.id
-  default_label_values = [
-    {
-      default_translation = 'View status'
-      language_id = data.language.english.id
-    },
-    {
-      default_translation = 'Se status'
-      language_id = data.language.danish.id
-    }
-  ]
-}
-
 resource configservice_label settings_menu_logs_title {
   key = 'SETTINGS_MENU_LOGS_TITLE'
   group = 'Settings'
