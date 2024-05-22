@@ -3876,11 +3876,11 @@ resource configservice_label creative_cloud_connector_invalid_cache_notification
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Your cache contains invalid files. To ensure the Connector works as expected, please resolve these, via the Cache manager'
+      default_translation = 'Your cache contains invalid files. To ensure the connector works as expected, please resolve these via the cache manager'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Din cache indeholder ugyldige filer. For at sikre, at Connectoren fungerer som forventet, bedes du løse disse via Cache-manageren'
+      default_translation = 'Din cache indeholder ugyldige filer. For at sikre, at produktet fungerer som forventet, bedes du løse disse via cache-manageren'
       language_id = data.language.danish.id
     }
   ]
@@ -3892,7 +3892,7 @@ resource configservice_label creative_cloud_connector_invalid_cache_notification
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Cache Manager'
+      default_translation = 'Cache manager'
       language_id = data.language.english.id
     },
     {
