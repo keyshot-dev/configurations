@@ -862,3 +862,83 @@ resource configservice_label integration_endpoint_failed_notifications_delete_er
   ]
 }
 
+resource configservice_label integration_endpoint_list_refresh {
+  key = 'INTEGRATION_ENDPOINT_LIST_REFRESH'
+  group = 'Integrations'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Refresh'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Genindlæs'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label integration_endpoint_list_column_id {
+  key = 'INTEGRATION_ENDPOINT_LIST_COLUMN_ID'
+  group = 'Integrations'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'ID'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Id'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label integration_endpoint_list_column_actions {
+  key = 'INTEGRATION_ENDPOINT_LIST_COLUMN_ACTIONS'
+  group = 'Integrations'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Actions'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Handlinger'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label integration_endpoint_list_column_delete_configuration {
+  key = 'INTEGRATION_ENDPOINT_LIST_COLUMN_DELETE_CONFIGURATION'
+  group = 'Integrations'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Delete'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Slet'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label integration_endpoint_list_column_view_failed_notifications {
+  key = 'INTEGRATION_ENDPOINT_LIST_COLUMN_VIEW_FAILED_NOTIFICATIONS'
+  group = 'Integrations'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'View failed notifications'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Se fejlede notifikationer'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
