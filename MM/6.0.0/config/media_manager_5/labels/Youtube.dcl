@@ -110,38 +110,6 @@ resource configservice_label youtube_client_list_authorize_btn {
   ]
 }
 
-resource configservice_label youtube_client_list_menu_btn_tooltip {
-  key = 'YOUTUBE_CLIENT_LIST_MENU_BTN_TOOLTIP'
-  group = 'Youtube'
-  product_id = resource.configservice_product.media_manager_5.id
-  default_label_values = [
-    {
-      default_translation = 'More'
-      language_id = data.language.english.id
-    },
-    {
-      default_translation = 'Mere'
-      language_id = data.language.danish.id
-    }
-  ]
-}
-
-resource configservice_label youtube_client_list_menu_edit {
-  key = 'YOUTUBE_CLIENT_LIST_MENU_EDIT'
-  group = 'Youtube'
-  product_id = resource.configservice_product.media_manager_5.id
-  default_label_values = [
-    {
-      default_translation = 'Edit'
-      language_id = data.language.english.id
-    },
-    {
-      default_translation = 'Rediger'
-      language_id = data.language.danish.id
-    }
-  ]
-}
-
 resource configservice_label youtube_client_list_menu_delete {
   key = 'YOUTUBE_CLIENT_LIST_MENU_DELETE'
   group = 'Youtube'
@@ -542,6 +510,20 @@ resource configservice_label youtube_youtube_client_info_dialog_asset_filter {
   ]
 }
 
-
+resource configservice_label youtube_client_list_refresh {
+  key = 'YOUTUBE_CLIENT_LIST_REFRESH'
+  group = 'youtube - youtube-client-info-dialog'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Refresh'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Genindlæs'
+      language_id = data.language.danish.id
+    }
+  ]
+}
 
 
