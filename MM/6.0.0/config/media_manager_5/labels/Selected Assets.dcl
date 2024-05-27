@@ -148,11 +148,11 @@ resource configservice_label selected_assets_overlay_selected_assets_overlay_opt
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'All assets are locked'
+      default_translation = 'You don’t have permission to download these assets'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Alle assets er låste'
+      default_translation = 'Du har ikke tilladelse til at downloade disse assets'
       language_id = data.language.danish.id
     }
   ]
