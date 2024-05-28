@@ -2751,8 +2751,8 @@ resource configservice_label settings_menu_generic_jobs_title {
   ]
 }
 
-resource configservice_label settings_settings_left_menu_accelerated_search_status {
-  key = 'SETTINGS_SETTINGS_LEFT_MENU_ACCELERATED_SEARCH_STATUS'
+resource configservice_label settings_accelerated_search_settings_title {
+  key = 'SETTINGS_ACCELERATED_SEARCH_SETTINGS_TITLE'
   group = 'Settings'
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
