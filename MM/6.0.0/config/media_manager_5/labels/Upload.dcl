@@ -645,11 +645,11 @@ resource configservice_label upload_replace_warning_confirmation_dialog_body {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'The chosen file is of a different type, are you sure you want to proceed?'
+      default_translation = 'The chosen file is a different type. Are you sure you want to proceed?'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Den valgte fil er af en anden type, er du sikker på, at du vil fortsætte?'
+      default_translation = 'Den valgte fil er en anden type. Er du sikker på, at du vil fortsætte?'
       language_id = data.language.danish.id
     }
   ]
