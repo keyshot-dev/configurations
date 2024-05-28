@@ -4,8 +4,8 @@ resource asset_type_extension id_3ds {
 }
 
 resource asset_type_extension id_aac {
-    asset_type = 'Audio'
     extension = 'aac'
+    asset_type = 'Audio'
 }
 
 resource asset_type_extension id_aep {
@@ -224,8 +224,8 @@ resource asset_type_extension id_m2p {
 }
 
 resource asset_type_extension id_m4a {
-    asset_type = 'Audio'
     extension = 'm4a'
+    asset_type = 'Audio'
 }
 
 resource asset_type_extension id_mov {
