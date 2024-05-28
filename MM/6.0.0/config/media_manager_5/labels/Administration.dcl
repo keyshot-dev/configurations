@@ -6229,7 +6229,7 @@ resource configservice_label administration_tools_users_and_groups_user_password
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Kodeord er påkræveet'
+      default_translation = 'Kodeord er påkrævet'
       language_id = data.language.danish.id
     }
   ]
