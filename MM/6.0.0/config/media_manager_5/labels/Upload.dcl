@@ -649,7 +649,7 @@ resource configservice_label upload_replace_warning_confirmation_dialog_body {
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Den valgte fil er en anden type. Er du sikker på, at du vil fortsætte?'
+      default_translation = 'Den valgte fil er en anden filtype. Er du sikker på, at du vil fortsætte?'
       language_id = data.language.danish.id
     }
   ]
