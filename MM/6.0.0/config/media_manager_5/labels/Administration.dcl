@@ -6339,7 +6339,7 @@ resource configservice_label administration_tools_users_and_groups_user_groups {
     {
       default_translation = 'Groups'
       language_id = data.language.english.id
-    },Ö
+    },
     {
       default_translation = 'Grupper'
       language_id = data.language.danish.id
