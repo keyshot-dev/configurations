@@ -622,3 +622,67 @@ resource configservice_label upload_link_asset_failed {
   ]
 }
 
+
+resource configservice_label upload_replace_warning_confirmation_dialog_title {
+  key = 'UPLOAD_REPLACE_WARNING_CONFIRMATION_DIALOG_TITLE'
+  group = 'Upload'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Replace asset'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Udskift asset'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label upload_replace_warning_confirmation_dialog_body {
+  key = 'UPLOAD_REPLACE_WARNING_CONFIRMATION_DIALOG_BODY'
+  group = 'Upload'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'The chosen file is a different file type. Are you sure you want to proceed?'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Den valgte fil er en anden filtype. Er du sikker på, at du vil fortsætte?'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label upload_replace_warning_confirmation_dialog_cancel {
+  key = 'UPLOAD_REPLACE_WARNING_CONFIRMATION_DIALOG_CANCEL'
+  group = 'Upload'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Cancel'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Annullér'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label upload_replace_warning_confirmation_dialog_ok {
+  key = 'UPLOAD_REPLACE_WARNING_CONFIRMATION_DIALOG_OK'
+  group = 'Upload'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Replace'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Udskift'
+      language_id = data.language.danish.id
+    }
+  ]
+}
