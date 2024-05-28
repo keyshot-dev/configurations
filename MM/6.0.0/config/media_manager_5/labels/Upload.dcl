@@ -633,7 +633,7 @@ resource configservice_label upload_replace_warning_confirmation_dialog_title {
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Erstat asset'
+      default_translation = 'Udskift asset'
       language_id = data.language.danish.id
     }
   ]
