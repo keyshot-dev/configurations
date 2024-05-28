@@ -6219,6 +6219,22 @@ resource configservice_label administration_tools_users_and_groups_username_requ
   ]
 }
 
+resource configservice_label administration_tools_users_and_groups_user_password_required {
+  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_USER_PASSWORD_REQUIRED'
+  group = 'administration-tools - users-and-groups'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Password is required'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Kodeord er påkrævet'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label administration_tools_users_and_groups_user_firstname {
   key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_USER_FIRSTNAME'
   group = 'administration-tools - users-and-groups'
@@ -6294,6 +6310,22 @@ resource configservice_label administration_tools_users_and_groups_group_no_user
     },
     {
       default_translation = 'Kunne ikke finde nogen brugere'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_users_and_groups_user_save_error_body {
+  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_USER_SAVE_ERROR_BODY'
+  group = 'administration-tools - users-and-groups'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'User not saved. {code, select,  400 {Password not strong enough} 409 {A user with that username or email already exists} other {Unknown error when saving. Please contact your system administrator}}'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Brugeren er ikke gemt. {code, select, 400 {Adgangskoden er ikke stærk nok} 409 {Der findes allerede en bruger med dette brugernavn eller email} other {Der opstod en fejl mens systemet forsøgte at gemme. Kontakt venligst din systemadministrator}}'
       language_id = data.language.danish.id
     }
   ]
