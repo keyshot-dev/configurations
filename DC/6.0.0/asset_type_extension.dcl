@@ -3,6 +3,11 @@ resource asset_type_extension id_3ds {
     asset_type = 'Archive'
 }
 
+resource asset_type_extension id_aac {
+    extension = 'aac'
+    asset_type = 'Audio'
+}
+
 resource asset_type_extension id_aep {
     extension = 'aep'
     asset_type = 'AfterEffects'
@@ -216,6 +221,11 @@ resource asset_type_extension id_klf {
 resource asset_type_extension id_m2p {
     extension = 'm2p'
     asset_type = 'Video'
+}
+
+resource asset_type_extension id_m4a {
+    extension = 'm4a'
+    asset_type = 'Audio'
 }
 
 resource asset_type_extension id_mov {

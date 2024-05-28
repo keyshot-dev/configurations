@@ -724,7 +724,7 @@ resource configservice_label download_main_window_rendition_not_available {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Genererate and download'
+      default_translation = 'Generate and download'
       language_id = data.language.english.id
     },
     {
