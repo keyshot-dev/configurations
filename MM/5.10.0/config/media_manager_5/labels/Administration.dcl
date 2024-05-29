@@ -6437,7 +6437,7 @@ resource configservice_label administration_tools_analytics_table_builder_edit_m
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Rediger bruger filter'
+      default_translation = 'Rediger brugerfilter'
       language_id = data.language.danish.id
     }
   ]
@@ -6533,7 +6533,7 @@ resource configservice_label administration_tools_analytics_member_filter_member
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Bruger filter'
+      default_translation = 'Brugerfilter'
       language_id = data.language.danish.id
     }
   ]
