@@ -2411,7 +2411,7 @@ resource configservice_label portal_config_manager_portal_selector_switch_site {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Please login to portal {{portalName}} to configure this setting'
+      default_translation = 'Please log in to the portal named {{portalName}} to configure this setting'
       language_id = data.language.english.id
     },
     {
