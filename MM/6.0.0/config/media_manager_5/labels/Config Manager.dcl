@@ -916,11 +916,11 @@ resource configservice_label portal_config_manager_portal_config_manager_root_se
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Select current?'
+      default_translation = 'Select current'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Vælg nuværende?'
+      default_translation = 'Vælg nuværende'
       language_id = data.language.danish.id
     }
   ]
@@ -2288,6 +2288,134 @@ resource configservice_label portal_config_manager_portal_html_templates_regex {
     },
     {
       default_translation = 'Regular expression'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label portal_config_manager_section_asset_card {
+  key = 'PORTAL_CONFIG_MANAGER_SECTION_ASSET_CARD'
+  group = 'Config Manager'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Asset card'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Assetkort'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label portal_config_manager_section_asset_list {
+  key = 'PORTAL_CONFIG_MANAGER_SECTION_ASSET_LIST'
+  group = 'Config Manager'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Asset list'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Assetliste'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label portal_config_manager_section_asset_info {
+  key = 'PORTAL_CONFIG_MANAGER_SECTION_ASSET_INFO'
+  group = 'Config Manager'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Asset info'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Asset-info'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label portal_config_manager_section_asset_search {
+  key = 'PORTAL_CONFIG_MANAGER_SECTION_ASSET_SEARCH'
+  group = 'Config Manager'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Asset search'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Assetsøgning'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label portal_config_manager_section_collection_sharing {
+  key = 'PORTAL_CONFIG_MANAGER_SECTION_COLLECTION_SHARING'
+  group = 'Config Manager'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Collection sharing'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Collection-deling'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label portal_config_manager_section_page_footer {
+  key = 'PORTAL_CONFIG_MANAGER_SECTION_PAGE_FOOTER'
+  group = 'Config Manager'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Page footer'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Side-footer'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label portal_config_manager_section_introscreen {
+  key = 'PORTAL_CONFIG_MANAGER_SECTION_INTROSCREEN'
+  group = 'Config Manager'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Introscreen'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Introskærm'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label portal_config_manager_portal_selector_switch_site {
+  key = 'PORTAL_CONFIG_MANAGER_PORTAL_SELECTOR_SWITCH_SITE'
+  group = 'Config Manager'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Please log in to the portal named {{portalName}} to configure this setting'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Log ind på portalen {{portalName}} for at konfigurere denne indstilling'
       language_id = data.language.danish.id
     }
   ]

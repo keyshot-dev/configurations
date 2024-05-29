@@ -1759,38 +1759,6 @@ resource configservice_label settings_menu_config_manager_desc {
   ]
 }
 
-resource configservice_label settings_settings_left_menu_sso {
-  key = 'SETTINGS_SETTINGS_LEFT_MENU_SSO'
-  group = 'Settings'
-  product_id = resource.configservice_product.media_manager_5.id
-  default_label_values = [
-    {
-      default_translation = 'SSO'
-      language_id = data.language.english.id
-    },
-    {
-      default_translation = 'SSO'
-      language_id = data.language.danish.id
-    }
-  ]
-}
-
-resource configservice_label settings_settings_left_menu_members {
-  key = 'SETTINGS_SETTINGS_LEFT_MENU_MEMBERS'
-  group = 'Settings'
-  product_id = resource.configservice_product.media_manager_5.id
-  default_label_values = [
-    {
-      default_translation = 'Users'
-      language_id = data.language.english.id
-    },
-    {
-      default_translation = 'Brugere'
-      language_id = data.language.danish.id
-    }
-  ]
-}
-
 resource configservice_label settings_sso_settings_sso_configuration {
   key = 'SETTINGS_SSO_SETTINGS_SSO_CONFIGURATION'
   group = 'Settings'
@@ -2527,54 +2495,6 @@ resource configservice_label settings_members_save {
   ]
 }
 
-resource configservice_label settings_settings_left_menu_asset_search {
-  key = 'SETTINGS_SETTINGS_LEFT_MENU_ASSET_SEARCH'
-  group = 'Settings'
-  product_id = resource.configservice_product.media_manager_5.id
-  default_label_values = [
-    {
-      default_translation = 'Asset search'
-      language_id = data.language.english.id
-    },
-    {
-      default_translation = 'Assetsøgning'
-      language_id = data.language.danish.id
-    }
-  ]
-}
-
-resource configservice_label settings_settings_left_menu_asset_info {
-  key = 'SETTINGS_SETTINGS_LEFT_MENU_ASSET_INFO'
-  group = 'Settings'
-  product_id = resource.configservice_product.media_manager_5.id
-  default_label_values = [
-    {
-      default_translation = 'Asset info'
-      language_id = data.language.english.id
-    },
-    {
-      default_translation = 'Asset-info'
-      language_id = data.language.danish.id
-    }
-  ]
-}
-
-resource configservice_label settings_settings_left_menu_asset_list_columns {
-  key = 'SETTINGS_SETTINGS_LEFT_MENU_ASSET_LIST_COLUMNS'
-  group = 'Settings'
-  product_id = resource.configservice_product.media_manager_5.id
-  default_label_values = [
-    {
-      default_translation = 'Asset list'
-      language_id = data.language.english.id
-    },
-    {
-      default_translation = 'Assetliste'
-      language_id = data.language.danish.id
-    }
-  ]
-}
-
 resource configservice_label settings_asset_search_customization_settings_filters {
   key = 'SETTINGS_ASSET_SEARCH_CUSTOMIZATION_SETTINGS_FILTERS'
   group = 'Settings'
@@ -2672,16 +2592,16 @@ resource configservice_label settings_asset_search_customization_settings_genera
 }
 
 resource configservice_label settings_asset_search_customization_settings_customize_default_available_filters {
-  key = 'SETTINGS_ASSET_SEARCH_CUSTOMIZATION_SETTINGS_CUSTOMIZE_DEFAULT_AVAILABLE_FILTERS'
+  key = 'SETTINGS_ASSET_SEARCH_CUSTOMIZATION_SETTINGS_TITLE'
   group = 'Settings'
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Choose default filters'
+      default_translation = 'Asset search'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Sæt standard-filtre'
+      default_translation = 'Assetsøgning'
       language_id = data.language.danish.id
     }
   ]
@@ -2762,22 +2682,6 @@ resource configservice_label settings_accelerated_search_settings_title {
     },
     {
       default_translation = 'Accelereret søgestatus'
-      language_id = data.language.danish.id
-    }
-  ]
-}
-
-resource configservice_label settings_settings_left_menu_collections {
-  key = 'SETTINGS_SETTINGS_LEFT_MENU_COLLECTIONS'
-  group = 'Settings'
-  product_id = resource.configservice_product.media_manager_5.id
-  default_label_values = [
-    {
-      default_translation = 'Collections'
-      language_id = data.language.english.id
-    },
-    {
-      default_translation = 'Collections'
       language_id = data.language.danish.id
     }
   ]
@@ -3381,11 +3285,11 @@ resource configservice_label settings_asset_list_columns_settings_description {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'These will be what other users will see by default'
+      default_translation = 'Designate which columns will appear in the assets list. These will be what other users will see by default'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Dette vil være hvad andre brugere vil se som standard'
+      default_translation = 'Angiv hvilke kolonner der skal vises på assetlisten. Dette vil være hvad andre brugere vil se som standard'
       language_id = data.language.danish.id
     }
   ]
@@ -3397,11 +3301,11 @@ resource configservice_label settings_asset_list_columns_settings_title {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Designate which columns will appear in the assets list'
+      default_translation = 'Asset list'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Angiv hvilke kolonner der skal vises på assetlisten'
+      default_translation = 'Assetlist'
       language_id = data.language.danish.id
     }
   ]
@@ -3429,11 +3333,11 @@ resource configservice_label collection_asset_settings_title {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Collection settings'
+      default_translation = 'Collection sharing'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Collection-indstillinger'
+      default_translation = 'Collection-deling'
       language_id = data.language.danish.id
     }
   ]
@@ -3978,22 +3882,6 @@ resource configservice_label asset_card_settings_no_selected_value {
     },
     {
       default_translation = 'Ingen handling valgt'
-      language_id = data.language.danish.id
-    }
-  ]
-}
-
-resource configservice_label settings_settings_left_menu_asset_card {
-  key = 'SETTINGS_SETTINGS_LEFT_MENU_ASSET_CARD'
-  group = 'Settings'
-  product_id = resource.configservice_product.media_manager_5.id
-  default_label_values = [
-    {
-      default_translation = 'Asset card'
-      language_id = data.language.english.id
-    },
-    {
-      default_translation = 'Assetkort'
       language_id = data.language.danish.id
     }
   ]
@@ -4591,37 +4479,6 @@ resource configservice_label portal_config_manager_single_value_config_field_con
   ]
 }
 
-resource configservice_label settings_settings_left_menu_importer {
-  key = 'SETTINGS_SETTINGS_LEFT_MENU_IMPORTER'
-  group = 'Settings'
-  product_id = resource.configservice_product.media_manager_5.id
-  default_label_values = [
-    {
-      default_translation = 'Importer'
-      language_id = data.language.english.id
-    },
-    {
-      default_translation = 'Importer'
-      language_id = data.language.danish.id
-    }
-  ]
-}
-
-resource configservice_label settings_settings_left_menu_service_configuration {
-  key = 'SETTINGS_SETTINGS_LEFT_MENU_SERVICE_CONFIGURATION'
-  group = 'Settings'
-  product_id = resource.configservice_product.media_manager_5.id
-  default_label_values = [
-    {
-      default_translation = 'Service configuration'
-      language_id = data.language.english.id
-    },
-    {
-      default_translation = 'Service-konfiguration'
-      language_id = data.language.danish.id
-    }
-  ]
-}
 
 resource configservice_label settings_settings_left_menu_connectors_settings {
   key = 'SETTINGS_SETTINGS_LEFT_MENU_CONNECTORS_SETTINGS'
