@@ -6427,3 +6427,116 @@ resource configservice_label administration_tools_formats_change_format_type_dia
   ]
 }
 
+resource configservice_label administration_tools_analytics_table_builder_edit_member_filter {
+  key = 'ADMINISTRATION_TOOLS_ANALYTICS_TABLE_BUILDER_EDIT_MEMBER_FILTER'
+  group = 'administration-tools - analytics-table-builder'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Edit member filter'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Rediger brugerfilter'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_analytics_member_filter_apply {
+  key = 'ADMINISTRATION_TOOLS_ANALYTICS_MEMBER_FILTER_APPLY'
+  group = 'administration-tools - analytics-member-filter'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Apply'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Aktiver'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_analytics_member_filter_cancel {
+  key = 'ADMINISTRATION_TOOLS_ANALYTICS_MEMBER_FILTER_CANCEL'
+  group = 'administration-tools - analytics-member-filter'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Cancel'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Annuller'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_analytics_member_filter_members_directly_or_indirectly_in_these_groups {
+  key = 'ADMINISTRATION_TOOLS_ANALYTICS_MEMBER_FILTER_MEMBERS_DIRECTLY_OR_INDIRECTLY_IN_THESE_GROUPS'
+  group = 'administration-tools - analytics-member-filter'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Members directly or indirectly in these groups'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Brugere direkte eller indirekte i disse grupper'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_analytics_member_filter_members_directly_in_these_groups {
+  key = 'ADMINISTRATION_TOOLS_ANALYTICS_MEMBER_FILTER_MEMBERS_DIRECTLY_IN_THESE_GROUPS'
+  group = 'administration-tools - analytics-member-filter'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Members directly in these groups'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Brugere direkte i disse grupper'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_analytics_member_filter_specific_members {
+  key = 'ADMINISTRATION_TOOLS_ANALYTICS_MEMBER_FILTER_SPECIFIC_MEMBERS'
+  group = 'administration-tools - analytics-member-filter'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Specific members'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Bestemte brugere'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_analytics_member_filter_member_filter {
+  key = 'ADMINISTRATION_TOOLS_ANALYTICS_MEMBER_FILTER_MEMBER_FILTER'
+  group = 'administration-tools - analytics-member-filter'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Member filter'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Brugerfilter'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+
