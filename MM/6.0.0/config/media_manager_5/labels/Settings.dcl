@@ -895,22 +895,6 @@ resource configservice_label settings_integration {
   ]
 }
 
-resource configservice_label settings_left_menu_media_manager_5 {
-  key = 'SETTINGS_LEFT_MENU_MEDIA_MANAGER_5'
-  group = 'Settings'
-  product_id = resource.configservice_product.media_manager_5.id
-  default_label_values = [
-    {
-      default_translation = 'Media Manager 5'
-      language_id = data.language.english.id
-    },
-    {
-      default_translation = 'Media Manager 5'
-      language_id = data.language.danish.id
-    }
-  ]
-}
-
 resource configservice_label settings_about_3rdpartylicensestxt {
   key = 'SETTINGS_ABOUT_3RDPARTYLICENSESTXT'
   group = 'Settings'
@@ -4474,23 +4458,6 @@ resource configservice_label portal_config_manager_single_value_config_field_con
     },
     {
       default_translation = 'Konfigurations-felt-typen {{ type }} understøttes ikke til nem-redigering.'
-      language_id = data.language.danish.id
-    }
-  ]
-}
-
-
-resource configservice_label settings_settings_left_menu_connectors_settings {
-  key = 'SETTINGS_SETTINGS_LEFT_MENU_CONNECTORS_SETTINGS'
-  group = 'Settings'
-  product_id = resource.configservice_product.media_manager_5.id
-  default_label_values = [
-    {
-      default_translation = 'Connector settings'
-      language_id = data.language.english.id
-    },
-    {
-      default_translation = 'Connector-indstillinger'
       language_id = data.language.danish.id
     }
   ]

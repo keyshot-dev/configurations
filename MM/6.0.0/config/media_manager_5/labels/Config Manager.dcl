@@ -2405,17 +2405,81 @@ resource configservice_label portal_config_manager_section_introscreen {
   ]
 }
 
+resource configservice_label portal_config_manager_section_download_approval {
+  key = 'PORTAL_CONFIG_MANAGER_SECTION_DOWNLOAD_APPROVAL'
+  group = 'Config Manager'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Download approval'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Downloadgodkendelse'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label portal_config_manager_section_connectors {
+  key = 'PORTAL_CONFIG_MANAGER_SECTION_CONNECTORS'
+  group = 'Config Manager'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Connectors'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Connectors'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label portal_config_manager_section_logo {
+  key = 'PORTAL_CONFIG_MANAGER_SECTION_LOGO'
+  group = 'Config Manager'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Logo'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Logo'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label portal_config_manager_section_theme {
+  key = 'PORTAL_CONFIG_MANAGER_SECTION_THEME'
+  group = 'Config Manager'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Theme'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Theme'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label portal_config_manager_portal_selector_switch_site {
   key = 'PORTAL_CONFIG_MANAGER_PORTAL_SELECTOR_SWITCH_SITE'
   group = 'Config Manager'
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Please log in to the portal named {{portalName}} to configure this setting'
+      default_translation = "Please log in to portal '{{portalName}}' to configure this setting"
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Log ind på portalen {{portalName}} for at konfigurere denne indstilling'
+      default_translation = "Log ind på portalen '{{portalName}}' for at konfigurere denne indstilling"
       language_id = data.language.danish.id
     }
   ]
