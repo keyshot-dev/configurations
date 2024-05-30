@@ -1118,22 +1118,6 @@ resource configservice_label rabbit_filter_grafana {
   ]
 }
 
-resource configservice_label rabbit_filter_grafana_tooltip {
-  key = 'RABBIT_FILTER_GRAFANA_TOOLTIP'
-  group = 'Administration'
-  product_id = resource.configservice_product.media_manager_5.id
-  default_label_values = [
-    {
-      default_translation = 'Open Grafana\'s dashboard'
-      language_id = data.language.english.id
-    },
-    {
-      default_translation = 'Åbn Grafanas dashboard'
-      language_id = data.language.danish.id
-    }
-  ]
-}
-
 resource configservice_label rabbit_details_overview_title {
   key = 'RABBIT_DETAILS_OVERVIEW_TITLE'
   group = 'Administration'

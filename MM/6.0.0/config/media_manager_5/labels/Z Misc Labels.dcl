@@ -1076,11 +1076,11 @@ resource configservice_label topbar_settings_btn_tooltip {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Settings'
+      default_translation = 'Administration'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Indstillinger'
+      default_translation = 'Administration'
       language_id = data.language.danish.id
     }
   ]
