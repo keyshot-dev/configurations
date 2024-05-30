@@ -2415,7 +2415,7 @@ resource configservice_label portal_config_manager_section_download_approval {
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Downloadgodkendelse'
+      default_translation = 'Download-godkendelse'
       language_id = data.language.danish.id
     }
   ]
@@ -2431,7 +2431,7 @@ resource configservice_label portal_config_manager_section_connectors {
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Connectors'
+      default_translation = 'Connectore'
       language_id = data.language.danish.id
     }
   ]
@@ -2463,7 +2463,7 @@ resource configservice_label portal_config_manager_section_theme {
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Theme'
+      default_translation = 'Tema'
       language_id = data.language.danish.id
     }
   ]
@@ -2475,11 +2475,11 @@ resource configservice_label portal_config_manager_portal_selector_switch_site {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = "Please log in to portal '{{portalName}}' to configure this setting"
+      default_translation = "Please log in to the portal '{{portalName}}' to access this menu"
       language_id = data.language.english.id
     },
     {
-      default_translation = "Log ind på portalen '{{portalName}}' for at konfigurere denne indstilling"
+      default_translation = "Log ind på portalen '{{portalName}}' for at tilgå denne menu"
       language_id = data.language.danish.id
     }
   ]
