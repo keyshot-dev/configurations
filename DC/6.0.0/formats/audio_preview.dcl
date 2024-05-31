@@ -8,7 +8,7 @@
     type = 'Mp3AudioFormat'
     details = [{
             key = 'CompressionLevel'
-            value = '4'
+            value = '5'
         }]
 }
 
