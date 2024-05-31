@@ -3537,6 +3537,246 @@ resource configservice_label administration_tools_section_label_system {
   ]
 }
 
+resource configservice_label administration_tools_section_label_portals {
+  key = 'ADMINISTRATION_TOOLS_SECTION_LABEL_PORTALS'
+  group = 'administration-tools'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Portals'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Portaler'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_section_label_brand_portals {
+  key = 'ADMINISTRATION_TOOLS_SECTION_LABEL_BRAND_PORTALS'
+  group = 'administration-tools'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Brand portals'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Brand-portaler'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_section_label_configuration_management {
+  key = 'ADMINISTRATION_TOOLS_SECTION_LABEL_CONFIGURATION_MANAGEMENT'
+  group = 'administration-tools'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Configuration management'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Configuration management'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_section_label_automation {
+  key = 'ADMINISTRATION_TOOLS_SECTION_LABEL_AUTOMATION'
+  group = 'administration-tools'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Automation'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Automatisering'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_section_label_workflows {
+  key = 'ADMINISTRATION_TOOLS_SECTION_LABEL_WORKFLOWS'
+  group = 'administration-tools'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Workflows'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Workflows'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_section_label_logs_and_status {
+  key = 'ADMINISTRATION_TOOLS_SECTION_LABEL_LOGS_AND_STATUS'
+  group = 'administration-tools'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Logs & statuses'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Logs & statusser'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_section_audit_trail {
+  key = 'ADMINISTRATION_TOOLS_SECTION_AUDIT_TRAIL'
+  group = 'administration-tools'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Audit trail'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Audit trail'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_section_automation_status {
+  key = 'ADMINISTRATION_TOOLS_SECTION_AUTOMATION_STATUS'
+  group = 'administration-tools'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Automation status'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Automatiserings-status'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_section_general_jobs {
+  key = 'ADMINISTRATION_TOOLS_SECTION_GENERAL_JOBS'
+  group = 'administration-tools'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'General jobs'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Generelle jobs'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_section_transcode_status {
+  key = 'ADMINISTRATION_TOOLS_SECTION_TRANSCODE_STATUS'
+  group = 'administration-tools'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Transcode status'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Transkode-status'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_section_file_status {
+  key = 'ADMINISTRATION_TOOLS_SECTION_FILE_STATUS'
+  group = 'administration-tools'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'File status'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Fil-status'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_section_system_logs {
+  key = 'ADMINISTRATION_TOOLS_SECTION_SYSTEM_LOGS'
+  group = 'administration-tools'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'System logs'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'System-logs'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_section_service_health {
+  key = 'ADMINISTRATION_TOOLS_SECTION_SERVICE_HEALTH'
+  group = 'administration-tools'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Service health'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Service-helbred'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_section_service_rabbit_status {
+  key = 'ADMINISTRATION_TOOLS_SECTION_SERVICE_RABBIT_STATUS'
+  group = 'administration-tools'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Rabbit status'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Rabbit-status'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_section_accelerated_search_status {
+  key = 'ADMINISTRATION_TOOLS_SECTION_ACCELERATED_SEARCH_STATUS'
+  group = 'administration-tools'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Accelerated search status'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Accelereret søgnings-status'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label administration_tools_analytics_chart_builder_metadata {
   key = 'ADMINISTRATION_TOOLS_ANALYTICS_CHART_BUILDER_METADATA'
   group = 'administration-tools - analytics-chart-builder'
