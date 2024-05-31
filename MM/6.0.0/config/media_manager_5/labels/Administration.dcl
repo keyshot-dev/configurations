@@ -3627,7 +3627,7 @@ resource configservice_label administration_tools_section_label_logs_and_status 
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Log & status'
+      default_translation = 'Logs & statusser'
       language_id = data.language.danish.id
     }
   ]
