@@ -3563,7 +3563,7 @@ resource configservice_label administration_tools_section_label_brand_portals {
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Brandportaler'
+      default_translation = 'Brand-portaler'
       language_id = data.language.danish.id
     }
   ]
@@ -3579,7 +3579,7 @@ resource configservice_label administration_tools_section_label_configuration_ma
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Konfigurations-styring'
+      default_translation = 'Configuration management'
       language_id = data.language.danish.id
     }
   ]
@@ -3643,7 +3643,7 @@ resource configservice_label administration_tools_section_audit_trail {
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Revisionsspor'
+      default_translation = 'Audit trail'
       language_id = data.language.danish.id
     }
   ]
@@ -3659,7 +3659,7 @@ resource configservice_label administration_tools_section_automation_status {
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Automatiseringsstatus'
+      default_translation = 'Automatiserings-status'
       language_id = data.language.danish.id
     }
   ]
@@ -3739,7 +3739,7 @@ resource configservice_label administration_tools_section_service_health {
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Service sundhed'
+      default_translation = 'Service-helbred'
       language_id = data.language.danish.id
     }
   ]
@@ -3751,11 +3751,11 @@ resource configservice_label administration_tools_section_service_rabbit_status 
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Service Rabbit status'
+      default_translation = 'Rabbit status'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Service Rabbit status'
+      default_translation = 'Rabbit-status'
       language_id = data.language.danish.id
     }
   ]
@@ -3771,7 +3771,7 @@ resource configservice_label administration_tools_section_accelerated_search_sta
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Accelereret søgestatus'
+      default_translation = 'Accelereret søgnings-status'
       language_id = data.language.danish.id
     }
   ]
