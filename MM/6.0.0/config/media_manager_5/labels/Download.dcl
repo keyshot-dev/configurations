@@ -904,7 +904,7 @@ resource configservice_label download_status_cancel_download_warning_are_you_sur
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Er du sikker på, at du vil annullere dine resterende downloads?'
+      default_translation = 'Er du sikker på, at du vil annullere de resterende downloads?'
       language_id = data.language.danish.id
     }
   ]
