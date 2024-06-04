@@ -5886,11 +5886,11 @@ resource configservice_label administration_tools_users_and_groups_delete_folder
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = "Are you sure you want to delete '{folderName}' folder?"
+      default_translation = "Are you sure you want to delete the folder '{folderName}'?"
       language_id = data.language.english.id
     },
     {
-      default_translation = "Er du sikker på, at du vil slette '{folderName}' mappe?"
+      default_translation = "Er du sikker på, at du vil slette mappen '{folderName}'?"
       language_id = data.language.danish.id
     }
   ]
@@ -5938,7 +5938,7 @@ resource configservice_label administration_tools_users_and_groups_delete_folder
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Mappe blevet slettet'
+      default_translation = 'Mappe slettet'
       language_id = data.language.danish.id
     }
   ]
@@ -5970,7 +5970,7 @@ resource configservice_label administration_tools_users_and_groups_delete_folder
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Mappe blevet ikke slettet'
+      default_translation = 'Mappen blev ikke slettet'
       language_id = data.language.danish.id
     }
   ]
@@ -8023,7 +8023,7 @@ resource configservice_label administration_tools_system_nav_signing_certificate
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Underskrivelse af certifikater'
+      default_translation = 'Signerings-certifikater'
       language_id = data.language.danish.id
     }
   ]
@@ -8055,7 +8055,7 @@ resource configservice_label administration_tools_system_nav_importer {
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Importer'
+      default_translation = 'Importør'
       language_id = data.language.danish.id
     }
   ]
@@ -8071,7 +8071,7 @@ resource configservice_label administration_tools_system_nav_services {
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Services'
+      default_translation = 'Servicer'
       language_id = data.language.danish.id
     }
   ]
