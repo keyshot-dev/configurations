@@ -5886,11 +5886,11 @@ resource configservice_label administration_tools_users_and_groups_delete_folder
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = "Are you sure you want to delete the folder '{folderName}'?"
+      default_translation = "Are you sure you want to delete the folder '{{folderName}}'?"
       language_id = data.language.english.id
     },
     {
-      default_translation = "Er du sikker på, at du vil slette mappen '{folderName}'?"
+      default_translation = "Er du sikker på, at du vil slette mappen '{{folderName}}'?"
       language_id = data.language.danish.id
     }
   ]
