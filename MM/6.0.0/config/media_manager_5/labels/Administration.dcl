@@ -6620,7 +6620,7 @@ resource configservice_label administration_tools_users_and_groups_user_actions 
   ]
 }
 
-resource configservice_label administration_tools_users_and_groups_user_actions {
+resource configservice_label administration_tools_users_and_groups_groups_actions {
   key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_GROUPS_ACTIONS'
   group = 'administration-tools - users-and-groups'
   product_id = resource.configservice_product.media_manager_5.id
