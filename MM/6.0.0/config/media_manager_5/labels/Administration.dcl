@@ -7580,4 +7580,227 @@ resource configservice_label administration_tools_analytics_member_filter_member
   ]
 }
 
+resource configservice_label administration_tools_system_nav_users_and_groups {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_NAV_USERS_AND_GROUPS'
+  group = 'administration-tools - system'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Users and groups'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Brugere og grupper'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_nav_users {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_NAV_USERS'
+  group = 'administration-tools - system'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Users'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Brugere'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_nav_groups {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_NAV_GROUPS'
+  group = 'administration-tools - system'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Groups'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Grupper'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_nav_metadata {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_NAV_METADATA'
+  group = 'administration-tools - system'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Metadata'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Metadata'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_nav_formats {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_NAV_FORMATS'
+  group = 'administration-tools - system'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Formats'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Formater'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_nav_languages {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_NAV_LANGUAGES'
+  group = 'administration-tools - system'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Languages'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Sprog'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_nav_channels {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_NAV_CHANNELS'
+  group = 'administration-tools - system'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Channels'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Kanaler'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_nav_sso {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_NAV_SSO'
+  group = 'administration-tools - system'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'SSO'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'SSO'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_nav_signing_certificates {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_NAV_SIGNING_CERTIFICATES'
+  group = 'administration-tools - system'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Signing Certificates'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Underskrivelse af certifikater'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_nav_integrations {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_NAV_INTEGRATIONS'
+  group = 'administration-tools - system'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Integrations'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Integrationer'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_nav_importer {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_NAV_IMPORTER'
+  group = 'administration-tools - system'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Importer'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Importer'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_nav_services {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_NAV_SERVICES'
+  group = 'administration-tools - system'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Services'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Services'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_nav_youtube {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_NAV_YOUTUBE'
+  group = 'administration-tools - system'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'YouTube'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'YouTube'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_nav_cognitive {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_NAV_COGNITIVE'
+  group = 'administration-tools - system'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Cognitive'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Kognitiv'
+      language_id = data.language.danish.id
+    }
+  ]
+}
 
