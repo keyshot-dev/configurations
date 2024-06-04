@@ -942,38 +942,6 @@ resource configservice_label portal_config_manager_portal_config_manager_root_lo
   ]
 }
 
-resource configservice_label settings_menu_portal_config_manager_title {
-  key = 'SETTINGS_MENU_PORTAL_CONFIG_MANAGER_TITLE'
-  group = 'Config Manager'
-  product_id = resource.configservice_product.media_manager_5.id
-  default_label_values = [
-    {
-      default_translation = 'Portal config manager'
-      language_id = data.language.english.id
-    },
-    {
-      default_translation = 'Portal config manager'
-      language_id = data.language.danish.id
-    }
-  ]
-}
-
-resource configservice_label settings_menu_portal_config_manager_desc {
-  key = 'SETTINGS_MENU_PORTAL_CONFIG_MANAGER_DESC'
-  group = 'Config Manager'
-  product_id = resource.configservice_product.media_manager_5.id
-  default_label_values = [
-    {
-      default_translation = 'Settings for specific portals'
-      language_id = data.language.english.id
-    },
-    {
-      default_translation = 'Indstillinger for bestemte portaler'
-      language_id = data.language.danish.id
-    }
-  ]
-}
-
 resource configservice_label portal_config_manager_value_config_field_reset_to_default {
   key = 'PORTAL_CONFIG_MANAGER_VALUE_CONFIG_FIELD_RESET_TO_DEFAULT'
   group = 'Config Manager'
