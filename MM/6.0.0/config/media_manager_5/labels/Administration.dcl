@@ -5783,17 +5783,33 @@ resource configservice_label administration_tools_users_and_groups_groups_sectio
   ]
 }
 
-resource configservice_label administration_tools_users_and_groups_add_new_btn {
-  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_ADD_NEW_BTN'
+resource configservice_label administration_tools_users_and_groups_add_new_group_btn {
+  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_ADD_NEW_GROUP_BTN'
   group = 'administration-tools - users-and-groups'
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Add new'
+      default_translation = 'Add new group'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Opret ny'
+      default_translation = 'Opret ny gruppe'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_users_and_groups_add_new_user_btn {
+  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_ADD_NEW_USER_BTN'
+  group = 'administration-tools - users-and-groups'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Add new user'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Opret ny bruger'
       language_id = data.language.danish.id
     }
   ]
@@ -5847,6 +5863,247 @@ resource configservice_label administration_tools_users_and_groups_delete_group_
     }
   ]
 }
+
+resource configservice_label administration_tools_users_and_groups_delete_folder_dialog_title {
+  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_DELETE_FOLDER_DIALOG_TITLE'
+  group = 'administration-tools - users-and-groups'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Delete folder'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Slet mappe'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_users_and_groups_delete_folder_dialog_body {
+  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_DELETE_FOLDER_DIALOG_BODY'
+  group = 'administration-tools - users-and-groups'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = "Are you sure you want to delete the folder '{folderName}'?"
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = "Er du sikker på, at du vil slette mappen '{folderName}'?"
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_users_and_groups_delete_folder_dialog_confirm {
+  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_DELETE_FOLDER_DIALOG_CONFIRM'
+  group = 'administration-tools - users-and-groups'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Delete'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Slet'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_users_and_groups_delete_folder_dialog_cancel {
+  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_DELETE_FOLDER_DIALOG_CANCEL'
+  group = 'administration-tools - users-and-groups'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Cancel'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Annullér'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_users_and_groups_delete_folder_success {
+  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_DELETE_FOLDER_SUCCESS'
+  group = 'administration-tools - users-and-groups'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Folder deleted'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Mappe slettet'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_users_and_groups_delete_folder_error_title {
+  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_DELETE_FOLDER_ERROR_TITLE'
+  group = 'administration-tools - users-and-groups'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Error'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Fejl'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_users_and_groups_delete_folder_error_body {
+  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_DELETE_FOLDER_ERROR_BODY'
+  group = 'administration-tools - users-and-groups'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Folder deletion failed'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Mappen blev ikke slettet'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_users_and_groups_delete_group_dialog_title {
+  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_DELETE_GROUP_DIALOG_TITLE'
+  group = 'administration-tools - users-and-groups'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Delete group'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Slet gruppe'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_users_and_groups_delete_group_dialog_body {
+  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_DELETE_GROUP_DIALOG_BODY'
+  group = 'administration-tools - users-and-groups'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Are you sure you want to delete this group?'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Er du sikker på, at du vil slette denne gruppe?'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_users_and_groups_delete_group_dialog_confirm {
+  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_DELETE_GROUP_DIALOG_CONFIRM'
+  group = 'administration-tools - users-and-groups'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Delete'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Slet'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_users_and_groups_delete_group_dialog_cancel {
+  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_DELETE_GROUP_DIALOG_CANCEL'
+  group = 'administration-tools - users-and-groups'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Cancel'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Annullér'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_users_and_groups_delete_user_dialog_title {
+  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_DELETE_USER_DIALOG_TITLE'
+  group = 'administration-tools - users-and-groups'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Delete user'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Slet bruger'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_users_and_groups_delete_user_dialog_body {
+  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_DELETE_USER_DIALOG_BODY'
+  group = 'administration-tools - users-and-groups'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Are you sure you want to delete this user?'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Er du sikker på, at du vil slette denne bruger?'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_users_and_groups_delete_user_dialog_confirm {
+  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_DELETE_USER_DIALOG_CONFIRM'
+  group = 'administration-tools - users-and-groups'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Delete'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Slet'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_users_and_groups_delete_user_dialog_cancel {
+  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_DELETE_USER_DIALOG_CANCEL'
+  group = 'administration-tools - users-and-groups'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Cancel'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Annullér'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 
 resource configservice_label administration_tools_users_and_groups_group_name {
   key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_GROUP_NAME'
@@ -6347,6 +6604,38 @@ resource configservice_label administration_tools_users_and_groups_delete_user_b
   ]
 }
 
+resource configservice_label administration_tools_users_and_groups_user_actions {
+  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_USER_ACTIONS'
+  group = 'administration-tools - users-and-groups'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Actions'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Handlinger'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_users_and_groups_user_actions {
+  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_GROUPS_ACTIONS'
+  group = 'administration-tools - users-and-groups'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Actions'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Handlinger'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label administration_tools_users_and_groups_user_username {
   key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_USER_USERNAME'
   group = 'administration-tools - users-and-groups'
@@ -6534,6 +6823,22 @@ resource configservice_label administration_tools_users_and_groups_group_no_user
     },
     {
       default_translation = 'Kunne ikke finde nogen brugere'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_users_and_groups_user_save_error_title {
+  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_USER_SAVE_ERROR_TITLE'
+  group = 'administration-tools - users-and-groups'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Error'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Fejl'
       language_id = data.language.danish.id
     }
   ]
@@ -7580,4 +7885,227 @@ resource configservice_label administration_tools_analytics_member_filter_member
   ]
 }
 
+resource configservice_label administration_tools_system_nav_users_and_groups {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_NAV_USERS_AND_GROUPS'
+  group = 'administration-tools - system'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Users and groups'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Brugere og grupper'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_nav_users {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_NAV_USERS'
+  group = 'administration-tools - system'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Users'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Brugere'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_nav_groups {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_NAV_GROUPS'
+  group = 'administration-tools - system'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Groups'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Grupper'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_nav_metadata {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_NAV_METADATA'
+  group = 'administration-tools - system'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Metadata'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Metadata'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_nav_formats {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_NAV_FORMATS'
+  group = 'administration-tools - system'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Formats'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Formater'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_nav_languages {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_NAV_LANGUAGES'
+  group = 'administration-tools - system'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Languages'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Sprog'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_nav_channels {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_NAV_CHANNELS'
+  group = 'administration-tools - system'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Channels'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Kanaler'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_nav_sso {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_NAV_SSO'
+  group = 'administration-tools - system'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'SSO'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'SSO'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_nav_signing_certificates {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_NAV_SIGNING_CERTIFICATES'
+  group = 'administration-tools - system'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Signing Certificates'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Signerings-certifikater'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_nav_integrations {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_NAV_INTEGRATIONS'
+  group = 'administration-tools - system'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Integrations'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Integrationer'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_nav_importer {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_NAV_IMPORTER'
+  group = 'administration-tools - system'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Importer'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Importør'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_nav_services {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_NAV_SERVICES'
+  group = 'administration-tools - system'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Services'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Servicer'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_nav_youtube {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_NAV_YOUTUBE'
+  group = 'administration-tools - system'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'YouTube'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'YouTube'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_nav_cognitive {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_NAV_COGNITIVE'
+  group = 'administration-tools - system'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Cognitive'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Kognitiv'
+      language_id = data.language.danish.id
+    }
+  ]
+}
 
