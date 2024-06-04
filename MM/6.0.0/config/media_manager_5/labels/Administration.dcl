@@ -5783,17 +5783,33 @@ resource configservice_label administration_tools_users_and_groups_groups_sectio
   ]
 }
 
-resource configservice_label administration_tools_users_and_groups_add_new_btn {
-  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_ADD_NEW_BTN'
+resource configservice_label administration_tools_users_and_groups_add_new_group_btn {
+  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_ADD_NEW_GROUP_BTN'
   group = 'administration-tools - users-and-groups'
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Add new'
+      default_translation = 'Add new group'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Opret ny'
+      default_translation = 'Opret ny gruppe'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_users_and_groups_add_new_user_btn {
+  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_ADD_NEW_USER_BTN'
+  group = 'administration-tools - users-and-groups'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Add new user'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Opret ny bruger'
       language_id = data.language.danish.id
     }
   ]
@@ -5847,6 +5863,247 @@ resource configservice_label administration_tools_users_and_groups_delete_group_
     }
   ]
 }
+
+resource configservice_label administration_tools_users_and_groups_delete_folder_dialog_title {
+  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_DELETE_FOLDER_DIALOG_TITLE'
+  group = 'administration-tools - users-and-groups'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Delete folder'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Slet mappe'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_users_and_groups_delete_folder_dialog_body {
+  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_DELETE_FOLDER_DIALOG_BODY'
+  group = 'administration-tools - users-and-groups'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = "Are you sure you want to delete '{folderName}' folder?"
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = "Er du sikker på, at du vil slette '{folderName}' mappe?"
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_users_and_groups_delete_folder_dialog_confirm {
+  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_DELETE_FOLDER_DIALOG_CONFIRM'
+  group = 'administration-tools - users-and-groups'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Delete'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Slet'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_users_and_groups_delete_folder_dialog_cancel {
+  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_DELETE_FOLDER_DIALOG_CANCEL'
+  group = 'administration-tools - users-and-groups'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Cancel'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Annullér'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_users_and_groups_delete_folder_success {
+  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_DELETE_FOLDER_SUCCESS'
+  group = 'administration-tools - users-and-groups'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Folder deleted'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Mappe blevet slettet'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_users_and_groups_delete_folder_error_title {
+  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_DELETE_FOLDER_ERROR_TITLE'
+  group = 'administration-tools - users-and-groups'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Error'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Fejl'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_users_and_groups_delete_folder_error_body {
+  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_DELETE_FOLDER_ERROR_BODY'
+  group = 'administration-tools - users-and-groups'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Folder deletion failed'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Mappe blevet ikke slettet'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_users_and_groups_delete_group_dialog_title {
+  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_DELETE_GROUP_DIALOG_TITLE'
+  group = 'administration-tools - users-and-groups'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Delete group'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Slet gruppe'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_users_and_groups_delete_group_dialog_body {
+  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_DELETE_GROUP_DIALOG_BODY'
+  group = 'administration-tools - users-and-groups'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Are you sure you want to delete this group?'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Er du sikker på, at du vil slette denne gruppe?'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_users_and_groups_delete_group_dialog_confirm {
+  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_DELETE_GROUP_DIALOG_CONFIRM'
+  group = 'administration-tools - users-and-groups'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Delete'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Slet'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_users_and_groups_delete_group_dialog_cancel {
+  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_DELETE_GROUP_DIALOG_CANCEL'
+  group = 'administration-tools - users-and-groups'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Cancel'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Annullér'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_users_and_groups_delete_user_dialog_title {
+  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_DELETE_USER_DIALOG_TITLE'
+  group = 'administration-tools - users-and-groups'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Delete user'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Slet bruger'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_users_and_groups_delete_user_dialog_body {
+  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_DELETE_USER_DIALOG_BODY'
+  group = 'administration-tools - users-and-groups'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Are you sure you want to delete this user?'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Er du sikker på, at du vil slette denne bruger?'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_users_and_groups_delete_user_dialog_confirm {
+  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_DELETE_USER_DIALOG_CONFIRM'
+  group = 'administration-tools - users-and-groups'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Delete'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Slet'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_users_and_groups_delete_user_dialog_cancel {
+  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_DELETE_USER_DIALOG_CANCEL'
+  group = 'administration-tools - users-and-groups'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Cancel'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Annullér'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 
 resource configservice_label administration_tools_users_and_groups_group_name {
   key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_GROUP_NAME'
@@ -6347,6 +6604,38 @@ resource configservice_label administration_tools_users_and_groups_delete_user_b
   ]
 }
 
+resource configservice_label administration_tools_users_and_groups_user_actions {
+  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_USER_ACTIONS'
+  group = 'administration-tools - users-and-groups'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Actions'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Handlinger'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_users_and_groups_user_actions {
+  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_GROUPS_ACTIONS'
+  group = 'administration-tools - users-and-groups'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Actions'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Handlinger'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label administration_tools_users_and_groups_user_username {
   key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_USER_USERNAME'
   group = 'administration-tools - users-and-groups'
@@ -6534,6 +6823,22 @@ resource configservice_label administration_tools_users_and_groups_group_no_user
     },
     {
       default_translation = 'Kunne ikke finde nogen brugere'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_users_and_groups_user_save_error_title {
+  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_USER_SAVE_ERROR_TITLE'
+  group = 'administration-tools - users-and-groups'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Error'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Fejl'
       language_id = data.language.danish.id
     }
   ]
