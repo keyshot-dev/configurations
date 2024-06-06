@@ -6924,8 +6924,8 @@ resource configservice_label administration_tools_users_and_groups_delete_user_d
   ]
 }
 
-resource configservice_label administration_tools_users_and_groups_delete_user_dialog_success {
-  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_DELETE_USER_DIALOG_ERROR_SUCCESS'
+resource configservice_label administration_tools_users_and_groups_delete_user_success {
+  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_DELETE_USER_SUCCESS'
   group = 'administration-tools - users-and-groups'
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
