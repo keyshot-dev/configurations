@@ -5757,11 +5757,11 @@ resource configservice_label administration_tools_users_and_groups_manage_folder
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Manage group folders'
+      default_translation = 'Manage folder'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Administrer gruppemapper'
+      default_translation = 'Administrer mappe'
       language_id = data.language.danish.id
     }
   ]
@@ -6652,6 +6652,22 @@ resource configservice_label administration_tools_users_and_groups_user_username
   ]
 }
 
+resource configservice_label administration_tools_users_and_groups_user_fullname {
+  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_USER_FULLNAME'
+  group = 'administration-tools - users-and-groups'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Full name'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Fulde navn'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label administration_tools_users_and_groups_user_password {
   key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_USER_PASSWORD'
   group = 'administration-tools - users-and-groups'
@@ -6860,6 +6876,70 @@ resource configservice_label administration_tools_users_and_groups_user_save_err
   ]
 }
 
+resource configservice_label administration_tools_users_and_groups_password_save_error_body {
+  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_PASSWORD_SAVE_ERROR_BODY'
+  group = 'administration-tools - users-and-groups'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Password not saved. {code, select,  400 {Password not strong enough} other {Unknown error when saving. Please contact your system administrator}}'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Adgangskoden blev ikke gemt. {code, select, 400 {Adgangskoden er ikke stærk nok} other {Der opstod en fejl mens systemet forsøgte at gemme. Kontakt venligst din systemadministrator}}'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_users_and_groups_delete_user_error_title {
+  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_DELETE_USER_ERROR_TITLE'
+  group = 'administration-tools - users-and-groups'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Error'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Fejl'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_users_and_groups_delete_user_error_body {
+  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_DELETE_USER_ERROR_BODY'
+  group = 'administration-tools - users-and-groups'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'User not saved'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Brugeren blev ikke gemt'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_users_and_groups_delete_user_success {
+  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_DELETE_USER_SUCCESS'
+  group = 'administration-tools - users-and-groups'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'User deleted'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Brugeren blev slettet'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label administration_tools_users_and_groups_user_groups {
   key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_USER_GROUPS'
   group = 'administration-tools - users-and-groups'
@@ -6871,6 +6951,103 @@ resource configservice_label administration_tools_users_and_groups_user_groups {
     },
     {
       default_translation = 'Grupper'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_users_and_groups_no_users_found {
+  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_NO_USERS_FOUND'
+  group = 'administration-tools - users-and-groups'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'No users found'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Ingen brugere fundet'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+
+resource configservice_label administration_tools_users_and_groups_changes_saved {
+  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_CHANGES_SAVED'
+  group = 'administration-tools - users-and-groups'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Changes saved'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Ændringerne blev gemt'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_users_and_groups_save_group_error_body {
+  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_SAVE_GROUP_ERROR_BODY'
+  group = 'administration-tools - users-and-groups'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Group not saved'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Gruppen blev ikke gemt'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_users_and_groups_save_group_error_title {
+  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_SAVE_GROUP_ERROR_TITLE'
+  group = 'administration-tools - users-and-groups'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Error'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Fejl'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_users_and_groups_delete_group_success {
+  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_DELETE_GROUP_SUCCESS'
+  group = 'administration-tools - users-and-groups'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Group deleted'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Gruppen blev slettet'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_users_and_groups_delete_group_error_body {
+  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_DELETE_GROUP_ERROR_BODY'
+  group = 'administration-tools - users-and-groups'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Group not deleted'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Gruppen blev ikke slettet'
       language_id = data.language.danish.id
     }
   ]
