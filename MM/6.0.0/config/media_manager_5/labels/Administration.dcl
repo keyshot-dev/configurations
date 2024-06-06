@@ -7047,7 +7047,7 @@ resource configservice_label administration_tools_users_and_groups_delete_group_
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Gruppe blev ikke slettet'
+      default_translation = 'Gruppen blev ikke slettet'
       language_id = data.language.danish.id
     }
   ]
