@@ -6886,7 +6886,7 @@ resource configservice_label administration_tools_users_and_groups_user_save_err
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Adgangskod er ikke gemt. {code, select, 400 {Adgangskoden er ikke stærk nok} other {Der opstod en fejl mens systemet forsøgte at gemme. Kontakt venligst din systemadministrator}}'
+      default_translation = 'Adgangskoden blev ikke gemt. {code, select, 400 {Adgangskoden er ikke stærk nok} other {Der opstod en fejl mens systemet forsøgte at gemme. Kontakt venligst din systemadministrator}}'
       language_id = data.language.danish.id
     }
   ]
@@ -6918,7 +6918,7 @@ resource configservice_label administration_tools_users_and_groups_delete_user_d
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Bruger blev ikke glemt'
+      default_translation = 'Brugeren blev ikke gemt'
       language_id = data.language.danish.id
     }
   ]
@@ -6934,7 +6934,7 @@ resource configservice_label administration_tools_users_and_groups_delete_user_s
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Bruger blev slettet'
+      default_translation = 'Brugeren blev slettet'
       language_id = data.language.danish.id
     }
   ]
@@ -6983,7 +6983,7 @@ resource configservice_label administration_tools_users_and_groups_changes_saved
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Ændringerne er gemt'
+      default_translation = 'Ændringerne blev gemt'
       language_id = data.language.danish.id
     }
   ]
@@ -6999,7 +6999,7 @@ resource configservice_label administration_tools_users_and_groups_save_group_er
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Gruppe blev ikke gemt'
+      default_translation = 'Gruppen blev ikke gemt'
       language_id = data.language.danish.id
     }
   ]
@@ -7031,7 +7031,7 @@ resource configservice_label administration_tools_users_and_groups_delete_group_
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Gruppe blev slettet'
+      default_translation = 'Gruppen blev slettet'
       language_id = data.language.danish.id
     }
   ]
