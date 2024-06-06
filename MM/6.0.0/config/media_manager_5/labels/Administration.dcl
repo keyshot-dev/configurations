@@ -6876,7 +6876,7 @@ resource configservice_label administration_tools_users_and_groups_user_save_err
   ]
 }
 
-resource configservice_label administration_tools_users_and_groups_user_save_error_body {
+resource configservice_label administration_tools_users_and_groups_password_save_error_body {
   key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_PASSWORD_SAVE_ERROR_BODY'
   group = 'administration-tools - users-and-groups'
   product_id = resource.configservice_product.media_manager_5.id
@@ -6892,8 +6892,8 @@ resource configservice_label administration_tools_users_and_groups_user_save_err
   ]
 }
 
-resource configservice_label administration_tools_users_and_groups_delete_user_dialog_error_title {
-  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_DELETE_USER_DIALOG_ERROR_TITLE'
+resource configservice_label administration_tools_users_and_groups_delete_user_error_title {
+  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_DELETE_USER_ERROR_TITLE'
   group = 'administration-tools - users-and-groups'
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
@@ -6908,8 +6908,8 @@ resource configservice_label administration_tools_users_and_groups_delete_user_d
   ]
 }
 
-resource configservice_label administration_tools_users_and_groups_delete_user_dialog_error_body {
-  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_DELETE_USER_DIALOG_ERROR_BODY'
+resource configservice_label administration_tools_users_and_groups_delete_user_error_body {
+  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_DELETE_USER_ERROR_BODY'
   group = 'administration-tools - users-and-groups'
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
