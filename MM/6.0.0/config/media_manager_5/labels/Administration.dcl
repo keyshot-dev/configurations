@@ -9007,3 +9007,19 @@ resource configservice_label administration_tools_system_metadata_combo_format {
     }
   ]
 }
+
+resource configservice_label administration_tools_system_metadata_parent_group {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_METADATA_PARENT_GROUP'
+  group = 'administration-tools - system - metadata'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Parent group'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Forældregruppe'
+      language_id = data.language.danish.id
+    }
+  ]
+}
