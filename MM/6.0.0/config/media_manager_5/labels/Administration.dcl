@@ -8286,3 +8286,227 @@ resource configservice_label administration_tools_system_nav_cognitive {
   ]
 }
 
+resource configservice_label administration_tools_system_metadata_groups_section {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_METADATA_GROUPS_SECTION'
+  group = 'administration-tools - system - metadata'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Metadata groups'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Metadata grupper'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_metadata_add_new_group {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_METADATA_ADD_NEW_GROUP'
+  group = 'administration-tools - system - metadata'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Add new group'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Tilføj ny gruppe'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_metadata_refresh {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_METADATA_REFRESH'
+  group = 'administration-tools - system - metadata'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Refresh'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Genindlæs'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_metadata_id {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_METADATA_ID'
+  group = 'administration-tools - system - metadata'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'ID'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Id'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_metadata_name {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_METADATA_NAME'
+  group = 'administration-tools - system - metadata'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Name'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Navn'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_metadata_groups_group {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_METADATA_GROUPS_GROUP'
+  group = 'administration-tools - system - metadata'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Metadata group'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Metadata gruppe'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_metadata_actions {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_METADATA_ACTIONS'
+  group = 'administration-tools - system - metadata'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Actions'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Handlinger'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_metadata_manage_access_btn {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_METADATA_MANAGE_ACCESS_BTN'
+  group = 'administration-tools - system - metadata'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Manage access'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Administrer adgang'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_metadata_delete_group_btn {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_METADATA_DELETE_GROUP_BTN'
+  group = 'administration-tools - system - metadata'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Delete group'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Slet gruppe'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+
+resource configservice_label administration_tools_system_metadata_edit_name_required {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_METADATA_EDIT_NAME_REQUIRED'
+  group = 'administration-tools - system - metadata'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Name is required'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Navn påkravet'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_metadata_edit_cancel_btn {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_METADATA_EDIT_CANCEL_BTN'
+  group = 'administration-tools - system - metadata'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Cancel'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Annullér'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_metadata_edit_save_btn {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_METADATA_EDIT_SAVE_BTN'
+  group = 'administration-tools - system - metadata'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = '{saving, select, true {Saving...} false {Save}}'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = '{saving, select, true {Gemmer...} false {Gem}}'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_metadata_groups_no_groups {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_METADATA_GROUPS_NO_GROUPS'
+  group = 'administration-tools - system - metadata'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'No metadata groups found'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Ingen metadata grupper fundet'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_metadata_select_to_edit {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_METADATA_SELECT_TO_EDIT'
+  group = 'administration-tools - system - metadata'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Select to edit'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Vælg for at redigere'
+      language_id = data.language.danish.id
+    }
+  ]
+}
