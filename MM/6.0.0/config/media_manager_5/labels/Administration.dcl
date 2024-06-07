@@ -9055,3 +9055,35 @@ resource configservice_label administration_tools_system_metadata_visibility_reg
     }
   ]
 }
+
+resource configservice_label administration_tools_system_metadata_tree_format {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_METADATA_TREE_FORMAT'
+  group = 'administration-tools - system - metadata'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Tree format (view/edit)'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Træformat (se/rediger)'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_metadata_date_format {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_METADATA_DATE_FORMAT'
+  group = 'administration-tools - system - metadata'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Date format'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Datoformat'
+      language_id = data.language.danish.id
+    }
+  ]
+}
