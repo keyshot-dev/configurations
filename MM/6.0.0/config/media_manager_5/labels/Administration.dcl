@@ -9023,3 +9023,35 @@ resource configservice_label administration_tools_system_metadata_parent_group {
     }
   ]
 }
+
+resource configservice_label administration_tools_system_metadata_visibility_field_id {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_METADATA_VISIBILITY_FIELD_ID'
+  group = 'administration-tools - system - metadata'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Visibility field ID'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Sigtbarhed field id'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_metadata_visibility_regex {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_METADATA_VISIBILITY_REGEX'
+  group = 'administration-tools - system - metadata'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Visibility RegEx'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Sigtbarhed RegEX'
+      language_id = data.language.danish.id
+    }
+  ]
+}
