@@ -8521,7 +8521,7 @@ resource configservice_label administration_tools_system_metadata_fields_section
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Metadata felter'
+      default_translation = 'Metadata-felter'
       language_id = data.language.danish.id
     }
   ]
@@ -8617,7 +8617,7 @@ resource configservice_label administration_tools_system_metadata_description_to
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Hvis udfyldt, vises en infoknap med teksten i metadataeditoren.'
+      default_translation = 'Hvis udfyldt, vises en infoknap med teksten i metadata-editoren.'
       language_id = data.language.danish.id
     }
   ]
@@ -8633,7 +8633,7 @@ resource configservice_label administration_tools_system_metadata_labels {
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Etiketter'
+      default_translation = 'Labels'
       language_id = data.language.danish.id
     }
   ]
@@ -8826,7 +8826,7 @@ resource configservice_label administration_tools_system_metadata_view_dependenc
       language_id = data.language.english.id
     },
     {
-      default_translation = 'View-dependency field id'
+      default_translation = 'Visnings-afhængigt felt-id'
       language_id = data.language.danish.id
     }
   ]
@@ -8838,11 +8838,11 @@ resource configservice_label administration_tools_system_metadata_view_dependenc
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'View-dependency RegEx'
+      default_translation = 'View-dependency regex'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'View-dependency RegEX'
+      default_translation = 'Visnings-afhængigt regex'
       language_id = data.language.danish.id
     }
   ]
@@ -8922,7 +8922,7 @@ resource configservice_label administration_tools_system_metadata_select_to_root
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Vælg til root'
+      default_translation = 'Vælg til rod'
       language_id = data.language.danish.id
     }
   ]
@@ -8954,7 +8954,7 @@ resource configservice_label administration_tools_system_metadata_upload_tag_nam
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Upload tagnavn'
+      default_translation = 'Upload-tag-navn'
       language_id = data.language.danish.id
     }
   ]
@@ -8986,7 +8986,7 @@ resource configservice_label administration_tools_system_metadata_max_selected_i
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Maksimalt udvalgte items'
+      default_translation = 'Maksimalt mængde valgte items'
       language_id = data.language.danish.id
     }
   ]
@@ -9034,7 +9034,7 @@ resource configservice_label administration_tools_system_metadata_visibility_fie
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Sigtbarhed field id'
+      default_translation = 'Visnings-felt-id'
       language_id = data.language.danish.id
     }
   ]
@@ -9046,11 +9046,11 @@ resource configservice_label administration_tools_system_metadata_visibility_reg
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Visibility RegEx'
+      default_translation = 'Visibility regex'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Sigtbarhed RegEX'
+      default_translation = 'Visnings-regex'
       language_id = data.language.danish.id
     }
   ]
