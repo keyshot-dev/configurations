@@ -8296,7 +8296,7 @@ resource configservice_label administration_tools_system_metadata_groups_section
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Metadata grupper'
+      default_translation = 'Metadata-grupper'
       language_id = data.language.danish.id
     }
   ]
@@ -8376,7 +8376,7 @@ resource configservice_label administration_tools_system_metadata_groups_group {
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Metadata gruppe'
+      default_translation = 'Metadata-gruppe'
       language_id = data.language.danish.id
     }
   ]
