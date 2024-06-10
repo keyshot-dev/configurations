@@ -8537,7 +8537,7 @@ resource configservice_label administration_tools_system_metadata_add_new_field 
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Tilføj ny felt'
+      default_translation = 'Tilføj nyt felt'
       language_id = data.language.danish.id
     }
   ]
@@ -8553,7 +8553,7 @@ resource configservice_label administration_tools_system_metadata_delete_field_b
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Slet field'
+      default_translation = 'Slet felt'
       language_id = data.language.danish.id
     }
   ]
@@ -8810,7 +8810,7 @@ resource configservice_label administration_tools_system_metadata_item_id {
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Item-Id'
+      default_translation = 'Item-id'
       language_id = data.language.danish.id
     }
   ]
@@ -8842,7 +8842,7 @@ resource configservice_label administration_tools_system_metadata_view_dependenc
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Visnings-afhængigt regex'
+      default_translation = 'Visnings-afhængig regex'
       language_id = data.language.danish.id
     }
   ]
@@ -8970,7 +8970,7 @@ resource configservice_label administration_tools_system_metadata_related_item_r
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Relateret item-referencefelt'
+      default_translation = 'Relateret item-reference-felt'
       language_id = data.language.danish.id
     }
   ]
@@ -8982,11 +8982,11 @@ resource configservice_label administration_tools_system_metadata_max_selected_i
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Maximum selected items'
+      default_translation = 'Maximum amount of selected items'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Maksimalt mængde valgte items'
+      default_translation = 'Maksimale antal valgte items'
       language_id = data.language.danish.id
     }
   ]
