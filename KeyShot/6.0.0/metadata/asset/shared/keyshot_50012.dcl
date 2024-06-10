@@ -42,11 +42,9 @@ resource metafield_group_label keyshot_51470 {
 resource metafield_group keyshot_50012 {
     name = 'KeyShot'
     description = ''
-    show_in_list = true
-    folder_id = data.meta_group_folder.shared.id
+    show_in_list = true    
     sort_index = 10
-    restrict_to_asset = 'All'
-    iterative = false
+    restrict_to_asset = 'All'    
     parent_group_id = data.metafield_group.asset_info.metafield_group_id
     visibility_regex = ''
     visibility_metafield_id = 0
@@ -54,4 +52,3 @@ resource metafield_group keyshot_50012 {
         item_guid = '178b042d-b6ab-4e1f-9eb6-9c0a990ad7f8'
     }
 }
-
