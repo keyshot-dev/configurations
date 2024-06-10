@@ -108,8 +108,7 @@ resource combovalue_metafield keyshot_type_50399 {
     system = false
     auto_translate = 'Overwrite'
     restrict_to_asset_type = 'All'
-    upload_tag_name = ''
-    iterative = false
+    upload_tag_name = ''    
     autolink = {
         item_guid = '2679ac62-8f06-42d3-b8be-19767e40ee31'
     }

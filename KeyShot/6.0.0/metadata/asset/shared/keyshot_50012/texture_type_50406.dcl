@@ -11,8 +11,7 @@ resource editcombovalue_metafield texture_type_50406 {
     system = false
     auto_translate = 'Overwrite'
     restrict_to_asset_type = 'All'
-    upload_tag_name = ''
-    iterative = false
+    upload_tag_name = ''    
     autolink = {
         item_guid = 'f7268aa2-7fed-489e-90a8-7dfff700d724'
     }

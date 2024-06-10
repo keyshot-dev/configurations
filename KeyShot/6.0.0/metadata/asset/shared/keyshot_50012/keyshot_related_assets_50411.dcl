@@ -50,8 +50,7 @@ resource masteritem_reference_metafield keyshot_related_assets_50411 {
     system = false
     auto_translate = 'None'
     restrict_to_asset_type = 'All'
-    upload_tag_name = ''
-    iterative = false
+    upload_tag_name = ''    
     autolink = {
         item_guid = '3e5a239f-c172-4754-8faf-d485616a8552'
     }

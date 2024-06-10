@@ -444,8 +444,7 @@ resource combovalue_metafield material_type_50403 {
     system = false
     auto_translate = 'Overwrite'
     restrict_to_asset_type = 'All'
-    upload_tag_name = ''
-    iterative = false
+    upload_tag_name = ''    
     autolink = {
         item_guid = 'cbb0f5ca-1fb1-45eb-8039-db273cd8b029'
     }

@@ -11,8 +11,7 @@ resource editcombovalue_metafield location_50407 {
     system = false
     auto_translate = 'Overwrite'
     restrict_to_asset_type = 'All'
-    upload_tag_name = ''
-    iterative = false
+    upload_tag_name = ''    
     autolink = {
         item_guid = '686353bd-642d-4621-a616-867ddffe4d70'
     }

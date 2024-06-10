@@ -11,8 +11,7 @@ resource editmulticombovalue_metafield color_50400 {
     system = false
     auto_translate = 'Overwrite'
     restrict_to_asset_type = 'All'
-    upload_tag_name = ''
-    iterative = false
+    upload_tag_name = ''    
     autolink = {
         item_guid = '4886c6ae-9f9d-49a5-a3e5-92282b76b665'
     }

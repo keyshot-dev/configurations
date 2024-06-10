@@ -11,8 +11,7 @@ resource editmulticombovalue_metafield material_50401 {
     system = false
     auto_translate = 'Overwrite'
     restrict_to_asset_type = 'All'
-    upload_tag_name = ''
-    iterative = false
+    upload_tag_name = ''    
     autolink = {
         item_guid = 'aa3cc9bb-5879-4604-8465-57b775e09c63'
     }
