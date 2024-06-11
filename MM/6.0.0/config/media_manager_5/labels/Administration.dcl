@@ -9681,7 +9681,7 @@ resource configservice_label administration_tools_system_formats_choose_watermar
 }
 
 resource configservice_label administration_tools_system_formats_changes_saved {
-  key = 'ADMINISTRATION_TOOLS_SYSTEM_FORMATS_CHANGES_SAVED
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_FORMATS_CHANGES_SAVED'
   group = 'administration-tools - system - formats'
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
@@ -9697,7 +9697,7 @@ resource configservice_label administration_tools_system_formats_changes_saved {
 }
 
 resource configservice_label administration_tools_system_formats_save_error_title {
-  key = 'ADMINISTRATION_TOOLS_SYSTEM_FORMATS_SAVE_ERROR_TITLE
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_FORMATS_SAVE_ERROR_TITLE'
   group = 'administration-tools - system - formats'
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
@@ -9713,7 +9713,7 @@ resource configservice_label administration_tools_system_formats_save_error_titl
 }
 
 resource configservice_label administration_tools_system_formats_save_error_body {
-  key = 'ADMINISTRATION_TOOLS_SYSTEM_FORMATS_SAVE_ERROR_BODY
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_FORMATS_SAVE_ERROR_BODY'
   group = 'administration-tools - system - formats'
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
