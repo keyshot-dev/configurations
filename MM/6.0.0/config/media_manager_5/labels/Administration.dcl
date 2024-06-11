@@ -9551,3 +9551,179 @@ resource configservice_label administration_tools_system_formats_param_error_max
     }
   ]
 }
+
+resource configservice_label administration_tools_system_formats_dialog_delete_format_title {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_FORMATS_DIALOG_DELETE_FORMAT_TITLE'
+  group = 'administration-tools - system - formats'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Delete format'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Slet format'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_formats_dialog_delete_format_body {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_FORMATS_DIALOG_DELETE_FORMAT_BODY'
+  group = 'administration-tools - system - formats'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Are you sure you want to delete this format?'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Er du sikker på, at du vil slette dette format?'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_formats_dialog_delete_format_confirm {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_FORMATS_DIALOG_DELETE_FORMAT_CONFIRM'
+  group = 'administration-tools - system - formats'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Delete'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Slet'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_formats_dialog_delete_format_cancel {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_FORMATS_DIALOG_DELETE_FORMAT_CANCEL'
+  group = 'administration-tools - system - formats'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Delete'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Slet'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_formats_delete_format_success {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_FORMATS_DELETE_FORMAT_SUCCESS'
+  group = 'administration-tools - system - formats'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Format deleted'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Format slettet'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_formats_delete_format_error_title {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_FORMATS_DELETE_FORMAT_ERROR_TITLE'
+  group = 'administration-tools - system - formats'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Error'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Fejl'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_formats_delete_format_error_body {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_FORMATS_DELETE_FORMAT_ERROR_BODY'
+  group = 'administration-tools - system - formats'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Format not deleted'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Formatet er ikke slettet'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_formats_choose_watermark {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_FORMATS_CHOOSE_WATERMARK'
+  group = 'administration-tools - system - formats'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Choose a watermark'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Vælg et vandmærke'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_formats_changes_saved {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_FORMATS_CHANGES_SAVED
+  group = 'administration-tools - system - formats'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Changes saved'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Ændringer gemt'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_formats_save_error_title {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_FORMATS_SAVE_ERROR_TITLE
+  group = 'administration-tools - system - formats'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Error'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Fejl'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_formats_save_error_body {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_FORMATS_SAVE_ERROR_BODY
+  group = 'administration-tools - system - formats'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Changes not saved'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Ændringer er ikke gemt'
+      language_id = data.language.danish.id
+    }
+  ]
+}
