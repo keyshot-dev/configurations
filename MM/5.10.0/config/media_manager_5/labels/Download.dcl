@@ -46,6 +46,22 @@ resource configservice_label download_download_popup_no_downloads {
   ]
 }
 
+resource configservice_label download_access_key_expired_error {
+  key = 'DOWNLOAD_ACCESS_KEY_EXPIRED_ERROR'
+  group = 'Download'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Your session has expired. Please refresh the asset list'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Din session er udløbet. Opdater venligst asset-listen'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label download_custom_quality_dialog {
   key = 'DOWNLOAD_CUSTOM_QUALITY_DIALOG'
   group = 'Download'
