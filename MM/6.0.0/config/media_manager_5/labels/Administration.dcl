@@ -9190,11 +9190,11 @@ resource configservice_label administration_tools_system_formats_format_type {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Format type'
+      default_translation = 'Type'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Formattype'
+      default_translation = 'Type'
       language_id = data.language.danish.id
     }
   ]
@@ -9338,7 +9338,7 @@ resource configservice_label administration_tools_system_formats_immediately_gen
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Umiddelbart genereret til'
+      default_translation = 'Automatisk genereret for'
       language_id = data.language.danish.id
     }
   ]
@@ -9350,11 +9350,11 @@ resource configservice_label administration_tools_system_formats_format_purpose 
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Format purpose'
+      default_translation = 'Purpose'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Format formål'
+      default_translation = 'Formål'
       language_id = data.language.danish.id
     }
   ]
@@ -9382,11 +9382,11 @@ resource configservice_label administration_tools_system_formats_filter_by_chann
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'A rendition of an asset in this format is downloadable if the asset is published to at least one of the selected channel folders or any of its subfolders. If this field is empty, no filtering is applied based on channel folders.'
+      default_translation = 'A rendition of an asset in this format is downloadable if the asset is published to at least one of the selected channels\' folders or subfolders. If this field is empty, no filtering is applied based on channel folders.'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'En rendition af et asset i dette format kan downloades, hvis assetet er publiceret til mindst én af de valgte kanalmapper eller en af dets undermapper. Hvis dette felt er tomt, anvendes der ingen filtrering baseret på kanalmapper.'
+      default_translation = 'En rendition af et asset i dette format kan downloades, hvis assetet er publiceret til mindst én af de valgte kanalers mapper eller undermapper. Hvis dette felt er tomt, anvendes der ingen filtrering baseret på kanalmapper.'
       language_id = data.language.danish.id
     }
   ]
@@ -9418,7 +9418,7 @@ resource configservice_label administration_tools_system_formats_filter_by_asset
       language_id = data.language.english.id
     },
     {
-      default_translation = 'En rendition af et asset i dette format kan downloades, hvis aktivtypen matcher en af de valgte asset-typer. Hvis dette felt er tomt, anvendes der ingen filtrering baseret på asset-typer.'
+      default_translation = 'En rendition af et asset i dette format kan downloades, hvis asset-typen matcher en af de valgte typer. Hvis dette felt er tomt, anvendes der ingen filtrering baseret på asset-typer.'
       language_id = data.language.danish.id
     }
   ]
@@ -9434,7 +9434,7 @@ resource configservice_label administration_tools_system_formats_download_replac
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Download udskift maske'
+      default_translation = 'Download-erstatnings-maske'
       language_id = data.language.danish.id
     }
   ]
@@ -9446,11 +9446,11 @@ resource configservice_label administration_tools_system_formats_download_replac
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'The file name to use when downloading renditions of this format. The following special strings are recognized and replaced with the corresponding data: [%AssetId%], [%AssetIdGrouped_XX%], [%ItemId%], [%SourceFileName%], [%FormatId%], [%FormatName%], [%AssetTitle%], [%MetafieldId_XX%]. For the special original format with id -1, [%FormatId%] is ignored.'
+      default_translation = 'The logic used to generate a file name when downloading a rendition of this format. The following special strings are recognized and replaced with the corresponding data: [%AssetId%], [%AssetIdGrouped_XX%], [%ItemId%], [%SourceFileName%], [%FormatId%], [%FormatName%], [%AssetTitle%], [%MetafieldId_XX%]. For the special original format, with id -1, [%FormatId%] is ignored.'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Filnavnet, der skal bruges ved download af renditions af dette format. Følgende specielle strenge genkendes og erstattes med de tilsvarende data: [%AssetId%], [%AssetIdGrouped_XX%], [%ItemId%], [%SourceFileName%], [%FormatId%], [%FormatName%], [ %AssetTitle%], [%MetafieldId_XX%]. For det specielle originalformat med id -1 ignoreres [%FormatId%].'
+      default_translation = 'Logikken, der bruges til at generere et filnavn, når en renditions af dette format downloades. De følgende specielle strenge genkendes og erstattes med de tilsvarende data: [%AssetId%], [%AssetIdGrouped_XX%], [%ItemId%], [%SourceFileName%], [%FormatId%], [%FormatName%], [ %AssetTitle%], [%MetafieldId_XX%]. For det specielle original-format, med id -1, ignoreres [%FormatId%].'
       language_id = data.language.danish.id
     }
   ]
@@ -9526,11 +9526,11 @@ resource configservice_label administration_tools_system_formats_param_error_min
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = '{{label}} should not be less then {{value}}'
+      default_translation = '{{label}} cannot be less than {{value}}'
       language_id = data.language.english.id
     },
     {
-      default_translation = '{{label}} bør ikke være mindre end {{value}}'
+      default_translation = '{{label}} må ikke være mindre end {{value}}'
       language_id = data.language.danish.id
     }
   ]
@@ -9542,11 +9542,11 @@ resource configservice_label administration_tools_system_formats_param_error_max
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = '{{label}} should not be more than {{value}}'
+      default_translation = '{{label}} cannot be more than {{value}}'
       language_id = data.language.english.id
     },
     {
-      default_translation = '{{label}} bør ikke være mere end {{value}}'
+      default_translation = '{{label}} må ikke være mere end {{value}}'
       language_id = data.language.danish.id
     }
   ]
@@ -9658,7 +9658,7 @@ resource configservice_label administration_tools_system_formats_delete_format_e
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Formatet er ikke slettet'
+      default_translation = 'Formatet blev ikke slettet'
       language_id = data.language.danish.id
     }
   ]
@@ -9670,7 +9670,7 @@ resource configservice_label administration_tools_system_formats_choose_watermar
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Choose a watermark'
+      default_translation = 'Choose watermark'
       language_id = data.language.english.id
     },
     {
@@ -9690,7 +9690,7 @@ resource configservice_label administration_tools_system_formats_changes_saved {
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Ændringer gemt'
+      default_translation = 'Ændringerne blev gemt'
       language_id = data.language.danish.id
     }
   ]
@@ -9722,7 +9722,7 @@ resource configservice_label administration_tools_system_formats_save_error_body
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Ændringer er ikke gemt'
+      default_translation = 'Ændringerne blev ikke gemt'
       language_id = data.language.danish.id
     }
   ]
