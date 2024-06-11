@@ -8062,6 +8062,22 @@ resource configservice_label administration_tools_analytics_member_filter_member
   ]
 }
 
+resource configservice_label administration_tools_system_select_section {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_SELECT_SECTION'
+  group = 'administration-tools - system'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Select a section'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Vælg en sektion'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label administration_tools_system_nav_users_and_groups {
   key = 'ADMINISTRATION_TOOLS_SYSTEM_NAV_USERS_AND_GROUPS'
   group = 'administration-tools - system'
@@ -9083,6 +9099,454 @@ resource configservice_label administration_tools_system_metadata_date_format {
     },
     {
       default_translation = 'Datoformat'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_formats_section {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_FORMATS_SECTION'
+  group = 'administration-tools - system - formats'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Formats'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Formater'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_formats_add_new {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_FORMATS_ADD_NEW'
+  group = 'administration-tools - system - formats'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Add new'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Tilføj ny'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_formats_refresh {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_FORMATS_REFRESH'
+  group = 'administration-tools - system - formats'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Refresh'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Genindlæs'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_formats_id {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_FORMATS_ID'
+  group = 'administration-tools - system - formats'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'ID'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Id'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_formats_name {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_FORMATS_NAME'
+  group = 'administration-tools - system - formats'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Name'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Navn'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_formats_format_type {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_FORMATS_FORMAT_TYPE'
+  group = 'administration-tools - system - formats'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Format type'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Formattype'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_formats_actions {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_FORMATS_ACTIONS'
+  group = 'administration-tools - system - formats'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Actions'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Handlinger'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_formats_delete {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_FORMATS_DELETE'
+  group = 'administration-tools - system - formats'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Delete'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Slet'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_formats_field_required {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_FORMATS_FIELD_REQUIRED'
+  group = 'administration-tools - system - formats'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Field is required'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Felt påkravet'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_formats_description {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_FORMATS_DESCRIPTION'
+  group = 'administration-tools - system - formats'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Description'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Beskrivelse'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_formats_select_to_edit {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_FORMATS_SELECT_TO_EDIT'
+  group = 'administration-tools - system - formats'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Select to edit'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Vælg for at redigere'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_formats_no_formats_found {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_FORMATS_NO_FORMATS_FOUND'
+  group = 'administration-tools - system - formats'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'No formats found'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Ingen formater fundet'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_formats_save_btn {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_FORMATS_SAVE_BTN'
+  group = 'administration-tools - system - formats'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = '{saving, select, true {Saving...} false {Save}}'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = '{saving, select, true {Gemmer...} false {Gem}}'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_formats_cancel_btn {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_FORMATS_CANCEL_BTN'
+  group = 'administration-tools - system - formats'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Cancel'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Annullér'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_formats_immediately_generated_for {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_FORMATS_IMMEDIATELY_GENERATED_FOR'
+  group = 'administration-tools - system - formats'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Immediately generated for'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Umiddelbart genereret til'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_formats_format_purpose {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_FORMATS_FORMAT_PURPOSE'
+  group = 'administration-tools - system - formats'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Format purpose'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Format formål'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_formats_filter_by_channels {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_FORMATS_FILTER_BY_CHANNELS'
+  group = 'administration-tools - system - formats'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Filter by channels'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Filtrer efter kanaler'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_formats_filter_by_channels_tooltip {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_FORMATS_FILTER_BY_CHANNELS_TOOLTIP'
+  group = 'administration-tools - system - formats'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'A rendition of an asset in this format is downloadable if the asset is published to at least one of the selected channel folders or any of its subfolders. If this field is empty, no filtering is applied based on channel folders.'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'En rendition af et asset i dette format kan downloades, hvis assetet er publiceret til mindst én af de valgte kanalmapper eller en af dets undermapper. Hvis dette felt er tomt, anvendes der ingen filtrering baseret på kanalmapper.'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_formats_filter_by_asset_types {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_FORMATS_FILTER_BY_ASSET_TYPES'
+  group = 'administration-tools - system - formats'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Asset types'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Asset-typer'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_formats_filter_by_asset_types_tooltip {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_FORMATS_FILTER_BY_ASSET_TYPES_TOOLTIP'
+  group = 'administration-tools - system - formats'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'A rendition of an asset in this format is downloadable if the asset type matches one of the selected asset types. If this field is empty, no filtering is applied based on asset types.'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'En rendition af et asset i dette format kan downloades, hvis aktivtypen matcher en af de valgte asset-typer. Hvis dette felt er tomt, anvendes der ingen filtrering baseret på asset-typer.'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_formats_download_replace_mask {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_FORMATS_DOWNLOAD_REPLACE_MASK'
+  group = 'administration-tools - system - formats'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Download replace mask'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Download udskift maske'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_formats_download_replace_mask_tooltip {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_FORMATS_DOWNLOAD_REPLACE_MASK_TOOLTIP'
+  group = 'administration-tools - system - formats'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'The file name to use when downloading renditions of this format. The following special strings are recognized and replaced with the corresponding data: [%AssetId%], [%AssetIdGrouped_XX%], [%ItemId%], [%SourceFileName%], [%FormatId%], [%FormatName%], [%AssetTitle%], [%MetafieldId_XX%]. For the special original format with id -1, [%FormatId%] is ignored.'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Filnavnet, der skal bruges ved download af renditions af dette format. Følgende specielle strenge genkendes og erstattes med de tilsvarende data: [%AssetId%], [%AssetIdGrouped_XX%], [%ItemId%], [%SourceFileName%], [%FormatId%], [%FormatName%], [ %AssetTitle%], [%MetafieldId_XX%]. For det specielle originalformat med id -1 ignoreres [%FormatId%].'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_formats_choose_asset {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_FORMATS_CHOOSE_ASSET'
+  group = 'administration-tools - system - formats'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Choose asset'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Vælg asset'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_formats_clear_asset {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_FORMATS_CLEAR_ASSET'
+  group = 'administration-tools - system - formats'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Clear asset'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Ryd asset'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_formats_unknown_input_type {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_FORMATS_UNKNOWN_INPUT_TYPE'
+  group = 'administration-tools - system - formats'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Unknown input type'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Ukendt inputtype'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_formats_param_error_required {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_FORMATS_PARAM_ERROR_REQUIRED'
+  group = 'administration-tools - system - formats'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = '{{label}} is required'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = '{{label}} påkrævet'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_formats_param_error_min {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_FORMATS_PARAM_ERROR_MIN'
+  group = 'administration-tools - system - formats'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = '{{label}} should not be less then {{value}}'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = '{{label}} bør ikke være mindre end {{value}}'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_formats_param_error_max {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_FORMATS_PARAM_ERROR_MAX'
+  group = 'administration-tools - system - formats'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = '{{label}} should not be more than {{value}}'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = '{{label}} bør ikke være mere end {{value}}'
       language_id = data.language.danish.id
     }
   ]
