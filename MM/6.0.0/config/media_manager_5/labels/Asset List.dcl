@@ -2126,3 +2126,19 @@ resource configservice_label asset_list_trigger_asset_media_notification_failure
     }
   ]
 }
+
+resource configservice_label asset_list_box_view_item_channel_ids {
+  key = 'ASSET_LIST_BOX_VIEW_ITEM_CHANNEL_IDS'
+  group = 'Asset List'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Channel'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Kanal'
+      language_id = data.language.danish.id
+    }
+  ]
+}
