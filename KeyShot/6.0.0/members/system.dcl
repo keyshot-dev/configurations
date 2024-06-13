@@ -1,3 +1,3 @@
 data member_folder system {
-    name = 'System'
+    name = 'System users'
 }
