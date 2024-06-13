@@ -10,8 +10,6 @@ resource member_group light_user_24 {
         }, {
             constant = 'MediaPortal_Collection'
         }, {
-            constant = 'MediaPortal_Downloader'
-        }, {
             constant = 'Member_Viewer'
         }, {
             constant = 'MediaPortal_Share'

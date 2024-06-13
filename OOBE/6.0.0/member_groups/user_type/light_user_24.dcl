@@ -10,8 +10,6 @@ patch member_group light_user_patch {
         }, {
             constant = 'MediaPortal_Collection'
         }, {
-            constant = 'MediaPortal_Downloader'
-        }, {
             constant = 'Member_Viewer'
         }, {
             constant = 'MediaPortal_Share'

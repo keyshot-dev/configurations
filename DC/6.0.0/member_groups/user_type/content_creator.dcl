@@ -10,8 +10,6 @@ resource member_group content_creator {
         }, {
             constant = 'MediaPortal_Uploader'
         }, {
-            constant = 'MediaPortal_Downloader'
-        }, {
             constant = 'MediaPortal_Share'
         }, {
             constant = 'Can_view_metadata_tab'

@@ -10,19 +10,11 @@ patch member_group content_creator_patch {
         }, {
             constant = 'Viewer_Catalogs'
         }, {
-            constant = 'MediaPortal_Admin_Users'
-        }, {
-            constant = 'MediaPortal_Admin_Log'
-        }, {
-            constant = 'MediaPortal_Admin_Trash'
-        }, {
             constant = 'MediaPortal_User'
         }, {
             constant = 'MediaPortal_Collection'
         }, {
             constant = 'MediaPortal_Uploader'
-        }, {
-            constant = 'MediaPortal_Downloader'
         }, {
             constant = 'Member_Viewer'
         }, {

@@ -39,8 +39,6 @@ resource member superadministrator {
         }, {
             constant = 'Editor_SystemTools_Destinations'
         }, {
-            constant = 'Editor_SystemTools_Dam'
-        }, {
             constant = 'Editor_SystemTools_DigizuiteConfig'
         }, {
             constant = 'Editor_SystemTools_MediaFormat'
@@ -55,25 +53,9 @@ resource member superadministrator {
         }, {
             constant = 'RunningJobs_ViewAll'
         }, {
-            constant = 'RunningJobs_EditOwn'
-        }, {
-            constant = 'RunningJobs_EditAll'
-        }, {
-            constant = 'RunningJobs_ChangePriority'
-        }, {
             constant = 'RunningJobs_AdminViewBatchPackageInfo'
         }, {
-            constant = 'Uploader_ShowFolderSelector'
-        }, {
-            constant = 'Uploader_ReplaceWithArchive'
-        }, {
             constant = 'Editor_SystemTools_Config'
-        }, {
-            constant = 'VP3_Portal_Admin_StartScreen'
-        }, {
-            constant = 'VP3_Portal_Admin_VideoSlides'
-        }, {
-            constant = 'ItemControlAdmin'
         }, {
             constant = 'Editor_SystemTools_AlwaysAllowItemSecurityEdit'
         }, {
@@ -81,25 +63,13 @@ resource member superadministrator {
         }, {
             constant = 'MediaPortal_Admin_Users'
         }, {
-            constant = 'MediaPortal_Admin_Log'
-        }, {
-            constant = 'MediaPortal_Admin_Trash'
-        }, {
             constant = 'MediaPortal_User'
         }, {
             constant = 'MediaPortal_Collection'
         }, {
             constant = 'MediaPortal_Uploader'
         }, {
-            constant = 'MediaPortal_Downloader'
-        }, {
-            constant = 'Editor_SystemTools_PlayerTemplate'
-        }, {
             constant = 'Editor_SystemTools_Stopwords'
-        }, {
-            constant = 'Editor_SystemTools_Status'
-        }, {
-            constant = 'Editor_SystemTools_Workflow'
         }, {
             constant = 'Editor_SystemTools_MediaFormatType'
         }, {
