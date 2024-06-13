@@ -1,13 +1,10 @@
 resource sso_configuration id_1 {
-    template_member_id = data.member.light_user.member_id
+    template_member_id = resource.member.hub_template_user.member_id
     group_sync_level = 'Ignore'
     user_folder_id = 0
     required_claims = [{
             name = 'organizationId'
             value = '${variable.keyshot_organization_id}'
-        }, {
-            name = 'seat'
-            value = 'true'
         }]
     name = 'Keyshot'
     is_default = true
