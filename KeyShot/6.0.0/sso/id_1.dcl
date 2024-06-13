@@ -22,7 +22,7 @@ resource sso_configuration id_1 {
             app_id = ''
         }
         openid_connect = {
-            authority = 'https://cognito-idp.us-east-2.amazonaws.com/us-east-2_wL6cyR1ws'
+            authority = 'https://cognito-idp.us-east-2.amazonaws.com/us-east-2_WbfJHLiQT'
             client_secret = '${variable.keyshot_client_secret}'
             client_id = '${variable.keyshot_client_id}'
             name_claim_type = 'http://schemas.xmlsoap.org/ws/2005/05/identity/claims/emailaddress'
