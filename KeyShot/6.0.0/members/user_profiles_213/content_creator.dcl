@@ -1,4 +1,3 @@
-data member content_creator {
-    username = 'ContentCreator'    
+data member light_user {
+    username = 'LightUser'    
 }
-
