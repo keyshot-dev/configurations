@@ -1,6 +1,6 @@
 resource sso_configuration id_1 {
     template_member_id = resource.member.hub_template_user.member_id
-    group_sync_level = 'Ignore'
+    group_sync_level = 'FullSync'
     user_folder_id = 0
     required_claims = [{
             name = 'organizationId'
