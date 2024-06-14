@@ -3413,11 +3413,11 @@ resource configservice_label asset_card_settings_input_search_placeholder {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Add button'
+      default_translation = 'Add fields'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Tilføj knap'
+      default_translation = 'Tilføj felter'
       language_id = data.language.danish.id
     }
   ]
