@@ -4,45 +4,55 @@ data member_group light_user {
 
 patch member_group light_user_patch {
     target = data.member_group.light_user
-    name = 'Light user (profile)'
     roles = [{
-            constant = 'MediaPortal_User'
+            constant = 'Can_Live_Export_Asset_Only'
         }, {
-            constant = 'MediaPortal_Collection'
+            constant = 'Can_crop_email'
         }, {
-            constant = 'MediaPortal_Downloader'
+            constant = 'Collection_can_share_mail'
         }, {
-            constant = 'Member_Viewer'
+            constant = 'Collection_can_share_user'
         }, {
-            constant = 'MediaPortal_Share'
+            constant = 'Collection_can_share_link'
         }, {
-            constant = 'MediaPortal_Video_Embed'
+            constant = 'Asset_Can_Crop'
+        }, {
+            constant = 'Asset_Can_Download_Custom_Quality'
+        }, {
+            constant = 'Asset_Can_Download'
+        }, {
+            constant = 'Can_Open_Office_Document'
+        }, {
+            constant = 'Can_view_metadata_tab'
+        }, {
+            constant = 'Can_view_portals'
+        }, {
+            constant = 'Can_view_related_assets'
+        }, {
+            constant = 'ChannelFolder_View'
         }, {
             constant = 'Comments_CRUD'
         }, {
             constant = 'Comments_View'
         }, {
-            constant = 'Asset_Can_Download'
-        }, {
-            constant = 'Asset_Can_Download_Custom_Quality'
-        }, {
-            constant = 'Asset_Can_Crop'
+            constant = 'Creative_Cloud_Connector'
         }, {
             constant = 'MediaPortal_Can_Preview_Office'
         }, {
-            constant = 'Can_Open_Office_Document'
+            constant = 'MediaPortal_Collection'
+        }, {
+            constant = 'MediaPortal_Downloader'
+        }, {
+            constant = 'MediaPortal_Share'
+        }, {
+            constant = 'MediaPortal_User'
+        }, {
+            constant = 'MediaPortal_Video_Embed'
+        }, {
+            constant = 'Member_Viewer'
         }, {
             constant = 'Saved_Searches_CRUD'
-        }, {
-            constant = 'ChannelFolder_View'
-        }, {
-            constant = 'Creative_Cloud_Connector'
-        }, {
-            constant = 'Can_view_portals'
-        }, {
-            constant = 'Can_view_metadata_tab'
-        }, {
-            constant = 'Can_view_related_assets'
         }]
+    name = 'Light user (profile)'
 }
 

@@ -4,91 +4,95 @@ data member_group content_creator {
 
 patch member_group content_creator_patch {
     target = data.member_group.content_creator
-    name = 'Content creator (profile)'
     roles = [{
-            constant = 'Uploader'
+            constant = 'Asset_Can_Archive'
         }, {
-            constant = 'Viewer_Catalogs'
+            constant = 'Can_crop_email'
         }, {
-            constant = 'MediaPortal_Admin_Users'
+            constant = 'Collection_can_share_mail'
         }, {
-            constant = 'MediaPortal_Admin_Log'
+            constant = 'Collection_can_share_user'
         }, {
-            constant = 'MediaPortal_Admin_Trash'
+            constant = 'Collection_can_share_link'
         }, {
-            constant = 'MediaPortal_User'
+            constant = 'Can_edit_tree_nodes'
         }, {
-            constant = 'MediaPortal_Collection'
+            constant = 'Ai_Add'
         }, {
-            constant = 'MediaPortal_Uploader'
+            constant = 'Ai_Translate'
         }, {
-            constant = 'MediaPortal_Downloader'
-        }, {
-            constant = 'Member_Viewer'
-        }, {
-            constant = 'MediaPortal_Share'
-        }, {
-            constant = 'MediaPortal_Video_Embed'
-        }, {
-            constant = 'Comments_CRUD'
-        }, {
-            constant = 'Comments_View'
-        }, {
-            constant = 'Asset_Can_Download'
+            constant = 'Asset_Can_Crop'
         }, {
             constant = 'Asset_Can_Download_Custom_Quality'
+        }, {
+            constant = 'Asset_Can_Download'
         }, {
             constant = 'Asset_Can_Replace'
         }, {
             constant = 'Asset_Can_Revise'
         }, {
-            constant = 'Asset_Can_Crop'
-        }, {
             constant = 'AuditTrail_View'
-        }, {
-            constant = 'Ai_Add'
-        }, {
-            constant = 'WorkStages_View'
-        }, {
-            constant = 'WorkStages_Edit_Others'
-        }, {
-            constant = 'WorkStages_View_Others'
-        }, {
-            constant = 'MediaPortal_Can_Preview_Office'
-        }, {
-            constant = 'Can_Open_Office_Document'
-        }, {
-            constant = 'Saved_Searches_CRUD'
-        }, {
-            constant = 'Ai_Translate'
-        }, {
-            constant = 'Can_Live_Export_Assets_And_Metadata'
         }, {
             constant = 'Can_Live_Export_Asset_Only'
         }, {
+            constant = 'Can_Live_Export_Assets_And_Metadata'
+        }, {
             constant = 'Can_Live_Export_Metadata_Only'
         }, {
-            constant = 'Business_Workflow_Instance_View'
+            constant = 'Can_Open_Office_Document'
         }, {
-            constant = 'Business_Workflow_Instance_Transition'
+            constant = 'Can_view_metadata_tab'
+        }, {
+            constant = 'Can_view_portals'
+        }, {
+            constant = 'Can_view_related_assets'
+        }, {
+            constant = 'ChannelFolder_View'
+        }, {
+            constant = 'Comments_CRUD'
+        }, {
+            constant = 'Comments_View'
+        }, {
+            constant = 'Creative_Cloud_Connector'
+        }, {
+            constant = 'FileRepository_Delete'
         }, {
             constant = 'FileRepository_Read'
         }, {
             constant = 'FileRepository_Upload'
         }, {
-            constant = 'FileRepository_Delete'
-        }, {
             constant = 'ItemCheckInOut_CRUD'
         }, {
-            constant = 'ChannelFolder_View'
+            constant = 'MediaPortal_Admin_Log'
         }, {
-            constant = 'Creative_Cloud_Connector'
+            constant = 'MediaPortal_Admin_Trash'
         }, {
-            constant = 'Can_view_portals'
+            constant = 'MediaPortal_Admin_Users'
         }, {
-            constant = 'Can_view_metadata_tab'
+            constant = 'MediaPortal_Can_Preview_Office'
         }, {
-            constant = 'Can_view_related_assets'
+            constant = 'MediaPortal_Collection'
+        }, {
+            constant = 'MediaPortal_Downloader'
+        }, {
+            constant = 'MediaPortal_Share'
+        }, {
+            constant = 'MediaPortal_Uploader'
+        }, {
+            constant = 'MediaPortal_User'
+        }, {
+            constant = 'MediaPortal_Video_Embed'
+        }, {
+            constant = 'Member_Viewer'
+        }, {
+            constant = 'Saved_Searches_CRUD'
+        }, {
+            constant = 'Uploader'
+        }, {
+            constant = 'Viewer_Catalogs'
+        }, {
+            constant = 'WorkStages_View'
         }]
+    name = 'Content creator (profile)'
 }
 
