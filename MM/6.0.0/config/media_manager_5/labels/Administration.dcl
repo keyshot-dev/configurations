@@ -3639,11 +3639,11 @@ resource configservice_label administration_tools_section_audit_trail {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Audit trail'
+      default_translation = 'Asset audit trail'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Audit trail'
+      default_translation = 'Asset audit trail'
       language_id = data.language.danish.id
     }
   ]
