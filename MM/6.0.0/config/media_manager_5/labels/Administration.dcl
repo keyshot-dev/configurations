@@ -7694,22 +7694,6 @@ resource configservice_label administration_tools_channels_delete_channel {
   ]
 }
 
-resource configservice_label administration_tools_channels_rename_channel {
-  key = 'ADMINISTRATION_TOOLS_CHANNELS_RENAME_CHANNEL'
-  group = 'administration-tools - channels'
-  product_id = resource.configservice_product.media_manager_5.id
-  default_label_values = [
-    {
-      default_translation = 'Rename channel'
-      language_id = data.language.english.id
-    },
-    {
-      default_translation = 'Omdøb kanal'
-      language_id = data.language.danish.id
-    }
-  ]
-}
-
 resource configservice_label administration_tools_channels_edit_name {
   key = 'ADMINISTRATION_TOOLS_CHANNELS_EDIT_NAME'
   group = 'administration-tools - channels'
@@ -8153,6 +8137,22 @@ resource configservice_label administration_tools_system_nav_formats {
     },
     {
       default_translation = 'Formater'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_nav_asset_type_extensions {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_NAV_ASSET_TYPE_EXTENSIONS'
+  group = 'administration-tools - system'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Asset type extensions'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Asset-type filtypenavn'
       language_id = data.language.danish.id
     }
   ]
@@ -9727,3 +9727,388 @@ resource configservice_label administration_tools_system_formats_save_error_body
     }
   ]
 }
+
+resource configservice_label administration_tools_system_asset_type_extensions_section_title {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_ASSET_TYPE_EXTENSIONS_SECTION_TITLE'
+  group = 'administration-tools - system - asset type extensions'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Asset type extensions'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Asset-type filtypenavn'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_asset_type_extensions_add_extension {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_ASSET_TYPE_EXTENSIONS_ADD_EXTENSION'
+  group = 'administration-tools - system - asset type extensions'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Add extension'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Tilføj filtypenavn'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_asset_type_extensions_refresh {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_ASSET_TYPE_EXTENSIONS_REFRESH'
+  group = 'administration-tools - system - asset type extensions'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Refresh'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Genindlæs'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_asset_type_extensions_id {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_ASSET_TYPE_EXTENSIONS_ID'
+  group = 'administration-tools - system - asset type extensions'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'ID'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Id'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_asset_type_extensions_asset_type {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_ASSET_TYPE_EXTENSIONS_ASSET_TYPE'
+  group = 'administration-tools - system - asset type extensions'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Asset type'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Asset-type'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_asset_type_extensions_extension {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_ASSET_TYPE_EXTENSIONS_EXTENSION'
+  group = 'administration-tools - system - asset type extensions'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Extension'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Filtypenavn'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_asset_type_extensions_actions {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_ASSET_TYPE_EXTENSIONS_ACTIONS'
+  group = 'administration-tools - system - asset type extensions'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Actions'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Handlinger'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_asset_type_extensions_delete_extension {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_ASSET_TYPE_EXTENSIONS_DELETE_EXTENSION'
+  group = 'administration-tools - system - asset type extensions'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Delete extension'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Slet filtypenavn'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_asset_type_extensions_extension_required {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_ASSET_TYPE_EXTENSIONS_EXTENSION_REQUIRED'
+  group = 'administration-tools - system - asset type extensions'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Extension is required'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Filtypenavn påkrævet'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_asset_type_extensions_extension_already_exists {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_ASSET_TYPE_EXTENSIONS_EXTENSION_ALREADY_EXISTS'
+  group = 'administration-tools - system - asset type extensions'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Extension is required'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Filtypenavn påkrævet'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_asset_type_extensions_cancel_btn {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_ASSET_TYPE_EXTENSIONS_CANCEL_BTN'
+  group = 'administration-tools - system - asset type extensions'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Cancel'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Annullér'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_asset_type_extensions_save_btn {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_ASSET_TYPE_EXTENSIONS_SAVE_BTN'
+  group = 'administration-tools - system - asset type extensions'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = '{saving, select, true {Saving...} false {Save}}'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = '{saving, select, true {Gemmer...} false {Gem}}'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_asset_type_extensions_edit_placeholder {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_ASSET_TYPE_EXTENSIONS_EDIT_PLACEHOLDER'
+  group = 'administration-tools - system - asset type extensions'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Add or delete an extension'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Tilføj eller slet filtypenavn'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_asset_type_extensions_no_extensions {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_ASSET_TYPE_EXTENSIONS_NO_EXTENSIONS'
+  group = 'administration-tools - system - asset type extensions'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'No extensions found'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Ingen filtypenavn fundet'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_asset_type_extensions_dialog_delete_title {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_ASSET_TYPE_EXTENSIONS_DIALOG_DELETE_TITLE'
+  group = 'administration-tools - system - asset type extensions'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Delete extension'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Slet filtypenavn'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_asset_type_extensions_dialog_delete_body {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_ASSET_TYPE_EXTENSIONS_DIALOG_DELETE_BODY'
+  group = 'administration-tools - system - asset type extensions'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = "Are you sure you want to delete the extension '{{extension}}'?"
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = "Er du sikker på at du vil slette filtypenavn '{{extension}}'?"
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_asset_type_extensions_dialog_delete_cancel {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_ASSET_TYPE_EXTENSIONS_DIALOG_DELETE_CANCEL'
+  group = 'administration-tools - system - asset type extensions'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Cancel'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Annullér'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_asset_type_extensions_dialog_delete_confirm {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_ASSET_TYPE_EXTENSIONS_DIALOG_DELETE_CONFIRM'
+  group = 'administration-tools - system - asset type extensions'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Delete'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Slet'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_asset_type_extensions_dialog_delete_success {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_ASSET_TYPE_EXTENSIONS_DIALOG_DELETE_SUCCESS'
+  group = 'administration-tools - system - asset type extensions'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Extension deleted'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Filtypenavn slettet'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_asset_type_extensions_dialog_delete_error_title {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_ASSET_TYPE_EXTENSIONS_DIALOG_DELETE_ERROR_TITLE'
+  group = 'administration-tools - system - asset type extensions'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Error'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Fejl'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_asset_type_extensions_dialog_delete_error_body {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_ASSET_TYPE_EXTENSIONS_DIALOG_DELETE_ERROR_BODY'
+  group = 'administration-tools - system - asset type extensions'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Extension not deleted'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Filtypenavn ikke slettet'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_asset_type_extensions_edit_save_success {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_ASSET_TYPE_EXTENSIONS_EDIT_SAVE_SUCCESS'
+  group = 'administration-tools - system - asset type extensions'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Extension saved'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Filtypenavn gemt'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_asset_type_extensions_edit_save_error_title {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_ASSET_TYPE_EXTENSIONS_EDIT_SAVE_ERROR_TITLE'
+  group = 'administration-tools - system - asset type extensions'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Error'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Fejl'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_asset_type_extensions_edit_save_error_body {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_ASSET_TYPE_EXTENSIONS_EDIT_SAVE_ERROR_BODY'
+  group = 'administration-tools - system - asset type extensions'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Extension not saved'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Filtypenavn ikke gemt'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
