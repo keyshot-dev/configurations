@@ -9878,11 +9878,11 @@ resource configservice_label administration_tools_system_asset_type_extensions_e
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Extension is required'
+      default_translation = 'Extension already exists'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Filtypenavn påkrævet'
+      default_translation = 'Filtypenavn findes allerede'
       language_id = data.language.danish.id
     }
   ]
