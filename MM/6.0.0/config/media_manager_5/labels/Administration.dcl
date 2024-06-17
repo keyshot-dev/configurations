@@ -8148,11 +8148,11 @@ resource configservice_label administration_tools_system_nav_asset_type_extensio
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Asset type extensions'
+      default_translation = 'Asset type mapping'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Asset-type filtypenavn'
+      default_translation = 'Asset-type-mapping'
       language_id = data.language.danish.id
     }
   ]
@@ -9738,7 +9738,7 @@ resource configservice_label administration_tools_system_asset_type_extensions_s
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Asset type mapping'
+      default_translation = 'Asset-type-mapping'
       language_id = data.language.danish.id
     }
   ]
@@ -9818,7 +9818,7 @@ resource configservice_label administration_tools_system_asset_type_extensions_e
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Filtypenavn'
+      default_translation = 'Filtype'
       language_id = data.language.danish.id
     }
   ]
@@ -9862,11 +9862,11 @@ resource configservice_label administration_tools_system_asset_type_extensions_e
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Extension is required'
+      default_translation = 'An extension is required'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Filtypenavn påkrævet'
+      default_translation = 'Filtype påkrævet'
       language_id = data.language.danish.id
     }
   ]
@@ -9878,11 +9878,11 @@ resource configservice_label administration_tools_system_asset_type_extensions_e
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Extension already exists'
+      default_translation = 'Mapping already exists'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Filtypenavn findes allerede'
+      default_translation = 'Mappingen findes allerede'
       language_id = data.language.danish.id
     }
   ]
@@ -9926,7 +9926,7 @@ resource configservice_label administration_tools_system_asset_type_extensions_e
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Add or delete a mapping'
+      default_translation = 'Add or delete mapping'
       language_id = data.language.english.id
     },
     {
@@ -9974,11 +9974,11 @@ resource configservice_label administration_tools_system_asset_type_extensions_d
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = "Are you sure you want to delete the mapping of extension '{{extension}}'?"
+      default_translation = "Are you sure you want to delete the mapping of the extension '{{extension}}'?"
       language_id = data.language.english.id
     },
     {
-      default_translation = "Er du sikker på at du vil slette mapping af extension '{{extension}}'?"
+      default_translation = "Er du sikker på at du vil slette mappingen af extensionen '{{extension}}'?"
       language_id = data.language.danish.id
     }
   ]
