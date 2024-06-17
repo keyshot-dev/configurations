@@ -6,7 +6,7 @@ resource sso_configuration id_1 {
             name = 'organizationId'
             value = '${variable.keyshot_organization_id}'
         }]
-    name = 'Keyshot'
+    name = 'KeyShot'
     is_default = true
     sort_index = 1
     provider = {
