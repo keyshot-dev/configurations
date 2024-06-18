@@ -9,8 +9,6 @@ resource member_group scheme__hub_creator_43 {
         }]
     download_qualities = []
     roles = [{
-            constant = 'Asset_Can_Delete_Permanently'
-        }, {
             constant = 'Can_configure_portals'
         }]
 }
