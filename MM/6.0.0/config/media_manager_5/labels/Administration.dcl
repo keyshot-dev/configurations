@@ -9206,11 +9206,11 @@ resource configservice_label administration_tools_system_metadata_dialog_delete_
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Metadata group not deleted'
+      default_translation = 'Metadata group not deleted. {{errorMessage}}'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Metadatagruppe blev ikke slettet'
+      default_translation = 'Metadatagruppe blev ikke slettet. {{errorMessage}}'
       language_id = data.language.danish.id
     }
   ]
