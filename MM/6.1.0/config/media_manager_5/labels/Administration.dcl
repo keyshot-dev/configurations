@@ -3639,11 +3639,27 @@ resource configservice_label administration_tools_section_audit_trail {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Audit trail'
+      default_translation = 'Asset audit trail'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Audit trail'
+      default_translation = 'Asset historik'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_section_system_audit_trail {
+  key = 'ADMINISTRATION_TOOLS_SECTION_SYSTEM_AUDIT_TRAIL'
+  group = 'administration-tools'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'System audit trail'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'System historik'
       language_id = data.language.danish.id
     }
   ]
