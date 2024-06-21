@@ -9226,7 +9226,7 @@ resource configservice_label administration_tools_system_metadata_dialog_delete_
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Metadatagruppe blev ikke slettet. {{errorMessage}}'
+      default_translation = 'Metadatagruppen blev ikke slettet. {{errorMessage}}'
       language_id = data.language.danish.id
     }
   ]
