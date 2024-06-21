@@ -9104,6 +9104,278 @@ resource configservice_label administration_tools_system_metadata_date_format {
   ]
 }
 
+resource configservice_label administration_tools_system_metadata_dialog_delete_group_title {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_METADATA_DIALOG_DELETE_GROUP_TITLE'
+  group = 'administration-tools - system - metadata'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Delete group'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Slet gruppe'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_metadata_dialog_delete_group_body {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_METADATA_DIALOG_DELETE_GROUP_BODY'
+  group = 'administration-tools - system - metadata'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = "Are you sure you want to delete the metadata group '{{groupName}}'?"
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = "Er du sikker på, at du vil slette metadatagruppen '{{groupName}}'?"
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_metadata_dialog_delete_group_cancel_btn {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_METADATA_DIALOG_DELETE_GROUP_CANCEL_BTN'
+  group = 'administration-tools - system - metadata'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Cancel'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Annullér'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_metadata_dialog_delete_group_confirm_btn {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_METADATA_DIALOG_DELETE_GROUP_CONFIRM_BTN'
+  group = 'administration-tools - system - metadata'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Delete'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Slet'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_metadata_dialog_delete_group_success {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_METADATA_DIALOG_DELETE_GROUP_SUCCESS'
+  group = 'administration-tools - system - metadata'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Metadata group deleted'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Metadatagruppe slettet'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_metadata_dialog_delete_group_error_title {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_METADATA_DIALOG_DELETE_GROUP_ERROR_TITLE'
+  group = 'administration-tools - system - metadata'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Error'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Fejl'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_metadata_dialog_delete_group_error_body {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_METADATA_DIALOG_DELETE_GROUP_ERROR_BODY'
+  group = 'administration-tools - system - metadata'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Metadata group not deleted'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Metadatagruppe blev ikke slettet'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_metadata_dialog_delete_field_title {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_METADATA_DIALOG_DELETE_FIELD_TITLE'
+  group = 'administration-tools - system - metadata'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Delete field'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Slet felt'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_metadata_dialog_delete_field_body {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_METADATA_DIALOG_DELETE_FIELD_BODY'
+  group = 'administration-tools - system - metadata'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = "Are you sure you want to delete the metadata field '{{fieldName}}'?"
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = "Er du sikker på, at du vil slette metadatafeltet '{{fieldName}}'?"
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_metadata_dialog_delete_field_cancel_btn {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_METADATA_DIALOG_DELETE_FIELD_CANCEL_BTN'
+  group = 'administration-tools - system - metadata'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Cancel'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Annullér'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_metadata_dialog_delete_field_confirm_btn {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_METADATA_DIALOG_DELETE_FIELD_CONFIRM_BTN'
+  group = 'administration-tools - system - metadata'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Delete'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Slet'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_metadata_dialog_delete_field_success {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_METADATA_DIALOG_DELETE_FIELD_SUCCESS'
+  group = 'administration-tools - system - metadata'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Metadata field deleted'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Metadatafelt slettet'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_metadata_dialog_delete_field_error_title {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_METADATA_DIALOG_DELETE_FIELD_ERROR_TITLE'
+  group = 'administration-tools - system - metadata'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Error'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Fejl'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_metadata_dialog_delete_field_error_body {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_METADATA_DIALOG_DELETE_FIELD_ERROR_BODY'
+  group = 'administration-tools - system - metadata'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Metadata field not deleted'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Metadatafeltet blev ikke slettet'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_metadata_edit_changes_saved {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_METADATA_EDIT_CHANGES_SAVED'
+  group = 'administration-tools - system - metadata'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Changes saved'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Ændringerne blev gemt'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_metadata_edit_save_error_title {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_METADATA_EDIT_SAVE_ERROR_TITLE'
+  group = 'administration-tools - system - metadata'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Error'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Fejl'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_metadata_edit_save_error_body {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_METADATA_EDIT_SAVE_ERROR_BODY'
+  group = 'administration-tools - system - metadata'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Changes not saved'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Ændringerne blev ikke gemt'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label administration_tools_system_formats_section {
   key = 'ADMINISTRATION_TOOLS_SYSTEM_FORMATS_SECTION'
   group = 'administration-tools - system - formats'
