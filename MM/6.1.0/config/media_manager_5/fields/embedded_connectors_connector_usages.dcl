@@ -4,6 +4,6 @@ resource configservice_bit_config_field embedded_connectors_connector_usages {
     group = 'Embedded Connectors'
     key = 'embeddedConnectorsConnectorUsages'
     title = 'Connector usages'
-    description = 'If enabled, assets\' previews will show the tab \'Connector usages\', which gives you an overview of applications of the asset in your product.'
+    description = 'If enabled, assets\' previews will show the tab \'Connector usages\', which gives you an overview of assets\' usages in your product.'
     hidden = true
 }

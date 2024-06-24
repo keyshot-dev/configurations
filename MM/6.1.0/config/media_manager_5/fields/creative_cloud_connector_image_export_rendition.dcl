@@ -5,7 +5,7 @@ resource configservice_int_config_field image_export_quality {
     group = 'Creative Cloud Connector'
     key = 'creativeCloudConnectorHighQuality'
     title = 'Image export quality'
-    description = 'Defines the quality you should by default use when when you exporting documents containing image assets'
+    description = 'Defines the default rendition used when exporting documents containing image assets'
     hidden = true
 }
 

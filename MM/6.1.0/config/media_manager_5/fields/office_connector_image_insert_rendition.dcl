@@ -5,6 +5,6 @@ resource configservice_int_config_field office_connector_image_insert_rendition 
     group = 'Office Connector'
     key = 'officeConnectorImageInsertRendition'
     title = 'Image insert quality'
-    description = 'Defines the default quality for inserting image assets'
+    description = 'Defines the default rendition when inserting image assets'
     hidden = true
 }
