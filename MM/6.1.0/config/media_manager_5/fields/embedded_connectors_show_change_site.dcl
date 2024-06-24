@@ -4,6 +4,6 @@ resource configservice_bit_config_field embedded_connectors_show_change_site {
     group = 'Embedded Connectors'
     key = 'embeddedConnectorsShowChangeSite'
     title = 'Show change site'
-    description = 'If checked, the change site feature will be enabled.'
+    description = 'If checked, the \'Change site\' option will show.'
     hidden = true
 }

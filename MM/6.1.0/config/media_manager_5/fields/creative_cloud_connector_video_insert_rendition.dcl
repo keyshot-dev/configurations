@@ -5,6 +5,6 @@ resource configservice_int_config_field video_insert_quality {
     group = 'Creative Cloud Connector'
     key = 'creativeCloudConnectorVideoLowQuality'
     title = 'Video insert quality'
-    description = ''
+    description = 'Defines the default quality for inserting video assets'
     hidden = true
 }

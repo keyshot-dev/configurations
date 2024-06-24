@@ -5,6 +5,6 @@ resource configservice_int_config_field image_insert_quality {
     group = 'Creative Cloud Connector'
     key = 'creativeCloudConnectorLowQuality'
     title = 'Image insert quality'
-    description = ''
+    description = 'Defines the default quality for inserting image assets'
     hidden = true
 }
