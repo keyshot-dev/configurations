@@ -6,6 +6,6 @@ resource configservice_int_config_field office_connector_image_export_rendition 
     key = 'officeConnectorImageExportRendition'
     title = 'Image export rendition'
     description = 'Defines the default rendition used when exporting documents containing image assets'
-    hidden = false
+    hidden = true
 }
 

@@ -6,5 +6,5 @@ resource configservice_int_config_field video_insert_quality {
     key = 'creativeCloudConnectorVideoLowQuality'
     title = 'Video insert rendition'
     description = 'Defines the default rendition used when inserting video assets'
-    hidden = false
+    hidden = true
 }

@@ -6,5 +6,5 @@ resource configservice_int_config_field office_connector_image_insert_rendition 
     key = 'officeConnectorImageInsertRendition'
     title = 'Image insert rendition'
     description = 'Defines the default rendition when inserting image assets'
-    hidden = false
+    hidden = true
 }

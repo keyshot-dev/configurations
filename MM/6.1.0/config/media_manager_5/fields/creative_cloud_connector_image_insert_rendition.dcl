@@ -6,5 +6,5 @@ resource configservice_int_config_field image_insert_quality {
     key = 'creativeCloudConnectorLowQuality'
     title = 'Image insert rendition'
     description = 'Defines the default rendition when inserting image assets'
-    hidden = false
+    hidden = true
 }

@@ -5,5 +5,5 @@ resource configservice_bit_config_field embedded_connectors_view_in_connector {
     key = 'embeddedConnectorsViewInConnector'
     title = 'View in connector'
     description = 'If enabled, a button will appear in assets\' more menus. Pressing it, it\'ll dispatch an event containing the asset\'s ID.'
-    hidden = false
+    hidden = true
 }

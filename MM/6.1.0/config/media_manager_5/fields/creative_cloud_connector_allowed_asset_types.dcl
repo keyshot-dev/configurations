@@ -249,5 +249,5 @@ resource configservice_multi_combo_config_field creative_cloud_connector_allowed
     key = 'creativeCloudConnectorAllowedAssetTypes'
     title = 'Allowed asset types'
     description = 'Only the selected asset types will be shown in the search results'
-    hidden = false
+    hidden = true
 }

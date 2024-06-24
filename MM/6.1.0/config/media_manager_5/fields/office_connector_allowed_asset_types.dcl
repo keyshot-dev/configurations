@@ -249,5 +249,5 @@ resource configservice_multi_combo_config_field office_connector_allowed_asset_t
     key = 'officeConnectorAllowedAssetTypes'
     title = 'Allowed asset types'
     description = 'Only the selected asset types will be shown in the search results'
-    hidden = false
+    hidden = true
 }
