@@ -588,6 +588,23 @@ resource configservice_label workflow_editor_editor_node_delete {
   ]
 }
 
+resource configservice_label workflow_editor_flow_editor_status_text {
+  key = 'WORKFLOW_EDITOR_FLOW_EDITOR_STATUS_TEXT'
+  group = 'Workflow Management'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = '{value, select, true {Disabled} false {Active}}'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = '{value, select, true {Deaktiveret} false {Aktiv}}'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+
 resource configservice_label workflow_editor_flow_editor_add_new_trigger {
   key = 'WORKFLOW_EDITOR_FLOW_EDITOR_ADD_NEW_TRIGGER'
   group = 'Workflow Management'
