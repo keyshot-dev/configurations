@@ -245,7 +245,7 @@ resource configservice_combo_config_field_option office_connector_allowed_asset_
 
 resource configservice_multi_combo_config_field office_connector_allowed_asset_types {
     product_id = resource.configservice_product.media_manager_5.id
-    group = 'Office Connector'
+    group = 'Integration - Office Connector'
     key = 'officeConnectorAllowedAssetTypes'
     title = 'Allowed asset types'
     description = 'Only the selected asset types will be shown in the search results'
