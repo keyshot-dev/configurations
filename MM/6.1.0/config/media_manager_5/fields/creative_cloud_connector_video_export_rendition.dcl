@@ -6,6 +6,6 @@ resource configservice_int_config_field video_export_quality {
     key = 'creativeCloudConnectorVideoHighQuality'
     title = 'Video export quality'
     description = 'Defines the default rendition used when exporting documents containing video assets'
-    hidden = true
+    hidden = false
 }
 

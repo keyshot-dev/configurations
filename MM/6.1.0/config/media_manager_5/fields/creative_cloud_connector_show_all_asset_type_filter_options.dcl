@@ -5,6 +5,6 @@ resource configservice_bit_config_field creative_cloud_connector_show_all_asset_
     key = 'creativeCloudConnectorShowAllAssetTypeFilterOptions'
     title = 'Show all asset type filter options'
     description = 'If checked, you can filter on all asset types. If unchecked, you can only filter on asset types included in the \'Allowed asset types\' field'
-    hidden = true
+    hidden = false
 }
 

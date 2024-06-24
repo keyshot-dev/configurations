@@ -6,6 +6,6 @@ resource configservice_int_config_field image_export_quality {
     key = 'creativeCloudConnectorHighQuality'
     title = 'Image export quality'
     description = 'Defines the default rendition used when exporting documents containing image assets'
-    hidden = true
+    hidden = false
 }
 
