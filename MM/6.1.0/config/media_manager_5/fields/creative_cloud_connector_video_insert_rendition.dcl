@@ -4,7 +4,7 @@ resource configservice_int_config_field video_insert_quality {
     product_id = resource.configservice_product.media_manager_5.id
     group = 'Connector - Creative Cloud Connector'
     key = 'creativeCloudConnectorVideoLowQuality'
-    title = 'Video insert quality'
+    title = 'Video insert rendition'
     description = 'Defines the default rendition used when inserting video assets'
     hidden = false
 }

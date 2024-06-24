@@ -4,7 +4,7 @@ resource configservice_int_config_field image_insert_quality {
     product_id = resource.configservice_product.media_manager_5.id
     group = 'Connector - Creative Cloud Connector'
     key = 'creativeCloudConnectorLowQuality'
-    title = 'Image insert quality'
+    title = 'Image insert rendition'
     description = 'Defines the default rendition when inserting image assets'
     hidden = false
 }

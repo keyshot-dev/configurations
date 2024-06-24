@@ -4,7 +4,7 @@ resource configservice_int_config_field image_export_quality {
     product_id = resource.configservice_product.media_manager_5.id
     group = 'Connector - Creative Cloud Connector'
     key = 'creativeCloudConnectorHighQuality'
-    title = 'Image export quality'
+    title = 'Image export rendition'
     description = 'Defines the default rendition used when exporting documents containing image assets'
     hidden = false
 }
