@@ -3659,7 +3659,7 @@ resource configservice_label administration_tools_section_system_audit_trail {
       language_id = data.language.english.id
     },
     {
-      default_translation = 'System historik'
+      default_translation = 'System-historik'
       language_id = data.language.danish.id
     }
   ]
