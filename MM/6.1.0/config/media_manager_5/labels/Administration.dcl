@@ -3643,7 +3643,7 @@ resource configservice_label administration_tools_section_audit_trail {
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Asset historik'
+      default_translation = 'Asset-historik'
       language_id = data.language.danish.id
     }
   ]
