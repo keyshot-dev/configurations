@@ -24,7 +24,7 @@ resource configservice_label asset_insert_link_copied_notification {
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Asset-link blev kopieret til din udklipsholder'
+      default_translation = 'Asset-linket blev kopieret til din udklipsholder'
       language_id = data.language.danish.id
     }
   ]

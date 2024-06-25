@@ -728,7 +728,7 @@ resource configservice_label asset_list_more_popup_copy_asset_quality {
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Kopier rendition link'
+      default_translation = 'Kopier rendition-link'
       language_id = data.language.danish.id
     }
   ]
