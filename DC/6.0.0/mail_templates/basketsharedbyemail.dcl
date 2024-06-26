@@ -5,16 +5,16 @@ resource mail_template basketsharedbyemail {
     subject = "{{sender.name}} has invited you to join a shared collection in Digizuite' Media Manager"
     body = '{{include \'html-header-start\'}}
 
-<title>Join a shared collection form Digizuite&#8482;</title>
+<title>Join a shared collection</title>
 
 {{include \'html-header-end\'}}
 
-<span class="preheader">{{sender.name  | html.escape}} has invited you to join a shared collection in Digizuite&#8482; Media Manager</span>
+<span class="preheader">{{sender.name  | html.escape}} has invited you to join a shared collection</span>
 
 {{include \'standard-header\'}}
 
 <h1>Hi {{receiver.name | html.escape}},</h1>
-<p>{{sender.name | html.escape}} ({{sender.email_address | html.escape}}) has invited you to join a shared collection in Digizuite&#8482; Media Manager called <strong>“{{data.collection_name | html.escape}}”</strong>. Enjoy!
+<p>{{sender.name | html.escape}} ({{sender.email_address | html.escape}}) has invited you to join a shared collection called <strong>“{{data.collection_name | html.escape}}”</strong>. Enjoy!
     <br>
     <br>
     <strong>Message from {{sender.name | html.escape}}:</strong>

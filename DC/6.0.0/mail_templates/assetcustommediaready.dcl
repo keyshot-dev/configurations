@@ -15,7 +15,7 @@ resource mail_template assetcustommediaready {
 
 
 <h1>Hi {{receiver.name | html.escape}},</h1>
-<p>Your custom generated file is now ready for download from Digizuite&#8482; Media Manager
+<p>Your custom generated file is now ready for download
     <strong>Enjoy!</strong>
 </p>
 <!-- Action -->

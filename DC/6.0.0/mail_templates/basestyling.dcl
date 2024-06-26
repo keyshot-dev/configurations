@@ -6,7 +6,7 @@ resource mail_template basestyling {
     body = '<style type="text/css" rel="stylesheet" media="all">
     /* Base ------------------------------ */
     *:not(br):not(tr):not(html):not(head) {
-        font-family: Droid Sans,arial,helvetica,sans-serif;
+        font-family: Arial,helvetica,sans-serif;
         box-sizing: border-box;
     }
     body {
@@ -19,7 +19,7 @@ resource mail_template basestyling {
         -webkit-text-size-adjust: none;
     }
     a {
-        color: #32e65e;
+        color: #f65800;
     }
     a img {
         border: none;
@@ -120,11 +120,11 @@ resource mail_template basestyling {
     }
     /* Buttons ------------------------------ */
     .button {
-        background-color: #32e65e;
-        border-top: 10px solid #32e65e;
-        border-right: 18px solid #32e65e;
-        border-bottom: 10px solid #32e65e;
-        border-left: 18px solid #32e65e;
+        background-color: #f65800;
+        border-top: 10px solid #f65800;
+        border-right: 18px solid #f65800;
+        border-bottom: 10px solid #f65800;
+        border-left: 18px solid #f65800;
         display: inline-block;
         color: #FFF;
         text-decoration: none;
