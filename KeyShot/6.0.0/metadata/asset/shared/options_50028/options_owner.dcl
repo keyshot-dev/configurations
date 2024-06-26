@@ -6,4 +6,5 @@ data masteritem_reference_metafield options_owner {
 patch masteritem_reference_metafield options_owner_patch {
     target = data.masteritem_reference_metafield.options_owner
     show_in_list = false
+    readonly = true
 }
