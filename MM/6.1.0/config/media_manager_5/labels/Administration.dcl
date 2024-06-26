@@ -6153,6 +6153,22 @@ resource configservice_label administration_tools_users_and_groups_group_id {
   ]
 }
 
+resource configservice_label administration_tools_users_and_groups_group_item_id {
+  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_GROUP_ITEM_ID'
+  group = 'administration-tools - users-and-groups'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Item ID'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Item-id'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label administration_tools_users_and_groups_binding_group_name {
   key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_BINDING_GROUP_NAME'
   group = 'administration-tools - users-and-groups'
@@ -6743,6 +6759,22 @@ resource configservice_label administration_tools_users_and_groups_user_id {
     },
     {
       default_translation = 'ID'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_users_and_groups_user_item_id {
+  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_USER_ITEM_ID'
+  group = 'administration-tools - users-and-groups'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Item ID'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Item-id'
       language_id = data.language.danish.id
     }
   ]
@@ -7625,6 +7657,22 @@ resource configservice_label administration_tools_channels_table_id {
     },
     {
       default_translation = 'Id'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_channels_table_item_id {
+  key = 'ADMINISTRATION_TOOLS_CHANNELS_TABLE_ITEM_ID'
+  group = 'administration-tools - channels'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Item ID'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Item-id'
       language_id = data.language.danish.id
     }
   ]
