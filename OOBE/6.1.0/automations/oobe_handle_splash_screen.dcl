@@ -12,8 +12,8 @@ resource automation_workflow oobe_handle_splash_screen {
 
 action "Move asset to Splash screen channel folder 1" {
 	type = "Move Asset To Folder"
-	asset_item_id = "@sourceAssetItemId"
-	folder = "10,${to_string(data.channel_folder.splashscreen.channel_folder_id)}"
+	asset_item_ids = "@sourceAssetItemId"
+	folders = "10,${to_string(data.channel_folder.splashscreen.channel_folder_id)}"
 }
 
 trigger "Asset uploaded" {
@@ -35,8 +35,8 @@ action "Set Bit Metafield" {
 action "Move asset to Splash screen channel folder 2" {
 	type = "Move Asset To Folder"
 	needs = []
-	asset_item_id = "@sourceAssetItemId"
-	folder = "10,${to_string(data.channel_folder.splashscreen.channel_folder_id)}"
+	asset_item_ids = "@sourceAssetItemId"
+	folders = "10,${to_string(data.channel_folder.splashscreen.channel_folder_id)}"
 }
 '
     is_disabled = false

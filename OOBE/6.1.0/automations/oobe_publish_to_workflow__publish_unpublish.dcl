@@ -27,8 +27,8 @@ filter "If deleted" {
 action "Move Asset To Folder" {
 	type = "Move Asset To Folder"
 	needs = "If added"
-	asset_item_id = "@sourceAssetItemId"
-	folder = "@folder"
+	asset_item_ids = "@sourceAssetItemId"
+	folders = "@folder"
 }
 
 action "Remove Asset From Folder" {
@@ -87,8 +87,8 @@ action "Create Folder Reference 1" {
 action "Move Asset To Folder 1" {
 	type = "Move Asset To Folder"
 	needs = "Create Folder Reference 1"
-	asset_item_id = "@sourceAssetItemId"
-	folder = "@ChannelFolder"
+	asset_item_ids = "@sourceAssetItemId"
+	folders = "@ChannelFolder"
 }
 
 filter "Is Number Filter 1" {

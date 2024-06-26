@@ -30,8 +30,8 @@ action "Set Is logo to true" {
 action "Move to logo channel folder 2" {
 	type = "Move Asset To Folder"
 	needs = []
-	asset_item_id = "@sourceAssetItemId"
-	folder = "10,${to_string(data.channel_folder.logo.channel_folder_id)}"
+	asset_item_ids = "@sourceAssetItemId"
+	folders = "10,${to_string(data.channel_folder.logo.channel_folder_id)}"
 }
 '
     is_disabled = false

@@ -34,8 +34,8 @@ filter "Upload computer not logo profile splashscreen" {
 action "Move Asset to Admin access" {
 	type = "Move Asset To Folder"
 	needs = "Upload computer not logo profile splashscreen"
-	asset_item_id = "@sourceAssetItemId"
-	folder = "10,${to_string(data.channel_folder.admin_access.channel_folder_id)}"
+	asset_item_ids = "@sourceAssetItemId"
+	folders = "10,${to_string(data.channel_folder.admin_access.channel_folder_id)}"
 }
 '
     is_disabled = false
