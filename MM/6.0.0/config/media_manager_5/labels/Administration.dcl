@@ -9616,6 +9616,38 @@ resource configservice_label administration_tools_system_formats_immediately_gen
   ]
 }
 
+resource configservice_label administration_tools_system_formats_filter_by_mapped_media_formats {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_FORMATS_FILTER_BY_MAPPED_MEDIA_FORMATS'
+  group = 'administration-tools - system - formats'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Mapped media formats'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Kortlagte medieformater'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_formats_filter_by_mapped_media_formats_tooltip {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_FORMATS_FILTER_BY_MAPPED_MEDIA_FORMATS_TOOLTIP'
+  group = 'administration-tools - system - formats'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'The old media format ids that it should be possible to use when referring to this format. Renditions of this format can be requested via all the given media format ids. This is mainly for backward compatibility, and you most likely don’t have to modify this manually.'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'De gamle medieformat-id'er, som det bør være muligt at bruge, når der henvises til dette format. Udgaver af dette format kan anmodes via alle de givne medieformat-id'er. Dette er hovedsageligt for bagudkompatibilitet, og du behøver sandsynligvis ikke at ændre dette manuelt.'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label administration_tools_system_formats_format_purpose {
   key = 'ADMINISTRATION_TOOLS_SYSTEM_FORMATS_FORMAT_PURPOSE'
   group = 'administration-tools - system - formats'
