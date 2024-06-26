@@ -22,12 +22,8 @@ data combo_value status_for_approval {
     sort_index = 2
 }
 
-data combovalue_metafield options_status {
-    name = 'Status'
-    group_id = data.metafield_group.options_50028.metafield_group_id
-    autolink = {
-        item_guid = '6fe35f10-c810-497b-af9c-e52c3d583593'
-    }
+data combovalue_metafield options_status {        
+    item_guid = '6fe35f10-c810-497b-af9c-e52c3d583593'    
 }
 
 patch combo_value_label status_approved {
