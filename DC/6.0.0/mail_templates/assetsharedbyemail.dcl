@@ -2,19 +2,19 @@ resource mail_template assetsharedbyemail {
     portal_name = ''
     language_id = resource.language.english.id
     template_name = 'asset-shared-by-email'
-    subject = "{{sender.name}} has invited you to download a shared asset from Digizuite&#8482; Media Manager"
+    subject = "{{sender.name}} has invited you to download a shared asset"
     body = '{{include \'html-header-start\'}}
 
-<title>Download a shared asset from Digizuite&#8482;</title>
+<title>Download a shared asset</title>
 
 {{include \'html-header-end\'}}
 
-<span class="preheader">{{sender.name  | html.escape}} has invited you to download a shared asset from Digizuite&#8482; Media Manager</span>
+<span class="preheader">{{sender.name  | html.escape}} has invited you to download a shared asset</span>
 
 {{include \'standard-header\'}}
 
 <h1>Hi {{receiver.name | html.escape}},</h1>
-<p>{{sender.name | html.escape}} ({{sender.email_address | html.escape}}) has invited you to download a shared asset from Digizuite&#8482; Media Manager. Enjoy!
+<p>{{sender.name | html.escape}} ({{sender.email_address | html.escape}}) has invited you to download a shared asset. Enjoy!
     <br>
     <br>
     <strong>Message from {{sender.name | html.escape}}:</strong>

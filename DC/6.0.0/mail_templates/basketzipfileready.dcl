@@ -9,13 +9,13 @@ resource mail_template basketzipfileready {
 
 {{include \'html-header-end\'}}
 
-<span class="preheader">Your selected basket are now ready for download from Digizuite&#8482; Media Manager.</span>
+<span class="preheader">Your selected basket are now ready for download.</span>
 
 {{include \'standard-header\'}}
 
 
 <h1>Hi {{receiver.name | html.escape}},</h1>
-<p>Your selected basket {{data.collection_name | html.escape}} are now ready for download from Digizuite&#8482; Media Manager. <strong>Enjoy!</strong>
+<p>Your selected basket {{data.collection_name | html.escape}} are now ready for download. <strong>Enjoy!</strong>
     <br>
     <br>
     <strong>Message from {{sender.name | html.escape}}:</strong>

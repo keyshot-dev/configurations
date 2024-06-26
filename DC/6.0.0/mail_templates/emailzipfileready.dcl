@@ -2,20 +2,20 @@ resource mail_template emailzipfileready {
     portal_name = ''
     language_id = resource.language.english.id
     template_name = 'email-zip-file-ready'
-    subject = "Your selected file(s) are now ready for download from Digizuite' Media Manager."
+    subject = "Your selected file(s) are now ready for download"
     body = '{{include \'html-header-start\'}}
 
 <title>Files are ready for download</title>
 
 {{include \'html-header-end\'}}
 
-<span class="preheader">Your selected file(s) are now ready for download from Digizuite&#8482; Media Manager.</span>
+<span class="preheader">Your selected file(s) are now ready for download.</span>
 
 {{include \'standard-header\'}}
 
 
 <h1>Hi {{receiver.name | html.escape}},</h1>
-<p>Your selected file(s) are now ready for download from Digizuite&#8482; Media Manager. <strong>Enjoy!</strong>
+<p>Your selected file(s) are now ready for download.<strong>Enjoy!</strong>
     <br>
     <br>
     <strong>Message from {{sender.name | html.escape}}:</strong>

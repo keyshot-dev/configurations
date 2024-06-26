@@ -14,14 +14,7 @@ resource mail_template standardfooter {
         <table class="email-footer" align="center" width="570" cellpadding="0" cellspacing="0">
             <tr>
                 <td class="content-cell" align="center">
-                    <p class="sub align-center">&copy; {{system.year}} Digizuite&#8482;. All rights
-                        reserved.</p>
-                    <p class="sub align-center">
-                        <strong>Digizuite&#8482; Nordics</strong>
-                        <br>Østergade 61
-                        <br>5000 Odense C
-                        <br>Denmark
-                    </p>
+                    <p class="sub align-center">&copy; {{system.year}} KeyShot - All rights reserved</p>
                 </td>
             </tr>
         </table>
