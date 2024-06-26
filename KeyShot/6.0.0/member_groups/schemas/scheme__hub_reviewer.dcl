@@ -8,6 +8,8 @@ resource member_group scheme__hub_reviewer_42 {
             member_group_id = data.member_group.scheme_light_user.member_group_id
         }]
     download_qualities = []
-    roles = []
+    roles = [{
+            constant = 'WorkStages_View'
+        }]
 }
 
