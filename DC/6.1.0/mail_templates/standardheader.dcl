@@ -11,7 +11,7 @@ resource mail_template standardheader {
                 <tr>
                     <td class="email-masthead">
                         <span class="email-masthead_logo">
-                            <img src="{{system.dam_base_url}}/images/digizuite-primary-logo.svg"  alt="logo"/>
+                            <img src="https://static.digizuite.app/keyshot-hub-primary-logo.png"  alt="logo"/>
                         </span>
                     </td>
                 </tr>
