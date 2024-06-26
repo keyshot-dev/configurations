@@ -84,7 +84,7 @@ resource mail_template basestyling {
         text-align: center;
     }
     .email-footer p {
-        color: #AEAEAE;
+        color: #212121;
     }
     .body-action {
         width: 100%;
@@ -135,14 +135,14 @@ resource mail_template basestyling {
     /* Type ------------------------------ */
     h1 {
         margin-top: 0;
-        color: #2F3133;
+        color: #212121;
         font-size: 19px;
         font-weight: bold;
         text-align: left;
     }
     p {
         margin-top: 0;
-        color: #74787E;
+        color: #212121;
         font-size: 16px;
         line-height: 1.5em;
         text-align: left;
