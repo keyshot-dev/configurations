@@ -5,6 +5,7 @@
             asset_type = 'All'
         }]
     download_replace_mask = ''
+    purpose = 'LargeThumbnail'
     type = 'WebPImageFormat'
     details = [{
             key = 'ColorSpace'
