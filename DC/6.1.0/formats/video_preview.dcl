@@ -6,6 +6,7 @@
         }]
     download_replace_mask = ''
     type = 'Mp4VideoFormat'
+    purpose = 'VideoPreview'
     details = [{
             key = 'BackgroundColor'
             value = '#00000000'

@@ -1,6 +1,7 @@
 ﻿resource format pdf {
     name = 'PDF'
     description = 'A PDF.'
+    purpose = 'Pdf'
     immediately_generated_for = [{
             asset_type = 'PowerPoint'
         }, {
