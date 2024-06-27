@@ -9622,7 +9622,7 @@ resource configservice_label administration_tools_system_formats_filter_by_mappe
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Mapped media formats'
+      default_translation = 'Mapped old format IDs'
       language_id = data.language.english.id
     },
     {
