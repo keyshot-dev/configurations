@@ -9642,7 +9642,7 @@ resource configservice_label administration_tools_system_formats_filter_by_mappe
       language_id = data.language.english.id
     },
     {
-      default_translation = 'De gamle medieformat-id'er, som det bør være muligt at bruge, når der henvises til dette format. Udgaver af dette format kan anmodes via alle de givne medieformat-id'er. Dette er hovedsageligt for bagudkompatibilitet, og du behøver sandsynligvis ikke at ændre dette manuelt.'
+      default_translation = 'En liste over gamle format-id\'er, der vil resolve til dette format. Hvis du anmoder om et gammelt format-id på denne liste, får du en rendition af dette format. Dette er for bagudkompatibilitet. Du behøver højst sandsynligt ikke at lave nogen ændringer.'
       language_id = data.language.danish.id
     }
   ]
