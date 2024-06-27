@@ -9626,7 +9626,7 @@ resource configservice_label administration_tools_system_formats_filter_by_mappe
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Kortlagte medieformater'
+      default_translation = 'Mappede gamle format-id\'er'
       language_id = data.language.danish.id
     }
   ]
