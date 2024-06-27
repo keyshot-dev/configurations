@@ -9638,7 +9638,7 @@ resource configservice_label administration_tools_system_formats_filter_by_mappe
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'The old media format ids that it should be possible to use when referring to this format. Renditions of this format can be requested via all the given media format ids. This is mainly for backward compatibility, and you most likely don’t have to modify this manually.'
+      default_translation = 'A list of old format IDs that will resolve to this format. Requesting an old format ID in this list will give you a rendition of this format. This is for backward compatibility, you will most likely not have to modify this.'
       language_id = data.language.english.id
     },
     {
