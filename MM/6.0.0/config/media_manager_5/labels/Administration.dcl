@@ -9622,11 +9622,11 @@ resource configservice_label administration_tools_system_formats_filter_by_mappe
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Mapped media formats'
+      default_translation = 'Mapped old format IDs'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Kortlagte medieformater'
+      default_translation = 'Mappede gamle format-id\'er'
       language_id = data.language.danish.id
     }
   ]
@@ -9638,11 +9638,11 @@ resource configservice_label administration_tools_system_formats_filter_by_mappe
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'The old media format ids that it should be possible to use when referring to this format. Renditions of this format can be requested via all the given media format ids. This is mainly for backward compatibility, and you most likely don’t have to modify this manually.'
+      default_translation = 'A list of old format IDs that will resolve to this format. Requesting an old format ID in this list will give you a rendition of this format. This is for backward compatibility, you will most likely not have to modify this.'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'De gamle medieformat-id'er, som det bør være muligt at bruge, når der henvises til dette format. Udgaver af dette format kan anmodes via alle de givne medieformat-id'er. Dette er hovedsageligt for bagudkompatibilitet, og du behøver sandsynligvis ikke at ændre dette manuelt.'
+      default_translation = 'En liste over gamle format-id\'er, der vil resolve til dette format. Hvis du anmoder om et gammelt format-id på denne liste, får du en rendition af dette format. Dette er for bagudkompatibilitet. Du behøver højst sandsynligt ikke at lave nogen ændringer.'
       language_id = data.language.danish.id
     }
   ]
