@@ -964,11 +964,11 @@ resource configservice_label asset_list_more_popup_access_rights {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Access rights'
+      default_translation = 'Manage access'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Adgangsrettigheder'
+      default_translation = 'Administrer adgang'
       language_id = data.language.danish.id
     }
   ]
