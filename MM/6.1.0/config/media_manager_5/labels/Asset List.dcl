@@ -974,6 +974,22 @@ resource configservice_label asset_list_more_popup_comments {
   ]
 }
 
+resource configservice_label asset_list_more_popup_access_rights {
+  key = 'ASSET_LIST_MORE_POPUP_ACCESS_RIGHTS'
+  group = 'Asset List'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Manage access'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Administrer adgang'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label asset_list_filter_menu_facet_render_type_facetrendertype_is_currently_not_supported {
   key = 'ASSET_LIST_FILTER_MENU_FACET_RENDER_TYPE_FACETRENDERTYPE_IS_CURRENTLY_NOT_SUPPORTED'
   group = 'Asset List'
