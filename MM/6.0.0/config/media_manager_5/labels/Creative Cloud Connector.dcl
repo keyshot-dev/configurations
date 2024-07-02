@@ -6158,3 +6158,131 @@ resource configservice_label creative_cloud_connector_quality {
   ]
 }
 
+resource configservice_label delete_cep_cache_dialog_title {
+  key = 'DELETE_CEP_CACHE_DIALOG_TITLE'
+  group = 'Creative Cloud Connector'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Delete CEP cache'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Slet CEP-cache'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label delete_cep_cache_dialog_description_1 {
+  key = 'DELETE_CEP_CACHE_DIALOG_DESCRIPTION_1'
+  group = 'Creative Cloud Connector'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Due to Adobe caching the configuration, the CCC can become unresponsive after a new deployment.'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'På grund af Adobe-caching af konfigurationen kan CCC blive uresponsiv efter en ny deployment.'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label delete_cep_cache_dialog_description_2 {
+  key = 'DELETE_CEP_CACHE_DIALOG_DESCRIPTION_2'
+  group = 'Creative Cloud Connector'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'This may include a missing insert button, missing information in the About section, or an inability to access the Link Manager.'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Dette kan omfatte en manglende indsætningsknap, manglende information i Om-sektionen eller manglende adgang til Link-manager.'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label delete_cep_cache_dialog_description_3 {
+  key = 'DELETE_CEP_CACHE_DIALOG_DESCRIPTION_3'
+  group = 'Creative Cloud Connector'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'To resolve this issue, you can clear the CEP cache.'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'For at løse dette problem kan du rydde CEP-cachen.'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label delete_cep_cache_dialog_description_4 {
+  key = 'DELETE_CEP_CACHE_DIALOG_DESCRIPTION_4'
+  group = 'Creative Cloud Connector'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'This action should only be performed as a last resort.'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Denne handling bør kun udføres som en sidste udvej.'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label delete_cep_cache_dialog_description_5 {
+  key = 'DELETE_CEP_CACHE_DIALOG_DESCRIPTION_5'
+  group = 'Creative Cloud Connector'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Clearing the CEP cache requires an extension restart. Please manually restart the extension after it closes.'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Rydning af CEP-cachen kræver en genstart af udvidelsen. Genstart venligst udvidelsen manuelt, efter den lukker.'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label delete_cep_cache_dialog_cancel_btn {
+  key = 'DELETE_CEP_CACHE_DIALOG_CANCEL_BTN'
+  group = 'Creative Cloud Connector'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Cancel'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Annullér'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label delete_cep_cache_dialog_delete_btn {
+  key = 'DELETE_CEP_CACHE_DIALOG_DELETE_BTN'
+  group = 'Creative Cloud Connector'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Delete'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Slet'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+

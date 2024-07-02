@@ -734,3 +734,19 @@ resource configservice_label mobile_menu_file_manager_settings {
   ]
 }
 
+resource configservice_label mobile_menu_delete_cep_cache {
+  key = 'MOBILE_MENU_DELETE_CEP_CACHE'
+  group = 'Side Bar'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Delete CEP cache'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Slet CEP-cache'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
