@@ -10112,3 +10112,114 @@ resource configservice_label administration_tools_system_asset_type_extensions_e
   ]
 }
 
+resource configservice_label administration_tools_analytics_table_builder_edit_formats_filter {
+  key = 'ADMINISTRATION_TOOLS_ANALYTICS_TABLE_BUILDER_EDIT_FORMATS_FILTER'
+  group = 'administration-tools - analytics-table-builder'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Edit formats filter'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Rediger formatsfilter'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_analytics_table_builder_descriptive_dimensions {
+  key = 'ADMINISTRATION_TOOLS_ANALYTICS_TABLE_BUILDER_DESCRIPTIVE_DIMENSIONS'
+  group = 'administration-tools - analytics-formats-filter'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Descriptive dimensions'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Beskrivende-dimensioner'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_analytics_formats_filter_formats_title {
+  key = 'ADMINISTRATION_TOOLS_ANALYTICS_FORMATS_FILTER_FORMATS_TITLE'
+  group = 'administration-tools - analytics-formats-filter'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Formats filter'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Formatsfilter'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_analytics_formats_filter_specific_formats {
+  key = 'ADMINISTRATION_TOOLS_ANALYTICS_FORMATS_FILTER_SPECIFIC_FORMATS'
+  group = 'administration-tools - analytics-formats-filter'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Specific formats'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Bestemte formats'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_analytics_formats_filter_apply {
+  key = 'ADMINISTRATION_TOOLS_ANALYTICS_FORMATS_FILTER_APPLY'
+  group = 'administration-tools - analytics-member-filter'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Apply'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Aktiver'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_analytics_formats_filter_cancel {
+  key = 'ADMINISTRATION_TOOLS_ANALYTICS_FORMATS_FILTER_CANCEL'
+  group = 'administration-tools - analytics-formats-filter'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Cancel'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Annuller'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_analytics_block_builder_descriptive_dimensions {
+  key = 'ADMINISTRATION_TOOLS_ANALYTICS_BLOCK_BUILDER_DESCRIPTIVE_DIMENSIONS'
+  group = 'administration-tools - analytics-formats-filter'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Descriptive dimensions'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Beskrivende-dimensioner'
+      language_id = data.language.danish.id
+    }
+  ]
+}
