@@ -1,5 +1,5 @@
 resource asset_category root {
-    name = 'Roof'
+    name = 'Root'
     is_abstract = true
     is_sealed = false
     description = 'Root category for all asset categories. You should not be using this directly on any assets'
