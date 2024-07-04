@@ -6,6 +6,9 @@ resource masteritem_reference_metafield options_owner {
     auto_translate = 'Overwrite'
     item_type = 'Member'
     max_count = 1
+    restrict_to_asset_categories = [{
+            asset_category_id = data.asset_category.root.id
+        }]
     autolink = {
         item_guid = 'fc948200-c103-41fb-8dae-bd1c5c6ce281'
     }

@@ -6,6 +6,9 @@ resource bit_metafield is_logo_material {
     system = true
     auto_translate = 'Overwrite'
     restrict_to_asset_type = 'All'
+    restrict_to_asset_categories = [{
+            asset_category_id = data.asset_category.root.id
+        }]
     autolink = {
         item_guid = '939d9ed0-a5c0-4fe4-9d45-23928db9c50a'
     }

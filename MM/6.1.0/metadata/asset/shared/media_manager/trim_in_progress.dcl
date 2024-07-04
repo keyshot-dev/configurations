@@ -7,6 +7,9 @@ resource bit_metafield trim_in_progress {
     system = true
     auto_translate = 'Overwrite'
     restrict_to_asset_type = 'All'
+    restrict_to_asset_categories = [{
+            asset_category_id = data.asset_category.root.id
+        }]
     autolink = {
         item_guid = 'd5da1a55-5ecf-45b3-8cc0-f168fadcc02c'
     }

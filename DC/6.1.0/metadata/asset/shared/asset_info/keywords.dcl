@@ -7,6 +7,9 @@ resource editmulticombovalue_metafield keywords {
     auto_translate = 'None'
     restrict_to_asset_type = 'All'
     upload_tag_name = 'iptc:keywords'
+    restrict_to_asset_categories = [{
+            asset_category_id = resource.asset_category.root.id
+        }]
     autolink = {
         item_guid = '6afe78b7-3f24-49f3-bf95-24890ea62696'
     }

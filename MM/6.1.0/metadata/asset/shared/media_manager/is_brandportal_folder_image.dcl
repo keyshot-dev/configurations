@@ -7,6 +7,9 @@ resource bit_metafield is_brandportal_folder_image {
     restrict_to_asset_type = 'All'
     readonly = true
     system = true
+    restrict_to_asset_categories = [{
+            asset_category_id = data.asset_category.root.id
+        }]
     autolink = {
         item_guid = 'b8e4f791-1fb8-4345-80b0-f2765fd056a3'
     }

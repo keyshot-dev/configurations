@@ -18,6 +18,9 @@ resource note_metafield asset_content {
     show_in_list = false
     auto_translate = 'Overwrite'
     restrict_to_asset_type = 'All'
+    restrict_to_asset_categories = [{
+            asset_category_id = resource.asset_category.root.id
+        }]
     autolink = {
         item_guid = '4a8ed71b-574a-43bb-a35e-8826598cf36f'
     }

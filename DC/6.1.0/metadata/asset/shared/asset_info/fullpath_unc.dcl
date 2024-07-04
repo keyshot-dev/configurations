@@ -9,6 +9,9 @@
     show_in_list = false
     auto_translate = 'Overwrite'
     restrict_to_asset_type = 'All'
+    restrict_to_asset_categories = [{
+            asset_category_id = resource.asset_category.root.id
+        }]
 }
 
 resource metafield_label fullpath_unc {

@@ -102,6 +102,9 @@ resource tree_metafield published_to {
     auto_translate = 'Overwrite'
     restrict_to_asset_type = 'All'
     upload_tag_name = ''
+    restrict_to_asset_categories = [{
+            asset_category_id = data.asset_category.root.id
+        }]
 }
 
 resource tree_node_label digizuite_media_manager {
