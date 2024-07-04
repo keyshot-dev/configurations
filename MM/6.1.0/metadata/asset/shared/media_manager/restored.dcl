@@ -8,6 +8,9 @@ resource datetime_metafield restored {
     system = true
     auto_translate = 'Overwrite'
     restrict_to_asset_type = 'All'
+    restrict_to_asset_categories = [{
+            asset_category_id = data.asset_category.root.id
+        }]
     autolink = {
         item_guid = 'b241ec96-8e83-4953-84cb-d89354d5ac82'
     }

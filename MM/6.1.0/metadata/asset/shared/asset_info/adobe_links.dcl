@@ -8,6 +8,9 @@ resource masteritem_reference_metafield adobe_links {
     related_metafield_id = resource.slave_metafield.adobe_contained.metafield_id
     item_type = 'Asset'
     sort_index = 13000
+    restrict_to_asset_categories = [{
+            asset_category_id = data.asset_category.root.id
+        }]
     autolink = {
         item_guid = '9a1ce4b9-1e8c-449f-955c-c9a8f355bf61'
     }

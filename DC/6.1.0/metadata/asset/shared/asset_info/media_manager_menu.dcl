@@ -19,6 +19,9 @@ resource tree_metafield media_manager_menu {
     show_in_list = true
     auto_translate = 'Overwrite'
     restrict_to_asset_type = 'All'
+    restrict_to_asset_categories = [{
+            asset_category_id = resource.asset_category.root.id
+        }]
     autolink = {
         item_guid = 'bf0ad1a6-984a-494e-a227-9d70c6a864f9'
     }

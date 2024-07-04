@@ -58,6 +58,9 @@ resource combovalue_metafield rotation {
     auto_translate = 'Overwrite'
     restrict_to_asset_type = 'All'
     upload_tag_name = 'mediainfo_video:rotation'
+    restrict_to_asset_categories = [{
+            asset_category_id = resource.asset_category.root.id
+        }]
     autolink = {
         item_guid = 'c134e2d2-8caf-4739-bca0-767d34c7ac03'
     }

@@ -5,6 +5,9 @@ resource bit_metafield is_public {
     show_in_list = true
     auto_translate = 'Overwrite'
     restrict_to_asset_type = 'All'
+    restrict_to_asset_categories = [{
+            asset_category_id = data.asset_category.root.id
+        }]
     autolink = {
         item_guid = '17c54460-e6cc-4bda-abe3-628532617ebd'
     }

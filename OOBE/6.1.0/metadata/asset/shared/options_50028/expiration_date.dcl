@@ -8,6 +8,9 @@ resource datetime_metafield expiration_date {
     system = false
     auto_translate = 'Overwrite'
     restrict_to_asset_type = 'All'
+    restrict_to_asset_categories = [{
+            asset_category_id = data.asset_category.root.id
+        }]
 }
 
 resource item_security datetime_metafield_expiration_date__metadata_editor {

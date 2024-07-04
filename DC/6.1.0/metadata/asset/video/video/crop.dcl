@@ -27,6 +27,9 @@ resource string_metafield crop {
     system = true
     auto_translate = 'Overwrite'
     restrict_to_asset_type = 'All'
+    restrict_to_asset_categories = [{
+            asset_category_id = resource.asset_category.root.id
+        }]
     autolink = {
         item_guid = '050d76ad-822a-409b-a18c-e41e677c1716'
     }

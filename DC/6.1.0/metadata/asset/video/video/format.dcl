@@ -261,6 +261,9 @@ resource combovalue_metafield format {
     auto_translate = 'Overwrite'
     restrict_to_asset_type = 'Video'
     upload_tag_name = 'calculated:displayaspectratiooption'
+    restrict_to_asset_categories = [{
+            asset_category_id = resource.asset_category.root.id
+        }]
     autolink = {
         item_guid = 'f2a9baa4-655d-4cb3-8649-1692f56950d9'
     }

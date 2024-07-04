@@ -12,6 +12,9 @@ resource string_metafield frameaccurate_thumbnail {
     show_in_list = true
     auto_translate = 'Overwrite'
     restrict_to_asset_type = 'All'
+    restrict_to_asset_categories = [{
+            asset_category_id = resource.asset_category.root.id
+        }]
     autolink = {
         item_guid = 'cd420283-d734-4b0c-9849-3406466e0954'
     }
