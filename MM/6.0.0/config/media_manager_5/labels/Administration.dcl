@@ -9910,11 +9910,11 @@ resource configservice_label administration_tools_system_formats_dialog_delete_f
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Delete'
+      default_translation = 'Cancel'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Slet'
+      default_translation = 'Annullér'
       language_id = data.language.danish.id
     }
   ]
