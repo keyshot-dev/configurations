@@ -20,7 +20,7 @@ action "Set Bit Metafield" {
 action "Move Asset To Folder" {
 	type = "Move Asset To Folder"
 	asset_item_id = "@sourceAssetItemId"
-	folder = "10,${to_string(data.channel_folder.internal_access.channel_folder_id)}"
+	folders = "10,${to_string(data.channel_folder.internal_access.channel_folder_id)}"
 }
 '
     is_disabled = false
