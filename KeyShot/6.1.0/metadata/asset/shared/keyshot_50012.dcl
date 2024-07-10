@@ -45,7 +45,6 @@ resource metafield_group keyshot_50012 {
     show_in_list = true    
     sort_index = 10
     restrict_to_asset = 'All'    
-    parent_group_id = data.metafield_group.asset_info.metafield_group_id
     visibility_regex = ''
     visibility_metafield_id = 0
     autolink = {

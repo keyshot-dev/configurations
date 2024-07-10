@@ -109,6 +109,9 @@ resource combovalue_metafield keyshot_type_50399 {
     auto_translate = 'Overwrite'
     restrict_to_asset_type = 'All'
     upload_tag_name = ''    
+    restrict_to_asset_categories = [{
+            asset_category_id = data.asset_category.root.id
+        }]
     autolink = {
         item_guid = '2679ac62-8f06-42d3-b8be-19767e40ee31'
     }
