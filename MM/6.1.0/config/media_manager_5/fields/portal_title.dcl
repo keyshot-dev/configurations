@@ -1,5 +1,5 @@
 resource configservice_string_config_field portal_title {
-    default_value = 'KeyShot Bridge'
+    default_value = 'KeyShot Dock'
     type = 'String'
     product_id = resource.configservice_product.media_manager_5.id
     group = 'default'
