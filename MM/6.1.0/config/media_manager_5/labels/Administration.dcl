@@ -10118,11 +10118,11 @@ resource configservice_label administration_tools_analytics_table_builder_edit_f
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Edit formats filter'
+      default_translation = 'Filter on formats'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Rediger formatsfilter'
+      default_translation = 'Filtrer på formater'
       language_id = data.language.danish.id
     }
   ]
@@ -10166,11 +10166,11 @@ resource configservice_label administration_tools_analytics_formats_filter_speci
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Specific formats'
+      default_translation = 'Choose formats'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Bestemte formats'
+      default_translation = 'Vælg formater'
       language_id = data.language.danish.id
     }
   ]
@@ -10186,7 +10186,7 @@ resource configservice_label administration_tools_analytics_formats_filter_apply
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Aktiver'
+      default_translation = 'Anvend'
       language_id = data.language.danish.id
     }
   ]
