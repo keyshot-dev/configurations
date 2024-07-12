@@ -17,6 +17,9 @@ resource metafield_group asset_info {
     description = 'Shared metadata structure'
     show_in_list = true
     restrict_to_asset = 'All'
+    restrict_to_asset_categories = [{
+            asset_category_id = resource.asset_category.root.id
+        }]
     autolink = {
         item_guid = '616ec756-b6f3-401c-b8ae-5521a30ccf60'
     }

@@ -47,6 +47,9 @@ resource metafield_group keyshot_50012 {
     restrict_to_asset = 'All'    
     visibility_regex = ''
     visibility_metafield_id = 0
+    restrict_to_asset_categories = [{
+            asset_category_id = data.asset_category.root.id
+        }]
     autolink = {
         item_guid = '178b042d-b6ab-4e1f-9eb6-9c0a990ad7f8'
     }
