@@ -6056,6 +6056,134 @@ resource configservice_label administration_tools_users_and_groups_delete_group_
   ]
 }
 
+resource configservice_label administration_tools_users_and_groups_remove_user_from_group_title {
+  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_REMOVE_USER_FROM_GROUP_TITLE'
+  group = 'administration-tools - users-and-groups'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = "Users in '{{ groupName }}' group"
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = "Brugere i '{{ groupName }}' gruppe"
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_users_and_groups_remove_user_from_group_dialog_title {
+  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_REMOVE_USER_FROM_GROUP_DIALOG_TITLE'
+  group = 'administration-tools - users-and-groups'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Remove group'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Fjern gruppe'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_users_and_groups_remove_user_from_group_dialog_body {
+  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_REMOVE_USER_FROM_GROUP_DIALOG_BODY'
+  group = 'administration-tools - users-and-groups'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = "Are you sure you want to remove this group from the user '{{ userName }}'?"
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = "Er du sikker på, at du vil fjerne denne gruppe fra brugeren '{{ userName }}'?"
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_users_and_groups_remove_user_from_group_dialog_confirm {
+  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_REMOVE_USER_FROM_GROUP_DIALOG_CONFIRM'
+  group = 'administration-tools - users-and-groups'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Remove'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Fjern'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_users_and_groups_remove_user_from_group_dialog_cancel {
+  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_REMOVE_USER_FROM_GROUP_DIALOG_CANCEL'
+  group = 'administration-tools - users-and-groups'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Cancel'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Annullér'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_users_and_groups_delete_user_from_group_dialog_error_title {
+  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_DELETE_USER_FROM_GROUP_DIALOG_ERROR_TITLE'
+  group = 'administration-tools - users-and-groups'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Error'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Fejl'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_users_and_groups_delete_user_from_group_dialog_error_body {
+  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_DELETE_USER_FROM_GROUP_DIALOG_ERROR_BODY'
+  group = 'administration-tools - users-and-groups'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'An error occurred while removing group from user'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Der opstod en fejl under fjernelse af gruppen fra brugeren'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_users_and_groups_delete_user_from_group_dialog_success {
+  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_DELETE_USER_FROM_GROUP_DIALOG_SUCCESS'
+  group = 'administration-tools - users-and-groups'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Group was removed from user'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Gruppen blev fjernet fra brugeren'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label administration_tools_users_and_groups_delete_user_dialog_title {
   key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_DELETE_USER_DIALOG_TITLE'
   group = 'administration-tools - users-and-groups'
