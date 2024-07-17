@@ -6078,7 +6078,7 @@ resource configservice_label administration_tools_users_and_groups_remove_user_f
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Are you sure you want to remove this group from user'
+      default_translation = 'Are you sure you want to remove this group from the user'
       language_id = data.language.english.id
     },
     {
