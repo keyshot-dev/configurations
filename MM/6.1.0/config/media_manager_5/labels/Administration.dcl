@@ -6056,6 +6056,22 @@ resource configservice_label administration_tools_users_and_groups_delete_group_
   ]
 }
 
+resource configservice_label administration_tools_users_and_groups_remove_user_from_group_title {
+  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_REMOVE_USER_FROM_GROUP_TITLE'
+  group = 'administration-tools - users-and-groups'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = "Users in '{{ groupName }}' group"
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = "Brugere i '{{ groupName }}' gruppe"
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label administration_tools_users_and_groups_remove_user_from_group_dialog_title {
   key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_REMOVE_USER_FROM_GROUP_DIALOG_TITLE'
   group = 'administration-tools - users-and-groups'
@@ -6078,11 +6094,11 @@ resource configservice_label administration_tools_users_and_groups_remove_user_f
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Are you sure you want to remove this group from the user'
+      default_translation = "Are you sure you want to remove this group from the user '{{ userName }}'?"
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Er du sikker på, at du vil fjerne denne gruppe fra brugeren'
+      default_translation = "Er du sikker på, at du vil fjerne denne gruppe fra brugeren '{{ userName }}'?"
       language_id = data.language.danish.id
     }
   ]
