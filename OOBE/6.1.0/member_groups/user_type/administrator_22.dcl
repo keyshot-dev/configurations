@@ -169,6 +169,10 @@ patch member_group administrator_patch {
             constant = 'Can_view_related_assets'
         }, {
             constant = 'Asset_Can_Archive'
+        }, {
+            constant = 'AssetCategories_reader'
+        }, {
+            constant = 'AssetCategories_writer'
         }]
 }
 
