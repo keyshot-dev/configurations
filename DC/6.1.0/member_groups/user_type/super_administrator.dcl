@@ -271,6 +271,8 @@ resource member_group super_administrator {
             constant = 'AssetCategories_reader'
         }, {
             constant = 'AssetCategories_writer'
+        }, {
+            constant = 'Analytics_exporter'
         }]
     autolink = {
         item_guid = '0d8dff0a-53d5-4161-8484-aa8c1af5680d'
