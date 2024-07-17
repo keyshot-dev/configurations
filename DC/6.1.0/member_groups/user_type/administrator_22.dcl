@@ -138,7 +138,7 @@ resource member_group administrator_22 {
         }, {
             constant = 'AssetCategories_reader'
         }, {
-                constant = 'AssetCategories_writer'
+            constant = 'AssetCategories_writer'
         }]
     autolink = {
         item_guid = '58efafcb-4ce9-43d0-b413-b842fbccb576'
