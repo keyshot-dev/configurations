@@ -170,6 +170,8 @@ patch member_group administrator_patch {
         }, {
             constant = 'Asset_Can_Archive'
         }, {
+            constant = 'Can_Switch_To_Database_Mode'
+        }, {
             constant = 'AssetCategories_reader'
         }, {
             constant = 'AssetCategories_writer'

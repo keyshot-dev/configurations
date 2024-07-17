@@ -136,6 +136,8 @@ resource member_group administrator_22 {
         }, {
             constant = 'SystemAdministrationAuditTrail_View'
         }, {
+            constant = 'Can_Switch_To_Database_Mode'
+        }, {
             constant = 'AssetCategories_reader'
         }, {
             constant = 'AssetCategories_writer'

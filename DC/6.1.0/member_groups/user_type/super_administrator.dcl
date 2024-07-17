@@ -266,6 +266,8 @@ resource member_group super_administrator {
         }, {
             constant = 'SystemAdministrationAuditTrail_View'
         }, {
+            constant = 'Can_Switch_To_Database_Mode'
+        }, {
             constant = 'AssetCategories_reader'
         }, {
             constant = 'AssetCategories_writer'
