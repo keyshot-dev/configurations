@@ -177,6 +177,8 @@ patch member_group administrator_patch {
             constant = 'AssetCategories_reader'
         }, {
             constant = 'AssetCategories_writer'
+        }, {
+            constant = 'MediaPortal_Audio_Embed'
         }]
 }
 

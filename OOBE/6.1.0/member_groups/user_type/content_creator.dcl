@@ -92,6 +92,8 @@ patch member_group content_creator_patch {
             constant = 'Viewer_Catalogs'
         }, {
             constant = 'WorkStages_View'
+        }, {
+            constant = 'MediaPortal_Audio_Embed'
         }]
     name = 'Content creator (profile)'
 }
