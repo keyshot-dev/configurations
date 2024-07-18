@@ -141,6 +141,8 @@ resource member_group administrator_22 {
             constant = 'AssetCategories_reader'
         }, {
             constant = 'AssetCategories_writer'
+        }, {
+            constant = 'MediaPortal_Audio_Embed'
         }]
     autolink = {
         item_guid = '58efafcb-4ce9-43d0-b413-b842fbccb576'
