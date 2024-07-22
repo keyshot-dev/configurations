@@ -24,4 +24,3 @@ resource item_security title__sa_full_access {
     write = true
 }
 
-

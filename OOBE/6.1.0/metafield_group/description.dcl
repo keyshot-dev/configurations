@@ -23,3 +23,4 @@ resource item_security description__sa_full_access {
     read = true
     write = true
 }
+
