@@ -24,4 +24,3 @@ resource item_security keywords__sa_full_access {
     write = true
 }
 
-
