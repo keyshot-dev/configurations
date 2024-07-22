@@ -18,7 +18,6 @@ patch bit_metafield unlocked {
     target = data.bit_metafield.is_public
     group_id = data.metafield_group.options.metafield_group_id
     name = 'Unlocked'
-    show_in_list = false
 }
 
 patch item_security id_14521 {
