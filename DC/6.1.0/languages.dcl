@@ -441,7 +441,7 @@ resource language estonian {
 resource language faeroese {
     name = 'Faeroese'
     short_name = 'fo'
-    locale_id = 0
+    locale_id = 1080
     enabled = false
     is_default_language = false
     azure_language_code = 'fo'
@@ -531,7 +531,7 @@ resource language fyro_macedonian {
 resource language gaelic_ireland {
     name = 'Gaelic (Ireland)'
     short_name = 'gd-ie'
-    locale_id = 0
+    locale_id = 2108
     enabled = false
     is_default_language = false
     azure_language_code = 'ga'
@@ -541,7 +541,7 @@ resource language gaelic_ireland {
 resource language gaelic_scotland {
     name = 'Gaelic (Scotland)'
     short_name = 'gd'
-    locale_id = 0
+    locale_id = 1084
     enabled = false
     is_default_language = false
     azure_language_code = ''
@@ -741,7 +741,7 @@ resource language malaysian {
 resource language maltese {
     name = 'Maltese'
     short_name = 'mt'
-    locale_id = 0
+    locale_id = 1082
     enabled = false
     is_default_language = false
     azure_language_code = 'mt'
@@ -801,7 +801,7 @@ resource language portuguese_portugal {
 resource language rhaetoromanic {
     name = 'Rhaeto-Romanic'
     short_name = 'rm'
-    locale_id = 0
+    locale_id = 1047
     enabled = false
     is_default_language = false
     azure_language_code = ''
@@ -841,7 +841,7 @@ resource language russian {
 resource language russian_moldavia {
     name = 'Russian (Moldavia)'
     short_name = 'ru-mo'
-    locale_id = 0
+    locale_id = 2072
     enabled = false
     is_default_language = false
     azure_language_code = 'ro'
@@ -894,8 +894,8 @@ resource language slovenian {
     locale_id = 1060
     enabled = false
     is_default_language = false
-    azure_language_code = ''
-    elastic_language_code = 'sl'
+    azure_language_code = 'sl'
+    elastic_language_code = ''
 }
 
 resource language sorbian {
@@ -1151,7 +1151,7 @@ resource language thai {
 resource language tsonga {
     name = 'Tsonga'
     short_name = 'ts'
-    locale_id = 0
+    locale_id = 1073
     enabled = false
     is_default_language = false
     azure_language_code = ''
@@ -1161,7 +1161,7 @@ resource language tsonga {
 resource language tswana {
     name = 'Tswana'
     short_name = 'tn'
-    locale_id = 0
+    locale_id = 1074
     enabled = false
     is_default_language = false
     azure_language_code = 'tn'
@@ -1201,7 +1201,7 @@ resource language urdu {
 resource language venda {
     name = 'Venda'
     short_name = 've'
-    locale_id = 0
+    locale_id = 1075
     enabled = false
     is_default_language = false
     azure_language_code = ''
@@ -1221,7 +1221,7 @@ resource language vietnamese {
 resource language xhosa {
     name = 'Xhosa'
     short_name = 'xh'
-    locale_id = 0
+    locale_id = 1076
     enabled = false
     is_default_language = false
     azure_language_code = 'xh'
@@ -1231,7 +1231,7 @@ resource language xhosa {
 resource language yiddish {
     name = 'Yiddish'
     short_name = 'ji'
-    locale_id = 0
+    locale_id = 1085
     enabled = false
     is_default_language = false
     azure_language_code = ''
@@ -1241,7 +1241,7 @@ resource language yiddish {
 resource language zulu {
     name = 'Zulu'
     short_name = 'zu'
-    locale_id = 0
+    locale_id = 1077
     enabled = false
     is_default_language = false
     azure_language_code = 'zu'
