@@ -990,6 +990,22 @@ resource configservice_label topbar_link_manager_btn_tooltip {
   ]
 }
 
+resource configservice_label topbar_cache_manager_btn_tooltip {
+  key = 'TOPBAR_CACHE_MANAGER_BTN_TOOLTIP'
+  group = 'Z Misc Labels'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Cache manager'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Cache-manager'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label topbar_tasks_btn_tooltip {
   key = 'TOPBAR_TASKS_BTN_TOOLTIP'
   group = 'Z Misc Labels'
