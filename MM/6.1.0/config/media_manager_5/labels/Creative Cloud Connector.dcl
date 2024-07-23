@@ -1918,6 +1918,22 @@ resource configservice_label creative_cloud_connector_link_more_popup_remove_lin
   ]
 }
 
+resource configservice_label creative_cloud_connector_link_more_popup_select_link {
+  key = 'CREATIVE_CLOUD_CONNECTOR_LINK_MORE_POPUP_SELECT_LINK'
+  group = 'Creative Cloud Connector'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Select'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Vælg'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label creative_cloud_connector_selected_files_overlay_delete_files {
   key = 'CREATIVE_CLOUD_CONNECTOR_SELECTED_FILES_OVERLAY_DELETE_FILES'
   group = 'Creative Cloud Connector'
