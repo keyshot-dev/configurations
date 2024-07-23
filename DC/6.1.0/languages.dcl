@@ -245,7 +245,7 @@ resource language chinese_singapore {
     enabled = false
     is_default_language = false
     azure_language_code = 'zh-Hans'
-    elastic_language_code = cjk''
+    elastic_language_code = 'cjk'
 }
 
 resource language chinese_taiwan {
@@ -1247,4 +1247,3 @@ resource language zulu {
     azure_language_code = 'zu'
     elastic_language_code = ''
 }
-
