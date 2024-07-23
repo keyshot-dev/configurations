@@ -6318,3 +6318,19 @@ resource configservice_label embedded_link_manager_no_links {
   ]
 }
 
+resource configservice_label embedded_cache_manager_page_title {
+  key = 'EMBEDDED_CACHE_MANAGER_PAGE_TITLE'
+  group = 'Creative Cloud Connector'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Cache manager'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Cache-manager'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
