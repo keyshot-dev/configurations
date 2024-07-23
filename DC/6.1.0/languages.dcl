@@ -4,6 +4,8 @@ resource language afrikaans {
     locale_id = 1078
     enabled = false
     is_default_language = false
+    azure_language_code = 'af'
+    elastic_language_code = ''
 }
 
 resource language albanian {
@@ -12,6 +14,8 @@ resource language albanian {
     locale_id = 1052
     enabled = false
     is_default_language = false
+    azure_language_code = 'sq'
+    elastic_language_code = ''
 }
 
 resource language arabic_algeria {
@@ -20,6 +24,8 @@ resource language arabic_algeria {
     locale_id = 5121
     enabled = false
     is_default_language = false
+    azure_language_code = 'ar'
+    elastic_language_code = 'arabic'
 }
 
 resource language arabic_bahrain {
@@ -28,6 +34,8 @@ resource language arabic_bahrain {
     locale_id = 15361
     enabled = false
     is_default_language = false
+    azure_language_code = 'ar'
+    elastic_language_code = 'arabic'
 }
 
 resource language arabic_egypt {
@@ -36,6 +44,8 @@ resource language arabic_egypt {
     locale_id = 3073
     enabled = false
     is_default_language = false
+    azure_language_code = 'ar'
+    elastic_language_code = 'arabic'
 }
 
 resource language arabic_iraq {
@@ -44,6 +54,8 @@ resource language arabic_iraq {
     locale_id = 2049
     enabled = false
     is_default_language = false
+    azure_language_code = 'ar'
+    elastic_language_code = 'arabic'
 }
 
 resource language arabic_jordan {
@@ -52,6 +64,8 @@ resource language arabic_jordan {
     locale_id = 11265
     enabled = false
     is_default_language = false
+    azure_language_code = 'ar'
+    elastic_language_code = 'arabic'
 }
 
 resource language arabic_kuwait {
@@ -60,6 +74,8 @@ resource language arabic_kuwait {
     locale_id = 13313
     enabled = false
     is_default_language = false
+    azure_language_code = 'ar'
+    elastic_language_code = 'arabic'
 }
 
 resource language arabic_lebanon {
@@ -68,6 +84,8 @@ resource language arabic_lebanon {
     locale_id = 12289
     enabled = false
     is_default_language = false
+    azure_language_code = 'ar'
+    elastic_language_code = 'arabic'
 }
 
 resource language arabic_libya {
@@ -76,6 +94,8 @@ resource language arabic_libya {
     locale_id = 4097
     enabled = false
     is_default_language = false
+    azure_language_code = 'ar'
+    elastic_language_code = 'arabic'
 }
 
 resource language arabic_morocco {
@@ -84,6 +104,8 @@ resource language arabic_morocco {
     locale_id = 6145
     enabled = false
     is_default_language = false
+    azure_language_code = 'ar'
+    elastic_language_code = 'arabic'
 }
 
 resource language arabic_oman {
@@ -92,6 +114,8 @@ resource language arabic_oman {
     locale_id = 8193
     enabled = false
     is_default_language = false
+    azure_language_code = 'ar'
+    elastic_language_code = 'arabic'
 }
 
 resource language arabic_qatar {
@@ -100,6 +124,8 @@ resource language arabic_qatar {
     locale_id = 16385
     enabled = false
     is_default_language = false
+    azure_language_code = 'ar'
+    elastic_language_code = 'arabic'
 }
 
 resource language arabic_saudi_arabia {
@@ -108,6 +134,8 @@ resource language arabic_saudi_arabia {
     locale_id = 1025
     enabled = false
     is_default_language = false
+    azure_language_code = 'ar'
+    elastic_language_code = 'arabic'
 }
 
 resource language arabic_syria {
@@ -116,6 +144,8 @@ resource language arabic_syria {
     locale_id = 10241
     enabled = false
     is_default_language = false
+    azure_language_code = 'ar'
+    elastic_language_code = 'arabic'
 }
 
 resource language arabic_tunisia {
@@ -124,6 +154,8 @@ resource language arabic_tunisia {
     locale_id = 7169
     enabled = false
     is_default_language = false
+    azure_language_code = 'ar'
+    elastic_language_code = 'arabic'
 }
 
 resource language arabic_uae {
@@ -132,6 +164,8 @@ resource language arabic_uae {
     locale_id = 14337
     enabled = false
     is_default_language = false
+    azure_language_code = 'ar'
+    elastic_language_code = 'arabic'
 }
 
 resource language arabic_yemen {
@@ -140,6 +174,8 @@ resource language arabic_yemen {
     locale_id = 9217
     enabled = false
     is_default_language = false
+    azure_language_code = 'ar'
+    elastic_language_code = 'arabic'
 }
 
 resource language basque {
@@ -148,6 +184,8 @@ resource language basque {
     locale_id = 1069
     enabled = false
     is_default_language = false
+    azure_language_code = 'eu'
+    elastic_language_code = 'basque'
 }
 
 resource language belarusian {
@@ -156,6 +194,8 @@ resource language belarusian {
     locale_id = 1059
     enabled = false
     is_default_language = false
+    azure_language_code = ''
+    elastic_language_code = ''
 }
 
 resource language bulgarian {
@@ -164,6 +204,8 @@ resource language bulgarian {
     locale_id = 1026
     enabled = false
     is_default_language = false
+    azure_language_code = 'bg'
+    elastic_language_code = 'bulgarian'
 }
 
 resource language catalan {
@@ -172,6 +214,8 @@ resource language catalan {
     locale_id = 1027
     enabled = false
     is_default_language = false
+    azure_language_code = 'ca'
+    elastic_language_code = 'catalan'
 }
 
 resource language chinese_hong_kong_sar {
@@ -180,6 +224,8 @@ resource language chinese_hong_kong_sar {
     locale_id = 3076
     enabled = false
     is_default_language = false
+    azure_language_code = 'zh-Hans'
+    elastic_language_code = 'cjk'
 }
 
 resource language chinese_prc {
@@ -188,6 +234,8 @@ resource language chinese_prc {
     locale_id = 2052
     enabled = false
     is_default_language = false
+    azure_language_code = 'zh-Hans'
+    elastic_language_code = 'cjk'
 }
 
 resource language chinese_singapore {
@@ -196,6 +244,8 @@ resource language chinese_singapore {
     locale_id = 4100
     enabled = false
     is_default_language = false
+    azure_language_code = 'zh-Hans'
+    elastic_language_code = cjk''
 }
 
 resource language chinese_taiwan {
@@ -204,6 +254,8 @@ resource language chinese_taiwan {
     locale_id = 1028
     enabled = false
     is_default_language = false
+    azure_language_code = 'zh-Hans'
+    elastic_language_code = 'cjk'
 }
 
 resource language croatian {
@@ -212,6 +264,8 @@ resource language croatian {
     locale_id = 1050
     enabled = false
     is_default_language = false
+    azure_language_code = 'hr'
+    elastic_language_code = ''
 }
 
 resource language czech {
@@ -220,6 +274,8 @@ resource language czech {
     locale_id = 1029
     enabled = false
     is_default_language = false
+    azure_language_code = 'cs'
+    elastic_language_code = 'czech'
 }
 
 resource language danish {
@@ -228,6 +284,8 @@ resource language danish {
     locale_id = 1030
     enabled = false
     is_default_language = false
+    azure_language_code = 'da'
+    elastic_language_code = 'danish'
 }
 
 resource language dutch {
@@ -236,6 +294,8 @@ resource language dutch {
     locale_id = 1043
     enabled = false
     is_default_language = false
+    azure_language_code = 'nl'
+    elastic_language_code = 'dutch'
 }
 
 resource language dutch_belgium {
@@ -244,6 +304,8 @@ resource language dutch_belgium {
     locale_id = 2067
     enabled = false
     is_default_language = false
+    azure_language_code = 'nl'
+    elastic_language_code = 'dutch'
 }
 
 resource language english {
@@ -252,6 +314,8 @@ resource language english {
     locale_id = 1033
     enabled = true
     is_default_language = true
+    azure_language_code = 'en'
+    elastic_language_code = 'english'
 }
 
 resource language english_australien {
@@ -260,6 +324,8 @@ resource language english_australien {
     locale_id = 3081
     enabled = false
     is_default_language = false
+    azure_language_code = 'en'
+    elastic_language_code = 'english'
 }
 
 resource language english_belize {
@@ -268,6 +334,8 @@ resource language english_belize {
     locale_id = 10249
     enabled = false
     is_default_language = false
+    azure_language_code = 'en'
+    elastic_language_code = 'english'
 }
 
 resource language english_canada {
@@ -276,6 +344,8 @@ resource language english_canada {
     locale_id = 4105
     enabled = false
     is_default_language = false
+    azure_language_code = 'en'
+    elastic_language_code = 'english'
 }
 
 resource language english_caribien {
@@ -284,6 +354,8 @@ resource language english_caribien {
     locale_id = 9225
     enabled = false
     is_default_language = false
+    azure_language_code = 'en'
+    elastic_language_code = 'english'
 }
 
 resource language english_great_britain {
@@ -292,6 +364,8 @@ resource language english_great_britain {
     locale_id = 2057
     enabled = false
     is_default_language = false
+    azure_language_code = 'en'
+    elastic_language_code = 'english'
 }
 
 resource language english_irleand {
@@ -300,6 +374,8 @@ resource language english_irleand {
     locale_id = 6153
     enabled = false
     is_default_language = false
+    azure_language_code = 'en'
+    elastic_language_code = 'english'
 }
 
 resource language english_jamaica {
@@ -308,6 +384,8 @@ resource language english_jamaica {
     locale_id = 8201
     enabled = false
     is_default_language = false
+    azure_language_code = 'en'
+    elastic_language_code = 'english'
 }
 
 resource language english_new_zealand {
@@ -316,6 +394,8 @@ resource language english_new_zealand {
     locale_id = 5129
     enabled = false
     is_default_language = false
+    azure_language_code = 'en'
+    elastic_language_code = 'english'
 }
 
 resource language english_south_africa {
@@ -324,6 +404,8 @@ resource language english_south_africa {
     locale_id = 7177
     enabled = false
     is_default_language = false
+    azure_language_code = 'en'
+    elastic_language_code = 'english'
 }
 
 resource language english_trinidad {
@@ -332,6 +414,8 @@ resource language english_trinidad {
     locale_id = 11273
     enabled = false
     is_default_language = false
+    azure_language_code = 'en'
+    elastic_language_code = 'english'
 }
 
 resource language english_us {
@@ -340,6 +424,8 @@ resource language english_us {
     locale_id = 1033
     enabled = false
     is_default_language = false
+    azure_language_code = 'en'
+    elastic_language_code = 'english'
 }
 
 resource language estonian {
@@ -348,6 +434,8 @@ resource language estonian {
     locale_id = 1061
     enabled = false
     is_default_language = false
+    azure_language_code = 'et'
+    elastic_language_code = 'estonian'
 }
 
 resource language faeroese {
@@ -356,6 +444,8 @@ resource language faeroese {
     locale_id = 0
     enabled = false
     is_default_language = false
+    azure_language_code = 'fo'
+    elastic_language_code = ''
 }
 
 resource language farsi {
@@ -364,6 +454,8 @@ resource language farsi {
     locale_id = 1065
     enabled = false
     is_default_language = false
+    azure_language_code = 'fa'
+    elastic_language_code = 'persian'
 }
 
 resource language finnish {
@@ -372,6 +464,8 @@ resource language finnish {
     locale_id = 1035
     enabled = false
     is_default_language = false
+    azure_language_code = 'fi'
+    elastic_language_code = 'finnish'
 }
 
 resource language french {
@@ -380,6 +474,8 @@ resource language french {
     locale_id = 1036
     enabled = false
     is_default_language = false
+    azure_language_code = 'fr'
+    elastic_language_code = 'french'
 }
 
 resource language french_belgium {
@@ -388,6 +484,8 @@ resource language french_belgium {
     locale_id = 2060
     enabled = false
     is_default_language = false
+    azure_language_code = 'fr'
+    elastic_language_code = 'french'
 }
 
 resource language french_canada {
@@ -396,6 +494,8 @@ resource language french_canada {
     locale_id = 3084
     enabled = false
     is_default_language = false
+    azure_language_code = 'fr-CA'
+    elastic_language_code = 'french'
 }
 
 resource language french_luxembourg {
@@ -404,6 +504,8 @@ resource language french_luxembourg {
     locale_id = 5132
     enabled = false
     is_default_language = false
+    azure_language_code = 'fr'
+    elastic_language_code = 'french'
 }
 
 resource language french_switzerland {
@@ -412,6 +514,8 @@ resource language french_switzerland {
     locale_id = 4108
     enabled = false
     is_default_language = false
+    azure_language_code = 'fr'
+    elastic_language_code = 'french'
 }
 
 resource language fyro_macedonian {
@@ -420,6 +524,8 @@ resource language fyro_macedonian {
     locale_id = 1071
     enabled = false
     is_default_language = false
+    azure_language_code = 'mk'
+    elastic_language_code = ''
 }
 
 resource language gaelic_ireland {
@@ -428,6 +534,8 @@ resource language gaelic_ireland {
     locale_id = 0
     enabled = false
     is_default_language = false
+    azure_language_code = 'ga'
+    elastic_language_code = 'irish'
 }
 
 resource language gaelic_scotland {
@@ -436,6 +544,8 @@ resource language gaelic_scotland {
     locale_id = 0
     enabled = false
     is_default_language = false
+    azure_language_code = ''
+    elastic_language_code = ''
 }
 
 resource language german {
@@ -444,6 +554,8 @@ resource language german {
     locale_id = 1031
     enabled = false
     is_default_language = false
+    azure_language_code = 'de'
+    elastic_language_code = 'german'
 }
 
 resource language german_austria {
@@ -452,6 +564,8 @@ resource language german_austria {
     locale_id = 3079
     enabled = false
     is_default_language = false
+    azure_language_code = 'de'
+    elastic_language_code = 'german'
 }
 
 resource language german_liechtenstein {
@@ -460,6 +574,8 @@ resource language german_liechtenstein {
     locale_id = 5127
     enabled = false
     is_default_language = false
+    azure_language_code = 'de'
+    elastic_language_code = 'german'
 }
 
 resource language german_luxembourg {
@@ -468,6 +584,8 @@ resource language german_luxembourg {
     locale_id = 4103
     enabled = false
     is_default_language = false
+    azure_language_code = 'de'
+    elastic_language_code = 'german'
 }
 
 resource language german_switzerland {
@@ -476,6 +594,8 @@ resource language german_switzerland {
     locale_id = 2055
     enabled = false
     is_default_language = false
+    azure_language_code = 'de'
+    elastic_language_code = 'german'
 }
 
 resource language greek {
@@ -484,6 +604,8 @@ resource language greek {
     locale_id = 1032
     enabled = false
     is_default_language = false
+    azure_language_code = 'el'
+    elastic_language_code = 'greek'
 }
 
 resource language hebrew {
@@ -492,6 +614,8 @@ resource language hebrew {
     locale_id = 1037
     enabled = false
     is_default_language = false
+    azure_language_code = 'he'
+    elastic_language_code = ''
 }
 
 resource language hindi {
@@ -500,6 +624,8 @@ resource language hindi {
     locale_id = 1081
     enabled = false
     is_default_language = false
+    azure_language_code = 'hi'
+    elastic_language_code = 'hindi'
 }
 
 resource language hungarian {
@@ -508,6 +634,8 @@ resource language hungarian {
     locale_id = 1038
     enabled = false
     is_default_language = false
+    azure_language_code = 'hu'
+    elastic_language_code = 'hungarian'
 }
 
 resource language icelandic {
@@ -516,6 +644,8 @@ resource language icelandic {
     locale_id = 1039
     enabled = false
     is_default_language = false
+    azure_language_code = 'is'
+    elastic_language_code = ''
 }
 
 resource language indonesian {
@@ -524,6 +654,8 @@ resource language indonesian {
     locale_id = 1057
     enabled = false
     is_default_language = false
+    azure_language_code = 'id'
+    elastic_language_code = 'indonesian'
 }
 
 resource language italian {
@@ -532,6 +664,8 @@ resource language italian {
     locale_id = 1040
     enabled = false
     is_default_language = false
+    azure_language_code = 'it'
+    elastic_language_code = 'italian'
 }
 
 resource language italian_switzerland {
@@ -540,6 +674,8 @@ resource language italian_switzerland {
     locale_id = 2064
     enabled = false
     is_default_language = false
+    azure_language_code = 'it'
+    elastic_language_code = 'italian'
 }
 
 resource language japanese {
@@ -548,6 +684,8 @@ resource language japanese {
     locale_id = 1041
     enabled = false
     is_default_language = false
+    azure_language_code = 'ja'
+    elastic_language_code = 'cjk'
 }
 
 resource language korean {
@@ -556,6 +694,8 @@ resource language korean {
     locale_id = 1042
     enabled = false
     is_default_language = false
+    azure_language_code = 'ko'
+    elastic_language_code = 'cjk'
 }
 
 resource language korean_johab {
@@ -564,6 +704,8 @@ resource language korean_johab {
     locale_id = 0
     enabled = false
     is_default_language = false
+    azure_language_code = 'ko'
+    elastic_language_code = 'cjk'
 }
 
 resource language latvian {
@@ -572,6 +714,8 @@ resource language latvian {
     locale_id = 1062
     enabled = false
     is_default_language = false
+    azure_language_code = 'lv'
+    elastic_language_code = 'latvian'
 }
 
 resource language lithuanian {
@@ -580,6 +724,8 @@ resource language lithuanian {
     locale_id = 1063
     enabled = false
     is_default_language = false
+    azure_language_code = 'lt'
+    elastic_language_code = 'lithuanian'
 }
 
 resource language malaysian {
@@ -588,6 +734,8 @@ resource language malaysian {
     locale_id = 1086
     enabled = false
     is_default_language = false
+    azure_language_code = 'ms'
+    elastic_language_code = ''
 }
 
 resource language maltese {
@@ -596,6 +744,8 @@ resource language maltese {
     locale_id = 0
     enabled = false
     is_default_language = false
+    azure_language_code = 'mt'
+    elastic_language_code = ''
 }
 
 resource language norwegian_bokmal {
@@ -604,6 +754,8 @@ resource language norwegian_bokmal {
     locale_id = 1044
     enabled = false
     is_default_language = false
+    azure_language_code = 'nb'
+    elastic_language_code = 'norwegian'
 }
 
 resource language norwegian_nynorsk {
@@ -612,6 +764,8 @@ resource language norwegian_nynorsk {
     locale_id = 2068
     enabled = false
     is_default_language = false
+    azure_language_code = ''
+    elastic_language_code = 'norwegian'
 }
 
 resource language polish {
@@ -620,6 +774,8 @@ resource language polish {
     locale_id = 1045
     enabled = false
     is_default_language = false
+    azure_language_code = 'pl'
+    elastic_language_code = ''
 }
 
 resource language portuguese_brazil {
@@ -628,6 +784,8 @@ resource language portuguese_brazil {
     locale_id = 1046
     enabled = false
     is_default_language = false
+    azure_language_code = 'pt'
+    elastic_language_code = 'brazilian'
 }
 
 resource language portuguese_portugal {
@@ -636,6 +794,8 @@ resource language portuguese_portugal {
     locale_id = 2070
     enabled = false
     is_default_language = false
+    azure_language_code = 'pt'
+    elastic_language_code = 'portuguese'
 }
 
 resource language rhaetoromanic {
@@ -644,6 +804,8 @@ resource language rhaetoromanic {
     locale_id = 0
     enabled = false
     is_default_language = false
+    azure_language_code = ''
+    elastic_language_code = ''
 }
 
 resource language romanian {
@@ -652,6 +814,8 @@ resource language romanian {
     locale_id = 1048
     enabled = false
     is_default_language = false
+    azure_language_code = 'ro'
+    elastic_language_code = 'romanian'
 }
 
 resource language romanian_moldavia {
@@ -660,6 +824,8 @@ resource language romanian_moldavia {
     locale_id = 1048
     enabled = false
     is_default_language = false
+    azure_language_code = 'ro'
+    elastic_language_code = 'romanian'
 }
 
 resource language russian {
@@ -668,6 +834,8 @@ resource language russian {
     locale_id = 1049
     enabled = false
     is_default_language = false
+    azure_language_code = 'ru'
+    elastic_language_code = 'russian'
 }
 
 resource language russian_moldavia {
@@ -676,6 +844,8 @@ resource language russian_moldavia {
     locale_id = 0
     enabled = false
     is_default_language = false
+    azure_language_code = 'ro'
+    elastic_language_code = 'romanian'
 }
 
 resource language sami_lappish {
@@ -684,6 +854,8 @@ resource language sami_lappish {
     locale_id = 0
     enabled = false
     is_default_language = false
+    azure_language_code = ''
+    elastic_language_code = ''
 }
 
 resource language serbian_cyrillic {
@@ -692,6 +864,8 @@ resource language serbian_cyrillic {
     locale_id = 3098
     enabled = false
     is_default_language = false
+    azure_language_code = 'sr-Cyrl'
+    elastic_language_code = 'serbian'
 }
 
 resource language serbian_latin {
@@ -700,6 +874,8 @@ resource language serbian_latin {
     locale_id = 2074
     enabled = false
     is_default_language = false
+    azure_language_code = 'sr-Latn'
+    elastic_language_code = 'serbian'
 }
 
 resource language slovak {
@@ -708,6 +884,8 @@ resource language slovak {
     locale_id = 1051
     enabled = false
     is_default_language = false
+    azure_language_code = 'sk'
+    elastic_language_code = ''
 }
 
 resource language slovenian {
@@ -716,6 +894,8 @@ resource language slovenian {
     locale_id = 1060
     enabled = false
     is_default_language = false
+    azure_language_code = ''
+    elastic_language_code = 'sl'
 }
 
 resource language sorbian {
@@ -724,6 +904,8 @@ resource language sorbian {
     locale_id = 2074
     enabled = false
     is_default_language = false
+    azure_language_code = ''
+    elastic_language_code = ''
 }
 
 resource language spanish_argentina {
@@ -732,6 +914,8 @@ resource language spanish_argentina {
     locale_id = 11274
     enabled = false
     is_default_language = false
+    azure_language_code = 'es'
+    elastic_language_code = 'spanish'
 }
 
 resource language spanish_bolivia {
@@ -740,6 +924,8 @@ resource language spanish_bolivia {
     locale_id = 16394
     enabled = false
     is_default_language = false
+    azure_language_code = 'es'
+    elastic_language_code = 'spanish'
 }
 
 resource language spanish_chile {
@@ -748,6 +934,8 @@ resource language spanish_chile {
     locale_id = 13322
     enabled = false
     is_default_language = false
+    azure_language_code = 'es'
+    elastic_language_code = 'spanish'
 }
 
 resource language spanish_colombia {
@@ -756,6 +944,8 @@ resource language spanish_colombia {
     locale_id = 9226
     enabled = false
     is_default_language = false
+    azure_language_code = 'es'
+    elastic_language_code = 'spanish'
 }
 
 resource language spanish_costa_rica {
@@ -764,6 +954,8 @@ resource language spanish_costa_rica {
     locale_id = 5130
     enabled = false
     is_default_language = false
+    azure_language_code = 'es'
+    elastic_language_code = 'spanish'
 }
 
 resource language spanish_dominican_republic {
@@ -772,6 +964,8 @@ resource language spanish_dominican_republic {
     locale_id = 7178
     enabled = false
     is_default_language = false
+    azure_language_code = 'es'
+    elastic_language_code = 'spanish'
 }
 
 resource language spanish_ecuador {
@@ -780,6 +974,8 @@ resource language spanish_ecuador {
     locale_id = 12298
     enabled = false
     is_default_language = false
+    azure_language_code = 'es'
+    elastic_language_code = 'spanish'
 }
 
 resource language spanish_el_salvador {
@@ -788,6 +984,8 @@ resource language spanish_el_salvador {
     locale_id = 17418
     enabled = false
     is_default_language = false
+    azure_language_code = 'es'
+    elastic_language_code = 'spanish'
 }
 
 resource language spanish_guatemala {
@@ -796,6 +994,8 @@ resource language spanish_guatemala {
     locale_id = 4106
     enabled = false
     is_default_language = false
+    azure_language_code = 'es'
+    elastic_language_code = 'spanish'
 }
 
 resource language spanish_honduras {
@@ -804,6 +1004,8 @@ resource language spanish_honduras {
     locale_id = 18442
     enabled = false
     is_default_language = false
+    azure_language_code = 'es'
+    elastic_language_code = 'spanish'
 }
 
 resource language spanish_mexico {
@@ -812,6 +1014,8 @@ resource language spanish_mexico {
     locale_id = 2058
     enabled = false
     is_default_language = false
+    azure_language_code = 'es'
+    elastic_language_code = 'spanish'
 }
 
 resource language spanish_nicaragua {
@@ -820,6 +1024,8 @@ resource language spanish_nicaragua {
     locale_id = 19466
     enabled = false
     is_default_language = false
+    azure_language_code = 'es'
+    elastic_language_code = 'spanish'
 }
 
 resource language spanish_panama {
@@ -828,6 +1034,8 @@ resource language spanish_panama {
     locale_id = 6154
     enabled = false
     is_default_language = false
+    azure_language_code = 'es'
+    elastic_language_code = 'spanish'
 }
 
 resource language spanish_paraguay {
@@ -836,6 +1044,8 @@ resource language spanish_paraguay {
     locale_id = 15370
     enabled = false
     is_default_language = false
+    azure_language_code = 'es'
+    elastic_language_code = 'spanish'
 }
 
 resource language spanish_peru {
@@ -844,6 +1054,8 @@ resource language spanish_peru {
     locale_id = 10250
     enabled = false
     is_default_language = false
+    azure_language_code = 'es'
+    elastic_language_code = 'spanish'
 }
 
 resource language spanish_puerto_rico {
@@ -852,6 +1064,8 @@ resource language spanish_puerto_rico {
     locale_id = 20490
     enabled = false
     is_default_language = false
+    azure_language_code = 'es'
+    elastic_language_code = 'spanish'
 }
 
 resource language spanish_spain_modern {
@@ -860,6 +1074,8 @@ resource language spanish_spain_modern {
     locale_id = 3082
     enabled = false
     is_default_language = false
+    azure_language_code = 'es'
+    elastic_language_code = 'spanish'
 }
 
 resource language spanish_spain_traditional {
@@ -868,6 +1084,8 @@ resource language spanish_spain_traditional {
     locale_id = 1034
     enabled = false
     is_default_language = false
+    azure_language_code = 'es'
+    elastic_language_code = 'spanish'
 }
 
 resource language spanish_uruguay {
@@ -876,6 +1094,8 @@ resource language spanish_uruguay {
     locale_id = 14346
     enabled = false
     is_default_language = false
+    azure_language_code = 'es'
+    elastic_language_code = 'spanish'
 }
 
 resource language spanish_venezuela {
@@ -884,6 +1104,8 @@ resource language spanish_venezuela {
     locale_id = 8202
     enabled = false
     is_default_language = false
+    azure_language_code = 'es'
+    elastic_language_code = 'spanish'
 }
 
 resource language sutu {
@@ -892,6 +1114,8 @@ resource language sutu {
     locale_id = 0
     enabled = false
     is_default_language = false
+    azure_language_code = ''
+    elastic_language_code = ''
 }
 
 resource language swedish {
@@ -900,6 +1124,8 @@ resource language swedish {
     locale_id = 1053
     enabled = false
     is_default_language = false
+    azure_language_code = 'sv'
+    elastic_language_code = 'swedish'
 }
 
 resource language swedish_finland {
@@ -908,6 +1134,8 @@ resource language swedish_finland {
     locale_id = 2077
     enabled = false
     is_default_language = false
+    azure_language_code = 'sv'
+    elastic_language_code = 'swedish'
 }
 
 resource language thai {
@@ -916,6 +1144,8 @@ resource language thai {
     locale_id = 1054
     enabled = false
     is_default_language = false
+    azure_language_code = 'th'
+    elastic_language_code = 'turkish'
 }
 
 resource language tsonga {
@@ -924,6 +1154,8 @@ resource language tsonga {
     locale_id = 0
     enabled = false
     is_default_language = false
+    azure_language_code = ''
+    elastic_language_code = ''
 }
 
 resource language tswana {
@@ -932,6 +1164,8 @@ resource language tswana {
     locale_id = 0
     enabled = false
     is_default_language = false
+    azure_language_code = 'tn'
+    elastic_language_code = ''
 }
 
 resource language turkish {
@@ -940,6 +1174,8 @@ resource language turkish {
     locale_id = 1055
     enabled = false
     is_default_language = false
+    azure_language_code = 'tr'
+    elastic_language_code = 'turkish'
 }
 
 resource language ukrainian {
@@ -948,6 +1184,8 @@ resource language ukrainian {
     locale_id = 1058
     enabled = false
     is_default_language = false
+    azure_language_code = 'uk'
+    elastic_language_code = ''
 }
 
 resource language urdu {
@@ -956,6 +1194,8 @@ resource language urdu {
     locale_id = 1056
     enabled = false
     is_default_language = false
+    azure_language_code = 'ur'
+    elastic_language_code = ''
 }
 
 resource language venda {
@@ -964,6 +1204,8 @@ resource language venda {
     locale_id = 0
     enabled = false
     is_default_language = false
+    azure_language_code = ''
+    elastic_language_code = ''
 }
 
 resource language vietnamese {
@@ -972,6 +1214,8 @@ resource language vietnamese {
     locale_id = 1066
     enabled = false
     is_default_language = false
+    azure_language_code = 'vi'
+    elastic_language_code = ''
 }
 
 resource language xhosa {
@@ -980,6 +1224,8 @@ resource language xhosa {
     locale_id = 0
     enabled = false
     is_default_language = false
+    azure_language_code = 'xh'
+    elastic_language_code = ''
 }
 
 resource language yiddish {
@@ -988,6 +1234,8 @@ resource language yiddish {
     locale_id = 0
     enabled = false
     is_default_language = false
+    azure_language_code = ''
+    elastic_language_code = ''
 }
 
 resource language zulu {
@@ -996,5 +1244,7 @@ resource language zulu {
     locale_id = 0
     enabled = false
     is_default_language = false
+    azure_language_code = 'zu'
+    elastic_language_code = ''
 }
 
