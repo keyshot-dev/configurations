@@ -449,7 +449,7 @@ resource configservice_label embedded_cached_file_item_button_tooltip {
 
 resource configservice_label embedded_cached_file_item_custom_format_label {
   key = 'EMBEDDED_CACHED_FILE_ITEM_CUSTOM_FORMAT_LABEL'
-  group = 'Creative Cloud Connector'
+  group = 'Cache Manager'
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
