@@ -430,3 +430,35 @@ resource configservice_label cache_info_cached_asset_types {
     }
   ]
 }
+
+resource configservice_label embedded_cached_file_item_button_tooltip {
+  key = 'EMBEDDED_CACHED_FILE_ITEM_BUTTON_TOOLTIP'
+  group = 'Cache Manager'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Show renditions'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Vis renditions'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label embedded_cached_file_item_custom_format_label {
+  key = 'EMBEDDED_CACHED_FILE_ITEM_CUSTOM_FORMAT_LABEL'
+  group = 'Creative Cloud Connector'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Custom'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Brugerdefineret'
+      language_id = data.language.danish.id
+    }
+  ]
+}
