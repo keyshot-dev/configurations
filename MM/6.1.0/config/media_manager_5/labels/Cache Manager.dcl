@@ -110,6 +110,86 @@ resource configservice_label embedded_cache_manager_loading_text {
   ]
 }
 
+resource configservice_label embedded_cache_manager_custom_format {
+  key = 'EMBEDDED_CACHE_MANAGER_CUSTOM_FORMAT'
+  group = 'Cache Manager'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Custom'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Brugerdefineret'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label embedded_cache_manager_remove_cached_files_title {
+  key = 'EMBEDDED_CACHE_MANAGER_REMOVE_CACHED_FILES_TITLE'
+  group = 'Cache Manager'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Remove'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Fjern'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label embedded_cache_manager_remove_cached_files_content {
+  key = 'EMBEDDED_CACHE_MANAGER_REMOVE_CACHED_FILES_CONTENT'
+  group = 'Cache Manager'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Are your sure you want to remove {multiple, select, true {these cached assets} false {this cached asset}}?'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Er du sikker på, at du vil fjerne {multiple, select, true {disse cachede assets} false {dette cachede asset}}?'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label embedded_cache_manager_remove_cached_files_cancel {
+  key = 'EMBEDDED_CACHE_MANAGER_REMOVE_CACHED_FILES_CANCEL'
+  group = 'Cache Manager'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Cancel'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Annullér'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label embedded_cache_manager_remove_cached_files_confirm {
+  key = 'EMBEDDED_CACHE_MANAGER_REMOVE_CACHED_FILES_CONFIRM'
+  group = 'Cache Manager'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Remove'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Fjern'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label embedded_cache_manager_filters_menu_filters {
   key = 'EMBEDDED_CACHE_MANAGER_FILTERS_MENU_FILTERS'
   group = 'Cache Manager'
@@ -442,22 +522,6 @@ resource configservice_label embedded_cached_file_item_button_tooltip {
     },
     {
       default_translation = 'Vis renditions'
-      language_id = data.language.danish.id
-    }
-  ]
-}
-
-resource configservice_label embedded_cached_file_item_custom_format_label {
-  key = 'EMBEDDED_CACHED_FILE_ITEM_CUSTOM_FORMAT_LABEL'
-  group = 'Cache Manager'
-  product_id = resource.configservice_product.media_manager_5.id
-  default_label_values = [
-    {
-      default_translation = 'Custom'
-      language_id = data.language.english.id
-    },
-    {
-      default_translation = 'Brugerdefineret'
       language_id = data.language.danish.id
     }
   ]
