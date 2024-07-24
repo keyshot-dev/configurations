@@ -142,6 +142,22 @@ resource configservice_label embedded_cache_manager_filter_asset_type {
   ]
 }
 
+resource configservice_label embedded_filter_menu_cached_files_freetext_modal_search_placeholder {
+  key = 'EMBEDDED_FILTER_MENU_CACHED_FILES_FREETEXT_MODAL_SEARCH_PLACEHOLDER'
+  group = 'Cache Manager'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Search'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Søg'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label embedded_cached_files_list_view_asset_title {
   key = 'EMBEDDED_CACHED_FILES_LIST_VIEW_ASSET_TITLE'
   group = 'Cache Manager'
@@ -346,6 +362,70 @@ resource configservice_label embedded_cached_file_info_downloaded {
     },
     {
       default_translation = 'Downloadet'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label cache_info_button_tooltip {
+  key = 'CACHE_INFO_BUTTON_TOOLTIP'
+  group = 'Cache Manager'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Cache info'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Cache-info'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label cache_info_cache_size {
+  key = 'CACHE_INFO_CACHE_SIZE'
+  group = 'Cache Manager'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Cache size'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Cache-størrelse'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label cache_info_cached_asset_types_title {
+  key = 'CACHE_INFO_CACHED_ASSET_TYPES_TITLE'
+  group = 'Cache Manager'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Cached asset types'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Cachede asset-typer'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label cache_info_cached_asset_types {
+  key = 'CACHE_INFO_CACHED_ASSET_TYPES'
+  group = 'Cache Manager'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = '{{count}} {{assetType}} {count, cardinalPlural, one {file} other {files}}'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = '{{count}} {{assetType}}-{count, cardinalPlural, one {fil} other {filer}}'
       language_id = data.language.danish.id
     }
   ]
