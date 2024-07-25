@@ -141,4 +141,3 @@ resource configservice_label office_login_sso_login_dialog_already_open_message 
     }
   ]
 }
-
