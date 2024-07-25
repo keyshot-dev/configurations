@@ -164,11 +164,11 @@ resource configservice_label embedded_cache_manager_remove_cached_files_content 
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Are your sure you want to delete {multiple, select, true {these cached assets} false {this cached asset}}? This will delete all associated renditions'
+      default_translation = 'Are your sure you want to delete {multiple, select, true {these cached assets} false {this cached asset}}? This will delete all associated renditions from your local storage'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Er du sikker på, at du vil slette {multiple, select, true {disse cachede assets} false {dette cachede asset}}? Dette vil slette alle relateret renditions'
+      default_translation = 'Er du sikker på, at du vil slette {multiple, select, true {disse cachede assets} false {dette cachede asset}}? Dette vil slette alle relaterede renditions fra dit drev'
       language_id = data.language.danish.id
     }
   ]
@@ -312,7 +312,7 @@ resource configservice_label embedded_cached_files_list_view_last_used_title {
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Tid siden sidst ændret'
+      default_translation = 'Tid siden sidste ændring'
       language_id = data.language.danish.id
     }
   ]
@@ -392,7 +392,7 @@ resource configservice_label embedded_cached_file_info_button_tooltip {
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Cachede asset-info'
+      default_translation = 'Cachet asset-info'
       language_id = data.language.danish.id
     }
   ]
@@ -565,11 +565,11 @@ resource configservice_label embedded_cached_file_item_delete_rendition_content 
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Are your sure you want to delete the {{rendition}} rendition?'
+      default_translation = 'Are your sure you want to delete the rendition named {{rendition}}?'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Er du sikker på, at du vil slette {{rendition}} rendition?'
+      default_translation = 'Er du sikker på, at du vil slette renditionen kaldt {{rendition}}?'
       language_id = data.language.danish.id
     }
   ]
