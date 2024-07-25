@@ -606,3 +606,35 @@ resource configservice_label embedded_cached_file_item_delete_rendition_confirm 
     }
   ]
 }
+
+resource configservice_label selected_embedded_cached_files_overlay_options_delete_button {
+  key = 'SELECTED_EMBEDDED_CACHED_FILES_OVERLAY_OPTIONS_DELETE_BUTTON'
+  group = 'Cache Manager'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Delete'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Slet'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label selected_embedded_cached_files_overlay_options_clear_selection_button {
+  key = 'SELECTED_EMBEDDED_CACHED_FILES_OVERLAY_OPTIONS_CLEAR_SELECTION_BUTTON'
+  group = 'Cache Manager'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Clear selection'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Ryd valgte'
+      language_id = data.language.danish.id
+    }
+  ]
+}
