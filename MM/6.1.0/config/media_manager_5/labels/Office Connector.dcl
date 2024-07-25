@@ -100,11 +100,11 @@ resource configservice_label office_login_sso_login_failed_message {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Failed to login with SSO'
+      default_translation = 'Failed to log in with SSO'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Login med SSO mislykkedes'
+      default_translation = 'SSO-login mislykkedes'
       language_id = data.language.danish.id
     }
   ]
