@@ -1,4 +1,4 @@
-﻿data format thumbnail {
+data format thumbnail {
     name = 'Thumbnail'
     type = 'WebPImageFormat'
 }

@@ -10,6 +10,8 @@ resource metafield_group options_50028 {
     show_in_list = true
     sort_index = 50354
     restrict_to_asset = 'All'
-    parent_group_id = data.metafield_group.asset_info.metafield_group_id
+    restrict_to_asset_categories = [{
+            asset_category_id = data.asset_category.root.id
+        }]
 }
 

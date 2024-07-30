@@ -6056,6 +6056,134 @@ resource configservice_label administration_tools_users_and_groups_delete_group_
   ]
 }
 
+resource configservice_label administration_tools_users_and_groups_remove_user_from_group_title {
+  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_REMOVE_USER_FROM_GROUP_TITLE'
+  group = 'administration-tools - users-and-groups'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = "Users in '{{ groupName }}' group"
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = "Brugere i '{{ groupName }}' gruppe"
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_users_and_groups_remove_user_from_group_dialog_title {
+  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_REMOVE_USER_FROM_GROUP_DIALOG_TITLE'
+  group = 'administration-tools - users-and-groups'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Remove group'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Fjern gruppe'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_users_and_groups_remove_user_from_group_dialog_body {
+  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_REMOVE_USER_FROM_GROUP_DIALOG_BODY'
+  group = 'administration-tools - users-and-groups'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = "Are you sure you want to remove this group from the user '{{ userName }}'?"
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = "Er du sikker på, at du vil fjerne denne gruppe fra brugeren '{{ userName }}'?"
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_users_and_groups_remove_user_from_group_dialog_confirm {
+  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_REMOVE_USER_FROM_GROUP_DIALOG_CONFIRM'
+  group = 'administration-tools - users-and-groups'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Remove'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Fjern'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_users_and_groups_remove_user_from_group_dialog_cancel {
+  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_REMOVE_USER_FROM_GROUP_DIALOG_CANCEL'
+  group = 'administration-tools - users-and-groups'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Cancel'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Annullér'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_users_and_groups_delete_user_from_group_dialog_error_title {
+  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_DELETE_USER_FROM_GROUP_DIALOG_ERROR_TITLE'
+  group = 'administration-tools - users-and-groups'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Error'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Fejl'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_users_and_groups_delete_user_from_group_dialog_error_body {
+  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_DELETE_USER_FROM_GROUP_DIALOG_ERROR_BODY'
+  group = 'administration-tools - users-and-groups'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'An error occurred while removing group from user'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Der opstod en fejl under fjernelse af gruppen fra brugeren'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_users_and_groups_delete_user_from_group_dialog_success {
+  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_DELETE_USER_FROM_GROUP_DIALOG_SUCCESS'
+  group = 'administration-tools - users-and-groups'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Group was removed from user'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Gruppen blev fjernet fra brugeren'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label administration_tools_users_and_groups_delete_user_dialog_title {
   key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_DELETE_USER_DIALOG_TITLE'
   group = 'administration-tools - users-and-groups'
@@ -10496,3 +10624,114 @@ resource configservice_label administration_tools_system_asset_type_extensions_e
   ]
 }
 
+resource configservice_label administration_tools_analytics_table_builder_edit_formats_filter {
+  key = 'ADMINISTRATION_TOOLS_ANALYTICS_TABLE_BUILDER_EDIT_FORMATS_FILTER'
+  group = 'administration-tools - analytics-table-builder'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Filter on formats'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Filtrer på formater'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_analytics_table_builder_descriptive_dimensions {
+  key = 'ADMINISTRATION_TOOLS_ANALYTICS_TABLE_BUILDER_DESCRIPTIVE_DIMENSIONS'
+  group = 'administration-tools - analytics-formats-filter'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Descriptive dimensions'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Beskrivende-dimensioner'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_analytics_formats_filter_formats_title {
+  key = 'ADMINISTRATION_TOOLS_ANALYTICS_FORMATS_FILTER_FORMATS_TITLE'
+  group = 'administration-tools - analytics-formats-filter'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Formats filter'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Formatsfilter'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_analytics_formats_filter_specific_formats {
+  key = 'ADMINISTRATION_TOOLS_ANALYTICS_FORMATS_FILTER_SPECIFIC_FORMATS'
+  group = 'administration-tools - analytics-formats-filter'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Choose formats'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Vælg formater'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_analytics_formats_filter_apply {
+  key = 'ADMINISTRATION_TOOLS_ANALYTICS_FORMATS_FILTER_APPLY'
+  group = 'administration-tools - analytics-member-filter'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Apply'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Anvend'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_analytics_formats_filter_cancel {
+  key = 'ADMINISTRATION_TOOLS_ANALYTICS_FORMATS_FILTER_CANCEL'
+  group = 'administration-tools - analytics-formats-filter'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Cancel'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Annuller'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_analytics_block_builder_descriptive_dimensions {
+  key = 'ADMINISTRATION_TOOLS_ANALYTICS_BLOCK_BUILDER_DESCRIPTIVE_DIMENSIONS'
+  group = 'administration-tools - analytics-formats-filter'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Descriptive dimensions'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Beskrivende-dimensioner'
+      language_id = data.language.danish.id
+    }
+  ]
+}

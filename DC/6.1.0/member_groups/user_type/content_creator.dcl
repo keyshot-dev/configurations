@@ -17,6 +17,8 @@ resource member_group content_creator {
             constant = 'Can_view_metadata_tab'
         }, {
             constant = 'Can_view_related_assets'
+        }, {
+            constant = 'MediaPortal_Audio_Embed'
         }]
     autolink = {
         item_guid = 'ed672267-2724-47d7-acbe-527f875445bc'

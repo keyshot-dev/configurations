@@ -135,6 +135,14 @@ resource member_group administrator_22 {
             constant = 'Collection_can_share_link'
         }, {
             constant = 'SystemAdministrationAuditTrail_View'
+        }, {
+            constant = 'Can_Switch_To_Database_Mode'
+        }, {
+            constant = 'AssetCategories_reader'
+        }, {
+            constant = 'AssetCategories_writer'
+        }, {
+            constant = 'MediaPortal_Audio_Embed'
         }]
     autolink = {
         item_guid = '58efafcb-4ce9-43d0-b413-b842fbccb576'

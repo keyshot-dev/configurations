@@ -169,6 +169,16 @@ patch member_group administrator_patch {
             constant = 'Can_view_related_assets'
         }, {
             constant = 'Asset_Can_Archive'
+        }, {
+            constant = 'Can_Switch_To_Database_Mode'
+        }, {
+            constant = 'SystemAdministrationAuditTrail_View'
+        }, {
+            constant = 'AssetCategories_reader'
+        }, {
+            constant = 'AssetCategories_writer'
+        }, {
+            constant = 'MediaPortal_Audio_Embed'
         }]
 }
 
