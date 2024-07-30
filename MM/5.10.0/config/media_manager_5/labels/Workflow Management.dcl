@@ -584,7 +584,7 @@ resource configservice_label workflow_editor_folder_value_input_add {
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Add'
+      default_translation = 'Tilføje'
       language_id = data.language.danish.id
     }
   ]
