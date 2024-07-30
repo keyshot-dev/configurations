@@ -6208,11 +6208,11 @@ resource configservice_label administration_tools_users_and_groups_group_parents
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Parents'
+      default_translation = 'Groups'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Forældre'
+      default_translation = 'Grupper'
       language_id = data.language.danish.id
     }
   ]
