@@ -328,7 +328,7 @@ resource configservice_label duplicate_asset_sort_selector_detection_mode_option
       language_id = data.language.english.id
     },
     {
-      default_translation = '{mode, select, OriginalFilename {Originalt filnavn} PerceptualHash {Lignende billeder} Sha1Hash {Identiske filer} UseMetaField {Brugerdefineret metafelt}}}'
+      default_translation = '{mode, select, OriginalFilename {Originalt filnavn} PerceptualHash {Lignende billeder} Sha1Hash {Identiske filer} UseMetaField {Brugerdefineret metafelt}}'
       language_id = data.language.danish.id
     }
   ]
