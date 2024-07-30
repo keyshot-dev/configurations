@@ -574,6 +574,22 @@ resource configservice_label workflow_editor_folder_value_input_no_folder_select
   ]
 }
 
+resource configservice_label workflow_editor_folder_value_input_add {
+  key = 'WORKFLOW_EDITOR_FOLDER_VALUE_INPUT_ADD'
+  group = 'Workflow Management'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Add'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Tilføj'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label workflow_editor_list_value_input_add {
   key = 'WORKFLOW_EDITOR_LIST_VALUE_INPUT_ADD'
   group = 'Workflow Management'
