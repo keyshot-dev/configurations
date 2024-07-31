@@ -756,11 +756,11 @@ resource configservice_label mobile_menu_navigate_to_plugin {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Navigate to plug-in'
+      default_translation = 'Open plug-in'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Naviger til plug-in'
+      default_translation = 'Åbn plug-in'
       language_id = data.language.danish.id
     }
   ]
