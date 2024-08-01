@@ -78,38 +78,6 @@ resource configservice_label preview_add_comment_add_message {
   ]
 }
 
-resource configservice_label preview_comment_options_popup_edit {
-  key = 'PREVIEW_COMMENT_OPTIONS_POPUP_EDIT'
-  group = 'Preview Asset'
-  product_id = resource.configservice_product.media_manager_5.id
-  default_label_values = [
-    {
-      default_translation = 'Edit'
-      language_id = data.language.english.id
-    },
-    {
-      default_translation = 'Redigér'
-      language_id = data.language.danish.id
-    }
-  ]
-}
-
-resource configservice_label preview_comment_options_popup_remove {
-  key = 'PREVIEW_COMMENT_OPTIONS_POPUP_REMOVE'
-  group = 'Preview Asset'
-  product_id = resource.configservice_product.media_manager_5.id
-  default_label_values = [
-    {
-      default_translation = 'Remove'
-      language_id = data.language.english.id
-    },
-    {
-      default_translation = 'Fjern'
-      language_id = data.language.danish.id
-    }
-  ]
-}
-
 resource configservice_label preview_asset_comments_reply {
   key = 'PREVIEW_ASSET_COMMENTS_REPLY'
   group = 'Preview Asset'
