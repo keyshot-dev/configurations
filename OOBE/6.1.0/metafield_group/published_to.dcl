@@ -110,7 +110,7 @@ resource tree_metafield published_to {
 resource tree_node_label digizuite_media_manager {
     tree_node_id = resource.tree_node.published_to__digizuite_media_manager.tree_node_id
     language_id = data.language.english.id
-    label = 'Digizuite™ Media Manager'
+    label = 'Media Manager'
 }
 
 resource tree_node_label internal_access {
