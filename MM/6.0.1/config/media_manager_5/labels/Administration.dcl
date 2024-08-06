@@ -6594,11 +6594,11 @@ resource configservice_label administration_tools_users_and_groups_change_group_
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Change group folder'
+      default_translation = 'Move'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Skift gruppemappe'
+      default_translation = 'Flyt'
       language_id = data.language.danish.id
     }
   ]
@@ -6610,11 +6610,11 @@ resource configservice_label administration_tools_users_and_groups_change_user_f
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Change user folder'
+      default_translation = 'Move'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Skift brugermappe'
+      default_translation = 'Flyt'
       language_id = data.language.danish.id
     }
   ]
@@ -10454,11 +10454,11 @@ resource configservice_label administration_tools_users_and_groups_change_user_f
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'User folder changed'
+      default_translation = 'Changes saved'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Brugermappe ændret'
+      default_translation = 'Ændringerne blev gemt'
       language_id = data.language.danish.id
     }
   ]
@@ -10486,11 +10486,11 @@ resource configservice_label administration_tools_users_and_groups_change_user_f
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'User folder not changed'
+      default_translation = 'The changes were not saved'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Brugermappe ikke ændret'
+      default_translation = 'Ændringerne blev ikke gemt'
       language_id = data.language.danish.id
     }
   ]
@@ -10502,11 +10502,11 @@ resource configservice_label administration_tools_users_and_groups_change_user_f
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Change user folder'
+      default_translation = 'Move'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Skift brugermappe'
+      default_translation = 'Move'
       language_id = data.language.danish.id
     }
   ]
@@ -10534,11 +10534,11 @@ resource configservice_label administration_tools_users_and_groups_change_user_f
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'User folder is required'
+      default_translation = 'User folder required'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Brugermappe er påkrævet'
+      default_translation = 'Brugermappe påkrævet'
       language_id = data.language.danish.id
     }
   ]
@@ -10582,11 +10582,11 @@ resource configservice_label administration_tools_users_and_groups_change_group_
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Group folder changed'
+      default_translation = 'Moved'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Gruppemappe ændret'
+      default_translation = 'Moved'
       language_id = data.language.danish.id
     }
   ]
@@ -10614,11 +10614,11 @@ resource configservice_label ADMINISTRATION_TOOLS_USERS_AND_GROUPS_CHANGE_GROUP_
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Group folder not changed'
+      default_translation = 'Changes were not saved'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Gruppemappen er ikke ændret'
+      default_translation = 'The changes were not saved'
       language_id = data.language.danish.id
     }
   ]
@@ -10630,11 +10630,11 @@ resource configservice_label administration_tools_users_and_groups_change_group_
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Change group folder'
+      default_translation = 'Move'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Skift gruppemappe'
+      default_translation = 'Move'
       language_id = data.language.danish.id
     }
   ]
@@ -10662,11 +10662,11 @@ resource configservice_label administration_tools_users_and_groups_change_group_
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Group folder is required'
+      default_translation = 'Group folder required'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Gruppemappe er påkrævet'
+      default_translation = 'Gruppemappe påkrævet'
       language_id = data.language.danish.id
     }
   ]
