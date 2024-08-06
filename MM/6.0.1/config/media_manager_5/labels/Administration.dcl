@@ -6588,6 +6588,38 @@ resource configservice_label administration_tools_users_and_groups_users_users_s
     ]
  }
 
+resource configservice_label administration_tools_users_and_groups_change_group_folder_btn {
+  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_CHANGE_GROUP_FOLDER_BTN'
+  group = 'administration-tools - users-and-groups'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Change group folder'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Skift gruppemappe'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_users_and_groups_change_user_folder_btn {
+  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_CHANGE_USER_FOLDER_BTN'
+  group = 'administration-tools - users-and-groups'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Change user folder'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Skift brugermappe'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label administration_tools_users_and_groups_delete_user_btn {
   key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_DELETE_USER_BTN'
   group = 'administration-tools - users-and-groups'
@@ -10416,3 +10448,258 @@ resource configservice_label administration_tools_system_asset_type_extensions_e
   ]
 }
 
+resource configservice_label administration_tools_users_and_groups_change_user_folder_dialog_success {
+  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_CHANGE_USER_FOLDER_DIALOG_SUCCESS'
+  group = 'administration-tools - users-and-groups'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'User folder changed'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Brugermappe ændret'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_users_and_groups_change_user_folder_dialog_error_title {
+  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_CHANGE_USER_FOLDER_DIALOG_ERROR_TITLE'
+  group = 'administration-tools - users-and-groups'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Error'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Fejl'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_users_and_groups_change_user_folder_dialog_error_body {
+  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_CHANGE_USER_FOLDER_DIALOG_ERROR_BODY'
+  group = 'administration-tools - users-and-groups'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'User folder not changed'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Brugermappe ikke ændret'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_users_and_groups_change_user_folder_dialog_title {
+  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_CHANGE_USER_FOLDER_DIALOG_TITLE'
+  group = 'administration-tools - users-and-groups'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Change user folder'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Skift brugermappe'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_users_and_groups_change_user_folder_dialog_label_folder {
+  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_CHANGE_USER_FOLDER_DIALOG_LABEL_FOLDER'
+  group = 'administration-tools - users-and-groups'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'User folder'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Brugermappe'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_users_and_groups_change_user_folder_dialog_folder_required {
+  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_CHANGE_USER_FOLDER_DIALOG_FOLDER_REQUIRED'
+  group = 'administration-tools - users-and-groups'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'User folder is required'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Brugermappe er påkrævet'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_users_and_groups_change_user_folder_dialog_cancel_btn {
+  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_CHANGE_USER_FOLDER_DIALOG_CANCEL_BTN'
+  group = 'administration-tools - users-and-groups'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Cancel'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Annullér'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_users_and_groups_change_user_folder_dialog_save_btn {
+  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_CHANGE_USER_FOLDER_DIALOG_SAVE_BTN'
+  group = 'administration-tools - users-and-groups'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = '{processing, select, true {Saving...} false {Save}}'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = '{processing, select, true {Gemmer...} false {Gem}}'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_users_and_groups_change_group_folder_dialog_success {
+  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_CHANGE_GROUP_FOLDER_DIALOG_SUCCESS'
+  group = 'administration-tools - users-and-groups'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Group folder changed'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Gruppemappe ændret'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label ADMINISTRATION_TOOLS_USERS_AND_GROUPS_CHANGE_GROUP_FOLDER_DIALOG_ERROR_TITLE {
+  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_CHANGE_GROUP_FOLDER_DIALOG_ERROR_TITLE'
+  group = 'administration-tools - users-and-groups'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Error'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Fejl'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label ADMINISTRATION_TOOLS_USERS_AND_GROUPS_CHANGE_GROUP_FOLDER_DIALOG_ERROR_BODY {
+  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_CHANGE_GROUP_FOLDER_DIALOG_ERROR_BODY'
+  group = 'administration-tools - users-and-groups'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Group folder not changed'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Gruppemappen er ikke ændret'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_users_and_groups_change_group_folder_dialog_title {
+  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_CHANGE_GROUP_FOLDER_DIALOG_TITLE'
+  group = 'administration-tools - users-and-groups'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Change group folder'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Skift gruppemappe'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_users_and_groups_change_group_folder_dialog_label_folder {
+  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_CHANGE_GROUP_FOLDER_DIALOG_LABEL_FOLDER'
+  group = 'administration-tools - users-and-groups'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Group folder'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Gruppemappe'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_users_and_groups_change_group_folder_dialog_folder_required {
+  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_CHANGE_GROUP_FOLDER_DIALOG_FOLDER_REQUIRED'
+  group = 'administration-tools - users-and-groups'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Group folder is required'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Gruppemappe er påkrævet'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_users_and_groups_change_group_folder_dialog_cancel_btn {
+  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_CHANGE_GROUP_FOLDER_DIALOG_CANCEL_BTN'
+  group = 'administration-tools - users-and-groups'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Cancel'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Annullér'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_users_and_groups_change_group_folder_dialog_save_btn {
+  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_CHANGE_GROUP_FOLDER_DIALOG_SAVE_BTN'
+  group = 'administration-tools - users-and-groups'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = '{processing, select, true {Saving...} false {Save}}'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = '{processing, select, true {Gemmer...} false {Gem}}'
+      language_id = data.language.danish.id
+    }
+  ]
+}
