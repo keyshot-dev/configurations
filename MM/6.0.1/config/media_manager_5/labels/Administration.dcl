@@ -10592,7 +10592,7 @@ resource configservice_label administration_tools_users_and_groups_change_group_
   ]
 }
 
-resource configservice_label ADMINISTRATION_TOOLS_USERS_AND_GROUPS_CHANGE_GROUP_FOLDER_DIALOG_ERROR_TITLE {
+resource configservice_label administration_tools_users_and_groups_change_group_folder_dialog_error_title {
   key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_CHANGE_GROUP_FOLDER_DIALOG_ERROR_TITLE'
   group = 'administration-tools - users-and-groups'
   product_id = resource.configservice_product.media_manager_5.id
@@ -10608,7 +10608,7 @@ resource configservice_label ADMINISTRATION_TOOLS_USERS_AND_GROUPS_CHANGE_GROUP_
   ]
 }
 
-resource configservice_label ADMINISTRATION_TOOLS_USERS_AND_GROUPS_CHANGE_GROUP_FOLDER_DIALOG_ERROR_BODY {
+resource configservice_label administration_tools_users_and_groups_change_group_folder_dialog_error_body {
   key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_CHANGE_GROUP_FOLDER_DIALOG_ERROR_BODY'
   group = 'administration-tools - users-and-groups'
   product_id = resource.configservice_product.media_manager_5.id
