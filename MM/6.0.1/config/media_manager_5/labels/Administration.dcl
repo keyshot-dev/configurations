@@ -10502,11 +10502,11 @@ resource configservice_label administration_tools_users_and_groups_change_user_f
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Move'
+      default_translation = 'Move to'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Move'
+      default_translation = 'Flyt til'
       language_id = data.language.danish.id
     }
   ]
@@ -10630,11 +10630,11 @@ resource configservice_label administration_tools_users_and_groups_change_group_
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Move'
+      default_translation = 'Move to'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Move'
+      default_translation = 'Flyt til'
       language_id = data.language.danish.id
     }
   ]
