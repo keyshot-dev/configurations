@@ -750,6 +750,22 @@ resource configservice_label mobile_menu_delete_cep_cache {
   ]
 }
 
+resource configservice_label mobile_menu_navigate_to_plugin {
+  key = 'MOBILE_MENU_NAVIGATE_TO_PLUGIN'
+  group = 'Side Bar'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Open plug-in'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Åbn plug-in'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label mobile_menu_cache_manager {
   key = 'MOBILE_MENU_CACHE_MANAGER'
   group = 'Side Bar'
