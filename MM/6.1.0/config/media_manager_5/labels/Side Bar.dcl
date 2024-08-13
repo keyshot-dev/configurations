@@ -292,11 +292,11 @@ resource configservice_label side_bar_panel_title_custom_quality {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Custom rendition'
+      default_translation = 'Custom'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Brugerdefineret rendition'
+      default_translation = 'Brugerdefineret'
       language_id = data.language.danish.id
     }
   ]
