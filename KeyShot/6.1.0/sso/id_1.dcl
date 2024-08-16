@@ -34,6 +34,7 @@ resource sso_configuration id_1 {
                 }, {
                     audience = '4itq00q1gis7gebq98vpg08rvn'
                 }]
+            verify_refresh_tokens_on_access_key_refresh = true
         }
     }
 }
