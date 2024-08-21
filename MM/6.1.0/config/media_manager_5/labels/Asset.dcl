@@ -190,22 +190,6 @@ resource configservice_label asset_crop_dialog_image_being_converted {
   ]
 }
 
-resource configservice_label asset_crop_dialog_success_title {
-  key = 'ASSET_CROP_DIALOG_SUCCESS_TITLE'
-  group = 'Asset'
-  product_id = resource.configservice_product.media_manager_5.id
-  default_label_values = [
-    {
-      default_translation = 'Crop image'
-      language_id = data.language.english.id
-    },
-    {
-      default_translation = 'Beskærer billede'
-      language_id = data.language.danish.id
-    }
-  ]
-}
-
 resource configservice_label asset_crop_dialog_success_message {
   key = 'ASSET_CROP_DIALOG_SUCCESS_MESSAGE'
   group = 'Asset'
