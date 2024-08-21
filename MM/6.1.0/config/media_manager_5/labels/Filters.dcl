@@ -205,17 +205,17 @@ resource configservice_label asset_list_filters_calendar_direction_options {
   ]
 }
 
-resource configservice_label asset_list_filters_search_in_sub_folders {
-  key = 'ASSET_LIST_FILTERS_SEARCH_IN_SUB_FOLDERS'
+resource configservice_label asset_list_filters_recursive_search {
+  key = 'ASSET_LIST_FILTERS_RECURSIVE_SEARCH'
   group = 'Filters'
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Search in sub folders'
+      default_translation = 'Recursive search'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Søg i undermapper'
+      default_translation = 'Rekursiv søgning'
       language_id = data.language.danish.id
     }
   ]
