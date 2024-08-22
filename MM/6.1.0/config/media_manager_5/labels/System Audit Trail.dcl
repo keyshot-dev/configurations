@@ -264,7 +264,7 @@ resource configservice_label system_audit_trail_label_show {
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Vise'
+      default_translation = 'Vis'
       language_id = data.language.danish.id
     }
   ]
