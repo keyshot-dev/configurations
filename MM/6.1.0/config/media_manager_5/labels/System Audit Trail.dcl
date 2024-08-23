@@ -94,17 +94,17 @@ resource configservice_label system_audit_trail_column_author {
   ]
 }
 
-resource configservice_label system_audit_trail_column_summary {
-  key = 'SYSTEM_AUDIT_TRAIL_COLUMN_SUMMARY'
+resource configservice_label system_audit_trail_column_type {
+  key = 'SYSTEM_AUDIT_TRAIL_COLUMN_TYPE'
   group = 'System Audit Trail'
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Summary'
+      default_translation = 'Type'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Oversigt'
+      default_translation = 'Type'
       language_id = data.language.danish.id
     }
   ]
