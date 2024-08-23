@@ -10714,7 +10714,7 @@ resource configservice_label administration_tools_system_asset_categories_sectio
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Aktivkategorier'
+      default_translation = 'Asset-kategorier'
       language_id = data.language.danish.id
     }
   ]
@@ -10726,11 +10726,11 @@ resource configservice_label administration_tools_system_asset_categories_toolti
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Configure asset categories'
+      default_translation = 'Configure categories'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Konfigurer aktivkategorier'
+      default_translation = 'Konfigurer kategorier'
       language_id = data.language.danish.id
     }
   ]
@@ -10838,11 +10838,11 @@ resource configservice_label administration_tools_system_asset_categories_no_ass
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'No asset categories found'
+      default_translation = 'No categories found'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Ingen aktivkategorier fundet'
+      default_translation = 'Ingen kategorier fundet'
       language_id = data.language.danish.id
     }
   ]
@@ -10854,11 +10854,11 @@ resource configservice_label administration_tools_system_asset_categories_fields
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Asset category'
+      default_translation = 'Category'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Aktivkategori'
+      default_translation = 'Kategori'
       language_id = data.language.danish.id
     }
   ]
@@ -10874,7 +10874,7 @@ resource configservice_label administration_tools_system_asset_categories_field_
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Felt påkravet'
+      default_translation = 'Feltet er påkrævet'
       language_id = data.language.danish.id
     }
   ]
@@ -10934,11 +10934,11 @@ resource configservice_label administration_tools_system_asset_categories_abstra
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Indicates if assets can be assigned directly to this category.'
+      default_translation = 'If false, assets can be assigned directly to this category.'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Angiver, om aktiver kan tildeles direkte til denne kategori.'
+      default_translation = 'Hvis falsk, vil assets kunne tildeles direkte til denne kategori.'
       language_id = data.language.danish.id
     }
   ]
@@ -10970,7 +10970,7 @@ resource configservice_label administration_tools_system_asset_categories_sealed
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Hvis falsk, kan denne kategori ikke have nogen underordnede kategorier.'
+      default_translation = 'Hvis falsk, kan denne kategori ikke have nogen børne-kategorier.'
       language_id = data.language.danish.id
     }
   ]
@@ -11062,11 +11062,11 @@ resource configservice_label administration_tools_system_asset_categories_dialog
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Delete asset category'
+      default_translation = 'Delete category'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Slet aktivkategori'
+      default_translation = 'Slet kategori'
       language_id = data.language.danish.id
     }
   ]
@@ -11078,11 +11078,11 @@ resource configservice_label administration_tools_system_asset_categories_dialog
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Are you sure you want to delete this asset category?'
+      default_translation = 'Are you sure you want to delete this category?'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Er du sikker på, at du vil slette dette aktivkategori?'
+      default_translation = 'Er du sikker på, at du vil slette denne kategori?'
       language_id = data.language.danish.id
     }
   ]
@@ -11126,11 +11126,11 @@ resource configservice_label administration_tools_system_asset_categories_delete
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Asset category deleted'
+      default_translation = 'Category deleted'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Aktivkategori slettet'
+      default_translation = 'Kategorien blev slettet'
       language_id = data.language.danish.id
     }
   ]
@@ -11142,11 +11142,11 @@ resource configservice_label administration_tools_system_asset_categories_delete
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Asset category not deleted'
+      default_translation = 'Category not deleted'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Aktivkategori ikke slettet'
+      default_translation = 'Kategorien blev ikke slettet'
       language_id = data.language.danish.id
     }
   ]
@@ -11190,11 +11190,11 @@ resource configservice_label administration_tools_system_asset_categories_save_e
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Asset category not saved'
+      default_translation = 'Category not saved'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Aktivkategori ikke gemt'
+      default_translation = 'Kategorien blev ikke gemt'
       language_id = data.language.danish.id
     }
   ]
