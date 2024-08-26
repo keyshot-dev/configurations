@@ -2399,3 +2399,35 @@ resource configservice_label aria_label_go_to_asset {
     }
   ]
 }
+
+resource configservice_label aria_label_compact_view {
+  key = 'ARIA_LABEL_COMPACT_VIEW'
+  group = 'Z Misc Labels'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Compact view'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Kompakt visning'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label aria_label_full_view {
+  key = 'ARIA_LABEL_FULL_VIEW'
+  group = 'Z Misc Labels'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Full view'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Fuld visning'
+      language_id = data.language.danish.id
+    }
+  ]
+}
