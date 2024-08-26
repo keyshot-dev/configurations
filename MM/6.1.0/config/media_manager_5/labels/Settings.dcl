@@ -6822,7 +6822,7 @@ resource configservice_label settings_sso_settings_verify_refresh_tokens_on_refr
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Bekræft opdateringstokens ved opdatering af adgangsnøgle'
+      default_translation = 'Bekræft opdaterings-tokens ved opdatering af access key'
       language_id = data.language.danish.id
     }
   ]
