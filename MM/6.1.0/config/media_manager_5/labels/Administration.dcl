@@ -11023,3 +11023,515 @@ resource configservice_label administration_tools_users_and_groups_change_group_
     }
   ]
 }
+
+resource configservice_label administration_tools_system_asset_categories_section {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_ASSET_CATEGORIES_SECTION'
+  group = 'administration-tools - system - asset-categories'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Asset categories'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Asset-kategorier'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_asset_categories_tooltip {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_ASSET_CATEGORIES_TOOLTIP'
+  group = 'administration-tools - system - asset-categories'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Configure categories'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Konfigurer kategorier'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_asset_categories_add_new {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_ASSET_CATEGORIES_ADD_NEW'
+  group = 'administration-tools - system - asset-categories'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Add new'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Tilføj ny'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_asset_categories_refresh {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_ASSET_CATEGORIES_REFRESH'
+  group = 'administration-tools - system - asset-categories'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Refresh'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Genindlæs'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_asset_categories_id {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_ASSET_CATEGORIES_ID'
+  group = 'administration-tools - system - asset-categories'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'ID'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Id'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_asset_categories_name {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_ASSET_CATEGORIES_NAME'
+  group = 'administration-tools - system - asset-categories'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Name'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Navn'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_asset_categories_actions {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_ASSET_CATEGORIES_ACTIONS'
+  group = 'administration-tools - system - asset-categories'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Actions'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Handlinger'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_asset_categories_delete {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_ASSET_CATEGORIES_DELETE'
+  group = 'administration-tools - system - asset-categories'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Delete'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Slet'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_asset_categories_no_asset_categories_found {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_ASSET_CATEGORIES_NO_ASSET_CATEGORIES_FOUND'
+  group = 'administration-tools - system - asset-categories'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'No categories found'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Ingen kategorier fundet'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_asset_categories_fields {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_ASSET_CATEGORIES_FIELDS'
+  group = 'administration-tools - system - asset-categories'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Category'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Kategori'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_asset_categories_field_required {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_ASSET_CATEGORIES_FIELD_REQUIRED'
+  group = 'administration-tools - system - asset-categories'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Field is required'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Feltet er påkrævet'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_asset_categories_description {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_ASSET_CATEGORIES_DESCRIPTION'
+  group = 'administration-tools - system - asset-categories'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Description'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Beskrivelse'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_asset_categories_parent_category {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_ASSET_CATEGORIES_PARENT_CATEGORY'
+  group = 'administration-tools - system - asset-categories'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Parent category'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Forældrekategori'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_asset_categories_abstract {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_ASSET_CATEGORIES_ABSTRACT'
+  group = 'administration-tools - system - asset-categories'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Abstract'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Abstrakt'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_asset_categories_abstract_tooltip {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_ASSET_CATEGORIES_ABSTRACT_TOOLTIP'
+  group = 'administration-tools - system - asset-categories'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'If false, assets can be assigned directly to this category.'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Hvis falsk, vil assets kunne tildeles direkte til denne kategori.'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_asset_categories_sealed {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_ASSET_CATEGORIES_SEALED'
+  group = 'administration-tools - system - asset-categories'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Sealed'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Forseglet'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_asset_categories_sealed_tooltip {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_ASSET_CATEGORIES_SEALED_TOOLTIP'
+  group = 'administration-tools - system - asset-categories'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'If false, this category cannot have any child categories.'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Hvis falsk, kan denne kategori ikke have nogen børne-kategorier.'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_asset_categories_labels {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_ASSET_CATEGORIES_LABELS'
+  group = 'administration-tools - system - asset-categories'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Labels'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Labels'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_asset_categories_description_tooltip {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_ASSET_CATEGORIES_DESCRIPTION_TOOLTIP'
+  group = 'administration-tools - system - asset-categories'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'If filled in, an info button displaying the text will appear in the metadata editor.'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Hvis udfyldt, vises en infoknap med teksten i metadata-editoren.'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_asset_categories_edit_cancel_btn {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_ASSET_CATEGORIES_EDIT_CANCEL_BTN'
+  group = 'administration-tools - system - asset-categories'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Cancel'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Annullér'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_asset_categories_edit_save_btn {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_ASSET_CATEGORIES_EDIT_SAVE_BTN'
+  group = 'administration-tools - system - asset-categories'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = '{saving, select, true {Saving...} false {Save}}'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = '{saving, select, true {Gemmer...} false {Gem}}'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_asset_categories_select_to_edit {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_ASSET_CATEGORIES_SELECT_TO_EDIT'
+  group = 'administration-tools - system - asset-categories'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Select to edit'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Vælg for at redigere'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_asset_categories_dialog_delete_asset_category_title {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_ASSET_CATEGORIES_DIALOG_DELETE_ASSET_CATEGORY_TITLE'
+  group = 'administration-tools - system - asset-categories'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Delete category'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Slet kategori'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_asset_categories_dialog_delete_asset_category_body {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_ASSET_CATEGORIES_DIALOG_DELETE_ASSET_CATEGORY_BODY'
+  group = 'administration-tools - system - asset-categories'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Are you sure you want to delete this category?'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Er du sikker på, at du vil slette denne kategori?'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_asset_categories_dialog_delete_asset_category_cancel {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_ASSET_CATEGORIES_DIALOG_DELETE_ASSET_CATEGORY_CANCEL'
+  group = 'administration-tools - system - asset-categories'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Cancel'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Annullér'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_asset_categories_dialog_delete_asset_category_confirm {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_ASSET_CATEGORIES_DIALOG_DELETE_ASSET_CATEGORY_CONFIRM'
+  group = 'administration-tools - system - asset-categories'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Delete'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Slet'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_asset_categories_delete_asset_category_success {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_ASSET_CATEGORIES_DELETE_ASSET_CATEGORY_SUCCESS'
+  group = 'administration-tools - system - asset-categories'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Category deleted'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Kategorien blev slettet'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_asset_categories_delete_asset_category_error_body {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_ASSET_CATEGORIES_DELETE_ASSET_CATEGORY_ERROR_BODY'
+  group = 'administration-tools - system - asset-categories'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Category not deleted'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Kategorien blev ikke slettet'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_asset_categories_delete_asset_category_error_title {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_ASSET_CATEGORIES_DELETE_ASSET_CATEGORY_ERROR_TITLE'
+  group = 'administration-tools - system - asset-categories'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Error'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Fejl'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_asset_categories_changes_saved {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_ASSET_CATEGORIES_CHANGES_SAVED'
+  group = 'administration-tools - system - asset-categories'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Changes saved'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Ændringerne blev gemt'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_asset_categories_save_error_body {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_ASSET_CATEGORIES_SAVE_ERROR_BODY'
+  group = 'administration-tools - system - asset-categories'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Category not saved'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Kategorien blev ikke gemt'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_asset_categories_save_error_title {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_ASSET_CATEGORIES_SAVE_ERROR_TITLE'
+  group = 'administration-tools - system - asset-categories'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Error'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Fejl'
+      language_id = data.language.danish.id
+    }
+  ]
+}
