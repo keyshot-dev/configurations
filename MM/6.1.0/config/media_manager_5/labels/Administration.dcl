@@ -11535,3 +11535,19 @@ resource configservice_label administration_tools_system_asset_categories_save_e
     }
   ]
 }
+
+resource configservice_label administration_tools_system_nav_asset_categories {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_NAV_ASSET_CATEGORIES'
+  group = 'administration-tools - system - asset-categories'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Asset categories'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Asset-kategorier'
+      language_id = data.language.danish.id
+    }
+  ]
+}
