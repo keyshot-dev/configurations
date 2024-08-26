@@ -196,11 +196,11 @@ resource configservice_label login_change_base_url_dialog_digizuite_base_url {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Digizuite url'
+      default_translation = 'KeyShot url'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Digizuite-url'
+      default_translation = 'KeyShot-url'
       language_id = data.language.danish.id
     }
   ]
