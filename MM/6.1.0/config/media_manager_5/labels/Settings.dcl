@@ -6828,4 +6828,20 @@ resource configservice_label settings_sso_settings_verify_refresh_tokens_on_refr
   ]
 }
 
+resource configservice_label administration_tools_sso_section_actions {
+  key = 'ADMINISTRATION_TOOLS_SSO_SECTION_ACTIONS'
+  group = 'settings - sso-settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Actions'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Handlinger'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 
