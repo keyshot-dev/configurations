@@ -6812,4 +6812,20 @@ resource configservice_label settings_sso_settings_additional_valid_audiences {
   ]
 }
 
+resource configservice_label settings_sso_settings_verify_refresh_tokens_on_refresh {
+  key = 'SETTINGS_SSO_SETTINGS_VERIFY_REFRESH_TOKENS_ON_REFRESH'
+  group = 'settings - sso-settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Verify refresh tokens on access key refresh'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Bekræft opdaterings-tokens ved opdatering af access key'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 
