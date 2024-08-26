@@ -39,7 +39,7 @@ resource masteritem_reference_metafield keyshot_related_assets_50411 {
     max_count = 0
     related_metafield_id = 0
     related_folder_id = 0
-    name = 'Keyshot related assets'
+    name = 'KeyShot related assets'
     group_id = resource.metafield_group.keyshot_50012.metafield_group_id
     sort_index = 0
     visibility_metafield_id = 0
@@ -59,7 +59,7 @@ resource masteritem_reference_metafield keyshot_related_assets_50411 {
 resource metafield_label keyshot_related_assets_51483 {
     metafield_id = resource.masteritem_reference_metafield.keyshot_related_assets_50411.metafield_id
     language_id = data.language.english.id
-    label = 'Keyshot related assets'
+    label = 'KeyShot related assets'
     description = ''
 }
 
