@@ -43,6 +43,9 @@ resource configservice_multi_string_config_field keyshot_metafields {
         }, 
 		{
             value = data.tree_metafield.media_manager_menu.item_guid
+        },
+        {
+            value = resource.masteritem_reference_metafield.keyshot_related_assets_50411.item_guid
         }]
     type = 'MetaField'
     product_id = data.configservice_product.media_manager_5.id
@@ -51,3 +54,5 @@ resource configservice_multi_string_config_field keyshot_metafields {
     title = 'KeyShot Metafields'
     description = 'The metafields to rendered in KeyShot application'    
 }
+
+
