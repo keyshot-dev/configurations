@@ -270,3 +270,18 @@ resource configservice_label system_audit_trail_label_show {
   ]
 }
 
+resource configservice_label system_audit_trail_view_changes_tooltip {
+  key = 'SYSTEM_AUDIT_TRAIL_VIEW_CHANGES_TOOLTIP'
+  group = 'System Audit Trail'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'View changes'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Se ændringer'
+      language_id = data.language.danish.id
+    }
+  ]
+}
