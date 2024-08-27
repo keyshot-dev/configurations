@@ -2422,7 +2422,7 @@ resource configservice_label aria_label_full_view {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Full view'
+      default_translation = 'Enter full view'
       language_id = data.language.english.id
     },
     {
