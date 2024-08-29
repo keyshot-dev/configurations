@@ -11254,11 +11254,11 @@ resource configservice_label administration_tools_system_asset_categories_abstra
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'If true, assets can be assigned directly to this category.'
+      default_translation = 'If true, assets cannot be assigned directly to this category.'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Hvis sand, vil assets kunne tildeles direkte til denne kategori.'
+      default_translation = 'Hvis sand, kan assets ikke tildeles direkte til denne kategori.'
       language_id = data.language.danish.id
     }
   ]
