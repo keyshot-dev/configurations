@@ -52,13 +52,6 @@ resource item_security editmulticombovalue_metafield_model_sets_50411__superadmi
     write = true
 }
 
-resource item_security editmulticombovalue_metafield_model_sets_50411__system {
-    accessor_item_id = data.member.system.item_id
-    item_id = resource.editmulticombovalue_metafield.model_sets_50411.item_id
-    read = true
-    write = true
-}
-
 resource metafield_label model_sets_51483 {
     metafield_id = resource.editmulticombovalue_metafield.model_sets_50411.metafield_id
     language_id = data.language.english.id

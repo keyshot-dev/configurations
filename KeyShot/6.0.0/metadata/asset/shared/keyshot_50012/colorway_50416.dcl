@@ -52,13 +52,6 @@ resource item_security editcombovalue_metafield_colorway_50416__superadministrat
     write = true
 }
 
-resource item_security editcombovalue_metafield_colorway_50416__system {
-    accessor_item_id = data.member.system.item_id
-    item_id = resource.editcombovalue_metafield.colorway_50416.item_id
-    read = true
-    write = true
-}
-
 resource metafield_label colorway_51488 {
     metafield_id = resource.editcombovalue_metafield.colorway_50416.metafield_id
     language_id = data.language.english.id

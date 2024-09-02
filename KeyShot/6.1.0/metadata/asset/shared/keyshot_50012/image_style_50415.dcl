@@ -52,13 +52,6 @@ resource item_security editcombovalue_metafield_image_style_50415__superadminist
     write = true
 }
 
-resource item_security editcombovalue_metafield_image_style_50415__system {
-    accessor_item_id = data.member.system.item_id
-    item_id = resource.editcombovalue_metafield.image_style_50415.item_id
-    read = true
-    write = true
-}
-
 resource metafield_label image_style_51487 {
     metafield_id = resource.editcombovalue_metafield.image_style_50415.metafield_id
     language_id = data.language.english.id

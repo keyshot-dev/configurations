@@ -52,13 +52,6 @@ resource item_security editcombovalue_metafield_camera_50412__superadministrator
     write = true
 }
 
-resource item_security editcombovalue_metafield_camera_50412__system {
-    accessor_item_id = data.member.system.item_id
-    item_id = resource.editcombovalue_metafield.camera_50412.item_id
-    read = true
-    write = true
-}
-
 resource metafield_label camera_51484 {
     metafield_id = resource.editcombovalue_metafield.camera_50412.metafield_id
     language_id = data.language.english.id

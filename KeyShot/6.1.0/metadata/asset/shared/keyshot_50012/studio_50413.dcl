@@ -52,13 +52,6 @@ resource item_security editcombovalue_metafield_studio_50413__superadministrator
     write = true
 }
 
-resource item_security editcombovalue_metafield_studio_50413__system {
-    accessor_item_id = data.member.system.item_id
-    item_id = resource.editcombovalue_metafield.studio_50413.item_id
-    read = true
-    write = true
-}
-
 resource metafield_label studio_51485 {
     metafield_id = resource.editcombovalue_metafield.studio_50413.metafield_id
     language_id = data.language.english.id
