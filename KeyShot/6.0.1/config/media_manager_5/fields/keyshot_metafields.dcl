@@ -49,19 +49,19 @@ resource configservice_multi_string_config_field keyshot_metafields {
         },
 		{
             value = resource.editcombovalue_metafield.studio_50413.item_guid
-        }
+        },
 		{
             value = resource.editmulticombovalue_metafield.model_sets_50411.item_guid
-        }
+        },
 		{
             value = resource.editcombovalue_metafield.environment_50414.item_guid
-        }
+        },
 		{
             value = resource.editcombovalue_metafield.colorway_50416.item_guid
-        }
+        },
 		{
             value = resource.editcombovalue_metafield.image_style_50415.item_guid
-        }
+        },
 		{
             value = resource.editcombovalue_metafield.camera_50412.item_guid
         }]
