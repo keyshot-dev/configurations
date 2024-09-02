@@ -9638,11 +9638,11 @@ resource configservice_label administration_tools_system_metadata_restrict_to_as
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Asset categories selected to the metadata group do not intersects with current selection'
+      default_translation = 'The selected asset categories do not align with the asset categories in the associated metadata group'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Asset-kategorier, der er valgt til metadatagruppen, skærer ikke det aktuelle valg'
+      default_translation = 'De valgte asset-kategorier stemmer ikke overens med asset-kategorier i den tilknyttede metadata-gruppe'
       language_id = data.language.danish.id
     }
   ]
