@@ -9664,7 +9664,7 @@ resource configservice_label administration_tools_system_metadata_inherited_asse
   ]
 }
 
-resource configservice_label ADMINISTRATION_TOOLS_SYSTEM_METADATA_NO_INHERITED_ASSET_CATEGORIES {
+resource configservice_label administration_tools_system_metadata_no_inherited_asset_categories {
   key = 'ADMINISTRATION_TOOLS_SYSTEM_METADATA_NO_INHERITED_ASSET_CATEGORIES'
   group = 'administration-tools - system - metadata'
   product_id = resource.configservice_product.media_manager_5.id
