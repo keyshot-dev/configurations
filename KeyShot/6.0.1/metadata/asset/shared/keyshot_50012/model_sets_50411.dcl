@@ -1,9 +1,9 @@
 resource editmulticombovalue_metafield model_sets_50411 {
     item_guid = '530d3690-8816-4e16-abb5-4205c43583cb'
 	name = 'Model Sets'
-    group_id = data.metafield_group.keyshot_50012.metafield_group_id
+    group_id = resource.metafield_group.keyshot_50012.metafield_group_id
     sort_index = 200
-    visibility_metafield_id = data.combovalue_metafield.keyshot_type_50399.metafield_id
+    visibility_metafield_id = resource.combovalue_metafield.keyshot_type_50399.metafield_id
     visibility_regex = 'Render Output'
     required = false
     readonly = false

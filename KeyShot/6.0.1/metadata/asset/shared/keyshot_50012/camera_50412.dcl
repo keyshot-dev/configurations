@@ -1,9 +1,9 @@
 resource editcombovalue_metafield camera_50412 {
 	item_guid = 'a21fd01a-f587-4c1c-9a3c-4155f08a6cbf'
     name = 'Camera'
-    group_id = data.metafield_group.keyshot_50012.metafield_group_id
+    group_id = resource.metafield_group.keyshot_50012.metafield_group_id
     sort_index = 201
-    visibility_metafield_id = data.combovalue_metafield.keyshot_type_50399.metafield_id
+    visibility_metafield_id = resource.combovalue_metafield.keyshot_type_50399.metafield_id
     visibility_regex = 'Render Output'
     required = false
     readonly = false

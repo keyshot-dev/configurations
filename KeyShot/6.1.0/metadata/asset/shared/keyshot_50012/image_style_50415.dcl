@@ -1,9 +1,9 @@
 resource editcombovalue_metafield image_style_50415 {
 	item_guid = 'c6949385-1e03-4e3f-aeac-6d40351fb206'
     name = 'Image Style'
-    group_id = data.metafield_group.keyshot_50012.metafield_group_id
+    group_id = resource.metafield_group.keyshot_50012.metafield_group_id
     sort_index = 204
-    visibility_metafield_id = data.combovalue_metafield.keyshot_type_50399.metafield_id
+    visibility_metafield_id = resource.combovalue_metafield.keyshot_type_50399.metafield_id
     visibility_regex = 'Render Output'
     required = false
     readonly = false

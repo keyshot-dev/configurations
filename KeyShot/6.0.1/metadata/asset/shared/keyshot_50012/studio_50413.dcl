@@ -1,9 +1,9 @@
 resource editcombovalue_metafield studio_50413 {
     item_guid = '2d4a1962-4eaf-47d5-869c-79fb122e0b9f'
 	name = 'Studio'
-    group_id = data.metafield_group.keyshot_50012.metafield_group_id
+    group_id = resource.metafield_group.keyshot_50012.metafield_group_id
     sort_index = 202
-    visibility_metafield_id = data.combovalue_metafield.keyshot_type_50399.metafield_id
+    visibility_metafield_id = resource.combovalue_metafield.keyshot_type_50399.metafield_id
     visibility_regex = 'Render Output'
     required = false
     readonly = false

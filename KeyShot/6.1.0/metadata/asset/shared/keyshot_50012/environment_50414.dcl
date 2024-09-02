@@ -1,9 +1,9 @@
 resource editcombovalue_metafield environment_50414 {
     item_guid = 'eebde101-553b-4637-8384-19a85e71b2ae'
 	name = 'Environment'
-    group_id = data.metafield_group.keyshot_50012.metafield_group_id
+    group_id = resource.metafield_group.keyshot_50012.metafield_group_id
     sort_index = 203
-    visibility_metafield_id = data.combovalue_metafield.keyshot_type_50399.metafield_id
+    visibility_metafield_id = resource.combovalue_metafield.keyshot_type_50399.metafield_id
     visibility_regex = 'Render Output'
     required = false
     readonly = false

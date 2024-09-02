@@ -1,9 +1,9 @@
 resource editcombovalue_metafield colorway_50416 {
     item_guid = '3b7e578c-2ab1-4a06-ad62-fa1aea26d545'
 	name = 'Colorway'
-    group_id = data.metafield_group.keyshot_50012.metafield_group_id
+    group_id = resource.metafield_group.keyshot_50012.metafield_group_id
     sort_index = 205
-    visibility_metafield_id = data.combovalue_metafield.keyshot_type_50399.metafield_id
+    visibility_metafield_id = resource.combovalue_metafield.keyshot_type_50399.metafield_id
     visibility_regex = 'Render Output'
     required = false
     readonly = false
