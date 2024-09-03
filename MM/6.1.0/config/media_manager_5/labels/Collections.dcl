@@ -2916,11 +2916,11 @@ resource configservice_label collections_asset_list_remove_from_collection_body 
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Are you sure you want to remove this asset from the collection?'
+      default_translation = 'Are you sure you want to remove {multiple, select, true {these assets} false {this asset}} from the collection?'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Er du sikker på, at du vil fjerne dette asset fra collectionen?'
+      default_translation = 'Er du sikker på, at du vil fjerne {multiple, select, true {disse assets} false {dette asset}} fra collectionen?'
       language_id = data.language.danish.id
     }
   ]
