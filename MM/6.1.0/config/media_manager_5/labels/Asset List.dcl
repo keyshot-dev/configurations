@@ -2223,6 +2223,22 @@ resource configservice_label asset_list_change_asset_category_dialog_category_la
   ]
 }
 
+resource configservice_label asset_list_change_asset_category_dialog_field_required {
+  key = 'ASSET_LIST_CHANGE_ASSET_CATEGORY_DIALOG_FIELD_REQUIRED'
+  group = 'Asset List - change asset category dialog'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Field is required'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Felt påkravet'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label asset_list_change_asset_category_dialog_cancel_button {
   key = 'ASSET_LIST_CHANGE_ASSET_CATEGORY_DIALOG_CANCEL_BUTTON'
   group = 'Asset List - change asset category dialog'
