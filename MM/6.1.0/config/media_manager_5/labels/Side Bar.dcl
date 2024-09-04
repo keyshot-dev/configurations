@@ -590,6 +590,22 @@ resource configservice_label mobile_menu_upload_active_document {
   ]
 }
 
+resource configservice_label mobile_menu_replace_active_document {
+  key = 'MOBILE_MENU_REPLACE_ACTIVE_DOCUMENT'
+  group = 'Side Bar'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Replace document'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Udskift dokument'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label mobile_menu_upload_active_document_tooltip_not_available {
   key = 'MOBILE_MENU_UPLOAD_ACTIVE_DOCUMENT_TOOLTIP_NOT_AVAILABLE'
   group = 'Side Bar'
