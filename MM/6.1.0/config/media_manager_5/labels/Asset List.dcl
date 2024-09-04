@@ -990,6 +990,22 @@ resource configservice_label asset_list_more_popup_access_rights {
   ]
 }
 
+resource configservice_label asset_list_more_popup_change_asset_category {
+  key = 'ASSET_LIST_MORE_POPUP_CHANGE_ASSET_CATEGORY'
+  group = 'Asset List'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Change asset category'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Skift asset-kategori'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label asset_list_filter_menu_facet_render_type_facetrendertype_is_currently_not_supported {
   key = 'ASSET_LIST_FILTER_MENU_FACET_RENDER_TYPE_FACETRENDERTYPE_IS_CURRENTLY_NOT_SUPPORTED'
   group = 'Asset List'
@@ -2170,6 +2186,70 @@ resource configservice_label asset_list_box_view_item_channel_ids {
     },
     {
       default_translation = 'Kanal'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_list_change_asset_category_dialog_title {
+  key = 'ASSET_LIST_CHANGE_ASSET_CATEGORY_DIALOG_TITLE'
+  group = 'Asset List - change asset category dialog'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Change asset category'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Skift asset-kategori'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_list_change_asset_category_dialog_category_label {
+  key = 'ASSET_LIST_CHANGE_ASSET_CATEGORY_DIALOG_CATEGORY_LABEL'
+  group = 'Asset List - change asset category dialog'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Category'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Kategori'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_list_change_asset_category_dialog_cancel_button {
+  key = 'ASSET_LIST_CHANGE_ASSET_CATEGORY_DIALOG_CANCEL_BUTTON'
+  group = 'Asset List - change asset category dialog'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Cancel'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Annullér'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_list_change_asset_category_dialog_save_button {
+  key = 'ASSET_LIST_CHANGE_ASSET_CATEGORY_DIALOG_SAVE_BUTTON'
+  group = 'Asset List - change asset category dialog'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = '{processing, select, true {Saving...} false {Save}}'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = '{processing, select, true {Gemmer...} false {Gem}}'
       language_id = data.language.danish.id
     }
   ]
