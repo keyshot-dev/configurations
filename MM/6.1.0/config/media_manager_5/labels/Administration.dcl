@@ -11424,22 +11424,6 @@ resource configservice_label administration_tools_system_asset_categories_labels
   ]
 }
 
-resource configservice_label administration_tools_system_asset_categories_description_tooltip {
-  key = 'ADMINISTRATION_TOOLS_SYSTEM_ASSET_CATEGORIES_DESCRIPTION_TOOLTIP'
-  group = 'administration-tools - system - asset-categories'
-  product_id = resource.configservice_product.media_manager_5.id
-  default_label_values = [
-    {
-      default_translation = 'If filled in, an info button displaying the text will appear in the metadata editor.'
-      language_id = data.language.english.id
-    },
-    {
-      default_translation = 'Hvis udfyldt, vises en infoknap med teksten i metadata-editoren.'
-      language_id = data.language.danish.id
-    }
-  ]
-}
-
 resource configservice_label administration_tools_system_asset_categories_edit_cancel_btn {
   key = 'ADMINISTRATION_TOOLS_SYSTEM_ASSET_CATEGORIES_EDIT_CANCEL_BTN'
   group = 'administration-tools - system - asset-categories'
