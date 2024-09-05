@@ -11494,11 +11494,11 @@ resource configservice_label administration_tools_system_asset_categories_dialog
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Are you sure you want to delete this category?'
+      default_translation = 'Are you sure you want to delete this category and all its sub categories?'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Er du sikker på, at du vil slette denne kategori?'
+      default_translation = 'Er du sikker på, at du vil slette denne kategori og alle dens underkategorier?'
       language_id = data.language.danish.id
     }
   ]
