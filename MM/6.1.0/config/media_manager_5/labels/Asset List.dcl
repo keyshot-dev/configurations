@@ -2270,3 +2270,51 @@ resource configservice_label asset_list_change_asset_category_dialog_save_button
     }
   ]
 }
+
+resource configservice_label asset_list_change_asset_category_dialog_success {
+  key = 'ASSET_LIST_CHANGE_ASSET_CATEGORY_DIALOG_SUCCESS'
+  group = 'Asset List - change asset category dialog'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Changes saved'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Ændringer blev gemt'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_list_change_asset_category_dialog_error_body {
+  key = 'ASSET_LIST_CHANGE_ASSET_CATEGORY_DIALOG_ERROR_BODY'
+  group = 'Asset List - change asset category dialog'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Changes were not saved'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Ændringer blev ikke gemt'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_list_change_asset_category_dialog_error_title {
+  key = 'ASSET_LIST_CHANGE_ASSET_CATEGORY_DIALOG_ERROR_TITLE'
+  group = 'Asset List - change asset category dialog'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Error'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Fejl'
+      language_id = data.language.danish.id
+    }
+  ]
+}
