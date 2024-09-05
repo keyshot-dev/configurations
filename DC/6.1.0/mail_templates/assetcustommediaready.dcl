@@ -30,7 +30,7 @@ resource mail_template assetcustommediaready {
                             <tr>
                                 <td>
                                     <a download href="{{data.url}}"
-                                       class="button button--green" target="_blank">Download file</a>
+                                       class="button" target="_blank">Download file</a>
                                 </td>
                             </tr>
                         </table>

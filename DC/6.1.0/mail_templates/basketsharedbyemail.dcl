@@ -31,7 +31,7 @@ resource mail_template basketsharedbyemail {
                             <tr>
                                 <td>
                                     <a href="{{data.url}}"
-                                       class="button button--green" target="_blank">Join the collection</a>
+                                       class="button" target="_blank">Join the collection</a>
                                 </td>
                             </tr>
                         </table>
