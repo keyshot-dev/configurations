@@ -11296,6 +11296,22 @@ resource configservice_label administration_tools_system_asset_categories_field_
   ]
 }
 
+resource configservice_label administration_tools_system_asset_categories_field_no_unique {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_ASSET_CATEGORIES_FIELD_NO_UNIQUE'
+  group = 'administration-tools - system - asset-categories'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'A unique value is required'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'En unik værdi er påkrævet'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label administration_tools_system_asset_categories_description {
   key = 'ADMINISTRATION_TOOLS_SYSTEM_ASSET_CATEGORIES_DESCRIPTION'
   group = 'administration-tools - system - asset-categories'
