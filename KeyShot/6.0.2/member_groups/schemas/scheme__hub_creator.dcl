@@ -9,7 +9,9 @@ resource member_group scheme__hub_creator_43 {
         }]
     download_qualities = []
     roles = [{
-            constant = 'Can_configure_portals'
-        }]
+                constant = 'WorkStages_Edit_Others'
+            }, {
+                constant = 'Can_configure_portals'
+            }]
 }
 

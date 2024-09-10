@@ -9,7 +9,9 @@ resource member_group scheme__hub_reviewer_42 {
         }]
     download_qualities = []
     roles = [{
-            constant = 'WorkStages_View'
-        }]
+             constant = 'WorkStages_Edit_Others'
+         }, {
+             constant = 'WorkStages_View'
+         }]
 }
 
