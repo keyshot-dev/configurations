@@ -10774,11 +10774,11 @@ resource configservice_label administration_tools_analytics_block_builder_edit_e
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Filter on entity count'
+      default_translation = 'Filter on count'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Filtrer på antal enheder'
+      default_translation = 'Filtrer på antal'
       language_id = data.language.danish.id
     }
   ]
@@ -10870,11 +10870,11 @@ resource configservice_label administration_tools_analytics_entity_count_filter_
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Entity count filter'
+      default_translation = 'Filter on count'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Enhedsantal filter'
+      default_translation = 'Filtrer på antal'
       language_id = data.language.danish.id
     }
   ]
@@ -10886,11 +10886,11 @@ resource configservice_label administration_tools_analytics_entity_count_filter_
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Choose entity count type'
+      default_translation = 'Choose types'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Vælg enhedsantalstype'
+      default_translation = 'Vælg typer'
       language_id = data.language.danish.id
     }
   ]
