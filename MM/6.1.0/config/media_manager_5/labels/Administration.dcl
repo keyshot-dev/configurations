@@ -10768,6 +10768,22 @@ resource configservice_label administration_tools_analytics_table_builder_edit_f
   ]
 }
 
+resource configservice_label administration_tools_analytics_block_builder_edit_entity_count_filter {
+  key = 'ADMINISTRATION_TOOLS_ANALYTICS_BLOCK_BUILDER_EDIT_ENTITY_COUNT_FILTER'
+  group = 'administration-tools - analytics-block-builder'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Filter on count'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Filtrer på antal'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label administration_tools_analytics_table_builder_descriptive_dimensions {
   key = 'ADMINISTRATION_TOOLS_ANALYTICS_TABLE_BUILDER_DESCRIPTIVE_DIMENSIONS'
   group = 'administration-tools - analytics-formats-filter'
@@ -10835,6 +10851,70 @@ resource configservice_label administration_tools_analytics_formats_filter_apply
 resource configservice_label administration_tools_analytics_formats_filter_cancel {
   key = 'ADMINISTRATION_TOOLS_ANALYTICS_FORMATS_FILTER_CANCEL'
   group = 'administration-tools - analytics-formats-filter'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Cancel'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Annuller'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_analytics_entity_count_filter_entity_count_title {
+  key = 'ADMINISTRATION_TOOLS_ANALYTICS_ENTITY_COUNT_FILTER_ENTITY_COUNT_TITLE'
+  group = 'administration-tools - analytics-entity-count-filter'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Filter on count'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Filtrer på antal'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_analytics_entity_count_filter_entity_types {
+  key = 'ADMINISTRATION_TOOLS_ANALYTICS_ENTITY_COUNT_FILTER_ENTITY_TYPES'
+  group = 'administration-tools - analytics-entity-count-filter'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Choose types'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Vælg typer'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_analytics_entity_count_filter_apply {
+  key = 'ADMINISTRATION_TOOLS_ANALYTICS_ENTITY_COUNT_FILTER_APPLY'
+  group = 'administration-tools - analytics-entity-count-filter'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Apply'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Anvend'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_analytics_entity_count_filter_cancel {
+  key = 'ADMINISTRATION_TOOLS_ANALYTICS_ENTITY_COUNT_FILTER_CANCEL'
+  group = 'administration-tools - analytics-entity-count-filter'
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
