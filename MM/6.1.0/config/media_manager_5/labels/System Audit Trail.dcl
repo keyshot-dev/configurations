@@ -510,8 +510,8 @@ resource configservice_label system_audit_trail_filter_business_workflow_definit
   ]
 }
 
-resource configservice_label system_audit_trail_filter_business_workflow_definition {
-  key = 'SYSTEM_AUDIT_TRAIL_FILTER_BUSINESS_WORKFLOW_DEFINITION'
+resource configservice_label system_audit_trail_filter_business_workflow_instance {
+  key = 'SYSTEM_AUDIT_TRAIL_FILTER_BUSINESS_WORKFLOW_INSTANCE'
   group = 'System Audit Trail'
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
