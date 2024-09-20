@@ -301,3 +301,451 @@ resource configservice_label system_audit_trail_view_change_history_tooltip {
     }
   ]
 }
+
+resource configservice_label system_audit_trail_search_or_select_placeholder {
+  key = 'SYSTEM_AUDIT_TRAIL_SEARCH_OR_SELECT_PLACEHOLDER'
+  group = 'System Audit Trail'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Search or select'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Søg eller vælg'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label system_audit_trail_filter_format {
+  key = 'SYSTEM_AUDIT_TRAIL_FILTER_FORMAT'
+  group = 'System Audit Trail'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Format'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Format'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label system_audit_trail_filter_language {
+  key = 'SYSTEM_AUDIT_TRAIL_FILTER_LANGUAGE'
+  group = 'System Audit Trail'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Language'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Sprog'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label system_audit_trail_filter_member {
+  key = 'SYSTEM_AUDIT_TRAIL_FILTER_MEMBER'
+  group = 'System Audit Trail'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Member'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Member'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label system_audit_trail_filter_member_group {
+  key = 'SYSTEM_AUDIT_TRAIL_FILTER_MEMBER_GROUP'
+  group = 'System Audit Trail'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Member Group'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Member Gruppe'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label system_audit_trail_filter_metafield {
+  key = 'SYSTEM_AUDIT_TRAIL_FILTER_METAFIELD'
+  group = 'System Audit Trail'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Metafield'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Metafelt'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label system_audit_trail_filter_combovalue {
+  key = 'SYSTEM_AUDIT_TRAIL_FILTER_COMBOVALUE'
+  group = 'System Audit Trail'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'ComboValue'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Kombosværdi'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label system_audit_trail_filter_treenode {
+  key = 'SYSTEM_AUDIT_TRAIL_FILTER_TREENODE'
+  group = 'System Audit Trail'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'TreeNode'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Trænode'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label system_audit_trail_filter_metafield_group {
+  key = 'SYSTEM_AUDIT_TRAIL_FILTER_METAFIELD_GROUP'
+  group = 'System Audit Trail'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Metafield Group'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Metafelt Gruppe'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label system_audit_trail_filter_asset_type_extension {
+  key = 'SYSTEM_AUDIT_TRAIL_FILTER_ASSET_TYPE_EXTENSION'
+  group = 'System Audit Trail'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Asset Type Extension'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Assettype forlængelse'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label system_audit_trail_filter_sso_configuration {
+  key = 'SYSTEM_AUDIT_TRAIL_FILTER_SSO_CONFIGURATION'
+  group = 'System Audit Trail'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'SSO configuration'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'SSO-konfiguration'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label system_audit_trail_filter_automation {
+  key = 'SYSTEM_AUDIT_TRAIL_FILTER_AUTOMATION'
+  group = 'System Audit Trail'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Automation'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Automation'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label system_audit_trail_filter_business_workflow_definition {
+  key = 'SYSTEM_AUDIT_TRAIL_FILTER_BUSINESS_WORKFLOW_DEFINITION'
+  group = 'System Audit Trail'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Business Workflow Definition'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Business workflow definition'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label system_audit_trail_filter_business_workflow_definition {
+  key = 'SYSTEM_AUDIT_TRAIL_FILTER_BUSINESS_WORKFLOW_DEFINITION'
+  group = 'System Audit Trail'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Business Workflow Instance'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Business workflow instans'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label system_audit_trail_filter_channel_folder {
+  key = 'SYSTEM_AUDIT_TRAIL_FILTER_CHANNEL_FOLDER'
+  group = 'System Audit Trail'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Channel Folder'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Kanal mappen'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label system_audit_trail_filter_import_configuration {
+  key = 'SYSTEM_AUDIT_TRAIL_FILTER_IMPORT_CONFIGURATION'
+  group = 'System Audit Trail'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Import Configuration'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Importer-konfiguration'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label system_audit_trail_filter_integration_configuration {
+  key = 'SYSTEM_AUDIT_TRAIL_FILTER_INTEGRATION_CONFIGURATION'
+  group = 'System Audit Trail'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Integration configuration'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Integrations-konfiguration'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label system_audit_trail_filter_integration_endpoint {
+  key = 'SYSTEM_AUDIT_TRAIL_FILTER_INTEGRATION_ENDPOINT'
+  group = 'System Audit Trail'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Integration Endpoint'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Integrationsendpoint'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label system_audit_trail_filter_managed_integration_details {
+  key = 'SYSTEM_AUDIT_TRAIL_FILTER_MANAGED_INTEGRATION_DETAILS'
+  group = 'System Audit Trail'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Managed Integration Details'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Managed integrations detaljer'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label system_audit_trail_filter_analytics_dashboard {
+  key = 'SYSTEM_AUDIT_TRAIL_FILTER_ANALYTICS_DASHBOARD'
+  group = 'System Audit Trail'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Analytics Dashboard'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Analytics dashboard'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label system_audit_trail_filter_service_configuration {
+  key = 'SYSTEM_AUDIT_TRAIL_FILTER_SERVICE_CONFIGURATION'
+  group = 'System Audit Trail'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Service configuration'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Service-konfiguration'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label system_audit_trail_filter_youtube_client {
+  key = 'SYSTEM_AUDIT_TRAIL_FILTER_YOUTUBE_CLIENT'
+  group = 'System Audit Trail'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Youtube Client'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'YouTube-klient'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label system_audit_trail_filter_product {
+  key = 'SYSTEM_AUDIT_TRAIL_FILTER_PRODUCT'
+  group = 'System Audit Trail'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Product'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Produkt'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label system_audit_trail_filter_portal {
+  key = 'SYSTEM_AUDIT_TRAIL_FILTER_PORTAL'
+  group = 'System Audit Trail'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Portal'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Portal'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label system_audit_trail_filter_configuration_field {
+  key = 'SYSTEM_AUDIT_TRAIL_FILTER_CONFIGURATION_FIELD'
+  group = 'System Audit Trail'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Configuration Field'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Konfiguration felt'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label system_audit_trail_filter_configuration_field_value {
+  key = 'SYSTEM_AUDIT_TRAIL_FILTER_CONFIGURATION_FIELD_VALUE'
+  group = 'System Audit Trail'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Configuration Field Value'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Konfiguration felt value'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label system_audit_trail_filter_sso_signed_certificate {
+  key = 'SYSTEM_AUDIT_TRAIL_FILTER_SSO_SIGNED_CERTIFICATE'
+  group = 'System Audit Trail'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'SSO Signed Certificate'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'SSO-underskrevet certifikat'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label system_audit_trail_filter_asset_relation_type {
+  key = 'SYSTEM_AUDIT_TRAIL_FILTER_ASSET_RELATION_TYPE'
+  group = 'System Audit Trail'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Asset Relation Type'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Assetrelationstype'
+      language_id = data.language.danish.id
+    }
+  ]
+}
