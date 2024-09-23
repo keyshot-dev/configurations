@@ -996,11 +996,11 @@ resource configservice_label asset_list_more_popup_change_asset_category {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Change asset category'
+      default_translation = 'Change category'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Skift asset-kategori'
+      default_translation = 'Skift kategori'
       language_id = data.language.danish.id
     }
   ]
@@ -2197,11 +2197,11 @@ resource configservice_label asset_list_change_asset_category_dialog_title {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Change asset category'
+      default_translation = 'Change category'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Skift asset-kategori'
+      default_translation = 'Skift kategori'
       language_id = data.language.danish.id
     }
   ]
