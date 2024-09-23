@@ -206,6 +206,22 @@ resource configservice_label selected_assets_overlay_not_public_assets_dialog_sh
   ]
 }
 
+resource configservice_label selected_assets_overlay_not_public_assets_dialog_show_not_shareable {
+  key = 'SELECTED_ASSETS_OVERLAY_NOT_PUBLIC_ASSETS_DIALOG_SHOW_NOT_SHAREABLE'
+  group = 'Selected Assets'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'View the {count, cardinalPlural, one {asset} other {assets}} that cannot be added'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Se {count, cardinalPlural, one {assettet} other {assetsne}} som ikke kan tilføjes'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label selected_assets_overlay_not_public_assets_dialog_do_you_want_to_download_available_assets {
   key = 'SELECTED_ASSETS_OVERLAY_NOT_PUBLIC_ASSETS_DIALOG_DO_YOU_WANT_TO_DOWNLOAD_AVAILABLE_ASSETS'
   group = 'Selected Assets'
@@ -228,11 +244,27 @@ resource configservice_label selected_assets_overlay_not_public_assets_dialog_x_
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = '{{nonPublicAssetCount}} out of the {{totalAssetCount}} selected assets cannot be downloaded'
+      default_translation = '{{nonPublicAssetCount}} out of the {{totalAssetCount}} selected assets cannot be downloaded.'
       language_id = data.language.english.id
     },
     {
       default_translation = '{{nonPublicAssetCount}} ud af de {{totalAssetCount}} valgte assets kan ikke downloades.'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label selected_assets_overlay_not_public_assets_dialog_x_of_y_assets_not_shareable {
+  key = 'SELECTED_ASSETS_OVERLAY_NOT_PUBLIC_ASSETS_DIALOG_X_OF_Y_ASSETS_NOT_SHAREABLE'
+  group = 'Selected Assets'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = '{{nonPublicAssetCount}} out of the {{totalAssetCount}} selected assets cannot be added to the collection.'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = '{{nonPublicAssetCount}} ud af de {{totalAssetCount}} valgte assets kan ikke tilføjes til collectionen.'
       language_id = data.language.danish.id
     }
   ]
@@ -249,6 +281,22 @@ resource configservice_label selected_assets_overlay_not_public_assets_dialog_so
     },
     {
       default_translation = '{count, cardinalPlural, one {Et asset kan ikke downloades} other {Nogle assets kan ikke downloades}}'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label selected_assets_overlay_not_public_assets_dialog_some_assets_not_shareable_title {
+  key = 'SELECTED_ASSETS_OVERLAY_NOT_PUBLIC_ASSETS_DIALOG_SOME_ASSETS_NOT_SHAREABLE_TITLE'
+  group = 'Selected Assets'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = '{count, cardinalPlural, one {An asset cannot be added} other {Some assets cannot be added}}'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = '{count, cardinalPlural, one {Et asset kan ikke tilføjes} other {Nogle assets kan ikke tilføjes}}'
       language_id = data.language.danish.id
     }
   ]
