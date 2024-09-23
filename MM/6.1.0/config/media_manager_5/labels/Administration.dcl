@@ -2886,11 +2886,11 @@ resource configservice_label administration_tools_analytics_block_builder_edit_a
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Edit asset filter'
+      default_translation = '{count, cardinalPlural, =0 {Filter on assets} other {Filter on assets ({{count}})}}'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Rediger assetfilter'
+      default_translation = '{count, cardinalPlural, =0 {Filtrer på assets} other {Filtrer på assets ({{count}})}}'
       language_id = data.language.danish.id
     }
   ]
@@ -8174,17 +8174,17 @@ resource configservice_label administration_tools_channels_error_saving_title {
   ]
 }
 
-resource configservice_label administration_tools_analytics_table_builder_edit_member_filter {
-  key = 'ADMINISTRATION_TOOLS_ANALYTICS_TABLE_BUILDER_EDIT_MEMBER_FILTER'
-  group = 'administration-tools - analytics-table-builder'
+resource configservice_label administration_tools_analytics_block_builder_edit_member_filter {
+  key = 'ADMINISTRATION_TOOLS_ANALYTICS_BLOCK_BUILDER_EDIT_MEMBER_FILTER'
+  group = 'administration-tools - analytics-block-builder'
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Edit member filter'
+      default_translation = '{count, cardinalPlural, =0 {Filter on users or groups} other {Filter on users or groups ({{count}})}}'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Rediger brugerfilter'
+      default_translation = '{count, cardinalPlural, =0 {Filtrer på brugere eller grupper} other {Filtrer på brugere eller grupper ({{count}})}}'
       language_id = data.language.danish.id
     }
   ]
@@ -10752,17 +10752,17 @@ resource configservice_label administration_tools_system_asset_type_extensions_e
   ]
 }
 
-resource configservice_label administration_tools_analytics_table_builder_edit_formats_filter {
-  key = 'ADMINISTRATION_TOOLS_ANALYTICS_TABLE_BUILDER_EDIT_FORMATS_FILTER'
-  group = 'administration-tools - analytics-table-builder'
+resource configservice_label administration_tools_analytics_block_builder_edit_formats_filter {
+  key = 'ADMINISTRATION_TOOLS_ANALYTICS_BLOCK_BUILDER_EDIT_FORMATS_FILTER'
+  group = 'administration-tools - analytics-block-builder'
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Filter on formats'
+      default_translation = '{count, cardinalPlural, =0 {Filter on formats} other {Filter on formats ({{count}})}}'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Filtrer på formater'
+      default_translation = '{count, cardinalPlural, =0 {Filtrer på formater} other {Filtrer på formater ({{count}})}}'
       language_id = data.language.danish.id
     }
   ]
@@ -10774,11 +10774,11 @@ resource configservice_label administration_tools_analytics_block_builder_edit_e
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Filter on count'
+      default_translation = '{count, cardinalPlural, =0 {Filter on count} other {Filter on count ({{count}})}}'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Filtrer på antal'
+      default_translation = '{count, cardinalPlural, =0 {Filtrer på antal} other {Filtrer på antal ({{count}})}}'
       language_id = data.language.danish.id
     }
   ]
