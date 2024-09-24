@@ -1733,6 +1733,54 @@ resource configservice_label portal_config_manager_portal_mail_templates_toggle_
   ]
 }
 
+resource configservice_label portal_config_manager_portal_mail_templates_save_templates_success_body {
+  key = 'PORTAL_CONFIG_MANAGER_PORTAL_MAIL_TEMPLATES_SAVE_TEMPLATES_SUCCESS_BODY'
+  group = 'Config Manager'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Email templates was saved successfully'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'E-mailskabeloner blev gemt'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label portal_config_manager_portal_mail_templates_save_templates_error_title {
+  key = 'PORTAL_CONFIG_MANAGER_PORTAL_MAIL_TEMPLATES_SAVE_TEMPLATES_ERROR_TITLE'
+  group = 'Config Manager'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Error'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Fejl'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label portal_config_manager_portal_mail_templates_save_templates_error_body {
+  key = 'PORTAL_CONFIG_MANAGER_PORTAL_MAIL_TEMPLATES_SAVE_TEMPLATES_ERROR_BODY'
+  group = 'Config Manager'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'An error occurred while saving email templates'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Der opstod en fejl under lagring af e-mailskabeloner'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label portal_config_manager_create_new_mail_template_dialog_create {
   key = 'PORTAL_CONFIG_MANAGER_CREATE_NEW_MAIL_TEMPLATE_DIALOG_CREATE'
   group = 'Config Manager'
