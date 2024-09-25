@@ -1739,11 +1739,11 @@ resource configservice_label portal_config_manager_portal_mail_templates_save_te
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Email templates was saved successfully'
+      default_translation = 'Mail template was saved successfully'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'E-mailskabeloner blev gemt'
+      default_translation = 'Mailskabelon blev gemt'
       language_id = data.language.danish.id
     }
   ]
@@ -1771,11 +1771,11 @@ resource configservice_label portal_config_manager_portal_mail_templates_save_te
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'An error occurred while saving email templates'
+      default_translation = 'An error occurred while saving the mail template'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Der opstod en fejl under lagring af e-mailskabeloner'
+      default_translation = 'Der opstod en fejl under lagring af mailskabelonen'
       language_id = data.language.danish.id
     }
   ]
