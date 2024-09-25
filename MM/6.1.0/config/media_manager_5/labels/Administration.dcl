@@ -9962,7 +9962,7 @@ resource configservice_label administration_tools_system_formats_pregenerated_fo
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Forudgenerer til kanalmapper'
+      default_translation = 'Forudgenerer for kanalmapper'
       language_id = data.language.danish.id
     }
   ]
@@ -10007,11 +10007,11 @@ resource configservice_label administration_tools_system_formats_no_security_cha
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'When an asset is in one of these channel folders, this format can be requested without passing an access key with the request.'
+      default_translation = 'When an asset is in one of these channel folders, this format can be requested without passing an access key together with the request.'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Når et asset er i en af disse kanalmapper, kan dette format anmodes om uden at sende en adgangsnøgle med anmodningen.'
+      default_translation = 'Når et asset er i en af disse kanalmapper, kan dette format anmodes om uden at sende en adgangsnøgle sammen med anmodningen.'
       language_id = data.language.danish.id
     }
   ]
