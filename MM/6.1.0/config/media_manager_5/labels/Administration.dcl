@@ -9974,11 +9974,11 @@ resource configservice_label administration_tools_system_formats_pregenerated_fo
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'When an asset is put in one of these channel folders, a rendition of this format is started immediately, without a user explicitly requesting the format.'
+      default_translation = 'When an asset is put in one of these channel folders, the generation of a rendition of this format is started immediately, without a user explicitly requesting the rendition.'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Når et asset placeres i en af disse kanalmapper, startes en rendition af dette format med det samme, uden at en bruger eksplicit anmoder om formatet.'
+      default_translation = 'Når et asset placeres i en af disse kanalmapper, startes generationen af en rendition af dette format med det samme, uden at en bruger eksplicit anmoder om renditionen.'
       language_id = data.language.danish.id
     }
   ]
