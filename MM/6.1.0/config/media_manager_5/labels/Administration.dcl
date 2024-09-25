@@ -9952,6 +9952,72 @@ resource configservice_label administration_tools_system_formats_immediately_gen
   ]
 }
 
+resource configservice_label administration_tools_system_formats_pregenerated_for_channel_folders {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_FORMATS_PREGENERATED_FOR_CHANNEL_FOLDERS'
+  group = 'administration-tools - system - formats'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Pre-generate for channel folders'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Forudgenerer for kanalmapper'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_formats_pregenerated_for_channel_folders_tooltip {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_FORMATS_PREGENERATED_FOR_CHANNEL_FOLDERS_TOOLTIP'
+  group = 'administration-tools - system - formats'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'When an asset is put in one of these channel folders, the generation of a rendition of this format is started immediately, without a user explicitly requesting the rendition.'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Når et asset placeres i en af disse kanalmapper, startes generationen af en rendition af dette format med det samme, uden at en bruger eksplicit anmoder om renditionen.'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+
+resource configservice_label administration_tools_system_formats_no_security_channel_folders {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_FORMATS_NO_SECURITY_CHANNEL_FOLDERS'
+  group = 'administration-tools - system - formats'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'No-security channel folders'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Kanalmapper uden sikkerhed'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_formats_no_security_channel_folders_tooltip {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_FORMATS_NO_SECURITY_CHANNEL_FOLDERS_TOOLTIP'
+  group = 'administration-tools - system - formats'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'When an asset is in one of these channel folders, this format can be requested without passing an access key together with the request.'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Når et asset er i en af disse kanalmapper, kan dette format anmodes om uden at sende en adgangsnøgle sammen med anmodningen.'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+
 resource configservice_label administration_tools_system_formats_filter_by_mapped_media_formats {
   key = 'ADMINISTRATION_TOOLS_SYSTEM_FORMATS_FILTER_BY_MAPPED_MEDIA_FORMATS'
   group = 'administration-tools - system - formats'
