@@ -712,7 +712,7 @@ resource configservice_label system_audit_trail_filter_configuration_field_value
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Konfiguration felt value'
+      default_translation = 'Konfigurations-felts-værdi'
       language_id = data.language.danish.id
     }
   ]
