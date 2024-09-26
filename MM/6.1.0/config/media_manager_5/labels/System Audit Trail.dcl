@@ -548,7 +548,7 @@ resource configservice_label system_audit_trail_filter_import_configuration {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Import Configuration'
+      default_translation = 'Importer configuration'
       language_id = data.language.english.id
     },
     {
