@@ -504,7 +504,7 @@ resource configservice_label system_audit_trail_filter_business_workflow_definit
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Business workflow definition'
+      default_translation = 'Workflow-definition'
       language_id = data.language.danish.id
     }
   ]
