@@ -740,7 +740,7 @@ resource configservice_label system_audit_trail_filter_asset_relation_type {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Asset Relation Type'
+      default_translation = 'Asset relation type'
       language_id = data.language.english.id
     },
     {
