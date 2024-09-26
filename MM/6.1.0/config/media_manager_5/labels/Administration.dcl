@@ -11532,7 +11532,7 @@ resource configservice_label administration_tools_system_asset_categories_color_
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Farve'
+      default_translation = 'Ikke indstillet'
       language_id = data.language.danish.id
     }
   ]
