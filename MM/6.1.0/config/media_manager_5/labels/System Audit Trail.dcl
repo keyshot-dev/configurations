@@ -456,7 +456,7 @@ resource configservice_label system_audit_trail_filter_asset_type_extension {
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Assettype forlængelse'
+      default_translation = 'Assettype-extension'
       language_id = data.language.danish.id
     }
   ]
