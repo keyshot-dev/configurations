@@ -532,7 +532,7 @@ resource configservice_label system_audit_trail_filter_channel_folder {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Channel Folder'
+      default_translation = 'Channel folder'
       language_id = data.language.english.id
     },
     {
