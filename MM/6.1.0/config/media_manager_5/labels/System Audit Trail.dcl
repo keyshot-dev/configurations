@@ -584,7 +584,7 @@ resource configservice_label system_audit_trail_filter_integration_endpoint {
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Integrationsendpoint'
+      default_translation = 'Integrations-endpoint'
       language_id = data.language.danish.id
     }
   ]
