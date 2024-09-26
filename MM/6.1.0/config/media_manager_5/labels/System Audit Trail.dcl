@@ -500,7 +500,7 @@ resource configservice_label system_audit_trail_filter_business_workflow_definit
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Business Workflow Definition'
+      default_translation = 'Workflow definition'
       language_id = data.language.english.id
     },
     {
