@@ -644,7 +644,7 @@ resource configservice_label system_audit_trail_filter_youtube_client {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Youtube Client'
+      default_translation = 'YouTube client'
       language_id = data.language.english.id
     },
     {
