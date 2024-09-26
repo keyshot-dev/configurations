@@ -616,7 +616,7 @@ resource configservice_label system_audit_trail_filter_analytics_dashboard {
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Analytics dashboard'
+      default_translation = 'Analytics-dashboard'
       language_id = data.language.danish.id
     }
   ]
