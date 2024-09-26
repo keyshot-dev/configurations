@@ -11522,6 +11522,22 @@ resource configservice_label administration_tools_system_asset_categories_color_
   ]
 }
 
+resource configservice_label administration_tools_system_asset_categories_color_remove {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_ASSET_CATEGORIES_COLOR_REMOVE'
+  group = 'administration-tools - system - asset-categories'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Remove'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Fjern'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label administration_tools_system_asset_categories_color_not_set {
   key = 'ADMINISTRATION_TOOLS_SYSTEM_ASSET_CATEGORIES_COLOR_NOT_SET'
   group = 'administration-tools - system - asset-categories'
