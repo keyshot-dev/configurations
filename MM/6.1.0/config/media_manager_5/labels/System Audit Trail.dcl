@@ -404,7 +404,7 @@ resource configservice_label system_audit_trail_filter_combovalue {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'ComboValue'
+      default_translation = 'Combo value'
       language_id = data.language.english.id
     },
     {
