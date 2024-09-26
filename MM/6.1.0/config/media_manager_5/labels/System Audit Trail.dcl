@@ -728,7 +728,7 @@ resource configservice_label system_audit_trail_filter_sso_signed_certificate {
       language_id = data.language.english.id
     },
     {
-      default_translation = 'SSO-underskrevet certifikat'
+      default_translation = 'SSO-signeret certifikat'
       language_id = data.language.danish.id
     }
   ]
