@@ -408,7 +408,7 @@ resource configservice_label system_audit_trail_filter_combovalue {
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Kombosværdi'
+      default_translation = 'Combo-værdi'
       language_id = data.language.danish.id
     }
   ]
