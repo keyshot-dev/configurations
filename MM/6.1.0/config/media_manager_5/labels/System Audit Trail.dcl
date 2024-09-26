@@ -436,7 +436,7 @@ resource configservice_label system_audit_trail_filter_metafield_group {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Metafield Group'
+      default_translation = 'Metafield group'
       language_id = data.language.english.id
     },
     {
