@@ -32,7 +32,7 @@ resource mail_template basketzipfileready {
                             <tr>
                                 <td>
                                     <a href="{{data.url}}"
-                                       class="button button--green" target="_blank">Download File(s)</a>
+                                       class="button" target="_blank">Download File(s)</a>
                                 </td>
                             </tr>
                         </table>

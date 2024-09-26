@@ -120,11 +120,11 @@ resource mail_template basestyling {
     }
     /* Buttons ------------------------------ */
     .button {
-        background-color: #f65800;
-        border-top: 10px solid #f65800;
-        border-right: 18px solid #f65800;
-        border-bottom: 10px solid #f65800;
-        border-left: 18px solid #f65800;
+        background-color: #0044F7;
+        border-top: 10px solid #0044F7;
+        border-right: 18px solid #0044F7;
+        border-bottom: 10px solid #0044F7;
+        border-left: 18px solid #0044F7;
         display: inline-block;
         color: #FFF;
         text-decoration: none;
