@@ -11490,6 +11490,54 @@ resource configservice_label administration_tools_system_asset_categories_parent
   ]
 }
 
+resource configservice_label administration_tools_system_asset_categories_color {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_ASSET_CATEGORIES_COLOR'
+  group = 'administration-tools - system - asset-categories'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Color'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Farve'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_asset_categories_color_tooltip {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_ASSET_CATEGORIES_COLOR_TOOLTIP'
+  group = 'administration-tools - system - asset-categories'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'If set, the color is shown on the category labels on asset cards and the preview page'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Hvis sat, vises farven på kategori-labels på asset-kort og forhåndsvisnings-siden'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_asset_categories_color_not_set {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_ASSET_CATEGORIES_COLOR_NOT_SET'
+  group = 'administration-tools - system - asset-categories'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Not set'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Ikke sat'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label administration_tools_system_asset_categories_abstract {
   key = 'ADMINISTRATION_TOOLS_SYSTEM_ASSET_CATEGORIES_ABSTRACT'
   group = 'administration-tools - system - asset-categories'
