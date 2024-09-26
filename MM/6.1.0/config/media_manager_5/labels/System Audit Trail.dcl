@@ -376,7 +376,7 @@ resource configservice_label system_audit_trail_filter_member_group {
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Member Gruppe'
+      default_translation = 'Gruppe'
       language_id = data.language.danish.id
     }
   ]
