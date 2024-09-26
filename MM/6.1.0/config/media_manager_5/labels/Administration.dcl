@@ -11512,11 +11512,11 @@ resource configservice_label administration_tools_system_asset_categories_color_
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'If set, the color is shown on the category label on asset card and preview page'
+      default_translation = 'If set, the color is shown on the category labels on asset cards and the preview page'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Hvis angivet, vises farven på kategorimærket på asset-kortet og forhåndsvisningssiden'
+      default_translation = 'Hvis sat, vises farven på kategori-labels på asset-kort og forhåndsvisnings-siden'
       language_id = data.language.danish.id
     }
   ]
@@ -11532,7 +11532,7 @@ resource configservice_label administration_tools_system_asset_categories_color_
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Ikke indstillet'
+      default_translation = 'Ikke sat'
       language_id = data.language.danish.id
     }
   ]
