@@ -440,7 +440,7 @@ resource configservice_label system_audit_trail_filter_metafield_group {
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Metafelt Gruppe'
+      default_translation = 'Metafelt-gruppe'
       language_id = data.language.danish.id
     }
   ]
