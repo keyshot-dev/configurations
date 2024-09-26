@@ -708,7 +708,7 @@ resource configservice_label system_audit_trail_filter_configuration_field_value
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Configuration Field Value'
+      default_translation = 'Configuration field value'
       language_id = data.language.english.id
     },
     {
