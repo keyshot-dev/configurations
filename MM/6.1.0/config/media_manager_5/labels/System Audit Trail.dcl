@@ -600,7 +600,7 @@ resource configservice_label system_audit_trail_filter_managed_integration_detai
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Managed integrations detaljer'
+      default_translation = 'Håndterede integrations-detaljer'
       language_id = data.language.danish.id
     }
   ]
