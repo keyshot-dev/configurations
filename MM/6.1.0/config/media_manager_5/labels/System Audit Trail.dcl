@@ -724,7 +724,7 @@ resource configservice_label system_audit_trail_filter_sso_signed_certificate {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'SSO Signed Certificate'
+      default_translation = 'SSO signed certificate'
       language_id = data.language.english.id
     },
     {
