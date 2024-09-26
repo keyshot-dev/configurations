@@ -536,7 +536,7 @@ resource configservice_label system_audit_trail_filter_channel_folder {
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Kanal mappen'
+      default_translation = 'Kanalmappe'
       language_id = data.language.danish.id
     }
   ]
