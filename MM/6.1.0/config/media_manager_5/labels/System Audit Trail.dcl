@@ -596,7 +596,7 @@ resource configservice_label system_audit_trail_filter_managed_integration_detai
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Managed Integration Details'
+      default_translation = 'Managed integration details'
       language_id = data.language.english.id
     },
     {
