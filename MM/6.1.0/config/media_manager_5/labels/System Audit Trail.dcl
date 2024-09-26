@@ -520,7 +520,7 @@ resource configservice_label system_audit_trail_filter_business_workflow_instanc
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Business workflow instans'
+      default_translation = 'Workflow-instans'
       language_id = data.language.danish.id
     }
   ]
