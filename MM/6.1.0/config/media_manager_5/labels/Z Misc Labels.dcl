@@ -1839,6 +1839,22 @@ resource configservice_label selected_assets_overlay_options_create_collection_f
   ]
 }
 
+resource configservice_label selected_assets_overlay_options_change_asset_category {
+  key = 'SELECTED_ASSETS_OVERLAY_OPTIONS_CHANGE_ASSET_CATEGORY'
+  group = 'Z Misc Labels'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Change category'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Skift kategori'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label create_link_confirmation_dialog_title {
   key = 'CREATE_LINK_CONFIRMATION_DIALOG_TITLE'
   group = 'Z Misc Labels'
