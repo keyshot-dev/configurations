@@ -212,11 +212,11 @@ resource configservice_label asset_list_column_label {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = '{column, select, description {Description} height {Height} width {Width} extension {Extension} fileSize {File size} duration {Duration} uploadDate {Upload date} assetId {Asset id} uploader {Upload user} lastModified {Last updated} assetType {Asset type} itemId {Item id} title {Title} tasks {Tasks} actions {Actions} score {Score} category {Category}}'
+      default_translation = '{column, select, description {Description} height {Height} width {Width} extension {Extension} fileSize {File size} duration {Duration} uploadDate {Upload date} assetId {Asset id} uploader {Upload user} lastModified {Last updated} assetType {Asset type} itemId {Item id} title {Title} tasks {Tasks} actions {Actions} score {Score} category {Category} assetCategoryLabel {Category}}'
       language_id = data.language.english.id
     },
     {
-      default_translation = '{column, select, description {Beskrivelse} height {Højde} width {Bredde} extension {Filendelse} fileSize {Filstørrelse} duration {Varighed} uploadDate {Uploaddato} assetId {Asset-ID} uploader {Uploadbruger} lastModified {Sidst opdateret} assetType {Assettype} itemId {Item-ID} title {Titel} tasks {Opgaver} actions {Handlinger} score {Score} category {Kategory}}'
+      default_translation = '{column, select, description {Beskrivelse} height {Højde} width {Bredde} extension {Filendelse} fileSize {Filstørrelse} duration {Varighed} uploadDate {Uploaddato} assetId {Asset-ID} uploader {Uploadbruger} lastModified {Sidst opdateret} assetType {Assettype} itemId {Item-ID} title {Titel} tasks {Opgaver} actions {Handlinger} score {Score} category {Kategory} assetCategoryLabel {Kategory}}'
       language_id = data.language.danish.id
     }
   ]
