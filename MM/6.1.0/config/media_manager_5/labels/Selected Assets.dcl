@@ -964,11 +964,11 @@ resource configservice_label selected_assets_overlay_change_assets_category_dial
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = '{processing, select, true {Saving...} false {Save}} ({{count}})'
+      default_translation = '{processing, select, true {Saving...} false {Save} ({{count}}) }'
       language_id = data.language.english.id
     },
     {
-      default_translation = '{processing, select, true {Gemmer...} false {Gem}} ({{count}})'
+      default_translation = '{processing, select, true {Gemmer...} false {Gem} ({{count}}) }'
       language_id = data.language.danish.id
     }
   ]
