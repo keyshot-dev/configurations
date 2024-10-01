@@ -1,7 +1,7 @@
 resource logo_asset fav1 {
-  content = file("./files/favicon.ico")
+  content = file("./keyshot-favicon.ico")
 }
 
 resource logo_asset logo_dock1 {
-  content = file("./files/image-20240902-072911.png")
+  content = file("./keyshot-dock-logo.png")
 }
