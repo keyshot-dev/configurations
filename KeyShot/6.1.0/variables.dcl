@@ -14,3 +14,9 @@ variable keyshot_client_secret {
     description = "The client secret of Keyshot Cognito SSO solution"
     default = "f9hae725kabtn6a9a98jh0o29klbas7fl288hdruvslcim0qjs7"
 }
+
+variable hub_version {
+    type = "string"
+    description = "The version number of the Hub"
+    default = "1.2"
+}
