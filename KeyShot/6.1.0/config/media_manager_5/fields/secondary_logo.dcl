@@ -5,6 +5,6 @@ data configservice_int_config_field secondary_logo {
 
 patch configservice_int_config_field secondary_logo_patch {
     target = data.configservice_int_config_field.secondary_logo
-    default_value = resource.logo_asset.logo_hub_secondary.asset_id
+    default_value = resource.logo_asset.logo_hub_primary.asset_id
 }
 
