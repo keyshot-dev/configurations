@@ -894,4 +894,226 @@ resource configservice_label selected_assets_overlay_notification_downloading_se
   ]
 }
 
+resource configservice_label selected_assets_overlay_change_assets_category_dialog_title {
+  key = 'SELECTED_ASSETS_OVERLAY_CHANGE_ASSETS_CATEGORY_DIALOG_TITLE'
+  group = 'Selected Assets'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Change category'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Skift kategori'
+      language_id = data.language.danish.id
+    }
+  ]
+}
 
+resource configservice_label selected_assets_overlay_change_assets_category_dialog_category_label {
+  key = 'SELECTED_ASSETS_OVERLAY_CHANGE_ASSETS_CATEGORY_DIALOG_CATEGORY_LABEL'
+  group = 'Selected Assets'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Category'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Kategori'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label selected_assets_overlay_change_assets_category_dialog_field_required {
+  key = 'SELECTED_ASSETS_OVERLAY_CHANGE_ASSETS_CATEGORY_DIALOG_FIELD_REQUIRED'
+  group = 'Selected Assets'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Field is required'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Felt påkravet'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label selected_assets_overlay_change_assets_category_dialog_cancel_button {
+  key = 'SELECTED_ASSETS_OVERLAY_CHANGE_ASSETS_CATEGORY_DIALOG_CANCEL_BUTTON'
+  group = 'Selected Assets'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Cancel'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Annullér'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label selected_assets_overlay_change_assets_category_dialog_save_button {
+  key = 'SELECTED_ASSETS_OVERLAY_CHANGE_ASSETS_CATEGORY_DIALOG_SAVE_BUTTON'
+  group = 'Selected Assets'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = '{processing, select, true {Saving...} false {Save ({{count}})} }'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = '{processing, select, true {Gemmer...} false {Gem ({{count}})} }'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label selected_assets_overlay_change_assets_category_dialog_success {
+  key = 'SELECTED_ASSETS_OVERLAY_CHANGE_ASSETS_CATEGORY_DIALOG_SUCCESS'
+  group = 'Selected Assets'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Changes saved'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Ændringer blev gemt'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label selected_assets_overlay_change_assets_category_dialog_error_body {
+  key = 'SELECTED_ASSETS_OVERLAY_CHANGE_ASSETS_CATEGORY_DIALOG_ERROR_BODY'
+  group = 'Selected Assets'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Changes were not saved'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Ændringer blev ikke gemt'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label selected_assets_overlay_change_assets_category_dialog_error_title {
+  key = 'SELECTED_ASSETS_OVERLAY_CHANGE_ASSETS_CATEGORY_DIALOG_ERROR_TITLE'
+  group = 'Selected Assets'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Error'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Fejl'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label selected_assets_overlay_confirm_change_asset_category_dialog_title {
+  key = 'SELECTED_ASSETS_OVERLAY_CONFIRM_CHANGE_ASSET_CATEGORY_DIALOG_TITLE'
+  group = 'Selected Assets'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = '{count, cardinalPlural, one {An asset cannot be changed} other {Some assets cannot be changed}}'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = '{count, cardinalPlural, one {Et asset kan ikke ændres} other {Nogle assets kan ikke ændres}}'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label selected_assets_overlay_confirm_change_asset_category_dialog_x_of_y_assets_are_locked {
+  key = 'SELECTED_ASSETS_OVERLAY_CONFIRM_CHANGE_ASSET_CATEGORY_DIALOG_X_OF_Y_ASSETS_ARE_LOCKED'
+  group = 'Selected Assets'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = '{{countLockedAssets}} out of the {{countTotalAssets}} selected assets cannot be changed.'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = '{{notAvailableAssetCount}} ud af de {{totalAssetCount}} valgte assets kan ikke ændres.'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label selected_assets_overlay_confirm_change_asset_category_dialog_do_you_want_to_change_available_assets {
+  key = 'SELECTED_ASSETS_OVERLAY_CONFIRM_CHANGE_ASSET_CATEGORY_DIALOG_DO_YOU_WANT_TO_CHANGE_AVAILABLE_ASSETS'
+  group = 'Selected Assets'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Do you want to change the category on the remaining {count, cardinalPlural, one {asset} other {{{count}} assets}}?'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Vil du ændre kategorien {count, cardinalPlural, one {det resterende {{count}} asset} other {de resterende {{count}} assets}}?'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label selected_assets_overlay_confirm_change_asset_category_dialog_show_not_changeable {
+  key = 'SELECTED_ASSETS_OVERLAY_CONFIRM_CHANGE_ASSET_CATEGORY_DIALOG_SHOW_NOT_CHANGEABLE'
+  group = 'Selected Assets'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'View the {count, cardinalPlural, one {asset} other {assets}} that cannot be changed'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Se {count, cardinalPlural, one {assettet} other {assetsne}} som ikke kan ændres'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label selected_assets_overlay_confirm_change_asset_category_dialog_continue {
+  key = 'SELECTED_ASSETS_OVERLAY_CONFIRM_CHANGE_ASSET_CATEGORY_DIALOG_CONTINUE'
+  group = 'Selected Assets'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Continue'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Fortsæt'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label selected_assets_overlay_confirm_change_asset_category_dialog_cancel {
+  key = 'SELECTED_ASSETS_OVERLAY_CONFIRM_CHANGE_ASSET_CATEGORY_DIALOG_CANCEL'
+  group = 'Selected Assets'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Cancel'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Annullér'
+      language_id = data.language.danish.id
+    }
+  ]
+}

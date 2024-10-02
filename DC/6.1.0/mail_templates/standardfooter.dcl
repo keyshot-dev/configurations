@@ -14,7 +14,7 @@ resource mail_template standardfooter {
         <table class="email-footer" align="center" width="570" cellpadding="0" cellspacing="0">
             <tr>
                 <td class="content-cell" align="center">
-                    <p class="sub align-center">&copy; {{system.year}} KeyShot - All rights reserved</p>
+                    <div class="sub align-center">&copy; {{system.year}} KeyShot - All rights reserved</div>
                 </td>
             </tr>
         </table>

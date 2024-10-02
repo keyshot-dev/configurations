@@ -31,7 +31,7 @@ resource mail_template assetsharedbyemail {
                             <tr>
                                 <td>
                                     <a href="{{data.url}}"
-                                       class="button button--green" target="_blank">Download the asset</a>
+                                       class="button" target="_blank">Download the asset</a>
                                 </td>
                             </tr>
                         </table>

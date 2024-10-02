@@ -1411,11 +1411,27 @@ resource configservice_label multi_metadata_editor_tree_input_options {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Open editor'
+      default_translation = 'Choose options'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Åbn editor'
+      default_translation = 'Vælg muligheder'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label multi_metadata_editor_tree_input_options_not_available {
+  key = 'MULTI_METADATA_EDITOR_TREE_INPUT_OPTIONS_NOT_AVAILABLE'
+  group = 'Metadata'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'No options available'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Ingen muligheder tilgængelige'
       language_id = data.language.danish.id
     }
   ]
