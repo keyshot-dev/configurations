@@ -4858,7 +4858,7 @@ resource configservice_label administration_tools_managed_integrations_section_l
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'The life cycle URL to send notifications to'
+      default_translation = 'The life cycle URL notifications are sent to'
       language_id = data.language.english.id
     },
     {
