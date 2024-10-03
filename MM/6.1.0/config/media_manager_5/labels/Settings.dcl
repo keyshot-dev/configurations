@@ -741,11 +741,11 @@ resource configservice_label settings_about_dc_version {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'DC version:'
+      default_translation = 'DC version'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'DC-version:'
+      default_translation = 'DC-version'
       language_id = data.language.danish.id
     }
   ]
@@ -757,11 +757,11 @@ resource configservice_label settings_about_app_product_version {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = '{prefix, select, MM5 {MM version:} EMBED {Embedded version:} CCC {CCC version:} OC {OC version:}}'
+      default_translation = '{prefix, select, MM5 {MM version} EMBED {Embedded version} CCC {CCC version} OC {OC version}}'
       language_id = data.language.english.id
     },
     {
-      default_translation = '{prefix, select, MM5 {MM-version:} EMBED {Embedded-version:} CCC {CCC-version:} OC {OC-version:}}'
+      default_translation = '{prefix, select, MM5 {MM-version} EMBED {Embedded-version} CCC {CCC-version} OC {OC-version}}'
       language_id = data.language.danish.id
     }
   ]
@@ -789,11 +789,11 @@ resource configservice_label settings_about_product_version {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = '{{product}} version:'
+      default_translation = '{{product}} version'
       language_id = data.language.english.id
     },
     {
-      default_translation = '{{product}}-version:'
+      default_translation = '{{product}}-version'
       language_id = data.language.danish.id
     }
   ]
@@ -805,11 +805,11 @@ resource configservice_label settings_about_os {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'OS:'
+      default_translation = 'OS'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'OS:'
+      default_translation = 'OS'
       language_id = data.language.danish.id
     }
   ]
@@ -821,11 +821,11 @@ resource configservice_label settings_about_os_version {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'OS version:'
+      default_translation = 'OS version'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'OS-version:'
+      default_translation = 'OS-version'
       language_id = data.language.danish.id
     }
   ]
@@ -837,11 +837,11 @@ resource configservice_label settings_about_cache {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Cache:'
+      default_translation = 'Cache'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Cache:'
+      default_translation = 'Cache'
       language_id = data.language.danish.id
     }
   ]
@@ -853,11 +853,11 @@ resource configservice_label settings_about_site {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Site:'
+      default_translation = 'Site'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Side:'
+      default_translation = 'Side'
       language_id = data.language.danish.id
     }
   ]
@@ -869,11 +869,11 @@ resource configservice_label settings_about_3rd_party_licenses {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = '3rd party licenses:'
+      default_translation = '3rd party licenses'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Tredjepartslicenser:'
+      default_translation = 'Tredjepartslicenser'
       language_id = data.language.danish.id
     }
   ]
@@ -901,11 +901,11 @@ resource configservice_label settings_about_3rdpartylicensestxt {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = '3rdpartylicenses.txt'
+      default_translation = 'View licenses'
       language_id = data.language.english.id
     },
     {
-      default_translation = '3rdpartylicenses.txt'
+      default_translation = 'Se licenser'
       language_id = data.language.danish.id
     }
   ]
