@@ -4644,38 +4644,6 @@ resource configservice_label administration_tools_managed_integrations_section_e
   ]
 }
 
-resource configservice_label administration_tools_managed_integrations_section_life_cycle_endpoint_url {
-  key = 'ADMINISTRATION_TOOLS_MANAGED_INTEGRATIONS_SECTION_LIFE_CYCLE_ENDPOINT_URL'
-  group = 'administration-tools - managed-integrations-section'
-  product_id = resource.configservice_product.media_manager_5.id
-  default_label_values = [
-    {
-      default_translation = 'Life cycle endpoint URL'
-      language_id = data.language.english.id
-    },
-    {
-      default_translation = 'Livscyklus-endpoint-URL'
-      language_id = data.language.danish.id
-    }
-  ]
-}
-
-resource configservice_label administration_tools_managed_integrations_section_life_cycle_endpoint_url_tooltip {
-  key = 'ADMINISTRATION_TOOLS_MANAGED_INTEGRATIONS_SECTION_LIFE_CYCLE_ENDPOINT_URL_TOOLTIP'
-  group = 'administration-tools - managed-integrations-section'
-  product_id = resource.configservice_product.media_manager_5.id
-  default_label_values = [
-    {
-      default_translation = 'The life cycle URL to send notifications to'
-      language_id = data.language.english.id
-    },
-    {
-      default_translation = 'Livscyklus-URL\'et notifikationer skal sendes til.'
-      language_id = data.language.danish.id
-    }
-  ]
-}
-
 resource configservice_label administration_tools_managed_integrations_section_enabled {
   key = 'ADMINISTRATION_TOOLS_MANAGED_INTEGRATIONS_SECTION_ENABLED'
   group = 'administration-tools - managed-integrations-section'
