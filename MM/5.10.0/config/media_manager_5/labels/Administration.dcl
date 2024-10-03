@@ -4670,7 +4670,7 @@ resource configservice_label administration_tools_managed_integrations_section_l
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Livscyklus URL\'et notifikationer skal sendes til.'
+      default_translation = 'Livscyklus-URL\'et notifikationer skal sendes til.'
       language_id = data.language.danish.id
     }
   ]
