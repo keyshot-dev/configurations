@@ -360,7 +360,7 @@ resource configservice_label system_audit_trail_filter_member {
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Member'
+      default_translation = 'Bruger'
       language_id = data.language.danish.id
     }
   ]
@@ -612,7 +612,7 @@ resource configservice_label system_audit_trail_filter_analytics_dashboard {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Analytics Dashboard'
+      default_translation = 'Analytics dashboard'
       language_id = data.language.english.id
     },
     {
@@ -712,7 +712,7 @@ resource configservice_label system_audit_trail_filter_configuration_field_value
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Konfigurations-felts-værdi'
+      default_translation = 'Konfigurations-felt-værdi'
       language_id = data.language.danish.id
     }
   ]
@@ -744,7 +744,7 @@ resource configservice_label system_audit_trail_filter_asset_relation_type {
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Assetrelationstype'
+      default_translation = 'Asset-relations-type'
       language_id = data.language.danish.id
     }
   ]
