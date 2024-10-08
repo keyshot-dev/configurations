@@ -12,6 +12,9 @@ resource editmulticombovalue_metafield model_sets_50411 {
     auto_translate = 'Overwrite'
     restrict_to_asset_type = 'All'
     upload_tag_name = ''
+    restrict_to_asset_categories = [{
+            asset_category_id = data.asset_category.root.id
+        }]
 	autolink = {
         item_guid = '530d3690-8816-4e16-abb5-4205c43583cb'
     }

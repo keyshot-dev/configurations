@@ -12,6 +12,9 @@ resource editcombovalue_metafield camera_50412 {
     auto_translate = 'Overwrite'
     restrict_to_asset_type = 'All'
     upload_tag_name = ''
+    restrict_to_asset_categories = [{
+            asset_category_id = data.asset_category.root.id
+        }]
 	autolink = {
         item_guid = 'a21fd01a-f587-4c1c-9a3c-4155f08a6cbf'
     }

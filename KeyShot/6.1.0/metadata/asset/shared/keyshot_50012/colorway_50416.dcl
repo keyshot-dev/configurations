@@ -12,6 +12,9 @@ resource editcombovalue_metafield colorway_50416 {
     auto_translate = 'Overwrite'
     restrict_to_asset_type = 'All'
     upload_tag_name = ''
+    restrict_to_asset_categories = [{
+            asset_category_id = data.asset_category.root.id
+        }]
 	autolink = {
         item_guid = '3b7e578c-2ab1-4a06-ad62-fa1aea26d545'
     }

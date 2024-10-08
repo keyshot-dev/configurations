@@ -12,6 +12,9 @@ resource editcombovalue_metafield environment_50414 {
     auto_translate = 'Overwrite'
     restrict_to_asset_type = 'All'
     upload_tag_name = ''
+    restrict_to_asset_categories = [{
+            asset_category_id = data.asset_category.root.id
+        }]
 	autolink = {
         item_guid = 'eebde101-553b-4637-8384-19a85e71b2ae'
     }
