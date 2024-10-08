@@ -78,6 +78,22 @@ resource configservice_label system_audit_trail_column_date {
   ]
 }
 
+resource configservice_label system_audit_trail_column_name {
+  key = 'SYSTEM_AUDIT_TRAIL_COLUMN_NAME'
+  group = 'System Audit Trail'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Name'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Navn'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label system_audit_trail_column_author {
   key = 'SYSTEM_AUDIT_TRAIL_COLUMN_AUTHOR'
   group = 'System Audit Trail'
