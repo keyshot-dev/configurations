@@ -516,11 +516,11 @@ resource configservice_label system_audit_trail_filter_business_workflow_instanc
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Workflow instance'
+      default_translation = 'Task'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Workflow-instans'
+      default_translation = 'Task'
       language_id = data.language.danish.id
     }
   ]
