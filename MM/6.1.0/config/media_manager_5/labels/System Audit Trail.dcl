@@ -765,3 +765,51 @@ resource configservice_label system_audit_trail_filter_asset_relation_type {
     }
   ]
 }
+
+resource configservice_label system_audit_trail_view_changes_title {
+  key = 'SYSTEM_AUDIT_TRAIL_VIEW_CHANGES_TITLE'
+  group = 'System Audit Trail'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Changes'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Ændringer'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label system_audit_trail_view_changes_previous_version {
+  key = 'SYSTEM_AUDIT_TRAIL_VIEW_CHANGES_PREVIOUS_VERSION'
+  group = 'System Audit Trail'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Previous version'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Tidligere version'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label system_audit_trail_view_changes_new_version {
+  key = 'SYSTEM_AUDIT_TRAIL_VIEW_CHANGES_NEW_VERSION'
+  group = 'System Audit Trail'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'New version: {{date}} by {{user}}'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Ny version: {{date}} af {{user}}'
+      language_id = data.language.danish.id
+    }
+  ]
+}
