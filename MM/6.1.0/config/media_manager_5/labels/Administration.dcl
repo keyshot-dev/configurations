@@ -6946,11 +6946,11 @@ resource configservice_label administration_tools_users_and_groups_user_invalid_
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Invalid email'
+      default_translation = 'Email is invalid'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Ugyldig e-mail'
+      default_translation = 'E-mailen er ugyldig'
       language_id = data.language.danish.id
     }
   ]
