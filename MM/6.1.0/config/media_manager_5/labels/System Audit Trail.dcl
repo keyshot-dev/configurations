@@ -126,6 +126,22 @@ resource configservice_label system_audit_trail_column_type {
   ]
 }
 
+resource configservice_label system_audit_trail_column_subtype {
+  key = 'SYSTEM_AUDIT_TRAIL_COLUMN_SUBTYPE'
+  group = 'System Audit Trail'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Sub type'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Undertype'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label system_audit_trail_column_actions {
   key = 'SYSTEM_AUDIT_TRAIL_COLUMN_ACTIONS'
   group = 'System Audit Trail'
