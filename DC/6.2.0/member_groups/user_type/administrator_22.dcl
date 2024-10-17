@@ -138,9 +138,9 @@ resource member_group administrator_22 {
         }, {
             constant = 'Can_Switch_To_Database_Mode'
         }, {
-            constant = 'AssetCategories_reader'
+            constant = 'AssetRelationTypes_reader'
         }, {
-            constant = 'AssetCategories_writer'
+            constant = 'AssetRelationTypes_writer'
         }, {
             constant = 'MediaPortal_Audio_Embed'
         }]
