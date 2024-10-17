@@ -178,6 +178,10 @@ patch member_group administrator_patch {
         }, {
             constant = 'AssetCategories_writer'
         }, {
+            constant = 'AssetRelationTypes_reader'
+        }, {
+            constant = 'AssetRelationTypes_writer'
+        }, {
             constant = 'MediaPortal_Audio_Embed'
         }]
 }

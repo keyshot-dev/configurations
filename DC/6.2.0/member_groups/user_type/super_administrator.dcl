@@ -272,6 +272,10 @@ resource member_group super_administrator {
         }, {
             constant = 'AssetCategories_writer'
         }, {
+            constant = 'AssetRelationTypes_reader'
+        }, {
+            constant = 'AssetRelationTypes_writer'
+        }, {
             constant = 'Analytics_exporter'
         }, {
             constant = 'MediaPortal_Audio_Embed'
