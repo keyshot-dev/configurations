@@ -11905,3 +11905,19 @@ resource configservice_label administration_tools_system_nav_asset_categories {
     }
   ]
 }
+
+resource configservice_label administration_tools_search_placeholder {
+  key = 'ADMINISTRATION_TOOLS_SEARCH_PLACEHOLDER'
+  group = 'administration-tools'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Search'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Søg'
+      language_id = data.language.danish.id
+    }
+  ]
+}
