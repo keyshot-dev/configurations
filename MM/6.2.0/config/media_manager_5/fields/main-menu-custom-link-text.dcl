@@ -1,4 +1,4 @@
-resource configservice_string_config_field main-menu-custom-link-text {
+resource configservice_string_config_field main_menu_custom_link_text {
     default_value = 'Help'
     group = 'Main menu'
     key = 'customLinkText'
