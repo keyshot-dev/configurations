@@ -1,4 +1,4 @@
-resource configservice_bit_config_field main_menu_custom_link-enabled {
+resource configservice_bit_config_field main_menu_custom_link_enabled {
     default_value = false
     group = 'Main menu'
     key = 'customLinkEnabled'
