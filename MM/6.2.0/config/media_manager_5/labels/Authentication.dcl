@@ -1006,6 +1006,22 @@ resource configservice_label login_signup_success_body {
   ]
 }
 
+resource configservice_label login_signup_field_required {
+  key = 'LOGIN_SIGNUP_FIELD_REQUIRED'
+  group = 'Authentication'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'This field is required'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Dette felt er påkrævet'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label login_confirm_email_title {
   key = 'LOGIN_CONFIRM_EMAIL_TITLE'
   group = 'Authentication'
