@@ -6,7 +6,6 @@ resource automation_workflow oobe_handle_expired_assets {
 	resolves = "Set Status to Expired"
 	schedule = "0 0 3 ? * * *"
 	misfire_instruction = "fireoncenow"
-	identity = "expired"
 }
 
 action "Get Current Date 1" {
