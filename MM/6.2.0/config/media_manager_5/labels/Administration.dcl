@@ -8943,22 +8943,6 @@ resource configservice_label administration_tools_system_metadata_labels {
   ]
 }
 
-resource configservice_label administration_tools_system_metadata_label {
-  key = 'ADMINISTRATION_TOOLS_SYSTEM_METADATA_LABEL'
-  group = 'administration-tools - system - metadata'
-  product_id = resource.configservice_product.media_manager_5.id
-  default_label_values = [
-    {
-      default_translation = 'Label'
-      language_id = data.language.english.id
-    },
-    {
-      default_translation = 'Label'
-      language_id = data.language.danish.id
-    }
-  ]
-}
-
 resource configservice_label administration_tools_system_metadata_edit_values {
   key = 'ADMINISTRATION_TOOLS_SYSTEM_METADATA_EDIT_VALUES'
   group = 'administration-tools - system - metadata'
