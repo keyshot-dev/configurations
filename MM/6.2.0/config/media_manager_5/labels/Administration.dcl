@@ -11848,11 +11848,11 @@ resource configservice_label administration_tools_system_asset_categories_reassi
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Category can not be deleted'
+      default_translation = 'Category in use'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Kategori kan ikke slettes'
+      default_translation = 'Kategorien er i brug'
       language_id = data.language.danish.id
     }
   ]
@@ -11864,11 +11864,13 @@ resource configservice_label administration_tools_system_asset_categories_reassi
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'The category, or one of its subcategories, is associated with one or more assets and cannot be deleted.'
+      default_translation = 'One or more assets are assigned to this category or its subcategories.
+Choose another category for them to continue.'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Kategorien eller en af ​​dens underkategorier er knyttet til et eller flere aktiver og kan ikke slettes.'
+      default_translation = 'Et eller flere assets er tildelt denne kategori eller dens underkategorier.
+Vælg en ny kategori for assetsne, for at fortsætte.'
       language_id = data.language.danish.id
     }
   ]
@@ -11880,11 +11882,11 @@ resource configservice_label administration_tools_system_asset_categories_reassi
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Do you want to reassign these assets?'
+      default_translation = 'Move the assets to this category:'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Vil du omfordele disse aktiver?'
+      default_translation = 'Flyt assetsne til denne kategori:'
       language_id = data.language.danish.id
     }
   ]
@@ -11896,11 +11898,11 @@ resource configservice_label administration_tools_system_asset_categories_reassi
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Cancel deletion'
+      default_translation = 'Cancel'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Annullere sletning'
+      default_translation = 'Annuller'
       language_id = data.language.danish.id
     }
   ]
@@ -11912,11 +11914,11 @@ resource configservice_label administration_tools_system_asset_categories_reassi
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Reassign and delete category'
+      default_translation = 'Continue'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Gentildel og slet kategori'
+      default_translation = 'Fortsæt'
       language_id = data.language.danish.id
     }
   ]
