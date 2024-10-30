@@ -11842,6 +11842,86 @@ resource configservice_label administration_tools_system_asset_categories_delete
   ]
 }
 
+resource configservice_label administration_tools_system_asset_categories_reassign_modal_title {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_ASSET_CATEGORIES_REASSIGN_MODAL_TITLE'
+  group = 'administration-tools - system - asset-categories'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Category can not be deleted'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Kategori kan ikke slettes'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_asset_categories_reassign_modal_body_top {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_ASSET_CATEGORIES_REASSIGN_MODAL_BODY_TOP'
+  group = 'administration-tools - system - asset-categories'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'The category, or one of its subcategories, is associated with one or more assets and cannot be deleted.'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Kategorien eller en af ​​dens underkategorier er knyttet til et eller flere aktiver og kan ikke slettes.'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_asset_categories_reassign_modal_body {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_ASSET_CATEGORIES_REASSIGN_MODAL_BODY'
+  group = 'administration-tools - system - asset-categories'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Do you want to reassign these assets?'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Vil du omfordele disse aktiver?'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_asset_categories_reassign_modal_cancel {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_ASSET_CATEGORIES_REASSIGN_MODAL_CANCEL'
+  group = 'administration-tools - system - asset-categories'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Cancel deletion'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Annullere sletning'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_asset_categories_reassign_modal_confirm {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_ASSET_CATEGORIES_REASSIGN_MODAL_CONFIRM'
+  group = 'administration-tools - system - asset-categories'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Reassign and delete category'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Gentildel og slet kategori'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label administration_tools_system_asset_categories_changes_saved {
   key = 'ADMINISTRATION_TOOLS_SYSTEM_ASSET_CATEGORIES_CHANGES_SAVED'
   group = 'administration-tools - system - asset-categories'
