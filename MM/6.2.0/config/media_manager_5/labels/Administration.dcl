@@ -11058,6 +11058,22 @@ resource configservice_label administration_tools_analytics_block_builder_descri
   ]
 }
 
+resource configservice_label administration_tools_analytics_block_builder_x_axis {
+  key = 'ADMINISTRATION_TOOLS_ANALYTICS_BLOCK_BUILDER_X_AXIS'
+  group = 'administration-tools - analytics-block-builder'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'X-axis'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'X-axis'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label administration_tools_users_and_groups_change_user_folder_dialog_success {
   key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_CHANGE_USER_FOLDER_DIALOG_SUCCESS'
   group = 'administration-tools - users-and-groups'
