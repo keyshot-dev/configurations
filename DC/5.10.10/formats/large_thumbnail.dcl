@@ -1,5 +1,6 @@
 ﻿resource format large_thumbnail {
     name = 'Large Thumbnail'
+    guid = '0a46c385-7b90-4364-bcb0-87265bcc216d'
     description = 'A large thumbnail.'
     immediately_generated_for = [{
             asset_type = 'All'
