@@ -1,6 +1,7 @@
 ﻿resource format thumbnail {
     name = 'Thumbnail'
     description = 'The default thumbnail.'
+    guid = '88c69734-3905-4940-9e1a-851fe2ab10b8'
     immediately_generated_for = [{
             asset_type = 'All'
         }]
