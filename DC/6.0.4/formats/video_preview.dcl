@@ -1,5 +1,6 @@
 ﻿resource format video_preview {
     name = 'Video Preview'
+    guid = '03fbf99c-feec-4382-add6-362ea5156d29'
     description = 'A video preview in 1080p.'
     immediately_generated_for = [{
             asset_type = 'Video'
