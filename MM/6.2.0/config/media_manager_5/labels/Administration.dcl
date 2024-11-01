@@ -11064,11 +11064,11 @@ resource configservice_label administration_tools_analytics_block_builder_x_axis
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'X-axis'
+      default_translation = 'x-axis'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'X-axis'
+      default_translation = 'x-akse'
       language_id = data.language.danish.id
     }
   ]
