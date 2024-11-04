@@ -7,8 +7,6 @@ resource media_format_type theora_10203 {
     can_be_manual = false
     extensions = [{
             extension = 'ogv'
-        }, {
-            extension = 'ogv'
         }]
     format = 'Theora'
     upload_convert_to_archive = true
