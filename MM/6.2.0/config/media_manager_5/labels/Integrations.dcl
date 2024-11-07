@@ -318,6 +318,22 @@ resource configservice_label integration_endpoint_info_custom_headers_placeholde
   ]
 }
 
+resource configservice_label integration_endpoint_info_supports_bulk_events {
+  key = 'INTEGRATION_ENDPOINT_INFO_SUPPORTS_BULK_EVENTS'
+  group = 'Integrations'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Supports bulk events'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Understøtte bulk hændelser'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label integration_endpoint_info_error {
   key = 'INTEGRATION_ENDPOINT_INFO_ERROR'
   group = 'Integrations'
