@@ -19,7 +19,6 @@ resource configservice_combo_config_field_option icon_info {
 
 resource configservice_combo_config_field main_menu_custom_link_icon {
      product_id = resource.configservice_product.media_manager_5.id
-     default_value = 'icon-help'
      group = 'Main menu'
      key = 'customLinkIcon'
      title = 'Icon'
