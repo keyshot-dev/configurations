@@ -196,7 +196,7 @@ resource configservice_label system_audit_trail_results_per_page {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Results per page'
+      default_translation = 'Entries per page'
       language_id = data.language.english.id
     },
     {
