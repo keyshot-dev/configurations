@@ -3456,6 +3456,102 @@ resource configservice_label administration_tools_dashboard_tool_add_example_das
   ]
 }
 
+resource configservice_label administration_tools_dashboard_tool_import_dashboard_success_title {
+  key = 'ADMINISTRATION_TOOLS_DASHBOARD_TOOL_IMPORT_DASHBOARD_SUCCESS_TITLE'
+  group = 'administration-tools - dashboard-tool'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Dashboard successfully imported'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Dashboard blev importeret'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_dashboard_tool_import_dashboard_error_body {
+  key = 'ADMINISTRATION_TOOLS_DASHBOARD_TOOL_IMPORT_DASHBOARD_ERROR_BODY'
+  group = 'administration-tools - dashboard-tool'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Dashboard import failed'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Dashboard-import mislykkedes'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_dashboard_tool_import_dashboard_error_title {
+  key = 'ADMINISTRATION_TOOLS_DASHBOARD_TOOL_IMPORT_DASHBOARD_ERROR_TITLE'
+  group = 'administration-tools - dashboard-tool'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Error'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Fejl'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_dashboard_tool_export_to_json {
+  key = 'ADMINISTRATION_TOOLS_DASHBOARD_TOOL_EXPORT_TO_JSON'
+  group = 'administration-tools - dashboard-tool'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Export dashboard'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Eksporter dashboard'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_dashboard_tool_exported_to_json_body {
+  key = 'ADMINISTRATION_TOOLS_DASHBOARD_TOOL_EXPORTED_TO_JSON_BODY'
+  group = 'administration-tools - dashboard-tool'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Dashboard exported successfully'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Dashboard blev eksporteret'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_dashboard_tool_import_dashboard {
+  key = 'ADMINISTRATION_TOOLS_DASHBOARD_TOOL_IMPORT_DASHBOARD'
+  group = 'administration-tools - dashboard-tool'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Import dashboard'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Importer dashboard'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label administration_tools_analytics_chart_builder_map_projection {
   key = 'ADMINISTRATION_TOOLS_ANALYTICS_CHART_BUILDER_MAP_PROJECTION'
   group = 'administration-tools - analytics-chart-builder'
