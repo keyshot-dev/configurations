@@ -324,11 +324,11 @@ resource configservice_label integration_endpoint_info_supports_bulk_events {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Supports bulk events'
+      default_translation = 'Support bulk events'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Understøtte bulk hændelser'
+      default_translation = 'Understøt bulk-hændelser'
       language_id = data.language.danish.id
     }
   ]
