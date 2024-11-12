@@ -11880,13 +11880,11 @@ resource configservice_label administration_tools_system_asset_categories_reassi
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'One or more assets are assigned to this category or its subcategories.
-Choose another category for them to continue.'
+      default_translation = 'One or more assets are assigned to the category \'{{name}}\' or its subcategories.
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Et eller flere assets er tildelt denne kategori eller dens underkategorier.
-Vælg en ny kategori for assetsne, for at fortsætte.'
+      default_translation = 'Et eller flere assets er tildelt kategorien \'{{name}}\' eller dens underkategorier.'
       language_id = data.language.danish.id
     }
   ]
@@ -11898,7 +11896,7 @@ resource configservice_label administration_tools_system_asset_categories_reassi
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Move the assets to this category:'
+      default_translation = 'Assign the assets to this category:'
       language_id = data.language.english.id
     },
     {
@@ -11934,7 +11932,7 @@ resource configservice_label administration_tools_system_asset_categories_reassi
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Gentildel aktiver og slet kategori'
+      default_translation = 'Flyt assetsne og slet kategori'
       language_id = data.language.danish.id
     }
   ]
