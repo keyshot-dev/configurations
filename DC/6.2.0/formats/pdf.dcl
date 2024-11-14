@@ -12,6 +12,10 @@
         }, {
             asset_type = 'PDF'
         }, {
+            asset_type = 'InDesign'
+        }, {
+            asset_type = 'Illustrator'
+        }, {
             asset_type = 'ODT'
         }, {
             asset_type = 'OTT'
