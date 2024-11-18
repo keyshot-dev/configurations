@@ -829,3 +829,19 @@ resource configservice_label system_audit_trail_view_changes_new_version {
     }
   ]
 }
+
+resource configservice_label system_audit_trail_view_related_events {
+  key = 'SYSTEM_AUDIT_TRAIL_VIEW_RELATED_EVENTS'
+  group = 'System Audit Trail'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'View related events'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Se relaterede begivenheder'
+      language_id = data.language.danish.id
+    }
+  ]
+}
