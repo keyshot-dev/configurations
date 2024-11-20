@@ -334,24 +334,8 @@ resource configservice_label duplicate_asset_sort_selector_detection_mode_option
   ]
 }
 
-resource configservice_label duplicate_asset_dialog_asset_checked_out_notification_title {
-  key = 'DUPLICATE_ASSET_DIALOG_ASSET_CHECKED_OUT_NOTIFICATION_TITLE'
-  group = 'Duplicate Assets'
-  product_id = resource.configservice_product.media_manager_5.id
-  default_label_values = [
-    {
-      default_translation = 'Error selecting'
-      language_id = data.language.english.id
-    },
-    {
-      default_translation = 'Fejl ved valg'
-      language_id = data.language.danish.id
-    }
-  ]
-}
-
-resource configservice_label duplicate_asset_dialog_asset_checked_out_notification_body {
-  key = 'DUPLICATE_ASSET_DIALOG_ASSET_CHECKED_OUT_NOTIFICATION_BODY'
+resource configservice_label duplicate_asset_dialog_asset_checked_out_compact_notification {
+  key = 'DUPLICATE_ASSET_DIALOG_ASSET_CHECKED_OUT_COMPACT_NOTIFICATION'
   group = 'Duplicate Assets'
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
