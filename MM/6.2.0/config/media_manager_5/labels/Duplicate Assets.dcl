@@ -340,11 +340,11 @@ resource configservice_label duplicate_asset_dialog_asset_checked_out_compact_no
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Asset with id {{assetId}} is checked out and cannot be replaced'
+      default_translation = 'Asset with ID {{assetId}} is checked out and cannot be replaced'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Asset med id {{assetId}} er checket ud og kan ikke erstattes'
+      default_translation = 'Asset med id {{assetId}} er checket ud og kan ikke udskiftes'
       language_id = data.language.danish.id
     }
   ]
