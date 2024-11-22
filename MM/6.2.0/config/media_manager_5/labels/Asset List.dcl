@@ -2341,11 +2341,11 @@ resource configservice_label asset_list_similar_assets_modal_header_title {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Similar image search'
+      default_translation = 'Similar images'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Lignende billedsøgning'
+      default_translation = 'Lignende billeder'
       language_id = data.language.danish.id
     }
   ]
