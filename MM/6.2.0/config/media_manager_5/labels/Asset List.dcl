@@ -1006,6 +1006,22 @@ resource configservice_label asset_list_more_popup_change_asset_category {
   ]
 }
 
+resource configservice_label asset_list_more_popup_show_similar_images {
+  key = 'ASSET_LIST_MORE_POPUP_SHOW_SIMILAR_IMAGES'
+  group = 'Asset List'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Show similar images'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Vis lignende billeder'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label asset_list_filter_menu_facet_render_type_facetrendertype_is_currently_not_supported {
   key = 'ASSET_LIST_FILTER_MENU_FACET_RENDER_TYPE_FACETRENDERTYPE_IS_CURRENTLY_NOT_SUPPORTED'
   group = 'Asset List'
@@ -2314,6 +2330,38 @@ resource configservice_label asset_list_change_asset_category_dialog_error_title
     },
     {
       default_translation = 'Fejl'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_list_similar_assets_modal_header_title {
+  key = 'ASSET_LIST_SIMILAR_ASSETS_MODAL_HEADER_TITLE'
+  group = 'Asset List - change asset category dialog'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Similar images'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Lignende billeder'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_list_similar_assets_modal_content_title {
+  key = 'ASSET_LIST_SIMILAR_ASSETS_MODAL_CONTENT_TITLE'
+  group = 'Asset List - change asset category dialog'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Similar images found'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Lignende billeder fundet'
       language_id = data.language.danish.id
     }
   ]
