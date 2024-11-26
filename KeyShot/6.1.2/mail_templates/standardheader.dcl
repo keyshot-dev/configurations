@@ -26,4 +26,3 @@ patch mail_template standardheader {
                                 <tr>
                                     <td class="content-cell">'
 }
-

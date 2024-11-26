@@ -30,7 +30,7 @@ resource sso_configuration id_1 {
             additional_valid_audiences = [{
                     audience = '${variable.keyshot_client_id}'
                 }, {
-                    audience = '13vqm3t9loloro4lqbmn5gqqjk'                                
+                    audience = '13vqm3t9loloro4lqbmn5gqqjk'
                 }, {
                     audience = '4itq00q1gis7gebq98vpg08rvn'
                 }]
@@ -38,4 +38,3 @@ resource sso_configuration id_1 {
         }
     }
 }
-

@@ -1,8 +1,6 @@
 data configservice_bit_config_field show_has_crop {
     product_id = data.configservice_product.media_manager_5.id
-    group = 'default'
     key = 'showHasCrop'
-    meta_field_type = 'None'
 }
 
 resource configservice_config_bit_field_value default_show_crops_on_asset_card {
