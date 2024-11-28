@@ -3327,6 +3327,22 @@ resource configservice_label asset_card_settings_filter_action_replace {
   ]
 }
 
+resource configservice_label asset_card_settings_filter_similar_images {
+  key = 'ASSET_CARD_SETTINGS_FILTER_ACTION_SIMILAR_IMAGES'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Similar images'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Lignende billeder'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label asset_card_settings_filter_action_generate_thumbnail {
   key = 'ASSET_CARD_SETTINGS_FILTER_ACTION_GENERATE_THUMBNAIL'
   group = 'Settings'

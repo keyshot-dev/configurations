@@ -334,3 +334,19 @@ resource configservice_label duplicate_asset_sort_selector_detection_mode_option
   ]
 }
 
+resource configservice_label duplicate_asset_dialog_asset_checked_out_compact_notification {
+  key = 'DUPLICATE_ASSET_DIALOG_ASSET_CHECKED_OUT_COMPACT_NOTIFICATION'
+  group = 'Duplicate Assets'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Asset with ID {{assetId}} is checked out and cannot be replaced'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Asset med id {{assetId}} er checket ud og kan ikke udskiftes'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
