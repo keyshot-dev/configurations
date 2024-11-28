@@ -830,3 +830,130 @@ resource configservice_label asset_info_cropname {
   ]
 }
 
+resource configservice_label asset_dialog_create_new_asset {
+  key = 'ASSET_DIALOG_CREATE_NEW_ASSET'
+  group = 'Asset'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Create new asset'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Opret nyt asset'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_dialog_required_error {
+  key = 'ASSET_DIALOG_REQUIRED_ERROR'
+  group = 'Asset'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Field required'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Felt påkravet'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_dialog_create {
+  key = 'ASSET_DIALOG_CREATE'
+  group = 'Asset'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Create'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Opret'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_dialog_cancel {
+  key = 'ASSET_DIALOG_CANCEL'
+  group = 'Asset'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Cancel'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Annullér'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_dialog_confirm_error {
+  key = 'ASSET_DIALOG_CONFIRM_ERROR'
+  group = 'Asset'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'An error occurred'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Der opstod en fejl'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_dialog_asset_created {
+  key = 'ASSET_DIALOG_ASSET_CREATED'
+  group = 'Asset'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Asset created'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Asset oprettet'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_dialog_title_title {
+  key = 'ASSET_DIALOG_TITLE_LABEL'
+  group = 'Asset'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Title'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Titel'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_dialog_category_label {
+  key = 'ASSET_DIALOG_CATEGORY_LABEL'
+  group = 'Asset List - change asset category dialog'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Category'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Kategori'
+      language_id = data.language.danish.id
+    }
+  ]
+}
