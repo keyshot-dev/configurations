@@ -206,6 +206,22 @@ resource configservice_label folder_list_all_assets {
   ]
 }
 
+resource configservice_label folder_list_new_asset {
+  key = 'FOLDER_LIST_NEW_ASSET'
+  group = 'Z Misc Labels'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'New asset'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Nyt asset'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label search_everything {
   key = 'SEARCH_EVERYTHING'
   group = 'Z Misc Labels'
