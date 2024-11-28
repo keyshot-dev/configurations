@@ -1,4 +1,4 @@
-﻿resource format pdf {
+resource format pdf {
     name = 'PDF'
     guid = 'bc7e41bd-9076-4137-b66e-111d5b8bfaf6'
     description = 'A PDF.'
