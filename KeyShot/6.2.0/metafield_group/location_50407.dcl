@@ -2,8 +2,6 @@ resource editcombovalue_metafield location_50407 {
     name = 'Location'
     group_id = resource.metafield_group.keyshot_50012.metafield_group_id
     sort_index = 40
-    visibility_metafield_id = resource.combovalue_metafield.keyshot_type_50399.metafield_id
-    visibility_regex = 'Environments|Backplates'
     required = false
     readonly = false
     show_in_list = true
@@ -12,7 +10,9 @@ resource editcombovalue_metafield location_50407 {
     restrict_to_asset_type = 'All'
     upload_tag_name = ''
     restrict_to_asset_categories = [{
-            asset_category_id = data.asset_category.root.id
+            asset_category_id = resource.asset_category.environment.id
+        }, {
+            asset_category_id = resource.asset_category.backplate.id
         }]
     item_guid = '686353bd-642d-4621-a616-867ddffe4d70'
     autolink = {

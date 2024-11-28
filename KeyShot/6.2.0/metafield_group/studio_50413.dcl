@@ -2,8 +2,6 @@ resource editcombovalue_metafield studio_50413 {
     name = 'Studio'
     group_id = resource.metafield_group.keyshot_50012.metafield_group_id
     sort_index = 140
-    visibility_metafield_id = resource.combovalue_metafield.keyshot_type_50399.metafield_id
-    visibility_regex = 'Render Output'
     required = false
     readonly = false
     show_in_list = true
@@ -12,7 +10,7 @@ resource editcombovalue_metafield studio_50413 {
     restrict_to_asset_type = 'All'
     upload_tag_name = ''
     restrict_to_asset_categories = [{
-            asset_category_id = data.asset_category.root.id
+            asset_category_id = resource.asset_category.render_output.id
         }]
     item_guid = '2d4a1962-4eaf-47d5-869c-79fb122e0b9f'
     autolink = {

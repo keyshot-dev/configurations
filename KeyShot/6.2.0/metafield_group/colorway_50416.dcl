@@ -2,8 +2,6 @@ resource editcombovalue_metafield colorway_50416 {
     name = 'Colorway'
     group_id = resource.metafield_group.keyshot_50012.metafield_group_id
     sort_index = 170
-    visibility_metafield_id = resource.combovalue_metafield.keyshot_type_50399.metafield_id
-    visibility_regex = 'Render Output'
     required = false
     readonly = false
     show_in_list = true
@@ -12,7 +10,7 @@ resource editcombovalue_metafield colorway_50416 {
     restrict_to_asset_type = 'All'
     upload_tag_name = ''
     restrict_to_asset_categories = [{
-            asset_category_id = data.asset_category.root.id
+            asset_category_id = resource.asset_category.render_output.id
         }]
     item_guid = '3b7e578c-2ab1-4a06-ad62-fa1aea26d545'
     autolink = {
