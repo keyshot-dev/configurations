@@ -840,7 +840,7 @@ resource configservice_label asset_dialog_create_new_asset {
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Opret nyt assetr'
+      default_translation = 'Opret nyt asset'
       language_id = data.language.danish.id
     }
   ]
@@ -852,7 +852,7 @@ resource configservice_label asset_dialog_required_error {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Field is required'
+      default_translation = 'Field required'
       language_id = data.language.english.id
     },
     {
