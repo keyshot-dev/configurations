@@ -2,8 +2,6 @@ resource editcombovalue_metafield process_status_50410 {
     name = 'Process status'
     group_id = resource.metafield_group.keyshot_50012.metafield_group_id
     sort_index = 50
-    visibility_metafield_id = resource.combovalue_metafield.keyshot_type_50399.metafield_id
-    visibility_regex = 'Scenes'
     required = false
     readonly = false
     show_in_list = true
@@ -12,7 +10,7 @@ resource editcombovalue_metafield process_status_50410 {
     restrict_to_asset_type = 'All'
     upload_tag_name = ''
     restrict_to_asset_categories = [{
-            asset_category_id = data.asset_category.root.id
+            asset_category_id = resource.asset_category.scene.id
         }]
     item_guid = '4e7c2f63-f880-43ae-a7b3-1d9192d42771'
     autolink = {

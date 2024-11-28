@@ -2,8 +2,6 @@ resource editmulticombovalue_metafield material_50401 {
     name = 'Material'
     group_id = resource.metafield_group.keyshot_50012.metafield_group_id
     sort_index = 80
-    visibility_metafield_id = resource.combovalue_metafield.keyshot_type_50399.metafield_id
-    visibility_regex = 'Materials'
     required = false
     readonly = false
     show_in_list = true
@@ -12,7 +10,7 @@ resource editmulticombovalue_metafield material_50401 {
     restrict_to_asset_type = 'All'
     upload_tag_name = ''
     restrict_to_asset_categories = [{
-            asset_category_id = data.asset_category.root.id
+            asset_category_id = resource.asset_category.material.id
         }]
     item_guid = 'aa3cc9bb-5879-4604-8465-57b775e09c63'
     autolink = {

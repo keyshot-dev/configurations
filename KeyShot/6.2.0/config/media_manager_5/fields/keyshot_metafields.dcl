@@ -10,10 +10,6 @@ resource configservice_multi_string_config_field keyshot_metafields {
         }, {
             value = resource.editmulticombovalue_metafield.finish_50402.item_guid
         }, {
-            value = resource.combovalue_metafield.keyshot_render_type_50409.item_guid
-        }, {
-            value = resource.combovalue_metafield.keyshot_type_50399.item_guid
-        }, {
             value = resource.editcombovalue_metafield.location_50407.item_guid
         }, {
             value = resource.editmulticombovalue_metafield.material_50401.item_guid
@@ -27,8 +23,6 @@ resource configservice_multi_string_config_field keyshot_metafields {
             value = resource.editcombovalue_metafield.texture_type_50406.item_guid
         }, {
             value = data.tree_metafield.media_manager_menu.item_guid
-        }, {
-            value = resource.masteritem_reference_metafield.keyshot_related_assets_50411.item_guid
         }, {
             value = resource.editcombovalue_metafield.studio_50413.item_guid
         }, {

@@ -18,5 +18,5 @@ variable keyshot_client_secret {
 variable hub_version {
     type = 'string'
     description = 'The version number of the Hub'
-    default = '1.2'
+    default = '1.3'
 }

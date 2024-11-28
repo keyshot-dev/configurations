@@ -2,8 +2,6 @@ resource editcombovalue_metafield environment_50414 {
     name = 'Environment'
     group_id = resource.metafield_group.keyshot_50012.metafield_group_id
     sort_index = 150
-    visibility_metafield_id = resource.combovalue_metafield.keyshot_type_50399.metafield_id
-    visibility_regex = 'Render Output'
     required = false
     readonly = false
     show_in_list = true
@@ -12,7 +10,7 @@ resource editcombovalue_metafield environment_50414 {
     restrict_to_asset_type = 'All'
     upload_tag_name = ''
     restrict_to_asset_categories = [{
-            asset_category_id = data.asset_category.root.id
+            asset_category_id = resource.asset_category.render_output.id
         }]
     item_guid = 'eebde101-553b-4637-8384-19a85e71b2ae'
     autolink = {

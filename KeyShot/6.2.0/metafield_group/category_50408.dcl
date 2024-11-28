@@ -2,8 +2,6 @@ resource editmulticombovalue_metafield category_50408 {
     name = 'Category'
     group_id = resource.metafield_group.keyshot_50012.metafield_group_id
     sort_index = 40
-    visibility_metafield_id = resource.combovalue_metafield.keyshot_type_50399.metafield_id
-    visibility_regex = 'Models|Scenes'
     required = false
     readonly = false
     show_in_list = true
@@ -12,7 +10,9 @@ resource editmulticombovalue_metafield category_50408 {
     restrict_to_asset_type = 'All'
     upload_tag_name = ''
     restrict_to_asset_categories = [{
-            asset_category_id = data.asset_category.root.id
+            asset_category_id = resource.asset_category.model.id
+        }, {
+            asset_category_id = resource.asset_category.scene.id
         }]
     item_guid = '4d6a1cee-c61c-46e6-b83c-a5971cb72b23'
     autolink = {
