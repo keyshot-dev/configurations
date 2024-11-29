@@ -12738,17 +12738,65 @@ resource configservice_label administration_tools_system_asset_relation_types_in
   ]
 }
 
-resource configservice_label administration_tools_system_asset_relation_types_security_behavior_inheritance {
-  key = 'ADMINISTRATION_TOOLS_SYSTEM_ASSET_RELATION_TYPES_SECURITY_BEHAVIOR_INHERITANCE'
+resource configservice_label administration_tools_system_asset_relation_types_security_behavior_inheritance_inherit_read {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_ASSET_RELATION_TYPES_SECURITY_BEHAVIOR_INHERITANCE_INHERIT_READ'
   group = 'administration-tools - system - asset-relation-types'
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Security behavior inheritance'
+      default_translation = 'Inherit read'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Sikkerhedsadfærdsarv'
+      default_translation = 'Arve læst'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_asset_relation_types_security_behavior_inheritance_inherit_read_tooltip {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_ASSET_RELATION_TYPES_SECURITY_BEHAVIOR_INHERITANCE_INHERIT_READ_TOOLTIP'
+  group = 'administration-tools - system - asset-relation-types'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Inherit read'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Arve læst'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_asset_relation_types_security_behavior_inheritance_inherit_write {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_ASSET_RELATION_TYPES_SECURITY_BEHAVIOR_INHERITANCE_INHERIT_WRITE'
+  group = 'administration-tools - system - asset-relation-types'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Inherit write'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Arve skrive'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_asset_relation_types_security_behavior_inheritance_inherit_write_tooltip {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_ASSET_RELATION_TYPES_SECURITY_BEHAVIOR_INHERITANCE_INHERIT_WRITE_TOOLTIP'
+  group = 'administration-tools - system - asset-relation-types'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Inherit write'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Arve skrive'
       language_id = data.language.danish.id
     }
   ]
