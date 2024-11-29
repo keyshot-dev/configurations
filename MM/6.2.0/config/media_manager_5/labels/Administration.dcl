@@ -12567,6 +12567,7 @@ resource configservice_label administration_tools_system_asset_relation_types_as
   group = 'administration-tools - system - asset-relation-types'
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
+    {
       default_translation = 'Delete'
       language_id = data.language.english.id
     },
