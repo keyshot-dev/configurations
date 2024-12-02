@@ -13137,3 +13137,35 @@ resource configservice_label administration_tools_system_asset_relation_types_ch
     }
   ]
 }
+
+resource configservice_label administration_tools_system_asset_relation_types_primary_to_secondary_label {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_ASSET_RELATION_TYPES_PRIMARY_TO_SECONDARY_LABEL'
+  group = 'administration-tools - system - asset-relation-types'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Primary to secondary label'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Primær til sekundær etiket'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_asset_relation_types_secondary_to_primary_label {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_ASSET_RELATION_TYPES_SECONDARY_TO_PRIMARY_LABEL'
+  group = 'administration-tools - system - asset-relation-types'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Secondary to primary label'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Sekundær til primær etiket'
+      language_id = data.language.danish.id
+    }
+  ]
+}
