@@ -1070,6 +1070,22 @@ resource configservice_label input_facial_detection_cancel {
   ]
 }
 
+resource configservice_label input_facial_detection_retry {
+  key = 'INPUT_FACIAL_DETECTION_RETRY'
+  group = 'Inputs'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Redetect faces'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Genkør ansigtsgenkendelse'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label input_facial_detection_title {
   key = 'INPUT_FACIAL_DETECTION_TITLE'
   group = 'Inputs'
