@@ -1080,7 +1080,7 @@ resource configservice_label input_facial_detection_retry {
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Prøv genkendelse'
+      default_translation = 'Genkør ansigtsgenkendelse'
       language_id = data.language.danish.id
     }
   ]
