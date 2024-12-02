@@ -1,4 +1,4 @@
-﻿resource format audio_preview {
+resource format audio_preview {
     name = 'Audio Preview'
     guid = 'cc8fbe8f-5a25-462f-8de8-b84858bae406'
     description = 'The default audio preview.'

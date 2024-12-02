@@ -7,3 +7,4 @@ resource configservice_string_config_field main_menu_custom_link_text {
     title = 'Custom link text'
     description = 'In desktop view, the text is visible when hovering the icon. In mobile view, the text is displayed next to the icon.'
 }
+

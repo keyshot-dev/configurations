@@ -8,3 +8,4 @@ resource configservice_int_config_field video_insert_quality {
     description = 'Defines the default rendition used when inserting video assets'
     hidden = true
 }
+

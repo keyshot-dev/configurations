@@ -1,11 +1,3 @@
-data metafield_group asset_info {
-    name = 'Asset info'
-}
-
-data metafield_group options_50028 {
-    name = 'Options'
-}
-
 resource item_security metafield_group_keyshot_50012__editor_access_32 {
     accessor_item_id = data.member_group.editor_access.item_id
     item_id = resource.metafield_group.keyshot_50012.item_id

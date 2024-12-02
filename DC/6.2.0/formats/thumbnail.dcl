@@ -1,4 +1,4 @@
-﻿resource format thumbnail {
+resource format thumbnail {
     name = 'Thumbnail'
     guid = '88c69734-3905-4940-9e1a-851fe2ab10b8'
     description = 'The default thumbnail.'
