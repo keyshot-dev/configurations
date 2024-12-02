@@ -1076,7 +1076,7 @@ resource configservice_label input_facial_detection_retry {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Retry detection'
+      default_translation = 'Redetect faces'
       language_id = data.language.english.id
     },
     {
