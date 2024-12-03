@@ -868,11 +868,11 @@ resource configservice_label asset_dialog_create {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Create'
+      default_translation = '{processing, select, true {Creating} false {Create}}'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Opret'
+      default_translation = '{processing, select, true {Opretter} false {Opret}}'
       language_id = data.language.danish.id
     }
   ]
