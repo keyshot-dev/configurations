@@ -894,17 +894,33 @@ resource configservice_label asset_dialog_cancel {
   ]
 }
 
-resource configservice_label asset_dialog_confirm_error {
-  key = 'ASSET_DIALOG_CONFIRM_ERROR'
+resource configservice_label asset_dialog_confirm_error_title {
+  key = 'ASSET_DIALOG_CONFIRM_ERROR_TITLE'
   group = 'Asset'
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'An error occurred'
+      default_translation = 'Error'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Der opstod en fejl'
+      default_translation = 'Fejl'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_dialog_confirm_error_body {
+  key = 'ASSET_DIALOG_CONFIRM_ERROR_BODY'
+  group = 'Asset'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'An error occurred. Asset creation failed.'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Der opstod en fejl. Oprettelse af asset mislykkedes.'
       language_id = data.language.danish.id
     }
   ]
