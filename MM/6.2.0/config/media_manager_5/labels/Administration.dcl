@@ -4739,6 +4739,22 @@ resource configservice_label administration_tools_managed_integrations_section_a
   ]
 }
 
+resource configservice_label administration_tools_managed_integrations_section_additional_languages_tooltip {
+  key = 'ADMINISTRATION_TOOLS_MANAGED_INTEGRATIONS_SECTION_ADDITIONAL_LANGUAGES_TOOLTIP'
+  group = 'administration-tools - managed-integrations-section'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Metadata fields can be retrieved in multiple languages'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Metadatafelter kan hentes på flere sprog'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label administration_tools_managed_integrations_section_custom_headers {
   key = 'ADMINISTRATION_TOOLS_MANAGED_INTEGRATIONS_SECTION_CUSTOM_HEADERS'
   group = 'administration-tools - managed-integrations-section'
