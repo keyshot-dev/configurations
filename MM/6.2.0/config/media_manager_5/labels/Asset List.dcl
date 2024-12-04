@@ -2357,11 +2357,11 @@ resource configservice_label asset_list_similar_assets_modal_content_title {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Similar images found'
+      default_translation = 'Assets'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Lignende billeder fundet'
+      default_translation = 'Assets'
       language_id = data.language.danish.id
     }
   ]
