@@ -596,11 +596,43 @@ resource configservice_label preview_thumbnail_selector_custom_image_choose_btn 
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Choose image'
+      default_translation = 'Select image'
       language_id = data.language.english.id
     },
     {
       default_translation = 'Vælg billede'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label preview_thumbnail_selector_custom_image_change_btn {
+  key = 'PREVIEW_THUMBNAIL_SELECTOR_CUSTOM_IMAGE_CHANGE_BTN'
+  group = 'Preview Asset'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Change'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Ændre'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label preview_thumbnail_selector_custom_image_remove_btn {
+  key = 'PREVIEW_THUMBNAIL_SELECTOR_CUSTOM_IMAGE_REMOVE_BTN'
+  group = 'Preview Asset'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Remove'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Fjern'
       language_id = data.language.danish.id
     }
   ]
