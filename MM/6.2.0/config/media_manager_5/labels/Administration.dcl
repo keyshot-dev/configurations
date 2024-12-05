@@ -12418,6 +12418,22 @@ resource configservice_label administration_tools_system_asset_relation_types_fi
   ]
 }
 
+resource configservice_label administration_tools_system_asset_relation_types_relation_label {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_ASSET_RELATION_TYPES_RELATION_LABEL'
+  group = 'administration-tools - system - asset-relation-types'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Relation label''
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Relation label'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label administration_tools_system_asset_relation_types_description {
   key = 'ADMINISTRATION_TOOLS_SYSTEM_ASSET_RELATION_TYPES_DESCRIPTION'
   group = 'administration-tools - system - asset-relation-types'
