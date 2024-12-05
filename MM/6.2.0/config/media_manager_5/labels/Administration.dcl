@@ -12408,11 +12408,11 @@ resource configservice_label administration_tools_system_asset_relation_types_fi
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'The value is not valid'
+      default_translation = 'The value is invalid'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Værdien er ikke gyldig'
+      default_translation = 'Værdien er ugyldig'
       language_id = data.language.danish.id
     }
   ]
@@ -12472,11 +12472,11 @@ resource configservice_label administration_tools_system_asset_relation_types_so
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Source asset category'
+      default_translation = 'Restrict source asset categories'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Kilde asset-kategori'
+      default_translation = 'Begræns asset-kategorier for kilde'
       language_id = data.language.danish.id
     }
   ]
@@ -12488,11 +12488,11 @@ resource configservice_label administration_tools_system_asset_relation_types_so
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'The asset categories that can be the source of relations of this type. If empty all categories are allowed'
+      default_translation = 'If set, source assets of this relation must be in these categories. If empty, no category restrictions apply.'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'De asset-kategorier, der kan være kilden til relationer af denne type. Hvis tom er alle kategorier tilladt'
+      default_translation = 'Hvis sat, skal kilde-asset for denne relation være i disse kategorier. Hvis tom, gælder ingen kategori-begrænsning.'
       language_id = data.language.danish.id
     }
   ]
@@ -12568,11 +12568,11 @@ resource configservice_label administration_tools_system_asset_relation_types_ad
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Add source asset category'
+      default_translation = 'Add restriction'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Tilføje kilde asset-kategori'
+      default_translation = 'Tilføj begrænsning'
       language_id = data.language.danish.id
     }
   ]
@@ -12584,11 +12584,11 @@ resource configservice_label administration_tools_system_asset_relation_types_ta
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Target asset category'
+      default_translation = 'Restrict target asset categories'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Mål asset-kategori'
+      default_translation = 'Begræns asset-kategorier for mål'
       language_id = data.language.danish.id
     }
   ]
@@ -12600,11 +12600,11 @@ resource configservice_label administration_tools_system_asset_relation_types_ta
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'The asset categories that can be the target of relations of this type. If empty all categories are allowed'
+      default_translation = 'If set, target assets of this relation must be in these categories. If empty, no category restrictions apply.'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'De asset-kategorier, der kan være målet for relationer af denne type. Hvis tom er alle kategorier tilladt'
+      default_translation = 'Hvis sat, skal mål-asset for denne relation være i disse kategorier. Hvis tom, gælder ingen kategori-begrænsning.'
       language_id = data.language.danish.id
     }
   ]
@@ -12616,11 +12616,11 @@ resource configservice_label administration_tools_system_asset_relation_types_ad
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Add target asset category'
+      default_translation = 'Add restriction'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Tilføje mål asset-kategori'
+      default_translation = 'Tilføj begræsning'
       language_id = data.language.danish.id
     }
   ]
@@ -12636,7 +12636,7 @@ resource configservice_label administration_tools_system_asset_relation_types_bl
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Blokere udgivelse'
+      default_translation = 'Bloker publicering'
       language_id = data.language.danish.id
     }
   ]
@@ -12648,11 +12648,11 @@ resource configservice_label administration_tools_system_asset_relation_types_bl
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'If enabled, the target asset of this relation can not be published to any channels at all'
+      default_translation = 'If ticked, target assets in this relation can never be published to any channels'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Hvis den er aktiveret, kan mål-asset for denne relation slet ikke publiceres til nogen kanaler'
+      default_translation = 'Hvis sat, kan mål-assets i denne relation aldrig publiceres til nogen kanaler'
       language_id = data.language.danish.id
     }
   ]
@@ -12668,7 +12668,7 @@ resource configservice_label administration_tools_system_asset_relation_types_in
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Arv kanalmapper'
+      default_translation = 'Nedarv kanalmapper'
       language_id = data.language.danish.id
     }
   ]
@@ -12680,11 +12680,11 @@ resource configservice_label administration_tools_system_asset_relation_types_in
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'If enabled, the target asset of this relation will inherit the channel folders of the source asset'
+      default_translation = 'If enabled, target assets in this relation will inherit the source assets\' channel folders'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Hvis det er aktiveret, vil target-asset for denne relation arve kanalmapperne for kildeaktivet'
+      default_translation = 'Hvis det er aktiveret, vil mål-assets i denne relation nedarve kilde-assetternes kanalmapper'
       language_id = data.language.danish.id
     }
   ]
@@ -12696,11 +12696,11 @@ resource configservice_label administration_tools_system_asset_relation_types_se
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Inherit read'
+      default_translation = 'Inherit read-rights'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Arve læst'
+      default_translation = 'Nedarv læserettigheder'
       language_id = data.language.danish.id
     }
   ]
@@ -12712,11 +12712,11 @@ resource configservice_label administration_tools_system_asset_relation_types_se
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Controls what parts of item security the target asset of this relation inherits from the source asset'
+      default_translation = 'Controls which parts of item security the target assets in this relation will inherit from the source assets'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Styrer, hvilke dele af item-security target-asset for denne relation arver fra kildeaktivet'
+      default_translation = 'Styrer, hvilke dele af item-security mål-assets i denne relation nedarver fra kilde-assetsne'
       language_id = data.language.danish.id
     }
   ]
@@ -12728,11 +12728,11 @@ resource configservice_label administration_tools_system_asset_relation_types_se
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Inherit write'
+      default_translation = 'Inherit write-rights'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Arve skrive'
+      default_translation = 'Nedarv skriverettigheder'
       language_id = data.language.danish.id
     }
   ]
@@ -12744,11 +12744,11 @@ resource configservice_label administration_tools_system_asset_relation_types_se
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Controls what parts of item security the target asset of this relation inherits from the source asset'
+      default_translation = 'Controls which parts of item security the target assets in this relation will inherit from the source assets'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Styrer, hvilke dele af item-security target-asset for denne relation arver fra kildeaktivet'
+      default_translation = 'Styrer, hvilke dele af item-security mål-assets i denne relation nedarver fra kilde-assetsne'
       language_id = data.language.danish.id
     }
   ]
@@ -12776,11 +12776,11 @@ resource configservice_label administration_tools_system_asset_relation_types_in
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'If enabled, the target asset of this relation will automatically be soft deleted when the source asset is soft deleted'
+      default_translation = 'If enabled, target assets in this relation will automatically be soft deleted when their source assets are soft deleted'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Hvis aktiveret, vil target-asset for denne relation automatisk blive slettet blødt, når kildeaktivet bliver blødt slettet'
+      default_translation = 'Hvis sat, vil mål-assets i denne relation automatisk blive slettet blødt, når deres kilde-assets bliver slettet blødt'
       language_id = data.language.danish.id
     }
   ]
@@ -12808,11 +12808,11 @@ resource configservice_label administration_tools_system_asset_relation_types_in
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'If enabled, the target asset of this relation will automatically be hard deleted when the source asset is hard deleted'
+      default_translation = 'If enabled, target assets in this relation will automatically be hard deleted when their source assets are hard deleted'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Hvis det er aktiveret, vil target-asset for denne relation automatisk blive hårdt slettet, når kildeaktivet er hårdt slettet'
+      default_translation = 'Hvis sat, vil mål-assets i denne relation automatisk blive slettet hårdt, når deres kilde-assets bliver slettet hårdt'
       language_id = data.language.danish.id
     }
   ]
@@ -12840,11 +12840,11 @@ resource configservice_label administration_tools_system_asset_relation_types_sy
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'If enabled, the target asset of this relation will be made available when creating renditions of the source asset. Note that this is only required and supported by some transcoders'
+      default_translation = 'If enabled, target assets in this relation will be made available when creating renditions of their source assets. Note that this is only supported by some transcoders'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Hvis det er aktiveret, vil target-asset for denne relation blive gjort tilgængeligt, når der oprettes gengivelser af kildeaktivet. Bemærk, at dette kun er påkrævet og understøttet af nogle transkodere'
+      default_translation = 'Hvis sat, vil mål-assets i denne relation blive gjort tilgængelige, når der oprettes renditions af deres kilde-assets. Bemærk, at dette kun er understøttet af bestemte transkodere'
       language_id = data.language.danish.id
     }
   ]
@@ -12860,7 +12860,7 @@ resource configservice_label administration_tools_system_asset_relation_types_ov
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Tilsidesæt formatformål'
+      default_translation = 'Overskriv format-formål'
       language_id = data.language.danish.id
     }
   ]
@@ -12876,7 +12876,7 @@ resource configservice_label administration_tools_system_asset_relation_types_ov
       language_id = data.language.english.id
     },
     {
-      default_translation = 'De forskellige formatformål, hvor kildeaktivet skal bruge gengivelsen af target-asset'
+      default_translation = 'De forskellige formatformål, hvor kilde-assettet skal bruge renditionen fra mål-assetet'
       language_id = data.language.danish.id
     }
   ]
@@ -13036,7 +13036,7 @@ resource configservice_label administration_tools_system_asset_relation_types_de
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Asset-relationstype blev ikke slettet'
+      default_translation = 'Asset-relationstypen blev ikke slettet'
       language_id = data.language.danish.id
     }
   ]
@@ -13068,7 +13068,7 @@ resource configservice_label administration_tools_system_asset_relation_types_ch
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Asset-relationstype blev gemt'
+      default_translation = 'Asset-relationstypen blev gemt'
       language_id = data.language.danish.id
     }
   ]
@@ -13084,7 +13084,7 @@ resource configservice_label administration_tools_system_asset_relation_types_ch
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Asset-relationstype blev ikke gemt'
+      default_translation = 'Asset-relationstypen blev ikke gemt'
       language_id = data.language.danish.id
     }
   ]
