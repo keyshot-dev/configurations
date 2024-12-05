@@ -13144,11 +13144,11 @@ resource configservice_label administration_tools_system_asset_relation_types_se
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Target →  source label'
+      default_translation = 'Target → source label'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Source → target label'
+      default_translation = 'Mål → kilde label'
       language_id = data.language.danish.id
     }
   ]
