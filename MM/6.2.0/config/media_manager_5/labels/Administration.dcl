@@ -13128,11 +13128,11 @@ resource configservice_label administration_tools_system_asset_relation_types_pr
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Primary to secondary label'
+      default_translation = 'Source → target label'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Primær til sekundær etiket'
+      default_translation = 'Kilde → mål-label'
       language_id = data.language.danish.id
     }
   ]
@@ -13144,11 +13144,11 @@ resource configservice_label administration_tools_system_asset_relation_types_se
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Secondary to primary label'
+      default_translation = 'Target →  source label'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Sekundær til primær etiket'
+      default_translation = 'Source → target label'
       language_id = data.language.danish.id
     }
   ]
