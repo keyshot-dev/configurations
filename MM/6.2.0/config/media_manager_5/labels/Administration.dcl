@@ -12552,11 +12552,11 @@ resource configservice_label administration_tools_system_asset_relation_types_re
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Recursive'
+      default_translation = 'If true, the relation type applies to this category and all its children'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Rekursiv'
+      default_translation = 'Hvis det er sandt, gælder relationstypen for denne kategori og alle dens børn'
       language_id = data.language.danish.id
     }
   ]
