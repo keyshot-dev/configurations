@@ -1915,7 +1915,7 @@ resource configservice_label portal_config_manager_create_new_mail_template_dial
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Name is already used'
+      default_translation = 'Name already in use'
       language_id = data.language.english.id
     },
     {
