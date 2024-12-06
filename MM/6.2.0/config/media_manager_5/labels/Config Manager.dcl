@@ -1919,7 +1919,7 @@ resource configservice_label portal_config_manager_create_new_mail_template_dial
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Name is already used'
+      default_translation = 'Navnet er allerede i brug'
       language_id = data.language.danish.id
     }
   ]
