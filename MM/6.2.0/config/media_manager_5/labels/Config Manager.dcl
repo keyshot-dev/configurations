@@ -1909,6 +1909,22 @@ resource configservice_label portal_config_manager_create_new_mail_template_dial
   ]
 }
 
+resource configservice_label portal_config_manager_create_new_mail_template_dialog_name_used {
+  key = 'PORTAL_CONFIG_MANAGER_CREATE_NEW_MAIL_TEMPLATE_DIALOG_NAME_USED'
+  group = 'Config Manager'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Name is already used'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Name is already used'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label portal_config_manager_portal_html_templates_settings_all_languages {
   key = 'PORTAL_CONFIG_MANAGER_PORTAL_HTML_TEMPLATES_SETTINGS_ALL_LANGUAGES'
   group = 'Config Manager'
