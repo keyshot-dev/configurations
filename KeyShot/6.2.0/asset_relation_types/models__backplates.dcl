@@ -41,4 +41,3 @@ resource asset_relation_type models__backplates {
             secondary_to_primary_label = 'Models'
         }]
 }
-

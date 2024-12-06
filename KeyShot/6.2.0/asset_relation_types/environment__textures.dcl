@@ -1,10 +1,10 @@
-resource asset_relation_type scenes__textures {
-    name = 'Scenes-Textures'
-    guid = '1bc81b90-47ea-4f0f-ad40-96a93e3b2c1b'
+resource asset_relation_type environment__textures {
+    name = 'Environment-Textures'
+    guid = '75f737ae-1a2c-4dc5-83c6-8e70c2f139b7'
     description = ''
-    multiplicity = 'ManyToMany'
+    multiplicity = 'OneToMany'
     source_asset_categories = [{
-            asset_category_id = resource.asset_category.scene.id
+            asset_category_id = resource.asset_category.environment.id
             recursive = false
         }]
     target_asset_categories = [{
@@ -26,8 +26,8 @@ resource asset_relation_type scenes__textures {
         inherit_hard_delete = false
     }
     transcode_behavior = {
-        enable_behavior = true
-        make_secondary_available_during_transcode = true
+        enable_behavior = false
+        make_secondary_available_during_transcode = false
     }
     renditions_behavior = {
         enable_behavior = false
@@ -35,9 +35,9 @@ resource asset_relation_type scenes__textures {
     }
     labels = [{
             language_id = data.language.english.id
-            label = 'Scenes-Textures'
+            label = 'Environment-Textures'
             description = ''
             primary_to_secondary_label = 'Textures'
-            secondary_to_primary_label = 'Scenes'
+            secondary_to_primary_label = 'Environment'
         }]
 }

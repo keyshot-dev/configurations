@@ -41,4 +41,3 @@ resource asset_relation_type materials__textures {
             secondary_to_primary_label = 'Materials'
         }]
 }
-

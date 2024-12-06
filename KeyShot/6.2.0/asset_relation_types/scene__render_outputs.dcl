@@ -41,4 +41,3 @@ resource asset_relation_type scene__render_outputs {
             secondary_to_primary_label = 'Scene'
         }]
 }
-

@@ -41,4 +41,3 @@ resource asset_relation_type still_image__render_layers {
             secondary_to_primary_label = 'Still Image'
         }]
 }
-
