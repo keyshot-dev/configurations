@@ -1,14 +1,14 @@
-resource asset_relation_type scenes__textures {
-    name = 'Scenes-Textures'
-    guid = '1bc81b90-47ea-4f0f-ad40-96a93e3b2c1b'
+resource asset_relation_type environment__environment {
+    name = 'Environment-Environment'
+    guid = 'f8be0885-1cb5-43a2-8a3a-be062e1bdde4'
     description = ''
-    multiplicity = 'ManyToMany'
+    multiplicity = 'OneToOne'
     source_asset_categories = [{
-            asset_category_id = resource.asset_category.scene.id
+            asset_category_id = resource.asset_category.environment.id
             recursive = false
         }]
     target_asset_categories = [{
-            asset_category_id = resource.asset_category.texture.id
+            asset_category_id = resource.asset_category.environment.id
             recursive = false
         }]
     channel_publishing_behavior = {
@@ -26,8 +26,8 @@ resource asset_relation_type scenes__textures {
         inherit_hard_delete = false
     }
     transcode_behavior = {
-        enable_behavior = true
-        make_secondary_available_during_transcode = true
+        enable_behavior = false
+        make_secondary_available_during_transcode = false
     }
     renditions_behavior = {
         enable_behavior = false
@@ -35,9 +35,9 @@ resource asset_relation_type scenes__textures {
     }
     labels = [{
             language_id = data.language.english.id
-            label = 'Scenes-Textures'
+            label = 'Environment-Environment'
             description = ''
-            primary_to_secondary_label = 'Textures'
-            secondary_to_primary_label = 'Scenes'
+            primary_to_secondary_label = 'Environment'
+            secondary_to_primary_label = 'Environment'
         }]
 }

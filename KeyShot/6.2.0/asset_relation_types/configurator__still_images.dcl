@@ -41,4 +41,3 @@ resource asset_relation_type configurator__still_images {
             secondary_to_primary_label = 'Configurator'
         }]
 }
-

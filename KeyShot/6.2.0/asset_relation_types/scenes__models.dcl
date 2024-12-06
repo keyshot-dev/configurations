@@ -41,4 +41,3 @@ resource asset_relation_type scenes__models {
             secondary_to_primary_label = 'Scenes'
         }]
 }
-

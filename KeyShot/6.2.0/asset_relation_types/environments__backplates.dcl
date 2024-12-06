@@ -41,4 +41,3 @@ resource asset_relation_type environments__backplates {
             secondary_to_primary_label = 'Environments'
         }]
 }
-
