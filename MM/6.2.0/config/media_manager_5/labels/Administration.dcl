@@ -8686,6 +8686,22 @@ resource configservice_label administration_tools_system_nav_services {
   ]
 }
 
+resource configservice_label administration_tools_system_nav_similar_search {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_NAV_SIMILAR_SEARCH'
+  group = 'administration-tools - system'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Similar search'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Lignende søgning'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label administration_tools_system_nav_youtube {
   key = 'ADMINISTRATION_TOOLS_SYSTEM_NAV_YOUTUBE'
   group = 'administration-tools - system'
@@ -13181,6 +13197,86 @@ resource configservice_label administration_tools_system_asset_relation_types_se
     },
     {
       default_translation = 'Mål → kilde label'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_similar_search_section_header {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_SIMILAR_SEARCH_SECTION_HEADER'
+  group = 'administration-tools - system - similar-search'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Similar search'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Lignende søgning'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_similar_search_section_image_vector_all_title {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_SIMILAR_SEARCH_SECTION_IMAGE_VECTOR_ALL_TITLE'
+  group = 'administration-tools - system - similar-search'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Image vector indexing for all'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Billedvektorindeksering for alle'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_similar_search_section_image_vector_all_label {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_SIMILAR_SEARCH_SECTION_IMAGE_VECTOR_ALL_LABEL'
+  group = 'administration-tools - system - similar-search'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Include already calculated'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Inkluder allerede beregnede'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_similar_search_section_image_vector_all_label_description {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_SIMILAR_SEARCH_SECTION_IMAGE_VECTOR_ALL_LABEL_DESCRIPTION'
+  group = 'administration-tools - system - similar-search'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'If enabled, this will calculate all image vectors including the already calculated image vectors'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Hvis aktiveret, vil dette beregne alle billedvektorer, inklusive de allerede beregnede billedvektorer'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_similar_search_section_button {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_SIMILAR_SEARCH_SECTION_BUTTON'
+  group = 'administration-tools - system - similar-search'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = '{isProcessing, select, true {Calculating...} false {Calculate}}'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = '{isProcessing, select, true {Beregner...} false {Beregn}}'
       language_id = data.language.danish.id
     }
   ]
