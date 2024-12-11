@@ -1470,6 +1470,22 @@ resource configservice_label asset_list_asset_search_error_title {
   ]
 }
 
+resource configservice_label asset_list_asset_search_image_vector_not_calculated_error {
+  key = 'ASSET_LIST_ASSET_SEARCH_IMAGE_VECTOR_NOT_CALCULATED_ERROR'
+  group = 'Asset List'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'The image vector have not been calculated'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Billedvektoren er ikke blevet beregnet'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label asset_list_asset_search_error_body {
   key = 'ASSET_LIST_ASSET_SEARCH_ERROR_BODY'
   group = 'Asset List'
