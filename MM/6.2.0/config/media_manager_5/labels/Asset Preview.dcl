@@ -365,3 +365,19 @@ resource configservice_label asset_preview_container_template_fullscreen {
     }
   ]
 }
+
+resource configservice_label asset_preview_load_3d_model {
+  key = 'ASSET_PREVIEW_LOAD_3D_MODEL'
+  group = 'Asset Preview'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = '{loading, select, true {Loading} false {Load 3D model}}'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = '{loading, select, true {Indlæser} false {Indlæs 3D-model}}'
+      language_id = data.language.danish.id
+    }
+  ]
+}
