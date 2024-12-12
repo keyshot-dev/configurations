@@ -5,6 +5,6 @@ resource configservice_string_config_field main_menu_custom_link_url {
     group = 'Main menu'
     key = 'customLinkUrl'
     title = 'Custom link URL'
-    description = 'Clicking the menu item, opens the custom URL in a new browser window'
+    description = 'Clicking the menu item, opens the custom URL in a new browser window. Specify the full URL, including the protocol (e.g. https://) for external URLs.'
 }
 
