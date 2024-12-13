@@ -11,6 +11,11 @@ resource asset_relation_type thumbnail_replacement {
                 purpose = 'LargeThumbnail'
             }]
     }
+    deletion_behavior = {
+        enable_behavior = true
+        locked_when_primary = true
+        locked_when_secondary = true
+    }	
     labels = [{
             language_id = resource.language.english.id
             label = 'Thumbnail replacement'
