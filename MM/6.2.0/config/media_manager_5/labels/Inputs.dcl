@@ -1102,6 +1102,38 @@ resource configservice_label input_facial_detection_title {
   ]
 }
 
+resource configservice_label input_facial_detection_error_title {
+  key = 'INPUT_FACIAL_DETECTION_ERROR_TITLE'
+  group = 'Inputs'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Facial detection error'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Ansigtsdetektion-fejl'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label input_facial_detection_error_body {
+  key = 'INPUT_FACIAL_DETECTION_ERROR_BODY'
+  group = 'Inputs'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = '{code, select, PersonGroupNotTrained {Person group not trained} other {An unknown error occurred when connecting to Azure}}. Please contact your system administrator.'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = '{code, select, PersonGroupNotTrained {Person group not trained} other {En ukendt fejl opstod ved forbindelse til Azure}}. Kontakt venligst din systemadministrator'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label input_person_search_placeholder {
   key = 'INPUT_PERSON_SEARCH_PLACEHOLDER'
   group = 'Inputs'
