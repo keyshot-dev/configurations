@@ -1112,7 +1112,7 @@ resource configservice_label input_facial_detection_error_title {
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Ansigtsdetektion-fejl'
+      default_translation = 'Fejl ved ansigts-genkendelse'
       language_id = data.language.danish.id
     }
   ]
