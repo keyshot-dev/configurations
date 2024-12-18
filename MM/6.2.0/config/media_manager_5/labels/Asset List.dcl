@@ -1022,6 +1022,86 @@ resource configservice_label asset_list_more_popup_show_similar_images {
   ]
 }
 
+resource configservice_label asset_list_more_popup_remove_asset_relation_tooltip {
+  key = 'ASSET_LIST_MORE_POPUP_REMOVE_ASSET_RELATION_TOOLTIP'
+  group = 'Asset List'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Remove relation'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Fjern relation'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_list_remove_asset_relation_title {
+  key = 'ASSET_LIST_REMOVE_ASSET_RELATION_TITLE'
+  group = 'Asset List'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Remove relation'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Fjern relation'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_list_remove_asset_relation_body {
+  key = 'ASSET_LIST_REMOVE_ASSET_RELATION_BODY'
+  group = 'Asset List'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Are you sure you want to remove this relation?'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Er du sikker på, at du vil slette denne relation?'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_list_remove_asset_relation_cancel {
+  key = 'ASSET_LIST_REMOVE_ASSET_RELATION_CANCEL'
+  group = 'Asset List'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Cancel'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Annullér'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_list_remove_asset_relation_confirm {
+  key = 'ASSET_LIST_REMOVE_ASSET_RELATION_CONFIRM'
+  group = 'Asset List'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Remove'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Fjern'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label asset_list_filter_menu_facet_render_type_facetrendertype_is_currently_not_supported {
   key = 'ASSET_LIST_FILTER_MENU_FACET_RENDER_TYPE_FACETRENDERTYPE_IS_CURRENTLY_NOT_SUPPORTED'
   group = 'Asset List'
