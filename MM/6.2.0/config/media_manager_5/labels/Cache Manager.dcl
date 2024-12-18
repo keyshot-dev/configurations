@@ -238,6 +238,22 @@ resource configservice_label embedded_cache_manager_filter_asset_type {
   ]
 }
 
+resource configservice_label embedded_cache_manager_filter_is_invalid {
+  key = 'EMBEDDED_CACHE_MANAGER_FILTER_IS_INVALID'
+  group = 'Cache Manager'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Invalid'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Ugyldig'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label embedded_filter_menu_cached_files_freetext_modal_search_placeholder {
   key = 'EMBEDDED_FILTER_MENU_CACHED_FILES_FREETEXT_MODAL_SEARCH_PLACEHOLDER'
   group = 'Cache Manager'
@@ -265,6 +281,22 @@ resource configservice_label embedded_cached_files_list_view_asset_title {
     },
     {
       default_translation = 'Titel'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label embedded_cached_files_list_view_invalid_title {
+  key = 'EMBEDDED_CACHED_FILES_LIST_VIEW_INVALID_TITLE'
+  group = 'Cache Manager'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Invalid'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Ugyldig'
       language_id = data.language.danish.id
     }
   ]
