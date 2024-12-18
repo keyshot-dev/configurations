@@ -1128,7 +1128,7 @@ resource configservice_label input_facial_detection_error_body {
       language_id = data.language.english.id
     },
     {
-      default_translation = '{code, select, PersonGroupNotTrained {Person group not trained} other {En ukendt fejl opstod ved forbindelse til Azure}}. Kontakt venligst din systemadministrator'
+      default_translation = '{code, select, PersonGroupNotTrained {Persongruppen er ikke trænet} other {En ukendt fejl opstod ved forbindelse til Azure}}. Kontakt venligst din systemadministrator'
       language_id = data.language.danish.id
     }
   ]
