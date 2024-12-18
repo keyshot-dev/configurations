@@ -8142,6 +8142,70 @@ resource configservice_label administration_tools_channels_edit_name_required {
   ]
 }
 
+resource configservice_label administration_tools_channels_field_required {
+  key = 'ADMINISTRATION_TOOLS_CHANNELS_FIELD_REQUIRED'
+  group = 'administration-tools - channels'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Field is required'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Feltet er påkrævet'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_channels_field_no_unique {
+  key = 'ADMINISTRATION_TOOLS_CHANNELS_FIELD_NO_UNIQUE'
+  group = 'administration-tools - channels'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'A unique value is required'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'En unik værdi er påkrævet'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_channels_field_not_valid {
+  key = 'ADMINISTRATION_TOOLS_CHANNELS_FIELD_NOT_VALID'
+  group = 'administration-tools - channels'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'The value is invalid'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Værdien er ugyldig'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_channels_guid {
+  key = 'ADMINISTRATION_TOOLS_CHANNELS_GUID'
+  group = 'administration-tools - channels'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'GUID'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'GUID'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label administration_tools_channels_edit_cancel_btn {
   key = 'ADMINISTRATION_TOOLS_CHANNELS_EDIT_CANCEL_BTN'
   group = 'administration-tools - channels'
@@ -8874,6 +8938,38 @@ resource configservice_label administration_tools_system_metadata_field_required
     },
     {
       default_translation = 'Felt påkravet'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_metadata_field_no_unique {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_METADATA_FIELD_NO_UNIQUE'
+  group = 'administration-tools - system - metadata'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'A unique value is required'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'En unik værdi er påkrævet'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_metadata_field_not_valid {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_METADATA_FIELD_NOT_VALID'
+  group = 'administration-tools - system - metadata'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'The value is invalid'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Værdien er ugyldig'
       language_id = data.language.danish.id
     }
   ]
@@ -10011,6 +10107,70 @@ resource configservice_label administration_tools_system_formats_actions {
     },
     {
       default_translation = 'Handlinger'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_formats_field_required {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_FORMATS_FIELD_REQUIRED'
+  group = 'administration-tools - system - formats'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Field is required'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Feltet er påkrævet'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_formats_field_no_unique {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_FORMATS_FIELD_NO_UNIQUE'
+  group = 'administration-tools - system - formats'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'A unique value is required'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'En unik værdi er påkrævet'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_formats_field_not_valid {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_FORMATS_FIELD_NOT_VALID'
+  group = 'administration-tools - system - formats'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'The value is invalid'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Værdien er ugyldig'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_formats_guid {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_FORMATS_GUID'
+  group = 'administration-tools - system - formats'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'GUID'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'GUID'
       language_id = data.language.danish.id
     }
   ]
