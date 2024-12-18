@@ -36,11 +36,11 @@ resource configservice_label asset_preview_comments_tab_label {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Comments and annotations'
+      default_translation = 'Comments'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Kommentarer og annotationer'
+      default_translation = 'Kommentarer'
       language_id = data.language.danish.id
     }
   ]
