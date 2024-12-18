@@ -1028,11 +1028,11 @@ resource configservice_label asset_list_more_popup_remove_asset_relation_tooltip
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Delete asset relation'
+      default_translation = 'Remove relation'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Slet asset-relation'
+      default_translation = 'Fjern relation'
       language_id = data.language.danish.id
     }
   ]
@@ -1044,27 +1044,27 @@ resource configservice_label asset_list_remove_asset_relation_title {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Delete asset relation'
+      default_translation = 'Remove relation'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Slet asset-relation'
+      default_translation = 'Fjern relation'
       language_id = data.language.danish.id
     }
   ]
 }
 
-resource configservice_label ASSET_LIST_REMOVE_ASSET_RELATION_BODY {
+resource configservice_label asset_list_remove_asset_relation_body {
   key = 'ASSET_LIST_REMOVE_ASSET_RELATION_BODY'
   group = 'Asset List'
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Are you sure you want to delete this asset relation?'
+      default_translation = 'Are you sure you want to remove this relation?'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Er du sikker på, at du vil slette denne asset-relation?'
+      default_translation = 'Er du sikker på, at du vil slette denne relation?'
       language_id = data.language.danish.id
     }
   ]
@@ -1086,17 +1086,17 @@ resource configservice_label asset_list_remove_asset_relation_cancel {
   ]
 }
 
-resource configservice_label ASSET_LIST_REMOVE_ASSET_RELATION_CONFIRM {
+resource configservice_label asset_list_remove_asset_relation_confirm {
   key = 'ASSET_LIST_REMOVE_ASSET_RELATION_CONFIRM'
   group = 'Asset List'
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Confirm'
+      default_translation = 'Remove'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Bekræft'
+      default_translation = 'Fjern'
       language_id = data.language.danish.id
     }
   ]
