@@ -1198,3 +1198,242 @@ resource configservice_label preview_delete_comment_dialog_ok {
   ]
 }
 
+resource configservice_label related_assets_add_asset_relations {
+  key = 'RELATED_ASSETS_ADD_ASSET_RELATIONS'
+  group = 'Preview Asset - Related Assets'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Add relations'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Tilføj relationer'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label related_assets_add_asset_relation_popup_title {
+  key = 'RELATED_ASSETS_ADD_ASSET_RELATION_POPUP_TITLE'
+  group = 'Preview Asset - Related Assets'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Add relations'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Tilføj relationer'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label related_assets_add_asset_relation_popup_relation_type {
+  key = 'RELATED_ASSETS_ADD_ASSET_RELATION_POPUP_RELATION_TYPE'
+  group = 'Preview Asset - Related Assets'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Select relation type'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Vælg relationstype'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label related_assets_add_asset_relation_popup_primary_to_secondary {
+  key = 'RELATED_ASSETS_ADD_ASSET_RELATION_POPUP_PRIMARY_TO_SECONDARY'
+  group = 'Preview Asset - Related Assets'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Primary to secondary'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Primær til sekundær'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label related_assets_add_asset_relation_popup_secondary_to_primary {
+  key = 'RELATED_ASSETS_ADD_ASSET_RELATION_POPUP_SECONDARY_TO_PRIMARY'
+  group = 'Preview Asset - Related Assets'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Secondary to primary'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Sekundær til primær'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label related_assets_add_asset_relation_popup_total_assets {
+  key = 'RELATED_ASSETS_ADD_ASSET_RELATION_POPUP_TOTAL_ASSETS'
+  group = 'Preview Asset - Related Assets'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Assets'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Assets'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label related_assets_add_asset_relation_popup_search_placeholder {
+  key = 'RELATED_ASSETS_ADD_ASSET_RELATION_POPUP_SEARCH_PLACEHOLDER'
+  group = 'Preview Asset - Related Assets'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Search'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Søg'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label related_assets_add_asset_relation_popup_sort_criteria_direction {
+  key = 'RELATED_ASSETS_ADD_ASSET_RELATION_POPUP_SORT_CRITERIA_DIRECTION'
+  group = 'Preview Asset - Related Assets'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = '{option, select, alphabeticAsc {A-Z} alphabeticDesc {Z-A} assetidAsc {Oldest} assetidDesc {Latest} customNone {Custom order}}'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = '{option, select, alphabeticAsc {A-Å} alphabeticDesc {Å-A} assetidAsc {Ældste} assetidDesc {Seneste} customNone {Brugerdefineret rækkefølge}}'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label related_assets_add_asset_relation_popup_has_excluded_assets {
+  key = 'RELATED_ASSETS_ADD_ASSET_RELATION_POPUP_HAS_EXCLUDED_ASSETS'
+  group = 'Preview Asset - Related Assets'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Some assets not available for selection because they are already used in some relations'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Nogle assets er ikke tilgængelige for valg, fordi de allerede er brugt i nogle relationer'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label related_assets_add_asset_relation_popup_no_assets_found {
+  key = 'RELATED_ASSETS_ADD_ASSET_RELATION_POPUP_NO_ASSETS_FOUND'
+  group = 'Preview Asset - Related Assets'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'No assets found'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Ingen assets fundet'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label add_asset_relation_popup_cancel {
+  key = 'ADD_ASSET_RELATION_POPUP_CANCEL'
+  group = 'Preview Asset - Related Assets'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Cancel'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Annullér'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label ADD_ASSET_RELATION_POPUP_APPLY {
+  key = 'ADD_ASSET_RELATION_POPUP_APPLY'
+  group = 'Preview Asset - Related Assets'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Apply'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Anvend'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label related_assets_add_asset_relation_success_body {
+  key = 'RELATED_ASSETS_ADD_ASSET_RELATION_SUCCESS_BODY'
+  group = 'Preview Asset - Related Assets'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Asset relations successfully created'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Asset-relationer er oprettet'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label RELATED_ASSETS_ADD_ASSET_RELATION_ERROR_BODY {
+  key = 'RELATED_ASSETS_ADD_ASSET_RELATION_ERROR_BODY'
+  group = 'Preview Asset - Related Assets'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Creation asset relation failed'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Oprettelse af asset-relation mislykkedes'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label related_assets_add_asset_relation_error_title {
+  key = 'RELATED_ASSETS_ADD_ASSET_RELATION_ERROR_TITLE'
+  group = 'Preview Asset - Related Assets'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Error'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Fejl'
+      language_id = data.language.danish.id
+    }
+  ]
+}
