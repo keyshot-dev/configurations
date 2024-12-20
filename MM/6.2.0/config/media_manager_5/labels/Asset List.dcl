@@ -1102,6 +1102,22 @@ resource configservice_label asset_list_remove_asset_relation_confirm {
   ]
 }
 
+resource configservice_label asset_list_remove_asset_relation_success_body {
+  key = 'ASSET_LIST_REMOVE_ASSET_RELATION_SUCCESS_BODY'
+  group = 'Asset List'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'The relation successfully deleted'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Relationen blev slettet'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label asset_list_filter_menu_facet_render_type_facetrendertype_is_currently_not_supported {
   key = 'ASSET_LIST_FILTER_MENU_FACET_RENDER_TYPE_FACETRENDERTYPE_IS_CURRENTLY_NOT_SUPPORTED'
   group = 'Asset List'
