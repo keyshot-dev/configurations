@@ -10192,22 +10192,6 @@ resource configservice_label administration_tools_system_formats_delete {
   ]
 }
 
-resource configservice_label administration_tools_system_formats_field_required {
-  key = 'ADMINISTRATION_TOOLS_SYSTEM_FORMATS_FIELD_REQUIRED'
-  group = 'administration-tools - system - formats'
-  product_id = resource.configservice_product.media_manager_5.id
-  default_label_values = [
-    {
-      default_translation = 'Field is required'
-      language_id = data.language.english.id
-    },
-    {
-      default_translation = 'Felt påkravet'
-      language_id = data.language.danish.id
-    }
-  ]
-}
-
 resource configservice_label administration_tools_system_formats_description {
   key = 'ADMINISTRATION_TOOLS_SYSTEM_FORMATS_DESCRIPTION'
   group = 'administration-tools - system - formats'
