@@ -1374,7 +1374,7 @@ resource configservice_label add_asset_relation_popup_cancel {
   ]
 }
 
-resource configservice_label ADD_ASSET_RELATION_POPUP_APPLY {
+resource configservice_label add_asset_relation_popup_apply {
   key = 'ADD_ASSET_RELATION_POPUP_APPLY'
   group = 'Preview Asset - Related Assets'
   product_id = resource.configservice_product.media_manager_5.id
@@ -1406,7 +1406,7 @@ resource configservice_label related_assets_add_asset_relation_success_body {
   ]
 }
 
-resource configservice_label RELATED_ASSETS_ADD_ASSET_RELATION_ERROR_BODY {
+resource configservice_label related_assets_add_asset_relation_error_body {
   key = 'RELATED_ASSETS_ADD_ASSET_RELATION_ERROR_BODY'
   group = 'Preview Asset - Related Assets'
   product_id = resource.configservice_product.media_manager_5.id
