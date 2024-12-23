@@ -1108,11 +1108,11 @@ resource configservice_label asset_list_remove_asset_relation_success_body {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'The relation successfully deleted'
+      default_translation = 'Relation removed'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Relationen blev slettet'
+      default_translation = 'Relationen blev fjernet'
       language_id = data.language.danish.id
     }
   ]
