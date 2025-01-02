@@ -2118,11 +2118,11 @@ resource configservice_label asset_list_facet_assettype {
   default_label_values = [
     {
       language_id = data.language.english.id
-      default_translation = '{value, select, KeyShotEnvironment {KeyShot Environment} KeyShotMaterial {KeyShot Material} KeyShotScene {KeyShot Scene} other {{{value}}}}'
+      default_translation = '{value, select, KeyShotEnvironment {KeyShot Environment} KeyShotMaterial {KeyShot Material} KeyShotScene {KeyShot Scene} Archive {Archive} other {{{value}}}}'
     },
     {
       language_id = data.language.danish.id
-      default_translation = '{value, select, KeyShotEnvironment {KeyShot Miljø} KeyShotMaterial {KeyShot Materiale} KeyShotScene {KeyShot Scene} other {{{value}}}}'
+      default_translation = '{value, select, KeyShotEnvironment {KeyShot Miljø} KeyShotMaterial {KeyShot Materiale} KeyShotScene {KeyShot Scene} Archive {Archive} other {{{value}}}}'
     }
   ]
 }
