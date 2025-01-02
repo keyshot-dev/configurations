@@ -2122,7 +2122,7 @@ resource configservice_label asset_list_facet_assettype {
     },
     {
       language_id = data.language.danish.id
-      default_translation = '{value, select, KeyShotEnvironment {KeyShot Miljø} KeyShotMaterial {KeyShot Materiale} KeyShotScene {KeyShot Scene} Archive {Archive} other {{{value}}}}'
+      default_translation = '{value, select, KeyShotEnvironment {KeyShot Miljø} KeyShotMaterial {KeyShot Materiale} KeyShotScene {KeyShot Scene} Archive {Arkiv} other {{{value}}}}'
     }
   ]
 }
