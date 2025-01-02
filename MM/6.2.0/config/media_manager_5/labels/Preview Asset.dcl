@@ -1460,7 +1460,6 @@ resource configservice_label related_assets_confirm_remove_asset_relations_dialo
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-    {
       default_translation = '{count, cardinalPlural, one {An asset relation cannot be removed} =0 {Remove asset relations} other {Some asset relations cannot be removed}}'
       language_id = data.language.english.id
     },
