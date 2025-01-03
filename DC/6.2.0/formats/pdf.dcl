@@ -12,8 +12,6 @@ resource format pdf {
         }, {
             asset_type = 'PDF'
         }, {
-            asset_type = 'InDesign'
-        }, {
             asset_type = 'Illustrator'
         }, {
             asset_type = 'ODT'
