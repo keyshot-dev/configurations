@@ -8750,6 +8750,22 @@ resource configservice_label administration_tools_system_nav_services {
   ]
 }
 
+resource configservice_label administration_tools_system_nav_similar_search {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_NAV_SIMILAR_SEARCH'
+  group = 'administration-tools - system'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Similar search'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Lignende søgning'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label administration_tools_system_nav_youtube {
   key = 'ADMINISTRATION_TOOLS_SYSTEM_NAV_YOUTUBE'
   group = 'administration-tools - system'
@@ -13325,6 +13341,182 @@ resource configservice_label administration_tools_system_asset_relation_types_se
     },
     {
       default_translation = 'Mål → kilde label'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_similar_search_section_header {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_SIMILAR_SEARCH_SECTION_HEADER'
+  group = 'administration-tools - system - similar-search'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Similar search'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Lignende søgning'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_similar_search_section_image_vector_all_title {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_SIMILAR_SEARCH_SECTION_IMAGE_VECTOR_ALL_TITLE'
+  group = 'administration-tools - system - similar-search'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Image vector indexing for all'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Billedvektorindeksering for alle'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_similar_search_section_image_vector_all_label {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_SIMILAR_SEARCH_SECTION_IMAGE_VECTOR_ALL_LABEL'
+  group = 'administration-tools - system - similar-search'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Include already calculated'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Inkluder allerede beregnede'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_similar_search_section_image_vector_all_label_description {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_SIMILAR_SEARCH_SECTION_IMAGE_VECTOR_ALL_LABEL_DESCRIPTION'
+  group = 'administration-tools - system - similar-search'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'If enabled, this will calculate all image vectors including the already calculated image vectors'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Hvis aktiveret, vil dette beregne alle billedvektorer, inklusive de allerede beregnede billedvektorer'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_similar_search_section_image_vector_specific_ids_title {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_SIMILAR_SEARCH_SECTION_IMAGE_VECTOR_SPECIFIC_IDS_TITLE'
+  group = 'administration-tools - system - similar-search'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Image vector indexing for specific assetIds'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Billedvektorindeksering for specifikke assetIds'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_similar_search_section_image_vector_specific_ids_label {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_SIMILAR_SEARCH_SECTION_IMAGE_VECTOR_SPECIFIC_IDS_LABEL'
+  group = 'administration-tools - system - similar-search'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'AssetIds'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'AssetIds'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_similar_search_section_image_vector_specific_ids_description {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_SIMILAR_SEARCH_SECTION_IMAGE_VECTOR_SPECIFIC_IDS_DESCRIPTION'
+  group = 'administration-tools - system - similar-search'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Separate the assetIds with commas'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Separer assetIds med kommaer'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_similar_search_section_button {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_SIMILAR_SEARCH_SECTION_BUTTON'
+  group = 'administration-tools - system - similar-search'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = '{isProcessing, select, true {Calculating...} false {Calculate}}'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = '{isProcessing, select, true {Beregner...} false {Beregn}}'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_similar_search_section_compact_notification {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_SIMILAR_SEARCH_SECTION_COMPACT_NOTIFICATION'
+  group = 'administration-tools - system - similar-search'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Image vectors have been calculated'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Billedvektorer er blevet beregnet'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_similar_search_section_error_notification_title {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_SIMILAR_SEARCH_SECTION_ERROR_NOTIFICATION_TITLE'
+  group = 'administration-tools - system - similar-search'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Similar Search'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Lignende søgning'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_similar_search_section_error_notification_body {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_SIMILAR_SEARCH_SECTION_ERROR_NOTIFICATION_BODY'
+  group = 'administration-tools - system - similar-search'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Failed to calculate image vectors'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Kunne ikke beregne billedvektorer'
       language_id = data.language.danish.id
     }
   ]
