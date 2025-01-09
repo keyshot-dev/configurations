@@ -2854,11 +2854,11 @@ resource configservice_label administration_tools_dashboard_block_download_table
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Download CSV'
+      default_translation = 'Download as CSV file'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Download CSV'
+      default_translation = 'Download som CSV-fil'
       language_id = data.language.danish.id
     }
   ]
