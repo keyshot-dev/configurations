@@ -2832,6 +2832,38 @@ resource configservice_label administration_tools_dashboard_block_edit {
   ]
 }
 
+resource configservice_label administration_tools_dashboard_block_download_chart {
+  key = 'ADMINISTRATION_TOOLS_DASHBOARD_BLOCK_DOWNLOAD_CHART'
+  group = 'administration-tools - dashboard-block'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Download chart'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Download graf'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_dashboard_block_download_table {
+  key = 'ADMINISTRATION_TOOLS_DASHBOARD_BLOCK_DOWNLOAD_TABLE'
+  group = 'administration-tools - dashboard-block'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Download CSV'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Download CSV'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label administration_tools_analytics_block_builder_time_bucket_size {
   key = 'ADMINISTRATION_TOOLS_ANALYTICS_BLOCK_BUILDER_TIME_BUCKET_SIZE'
   group = 'administration-tools - analytics-block-builder'
