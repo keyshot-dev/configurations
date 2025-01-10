@@ -1262,22 +1262,6 @@ resource configservice_label related_assets_add_asset_relation_popup_primary_to_
   ]
 }
 
-resource configservice_label related_assets_add_asset_relation_popup_primary_to_secondary_details {
-  key = 'RELATED_ASSETS_ADD_ASSET_RELATION_POPUP_PRIMARY_TO_SECONDARY_DETAILS'
-  group = 'Preview Asset - Related Assets'
-  product_id = resource.configservice_product.media_manager_5.id
-  default_label_values = [
-    {
-      default_translation = '({{label}})'
-      language_id = data.language.english.id
-    },
-    {
-      default_translation = '({{label}})'
-      language_id = data.language.danish.id
-    }
-  ]
-}
-
 resource configservice_label related_assets_add_asset_relation_popup_secondary_to_primary {
   key = 'RELATED_ASSETS_ADD_ASSET_RELATION_POPUP_SECONDARY_TO_PRIMARY'
   group = 'Preview Asset - Related Assets'
@@ -1289,22 +1273,6 @@ resource configservice_label related_assets_add_asset_relation_popup_secondary_t
     },
     {
       default_translation = 'Sekundær til primær'
-      language_id = data.language.danish.id
-    }
-  ]
-}
-
-resource configservice_label related_assets_add_asset_relation_popup_secondary_to_primary_details {
-  key = 'RELATED_ASSETS_ADD_ASSET_RELATION_POPUP_SECONDARY_TO_PRIMARY_DETAILS'
-  group = 'Preview Asset - Related Assets'
-  product_id = resource.configservice_product.media_manager_5.id
-  default_label_values = [
-    {
-      default_translation = '({{label}})'
-      language_id = data.language.english.id
-    },
-    {
-      default_translation = '({{label}})'
       language_id = data.language.danish.id
     }
   ]
