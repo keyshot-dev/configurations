@@ -1246,38 +1246,6 @@ resource configservice_label related_assets_add_asset_relation_popup_relation_ty
   ]
 }
 
-resource configservice_label related_assets_add_asset_relation_popup_primary_to_secondary {
-  key = 'RELATED_ASSETS_ADD_ASSET_RELATION_POPUP_PRIMARY_TO_SECONDARY'
-  group = 'Preview Asset - Related Assets'
-  product_id = resource.configservice_product.media_manager_5.id
-  default_label_values = [
-    {
-      default_translation = 'Primary to secondary'
-      language_id = data.language.english.id
-    },
-    {
-      default_translation = 'Primær til sekundær'
-      language_id = data.language.danish.id
-    }
-  ]
-}
-
-resource configservice_label related_assets_add_asset_relation_popup_secondary_to_primary {
-  key = 'RELATED_ASSETS_ADD_ASSET_RELATION_POPUP_SECONDARY_TO_PRIMARY'
-  group = 'Preview Asset - Related Assets'
-  product_id = resource.configservice_product.media_manager_5.id
-  default_label_values = [
-    {
-      default_translation = 'Secondary to primary'
-      language_id = data.language.english.id
-    },
-    {
-      default_translation = 'Sekundær til primær'
-      language_id = data.language.danish.id
-    }
-  ]
-}
-
 resource configservice_label related_assets_add_asset_relation_popup_total_assets {
   key = 'RELATED_ASSETS_ADD_ASSET_RELATION_POPUP_TOTAL_ASSETS'
   group = 'Preview Asset - Related Assets'
@@ -1321,6 +1289,22 @@ resource configservice_label related_assets_add_asset_relation_popup_sort_criter
     },
     {
       default_translation = '{option, select, alphabeticAsc {A-Å} alphabeticDesc {Å-A} assetidAsc {Ældste} assetidDesc {Seneste} customNone {Brugerdefineret rækkefølge}}'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label related_assets_add_asset_relation_popup_not_available_for_selection {
+  key = 'RELATED_ASSETS_ADD_ASSET_RELATION_POPUP_NOT_AVAILABLE_FOR_SELECTION'
+  group = 'Preview Asset - Related Assets'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Not available for selection'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Ikke tilgængelig for valg'
       language_id = data.language.danish.id
     }
   ]
