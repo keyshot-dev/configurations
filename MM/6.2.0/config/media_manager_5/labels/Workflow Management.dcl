@@ -2879,7 +2879,7 @@ resource configservice_label workflow_editor_workflow_asset_search_request_input
 }
 
 resource configservice_label workflow_editor_workflow_asset_search_request_input_dialog_apply {
-  key = ''
+  key = 'WORKFLOW_EDITOR_WORKFLOW_ASSET_SEARCH_REQUEST_INPUT_DIALOG_APPLY'
   group = 'Workflow Management'
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
