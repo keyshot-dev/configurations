@@ -2879,7 +2879,7 @@ resource configservice_label workflow_editor_workflow_asset_search_request_input
 }
 
 resource configservice_label workflow_editor_workflow_asset_search_request_input_dialog_apply {
-  key = 'WORKFLOW_EDITOR_WORKFLOW_ASSET_SEARCH_REQUEST_INPUT_DIALOG_APPLY'
+  key = ''
   group = 'Workflow Management'
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
@@ -2889,6 +2889,22 @@ resource configservice_label workflow_editor_workflow_asset_search_request_input
     },
     {
       default_translation = 'Anvend'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label workflow_editor_workflow_asset_search_request_input_dialog_test_search {
+  key = 'WORKFLOW_EDITOR_WORKFLOW_ASSET_SEARCH_REQUEST_INPUT_DIALOG_TEST_SEARCH'
+  group = 'Workflow Management'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Test search'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Test søgning'
       language_id = data.language.danish.id
     }
   ]
