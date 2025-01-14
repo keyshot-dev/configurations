@@ -1,4 +1,4 @@
-resource configservice_default_search_config default_search {
+resource configservice_string_config_field default_search {
     default_value = '{}'
     product_id = resource.configservice_product.media_manager_5.id
     group = 'default'
@@ -7,5 +7,5 @@ resource configservice_default_search_config default_search {
     title = 'Default Search'
     description = 'If configured, the search will be applied transparently in the background on the asset list'
     language_versioned = false
-    type = 'DefaultSearchConfig'
+    type = 'String'
 }
