@@ -1,5 +1,8 @@
 resource configservice_default_search_config_field default_search {
-    default_value = {}
+    default_value {
+        search_request {
+        }
+    }
     product_id = resource.configservice_product.media_manager_5.id
     group = 'default'
     hidden = true
