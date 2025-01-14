@@ -3,6 +3,8 @@ resource asset_relation_type replaced_with {
     name = 'Replacement'
     description = 'The secondary asset is an older version of the primary asset, usually as a result of a replacement.'
     multiplicity = 'OneToMany'
+	show_in_list_when_primary = true
+	show_in_list_when_secondary = true
     channel_publishing_behavior = {
         enable_behavior = true
         block_publishing = true
