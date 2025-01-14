@@ -2910,6 +2910,22 @@ resource configservice_label workflow_editor_workflow_asset_search_request_input
   ]
 }
 
+resource configservice_label workflow_editor_workflow_asset_search_request_input_dialog_test_search_tooltip
+  key = 'WORKFLOW_EDITOR_WORKFLOW_ASSET_SEARCH_REQUEST_INPUT_DIALOG_TEST_SEARCH_TOOLTIP'
+  group = 'Workflow Management'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Open the search in a new window with your current values applied'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Åbn søgningen i et nyt vindue med de aktuelle værdier anvendt'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label workflow_editor_workflow_asset_search_request_input_dialog_cancel {
   key = 'WORKFLOW_EDITOR_WORKFLOW_ASSET_SEARCH_REQUEST_INPUT_DIALOG_CANCEL'
   group = 'Workflow Management'
