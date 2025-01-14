@@ -1444,7 +1444,7 @@ resource configservice_label related_assets_confirm_remove_asset_relations_dialo
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = '{count, cardinalPlural, one {An relation cannot be removed} =0 {Remove relations} other {Some relations cannot be removed}}'
+      default_translation = '{count, cardinalPlural, one {A relation cannot be removed} =0 {Remove relations} other {Some relations cannot be removed}}'
       language_id = data.language.english.id
     },
     {
@@ -1460,11 +1460,11 @@ resource configservice_label related_assets_confirm_remove_asset_relations_dialo
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = '{{countLockedAssetRelations}} out of the {{countTotalAssetRelations}} selected relations cannot be removed.'
+      default_translation = '{{countLockedAssetRelations}} out of {{countTotalAssetRelations}} selected relations cannot be removed.'
       language_id = data.language.english.id
     },
     {
-      default_translation = '{{countLockedAssetRelations}} ud af de {{countTotalAssetRelations}} valgte relationer kan ikke fjernes.'
+      default_translation = '{{countLockedAssetRelations}} ud af {{countTotalAssetRelations}} valgte relationer kan ikke fjernes.'
       language_id = data.language.danish.id
     }
   ]
@@ -1476,11 +1476,27 @@ resource configservice_label related_assets_confirm_remove_asset_relations_dialo
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Do you want to remove the relation on the remaining {count, cardinalPlural, one {relation} other {{{count}} relations}}?'
+      default_translation = 'Do you want to remove {count, cardinalPlural, one {relation} other {{{count}} relations}}?'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Ønsker du at fjerne relationen på de resterende {count, cardinalPlural, one {relation} other {{{count}} relationer}}'
+      default_translation = 'Ønsker du at fjerne {count, cardinalPlural, one {relation} other {{{count}} relationer}}?'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label related_assets_confirm_remove_asset_relations_dialog_do_you_want_to_remove_remaining_asset_relations {
+  key = 'RELATED_ASSETS_CONFIRM_REMOVE_ASSET_RELATIONS_DIALOG_DO_YOU_WANT_TO_REMOVE_REMAINING_ASSET_RELATIONS'
+  group = 'Preview Asset - Related Assets'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Do you want to remove the remaining {count, cardinalPlural, one {relation} other {{{count}} relations}}?'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Ønsker du at fjerne de resterende {count, cardinalPlural, one {relation} other {{{count}} relationer}}?'
       language_id = data.language.danish.id
     }
   ]
