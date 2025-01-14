@@ -1236,11 +1236,11 @@ resource configservice_label related_assets_add_asset_relation_popup_relation_ty
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Type'
+      default_translation = 'Relation type'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Type'
+      default_translation = 'Relationstype'
       language_id = data.language.danish.id
     }
   ]
@@ -1444,11 +1444,11 @@ resource configservice_label related_assets_confirm_remove_asset_relations_dialo
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = '{count, cardinalPlural, one {An asset relation cannot be removed} =0 {Remove asset relations} other {Some asset relations cannot be removed}}'
+      default_translation = '{count, cardinalPlural, one {An relation cannot be removed} =0 {Remove relations} other {Some relations cannot be removed}}'
       language_id = data.language.english.id
     },
     {
-      default_translation = '{count, cardinalPlural, one {En asset-relation kan ikke fjernes} =0 {Fjern asset-relationer} other {Nogle asset-relationer kan ikke fjernes}}'
+      default_translation = '{count, cardinalPlural, one {En relation kan ikke fjernes} =0 {Fjern relationer} other {Nogle relationer kan ikke fjernes}}'
       language_id = data.language.danish.id
     }
   ]
@@ -1460,11 +1460,11 @@ resource configservice_label related_assets_confirm_remove_asset_relations_dialo
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = '{{countLockedAssetRelations}} out of the {{countTotalAssetRelations}} selected asset relations cannot be removed.'
+      default_translation = '{{countLockedAssetRelations}} out of the {{countTotalAssetRelations}} selected relations cannot be removed.'
       language_id = data.language.english.id
     },
     {
-      default_translation = '{{countLockedAssetRelations}} ud af de {{countTotalAssetRelations}} valgte asset-relationer kan ikke fjernes.'
+      default_translation = '{{countLockedAssetRelations}} ud af de {{countTotalAssetRelations}} valgte relationer kan ikke fjernes.'
       language_id = data.language.danish.id
     }
   ]
@@ -1476,11 +1476,11 @@ resource configservice_label related_assets_confirm_remove_asset_relations_dialo
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Do you want to remove the asset relation on the remaining {count, cardinalPlural, one {asset relation} other {{{count}} asset relations}}?'
+      default_translation = 'Do you want to remove the relation on the remaining {count, cardinalPlural, one {relation} other {{{count}} relations}}?'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Ønsker du at fjerne asset-relationen på de resterende {count, cardinalPlural, one {asset-relation} other {{{count}} asset-relationer}}'
+      default_translation = 'Ønsker du at fjerne relationen på de resterende {count, cardinalPlural, one {relation} other {{{count}} relationer}}'
       language_id = data.language.danish.id
     }
   ]
@@ -1524,11 +1524,11 @@ resource configservice_label related_assets_remove_asset_relation_success_body {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Asset relation removed'
+      default_translation = 'Relation removed'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Asset-relation fjernet'
+      default_translation = 'Relation fjernet'
       language_id = data.language.danish.id
     }
   ]
