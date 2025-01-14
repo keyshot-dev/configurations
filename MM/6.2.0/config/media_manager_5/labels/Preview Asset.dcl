@@ -1204,11 +1204,11 @@ resource configservice_label related_assets_add_asset_relations {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Add relations'
+      default_translation = 'Add'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Tilføj relationer'
+      default_translation = 'Tilføj'
       language_id = data.language.danish.id
     }
   ]
@@ -1220,11 +1220,11 @@ resource configservice_label related_assets_add_asset_relation_popup_title {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Add relations'
+      default_translation = 'Add relation'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Tilføj relationer'
+      default_translation = 'Tilføj relation'
       language_id = data.language.danish.id
     }
   ]
@@ -1236,11 +1236,11 @@ resource configservice_label related_assets_add_asset_relation_popup_relation_ty
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Select relation type'
+      default_translation = 'Type'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Vælg relationstype'
+      default_translation = 'Type'
       language_id = data.language.danish.id
     }
   ]
@@ -1316,11 +1316,11 @@ resource configservice_label related_assets_add_asset_relation_popup_has_exclude
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Some assets not available for selection because they are already used in some relations'
+      default_translation = 'Some assets cannot be selected as they are already in use in this or another relation.'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Nogle assets er ikke tilgængelige for valg, fordi de allerede er brugt i nogle relationer'
+      default_translation = 'Nogle assets kan ikke vælges, da de allerede er i brug i denne eller en anden relation.'
       language_id = data.language.danish.id
     }
   ]
@@ -1364,11 +1364,11 @@ resource configservice_label add_asset_relation_popup_apply {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Apply'
+      default_translation = 'Add'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Anvend'
+      default_translation = 'Tilføj'
       language_id = data.language.danish.id
     }
   ]
@@ -1380,11 +1380,11 @@ resource configservice_label related_assets_add_asset_relation_success_body {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Asset relations successfully created'
+      default_translation = 'Relation added'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Asset-relationer er oprettet'
+      default_translation = 'Relation tilføjet'
       language_id = data.language.danish.id
     }
   ]
@@ -1396,11 +1396,11 @@ resource configservice_label related_assets_add_asset_relation_error_body {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Creation asset relation failed'
+      default_translation = 'Relation has not been added'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Oprettelse af asset-relation mislykkedes'
+      default_translation = 'Relationen er ikke blevet tilføjet'
       language_id = data.language.danish.id
     }
   ]
@@ -1524,11 +1524,11 @@ resource configservice_label related_assets_remove_asset_relation_success_body {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Asset relations successfully removed'
+      default_translation = 'Asset relation removed'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Asset-relationer er fjernet'
+      default_translation = 'Asset-relation fjernet'
       language_id = data.language.danish.id
     }
   ]
@@ -1540,7 +1540,7 @@ resource configservice_label related_assets_remove_asset_relation_error_body {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Remove asset relation failed'
+      default_translation = 'Removal of asset relation failed'
       language_id = data.language.english.id
     },
     {
