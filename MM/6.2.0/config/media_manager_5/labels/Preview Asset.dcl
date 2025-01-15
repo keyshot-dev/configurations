@@ -1304,7 +1304,7 @@ resource configservice_label related_assets_add_asset_relation_popup_not_availab
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Ikke tilgængelig for valg'
+      default_translation = 'Kan ikke vælges'
       language_id = data.language.danish.id
     }
   ]
@@ -1496,7 +1496,7 @@ resource configservice_label related_assets_confirm_remove_asset_relations_dialo
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Ønsker du at fjerne de resterende {count, cardinalPlural, one {relation} other {{{count}} relationer}}?'
+      default_translation = 'Ønsker du at fjerne {count, cardinalPlural, one {den resterende relation} other {{{count}} de resterende relationer}}?'
       language_id = data.language.danish.id
     }
   ]
@@ -1556,11 +1556,11 @@ resource configservice_label related_assets_remove_asset_relation_error_body {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Removal of asset relation failed'
+      default_translation = 'Removal of relation failed'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Fjernelse af asset-relation mislykkedes'
+      default_translation = 'Fjernelse af relation mislykkedes'
       language_id = data.language.danish.id
     }
   ]
