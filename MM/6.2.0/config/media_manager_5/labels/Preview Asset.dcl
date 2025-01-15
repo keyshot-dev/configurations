@@ -1198,3 +1198,386 @@ resource configservice_label preview_delete_comment_dialog_ok {
   ]
 }
 
+resource configservice_label related_assets_add_asset_relations {
+  key = 'RELATED_ASSETS_ADD_ASSET_RELATIONS'
+  group = 'Preview Asset - Related Assets'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Add'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Tilføj'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label related_assets_add_asset_relation_popup_title {
+  key = 'RELATED_ASSETS_ADD_ASSET_RELATION_POPUP_TITLE'
+  group = 'Preview Asset - Related Assets'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Add relation'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Tilføj relation'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label related_assets_add_asset_relation_popup_relation_type {
+  key = 'RELATED_ASSETS_ADD_ASSET_RELATION_POPUP_RELATION_TYPE'
+  group = 'Preview Asset - Related Assets'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Relation type'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Relationstype'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label related_assets_add_asset_relation_popup_total_assets {
+  key = 'RELATED_ASSETS_ADD_ASSET_RELATION_POPUP_TOTAL_ASSETS'
+  group = 'Preview Asset - Related Assets'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Assets'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Assets'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label related_assets_add_asset_relation_popup_search_placeholder {
+  key = 'RELATED_ASSETS_ADD_ASSET_RELATION_POPUP_SEARCH_PLACEHOLDER'
+  group = 'Preview Asset - Related Assets'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Search'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Søg'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label related_assets_add_asset_relation_popup_sort_criteria_direction {
+  key = 'RELATED_ASSETS_ADD_ASSET_RELATION_POPUP_SORT_CRITERIA_DIRECTION'
+  group = 'Preview Asset - Related Assets'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = '{option, select, alphabeticAsc {A-Z} alphabeticDesc {Z-A} assetidAsc {Oldest} assetidDesc {Latest} customNone {Custom order}}'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = '{option, select, alphabeticAsc {A-Å} alphabeticDesc {Å-A} assetidAsc {Ældste} assetidDesc {Seneste} customNone {Brugerdefineret rækkefølge}}'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label related_assets_add_asset_relation_popup_not_available_for_selection {
+  key = 'RELATED_ASSETS_ADD_ASSET_RELATION_POPUP_NOT_AVAILABLE_FOR_SELECTION'
+  group = 'Preview Asset - Related Assets'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Not available for selection'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Kan ikke vælges'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label related_assets_add_asset_relation_popup_has_excluded_assets {
+  key = 'RELATED_ASSETS_ADD_ASSET_RELATION_POPUP_HAS_EXCLUDED_ASSETS'
+  group = 'Preview Asset - Related Assets'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Some assets cannot be selected as they are already in use in this or another relation.'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Nogle assets kan ikke vælges, da de allerede er i brug i denne eller en anden relation.'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label related_assets_add_asset_relation_popup_no_assets_found {
+  key = 'RELATED_ASSETS_ADD_ASSET_RELATION_POPUP_NO_ASSETS_FOUND'
+  group = 'Preview Asset - Related Assets'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'No assets found'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Ingen assets fundet'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label add_asset_relation_popup_cancel {
+  key = 'ADD_ASSET_RELATION_POPUP_CANCEL'
+  group = 'Preview Asset - Related Assets'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Cancel'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Annullér'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label add_asset_relation_popup_apply {
+  key = 'ADD_ASSET_RELATION_POPUP_APPLY'
+  group = 'Preview Asset - Related Assets'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Add'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Tilføj'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label related_assets_add_asset_relation_success_body {
+  key = 'RELATED_ASSETS_ADD_ASSET_RELATION_SUCCESS_BODY'
+  group = 'Preview Asset - Related Assets'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Relation added'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Relation tilføjet'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label related_assets_add_asset_relation_error_body {
+  key = 'RELATED_ASSETS_ADD_ASSET_RELATION_ERROR_BODY'
+  group = 'Preview Asset - Related Assets'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Relation has not been added'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Relationen er ikke blevet tilføjet'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label related_assets_add_asset_relation_error_title {
+  key = 'RELATED_ASSETS_ADD_ASSET_RELATION_ERROR_TITLE'
+  group = 'Preview Asset - Related Assets'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Error'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Fejl'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label related_assets_remove_asset_relations {
+  key = 'RELATED_ASSETS_REMOVE_ASSET_RELATIONS'
+  group = 'Preview Asset - Related Assets'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Remove ({{count}})'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Fjern ({{count}})'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label related_assets_confirm_remove_asset_relations_dialog_title {
+  key = 'RELATED_ASSETS_CONFIRM_REMOVE_ASSET_RELATIONS_DIALOG_TITLE'
+  group = 'Preview Asset - Related Assets'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = '{count, cardinalPlural, one {A relation cannot be removed} =0 {Remove relation} other {Some relations cannot be removed}}'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = '{count, cardinalPlural, one {En relation kan ikke fjernes} =0 {Fjern relation} other {Nogle relationer kan ikke fjernes}}'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label related_assets_confirm_remove_asset_relations_dialog_x_of_y_asset_relations_are_locked {
+  key = 'RELATED_ASSETS_CONFIRM_REMOVE_ASSET_RELATIONS_DIALOG_X_OF_Y_ASSET_RELATIONS_ARE_LOCKED'
+  group = 'Preview Asset - Related Assets'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = '{{countLockedAssetRelations}} out of {{countTotalAssetRelations}} selected relations cannot be removed.'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = '{{countLockedAssetRelations}} ud af {{countTotalAssetRelations}} valgte relationer kan ikke fjernes.'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label related_assets_confirm_remove_asset_relations_dialog_do_you_want_to_remove_asset_relations {
+  key = 'RELATED_ASSETS_CONFIRM_REMOVE_ASSET_RELATIONS_DIALOG_DO_YOU_WANT_TO_REMOVE_ASSET_RELATIONS'
+  group = 'Preview Asset - Related Assets'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Do you want to remove {count, cardinalPlural, one {this relation} other {{{count}} these relations}}?'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Ønsker du at fjerne {count, cardinalPlural, one {denne relation} other {{{count}} disse relationer}}?'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label related_assets_confirm_remove_asset_relations_dialog_do_you_want_to_remove_remaining_asset_relations {
+  key = 'RELATED_ASSETS_CONFIRM_REMOVE_ASSET_RELATIONS_DIALOG_DO_YOU_WANT_TO_REMOVE_REMAINING_ASSET_RELATIONS'
+  group = 'Preview Asset - Related Assets'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Do you want to remove the remaining {count, cardinalPlural, one {relation} other {{{count}} relations}}?'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Ønsker du at fjerne {count, cardinalPlural, one {den resterende relation} other {{{count}} de resterende relationer}}?'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label related_assets_confirm_remove_asset_relations_dialog_cancel {
+  key = 'RELATED_ASSETS_CONFIRM_REMOVE_ASSET_RELATIONS_DIALOG_CANCEL'
+  group = 'Preview Asset - Related Assets'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Cancel'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Annullér'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label related_assets_confirm_remove_asset_relations_dialog_continue {
+  key = 'RELATED_ASSETS_CONFIRM_REMOVE_ASSET_RELATIONS_DIALOG_CONTINUE'
+  group = 'Preview Asset - Related Assets'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Continue'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Fortsæt'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label related_assets_remove_asset_relation_success_body {
+  key = 'RELATED_ASSETS_REMOVE_ASSET_RELATION_SUCCESS_BODY'
+  group = 'Preview Asset - Related Assets'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Relation removed'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Relation fjernet'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label related_assets_remove_asset_relation_error_body {
+  key = 'RELATED_ASSETS_REMOVE_ASSET_RELATION_ERROR_BODY'
+  group = 'Preview Asset - Related Assets'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Removal of relation failed'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Fjernelse af relation mislykkedes'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label related_assets_remove_asset_relation_error_title {
+  key = 'RELATED_ASSETS_REMOVE_ASSET_RELATION_ERROR_TITLE'
+  group = 'Preview Asset - Related Assets'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Error'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Fejl'
+      language_id = data.language.danish.id
+    }
+  ]
+}
