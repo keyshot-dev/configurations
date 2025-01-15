@@ -184,7 +184,7 @@ resource configservice_label workflow_status_filter_title {
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Regel type'
+      default_translation = 'Regel-type'
       language_id = data.language.danish.id
     }
   ]
@@ -200,7 +200,7 @@ resource configservice_label workflow_status_filter_title {
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Metafields'
+      default_translation = 'Metadata-felter'
       language_id = data.language.danish.id
     }
   ]
