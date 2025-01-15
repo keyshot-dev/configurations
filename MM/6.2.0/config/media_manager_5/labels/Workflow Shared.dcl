@@ -158,7 +158,7 @@ resource configservice_label workflow_status_filter_title {
   ]
 }
 
-resource configservice_label workflow_status_filter_title {
+resource configservice_label workflow_tags_filter_title {
   key = 'WORKFLOW_TAGS_FILTER_TITLE'
   group = 'Workflow Shared'
   product_id = resource.configservice_product.media_manager_5.id
@@ -174,7 +174,7 @@ resource configservice_label workflow_status_filter_title {
   ]
 }
 
-resource configservice_label workflow_status_filter_title {
+resource configservice_label workflow_rule_type_filter_title {
   key = 'WORKFLOW_RULE_TYPE_FILTER_TITLE'
   group = 'Workflow Shared'
   product_id = resource.configservice_product.media_manager_5.id
@@ -190,7 +190,7 @@ resource configservice_label workflow_status_filter_title {
   ]
 }
 
-resource configservice_label workflow_status_filter_title {
+resource configservice_label workflow_meta_fields_filter_title {
   key = 'WORKFLOW_META_FIELDS_FILTER_TITLE'
   group = 'Workflow Shared'
   product_id = resource.configservice_product.media_manager_5.id
