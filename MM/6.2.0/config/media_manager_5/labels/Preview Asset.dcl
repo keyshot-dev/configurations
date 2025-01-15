@@ -1444,11 +1444,11 @@ resource configservice_label related_assets_confirm_remove_asset_relations_dialo
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = '{count, cardinalPlural, one {A relation cannot be removed} =0 {Remove relations} other {Some relations cannot be removed}}'
+      default_translation = '{count, cardinalPlural, one {A relation cannot be removed} =0 {Remove relation} other {Some relations cannot be removed}}'
       language_id = data.language.english.id
     },
     {
-      default_translation = '{count, cardinalPlural, one {En relation kan ikke fjernes} =0 {Fjern relationer} other {Nogle relationer kan ikke fjernes}}'
+      default_translation = '{count, cardinalPlural, one {En relation kan ikke fjernes} =0 {Fjern relation} other {Nogle relationer kan ikke fjernes}}'
       language_id = data.language.danish.id
     }
   ]
@@ -1476,11 +1476,11 @@ resource configservice_label related_assets_confirm_remove_asset_relations_dialo
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Do you want to remove {count, cardinalPlural, one {relation} other {{{count}} relations}}?'
+      default_translation = 'Do you want to remove {count, cardinalPlural, one {this relation} other {{{count}} these relations}}?'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Ønsker du at fjerne {count, cardinalPlural, one {relation} other {{{count}} relationer}}?'
+      default_translation = 'Ønsker du at fjerne {count, cardinalPlural, one {denne relation} other {{{count}} disse relationer}}?'
       language_id = data.language.danish.id
     }
   ]
