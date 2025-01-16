@@ -280,7 +280,7 @@ resource configservice_label youtube_client_info_client_secret_validation_failed
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Client-secret fra Google er påkrævet'
+      default_translation = 'Client secret fra Google er påkrævet'
       language_id = data.language.danish.id
     }
   ]
@@ -296,7 +296,7 @@ resource configservice_label youtube_client_info_default_privacy_status {
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Standard uploadtilgængelighed'
+      default_translation = 'Standard upload-tilgængelighed'
       language_id = data.language.danish.id
     }
   ]
@@ -312,7 +312,7 @@ resource configservice_label youtube_client_info_default_privacy_status_validati
       language_id = data.language.english.id
     },
     {
-      default_translation = 'En standard uploadtilgængelighed er påkrævet...'
+      default_translation = 'En standard uploadtil-gængelighed er påkrævet...'
       language_id = data.language.danish.id
     }
   ]
