@@ -8,7 +8,7 @@
       language_id = data.language.english.id
     },
     {
-      default_translation = 'ID'
+      default_translation = 'Id'
       language_id = data.language.danish.id
     }
   ]

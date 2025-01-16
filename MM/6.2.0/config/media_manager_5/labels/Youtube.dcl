@@ -244,11 +244,11 @@ resource configservice_label youtube_client_info_client_id_validation_failed_req
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Client id from Google is required'
+      default_translation = 'Client ID from Google is required'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Client id fra Google er påkrævet'
+      default_translation = 'Client ID fra Google påkrævet'
       language_id = data.language.danish.id
     }
   ]
@@ -280,7 +280,7 @@ resource configservice_label youtube_client_info_client_secret_validation_failed
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Client secret fra Google er påkrævet'
+      default_translation = 'Client-secret fra Google er påkrævet'
       language_id = data.language.danish.id
     }
   ]

@@ -40,7 +40,7 @@ resource configservice_label logs_logs_home_span_id {
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Span-ID'
+      default_translation = 'Span-Id'
       language_id = data.language.danish.id
     }
   ]
@@ -56,7 +56,7 @@ resource configservice_label logs_logs_home_request_id {
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Trace-ID'
+      default_translation = 'Trace-Id'
       language_id = data.language.danish.id
     }
   ]
@@ -280,7 +280,7 @@ resource configservice_label logs_freetext_facet_title_traceid {
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Trace-ID'
+      default_translation = 'Trace-Id'
       language_id = data.language.danish.id
     }
   ]
@@ -296,7 +296,7 @@ resource configservice_label logs_freetext_facet_title_spanid {
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Span-ID'
+      default_translation = 'Span-Id'
       language_id = data.language.danish.id
     }
   ]

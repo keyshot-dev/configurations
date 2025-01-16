@@ -180,11 +180,11 @@ resource configservice_label audit_trail_column_metadata_field_id {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Metadata Field Id'
+      default_translation = 'Metafield ID'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Metadatafelt Id'
+      default_translation = 'Metadatafelt-Id'
       language_id = data.language.danish.id
     }
   ]
@@ -196,11 +196,11 @@ resource configservice_label audit_trail_column_metadata_field_name {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Metadata Field Name'
+      default_translation = 'Metadata field name'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Metadatafelt Navn'
+      default_translation = 'Metadatafelt-navn'
       language_id = data.language.danish.id
     }
   ]
@@ -212,11 +212,11 @@ resource configservice_label audit_trail_column_metadata_field_type {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Metadata Field Type'
+      default_translation = 'Metadata field type'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Metadatafelt Type'
+      default_translation = 'Metadatafelt-type'
       language_id = data.language.danish.id
     }
   ]
@@ -228,11 +228,11 @@ resource configservice_label audit_trail_column_field_name {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Field Name'
+      default_translation = 'Field name'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Felt Navn'
+      default_translation = 'Felt-navn'
       language_id = data.language.danish.id
     }
   ]
@@ -244,11 +244,11 @@ resource configservice_label audit_trail_column_field_value {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Field Value(s)'
+      default_translation = 'Field value(s)'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Felt Værdier'
+      default_translation = 'Felt-værdier'
       language_id = data.language.danish.id
     }
   ]
@@ -260,11 +260,11 @@ resource configservice_label audit_trail_column_transition_name {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Transition Name'
+      default_translation = 'Transition name'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Transition navn'
+      default_translation = 'Transitions-navn'
       language_id = data.language.danish.id
     }
   ]
@@ -280,7 +280,7 @@ resource configservice_label audit_trail_column_from_stage {
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Fra state'
+      default_translation = 'Fra-fase'
       language_id = data.language.danish.id
     }
   ]
@@ -296,7 +296,7 @@ resource configservice_label audit_trail_column_to_stage {
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Til state'
+      default_translation = 'Til-fase'
       language_id = data.language.danish.id
     }
   ]
@@ -308,7 +308,7 @@ resource configservice_label audit_trail_column_new_value {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'New Value'
+      default_translation = 'New value'
       language_id = data.language.english.id
     },
     {
@@ -324,11 +324,11 @@ resource configservice_label audit_trail_column_file_name {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'File Name'
+      default_translation = 'File name'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Fil Navn'
+      default_translation = 'Filnavn'
       language_id = data.language.danish.id
     }
   ]
@@ -340,11 +340,11 @@ resource configservice_label audit_trail_column_file_guid {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'File Guid'
+      default_translation = 'File GUID'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Fil Guid'
+      default_translation = 'Fil-GUID'
       language_id = data.language.danish.id
     }
   ]
@@ -586,7 +586,7 @@ resource configservice_label audit_trail_security_category {
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Sikkerhedsindstillinger'
+      default_translation = 'Sikkerheds-indstillinger'
       language_id = data.language.danish.id
     }
   ]
@@ -602,7 +602,7 @@ resource configservice_label audit_trail_security_changed_summary {
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Assets sikkerhedsindstillinger opdateret'
+      default_translation = 'Assets sikkerheds-indstillinger opdateret'
       language_id = data.language.danish.id
     }
   ]
@@ -682,7 +682,7 @@ resource configservice_label audit_trail_asset_profile_published_summary {
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Asset profilen \'{{name}}\' er færdig'
+      default_translation = 'Asset-profilen \'{{name}}\' er færdig'
       language_id = data.language.danish.id
     }
   ]

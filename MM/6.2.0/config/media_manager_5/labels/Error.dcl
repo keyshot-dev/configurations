@@ -4,7 +4,7 @@
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Access Denied'
+      default_translation = 'Access denied'
       language_id = data.language.english.id
     },
     {
