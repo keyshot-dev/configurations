@@ -3,6 +3,8 @@ resource asset_relation_type environment__textures {
     guid = '75f737ae-1a2c-4dc5-83c6-8e70c2f139b7'
     description = ''
     multiplicity = 'OneToMany'
+	show_in_list_when_primary = true
+	show_in_list_when_secondary = true
     source_asset_categories = [{
             asset_category_id = resource.asset_category.environment.id
             recursive = false

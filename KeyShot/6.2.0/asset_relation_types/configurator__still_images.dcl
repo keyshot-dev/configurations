@@ -3,6 +3,8 @@ resource asset_relation_type configurator__still_images {
     guid = '3d76b51b-c8a1-4ec5-a567-fcebd063c0cc'
     description = ''
     multiplicity = 'OneToMany'
+	show_in_list_when_primary = true
+	show_in_list_when_secondary = true
     source_asset_categories = [{
             asset_category_id = resource.asset_category.configurator.id
             recursive = false

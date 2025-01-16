@@ -3,6 +3,8 @@ resource asset_relation_type models__backplates {
     guid = '635463d9-5418-439a-9b6b-58aa9853e144'
     description = ''
     multiplicity = 'ManyToMany'
+	show_in_list_when_primary = true
+	show_in_list_when_secondary = true
     source_asset_categories = [{
             asset_category_id = resource.asset_category.model.id
             recursive = false

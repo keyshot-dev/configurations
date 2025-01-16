@@ -3,6 +3,8 @@ resource asset_relation_type environments__backplates {
     guid = 'cb6409ba-66ad-449c-8278-e8339d6d75ee'
     description = ''
     multiplicity = 'ManyToMany'
+	show_in_list_when_primary = true
+	show_in_list_when_secondary = true
     source_asset_categories = [{
             asset_category_id = resource.asset_category.environment.id
             recursive = false

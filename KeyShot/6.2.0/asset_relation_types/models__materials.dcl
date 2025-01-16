@@ -3,6 +3,8 @@ resource asset_relation_type models__materials {
     guid = '4927cf8d-ae8c-4988-9caa-79566258f41b'
     description = ''
     multiplicity = 'ManyToMany'
+	show_in_list_when_primary = true
+	show_in_list_when_secondary = true
     source_asset_categories = [{
             asset_category_id = resource.asset_category.model.id
             recursive = false

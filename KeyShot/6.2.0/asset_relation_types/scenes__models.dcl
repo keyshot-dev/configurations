@@ -3,6 +3,8 @@ resource asset_relation_type scenes__models {
     guid = '7b8e7dd1-c501-426f-ac4f-278746ca320f'
     description = ''
     multiplicity = 'ManyToMany'
+	show_in_list_when_primary = true
+	show_in_list_when_secondary = true
     source_asset_categories = [{
             asset_category_id = resource.asset_category.scene.id
             recursive = false

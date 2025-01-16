@@ -3,6 +3,8 @@ resource asset_relation_type still_image__render_passes {
     guid = '6a6d8889-ab3a-489d-b4d4-6c5cdea50a2e'
     description = ''
     multiplicity = 'OneToMany'
+	show_in_list_when_primary = true
+	show_in_list_when_secondary = true
     source_asset_categories = [{
             asset_category_id = resource.asset_category.still_image.id
             recursive = false

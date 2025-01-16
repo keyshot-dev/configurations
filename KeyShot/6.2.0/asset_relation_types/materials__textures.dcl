@@ -3,6 +3,8 @@ resource asset_relation_type materials__textures {
     guid = 'f5cea732-44f9-4f10-ba9c-1e9814eb741a'
     description = ''
     multiplicity = 'ManyToMany'
+	show_in_list_when_primary = true
+	show_in_list_when_secondary = true
     source_asset_categories = [{
             asset_category_id = resource.asset_category.material.id
             recursive = false
