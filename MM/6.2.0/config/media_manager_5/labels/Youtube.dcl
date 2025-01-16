@@ -296,7 +296,7 @@ resource configservice_label youtube_client_info_default_privacy_status {
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Standard upload-tilgængelighed'
+      default_translation = 'Standard fortroligheds-status'
       language_id = data.language.danish.id
     }
   ]
@@ -312,7 +312,7 @@ resource configservice_label youtube_client_info_default_privacy_status_validati
       language_id = data.language.english.id
     },
     {
-      default_translation = 'En standard uploadtil-gængelighed er påkrævet...'
+      default_translation = 'En standard fortroligheds-status er påkrævet...'
       language_id = data.language.danish.id
     }
   ]
