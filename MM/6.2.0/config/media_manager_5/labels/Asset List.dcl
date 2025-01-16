@@ -68,7 +68,7 @@ resource configservice_label asset_list_save_search_button {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Save Search'
+      default_translation = 'Save search'
       language_id = data.language.english.id
     },
     {
@@ -1444,7 +1444,7 @@ resource configservice_label mm_asset_list_asset_list_comments_for_this_collecti
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Comments for this Collection'
+      default_translation = 'Comments for this collection'
       language_id = data.language.english.id
     },
     {

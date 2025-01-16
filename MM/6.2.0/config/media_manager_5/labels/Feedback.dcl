@@ -132,11 +132,11 @@ resource configservice_label software_feedback_button {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Give Feedback'
+      default_translation = 'Give feedback'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Giv Feedback'
+      default_translation = 'Giv feedback'
       language_id = data.language.danish.id
     }
   ]
