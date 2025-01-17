@@ -6860,4 +6860,98 @@ resource configservice_label administration_tools_sso_section_actions {
   ]
 }
 
+resource configservice_label settings_asset_search_customization_settings_default_search {
+  key = 'SETTINGS_ASSET_SEARCH_CUSTOMIZATION_SETTINGS_DEFAULT_SEARCH'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Default search'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Standardsøgning'
+      language_id = data.language.danish.id
+    }
+  ]
+}
 
+resource configservice_label settings_asset_search_customization_settings_cancel {
+  key = 'SETTINGS_ASSET_SEARCH_CUSTOMIZATION_SETTINGS_CANCEL'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Cancel'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Annullér'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_asset_search_customization_settings_apply {
+  key = 'SETTINGS_ASSET_SEARCH_CUSTOMIZATION_SETTINGS_APPLY'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Apply'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Udfør'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_asset_search_customization_settings_search_request {
+  key = 'SETTINGS_ASSET_SEARCH_CUSTOMIZATION_SETTINGS_SEARCH_REQUEST'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Search request'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Søgeanmodning'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_asset_search_customization_settings_not_configured {
+  key = 'SETTINGS_ASSET_SEARCH_CUSTOMIZATION_SETTINGS_NOT_CONFIGURED'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Not configured'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Ikke konfigureret'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_asset_search_customization_settings_configure_search {
+  key = 'SETTINGS_ASSET_SEARCH_CUSTOMIZATION_SETTINGS_CONFIGURE_SEARCH'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Configure search'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Konfigurer søgning'
+      language_id = data.language.danish.id
+    }
+  ]
+}
