@@ -376,7 +376,7 @@ resource configservice_label asset_preview_load_3d_model {
       language_id = data.language.english.id
     },
     {
-      default_translation = '{loading, select, true {3D preview} false {Indlæs 3D-preview}}'
+      default_translation = '{loading, select, true {3D-preview} false {Indlæs 3D-preview}}'
       language_id = data.language.danish.id
     }
   ]
