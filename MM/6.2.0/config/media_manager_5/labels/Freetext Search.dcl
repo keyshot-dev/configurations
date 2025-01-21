@@ -212,7 +212,7 @@ resource configservice_label advanced_search_number_operator {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = '{operator, select, equals {equals} greater {is greater than} less {is less than} between {is between} not {is not} empty {is empty} not_empty {has values}}'
+      default_translation = '{operator, select, equals {equals} greater {starting from} less {ending at} between {is between} not {is not} empty {is empty} not_empty {has values}}'
       language_id = data.language.english.id
     },
     {
