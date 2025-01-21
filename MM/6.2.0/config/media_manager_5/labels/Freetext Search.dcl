@@ -216,7 +216,7 @@ resource configservice_label advanced_search_number_operator {
       language_id = data.language.english.id
     },
     {
-      default_translation = '{operator, select, equals {er lig med} greater {er større end} less {er mindre end} between {er mellem} not {ikke er} empty {er tom} not_empty {har værdier}}'
+      default_translation = '{operator, select, equals {er lig med} greater {starter fra} less {slutter ved} between {er mellem} not {ikke er} empty {er tom} not_empty {har værdier}}'
       language_id = data.language.danish.id
     }
   ]
