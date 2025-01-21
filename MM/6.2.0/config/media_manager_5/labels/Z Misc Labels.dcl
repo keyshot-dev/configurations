@@ -2495,3 +2495,35 @@ resource configservice_label aria_label_full_view {
     }
   ]
 }
+
+resource configservice_label clipboard_button_action_copy {
+  key = 'CLIPBOARD_BUTTON_ACTION_COPY'
+  group = 'Z Misc Labels'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Copy to clipboard'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Kopiér til udklipsholder'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label clipboard_button_copied {
+  key = 'CLIPBOARD_BUTTON_COPIED'
+  group = 'Z Misc Labels'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Copied'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Kopieret'
+      language_id = data.language.danish.id
+    }
+  ]
+}
