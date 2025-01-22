@@ -28,5 +28,5 @@ resource configservice_combo_config_field main_menu_custom_link_icon {
     group = 'Main menu'
     key = 'customLinkIcon'
     title = 'Icon'
-    description = 'The icon will be shown in the top bar and mobile menu'
+    description = 'The icon will be shown in the top bar and the compact view\'s menu'
 }
