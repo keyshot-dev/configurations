@@ -1,4 +1,4 @@
-resource configservice_label asset_preview_load_3d_model {
+resource configservice_label three_dimensional_viewer_load_status {
   key = 'THREE_DIMENSIONAL_VIEWER_LOAD_STATUS'
   group = 'Three Dimensional Viewer'
   product_id = resource.configservice_product.media_manager_5.id
@@ -14,7 +14,7 @@ resource configservice_label asset_preview_load_3d_model {
   ]
 }
 
-resource configservice_label asset_preview_load_3d_model_error {
+resource configservice_label three_dimensional_viewer_load_error {
   key = 'THREE_DIMENSIONAL_VIEWER_LOAD_ERROR'
   group = 'Three Dimensional Viewer'
   product_id = resource.configservice_product.media_manager_5.id
@@ -30,7 +30,7 @@ resource configservice_label asset_preview_load_3d_model_error {
   ]
 }
 
-resource configservice_label asset_preview_load_3d_model_error {
+resource configservice_label three_dimensional_viewer_load_error_title {
   key = 'THREE_DIMENSIONAL_VIEWER_LOAD_ERROR_TITLE'
   group = 'Three Dimensional Viewer'
   product_id = resource.configservice_product.media_manager_5.id
@@ -46,7 +46,7 @@ resource configservice_label asset_preview_load_3d_model_error {
   ]
 }
 
-resource configservice_label asset_preview_load_3d_model_error {
+resource configservice_label three_dimensional_viewer_load_error_body {
   key = 'THREE_DIMENSIONAL_VIEWER_LOAD_ERROR_BODY'
   group = 'Three Dimensional Viewer'
   product_id = resource.configservice_product.media_manager_5.id
