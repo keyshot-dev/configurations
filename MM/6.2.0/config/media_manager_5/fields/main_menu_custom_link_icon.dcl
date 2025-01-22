@@ -28,5 +28,5 @@ resource configservice_combo_config_field main_menu_custom_link_icon {
     group = 'Main menu'
     key = 'customLinkIcon'
     title = 'Icon'
-    description = 'The icon will be shown on the custom button in the main menu (top bar and mobile slide out)'
+    description = 'The icon for the custom button'
 }

@@ -5,6 +5,6 @@ resource configservice_int_config_field main_search_folder_id {
     group = 'default'
     key = 'mainSearchFolderId'
     title = "Root channel folder of MM's content"
-    description = "This must always point to Channels --> ${resource.channel_folder.root.name} --> ${resource.channel_folder.content.name} unless you've been told otherwise by Digizuite."
+    description = "This must always point to Channels --> ${resource.channel_folder.root.name} --> ${resource.channel_folder.content.name} unless you've been told otherwise by KeyShot."
 }
 
