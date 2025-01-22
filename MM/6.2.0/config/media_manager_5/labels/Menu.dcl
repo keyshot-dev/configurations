@@ -4,11 +4,11 @@
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Options'
+      default_translation = 'Main menu'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Muligheder'
+      default_translation = 'Hovedmenu'
       language_id = data.language.danish.id
     }
   ]
