@@ -404,11 +404,11 @@ resource configservice_label mobile_menu_options {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Options'
+      default_translation = 'Main menu'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Indstillinger'
+      default_translation = 'Hovedmenu'
       language_id = data.language.danish.id
     }
   ]

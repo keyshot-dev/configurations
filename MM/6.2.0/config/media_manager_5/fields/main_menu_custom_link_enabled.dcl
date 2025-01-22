@@ -3,7 +3,7 @@ resource configservice_bit_config_field main_menu_custom_link_enabled {
     default_value = false
     group = 'Main menu'
     key = 'customLinkEnabled'
-    title = 'Show custom link in main menu'
-    description = 'If enabled, a custom menu item is displayed in the top bar and compact view\'s menu, which opens the custom link URL when clicked'
+    title = 'Show custom button'
+    description = 'If enabled, a customizable button will appear in the main menu (desktop view\'s top bar and compact view\'s menu). When clicked, it\'ll open a link you\'ve defined'
 }
 
