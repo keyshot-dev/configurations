@@ -4,7 +4,7 @@ resource configservice_string_config_field main_menu_custom_link_url {
     default_value = ''
     group = 'Main menu'
     key = 'customLinkUrl'
-    title = 'Custom link URL'
-    description = 'Clicking the menu item opens the custom URL in a new browser window. Specify the full URL, including the protocol (e.g., https://), for external URLs.'
+    title = 'Custom button link'
+    description = 'Clicking the button it\'ll open the URL in a new window. For external URLs, please specify the protocol (e.g., https://).'
 }
 
