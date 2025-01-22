@@ -27,6 +27,6 @@ resource configservice_combo_config_field main_menu_custom_link_icon {
     product_id = resource.configservice_product.media_manager_5.id
     group = 'Main menu'
     key = 'customLinkIcon'
-    title = 'Icon'
+    title = 'Custom button icon'
     description = 'The icon for the custom button'
 }
