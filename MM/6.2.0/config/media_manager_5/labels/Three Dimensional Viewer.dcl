@@ -52,11 +52,11 @@ resource configservice_label three_dimensional_viewer_load_error_body {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'An error occurred while loading the 3D preview. {message}'
+      default_translation = 'An error occurred while loading the 3D preview. {{error}}'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Der opstod en fejl under indlæsning af 3D-preview. {message}'
+      default_translation = 'Der opstod en fejl under indlæsning af 3D-preview. {{error}}'
       language_id = data.language.danish.id
     }
   ]
