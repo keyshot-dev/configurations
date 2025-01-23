@@ -588,3 +588,9 @@ resource asset_type_extension id_zip {
     asset_type = 'Zip'
 }
 
+resource asset_type_extension id_avif {
+    extension = 'avif'
+    asset_type = 'Image'
+}
+
+
