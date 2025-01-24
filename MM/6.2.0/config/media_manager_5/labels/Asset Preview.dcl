@@ -382,19 +382,3 @@ resource configservice_label asset_preview_replaced_asset{
   ]
 }
 
-resource configservice_label asset_preview_load_3d_model_error {
-  key = 'ASSET_PREVIEW_LOAD_3D_MODEL_ERROR'
-  group = 'Asset Preview'
-  product_id = resource.configservice_product.media_manager_5.id
-  default_label_values = [
-    {
-      default_translation = 'Error loading 3D preview'
-      language_id = data.language.english.id
-    },
-    {
-      default_translation = 'Fejl ved indlæsning af 3D-preview'
-      language_id = data.language.danish.id
-    }
-  ]
-}
-
