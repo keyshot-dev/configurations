@@ -25,6 +25,18 @@ resource format glb_preview {
         }, {
             key = 'EnableDisplacement'
             value = 'False'
+        }, {
+            key = 'EnableClayRendering'
+            value = 'False'
+        }, {
+            key = 'Resolution'
+            value = '0'
+        }, {
+            key = 'Samples'
+            value = '0'
+        }, {
+            key = 'Dpi'
+            value = '0'
         }]
 }
 
