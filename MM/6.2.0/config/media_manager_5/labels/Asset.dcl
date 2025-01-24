@@ -30,6 +30,38 @@ resource configservice_label asset_comment_no_comments {
   ]
 }
 
+resource configservice_label asset_comment_current_version {
+  key = 'ASSET_COMMENT_CURRENT_VERSION'
+  group = 'Asset'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Current version'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Nuværende version'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_comment_previous_version {
+  key = 'ASSET_COMMENT_PREVIOUS_VERSION'
+  group = 'Asset'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Previous version'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Tidligere version'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label asset_breadcrumbs_back_button {
   key = 'ASSET_BREADCRUMBS_BACK_BUTTON'
   group = 'Asset'
