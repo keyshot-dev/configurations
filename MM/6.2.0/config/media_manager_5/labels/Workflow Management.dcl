@@ -3343,3 +3343,21 @@ resource configservice_label transcode_rendition_status_state_table_row {
     }
   ]
 }
+
+resource configservice_label workflow_editor_flow_editor_side_view_tags {
+  key = 'WORKFLOW_EDITOR_FLOW_EDITOR_SIDE_VIEW_TAGS'
+  group = 'workflow-editor - flow-editor-side-view'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Tags'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Tags'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+
