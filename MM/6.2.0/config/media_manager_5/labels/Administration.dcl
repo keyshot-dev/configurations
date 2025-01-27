@@ -13410,6 +13410,102 @@ resource configservice_label administration_tools_system_asset_relation_types_se
   ]
 }
 
+resource configservice_label administration_tools_system_asset_relation_types_metadata_fields {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_ASSET_RELATION_TYPES_METADATA_FIELDS'
+  group = 'administration-tools - system - asset-relation-types'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Additional metadata fields'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Yderligere metadata-felter'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_asset_relation_types_metadata_fields_tooltip {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_ASSET_RELATION_TYPES_METADATA_FIELDS_TOOLTIP'
+  group = 'administration-tools - system - asset-relation-types'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Fields shown on \'Related assets\' tab'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Felter som vil vises på fanen \'Relaterede assets\''
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_asset_relation_types_show_in_list_when_primary {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_ASSET_RELATION_TYPES_SHOW_IN_LIST_WHEN_PRIMARY'
+  group = 'administration-tools - system - asset-relation-types'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Show on primary asset'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Vis på det primære asset'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_asset_relation_types_show_in_list_when_primary_tooltip {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_ASSET_RELATION_TYPES_SHOW_IN_LIST_WHEN_PRIMARY_TOOLTIP'
+  group = 'administration-tools - system - asset-relation-types'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'If enabled, the selected fields will be displayed on the relation when looking at the secondary asset from the primary asset'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Hvis aktiveret, vil de valgte felter blive vist på relationen, når man ser på det sekundære asset fra det primære asset'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_asset_relation_types_show_in_list_when_secondary {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_ASSET_RELATION_TYPES_SHOW_IN_LIST_WHEN_SECONDARY'
+  group = 'administration-tools - system - asset-relation-types'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Show on secondary asset'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Vis på det sekundære asset'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_asset_relation_types_show_in_list_when_secondary_tooltip {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_ASSET_RELATION_TYPES_SHOW_IN_LIST_WHEN_SECONDARY_TOOLTIP'
+  group = 'administration-tools - system - asset-relation-types'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'If enabled, the selected fields will be displayed on the relation when looking at the primary asset from the secondary asset'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Hvis aktiveret, vil de valgte felter blive vist på relationen, når man ser på det primære asset fra det sekundære asset'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label administration_tools_system_similar_search_section_header {
   key = 'ADMINISTRATION_TOOLS_SYSTEM_SIMILAR_SEARCH_SECTION_HEADER'
   group = 'administration-tools - system - similar-search'
