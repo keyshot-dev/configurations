@@ -376,7 +376,7 @@ resource configservice_label asset_preview_replaced_asset{
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Erstattes asset'
+      default_translation = 'Erstattet asset'
       language_id = data.language.danish.id
     }
   ]
