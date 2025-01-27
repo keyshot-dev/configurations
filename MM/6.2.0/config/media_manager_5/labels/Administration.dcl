@@ -13420,7 +13420,7 @@ resource configservice_label administration_tools_system_asset_relation_types_me
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Ekstra metadata-felter'
+      default_translation = 'Yderligere metadata-felter'
       language_id = data.language.danish.id
     }
   ]
@@ -13432,11 +13432,11 @@ resource configservice_label administration_tools_system_asset_relation_types_me
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Fields to show on \'Related assets\' tab'
+      default_translation = 'Fields shown on \'Related assets\' tab'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Felter, der skal vises på fanen \'Relaterede assets\''
+      default_translation = 'Felter som vil vises på fanen \'Relaterede assets\''
       language_id = data.language.danish.id
     }
   ]
@@ -13452,7 +13452,7 @@ resource configservice_label administration_tools_system_asset_relation_types_sh
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Vis på primary'
+      default_translation = 'Vis på det primære asset'
       language_id = data.language.danish.id
     }
   ]
@@ -13464,11 +13464,11 @@ resource configservice_label administration_tools_system_asset_relation_types_sh
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'If enabled, the selected fields are displayed on the relation when viewing the primary asset'
+      default_translation = 'If enabled, the selected fields will be displayed on the relation when looking at the secondary asset from the primary asset'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Hvis aktiveret, vises de valgte felter på relationen, når det primære asset vises'
+      default_translation = 'Hvis aktiveret, vil de valgte felter blive vist på relationen, når man ser på det sekundære asset fra det primære asset'
       language_id = data.language.danish.id
     }
   ]
@@ -13484,7 +13484,7 @@ resource configservice_label administration_tools_system_asset_relation_types_sh
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Vis på secondary'
+      default_translation = 'Vis på det sekundære asset'
       language_id = data.language.danish.id
     }
   ]
@@ -13496,11 +13496,11 @@ resource configservice_label administration_tools_system_asset_relation_types_sh
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'If enabled, the selected fields are displayed on the relation when viewing the secondary asset'
+      default_translation = 'If enabled, the selected fields will be displayed on the relation when looking at the primary asset from the secondary asset'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Hvis aktiveret, vises de valgte felter på relationen, når den sekundære asset vises'
+      default_translation = 'Hvis aktiveret, vil de valgte felter blive vist på relationen, når man ser på det primære asset fra det sekundære asset'
       language_id = data.language.danish.id
     }
   ]
