@@ -1,10 +1,10 @@
-resource access_error_page {
+resource configservice_label access_error_page_title {
   key = 'ACCESS_ERROR_PAGE_TITLE'
   group = 'Access error page'
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'You can\'t access this page'
+      default_translation = 'You can’t access this page'
       language_id = data.language.english.id
     },
     {
@@ -14,23 +14,23 @@ resource access_error_page {
   ]
 }
 
-resource access_error_page {
+resource configservice_label access_error_page_description {
   key = 'ACCESS_ERROR_PAGE_DESCRIPTION'
   group = 'Access error page'
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Please reach out to an administrator if you believe you should have access.'
+      default_translation = 'It looks like you don’t have permission. Reach out to your administrator if you need help.'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Kontakt en administrator, hvis du mener du burde have adgang.'
+      default_translation = 'Det ser ud til, at du ikke har tilladelse. Kontakt din administrator, hvis du har brug for hjælp.'
       language_id = data.language.danish.id
     }
   ]
 }
 
-resource access_error_page {
+resource configservice_label access_error_page_go_back {
   key = 'ACCESS_ERROR_PAGE_GO_BACK'
   group = 'Access error page'
   product_id = resource.configservice_product.media_manager_5.id
