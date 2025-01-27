@@ -20,7 +20,7 @@ resource access_error_page {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'It looks like you don’t have permission. Reach out to your administrator if you need help.'
+      default_translation = 'Please reach out to an administrator if you believe you should have access.'
       language_id = data.language.english.id
     },
     {
