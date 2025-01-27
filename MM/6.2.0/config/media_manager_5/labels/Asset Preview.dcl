@@ -366,4 +366,19 @@ resource configservice_label asset_preview_container_template_fullscreen {
   ]
 }
 
+resource configservice_label asset_preview_replaced_asset{
+  key = 'ASSET_PREVIEW_REPLACED_ASSET'
+  group = 'Asset Preview'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Replaced asset'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Erstattet asset'
+      language_id = data.language.danish.id
+    }
+  ]
+}
 

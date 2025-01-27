@@ -68,11 +68,11 @@ resource configservice_label preview_add_comment_add_message {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = '{mode, select, edit {Update comment} reply {Reply} add {New comment}}'
+      default_translation = '{mode, select, edit {Update comment} reply {Reply} add {Add a comment}}'
       language_id = data.language.english.id
     },
     {
-      default_translation = '{mode, select, edit {Opdatér kommentar} reply {Svar} add {Ny kommentar}}'
+      default_translation = '{mode, select, edit {Opdatér kommentar} reply {Svar} add {Skriv en kommentar}}'
       language_id = data.language.danish.id
     }
   ]
