@@ -5,6 +5,5 @@ resource configservice_int_config_field secondary_logo {
     group = 'default'
     key = 'secondaryLogo'
     title = 'Secondary Logo'
-    description = 'This logo will appear on the login screen and inside the mobile navigation menu.'
+    description = 'This logo will appear on the login screen and inside the compact view\'s menu.'
 }
-
