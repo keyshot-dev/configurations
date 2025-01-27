@@ -24,7 +24,7 @@ resource access_error_page {
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Det ser ud til, at du ikke har tilladelse. Kontakt din administrator, hvis du har brug for hjælp.'
+      default_translation = 'Kontakt en administrator, hvis du mener du burde have adgang.'
       language_id = data.language.danish.id
     }
   ]
