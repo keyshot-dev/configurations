@@ -3,8 +3,7 @@ resource asset_relation_type derived_from {
     name = 'Derivation'
     description = 'The secondary asset is derived from the first asset, for example as a crop or trim.'
     multiplicity = 'OneToMany'
-	show_in_list_when_primary = true
-	show_in_list_when_secondary = true
+	sync_additional_fields = true
     deletion_behavior = {
         enable_behavior = true
         inherit_soft_delete = false

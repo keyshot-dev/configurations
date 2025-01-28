@@ -3,8 +3,7 @@ resource asset_relation_type used_by {
     name = 'Usage'
     description = 'The secondary asset is used in the first asset, for example a asset within a document'
     multiplicity = 'OneToMany'
-	show_in_list_when_primary = true
-	show_in_list_when_secondary = true
+	sync_additional_fields = true
     deletion_behavior = {
         enable_behavior = false
     }
