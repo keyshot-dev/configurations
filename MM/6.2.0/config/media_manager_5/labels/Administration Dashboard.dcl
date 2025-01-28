@@ -160,6 +160,38 @@ resource configservice_label administration_tools_dashboard_tool_save {
   ]
 }
 
+resource configservice_label administration_tools_dashboard_tool_save_error_title {
+  key = 'ADMINISTRATION_TOOLS_DASHBOARD_TOOL_SAVE_ERROR_TITLE'
+  group = 'administration-tools - dashboard-tool'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Error'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Fejl'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_dashboard_tool_save_error_body {
+  key = 'ADMINISTRATION_TOOLS_DASHBOARD_TOOL_SAVE_ERROR_BODY'
+  group = 'administration-tools - dashboard-tool'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Failed saving this dashboard. {{errorMessage}}'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Fejl ved gemning af dette dashboard. {{errorMessage}}'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label administration_tools_dashboard_tool_add_item {
   key = 'ADMINISTRATION_TOOLS_DASHBOARD_TOOL_ADD_ITEM'
   group = 'administration-tools - dashboard-tool'
@@ -192,17 +224,33 @@ resource configservice_label administration_tools_dashboard_tool_more_button_too
   ]
 }
 
-resource configservice_label administration_tools_dashboard_tool_add_dashboard {
-  key = 'ADMINISTRATION_TOOLS_DASHBOARD_TOOL_ADD_DASHBOARD'
+resource configservice_label administration_tools_dashboard_tool_new_dashboard {
+  key = 'ADMINISTRATION_TOOLS_DASHBOARD_TOOL_NEW_DASHBOARD'
   group = 'administration-tools - dashboard-tool'
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Add dashboard'
+      default_translation = 'New'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Tilføj dashboard'
+      default_translation = 'Ny'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_dashboard_tool_blank_dashboard {
+  key = 'ADMINISTRATION_TOOLS_DASHBOARD_TOOL_BLANK_DASHBOARD'
+  group = 'administration-tools - dashboard-tool'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Blank dashboard'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Tomt dashboard'
       language_id = data.language.danish.id
     }
   ]
@@ -315,6 +363,118 @@ resource configservice_label administration_tools_dashboard_block_download_table
     },
     {
       default_translation = 'Download som CSV-fil'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_dashboard_tool_new_from_template {
+  key = 'ADMINISTRATION_TOOLS_DASHBOARD_TOOL_NEW_FROM_TEMPLATE'
+  group = 'administration-tools - dashboard-tool'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'From template'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Fra skabelon'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_dashboard_tool_import_dashboard_success_title {
+  key = 'ADMINISTRATION_TOOLS_DASHBOARD_TOOL_IMPORT_DASHBOARD_SUCCESS_TITLE'
+  group = 'administration-tools - dashboard-tool'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Dashboard successfully imported'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Dashboard blev importeret'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_dashboard_tool_import_dashboard_error_body {
+  key = 'ADMINISTRATION_TOOLS_DASHBOARD_TOOL_IMPORT_DASHBOARD_ERROR_BODY'
+  group = 'administration-tools - dashboard-tool'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Dashboard import failed'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Dashboard-import mislykkedes'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_dashboard_tool_import_dashboard_error_title {
+  key = 'ADMINISTRATION_TOOLS_DASHBOARD_TOOL_IMPORT_DASHBOARD_ERROR_TITLE'
+  group = 'administration-tools - dashboard-tool'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Error'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Fejl'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_dashboard_tool_export_to_json {
+  key = 'ADMINISTRATION_TOOLS_DASHBOARD_TOOL_EXPORT_TO_JSON'
+  group = 'administration-tools - dashboard-tool'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Export dashboard'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Eksporter dashboard'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_dashboard_tool_exported_to_json_body {
+  key = 'ADMINISTRATION_TOOLS_DASHBOARD_TOOL_EXPORTED_TO_JSON_BODY'
+  group = 'administration-tools - dashboard-tool'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Dashboard exported successfully'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Dashboard blev eksporteret'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_dashboard_tool_import_dashboard {
+  key = 'ADMINISTRATION_TOOLS_DASHBOARD_TOOL_IMPORT_DASHBOARD'
+  group = 'administration-tools - dashboard-tool'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Import from file'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Importer fra fil'
       language_id = data.language.danish.id
     }
   ]
