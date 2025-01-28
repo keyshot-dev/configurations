@@ -182,7 +182,7 @@ resource configservice_label administration_tools_dashboard_tool_save_error_body
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Failed saving this dashboard. {{errorMessage}}'
+      default_translation = 'Failed to save this dashboard. {{errorMessage}}'
       language_id = data.language.english.id
     },
     {
@@ -282,7 +282,7 @@ resource configservice_label administration_tools_dashboard_tool_generate_asset_
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Lav asset-downloads'
+      default_translation = 'Generer asset-downloads'
       language_id = data.language.danish.id
     }
   ]
