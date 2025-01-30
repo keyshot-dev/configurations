@@ -1,5 +1,5 @@
 resource configservice_string_config_field intro_screen_header {
-    default_value = 'Digizuite'
+    default_value = 'KeyShot'
     type = 'String'
     product_id = resource.configservice_product.media_manager_5.id
     group = 'Intro screen'
