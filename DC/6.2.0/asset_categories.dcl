@@ -1,5 +1,5 @@
 resource asset_category root {
-    guid = '67ed66bb-14fc-4b5d-9ed7-636e65fde93c'
+    item_guid = '67ed66bb-14fc-4b5d-9ed7-636e65fde93c'
     name = 'Root'
     is_abstract = true
     is_sealed = false
@@ -8,7 +8,7 @@ resource asset_category root {
 }
 
 resource asset_category uncategorized {
-    guid = 'e1cc0bdb-727c-4bc5-8147-6873ddb62368'
+    item_guid = 'e1cc0bdb-727c-4bc5-8147-6873ddb62368'
     name = 'Uncategorized'
     is_abstract = false
     parent_category_id = resource.asset_category.root.id
