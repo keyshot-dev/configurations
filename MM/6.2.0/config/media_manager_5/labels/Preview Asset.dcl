@@ -206,6 +206,22 @@ resource configservice_label preview_preview_container_related_title {
   ]
 }
 
+resource configservice_label preview_preview_container_replaced_version_comments_title {
+  key = 'PREVIEW_PREVIEW_CONTAINER_REPLACED_VERSION_COMMENTS_TITLE'
+  group = 'Preview Asset'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Replaced version'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Erstattet version'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label preview_asset_versions_header {
   key = 'PREVIEW_ASSET_VERSIONS_HEADER'
   group = 'Preview Asset'
