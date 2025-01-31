@@ -27,6 +27,22 @@ resource configservice_label asset_comment_no_comments {
       default_translation = 'Der er ingen kommentarer endnu'
       language_id = data.language.danish.id
     }
+
+  ]
+}
+resource configservice_label asset_comment_no_version_comments {
+  key = 'ASSET_COMMENT_NO_VERSION_COMMENTS'
+  group = 'Asset'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'No comments yet'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Ingen kommentarer endnu'
+      language_id = data.language.danish.id
+    }
   ]
 }
 
