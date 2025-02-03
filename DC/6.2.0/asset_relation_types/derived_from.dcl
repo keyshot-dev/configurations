@@ -10,6 +10,10 @@ resource asset_relation_type derived_from {
         inherit_soft_delete = false
         inherit_hard_delete = true
     }
+    search_behavior = {
+        enable_behavior = true
+        hide_secondary_by_default_in_search = true
+    }
     labels = [{
             language_id = resource.language.english.id
             label = 'Derivation'
