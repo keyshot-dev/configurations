@@ -110,6 +110,22 @@ resource configservice_label audit_trail_filter_title_metafield {
   ]
 }
 
+resource configservice_label audit_trail_filter_title_change_types {
+  key = 'AUDIT_TRAIL_FILTER_TITLE_CHANGE_TYPES'
+  group = 'Audit Trail'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Change types'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Skift typer'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label audit_trail_column_date {
   key = 'AUDIT_TRAIL_COLUMN_DATE'
   group = 'Audit Trail'
