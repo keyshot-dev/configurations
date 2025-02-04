@@ -13014,11 +13014,11 @@ resource configservice_label administration_tools_system_asset_relation_types_pr
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Fields shown on primary asset'
+      default_translation = 'Fields on primary asset list'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Felter som vil vises på det primære asset'
+      default_translation = 'Felter på det primære asset liste
       language_id = data.language.danish.id
     }
   ]
@@ -13046,11 +13046,11 @@ resource configservice_label administration_tools_system_asset_relation_types_se
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Fields shown on secondary asset'
+      default_translation = 'Fields on secondary asset list'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Felter som vil vises på det sekundære asset'
+      default_translation = 'Felter på det sekundære asset liste'
       language_id = data.language.danish.id
     }
   ]
