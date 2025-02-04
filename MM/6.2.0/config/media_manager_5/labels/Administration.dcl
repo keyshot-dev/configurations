@@ -12278,11 +12278,11 @@ resource configservice_label administration_tools_system_asset_relation_types_so
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Restrict source asset categories'
+      default_translation = 'Restrict the primary asset\'s categories'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Begræns asset-kategorier for kilde'
+      default_translation = 'Begræns det primære assets kategorier'
       language_id = data.language.danish.id
     }
   ]
@@ -12294,11 +12294,11 @@ resource configservice_label administration_tools_system_asset_relation_types_so
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'If set, source assets of this relation must be in these categories. If empty, no category restrictions apply.'
+      default_translation = 'If set, primary assets of this relation must be in these categories. If empty, no category restrictions apply.'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Hvis sat, skal kilde-asset for denne relation være i disse kategorier. Hvis tom, gælder ingen kategori-begrænsning.'
+      default_translation = 'Hvis sat, skal det primære asset for denne relation være i disse kategorier. Hvis tom, vil den ikke have nogen kategori-begrænsning.'
       language_id = data.language.danish.id
     }
   ]
@@ -12390,11 +12390,11 @@ resource configservice_label administration_tools_system_asset_relation_types_ta
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Restrict target asset categories'
+      default_translation = 'Restrict the secondary asset\'s categories'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Begræns asset-kategorier for mål'
+      default_translation = 'Begræns det sekundære assets kategorier'
       language_id = data.language.danish.id
     }
   ]
@@ -12406,11 +12406,11 @@ resource configservice_label administration_tools_system_asset_relation_types_ta
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'If set, target assets of this relation must be in these categories. If empty, no category restrictions apply.'
+      default_translation = 'If set, secondary assets of this relation must be in these categories. If empty, no category restrictions apply.'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Hvis sat, skal mål-asset for denne relation være i disse kategorier. Hvis tom, gælder ingen kategori-begrænsning.'
+      default_translation = 'Hvis sat, skal det sekundære asset for denne relation være i disse kategorier. Hvis tom, vil den ikke have nogen kategori-begrænsning.'
       language_id = data.language.danish.id
     }
   ]
@@ -12950,11 +12950,27 @@ resource configservice_label administration_tools_system_asset_relation_types_pr
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Primary → secondary label'
+      default_translation = 'Primary to secondary label'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Primary → secondary label'
+      default_translation = 'Primær til sekundær label'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_asset_relation_types_primary_to_secondary_label_tooltip {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_ASSET_RELATION_TYPES_PRIMARY_TO_SECONDARY_LABEL_TOOLTIP'
+  group = 'administration-tools - system - asset-relation-types'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'The label will be shown in the \'Related assets\' tab on the primary asset'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Labelet vil kunne ses inde under fanen \'Relaterede assets\' når man er på det primære asset'
       language_id = data.language.danish.id
     }
   ]
@@ -12966,11 +12982,27 @@ resource configservice_label administration_tools_system_asset_relation_types_se
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Secondary → primary label'
+      default_translation = 'Secondary to primary label'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Secondary → primary label'
+      default_translation = 'Sekundær til primær label'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_asset_relation_types_secondary_to_primary_label_tooltip {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_ASSET_RELATION_TYPES_SECONDARY_TO_PRIMARY_LABEL_TOOLTIP'
+  group = 'administration-tools - system - asset-relation-types'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'The label will be shown in the \'Related assets\' tab on the secondary asset'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Labelet vil kunne ses inde under fanen \'Relaterede assets\' når man er på det sekundære asset'
       language_id = data.language.danish.id
     }
   ]
@@ -12982,11 +13014,11 @@ resource configservice_label administration_tools_system_asset_relation_types_pr
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Fields shown on primary asset'
+      default_translation = 'Fields on primary asset list'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Felter som vil vises på det primære asset'
+      default_translation = 'Felter på det primære asset liste
       language_id = data.language.danish.id
     }
   ]
@@ -12998,11 +13030,11 @@ resource configservice_label administration_tools_system_asset_relation_types_pr
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'The selected fields will be displayed on the relation when looking at the secondary asset from the primary asset'
+      default_translation = 'These fields will appear when listing primary assets'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'De valgte felter blive vist på relationen, når man ser på det sekundære asset fra det primære asset'
+      default_translation = 'Disse felter vises, når man oplister de primære assets'
       language_id = data.language.danish.id
     }
   ]
@@ -13014,11 +13046,11 @@ resource configservice_label administration_tools_system_asset_relation_types_se
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Fields shown on secondary asset'
+      default_translation = 'Fields on secondary asset list'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Felter som vil vises på det sekundære asset'
+      default_translation = 'Felter på det sekundære asset liste'
       language_id = data.language.danish.id
     }
   ]
@@ -13030,11 +13062,11 @@ resource configservice_label administration_tools_system_asset_relation_types_se
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'The selected fields will be displayed on the relation when looking at the primary asset from the secondary asset'
+      default_translation = 'These fields will appear when listing secondary assets'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'De valgte felter blive vist på relationen, når man ser på det primære asset fra det sekundære  asset'
+      default_translation = 'Disse felter vises, når man oplister de sekundære assets'
       language_id = data.language.danish.id
     }
   ]
@@ -13062,11 +13094,11 @@ resource configservice_label administration_tools_system_asset_relation_types_sh
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'If enabled, the relation is displayed in the \'Related assets\' tab when looking at the primary asset'
+      default_translation = 'If enabled, the relation is displayed in the \'Related assets\' tab when viewing the primary asset'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Hvis aktiveret, vises relationen i fanen \'Relaterede assets\' når man ser på det primære asset'
+      default_translation = 'Hvis aktiveret, vises relationen i fanen \'Relaterede assets\', når du ser på det primære asset'
       language_id = data.language.danish.id
     }
   ]
@@ -13094,11 +13126,43 @@ resource configservice_label administration_tools_system_asset_relation_types_sh
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'If enabled, the relation is displayed in the \'Related assets\' tab when looking at the secondary asset'
+      default_translation = 'If enabled, the relation is displayed in the \'Related assets\' tab when viewing the secondary asset'
       language_id = data.language.english.id
     },
     {
       default_translation = 'Hvis aktiveret, vises relationen i fanen \'Relaterede assets\' når man ser på det sekundære asset'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_asset_relation_types_system_hide_secondary_by_default_in_search {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_ASSET_RELATION_TYPES_SYSTEM_HIDE_SECONDARY_BY_DEFAULT_IN_SEARCH'
+  group = 'administration-tools - system - asset-relation-types'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Hide secondary assets in search'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Skjul sekundære assets i søgning'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_asset_relation_types_system_hide_secondary_by_default_in_search_tooltip {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_ASSET_RELATION_TYPES_SYSTEM_HIDE_SECONDARY_BY_DEFAULT_IN_SEARCH_TOOLTIP'
+  group = 'administration-tools - system - asset-relation-types'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'If enabled, secondary assets of this relation will be filtered out when searching'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Hvis det er aktiveret, vil sekundære assets i denne relation blive filtreret fra, når man søger'
       language_id = data.language.danish.id
     }
   ]
