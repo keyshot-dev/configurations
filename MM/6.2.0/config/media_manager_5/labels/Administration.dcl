@@ -12966,11 +12966,11 @@ resource configservice_label administration_tools_system_asset_relation_types_pr
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Label displayed in the \'Related assets\' tab when on the primary asset'
+      default_translation = 'Label displayed in the \'Related assets\' tab when viewing the primary asset'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Label vist i fanen \'Relaterede assets\' når man er på det primære asset'
+      default_translation = 'Label vist i fanen \'Relaterede assets\' når man ser på det primære asset'
       language_id = data.language.danish.id
     }
   ]
@@ -12998,11 +12998,11 @@ resource configservice_label administration_tools_system_asset_relation_types_se
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Label displayed in the \'Related assets\' tab when on the secondary asset'
+      default_translation = 'Label displayed in the \'Related assets\' tab when viewing the secondary asset'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Label vist i fanen \'Relaterede assets\' når man er på det sekundære asset'
+      default_translation = 'Label vist i fanen \'Relaterede assets\' når man ser på det sekundære asset'
       language_id = data.language.danish.id
     }
   ]
