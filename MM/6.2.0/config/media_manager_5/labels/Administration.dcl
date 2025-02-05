@@ -13018,7 +13018,7 @@ resource configservice_label administration_tools_system_asset_relation_types_pr
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Felter på det primære asset liste'
+      default_translation = 'Felter på listen af primære assets'
       language_id = data.language.danish.id
     }
   ]
