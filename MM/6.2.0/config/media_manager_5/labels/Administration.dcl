@@ -10976,6 +10976,134 @@ resource configservice_label administration_tools_analytics_block_builder_x_axis
   ]
 }
 
+resource configservice_label administration_tools_analytics_block_builder_data_section_title {
+  key = 'ADMINISTRATION_TOOLS_ANALYTICS_BLOCK_BUILDER_DATA_SECTION_TITLE'
+  group = 'administration-tools - analytics-block-builder'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Data'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Data'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_analytics_block_builder_grouping_section_title {
+  key = 'ADMINISTRATION_TOOLS_ANALYTICS_BLOCK_BUILDER_GROUPING_SECTION_TITLE'
+  group = 'administration-tools - analytics-block-builder'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Grouping'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Gruppering'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_analytics_block_builder_date_section_title {
+  key = 'ADMINISTRATION_TOOLS_ANALYTICS_BLOCK_BUILDER_DATE_SECTION_TITLE'
+  group = 'administration-tools - analytics-block-builder'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+   {
+      default_translation = 'Date'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Dato'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_analytics_block_builder_filters_section_title {
+  key = 'ADMINISTRATION_TOOLS_ANALYTICS_BLOCK_BUILDER_FILTERS_SECTION_TITLE'
+  group = 'administration-tools - analytics-block-builder'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Filters'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Filtre'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_analytics_block_builder_layout_section_title {
+  key = 'ADMINISTRATION_TOOLS_ANALYTICS_BLOCK_BUILDER_LAYOUT_SECTION_TITLE'
+  group = 'administration-tools - analytics-block-builder'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Layout'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Layout'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_analytics_block_builder_sorting_section_title {
+  key = 'ADMINISTRATION_TOOLS_ANALYTICS_BLOCK_BUILDER_SORTING_SECTION_TITLE'
+  group = 'administration-tools - analytics-block-builder'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Sorting'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Sortering'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_analytics_block_builder_colors_section_title {
+  key = 'ADMINISTRATION_TOOLS_ANALYTICS_BLOCK_BUILDER_COLORS_SECTION_TITLE'
+  group = 'administration-tools - analytics-block-builder'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Colors'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Farver'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_analytics_block_builder_filter_property {
+  key = 'ADMINISTRATION_TOOLS_ANALYTICS_BLOCK_BUILDER_FILTER_PROPERTY'
+  group = 'administration-tools - analytics-block-builder'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Filter property'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Filteregenskab'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label administration_tools_users_and_groups_change_user_folder_dialog_success {
   key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_CHANGE_USER_FOLDER_DIALOG_SUCCESS'
   group = 'administration-tools - users-and-groups'
