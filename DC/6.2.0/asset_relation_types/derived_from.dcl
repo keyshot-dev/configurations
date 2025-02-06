@@ -10,6 +10,11 @@ resource asset_relation_type derived_from {
         inherit_soft_delete = false
         inherit_hard_delete = true
     }
+    replace_behavior = {
+        enable_behavior = true
+        primary_replace_behavior = 'Ignore'
+        secondary_replace_behavior = 'CopyToArchive'
+    }
     search_behavior = {
         enable_behavior = true
         hide_secondary_by_default_in_search = true
