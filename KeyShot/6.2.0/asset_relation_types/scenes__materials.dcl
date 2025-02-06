@@ -35,6 +35,11 @@ resource asset_relation_type scenes__materials {
         enable_behavior = false
         override_format_purposes = []
     }
+    replace_behavior = {
+        enable_behavior = true
+        primary_replace_behavior = move
+        secondary_replace_behavior = ignore
+    }    
     labels = [{
             language_id = data.language.english.id
             label = 'Scenes-Materials'
