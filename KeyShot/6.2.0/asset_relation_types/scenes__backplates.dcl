@@ -37,8 +37,8 @@ resource asset_relation_type scenes__backplates {
     }
     replace_behavior = {
         enable_behavior = true
-        primary_replace_behavior = move
-        secondary_replace_behavior = ignore
+        primary_replace_behavior = 'MoveToArchive'
+        secondary_replace_behavior = 'Ignore'
     }        
     labels = [{
             language_id = data.language.english.id
