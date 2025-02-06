@@ -35,11 +35,6 @@ resource asset_relation_type scene__render_outputs {
         enable_behavior = false
         override_format_purposes = []
     }
-    replace_behavior = {
-        enable_behavior = true
-        primary_replace_behavior = 'MoveToArchive'
-        secondary_replace_behavior = 'Ignore'
-    }
     labels = [{
             language_id = data.language.english.id
             label = 'Scene-Render Outputs'
