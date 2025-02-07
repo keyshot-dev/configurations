@@ -12752,6 +12752,70 @@ resource configservice_label administration_tools_system_asset_relation_types_in
   ]
 }
 
+resource configservice_label administration_tools_system_asset_relation_types_locked_when_primary {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_ASSET_RELATION_TYPES_LOCKED_WHEN_PRIMARY'
+  group = 'administration-tools - system - asset-relation-types'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Locked for deletion when primary'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Låst til sletning, når den er primær'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_asset_relation_types_locked_when_primary_tooltip {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_ASSET_RELATION_TYPES_LOCKED_WHEN_PRIMARY_TOOLTIP'
+  group = 'administration-tools - system - asset-relation-types'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'If enabled, deletion is blocked if the primary is deleted'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Hvis den er aktiveret, blokeres sletning, hvis den primære slettes'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_asset_relation_types_locked_when_secondary {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_ASSET_RELATION_TYPES_LOCKED_WHEN_SECONDARY'
+  group = 'administration-tools - system - asset-relation-types'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Locked for deletion when secondary'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Låst til sletning, når den er sekundær'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_asset_relation_types_locked_when_secondary_tooltip {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_ASSET_RELATION_TYPES_LOCKED_WHEN_SECONDARY_TOOLTIP'
+  group = 'administration-tools - system - asset-relation-types'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'If enabled, deletion is blocked if the secondary is deleted'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Hvis det er aktiveret, blokeres sletning, hvis det sekundære slettes'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label administration_tools_system_asset_relation_types_system_make_secondary_available_during_transcode {
   key = 'ADMINISTRATION_TOOLS_SYSTEM_ASSET_RELATION_TYPES_SYSTEM_MAKE_SECONDARY_AVAILABLE_DURING_TRANSCODE'
   group = 'administration-tools - system - asset-relation-types'
@@ -12811,6 +12875,70 @@ resource configservice_label administration_tools_system_asset_relation_types_ov
     },
     {
       default_translation = 'De forskellige formatformål, hvor kilde-assettet skal bruge renditionen fra mål-assetet'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_asset_relation_types_primary_replace_behavior {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_ASSET_RELATION_TYPES_PRIMARY_REPLACE_BEHAVIOR'
+  group = 'administration-tools - system - asset-relation-types'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Replace behavior on primary asset'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Erstatningsadfærd for primær asset'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_asset_relation_types_primary_replace_behavior_tooltip {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_ASSET_RELATION_TYPES_PRIMARY_REPLACE_BEHAVIOR_TOOLTIP'
+  group = 'administration-tools - system - asset-relation-types'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Specify what happens to the relation when the primary asset is replaced'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Specificer, hvad der sker med relationen, når det primære asset bliver erstattet'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_asset_relation_types_secondary_replace_behavior {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_ASSET_RELATION_TYPES_SECONDARY_REPLACE_BEHAVIOR'
+  group = 'administration-tools - system - asset-relation-types'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Replace behavior on secondary asset'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Erstatningsadfærd for sekundær asset'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_asset_relation_types_secondary_replace_behavior_tooltip {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_ASSET_RELATION_TYPES_SECONDARY_REPLACE_BEHAVIOR_TOOLTIP'
+  group = 'administration-tools - system - asset-relation-types'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Specify what happens to the relation when the secondary asset is replaced'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Specificer, hvad der sker med relationen, når det sekundære asset bliver erstattet'
       language_id = data.language.danish.id
     }
   ]
