@@ -40,7 +40,7 @@ resource asset_relation_type scenes__geometry {
         primary_replace_behavior = 'MoveToArchive'
         secondary_replace_behavior = 'Ignore'
     } 
-	search_behavior = {
+    search_behavior = {
         enable_behavior = true
         hide_secondary_by_default_in_search = true
     }	
