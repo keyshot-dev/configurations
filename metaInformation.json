@@ -20,11 +20,6 @@
         "locked": true
     },
     {
-        "name": "Mobile",
-        "order": -80,
-        "locked": true
-    },
-    {
         "name": "Exif IPTC",
         "order": -50,
         "locked": false
