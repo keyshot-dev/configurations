@@ -12752,6 +12752,70 @@ resource configservice_label administration_tools_system_asset_relation_types_in
   ]
 }
 
+resource configservice_label administration_tools_system_asset_relation_types_locked_when_primary {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_ASSET_RELATION_TYPES_LOCKED_WHEN_PRIMARY'
+  group = 'administration-tools - system - asset-relation-types'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Primary assets of this relation cannot be deleted'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Primære assets i denne relation må ikke kunne slettes'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_asset_relation_types_locked_when_primary_tooltip {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_ASSET_RELATION_TYPES_LOCKED_WHEN_PRIMARY_TOOLTIP'
+  group = 'administration-tools - system - asset-relation-types'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'If enabled, assets that are set to be primary in this relation, will not be able to be deleted'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Hvis aktiveret, vil assets, der er indstillet til at være primære i denne relation, ikke kunne slettes'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_asset_relation_types_locked_when_secondary {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_ASSET_RELATION_TYPES_LOCKED_WHEN_SECONDARY'
+  group = 'administration-tools - system - asset-relation-types'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Secondary assets of this relation cannot be deleted'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Sekundære assets i denne relation må ikke kunne slettes'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_asset_relation_types_locked_when_secondary_tooltip {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_ASSET_RELATION_TYPES_LOCKED_WHEN_SECONDARY_TOOLTIP'
+  group = 'administration-tools - system - asset-relation-types'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'If enabled, assets that are set to be secondary in this relation, will not be able to be deleted'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Hvis aktiveret, vil assets, der er indstillet til at være sekundære i denne relation, ikke kunne slettes'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label administration_tools_system_asset_relation_types_system_make_secondary_available_during_transcode {
   key = 'ADMINISTRATION_TOOLS_SYSTEM_ASSET_RELATION_TYPES_SYSTEM_MAKE_SECONDARY_AVAILABLE_DURING_TRANSCODE'
   group = 'administration-tools - system - asset-relation-types'
@@ -12811,6 +12875,70 @@ resource configservice_label administration_tools_system_asset_relation_types_ov
     },
     {
       default_translation = 'De forskellige formatformål, hvor kilde-assettet skal bruge renditionen fra mål-assetet'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_asset_relation_types_primary_replace_behavior {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_ASSET_RELATION_TYPES_PRIMARY_REPLACE_BEHAVIOR'
+  group = 'administration-tools - system - asset-relation-types'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Replace behavior for primary assets'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Erstatningsadfærd for primære assets'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_asset_relation_types_primary_replace_behavior_tooltip {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_ASSET_RELATION_TYPES_PRIMARY_REPLACE_BEHAVIOR_TOOLTIP'
+  group = 'administration-tools - system - asset-relation-types'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Specify what happens to assets in this relation when the primary asset is replaced'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Specificer, hvad der sker med assets i relationen, når det primære asset bliver erstattet'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_asset_relation_types_secondary_replace_behavior {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_ASSET_RELATION_TYPES_SECONDARY_REPLACE_BEHAVIOR'
+  group = 'administration-tools - system - asset-relation-types'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Replace behavior for secondary assets'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Erstatningsadfærd for sekundære assets'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_asset_relation_types_secondary_replace_behavior_tooltip {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_ASSET_RELATION_TYPES_SECONDARY_REPLACE_BEHAVIOR_TOOLTIP'
+  group = 'administration-tools - system - asset-relation-types'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Specify what happens to assets in the relation when the secondary asset is replaced'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Specificer, hvad der sker med assets i relationen, når det sekundære asset bliver erstattet'
       language_id = data.language.danish.id
     }
   ]
