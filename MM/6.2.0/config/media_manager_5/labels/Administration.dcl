@@ -12758,11 +12758,11 @@ resource configservice_label administration_tools_system_asset_relation_types_lo
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Locked for deletion when primary'
+      default_translation = 'Primary assets of this relation cannot be deleted'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Låst til sletning, når den er primær'
+      default_translation = 'Primære assets i denne relation må ikke kunne slettes'
       language_id = data.language.danish.id
     }
   ]
@@ -12774,11 +12774,11 @@ resource configservice_label administration_tools_system_asset_relation_types_lo
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'If enabled, deletion is blocked if the primary is deleted'
+      default_translation = 'If enabled, assets that are set to be primary in this relation, will not be able to be deleted'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Hvis den er aktiveret, blokeres sletning, hvis den primære slettes'
+      default_translation = 'Hvis aktiveret, vil assets, der er indstillet til at være primære i denne relation, ikke kunne slettes'
       language_id = data.language.danish.id
     }
   ]
@@ -12790,11 +12790,11 @@ resource configservice_label administration_tools_system_asset_relation_types_lo
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Locked for deletion when secondary'
+      default_translation = 'Secondary assets of this relation cannot be deleted'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Låst til sletning, når den er sekundær'
+      default_translation = 'Sekundære assets i denne relation må ikke kunne slettes'
       language_id = data.language.danish.id
     }
   ]
@@ -12806,11 +12806,11 @@ resource configservice_label administration_tools_system_asset_relation_types_lo
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'If enabled, deletion is blocked if the secondary is deleted'
+      default_translation = 'If enabled, assets that are set to be secondary in this relation, will not be able to be deleted'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Hvis det er aktiveret, blokeres sletning, hvis det sekundære slettes'
+      default_translation = 'Hvis aktiveret, vil assets, der er indstillet til at være sekundære i denne relation, ikke kunne slettes'
       language_id = data.language.danish.id
     }
   ]
@@ -12886,11 +12886,11 @@ resource configservice_label administration_tools_system_asset_relation_types_pr
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Replace behavior on primary asset'
+      default_translation = 'Replace behavior for primary assets'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Erstatningsadfærd for primær asset'
+      default_translation = 'Erstatningsadfærd for primære assets'
       language_id = data.language.danish.id
     }
   ]
@@ -12902,11 +12902,11 @@ resource configservice_label administration_tools_system_asset_relation_types_pr
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Specify what happens to the relation when the primary asset is replaced'
+      default_translation = 'Specify what happens to assets in this relation when the primary asset is replaced'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Specificer, hvad der sker med relationen, når det primære asset bliver erstattet'
+      default_translation = 'Specificer, hvad der sker med assets i relationen, når det primære asset bliver erstattet'
       language_id = data.language.danish.id
     }
   ]
@@ -12918,11 +12918,11 @@ resource configservice_label administration_tools_system_asset_relation_types_se
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Replace behavior on secondary asset'
+      default_translation = 'Replace behavior for secondary assets'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Erstatningsadfærd for sekundær asset'
+      default_translation = 'Erstatningsadfærd for sekundære assets'
       language_id = data.language.danish.id
     }
   ]
@@ -12934,11 +12934,11 @@ resource configservice_label administration_tools_system_asset_relation_types_se
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Specify what happens to the relation when the secondary asset is replaced'
+      default_translation = 'Specify what happens to assets in the relation when the secondary asset is replaced'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Specificer, hvad der sker med relationen, når det sekundære asset bliver erstattet'
+      default_translation = 'Specificer, hvad der sker med assets i relationen, når det sekundære asset bliver erstattet'
       language_id = data.language.danish.id
     }
   ]
