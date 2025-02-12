@@ -4951,7 +4951,7 @@ resource configservice_label administration_tools_managed_integrations_validatio
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Enter valid Asset ID'
+      default_translation = 'Enter a valid asset ID'
       language_id = data.language.english.id
     },
     {
