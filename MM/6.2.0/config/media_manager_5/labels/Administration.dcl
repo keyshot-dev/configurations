@@ -4955,7 +4955,7 @@ resource configservice_label administration_tools_managed_integrations_validatio
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Indtast gyldigt Asset-ID'
+      default_translation = 'Indtast et gyldigt asset-ID'
       language_id = data.language.danish.id
     }
   ]
