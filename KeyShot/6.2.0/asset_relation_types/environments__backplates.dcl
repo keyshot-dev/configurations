@@ -5,11 +5,11 @@ resource asset_relation_type environments__backplates {
     multiplicity = 'ManyToMany'
 	show_in_list_when_primary = true
 	show_in_list_when_secondary = true
-    source_asset_categories = [{
+    primary_asset_categories = [{
             asset_category_id = resource.asset_category.environment.id
             recursive = false
         }]
-    target_asset_categories = [{
+    secondary_asset_categories = [{
             asset_category_id = resource.asset_category.backplate.id
             recursive = false
         }]

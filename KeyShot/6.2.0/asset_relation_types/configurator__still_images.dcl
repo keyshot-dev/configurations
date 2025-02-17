@@ -5,11 +5,11 @@ resource asset_relation_type configurator__still_images {
     multiplicity = 'OneToMany'
 	show_in_list_when_primary = true
 	show_in_list_when_secondary = true
-    source_asset_categories = [{
+    primary_asset_categories = [{
             asset_category_id = resource.asset_category.configurator.id
             recursive = false
         }]
-    target_asset_categories = [{
+    secondary_asset_categories = [{
             asset_category_id = resource.asset_category.still_image.id
             recursive = false
         }]
