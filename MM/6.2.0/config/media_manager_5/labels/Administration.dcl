@@ -12950,11 +12950,11 @@ resource configservice_label administration_tools_system_asset_relation_types_se
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Specify what happens to secondary assets in this relation when the secondary asset is replaced'
+      default_translation = 'Specify what happens to primary assets in this relation when secondary assets are replaced'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Angiv, hvad der sker med sekundære assets i denne relation, når primære assets udskiftes'
+      default_translation = 'Angiv, hvad der sker med primære assets i denne relation, når sekundære assets udskiftes'
       language_id = data.language.danish.id
     }
   ]
