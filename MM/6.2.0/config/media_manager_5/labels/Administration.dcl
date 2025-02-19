@@ -12598,11 +12598,11 @@ resource configservice_label administration_tools_system_asset_relation_types_bl
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'If ticked, target assets in this relation can never be published to any channels'
+      default_translation = 'If enabled, secondary assets in this relation can never be published to any channels'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Hvis sat, kan mål-assets i denne relation aldrig publiceres til nogen kanaler'
+      default_translation = 'Hvis aktiveret, vil sekundære assets i denne relation aldrig kunne publiceres til nogen kanaler'
       language_id = data.language.danish.id
     }
   ]
@@ -12630,11 +12630,11 @@ resource configservice_label administration_tools_system_asset_relation_types_in
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'If enabled, target assets in this relation will inherit the source assets\' channel folders'
+      default_translation = 'If enabled, secondary assets in this relation will be placed in the same channel folders as the primary assets are in'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Hvis det er aktiveret, vil mål-assets i denne relation nedarve kilde-assetternes kanalmapper'
+      default_translation = 'Hvis aktiveret, vil sekundære assets i denne relation blive placeret i de samme kanalmapper, som de primære assets er i'
       language_id = data.language.danish.id
     }
   ]
@@ -12662,11 +12662,11 @@ resource configservice_label administration_tools_system_asset_relation_types_se
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Controls which parts of item security the target assets in this relation will inherit from the source assets'
+      default_translation = 'If enabled, secondary assets will inherit the primary assets\' read-rights (if there are multiple primary assets, secondary will get the read-rights from all of them)'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Styrer, hvilke dele af item-security mål-assets i denne relation nedarver fra kilde-assetsne'
+      default_translation = 'Hvis aktiveret, vil sekundære assets nedarve de primære assets læserettigheder (hvis der er flere primære assets, vil de sekundære assets få læserettighederne fra dem alle)'
       language_id = data.language.danish.id
     }
   ]
@@ -12678,11 +12678,11 @@ resource configservice_label administration_tools_system_asset_relation_types_se
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Inherit write-rights'
+      default_translation = 'Inherit read and write-rights'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Nedarv skriverettigheder'
+      default_translation = 'Nedarv læse og -skriverettigheder'
       language_id = data.language.danish.id
     }
   ]
@@ -12694,11 +12694,11 @@ resource configservice_label administration_tools_system_asset_relation_types_se
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Controls which parts of item security the target assets in this relation will inherit from the source assets'
+      default_translation = 'If enabled, secondary assets will inherit the primary assets\' read and write-rights (if there are multiple primary assets, secondary will get read and write-rights from all of them)'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Styrer, hvilke dele af item-security mål-assets i denne relation nedarver fra kilde-assetsne'
+      default_translation = 'Hvis aktiveret, vil sekundære assets nedarve de primære assets læse- og skriverettigheder (hvis der er flere primære assets, vil de sekundære assets få læse- og skriverettigheder fra dem alle)'
       language_id = data.language.danish.id
     }
   ]
@@ -12854,11 +12854,11 @@ resource configservice_label administration_tools_system_asset_relation_types_sy
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'If enabled, target assets in this relation will be made available when creating renditions of their source assets. Note that this is only supported by some transcoders'
+      default_translation = 'If enabled, secondary assets in this relation will be made available while creating renditions of their primary assets. Note that this is only supported by some transcoders'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Hvis sat, vil mål-assets i denne relation blive gjort tilgængelige, når der oprettes renditions af deres kilde-assets. Bemærk, at dette kun er understøttet af bestemte transkodere'
+      default_translation = 'Hvis aktiveret, vil sekundære assets i denne relation blive gjort tilgængelige, mens der bliver lavet renditions af deres primære assets. Bemærk, at dette kun understøttes af bestemte transkodere'
       language_id = data.language.danish.id
     }
   ]
@@ -12918,11 +12918,11 @@ resource configservice_label administration_tools_system_asset_relation_types_pr
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Specify what happens to assets in this relation when the primary asset is replaced'
+      default_translation = 'Specify what happens to secondary assets in this relation when primary assets are replaced'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Specificer, hvad der sker med assets i relationen, når det primære asset bliver erstattet'
+      default_translation = 'Angiv, hvad der sker med sekundære assets i denne relation, når primære assets udskiftes'
       language_id = data.language.danish.id
     }
   ]
@@ -12950,11 +12950,11 @@ resource configservice_label administration_tools_system_asset_relation_types_se
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Specify what happens to assets in the relation when the secondary asset is replaced'
+      default_translation = 'Specify what happens to primary assets in this relation when secondary assets are replaced'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Specificer, hvad der sker med assets i relationen, når det sekundære asset bliver erstattet'
+      default_translation = 'Angiv, hvad der sker med primære assets i denne relation, når sekundære assets udskiftes'
       language_id = data.language.danish.id
     }
   ]
@@ -13350,11 +13350,11 @@ resource configservice_label administration_tools_system_asset_relation_types_sh
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Show on primary asset'
+      default_translation = 'Show on primary assets'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Vis på det primære asset'
+      default_translation = 'Vis på primære assets'
       language_id = data.language.danish.id
     }
   ]
@@ -13366,11 +13366,11 @@ resource configservice_label administration_tools_system_asset_relation_types_sh
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'If enabled, the relation is displayed in the \'Related assets\' tab when viewing the primary asset'
+      default_translation = 'If enabled, secondary assets will be listed in primary assets\' \'Related assets\' tabs'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Hvis aktiveret, vises relationen i fanen \'Relaterede assets\', når du ser på det primære asset'
+      default_translation = 'Hvis aktiveret, vil sekundære assets blive oplistet i de primære assets\' \'Relaterede assets\'-fane'
       language_id = data.language.danish.id
     }
   ]
@@ -13382,11 +13382,11 @@ resource configservice_label administration_tools_system_asset_relation_types_sh
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Show on secondary asset'
+      default_translation = 'Show on secondary assets'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Vis på det sekundære asset'
+      default_translation = 'Vis på sekundære assets'
       language_id = data.language.danish.id
     }
   ]
@@ -13398,11 +13398,11 @@ resource configservice_label administration_tools_system_asset_relation_types_sh
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'If enabled, the relation is displayed in the \'Related assets\' tab when viewing the secondary asset'
+      default_translation = 'If enabled, secondary assets will be listed in primary assets\' \'Related assets\' tabs'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Hvis aktiveret, vises relationen i fanen \'Relaterede assets\' når man ser på det sekundære asset'
+      default_translation = 'Hvis aktiveret, vil sekundære assets blive oplistet i de primære assets\' \'Relaterede assets\'-fane'
       language_id = data.language.danish.id
     }
   ]
@@ -13430,11 +13430,11 @@ resource configservice_label administration_tools_system_asset_relation_types_sy
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'If enabled, secondary assets of this relation will be filtered out when searching'
+      default_translation = 'If enabled, secondary assets of this relation will not be available in the asset list (unless users add the "Secondary to primary" filter option)'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Hvis det er aktiveret, vil sekundære assets i denne relation blive filtreret fra, når man søger'
+      default_translation = 'Hvis aktiveret, vil sekundære assets i denne relation ikke være tilgængelige på asset-listen (medmindre brugere tilføjer "Sekundær til primær"-filterindstillingen)'
       language_id = data.language.danish.id
     }
   ]
