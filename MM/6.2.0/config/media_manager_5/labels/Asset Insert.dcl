@@ -29,3 +29,35 @@ resource configservice_label asset_insert_link_copied_notification {
     }
   ]
 }
+
+resource configservice_label asset_insert_invalid_extension {
+  key = 'ASSET_INSERT_INVALID_EXTENSION'
+  group = 'Asset Insert'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'The extension cannot be inserted'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Filendelsen kan ikke indsættes'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_insert_invalid_asset_type {
+  key = 'ASSET_INSERT_INVALID_ASSET_TYPE'
+  group = 'Asset Insert'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'The asset type cannot be inserted'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Assettypen kan ikke blive indsat'
+      language_id = data.language.danish.id
+    }
+  ]
+}
