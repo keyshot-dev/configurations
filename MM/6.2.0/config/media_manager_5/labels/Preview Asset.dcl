@@ -1380,11 +1380,11 @@ resource configservice_label add_asset_relation_popup_apply {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Add'
+      default_translation = '{count, cardinalPlural, =0 {Add} other {Add ({{count}})}}'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Tilføj'
+      default_translation = '{count, cardinalPlural, =0 {Tilføj} other {Tilføj ({{count}})}}'
       language_id = data.language.danish.id
     }
   ]
