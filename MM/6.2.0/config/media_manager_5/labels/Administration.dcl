@@ -13126,7 +13126,7 @@ resource configservice_label administration_tools_system_asset_relation_types_de
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Errors'
+      default_translation = 'Error'
       language_id = data.language.english.id
     },
     {
@@ -13286,11 +13286,11 @@ resource configservice_label administration_tools_system_asset_relation_types_pr
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Fields on primary asset list'
+      default_translation = 'Show additional fields'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Felter på det primære asset liste'
+      default_translation = 'Vis yderligere felter'
       language_id = data.language.danish.id
     }
   ]
@@ -13302,15 +13302,15 @@ resource configservice_label administration_tools_system_asset_relation_types_pr
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'These fields will appear when listing primary assets'
+      default_translation = 'These fields will appear when listing primary assets (when on secondary assets)'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Disse felter vises, når man oplister de primære assets'
+      default_translation = 'Disse felter vises, når man lister primære assets (når man er på sekundære assets)'
       language_id = data.language.danish.id
     }
   ]
-}
+}.
 
 resource configservice_label administration_tools_system_asset_relation_types_secondary_metadata_fields {
   key = 'ADMINISTRATION_TOOLS_SYSTEM_ASSET_RELATION_TYPES_SECONDARY_METADATA_FIELDS'
@@ -13318,11 +13318,11 @@ resource configservice_label administration_tools_system_asset_relation_types_se
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Fields on secondary asset list'
+      default_translation = 'Show additional fields'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Felter på det sekundære asset liste'
+      default_translation = 'Vis yderligere felter'
       language_id = data.language.danish.id
     }
   ]
@@ -13334,11 +13334,11 @@ resource configservice_label administration_tools_system_asset_relation_types_se
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'These fields will appear when listing secondary assets'
+      default_translation = 'These fields will appear when listing secondary assets (when on primary assets)'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Disse felter vises, når man oplister de sekundære assets'
+      default_translation = 'Disse felter vil blive vist, når man lister sekundære assets (når man er på primære assets)'
       language_id = data.language.danish.id
     }
   ]
