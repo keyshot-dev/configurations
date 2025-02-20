@@ -13310,7 +13310,7 @@ resource configservice_label administration_tools_system_asset_relation_types_pr
       language_id = data.language.danish.id
     }
   ]
-}.
+}
 
 resource configservice_label administration_tools_system_asset_relation_types_secondary_metadata_fields {
   key = 'ADMINISTRATION_TOOLS_SYSTEM_ASSET_RELATION_TYPES_SECONDARY_METADATA_FIELDS'
