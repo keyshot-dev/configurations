@@ -12726,11 +12726,11 @@ resource configservice_label administration_tools_system_asset_relation_types_in
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'If enabled, target assets in this relation will automatically be soft deleted when their source assets are soft deleted'
+      default_translation = 'If enabled, secondary assets in this relation will automatically be soft deleted when their primary assets are soft deleted'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Hvis sat, vil mål-assets i denne relation automatisk blive slettet blødt, når deres kilde-assets bliver slettet blødt'
+      default_translation = 'Hvis sat, vil sekundære assets i denne relation automatisk blive slettet blødt, når deres primære assets bliver slettet blødt'
       language_id = data.language.danish.id
     }
   ]
@@ -12758,11 +12758,11 @@ resource configservice_label administration_tools_system_asset_relation_types_in
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'If enabled, target assets in this relation will automatically be hard deleted when their source assets are hard deleted'
+      default_translation = 'If enabled, secondary assets in this relation will automatically be hard deleted when their primary assets are hard deleted'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Hvis sat, vil mål-assets i denne relation automatisk blive slettet hårdt, når deres kilde-assets bliver slettet hårdt'
+      default_translation = 'Hvis sat, vil sekundære assets i denne relation automatisk blive slettet hårdt, når deres primære assets bliver slettet hårdt'
       language_id = data.language.danish.id
     }
   ]
@@ -12886,11 +12886,11 @@ resource configservice_label administration_tools_system_asset_relation_types_ov
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'The different format purposes where the source asset should use the rendition of the target asset'
+      default_translation = 'Formats where the secondary asset should use the primary asset\'s renditions instead'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'De forskellige formatformål, hvor kilde-assettet skal bruge renditionen fra mål-assetet'
+      default_translation = 'Formater, hvor det sekundære asset skal bruge det primære assets renditions i stedet'
       language_id = data.language.danish.id
     }
   ]
@@ -12918,11 +12918,11 @@ resource configservice_label administration_tools_system_asset_relation_types_pr
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Specify what happens to secondary assets in this relation when primary assets are replaced'
+      default_translation = 'Specify what happens to secondary assets when primary assets are replaced'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Angiv, hvad der sker med sekundære assets i denne relation, når primære assets udskiftes'
+      default_translation = 'Angiv, hvad der sker med sekundære assets, når primære assets udskiftes'
       language_id = data.language.danish.id
     }
   ]
@@ -12950,11 +12950,11 @@ resource configservice_label administration_tools_system_asset_relation_types_se
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Specify what happens to primary assets in this relation when secondary assets are replaced'
+      default_translation = 'Specify what happens to primary assets when secondary assets are replaced'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Angiv, hvad der sker med primære assets i denne relation, når sekundære assets udskiftes'
+      default_translation = 'Angiv, hvad der sker med primære assets, når sekundære assets udskiftes'
       language_id = data.language.danish.id
     }
   ]
@@ -13482,7 +13482,7 @@ resource configservice_label administration_tools_system_similar_search_section_
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Inkluder allerede beregnede'
+      default_translation = 'Inkluder allerede-beregnede'
       language_id = data.language.danish.id
     }
   ]
@@ -13498,7 +13498,7 @@ resource configservice_label administration_tools_system_similar_search_section_
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Hvis aktiveret, vil dette beregne alle billedvektorer, inklusive de allerede beregnede billedvektorer'
+      default_translation = 'Hvis aktiveret, vil dette beregne alle billedvektorer, inklusive de allerede-beregnede billedvektorer'
       language_id = data.language.danish.id
     }
   ]
