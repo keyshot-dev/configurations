@@ -12886,11 +12886,11 @@ resource configservice_label administration_tools_system_asset_relation_types_ov
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Formats where the secondary asset should use the primary asset\'s renditions instead'
+      default_translation = 'Formats where the primary asset should use the secondary asset\'s renditions instead'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Formater, hvor det sekundære asset skal bruge det primære assets renditions i stedet'
+      default_translation = 'Formater, hvor det primære asset skal bruge det sekundære assets renditions i stedet'
       language_id = data.language.danish.id
     }
   ]
