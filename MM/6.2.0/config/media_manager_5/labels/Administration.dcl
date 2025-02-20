@@ -2782,6 +2782,22 @@ resource configservice_label administration_tools_analytics_table_builder_how_ma
   ]
 }
 
+resource configservice_label administration_tools_analytics_table_builder_how_many_entries_to_show_tooltip {
+  key = 'ADMINISTRATION_TOOLS_ANALYTICS_TABLE_BUILDER_HOW_MANY_ENTRIES_TO_SHOW_TOOLTIP'
+  group = 'administration-tools - analytics-table-builder'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'A large number of rows can slow down the page'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Et stort antal rækker kan gøre siden langsommere'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label administration_tools_analytics_table_builder_descending {
   key = 'ADMINISTRATION_TOOLS_ANALYTICS_TABLE_BUILDER_DESCENDING'
   group = 'administration-tools - analytics-table-builder'
