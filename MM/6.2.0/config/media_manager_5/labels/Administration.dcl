@@ -13062,11 +13062,11 @@ resource configservice_label administration_tools_system_asset_relation_types_di
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Are you sure you want to delete this asset relation type?'
+      default_translation = 'Deleting \'{{name}}\' will remove all existing asset relations of this type permanently. This action cannot be undone. Are you sure you want to proceed?'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Er du sikker på, at du vil slette denne asset-relationstype?'
+      default_translation = 'Sletning af \'{{name}}\' vil fjerne alle eksisterende asset-relationer af denne type permanent. Denne handling kan ikke fortrydes. Er du sikker på, at du vil fortsætte?'
       language_id = data.language.danish.id
     }
   ]
