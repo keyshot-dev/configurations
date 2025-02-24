@@ -1236,11 +1236,11 @@ resource configservice_label related_assets_add_asset_relation_popup_title {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Add relation to asset \'{{title}}\''
+      default_translation = 'Add relation to \'{{title}}\''
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Tilføj relation til asset \'{{title}}\''
+      default_translation = 'Tilføj relation til \'{{title}}\''
       language_id = data.language.danish.id
     }
   ]
