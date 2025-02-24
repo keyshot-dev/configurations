@@ -8,6 +8,11 @@ resource asset_relation_type used_by {
     deletion_behavior = {
         enable_behavior = false
     }
+    replace_behavior = {
+        enable_behavior = true
+        primary_replace_behavior = 'MoveToArchive'
+        secondary_replace_behavior = 'Ignore'
+    }
     labels = [{
             language_id = resource.language.english.id
             label = 'Usage'
