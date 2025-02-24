@@ -12666,7 +12666,7 @@ resource configservice_label administration_tools_system_asset_relation_types_se
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Læs'
+      default_translation = 'Læse'
       language_id = data.language.danish.id
     }
   ]
@@ -12694,11 +12694,11 @@ resource configservice_label administration_tools_system_asset_relation_types_se
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Read & Write'
+      default_translation = 'Read and write'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Læs & Skriv'
+      default_translation = 'Læse og skrive'
       language_id = data.language.danish.id
     }
   ]
