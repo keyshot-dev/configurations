@@ -1316,7 +1316,7 @@ resource configservice_label related_assets_add_asset_relation_popup_assets_sele
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = {{selectedAssetsCount}} of {{totalAssetsCount}} selected'
+      default_translation = '{{selectedAssetsCount}} of {{totalAssetsCount}} selected'
       language_id = data.language.english.id
     },
     {
