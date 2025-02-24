@@ -12694,11 +12694,11 @@ resource configservice_label administration_tools_system_asset_relation_types_se
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Read and write'
+      default_translation = 'Read & Write'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Læse- og skriverettigheder'
+      default_translation = 'Læs & Skriv'
       language_id = data.language.danish.id
     }
   ]
