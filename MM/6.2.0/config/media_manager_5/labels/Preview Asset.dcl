@@ -1236,11 +1236,11 @@ resource configservice_label related_assets_add_asset_relation_popup_title {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Add relation'
+      default_translation = 'Add relation to \'{{title}}\''
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Tilføj relation'
+      default_translation = 'Tilføj relation til \'{{title}}\''
       language_id = data.language.danish.id
     }
   ]
@@ -1252,27 +1252,75 @@ resource configservice_label related_assets_add_asset_relation_popup_relation_ty
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Relation type'
+      default_translation = 'Choose relation type'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Relationstype'
+      default_translation = 'Vælg relationstype'
       language_id = data.language.danish.id
     }
   ]
 }
 
-resource configservice_label related_assets_add_asset_relation_popup_total_assets {
-  key = 'RELATED_ASSETS_ADD_ASSET_RELATION_POPUP_TOTAL_ASSETS'
+resource configservice_label related_assets_add_asset_relation_popup_relation_type_direction_primary_tooltip {
+  key = 'RELATED_ASSETS_ADD_ASSET_RELATION_POPUP_RELATION_TYPE_DIRECTION_PRIMARY_TOOLTIP'
   group = 'Preview Asset - Related Assets'
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Assets'
+      default_translation = 'Current asset will be the primary asset in the new relation'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Assets'
+      default_translation = 'Det nuværende asset vil være det primære asset i den nye relation'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label related_assets_add_asset_relation_popup_relation_type_direction_secondary_tooltip {
+  key = 'RELATED_ASSETS_ADD_ASSET_RELATION_POPUP_RELATION_TYPE_DIRECTION_SECONDARY_TOOLTIP'
+  group = 'Preview Asset - Related Assets'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Current asset will be the secondary asset in the new relation'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Det nuværende asset vil være det sekundære asset i den nye relation'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label related_assets_add_asset_relation_popup_choose_assets {
+  key = 'RELATED_ASSETS_ADD_ASSET_RELATION_POPUP_CHOOSE_ASSETS'
+  group = 'Preview Asset - Related Assets'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Choose {multiple, select, true {assets} false {asset}}'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Vælg {multiple, select, true {assets} false {asset}}'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label related_assets_add_asset_relation_popup_assets_selected {
+  key = 'RELATED_ASSETS_ADD_ASSET_RELATION_POPUP_ASSETS_SELECTED'
+  group = 'Preview Asset - Related Assets'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = '{{selectedAssetsCount}} of {{totalAssetsCount}} selected'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = '{{selectedAssetsCount}} af {{totalAssetsCount}} valgt'
       language_id = data.language.danish.id
     }
   ]
