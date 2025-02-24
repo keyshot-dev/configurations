@@ -12662,27 +12662,27 @@ resource configservice_label administration_tools_system_asset_relation_types_se
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Inherit read-rights'
+      default_translation = 'Read'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Nedarv læserettigheder'
+      default_translation = 'Læs'
       language_id = data.language.danish.id
     }
   ]
 }
 
-resource configservice_label administration_tools_system_asset_relation_types_security_behavior_inheritance_inherit_read_tooltip {
-  key = 'ADMINISTRATION_TOOLS_SYSTEM_ASSET_RELATION_TYPES_SECURITY_BEHAVIOR_INHERITANCE_INHERIT_READ_TOOLTIP'
+resource configservice_label administration_tools_system_asset_relation_types_security_behavior_inheritance_inherit_rights_tooltip {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_ASSET_RELATION_TYPES_SECURITY_BEHAVIOR_INHERITANCE_INHERIT_RIGHTS_TOOLTIP'
   group = 'administration-tools - system - asset-relation-types'
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'If enabled, secondary assets will inherit the primary assets\' read-rights (if there are multiple primary assets, secondary will get the read-rights from all of them)'
+      default_translation = 'Choose what rights secondary assets will inherit from the primary asset. If there are multiple primary assets, secondary will get the read-rights from all of them'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Hvis aktiveret, vil sekundære assets nedarve de primære assets læserettigheder (hvis der er flere primære assets, vil de sekundære assets få læserettighederne fra dem alle)'
+      default_translation = 'Vælg hvilke rettigheder sekundære assets vil nedarve fra det primære asset. Hvis der er flere primære assets, vil de sekundære assets få læserettigheder fra dem alle'
       language_id = data.language.danish.id
     }
   ]
@@ -12694,27 +12694,27 @@ resource configservice_label administration_tools_system_asset_relation_types_se
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Inherit read and write-rights'
+      default_translation = 'Read and write'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Nedarv læse og -skriverettigheder'
+      default_translation = 'Læse- og skriverettigheder'
       language_id = data.language.danish.id
     }
   ]
 }
 
-resource configservice_label administration_tools_system_asset_relation_types_security_behavior_inheritance_inherit_write_tooltip {
-  key = 'ADMINISTRATION_TOOLS_SYSTEM_ASSET_RELATION_TYPES_SECURITY_BEHAVIOR_INHERITANCE_INHERIT_WRITE_TOOLTIP'
+resource configservice_label administration_tools_system_asset_relation_types_security_behavior_inheritance_inherit_rights {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_ASSET_RELATION_TYPES_SECURITY_BEHAVIOR_INHERITANCE_INHERIT_RIGHTS'
   group = 'administration-tools - system - asset-relation-types'
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'If enabled, secondary assets will inherit the primary assets\' read and write-rights (if there are multiple primary assets, secondary will get read and write-rights from all of them)'
+      default_translation = 'Inherit rights'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Hvis aktiveret, vil sekundære assets nedarve de primære assets læse- og skriverettigheder (hvis der er flere primære assets, vil de sekundære assets få læse- og skriverettigheder fra dem alle)'
+      default_translation = 'Nedarv rettigheder'
       language_id = data.language.danish.id
     }
   ]
