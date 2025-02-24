@@ -1272,7 +1272,7 @@ resource configservice_label related_assets_add_asset_relation_popup_relation_ty
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Nuværende asset vil være den primære asset i den nye relation'
+      default_translation = 'Det nuværende asset vil være det primære asset i den nye relation'
       language_id = data.language.danish.id
     }
   ]
@@ -1288,7 +1288,7 @@ resource configservice_label related_assets_add_asset_relation_popup_relation_ty
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Nuværende asset vil være den sekundære asset i den nye relation'
+      default_translation = 'Det nuværende asset vil være det sekundære asset i den nye relation'
       language_id = data.language.danish.id
     }
   ]
