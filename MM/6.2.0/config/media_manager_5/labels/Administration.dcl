@@ -13174,11 +13174,11 @@ resource configservice_label administration_tools_system_asset_relation_types_ch
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Asset relation type not saved. {{error}}'
+      default_translation = 'Asset relation type not saved. \\n{{error}}'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Asset-relationstypen blev ikke gemt. {{error}}'
+      default_translation = 'Asset-relationstypen blev ikke gemt. \\n{{error}}'
       language_id = data.language.danish.id
     }
   ]
