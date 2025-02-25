@@ -728,7 +728,7 @@ resource configservice_label selected_assets_overlay_not_valid_asset_types_dialo
       language_id = data.language.english.id
     },
     {
-      default_translation = '{count, cardinalPlural, one {Kan ikke indsætte filendelsen: {{invalidExtensions}}} other {Kan ikke indsætte filendelser: {{invalidExtensions}}}}'
+      default_translation = '{count, cardinalPlural, one {Kan ikke indsætte filendelsen: {{invalidExtensions}}} other {Kan ikke indsætte filendelserne: {{invalidExtensions}}}}'
       language_id = data.language.danish.id
     }
   ]

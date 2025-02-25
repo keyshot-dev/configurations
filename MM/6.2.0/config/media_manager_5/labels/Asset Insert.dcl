@@ -56,7 +56,7 @@ resource configservice_label asset_insert_invalid_asset_type {
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Assettypen kan ikke blive indsat'
+      default_translation = 'Assettypen kan ikke indsættes'
       language_id = data.language.danish.id
     }
   ]
