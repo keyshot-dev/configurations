@@ -13238,11 +13238,11 @@ resource configservice_label administration_tools_system_asset_relation_types_pr
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Primary to secondary label'
+      default_translation = 'Secondary asset(s)'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Primær til sekundær label'
+      default_translation = 'Sekundære asset(s)'
       language_id = data.language.danish.id
     }
   ]
@@ -13254,11 +13254,11 @@ resource configservice_label administration_tools_system_asset_relation_types_pr
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'The label will be shown in the \'Related assets\' tab on the primary asset'
+      default_translation = 'The label will appear when you make new relations, and when listing secondary assets on the primary asset(s\') \'Related assets\' tab'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Labelet vil kunne ses inde under fanen \'Relaterede assets\' når man er på det primære asset'
+      default_translation = 'Labelet vises, når du opretter nye relationer, samt når du oplister sekundære assets på primære assets\' \'Relaterede assets\'-fane''
       language_id = data.language.danish.id
     }
   ]
@@ -13270,11 +13270,11 @@ resource configservice_label administration_tools_system_asset_relation_types_se
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Secondary to primary label'
+      default_translation = 'Primary asset(s)'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Sekundær til primær label'
+      default_translation = 'Primære asset(s)'
       language_id = data.language.danish.id
     }
   ]
@@ -13286,11 +13286,11 @@ resource configservice_label administration_tools_system_asset_relation_types_se
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'The label will be shown in the \'Related assets\' tab on the secondary asset'
+      default_translation = 'The label will appear when you make new relations, and when listing primary assets on the secondary asset(s\') \'Related assets\' tab'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Labelet vil kunne ses inde under fanen \'Relaterede assets\' når man er på det sekundære asset'
+      default_translation = 'Labelet vises, når du opretter nye relationer, samt når du oplister primære assets på sekundære assets\' \'Relaterede assets\'-fane'
       language_id = data.language.danish.id
     }
   ]
