@@ -21,6 +21,9 @@ resource asset_relation_type derived_from {
             primary_to_secondary_label = 'Derives'
             secondary_to_primary_label = 'Derived from'
         }]
+    additional_fields_when_secondary = [{
+        search_key = '${to_string(resource.string_metafield.crop_name.item_guid)}'
+    }]
 }
 
 
