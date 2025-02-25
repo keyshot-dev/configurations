@@ -13258,7 +13258,7 @@ resource configservice_label administration_tools_system_asset_relation_types_pr
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Labelet vises, når du opretter nye relationer, samt når du oplister sekundære assets på primære assets\' \'Relaterede assets\'-fane''
+      default_translation = 'Labelet vises, når du opretter nye relationer, samt når du oplister sekundære assets på primære assets\' \'Relaterede assets\'-fane'
       language_id = data.language.danish.id
     }
   ]
