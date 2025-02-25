@@ -718,6 +718,22 @@ resource configservice_label selected_assets_overlay_not_valid_asset_types_dialo
   ]
 }
 
+resource configservice_label selected_assets_overlay_not_valid_asset_types_dialog_invalid_extensions {
+  key = 'SELECTED_ASSETS_OVERLAY_NOT_VALID_ASSET_TYPES_DIALOG_INVALID_EXTENSIONS'
+  group = 'Selected Assets'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = '{count, cardinalPlural, one {Cannot insert the extension: {{invalidExtensions}}} other {Cannot insert the extensions: {{invalidExtensions}}}}'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = '{count, cardinalPlural, one {Kan ikke indsætte filendelsen: {{invalidExtensions}}} other {Kan ikke indsætte filendelserne: {{invalidExtensions}}}}'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label selected_assets_overlay_not_valid_asset_types_dialog_do_you_want_to_insert_available_assets {
   key = 'SELECTED_ASSETS_OVERLAY_NOT_VALID_ASSET_TYPES_DIALOG_DO_YOU_WANT_TO_INSERT_AVAILABLE_ASSETS'
   group = 'Selected Assets'
