@@ -672,6 +672,38 @@ resource configservice_label audit_trail_asset_deleted_summary {
   ]
 }
 
+resource configservice_label audit_trail_asset_checked_in_summary {
+  key = 'AUDIT_TRAIL_ASSET_CHECKED_IN_SUMMARY'
+  group = 'Audit Trail'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Asset checked in'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Asset tjekket ind'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label audit_trail_asset_checked_out_summary {
+  key = 'AUDIT_TRAIL_ASSET_CHECKED_OUT_SUMMARY'
+  group = 'Audit Trail'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Asset checked out'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Asset tjekket ud'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label audit_trail_asset_created_summary {
   key = 'AUDIT_TRAIL_ASSET_CREATED_SUMMARY'
   group = 'Audit Trail'
