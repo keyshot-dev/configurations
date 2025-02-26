@@ -6572,3 +6572,18 @@ resource configservice_label administration_tools_analytics_member_filter_member
 }
 
 
+resource configservice_label administration_tools_meta_fields_section_ignore_values_in_configuration_management {
+  key = 'ADMINISTRATION_TOOLS_META_FIELDS_SECTION_IGNORE_VALUES_IN_CONFIGURATION_MANAGEMENT'
+  group = 'administration-tools - meta-fields-section'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Ignore values in configuration management'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Ignorer værdier i configuration management'
+      language_id = data.language.danish.id
+    }
+  ]
+}
