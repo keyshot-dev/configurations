@@ -1300,11 +1300,11 @@ resource configservice_label related_assets_add_asset_relation_popup_choose_asse
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Choose {multiple, select, true {assets} false {asset}}'
+      default_translation = 'Choose {multiple, select, true {assets} false {one asset}}'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Vælg {multiple, select, true {assets} false {asset}}'
+      default_translation = 'Vælg {multiple, select, true {assets} false {et asset}}'
       language_id = data.language.danish.id
     }
   ]
