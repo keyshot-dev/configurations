@@ -334,6 +334,54 @@ resource configservice_label audit_trail_column_new_value {
   ]
 }
 
+resource configservice_label audit_trail_column_checkin_note {
+  key = 'AUDIT_TRAIL_COLUMN_CHECKIN_NOTE'
+  group = 'Audit Trail'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Check-in note'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Indtjeknings-note'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label audit_trail_column_checkin_causes {
+  key = 'AUDIT_TRAIL_COLUMN_CHECKIN_CAUSES'
+  group = 'Audit Trail'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Checkin causes'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Tjekind årsager'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label audit_trail_column_checkout_note {
+  key = 'AUDIT_TRAIL_COLUMN_CHECKOUT_NOTE'
+  group = 'Audit Trail'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Check-out note'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Udtjeknings-note'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label audit_trail_column_file_name {
   key = 'AUDIT_TRAIL_COLUMN_FILE_NAME'
   group = 'Audit Trail'
@@ -667,6 +715,38 @@ resource configservice_label audit_trail_asset_deleted_summary {
     },
     {
       default_translation = 'Asset slettet'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label audit_trail_asset_checked_in_summary {
+  key = 'AUDIT_TRAIL_ASSET_CHECKED_IN_SUMMARY'
+  group = 'Audit Trail'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Asset checked in'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Asset tjekket ind'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label audit_trail_asset_checked_out_summary {
+  key = 'AUDIT_TRAIL_ASSET_CHECKED_OUT_SUMMARY'
+  group = 'Audit Trail'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Asset checked out'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Asset tjekket ud'
       language_id = data.language.danish.id
     }
   ]
