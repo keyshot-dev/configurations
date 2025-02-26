@@ -334,6 +334,54 @@ resource configservice_label audit_trail_column_new_value {
   ]
 }
 
+resource configservice_label audit_trail_column_checkin_note {
+  key = 'AUDIT_TRAIL_COLUMN_CHECKIN_NOTE'
+  group = 'Audit Trail'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Checkin note'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Tjekind note'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label audit_trail_column_checkin_causes {
+  key = 'AUDIT_TRAIL_COLUMN_CHECKIN_CAUSES'
+  group = 'Audit Trail'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Checkin causes'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Tjekind årsager'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label audit_trail_column_checkout_note {
+  key = 'AUDIT_TRAIL_COLUMN_CHECKOUT_NOTE'
+  group = 'Audit Trail'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Checkout note'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Tjekud note'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label audit_trail_column_file_name {
   key = 'AUDIT_TRAIL_COLUMN_FILE_NAME'
   group = 'Audit Trail'
