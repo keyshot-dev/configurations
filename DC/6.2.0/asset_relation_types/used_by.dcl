@@ -1,7 +1,7 @@
 resource asset_relation_type used_by {
     guid = '3eb1ebe5-4428-4d03-9212-b48b9c03e379'
     name = 'Usage'
-    description = 'The secondary asset is used in the first asset, for example a asset within a document'
+    description = 'The secondary asset is used in the primary asset, for example an asset within a document'
     multiplicity = 'ManyToMany'
 	show_in_list_when_primary = true
 	show_in_list_when_secondary = true
