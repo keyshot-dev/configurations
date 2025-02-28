@@ -1572,7 +1572,7 @@ resource configservice_label asset_list_asset_search_image_vector_not_calculated
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'The image vector have not been calculated'
+      default_translation = 'The image vector has not been calculated'
       language_id = data.language.english.id
     },
     {
