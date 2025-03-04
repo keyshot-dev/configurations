@@ -13414,11 +13414,11 @@ resource configservice_label administration_tools_system_asset_relation_types_sh
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'If enabled, secondary assets will be listed in primary assets\' \'Related assets\' tabs'
+      default_translation = 'If enabled, primary assets will be listed in secondary assets\' \'Related assets\' tabs'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Hvis aktiveret, vil sekundære assets blive oplistet i de primære assets\' \'Relaterede assets\'-fane'
+      default_translation = 'Hvis aktiveret, vil primære assets blive oplistet i de sekundære assets\' \'Relaterede assets\'-fane'
       language_id = data.language.danish.id
     }
   ]
