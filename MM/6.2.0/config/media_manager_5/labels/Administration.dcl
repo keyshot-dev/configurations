@@ -12080,6 +12080,182 @@ resource configservice_label administration_tools_system_nav_asset_categories {
   ]
 }
 
+resource configservice_label administration_tools_system_asset_categories_reassign_and_delete_asset_category_modal_title {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_ASSET_CATEGORIES_REASSIGN_AND_DELETE_ASSET_CATEGORY_MODAL_TITLE'
+  group = 'administration-tools - system - asset-categories'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Category in use'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Kategorien er i brug'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_asset_categories_reassign_and_delete_asset_category_modal_confirm_message {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_ASSET_CATEGORIES_REASSIGN_AND_DELETE_ASSET_CATEGORY_MODAL_CONFIRM_MESSAGE'
+  group = 'administration-tools - system - asset-categories'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'One or more assets are assigned to the category \'{{name}}\' or its subcategories.'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Et eller flere assets er tildelt kategorien \'{{name}}\' eller dens underkategorier.'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_asset_categories_reassign_and_delete_asset_category_label_text {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_ASSET_CATEGORIES_REASSIGN_AND_DELETE_ASSET_CATEGORY_LABEL_TEXT'
+  group = 'administration-tools - system - asset-categories'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Assign the assets to this category:'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Flyt assetsne til denne kategori:'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_asset_categories_reassign_and_delete_asset_category_modal_cancel {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_ASSET_CATEGORIES_REASSIGN_AND_DELETE_ASSET_CATEGORY_MODAL_CANCEL'
+  group = 'administration-tools - system - asset-categories'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Cancel'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Annuller'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_asset_categories_reassign_and_delete_asset_category_modal_confirm {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_ASSET_CATEGORIES_REASSIGN_AND_DELETE_ASSET_CATEGORY_MODAL_CONFIRM'
+  group = 'administration-tools - system - asset-categories'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Reassign assets and delete category'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Flyt assetsne og slet kategori'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_asset_categories_reassign {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_ASSET_CATEGORIES_REASSIGN'
+  group = 'administration-tools - system - asset-categories'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Reassign assets to another category'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Flyt assetsne til en anden kategori'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_asset_categories_reassign_asset_category_modal_title {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_ASSET_CATEGORIES_REASSIGN_ASSET_CATEGORY_MODAL_TITLE'
+  group = 'administration-tools - system - asset-categories'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Reassign assets to another category'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Flyt assetsne til en anden kategori'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_asset_categories_reassign_asset_category_modal_label_text {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_ASSET_CATEGORIES_REASSIGN_ASSET_CATEGORY_MODAL_LABEL_TEXT'
+  group = 'administration-tools - system - asset-categories'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Reassign all assets from category \'{{name}}\' to:'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Flyt alle assetsne fra kategori \'{{name}}\' til:'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_asset_categories_reassign_asset_category_modal_cancel {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_ASSET_CATEGORIES_REASSIGN_ASSET_CATEGORY_MODAL_CANCEL'
+  group = 'administration-tools - system - asset-categories'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Cancel'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Annuller'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_asset_categories_reassign_asset_category_modal_confirm {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_ASSET_CATEGORIES_REASSIGN_ASSET_CATEGORY_MODAL_CONFIRM'
+  group = 'administration-tools - system - asset-categories'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Reassign assets'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Flyt assetsne'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_asset_categories_reassign_asset_category_modal_success {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_ASSET_CATEGORIES_REASSIGN_ASSET_CATEGORY_MODAL_SUCCESS'
+  group = 'administration-tools - system - asset-categories'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Category reassigned'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Kategorien omfordelt'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label administration_tools_search_placeholder {
   key = 'ADMINISTRATION_TOOLS_SEARCH_PLACEHOLDER'
   group = 'administration-tools'
