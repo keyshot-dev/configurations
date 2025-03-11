@@ -4961,22 +4961,6 @@ resource configservice_label administration_tools_managed_integrations_failed_no
   ]
 }
 
-resource configservice_label administration_tools_managed_integrations_validation_asset_id {
-  key = 'ADMINISTRATION_TOOLS_MANAGED_INTEGRATION_VALIDATION_ASSET_ID'
-  group = 'administration-tools - managed-integrations-failed-notifications'
-  product_id = resource.configservice_product.media_manager_5.id
-  default_label_values = [
-    {
-      default_translation = 'Enter a valid asset ID'
-      language_id = data.language.english.id
-    },
-    {
-      default_translation = 'Indtast et gyldigt asset-ID'
-      language_id = data.language.danish.id
-    }
-  ]
-}
-
 resource configservice_label administration_tools_managed_integration_tracked_assets_sync_all_assets {
   key = 'ADMINISTRATION_TOOLS_MANAGED_INTEGRATION_TRACKED_ASSETS_SYNC_ALL_ASSETS'
   group = 'administration-tools - managed-integration-tracked-assets'
