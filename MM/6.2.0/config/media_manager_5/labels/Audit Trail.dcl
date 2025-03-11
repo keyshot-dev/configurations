@@ -356,11 +356,11 @@ resource configservice_label audit_trail_column_checkin_causes {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Checkin causes'
+      default_translation = 'Check-in reason'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Tjekind årsager'
+      default_translation = 'Indtjeknings-årsag'
       language_id = data.language.danish.id
     }
   ]
