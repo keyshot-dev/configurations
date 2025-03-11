@@ -12118,11 +12118,11 @@ resource configservice_label administration_tools_system_asset_categories_reassi
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Assign the assets to this category:'
+      default_translation = 'Reassign assets to category:'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Flyt assetsne til denne kategori:'
+      default_translation = 'Omflyt assets til kategori:'
       language_id = data.language.danish.id
     }
   ]
@@ -12154,7 +12154,7 @@ resource configservice_label administration_tools_system_asset_categories_reassi
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Flyt assetsne og slet kategori'
+      default_translation = 'Omflyt assets og slet kategori'
       language_id = data.language.danish.id
     }
   ]
@@ -12170,7 +12170,7 @@ resource configservice_label administration_tools_system_asset_categories_reassi
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Flyt assetsne til en anden kategori'
+      default_translation = 'Omflyt assets til anden kategori'
       language_id = data.language.danish.id
     }
   ]
@@ -12186,7 +12186,7 @@ resource configservice_label administration_tools_system_asset_categories_reassi
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Flyt assetsne til en anden kategori'
+      default_translation = 'Omflyt assets til anden kategori'
       language_id = data.language.danish.id
     }
   ]
@@ -12198,11 +12198,11 @@ resource configservice_label administration_tools_system_asset_categories_reassi
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Reassign all assets from category \'{{name}}\' to:'
+      default_translation = 'Reassign all assets assigned to \'{{name}}\' to:'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Flyt alle assetsne fra kategori \'{{name}}\' til:'
+      default_translation = 'Omflyt alle assets fra \'{{name}}\' til:'
       language_id = data.language.danish.id
     }
   ]
@@ -12234,7 +12234,7 @@ resource configservice_label administration_tools_system_asset_categories_reassi
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Flyt assetsne'
+      default_translation = 'Omflyt assets'
       language_id = data.language.danish.id
     }
   ]
@@ -12250,7 +12250,7 @@ resource configservice_label administration_tools_system_asset_categories_reassi
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Kategorien omfordelt'
+      default_translation = 'Kategori omflyttet'
       language_id = data.language.danish.id
     }
   ]
