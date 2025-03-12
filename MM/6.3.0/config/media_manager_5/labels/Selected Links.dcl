@@ -56,7 +56,7 @@ resource configservice_label selected_embedded_links_overlay_missing_upload_role
       language_id = data.language.english.id
     },
     {
-      default_translation = '{count, cardinalPlural, one {Filen} other {Filerne}} kan ikke uploades, da din bruger mangler rollen \"upload\"'
+      default_translation = '{count, cardinalPlural, one {Filen} other {Filerne}} kan ikke uploades, da din bruger mangler upload-rollen'
       language_id = data.language.danish.id
     }
   ]
