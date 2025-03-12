@@ -56,7 +56,7 @@ resource configservice_label embedded_link_manager_resolve_link_button_missing_u
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Mangler upload rolle'
+      default_translation = 'Mangler upload-rolle'
       language_id = data.language.danish.id
     }
   ]

@@ -20,11 +20,11 @@ resource configservice_label selected_embedded_links_overlay_missing_upload_role
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = '{count, cardinalPlural, one {A link cannot be uploaded} other {Some links cannot be uploaded}}'
+      default_translation = '{count, cardinalPlural, one {One file} other {Some files}} cannot be uploaded'
       language_id = data.language.english.id
     },
     {
-      default_translation = '{count, cardinalPlural, one {Et link kan ikke blive uploadet} other {Nogle links kan ikke blive uploadet}}'
+      default_translation = '{count, cardinalPlural, one {En fil} other {Nogle filer}} kan ikke uploades'
       language_id = data.language.danish.id
     }
   ]
@@ -36,11 +36,11 @@ resource configservice_label selected_embedded_links_overlay_missing_upload_role
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = '{{invalidCount}} out of the {{totalCount}} selected links cannot be uploaded.'
+      default_translation = '{{invalidCount}} out of {{totalCount}} selected files cannot be uploaded'
       language_id = data.language.english.id
     },
     {
-      default_translation = '{{invalidCount}} ud af de {{totalCount}} valgte links kan ikke blive uploadet.'
+      default_translation = '{{invalidCount}} ud af {{totalCount}} valgte filer kan ikke uploades'
       language_id = data.language.danish.id
     }
   ]
@@ -52,11 +52,11 @@ resource configservice_label selected_embedded_links_overlay_missing_upload_role
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'The {count, cardinalPlural, one {link} other {links}} cannot be uploaded because you are missing the required upload role'
+      default_translation = 'The {count, cardinalPlural, one {file} other {files}} cannot be uploaded because your user is missing the required upload role'
       language_id = data.language.english.id
     },
     {
-      default_translation = '{count, cardinalPlural, one {Linket} other {Linksne}} kan ikke blive uploadet, fordi du mangler den nødvendige upload rolle'
+      default_translation = '{count, cardinalPlural, one {Filen} other {Filerne}} kan ikke uploades, da din bruger mangler rollen \"upload\"'
       language_id = data.language.danish.id
     }
   ]
@@ -68,11 +68,11 @@ resource configservice_label selected_embedded_links_overlay_missing_upload_role
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Do you want to resolve the remaining {{count}} {count, cardinalPlural, one {link} other {links}}?'
+      default_translation = 'Do you want to auto-fix the remaining {count, cardinalPlural, one {file} other {{{count}} files}}?'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Vil du fixe {count, cardinalPlural, one {det resterende {{count}} link} other {de resterende {{count}} links}}?'
+      default_translation = 'Vil du auto-fixe {count, cardinalPlural, one {den resterende fil} other {de resterende {{count}} filer}}?'
       language_id = data.language.danish.id
     }
   ]
