@@ -593,4 +593,9 @@ resource asset_type_extension id_avif {
     asset_type = 'Image'
 }
 
+resource asset_type_extension id_glb {
+    extension = 'glb'
+    asset_type = 'Cad'
+}
+
 
