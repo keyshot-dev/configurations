@@ -752,6 +752,38 @@ resource configservice_label audit_trail_asset_checked_out_summary {
   ]
 }
 
+resource configservice_label audit_trail_asset_relation_created_summary {
+  key = 'AUDIT_TRAIL_ASSET_RELATION_CREATED_SUMMARY'
+  group = 'Audit Trail'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Asset relation created'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Asset relation oprettet'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label audit_trail_asset_relation_deleted_summary {
+  key = 'AUDIT_TRAIL_ASSET_RELATION_DELETED_SUMMARY'
+  group = 'Audit Trail'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Asset relation deleted'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Asset relation slettet'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label audit_trail_asset_created_summary {
   key = 'AUDIT_TRAIL_ASSET_CREATED_SUMMARY'
   group = 'Audit Trail'
