@@ -794,7 +794,7 @@ resource configservice_label audit_trail_asset_relation_created_summary {
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Asset relation oprettet'
+      default_translation = 'Asset-relation oprettet'
       language_id = data.language.danish.id
     }
   ]
@@ -810,7 +810,7 @@ resource configservice_label audit_trail_asset_relation_deleted_summary {
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Asset relation slettet'
+      default_translation = 'Asset-relation slettet'
       language_id = data.language.danish.id
     }
   ]
