@@ -644,11 +644,11 @@ resource configservice_label selected_assets_overlay_locked_assets_tooltip {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Some assets in this selection are checked out'
+      default_translation = 'Some assets in this selection are checked out or read-only'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Nogle af dine valgte assets er checket ud'
+      default_translation = 'Nogle af dine valgte assets er checket ud eller skrivebeskyttede'
       language_id = data.language.danish.id
     }
   ]
