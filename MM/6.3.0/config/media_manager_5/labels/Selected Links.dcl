@@ -62,6 +62,22 @@ resource configservice_label selected_embedded_links_overlay_missing_upload_role
   ]
 }
 
+resource configservice_label selected_embedded_links_overlay_connector_cannot_upload_dialog_description {
+  key = 'SELECTED_EMBEDDED_LINKS_OVERLAY_CONNECTOR_CANNOT_UPLOAD_DIALOG_DESCRIPTION'
+  group = 'Selected Links'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'The {count, cardinalPlural, one {file} other {files}} cannot be uploaded because the underlying product\'s API does not support uploading'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = '{count, cardinalPlural, one {Filen} other {Filerne}} kan ikke uploades, da den underliggende produkts API ikke understøtter upload'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label selected_embedded_links_overlay_missing_upload_role_dialog_sub_description {
   key = 'SELECTED_EMBEDDED_LINKS_OVERLAY_MISSING_UPLOAD_ROLE_DIALOG_SUB_DESCRIPTION'
   group = 'Selected Links'
