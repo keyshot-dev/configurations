@@ -72,7 +72,7 @@ resource configservice_label selected_embedded_links_overlay_connector_cannot_up
       language_id = data.language.english.id
     },
     {
-      default_translation = '{count, cardinalPlural, one {Filen} other {Filerne}} kan ikke uploades, da den underliggende produkts API ikke understøtter upload'
+      default_translation = '{count, cardinalPlural, one {Filen} other {Filerne}} kan ikke uploades, da det underliggende produkts API ikke understøtter upload'
       language_id = data.language.danish.id
     }
   ]
