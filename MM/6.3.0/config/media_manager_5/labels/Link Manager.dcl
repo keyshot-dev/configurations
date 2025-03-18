@@ -56,7 +56,7 @@ resource configservice_label embedded_link_manager_resolve_link_button_connector
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Den underliggende produkts API understøtter ikke upload'
+      default_translation = 'Det underliggende produkts API understøtter ikke upload'
       language_id = data.language.danish.id
     }
   ]
