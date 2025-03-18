@@ -31,6 +31,8 @@ patch member_group content_creator_patch {
         }, {
             constant = 'Asset_Can_Revise'
         }, {
+            constant = 'AssetCategories_reader'
+        }, {
             constant = 'AuditTrail_View'
         }, {
             constant = 'Can_Live_Export_Asset_Only'
