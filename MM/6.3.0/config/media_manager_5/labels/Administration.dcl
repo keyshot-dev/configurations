@@ -6698,6 +6698,22 @@ resource configservice_label administration_tools_users_and_groups_user_email {
   ]
 }
 
+resource configservice_label administration_tools_users_and_groups_user_last_login {
+  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_USER_LAST_LOGIN'
+  group = 'administration-tools - users-and-groups'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Last login'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Seneste login'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label administration_tools_users_and_groups_user_invalid_email {
   key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_USER_INVALID_EMAIL'
   group = 'administration-tools - users-and-groups'
