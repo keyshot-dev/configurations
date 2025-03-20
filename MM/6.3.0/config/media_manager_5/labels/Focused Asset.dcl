@@ -766,3 +766,34 @@ resource configservice_label asset_cropper_crop_toolbox_crop_all {
   ]
 }
 
+resource configservice_label focused_asset_crop_locked_to_crop_error_title {
+  key = 'FOCUSED_ASSET_CROP_LOCKED_TO_CROP_ERROR_TITLE'
+  group = 'Focused Asset'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Asset cannot be cropped'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Asset kan ikke beskæres'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label focused_asset_crop_locked_to_crop_error_content {
+  key = 'FOCUSED_ASSET_CROP_LOCKED_TO_CROP_ERROR_CONTENT'
+  group = 'Focused Asset'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'This asset has had the rendition the crop tool uses replaced, therefore it can not be cropped.'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Assetet har fået udskiftet den rendition beskærings-værktøjet bruger, derfor kan det ikke beskæres.'
+      language_id = data.language.danish.id
+    }
+  ]
+}
