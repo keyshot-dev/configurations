@@ -6708,7 +6708,7 @@ resource configservice_label administration_tools_users_and_groups_user_last_log
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Sidst login'
+      default_translation = 'Seneste login'
       language_id = data.language.danish.id
     }
   ]
