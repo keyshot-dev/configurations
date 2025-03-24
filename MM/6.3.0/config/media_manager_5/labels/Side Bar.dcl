@@ -772,11 +772,11 @@ resource configservice_label mobile_menu_export_to_plugin {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Export to plug-in'
+      default_translation = 'Export from plug-in'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Eksportere til plug-in'
+      default_translation = 'Eksportere fra plug-in'
       language_id = data.language.danish.id
     }
   ]
