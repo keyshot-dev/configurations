@@ -776,7 +776,7 @@ resource configservice_label mobile_menu_export_from_plugin {
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Eksportere fra plug-in'
+      default_translation = 'Eksport fra plug-in'
       language_id = data.language.danish.id
     }
   ]
