@@ -766,8 +766,8 @@ resource configservice_label mobile_menu_delete_cep_cache {
   ]
 }
 
-resource configservice_label mobile_menu_export_to_plugin {
-  key = 'MOBILE_MENU_EXPORT_TO_PLUGIN'
+resource configservice_label mobile_menu_export_from_plugin {
+  key = 'MOBILE_MENU_EXPORT_FROM_PLUGIN'
   group = 'Side Bar'
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
