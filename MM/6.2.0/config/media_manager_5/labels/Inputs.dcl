@@ -1406,35 +1406,3 @@ resource configservice_label email_share_collection_input_popup_no_results {
   ]
 }
 
-resource configservice_label dropdown_tree_input_search_hint {
-  key = 'DROPDOWN_TREE_INPUT_SEARCH_HINT'
-  group = 'Inputs'
-  product_id = resource.configservice_product.media_manager_5.id
-  default_label_values = [
-    {
-      default_translation = '{searched, select, true {Results for "{{value}}"} false {Type to search}}'
-      language_id = data.language.english.id
-    },
-    {
-      default_translation = '{searched, select, true {Resultater for "{{value}}"} false {Skriv for at søge}}'
-      language_id = data.language.danish.id
-    }
-  ]
-}
-
-resource configservice_label dropdown_tree_input_category_placeholder {
-  key = "DROPDOWN_TREE_INPUT_CATEGORY_PLACEHOLDER"
-  group = "Inputs"
-  product_id = resource.configservice_product.media_manager_5.id
-  default_label_values = [
-    {
-      default_translation = "Search"
-      language_id = data.language.english.id
-    },
-    {
-      default_translation = "Søg"
-      language_id = data.language.danish.id
-    }
-  ]
-}
-
