@@ -1423,16 +1423,16 @@ resource configservice_label dropdown_tree_input_search_hint {
 }
 
 resource configservice_label dropdown_tree_input_category_placeholder {
-  key = "DROPDOWN_TREE_INPUT_CATEGORY_PLACEHOLDER"
+  key = 'DROPDOWN_TREE_INPUT_CATEGORY_PLACEHOLDER'
   group = "Inputs"
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = "Search"
+      default_translation = 'Search'
       language_id = data.language.english.id
     },
     {
-      default_translation = "Søg"
+      default_translation = 'Søg'
       language_id = data.language.danish.id
     }
   ]
