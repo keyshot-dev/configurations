@@ -1428,11 +1428,11 @@ resource configservice_label dropdown_tree_input_category_placeholder {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Search'
+      default_translation = 'Select'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Søg'
+      default_translation = 'Vælg'
       language_id = data.language.danish.id
     }
   ]
