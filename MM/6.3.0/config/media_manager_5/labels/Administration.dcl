@@ -4801,6 +4801,22 @@ resource configservice_label administration_tools_managed_integrations_section_m
   ]
 }
 
+resource configservice_label administration_tools_managed_integrations_section_name_validation_failed_required {
+  key = 'ADMINISTRATION_TOOLS_MANAGED_INTEGRATIONS_SECTION_NAME_VALIDATION_FAILED_REQUIRED'
+  group = 'administration-tools - managed-integrations-section'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Name is required'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Navn er påkrævet'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label administration_tools_managed_integrations_failed_notifications_retry_all {
   key = 'ADMINISTRATION_TOOLS_MANAGED_INTEGRATIONS_FAILED_NOTIFICATIONS_RETRY_ALL'
   group = 'administration-tools - managed-integrations-failed-notifications'
@@ -5536,6 +5552,22 @@ resource configservice_label administration_tools_integration_configurations_sec
     },
     {
       default_translation = 'Integrations-konfigurationer'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_integration_configurations_section_name_validation_failed_required {
+  key = 'ADMINISTRATION_TOOLS_INTEGRATION_CONFIGURATIONS_SECTION_NAME_VALIDATION_FAILED_REQUIRED'
+  group = 'administration-tools - integration-configurations-section'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Name is required'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Navn er påkrævet'
       language_id = data.language.danish.id
     }
   ]
