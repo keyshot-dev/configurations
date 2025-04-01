@@ -12704,6 +12704,22 @@ resource configservice_label administration_tools_system_asset_relation_types_re
   ]
 }
 
+resource configservice_label administration_tools_system_asset_relation_types_category_duolicates {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_ASSET_RELATION_TYPES_CATEGORY_DUPLICATES'
+  group = 'administration-tools - system - asset-relation-types'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Same asset category selected'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Same asset category selected'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label administration_tools_system_asset_relation_types_recursive_tooltip {
   key = 'ADMINISTRATION_TOOLS_SYSTEM_ASSET_RELATION_TYPES_RECURSIVE_TOOLTIP'
   group = 'administration-tools - system - asset-relation-types'
