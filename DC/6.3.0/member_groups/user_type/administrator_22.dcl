@@ -14,8 +14,6 @@ resource member_group administrator_22 {
         }, {
             constant = 'RunningJobs_ViewAll'
         }, {
-            constant = 'RunningJobs_EditAll'
-        }, {
             constant = 'RunningJobs_ChangePriority'
         }, {
             constant = 'MediaPortal_Admin_StartScreen'
@@ -62,8 +60,6 @@ resource member_group administrator_22 {
         }, {
             constant = 'WorkStages_View_Others'
         }, {
-            constant = 'GDPR_Admin'
-        }, {
             constant = 'MediaPortal_Can_Preview_Office'
         }, {
             constant = 'Can_Open_Office_Document'
@@ -99,8 +95,6 @@ resource member_group administrator_22 {
             constant = 'Asset_Can_Download_Any'
         }, {
             constant = 'MailTemplates_CRUD'
-        }, {
-            constant = 'Can_Configure_Members'
         }, {
             constant = 'ConfigManagement_Admin'
         }, {

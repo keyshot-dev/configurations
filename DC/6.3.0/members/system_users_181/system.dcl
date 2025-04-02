@@ -15,10 +15,6 @@ resource member system {
     roles = [{
             constant = 'RunningJobs_View'
         }, {
-            constant = 'Uploader_ShowFolderSelector'
-        }, {
-            constant = 'Editor_SystemTools_PlayerTemplate'
-        }, {
             constant = 'Can_publish'
         }]
     autolink = {
