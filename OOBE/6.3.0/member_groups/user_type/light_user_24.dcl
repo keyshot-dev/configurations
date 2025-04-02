@@ -41,8 +41,6 @@ patch member_group light_user_patch {
         }, {
             constant = 'MediaPortal_Collection'
         }, {
-            constant = 'MediaPortal_Downloader'
-        }, {
             constant = 'MediaPortal_Share'
         }, {
             constant = 'MediaPortal_User'

@@ -14,19 +14,11 @@ resource member_group administrator_22 {
         }, {
             constant = 'RunningJobs_ViewAll'
         }, {
-            constant = 'RunningJobs_EditAll'
-        }, {
-            constant = 'RunningJobs_ChangePriority'
-        }, {
             constant = 'MediaPortal_Admin_StartScreen'
         }, {
             constant = 'MediaPortal_User'
         }, {
             constant = 'MediaPortal_Collection'
-        }, {
-            constant = 'MediaPortal_Uploader'
-        }, {
-            constant = 'MediaPortal_Downloader'
         }, {
             constant = 'Member_Viewer'
         }, {
@@ -61,8 +53,6 @@ resource member_group administrator_22 {
             constant = 'WorkStages_Edit_Others'
         }, {
             constant = 'WorkStages_View_Others'
-        }, {
-            constant = 'GDPR_Admin'
         }, {
             constant = 'MediaPortal_Can_Preview_Office'
         }, {
@@ -99,8 +89,6 @@ resource member_group administrator_22 {
             constant = 'Asset_Can_Download_Any'
         }, {
             constant = 'MailTemplates_CRUD'
-        }, {
-            constant = 'Can_Configure_Members'
         }, {
             constant = 'ConfigManagement_Admin'
         }, {

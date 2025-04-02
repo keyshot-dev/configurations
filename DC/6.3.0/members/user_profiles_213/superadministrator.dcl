@@ -23,13 +23,7 @@ resource member superadministrator {
         }, {
             constant = 'Uploader'
         }, {
-            constant = 'Editor_SystemTools_Profiles'
-        }, {
             constant = 'Editor_SystemTools_UserManager_Users'
-        }, {
-            constant = 'Editor_Catalogs'
-        }, {
-            constant = 'Viewer_Catalogs'
         }, {
             constant = 'Editor_SystemTools_UserManager_Groups'
         }, {
@@ -37,71 +31,27 @@ resource member superadministrator {
         }, {
             constant = 'Administrator'
         }, {
-            constant = 'Editor_SystemTools_Destinations'
-        }, {
-            constant = 'Editor_SystemTools_Dam'
-        }, {
             constant = 'Editor_SystemTools_DigizuiteConfig'
         }, {
             constant = 'Editor_SystemTools_MediaFormat'
-        }, {
-            constant = 'Editor_SystemTools_TranscodeSetting'
-        }, {
-            constant = 'Editor_Portal'
-        }, {
-            constant = 'Editor_Portal_Admin'
         }, {
             constant = 'RunningJobs_View'
         }, {
             constant = 'RunningJobs_ViewAll'
         }, {
-            constant = 'RunningJobs_EditOwn'
-        }, {
-            constant = 'RunningJobs_EditAll'
-        }, {
-            constant = 'RunningJobs_ChangePriority'
-        }, {
             constant = 'RunningJobs_AdminViewBatchPackageInfo'
         }, {
-            constant = 'Uploader_ShowFolderSelector'
-        }, {
-            constant = 'Uploader_ReplaceWithArchive'
-        }, {
             constant = 'Editor_SystemTools_Config'
-        }, {
-            constant = 'VP3_Portal_Admin_StartScreen'
-        }, {
-            constant = 'VP3_Portal_Admin_VideoSlides'
-        }, {
-            constant = 'ItemControlAdmin'
         }, {
             constant = 'Editor_SystemTools_AlwaysAllowItemSecurityEdit'
         }, {
             constant = 'MediaPortal_Admin_StartScreen'
-        }, {
-            constant = 'MediaPortal_Admin_Users'
-        }, {
-            constant = 'MediaPortal_Admin_Log'
-        }, {
-            constant = 'MediaPortal_Admin_Trash'
         }, {
             constant = 'MediaPortal_User'
         }, {
             constant = 'MediaPortal_Collection'
         }, {
             constant = 'MediaPortal_Uploader'
-        }, {
-            constant = 'MediaPortal_Downloader'
-        }, {
-            constant = 'Editor_SystemTools_PlayerTemplate'
-        }, {
-            constant = 'Editor_SystemTools_Stopwords'
-        }, {
-            constant = 'Editor_SystemTools_Status'
-        }, {
-            constant = 'Editor_SystemTools_Workflow'
-        }, {
-            constant = 'Editor_SystemTools_MediaFormatType'
         }, {
             constant = 'Editor_SystemTools_MetaDataLanguage'
         }, {
@@ -138,8 +88,6 @@ resource member superadministrator {
             constant = 'WorkStages_Edit_Others'
         }, {
             constant = 'WorkStages_View_Others'
-        }, {
-            constant = 'GDPR_Admin'
         }, {
             constant = 'MediaPortal_Can_Preview_Office'
         }, {
@@ -183,8 +131,6 @@ resource member superadministrator {
         }, {
             constant = 'Asset_Can_Download_Any'
         }, {
-            constant = 'Can_See_Grafana_Shortcut'
-        }, {
             constant = 'Comments_Admin_Update'
         }, {
             constant = 'Business_Workflow_General_Transition_Executor'
@@ -211,8 +157,6 @@ resource member superadministrator {
         }, {
             constant = 'Can_Force_Job_Status_Change'
         }, {
-            constant = 'Can_Configure_Members'
-        }, {
             constant = 'Can_Rerun_Workflows'
         }, {
             constant = 'ItemCheckInOut_CRUD'
@@ -222,8 +166,6 @@ resource member superadministrator {
             constant = 'ChannelFolder_View'
         }, {
             constant = 'ConfigManagement_Admin'
-        }, {
-            constant = 'Creative_Cloud_Connector'
         }, {
             constant = 'Can_See_Generic_Job_Status'
         }, {

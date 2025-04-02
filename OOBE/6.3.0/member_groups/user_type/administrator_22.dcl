@@ -10,8 +10,6 @@ patch member_group administrator_patch {
         }, {
             constant = 'Editor_SystemTools_UserManager_Users'
         }, {
-            constant = 'Viewer_Catalogs'
-        }, {
             constant = 'Editor_SystemTools_UserManager_Groups'
         }, {
             constant = 'Editor_SystemTools_Metadata'
@@ -20,39 +18,13 @@ patch member_group administrator_patch {
         }, {
             constant = 'RunningJobs_ViewAll'
         }, {
-            constant = 'RunningJobs_EditOwn'
-        }, {
-            constant = 'RunningJobs_EditAll'
-        }, {
-            constant = 'RunningJobs_ChangePriority'
-        }, {
             constant = 'RunningJobs_AdminViewBatchPackageInfo'
         }, {
-            constant = 'Uploader_ShowFolderSelector'
-        }, {
-            constant = 'Uploader_ReplaceWithArchive'
-        }, {
-            constant = 'VP3_Portal_Admin_StartScreen'
-        }, {
-            constant = 'VP3_Portal_Admin_VideoSlides'
-        }, {
-            constant = 'ItemControlAdmin'
-        }, {
             constant = 'MediaPortal_Admin_StartScreen'
-        }, {
-            constant = 'MediaPortal_Admin_Users'
-        }, {
-            constant = 'MediaPortal_Admin_Log'
-        }, {
-            constant = 'MediaPortal_Admin_Trash'
         }, {
             constant = 'MediaPortal_User'
         }, {
             constant = 'MediaPortal_Collection'
-        }, {
-            constant = 'MediaPortal_Uploader'
-        }, {
-            constant = 'MediaPortal_Downloader'
         }, {
             constant = 'Member_Viewer'
         }, {
@@ -87,8 +59,6 @@ patch member_group administrator_patch {
             constant = 'WorkStages_Edit_Others'
         }, {
             constant = 'WorkStages_View_Others'
-        }, {
-            constant = 'GDPR_Admin'
         }, {
             constant = 'MediaPortal_Can_Preview_Office'
         }, {
@@ -147,8 +117,6 @@ patch member_group administrator_patch {
             constant = 'FileRepository_Delete'
         }, {
             constant = 'MailTemplates_CRUD'
-        }, {
-            constant = 'Can_Configure_Members'
         }, {
             constant = 'Can_Rerun_Workflows'
         }, {

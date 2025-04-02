@@ -65,21 +65,11 @@ patch member_group content_creator_patch {
         }, {
             constant = 'ItemCheckInOut_CRUD'
         }, {
-            constant = 'MediaPortal_Admin_Log'
-        }, {
-            constant = 'MediaPortal_Admin_Trash'
-        }, {
-            constant = 'MediaPortal_Admin_Users'
-        }, {
             constant = 'MediaPortal_Can_Preview_Office'
         }, {
             constant = 'MediaPortal_Collection'
         }, {
-            constant = 'MediaPortal_Downloader'
-        }, {
             constant = 'MediaPortal_Share'
-        }, {
-            constant = 'MediaPortal_Uploader'
         }, {
             constant = 'MediaPortal_User'
         }, {
@@ -90,8 +80,6 @@ patch member_group content_creator_patch {
             constant = 'Saved_Searches_CRUD'
         }, {
             constant = 'Uploader'
-        }, {
-            constant = 'Viewer_Catalogs'
         }, {
             constant = 'WorkStages_View'
         }, {
