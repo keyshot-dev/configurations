@@ -26,8 +26,6 @@ patch member_group administrator_patch {
         }, {
             constant = 'MediaPortal_Collection'
         }, {
-            constant = 'MediaPortal_Uploader'
-        }, {
             constant = 'Member_Viewer'
         }, {
             constant = 'MediaPortal_Share'

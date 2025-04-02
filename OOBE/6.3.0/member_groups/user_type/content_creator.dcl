@@ -71,8 +71,6 @@ patch member_group content_creator_patch {
         }, {
             constant = 'MediaPortal_Share'
         }, {
-            constant = 'MediaPortal_Uploader'
-        }, {
             constant = 'MediaPortal_User'
         }, {
             constant = 'MediaPortal_Video_Embed'

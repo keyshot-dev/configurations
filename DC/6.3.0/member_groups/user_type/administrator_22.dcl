@@ -14,15 +14,11 @@ resource member_group administrator_22 {
         }, {
             constant = 'RunningJobs_ViewAll'
         }, {
-            constant = 'RunningJobs_ChangePriority'
-        }, {
             constant = 'MediaPortal_Admin_StartScreen'
         }, {
             constant = 'MediaPortal_User'
         }, {
             constant = 'MediaPortal_Collection'
-        }, {
-            constant = 'MediaPortal_Uploader'
         }, {
             constant = 'Member_Viewer'
         }, {
