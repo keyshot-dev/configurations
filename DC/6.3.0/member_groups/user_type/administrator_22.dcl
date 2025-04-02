@@ -24,8 +24,6 @@ resource member_group administrator_22 {
         }, {
             constant = 'MediaPortal_Uploader'
         }, {
-            constant = 'MediaPortal_Downloader'
-        }, {
             constant = 'Member_Viewer'
         }, {
             constant = 'MediaPortal_Share'
