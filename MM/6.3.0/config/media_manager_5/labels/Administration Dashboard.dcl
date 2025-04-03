@@ -479,3 +479,180 @@ resource configservice_label administration_tools_dashboard_tool_import_dashboar
     }
   ]
 }
+
+resource configservice_label administration_tools_analytics_table_builder_data_section_tooltip {
+  key = 'ADMINISTRATION_TOOLS_ANALYTICS_TABLE_BUILDER_DATA_SECTION_TOOLTIP'
+  group = 'administration-tools - analytics-table-builder'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Table Data Section'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Table Datasektion'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_analytics_table_builder_filters_section_tooltip {
+  key = 'ADMINISTRATION_TOOLS_ANALYTICS_TABLE_BUILDER_FILTERS_SECTION_TOOLTIP'
+  group = 'administration-tools - analytics-table-builder'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Table Filters Section'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Table Filtersektion'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_analytics_table_builder_date_section_tooltip {
+  key = 'ADMINISTRATION_TOOLS_ANALYTICS_TABLE_BUILDER_DATE_SECTION_TOOLTIP'
+  group = 'administration-tools - analytics-table-builder'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Table Date Section'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Table Datosektion'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_analytics_table_builder_sorting_section_tooltip {
+  key = 'ADMINISTRATION_TOOLS_ANALYTICS_TABLE_BUILDER_SORTING_SECTION_TOOLTIP'
+  group = 'administration-tools - analytics-table-builder'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Table Sorting Section'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Table Sorteringssektion'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+
+resource configservice_label administration_tools_analytics_chart_builder_data_section_tooltip {
+    key = 'ADMINISTRATION_TOOLS_ANALYTICS_CHART_BUILDER_DATA_SECTION_TOOLTIP'
+    group = 'administration-tools - analytics-chart-builder'
+    product_id = resource.configservice_product.media_manager_5.id
+    default_label_values = [
+        {
+            default_translation = 'Chart Data Section'
+            language_id = data.language.english.id
+        },
+        {
+            default_translation = 'Chart Datasektion'
+            language_id = data.language.danish.id
+        }
+    ]
+}
+
+resource configservice_label administration_tools_analytics_chart_builder_grouping_section_tooltip {
+    key = 'ADMINISTRATION_TOOLS_ANALYTICS_CHART_BUILDER_GROUPING_SECTION_TOOLTIP'
+    group = 'administration-tools - analytics-chart-builder'
+    product_id = resource.configservice_product.media_manager_5.id
+    default_label_values = [
+        {
+            default_translation = 'Chart Grouping Section'
+            language_id = data.language.english.id
+        },
+        {
+            default_translation = 'Chart Grupperingssektion'
+            language_id = data.language.danish.id
+        }
+    ]
+}
+
+resource configservice_label administration_tools_analytics_chart_builder_filters_section_tooltip {
+    key = 'ADMINISTRATION_TOOLS_ANALYTICS_CHART_BUILDER_FILTERS_SECTION_TOOLTIP'
+    group = 'administration-tools - analytics-chart-builder'
+    product_id = resource.configservice_product.media_manager_5.id
+    default_label_values = [
+        {
+            default_translation = 'Chart Filters Section'
+            language_id = data.language.english.id
+        },
+        {
+            default_translation = 'Chart Filtersektion'
+            language_id = data.language.danish.id
+        }
+    ]
+}
+
+resource configservice_label administration_tools_analytics_chart_builder_date_section_tooltip {
+    key = 'ADMINISTRATION_TOOLS_ANALYTICS_CHART_BUILDER_DATE_SECTION_TOOLTIP'
+    group = 'administration-tools - analytics-chart-builder'
+    product_id = resource.configservice_product.media_manager_5.id
+    default_label_values = [
+        {
+            default_translation = 'Chart Date Section'
+            language_id = data.language.english.id
+        },
+        {
+            default_translation = 'Chart Datosektion'
+            language_id = data.language.danish.id
+        }
+    ]
+}
+
+resource configservice_label administration_tools_analytics_chart_builder_layout_section_tooltip {
+    key = 'ADMINISTRATION_TOOLS_ANALYTICS_CHART_BUILDER_LAYOUT_SECTION_TOOLTIP'
+    group = 'administration-tools - analytics-chart-builder'
+    product_id = resource.configservice_product.media_manager_5.id
+    default_label_values = [
+        {
+            default_translation = 'Chart Layout Section'
+            language_id = data.language.english.id
+        },
+        {
+            default_translation = 'Chart Layoutsektion'
+            language_id = data.language.danish.id
+        }
+    ]
+}
+
+resource configservice_label administration_tools_analytics_chart_builder_sorting_section_tooltip {
+    key = 'ADMINISTRATION_TOOLS_ANALYTICS_CHART_BUILDER_SORTING_SECTION_TOOLTIP'
+    group = 'administration-tools - analytics-chart-builder'
+    product_id = resource.configservice_product.media_manager_5.id
+    default_label_values = [
+        {
+            default_translation = 'Chart Sorting Section'
+            language_id = data.language.english.id
+        },
+        {
+            default_translation = 'Chart Sorteringssektion'
+            language_id = data.language.danish.id
+        }
+    ]
+}
+
+resource configservice_label administration_tools_analytics_chart_builder_colors_section_tooltip {
+    key = 'ADMINISTRATION_TOOLS_ANALYTICS_CHART_BUILDER_COLORS_SECTION_TOOLTIP'
+    group = 'administration-tools - analytics-chart-builder'
+    product_id = resource.configservice_product.media_manager_5.id
+    default_label_values = [
+        {
+            default_translation = 'Chart Colors Section'
+            language_id = data.language.english.id
+        },
+        {
+            default_translation = 'Chart Farvesektion'
+            language_id = data.language.danish.id
+        }
+    ]
+}
