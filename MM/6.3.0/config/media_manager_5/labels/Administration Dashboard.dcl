@@ -36,11 +36,27 @@ resource configservice_label administration_tools_dashboard_tool_edit {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Edit'
+      default_translation = 'Edit dashboard'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Rediger'
+      default_translation = 'Rediger dashboard'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_dashboard_tool_edit {
+  key = 'ADMINISTRATION_TOOLS_DASHBOARD_TOOL_EDIT_ITEM'
+  group = 'administration-tools - dashboard-tool'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Edit {type, select, graph {chart} table {table} other {item}}'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Rediger {type, select, graph {graf} table {tabel} other {element}}'
       language_id = data.language.danish.id
     }
   ]
@@ -53,11 +69,11 @@ resource configservice_label administration_tools_dashboard_tool_delete_dashboar
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Delete'
+      default_translation = 'Delete dashboard'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Slet'
+      default_translation = 'Slet dashboard'
       language_id = data.language.danish.id
     }
   ]
