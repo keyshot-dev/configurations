@@ -2533,70 +2533,6 @@ resource configservice_label portal_config_manager_section_multi_file_upload_pre
   ]
 }
 
-resource configservice_label portal_config_manager_multi_file_upload_presets_delete_preset_confirm {
-  key = 'PORTAL_CONFIG_MANAGER_MULTI_FILE_UPLOAD_PRESETS_DELETE_PRESET_CONFIRM'
-  group = 'Config Manager'
-  product_id = resource.configservice_product.media_manager_5.id
-  default_label_values = [
-    {
-      default_translation = 'Delete'
-      language_id = data.language.english.id
-    },
-    {
-      default_translation = 'Slet'
-      language_id = data.language.danish.id
-    }
-  ]
-}
-
-resource configservice_label portal_config_manager_multi_file_upload_presets_delete_preset_cancel {
-  key = 'PORTAL_CONFIG_MANAGER_MULTI_FILE_UPLOAD_PRESETS_DELETE_PRESET_CANCEL'
-  group = 'Config Manager'
-  product_id = resource.configservice_product.media_manager_5.id
-  default_label_values = [
-    {
-      default_translation = 'Keep'
-      language_id = data.language.english.id
-    },
-    {
-      default_translation = 'Behold'
-      language_id = data.language.danish.id
-    }
-  ]
-}
-
-resource configservice_label portal_config_manager_multi_file_upload_presets_delete_preset_confirmation_text {
-  key = 'PORTAL_CONFIG_MANAGER_MULTI_FILE_UPLOAD_PRESETS_DELETE_PRESET_CONFIRMATION_TEXT'
-  group = 'Config Manager'
-  product_id = resource.configservice_product.media_manager_5.id
-  default_label_values = [
-    {
-      default_translation = 'Are you sure you want to delete the \'{{name}}\' preset?'
-      language_id = data.language.english.id
-    },
-    {
-      default_translation = 'Er du sikker på at du vil slette \'{{name}}\'-beskræringen?'
-      language_id = data.language.danish.id
-    }
-  ]
-}
-
-resource configservice_label portal_config_manager_multi_file_upload_presets_delete_preset_title {
-  key = 'PORTAL_CONFIG_MANAGER_MULTI_FILE_UPLOAD_PRESETS_DELETE_PRESET_TITLE'
-  group = 'Config Manager'
-  product_id = resource.configservice_product.media_manager_5.id
-  default_label_values = [
-    {
-      default_translation = 'Keep'
-      language_id = data.language.english.id
-    },
-    {
-      default_translation = 'Behold'
-      language_id = data.language.danish.id
-    }
-  ]
-}
-
 resource configservice_label portal_config_manager_multi_file_upload_presets_section_name {
   key = 'PORTAL_CONFIG_MANAGER_MULTI_FILE_UPLOAD_PRESETS_SECTION_NAME'
   group = 'Config Manager'
@@ -2677,17 +2613,17 @@ resource configservice_label portal_config_manager_multi_file_upload_presets_ass
   ]
 }
 
-resource configservice_label portal_config_manager_multi_file_upload_presets_delete_preset {
-  key = 'PORTAL_CONFIG_MANAGER_MULTI_FILE_UPLOAD_PRESETS_DELETE_PRESET'
+resource configservice_label portal_config_manager_multi_file_upload_presets_remove_preset {
+  key = 'PORTAL_CONFIG_MANAGER_MULTI_FILE_UPLOAD_PRESETS_REMOVE_PRESET'
   group = 'Config Manager'
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Delete'
+      default_translation = 'Remove'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Slet'
+      default_translation = 'Fjern'
       language_id = data.language.danish.id
     }
   ]
