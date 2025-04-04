@@ -2523,11 +2523,11 @@ resource configservice_label portal_config_manager_section_multi_file_upload_pre
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Multi-file upload presets'
+      default_translation = 'Multi-relation on upload'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Multi-file upload forudindstillinger'
+      default_translation = 'Multi-relationer på upload'
       language_id = data.language.danish.id
     }
   ]
@@ -2539,7 +2539,7 @@ resource configservice_label portal_config_manager_multi_file_upload_presets_sec
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Multi-file upload presets'
+      default_translation = 'Multi-relation on upload'
       language_id = data.language.english.id
     },
     {
@@ -2555,11 +2555,11 @@ resource configservice_label portal_config_manager_multi_file_upload_presets_sec
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Multi-file upload presets'
+      default_translation = 'Multi-relation on upload'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Multi-file upload forudindstillinger'
+      default_translation = 'Multi-relationer på upload'
       language_id = data.language.danish.id
     }
   ]
@@ -2603,11 +2603,11 @@ resource configservice_label portal_config_manager_multi_file_upload_presets_ass
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Asset relation type'
+      default_translation = 'Asset relation types'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Asset-relationstype'
+      default_translation = 'Asset-relationstyper'
       language_id = data.language.danish.id
     }
   ]
@@ -2635,11 +2635,11 @@ resource configservice_label portal_config_manager_multi_file_upload_presets_add
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Add new'
+      default_translation = 'Add'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Tilføj ny'
+      default_translation = 'Tilføj'
       language_id = data.language.danish.id
     }
   ]
