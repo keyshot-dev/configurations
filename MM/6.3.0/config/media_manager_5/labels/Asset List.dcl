@@ -600,7 +600,7 @@ resource configservice_label asset_list_filter_menu_end_date {
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Slutdatoen skal ligge senere end startdatoen'
+      default_translation = 'Slut-datoen skal være senere end start-datoen'
       language_id = data.language.danish.id
     }
   ]
