@@ -12710,11 +12710,11 @@ resource configservice_label administration_tools_system_asset_relation_types_ca
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Same asset category selected'
+      default_translation = 'This category is already'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Same asset category selected'
+      default_translation = 'Denne kategori er allerede'
       language_id = data.language.danish.id
     }
   ]
