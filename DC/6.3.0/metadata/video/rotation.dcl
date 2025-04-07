@@ -58,7 +58,6 @@ resource combovalue_metafield rotation {
     sort_index = 50041
     readonly = true
     show_in_list = true
-    system = true
     auto_translate = 'Overwrite'
     restrict_to_asset_type = 'All'
     system = true
