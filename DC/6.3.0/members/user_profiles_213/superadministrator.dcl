@@ -52,8 +52,6 @@ resource member superadministrator {
         }, {
             constant = 'MediaPortal_Collection'
         }, {
-            constant = 'MediaPortal_Uploader'
-        }, {
             constant = 'Editor_SystemTools_MetaDataLanguage'
         }, {
             constant = 'Member_Viewer'
