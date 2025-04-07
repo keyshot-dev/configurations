@@ -37,6 +37,6 @@ resource format pdf {
     download_replace_mask = ''
     type = 'PdfFormat'
     details = []
-    system = 'true'
+    system = true
 }
 

@@ -7,6 +7,6 @@ resource format vector_preview {
     purpose = 'VectorPreview'
     type = 'SvgImageFormat'
     details = []
-    system = 'true'
+    system = true
 }
 

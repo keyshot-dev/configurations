@@ -8,7 +8,7 @@ resource format large_thumbnail {
     download_replace_mask = ''
     purpose = 'LargeThumbnail'
     type = 'WebPImageFormat'
-    system = 'true'
+    system = true
     details = [{
             key = 'ColorSpace'
             value = 'sRGB'
