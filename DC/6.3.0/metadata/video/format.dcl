@@ -139,116 +139,139 @@ resource combo_value_label format_ntsc_43 {
 resource combo_value format_1016 {
     metafield_id = resource.combovalue_metafield.format.metafield_id
     option_value = '1016'
+    system = true
 }
 
 resource combo_value format_11 {
     metafield_id = resource.combovalue_metafield.format.metafield_id
     option_value = '11'
+    system = true
 }
 
 resource combo_value format_149 {
     metafield_id = resource.combovalue_metafield.format.metafield_id
     option_value = '149'
+    system = true
 }
 
 resource combo_value format_159 {
     metafield_id = resource.combovalue_metafield.format.metafield_id
     option_value = '159'
+    system = true
 }
 
 resource combo_value format_1610 {
     metafield_id = resource.combovalue_metafield.format.metafield_id
     option_value = '1610'
+    system = true
 }
 
 resource combo_value format_169 {
     metafield_id = resource.combovalue_metafield.format.metafield_id
     option_value = '169'
+    system = true
 }
 
 resource combo_value format_2037 {
     metafield_id = resource.combovalue_metafield.format.metafield_id
     option_value = '2037'
+    system = true
 }
 
 resource combo_value format_2047 {
     metafield_id = resource.combovalue_metafield.format.metafield_id
     option_value = '2047'
+    system = true
 }
 
 resource combo_value format_21111 {
     metafield_id = resource.combovalue_metafield.format.metafield_id
     option_value = '2.1111'
+    system = true
 }
 
 resource combo_value format_23 {
     metafield_id = resource.combovalue_metafield.format.metafield_id
     option_value = '23'
+    system = true
 }
 
 resource combo_value format_32 {
     metafield_id = resource.combovalue_metafield.format.metafield_id
     option_value = '32'
+    system = true
 }
 
 resource combo_value format_34 {
     metafield_id = resource.combovalue_metafield.format.metafield_id
     option_value = '34'
+    system = true
 }
 
 resource combo_value format_43 {
     metafield_id = resource.combovalue_metafield.format.metafield_id
     option_value = '43'
+    system = true
 }
 
 resource combo_value format_45 {
     metafield_id = resource.combovalue_metafield.format.metafield_id
     option_value = '45'
+    system = true
 }
 
 resource combo_value format_54 {
     metafield_id = resource.combovalue_metafield.format.metafield_id
     option_value = '54'
+    system = true
 }
 
 resource combo_value format_914 {
     metafield_id = resource.combovalue_metafield.format.metafield_id
     option_value = '914'
+    system = true
 }
 
 resource combo_value format_915 {
     metafield_id = resource.combovalue_metafield.format.metafield_id
     option_value = '915'
+    system = true
 }
 
 resource combo_value format_916 {
     metafield_id = resource.combovalue_metafield.format.metafield_id
     option_value = '916'
+    system = true
 }
 
 resource combo_value format_919 {
     metafield_id = resource.combovalue_metafield.format.metafield_id
     option_value = '919'
+    system = true
 }
 
 resource combo_value format_academy_flat {
     metafield_id = resource.combovalue_metafield.format.metafield_id
     option_value = 'Academy_Flat'
+    system = true
 }
 
 resource combo_value format_anamorphic_scope {
     metafield_id = resource.combovalue_metafield.format.metafield_id
     option_value = 'Anamorphic_Scope'
+    system = true
 }
 
 resource combo_value format_ntsc_34 {
     metafield_id = resource.combovalue_metafield.format.metafield_id
     option_value = 'NTSC_34'
+    system = true
 }
 
 resource combo_value format_ntsc_43 {
     metafield_id = resource.combovalue_metafield.format.metafield_id
     option_value = 'NTSC_43'
+    system = true
 }
 
 resource combovalue_metafield format {
@@ -260,6 +283,7 @@ resource combovalue_metafield format {
     show_in_list = true
     auto_translate = 'Overwrite'
     restrict_to_asset_type = 'Video'
+    system = true
     upload_tag_name = 'calculated:displayaspectratiooption'
     restrict_to_asset_categories = [{
             asset_category_id = resource.asset_category.root.id
@@ -274,6 +298,7 @@ resource item_security format__anonymous {
     item_id = resource.combovalue_metafield.format.item_id
     read = true
     write = false
+    system = true
 }
 
 resource item_security format__trusted {

@@ -5,6 +5,7 @@ resource member_group light_user_24 {
     approved = true
     ad_group_name = ''
     parents = []
+    system = true
     roles = [{
             constant = 'MediaPortal_User'
         }, {

@@ -3,6 +3,7 @@ resource mail_template resetpassword {
     language_id = resource.language.english.id
     template_name = 'reset-password'
     subject = 'Password reset code'
+    system = true
     body = "{{include 'html-header-start'}}
 
 <title>Reset code</title>

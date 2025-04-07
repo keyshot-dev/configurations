@@ -3,6 +3,7 @@ resource item_security fullpath_unc__super_administrator {
     item_id = resource.string_metafield.fullpath_unc.item_id
     read = true
     write = true
+    system = true
 }
 
 resource metafield_label fullpath_unc {
@@ -19,6 +20,7 @@ resource string_metafield fullpath_unc {
     show_in_list = false
     auto_translate = 'Overwrite'
     restrict_to_asset_type = 'All'
+    system = true
     restrict_to_asset_categories = [{
             asset_category_id = resource.asset_category.root.id
         }]

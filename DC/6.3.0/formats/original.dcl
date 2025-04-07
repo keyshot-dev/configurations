@@ -6,5 +6,6 @@ resource format original {
     download_replace_mask = '[%AssetId%]'
     type = 'SourceFormat'
     details = []
+    system = 'true'
 }
 

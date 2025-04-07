@@ -5,6 +5,7 @@ resource member_group administrator_22 {
     approved = true
     ad_group_name = ''
     parents = []
+    system = true
     roles = [{
             constant = 'Editor_SystemTools_UserManager_Users'
         }, {

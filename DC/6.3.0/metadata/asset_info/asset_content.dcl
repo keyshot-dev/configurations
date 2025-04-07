@@ -3,6 +3,7 @@ resource item_security asset_content__trusted {
     item_id = resource.note_metafield.asset_content.item_id
     read = true
     write = true
+    system = true
 }
 
 resource metafield_label asset_content {
@@ -18,6 +19,7 @@ resource note_metafield asset_content {
     show_in_list = false
     auto_translate = 'Overwrite'
     restrict_to_asset_type = 'All'
+    system = true
     restrict_to_asset_categories = [{
             asset_category_id = resource.asset_category.root.id
         }]

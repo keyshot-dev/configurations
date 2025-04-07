@@ -4,6 +4,7 @@ resource member_group internal_access_29 {
     sort_index = 0
     approved = true
     ad_group_name = ''
+    system = true
     parents = []
     roles = [{
             constant = 'Can_view_metadata_tab'

@@ -8,6 +8,7 @@ resource format thumbnail {
     download_replace_mask = ''
     purpose = 'SmallThumbnail'
     type = 'WebPImageFormat'
+    system = 'true'
     details = [{
             key = 'ColorSpace'
             value = 'sRGB'
