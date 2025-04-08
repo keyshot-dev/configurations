@@ -590,6 +590,22 @@ resource configservice_label asset_list_filter_menu_end_date {
   ]
 }
 
+resource configservice_label asset_list_filter_menu_end_date {
+  key = 'ASSET_LIST_FILTER_MENU_ERROR_DATE_PERIOD'
+  group = 'Asset List'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'The end date must be later than the start date'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Slut-datoen skal være senere end start-datoen'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label asset_list_filter_menu_date_between_date_selector_year {
   key = 'ASSET_LIST_FILTER_MENU_DATE_BETWEEN_DATE_SELECTOR_YEAR'
   group = 'Asset List'
