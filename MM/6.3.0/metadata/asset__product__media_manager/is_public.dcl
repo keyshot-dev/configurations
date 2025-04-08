@@ -5,6 +5,7 @@ resource bit_metafield is_public {
     show_in_list = true
     auto_translate = 'Overwrite'
     restrict_to_asset_type = 'All'
+    system = true
     restrict_to_asset_categories = [{
             asset_category_id = data.asset_category.root.id
         }]
@@ -18,6 +19,7 @@ resource item_security is_public__anonymous {
     item_id = resource.bit_metafield.is_public.item_id
     read = true
     write = false
+    system = true
 }
 
 resource item_security is_public__trusted {
@@ -25,6 +27,7 @@ resource item_security is_public__trusted {
     item_id = resource.bit_metafield.is_public.item_id
     read = true
     write = true
+    system = true
 }
 
 resource metafield_label is_public {

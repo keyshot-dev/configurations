@@ -8,6 +8,7 @@ resource metafield_group options_50028 {
     name = 'Options'
     description = ''
     show_in_list = true
+    system = true
     sort_index = 50354
     restrict_to_asset = 'All'
     restrict_to_asset_categories = [{

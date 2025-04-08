@@ -4,6 +4,7 @@ resource channel_folder rights_management {
     autolink = {
         item_guid = '1ee5f159-a7a9-49c9-8bfa-541f00f51ed7'
     }
+    system = true
 }
 
 resource item_security rights_management__anonymous {
@@ -11,5 +12,6 @@ resource item_security rights_management__anonymous {
     item_id = resource.channel_folder.rights_management.item_id
     read = true
     write = false
+    system = true
 }
 

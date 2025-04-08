@@ -20,6 +20,7 @@ resource item_security trim_in_progress__anonymous {
     item_id = resource.bit_metafield.trim_in_progress.item_id
     read = true
     write = false
+    system = true
 }
 
 resource item_security trim_in_progress__trusted {
@@ -27,6 +28,7 @@ resource item_security trim_in_progress__trusted {
     item_id = resource.bit_metafield.trim_in_progress.item_id
     read = true
     write = true
+    system = true
 }
 
 resource metafield_label trim_in_progress {

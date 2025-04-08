@@ -19,6 +19,7 @@ resource item_security is_intro_material__anonymous {
     item_id = resource.bit_metafield.is_intro_material.item_id
     read = true
     write = false
+    system = true
 }
 
 resource item_security is_intro_material__trusted {
@@ -26,6 +27,7 @@ resource item_security is_intro_material__trusted {
     item_id = resource.bit_metafield.is_intro_material.item_id
     read = true
     write = true
+    system = true
 }
 
 resource metafield_label is_intro_material {

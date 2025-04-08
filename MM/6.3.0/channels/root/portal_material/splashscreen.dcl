@@ -4,6 +4,7 @@ resource channel_folder splashscreen {
     autolink = {
         item_guid = 'a253a270-711e-4613-a179-39f460ca3db8'
     }
+    system = true
 }
 
 resource item_security splashscreen__anonymous {
@@ -11,5 +12,6 @@ resource item_security splashscreen__anonymous {
     item_id = resource.channel_folder.splashscreen.item_id
     read = true
     write = false
+    system = true
 }
 

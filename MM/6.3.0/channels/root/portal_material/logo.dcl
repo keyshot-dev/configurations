@@ -4,6 +4,7 @@ resource channel_folder logo {
     autolink = {
         item_guid = 'df6eb005-4f32-4f46-bdc4-2195a2b0d197'
     }
+    system = true
 }
 
 resource item_security logo__anonymous {
@@ -11,5 +12,6 @@ resource item_security logo__anonymous {
     item_id = resource.channel_folder.logo.item_id
     read = true
     write = false
+    system = true
 }
 
