@@ -9102,22 +9102,6 @@ resource configservice_label administration_tools_system_metadata_max_length {
   ]
 }
 
-resource configservice_label administration_tools_system_metadata_system {
-  key = 'ADMINISTRATION_TOOLS_SYSTEM_METADATA_SYSTEM'
-  group = 'administration-tools - system - metadata'
-  product_id = resource.configservice_product.media_manager_5.id
-  default_label_values = [
-    {
-      default_translation = 'System'
-      language_id = data.language.english.id
-    },
-    {
-      default_translation = 'System'
-      language_id = data.language.danish.id
-    }
-  ]
-}
-
 resource configservice_label administration_tools_system_metadata_auto_translate {
   key = 'ADMINISTRATION_TOOLS_SYSTEM_METADATA_AUTO_TRANSLATE'
   group = 'administration-tools - system - metadata'
