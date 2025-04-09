@@ -254,6 +254,70 @@ resource configservice_label creative_cloud_connector_notification_link_manager_
   ]
 }
 
+resource configservice_label creative_cloud_connector_notification_link_manager_remove_links_layer_not_visible {
+  key = 'CREATIVE_CLOUD_CONNECTOR_NOTIFICATION_LINK_MANAGER_REMOVE_LINKS_LAYER_NOT_VISIBLE'
+  group = 'Creative Cloud Connector'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Cannot remove {multiple, select, true {links} false {link}} from a hidden layer'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Kan ikke fjerne {multiple, select, true {linksne} false {linket}} fra et skjult lag'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label creative_cloud_connector_notification_link_manager_remove_links_layer_locked {
+  key = 'CREATIVE_CLOUD_CONNECTOR_NOTIFICATION_LINK_MANAGER_REMOVE_LINKS_LAYER_LOCKED'
+  group = 'Creative Cloud Connector'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Cannot remove {multiple, select, true {links} false {link}} from a locked layer'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Kan ikke fjerne {multiple, select, true {linksne} false {linket}} fra et låst lag'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label creative_cloud_connector_notification_link_manager_update_link_layer_not_visible {
+  key = 'CREATIVE_CLOUD_CONNECTOR_NOTIFICATION_LINK_MANAGER_UPDATE_LINK_LAYER_NOT_VISIBLE'
+  group = 'Creative Cloud Connector'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Cannot update link from a hidden layer'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Kan ikke opdatere link fra et skjult lag'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label creative_cloud_connector_notification_link_manager_update_link_layer_locked {
+  key = 'CREATIVE_CLOUD_CONNECTOR_NOTIFICATION_LINK_MANAGER_UPDATE_LINK_LAYER_LOCKED'
+  group = 'Creative Cloud Connector'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Cannot update link from a locked layer'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Kan ikke opdatere link fra et låst lag'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label creative_cloud_connector_notification_active_document_title {
   key = 'CREATIVE_CLOUD_CONNECTOR_NOTIFICATION_ACTIVE_DOCUMENT_TITLE'
   group = 'Creative Cloud Connector'
@@ -281,6 +345,38 @@ resource configservice_label creative_cloud_connector_notification_active_docume
     },
     {
       default_translation = 'Der blev ikke fundet noget aktivt dokument'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label creative_cloud_connector_notification_active_layer_not_visible {
+  key = 'CREATIVE_CLOUD_CONNECTOR_NOTIFICATION_ACTIVE_LAYER_NOT_VISIBLE'
+  group = 'Creative Cloud Connector'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Cannot insert asset, the active layer is not visible'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Kan ikke indsætte asset, det aktive lag er ikke synligt'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label creative_cloud_connector_notification_active_layer_is_locked {
+  key = 'CREATIVE_CLOUD_CONNECTOR_NOTIFICATION_ACTIVE_LAYER_IS_LOCKED'
+  group = 'Creative Cloud Connector'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Cannot insert asset, the active layer is locked'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Kan ikke indsætte asset, det aktive lag er låst'
       language_id = data.language.danish.id
     }
   ]
