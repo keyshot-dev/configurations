@@ -286,6 +286,38 @@ resource configservice_label creative_cloud_connector_notification_link_manager_
   ]
 }
 
+resource configservice_label creative_cloud_connector_notification_link_manager_update_link_layer_not_visible {
+  key = 'CREATIVE_CLOUD_CONNECTOR_NOTIFICATION_LINK_MANAGER_UPDATE_LINK_LAYER_NOT_VISIBLE'
+  group = 'Creative Cloud Connector'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Cannot update link from a hidden layer'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Kan ikke opdatere link fra et skjult lag'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label creative_cloud_connector_notification_link_manager_update_link_layer_locked {
+  key = 'CREATIVE_CLOUD_CONNECTOR_NOTIFICATION_LINK_MANAGER_UPDATE_LINK_LAYER_LOCKED'
+  group = 'Creative Cloud Connector'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Cannot update link from a locked layer'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Kan ikke opdatere link fra et låst lag'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label creative_cloud_connector_notification_active_document_title {
   key = 'CREATIVE_CLOUD_CONNECTOR_NOTIFICATION_ACTIVE_DOCUMENT_TITLE'
   group = 'Creative Cloud Connector'
