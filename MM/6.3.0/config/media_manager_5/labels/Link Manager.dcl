@@ -77,3 +77,19 @@ resource configservice_label embedded_link_manager_resolve_link_button_missing_u
     }
   ]
 }
+
+resource configservice_label embedded_link_manager_illustrator_error_notification_action_body {
+  key = 'EMBEDDED_LINK_MANAGER_ILLUSTRATOR_ERROR_NOTIFICATION_ACTION_BODY'
+  group = 'Link Manager'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Illustrator doesnt allow {action, select, 0 {inserting} 1 {updating} 2 {removing}} links from {reason, select, 0 {hidden} 1 {locked}} layers'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Illustrator tillader ikke man {action, select, 0 {indsætter} 1 {opdaterer} 2 {fjerner}} links fra {reason, select, 0 {skjulte} 1 {låste}} lag'
+      language_id = data.language.danish.id
+    }
+  ]
+}
