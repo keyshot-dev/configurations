@@ -1,7 +1,6 @@
 data item_security options_message__metadata_viewer {
     accessor_item_id = data.member_group.metadata_viewer.item_id
     item_id = data.note_metafield.options_message.item_id
-    system = true
 }
 
 data note_metafield options_message {
