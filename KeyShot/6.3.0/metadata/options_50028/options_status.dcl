@@ -13,25 +13,21 @@ data combo_value_label status_for_approval {
 data combo_value status_approved {
     metafield_id = data.combovalue_metafield.options_status.metafield_id
     option_value = '#20bf6b;published'
-    system = true
 }
 
 data combo_value status_expired {
     metafield_id = data.combovalue_metafield.options_status.metafield_id
     option_value = '#d33a17;expired'
-    system = true
 }
 
 data combo_value status_for_approval {
     metafield_id = data.combovalue_metafield.options_status.metafield_id
     option_value = '#ffd32a;for approval'
-    system = true
 }
 
 data combo_value status_requires_tagging {
     metafield_id = data.combovalue_metafield.options_status.metafield_id
     option_value = '#1e90ff;requires tagging'
-    system = true
 }
 
 data combovalue_metafield options_status {
