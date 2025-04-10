@@ -5,8 +5,8 @@ resource editcombovalue_metafield camera_50412 {
     required = false
     readonly = false
     show_in_list = true
-    system = false
     auto_translate = 'Overwrite'
+    system = true
     restrict_to_asset_type = 'All'
     upload_tag_name = ''
     restrict_to_asset_categories = [{
@@ -23,6 +23,7 @@ resource item_security editcombovalue_metafield_camera_50412__editor_access_36 {
     item_id = resource.editcombovalue_metafield.camera_50412.item_id
     read = true
     write = true
+    system = true
 }
 
 resource item_security editcombovalue_metafield_camera_50412__metadata_editor_33 {
@@ -30,6 +31,7 @@ resource item_security editcombovalue_metafield_camera_50412__metadata_editor_33
     item_id = resource.editcombovalue_metafield.camera_50412.item_id
     read = true
     write = true
+    system = true
 }
 
 resource item_security editcombovalue_metafield_camera_50412__metadata_viewer_34 {
@@ -37,6 +39,7 @@ resource item_security editcombovalue_metafield_camera_50412__metadata_viewer_34
     item_id = resource.editcombovalue_metafield.camera_50412.item_id
     read = true
     write = false
+    system = true
 }
 
 resource item_security editcombovalue_metafield_camera_50412__sa_full_access_35 {
@@ -44,6 +47,7 @@ resource item_security editcombovalue_metafield_camera_50412__sa_full_access_35 
     item_id = resource.editcombovalue_metafield.camera_50412.item_id
     read = true
     write = true
+    system = true
 }
 
 resource item_security editcombovalue_metafield_camera_50412__superadministrator {
@@ -51,6 +55,7 @@ resource item_security editcombovalue_metafield_camera_50412__superadministrator
     item_id = resource.editcombovalue_metafield.camera_50412.item_id
     read = true
     write = true
+    system = true
 }
 
 resource metafield_label camera_51484 {

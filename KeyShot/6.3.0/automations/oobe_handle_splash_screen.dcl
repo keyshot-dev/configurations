@@ -5,4 +5,5 @@ data automation_workflow oobe_handle_splash_screen {
 patch automation_workflow oobe_handle_splash_screen {
     target = data.automation_workflow.oobe_handle_splash_screen
     is_disabled = true
+    system = true
 }

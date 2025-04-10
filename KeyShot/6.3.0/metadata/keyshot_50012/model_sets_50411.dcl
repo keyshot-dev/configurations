@@ -5,7 +5,7 @@ resource editmulticombovalue_metafield model_sets_50411 {
     required = false
     readonly = false
     show_in_list = true
-    system = false
+    system = true
     auto_translate = 'Overwrite'
     restrict_to_asset_type = 'All'
     upload_tag_name = ''
@@ -23,6 +23,7 @@ resource item_security editmulticombovalue_metafield_model_sets_50411__editor_ac
     item_id = resource.editmulticombovalue_metafield.model_sets_50411.item_id
     read = true
     write = true
+    system = true
 }
 
 resource item_security editmulticombovalue_metafield_model_sets_50411__metadata_editor_33 {
@@ -30,6 +31,7 @@ resource item_security editmulticombovalue_metafield_model_sets_50411__metadata_
     item_id = resource.editmulticombovalue_metafield.model_sets_50411.item_id
     read = true
     write = true
+    system = true
 }
 
 resource item_security editmulticombovalue_metafield_model_sets_50411__metadata_viewer_34 {
@@ -37,6 +39,7 @@ resource item_security editmulticombovalue_metafield_model_sets_50411__metadata_
     item_id = resource.editmulticombovalue_metafield.model_sets_50411.item_id
     read = true
     write = false
+    system = true
 }
 
 resource item_security editmulticombovalue_metafield_model_sets_50411__sa_full_access_35 {
@@ -44,6 +47,7 @@ resource item_security editmulticombovalue_metafield_model_sets_50411__sa_full_a
     item_id = resource.editmulticombovalue_metafield.model_sets_50411.item_id
     read = true
     write = true
+    system = true
 }
 
 resource item_security editmulticombovalue_metafield_model_sets_50411__superadministrator {
@@ -51,6 +55,7 @@ resource item_security editmulticombovalue_metafield_model_sets_50411__superadmi
     item_id = resource.editmulticombovalue_metafield.model_sets_50411.item_id
     read = true
     write = true
+    system = true
 }
 
 resource metafield_label model_sets_51483 {

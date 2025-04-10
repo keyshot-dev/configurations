@@ -1,6 +1,7 @@
 data mail_template standardheader {
     portal_name = ''
     language_id = data.language.english.id
+    system = true
     template_name = 'standard-header'
 }
 

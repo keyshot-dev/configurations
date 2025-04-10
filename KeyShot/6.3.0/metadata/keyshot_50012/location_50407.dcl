@@ -5,7 +5,7 @@ resource editcombovalue_metafield location_50407 {
     required = false
     readonly = false
     show_in_list = true
-    system = false
+    system = true
     auto_translate = 'Overwrite'
     restrict_to_asset_type = 'All'
     upload_tag_name = ''
@@ -25,6 +25,7 @@ resource item_security editcombovalue_metafield_location_50407__editor_access_32
     item_id = resource.editcombovalue_metafield.location_50407.item_id
     read = true
     write = true
+    system = true
 }
 
 resource item_security editcombovalue_metafield_location_50407__metadata_editor_36 {
@@ -32,6 +33,7 @@ resource item_security editcombovalue_metafield_location_50407__metadata_editor_
     item_id = resource.editcombovalue_metafield.location_50407.item_id
     read = true
     write = true
+    system = true
 }
 
 resource item_security editcombovalue_metafield_location_50407__metadata_viewer_35 {
@@ -39,6 +41,7 @@ resource item_security editcombovalue_metafield_location_50407__metadata_viewer_
     item_id = resource.editcombovalue_metafield.location_50407.item_id
     read = true
     write = false
+    system = true
 }
 
 resource item_security editcombovalue_metafield_location_50407__sa_full_access_37 {
@@ -46,6 +49,7 @@ resource item_security editcombovalue_metafield_location_50407__sa_full_access_3
     item_id = resource.editcombovalue_metafield.location_50407.item_id
     read = true
     write = true
+    system = true
 }
 
 resource item_security editcombovalue_metafield_location_50407__superadministrator {
@@ -53,6 +57,7 @@ resource item_security editcombovalue_metafield_location_50407__superadministrat
     item_id = resource.editcombovalue_metafield.location_50407.item_id
     read = true
     write = true
+    system = true
 }
 
 resource metafield_label location_51479 {
