@@ -49,19 +49,16 @@ data item_security options_status__metadata_viewer {
 data item_security status_approved__metadata_viewer {
     accessor_item_id = data.member_group.metadata_viewer.item_id
     item_id = data.combo_value.status_approved.item_id
-    system = true
 }
 
 data item_security status_for_approval__metadata_viewer {
     accessor_item_id = data.member_group.metadata_viewer.item_id
     item_id = data.combo_value.status_for_approval.item_id
-    system = true
 }
 
 data item_security status_requires_tagging__metadata_viewer {
     accessor_item_id = data.member_group.metadata_viewer.item_id
     item_id = data.combo_value.status_requires_tagging.item_id
-    system = true
 }
 
 patch combo_value_label id_501683 {
