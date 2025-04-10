@@ -43,7 +43,6 @@ data combovalue_metafield options_status {
 data item_security options_status__metadata_viewer {
     accessor_item_id = data.member_group.metadata_viewer.item_id
     item_id = data.combovalue_metafield.options_status.item_id
-    system = true
 }
 
 data item_security status_approved__metadata_viewer {
