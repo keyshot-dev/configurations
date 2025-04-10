@@ -590,7 +590,7 @@ resource configservice_label asset_list_filter_menu_end_date {
   ]
 }
 
-resource configservice_label asset_list_filter_menu_end_date {
+resource configservice_label asset_list_filter_menu_error_date_period {
   key = 'ASSET_LIST_FILTER_MENU_ERROR_DATE_PERIOD'
   group = 'Asset List'
   product_id = resource.configservice_product.media_manager_5.id
