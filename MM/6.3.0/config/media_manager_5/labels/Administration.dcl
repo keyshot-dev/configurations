@@ -6816,11 +6816,11 @@ resource configservice_label administration_tools_users_and_groups_user_default_
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Folder name'
+      default_translation = 'Folder'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Ordnername'
+      default_translation = 'Mappe'
       language_id = data.language.danish.id
     }
   ]
