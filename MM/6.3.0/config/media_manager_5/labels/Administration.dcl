@@ -6810,8 +6810,8 @@ resource configservice_label administration_tools_users_and_groups_user_binding_
   ]
 }
 
-resource configservice_label administration_tools_users_and_groups_user_default_folder {
-  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_USER_DEFAULT_FOLDER'
+resource configservice_label administration_tools_users_and_groups_user_folder_name {
+  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_USER_FOLDER_NAME'
   group = 'administration-tools - users-and-groups'
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
@@ -6821,6 +6821,22 @@ resource configservice_label administration_tools_users_and_groups_user_default_
     },
     {
       default_translation = 'Mappe'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_users_and_groups_user_default_folder {
+  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_USER_DEFAULT_FOLDER'
+  group = 'administration-tools - users-and-groups'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Default'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Standard'
       language_id = data.language.danish.id
     }
   ]
