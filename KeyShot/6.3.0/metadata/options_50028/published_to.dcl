@@ -6,6 +6,5 @@ data tree_metafield published_to {
 patch tree_metafield published_to_patch {
     target = data.tree_metafield.published_to
     show_in_list = false
-    system = true
 }
 
