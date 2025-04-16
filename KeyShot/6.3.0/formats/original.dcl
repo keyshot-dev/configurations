@@ -2,7 +2,6 @@ data format original {
     name = 'Original'
     type = 'SourceFormat'
     purpose = 'None'
-    system = true
 }
 
 patch format id_1 {
