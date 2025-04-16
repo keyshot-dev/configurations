@@ -6,5 +6,4 @@ data member_group editor_access {
 
 patch member_group id_125 {
     target = data.member_group.editor_access
-    system = true
 }
