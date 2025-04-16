@@ -72,37 +72,30 @@ patch combo_value_label id_502213 {
 patch combo_value id_50165 {
     target = data.combo_value.status_expired
     sort_index = 5
-    system = true
 }
 
 patch combo_value id_50168 {
     target = data.combo_value.status_approved
     sort_index = 4
-    system = true
 }
 
 patch item_security id_14695 {
     target = data.item_security.options_status__metadata_viewer
     write = true
-    system = true
-}
 
 patch item_security id_14806 {
     target = data.item_security.status_requires_tagging__metadata_viewer
     write = true
-    system = true
 }
 
 patch item_security id_14812 {
     target = data.item_security.status_approved__metadata_viewer
     write = true
-    system = true
 }
 
 patch item_security id_16063 {
     target = data.item_security.status_for_approval__metadata_viewer
     write = true
-    system = true
 }
 
 resource combo_value_label status__d094e5for_review__english_50269 {
