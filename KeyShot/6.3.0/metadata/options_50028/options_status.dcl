@@ -37,7 +37,6 @@ data combovalue_metafield options_status {
     show_in_list = true
     visibility_metafield_id = 0
     visibility_regex = ''
-    system = true
 }
 
 data item_security options_status__metadata_viewer {
