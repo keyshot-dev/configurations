@@ -82,6 +82,7 @@ patch combo_value id_50168 {
 patch item_security id_14695 {
     target = data.item_security.options_status__metadata_viewer
     write = true
+ }
 
 patch item_security id_14806 {
     target = data.item_security.status_requires_tagging__metadata_viewer
@@ -116,6 +117,7 @@ resource item_security combo_value_status_d094e5for_review_50396__metadata_edito
     item_id = resource.combo_value.status_d094e5for_review_50396.item_id
     read = true
     write = true
+    system = true
 }
 
 resource item_security combo_value_status_d094e5for_review_50396__metadata_viewer_33 {
@@ -123,6 +125,7 @@ resource item_security combo_value_status_d094e5for_review_50396__metadata_viewe
     item_id = resource.combo_value.status_d094e5for_review_50396.item_id
     read = true
     write = true
+    system = true
 }
 
 resource item_security combo_value_status_d094e5for_review_50396__sa_full_access_32 {
@@ -130,5 +133,6 @@ resource item_security combo_value_status_d094e5for_review_50396__sa_full_access
     item_id = resource.combo_value.status_d094e5for_review_50396.item_id
     read = true
     write = true
+    system = true
 }
 
