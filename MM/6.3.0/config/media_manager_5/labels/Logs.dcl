@@ -462,3 +462,18 @@ resource configservice_label logs_period_facet_start {
   ]
 }
 
+resource configservice_label logs_period_facet_innvalid_range {
+  key = 'LOGS_PERIOD_FACET_INVALID_RANGE'
+  group = 'Logs'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'End date must be after start date'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Slutdato skal være efter startdato'
+      language_id = data.language.danish.id
+    }
+  ]
+}
