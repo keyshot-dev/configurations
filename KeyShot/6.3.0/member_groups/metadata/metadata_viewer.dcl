@@ -6,5 +6,4 @@ data member_group metadata_viewer {
 
 patch member_group id_124 {
     target = data.member_group.metadata_viewer
-    system = true
 }
