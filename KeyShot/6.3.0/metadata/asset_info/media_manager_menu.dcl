@@ -1,7 +1,6 @@
 data item_security media_manager_menu__trusted {
     accessor_item_id = data.member_group.trusted.item_id
     item_id = data.tree_metafield.media_manager_menu.item_id
-    system = true
 }
 
 data tree_metafield media_manager_menu {
@@ -11,12 +10,10 @@ data tree_metafield media_manager_menu {
     show_in_list = true
     visibility_metafield_id = 0
     visibility_regex = ''
-    system = true
 }
 
 patch item_security id_3719 {
     target = data.item_security.media_manager_menu__trusted
     write = false
-    system = true
 }
 
