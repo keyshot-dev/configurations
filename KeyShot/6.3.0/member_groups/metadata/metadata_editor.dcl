@@ -6,5 +6,4 @@ data member_group metadata_editor {
 
 patch member_group id_123 {
     target = data.member_group.metadata_editor
-    system = true
 }
