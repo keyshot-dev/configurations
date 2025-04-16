@@ -6,5 +6,4 @@ data member_group sa_full_access {
 
 patch member_group id_126 {
     target = data.member_group.sa_full_access
-    system = true
 }
