@@ -11,18 +11,15 @@ data note_metafield options_message {
     max_length = 0
     visibility_metafield_id = 0
     visibility_regex = ''
-    system = true
 }
 
 patch item_security id_14699 {
     target = data.item_security.options_message__metadata_viewer
     write = true
-    system = true
 }
 
 patch note_metafield id_50393 {
     target = data.note_metafield.options_message
     sort_index = 20
-    system = true
 }
 
