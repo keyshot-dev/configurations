@@ -46,7 +46,7 @@ resource configservice_label administration_tools_dashboard_tool_edit {
   ]
 }
 
-resource configservice_label administration_tools_dashboard_tool_edit {
+resource configservice_label administration_tools_dashboard_tool_edit_item {
   key = 'ADMINISTRATION_TOOLS_DASHBOARD_TOOL_EDIT_ITEM'
   group = 'administration-tools - dashboard-tool'
   product_id = resource.configservice_product.media_manager_5.id
