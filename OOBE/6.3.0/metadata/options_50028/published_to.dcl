@@ -99,7 +99,6 @@ resource tree_metafield published_to {
     system = true
     readonly = false
     show_in_list = true
-    system = false
     auto_translate = 'Overwrite'
     restrict_to_asset_type = 'All'
     upload_tag_name = ''

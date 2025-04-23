@@ -6,7 +6,6 @@ resource datetime_metafield expiration_date {
     readonly = false
     system = true
     show_in_list = false
-    system = false
     auto_translate = 'Overwrite'
     restrict_to_asset_type = 'All'
     restrict_to_asset_categories = [{
