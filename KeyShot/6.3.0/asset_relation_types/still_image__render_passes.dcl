@@ -2,6 +2,7 @@ resource asset_relation_type still_image__render_passes {
     name = 'Still Image-Render Passes'
     guid = '6a6d8889-ab3a-489d-b4d4-6c5cdea50a2e'
     description = ''
+    is_locked = true
     multiplicity = 'OneToMany'
 	show_in_list_when_primary = true
 	show_in_list_when_secondary = true

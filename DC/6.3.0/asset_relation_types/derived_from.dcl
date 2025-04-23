@@ -5,6 +5,7 @@ resource asset_relation_type derived_from {
     multiplicity = 'OneToMany'
 	show_in_list_when_primary = true
 	show_in_list_when_secondary = true
+	is_locked = true
     deletion_behavior = {
         enable_behavior = true
         inherit_soft_delete = false

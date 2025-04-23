@@ -5,6 +5,7 @@ resource asset_relation_type replaced_with {
     multiplicity = 'OneToMany'
 	show_in_list_when_primary = true
 	show_in_list_when_secondary = true
+	is_locked = true
     channel_publishing_behavior = {
         enable_behavior = true
         block_publishing = true
