@@ -4,6 +4,7 @@ resource member light_user {
     language = data.language.english.id
     folder_id = data.member_folder.user_profiles.id
     firstname = 'Light user'
+    system = true
     lastname = '(user profile)'
     enabled = true
     ad_username = ''

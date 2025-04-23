@@ -1,5 +1,6 @@
 data channel_folder portal_material {
     name = 'Portal Material'
+    system = true
     parent_id = data.channel_folder.digizuite_media_manager.channel_folder_id
 }
 

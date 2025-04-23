@@ -1,6 +1,7 @@
 resource automation_workflow oobe_publish_to_workflow__publish_unpublish {
     name = 'OOBE: Publish-to workflow - publish/unpublish'
     description = ''
+    system = true
     content = 'trigger "Published to changed" {
 	type = "metadata"
 	resolves = ["Move Asset To Folder","Set Is Public","Unset Is Public"]

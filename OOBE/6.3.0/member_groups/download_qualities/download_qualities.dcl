@@ -3,6 +3,7 @@ resource member_group download_qualities {
     folder_id = resource.member_group_folder.download_qualities.id
     sort_index = 0
     approved = true
+    system = true
     ad_group_name = ''
     parents = []
     roles = []

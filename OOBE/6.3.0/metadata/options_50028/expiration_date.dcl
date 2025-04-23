@@ -4,6 +4,7 @@ resource datetime_metafield expiration_date {
     group_id = data.metafield_group.options.metafield_group_id
     required = false
     readonly = false
+    system = true
     show_in_list = false
     system = false
     auto_translate = 'Overwrite'

@@ -2,6 +2,7 @@ resource member_group scheme_light_user {
     name = 'Scheme - Light user'
     folder_id = resource.member_group_folder.schemas.id
     sort_index = 0
+    system = true
     approved = true
     ad_group_name = ''
     parents = [{

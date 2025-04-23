@@ -1,6 +1,7 @@
 resource automation_workflow oobe_give_admin_access {
     name = 'OOBE: Give admin access'
     description = ''
+    system = true
     content = 'trigger "Asset is uploaded" {
 	type = "Location State Changed"
 	resolves = "Move Asset to Admin access"

@@ -1,6 +1,7 @@
 resource automation_workflow oobe_handle_expired_assets {
     name = 'OOBE: Handle Expired assets'
     description = ''
+    system = true
     content = 'trigger "CronScheduleTrigger" {
 	type = "CronScheduleTrigger"
 	resolves = "Set Status to Expired"
