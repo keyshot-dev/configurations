@@ -2,7 +2,7 @@ resource mail_template memberconfirmation {
     portal_name = ''
     language_id = resource.language.english.id
     template_name = 'member-confirmation'
-    subject = 'Please Confirm your Media Manager user'
+    subject = 'Please confirm your KeyShot user'
     body = '{{include \'html-header-start\'}}
                     <title>Please Confirm your KeyShot user</title>
                     {{include \'html-header-end\'}}
