@@ -1449,11 +1449,11 @@ resource configservice_label administration_tools_users_and_groups_delete_user_e
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'User not saved'
+      default_translation = '{count, cardinalPlural, one {User} other {Users} not deleted}'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Brugeren blev ikke gemt'
+      default_translation = '{count, cardinalPlural, one {Bruger} other {Brugere} blev ikke slettet}'
       language_id = data.language.danish.id
     }
   ]
@@ -1465,11 +1465,11 @@ resource configservice_label administration_tools_users_and_groups_delete_user_s
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'User deleted'
+      default_translation = '{count, cardinalPlural, one {User} other {Users} deleted}'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Brugeren blev slettet'
+      default_translation = '{count, cardinalPlural, one {Bruger} other {Brugere} blev slettet}'
       language_id = data.language.danish.id
     }
   ]
@@ -1930,11 +1930,11 @@ resource configservice_label administration_tools_users_and_groups_users_dialog_
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Are you sure you want to delete the selected users? This action cannot be undone.'
+      default_translation = 'Are you sure you want to delete the selected users? This action CANNOT be undone!'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Er du sikker på, at du vil slette de valgte brugere? Denne handling kan ikke fortrydes.'
+      default_translation = 'Er du sikker på, at du vil slette de valgte brugere? Denne handling kan IKKE fortrydes!'
       language_id = data.language.danish.id
     }
   ]
@@ -1946,11 +1946,11 @@ resource configservice_label administration_tools_users_and_groups_users_bulk_de
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'You are able to delete {{ availableCount }} out of {{ selectedCount }} users'
+      default_translation = 'You are able to delete {{ availableCount }} out of selected {{ selectedCount }} users.'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Du kan slette {{ availableCount }} ud af {{ selectedCount }} brugere'
+      default_translation = 'Du kan slette {{ availableCount }} ud af de valgte {{ selectedCount }} brugere.'
       language_id = data.language.danish.id
     }
   ]
