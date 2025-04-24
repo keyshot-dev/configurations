@@ -1449,11 +1449,11 @@ resource configservice_label administration_tools_users_and_groups_delete_user_e
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = '{count, cardinalPlural, one {User} other {Users} not deleted}'
+      default_translation = '{count, cardinalPlural, one {User not deleted} other {Users not deleted}}'
       language_id = data.language.english.id
     },
     {
-      default_translation = '{count, cardinalPlural, one {Bruger} other {Brugere} blev ikke slettet}'
+      default_translation = '{count, cardinalPlural, one {Bruger blev ikke slettet} other {Brugere blev ikke slettet}}'
       language_id = data.language.danish.id
     }
   ]
@@ -1465,11 +1465,11 @@ resource configservice_label administration_tools_users_and_groups_delete_user_s
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = '{count, cardinalPlural, one {User} other {Users} deleted}'
+      default_translation = '{count, cardinalPlural, one {User deleted} other {Users deleted}}'
       language_id = data.language.english.id
     },
     {
-      default_translation = '{count, cardinalPlural, one {Bruger} other {Brugere} blev slettet}'
+      default_translation = '{count, cardinalPlural, one {Bruger blev slettet} other {Brugere blev slettet}}'
       language_id = data.language.danish.id
     }
   ]
