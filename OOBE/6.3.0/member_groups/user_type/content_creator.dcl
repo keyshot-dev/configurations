@@ -84,6 +84,8 @@ patch member_group content_creator_patch {
             constant = 'WorkStages_View'
         }, {
             constant = 'MediaPortal_Audio_Embed'
+        }, {
+            constant = 'Can_Live_Export_System_Data'
         }]
     name = 'Content creator (profile)'
 }
