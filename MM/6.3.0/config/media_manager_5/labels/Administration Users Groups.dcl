@@ -1946,11 +1946,11 @@ resource configservice_label administration_tools_users_and_groups_users_bulk_de
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'You are able to delete {{ availableCount }} out of selected {{ selectedCount }} users.'
+      default_translation = 'You can delete {{ available }}  of the {{ selected }} selected users. The remaining {protected, cardinalPlural, one {user is} other {users are}} system-protected and cannot be deleted.'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Du kan slette {{ availableCount }} ud af de valgte {{ selectedCount }} brugere.'
+      default_translation = 'Du kan slette {{ available }} af de {{ selected }} valgte brugere. De resterende {protected, cardinalPlural, one {bruger er} other {brugere er}} systembeskyttede og kan ikke slettes.'
       language_id = data.language.danish.id
     }
   ]
