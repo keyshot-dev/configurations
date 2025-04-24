@@ -502,11 +502,23 @@ resource configservice_label administration_tools_analytics_table_builder_data_s
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Table Data Section'
+      default_translation = '
+Title: Provide a clear and descriptive heading for your table
+Data source: Select the database source you wish to base your pivot table on
+Row data: Choose the data to populate the rows of your pivot table
+Column data: Choose the data to populate the columns of your pivot table
+Number of rows: Specify the number of items to be displayed in your pivot table
+  '
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Table Datasektion'
+      default_translation = '
+Titel: Giv en klar og beskrivende overskrift til din pivottabel
+Datakilde: Vælg den kilde i databasen, du vil basere din pivottabel på
+Rækkedata: Vælg data, der skal udfylde rækkerne i din pivottabel
+Kolonnedata: Vælg data, der skal udfylde kolonnerne i din pivottabel
+Antal rækker: Angiv antallet af elementer, der skal vises i din pivottabel
+      '
       language_id = data.language.danish.id
     }
   ]
@@ -518,11 +530,11 @@ resource configservice_label administration_tools_analytics_table_builder_filter
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Table Filters Section'
+      default_translation = 'Filter data to only include specific users or groups'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Table Filtersektion'
+      default_translation = 'Filtrér data til kun at omfatte specifikke brugere eller grupper'
       language_id = data.language.danish.id
     }
   ]
@@ -534,11 +546,11 @@ resource configservice_label administration_tools_analytics_table_builder_date_s
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Table Date Section'
+      default_translation = 'Limit the time frame of the data'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Table Datosektion'
+      default_translation = 'Begræns tidsrammen for dataen'
       language_id = data.language.danish.id
     }
   ]
@@ -550,11 +562,11 @@ resource configservice_label administration_tools_analytics_table_builder_sortin
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Table Sorting Section'
+      default_translation = 'Inverse the order in which the rows are displayed'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Table Sorteringssektion'
+      default_translation = 'Vend rækkefølgen rækkerne skal vises i'
       language_id = data.language.danish.id
     }
   ]
@@ -567,11 +579,17 @@ resource configservice_label administration_tools_analytics_chart_builder_data_s
     product_id = resource.configservice_product.media_manager_5.id
     default_label_values = [
         {
-            default_translation = 'Chart Data Section'
+            default_translation = '
+Title: Provide a clear and descriptive heading for your chart
+Data source: Select the database source you wish to base your chart on
+            '
             language_id = data.language.english.id
         },
         {
-            default_translation = 'Chart Datasektion'
+            default_translation = '
+Titel: Giv en klar og beskrivende overskrift til din graf
+Datakilde: Vælg den kilde i databasen, du vil basere din graf på
+'
             language_id = data.language.danish.id
         }
     ]
@@ -583,7 +601,13 @@ resource configservice_label administration_tools_analytics_chart_builder_groupi
     product_id = resource.configservice_product.media_manager_5.id
     default_label_values = [
         {
-            default_translation = 'Chart Grouping Section'
+            default_translation = '
+Group by: This section will change based on what data source you chose above. You can choose between having 1 or 2 groupings.
+Time dimensions: 
+Property dimensions: 
+x-axis: 
+By metadata: 
+'
             language_id = data.language.english.id
         },
         {
