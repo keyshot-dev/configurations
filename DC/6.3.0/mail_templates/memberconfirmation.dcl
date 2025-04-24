@@ -40,7 +40,7 @@ resource mail_template memberconfirmation {
                             </td>
                         </tr>
                     </table>
-                    {{include \'standard-footer\'}}'
+                    {{include 'standard-footer'}}'
     autolink = {
         portal_name = ''
         language_id = resource.language.english.id
