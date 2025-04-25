@@ -468,7 +468,7 @@ resource configservice_label logs_period_facet_innvalid_range {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'End date must be after start date'
+      default_translation = 'The start date cannot be later than the end date'
       language_id = data.language.english.id
     },
     {
