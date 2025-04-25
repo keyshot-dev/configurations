@@ -2613,6 +2613,22 @@ resource configservice_label portal_config_manager_multi_file_upload_presets_ass
   ]
 }
 
+resource configservice_label portal_config_manager_multi_file_upload_presets_use_meta_asset_label {
+  key = 'PORTAL_CONFIG_MANAGER_MULTI_FILE_UPLOAD_PRESETS_USE_META_ASSET_LABEL'
+  group = 'Config Manager'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Use meta asset as primary'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Brug meta-asset som primær'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label portal_config_manager_multi_file_upload_presets_remove_preset {
   key = 'PORTAL_CONFIG_MANAGER_MULTI_FILE_UPLOAD_PRESETS_REMOVE_PRESET'
   group = 'Config Manager'
@@ -2656,6 +2672,70 @@ resource configservice_label portal_config_manager_multi_file_upload_presets_sea
     },
     {
       default_translation = 'Søg'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label portal_config_manager_multi_file_upload_presets_remove_preset_dialog_confirm {
+  key = 'PORTAL_CONFIG_MANAGER_MULTI_FILE_UPLOAD_PRESETS_REMOVE_PRESET_DIALOG_CONFIRM'
+  group = 'Config Manager'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Delete'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Slet'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label portal_config_manager_multi_file_upload_presets_remove_preset_dialog_cancel {
+  key = 'PORTAL_CONFIG_MANAGER_MULTI_FILE_UPLOAD_PRESETS_REMOVE_PRESET_DIALOG_CANCEL'
+  group = 'Config Manager'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Keep'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Behold'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label portal_config_manager_multi_file_upload_presets_remove_preset_dialog_content {
+  key = 'PORTAL_CONFIG_MANAGER_MULTI_FILE_UPLOAD_PRESETS_REMOVE_PRESET_DIALOG_CONTENT'
+  group = 'Config Manager'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Are you sure you want to delete the \'{{name}}\' preset?'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Er du sikker på at du vil slette \'{{name}}\'-beskræringen?'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label portal_config_manager_multi_file_upload_presets_remove_preset_dialog_title {
+  key = 'PORTAL_CONFIG_MANAGER_MULTI_FILE_UPLOAD_PRESETS_REMOVE_PRESET_DIALOG_TITLE'
+  group = 'Config Manager'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Delete preset'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Slet skabelon'
       language_id = data.language.danish.id
     }
   ]
