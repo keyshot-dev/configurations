@@ -472,7 +472,7 @@ resource configservice_label logs_period_facet_innvalid_range {
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Slutdato skal være efter startdato'
+      default_translation = 'Startdatoen kan ikke være senere end slutdatoen'
       language_id = data.language.danish.id
     }
   ]
