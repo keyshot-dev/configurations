@@ -1694,6 +1694,22 @@ resource configservice_label business_workflow_editor_workflow_tab_name {
   ]
 }
 
+resource configservice_label business_workflow_editor_workflow_tags {
+  key = 'BUSINESS_WORKFLOW_EDITOR_WORKFLOW_TAGS'
+  group = 'Business Workflow'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Tags'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Tags'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label business_workflow_editor_workflow_group_name {
   key = 'BUSINESS_WORKFLOW_EDITOR_WORKFLOW_GROUP_NAME'
   group = 'Business Workflow'

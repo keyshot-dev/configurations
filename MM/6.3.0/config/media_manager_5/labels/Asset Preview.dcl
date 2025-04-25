@@ -366,7 +366,7 @@ resource configservice_label asset_preview_container_template_fullscreen {
   ]
 }
 
-resource configservice_label asset_preview_replaced_asset{
+resource configservice_label asset_preview_replaced_asset {
   key = 'ASSET_PREVIEW_REPLACED_ASSET'
   group = 'Asset Preview'
   product_id = resource.configservice_product.media_manager_5.id
@@ -377,6 +377,22 @@ resource configservice_label asset_preview_replaced_asset{
     },
     {
       default_translation = 'Erstattet asset'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_preview_viewer_indicator {
+  key = 'ASSET_PREVIEW_VIEWER_INDICATOR'
+  group = 'Asset Preview'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = '{type, select, 3d {3D} 360 {360°}}'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = '{type, select, 3d {3D} 360 {360°}}'
       language_id = data.language.danish.id
     }
   ]
