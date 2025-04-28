@@ -1950,7 +1950,7 @@ resource configservice_label administration_tools_users_and_groups_users_bulk_de
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Du kan kun slette {{ available }} af de {{ selected }} valgte brugere. {protected, cardinalPlural, one {Den resterende bruger er} other {De resterende brugere er}} systembeskyttede og kan derfor ikke slettes.'
+      default_translation = 'Du kan kun slette {{ available }} af de {{ selected }} valgte brugere. {protected, cardinalPlural, one {Den resterende bruger er systembeskyttet} other {De resterende brugere er systembeskyttede}} og kan derfor ikke slettes.'
       language_id = data.language.danish.id
     }
   ]
