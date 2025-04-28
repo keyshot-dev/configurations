@@ -1449,11 +1449,11 @@ resource configservice_label administration_tools_users_and_groups_delete_user_e
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'User not saved'
+      default_translation = '{count, cardinalPlural, one {User not deleted} other {Users not deleted}}'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Brugeren blev ikke gemt'
+      default_translation = '{count, cardinalPlural, one {Brugeren blev ikke slettet} other {Brugerne blev ikke slettet}}'
       language_id = data.language.danish.id
     }
   ]
@@ -1465,11 +1465,11 @@ resource configservice_label administration_tools_users_and_groups_delete_user_s
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'User deleted'
+      default_translation = '{count, cardinalPlural, one {User deleted} other {Users deleted}}'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Brugeren blev slettet'
+      default_translation = '{count, cardinalPlural, one {Brugeren blev slettet} other {Brugerne blev slettet}}'
       language_id = data.language.danish.id
     }
   ]
@@ -1855,6 +1855,166 @@ resource configservice_label administration_tools_users_and_groups_change_group_
     },
     {
       default_translation = '{processing, select, true {Gemmer...} false {Gem}}'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_users_and_groups_clear_selected {
+  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_CLEAR_SELECTED'
+  group = 'administration-tools - users-and-groups'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Clear all'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Ryd alle'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_users_and_groups_bulk_delete {
+  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_BULK_DELETE'
+  group = 'administration-tools - users-and-groups'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Delete'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Slet'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_users_and_groups_select_visible {
+  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_SELECT_VISIBLE'
+  group = 'administration-tools - users-and-groups'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = '{action, select, select {Select visible} clear {Clear visible}}'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = '{action, select, select {Vælg synlige} clear {Ryd synlige}}'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_users_and_groups_selection {
+  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_SELECTION'
+  group = 'administration-tools - users-and-groups'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Selection'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Valg'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_users_and_groups_users_dialog_bulk_delete_body {
+  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_USERS_BULK_DELETE_DIALOG_BODY'
+  group = 'administration-tools - users-and-groups'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Are you sure you want to delete the selected users? This action CANNOT be undone!'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Er du sikker på, at du vil slette de valgte brugere? Denne handling kan IKKE fortrydes!'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_users_and_groups_users_bulk_delete_dialog_body_extended {
+  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_USERS_BULK_DELETE_DIALOG_BODY_EXTENDED'
+  group = 'administration-tools - users-and-groups'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'You can only delete {{ available }} of the {{ selected }} selected users. The remaining {protected, cardinalPlural, one {user is} other {users are}} system-protected and thus cannot be deleted.'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Du kan kun slette {{ available }} af de {{ selected }} valgte brugere. {protected, cardinalPlural, one {Den resterende bruger er systembeskyttet} other {De resterende brugere er systembeskyttede}} og kan derfor ikke slettes.'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_users_and_groups_users_bulk_delete_dialog_title {
+  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_USERS_BULK_DELETE_DIALOG_TITLE'
+  group = 'administration-tools - users-and-groups'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Delete users'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Slet brugere'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_users_and_groups_users_bulk_delete_dialog_btn_cancel {
+  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_USERS_BULK_DELETE_DIALOG_BTN_CANCEL'
+  group = 'administration-tools - users-and-groups'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Cancel'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Annullér'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_users_and_groups_users_bulk_delete_dialog_btn_delete {
+  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_USERS_BULK_DELETE_DIALOG_BTN_DELETE'
+  group = 'administration-tools - users-and-groups'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Delete ({{ count }})'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Slet ({{ count }})'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_users_and_groups_bulk_selected_count {
+  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_BULK_SELECTED_COUNT'
+  group = 'administration-tools - users-and-groups'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = '{{ count }} selected'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = '{{ count }} valgt'
       language_id = data.language.danish.id
     }
   ]
