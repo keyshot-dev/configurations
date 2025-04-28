@@ -2606,6 +2606,39 @@ resource configservice_label administration_tools_analytics_block_builder_edit_a
   ]
 }
 
+resource configservice_label administration_tools_analytics_block_builder_edit_events_filter {
+  key = 'ADMINISTRATION_TOOLS_ANALYTICS_BLOCK_BUILDER_EDIT_EVENTS_FILTER'
+  group = 'administration-tools - analytics-block-builder'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = '{count, cardinalPlural, =0 {Filter on assets} other {Filter on assets ({{count}})}}'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = '{count, cardinalPlural, =0 {Filtrer på assets} other {Filtrer på assets ({{count}})}}'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_analytics_block_builder_edit_available_fields {
+  key = 'ADMINISTRATION_TOOLS_ANALYTICS_BLOCK_BUILDER_EDIT_AVAILABLE_FIELDS'
+  group = 'administration-tools - analytics-block-builder'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Available fields'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Tilgængelige felter'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+
 resource configservice_label administration_tools_analytics_block_builder_chart_type {
   key = 'ADMINISTRATION_TOOLS_ANALYTICS_BLOCK_BUILDER_CHART_TYPE'
   group = 'administration-tools - analytics-block-builder'
