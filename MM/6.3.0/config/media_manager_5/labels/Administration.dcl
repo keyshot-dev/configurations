@@ -1,4 +1,4 @@
-resource configservice_label section_title_health_overview {
+﻿resource configservice_label section_title_health_overview {
   key = 'SECTION_TITLE_HEALTH_OVERVIEW'
   group = 'Administration'
   product_id = resource.configservice_product.media_manager_5.id
@@ -3033,6 +3033,38 @@ resource configservice_label administration_tools_analytics_chart_builder_show_g
     },
     {
       default_translation = 'Vis gratikulering'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_analytics_block_builder_edit_events_filter {
+  key = 'ADMINISTRATION_TOOLS_ANALYTICS_BLOCK_BUILDER_EDIT_EVENTS_FILTER'
+  group = 'administration-tools - analytics-block-builder'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = '{count, cardinalPlural, =0 {Other filters} other {Other filters ({{count}})}}'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = '{count, cardinalPlural, =0 {Andre filtre} other {Andre filtre ({{count}})}}'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_analytics_block_builder_edit_available_fields {
+  key = 'ADMINISTRATION_TOOLS_ANALYTICS_BLOCK_BUILDER_EDIT_AVAILABLE_FIELDS'
+  group = 'administration-tools - analytics-block-builder'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Available fields'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Tilgængelige felter'
       language_id = data.language.danish.id
     }
   ]
