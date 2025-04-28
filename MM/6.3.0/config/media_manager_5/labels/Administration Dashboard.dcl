@@ -36,11 +36,27 @@ resource configservice_label administration_tools_dashboard_tool_edit {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Edit'
+      default_translation = 'Edit dashboard'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Rediger'
+      default_translation = 'Rediger dashboard'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_dashboard_tool_edit_item {
+  key = 'ADMINISTRATION_TOOLS_DASHBOARD_TOOL_EDIT_ITEM'
+  group = 'administration-tools - dashboard-tool'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Edit {type, select, graph {chart} table {pivot table} other {item}}'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Rediger {type, select, graph {graf} table {pivottabel} other {element}}'
       language_id = data.language.danish.id
     }
   ]
@@ -53,11 +69,11 @@ resource configservice_label administration_tools_dashboard_tool_delete_dashboar
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Delete'
+      default_translation = 'Delete dashboard'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Slet'
+      default_translation = 'Slet dashboard'
       language_id = data.language.danish.id
     }
   ]
@@ -475,6 +491,578 @@ resource configservice_label administration_tools_dashboard_tool_import_dashboar
     },
     {
       default_translation = 'Importer fra fil'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_analytics_table_builder_data_section_tooltip {
+  key = 'ADMINISTRATION_TOOLS_ANALYTICS_TABLE_BUILDER_DATA_SECTION_TOOLTIP'
+  group = 'administration-tools - analytics-table-builder'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = '
+Title: Provide a clear and descriptive heading for your pivot table
+Data source: Select the database source you wish to base your pivot table on
+Row data: Choose the data to populate the rows of your pivot table
+Column data: Choose the data to populate the columns of your pivot table
+Number of rows: Specify the number of items to be displayed in your pivot table
+  '
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = '
+Titel: Giv en klar og beskrivende overskrift til din pivottabel
+Datakilde: Vælg den kilde i databasen, du vil basere din pivottabel på
+Rækkedata: Vælg data, der skal udfylde rækkerne i din pivottabel
+Kolonnedata: Vælg data, der skal udfylde kolonnerne i din pivottabel
+Antal rækker: Angiv antallet af elementer, der skal vises i din pivottabel
+      '
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_analytics_table_builder_filters_section_tooltip {
+  key = 'ADMINISTRATION_TOOLS_ANALYTICS_TABLE_BUILDER_FILTERS_SECTION_TOOLTIP'
+  group = 'administration-tools - analytics-table-builder'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Filter data to only include specific users or groups'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Filtrér data til kun at omfatte specifikke brugere eller grupper'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_analytics_table_builder_date_section_tooltip {
+  key = 'ADMINISTRATION_TOOLS_ANALYTICS_TABLE_BUILDER_DATE_SECTION_TOOLTIP'
+  group = 'administration-tools - analytics-table-builder'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Limit the time frame of the data'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Begræns tidsrammen for dataen'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_analytics_table_builder_sorting_section_tooltip {
+  key = 'ADMINISTRATION_TOOLS_ANALYTICS_TABLE_BUILDER_SORTING_SECTION_TOOLTIP'
+  group = 'administration-tools - analytics-table-builder'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Inverse the order in which the rows are displayed'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Vend rækkefølgen rækkerne skal vises i'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+
+resource configservice_label administration_tools_analytics_chart_builder_data_section_tooltip {
+    key = 'ADMINISTRATION_TOOLS_ANALYTICS_CHART_BUILDER_DATA_SECTION_TOOLTIP'
+    group = 'administration-tools - analytics-chart-builder'
+    product_id = resource.configservice_product.media_manager_5.id
+    default_label_values = [
+        {
+            default_translation = '
+Title: Provide a clear and descriptive heading for your chart
+Data source: Select the database source you wish to base your chart on
+            '
+            language_id = data.language.english.id
+        },
+        {
+            default_translation = '
+Titel: Giv en klar og beskrivende overskrift til din graf
+Datakilde: Vælg den kilde i databasen, du vil basere din graf på
+'
+            language_id = data.language.danish.id
+        }
+    ]
+}
+
+resource configservice_label administration_tools_analytics_chart_builder_grouping_section_tooltip {
+    key = 'ADMINISTRATION_TOOLS_ANALYTICS_CHART_BUILDER_GROUPING_SECTION_TOOLTIP'
+    group = 'administration-tools - analytics-chart-builder'
+    product_id = resource.configservice_product.media_manager_5.id
+    default_label_values = [
+        {
+            default_translation = '
+Group by: This section\'s content will correspond with the data source you chose above. You can define 1 or 2 dimensions.
+Time properties: All items have date properties in them. You can select only one at the time. They will usually be grouped in intervals of a week
+Property dimensions: The remaining non-time properties
+x-axis: Available when two dimensions are chosen. Here you get to choose which dimension becomes the x-axis (the other will become the y-axis)
+By metadata: Group by assets\' metadata
+'
+            language_id = data.language.english.id
+        },
+        {
+            default_translation = '
+Gruppér efter: Denne sektions indhold vil ændre sig afhængig af den datakilde, du har valgt ovenfor. Du kan definere enten 1 eller 2 dimensioner
+Tids-properties: Alle enheder har tids-properties i sig. Du kan kun vælge én tids-propery ad gangen. De vil normalt blive grupperet i intervaller af en uge.
+Properties: De resterende ikke-tids-properties
+Metadata: Gruppér på assets\' metadata
+x-akse: Tilgængelig når to dimensioner er valgt. Her kan du sætte hvilken dimension skal være på x-aksen (den anden vil så være y-aksen)'
+            language_id = data.language.danish.id
+        }
+    ]
+}
+
+resource configservice_label administration_tools_analytics_chart_builder_filters_section_tooltip {
+    key = 'ADMINISTRATION_TOOLS_ANALYTICS_CHART_BUILDER_FILTERS_SECTION_TOOLTIP'
+    group = 'administration-tools - analytics-chart-builder'
+    product_id = resource.configservice_product.media_manager_5.id
+    default_label_values = [
+        {
+            default_translation = 'Filter data to only include specific assets and users or groups'
+            language_id = data.language.english.id
+        },
+        {
+            default_translation = 'Filtrér data til kun at omfatte specifikke assets og brugere eller grupper'
+            language_id = data.language.danish.id
+        }
+    ]
+}
+
+resource configservice_label administration_tools_analytics_chart_builder_date_section_tooltip {
+    key = 'ADMINISTRATION_TOOLS_ANALYTICS_CHART_BUILDER_DATE_SECTION_TOOLTIP'
+    group = 'administration-tools - analytics-chart-builder'
+    product_id = resource.configservice_product.media_manager_5.id
+    default_label_values = [
+        {
+            default_translation = 'Limit the time frame of the data'
+            language_id = data.language.english.id
+        },
+        {
+            default_translation = 'Begræns tidsrammen for dataen'
+            language_id = data.language.danish.id
+        }
+    ]
+}
+
+resource configservice_label administration_tools_analytics_chart_builder_layout_section_tooltip {
+    key = 'ADMINISTRATION_TOOLS_ANALYTICS_CHART_BUILDER_LAYOUT_SECTION_TOOLTIP'
+    group = 'administration-tools - analytics-chart-builder'
+    product_id = resource.configservice_product.media_manager_5.id
+    default_label_values = [
+        {
+            default_translation = '
+Chart type: How you choose to visually represent the data. You have the options: Bar, doughnut, pie, polarArea radar depending on your selected dimensions
+Orientation: Whether it should be horizontal or vertical 
+Min value: Filter away data less than this number
+Max value: Filter away data greater than this number
+Legend: Whether to show the legend
+'
+            language_id = data.language.english.id
+        },
+        {
+            default_translation = '
+
+350 / 5,000
+Diagramtype: Hvordan du repræsenterer dine datae visuelt. Du har mulighederne: Bar, doughnut, pie, polarArea, radar alt afhængig af dine valgte dimensioner
+Orientering: Om den skal være vandret eller lodret
+Min. værdi: Filtrer data mindre end dette tal væk
+Maks. værdi: Filtrer data større end dette tal væk
+Forklaring: Hvorvidt en forklaring skal vises
+'
+            language_id = data.language.danish.id
+        }
+    ]
+}
+
+resource configservice_label administration_tools_analytics_chart_builder_sorting_section_tooltip {
+    key = 'ADMINISTRATION_TOOLS_ANALYTICS_CHART_BUILDER_SORTING_SECTION_TOOLTIP'
+    group = 'administration-tools - analytics-chart-builder'
+    product_id = resource.configservice_product.media_manager_5.id
+    default_label_values = [
+        {
+            default_translation = 'Inverse the order in which the data is displayed'
+            language_id = data.language.english.id
+        },
+        {
+            default_translation = 'Vend rækkefølgen dataen vises i'
+            language_id = data.language.danish.id
+        }
+    ]
+}
+
+resource configservice_label administration_tools_analytics_chart_builder_colors_section_tooltip {
+    key = 'ADMINISTRATION_TOOLS_ANALYTICS_CHART_BUILDER_COLORS_SECTION_TOOLTIP'
+    group = 'administration-tools - analytics-chart-builder'
+    product_id = resource.configservice_product.media_manager_5.id
+    default_label_values = [
+        {
+            default_translation = 'The color or colors datapoints in your chart will be displayed with'
+            language_id = data.language.english.id
+        },
+        {
+            default_translation = 'Farven eller farverne datapunkterne i dit diagram vil blive vist med'
+            language_id = data.language.danish.id
+        }
+    ]
+}
+
+resource configservice_label administration_tools_analytics_block_builder_time_bucket_size {
+  key = 'ADMINISTRATION_TOOLS_ANALYTICS_BLOCK_BUILDER_TIME_BUCKET_SIZE'
+  group = 'administration-tools - analytics-block-builder'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Time bucket size'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Tids-intervals-størrelse'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_analytics_block_builder_end_date {
+  key = 'ADMINISTRATION_TOOLS_ANALYTICS_BLOCK_BUILDER_END_DATE'
+  group = 'administration-tools - analytics-block-builder'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'End date'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Slutdato'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_analytics_block_builder_start_date {
+  key = 'ADMINISTRATION_TOOLS_ANALYTICS_BLOCK_BUILDER_START_DATE'
+  group = 'administration-tools - analytics-block-builder'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Start date'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Startdato'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_analytics_block_builder_edit_asset_filter {
+  key = 'ADMINISTRATION_TOOLS_ANALYTICS_BLOCK_BUILDER_EDIT_ASSET_FILTER'
+  group = 'administration-tools - analytics-block-builder'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = '{count, cardinalPlural, =0 {Filter on assets} other {Filter on assets ({{count}})}}'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = '{count, cardinalPlural, =0 {Filtrer på assets} other {Filtrer på assets ({{count}})}}'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_analytics_block_builder_chart_type {
+  key = 'ADMINISTRATION_TOOLS_ANALYTICS_BLOCK_BUILDER_CHART_TYPE'
+  group = 'administration-tools - analytics-block-builder'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Chart type'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Graftype'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_analytics_block_builder_property_dimensions {
+  key = 'ADMINISTRATION_TOOLS_ANALYTICS_BLOCK_BUILDER_PROPERTY_DIMENSIONS'
+  group = 'administration-tools - analytics-block-builder'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Property dimensions'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Egenskabs-dimensioner'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_analytics_block_builder_time_dimensions {
+  key = 'ADMINISTRATION_TOOLS_ANALYTICS_BLOCK_BUILDER_TIME_DIMENSIONS'
+  group = 'administration-tools - analytics-block-builder'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Time dimensions'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Tids-dimensioner'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_analytics_block_builder_group_by {
+  key = 'ADMINISTRATION_TOOLS_ANALYTICS_BLOCK_BUILDER_GROUP_BY'
+  group = 'administration-tools - analytics-block-builder'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Group by'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Grupper efter'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_analytics_block_builder_statistic {
+  key = 'ADMINISTRATION_TOOLS_ANALYTICS_BLOCK_BUILDER_STATISTIC'
+  group = 'administration-tools - analytics-block-builder'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Statistic'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Statistik'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_analytics_block_builder_title {
+  key = 'ADMINISTRATION_TOOLS_ANALYTICS_BLOCK_BUILDER_TITLE'
+  group = 'administration-tools - analytics-block-builder'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Title'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Titel'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_analytics_block_builder_edit_member_filter {
+  key = 'ADMINISTRATION_TOOLS_ANALYTICS_BLOCK_BUILDER_EDIT_MEMBER_FILTER'
+  group = 'administration-tools - analytics-block-builder'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = '{count, cardinalPlural, =0 {Filter on users or groups} other {Filter on users or groups ({{count}})}}'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = '{count, cardinalPlural, =0 {Filtrer på brugere eller grupper} other {Filtrer på brugere eller grupper ({{count}})}}'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_analytics_block_builder_edit_formats_filter {
+  key = 'ADMINISTRATION_TOOLS_ANALYTICS_BLOCK_BUILDER_EDIT_FORMATS_FILTER'
+  group = 'administration-tools - analytics-block-builder'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = '{count, cardinalPlural, =0 {Filter on formats} other {Filter on formats ({{count}})}}'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = '{count, cardinalPlural, =0 {Filtrer på formater} other {Filtrer på formater ({{count}})}}'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_analytics_block_builder_edit_entity_count_filter {
+  key = 'ADMINISTRATION_TOOLS_ANALYTICS_BLOCK_BUILDER_EDIT_ENTITY_COUNT_FILTER'
+  group = 'administration-tools - analytics-block-builder'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = '{count, cardinalPlural, =0 {Filter on count} other {Filter on count ({{count}})}}'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = '{count, cardinalPlural, =0 {Filtrer på antal} other {Filtrer på antal ({{count}})}}'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_analytics_block_builder_x_axis {
+  key = 'ADMINISTRATION_TOOLS_ANALYTICS_BLOCK_BUILDER_X_AXIS'
+  group = 'administration-tools - analytics-block-builder'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'x-axis'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'x-akse'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_analytics_block_builder_data_section_title {
+  key = 'ADMINISTRATION_TOOLS_ANALYTICS_BLOCK_BUILDER_DATA_SECTION_TITLE'
+  group = 'administration-tools - analytics-block-builder'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Data'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Data'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_analytics_block_builder_grouping_section_title {
+  key = 'ADMINISTRATION_TOOLS_ANALYTICS_BLOCK_BUILDER_GROUPING_SECTION_TITLE'
+  group = 'administration-tools - analytics-block-builder'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Grouping'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Gruppering'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_analytics_block_builder_date_section_title {
+  key = 'ADMINISTRATION_TOOLS_ANALYTICS_BLOCK_BUILDER_DATE_SECTION_TITLE'
+  group = 'administration-tools - analytics-block-builder'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+   {
+      default_translation = 'Date'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Dato'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_analytics_block_builder_filters_section_title {
+  key = 'ADMINISTRATION_TOOLS_ANALYTICS_BLOCK_BUILDER_FILTERS_SECTION_TITLE'
+  group = 'administration-tools - analytics-block-builder'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Filters'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Filtre'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_analytics_block_builder_layout_section_title {
+  key = 'ADMINISTRATION_TOOLS_ANALYTICS_BLOCK_BUILDER_LAYOUT_SECTION_TITLE'
+  group = 'administration-tools - analytics-block-builder'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Layout'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Layout'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_analytics_block_builder_sorting_section_title {
+  key = 'ADMINISTRATION_TOOLS_ANALYTICS_BLOCK_BUILDER_SORTING_SECTION_TITLE'
+  group = 'administration-tools - analytics-block-builder'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Sorting'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Sortering'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_analytics_block_builder_colors_section_title {
+  key = 'ADMINISTRATION_TOOLS_ANALYTICS_BLOCK_BUILDER_COLORS_SECTION_TITLE'
+  group = 'administration-tools - analytics-block-builder'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Colors'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Farver'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_analytics_block_builder_filter_property {
+  key = 'ADMINISTRATION_TOOLS_ANALYTICS_BLOCK_BUILDER_FILTER_PROPERTY'
+  group = 'administration-tools - analytics-block-builder'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Filter property'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Filteregenskab'
       language_id = data.language.danish.id
     }
   ]
