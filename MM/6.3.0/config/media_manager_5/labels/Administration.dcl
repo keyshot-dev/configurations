@@ -2616,7 +2616,7 @@ resource configservice_label administration_tools_analytics_block_builder_edit_e
       language_id = data.language.english.id
     },
     {
-      default_translation = '{count, cardinalPlural, =0 {Filtrer på assets} other {Filtrer på assets ({{count}})}}'
+      default_translation = '{count, cardinalPlural, =0 {Andre filtre} other {Andre filtre ({{count}})}}'
       language_id = data.language.danish.id
     }
   ]
