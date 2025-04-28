@@ -52,11 +52,11 @@ resource configservice_label administration_tools_dashboard_tool_edit_item {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Edit {type, select, graph {chart} table {table} other {item}}'
+      default_translation = 'Edit {type, select, graph {chart} table {pivot table} other {item}}'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Rediger {type, select, graph {graf} table {tabel} other {element}}'
+      default_translation = 'Rediger {type, select, graph {graf} table {pivottabel} other {element}}'
       language_id = data.language.danish.id
     }
   ]
@@ -503,7 +503,7 @@ resource configservice_label administration_tools_analytics_table_builder_data_s
   default_label_values = [
     {
       default_translation = '
-Title: Provide a clear and descriptive heading for your table
+Title: Provide a clear and descriptive heading for your pivot table
 Data source: Select the database source you wish to base your pivot table on
 Row data: Choose the data to populate the rows of your pivot table
 Column data: Choose the data to populate the columns of your pivot table
@@ -602,16 +602,21 @@ resource configservice_label administration_tools_analytics_chart_builder_groupi
     default_label_values = [
         {
             default_translation = '
-Group by: This section will change based on what data source you chose above. You can choose between having 1 or 2 groupings.
-Time dimensions: 
-Property dimensions: 
-x-axis: 
-By metadata: 
+Group by: This section\'s content will correspond with the data source you chose above. You can define 1 or 2 dimensions.
+Time properties: All items have date properties in them. You can select only one at the time. They will usually be grouped in intervals of a week
+Property dimensions: The remaining non-time properties
+x-axis: Available when two dimensions are chosen. Here you get to choose which dimension becomes the x-axis (the other will become the y-axis)
+By metadata: Group by assets\' metadata
 '
             language_id = data.language.english.id
         },
         {
-            default_translation = 'Chart Grupperingssektion'
+            default_translation = '
+Gruppér efter: Denne sektions indhold vil ændre sig afhængig af den datakilde, du har valgt ovenfor. Du kan definere enten 1 eller 2 dimensioner
+Tids-properties: Alle enheder har tids-properties i sig. Du kan kun vælge én tids-propery ad gangen. De vil normalt blive grupperet i intervaller af en uge.
+Properties: De resterende ikke-tids-properties
+Metadata: Gruppér på assets\' metadata
+x-akse: Tilgængelig når to dimensioner er valgt. Her kan du sætte hvilken dimension skal være på x-aksen (den anden vil så være y-aksen)'
             language_id = data.language.danish.id
         }
     ]
@@ -623,11 +628,11 @@ resource configservice_label administration_tools_analytics_chart_builder_filter
     product_id = resource.configservice_product.media_manager_5.id
     default_label_values = [
         {
-            default_translation = 'Chart Filters Section'
+            default_translation = 'Filter data to only include specific assets and users or groups'
             language_id = data.language.english.id
         },
         {
-            default_translation = 'Chart Filtersektion'
+            default_translation = 'Filtrér data til kun at omfatte specifikke assets og brugere eller grupper'
             language_id = data.language.danish.id
         }
     ]
@@ -639,11 +644,11 @@ resource configservice_label administration_tools_analytics_chart_builder_date_s
     product_id = resource.configservice_product.media_manager_5.id
     default_label_values = [
         {
-            default_translation = 'Chart Date Section'
+            default_translation = 'Limit the time frame of the data'
             language_id = data.language.english.id
         },
         {
-            default_translation = 'Chart Datosektion'
+            default_translation = 'Begræns tidsrammen for dataen'
             language_id = data.language.danish.id
         }
     ]
@@ -655,11 +660,25 @@ resource configservice_label administration_tools_analytics_chart_builder_layout
     product_id = resource.configservice_product.media_manager_5.id
     default_label_values = [
         {
-            default_translation = 'Chart Layout Section'
+            default_translation = '
+Chart type: How you choose to visually represent the data. You have the options: Bar, doughnut, pie, polarArea radar depending on your selected dimensions
+Orientation: Whether it should be horizontal or vertical 
+Min value: Filter away data less than this number
+Max value: Filter away data greater than this number
+Legend: Whether to show the legend
+'
             language_id = data.language.english.id
         },
         {
-            default_translation = 'Chart Layoutsektion'
+            default_translation = '
+
+350 / 5,000
+Diagramtype: Hvordan du repræsenterer dine datae visuelt. Du har mulighederne: Bar, doughnut, pie, polarArea, radar alt afhængig af dine valgte dimensioner
+Orientering: Om den skal være vandret eller lodret
+Min. værdi: Filtrer data mindre end dette tal væk
+Maks. værdi: Filtrer data større end dette tal væk
+Forklaring: Hvorvidt en forklaring skal vises
+'
             language_id = data.language.danish.id
         }
     ]
@@ -671,11 +690,11 @@ resource configservice_label administration_tools_analytics_chart_builder_sortin
     product_id = resource.configservice_product.media_manager_5.id
     default_label_values = [
         {
-            default_translation = 'Chart Sorting Section'
+            default_translation = 'Inverse the order in which the data is displayed'
             language_id = data.language.english.id
         },
         {
-            default_translation = 'Chart Sorteringssektion'
+            default_translation = 'Vend rækkefølgen dataen vises i'
             language_id = data.language.danish.id
         }
     ]
@@ -687,11 +706,11 @@ resource configservice_label administration_tools_analytics_chart_builder_colors
     product_id = resource.configservice_product.media_manager_5.id
     default_label_values = [
         {
-            default_translation = 'Chart Colors Section'
+            default_translation = 'The color or colors datapoints in your chart will be displayed with'
             language_id = data.language.english.id
         },
         {
-            default_translation = 'Chart Farvesektion'
+            default_translation = 'Farven eller farverne datapunkterne i dit diagram vil blive vist med'
             language_id = data.language.danish.id
         }
     ]
@@ -707,7 +726,7 @@ resource configservice_label administration_tools_analytics_block_builder_time_b
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Tids-spands-størrelse'
+      default_translation = 'Tids-intervals-størrelse'
       language_id = data.language.danish.id
     }
   ]
