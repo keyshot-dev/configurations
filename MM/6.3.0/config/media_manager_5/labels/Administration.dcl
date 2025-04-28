@@ -2612,7 +2612,7 @@ resource configservice_label administration_tools_analytics_block_builder_edit_e
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = '{count, cardinalPlural, =0 {Filter on assets} other {Filter on assets ({{count}})}}'
+      default_translation = '{count, cardinalPlural, =0 {Other filters} other {Other filters ({{count}})}}'
       language_id = data.language.english.id
     },
     {
