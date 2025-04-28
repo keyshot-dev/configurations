@@ -1469,7 +1469,7 @@ resource configservice_label administration_tools_users_and_groups_delete_user_s
       language_id = data.language.english.id
     },
     {
-      default_translation = '{count, cardinalPlural, one {Bruger blev slettet} other {Brugere blev slettet}}'
+      default_translation = '{count, cardinalPlural, one {Brugerne blev slettet} other {Brugeren blev slettet}}'
       language_id = data.language.danish.id
     }
   ]
@@ -1870,7 +1870,7 @@ resource configservice_label administration_tools_users_and_groups_clear_selecte
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Fjern alle'
+      default_translation = 'Ryd alle'
       language_id = data.language.danish.id
     }
   ]
@@ -1902,7 +1902,7 @@ resource configservice_label administration_tools_users_and_groups_select_visibl
       language_id = data.language.english.id
     },
     {
-      default_translation = '{action, select, select {Vælg synlig} clear {Fjern synlig}}'
+      default_translation = '{action, select, select {Vælg synlige} clear {Ryd synlige}}'
       language_id = data.language.danish.id
     }
   ]
@@ -1946,11 +1946,11 @@ resource configservice_label administration_tools_users_and_groups_users_bulk_de
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'You can delete {{ available }}  of the {{ selected }} selected users. The remaining {protected, cardinalPlural, one {user is} other {users are}} system-protected and cannot be deleted.'
+      default_translation = 'You can only delete {{ available }} of the {{ selected }} selected users. The remaining {protected, cardinalPlural, one {user is} other {users are}} system-protected and thus cannot be deleted.'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Du kan slette {{ available }} af de {{ selected }} valgte brugere. De resterende {protected, cardinalPlural, one {bruger er} other {brugere er}} systembeskyttede og kan ikke slettes.'
+      default_translation = 'Du kan kun slette {{ available }} af de {{ selected }} valgte brugere. {protected, cardinalPlural, one {Den resterende bruger er} other {De resterende brugere er}} systembeskyttede og kan derfor ikke slettes.'
       language_id = data.language.danish.id
     }
   ]
