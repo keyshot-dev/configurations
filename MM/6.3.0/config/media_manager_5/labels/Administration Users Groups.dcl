@@ -1453,7 +1453,7 @@ resource configservice_label administration_tools_users_and_groups_delete_user_e
       language_id = data.language.english.id
     },
     {
-      default_translation = '{count, cardinalPlural, one {Bruger blev ikke slettet} other {Brugere blev ikke slettet}}'
+      default_translation = '{count, cardinalPlural, one {Brugeren blev ikke slettet} other {Brugerne blev ikke slettet}}'
       language_id = data.language.danish.id
     }
   ]
@@ -1469,7 +1469,7 @@ resource configservice_label administration_tools_users_and_groups_delete_user_s
       language_id = data.language.english.id
     },
     {
-      default_translation = '{count, cardinalPlural, one {Brugerne blev slettet} other {Brugeren blev slettet}}'
+      default_translation = '{count, cardinalPlural, one {Brugeren blev slettet} other {Brugerne blev slettet}}'
       language_id = data.language.danish.id
     }
   ]
