@@ -502,23 +502,19 @@ resource configservice_label administration_tools_analytics_table_builder_data_s
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = '
-Title: Provide a clear and descriptive heading for your pivot table
-Data source: Select the database source you wish to base your pivot table on
-Row data: Choose the data to populate the rows of your pivot table
-Column data: Choose the data to populate the columns of your pivot table
-Number of rows: Specify the number of items to be displayed in your pivot table
-  '
+      default_translation = 'Title: Provide a clear and descriptive heading for your pivot table\\n
+Data source: Select the database source you wish to base your pivot table on\\n
+Row data: Choose the data to populate the rows of your pivot table\\n
+Column data: Choose the data to populate the columns of your pivot table\\n
+Number of rows: Specify the number of items to be displayed in your pivot table'
       language_id = data.language.english.id
     },
     {
-      default_translation = '
-Titel: Giv en klar og beskrivende overskrift til din pivottabel
-Datakilde: Vælg den kilde i databasen, du vil basere din pivottabel på
-Rækkedata: Vælg data, der skal udfylde rækkerne i din pivottabel
-Kolonnedata: Vælg data, der skal udfylde kolonnerne i din pivottabel
-Antal rækker: Angiv antallet af elementer, der skal vises i din pivottabel
-      '
+      default_translation = 'Titel: Giv en klar og beskrivende overskrift til din pivottabel\\n
+Datakilde: Vælg den kilde i databasen, du vil basere din pivottabel på\\n
+Rækkedata: Vælg data, der skal udfylde rækkerne i din pivottabel\\n
+Kolonnedata: Vælg data, der skal udfylde kolonnerne i din pivottabel\\n
+Antal rækker: Angiv antallet af elementer, der skal vises i din pivottabel'
       language_id = data.language.danish.id
     }
   ]
@@ -579,17 +575,13 @@ resource configservice_label administration_tools_analytics_chart_builder_data_s
     product_id = resource.configservice_product.media_manager_5.id
     default_label_values = [
         {
-            default_translation = '
-Title: Provide a clear and descriptive heading for your chart
-Data source: Select the database source you wish to base your chart on
-            '
+            default_translation = 'Title: Provide a clear and descriptive heading for your chart\\n
+Data source: Select the database source you wish to base your chart on'
             language_id = data.language.english.id
         },
         {
-            default_translation = '
-Titel: Giv en klar og beskrivende overskrift til din graf
-Datakilde: Vælg den kilde i databasen, du vil basere din graf på
-'
+            default_translation = 'Titel: Giv en klar og beskrivende overskrift til din graf\\n
+Datakilde: Vælg den kilde i databasen, du vil basere din graf på'
             language_id = data.language.danish.id
         }
     ]
