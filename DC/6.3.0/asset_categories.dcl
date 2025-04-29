@@ -3,7 +3,6 @@ resource asset_category root {
     name = 'Root'
     is_abstract = true
     is_sealed = false
-    is_locked = true
     description = 'Root category for all asset categories. You should not be using this directly on any assets'
     labels = []
 }
@@ -14,6 +13,5 @@ resource asset_category uncategorized {
     is_abstract = false
     parent_category_id = resource.asset_category.root.id
     is_sealed = true
-    is_locked = true
     description = 'The category used for assets that do not have a category assigned otherwise'
 }
