@@ -5,7 +5,6 @@ resource asset_relation_type thumbnail_replacement {
     multiplicity = 'ManyToOne'
 	show_in_list_when_primary = true
 	show_in_list_when_secondary = true
-	is_locked = true
     renditions_behavior = {
         enable_behavior = true
         override_format_purposes = [{
