@@ -536,25 +536,25 @@ resource configservice_label administration_tools_analytics_table_builder_date_s
     {
       default_translation = 'Limit the time frame of the data\\n
 Time units:
-'m': minutes
-'h': hours
-'d': days
-'w': weeks
-'mm': months
-'y': years\\n
-Example: 'now-1d' to 'now' will show data from the last 24 hours'
+\'m': minutes
+\'h': hours
+\'d': days
+\'w': weeks
+\'mm': months
+\'y': years\\n
+Example: \'now-1d\' to \'now\' will show data from the last 24 hours'
       language_id = data.language.english.id
     },
     {
       default_translation = 'Begræns tidsrammen for dataen\\n
 Tids-enheder:
-'m': minutter
-'h': timer
-'d': dage
-'w': uger
-'mm': måneder
-'y': år\\n
-Eksempel: 'now-1d' til 'now' vil vise data fra de sidste 24 timer'
+\'m\': minutter
+\'h\': timer
+\'d\': dage
+\'w\': uger
+\'mm\': måneder
+\'y\': år\\n
+Eksempel: \'now-1d\' til \'now\' vil vise data fra de sidste 24 timer'
       language_id = data.language.danish.id
     }
   ]
