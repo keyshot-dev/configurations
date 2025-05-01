@@ -536,12 +536,12 @@ resource configservice_label administration_tools_analytics_table_builder_date_s
     {
       default_translation = 'Limit the time frame of the data\\n
 Time units:
-\'m': minutes
-\'h': hours
-\'d': days
-\'w': weeks
-\'mm': months
-\'y': years\\n
+\'m\': minutes
+\'h\': hours
+\'d\': days
+\'w\': weeks
+\'mm\': months
+\'y\': years\\n
 Example: \'now-1d\' to \'now\' will show data from the last 24 hours'
       language_id = data.language.english.id
     },
