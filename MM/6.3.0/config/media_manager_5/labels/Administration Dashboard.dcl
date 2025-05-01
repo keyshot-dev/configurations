@@ -454,11 +454,11 @@ resource configservice_label administration_tools_dashboard_tool_export_to_json 
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Export dashboard'
+      default_translation = 'Backup dashboard'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Eksporter dashboard'
+      default_translation = 'Backup dashboard'
       language_id = data.language.danish.id
     }
   ]
@@ -470,11 +470,11 @@ resource configservice_label administration_tools_dashboard_tool_exported_to_jso
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Dashboard exported successfully'
+      default_translation = 'Dashboard backup completed. The file has been saved to your Downloads folder.'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Dashboard blev eksporteret'
+      default_translation = 'Dashboard backup er gennemført. Filen er gemt i din Downloads-mappe.'
       language_id = data.language.danish.id
     }
   ]
@@ -517,14 +517,14 @@ resource configservice_label administration_tools_analytics_table_builder_filter
   group = 'administration-tools - analytics-table-builder'
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
-    {
-      default_translation = 'Filter data to only include specific users or groups'
-      language_id = data.language.english.id
-    },
-    {
-      default_translation = 'Filtrér data til kun at omfatte specifikke brugere eller grupper'
-      language_id = data.language.danish.id
-    }
+      {
+          default_translation = 'Apply filters to show or hide specific property values'
+          language_id = data.language.english.id
+      },
+      {
+          default_translation = 'Anvend filtre til at vise eller skjule specifikke egenskabs-værdier'
+          language_id = data.language.danish.id
+      }
   ]
 }
 
@@ -534,11 +534,27 @@ resource configservice_label administration_tools_analytics_table_builder_date_s
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Limit the time frame of the data'
+      default_translation = 'Limit the time frame of the data\\n
+Time units:
+'m': minutes
+'h': hours
+'d': days
+'w': weeks
+'mm': months
+'y': years\\n
+Example: 'now-1d' to 'now' will show data from the last 24 hours'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Begræns tidsrammen for dataen'
+      default_translation = 'Begræns tidsrammen for dataen\\n
+Tids-enheder:
+'m': minutter
+'h': timer
+'d': dage
+'w': uger
+'mm': måneder
+'y': år\\n
+Eksempel: 'now-1d' til 'now' vil vise data fra de sidste 24 timer'
       language_id = data.language.danish.id
     }
   ]
@@ -609,11 +625,11 @@ resource configservice_label administration_tools_analytics_chart_builder_filter
     product_id = resource.configservice_product.media_manager_5.id
     default_label_values = [
         {
-            default_translation = 'Filter data to only include specific assets and users or groups'
+            default_translation = 'Apply filters to show or hide specific property values'
             language_id = data.language.english.id
         },
         {
-            default_translation = 'Filtrér data til kun at omfatte specifikke assets og brugere eller grupper'
+            default_translation = 'Anvend filtre til at vise eller skjule specifikke egenskabs-værdier'
             language_id = data.language.danish.id
         }
     ]
