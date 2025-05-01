@@ -502,19 +502,11 @@ resource configservice_label administration_tools_analytics_table_builder_data_s
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'TITLE\\nProvide a clear and descriptive heading for your pivot table\\n
-DATA SOURCE\\nSelect the database source you wish to base your pivot table on\\n
-ROW DATA\\nChoose the data to populate the rows of your pivot table\\n
-COLUMN DATA\\nChoose the data to populate the columns of your pivot table\\n
-NUMBER OF ROWS\\nSpecify the number of items to be displayed in your pivot table'
+      default_translation = 'TITLE\\nProvide a clear and descriptive heading for your pivot table\\n\\nDATA SOURCE\\nSelect the database source you wish to base your pivot table on\\n\\nROW DATA\\nChoose the data to populate the rows of your pivot table\\n\\nCOLUMN DATA\\nChoose the data to populate the columns of your pivot table\\n\\nNUMBER OF ROWS\\nSpecify the number of items to be displayed in your pivot table'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'TITEL\\nGiv en klar og beskrivende overskrift til din pivottabel\\n
-DATAKILDE\\nVælg den kilde i databasen, du vil basere din pivottabel på\\n
-RÆKKEDATA\\nVælg data, der skal udfylde rækkerne i din pivottabel\\n
-KOLONNEDATA\\nVælg data, der skal udfylde kolonnerne i din pivottabel\\n
-ANTAL RÆKKER\\nAngiv antallet af elementer, der skal vises i din pivottabel'
+      default_translation = 'TITEL\\nGiv en klar og beskrivende overskrift til din pivottabel\\n\\nDATAKILDE\\nVælg den kilde i databasen, du vil basere din pivottabel på\\n\\nRÆKKEDATA\\nVælg data, der skal udfylde rækkerne i din pivottabel\\n\\nKOLONNEDATA\\nVælg data, der skal udfylde kolonnerne i din pivottabel\\n\\nANTAL RÆKKER\\nAngiv antallet af elementer, der skal vises i din pivottabel'
       language_id = data.language.danish.id
     }
   ]
