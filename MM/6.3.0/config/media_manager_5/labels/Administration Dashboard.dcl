@@ -502,23 +502,19 @@ resource configservice_label administration_tools_analytics_table_builder_data_s
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = '
-Title: Provide a clear and descriptive heading for your pivot table
-Data source: Select the database source you wish to base your pivot table on
-Row data: Choose the data to populate the rows of your pivot table
-Column data: Choose the data to populate the columns of your pivot table
-Number of rows: Specify the number of items to be displayed in your pivot table
-  '
+      default_translation = 'TITLE\\nProvide a clear and descriptive heading for your pivot table\\n
+DATA SOURCE\\nSelect the database source you wish to base your pivot table on\\n
+ROW DATA\\nChoose the data to populate the rows of your pivot table\\n
+COLUMN DATA\\nChoose the data to populate the columns of your pivot table\\n
+NUMBER OF ROWS\\nSpecify the number of items to be displayed in your pivot table'
       language_id = data.language.english.id
     },
     {
-      default_translation = '
-Titel: Giv en klar og beskrivende overskrift til din pivottabel
-Datakilde: Vælg den kilde i databasen, du vil basere din pivottabel på
-Rækkedata: Vælg data, der skal udfylde rækkerne i din pivottabel
-Kolonnedata: Vælg data, der skal udfylde kolonnerne i din pivottabel
-Antal rækker: Angiv antallet af elementer, der skal vises i din pivottabel
-      '
+      default_translation = 'TITEL\\nGiv en klar og beskrivende overskrift til din pivottabel\\n
+DATAKILDE\\nVælg den kilde i databasen, du vil basere din pivottabel på\\n
+RÆKKEDATA\\nVælg data, der skal udfylde rækkerne i din pivottabel\\n
+KOLONNEDATA\\nVælg data, der skal udfylde kolonnerne i din pivottabel\\n
+ANTAL RÆKKER\\nAngiv antallet af elementer, der skal vises i din pivottabel'
       language_id = data.language.danish.id
     }
   ]
@@ -579,17 +575,13 @@ resource configservice_label administration_tools_analytics_chart_builder_data_s
     product_id = resource.configservice_product.media_manager_5.id
     default_label_values = [
         {
-            default_translation = '
-Title: Provide a clear and descriptive heading for your chart
-Data source: Select the database source you wish to base your chart on
-            '
+            default_translation = 'TITLE\\nProvide a clear and descriptive heading for your chart\\n
+DATA SOURCE\\nSelect the database source you wish to base your chart on'
             language_id = data.language.english.id
         },
         {
-            default_translation = '
-Titel: Giv en klar og beskrivende overskrift til din graf
-Datakilde: Vælg den kilde i databasen, du vil basere din graf på
-'
+            default_translation = 'TITEL\\nGiv en klar og beskrivende overskrift til din graf\\n
+DATAKILDE\\nVælg den kilde i databasen, du vil basere din graf på'
             language_id = data.language.danish.id
         }
     ]
@@ -601,22 +593,19 @@ resource configservice_label administration_tools_analytics_chart_builder_groupi
     product_id = resource.configservice_product.media_manager_5.id
     default_label_values = [
         {
-            default_translation = '
-Group by: This section\'s content will correspond with the data source you chose above. You can define 1 or 2 dimensions.
-Time properties: All items have date properties in them. You can select only one at the time. They will usually be grouped in intervals of a week
-Property dimensions: The remaining non-time properties
-x-axis: Available when two dimensions are chosen. Here you get to choose which dimension becomes the x-axis (the other will become the y-axis)
-By metadata: Group by assets\' metadata
-'
+            default_translation = 'GROUP BY\\nThis section\'s content will correspond with the data source you chose above. You can define 1 or 2 dimensions.\\n
+TIME PROPERTIES\\nAll items have date properties in them. You can select only one at the time. They will usually be grouped in intervals of a week\\n
+PROPERTY DIMENSIONS\\nThe remaining non-time properties\\n
+X-AXIS\\nAvailable when two dimensions are chosen. Here you get to choose which dimension becomes the x-axis (the other will become the y-axis)\\n
+BY METADATA\\nGroup by assets\' metadata'
             language_id = data.language.english.id
         },
         {
-            default_translation = '
-Gruppér efter: Denne sektions indhold vil ændre sig afhængig af den datakilde, du har valgt ovenfor. Du kan definere enten 1 eller 2 dimensioner
-Tids-properties: Alle enheder har tids-properties i sig. Du kan kun vælge én tids-propery ad gangen. De vil normalt blive grupperet i intervaller af en uge.
-Properties: De resterende ikke-tids-properties
-Metadata: Gruppér på assets\' metadata
-x-akse: Tilgængelig når to dimensioner er valgt. Her kan du sætte hvilken dimension skal være på x-aksen (den anden vil så være y-aksen)'
+            default_translation = 'GRUPPÉR EFTER\\nDenne sektions indhold vil ændre sig afhængig af den datakilde, du har valgt ovenfor. Du kan definere enten 1 eller 2 dimensioner\\n
+TIDS-PROPERTIES\\nAlle enheder har tids-properties i sig. Du kan kun vælge én tids-propery ad gangen. De vil normalt blive grupperet i intervaller af en uge.\\n
+PROPERTIES\\nDe resterende ikke-tids-properties\\n
+METADATA\\nGruppér på assets\' metadata\\n
+X-AKSE\\nTilgængelig når to dimensioner er valgt. Her kan du sætte hvilken dimension skal være på x-aksen (den anden vil så være y-aksen)'
             language_id = data.language.danish.id
         }
     ]
@@ -660,25 +649,19 @@ resource configservice_label administration_tools_analytics_chart_builder_layout
     product_id = resource.configservice_product.media_manager_5.id
     default_label_values = [
         {
-            default_translation = '
-Chart type: How you choose to visually represent the data. You have the options: Bar, doughnut, pie, polarArea radar depending on your selected dimensions
-Orientation: Whether it should be horizontal or vertical 
-Min value: Filter away data less than this number
-Max value: Filter away data greater than this number
-Legend: Whether to show the legend
-'
+            default_translation = 'CHART TYPE\\nHow you choose to visually represent the data. You have the options: Bar, doughnut, pie, polarArea radar depending on your selected dimensions\\n
+ORIENTATION\\nWhether it should be horizontal or vertical\\n
+MIN VALUE\\nFilter away data less than this number\\n
+MAX VALUE\\nFilter away data greater than this number\\n
+LEGEND\\nWhether to show the legend'
             language_id = data.language.english.id
         },
         {
-            default_translation = '
-
-350 / 5,000
-Diagramtype: Hvordan du repræsenterer dine datae visuelt. Du har mulighederne: Bar, doughnut, pie, polarArea, radar alt afhængig af dine valgte dimensioner
-Orientering: Om den skal være vandret eller lodret
-Min. værdi: Filtrer data mindre end dette tal væk
-Maks. værdi: Filtrer data større end dette tal væk
-Forklaring: Hvorvidt en forklaring skal vises
-'
+            default_translation = 'DIAGRAMTYPE\\nHvordan du repræsenterer dine datae visuelt. Du har mulighederne: Bar, doughnut, pie, polarArea, radar alt afhængig af dine valgte dimensioner\\n
+ORIENTERING\\nOm den skal være vandret eller lodret\\n
+MIN. VÆRDI\\nFiltrer data mindre end dette tal væk\\n
+MAKS. VÆRDI\\nFiltrer data større end dette tal væk\\n
+FORKLARING\\nHvorvidt en forklaring skal vises'
             language_id = data.language.danish.id
         }
     ]
