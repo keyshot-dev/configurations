@@ -50,6 +50,8 @@ patch member_group light_user_patch {
             constant = 'Member_Viewer'
         }, {
             constant = 'Saved_Searches_CRUD'
+        }, {
+            constant = 'MediaPortal_360Viewer_Embed'
         }]
     name = 'Light user (profile)'
 }
