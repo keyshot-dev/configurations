@@ -470,11 +470,11 @@ resource configservice_label administration_tools_dashboard_tool_exported_to_jso
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Dashboard backup completed. The file has been saved to your Downloads folder.'
+      default_translation = 'Dashboard backup completed and can be located in your downloads folder.'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Dashboard backup er gennemført. Filen er gemt i din Downloads-mappe.'
+      default_translation = 'Dashboard backup er gennemført og kan findes i din download-mappe.'
       language_id = data.language.danish.id
     }
   ]
@@ -518,11 +518,11 @@ resource configservice_label administration_tools_analytics_table_builder_filter
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
       {
-          default_translation = 'Apply filters to show or hide specific property values'
+          default_translation = 'Apply filters to hide results based on specific values'
           language_id = data.language.english.id
       },
       {
-          default_translation = 'Anvend filtre til at vise eller skjule specifikke egenskabs-værdier'
+          default_translation = 'Filtrer for at skjule resultater ud fra specifikke værdier'
           language_id = data.language.danish.id
       }
   ]
@@ -542,7 +542,7 @@ Time units:
 \'w\': weeks
 \'mm\': months
 \'y\': years\\n
-Example: \'now-1d\' to \'now\' will show data from the last 24 hours'
+Example: \'now-1d\' to \'now\' will show results from the last 24 hours'
       language_id = data.language.english.id
     },
     {
@@ -554,7 +554,7 @@ Tids-enheder:
 \'w\': uger
 \'mm\': måneder
 \'y\': år\\n
-Eksempel: \'now-1d\' til \'now\' vil vise data fra de sidste 24 timer'
+Eksempel: \'now-1d\' til \'now\' vil vise resultater fra de sidste 24 timer'
       language_id = data.language.danish.id
     }
   ]
@@ -625,11 +625,11 @@ resource configservice_label administration_tools_analytics_chart_builder_filter
     product_id = resource.configservice_product.media_manager_5.id
     default_label_values = [
         {
-            default_translation = 'Apply filters to show or hide specific property values'
+            default_translation = 'Apply filters to hide results based on specific values'
             language_id = data.language.english.id
         },
         {
-            default_translation = 'Anvend filtre til at vise eller skjule specifikke egenskabs-værdier'
+            default_translation = 'Filtrer for at skjule resultater ud fra specifikke værdier'
             language_id = data.language.danish.id
         }
     ]
