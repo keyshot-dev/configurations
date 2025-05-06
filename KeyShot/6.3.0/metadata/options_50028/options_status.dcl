@@ -143,11 +143,6 @@ patch combovalue_metafield combo_metafield_patch {
     system = true
 }
 
-patch combo_value status_d094e5for_review_50396_patch {
-    target = resource.combo_value.status_d094e5for_review_50396
-    system = true
-}
-
 
 patch combo_value status_for_approval_patch {
     target = data.combo_value.status_for_approval
