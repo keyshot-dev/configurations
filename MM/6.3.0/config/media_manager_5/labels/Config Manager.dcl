@@ -2539,7 +2539,7 @@ resource configservice_label portal_config_manager_multi_file_upload_presets_sec
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Multi-file upload presets'
+      default_translation = 'Relations on multi-upload'
       language_id = data.language.english.id
     },
     {
