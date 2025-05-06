@@ -8,6 +8,6 @@ patch member_group id_35 {
     target = data.member_group.download_qualities
     download_qualities = [{
             media_format_id = -1
-        }],
+        }]
     system = true
 }
