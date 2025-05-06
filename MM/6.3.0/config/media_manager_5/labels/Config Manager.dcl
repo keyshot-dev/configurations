@@ -2523,11 +2523,11 @@ resource configservice_label portal_config_manager_section_multi_file_upload_pre
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Multi-file upload presets'
+      default_translation = 'Relations on multi-upload'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Multi-file upload presets'
+      default_translation = 'Relationer på multi-upload'
       language_id = data.language.danish.id
     }
   ]
@@ -2543,7 +2543,7 @@ resource configservice_label portal_config_manager_multi_file_upload_presets_sec
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Multi-file upload presets'
+      default_translation = 'Relationer på multi-upload'
       language_id = data.language.danish.id
     }
   ]
@@ -2555,11 +2555,11 @@ resource configservice_label portal_config_manager_multi_file_upload_presets_sec
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'When uploading multiple files, the user can select a preset and automatically relate the files based on the presets\' predefined relations.'
+      default_translation = 'The presets you expose on this page, will allow users to quickly relate files after upload.'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Når du uploader flere filer, kan brugeren vælge en skabelon og automatisk relatere filerne baseret på skabelonernes foruddefinerede relationer.'
+      default_translation = 'De relations-pakker, du vælger at eksponere i denne menu, giver brugere mulighed for hurtigt at relatere filer efter upload.'
       language_id = data.language.danish.id
     }
   ]
