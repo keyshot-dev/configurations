@@ -1,7 +1,6 @@
 data channel_folder public_access {
     name = 'Public access'
     parent_id = data.channel_folder.rights_management.channel_folder_id
-    system = true
 }
 
 resource item_security public_access__sa_full_access {

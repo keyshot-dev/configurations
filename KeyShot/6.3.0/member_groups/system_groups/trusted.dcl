@@ -3,3 +3,8 @@ data member_group trusted {
     folder_id = data.member_group_folder.system_groups.id
     ad_group_name = ''
 }
+
+patch member_group trusted_patch {
+    target = data.member_group.trusted
+    system = true
+}

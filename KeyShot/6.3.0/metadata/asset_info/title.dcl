@@ -16,5 +16,11 @@ data string_metafield title {
 patch item_security id_3578 {
     target = data.item_security.title__trusted
     write = false
+    system = true
+}
+
+patch string_metafield title_patch {
+    target = data.string_metafield.title
+    system = true
 }
 

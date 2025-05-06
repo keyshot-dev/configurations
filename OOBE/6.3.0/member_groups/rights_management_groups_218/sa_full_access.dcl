@@ -5,7 +5,6 @@ resource member_group sa_full_access {
     approved = true
     ad_group_name = ''
     parents = []
-    system = true
     roles = []
 }
 

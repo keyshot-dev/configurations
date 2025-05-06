@@ -11,10 +11,12 @@ data masteritem_reference_metafield options_owner {
 patch item_security owner_metadata_viewer {
     target = data.item_security.options_owner__metadata_viewer
     write = true
+    system = true
 }
 
 patch masteritem_reference_metafield options_owner_patch {
     target = data.masteritem_reference_metafield.options_owner
     name = 'Assignee'
+    system = true
 }
 

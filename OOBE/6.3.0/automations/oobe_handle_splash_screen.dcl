@@ -1,7 +1,6 @@
 resource automation_workflow oobe_handle_splash_screen {
     name = 'OOBE: Handle splash screen'
     description = ''
-    system = true
     content = 'trigger "Is intro material set to true" {
 	type = "Specific Metadata Value"
 	resolves = ["Move asset to Splash screen channel folder 1"]

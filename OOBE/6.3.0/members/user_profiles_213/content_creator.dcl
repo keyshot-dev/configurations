@@ -4,7 +4,6 @@ resource member content_creator {
     language = data.language.english.id
     folder_id = data.member_folder.user_profiles.id
     firstname = 'Content creator'
-    system = true
     lastname = '(user profile)'
     enabled = true
     ad_username = ''

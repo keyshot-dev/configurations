@@ -16,5 +16,11 @@ data note_metafield description {
 patch item_security id_3583 {
     target = data.item_security.description__trusted
     write = false
+    system = true
+}
+
+patch note_metafield description_patch {
+    target = data.note_metafield.description
+    system = true
 }
 

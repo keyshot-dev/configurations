@@ -2,7 +2,6 @@ resource member_group scheme_content_creator {
     name = 'Scheme - Content Creator'
     folder_id = resource.member_group_folder.schemas.id
     sort_index = 0
-    system = true
     approved = true
     ad_group_name = ''
     parents = [{

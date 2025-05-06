@@ -1,7 +1,6 @@
 data channel_folder admin_access {
     name = 'Admin Access'
     parent_id = data.channel_folder.content.channel_folder_id
-    system = true
 }
 
 resource item_security admin_access__administrator_access {

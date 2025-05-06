@@ -4,7 +4,6 @@ resource member administrator {
     language = data.language.english.id
     folder_id = data.member_folder.user_profiles.id
     firstname = 'Administrator'
-    system = true
     lastname = '(user profile)'
     enabled = true
     ad_username = ''

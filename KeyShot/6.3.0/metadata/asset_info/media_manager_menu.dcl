@@ -15,5 +15,11 @@ data tree_metafield media_manager_menu {
 patch item_security id_3719 {
     target = data.item_security.media_manager_menu__trusted
     write = false
+    system = true
+}
+
+patch tree_metafield media_manager_menu_patch {
+    target = data.tree_metafield.media_manager_menu
+    system = true
 }
 

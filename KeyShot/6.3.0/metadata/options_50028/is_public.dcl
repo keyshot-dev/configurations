@@ -5,5 +5,6 @@ data bit_metafield is_public {
 patch bit_metafield id_50386 {
     target = data.bit_metafield.is_public
     show_in_list = false
+    system = true
 }
 

@@ -1,7 +1,6 @@
 data channel_folder logo {
     name = 'Logo'
     parent_id = data.channel_folder.portal_material.channel_folder_id
-    system = true
 }
 
 resource item_security logo__sa_full_access {

@@ -15,5 +15,11 @@ data item_security keywords__trusted {
 patch item_security id_730 {
     target = data.item_security.keywords__trusted
     write = false
+    system = true
+}
+
+patch editmulticombovalue_metafield keywords_patch {
+    target = data.editmulticombovalue_metafield.keywords
+    system = true
 }
 

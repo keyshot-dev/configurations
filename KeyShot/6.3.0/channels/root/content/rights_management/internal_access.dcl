@@ -11,4 +11,10 @@ data item_security internal_access__internal_access {
 patch item_security id_16061 {
     target = data.item_security.internal_access__internal_access
     write = true
+    system = true
+}
+
+patch channel_folder internal_access_patch {
+    target = data.channel_folder.internal_access
+    system = true
 }

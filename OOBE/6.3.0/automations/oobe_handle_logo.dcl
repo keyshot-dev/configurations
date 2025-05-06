@@ -2,7 +2,6 @@
  resource automation_workflow oobe_handle_logo {
     name = 'OOBE: Handle logo'
     description = ''
-    system = true
     content = 'trigger "Is logo set to true" {
 	type = "Specific Metadata Value"
 	resolves = "Move to logo channel folder 2"

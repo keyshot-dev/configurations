@@ -72,11 +72,13 @@ patch combo_value_label id_502213 {
 patch combo_value id_50165 {
     target = data.combo_value.status_expired
     sort_index = 5
+    system = true
 }
 
 patch combo_value id_50168 {
     target = data.combo_value.status_approved
     sort_index = 4
+    system = true
 }
 
 patch item_security id_14695 {
@@ -133,6 +135,27 @@ resource item_security combo_value_status_d094e5for_review_50396__sa_full_access
     item_id = resource.combo_value.status_d094e5for_review_50396.item_id
     read = true
     write = true
+    system = true
+}
+
+patch combovalue_metafield combo_metafield_patch {
+    target = data.combovalue_metafield.options_status
+    system = true
+}
+
+patch combo_value status_d094e5for_review_50396_patch {
+    target = resource.combo_value.status_d094e5for_review_50396
+    system = true
+}
+
+
+patch combo_value status_for_approval_patch {
+    target = data.combo_value.status_for_approval
+    system = true
+}
+
+patch combo_value status_requires_tagging_patch {
+    target = data.combo_value.status_requires_tagging
     system = true
 }
 
