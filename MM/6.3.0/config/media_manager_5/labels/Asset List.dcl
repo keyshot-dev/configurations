@@ -2036,11 +2036,11 @@ resource configservice_label asset_list_filter_property_connector_title {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = '{property, select, assetType {Asset type} mediaFormatId {Rendition} linkType {Status} extension {Extension} hasSubLink {Has sublink}}'
+      default_translation = '{property, select, assetType {Asset type} mediaFormatId {Rendition} linkType {Status} extension {Extension} hasSubLink {Has sublink} isInvalid {Invalid}}'
       language_id = data.language.english.id
     },
     {
-      default_translation = '{property, select, assetType {Assettype} mediaFormatId {Rendition} linkType {Status} extension {Filendelse} hasSubLink {Har underlink}}'
+      default_translation = '{property, select, assetType {Assettype} mediaFormatId {Rendition} linkType {Status} extension {Filendelse} hasSubLink {Har underlink} isInvalid {Ugyldig}}'
       language_id = data.language.danish.id
     }
   ]
