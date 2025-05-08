@@ -430,9 +430,6 @@ resource configservice_label preview_annotations_comments_dialog_reply {
   ]
 }
 
-      default_translation = 'Do you want to remove {count, cardinalPlural, one {this relation} other {{{count}} these relations}}?'
-
-
 resource configservice_label preview_add_comment_set_annotation {
   key = 'PREVIEW_ADD_COMMENT_SET_ANNOTATION'
   group = 'Preview Asset'
