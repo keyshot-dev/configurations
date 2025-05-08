@@ -424,7 +424,7 @@ resource configservice_label preview_annotations_comments_dialog_reply {
       language_id = data.language.english.id
     },
     {
-      default_translation = '{count, cardinalPlural, one {reply} other {replies}}'
+      default_translation = '{count, cardinalPlural, one {svar} other {svar}}'
       language_id = data.language.danish.id
     }
   ]
