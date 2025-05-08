@@ -100,11 +100,11 @@ resource configservice_label preview_comment_options_popup_remove {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Delete'
+      default_translation = 'Remove'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Slet'
+      default_translation = 'Fjern'
       language_id = data.language.danish.id
     }
   ]
@@ -381,7 +381,6 @@ resource configservice_label preview_asset_options_asset_options_replace {
     }
   ]
 }
-
 
 resource configservice_label preview_add_comment_set_annotation {
   key = 'PREVIEW_ADD_COMMENT_SET_ANNOTATION'
