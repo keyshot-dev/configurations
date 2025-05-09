@@ -1,5 +1,7 @@
 resource configservice_multi_string_config_field three_sixty_viewer_relation_types {
-    default_values = []
+    default_values = [{
+            value = '${to_string(resource.asset_relation_type.id_360_images.guid)}'
+        }]
     type = 'AssetRelationType'
     product_id = resource.configservice_product.media_manager_5.id
     group = 'default'
