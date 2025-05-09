@@ -3,6 +3,6 @@ data member_group scheme_super_administrator {
 }
 
 patch member_group scheme_super_administrator_patch {
-     target = 'data.member_group.scheme_super_administrator'
+     target = data.member_group.scheme_super_administrator
      system = true
 }

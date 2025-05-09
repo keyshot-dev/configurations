@@ -4,6 +4,6 @@ data channel_folder splashscreen {
 }
 
 patch channel_folder splashscreen_patch {
-    target = 'data.channel_folder.splashscreen'
+    target = data.channel_folder.splashscreen
     system = true
 }

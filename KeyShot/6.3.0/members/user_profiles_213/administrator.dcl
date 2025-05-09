@@ -3,6 +3,6 @@ data member administrator {
 }
 
 patch member administrator_patch {
-    target = 'data.member.administrator'
+    target = data.member.administrator
     system = true
 }

@@ -4,6 +4,6 @@ data channel_folder logo {
 }
 
 patch channel_folder logo_patch {
-    target = 'data.channel_folder.logo'
+    target = data.channel_folder.logo
     system = true
 }

@@ -3,7 +3,7 @@ data datetime_metafield expiration_date {
 }
 
 patch datetime_metafield expiration_date_patch {
-    target = 'data.datetime_metafield.expiration_date'
+    target = data.datetime_metafield.expiration_date
     system = true
 }
 
@@ -15,7 +15,7 @@ data item_security datetime_metafield_expiration_date__metadata_editor {
 }
 
 patch item_security datetime_metafield_expiration_date__metadata_editor_patch {
-    target = 'data.item_security.datetime_metafield_expiration_date__metadata_editor'
+    target = data.item_security.datetime_metafield_expiration_date__metadata_editor
     system = true
 }
 
@@ -27,7 +27,7 @@ data item_security datetime_metafield_expiration_date__metadata_viewer {
 }
 
 patch item_security datetime_metafield_expiration_date__metadata_viewer_patch {
-    target = 'data.item_security.datetime_metafield_expiration_date__metadata_viewer'
+    target = data.item_security.datetime_metafield_expiration_date__metadata_viewer
     system = true
 }
 
@@ -39,6 +39,6 @@ data item_security datetime_metafield_expiration_date__sa_full_access {
 }
 
 patch item_security datetime_metafield_expiration_date__sa_full_access_patch {
-    target = 'data.item_security.datetime_metafield_expiration_date__sa_full_access'
+    target = data.item_security.datetime_metafield_expiration_date__sa_full_access
     system = true
 }

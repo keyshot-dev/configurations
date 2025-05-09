@@ -3,6 +3,6 @@ data member content_creator {
 }
 
 patch member content_creator_patch {
-    target = 'data.member.content_creator'
+    target = data.member.content_creator
     system = true
 }

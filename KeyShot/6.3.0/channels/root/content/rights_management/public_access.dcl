@@ -4,6 +4,6 @@ data channel_folder public_access {
 }
 
 patch channel_folder public_access_patch {
-    target = 'data.channel_folder.public_access'
+    target = data.channel_folder.public_access
     system = true
 }

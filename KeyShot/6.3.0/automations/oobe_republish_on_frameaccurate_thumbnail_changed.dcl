@@ -3,6 +3,6 @@ data automation_workflow oobe_republish_on_frameaccurate_thumbnail_changed {
 }
 
 patch automation_workflow oobe_republish_on_frameaccurate_thumbnail_changed_patch {
-    target = 'data.automation_workflow.oobe_republish_on_frameaccurate_thumbnail_changed'
+    target = data.automation_workflow.oobe_republish_on_frameaccurate_thumbnail_changed
     system = true
 }

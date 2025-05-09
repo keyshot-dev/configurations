@@ -4,6 +4,6 @@ data channel_folder portal_material {
 }
 
 patch channel_folder portal_material_patch {
-    target = 'data.channel_folder.portal_material'
+    target = data.channel_folder.portal_material
     system = true
 }
