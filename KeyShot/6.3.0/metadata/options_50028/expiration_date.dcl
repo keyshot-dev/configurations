@@ -32,8 +32,8 @@ patch item_security datetime_metafield_expiration_date__metadata_viewer_patch {
 }
 
 data item_security datetime_metafield_expiration_date__sa_full_access {
-    accessor_item_id = resource.member_group.sa_full_access.item_id
-    item_id = resource.datetime_metafield.expiration_date.item_id
+    accessor_item_id = data.member_group.sa_full_access.item_id
+    item_id = data.datetime_metafield.expiration_date.item_id
     read = true
     write = true
 }

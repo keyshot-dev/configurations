@@ -43,7 +43,7 @@ patch item_security folders__metadata_viewer_patch {
 }
 
 data item_security folders__sa_full_access {
-    accessor_item_id = resource.member_group.sa_full_access.item_id
+    accessor_item_id = data.member_group.sa_full_access.item_id
     item_id = data.tree_metafield.folders.item_id
     read = true
     write = true
@@ -51,5 +51,15 @@ data item_security folders__sa_full_access {
 
 patch item_security folders__sa_full_access_patch {
     target = data.item_security.folders__sa_full_access
+    system = true
+}
+
+data tree_metafield folders {
+    name = 'Media Manager menu'
+}
+
+
+patch tree_metafield folders_patch {
+    target = data.tree_metafield.folders
     system = true
 }

@@ -163,7 +163,7 @@ patch tree_node published_to__digizuite_media_manager_patch {
 }
 
 data tree_node published_to__internal_access {
-    metafield_id = resource.tree_metafield.published_to.metafield_id
+    metafield_id = data.tree_metafield.published_to.metafield_id
 }
 
 patch tree_node published_to__internal_access_patch {
@@ -172,7 +172,7 @@ patch tree_node published_to__internal_access_patch {
 }
 
 data tree_node published_to__public_access {
-    metafield_id = resource.tree_metafield.published_to.metafield_id
+    metafield_id = data.tree_metafield.published_to.metafield_id
 }
 
 patch tree_node published_to__public_access_patch {
