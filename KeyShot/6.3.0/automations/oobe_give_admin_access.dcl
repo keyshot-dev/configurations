@@ -4,6 +4,6 @@ data automation_workflow oobe_give_admin_access {
 }
 
 patch automation_workflow oobe_give_admin_access_patch {
-    target = 'data.automation_workflow.oobe_give_admin_access'
+    target = data.automation_workflow.oobe_give_admin_access
     system = true
 }
