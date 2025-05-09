@@ -166,13 +166,6 @@ patch item_security options_status__metadata_editor_patch {
     system = true
 }
 
-data item_security options_status__metadata_viewer {
-    accessor_item_id = data.member_group.metadata_viewer.item_id
-    item_id = data.combovalue_metafield.options_status.item_id
-    read = true
-    write = false
-}
-
 patch item_security options_status__metadata_viewer_patch {
     target = data.item_security.options_status__metadata_viewer
     system = true
@@ -200,13 +193,6 @@ data item_security status_approved__metadata_editor {
 patch item_security status_approved__metadata_editor_patch {
     target = data.item_security.status_approved__metadata_editor
     system = true
-}
-
-data item_security status_approved__metadata_viewer {
-    accessor_item_id = data.member_group.metadata_viewer.item_id
-    item_id = data.combo_value.status_approved.item_id
-    read = true
-    write = false
 }
 
 patch item_security status_approved__metadata_viewer_patch {
@@ -274,13 +260,6 @@ patch item_security status_for_approval__metadata_editor_patch {
     system = true
 }
 
-data item_security status_for_approval__metadata_viewer {
-    accessor_item_id = data.member_group.metadata_viewer.item_id
-    item_id = data.combo_value.status_for_approval.item_id
-    read = true
-    write = false
-}
-
 patch item_security status_for_approval__metadata_viewer_patch {
     target = data.item_security.status_for_approval__metadata_viewer
     system = true
@@ -308,13 +287,6 @@ data item_security status_requires_tagging__metadata_editor {
 patch item_security status_requires_tagging__metadata_editor_patch {
     target = data.item_security.status_requires_tagging__metadata_editor
     system = true
-}
-
-data item_security status_requires_tagging__metadata_viewer {
-    accessor_item_id = data.member_group.metadata_viewer.item_id
-    item_id = data.combo_value.status_requires_tagging.item_id
-    read = true
-    write = false
 }
 
 patch item_security status_requires_tagging__metadata_viewer_patch {
