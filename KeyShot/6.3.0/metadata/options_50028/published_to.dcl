@@ -156,6 +156,7 @@ patch item_security published_to__sa_full_access_patch {
 data tree_node published_to__digizuite_media_manager {
     metafield_id = data.tree_metafield.published_to.metafield_id
     option_value = 'c44ab339-d8ba-490c-a0fc-ff73708d9b49'
+    parent_id = 0
 }
 
 patch tree_node published_to__digizuite_media_manager_patch {
