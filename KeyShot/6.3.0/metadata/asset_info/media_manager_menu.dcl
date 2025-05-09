@@ -20,7 +20,7 @@ patch item_security id_3719 {
 
 data item_security folders__metadata_editor {
     accessor_item_id = data.member_group.metadata_editor.item_id
-    item_id = data.tree_metafield.folders.item_id
+    item_id = data.tree_metafield.media_manager_menu.item_id
     read = true
     write = true
 }
@@ -32,7 +32,7 @@ patch item_security folders__metadata_editor_patch {
 
 data item_security folders__metadata_viewer {
     accessor_item_id = data.member_group.metadata_viewer.item_id
-    item_id = data.tree_metafield.folders.item_id
+    item_id = data.tree_metafield.media_manager_menu.item_id
     read = true
     write = false
 }
@@ -44,7 +44,7 @@ patch item_security folders__metadata_viewer_patch {
 
 data item_security folders__sa_full_access {
     accessor_item_id = data.member_group.sa_full_access.item_id
-    item_id = data.tree_metafield.folders.item_id
+    item_id = data.tree_metafield.media_manager_menu.item_id
     read = true
     write = true
 }
@@ -54,12 +54,7 @@ patch item_security folders__sa_full_access_patch {
     system = true
 }
 
-data tree_metafield folders {
-    name = 'Media Manager menu'
-}
-
-
-patch tree_metafield folders_patch {
-    target = data.tree_metafield.folders
+patch tree_metafield media_manager_menu_patch {
+    target = data.tree_metafield.media_manager_menu
     system = true
 }

@@ -32,11 +32,6 @@ patch item_security options_owner__metadata_editor_patch {
     system = true
 }
 
-patch item_security options_owner__metadata_viewer_patch {
-    target = data.item_security.options_owner__metadata_viewer
-    system = true
-}
-
 data item_security options_owner__sa_full_access {
     accessor_item_id = data.member_group.sa_full_access.item_id
     item_id = data.masteritem_reference_metafield.options_owner.item_id

@@ -84,21 +84,25 @@ patch combo_value id_50168 {
 patch item_security id_14695 {
     target = data.item_security.options_status__metadata_viewer
     write = true
+    system = true
 }
 
 patch item_security id_14806 {
     target = data.item_security.status_requires_tagging__metadata_viewer
     write = true
+    system = true
 }
 
 patch item_security id_14812 {
     target = data.item_security.status_approved__metadata_viewer
     write = true
+    system = true
 }
 
 patch item_security id_16063 {
     target = data.item_security.status_for_approval__metadata_viewer
     write = true
+    system = true
 }
 
 resource combo_value_label status__d094e5for_review__english_50269 {
@@ -166,11 +170,6 @@ patch item_security options_status__metadata_editor_patch {
     system = true
 }
 
-patch item_security options_status__metadata_viewer_patch {
-    target = data.item_security.options_status__metadata_viewer
-    system = true
-}
-
 data item_security options_status__sa_full_access {
     accessor_item_id = data.member_group.sa_full_access.item_id
     item_id = data.combovalue_metafield.options_status.item_id
@@ -192,11 +191,6 @@ data item_security status_approved__metadata_editor {
 
 patch item_security status_approved__metadata_editor_patch {
     target = data.item_security.status_approved__metadata_editor
-    system = true
-}
-
-patch item_security status_approved__metadata_viewer_patch {
-    target = data.item_security.status_approved__metadata_viewer
     system = true
 }
 
@@ -260,11 +254,6 @@ patch item_security status_for_approval__metadata_editor_patch {
     system = true
 }
 
-patch item_security status_for_approval__metadata_viewer_patch {
-    target = data.item_security.status_for_approval__metadata_viewer
-    system = true
-}
-
 data item_security status_for_approval__sa_full_access {
     accessor_item_id = data.member_group.sa_full_access.item_id
     item_id = data.combo_value.status_for_approval.item_id
@@ -286,11 +275,6 @@ data item_security status_requires_tagging__metadata_editor {
 
 patch item_security status_requires_tagging__metadata_editor_patch {
     target = data.item_security.status_requires_tagging__metadata_editor
-    system = true
-}
-
-patch item_security status_requires_tagging__metadata_viewer_patch {
-    target = data.item_security.status_requires_tagging__metadata_viewer
     system = true
 }
 

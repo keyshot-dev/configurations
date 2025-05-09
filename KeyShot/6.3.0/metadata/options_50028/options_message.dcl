@@ -37,11 +37,6 @@ patch item_security options_message__metadata_editor_patch {
     system = true
 }
 
-patch item_security options_message__metadata_viewer_patch {
-    target = data.item_security.options_message__metadata_viewer
-    system = true
-}
-
 data item_security options_message__sa_full_access {
     accessor_item_id = data.member_group.sa_full_access.item_id
     item_id = data.note_metafield.options_message.item_id
