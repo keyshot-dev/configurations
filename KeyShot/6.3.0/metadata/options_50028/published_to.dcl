@@ -176,10 +176,10 @@ patch tree_node published_to__internal_access_patch {
 }
 
 data tree_node published_to__public_access {
-    metafield_id = data.tree_metafield.published_to.metafield_id
-    option_value = '${data.channel_folder.internal_access.channel_folder_id}'
-    sort_index = 0
-    parent_id = data.tree_node.published_to__digizuite_media_manager.tree_node_id
+     metafield_id = data.tree_metafield.published_to.metafield_id
+     option_value = '${data.channel_folder.public_access.channel_folder_id}'
+     sort_index = 0
+     parent_id = data.tree_node.published_to__digizuite_media_manager.tree_node_id
 }
 
 patch tree_node published_to__public_access_patch {
