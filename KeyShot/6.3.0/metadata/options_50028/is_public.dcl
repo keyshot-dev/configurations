@@ -8,3 +8,38 @@ patch bit_metafield id_50386 {
     system = true
 }
 
+data item_security bit_metafield_unlocked_50382__metadata_editor_35 {
+    accessor_item_id = data.member_group.metadata_editor.item_id
+    item_id = data.bit_metafield.is_public.item_id
+    read = true
+    write = true
+}
+
+patch item_security bit_metafield_unlocked_50382__metadata_editor_35_patch {
+    target = data.item_security.bit_metafield_unlocked_50382__metadata_editor_35
+    system = true
+}
+
+data item_security bit_metafield_unlocked_50382__metadata_viewer_37 {
+    accessor_item_id = data.member_group.metadata_viewer.item_id
+    item_id = data.bit_metafield.is_public.item_id
+    read = true
+    write = false
+}
+
+patch item_security bit_metafield_unlocked_50382__metadata_viewer_37_patch {
+    target = data.item_security.bit_metafield_unlocked_50382__metadata_viewer_37
+    system = true
+}
+
+data item_security bit_metafield_unlocked_50382__sa_full_access_34 {
+    accessor_item_id = data.member_group.sa_full_access.item_id
+    item_id = data.bit_metafield.is_public.item_id
+    read = true
+    write = true
+}
+
+patch item_security bit_metafield_unlocked_50382__sa_full_access_34_patch {
+    target = data.item_security.bit_metafield_unlocked_50382__sa_full_access_34
+    system = true
+}
