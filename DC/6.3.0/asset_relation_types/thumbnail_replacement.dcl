@@ -16,7 +16,7 @@ resource asset_relation_type thumbnail_replacement {
     }
     deletion_behavior = {
         enable_behavior = true
-        locked_when_primary = true
+        locked_when_primary = false
         locked_when_secondary = true
     }	
     labels = [{
