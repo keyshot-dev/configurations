@@ -4,7 +4,7 @@ data channel_folder splashscreen {
 }
 
 data item_security splashscreen__sa_full_access {
-    accessor_item_id = resource.member_group.sa_full_access.item_id
+    accessor_item_id = data.member_group.sa_full_access.item_id
     item_id = data.channel_folder.splashscreen.item_id
 }
 

@@ -14,7 +14,7 @@ patch item_security portal_material__anonymous_patch {
 }
 
 data item_security portal_material__sa_full_access {
-    accessor_item_id = resource.member_group.sa_full_access.item_id
+    accessor_item_id = data.member_group.sa_full_access.item_id
     item_id = data.channel_folder.portal_material.item_id
 }
 
