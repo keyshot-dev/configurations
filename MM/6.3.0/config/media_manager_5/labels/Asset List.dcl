@@ -590,6 +590,22 @@ resource configservice_label asset_list_filter_menu_end_date {
   ]
 }
 
+resource configservice_label asset_list_filter_menu_error_date_period {
+  key = 'ASSET_LIST_FILTER_MENU_ERROR_DATE_PERIOD'
+  group = 'Asset List'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'The end date must be later than the start date'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Slut-datoen skal være senere end start-datoen'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label asset_list_filter_menu_date_between_date_selector_year {
   key = 'ASSET_LIST_FILTER_MENU_DATE_BETWEEN_DATE_SELECTOR_YEAR'
   group = 'Asset List'
@@ -2020,11 +2036,11 @@ resource configservice_label asset_list_filter_property_connector_title {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = '{property, select, assetType {Asset type} mediaFormatId {Rendition} linkType {Status} extension {Extension} hasSubLink {Has sublink}}'
+      default_translation = '{property, select, assetType {Asset type} mediaFormatId {Rendition} linkType {Status} extension {Extension} hasSubLink {Has sublink} isInvalid {Invalid}}'
       language_id = data.language.english.id
     },
     {
-      default_translation = '{property, select, assetType {Assettype} mediaFormatId {Rendition} linkType {Status} extension {Filendelse} hasSubLink {Har underlink}}'
+      default_translation = '{property, select, assetType {Assettype} mediaFormatId {Rendition} linkType {Status} extension {Filendelse} hasSubLink {Har underlink} isInvalid {Ugyldig}}'
       language_id = data.language.danish.id
     }
   ]
@@ -2118,11 +2134,11 @@ resource configservice_label asset_list_facet_assettype {
   default_label_values = [
     {
       language_id = data.language.english.id
-      default_translation = '{value, select, KeyShotEnvironment {KeyShot Environment} KeyShotMaterial {KeyShot Material} KeyShotScene {KeyShot Scene} Archive {Archive} other {{{value}}}}'
+      default_translation = '{value, select, Video {Video} Audio {Audio} Image {Image} PowerPoint {PowerPoint} Html {HTML} Text {Text} Word {Word} Excel {Excel} InDesign {InDesign} Zip {ZIP} META {META} PDF {PDF} Archive {Archive} Photoshop {Photoshop} Illustrator {Illustrator} Visio {Visio} Cad {CAD} Font {Font} AfterEffects {After Effects} PremierePro {Premiere Pro} KeyShotEnvironment {KeyShot Environment} KeyShotMaterial {KeyShot Material} KeyShotScene {KeyShot Scene} other {{{value}}}}'
     },
     {
       language_id = data.language.danish.id
-      default_translation = '{value, select, KeyShotEnvironment {KeyShot Miljø} KeyShotMaterial {KeyShot Materiale} KeyShotScene {KeyShot Scene} Archive {Arkiv} other {{{value}}}}'
+      default_translation = '{value, select, Video {Video} Audio {Audio} Image {Image} PowerPoint {PowerPoint} Html {HTML} Text {Text} Word {Word} Excel {Excel} InDesign {InDesign} Zip {ZIP} META {META} PDF {PDF} Archive {Arkiv} Photoshop {Photoshop} Illustrator {Illustrator} Visio {Visio} Cad {CAD} Font {Font} AfterEffects {After Effects} PremierePro {Premiere Pro} KeyShotEnvironment {KeyShot Miljø} KeyShotMaterial {KeyShot Materiale} KeyShotScene {KeyShot Scene} other {{{value}}}}'
     }
   ]
 }

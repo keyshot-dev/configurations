@@ -132,6 +132,10 @@ resource member_group administrator_22 {
             constant = 'AssetRelationTypes_writer'
         }, {
             constant = 'MediaPortal_Audio_Embed'
+        }, {
+            constant = 'Can_Live_Export_System_Data'
+        }, {
+            constant = 'MediaPortal_360Viewer_Embed'
         }]
     autolink = {
         item_guid = '58efafcb-4ce9-43d0-b413-b842fbccb576'

@@ -20,11 +20,11 @@ resource configservice_label creative_cloud_connector_redirect_to_link_manager {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'The document contains media content originating from your Digizuite DAM. The content has either not yet been downloaded, or it might be out of date. Access the link manager to easily relink any unlinked content.'
+      default_translation = 'The document contains media content originating from your DAM. The content has either not yet been downloaded, or it might be out of date. Access the link manager to easily relink any unlinked content.'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Dokumentet indeholder mediefiler, der stammer fra din Digizuite DAM. Filerne er enten ikke downloadet endnu, eller de kan være forældede. Tilgå link-manageren for nemt at genlinke alt indhold, der pt. er ulinket.'
+      default_translation = 'Dokumentet indeholder mediefiler, der stammer fra din DAM. Filerne er enten ikke downloadet endnu, eller de kan være forældede. Tilgå link-manageren for nemt at genlinke alt indhold, der pt. er ulinket.'
       language_id = data.language.danish.id
     }
   ]
@@ -292,11 +292,11 @@ resource configservice_label creative_cloud_connector_notification_active_docume
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Please save the document to your drive to enable uploading to the Digizuite DAM'
+      default_translation = 'Please save the document to your drive to enable uploading to the DAM'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Gem dokumentet på dit lokale drev for at slå upload til Digizuite DAM til'
+      default_translation = 'Gem dokumentet på dit lokale drev for at slå upload til DAM til'
       language_id = data.language.danish.id
     }
   ]
@@ -1492,11 +1492,11 @@ resource configservice_label office_link_manager_tooltip_status_link_missing {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Digizuite content is unlinked'
+      default_translation = 'DAM content is unlinked'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Digizuite-indhold mangler link(s)'
+      default_translation = 'DAM-indhold mangler link(s)'
       language_id = data.language.danish.id
     }
   ]
@@ -1508,11 +1508,11 @@ resource configservice_label office_link_manager_tooltip_status_link_embedded {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Digizuite content is embedded'
+      default_translation = 'DAM content is embedded'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Digizuite-indhold indeholder indlejrede link(s)'
+      default_translation = 'DAM-indhold indeholder indlejrede link(s)'
       language_id = data.language.danish.id
     }
   ]
@@ -1524,11 +1524,11 @@ resource configservice_label office_link_manager_tooltip_status_local_content {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Upload asset to Digizuite DAM'
+      default_translation = 'Upload asset to DAM'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Upload asset til Digizuite DAM'
+      default_translation = 'Upload asset til DAM'
       language_id = data.language.danish.id
     }
   ]
@@ -1684,11 +1684,11 @@ resource configservice_label office_link_manager_link_outdated {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Digizuite asset is outdated'
+      default_translation = 'DAM asset is outdated'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Digizuite asset er forældet'
+      default_translation = 'DAM-asset er forældet'
       language_id = data.language.danish.id
     }
   ]
