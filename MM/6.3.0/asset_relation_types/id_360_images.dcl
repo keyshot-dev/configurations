@@ -29,7 +29,7 @@ resource asset_relation_type id_360_images {
         make_secondary_available_during_transcode = false
     }
     replace_behavior = {
-        enable_behavior = false
+        enable_behavior = true
         primary_replace_behavior = 'MoveToArchive'
         secondary_replace_behavior = 'Ignore'
     }
