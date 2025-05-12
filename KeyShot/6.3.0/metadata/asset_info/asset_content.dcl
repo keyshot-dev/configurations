@@ -5,8 +5,6 @@ data note_metafield asset_content {
 data item_security asset_content__metadata_editor {
     accessor_item_id = data.member_group.metadata_editor.item_id
     item_id = data.note_metafield.asset_content.item_id
-    read = true
-    write = true
 }
 
 patch item_security asset_content__metadata_editor_patch {
@@ -17,8 +15,6 @@ patch item_security asset_content__metadata_editor_patch {
 data item_security asset_content__metadata_viewer {
     accessor_item_id = data.member_group.metadata_viewer.item_id
     item_id = data.note_metafield.asset_content.item_id
-    read = true
-    write = false
 }
 
 patch item_security asset_content__metadata_viewer_patch {
@@ -29,8 +25,6 @@ patch item_security asset_content__metadata_viewer_patch {
 data item_security asset_content__sa_full_access {
     accessor_item_id = data.member_group.sa_full_access.item_id
     item_id = data.note_metafield.asset_content.item_id
-    read = true
-    write = true
 }
 
 patch item_security asset_content__sa_full_access_patch {

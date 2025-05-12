@@ -12,8 +12,6 @@ patch tree_metafield published_to_patch {
 data item_security published_to__digizuite_media_manager__metadata_editor {
     accessor_item_id = data.member_group.metadata_editor.item_id
     item_id = data.tree_node.published_to__digizuite_media_manager.item_id
-    read = true
-    write = true
 }
 
 patch item_security published_to__digizuite_media_manager__metadata_editor_patch {
@@ -24,8 +22,6 @@ patch item_security published_to__digizuite_media_manager__metadata_editor_patch
 data item_security published_to__digizuite_media_manager__metadata_viewer {
     accessor_item_id = data.member_group.metadata_viewer.item_id
     item_id = data.tree_node.published_to__digizuite_media_manager.item_id
-    read = true
-    write = false
 }
 
 patch item_security published_to__digizuite_media_manager__metadata_viewer_patch {
@@ -36,8 +32,6 @@ patch item_security published_to__digizuite_media_manager__metadata_viewer_patch
 data item_security published_to__digizuite_media_manager__sa_full_access {
     accessor_item_id = data.member_group.sa_full_access.item_id
     item_id = data.tree_node.published_to__digizuite_media_manager.item_id
-    read = true
-    write = true
 }
 
 patch item_security published_to__digizuite_media_manager__sa_full_access_patch {
@@ -48,8 +42,6 @@ patch item_security published_to__digizuite_media_manager__sa_full_access_patch 
 data item_security published_to__internal_access__metadata_editor {
     accessor_item_id = data.member_group.metadata_editor.item_id
     item_id = data.tree_node.published_to__internal_access.item_id
-    read = true
-    write = true
 }
 
 patch item_security published_to__internal_access__metadata_editor_patch {
@@ -60,8 +52,6 @@ patch item_security published_to__internal_access__metadata_editor_patch {
 data item_security published_to__internal_access__metadata_viewer {
     accessor_item_id = data.member_group.metadata_viewer.item_id
     item_id = data.tree_node.published_to__internal_access.item_id
-    read = true
-    write = false
 }
 
 patch item_security published_to__internal_access__metadata_viewer_patch {
@@ -72,8 +62,6 @@ patch item_security published_to__internal_access__metadata_viewer_patch {
 data item_security published_to__internal_access__sa_full_access {
     accessor_item_id = data.member_group.sa_full_access.item_id
     item_id = data.tree_node.published_to__internal_access.item_id
-    read = true
-    write = true
 }
 
 patch item_security published_to__internal_access__sa_full_access_patch {
@@ -84,8 +72,6 @@ patch item_security published_to__internal_access__sa_full_access_patch {
 data item_security published_to__metadata_editor {
     accessor_item_id = data.member_group.metadata_editor.item_id
     item_id = data.tree_metafield.published_to.item_id
-    read = true
-    write = true
 }
 
 patch item_security published_to__metadata_editor_patch {
@@ -96,8 +82,6 @@ patch item_security published_to__metadata_editor_patch {
 data item_security published_to__metadata_viewer {
     accessor_item_id = data.member_group.metadata_viewer.item_id
     item_id = data.tree_metafield.published_to.item_id
-    read = true
-    write = false
 }
 
 patch item_security published_to__metadata_viewer_patch {
@@ -108,8 +92,6 @@ patch item_security published_to__metadata_viewer_patch {
 data item_security published_to__public_access__metadata_editor {
     accessor_item_id = data.member_group.metadata_editor.item_id
     item_id = data.tree_node.published_to__public_access.item_id
-    read = true
-    write = true
 }
 
 patch item_security published_to__public_access__metadata_editor_patch {
@@ -120,8 +102,6 @@ patch item_security published_to__public_access__metadata_editor_patch {
 data item_security published_to__public_access__metadata_viewer {
     accessor_item_id = data.member_group.metadata_viewer.item_id
     item_id = data.tree_node.published_to__public_access.item_id
-    read = true
-    write = false
 }
 
 patch item_security published_to__public_access__metadata_viewer_patch {
@@ -132,8 +112,6 @@ patch item_security published_to__public_access__metadata_viewer_patch {
 data item_security published_to__public_access__sa_full_access {
     accessor_item_id = data.member_group.sa_full_access.item_id
     item_id = data.tree_node.published_to__public_access.item_id
-    read = true
-    write = true
 }
 
 patch item_security published_to__public_access__sa_full_access_patch {
@@ -144,8 +122,6 @@ patch item_security published_to__public_access__sa_full_access_patch {
 data item_security published_to__sa_full_access {
     accessor_item_id = data.member_group.sa_full_access.item_id
     item_id = data.tree_metafield.published_to.item_id
-    read = true
-    write = true
 }
 
 patch item_security published_to__sa_full_access_patch {

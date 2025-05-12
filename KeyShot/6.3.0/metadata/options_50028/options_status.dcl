@@ -142,11 +142,6 @@ resource item_security combo_value_status_d094e5for_review_50396__sa_full_access
     system = true
 }
 
-patch combovalue_metafield combo_metafield_patch {
-    target = data.combovalue_metafield.options_status
-    system = true
-}
-
 
 patch combo_value status_for_approval_patch {
     target = data.combo_value.status_for_approval
@@ -161,8 +156,6 @@ patch combo_value status_requires_tagging_patch {
 data item_security options_status__metadata_editor {
     accessor_item_id = data.member_group.metadata_editor.item_id
     item_id = data.combovalue_metafield.options_status.item_id
-    read = true
-    write = true
 }
 
 patch item_security options_status__metadata_editor_patch {
@@ -173,8 +166,6 @@ patch item_security options_status__metadata_editor_patch {
 data item_security options_status__sa_full_access {
     accessor_item_id = data.member_group.sa_full_access.item_id
     item_id = data.combovalue_metafield.options_status.item_id
-    read = true
-    write = true
 }
 
 patch item_security options_status__sa_full_access_patch {
@@ -185,8 +176,6 @@ patch item_security options_status__sa_full_access_patch {
 data item_security status_approved__metadata_editor {
     accessor_item_id = data.member_group.metadata_editor.item_id
     item_id = data.combo_value.status_approved.item_id
-    read = true
-    write = true
 }
 
 patch item_security status_approved__metadata_editor_patch {
@@ -197,8 +186,6 @@ patch item_security status_approved__metadata_editor_patch {
 data item_security status_approved__sa_full_access {
     accessor_item_id = data.member_group.sa_full_access.item_id
     item_id = data.combo_value.status_approved.item_id
-    read = true
-    write = true
 }
 
 patch item_security status_approved__sa_full_access_patch {
@@ -209,8 +196,6 @@ patch item_security status_approved__sa_full_access_patch {
 data item_security status_expired__metadata_editor {
     accessor_item_id = data.member_group.metadata_editor.item_id
     item_id = data.combo_value.status_expired.item_id
-    read = true
-    write = true
 }
 
 patch item_security status_expired__metadata_editor_patch {
@@ -221,8 +206,6 @@ patch item_security status_expired__metadata_editor_patch {
 data item_security status_expired__metadata_viewer {
     accessor_item_id = data.member_group.metadata_viewer.item_id
     item_id = data.combo_value.status_expired.item_id
-    read = true
-    write = false
 }
 
 patch item_security status_expired__metadata_viewer_patch {
@@ -233,8 +216,6 @@ patch item_security status_expired__metadata_viewer_patch {
 data item_security status_expired__sa_full_access {
     accessor_item_id = data.member_group.sa_full_access.item_id
     item_id = data.combo_value.status_expired.item_id
-    read = true
-    write = true
 }
 
 patch item_security status_expired__sa_full_access_patch {
@@ -245,8 +226,6 @@ patch item_security status_expired__sa_full_access_patch {
 data item_security status_for_approval__metadata_editor {
     accessor_item_id = data.member_group.metadata_editor.item_id
     item_id = data.combo_value.status_for_approval.item_id
-    read = true
-    write = true
 }
 
 patch item_security status_for_approval__metadata_editor_patch {
@@ -257,8 +236,6 @@ patch item_security status_for_approval__metadata_editor_patch {
 data item_security status_for_approval__sa_full_access {
     accessor_item_id = data.member_group.sa_full_access.item_id
     item_id = data.combo_value.status_for_approval.item_id
-    read = true
-    write = true
 }
 
 patch item_security status_for_approval__sa_full_access_patch {
@@ -269,8 +246,6 @@ patch item_security status_for_approval__sa_full_access_patch {
 data item_security status_requires_tagging__metadata_editor {
     accessor_item_id = data.member_group.metadata_editor.item_id
     item_id = data.combo_value.status_requires_tagging.item_id
-    read = true
-    write = true
 }
 
 patch item_security status_requires_tagging__metadata_editor_patch {
@@ -281,8 +256,6 @@ patch item_security status_requires_tagging__metadata_editor_patch {
 data item_security status_requires_tagging__sa_full_access {
     accessor_item_id = data.member_group.sa_full_access.item_id
     item_id = data.combo_value.status_requires_tagging.item_id
-    read = true
-    write = true
 }
 
 patch item_security status_requires_tagging__sa_full_access_patch {

@@ -3,7 +3,12 @@ data channel_folder splashscreen {
     parent_id = data.channel_folder.portal_material.channel_folder_id
 }
 
-patch channel_folder splashscreen_patch {
-    target = data.channel_folder.splashscreen
+data item_security splashscreen__sa_full_access {
+    accessor_item_id = resource.member_group.sa_full_access.item_id
+    item_id = data.channel_folder.splashscreen.item_id
+}
+
+patch item_security splashscreen__sa_full_access_patch {
+    target = data.item_security.splashscreen__sa_full_access
     system = true
 }
