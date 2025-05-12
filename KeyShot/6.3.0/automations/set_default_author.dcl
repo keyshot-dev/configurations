@@ -26,7 +26,7 @@ action "Get uploader name" {
 
 action "Set Author = Uploader" {
     type = "Set EditComboValue Metafield"
-    needs = "Is Author empty"
+    needs = ["Is Empty or whitespace String"]
     meta_field = "guid:06bc17af-fef3-4661-955e-12c2ecb87330"
     new_value = "@Fullname"
     asset_item_ids = "@sourceAssetItemId"
@@ -39,6 +39,14 @@ filter "Is Author empty" {
     metafield = "guid:06bc17af-fef3-4661-955e-12c2ecb87330"
     negate = "false"
 }
+
+filter "Is Empty or whitespace String" {
+    type = "Is Empty or whitespace String"
+    needs = "Is Author empty"
+    value = "@Fullname"
+    negate = "true"
+}
+
 '
     is_disabled = false
 }
