@@ -2134,11 +2134,11 @@ resource configservice_label asset_list_facet_assettype {
   default_label_values = [
     {
       language_id = data.language.english.id
-      default_translation = '{value, select, KeyShotEnvironment {KeyShot Environment} KeyShotMaterial {KeyShot Material} KeyShotScene {KeyShot Scene} Archive {Archive} other {{{value}}}}'
+      default_translation = '{value, select, Video {Video} Audio {Audio} Image {Image} PowerPoint {PowerPoint} Html {HTML} Text {Text} Word {Word} Excel {Excel} InDesign {InDesign} Zip {ZIP} META {META} PDF {PDF} Archive {Archive} Photoshop {Photoshop} Illustrator {Illustrator} Visio {Visio} Cad {CAD} Font {Font} AfterEffects {After Effects} PremierePro {Premiere Pro} KeyShotEnvironment {KeyShot Environment} KeyShotMaterial {KeyShot Material} KeyShotScene {KeyShot Scene} other {{{value}}}}'
     },
     {
       language_id = data.language.danish.id
-      default_translation = '{value, select, KeyShotEnvironment {KeyShot Miljø} KeyShotMaterial {KeyShot Materiale} KeyShotScene {KeyShot Scene} Archive {Arkiv} other {{{value}}}}'
+      default_translation = '{value, select, Video {Video} Audio {Audio} Image {Image} PowerPoint {PowerPoint} Html {HTML} Text {Text} Word {Word} Excel {Excel} InDesign {InDesign} Zip {ZIP} META {META} PDF {PDF} Archive {Arkiv} Photoshop {Photoshop} Illustrator {Illustrator} Visio {Visio} Cad {CAD} Font {Font} AfterEffects {After Effects} PremierePro {Premiere Pro} KeyShotEnvironment {KeyShot Miljø} KeyShotMaterial {KeyShot Materiale} KeyShotScene {KeyShot Scene} other {{{value}}}}'
     }
   ]
 }
