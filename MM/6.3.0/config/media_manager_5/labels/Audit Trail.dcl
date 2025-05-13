@@ -398,6 +398,22 @@ resource configservice_label audit_trail_column_asset_relation_type {
   ]
 }
 
+resource configservice_label audit_trail_column_asset_relation_view_asset {
+  key = 'AUDIT_TRAIL_COLUMN_ASSET_RELATION_VIEW_ASSET'
+  group = 'Audit Trail'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'View asset'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Vis asset'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label audit_trail_column_related_asset {
   key = 'AUDIT_TRAIL_COLUMN_RELATED_ASSET'
   group = 'Audit Trail'
