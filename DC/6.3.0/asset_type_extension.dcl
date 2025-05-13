@@ -3,6 +3,11 @@ resource asset_type_extension id_3ds {
     asset_type = 'Archive'
 }
 
+resource asset_type_extension id_3dxml {
+    extension = '3dxml'
+    asset_type = 'Cad'
+}
+
 resource asset_type_extension id_aac {
     extension = 'aac'
     asset_type = 'Audio'
@@ -23,9 +28,19 @@ resource asset_type_extension id_arw {
     asset_type = 'Image'
 }
 
+resource asset_type_extension id_asm {
+    extension = 'asm'
+    asset_type = 'Cad'
+}
+
 resource asset_type_extension id_avi {
     extension = 'avi'
     asset_type = 'Video'
+}
+
+resource asset_type_extension id_avif {
+    extension = 'avif'
+    asset_type = 'Image'
 }
 
 resource asset_type_extension id_bip {
@@ -36,6 +51,16 @@ resource asset_type_extension id_bip {
 resource asset_type_extension id_bmp {
     extension = 'bmp'
     asset_type = 'Image'
+}
+
+resource asset_type_extension id_catpart {
+    extension = 'catpart'
+    asset_type = 'Cad'
+}
+
+resource asset_type_extension id_cgr {
+    extension = 'cgr'
+    asset_type = 'Cad'
 }
 
 resource asset_type_extension id_cr2 {
@@ -148,6 +173,16 @@ resource asset_type_extension id_gif {
     asset_type = 'Image'
 }
 
+resource asset_type_extension id_glb {
+    extension = 'glb'
+    asset_type = 'Cad'
+}
+
+resource asset_type_extension id_gltf {
+    extension = 'gltf'
+    asset_type = 'Cad'
+}
+
 resource asset_type_extension id_hdr {
     extension = 'hdr'
     asset_type = 'Image'
@@ -173,8 +208,23 @@ resource asset_type_extension id_html {
     asset_type = 'Html'
 }
 
+resource asset_type_extension id_iam {
+    extension = 'iam'
+    asset_type = 'Cad'
+}
+
 resource asset_type_extension id_ifc {
     extension = 'ifc'
+    asset_type = 'Cad'
+}
+
+resource asset_type_extension id_iges {
+    extension = 'iges'
+    asset_type = 'Cad'
+}
+
+resource asset_type_extension id_igs {
+    extension = 'igs'
     asset_type = 'Cad'
 }
 
@@ -186,6 +236,11 @@ resource asset_type_extension id_ind {
 resource asset_type_extension id_indd {
     extension = 'indd'
     asset_type = 'InDesign'
+}
+
+resource asset_type_extension id_ipt {
+    extension = 'ipt'
+    asset_type = 'Cad'
 }
 
 resource asset_type_extension id_jp2 {
@@ -213,9 +268,19 @@ resource asset_type_extension id_jpx {
     asset_type = 'Image'
 }
 
+resource asset_type_extension id_jt {
+    extension = 'jt'
+    asset_type = 'Cad'
+}
+
 resource asset_type_extension id_klf {
     extension = 'klf'
     asset_type = 'KeyShotEnvironment'
+}
+
+resource asset_type_extension id_ksp {
+    extension = 'ksp'
+    asset_type = 'Cad'
 }
 
 resource asset_type_extension id_m2p {
@@ -270,7 +335,7 @@ resource asset_type_extension id_nef {
 
 resource asset_type_extension id_obj {
     extension = 'obj'
-    asset_type = 'Archive'
+    asset_type = 'Cad'
 }
 
 resource asset_type_extension id_odp {
@@ -311,6 +376,11 @@ resource asset_type_extension id_ots {
 resource asset_type_extension id_ott {
     extension = 'ott'
     asset_type = 'OTT'
+}
+
+resource asset_type_extension id_par {
+    extension = 'par'
+    asset_type = 'Cad'
 }
 
 resource asset_type_extension id_pdf {
@@ -383,6 +453,11 @@ resource asset_type_extension id_prproj {
     asset_type = 'PremierePro'
 }
 
+resource asset_type_extension id_prt {
+    extension = 'prt'
+    asset_type = 'Cad'
+}
+
 resource asset_type_extension id_ps {
     extension = 'ps'
     asset_type = 'Image'
@@ -408,6 +483,16 @@ resource asset_type_extension id_rm {
     asset_type = 'Video'
 }
 
+resource asset_type_extension id_rvt {
+    extension = 'rvt'
+    asset_type = 'Cad'
+}
+
+resource asset_type_extension id_sat {
+    extension = 'sat'
+    asset_type = 'Cad'
+}
+
 resource asset_type_extension id_sit {
     extension = 'sit'
     asset_type = 'Archive'
@@ -418,13 +503,33 @@ resource asset_type_extension id_sitx {
     asset_type = 'Archive'
 }
 
+resource asset_type_extension id_sldasm {
+    extension = 'sldasm'
+    asset_type = 'Cad'
+}
+
+resource asset_type_extension id_sldprt {
+    extension = 'sldprt'
+    asset_type = 'Cad'
+}
+
 resource asset_type_extension id_smil {
     extension = 'smil'
     asset_type = 'Video'
 }
 
+resource asset_type_extension id_step {
+    extension = 'step'
+    asset_type = 'Cad'
+}
+
 resource asset_type_extension id_stl {
     extension = 'stl'
+    asset_type = 'Cad'
+}
+
+resource asset_type_extension id_stp {
+    extension = 'stp'
     asset_type = 'Cad'
 }
 
@@ -451,6 +556,26 @@ resource asset_type_extension id_ttf {
 resource asset_type_extension id_txt {
     extension = 'txt'
     asset_type = 'Text'
+}
+
+resource asset_type_extension id_usd {
+    extension = 'usd'
+    asset_type = 'Cad'
+}
+
+resource asset_type_extension id_usda {
+    extension = 'usda'
+    asset_type = 'Cad'
+}
+
+resource asset_type_extension id_usdc {
+    extension = 'usdc'
+    asset_type = 'Cad'
+}
+
+resource asset_type_extension id_usdz {
+    extension = 'usdz'
+    asset_type = 'Cad'
 }
 
 resource asset_type_extension id_vsd {
@@ -543,6 +668,11 @@ resource asset_type_extension id_wpd {
     asset_type = 'Archive'
 }
 
+resource asset_type_extension id_x_t {
+    extension = 'x_t'
+    asset_type = 'Cad'
+}
+
 resource asset_type_extension id_xls {
     extension = 'xls'
     asset_type = 'Excel'
@@ -588,14 +718,5 @@ resource asset_type_extension id_zip {
     asset_type = 'Zip'
 }
 
-resource asset_type_extension id_avif {
-    extension = 'avif'
-    asset_type = 'Image'
-}
-
-resource asset_type_extension id_glb {
-    extension = 'glb'
-    asset_type = 'Cad'
-}
 
 
