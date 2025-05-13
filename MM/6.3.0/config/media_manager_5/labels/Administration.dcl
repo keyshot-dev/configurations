@@ -7487,11 +7487,11 @@ resource configservice_label administration_tools_system_metadata_edit_save_erro
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Changes not saved'
+      default_translation = 'Changes not saved. {{error}}'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Ændringerne blev ikke gemt'
+      default_translation = 'Ændringerne blev ikke gemt. {{error}}'
       language_id = data.language.danish.id
     }
   ]

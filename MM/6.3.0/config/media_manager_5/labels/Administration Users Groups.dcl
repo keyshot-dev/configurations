@@ -2010,11 +2010,11 @@ resource configservice_label administration_tools_users_and_groups_bulk_selected
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = '{{ count }} selected'
+      default_translation = '{{ selected }} of {{ total }} selected'
       language_id = data.language.english.id
     },
     {
-      default_translation = '{{ count }} valgt'
+      default_translation = '{{ selected }} af {{ total }} valgt'
       language_id = data.language.danish.id
     }
   ]
