@@ -2029,6 +2029,22 @@ resource configservice_label multi_metadata_editor_edit_copied_to_clipboard {
   ]
 }
 
+resource configservice_label multi_metadata_editor_no_metadata_title {
+  key = 'MULTI_METADATA_EDITOR_NO_METADATA_TITLE'
+  group = 'Metadata'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'No metadata available'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Ingen metadata tilgængelig'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label multi_metadata_editor_edit_toogle_tooltip {
   key = 'MULTI_METADATA_EDITOR_EDIT_TOOGLE_TOOLTIP'
   group = 'Metadata'
