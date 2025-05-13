@@ -1,6 +1,7 @@
 resource automation_workflow set_default_author {
     name = 'HUB: Set default author'
     description = ''
+    system = true
     content = 'trigger "Location State Changed" {
     type = "Location State Changed"
     resolves = "Set Author = Uploader"
