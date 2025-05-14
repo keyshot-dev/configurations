@@ -797,3 +797,35 @@ resource configservice_label focused_asset_crop_locked_to_crop_error_content {
     }
   ]
 }
+
+resource configservice_label focused_asset_set_annotation {
+  key = 'FOCUSED_ASSET_SET_ANNOTATION'
+  group = 'Focused Asset'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Set annotation'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Angiv annotation'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label focused_asset_add_annotation {
+  key = 'FOCUSED_ASSET_ADD_ANNOTATION'
+  group = 'Focused Asset'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Click on the model in the preview to add annotation'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Klik på modellen i forhåndsvisningen for at tilføje en annotation'
+      language_id = data.language.danish.id
+    }
+  ]
+}
