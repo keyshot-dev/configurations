@@ -824,7 +824,7 @@ resource configservice_label focused_asset_add_annotation {
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Klik på modellen i forhåndsvisningen for at tilføje en annotation'
+      default_translation = 'Klik på modellen for at tilføje en annotation'
       language_id = data.language.danish.id
     }
   ]
