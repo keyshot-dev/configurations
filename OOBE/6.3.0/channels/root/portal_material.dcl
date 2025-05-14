@@ -23,15 +23,3 @@ resource item_security portal_material__trusted {
     read = true
     write = false
 }
-
-data item_security portal_material__anonymous {
-    accessor_item_id = data.member_group.anonymous.item_id
-    item_id = data.channel_folder.portal_material.item_id
-    read = true
-    write = false
-}
-
-patch item_security portal_material__anonymous_patch {
-    target = data.item_security.portal_material__anonymous
-    system = true
-}

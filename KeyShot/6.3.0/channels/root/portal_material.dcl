@@ -22,3 +22,13 @@ patch item_security portal_material__trusted_patch {
     target = data.item_security.portal_material__trusted
     system = true
 }
+
+data item_security portal_material__anonymous {
+    accessor_item_id = data.member_group.anonymous.item_id
+    item_id = data.channel_folder.portal_material.item_id
+}
+
+patch item_security portal_material__anonymous_patch {
+    target = data.item_security.portal_material__anonymous
+    system = true
+}
