@@ -1012,11 +1012,11 @@ resource configservice_label selected_assets_overlay_change_assets_category_dial
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Changes were not saved'
+      default_translation = 'Changes were not saved. {{error}}'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Ændringer blev ikke gemt'
+      default_translation = 'Ændringer blev ikke gemt. {{error}}'
       language_id = data.language.danish.id
     }
   ]
