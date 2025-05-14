@@ -12,5 +12,6 @@ resource format audio_preview {
             key = 'CompressionLevel'
             value = '4'
         }]
+    system = true
 }
 

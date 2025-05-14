@@ -3,6 +3,7 @@ resource mail_template basestyling {
     language_id = resource.language.english.id
     template_name = 'base-styling'
     subject = 'base-styling'
+    system = true
     body = '<style type="text/css" rel="stylesheet" media="all">
     /* Base ------------------------------ */
     *:not(br):not(tr):not(html):not(head) {

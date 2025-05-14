@@ -3,6 +3,7 @@ resource mail_template assetsharedbyemail {
     language_id = resource.language.english.id
     template_name = 'asset-shared-by-email'
     subject = "{{sender.name}} has invited you to download a shared asset"
+    system = true
     body = '{{include \'html-header-start\'}}
 
 <title>Download a shared asset</title>

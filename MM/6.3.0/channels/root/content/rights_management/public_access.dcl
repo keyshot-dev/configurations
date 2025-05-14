@@ -4,6 +4,7 @@ resource channel_folder public_access {
     autolink = {
         item_guid = '593bbfff-78f6-46d6-b49c-c4dfb7f1cbda'
     }
+    system = true
 }
 
 resource item_security public_access__anonymous {
@@ -11,6 +12,7 @@ resource item_security public_access__anonymous {
     item_id = resource.channel_folder.public_access.item_id
     read = true
     write = false
+    system = true
 }
 
 resource item_security public_access__internal_access {
@@ -18,6 +20,7 @@ resource item_security public_access__internal_access {
     item_id = resource.channel_folder.public_access.item_id
     read = true
     write = false
+    system = true
 }
 
 resource item_security public_access__public_access {
@@ -25,5 +28,6 @@ resource item_security public_access__public_access {
     item_id = resource.channel_folder.public_access.item_id
     read = true
     write = false
+    system = true
 }
 

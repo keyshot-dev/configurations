@@ -7,6 +7,7 @@ resource member superadministrator {
     lastname = '(user profile)'
     enabled = true
     ad_username = ''
+    system = true
     groups = [{
             member_group_id = resource.member_group.super_administrator.member_group_id
         }, {

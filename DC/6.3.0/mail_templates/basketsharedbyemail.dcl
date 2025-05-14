@@ -3,6 +3,7 @@ resource mail_template basketsharedbyemail {
     language_id = resource.language.english.id
     template_name = 'basket-shared-by-email'
     subject = "{{sender.name}} has invited you to join a shared collection"
+    system = true
     body = '{{include \'html-header-start\'}}
 
 <title>Join a shared collection</title>

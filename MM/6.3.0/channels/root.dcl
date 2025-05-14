@@ -3,6 +3,7 @@ resource channel_folder root {
     autolink = {
         item_guid = 'd50861ca-78bd-4c83-8769-710597648a2a'
     }
+    system = true
 }
 
 resource item_security root__anonymous {
@@ -10,6 +11,7 @@ resource item_security root__anonymous {
     item_id = resource.channel_folder.root.item_id
     read = true
     write = false
+    system = true
 }
 
 resource item_security root__super_administrator {
@@ -17,6 +19,7 @@ resource item_security root__super_administrator {
     item_id = resource.channel_folder.root.item_id
     read = true
     write = true
+    system = true
 }
 
 resource item_security root__trusted {
@@ -24,5 +27,6 @@ resource item_security root__trusted {
     item_id = resource.channel_folder.root.item_id
     read = true
     write = true
+    system = true
 }
 

@@ -3,6 +3,7 @@ resource member_group content_creator {
     folder_id = resource.member_group_folder.user_type.id
     approved = true
     parents = []
+    system = true
     roles = [{
             constant = 'MediaPortal_User'
         }, {

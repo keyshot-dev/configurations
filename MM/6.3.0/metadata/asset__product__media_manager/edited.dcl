@@ -21,6 +21,7 @@ resource item_security edited__anonymous {
     item_id = resource.datetime_metafield.edited.item_id
     read = true
     write = false
+    system = true
 }
 
 resource item_security edited__trusted {
@@ -28,6 +29,7 @@ resource item_security edited__trusted {
     item_id = resource.datetime_metafield.edited.item_id
     read = true
     write = true
+    system = true
 }
 
 resource metafield_label edited {

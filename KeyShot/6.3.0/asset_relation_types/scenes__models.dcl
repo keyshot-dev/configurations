@@ -2,6 +2,7 @@ resource asset_relation_type scenes__models {
     name = 'Scenes-Models'
     guid = '7b8e7dd1-c501-426f-ac4f-278746ca320f'
     description = ''
+    is_locked = true
     multiplicity = 'ManyToMany'
 	show_in_list_when_primary = true
 	show_in_list_when_secondary = true

@@ -2,6 +2,7 @@ resource asset_relation_type models__textures {
     name = 'Models-Textures'
     guid = 'e7a86097-3da1-4c58-97c5-c88f1c4a4fb9'
     description = ''
+    is_locked = true
     multiplicity = 'ManyToMany'
 	show_in_list_when_primary = true
 	show_in_list_when_secondary = true

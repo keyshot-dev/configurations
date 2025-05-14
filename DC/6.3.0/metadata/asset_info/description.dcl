@@ -3,6 +3,7 @@ resource item_security description__trusted {
     item_id = resource.note_metafield.description.item_id
     read = true
     write = true
+    system = true
 }
 
 resource metafield_label description {
@@ -19,6 +20,7 @@ resource note_metafield description {
     show_in_list = true
     auto_translate = 'None'
     restrict_to_asset_type = 'All'
+    system = true
     restrict_to_asset_categories = [{
             asset_category_id = resource.asset_category.root.id
         }]

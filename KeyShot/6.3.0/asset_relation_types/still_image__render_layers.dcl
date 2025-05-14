@@ -2,6 +2,7 @@ resource asset_relation_type still_image__render_layers {
     name = 'Still Image-Render Layers'
     guid = '93a924f7-aa90-4164-a710-f37018cc086a'
     description = ''
+    is_locked = true
     multiplicity = 'OneToMany'
 	show_in_list_when_primary = true
 	show_in_list_when_secondary = true

@@ -5,6 +5,7 @@ resource combovalue_metafield options_status {
     auto_translate = 'Overwrite'
     show_in_list = true
     view_type = 'Radio'
+    system = true
     restrict_to_asset_categories = [{
             asset_category_id = data.asset_category.root.id
         }]

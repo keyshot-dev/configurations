@@ -3,6 +3,7 @@ resource item_security asset__product__media_manager__anonymous {
     item_id = resource.metafield_group.asset__product__media_manager.item_id
     read = true
     write = false
+    system = true
 }
 
 resource item_security asset__product__media_manager__trusted {
@@ -10,6 +11,7 @@ resource item_security asset__product__media_manager__trusted {
     item_id = resource.metafield_group.asset__product__media_manager.item_id
     read = true
     write = true
+    system = true
 }
 
 resource metafield_group_label asset__product__media_manager {
@@ -21,6 +23,7 @@ resource metafield_group_label asset__product__media_manager {
 resource metafield_group asset__product__media_manager {
     name = 'Media Manager'
     show_in_list = false
+    system = true
     restrict_to_asset_categories = [{
             asset_category_id = data.asset_category.root.id
         }]

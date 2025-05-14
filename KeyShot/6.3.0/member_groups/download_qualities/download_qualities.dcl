@@ -9,4 +9,5 @@ patch member_group id_35 {
     download_qualities = [{
             media_format_id = -1
         }]
+    system = true
 }

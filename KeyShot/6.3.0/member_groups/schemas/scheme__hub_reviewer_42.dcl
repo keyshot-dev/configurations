@@ -3,6 +3,7 @@ resource member_group scheme__hub_reviewer_42 {
     folder_id = data.member_group_folder.schemas.id
     sort_index = 0
     approved = true
+    system = true
     ad_group_name = 'reviewer'
     parents = [{
             member_group_id = data.member_group.scheme_light_user.member_group_id

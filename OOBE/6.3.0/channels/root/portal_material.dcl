@@ -23,4 +23,3 @@ resource item_security portal_material__trusted {
     read = true
     write = false
 }
-

@@ -2,6 +2,7 @@ resource asset_relation_type scenes__textures {
     name = 'Scenes-Textures'
     guid = '1bc81b90-47ea-4f0f-ad40-96a93e3b2c1b'
     description = ''
+    is_locked = true
     multiplicity = 'ManyToMany'
 	show_in_list_when_primary = true
 	show_in_list_when_secondary = true

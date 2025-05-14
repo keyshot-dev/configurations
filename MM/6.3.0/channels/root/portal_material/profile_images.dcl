@@ -4,6 +4,7 @@ resource channel_folder profile_images {
     autolink = {
         item_guid = 'a12f49ad-169d-427b-a17d-c2e385e730d4'
     }
+    system = true
 }
 
 resource item_security profile_images__anonymous {
@@ -11,5 +12,6 @@ resource item_security profile_images__anonymous {
     item_id = resource.channel_folder.profile_images.item_id
     read = true
     write = false
+    system = true
 }
 

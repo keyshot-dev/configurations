@@ -3,6 +3,7 @@ resource item_security video__anonymous {
     item_id = resource.metafield_group.video.item_id
     read = true
     write = false
+    system = true
 }
 
 resource item_security video__trusted {
@@ -10,6 +11,7 @@ resource item_security video__trusted {
     item_id = resource.metafield_group.video.item_id
     read = true
     write = true
+    system = true
 }
 
 resource metafield_group_label video {
@@ -23,6 +25,7 @@ resource metafield_group video {
     show_in_list = false
     sort_index = 50034
     restrict_to_asset = 'Video'
+    system = true
     restrict_to_asset_categories = [{
             asset_category_id = resource.asset_category.root.id
         }]
