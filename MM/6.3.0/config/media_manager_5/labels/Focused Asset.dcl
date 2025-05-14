@@ -820,7 +820,7 @@ resource configservice_label focused_asset_add_annotation {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Click on the model in the preview to add annotation'
+      default_translation = 'Click on the model to add annotation'
       language_id = data.language.english.id
     },
     {
