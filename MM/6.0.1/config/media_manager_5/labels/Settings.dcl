@@ -3407,6 +3407,22 @@ resource configservice_label asset_card_settings_filter_action_delete_permanentl
   ]
 }
 
+resource configservice_label asset_card_settings_filter_action_change_category {
+  key = 'ASSET_CARD_SETTINGS_FILTER_ACTION_CHANGE_CATEGORY'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Change category'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Skift kategori'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label asset_card_settings_input_search_placeholder {
   key = 'ASSET_CARD_SETTINGS_INPUT_SEARCH_PLACEHOLDER'
   group = 'Settings'
