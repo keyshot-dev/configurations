@@ -3087,6 +3087,22 @@ resource configservice_label asset_card_settings_property_public {
   ]
 }
 
+resource configservice_label asset_card_settings_filter_action_change_category {
+  key = 'ASSET_CARD_SETTINGS_FILTER_ACTION_CHANGE_CATEGORY'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Change category'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Skift kategori'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label asset_card_settings_filter_action_favorite {
   key = 'ASSET_CARD_SETTINGS_FILTER_ACTION_FAVORITE'
   group = 'Settings'
