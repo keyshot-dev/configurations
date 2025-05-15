@@ -5,4 +5,5 @@ resource multi_file_upload_preset id_360_spin {
         }]
     use_meta_asset_as_primary = true
     portal_id = 0
+    system = true
 }
