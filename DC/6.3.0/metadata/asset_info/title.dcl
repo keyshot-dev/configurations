@@ -3,6 +3,7 @@ resource item_security title__trusted {
     item_id = resource.string_metafield.title.item_id
     read = true
     write = true
+    system = true
 }
 
 resource metafield_label title {
@@ -19,6 +20,7 @@ resource string_metafield title {
     show_in_list = true
     auto_translate = 'CreateIfMissing'
     restrict_to_asset_type = 'All'
+    system = true
     restrict_to_asset_categories = [{
             asset_category_id = resource.asset_category.root.id
         }]

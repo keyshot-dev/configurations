@@ -5,4 +5,5 @@ data automation_workflow oobe_handle_expired_assets {
 patch automation_workflow id_7 {
     target = data.automation_workflow.oobe_handle_expired_assets
     is_disabled = true
+    system = true
 }

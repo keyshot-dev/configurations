@@ -2,6 +2,7 @@ resource asset_relation_type scenes__geometry {
     name = 'Scenes-Geometry'
     guid = '85e4c18b-075a-4ca5-88d5-f2ad83cf6e0b'
     description = ''
+    is_locked = true
     multiplicity = 'ManyToOne'
 	show_in_list_when_primary = true
 	show_in_list_when_secondary = true

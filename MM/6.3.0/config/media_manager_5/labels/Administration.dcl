@@ -9569,11 +9569,11 @@ resource configservice_label administration_tools_system_asset_categories_save_e
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Category not saved'
+      default_translation = 'Category not saved. {{error}}'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Kategorien blev ikke gemt'
+      default_translation = 'Kategorien blev ikke gemt. {{error}}'
       language_id = data.language.danish.id
     }
   ]

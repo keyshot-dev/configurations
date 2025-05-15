@@ -2,6 +2,7 @@ resource asset_relation_type scene__render_outputs {
     name = 'Scene-Render Outputs'
     guid = '238feddf-d6c2-4956-bca2-aa7bf5eb7b6b'
     description = ''
+    is_locked = true
     multiplicity = 'OneToMany'
 	show_in_list_when_primary = true
 	show_in_list_when_secondary = true

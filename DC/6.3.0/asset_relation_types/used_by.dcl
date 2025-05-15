@@ -5,6 +5,7 @@ resource asset_relation_type used_by {
     multiplicity = 'ManyToMany'
 	show_in_list_when_primary = true
 	show_in_list_when_secondary = true
+	is_locked = true
     deletion_behavior = {
         enable_behavior = false
     }

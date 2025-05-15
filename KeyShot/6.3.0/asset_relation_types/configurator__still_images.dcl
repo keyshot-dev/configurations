@@ -2,6 +2,7 @@ resource asset_relation_type configurator__still_images {
     name = 'Configurator-Still Images'
     guid = '3d76b51b-c8a1-4ec5-a567-fcebd063c0cc'
     description = ''
+    is_locked = true
     multiplicity = 'OneToMany'
 	show_in_list_when_primary = true
 	show_in_list_when_secondary = true

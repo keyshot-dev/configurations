@@ -1530,11 +1530,11 @@ resource configservice_label administration_tools_users_and_groups_save_group_er
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Group not saved'
+      default_translation = 'Group not saved. {{error}}'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Gruppen blev ikke gemt'
+      default_translation = 'Gruppen blev ikke gemt. {{error}}'
       language_id = data.language.danish.id
     }
   ]

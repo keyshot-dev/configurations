@@ -5,7 +5,7 @@ resource editcombovalue_metafield image_style_50415 {
     required = false
     readonly = false
     show_in_list = true
-    system = false
+    system = true
     auto_translate = 'Overwrite'
     restrict_to_asset_type = 'All'
     upload_tag_name = ''
@@ -23,6 +23,7 @@ resource item_security editcombovalue_metafield_image_style_50415__editor_access
     item_id = resource.editcombovalue_metafield.image_style_50415.item_id
     read = true
     write = true
+    system = true
 }
 
 resource item_security editcombovalue_metafield_image_style_50415__metadata_editor_33 {
@@ -30,6 +31,7 @@ resource item_security editcombovalue_metafield_image_style_50415__metadata_edit
     item_id = resource.editcombovalue_metafield.image_style_50415.item_id
     read = true
     write = true
+    system = true
 }
 
 resource item_security editcombovalue_metafield_image_style_50415__metadata_viewer_34 {
@@ -37,6 +39,7 @@ resource item_security editcombovalue_metafield_image_style_50415__metadata_view
     item_id = resource.editcombovalue_metafield.image_style_50415.item_id
     read = true
     write = false
+    system = true
 }
 
 resource item_security editcombovalue_metafield_image_style_50415__sa_full_access_35 {
@@ -44,6 +47,7 @@ resource item_security editcombovalue_metafield_image_style_50415__sa_full_acces
     item_id = resource.editcombovalue_metafield.image_style_50415.item_id
     read = true
     write = true
+    system = true
 }
 
 resource item_security editcombovalue_metafield_image_style_50415__superadministrator {
@@ -51,6 +55,7 @@ resource item_security editcombovalue_metafield_image_style_50415__superadminist
     item_id = resource.editcombovalue_metafield.image_style_50415.item_id
     read = true
     write = true
+    system = true
 }
 
 resource metafield_label image_style_51487 {

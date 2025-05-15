@@ -218,216 +218,252 @@ resource combo_value material_type_advanced_50403 {
     metafield_id = resource.combovalue_metafield.material_type_50403.metafield_id
     option_value = 'Advanced'
     sort_index = 0
+    system = true
 }
 
 resource combo_value material_type_anisotropic_50403 {
     metafield_id = resource.combovalue_metafield.material_type_50403.metafield_id
     option_value = 'Anisotropic'
     sort_index = 0
+    system = true
 }
 
 resource combo_value material_type_area_light_50403 {
     metafield_id = resource.combovalue_metafield.material_type_50403.metafield_id
     option_value = 'Area Light'
     sort_index = 0
+    system = true
 }
 
 resource combo_value material_type_axalta_paint_50403 {
     metafield_id = resource.combovalue_metafield.material_type_50403.metafield_id
     option_value = 'Axalta Paint'
     sort_index = 0
+    system = true
 }
 
 resource combo_value material_type_cutaway_50403 {
     metafield_id = resource.combovalue_metafield.material_type_50403.metafield_id
     option_value = 'Cutaway'
     sort_index = 0
+    system = true
 }
 
 resource combo_value material_type_dielectric_50403 {
     metafield_id = resource.combovalue_metafield.material_type_50403.metafield_id
     option_value = 'Dielectric'
     sort_index = 0
+    system = true
 }
 
 resource combo_value material_type_diffuse_50403 {
     metafield_id = resource.combovalue_metafield.material_type_50403.metafield_id
     option_value = 'Diffuse'
     sort_index = 0
+    system = true
 }
 
 resource combo_value material_type_emissive_50403 {
     metafield_id = resource.combovalue_metafield.material_type_50403.metafield_id
     option_value = 'Emissive'
     sort_index = 0
+    system = true
 }
 
 resource combo_value material_type_flat_50403 {
     metafield_id = resource.combovalue_metafield.material_type_50403.metafield_id
     option_value = 'Flat'
     sort_index = 0
+    system = true
 }
 
 resource combo_value material_type_gem_50403 {
     metafield_id = resource.combovalue_metafield.material_type_50403.metafield_id
     option_value = 'Gem'
     sort_index = 0
+    system = true
 }
 
 resource combo_value material_type_generic_50403 {
     metafield_id = resource.combovalue_metafield.material_type_50403.metafield_id
     option_value = 'Generic'
     sort_index = 0
+    system = true
 }
 
 resource combo_value material_type_glass_50403 {
     metafield_id = resource.combovalue_metafield.material_type_50403.metafield_id
     option_value = 'Glass'
     sort_index = 0
+    system = true
 }
 
 resource combo_value material_type_glass_solid_50403 {
     metafield_id = resource.combovalue_metafield.material_type_50403.metafield_id
     option_value = 'Glass (Solid)'
     sort_index = 0
+    system = true
 }
 
 resource combo_value material_type_ground_50403 {
     metafield_id = resource.combovalue_metafield.material_type_50403.metafield_id
     option_value = 'Ground'
     sort_index = 0
+    system = true
 }
 
 resource combo_value material_type_ies_light_50403 {
     metafield_id = resource.combovalue_metafield.material_type_50403.metafield_id
     option_value = 'IES Light'
     sort_index = 0
+    system = true
 }
 
 resource combo_value material_type_liquid_50403 {
     metafield_id = resource.combovalue_metafield.material_type_50403.metafield_id
     option_value = 'Liquid'
     sort_index = 0
+    system = true
 }
 
 resource combo_value material_type_measured_50403 {
     metafield_id = resource.combovalue_metafield.material_type_50403.metafield_id
     option_value = 'Measured'
     sort_index = 0
+    system = true
 }
 
 resource combo_value material_type_metal_50403 {
     metafield_id = resource.combovalue_metafield.material_type_50403.metafield_id
     option_value = 'Metal'
     sort_index = 0
+    system = true
 }
 
 resource combo_value material_type_metallic_paint_50403 {
     metafield_id = resource.combovalue_metafield.material_type_50403.metafield_id
     option_value = 'Metallic Paint'
     sort_index = 0
+    system = true
 }
 
 resource combo_value material_type_moldtech_plastic_50403 {
     metafield_id = resource.combovalue_metafield.material_type_50403.metafield_id
     option_value = 'Mold-Tech Plastic'
     sort_index = 0
+    system = true
 }
 
 resource combo_value material_type_multilayer_optics_50403 {
     metafield_id = resource.combovalue_metafield.material_type_50403.metafield_id
     option_value = 'Multi-Layer Optics'
     sort_index = 0
+    system = true
 }
 
 resource combo_value material_type_paint_50403 {
     metafield_id = resource.combovalue_metafield.material_type_50403.metafield_id
     option_value = 'Paint'
     sort_index = 0
+    system = true
 }
 
 resource combo_value material_type_plastic_50403 {
     metafield_id = resource.combovalue_metafield.material_type_50403.metafield_id
     option_value = 'Plastic'
     sort_index = 0
+    system = true
 }
 
 resource combo_value material_type_plastic_cloudy_50403 {
     metafield_id = resource.combovalue_metafield.material_type_50403.metafield_id
     option_value = 'Plastic (Cloudy)'
     sort_index = 0
+    system = true
 }
 
 resource combo_value material_type_plastic_transparent_50403 {
     metafield_id = resource.combovalue_metafield.material_type_50403.metafield_id
     option_value = 'Plastic (Transparent)'
     sort_index = 0
+    system = true
 }
 
 resource combo_value material_type_point_light_50403 {
     metafield_id = resource.combovalue_metafield.material_type_50403.metafield_id
     option_value = 'Point Light'
     sort_index = 0
+    system = true
 }
 
 resource combo_value material_type_realcloth_50403 {
     metafield_id = resource.combovalue_metafield.material_type_50403.metafield_id
     option_value = 'RealCloth'
     sort_index = 0
+    system = true
 }
 
 resource combo_value material_type_scattering_medium_50403 {
     metafield_id = resource.combovalue_metafield.material_type_50403.metafield_id
     option_value = 'Scattering Medium'
     sort_index = 0
+    system = true
 }
 
 resource combo_value material_type_spotlight_50403 {
     metafield_id = resource.combovalue_metafield.material_type_50403.metafield_id
     option_value = 'Spotlight'
     sort_index = 0
+    system = true
 }
 
 resource combo_value material_type_thin_film_50403 {
     metafield_id = resource.combovalue_metafield.material_type_50403.metafield_id
     option_value = 'Thin Film'
     sort_index = 0
+    system = true
 }
 
 resource combo_value material_type_toon_50403 {
     metafield_id = resource.combovalue_metafield.material_type_50403.metafield_id
     option_value = 'Toon'
     sort_index = 0
+    system = true
 }
 
 resource combo_value material_type_translucent_50403 {
     metafield_id = resource.combovalue_metafield.material_type_50403.metafield_id
     option_value = 'Translucent'
     sort_index = 0
+    system = true
 }
 
 resource combo_value material_type_translucent_medium_50403 {
     metafield_id = resource.combovalue_metafield.material_type_50403.metafield_id
     option_value = 'Translucent Medium'
     sort_index = 0
+    system = true
 }
 
 resource combo_value material_type_velvet_50403 {
     metafield_id = resource.combovalue_metafield.material_type_50403.metafield_id
     option_value = 'Velvet'
     sort_index = 0
+    system = true
 }
 
 resource combo_value material_type_wireframe_50403 {
     metafield_id = resource.combovalue_metafield.material_type_50403.metafield_id
     option_value = 'Wireframe'
     sort_index = 0
+    system = true
 }
 
 resource combo_value material_type_xray_50403 {
     metafield_id = resource.combovalue_metafield.material_type_50403.metafield_id
     option_value = 'Xray'
     sort_index = 0
+    system = true
 }
 
 resource combovalue_metafield material_type_50403 {
@@ -438,7 +474,7 @@ resource combovalue_metafield material_type_50403 {
     required = false
     readonly = false
     show_in_list = true
-    system = false
+    system = true
     auto_translate = 'Overwrite'
     restrict_to_asset_type = 'All'
     upload_tag_name = ''
@@ -456,6 +492,7 @@ resource item_security combo_value_material_type_advanced_50403__editor_access_3
     item_id = resource.combo_value.material_type_advanced_50403.item_id
     read = true
     write = true
+    system = true
 }
 
 resource item_security combo_value_material_type_advanced_50403__metadata_editor_36 {
@@ -463,6 +500,7 @@ resource item_security combo_value_material_type_advanced_50403__metadata_editor
     item_id = resource.combo_value.material_type_advanced_50403.item_id
     read = true
     write = true
+    system = true
 }
 
 resource item_security combo_value_material_type_advanced_50403__metadata_viewer_35 {
@@ -470,6 +508,7 @@ resource item_security combo_value_material_type_advanced_50403__metadata_viewer
     item_id = resource.combo_value.material_type_advanced_50403.item_id
     read = true
     write = false
+    system = true
 }
 
 resource item_security combo_value_material_type_advanced_50403__sa_full_access_37 {
@@ -477,6 +516,7 @@ resource item_security combo_value_material_type_advanced_50403__sa_full_access_
     item_id = resource.combo_value.material_type_advanced_50403.item_id
     read = true
     write = true
+    system = true
 }
 
 resource item_security combo_value_material_type_advanced_50403__superadministrator {
@@ -484,6 +524,7 @@ resource item_security combo_value_material_type_advanced_50403__superadministra
     item_id = resource.combo_value.material_type_advanced_50403.item_id
     read = true
     write = true
+    system = true
 }
 
 resource item_security combo_value_material_type_anisotropic_50403__editor_access_32 {
@@ -491,6 +532,7 @@ resource item_security combo_value_material_type_anisotropic_50403__editor_acces
     item_id = resource.combo_value.material_type_anisotropic_50403.item_id
     read = true
     write = true
+    system = true
 }
 
 resource item_security combo_value_material_type_anisotropic_50403__metadata_editor_36 {
@@ -498,6 +540,7 @@ resource item_security combo_value_material_type_anisotropic_50403__metadata_edi
     item_id = resource.combo_value.material_type_anisotropic_50403.item_id
     read = true
     write = true
+    system = true
 }
 
 resource item_security combo_value_material_type_anisotropic_50403__metadata_viewer_35 {
@@ -505,6 +548,7 @@ resource item_security combo_value_material_type_anisotropic_50403__metadata_vie
     item_id = resource.combo_value.material_type_anisotropic_50403.item_id
     read = true
     write = false
+    system = true
 }
 
 resource item_security combo_value_material_type_anisotropic_50403__sa_full_access_37 {
@@ -512,6 +556,7 @@ resource item_security combo_value_material_type_anisotropic_50403__sa_full_acce
     item_id = resource.combo_value.material_type_anisotropic_50403.item_id
     read = true
     write = true
+    system = true
 }
 
 resource item_security combo_value_material_type_anisotropic_50403__superadministrator {
@@ -519,6 +564,7 @@ resource item_security combo_value_material_type_anisotropic_50403__superadminis
     item_id = resource.combo_value.material_type_anisotropic_50403.item_id
     read = true
     write = true
+    system = true
 }
 
 resource item_security combo_value_material_type_area_light_50403__editor_access_32 {
@@ -526,6 +572,7 @@ resource item_security combo_value_material_type_area_light_50403__editor_access
     item_id = resource.combo_value.material_type_area_light_50403.item_id
     read = true
     write = true
+    system = true
 }
 
 resource item_security combo_value_material_type_area_light_50403__metadata_editor_36 {
@@ -533,6 +580,7 @@ resource item_security combo_value_material_type_area_light_50403__metadata_edit
     item_id = resource.combo_value.material_type_area_light_50403.item_id
     read = true
     write = true
+    system = true
 }
 
 resource item_security combo_value_material_type_area_light_50403__metadata_viewer_35 {
@@ -540,6 +588,7 @@ resource item_security combo_value_material_type_area_light_50403__metadata_view
     item_id = resource.combo_value.material_type_area_light_50403.item_id
     read = true
     write = false
+    system = true
 }
 
 resource item_security combo_value_material_type_area_light_50403__sa_full_access_37 {
@@ -547,6 +596,7 @@ resource item_security combo_value_material_type_area_light_50403__sa_full_acces
     item_id = resource.combo_value.material_type_area_light_50403.item_id
     read = true
     write = true
+    system = true
 }
 
 resource item_security combo_value_material_type_area_light_50403__superadministrator {
@@ -554,6 +604,7 @@ resource item_security combo_value_material_type_area_light_50403__superadminist
     item_id = resource.combo_value.material_type_area_light_50403.item_id
     read = true
     write = true
+    system = true
 }
 
 resource item_security combo_value_material_type_axalta_paint_50403__editor_access_32 {
@@ -561,6 +612,7 @@ resource item_security combo_value_material_type_axalta_paint_50403__editor_acce
     item_id = resource.combo_value.material_type_axalta_paint_50403.item_id
     read = true
     write = true
+    system = true
 }
 
 resource item_security combo_value_material_type_axalta_paint_50403__metadata_editor_36 {
@@ -568,6 +620,7 @@ resource item_security combo_value_material_type_axalta_paint_50403__metadata_ed
     item_id = resource.combo_value.material_type_axalta_paint_50403.item_id
     read = true
     write = true
+    system = true
 }
 
 resource item_security combo_value_material_type_axalta_paint_50403__metadata_viewer_35 {
@@ -575,6 +628,7 @@ resource item_security combo_value_material_type_axalta_paint_50403__metadata_vi
     item_id = resource.combo_value.material_type_axalta_paint_50403.item_id
     read = true
     write = false
+    system = true
 }
 
 resource item_security combo_value_material_type_axalta_paint_50403__sa_full_access_37 {
@@ -582,6 +636,7 @@ resource item_security combo_value_material_type_axalta_paint_50403__sa_full_acc
     item_id = resource.combo_value.material_type_axalta_paint_50403.item_id
     read = true
     write = true
+    system = true
 }
 
 resource item_security combo_value_material_type_axalta_paint_50403__superadministrator {
@@ -589,6 +644,7 @@ resource item_security combo_value_material_type_axalta_paint_50403__superadmini
     item_id = resource.combo_value.material_type_axalta_paint_50403.item_id
     read = true
     write = true
+    system = true
 }
 
 resource item_security combo_value_material_type_cutaway_50403__editor_access_32 {
@@ -596,6 +652,7 @@ resource item_security combo_value_material_type_cutaway_50403__editor_access_32
     item_id = resource.combo_value.material_type_cutaway_50403.item_id
     read = true
     write = true
+    system = true
 }
 
 resource item_security combo_value_material_type_cutaway_50403__metadata_editor_36 {
@@ -603,6 +660,7 @@ resource item_security combo_value_material_type_cutaway_50403__metadata_editor_
     item_id = resource.combo_value.material_type_cutaway_50403.item_id
     read = true
     write = true
+    system = true
 }
 
 resource item_security combo_value_material_type_cutaway_50403__metadata_viewer_35 {
@@ -610,6 +668,7 @@ resource item_security combo_value_material_type_cutaway_50403__metadata_viewer_
     item_id = resource.combo_value.material_type_cutaway_50403.item_id
     read = true
     write = false
+    system = true
 }
 
 resource item_security combo_value_material_type_cutaway_50403__sa_full_access_37 {
@@ -617,6 +676,7 @@ resource item_security combo_value_material_type_cutaway_50403__sa_full_access_3
     item_id = resource.combo_value.material_type_cutaway_50403.item_id
     read = true
     write = true
+    system = true
 }
 
 resource item_security combo_value_material_type_cutaway_50403__superadministrator {
@@ -624,6 +684,7 @@ resource item_security combo_value_material_type_cutaway_50403__superadministrat
     item_id = resource.combo_value.material_type_cutaway_50403.item_id
     read = true
     write = true
+    system = true
 }
 
 resource item_security combo_value_material_type_dielectric_50403__editor_access_32 {
@@ -631,6 +692,7 @@ resource item_security combo_value_material_type_dielectric_50403__editor_access
     item_id = resource.combo_value.material_type_dielectric_50403.item_id
     read = true
     write = true
+    system = true
 }
 
 resource item_security combo_value_material_type_dielectric_50403__metadata_editor_36 {
@@ -638,6 +700,7 @@ resource item_security combo_value_material_type_dielectric_50403__metadata_edit
     item_id = resource.combo_value.material_type_dielectric_50403.item_id
     read = true
     write = true
+    system = true
 }
 
 resource item_security combo_value_material_type_dielectric_50403__metadata_viewer_35 {
@@ -645,6 +708,7 @@ resource item_security combo_value_material_type_dielectric_50403__metadata_view
     item_id = resource.combo_value.material_type_dielectric_50403.item_id
     read = true
     write = false
+    system = true
 }
 
 resource item_security combo_value_material_type_dielectric_50403__sa_full_access_37 {
@@ -652,6 +716,7 @@ resource item_security combo_value_material_type_dielectric_50403__sa_full_acces
     item_id = resource.combo_value.material_type_dielectric_50403.item_id
     read = true
     write = true
+    system = true
 }
 
 resource item_security combo_value_material_type_dielectric_50403__superadministrator {
@@ -659,6 +724,7 @@ resource item_security combo_value_material_type_dielectric_50403__superadminist
     item_id = resource.combo_value.material_type_dielectric_50403.item_id
     read = true
     write = true
+    system = true
 }
 
 resource item_security combo_value_material_type_diffuse_50403__editor_access_32 {
@@ -666,6 +732,7 @@ resource item_security combo_value_material_type_diffuse_50403__editor_access_32
     item_id = resource.combo_value.material_type_diffuse_50403.item_id
     read = true
     write = true
+    system = true
 }
 
 resource item_security combo_value_material_type_diffuse_50403__metadata_editor_36 {
@@ -673,6 +740,7 @@ resource item_security combo_value_material_type_diffuse_50403__metadata_editor_
     item_id = resource.combo_value.material_type_diffuse_50403.item_id
     read = true
     write = true
+    system = true
 }
 
 resource item_security combo_value_material_type_diffuse_50403__metadata_viewer_35 {
@@ -680,6 +748,7 @@ resource item_security combo_value_material_type_diffuse_50403__metadata_viewer_
     item_id = resource.combo_value.material_type_diffuse_50403.item_id
     read = true
     write = false
+    system = true
 }
 
 resource item_security combo_value_material_type_diffuse_50403__sa_full_access_37 {
@@ -687,6 +756,7 @@ resource item_security combo_value_material_type_diffuse_50403__sa_full_access_3
     item_id = resource.combo_value.material_type_diffuse_50403.item_id
     read = true
     write = true
+    system = true
 }
 
 resource item_security combo_value_material_type_diffuse_50403__superadministrator {
@@ -694,6 +764,7 @@ resource item_security combo_value_material_type_diffuse_50403__superadministrat
     item_id = resource.combo_value.material_type_diffuse_50403.item_id
     read = true
     write = true
+    system = true
 }
 
 resource item_security combo_value_material_type_emissive_50403__editor_access_32 {
@@ -701,6 +772,7 @@ resource item_security combo_value_material_type_emissive_50403__editor_access_3
     item_id = resource.combo_value.material_type_emissive_50403.item_id
     read = true
     write = true
+    system = true
 }
 
 resource item_security combo_value_material_type_emissive_50403__metadata_editor_36 {
@@ -708,6 +780,7 @@ resource item_security combo_value_material_type_emissive_50403__metadata_editor
     item_id = resource.combo_value.material_type_emissive_50403.item_id
     read = true
     write = true
+    system = true
 }
 
 resource item_security combo_value_material_type_emissive_50403__metadata_viewer_35 {
@@ -715,6 +788,7 @@ resource item_security combo_value_material_type_emissive_50403__metadata_viewer
     item_id = resource.combo_value.material_type_emissive_50403.item_id
     read = true
     write = false
+    system = true
 }
 
 resource item_security combo_value_material_type_emissive_50403__sa_full_access_37 {
@@ -722,6 +796,7 @@ resource item_security combo_value_material_type_emissive_50403__sa_full_access_
     item_id = resource.combo_value.material_type_emissive_50403.item_id
     read = true
     write = true
+    system = true
 }
 
 resource item_security combo_value_material_type_emissive_50403__superadministrator {
@@ -729,6 +804,7 @@ resource item_security combo_value_material_type_emissive_50403__superadministra
     item_id = resource.combo_value.material_type_emissive_50403.item_id
     read = true
     write = true
+    system = true
 }
 
 resource item_security combo_value_material_type_flat_50403__editor_access_32 {
@@ -736,6 +812,7 @@ resource item_security combo_value_material_type_flat_50403__editor_access_32 {
     item_id = resource.combo_value.material_type_flat_50403.item_id
     read = true
     write = true
+    system = true
 }
 
 resource item_security combo_value_material_type_flat_50403__metadata_editor_36 {
@@ -743,6 +820,7 @@ resource item_security combo_value_material_type_flat_50403__metadata_editor_36 
     item_id = resource.combo_value.material_type_flat_50403.item_id
     read = true
     write = true
+    system = true
 }
 
 resource item_security combo_value_material_type_flat_50403__metadata_viewer_35 {
@@ -750,6 +828,7 @@ resource item_security combo_value_material_type_flat_50403__metadata_viewer_35 
     item_id = resource.combo_value.material_type_flat_50403.item_id
     read = true
     write = false
+    system = true
 }
 
 resource item_security combo_value_material_type_flat_50403__sa_full_access_37 {
@@ -757,6 +836,7 @@ resource item_security combo_value_material_type_flat_50403__sa_full_access_37 {
     item_id = resource.combo_value.material_type_flat_50403.item_id
     read = true
     write = true
+    system = true
 }
 
 resource item_security combo_value_material_type_flat_50403__superadministrator {
@@ -764,6 +844,7 @@ resource item_security combo_value_material_type_flat_50403__superadministrator 
     item_id = resource.combo_value.material_type_flat_50403.item_id
     read = true
     write = true
+    system = true
 }
 
 resource item_security combo_value_material_type_gem_50403__editor_access_32 {
@@ -771,6 +852,7 @@ resource item_security combo_value_material_type_gem_50403__editor_access_32 {
     item_id = resource.combo_value.material_type_gem_50403.item_id
     read = true
     write = true
+    system = true
 }
 
 resource item_security combo_value_material_type_gem_50403__metadata_editor_36 {
@@ -778,6 +860,7 @@ resource item_security combo_value_material_type_gem_50403__metadata_editor_36 {
     item_id = resource.combo_value.material_type_gem_50403.item_id
     read = true
     write = true
+    system = true
 }
 
 resource item_security combo_value_material_type_gem_50403__metadata_viewer_35 {
@@ -785,6 +868,7 @@ resource item_security combo_value_material_type_gem_50403__metadata_viewer_35 {
     item_id = resource.combo_value.material_type_gem_50403.item_id
     read = true
     write = false
+    system = true
 }
 
 resource item_security combo_value_material_type_gem_50403__sa_full_access_37 {
@@ -792,6 +876,7 @@ resource item_security combo_value_material_type_gem_50403__sa_full_access_37 {
     item_id = resource.combo_value.material_type_gem_50403.item_id
     read = true
     write = true
+    system = true
 }
 
 resource item_security combo_value_material_type_gem_50403__superadministrator {
@@ -799,6 +884,7 @@ resource item_security combo_value_material_type_gem_50403__superadministrator {
     item_id = resource.combo_value.material_type_gem_50403.item_id
     read = true
     write = true
+    system = true
 }
 
 resource item_security combo_value_material_type_generic_50403__editor_access_32 {
@@ -806,6 +892,7 @@ resource item_security combo_value_material_type_generic_50403__editor_access_32
     item_id = resource.combo_value.material_type_generic_50403.item_id
     read = true
     write = true
+    system = true
 }
 
 resource item_security combo_value_material_type_generic_50403__metadata_editor_36 {
@@ -813,6 +900,7 @@ resource item_security combo_value_material_type_generic_50403__metadata_editor_
     item_id = resource.combo_value.material_type_generic_50403.item_id
     read = true
     write = true
+    system = true
 }
 
 resource item_security combo_value_material_type_generic_50403__metadata_viewer_35 {
@@ -820,6 +908,7 @@ resource item_security combo_value_material_type_generic_50403__metadata_viewer_
     item_id = resource.combo_value.material_type_generic_50403.item_id
     read = true
     write = false
+    system = true
 }
 
 resource item_security combo_value_material_type_generic_50403__sa_full_access_37 {
@@ -827,6 +916,7 @@ resource item_security combo_value_material_type_generic_50403__sa_full_access_3
     item_id = resource.combo_value.material_type_generic_50403.item_id
     read = true
     write = true
+    system = true
 }
 
 resource item_security combo_value_material_type_generic_50403__superadministrator {
@@ -834,6 +924,7 @@ resource item_security combo_value_material_type_generic_50403__superadministrat
     item_id = resource.combo_value.material_type_generic_50403.item_id
     read = true
     write = true
+    system = true
 }
 
 resource item_security combo_value_material_type_glass_50403__editor_access_32 {
@@ -841,6 +932,7 @@ resource item_security combo_value_material_type_glass_50403__editor_access_32 {
     item_id = resource.combo_value.material_type_glass_50403.item_id
     read = true
     write = true
+    system = true
 }
 
 resource item_security combo_value_material_type_glass_50403__metadata_editor_36 {
@@ -848,6 +940,7 @@ resource item_security combo_value_material_type_glass_50403__metadata_editor_36
     item_id = resource.combo_value.material_type_glass_50403.item_id
     read = true
     write = true
+    system = true
 }
 
 resource item_security combo_value_material_type_glass_50403__metadata_viewer_35 {
@@ -855,6 +948,7 @@ resource item_security combo_value_material_type_glass_50403__metadata_viewer_35
     item_id = resource.combo_value.material_type_glass_50403.item_id
     read = true
     write = false
+    system = true
 }
 
 resource item_security combo_value_material_type_glass_50403__sa_full_access_37 {
@@ -862,6 +956,7 @@ resource item_security combo_value_material_type_glass_50403__sa_full_access_37 
     item_id = resource.combo_value.material_type_glass_50403.item_id
     read = true
     write = true
+    system = true
 }
 
 resource item_security combo_value_material_type_glass_50403__superadministrator {
@@ -869,6 +964,7 @@ resource item_security combo_value_material_type_glass_50403__superadministrator
     item_id = resource.combo_value.material_type_glass_50403.item_id
     read = true
     write = true
+    system = true
 }
 
 resource item_security combo_value_material_type_glass_solid_50403__editor_access_32 {
@@ -876,6 +972,7 @@ resource item_security combo_value_material_type_glass_solid_50403__editor_acces
     item_id = resource.combo_value.material_type_glass_solid_50403.item_id
     read = true
     write = true
+    system = true
 }
 
 resource item_security combo_value_material_type_glass_solid_50403__metadata_editor_36 {
@@ -883,6 +980,7 @@ resource item_security combo_value_material_type_glass_solid_50403__metadata_edi
     item_id = resource.combo_value.material_type_glass_solid_50403.item_id
     read = true
     write = true
+    system = true
 }
 
 resource item_security combo_value_material_type_glass_solid_50403__metadata_viewer_35 {
@@ -890,6 +988,7 @@ resource item_security combo_value_material_type_glass_solid_50403__metadata_vie
     item_id = resource.combo_value.material_type_glass_solid_50403.item_id
     read = true
     write = false
+    system = true
 }
 
 resource item_security combo_value_material_type_glass_solid_50403__sa_full_access_37 {
@@ -897,6 +996,7 @@ resource item_security combo_value_material_type_glass_solid_50403__sa_full_acce
     item_id = resource.combo_value.material_type_glass_solid_50403.item_id
     read = true
     write = true
+    system = true
 }
 
 resource item_security combo_value_material_type_glass_solid_50403__superadministrator {
@@ -904,6 +1004,7 @@ resource item_security combo_value_material_type_glass_solid_50403__superadminis
     item_id = resource.combo_value.material_type_glass_solid_50403.item_id
     read = true
     write = true
+    system = true
 }
 
 resource item_security combo_value_material_type_ground_50403__editor_access_32 {
@@ -911,6 +1012,7 @@ resource item_security combo_value_material_type_ground_50403__editor_access_32 
     item_id = resource.combo_value.material_type_ground_50403.item_id
     read = true
     write = true
+    system = true
 }
 
 resource item_security combo_value_material_type_ground_50403__metadata_editor_36 {
@@ -918,6 +1020,7 @@ resource item_security combo_value_material_type_ground_50403__metadata_editor_3
     item_id = resource.combo_value.material_type_ground_50403.item_id
     read = true
     write = true
+    system = true
 }
 
 resource item_security combo_value_material_type_ground_50403__metadata_viewer_35 {
@@ -925,6 +1028,7 @@ resource item_security combo_value_material_type_ground_50403__metadata_viewer_3
     item_id = resource.combo_value.material_type_ground_50403.item_id
     read = true
     write = false
+    system = true
 }
 
 resource item_security combo_value_material_type_ground_50403__sa_full_access_37 {
@@ -932,6 +1036,7 @@ resource item_security combo_value_material_type_ground_50403__sa_full_access_37
     item_id = resource.combo_value.material_type_ground_50403.item_id
     read = true
     write = true
+    system = true
 }
 
 resource item_security combo_value_material_type_ground_50403__superadministrator {
@@ -939,6 +1044,7 @@ resource item_security combo_value_material_type_ground_50403__superadministrato
     item_id = resource.combo_value.material_type_ground_50403.item_id
     read = true
     write = true
+    system = true
 }
 
 resource item_security combo_value_material_type_ies_light_50403__editor_access_32 {
@@ -946,6 +1052,7 @@ resource item_security combo_value_material_type_ies_light_50403__editor_access_
     item_id = resource.combo_value.material_type_ies_light_50403.item_id
     read = true
     write = true
+    system = true
 }
 
 resource item_security combo_value_material_type_ies_light_50403__metadata_editor_36 {
@@ -953,6 +1060,7 @@ resource item_security combo_value_material_type_ies_light_50403__metadata_edito
     item_id = resource.combo_value.material_type_ies_light_50403.item_id
     read = true
     write = true
+    system = true
 }
 
 resource item_security combo_value_material_type_ies_light_50403__metadata_viewer_35 {
@@ -960,6 +1068,7 @@ resource item_security combo_value_material_type_ies_light_50403__metadata_viewe
     item_id = resource.combo_value.material_type_ies_light_50403.item_id
     read = true
     write = false
+    system = true
 }
 
 resource item_security combo_value_material_type_ies_light_50403__sa_full_access_37 {
@@ -967,6 +1076,7 @@ resource item_security combo_value_material_type_ies_light_50403__sa_full_access
     item_id = resource.combo_value.material_type_ies_light_50403.item_id
     read = true
     write = true
+    system = true
 }
 
 resource item_security combo_value_material_type_ies_light_50403__superadministrator {
@@ -974,6 +1084,7 @@ resource item_security combo_value_material_type_ies_light_50403__superadministr
     item_id = resource.combo_value.material_type_ies_light_50403.item_id
     read = true
     write = true
+    system = true
 }
 
 resource item_security combo_value_material_type_liquid_50403__editor_access_32 {
@@ -981,6 +1092,7 @@ resource item_security combo_value_material_type_liquid_50403__editor_access_32 
     item_id = resource.combo_value.material_type_liquid_50403.item_id
     read = true
     write = true
+    system = true
 }
 
 resource item_security combo_value_material_type_liquid_50403__metadata_editor_36 {
@@ -988,6 +1100,7 @@ resource item_security combo_value_material_type_liquid_50403__metadata_editor_3
     item_id = resource.combo_value.material_type_liquid_50403.item_id
     read = true
     write = true
+    system = true
 }
 
 resource item_security combo_value_material_type_liquid_50403__metadata_viewer_35 {
@@ -995,6 +1108,7 @@ resource item_security combo_value_material_type_liquid_50403__metadata_viewer_3
     item_id = resource.combo_value.material_type_liquid_50403.item_id
     read = true
     write = false
+    system = true
 }
 
 resource item_security combo_value_material_type_liquid_50403__sa_full_access_37 {
@@ -1002,6 +1116,7 @@ resource item_security combo_value_material_type_liquid_50403__sa_full_access_37
     item_id = resource.combo_value.material_type_liquid_50403.item_id
     read = true
     write = true
+    system = true
 }
 
 resource item_security combo_value_material_type_liquid_50403__superadministrator {
@@ -1009,6 +1124,7 @@ resource item_security combo_value_material_type_liquid_50403__superadministrato
     item_id = resource.combo_value.material_type_liquid_50403.item_id
     read = true
     write = true
+    system = true
 }
 
 resource item_security combo_value_material_type_measured_50403__editor_access_32 {
@@ -1016,6 +1132,7 @@ resource item_security combo_value_material_type_measured_50403__editor_access_3
     item_id = resource.combo_value.material_type_measured_50403.item_id
     read = true
     write = true
+    system = true
 }
 
 resource item_security combo_value_material_type_measured_50403__metadata_editor_36 {
@@ -1023,6 +1140,7 @@ resource item_security combo_value_material_type_measured_50403__metadata_editor
     item_id = resource.combo_value.material_type_measured_50403.item_id
     read = true
     write = true
+    system = true
 }
 
 resource item_security combo_value_material_type_measured_50403__metadata_viewer_35 {
@@ -1030,6 +1148,7 @@ resource item_security combo_value_material_type_measured_50403__metadata_viewer
     item_id = resource.combo_value.material_type_measured_50403.item_id
     read = true
     write = false
+    system = true
 }
 
 resource item_security combo_value_material_type_measured_50403__sa_full_access_37 {
@@ -1037,6 +1156,7 @@ resource item_security combo_value_material_type_measured_50403__sa_full_access_
     item_id = resource.combo_value.material_type_measured_50403.item_id
     read = true
     write = true
+    system = true
 }
 
 resource item_security combo_value_material_type_measured_50403__superadministrator {
@@ -1044,6 +1164,7 @@ resource item_security combo_value_material_type_measured_50403__superadministra
     item_id = resource.combo_value.material_type_measured_50403.item_id
     read = true
     write = true
+    system = true
 }
 
 resource item_security combo_value_material_type_metal_50403__editor_access_32 {
@@ -1051,6 +1172,7 @@ resource item_security combo_value_material_type_metal_50403__editor_access_32 {
     item_id = resource.combo_value.material_type_metal_50403.item_id
     read = true
     write = true
+    system = true
 }
 
 resource item_security combo_value_material_type_metal_50403__metadata_editor_36 {
@@ -1058,6 +1180,7 @@ resource item_security combo_value_material_type_metal_50403__metadata_editor_36
     item_id = resource.combo_value.material_type_metal_50403.item_id
     read = true
     write = true
+    system = true
 }
 
 resource item_security combo_value_material_type_metal_50403__metadata_viewer_35 {
@@ -1065,6 +1188,7 @@ resource item_security combo_value_material_type_metal_50403__metadata_viewer_35
     item_id = resource.combo_value.material_type_metal_50403.item_id
     read = true
     write = false
+    system = true
 }
 
 resource item_security combo_value_material_type_metal_50403__sa_full_access_37 {
@@ -1072,6 +1196,7 @@ resource item_security combo_value_material_type_metal_50403__sa_full_access_37 
     item_id = resource.combo_value.material_type_metal_50403.item_id
     read = true
     write = true
+    system = true
 }
 
 resource item_security combo_value_material_type_metal_50403__superadministrator {
@@ -1079,6 +1204,7 @@ resource item_security combo_value_material_type_metal_50403__superadministrator
     item_id = resource.combo_value.material_type_metal_50403.item_id
     read = true
     write = true
+    system = true
 }
 
 resource item_security combo_value_material_type_metallic_paint_50403__editor_access_32 {
@@ -1086,6 +1212,7 @@ resource item_security combo_value_material_type_metallic_paint_50403__editor_ac
     item_id = resource.combo_value.material_type_metallic_paint_50403.item_id
     read = true
     write = true
+    system = true
 }
 
 resource item_security combo_value_material_type_metallic_paint_50403__metadata_editor_36 {
@@ -1093,6 +1220,7 @@ resource item_security combo_value_material_type_metallic_paint_50403__metadata_
     item_id = resource.combo_value.material_type_metallic_paint_50403.item_id
     read = true
     write = true
+    system = true
 }
 
 resource item_security combo_value_material_type_metallic_paint_50403__metadata_viewer_35 {
@@ -1100,6 +1228,7 @@ resource item_security combo_value_material_type_metallic_paint_50403__metadata_
     item_id = resource.combo_value.material_type_metallic_paint_50403.item_id
     read = true
     write = false
+    system = true
 }
 
 resource item_security combo_value_material_type_metallic_paint_50403__sa_full_access_37 {
@@ -1107,6 +1236,7 @@ resource item_security combo_value_material_type_metallic_paint_50403__sa_full_a
     item_id = resource.combo_value.material_type_metallic_paint_50403.item_id
     read = true
     write = true
+    system = true
 }
 
 resource item_security combo_value_material_type_metallic_paint_50403__superadministrator {
@@ -1114,6 +1244,7 @@ resource item_security combo_value_material_type_metallic_paint_50403__superadmi
     item_id = resource.combo_value.material_type_metallic_paint_50403.item_id
     read = true
     write = true
+    system = true
 }
 
 resource item_security combo_value_material_type_moldtech_plastic_50403__editor_access_32 {
@@ -1121,6 +1252,7 @@ resource item_security combo_value_material_type_moldtech_plastic_50403__editor_
     item_id = resource.combo_value.material_type_moldtech_plastic_50403.item_id
     read = true
     write = true
+    system = true
 }
 
 resource item_security combo_value_material_type_moldtech_plastic_50403__metadata_editor_36 {
@@ -1128,6 +1260,7 @@ resource item_security combo_value_material_type_moldtech_plastic_50403__metadat
     item_id = resource.combo_value.material_type_moldtech_plastic_50403.item_id
     read = true
     write = true
+    system = true
 }
 
 resource item_security combo_value_material_type_moldtech_plastic_50403__metadata_viewer_35 {
@@ -1135,6 +1268,7 @@ resource item_security combo_value_material_type_moldtech_plastic_50403__metadat
     item_id = resource.combo_value.material_type_moldtech_plastic_50403.item_id
     read = true
     write = false
+    system = true
 }
 
 resource item_security combo_value_material_type_moldtech_plastic_50403__sa_full_access_37 {
@@ -1142,6 +1276,7 @@ resource item_security combo_value_material_type_moldtech_plastic_50403__sa_full
     item_id = resource.combo_value.material_type_moldtech_plastic_50403.item_id
     read = true
     write = true
+    system = true
 }
 
 resource item_security combo_value_material_type_moldtech_plastic_50403__superadministrator {
@@ -1149,6 +1284,7 @@ resource item_security combo_value_material_type_moldtech_plastic_50403__superad
     item_id = resource.combo_value.material_type_moldtech_plastic_50403.item_id
     read = true
     write = true
+    system = true
 }
 
 resource item_security combo_value_material_type_multilayer_optics_50403__editor_access_32 {
@@ -1156,6 +1292,7 @@ resource item_security combo_value_material_type_multilayer_optics_50403__editor
     item_id = resource.combo_value.material_type_multilayer_optics_50403.item_id
     read = true
     write = true
+    system = true
 }
 
 resource item_security combo_value_material_type_multilayer_optics_50403__metadata_editor_36 {
@@ -1163,6 +1300,7 @@ resource item_security combo_value_material_type_multilayer_optics_50403__metada
     item_id = resource.combo_value.material_type_multilayer_optics_50403.item_id
     read = true
     write = true
+    system = true
 }
 
 resource item_security combo_value_material_type_multilayer_optics_50403__metadata_viewer_35 {
@@ -1170,6 +1308,7 @@ resource item_security combo_value_material_type_multilayer_optics_50403__metada
     item_id = resource.combo_value.material_type_multilayer_optics_50403.item_id
     read = true
     write = false
+    system = true
 }
 
 resource item_security combo_value_material_type_multilayer_optics_50403__sa_full_access_37 {
@@ -1177,6 +1316,7 @@ resource item_security combo_value_material_type_multilayer_optics_50403__sa_ful
     item_id = resource.combo_value.material_type_multilayer_optics_50403.item_id
     read = true
     write = true
+    system = true
 }
 
 resource item_security combo_value_material_type_multilayer_optics_50403__superadministrator {
@@ -1184,6 +1324,7 @@ resource item_security combo_value_material_type_multilayer_optics_50403__supera
     item_id = resource.combo_value.material_type_multilayer_optics_50403.item_id
     read = true
     write = true
+    system = true
 }
 
 resource item_security combo_value_material_type_paint_50403__editor_access_32 {
@@ -1191,6 +1332,7 @@ resource item_security combo_value_material_type_paint_50403__editor_access_32 {
     item_id = resource.combo_value.material_type_paint_50403.item_id
     read = true
     write = true
+    system = true
 }
 
 resource item_security combo_value_material_type_paint_50403__metadata_editor_36 {
@@ -1198,6 +1340,7 @@ resource item_security combo_value_material_type_paint_50403__metadata_editor_36
     item_id = resource.combo_value.material_type_paint_50403.item_id
     read = true
     write = true
+    system = true
 }
 
 resource item_security combo_value_material_type_paint_50403__metadata_viewer_35 {
@@ -1205,6 +1348,7 @@ resource item_security combo_value_material_type_paint_50403__metadata_viewer_35
     item_id = resource.combo_value.material_type_paint_50403.item_id
     read = true
     write = false
+    system = true
 }
 
 resource item_security combo_value_material_type_paint_50403__sa_full_access_37 {
@@ -1212,6 +1356,7 @@ resource item_security combo_value_material_type_paint_50403__sa_full_access_37 
     item_id = resource.combo_value.material_type_paint_50403.item_id
     read = true
     write = true
+    system = true
 }
 
 resource item_security combo_value_material_type_paint_50403__superadministrator {
@@ -1219,6 +1364,7 @@ resource item_security combo_value_material_type_paint_50403__superadministrator
     item_id = resource.combo_value.material_type_paint_50403.item_id
     read = true
     write = true
+    system = true
 }
 
 resource item_security combo_value_material_type_plastic_50403__editor_access_32 {
@@ -1226,6 +1372,7 @@ resource item_security combo_value_material_type_plastic_50403__editor_access_32
     item_id = resource.combo_value.material_type_plastic_50403.item_id
     read = true
     write = true
+    system = true
 }
 
 resource item_security combo_value_material_type_plastic_50403__metadata_editor_36 {
@@ -1233,6 +1380,7 @@ resource item_security combo_value_material_type_plastic_50403__metadata_editor_
     item_id = resource.combo_value.material_type_plastic_50403.item_id
     read = true
     write = true
+    system = true
 }
 
 resource item_security combo_value_material_type_plastic_50403__metadata_viewer_35 {
@@ -1240,6 +1388,7 @@ resource item_security combo_value_material_type_plastic_50403__metadata_viewer_
     item_id = resource.combo_value.material_type_plastic_50403.item_id
     read = true
     write = false
+    system = true
 }
 
 resource item_security combo_value_material_type_plastic_50403__sa_full_access_37 {
@@ -1247,6 +1396,7 @@ resource item_security combo_value_material_type_plastic_50403__sa_full_access_3
     item_id = resource.combo_value.material_type_plastic_50403.item_id
     read = true
     write = true
+    system = true
 }
 
 resource item_security combo_value_material_type_plastic_50403__superadministrator {
@@ -1254,6 +1404,7 @@ resource item_security combo_value_material_type_plastic_50403__superadministrat
     item_id = resource.combo_value.material_type_plastic_50403.item_id
     read = true
     write = true
+    system = true
 }
 
 resource item_security combo_value_material_type_plastic_cloudy_50403__editor_access_32 {
@@ -1261,6 +1412,7 @@ resource item_security combo_value_material_type_plastic_cloudy_50403__editor_ac
     item_id = resource.combo_value.material_type_plastic_cloudy_50403.item_id
     read = true
     write = true
+    system = true
 }
 
 resource item_security combo_value_material_type_plastic_cloudy_50403__metadata_editor_36 {
@@ -1268,6 +1420,7 @@ resource item_security combo_value_material_type_plastic_cloudy_50403__metadata_
     item_id = resource.combo_value.material_type_plastic_cloudy_50403.item_id
     read = true
     write = true
+    system = true
 }
 
 resource item_security combo_value_material_type_plastic_cloudy_50403__metadata_viewer_35 {
@@ -1275,6 +1428,7 @@ resource item_security combo_value_material_type_plastic_cloudy_50403__metadata_
     item_id = resource.combo_value.material_type_plastic_cloudy_50403.item_id
     read = true
     write = false
+    system = true
 }
 
 resource item_security combo_value_material_type_plastic_cloudy_50403__sa_full_access_37 {
@@ -1282,6 +1436,7 @@ resource item_security combo_value_material_type_plastic_cloudy_50403__sa_full_a
     item_id = resource.combo_value.material_type_plastic_cloudy_50403.item_id
     read = true
     write = true
+    system = true
 }
 
 resource item_security combo_value_material_type_plastic_cloudy_50403__superadministrator {
@@ -1289,6 +1444,7 @@ resource item_security combo_value_material_type_plastic_cloudy_50403__superadmi
     item_id = resource.combo_value.material_type_plastic_cloudy_50403.item_id
     read = true
     write = true
+    system = true
 }
 
 resource item_security combo_value_material_type_plastic_transparent_50403__editor_access_32 {
@@ -1296,6 +1452,7 @@ resource item_security combo_value_material_type_plastic_transparent_50403__edit
     item_id = resource.combo_value.material_type_plastic_transparent_50403.item_id
     read = true
     write = true
+    system = true
 }
 
 resource item_security combo_value_material_type_plastic_transparent_50403__metadata_editor_36 {
@@ -1303,6 +1460,7 @@ resource item_security combo_value_material_type_plastic_transparent_50403__meta
     item_id = resource.combo_value.material_type_plastic_transparent_50403.item_id
     read = true
     write = true
+    system = true
 }
 
 resource item_security combo_value_material_type_plastic_transparent_50403__metadata_viewer_35 {
@@ -1310,6 +1468,7 @@ resource item_security combo_value_material_type_plastic_transparent_50403__meta
     item_id = resource.combo_value.material_type_plastic_transparent_50403.item_id
     read = true
     write = false
+    system = true
 }
 
 resource item_security combo_value_material_type_plastic_transparent_50403__sa_full_access_37 {
@@ -1317,6 +1476,7 @@ resource item_security combo_value_material_type_plastic_transparent_50403__sa_f
     item_id = resource.combo_value.material_type_plastic_transparent_50403.item_id
     read = true
     write = true
+    system = true
 }
 
 resource item_security combo_value_material_type_plastic_transparent_50403__superadministrator {
@@ -1324,6 +1484,7 @@ resource item_security combo_value_material_type_plastic_transparent_50403__supe
     item_id = resource.combo_value.material_type_plastic_transparent_50403.item_id
     read = true
     write = true
+    system = true
 }
 
 resource item_security combo_value_material_type_point_light_50403__editor_access_32 {
@@ -1331,6 +1492,7 @@ resource item_security combo_value_material_type_point_light_50403__editor_acces
     item_id = resource.combo_value.material_type_point_light_50403.item_id
     read = true
     write = true
+    system = true
 }
 
 resource item_security combo_value_material_type_point_light_50403__metadata_editor_36 {
@@ -1338,6 +1500,7 @@ resource item_security combo_value_material_type_point_light_50403__metadata_edi
     item_id = resource.combo_value.material_type_point_light_50403.item_id
     read = true
     write = true
+    system = true
 }
 
 resource item_security combo_value_material_type_point_light_50403__metadata_viewer_35 {
@@ -1345,6 +1508,7 @@ resource item_security combo_value_material_type_point_light_50403__metadata_vie
     item_id = resource.combo_value.material_type_point_light_50403.item_id
     read = true
     write = false
+    system = true
 }
 
 resource item_security combo_value_material_type_point_light_50403__sa_full_access_37 {
@@ -1352,6 +1516,7 @@ resource item_security combo_value_material_type_point_light_50403__sa_full_acce
     item_id = resource.combo_value.material_type_point_light_50403.item_id
     read = true
     write = true
+    system = true
 }
 
 resource item_security combo_value_material_type_point_light_50403__superadministrator {
@@ -1359,6 +1524,7 @@ resource item_security combo_value_material_type_point_light_50403__superadminis
     item_id = resource.combo_value.material_type_point_light_50403.item_id
     read = true
     write = true
+    system = true
 }
 
 resource item_security combo_value_material_type_realcloth_50403__editor_access_32 {
@@ -1366,6 +1532,7 @@ resource item_security combo_value_material_type_realcloth_50403__editor_access_
     item_id = resource.combo_value.material_type_realcloth_50403.item_id
     read = true
     write = true
+    system = true
 }
 
 resource item_security combo_value_material_type_realcloth_50403__metadata_editor_36 {
@@ -1373,6 +1540,7 @@ resource item_security combo_value_material_type_realcloth_50403__metadata_edito
     item_id = resource.combo_value.material_type_realcloth_50403.item_id
     read = true
     write = true
+    system = true
 }
 
 resource item_security combo_value_material_type_realcloth_50403__metadata_viewer_35 {
@@ -1380,6 +1548,7 @@ resource item_security combo_value_material_type_realcloth_50403__metadata_viewe
     item_id = resource.combo_value.material_type_realcloth_50403.item_id
     read = true
     write = false
+    system = true
 }
 
 resource item_security combo_value_material_type_realcloth_50403__sa_full_access_37 {
@@ -1387,6 +1556,7 @@ resource item_security combo_value_material_type_realcloth_50403__sa_full_access
     item_id = resource.combo_value.material_type_realcloth_50403.item_id
     read = true
     write = true
+    system = true
 }
 
 resource item_security combo_value_material_type_realcloth_50403__superadministrator {
@@ -1394,6 +1564,7 @@ resource item_security combo_value_material_type_realcloth_50403__superadministr
     item_id = resource.combo_value.material_type_realcloth_50403.item_id
     read = true
     write = true
+    system = true
 }
 
 resource item_security combo_value_material_type_scattering_medium_50403__editor_access_32 {
@@ -1401,6 +1572,7 @@ resource item_security combo_value_material_type_scattering_medium_50403__editor
     item_id = resource.combo_value.material_type_scattering_medium_50403.item_id
     read = true
     write = true
+    system = true
 }
 
 resource item_security combo_value_material_type_scattering_medium_50403__metadata_editor_36 {
@@ -1408,6 +1580,7 @@ resource item_security combo_value_material_type_scattering_medium_50403__metada
     item_id = resource.combo_value.material_type_scattering_medium_50403.item_id
     read = true
     write = true
+    system = true
 }
 
 resource item_security combo_value_material_type_scattering_medium_50403__metadata_viewer_35 {
@@ -1415,6 +1588,7 @@ resource item_security combo_value_material_type_scattering_medium_50403__metada
     item_id = resource.combo_value.material_type_scattering_medium_50403.item_id
     read = true
     write = false
+    system = true
 }
 
 resource item_security combo_value_material_type_scattering_medium_50403__sa_full_access_37 {
@@ -1422,6 +1596,7 @@ resource item_security combo_value_material_type_scattering_medium_50403__sa_ful
     item_id = resource.combo_value.material_type_scattering_medium_50403.item_id
     read = true
     write = true
+    system = true
 }
 
 resource item_security combo_value_material_type_scattering_medium_50403__superadministrator {
@@ -1429,6 +1604,7 @@ resource item_security combo_value_material_type_scattering_medium_50403__supera
     item_id = resource.combo_value.material_type_scattering_medium_50403.item_id
     read = true
     write = true
+    system = true
 }
 
 resource item_security combo_value_material_type_spotlight_50403__editor_access_32 {
@@ -1436,6 +1612,7 @@ resource item_security combo_value_material_type_spotlight_50403__editor_access_
     item_id = resource.combo_value.material_type_spotlight_50403.item_id
     read = true
     write = true
+    system = true
 }
 
 resource item_security combo_value_material_type_spotlight_50403__metadata_editor_36 {
@@ -1443,6 +1620,7 @@ resource item_security combo_value_material_type_spotlight_50403__metadata_edito
     item_id = resource.combo_value.material_type_spotlight_50403.item_id
     read = true
     write = true
+    system = true
 }
 
 resource item_security combo_value_material_type_spotlight_50403__metadata_viewer_35 {
@@ -1450,6 +1628,7 @@ resource item_security combo_value_material_type_spotlight_50403__metadata_viewe
     item_id = resource.combo_value.material_type_spotlight_50403.item_id
     read = true
     write = false
+    system = true
 }
 
 resource item_security combo_value_material_type_spotlight_50403__sa_full_access_37 {
@@ -1457,6 +1636,7 @@ resource item_security combo_value_material_type_spotlight_50403__sa_full_access
     item_id = resource.combo_value.material_type_spotlight_50403.item_id
     read = true
     write = true
+    system = true
 }
 
 resource item_security combo_value_material_type_spotlight_50403__superadministrator {
@@ -1464,6 +1644,7 @@ resource item_security combo_value_material_type_spotlight_50403__superadministr
     item_id = resource.combo_value.material_type_spotlight_50403.item_id
     read = true
     write = true
+    system = true
 }
 
 resource item_security combo_value_material_type_thin_film_50403__editor_access_32 {
@@ -1471,6 +1652,7 @@ resource item_security combo_value_material_type_thin_film_50403__editor_access_
     item_id = resource.combo_value.material_type_thin_film_50403.item_id
     read = true
     write = true
+    system = true
 }
 
 resource item_security combo_value_material_type_thin_film_50403__metadata_editor_36 {
@@ -1478,6 +1660,7 @@ resource item_security combo_value_material_type_thin_film_50403__metadata_edito
     item_id = resource.combo_value.material_type_thin_film_50403.item_id
     read = true
     write = true
+    system = true
 }
 
 resource item_security combo_value_material_type_thin_film_50403__metadata_viewer_35 {
@@ -1485,6 +1668,7 @@ resource item_security combo_value_material_type_thin_film_50403__metadata_viewe
     item_id = resource.combo_value.material_type_thin_film_50403.item_id
     read = true
     write = false
+    system = true
 }
 
 resource item_security combo_value_material_type_thin_film_50403__sa_full_access_37 {
@@ -1492,6 +1676,7 @@ resource item_security combo_value_material_type_thin_film_50403__sa_full_access
     item_id = resource.combo_value.material_type_thin_film_50403.item_id
     read = true
     write = true
+    system = true
 }
 
 resource item_security combo_value_material_type_thin_film_50403__superadministrator {
@@ -1499,6 +1684,7 @@ resource item_security combo_value_material_type_thin_film_50403__superadministr
     item_id = resource.combo_value.material_type_thin_film_50403.item_id
     read = true
     write = true
+    system = true
 }
 
 resource item_security combo_value_material_type_toon_50403__editor_access_32 {
@@ -1506,6 +1692,7 @@ resource item_security combo_value_material_type_toon_50403__editor_access_32 {
     item_id = resource.combo_value.material_type_toon_50403.item_id
     read = true
     write = true
+    system = true
 }
 
 resource item_security combo_value_material_type_toon_50403__metadata_editor_36 {
@@ -1513,6 +1700,7 @@ resource item_security combo_value_material_type_toon_50403__metadata_editor_36 
     item_id = resource.combo_value.material_type_toon_50403.item_id
     read = true
     write = true
+    system = true
 }
 
 resource item_security combo_value_material_type_toon_50403__metadata_viewer_35 {
@@ -1520,6 +1708,7 @@ resource item_security combo_value_material_type_toon_50403__metadata_viewer_35 
     item_id = resource.combo_value.material_type_toon_50403.item_id
     read = true
     write = false
+    system = true
 }
 
 resource item_security combo_value_material_type_toon_50403__sa_full_access_37 {
@@ -1527,6 +1716,7 @@ resource item_security combo_value_material_type_toon_50403__sa_full_access_37 {
     item_id = resource.combo_value.material_type_toon_50403.item_id
     read = true
     write = true
+    system = true
 }
 
 resource item_security combo_value_material_type_toon_50403__superadministrator {
@@ -1534,6 +1724,7 @@ resource item_security combo_value_material_type_toon_50403__superadministrator 
     item_id = resource.combo_value.material_type_toon_50403.item_id
     read = true
     write = true
+    system = true
 }
 
 resource item_security combo_value_material_type_translucent_50403__editor_access_32 {
@@ -1541,6 +1732,7 @@ resource item_security combo_value_material_type_translucent_50403__editor_acces
     item_id = resource.combo_value.material_type_translucent_50403.item_id
     read = true
     write = true
+    system = true
 }
 
 resource item_security combo_value_material_type_translucent_50403__metadata_editor_36 {
@@ -1548,6 +1740,7 @@ resource item_security combo_value_material_type_translucent_50403__metadata_edi
     item_id = resource.combo_value.material_type_translucent_50403.item_id
     read = true
     write = true
+    system = true
 }
 
 resource item_security combo_value_material_type_translucent_50403__metadata_viewer_35 {
@@ -1555,6 +1748,7 @@ resource item_security combo_value_material_type_translucent_50403__metadata_vie
     item_id = resource.combo_value.material_type_translucent_50403.item_id
     read = true
     write = false
+    system = true
 }
 
 resource item_security combo_value_material_type_translucent_50403__sa_full_access_37 {
@@ -1562,6 +1756,7 @@ resource item_security combo_value_material_type_translucent_50403__sa_full_acce
     item_id = resource.combo_value.material_type_translucent_50403.item_id
     read = true
     write = true
+    system = true
 }
 
 resource item_security combo_value_material_type_translucent_50403__superadministrator {
@@ -1569,6 +1764,7 @@ resource item_security combo_value_material_type_translucent_50403__superadminis
     item_id = resource.combo_value.material_type_translucent_50403.item_id
     read = true
     write = true
+    system = true
 }
 
 resource item_security combo_value_material_type_translucent_medium_50403__editor_access_32 {
@@ -1576,6 +1772,7 @@ resource item_security combo_value_material_type_translucent_medium_50403__edito
     item_id = resource.combo_value.material_type_translucent_medium_50403.item_id
     read = true
     write = true
+    system = true
 }
 
 resource item_security combo_value_material_type_translucent_medium_50403__metadata_editor_36 {
@@ -1583,6 +1780,7 @@ resource item_security combo_value_material_type_translucent_medium_50403__metad
     item_id = resource.combo_value.material_type_translucent_medium_50403.item_id
     read = true
     write = true
+    system = true
 }
 
 resource item_security combo_value_material_type_translucent_medium_50403__metadata_viewer_35 {
@@ -1590,6 +1788,7 @@ resource item_security combo_value_material_type_translucent_medium_50403__metad
     item_id = resource.combo_value.material_type_translucent_medium_50403.item_id
     read = true
     write = false
+    system = true
 }
 
 resource item_security combo_value_material_type_translucent_medium_50403__sa_full_access_37 {
@@ -1597,6 +1796,7 @@ resource item_security combo_value_material_type_translucent_medium_50403__sa_fu
     item_id = resource.combo_value.material_type_translucent_medium_50403.item_id
     read = true
     write = true
+    system = true
 }
 
 resource item_security combo_value_material_type_translucent_medium_50403__superadministrator {
@@ -1604,6 +1804,7 @@ resource item_security combo_value_material_type_translucent_medium_50403__super
     item_id = resource.combo_value.material_type_translucent_medium_50403.item_id
     read = true
     write = true
+    system = true
 }
 
 resource item_security combo_value_material_type_velvet_50403__editor_access_32 {
@@ -1611,6 +1812,7 @@ resource item_security combo_value_material_type_velvet_50403__editor_access_32 
     item_id = resource.combo_value.material_type_velvet_50403.item_id
     read = true
     write = true
+    system = true
 }
 
 resource item_security combo_value_material_type_velvet_50403__metadata_editor_36 {
@@ -1618,6 +1820,7 @@ resource item_security combo_value_material_type_velvet_50403__metadata_editor_3
     item_id = resource.combo_value.material_type_velvet_50403.item_id
     read = true
     write = true
+    system = true
 }
 
 resource item_security combo_value_material_type_velvet_50403__metadata_viewer_35 {
@@ -1625,6 +1828,7 @@ resource item_security combo_value_material_type_velvet_50403__metadata_viewer_3
     item_id = resource.combo_value.material_type_velvet_50403.item_id
     read = true
     write = false
+    system = true
 }
 
 resource item_security combo_value_material_type_velvet_50403__sa_full_access_37 {
@@ -1632,6 +1836,7 @@ resource item_security combo_value_material_type_velvet_50403__sa_full_access_37
     item_id = resource.combo_value.material_type_velvet_50403.item_id
     read = true
     write = true
+    system = true
 }
 
 resource item_security combo_value_material_type_velvet_50403__superadministrator {
@@ -1639,6 +1844,7 @@ resource item_security combo_value_material_type_velvet_50403__superadministrato
     item_id = resource.combo_value.material_type_velvet_50403.item_id
     read = true
     write = true
+    system = true
 }
 
 resource item_security combo_value_material_type_wireframe_50403__editor_access_32 {
@@ -1646,6 +1852,7 @@ resource item_security combo_value_material_type_wireframe_50403__editor_access_
     item_id = resource.combo_value.material_type_wireframe_50403.item_id
     read = true
     write = true
+    system = true
 }
 
 resource item_security combo_value_material_type_wireframe_50403__metadata_editor_36 {
@@ -1653,6 +1860,7 @@ resource item_security combo_value_material_type_wireframe_50403__metadata_edito
     item_id = resource.combo_value.material_type_wireframe_50403.item_id
     read = true
     write = true
+    system = true
 }
 
 resource item_security combo_value_material_type_wireframe_50403__metadata_viewer_35 {
@@ -1660,6 +1868,7 @@ resource item_security combo_value_material_type_wireframe_50403__metadata_viewe
     item_id = resource.combo_value.material_type_wireframe_50403.item_id
     read = true
     write = false
+    system = true
 }
 
 resource item_security combo_value_material_type_wireframe_50403__sa_full_access_37 {
@@ -1667,6 +1876,7 @@ resource item_security combo_value_material_type_wireframe_50403__sa_full_access
     item_id = resource.combo_value.material_type_wireframe_50403.item_id
     read = true
     write = true
+    system = true
 }
 
 resource item_security combo_value_material_type_wireframe_50403__superadministrator {
@@ -1674,6 +1884,7 @@ resource item_security combo_value_material_type_wireframe_50403__superadministr
     item_id = resource.combo_value.material_type_wireframe_50403.item_id
     read = true
     write = true
+    system = true
 }
 
 resource item_security combo_value_material_type_xray_50403__editor_access_32 {
@@ -1681,6 +1892,7 @@ resource item_security combo_value_material_type_xray_50403__editor_access_32 {
     item_id = resource.combo_value.material_type_xray_50403.item_id
     read = true
     write = true
+    system = true
 }
 
 resource item_security combo_value_material_type_xray_50403__metadata_editor_36 {
@@ -1688,6 +1900,7 @@ resource item_security combo_value_material_type_xray_50403__metadata_editor_36 
     item_id = resource.combo_value.material_type_xray_50403.item_id
     read = true
     write = true
+    system = true
 }
 
 resource item_security combo_value_material_type_xray_50403__metadata_viewer_35 {
@@ -1702,6 +1915,7 @@ resource item_security combo_value_material_type_xray_50403__sa_full_access_37 {
     item_id = resource.combo_value.material_type_xray_50403.item_id
     read = true
     write = true
+    system = true
 }
 
 resource item_security combo_value_material_type_xray_50403__superadministrator {
@@ -1709,6 +1923,7 @@ resource item_security combo_value_material_type_xray_50403__superadministrator 
     item_id = resource.combo_value.material_type_xray_50403.item_id
     read = true
     write = true
+    system = true
 }
 
 resource item_security combovalue_metafield_material_type_50403__editor_access_32 {
@@ -1716,6 +1931,7 @@ resource item_security combovalue_metafield_material_type_50403__editor_access_3
     item_id = resource.combovalue_metafield.material_type_50403.item_id
     read = true
     write = true
+    system = true
 }
 
 resource item_security combovalue_metafield_material_type_50403__metadata_editor_36 {
@@ -1723,6 +1939,7 @@ resource item_security combovalue_metafield_material_type_50403__metadata_editor
     item_id = resource.combovalue_metafield.material_type_50403.item_id
     read = true
     write = true
+    system = true
 }
 
 resource item_security combovalue_metafield_material_type_50403__metadata_viewer_35 {
@@ -1730,6 +1947,7 @@ resource item_security combovalue_metafield_material_type_50403__metadata_viewer
     item_id = resource.combovalue_metafield.material_type_50403.item_id
     read = true
     write = false
+    system = true
 }
 
 resource item_security combovalue_metafield_material_type_50403__sa_full_access_37 {
@@ -1737,6 +1955,7 @@ resource item_security combovalue_metafield_material_type_50403__sa_full_access_
     item_id = resource.combovalue_metafield.material_type_50403.item_id
     read = true
     write = true
+    system = true
 }
 
 resource item_security combovalue_metafield_material_type_50403__superadministrator {
@@ -1744,6 +1963,7 @@ resource item_security combovalue_metafield_material_type_50403__superadministra
     item_id = resource.combovalue_metafield.material_type_50403.item_id
     read = true
     write = true
+    system = true
 }
 
 resource metafield_label material_type_51475 {

@@ -3,6 +3,7 @@ resource item_security asset_info__anonymous {
     item_id = resource.metafield_group.asset_info.item_id
     read = true
     write = false
+    system = true
 }
 
 resource item_security asset_info__trusted {
@@ -10,6 +11,7 @@ resource item_security asset_info__trusted {
     item_id = resource.metafield_group.asset_info.item_id
     read = true
     write = true
+    system = true
 }
 
 resource metafield_group asset_info {
@@ -17,6 +19,7 @@ resource metafield_group asset_info {
     description = 'Shared metadata structure'
     show_in_list = true
     restrict_to_asset = 'All'
+    system = true
     restrict_to_asset_categories = [{
             asset_category_id = resource.asset_category.root.id
         }]

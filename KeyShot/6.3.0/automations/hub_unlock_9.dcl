@@ -24,4 +24,5 @@ action "Move Asset To Folder" {
 }
 '
     is_disabled = false
+    system = true
 }

@@ -4,5 +4,6 @@ resource channel_folder admin_access {
     autolink = {
         item_guid = 'f31536d3-9d7e-4b96-919b-8be89f0cc22e'
     }
+    system = true
 }
 

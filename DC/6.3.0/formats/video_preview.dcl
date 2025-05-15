@@ -8,6 +8,7 @@ resource format video_preview {
     download_replace_mask = ''
     type = 'Mp4VideoFormat'
     purpose = 'VideoPreview'
+    system = true
     details = [{
             key = 'BackgroundColor'
             value = '#00000000'

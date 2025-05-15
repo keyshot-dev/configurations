@@ -7,6 +7,7 @@ resource editmulticombovalue_metafield keywords {
     auto_translate = 'None'
     restrict_to_asset_type = 'All'
     upload_tag_name = 'iptc:keywords'
+    system = true
     restrict_to_asset_categories = [{
             asset_category_id = resource.asset_category.root.id
         }]
@@ -20,6 +21,7 @@ resource item_security keywords__trusted {
     item_id = resource.editmulticombovalue_metafield.keywords.item_id
     read = true
     write = true
+    system = true
 }
 
 resource metafield_label keywords {

@@ -20,6 +20,7 @@ resource item_security is_brandportal_hero_banner__anonymous {
     item_id = resource.bit_metafield.is_brandportal_hero_banner.item_id
     read = true
     write = false
+    system = true
 }
 
 resource item_security is_brandportal_hero_banner__trusted {
@@ -27,6 +28,7 @@ resource item_security is_brandportal_hero_banner__trusted {
     item_id = resource.bit_metafield.is_brandportal_hero_banner.item_id
     read = true
     write = true
+    system = true
 }
 
 resource metafield_label is_brandportal_hero_banner {

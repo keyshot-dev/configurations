@@ -5,7 +5,7 @@ resource editcombovalue_metafield texture_type_50406 {
     required = false
     readonly = false
     show_in_list = true
-    system = false
+    system = true
     auto_translate = 'Overwrite'
     restrict_to_asset_type = 'All'
     upload_tag_name = ''
@@ -23,6 +23,7 @@ resource item_security editcombovalue_metafield_texture_type_50406__editor_acces
     item_id = resource.editcombovalue_metafield.texture_type_50406.item_id
     read = true
     write = true
+    system = true
 }
 
 resource item_security editcombovalue_metafield_texture_type_50406__metadata_editor_36 {
@@ -30,6 +31,7 @@ resource item_security editcombovalue_metafield_texture_type_50406__metadata_edi
     item_id = resource.editcombovalue_metafield.texture_type_50406.item_id
     read = true
     write = true
+    system = true
 }
 
 resource item_security editcombovalue_metafield_texture_type_50406__metadata_viewer_35 {
@@ -37,6 +39,7 @@ resource item_security editcombovalue_metafield_texture_type_50406__metadata_vie
     item_id = resource.editcombovalue_metafield.texture_type_50406.item_id
     read = true
     write = false
+    system = true
 }
 
 resource item_security editcombovalue_metafield_texture_type_50406__sa_full_access_37 {
@@ -44,6 +47,7 @@ resource item_security editcombovalue_metafield_texture_type_50406__sa_full_acce
     item_id = resource.editcombovalue_metafield.texture_type_50406.item_id
     read = true
     write = true
+    system = true
 }
 
 resource item_security editcombovalue_metafield_texture_type_50406__superadministrator {
@@ -51,6 +55,7 @@ resource item_security editcombovalue_metafield_texture_type_50406__superadminis
     item_id = resource.editcombovalue_metafield.texture_type_50406.item_id
     read = true
     write = true
+    system = true
 }
 
 resource metafield_label texture_type_51478 {

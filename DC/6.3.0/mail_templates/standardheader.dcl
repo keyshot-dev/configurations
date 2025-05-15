@@ -3,6 +3,7 @@ resource mail_template standardheader {
     language_id = resource.language.english.id
     template_name = 'standard-header'
     subject = 'standard-header'
+    system = true
     body = '
 <table class="email-wrapper" width="100%" cellpadding="0" cellspacing="0">
     <tr>

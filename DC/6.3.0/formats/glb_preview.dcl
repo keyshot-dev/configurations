@@ -38,5 +38,6 @@ resource format glb_preview {
             key = 'Dpi'
             value = '0'
         }]
+    system = true
 }
 

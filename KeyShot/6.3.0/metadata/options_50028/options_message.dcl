@@ -16,10 +16,32 @@ data note_metafield options_message {
 patch item_security id_14699 {
     target = data.item_security.options_message__metadata_viewer
     write = true
+    system = true
 }
 
 patch note_metafield id_50393 {
     target = data.note_metafield.options_message
     sort_index = 20
+    system = true
+}
+
+data item_security options_message__metadata_editor {
+    accessor_item_id = data.member_group.metadata_editor.item_id
+    item_id = data.note_metafield.options_message.item_id
+}
+
+patch item_security options_message__metadata_editor_patch {
+    target = data.item_security.options_message__metadata_editor
+    system = true
+}
+
+data item_security options_message__sa_full_access {
+    accessor_item_id = data.member_group.sa_full_access.item_id
+    item_id = data.note_metafield.options_message.item_id
+}
+
+patch item_security options_message__sa_full_access_patch {
+    target = data.item_security.options_message__sa_full_access
+    system = true
 }
 

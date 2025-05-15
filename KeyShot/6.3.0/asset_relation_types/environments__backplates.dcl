@@ -2,6 +2,7 @@ resource asset_relation_type environments__backplates {
     name = 'Environments-Backplates'
     guid = 'cb6409ba-66ad-449c-8278-e8339d6d75ee'
     description = ''
+    is_locked = true
     multiplicity = 'ManyToMany'
 	show_in_list_when_primary = true
 	show_in_list_when_secondary = true

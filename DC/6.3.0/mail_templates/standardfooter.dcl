@@ -3,6 +3,7 @@ resource mail_template standardfooter {
     language_id = resource.language.english.id
     template_name = 'standard-footer'
     subject = 'standard-footer'
+    system = true
     body = '
                         </td>
                     </tr>

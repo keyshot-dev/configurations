@@ -2,6 +2,7 @@ resource asset_relation_type environment__environment {
     name = 'Environment-Environment'
     guid = 'f8be0885-1cb5-43a2-8a3a-be062e1bdde4'
     description = ''
+    is_locked = true
     multiplicity = 'ManyToOne'
 	show_in_list_when_primary = true
 	show_in_list_when_secondary = true

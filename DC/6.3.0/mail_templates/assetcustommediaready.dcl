@@ -3,6 +3,7 @@ resource mail_template assetcustommediaready {
     language_id = resource.language.english.id
     template_name = 'asset-custom-media-ready'
     subject = 'Your custom generated file is now ready for download'
+    system = true
     body = '{{include \'html-header-start\'}}
 
 <title>Custom Media Ready</title>

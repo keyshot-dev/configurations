@@ -7,7 +7,7 @@ resource editcombovalue_metafield author_50404 {
     required = false
     readonly = false
     show_in_list = true
-    system = false
+    system = true
     auto_translate = 'Overwrite'
     restrict_to_asset_type = 'All'
     upload_tag_name = ''
@@ -25,6 +25,7 @@ resource item_security editcombovalue_metafield_author_50404__editor_access_32 {
     item_id = resource.editcombovalue_metafield.author_50404.item_id
     read = true
     write = true
+    system = true
 }
 
 resource item_security editcombovalue_metafield_author_50404__metadata_editor_36 {
@@ -32,6 +33,7 @@ resource item_security editcombovalue_metafield_author_50404__metadata_editor_36
     item_id = resource.editcombovalue_metafield.author_50404.item_id
     read = true
     write = true
+    system = true
 }
 
 resource item_security editcombovalue_metafield_author_50404__metadata_viewer_35 {
@@ -39,6 +41,7 @@ resource item_security editcombovalue_metafield_author_50404__metadata_viewer_35
     item_id = resource.editcombovalue_metafield.author_50404.item_id
     read = true
     write = false
+    system = true
 }
 
 resource item_security editcombovalue_metafield_author_50404__sa_full_access_37 {
@@ -46,6 +49,7 @@ resource item_security editcombovalue_metafield_author_50404__sa_full_access_37 
     item_id = resource.editcombovalue_metafield.author_50404.item_id
     read = true
     write = true
+    system = true
 }
 
 resource item_security editcombovalue_metafield_author_50404__superadministrator {
@@ -53,6 +57,7 @@ resource item_security editcombovalue_metafield_author_50404__superadministrator
     item_id = resource.editcombovalue_metafield.author_50404.item_id
     read = true
     write = true
+    system = true
 }
 
 resource metafield_label author_51476 {

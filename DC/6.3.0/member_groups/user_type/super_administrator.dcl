@@ -5,6 +5,7 @@ resource member_group super_administrator {
     approved = true
     ad_group_name = ''
     parents = []
+    system = true
     roles = [{
             constant = 'Uploader'
         }, {

@@ -9,5 +9,6 @@ resource member hub_template_user {
     ad_username = ''
     groups = []
     roles = []
+    system = true
 }
 

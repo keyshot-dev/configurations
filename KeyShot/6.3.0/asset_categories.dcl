@@ -8,6 +8,7 @@ resource asset_category animation {
     is_abstract = false
     parent_category_id = resource.asset_category.render_output.id
     is_sealed = false
+    is_locked = true
 }
 
 resource asset_category backplate {
@@ -16,6 +17,7 @@ resource asset_category backplate {
     is_abstract = false
     parent_category_id = data.asset_category.root.id
     is_sealed = false
+    is_locked = true
 }
 
 resource asset_category cmf {
@@ -24,6 +26,7 @@ resource asset_category cmf {
     is_abstract = false
     parent_category_id = resource.asset_category.render_output.id
     is_sealed = false
+    is_locked = true
 }
 
 resource asset_category configurator {
@@ -32,6 +35,7 @@ resource asset_category configurator {
     is_abstract = false
     parent_category_id = resource.asset_category.render_output.id
     is_sealed = false
+    is_locked = true
 }
 
 resource asset_category environment {
@@ -40,6 +44,7 @@ resource asset_category environment {
     is_abstract = false
     parent_category_id = data.asset_category.root.id
     is_sealed = false
+    is_locked = true
 }
 
 resource asset_category geometry {
@@ -48,6 +53,7 @@ resource asset_category geometry {
     is_abstract = false
     parent_category_id = data.asset_category.root.id
     is_sealed = false
+    is_locked = true
 }
 
 resource asset_category material {
@@ -56,6 +62,7 @@ resource asset_category material {
     is_abstract = false
     parent_category_id = data.asset_category.root.id
     is_sealed = false
+    is_locked = true
 }
 
 resource asset_category model {
@@ -64,6 +71,7 @@ resource asset_category model {
     is_abstract = false
     parent_category_id = data.asset_category.root.id
     is_sealed = false
+    is_locked = true
 }
 
 resource asset_category render_layer {
@@ -72,6 +80,7 @@ resource asset_category render_layer {
     is_abstract = false
     parent_category_id = resource.asset_category.render_output.id
     is_sealed = false
+    is_locked = true
 }
 
 resource asset_category render_output {
@@ -80,6 +89,7 @@ resource asset_category render_output {
     is_abstract = true
     parent_category_id = data.asset_category.root.id
     is_sealed = false
+    is_locked = true
 }
 
 resource asset_category render_pass {
@@ -88,6 +98,7 @@ resource asset_category render_pass {
     is_abstract = false
     parent_category_id = resource.asset_category.render_output.id
     is_sealed = false
+    is_locked = true
 }
 
 resource asset_category scene {
@@ -96,6 +107,7 @@ resource asset_category scene {
     is_abstract = false
     parent_category_id = data.asset_category.root.id
     is_sealed = false
+    is_locked = true
 }
 
 resource asset_category still_image {
@@ -104,6 +116,7 @@ resource asset_category still_image {
     is_abstract = false
     parent_category_id = resource.asset_category.render_output.id
     is_sealed = false
+    is_locked = true
 }
 
 resource asset_category texture {
@@ -112,5 +125,6 @@ resource asset_category texture {
     is_abstract = false
     parent_category_id = data.asset_category.root.id
     is_sealed = false
+    is_locked = true
 }
 

@@ -3,6 +3,7 @@ resource item_security metafield_group_keyshot_50012__editor_access_32 {
     item_id = resource.metafield_group.keyshot_50012.item_id
     read = true
     write = true
+    system = true
 }
 
 resource item_security metafield_group_keyshot_50012__metadata_editor_36 {
@@ -10,6 +11,7 @@ resource item_security metafield_group_keyshot_50012__metadata_editor_36 {
     item_id = resource.metafield_group.keyshot_50012.item_id
     read = true
     write = true
+    system = true
 }
 
 resource item_security metafield_group_keyshot_50012__metadata_viewer_35 {
@@ -17,6 +19,7 @@ resource item_security metafield_group_keyshot_50012__metadata_viewer_35 {
     item_id = resource.metafield_group.keyshot_50012.item_id
     read = true
     write = false
+    system = true
 }
 
 resource item_security metafield_group_keyshot_50012__sa_full_access_37 {
@@ -24,6 +27,7 @@ resource item_security metafield_group_keyshot_50012__sa_full_access_37 {
     item_id = resource.metafield_group.keyshot_50012.item_id
     read = true
     write = true
+    system = true
 }
 
 resource item_security metafield_group_keyshot_50012__superadministrator {
@@ -31,6 +35,7 @@ resource item_security metafield_group_keyshot_50012__superadministrator {
     item_id = resource.metafield_group.keyshot_50012.item_id
     read = true
     write = true
+    system = true
 }
 
 resource metafield_group_label keyshot_51470 {
@@ -46,6 +51,7 @@ resource metafield_group keyshot_50012 {
     sort_index = 10
     restrict_to_asset = 'All'
     visibility_regex = ''
+    system = true
     visibility_metafield_id = 0
     restrict_to_asset_categories = [{
             asset_category_id = data.asset_category.root.id

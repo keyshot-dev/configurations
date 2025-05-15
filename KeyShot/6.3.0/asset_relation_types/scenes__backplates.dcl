@@ -2,6 +2,7 @@ resource asset_relation_type scenes__backplates {
     name = 'Scenes-Backplates'
     guid = '51e20c13-9912-4dd8-895d-29ca13b2af9e'
     description = ''
+    is_locked = true
     multiplicity = 'ManyToMany'
 	show_in_list_when_primary = true
 	show_in_list_when_secondary = true

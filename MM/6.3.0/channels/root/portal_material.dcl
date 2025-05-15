@@ -4,5 +4,6 @@ resource channel_folder portal_material {
     autolink = {
         item_guid = '93194a08-9f90-4091-8f84-764e8f61be33'
     }
+    system = true
 }
 

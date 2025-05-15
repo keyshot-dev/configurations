@@ -2,6 +2,7 @@ resource asset_relation_type models__materials {
     name = 'Models-Materials'
     guid = '4927cf8d-ae8c-4988-9caa-79566258f41b'
     description = ''
+    is_locked = true
     multiplicity = 'ManyToMany'
 	show_in_list_when_primary = true
 	show_in_list_when_secondary = true
