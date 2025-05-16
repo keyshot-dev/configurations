@@ -2,6 +2,7 @@ resource asset_relation_type id_360_images {
     name = '360 Images'
     description = 'The primary asset serves as a placeholder for displaying secondary assets within a 360° viewer.'
     multiplicity = 'OneToMany'
+    is_locked = true
     show_in_list_when_primary = true
     show_in_list_when_secondary = true
     additional_fields_when_primary = []
