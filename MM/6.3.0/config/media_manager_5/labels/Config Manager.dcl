@@ -2629,6 +2629,22 @@ resource configservice_label portal_config_manager_multi_file_upload_presets_use
   ]
 }
 
+resource configservice_label portal_config_manager_multi_file_upload_presets_disabled_label {
+  key = 'PORTAL_CONFIG_MANAGER_MULTI_FILE_UPLOAD_PRESETS_DISABLED_LABEL'
+  group = 'Config Manager'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Disabled'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Deaktiveret'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label portal_config_manager_multi_file_upload_presets_action_label {
   key = 'PORTAL_CONFIG_MANAGER_MULTI_FILE_UPLOAD_PRESETS_ACTION_LABEL'
   group = 'Config Manager'
