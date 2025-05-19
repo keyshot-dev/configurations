@@ -16,7 +16,7 @@ resource asset_relation_type id_360_images {
     }
     item_security_behavior = {
         enable_behavior = true
-        inheritance = 'InheritRead'
+        inheritance = 'InheritWrite'
     }
     deletion_behavior = {
         enable_behavior = true

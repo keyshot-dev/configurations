@@ -1,5 +1,5 @@
 resource multi_file_upload_preset id_360_spin {
-    name = '360 spin'
+    name = '360 Spin'
     asset_relation_type_guids = [{
             asset_relation_type = resource.asset_relation_type.id_360_images.guid
         }]
