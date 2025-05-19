@@ -686,3 +686,371 @@ resource configservice_label upload_replace_warning_confirmation_dialog_ok {
     }
   ]
 }
+
+resource configservice_label upload_expanded_upload_status_relate {
+  key = 'UPLOAD_EXPANDED_UPLOAD_STATUS_RELATE'
+  group = 'Upload'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Relate'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Relater'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label upload_create_preset_popup_title {
+  key = 'UPLOAD_CREATE_PRESET_POPUP_TITLE'
+  group = 'Upload'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Relate assets'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Relater assets'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label upload_create_preset_popup_select_main_asset_section_title {
+  key = 'UPLOAD_CREATE_PRESET_POPUP_SELECT_MAIN_ASSET_SECTION_TITLE'
+  group = 'Upload'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Choose your main asset'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Vælg hovedasset'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label upload_create_preset_popup_select_main_asset_button_label {
+  key = 'UPLOAD_CREATE_PRESET_POPUP_SELECT_MAIN_ASSET_BUTTON_LABEL'
+  group = 'Upload'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Select'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Vælg'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label upload_create_preset_popup_available_relations_title {
+  key = 'UPLOAD_CREATE_PRESET_POPUP_AVAILABLE_RELATIONS_TITLE'
+  group = 'Upload'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Available relations'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Tilgængelige relationer'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label upload_create_preset_popup_main_asset_section_title {
+  key = 'UPLOAD_CREATE_PRESET_POPUP_MAIN_ASSET_SECTION_TITLE'
+  group = 'Upload'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Main asset'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Hovedasset'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label upload_create_preset_popup_asset_title_label {
+  key = 'UPLOAD_CREATE_PRESET_POPUP_ASSET_TITLE_LABEL'
+  group = 'Upload'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Asset title'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Assettitel'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label upload_create_preset_popup_asset_thumbnail_label {
+  key = 'UPLOAD_CREATE_PRESET_POPUP_ASSET_THUMBNAIL_LABEL'
+  group = 'Upload'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Use thumbnail of'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Brug thumbnailet fra'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label upload_create_preset_popup_asset_category_label {
+  key = 'UPLOAD_CREATE_PRESET_POPUP_ASSET_CATEGORY_LABEL'
+  group = 'Upload'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Category'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Kategori'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label upload_create_preset_popup_secondary_assets_section_title {
+  key = 'UPLOAD_CREATE_PRESET_POPUP_SECONDARY_ASSETS_SECTION_TITLE'
+  group = 'Upload'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Choose assets for \'{{name}}\''
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Vælg assets til \'{{name}}\''
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label upload_create_preset_popup_select_all_label {
+  key = 'UPLOAD_CREATE_PRESET_POPUP_SELECT_ALL_LABEL'
+  group = 'Upload'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Select all'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Vælg alle'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label upload_create_preset_popup_select_category_for_all_placeholder {
+  key = 'UPLOAD_CREATE_PRESET_POPUP_SELECT_CATEGORY_FOR_ALL_PLACEHOLDER'
+  group = 'Upload'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Select category for all'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Vælg kategori for alle'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label upload_create_preset_popup_select_category_placeholder {
+  key = 'UPLOAD_CREATE_PRESET_POPUP_SELECT_CATEGORY_PLACEHOLDER'
+  group = 'Upload'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Select category'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Vælg kategori'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label upload_create_preset_popup_no_assets_found_text {
+  key = 'UPLOAD_CREATE_PRESET_POPUP_NO_ASSETS_FOUND_TEXT'
+  group = 'Upload'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Your user does no have access to any relatable assets'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Din bruger har ingen relaterbare assets tilgængelige'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label upload_create_preset_popup_cancel_button {
+  key = 'UPLOAD_CREATE_PRESET_POPUP_CANCEL_BUTTON'
+  group = 'Upload'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Cancel'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Annullér'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label upload_create_preset_popup_relate_button {
+  key = 'UPLOAD_CREATE_PRESET_POPUP_RELATE_BUTTON'
+  group = 'Upload'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Relate'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Relater'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label upload_create_preset_popup_asset_thumbnail_tooltip {
+  key = 'UPLOAD_CREATE_PRESET_POPUP_ASSET_THUMBNAIL_TOOLTIP'
+  group = 'Upload'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'ID: {{assetId}}'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'ID: {{assetId}}'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label upload_create_preset_popup_name_main_asset_validation_message {
+  key = 'UPLOAD_CREATE_PRESET_POPUP_NAME_MAIN_ASSET_VALIDATION_MESSAGE'
+  group = 'Upload'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Enter a name for the main asset'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Indtast hoved-assetets navn'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label upload_create_preset_popup_category_main_asset_validation_message {
+  key = 'UPLOAD_CREATE_PRESET_POPUP_CATEGORY_MAIN_ASSET_VALIDATION_MESSAGE'
+  group = 'Upload'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Choose a category for the main asset'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Vælg en kategori for hovedasset'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label upload_create_preset_popup_select_secondary_assets_validation_message {
+  key = 'UPLOAD_CREATE_PRESET_POPUP_SELECT_SECONDARY_ASSETS_VALIDATION_MESSAGE'
+  group = 'Upload'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Select assets'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Vælg assets'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label upload_create_preset_popup_category_secondary_assets_validation_message {
+  key = 'UPLOAD_CREATE_PRESET_POPUP_CATEGORY_SECONDARY_ASSETS_VALIDATION_MESSAGE'
+  group = 'Upload'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Select category for the selected assets'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Vælg kategori for de valgte assets'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label upload_create_preset_popup_relations_created_success_body {
+  key = 'UPLOAD_CREATE_PRESET_POPUP_RELATIONS_CREATED_SUCCESS_BODY'
+  group = 'Upload'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Relations created successfully'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Relationerne blev skabt'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label upload_create_preset_popup_relations_created_error_body {
+  key = 'UPLOAD_CREATE_PRESET_POPUP_RELATIONS_CREATED_ERROR_BODY'
+  group = 'Upload'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Relations created successfully'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Relationerne blev skabt'
+      language_id = data.language.danish.id
+    }
+  ]
+}
