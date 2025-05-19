@@ -729,7 +729,7 @@ resource configservice_label upload_create_preset_popup_select_main_asset_sectio
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Vælg dit primære asset'
+      default_translation = 'Vælg hovedasset'
       language_id = data.language.danish.id
     }
   ]
@@ -809,7 +809,7 @@ resource configservice_label upload_create_preset_popup_asset_thumbnail_label {
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Brug miniaturebillede af'
+      default_translation = 'Brug thumbnailet fra'
       language_id = data.language.danish.id
     }
   ]
@@ -901,11 +901,11 @@ resource configservice_label upload_create_preset_popup_no_assets_found_text {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'No assets found to create a relation'
+      default_translation = 'Your user does no have access to any relatable assets'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Ingen assets fundet til at oprette en relation'
+      default_translation = 'Din bruger har ingen relaterbare assets tilgængelige'
       language_id = data.language.danish.id
     }
   ]
@@ -969,7 +969,7 @@ resource configservice_label upload_create_preset_popup_name_main_asset_validati
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Indtast et navn til hovedasset'
+      default_translation = 'Indtast hoved-assetets navn'
       language_id = data.language.danish.id
     }
   ]
@@ -997,11 +997,11 @@ resource configservice_label upload_create_preset_popup_select_secondary_assets_
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Select some assets'
+      default_translation = 'Select assets'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Vælg nogle assets'
+      default_translation = 'Vælg assets'
       language_id = data.language.danish.id
     }
   ]
@@ -1013,11 +1013,11 @@ resource configservice_label upload_create_preset_popup_category_secondary_asset
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Choose a category for all the selected assets'
+      default_translation = 'Select category for the selected assets'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Vælg en kategori for alle de valgte assets'
+      default_translation = 'Vælg kategori for de valgte assets'
       language_id = data.language.danish.id
     }
   ]
@@ -1033,7 +1033,7 @@ resource configservice_label upload_create_preset_popup_relations_created_succes
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Relationer skabt med succes'
+      default_translation = 'Relationerne blev skabt'
       language_id = data.language.danish.id
     }
   ]
@@ -1049,7 +1049,7 @@ resource configservice_label upload_create_preset_popup_relations_created_error_
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Relationer skabt med succes'
+      default_translation = 'Relationerne blev skabt'
       language_id = data.language.danish.id
     }
   ]
