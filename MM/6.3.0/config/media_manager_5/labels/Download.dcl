@@ -1085,3 +1085,51 @@ resource configservice_label download_status_generating_file {
     }
   ]
 }
+
+resource configservice_label asset_download_to_keyshot_studio_button_text {
+  key = 'ASSET_DOWNLOAD_TO_KEYSHOT_STUDIO_BUTTON_TEXT'
+  group = 'Download'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Download to KeyShot Studio'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Download til KeyShot Studio'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_download_to_keyshot_studio_notification_title {
+  key = 'ASSET_DOWNLOAD_TO_KEYSHOT_STUDIO_NOTIFICATION_TITLE'
+  group = 'Download'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Download to KeyShot Studio'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Download til KeyShot Studio'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_download_to_keyshot_studio_notification_body {
+  key = 'ASSET_DOWNLOAD_TO_KEYSHOT_STUDIO_NOTIFICATION_BODY'
+  group = 'Download'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = '\'{{title}}\' is being downloaded to KeyShot Studio'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = '\'{{title}}\' downloades til KeyShot Studio'
+      language_id = data.language.danish.id
+    }
+  ]
+}
