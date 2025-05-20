@@ -911,6 +911,22 @@ resource configservice_label upload_create_preset_popup_no_assets_found_text {
   ]
 }
 
+resource configservice_label upload_create_preset_popup_no_relations_found_text {
+  key = 'UPLOAD_CREATE_PRESET_POPUP_NO_RELATIONS_FOUND_TEXT'
+  group = 'Upload'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'No relations added to the preset'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Ingen relationer tilføjet til forudindstillingen'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label upload_create_preset_popup_cancel_button {
   key = 'UPLOAD_CREATE_PRESET_POPUP_CANCEL_BUTTON'
   group = 'Upload'
