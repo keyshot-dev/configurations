@@ -233,7 +233,7 @@ resource configservice_label administration_tools_users_and_groups_delete_folder
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Mappen blev ikke slettet {{error}}'
+      default_translation = 'Mappen blev ikke slettet. {{error}}'
       language_id = data.language.danish.id
     }
   ]
