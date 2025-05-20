@@ -1646,7 +1646,7 @@ resource configservice_label administration_tools_users_and_groups_change_user_f
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Ændringerne blev ikke gemt {{error}}'
+      default_translation = 'Ændringerne blev ikke gemt. {{error}}'
       language_id = data.language.danish.id
     }
   ]
