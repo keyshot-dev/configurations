@@ -229,7 +229,7 @@ resource configservice_label administration_tools_users_and_groups_delete_folder
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Folder deletion failed {{error}}'
+      default_translation = 'Folder deletion failed. {{error}}'
       language_id = data.language.english.id
     },
     {
