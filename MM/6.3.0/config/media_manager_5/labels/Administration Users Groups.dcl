@@ -1405,7 +1405,7 @@ resource configservice_label administration_tools_users_and_groups_user_save_err
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Brugeren er ikke gemt. {code, select, 400 {Adgangskoden er ikke stærk nok} 409 {Der findes allerede en bruger med dette brugernavn eller email} other {{error}}}'
+      default_translation = 'Brugeren blev ikke gemt. {code, select, 400 {Adgangskoden er ikke stærk nok} 409 {Der findes allerede en bruger med dette brugernavn eller email} other {{error}}}'
       language_id = data.language.danish.id
     }
   ]
