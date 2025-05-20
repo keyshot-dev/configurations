@@ -229,11 +229,11 @@ resource configservice_label administration_tools_users_and_groups_delete_folder
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Folder deletion failed'
+      default_translation = 'Folder deletion failed. {{error}}'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Mappen blev ikke slettet'
+      default_translation = 'Mappen blev ikke slettet. {{error}}'
       language_id = data.language.danish.id
     }
   ]
@@ -1401,11 +1401,11 @@ resource configservice_label administration_tools_users_and_groups_user_save_err
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'User not saved. {code, select,  400 {Password not strong enough} 409 {A user with that username or email already exists} other {Unknown error when saving. Please contact your system administrator}}'
+      default_translation = 'User not saved. {code, select,  400 {Password not strong enough} 409 {A user with that username or email already exists} other {{error}}}'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Brugeren er ikke gemt. {code, select, 400 {Adgangskoden er ikke stærk nok} 409 {Der findes allerede en bruger med dette brugernavn eller email} other {Der opstod en fejl mens systemet forsøgte at gemme. Kontakt venligst din systemadministrator}}'
+      default_translation = 'Brugeren blev ikke gemt. {code, select, 400 {Adgangskoden er ikke stærk nok} 409 {Der findes allerede en bruger med dette brugernavn eller email} other {{error}}}'
       language_id = data.language.danish.id
     }
   ]
@@ -1417,11 +1417,11 @@ resource configservice_label administration_tools_users_and_groups_password_save
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Password not saved. {code, select,  400 {Password not strong enough} other {Unknown error when saving. Please contact your system administrator}}'
+      default_translation = 'Password not saved. {code, select,  400 {Password not strong enough} other {{error}}}'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Adgangskoden blev ikke gemt. {code, select, 400 {Adgangskoden er ikke stærk nok} other {Der opstod en fejl mens systemet forsøgte at gemme. Kontakt venligst din systemadministrator}}'
+      default_translation = 'Adgangskoden blev ikke gemt. {code, select, 400 {Adgangskoden er ikke stærk nok} other {{error}}}'
       language_id = data.language.danish.id
     }
   ]
@@ -1642,11 +1642,11 @@ resource configservice_label administration_tools_users_and_groups_change_user_f
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'The changes were not saved'
+      default_translation = 'The changes were not saved. {{error}}'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Ændringerne blev ikke gemt'
+      default_translation = 'Ændringerne blev ikke gemt. {{error}}'
       language_id = data.language.danish.id
     }
   ]
