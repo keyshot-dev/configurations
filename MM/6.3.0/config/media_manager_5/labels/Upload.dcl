@@ -1061,11 +1061,11 @@ resource configservice_label upload_create_preset_popup_relations_created_error_
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'An error occurred while creating relations'
+      default_translation = 'An error occurred while creating relations. {{errorMessage}}'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Der opstod en fejl under oprettelse af relationer'
+      default_translation = 'Der opstod en fejl under oprettelse af relationer. {{errorMessage}}'
       language_id = data.language.danish.id
     }
   ]
