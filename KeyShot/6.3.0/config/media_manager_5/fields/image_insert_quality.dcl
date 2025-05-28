@@ -10,4 +10,3 @@ resource configservice_config_int_field_value default_image_insert_rendition {
     portal_id = data.configservice_portal.media_manager_5.id
     language_id = 0
 }
-
