@@ -1620,11 +1620,11 @@ resource configservice_label asset_list_delete_error {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'An error occurred while deleting the {multiple, select, true {assets} false {asset}}  {{error}}'
+      default_translation = 'An error occurred while deleting the {multiple, select, true {assets} false {asset}}. {{error}}'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Der opstod en fejl under sletningen af {multiple, select, true {assetsne} false {assetet}}  {{error}}'
+      default_translation = 'Der opstod en fejl under sletningen af {multiple, select, true {assetsne} false {assetet}}. {{error}}'
       language_id = data.language.danish.id
     }
   ]
