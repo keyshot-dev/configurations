@@ -1401,11 +1401,11 @@ resource configservice_label administration_tools_users_and_groups_user_save_err
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'User not saved. {code, select, 400 {Password not strong enough} 409 {A user with that username or email already exists} other {Error: {error}}}'
+      default_translation = 'User not saved. {code, select, 400 {Password not strong enough} 409 {A user with that username or email already exists} other {{error, string}}}'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Brugeren blev ikke gemt. {code, select, 400 {Adgangskoden er ikke stærk nok} 409 {Der findes allerede en bruger med dette brugernavn eller email} other {Fejl: {error}}}'
+      default_translation = 'Brugeren blev ikke gemt. {code, select, 400 {Adgangskoden er ikke stærk nok} 409 {Der findes allerede en bruger med dette brugernavn eller email} other {{error, string}}}'
       language_id = data.language.danish.id
     }
   ]
