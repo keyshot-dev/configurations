@@ -1417,11 +1417,11 @@ resource configservice_label administration_tools_users_and_groups_password_save
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Password not saved. {code, select,  400 {Password not strong enough} other {{error}}}'
+      default_translation = 'Password not saved. {{error}}'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Adgangskoden blev ikke gemt. {code, select, 400 {Adgangskoden er ikke stærk nok} other {{error}}}'
+      default_translation = 'Adgangskoden blev ikke gemt. {{error}}'
       language_id = data.language.danish.id
     }
   ]
