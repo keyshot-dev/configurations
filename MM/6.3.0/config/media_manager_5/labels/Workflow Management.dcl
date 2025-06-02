@@ -3140,11 +3140,11 @@ resource configservice_label workflow_editor_workflow_asset_search_request_keywo
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Only include assets with a value'
+      default_translation = 'Only include entries with a value'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Inkluder kun assets som har en værdi'
+      default_translation = 'Inkluder kun poster som har en værdi'
       language_id = data.language.danish.id
     }
   ]
@@ -3156,11 +3156,11 @@ resource configservice_label workflow_editor_workflow_asset_search_request_keywo
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Only include assets without a value'
+      default_translation = 'Only include entries without a value'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Inkluder kun assets uden værdier'
+      default_translation = 'Inkluder kun poster uden værdier'
       language_id = data.language.danish.id
     }
   ]
