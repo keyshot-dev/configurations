@@ -14,11 +14,11 @@ data configservice_combo_config_field_option icon_info {
 }
 
 patch configservice_combo_config_field_option icon_help {
-    target = data.configservice_combo_config_field.main_menu_custom_link_icon
+    target = data.configservice_combo_config_field_option.icon_help
     is_default_selected = false
 }
 
 patch configservice_combo_config_field_option icon_info {
-    target = data.configservice_combo_config_field.main_menu_custom_link_icon
+    target = data.configservice_combo_config_field_option.icon_info
     is_default_selected = true
 }
