@@ -1396,6 +1396,22 @@ resource configservice_label administration_tools_analytics_table_builder_total_
   ]
 }
 
+resource configservice_label administration_tools_analytics_table_builder_none {
+  key = 'ADMINISTRATION_TOOLS_ANALYTICS_TABLE_BUILDER_NONE'
+  group = 'administration-tools - analytics-table-builder'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'None'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Ingen'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label administration_tools_analytics_table_builder_column_source {
   key = 'ADMINISTRATION_TOOLS_ANALYTICS_TABLE_BUILDER_COLUMN_SOURCE'
   group = 'administration-tools - analytics-table-builder'
