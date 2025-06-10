@@ -640,15 +640,31 @@ resource configservice_label administration_tools_analytics_chart_builder_date_s
     group = 'administration-tools - analytics-chart-builder'
     product_id = resource.configservice_product.media_manager_5.id
     default_label_values = [
-        {
-            default_translation = 'Limit the time frame of the data'
-            language_id = data.language.english.id
-        },
-        {
-            default_translation = 'Begræns tidsrammen for dataen'
-            language_id = data.language.danish.id
-        }
-    ]
+    {
+     default_translation = 'Limit the time frame of the data\\n
+Time units:
+\'m\': minutes
+\'h\': hours
+\'d\': days
+\'w\': weeks
+\'mm\': months
+\'y\': years\\n
+Example: \'now-1d\' to \'now\' will show results from the last 24 hours'
+     language_id = data.language.english.id
+   },
+   {
+     default_translation = 'Begræns tidsrammen for dataen\\n
+Tids-enheder:
+\'m\': minutter
+\'h\': timer
+\'d\': dage
+\'w\': uger
+\'mm\': måneder
+\'y\': år\\n
+Eksempel: \'now-1d\' til \'now\' vil vise resultater fra de sidste 24 timer'
+     language_id = data.language.danish.id
+   }
+ ]
 }
 
 resource configservice_label administration_tools_analytics_chart_builder_layout_section_tooltip {
