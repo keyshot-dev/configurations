@@ -639,8 +639,8 @@ resource configservice_label administration_tools_analytics_chart_builder_date_s
     key = 'ADMINISTRATION_TOOLS_ANALYTICS_CHART_BUILDER_DATE_SECTION_TOOLTIP'
     group = 'administration-tools - analytics-chart-builder'
     product_id = resource.configservice_product.media_manager_5.id
-    default_label_values = default_label_values = [
-   {
+    default_label_values = [
+    {
      default_translation = 'Limit the time frame of the data\\n
 Time units:
 \'m\': minutes
