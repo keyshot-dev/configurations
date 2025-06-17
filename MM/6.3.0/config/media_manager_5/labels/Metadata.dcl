@@ -1815,7 +1815,7 @@ resource configservice_label metadata_editor_input_field_thumb_tooltip {
       language_id = data.language.english.id
     },
     {
-      default_translation = '{count, cardinalPlural, =0 {} =1 {Bemærk: En brugerdefineret miniature blev opdaget. AI\'en vil analysere det originale indhold, ikke miniaturen.} other {Bemærk: Brugerdefinerede miniaturer blev opdaget på {{count}} aktiver. AI\'en vil analysere det originale indhold, ikke miniaturerne.}}'
+      default_translation = '{count, cardinalPlural, =0 {} =1 {Bemærk: Et brugerdefineret thumbnail fundet. AI\'en vil analysere det originale indhold, ikke thumbnailens.} other {Bemærk: Brugerdefinerede thumbnails fundet på {{count}} assets. AI\'en vil analysere det originale indhold, ikke thumbnailesne.}}'
       language_id = data.language.danish.id
     }
   ]
