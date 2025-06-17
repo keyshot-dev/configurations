@@ -88,6 +88,8 @@ patch member_group content_creator_patch {
             constant = 'Can_Live_Export_System_Data'
         }, {
             constant = 'MediaPortal_360Viewer_Embed'
+        }, {
+            constant = 'Can_Customize_Search_Filters_In_Frontend'
         }]
     name = 'Content creator (profile)'
 }
