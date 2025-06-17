@@ -1805,6 +1805,22 @@ resource configservice_label metadata_editor_input_field_only_for_single_editing
   ]
 }
 
+resource configservice_label metadata_editor_input_field_thumb_tooltip {
+  key = 'METADATA_EDITOR_INPUT_FIELD_THUMB_TOOLTIP'
+  group = 'metadata-editor'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = '{count, cardinalPlural, =0 {} =1 {Note: A custom thumbnail was detected. The AI will analyze the original content, not the thumbnail.} other {Note: Custom thumbnails were detected on {{count}} assets. The AI will analyze the original content, not the thumbnails.}}'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = '{count, cardinalPlural, =0 {} =1 {Bemærk: En brugerdefineret miniature blev opdaget. AI\'en vil analysere det originale indhold, ikke miniaturen.} other {Bemærk: Brugerdefinerede miniaturer blev opdaget på {{count}} aktiver. AI\'en vil analysere det originale indhold, ikke miniaturerne.}}'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label metadata_editor_update_title {
   key = 'METADATA_EDITOR_UPDATE_TITLE'
   group = 'Metadata'
