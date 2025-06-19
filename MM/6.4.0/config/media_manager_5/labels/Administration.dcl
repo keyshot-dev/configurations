@@ -8315,6 +8315,22 @@ resource configservice_label administration_tools_system_formats_choose_watermar
   ]
 }
 
+resource configservice_label administration_tools_system_formats_sort_index {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_FORMATS_SORT_INDEX'
+  group = 'administration-tools - system - formats'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Sort index'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Sorterings-indeks'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label administration_tools_system_formats_changes_saved {
   key = 'ADMINISTRATION_TOOLS_SYSTEM_FORMATS_CHANGES_SAVED'
   group = 'administration-tools - system - formats'
