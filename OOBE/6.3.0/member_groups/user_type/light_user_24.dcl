@@ -52,8 +52,6 @@ patch member_group light_user_patch {
             constant = 'Saved_Searches_CRUD'
         }, {
             constant = 'MediaPortal_360Viewer_Embed'
-        }, {
-            constant = 'Can_Customize_Search_Filters_In_Frontend'
         }]
     name = 'Light user (profile)'
 }

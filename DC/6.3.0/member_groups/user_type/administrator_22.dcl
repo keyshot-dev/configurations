@@ -136,8 +136,6 @@ resource member_group administrator_22 {
             constant = 'Can_Live_Export_System_Data'
         }, {
             constant = 'MediaPortal_360Viewer_Embed'
-        }, {
-            constant = 'Can_Customize_Search_Filters_In_Frontend'
         }]
     autolink = {
         item_guid = '58efafcb-4ce9-43d0-b413-b842fbccb576'
