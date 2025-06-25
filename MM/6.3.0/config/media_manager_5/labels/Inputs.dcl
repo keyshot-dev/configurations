@@ -1240,7 +1240,7 @@ resource configservice_label cognitive_video_transscription_invalid_body {
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Transskription er ikke et gyldigt WEBVTT-transskript'
+      default_translation = 'Den auto-genererede transskription er ugyldig. Prøv at regenerere den, ellers så kontakt din administrator angående dette problem.'
       language_id = data.language.danish.id
     }
   ]
