@@ -1236,7 +1236,7 @@ resource configservice_label cognitive_video_transscription_invalid_body {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Transcript is not a valid WEBVTT transcript'
+      default_translation = 'The auto-generated transcript is invalid. Please try regenerating it or contact your administrator about this issue'
       language_id = data.language.english.id
     },
     {
