@@ -1230,6 +1230,22 @@ resource configservice_label cognitive_video_transscription_revert_cue {
   ]
 }
 
+resource configservice_label cognitive_video_transscription_invalid_body {
+  key = 'COGNITIVE_VIDEO_TRANSSCRIPTION_INVALID_TRANSCRIPT_BODY'
+  group = 'Inputs'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Transcript is not a valid WEBVTT transcript'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Transskription er ikke et gyldigt WEBVTT-transskript'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label inputs_note_input_add_description {
   key = 'INPUTS_NOTE_INPUT_ADD_DESCRIPTION'
   group = 'Inputs'
