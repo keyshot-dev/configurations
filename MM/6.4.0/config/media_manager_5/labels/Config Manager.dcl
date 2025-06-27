@@ -2379,11 +2379,11 @@ resource configservice_label portal_config_manager_section_asset_search {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Asset search'
+      default_translation = 'Asset search and filters'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Assetsøgning'
+      default_translation = 'Assetsøgning og filtre'
       language_id = data.language.danish.id
     }
   ]

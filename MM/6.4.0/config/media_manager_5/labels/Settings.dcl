@@ -2197,11 +2197,11 @@ resource configservice_label settings_asset_search_customization_settings_custom
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Asset search'
+      default_translation = 'Asset search and filters'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Assetsøgning'
+      default_translation = 'Assetsøgning og filtre'
       language_id = data.language.danish.id
     }
   ]
