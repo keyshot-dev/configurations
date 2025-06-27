@@ -2606,6 +2606,22 @@ resource configservice_label administration_tools_analytics_table_total {
   ]
 }
 
+resource configservice_label administration_tools_analytics_table_name {
+  key = 'ADMINISTRATION_TOOLS_ANALYTICS_TABLE_NAME'
+  group = 'administration-tools - analytics-table'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Name'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Navn'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label administration_tools_analytics_color_builder_add {
   key = 'ADMINISTRATION_TOOLS_ANALYTICS_COLOR_BUILDER_ADD'
   group = 'administration-tools - analytics-color-builder'
