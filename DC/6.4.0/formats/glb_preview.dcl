@@ -1,5 +1,5 @@
 resource format glb_preview {
-    name = 'GLB'
+    name = 'GLB Preview'
     guid = 'fb0be0bf-8bb9-4106-b402-87e22fd3fe80'
     description = 'A format for previewing 3D files in .glb'
     immediately_generated_for = [{
@@ -39,5 +39,10 @@ resource format glb_preview {
             value = '0'
         }]
     system = true
+}
+
+patch format glb {
+    target = resource.format.glb_preview
+    name = 'GLB'
 }
 
