@@ -175,12 +175,12 @@ resource asset_type_extension id_gif {
 
 resource asset_type_extension id_glb {
     extension = 'glb'
-    asset_type = 'Cad'
+    asset_type = 'ThreeD'
 }
 
 resource asset_type_extension id_gltf {
     extension = 'gltf'
-    asset_type = 'Cad'
+    asset_type = 'ThreeD'
 }
 
 resource asset_type_extension id_hdr {
@@ -280,7 +280,7 @@ resource asset_type_extension id_klf {
 
 resource asset_type_extension id_ksp {
     extension = 'ksp'
-    asset_type = 'Cad'
+    asset_type = 'KeyShotScene'
 }
 
 resource asset_type_extension id_m2p {
@@ -325,7 +325,7 @@ resource asset_type_extension id_mpp {
 
 resource asset_type_extension id_mtl {
     extension = 'mtl'
-    asset_type = 'KeyShotMaterial'
+    asset_type = 'ThreeD'
 }
 
 resource asset_type_extension id_nef {
@@ -335,7 +335,7 @@ resource asset_type_extension id_nef {
 
 resource asset_type_extension id_obj {
     extension = 'obj'
-    asset_type = 'Cad'
+    asset_type = 'ThreeD'
 }
 
 resource asset_type_extension id_odp {
@@ -525,7 +525,7 @@ resource asset_type_extension id_step {
 
 resource asset_type_extension id_stl {
     extension = 'stl'
-    asset_type = 'Cad'
+    asset_type = 'ThreeD'
 }
 
 resource asset_type_extension id_stp {
@@ -560,22 +560,22 @@ resource asset_type_extension id_txt {
 
 resource asset_type_extension id_usd {
     extension = 'usd'
-    asset_type = 'Cad'
+    asset_type = 'ThreeD'
 }
 
 resource asset_type_extension id_usda {
     extension = 'usda'
-    asset_type = 'Cad'
+    asset_type = 'ThreeD'
 }
 
 resource asset_type_extension id_usdc {
     extension = 'usdc'
-    asset_type = 'Cad'
+    asset_type = 'ThreeD'
 }
 
 resource asset_type_extension id_usdz {
     extension = 'usdz'
-    asset_type = 'Cad'
+    asset_type = 'ThreeD'
 }
 
 resource asset_type_extension id_vsd {
