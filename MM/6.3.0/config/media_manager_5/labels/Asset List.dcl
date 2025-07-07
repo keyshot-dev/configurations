@@ -462,6 +462,39 @@ resource configservice_label asset_list_folders_assets_moved_body {
   ]
 }
 
+resource configservice_label asset_list_folders_folders_moved_title {
+  key = 'ASSET_LIST_FOLDERS_FOLDERS_MOVED_TITLE'
+  group = 'Asset List'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Success'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Succes'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_list_folders_folders_moved_body {
+  key = 'ASSET_LIST_FOLDERS_FOLDERS_MOVED_BODY'
+  group = 'Asset List'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = '{{parent}} is moved to the {{child}} folder'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = '{{parent}} er flyttet til mappen {{child}} folder'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+
 
 resource configservice_label asset_list_box_view_item_asset_info {
   key = 'ASSET_LIST_BOX_VIEW_ITEM_ASSET_INFO'
