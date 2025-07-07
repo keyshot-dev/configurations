@@ -11493,7 +11493,7 @@ resource configservice_label administration_tools_system_metadata_tree_editor_va
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Value'
+      default_translation = 'Værdi'
       language_id = data.language.danish.id
     }
   ]
@@ -11605,7 +11605,7 @@ resource configservice_label administration_tools_system_metadata_tree_editor_op
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Valgmulighedsværdi'
+      default_translation = 'Valgmuligheds-værdi'
       language_id = data.language.danish.id
     }
   ]
@@ -11621,7 +11621,7 @@ resource configservice_label administration_tools_system_metadata_tree_editor_op
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Valgmulighedsværdi er påkrævet'
+      default_translation = 'Valgmuligheds-værdi er påkrævet'
       language_id = data.language.danish.id
     }
   ]
@@ -11717,7 +11717,7 @@ resource configservice_label administration_tools_system_metadata_tree_editor_se
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Vælg trænode for at redigere'
+      default_translation = 'Vælg trænode der skal redigeres'
       language_id = data.language.danish.id
     }
   ]
@@ -11877,7 +11877,7 @@ resource configservice_label administration_tools_system_metadata_tree_editor_su
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Trænoden er blevet gemt'
+      default_translation = 'Trænoden blev gemt'
       language_id = data.language.danish.id
     }
   ]
@@ -11925,7 +11925,7 @@ resource configservice_label administration_tools_system_metadata_combo_values_e
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Administrer kombinationsværdier'
+      default_translation = 'Administrer combo-værdier'
       language_id = data.language.danish.id
     }
   ]
@@ -12293,7 +12293,7 @@ resource configservice_label administration_tools_system_metadata_combo_values_e
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Kombinationsværdien er gemt'
+      default_translation = 'Kombinationsværdien blev gemt'
       language_id = data.language.danish.id
     }
   ]
