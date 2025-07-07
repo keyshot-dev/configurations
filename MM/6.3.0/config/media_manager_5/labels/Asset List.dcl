@@ -484,11 +484,11 @@ resource configservice_label asset_list_folders_folders_moved_body {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = '{{parent}} is moved to the {{child}} folder'
+      default_translation = '{{child}} is moved to the {{parent}} folder'
       language_id = data.language.english.id
     },
     {
-      default_translation = '{{parent}} er flyttet til mappen {{child}} folder'
+      default_translation = '{{child}} er flyttet til mappen {{parent}} folder'
       language_id = data.language.danish.id
     }
   ]
