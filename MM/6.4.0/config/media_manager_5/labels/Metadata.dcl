@@ -2259,11 +2259,11 @@ resource configservice_label multi_metadata_editor_auto_save_paused_label {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'AutoSave paused'
+      default_translation = 'Auto-save paused'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Automatisk lagring er sat på pause'
+      default_translation = 'Auto-gem sat på pause'
       language_id = data.language.danish.id
     }
   ]
@@ -2275,11 +2275,11 @@ resource configservice_label multi_metadata_editor_saving_label {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Saving ...'
+      default_translation = 'Saving...'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Gemmer ...'
+      default_translation = 'Gemmer...'
       language_id = data.language.danish.id
     }
   ]
@@ -2291,11 +2291,11 @@ resource configservice_label multi_metadata_editor_auto_save_not_possible_label 
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'AutoSave not possible'
+      default_translation = 'Auto-save failed'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Automatisk lagring er ikke mulig'
+      default_translation = 'Auto-gem mislykkedes'
       language_id = data.language.danish.id
     }
   ]
@@ -2307,11 +2307,11 @@ resource configservice_label multi_metadata_editor_editing_in_progress_label {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Editing in progress ...'
+      default_translation = 'Editing in progress...'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Redigering i gang ...'
+      default_translation = 'Redigering igangværende...'
       language_id = data.language.danish.id
     }
   ]
@@ -2327,7 +2327,7 @@ resource configservice_label multi_metadata_editor_all_changes_saved_label {
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Alle ændringer er gemt'
+      default_translation = 'Alle ændringer gemt'
       language_id = data.language.danish.id
     }
   ]
