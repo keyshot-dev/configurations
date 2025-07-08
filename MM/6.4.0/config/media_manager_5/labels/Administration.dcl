@@ -11605,7 +11605,7 @@ resource configservice_label administration_tools_system_metadata_tree_editor_op
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Valgmuligheds-værdi'
+      default_translation = 'Option-værdi'
       language_id = data.language.danish.id
     }
   ]
@@ -11621,7 +11621,7 @@ resource configservice_label administration_tools_system_metadata_tree_editor_op
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Valgmuligheds-værdi er påkrævet'
+      default_translation = 'Option-værdi er påkrævet'
       language_id = data.language.danish.id
     }
   ]
@@ -11941,7 +11941,7 @@ resource configservice_label administration_tools_system_metadata_combo_values_e
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Opret ny kombinationsværdi'
+      default_translation = 'Opret ny combo-værdi'
       language_id = data.language.danish.id
     }
   ]
@@ -12053,7 +12053,7 @@ resource configservice_label administration_tools_system_metadata_combo_values_e
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Slet kombinationsværdi'
+      default_translation = 'Slet combo-værdi'
       language_id = data.language.danish.id
     }
   ]
@@ -12069,7 +12069,7 @@ resource configservice_label administration_tools_system_metadata_combo_values_e
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Ingen kombinationsværdier fundet'
+      default_translation = 'Ingen combo-værdier fundet'
       language_id = data.language.danish.id
     }
   ]
@@ -12133,7 +12133,7 @@ resource configservice_label administration_tools_system_metadata_combo_values_e
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Vælg en kombinationsværdi, der skal redigeres'
+      default_translation = 'Vælg en combo-værdi, der skal redigeres'
       language_id = data.language.danish.id
     }
   ]
@@ -12149,7 +12149,7 @@ resource configservice_label administration_tools_system_metadata_combo_values_e
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Slet kombinationsværdi'
+      default_translation = 'Slet combo-værdi'
       language_id = data.language.danish.id
     }
   ]
@@ -12165,7 +12165,7 @@ resource configservice_label administration_tools_system_metadata_combo_values_e
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Er du sikker på, at du vil slette denne kombinationsværdi?'
+      default_translation = 'Er du sikker på, at du vil slette denne combo-værdi?'
       language_id = data.language.danish.id
     }
   ]
@@ -12229,7 +12229,7 @@ resource configservice_label administration_tools_system_metadata_combo_values_e
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Kombinationsværdien er slettet'
+      default_translation = 'Combo-værdi er slettet'
       language_id = data.language.danish.id
     }
   ]
@@ -12261,7 +12261,7 @@ resource configservice_label administration_tools_system_metadata_combo_values_e
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Kombinationsværdien blev ikke slettet'
+      default_translation = 'Combo-værdi blev ikke slettet'
       language_id = data.language.danish.id
     }
   ]
@@ -12293,7 +12293,7 @@ resource configservice_label administration_tools_system_metadata_combo_values_e
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Kombinationsværdien blev gemt'
+      default_translation = 'Combo-værdi blev gemt'
       language_id = data.language.danish.id
     }
   ]
@@ -12325,7 +12325,7 @@ resource configservice_label administration_tools_system_metadata_combo_values_e
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Kombinationsværdien blev ikke gemt'
+      default_translation = 'Combo-værdi blev ikke gemt'
       language_id = data.language.danish.id
     }
   ]
