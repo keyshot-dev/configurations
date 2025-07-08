@@ -2237,7 +2237,7 @@ resource configservice_label multi_metadata_editor_button_navigate_to_group {
   ]
 }
 
-resource configservice_label multi_metadata_editor_show_hide_field_values_tooltip{
+resource configservice_label multi_metadata_editor_show_hide_field_values_tooltip {
   key = 'MULTI_METADATA_EDITOR_SHOW_HIDE_FIELD_VALUES_TOOLTIP'
   group = 'Metadata'
   product_id = resource.configservice_product.media_manager_5.id
@@ -2248,6 +2248,86 @@ resource configservice_label multi_metadata_editor_show_hide_field_values_toolti
     },
     {
       default_translation = '{showValue, select, false {Vis} true {Skjul}} felt i assetpanelet'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label multi_metadata_editor_auto_save_paused_label {
+  key = 'MULTI_METADATA_EDITOR_AUTO_SAVE_PAUSED_LABEL'
+  group = 'Metadata'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Auto-save paused'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Auto-gem sat på pause'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label multi_metadata_editor_saving_label {
+  key = 'MULTI_METADATA_EDITOR_SAVING_LABEL'
+  group = 'Metadata'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Saving...'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Gemmer...'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label multi_metadata_editor_auto_save_not_possible_label {
+  key = 'MULTI_METADATA_EDITOR_AUTO_SAVE_NOT_POSSIBLE_LABEL'
+  group = 'Metadata'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Auto-save failed'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Auto-gem mislykkedes'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label multi_metadata_editor_editing_in_progress_label {
+  key = 'MULTI_METADATA_EDITOR_EDITING_IN_PROGRESS_LABEL'
+  group = 'Metadata'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Editing in progress...'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Redigering igangværende...'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label multi_metadata_editor_all_changes_saved_label {
+  key = 'MULTI_METADATA_EDITOR_ALL_CHANGES_SAVED_LABEL'
+  group = 'Metadata'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'All changes saved'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Alle ændringer gemt'
       language_id = data.language.danish.id
     }
   ]
