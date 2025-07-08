@@ -11387,5 +11387,946 @@ resource configservice_label administration_tools_meta_fields_section_ignore_val
   ]
 }
 
+resource configservice_label administration_tools_system_metadata_tree_editor_title {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_METADATA_TREE_EDITOR_TITLE'
+  group = 'administration-tools - system - metadata'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Tree editor'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Træeditor'
+      language_id = data.language.danish.id
+    }
+  ]
+}
 
+resource configservice_label administration_tools_system_metadata_tree_editor_expand {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_METADATA_TREE_EDITOR_EXPAND'
+  group = 'administration-tools - system - metadata'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Expand'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Udvid'
+      language_id = data.language.danish.id
+    }
+  ]
+}
 
+resource configservice_label administration_tools_system_metadata_tree_editor_collapse {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_METADATA_TREE_EDITOR_COLLAPSE'
+  group = 'administration-tools - system - metadata'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Collapse'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Kollaps'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_metadata_tree_editor_create_new {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_METADATA_TREE_EDITOR_CREATE_NEW'
+  group = 'administration-tools - system - metadata'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Create new tree node'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Opret ny trænode'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_metadata_tree_editor_refresh {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_METADATA_TREE_EDITOR_REFRESH'
+  group = 'administration-tools - system - metadata'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Refresh'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Genindlæs'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_metadata_tree_editor_text {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_METADATA_TREE_EDITOR_TEXT'
+  group = 'administration-tools - system - metadata'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Text'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Tekst'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_metadata_tree_editor_value {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_METADATA_TREE_EDITOR_VALUE'
+  group = 'administration-tools - system - metadata'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Value'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Værdi'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_metadata_tree_editor_sort_index {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_METADATA_TREE_EDITOR_SORT_INDEX'
+  group = 'administration-tools - system - metadata'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Sort index'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Sorteringsindeks'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_metadata_tree_editor_actions {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_METADATA_TREE_EDITOR_ACTIONS'
+  group = 'administration-tools - system - metadata'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Actions'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Handlinger'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_metadata_tree_editor_create_new_tooltip {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_METADATA_TREE_EDITOR_CREATE_NEW_TOOLTIP'
+  group = 'administration-tools - system - metadata'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Create new tree node'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Opret ny trænode'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_metadata_tree_editor_manage_access_rights {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_METADATA_TREE_EDITOR_MANAGE_ACCESS_RIGHTS'
+  group = 'administration-tools - system - metadata'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Manage access rights'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Administrer adgangsrettigheder'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_metadata_tree_editor_delete {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_METADATA_TREE_EDITOR_DELETE'
+  group = 'administration-tools - system - metadata'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Delete tree node'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Slet trænode'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_metadata_tree_editor_not_found {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_METADATA_TREE_EDITOR_NOT_FOUND'
+  group = 'administration-tools - system - metadata'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'No tree nodes found'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Ingen trænoder fundet'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_metadata_tree_editor_option_value {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_METADATA_TREE_EDITOR_OPTION_VALUE'
+  group = 'administration-tools - system - metadata'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Option value'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Option-værdi'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_metadata_tree_editor_option_value_required {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_METADATA_TREE_EDITOR_OPTION_VALUE_REQUIRED'
+  group = 'administration-tools - system - metadata'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Option value is required'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Option-værdi er påkrævet'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_metadata_tree_editor_parent_id {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_METADATA_TREE_EDITOR_PARENT_ID'
+  group = 'administration-tools - system - metadata'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Parent ID'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Forælder-ID'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_metadata_tree_editor_select {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_METADATA_TREE_EDITOR_SELECT'
+  group = 'administration-tools - system - metadata'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Select tree node'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Vælg trænode'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_metadata_tree_editor_text_required {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_METADATA_TREE_EDITOR_TEXT_REQUIRED'
+  group = 'administration-tools - system - metadata'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Text ({{languageName}}) is required'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Tekst ({{languageName}}) er påkrævet'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_metadata_tree_editor_cancel {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_METADATA_TREE_EDITOR_CANCEL'
+  group = 'administration-tools - system - metadata'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Cancel'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Annuller'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_metadata_tree_editor_save {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_METADATA_TREE_EDITOR_SAVE'
+  group = 'administration-tools - system - metadata'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = '{saving, select, true {Saving...} false {Save}}'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = '{saving, select, true {Gemmer...} false {Gem}}'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_metadata_tree_editor_select_to_edit {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_METADATA_TREE_EDITOR_SELECT_TO_EDIT'
+  group = 'administration-tools - system - metadata'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Select tree node to edit'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Vælg trænode der skal redigeres'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_metadata_tree_editor_delete_confirmation_title {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_METADATA_TREE_EDITOR_DELETE_CONFIRMATION_TITLE'
+  group = 'administration-tools - system - metadata'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Delete tree node'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Slet trænode'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_metadata_tree_editor_delete_confirmation_content {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_METADATA_TREE_EDITOR_DELETE_CONFIRMATION_CONTENT'
+  group = 'administration-tools - system - metadata'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Are you sure you want to delete this tree node?'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Er du sikker på, at du vil slette denne trænode?'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_metadata_tree_editor_delete_confirmation_cancel {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_METADATA_TREE_EDITOR_DELETE_CONFIRMATION_CANCEL'
+  group = 'administration-tools - system - metadata'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Cancel'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Annuller'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_metadata_tree_editor_delete_confirmation_confirm {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_METADATA_TREE_EDITOR_DELETE_CONFIRMATION_CONFIRM'
+  group = 'administration-tools - system - metadata'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Confirm'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Bekræft'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_metadata_tree_editor_success_delete_title {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_METADATA_TREE_EDITOR_SUCCESS_DELETE_TITLE'
+  group = 'administration-tools - system - metadata'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Success'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Succes'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_metadata_tree_editor_success_delete_content {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_METADATA_TREE_EDITOR_SUCCESS_DELETE_CONTENT'
+  group = 'administration-tools - system - metadata'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Tree node successfully deleted'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Trænoden er blevet slettet'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_metadata_tree_editor_error_delete_title {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_METADATA_TREE_EDITOR_ERROR_DELETE_TITLE'
+  group = 'administration-tools - system - metadata'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Failed'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Mislykket'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_metadata_tree_editor_error_delete_content {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_METADATA_TREE_EDITOR_ERROR_DELETE_CONTENT'
+  group = 'administration-tools - system - metadata'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Tree node not deleted'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Trænoden blev ikke slettet'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_metadata_tree_editor_success_save_title {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_METADATA_TREE_EDITOR_SUCCESS_SAVE_TITLE'
+  group = 'administration-tools - system - metadata'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Success'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Succes'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_metadata_tree_editor_success_save_content {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_METADATA_TREE_EDITOR_SUCCESS_SAVE_CONTENT'
+  group = 'administration-tools - system - metadata'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Tree node successfully saved'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Trænoden blev gemt'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_metadata_tree_editor_error_save_title {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_METADATA_TREE_EDITOR_ERROR_SAVE_TITLE'
+  group = 'administration-tools - system - metadata'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Failed'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Mislykket'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_metadata_tree_editor_error_save_content {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_METADATA_TREE_EDITOR_ERROR_SAVE_CONTENT'
+  group = 'administration-tools - system - metadata'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Tree node type not saved'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Trænodetypen blev ikke gemt'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_metadata_combo_values_editor_title {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_METADATA_COMBO_VALUES_EDITOR_TITLE'
+  group = 'administration-tools - system - metadata'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Manage combo values'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Administrer combo-værdier'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_metadata_combo_values_editor_create_new {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_METADATA_COMBO_VALUES_EDITOR_CREATE_NEW'
+  group = 'administration-tools - system - metadata'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Create new combo value'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Opret ny combo-værdi'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_metadata_combo_values_editor_refresh {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_METADATA_COMBO_VALUES_EDITOR_REFRESH'
+  group = 'administration-tools - system - metadata'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Refresh'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Genindlæs'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_metadata_combo_values_editor_text {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_METADATA_COMBO_VALUES_EDITOR_TEXT'
+  group = 'administration-tools - system - metadata'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Text'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Tekst'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_metadata_combo_values_editor_value {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_METADATA_COMBO_VALUES_EDITOR_VALUE'
+  group = 'administration-tools - system - metadata'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Value'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Value'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_metadata_combo_values_editor_sort_index {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_METADATA_COMBO_VALUES_EDITOR_SORT_INDEX'
+  group = 'administration-tools - system - metadata'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Sort index'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Sorteringsindeks'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_metadata_combo_values_editor_actions {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_METADATA_COMBO_VALUES_EDITOR_ACTIONS'
+  group = 'administration-tools - system - metadata'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Actions'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Handlinger'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_metadata_combo_values_editor_manage_access_rights {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_METADATA_COMBO_VALUES_EDITOR_MANAGE_ACCESS_RIGHTS'
+  group = 'administration-tools - system - metadata'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Manage access rights'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Administrer adgangsrettigheder'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_metadata_combo_values_editor_delete {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_METADATA_COMBO_VALUES_EDITOR_DELETE'
+  group = 'administration-tools - system - metadata'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Delete combo value'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Slet combo-værdi'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_metadata_combo_values_editor_not_found {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_METADATA_COMBO_VALUES_EDITOR_NOT_FOUND'
+  group = 'administration-tools - system - metadata'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'No combo values found'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Ingen combo-værdier fundet'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_metadata_combo_values_editor_text_required {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_METADATA_COMBO_VALUES_EDITOR_TEXT_REQUIRED'
+  group = 'administration-tools - system - metadata'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Text ({{languageName}}) is required'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Tekst ({{languageName}}) er påkrævet'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_metadata_combo_values_editor_cancel {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_METADATA_COMBO_VALUES_EDITOR_CANCEL'
+  group = 'administration-tools - system - metadata'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Cancel'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Annuller'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_metadata_combo_values_editor_save {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_METADATA_COMBO_VALUES_EDITOR_SAVE'
+  group = 'administration-tools - system - metadata'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = '{saving, select, true {Saving...} false {Save}}'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = '{saving, select, true {Gemmer...} false {Gem}}'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_metadata_combo_values_editor_select_to_edit {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_METADATA_COMBO_VALUES_EDITOR_SELECT_TO_EDIT'
+  group = 'administration-tools - system - metadata'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Select combo value to edit'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Vælg en combo-værdi, der skal redigeres'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_metadata_combo_values_editor_delete_confirmation_title {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_METADATA_COMBO_VALUES_EDITOR_DELETE_CONFIRMATION_TITLE'
+  group = 'administration-tools - system - metadata'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Delete combo value'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Slet combo-værdi'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_metadata_combo_values_editor_delete_confirmation_content {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_METADATA_COMBO_VALUES_EDITOR_DELETE_CONFIRMATION_CONTENT'
+  group = 'administration-tools - system - metadata'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Are you sure you want to delete this combo value?'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Er du sikker på, at du vil slette denne combo-værdi?'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_metadata_combo_values_editor_delete_confirmation_cancel {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_METADATA_COMBO_VALUES_EDITOR_DELETE_CONFIRMATION_CANCEL'
+  group = 'administration-tools - system - metadata'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Cancel'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Annuller'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_metadata_combo_values_editor_delete_confirmation_confirm {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_METADATA_COMBO_VALUES_EDITOR_DELETE_CONFIRMATION_CONFIRM'
+  group = 'administration-tools - system - metadata'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Confirm'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Bekræft'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_metadata_combo_values_editor_success_delete_title {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_METADATA_COMBO_VALUES_EDITOR_SUCCESS_DELETE_TITLE'
+  group = 'administration-tools - system - metadata'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Success'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Succes'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_metadata_combo_values_editor_success_delete_content {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_METADATA_COMBO_VALUES_EDITOR_SUCCESS_DELETE_CONTENT'
+  group = 'administration-tools - system - metadata'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Combo value successfully deleted'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Combo-værdi er slettet'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_metadata_combo_values_editor_error_delete_title {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_METADATA_COMBO_VALUES_EDITOR_ERROR_DELETE_TITLE'
+  group = 'administration-tools - system - metadata'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Failed'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Mislykket'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_metadata_combo_values_editor_error_delete_content {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_METADATA_COMBO_VALUES_EDITOR_ERROR_DELETE_CONTENT'
+  group = 'administration-tools - system - metadata'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Combo value not deleted'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Combo-værdi blev ikke slettet'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_metadata_combo_values_editor_success_save_title {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_METADATA_COMBO_VALUES_EDITOR_SUCCESS_SAVE_TITLE'
+  group = 'administration-tools - system - metadata'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Success'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Succes'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_metadata_combo_values_editor_success_save_content {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_METADATA_COMBO_VALUES_EDITOR_SUCCESS_SAVE_CONTENT'
+  group = 'administration-tools - system - metadata'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Combo value successfully saved'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Combo-værdi blev gemt'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_metadata_combo_values_editor_error_save_title {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_METADATA_COMBO_VALUES_EDITOR_ERROR_SAVE_TITLE'
+  group = 'administration-tools - system - metadata'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Failed'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Mislykket'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_metadata_combo_values_editor_error_save_content {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_METADATA_COMBO_VALUES_EDITOR_ERROR_SAVE_CONTENT'
+  group = 'administration-tools - system - metadata'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Combo value value not saved'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Combo-værdi blev ikke gemt'
+      language_id = data.language.danish.id
+    }
+  ]
+}
