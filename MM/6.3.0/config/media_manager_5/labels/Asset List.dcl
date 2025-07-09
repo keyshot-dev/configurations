@@ -452,11 +452,11 @@ resource configservice_label asset_list_folders_assets_moved_body {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = '{{count}} assets {isCopied, select, true {copied} false {moved}}'
+      default_translation = '{{count}} {count, cardinalPlural, one {asset} other {assets}} {isCopied, select, true {copied} false {moved}}'
       language_id = data.language.english.id
     },
     {
-      default_translation = '{{count}} assets {isCopied, select, true {kopieret} false {flyttet}}'
+      default_translation = '{{count}} {count, cardinalPlural, one {asset} other {assets}} {isCopied, select, true {kopieret} false {flyttet}}'
       language_id = data.language.danish.id
     }
   ]
