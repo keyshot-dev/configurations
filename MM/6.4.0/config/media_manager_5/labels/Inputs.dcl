@@ -1236,11 +1236,11 @@ resource configservice_label cognitive_video_transscription_invalid_body {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'The auto-generated transcript is invalid. Please try regenerating it or contact your administrator about this issue'
+      default_translation = 'The auto-generated transcript is invalid. Please try regenerating it or contact your administrator'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Den auto-genererede transskription er ugyldig. Prøv at regenerere den, ellers så kontakt din administrator angående dette problem.'
+      default_translation = 'Den auto-genererede transskription er ugyldig. Prøv at regenerere den, ellers kontakt din administrator'
       language_id = data.language.danish.id
     }
   ]
