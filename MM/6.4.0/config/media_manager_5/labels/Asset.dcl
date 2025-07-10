@@ -712,7 +712,7 @@ resource configservice_label asset_type {
       language_id = data.language.english.id
     },
     {
-      default_translation = '{id, select, -1 {Ukendt} 0 {Alle} 1 {Video} 2 {Lyd} 4 {Billede} 5 {PowerPoint} 6 {HTML} 7 {Tekst} 8 {Word} 9 {Excel} 10 {InDesign} 11 {ZIP} 12 {META} 14 {PDF} 15 {Arkiv} 16 {Photoshop} 17 {Illustrator} 18 {Visio} 19 {CAD} 20 {Font} 21 {After Effects} 22 {Premiere Pro} 23 {KeyShot Scene} 24 {KeyShot Materiale} 25 {KeyShot Miljø} 26 {3D} 100 {ODT} 101 {OTT} 102 {ODS} 103 {OTS} 105 {ODP} 106 {OTP} 107 {ODG} 108 {OTG} 109 {ODB} 110 {ODF} 111 {ODM} 112 {OTH} 1000 {Live}}'
+      default_translation = '{id, select, -1 {Ukendt} 0 {Alle} 1 {Video} 2 {Lyd} 4 {Billede} 5 {PowerPoint} 6 {HTML} 7 {Tekst} 8 {Word} 9 {Excel} 10 {InDesign} 11 {ZIP} 12 {META} 14 {PDF} 15 {Arkiv} 16 {Photoshop} 17 {Illustrator} 18 {Visio} 19 {CAD} 20 {Font} 21 {After Effects} 22 {Premiere Pro} 23 {KeyShot Scene} 24 {KeyShot Material} 25 {KeyShot Environment} 26 {3D} 100 {ODT} 101 {OTT} 102 {ODS} 103 {OTS} 105 {ODP} 106 {OTP} 107 {ODG} 108 {OTG} 109 {ODB} 110 {ODF} 111 {ODM} 112 {OTH} 1000 {Live}}'
       language_id = data.language.danish.id
     }
   ]
