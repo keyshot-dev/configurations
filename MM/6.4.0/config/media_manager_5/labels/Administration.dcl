@@ -6199,6 +6199,22 @@ resource configservice_label administration_tools_system_nav_groups {
   ]
 }
 
+resource configservice_label administration_tools_system_nav_workspaces {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_NAV_WORKSPACES'
+  group = 'administration-tools - system'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Workspaces'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Arbejdsområder'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label administration_tools_system_nav_metadata {
   key = 'ADMINISTRATION_TOOLS_SYSTEM_NAV_METADATA'
   group = 'administration-tools - system'
@@ -11190,6 +11206,550 @@ resource configservice_label administration_tools_system_asset_relation_types_sy
     },
     {
       default_translation = 'Hvis aktiveret, vil sekundære assets i denne relation ikke være tilgængelige på asset-listen (medmindre brugere tilføjer "Sekundær til primær"-filterindstillingen)'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_workspaces_section {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_WORKSPACES_SECTION'
+  group = 'administration-tools - system - workspaces'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Workspace Management'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Administration af arbejdsområder'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_workspaces_tooltip {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_WORKSPACES_TOOLTIP'
+  group = 'administration-tools - system - workspaces'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Manage workspaces and their hierarchical structure'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Administrer arbejdsområder og deres hierarkiske struktur'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_workspaces_add_new {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_WORKSPACES_ADD_NEW'
+  group = 'administration-tools - system - workspaces'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Add new workspace'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Tilføj nyt arbejdsområde'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_workspaces_refresh {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_WORKSPACES_REFRESH'
+  group = 'administration-tools - system - workspaces'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Refresh workspaces'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Genindlæs arbejdsområder'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_workspaces_id {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_WORKSPACES_ID'
+  group = 'administration-tools - system - workspaces'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'ID'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'ID'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_workspaces_name {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_WORKSPACES_NAME'
+  group = 'administration-tools - system - workspaces'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Name'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Navn'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_workspaces_parent {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_WORKSPACES_PARENT'
+  group = 'administration-tools - system - workspaces'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Parent'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Overordnet'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_workspaces_system {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_WORKSPACES_SYSTEM'
+  group = 'administration-tools - system - workspaces'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'System'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'System'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_workspaces_actions {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_WORKSPACES_ACTIONS'
+  group = 'administration-tools - system - workspaces'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Actions'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Handlinger'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_workspaces_edit {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_WORKSPACES_EDIT'
+  group = 'administration-tools - system - workspaces'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Edit workspace'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Rediger arbejdsområde'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_workspaces_delete {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_WORKSPACES_DELETE'
+  group = 'administration-tools - system - workspaces'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Delete workspace'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Slet arbejdsområde'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_workspaces_no_workspaces {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_WORKSPACES_NO_WORKSPACES'
+  group = 'administration-tools - system - workspaces'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'No workspaces found'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Ingen arbejdsområder fundet'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_workspaces_no_workspaces_description {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_WORKSPACES_NO_WORKSPACES_DESCRIPTION'
+  group = 'administration-tools - system - workspaces'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Create your first workspace to get started'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Opret dit første arbejdsområde for at komme i gang'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_workspaces_add_workspace {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_WORKSPACES_ADD_WORKSPACE'
+  group = 'administration-tools - system - workspaces'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Add Workspace'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Tilføj arbejdsområde'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_workspaces_edit_workspace {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_WORKSPACES_EDIT_WORKSPACE'
+  group = 'administration-tools - system - workspaces'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Edit Workspace'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Rediger arbejdsområde'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_workspaces_close {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_WORKSPACES_CLOSE'
+  group = 'administration-tools - system - workspaces'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Close'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Luk'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_workspaces_name_placeholder {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_WORKSPACES_NAME_PLACEHOLDER'
+  group = 'administration-tools - system - workspaces'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Enter workspace name'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Indtast navn på arbejdsområde'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_workspaces_parent_placeholder {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_WORKSPACES_PARENT_PLACEHOLDER'
+  group = 'administration-tools - system - workspaces'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Select parent workspace'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Vælg overordnet arbejdsområde'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_workspaces_no_parent {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_WORKSPACES_NO_PARENT'
+  group = 'administration-tools - system - workspaces'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'No parent (Root level)'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Ingen overordnet (Rod-niveau)'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_workspaces_system_workspace {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_WORKSPACES_SYSTEM_WORKSPACE'
+  group = 'administration-tools - system - workspaces'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'System workspace (cannot be deleted)'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'System-arbejdsområde (kan ikke slettes)'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_workspaces_cancel {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_WORKSPACES_CANCEL'
+  group = 'administration-tools - system - workspaces'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Cancel'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Annuller'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_workspaces_save {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_WORKSPACES_SAVE'
+  group = 'administration-tools - system - workspaces'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Save'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Gem'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_workspaces_select_workspace {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_WORKSPACES_SELECT_WORKSPACE'
+  group = 'administration-tools - system - workspaces'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Select a workspace to edit'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Vælg et arbejdsområde for at redigere'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_workspaces_select_workspace_description {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_WORKSPACES_SELECT_WORKSPACE_DESCRIPTION'
+  group = 'administration-tools - system - workspaces'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Choose a workspace from the table or create a new one'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Vælg et arbejdsområde fra tabellen eller opret et nyt'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_workspaces_dialog_delete_workspace_title {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_WORKSPACES_DIALOG_DELETE_WORKSPACE_TITLE'
+  group = 'administration-tools - system - workspaces'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Delete workspace'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Slet arbejdsområde'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_workspaces_dialog_delete_workspace_body {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_WORKSPACES_DIALOG_DELETE_WORKSPACE_BODY'
+  group = 'administration-tools - system - workspaces'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Are you sure you want to delete this workspace? This action cannot be undone and will also delete any child workspaces.'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Er du sikker på, at du vil slette dette arbejdsområde? Denne handling kan ikke fortrydes og vil også slette eventuelle underordnede arbejdsområder.'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_workspaces_dialog_delete_workspace_cancel {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_WORKSPACES_DIALOG_DELETE_WORKSPACE_CANCEL'
+  group = 'administration-tools - system - workspaces'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Cancel'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Annuller'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_workspaces_dialog_delete_workspace_confirm {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_WORKSPACES_DIALOG_DELETE_WORKSPACE_CONFIRM'
+  group = 'administration-tools - system - workspaces'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Delete'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Slet'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_workspaces_delete_workspace_success {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_WORKSPACES_DELETE_WORKSPACE_SUCCESS'
+  group = 'administration-tools - system - workspaces'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Workspace deleted successfully'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Arbejdsområde slettet med succes'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_workspaces_delete_workspace_error {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_WORKSPACES_DELETE_WORKSPACE_ERROR'
+  group = 'administration-tools - system - workspaces'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Failed to delete workspace: {{error}}'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Kunne ikke slette arbejdsområde: {{error}}'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_workspaces_delete_error_title {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_WORKSPACES_DELETE_ERROR_TITLE'
+  group = 'administration-tools - system - workspaces'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Delete Failed'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Sletning mislykkedes'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_workspaces_changes_saved {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_WORKSPACES_CHANGES_SAVED'
+  group = 'administration-tools - system - workspaces'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Workspace saved successfully'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Arbejdsområde gemt med succes'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_workspaces_save_error_body {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_WORKSPACES_SAVE_ERROR_BODY'
+  group = 'administration-tools - system - workspaces'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Failed to save workspace: {{error}}'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Kunne ikke gemme arbejdsområde: {{error}}'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_workspaces_save_error_title {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_WORKSPACES_SAVE_ERROR_TITLE'
+  group = 'administration-tools - system - workspaces'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Save Failed'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Gem mislykkedes'
       language_id = data.language.danish.id
     }
   ]
