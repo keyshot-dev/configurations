@@ -11441,11 +11441,27 @@ resource configservice_label administration_tools_system_workspaces_edit_workspa
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Edit Workspace'
+      default_translation = 'Edit workspace {{name}}'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Rediger arbejdsområde'
+      default_translation = 'Rediger arbejdsområde {{name}}'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_workspaces_delete_workspace {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_WORKSPACES_DELETE_WORKSPACE'
+  group = 'administration-tools - system - workspaces'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Delete workspace {{name}}'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Slet arbejdsområde {{name}}'
       language_id = data.language.danish.id
     }
   ]
@@ -11702,38 +11718,6 @@ resource configservice_label administration_tools_system_workspaces_delete_error
     },
     {
       default_translation = 'Sletning mislykkedes'
-      language_id = data.language.danish.id
-    }
-  ]
-}
-
-resource configservice_label administration_tools_system_workspaces_edit_workspace {
-  key = 'ADMINISTRATION_TOOLS_SYSTEM_WORKSPACES_EDIT_WORKSPACE'
-  group = 'administration-tools - system - workspaces'
-  product_id = resource.configservice_product.media_manager_5.id
-  default_label_values = [
-    {
-      default_translation = 'Edit workspace {{name}}'
-      language_id = data.language.english.id
-    },
-    {
-      default_translation = 'Rediger arbejdsområde {{name}}'
-      language_id = data.language.danish.id
-    }
-  ]
-}
-
-resource configservice_label administration_tools_system_workspaces_delete_workspace {
-  key = 'ADMINISTRATION_TOOLS_SYSTEM_WORKSPACES_DELETE_WORKSPACE'
-  group = 'administration-tools - system - workspaces'
-  product_id = resource.configservice_product.media_manager_5.id
-  default_label_values = [
-    {
-      default_translation = 'Delete workspace {{name}}'
-      language_id = data.language.english.id
-    },
-    {
-      default_translation = 'Slet arbejdsområde {{name}}'
       language_id = data.language.danish.id
     }
   ]
