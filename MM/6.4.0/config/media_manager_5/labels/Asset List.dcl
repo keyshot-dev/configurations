@@ -750,6 +750,22 @@ resource configservice_label asset_list_more_popup_copy_asset_quality {
   ]
 }
 
+resource configservice_label asset_list_more_popup_attach_rendition {
+  key = 'ASSET_LIST_MORE_POPUP_ATTACH_RENDITION'
+  group = 'Asset List'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Attach rendition'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Vedhæft rendition'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label asset_list_more_popup_download {
   key = 'ASSET_LIST_MORE_POPUP_DOWNLOAD'
   group = 'Asset List'
