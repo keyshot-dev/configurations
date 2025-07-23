@@ -136,7 +136,7 @@ resource configservice_label inputs_tree_selector_include_all_children {
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Inkluder valgmuligheder nedenfor'
+      default_translation = 'Inkluder under-muligheder'
       language_id = data.language.danish.id
     }
   ]
