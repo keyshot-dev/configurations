@@ -11217,7 +11217,7 @@ resource configservice_label administration_tools_system_workspaces_section {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Workspace Management'
+      default_translation = 'Workspace management'
       language_id = data.language.english.id
     },
     {
@@ -11317,7 +11317,7 @@ resource configservice_label administration_tools_system_workspaces_parent {
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Overordnet'
+      default_translation = 'Forælder'
       language_id = data.language.danish.id
     }
   ]
@@ -11425,11 +11425,11 @@ resource configservice_label administration_tools_system_workspaces_add_workspac
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Add Workspace'
+      default_translation = 'Create workspace'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Tilføj arbejdsområde'
+      default_translation = 'Opret arbejdsområde'
       language_id = data.language.danish.id
     }
   ]
@@ -11509,7 +11509,7 @@ resource configservice_label administration_tools_system_workspaces_parent_place
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Vælg overordnet arbejdsområde'
+      default_translation = 'Vælg forælder-arbejdsområde'
       language_id = data.language.danish.id
     }
   ]
@@ -11521,11 +11521,11 @@ resource configservice_label administration_tools_system_workspaces_no_parent {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'No parent (Root level)'
+      default_translation = 'No parent (root level)'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Ingen overordnet (Rod-niveau)'
+      default_translation = 'Ingen forælder (rod-niveau)'
       language_id = data.language.danish.id
     }
   ]
@@ -11589,7 +11589,7 @@ resource configservice_label administration_tools_system_workspaces_select_works
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Vælg et arbejdsområde for at redigere'
+      default_translation = 'Vælg et arbejdsområde, for at redigere'
       language_id = data.language.danish.id
     }
   ]
@@ -11633,11 +11633,11 @@ resource configservice_label administration_tools_system_workspaces_dialog_delet
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Are you sure you want to delete this workspace? This action cannot be undone and will also delete any child workspaces.'
+      default_translation = 'Are you sure you want to delete this workspace and all its child workspaces (if any)? This action cannot be undone.'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Er du sikker på, at du vil slette dette arbejdsområde? Denne handling kan ikke fortrydes og vil også slette eventuelle underordnede arbejdsområder.'
+      default_translation = 'Er du sikker på, at du vil slette dette arbejdsområde samt alle dets børne-arbejdsområder (hvis nogen)? Denne handling kan ikke fortrydes.'
       language_id = data.language.danish.id
     }
   ]
@@ -11685,7 +11685,7 @@ resource configservice_label administration_tools_system_workspaces_delete_works
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Arbejdsområde slettet med succes'
+      default_translation = 'Arbejdsområde slettet'
       language_id = data.language.danish.id
     }
   ]
@@ -11713,7 +11713,7 @@ resource configservice_label administration_tools_system_workspaces_delete_error
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Delete Failed'
+      default_translation = 'Delete failed'
       language_id = data.language.english.id
     },
     {
@@ -11733,7 +11733,7 @@ resource configservice_label administration_tools_system_workspaces_changes_save
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Arbejdsområde gemt med succes'
+      default_translation = 'Arbejdsområde gemt'
       language_id = data.language.danish.id
     }
   ]
@@ -11761,7 +11761,7 @@ resource configservice_label administration_tools_system_workspaces_save_error_t
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Save Failed'
+      default_translation = 'Save failed'
       language_id = data.language.english.id
     },
     {
