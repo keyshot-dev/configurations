@@ -11313,11 +11313,11 @@ resource configservice_label administration_tools_system_workspaces_parent {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Parent'
+      default_translation = 'Workspace'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Forælder'
+      default_translation = 'Arbejdsområde'
       language_id = data.language.danish.id
     }
   ]
@@ -11505,11 +11505,11 @@ resource configservice_label administration_tools_system_workspaces_parent_place
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Select parent workspace'
+      default_translation = 'Select workspace'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Vælg forælder-arbejdsområde'
+      default_translation = 'Vælg arbejdsområde'
       language_id = data.language.danish.id
     }
   ]
@@ -11521,11 +11521,11 @@ resource configservice_label administration_tools_system_workspaces_no_parent {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'No parent (root level)'
+      default_translation = 'No workspace (root level)'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Ingen forælder (rod-niveau)'
+      default_translation = 'Intet arbejdsområde (rod-niveau)'
       language_id = data.language.danish.id
     }
   ]
@@ -11633,11 +11633,11 @@ resource configservice_label administration_tools_system_workspaces_dialog_delet
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Are you sure you want to delete this workspace and all its child workspaces (if any)? This action cannot be undone.'
+      default_translation = 'Are you sure you want to delete this workspace and all its sub-workspaces (if any)? This action cannot be undone.'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Er du sikker på, at du vil slette dette arbejdsområde samt alle dets børne-arbejdsområder (hvis nogen)? Denne handling kan ikke fortrydes.'
+      default_translation = 'Er du sikker på, at du vil slette dette arbejdsområde samt alle dets under-arbejdsområder (hvis nogen)? Denne handling kan ikke fortrydes.'
       language_id = data.language.danish.id
     }
   ]
