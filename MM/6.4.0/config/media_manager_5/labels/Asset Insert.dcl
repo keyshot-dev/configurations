@@ -61,3 +61,19 @@ resource configservice_label asset_insert_invalid_asset_type {
     }
   ]
 }
+
+resource configservice_label asset_insert_failed_to_download_corrupted_asset {
+  key = 'ASSET_INSERT_FAILED_TO_DOWNLOAD_CORRUPTED_ASSET'
+  group = 'Asset Insert'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Failed to download and insert asset. The file may be corrupted or the internet connection is unstable.'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Det lykkedes ikke at downloade og indsætte asset. Filen kan være beskadiget, eller internetforbindelsen er ustabil.'
+      language_id = data.language.danish.id
+    }
+  ]
+}
