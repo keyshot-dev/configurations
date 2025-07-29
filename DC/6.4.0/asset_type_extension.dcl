@@ -718,5 +718,25 @@ resource asset_type_extension id_zip {
     asset_type = 'Zip'
 }
 
+resource asset_type_extension id_hdz {
+    extension = 'hdz'
+    asset_type = 'Image'
+}
+
+resource asset_type_extension id_jfif {
+    extension = 'jfif'
+    asset_type = 'Image'
+}
+
+resource asset_type_extension id_ppm {
+    extension = 'ppm'
+    asset_type = 'Image'
+}
+
+resource asset_type_extension id_psb {
+    extension = 'psb'
+    asset_type = 'Photoshop'
+}
+
 
 
