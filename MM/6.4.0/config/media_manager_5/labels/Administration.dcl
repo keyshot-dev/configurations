@@ -11409,11 +11409,11 @@ resource configservice_label administration_tools_system_workspaces_no_workspace
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Create a workspace by clicking the "Add new workspace" button above.'
+      default_translation = 'Create a workspace by clicking +'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Opret et arbejdsområde ved at klikke på knappen "Tilføj nyt arbejdsområde" ovenfor.'
+      default_translation = 'Opret et arbejdsområde ved at klikke på +'
       language_id = data.language.danish.id
     }
   ]
