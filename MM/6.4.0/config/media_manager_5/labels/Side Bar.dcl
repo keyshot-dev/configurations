@@ -692,11 +692,11 @@ resource configservice_label mobile_menu_upload_active_document_set_document_fil
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Open as new document'
+      default_translation = 'Continue as asset'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Åbn som nyt dokument'
+      default_translation = 'Fortsæt som asset'
       language_id = data.language.danish.id
     }
   ]
