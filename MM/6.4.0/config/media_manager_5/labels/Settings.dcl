@@ -4351,6 +4351,22 @@ resource configservice_label settings_import_config_editor_itemid {
   ]
 }
 
+resource configservice_label settings_import_config_editor_assetcategory {
+  key = 'SETTINGS_IMPORT_CONFIG_EDITOR_ASSETCATEGORY'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'AssetCateogry'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'AssetKategori'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label settings_import_config_editor_tag_type {
   key = 'SETTINGS_IMPORT_CONFIG_EDITOR_TAG_TYPE'
   group = 'Settings'
