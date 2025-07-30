@@ -11313,7 +11313,7 @@ resource configservice_label administration_tools_system_workspaces_parent {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Workspace'
+      default_translation = 'Base workspace'
       language_id = data.language.english.id
     },
     {
@@ -11729,11 +11729,11 @@ resource configservice_label administration_tools_system_workspaces_changes_save
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Workspace saved successfully'
+      default_translation = 'Changes saved'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Arbejdsområde gemt'
+      default_translation = 'Ændringer blev gemt'
       language_id = data.language.danish.id
     }
   ]
