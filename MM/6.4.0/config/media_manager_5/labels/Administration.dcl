@@ -11313,11 +11313,11 @@ resource configservice_label administration_tools_system_workspaces_parent {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Parent workspace'
+      default_translation = 'Parent'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Over-arbejdsområde'
+      default_translation = 'Forælder'
       language_id = data.language.danish.id
     }
   ]
@@ -11409,11 +11409,11 @@ resource configservice_label administration_tools_system_workspaces_no_workspace
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Create your first workspace to get started'
+      default_translation = 'Create a workspace by clicking the "Add new workspace" button above.'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Opret dit første arbejdsområde for at komme i gang'
+      default_translation = 'Opret et arbejdsområde ved at klikke på knappen "Tilføj nyt arbejdsområde" ovenfor.'
       language_id = data.language.danish.id
     }
   ]
