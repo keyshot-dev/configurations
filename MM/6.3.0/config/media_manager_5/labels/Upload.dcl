@@ -1070,3 +1070,83 @@ resource configservice_label upload_create_preset_popup_relations_created_error_
     }
   ]
 }
+
+resource configservice_label folder_structure_upload_dialog_title {
+  key = 'FOLDER_STRUCTURE_UPLOAD_DIALOG_TITLE'
+  group = 'Upload'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Folder upload detected'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Mappeupload registreret'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label folder_structure_upload_dialog_body {
+  key = 'FOLDER_STRUCTURE_UPLOAD_DIALOG_BODY'
+  group = 'Upload'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Do you want to preserve the folder structure when uploading?'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Vil du bevare mappestrukturen ved upload?'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label folder_structure_upload_dialog_remember_choice {
+  key = 'FOLDER_STRUCTURE_UPLOAD_DIALOG_REMEMBER_CHOICE'
+  group = 'Upload'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Remember my choice'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Husk mit valg'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label folder_structure_upload_dialog_decline {
+  key = 'FOLDER_STRUCTURE_UPLOAD_DIALOG_DECLINE'
+  group = 'Upload'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'No'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Ingen'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label folder_structure_upload_dialog_accept{
+  key = 'FOLDER_STRUCTURE_UPLOAD_DIALOG_ACCEPT'
+  group = 'Upload'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Yes'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Ja'
+      language_id = data.language.danish.id
+    }
+  ]
+}
