@@ -62,6 +62,22 @@ resource configservice_label asset_insert_invalid_asset_type {
   ]
 }
 
+resource configservice_label asset_insert_greater_than_allowed_size {
+  key = 'ASSET_INSERT_GREATER_THAN_ALLOWED_SIZE'
+  group = 'Asset Insert'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Asset is not within allowed size'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Asset er ikke inden for tilladt størrelse'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label asset_insert_failed_to_download_corrupted_asset {
   key = 'ASSET_INSERT_FAILED_TO_DOWNLOAD_CORRUPTED_ASSET'
   group = 'Asset Insert'
