@@ -430,6 +430,72 @@ resource configservice_label asset_list_folders_hide {
   ]
 }
 
+resource configservice_label asset_list_folders_assets_moved_title {
+  key = 'ASSET_LIST_FOLDERS_ASSETS_MOVED_TITLE'
+  group = 'Asset List'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Success'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Succes'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_list_folders_assets_moved_body {
+  key = 'ASSET_LIST_FOLDERS_ASSETS_MOVED_BODY'
+  group = 'Asset List'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = '{{count}} {count, cardinalPlural, one {asset} other {assets}} {isCopied, select, true {copied} false {moved}}'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = '{{count}} {count, cardinalPlural, one {asset} other {assets}} {isCopied, select, true {kopieret} false {flyttet}}'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_list_folders_folders_moved_title {
+  key = 'ASSET_LIST_FOLDERS_FOLDERS_MOVED_TITLE'
+  group = 'Asset List'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Success'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Succes'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_list_folders_folders_moved_body {
+  key = 'ASSET_LIST_FOLDERS_FOLDERS_MOVED_BODY'
+  group = 'Asset List'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = '{{child}} is moved into {{parent}}'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = '{{child}} er flyttet til mappen {{parent}}'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+
+
 resource configservice_label asset_list_box_view_item_asset_info {
   key = 'ASSET_LIST_BOX_VIEW_ITEM_ASSET_INFO'
   group = 'Asset List'
