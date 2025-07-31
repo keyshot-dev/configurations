@@ -516,11 +516,11 @@ resource configservice_label download_main_window_notification_inserting_renditi
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = '{isInsertion, select, true {Inserting} false {Changing rendition}} when ready'
+      default_translation = '{isInsertion, select, true {Inserting} false {Changing}} when ready'
       language_id = data.language.english.id
     },
     {
-      default_translation = '{isInsertion, select, true {Indsætter} false {Ændrer rendition}} når tilgængelig'
+      default_translation = '{isInsertion, select, true {Indsætter} false {Ændrer}} når tilgængelig'
       language_id = data.language.danish.id
     }
   ]
