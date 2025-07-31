@@ -68,11 +68,11 @@ resource configservice_label asset_insert_greater_than_allowed_size {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Asset is not within allowed size'
+      default_translation = 'The rendition\'s file size is too big'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Asset er ikke inden for tilladt størrelse'
+      default_translation = 'Renditionens filstørrelse er for stor'
       language_id = data.language.danish.id
     }
   ]
