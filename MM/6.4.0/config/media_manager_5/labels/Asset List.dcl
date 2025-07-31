@@ -430,6 +430,72 @@ resource configservice_label asset_list_folders_hide {
   ]
 }
 
+resource configservice_label asset_list_folders_assets_moved_title {
+  key = 'ASSET_LIST_FOLDERS_ASSETS_MOVED_TITLE'
+  group = 'Asset List'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Success'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Succes'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_list_folders_assets_moved_body {
+  key = 'ASSET_LIST_FOLDERS_ASSETS_MOVED_BODY'
+  group = 'Asset List'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = '{{count}} {count, cardinalPlural, one {asset} other {assets}} {isCopied, select, true {copied} false {moved}}'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = '{{count}} {count, cardinalPlural, one {asset} other {assets}} {isCopied, select, true {kopieret} false {flyttet}}'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_list_folders_folders_moved_title {
+  key = 'ASSET_LIST_FOLDERS_FOLDERS_MOVED_TITLE'
+  group = 'Asset List'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Success'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Succes'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_list_folders_folders_moved_body {
+  key = 'ASSET_LIST_FOLDERS_FOLDERS_MOVED_BODY'
+  group = 'Asset List'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = '{{child}} is moved to the {{parent}} folder'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = '{{child}} er flyttet til mappen {{parent}}'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+
+
 resource configservice_label asset_list_box_view_item_asset_info {
   key = 'ASSET_LIST_BOX_VIEW_ITEM_ASSET_INFO'
   group = 'Asset List'
@@ -745,22 +811,6 @@ resource configservice_label asset_list_more_popup_copy_asset_quality {
     },
     {
       default_translation = 'Kopier rendition-link'
-      language_id = data.language.danish.id
-    }
-  ]
-}
-
-resource configservice_label asset_list_more_popup_attach_rendition {
-  key = 'ASSET_LIST_MORE_POPUP_ATTACH_RENDITION'
-  group = 'Asset List'
-  product_id = resource.configservice_product.media_manager_5.id
-  default_label_values = [
-    {
-      default_translation = 'Attach rendition'
-      language_id = data.language.english.id
-    },
-    {
-      default_translation = 'Vedhæft rendition'
       language_id = data.language.danish.id
     }
   ]
@@ -2150,11 +2200,11 @@ resource configservice_label asset_list_facet_assettype {
   default_label_values = [
     {
       language_id = data.language.english.id
-      default_translation = '{value, select, Video {Video} Audio {Audio} Image {Image} PowerPoint {PowerPoint} Html {HTML} Text {Text} Word {Word} Excel {Excel} InDesign {InDesign} Zip {ZIP} META {META} PDF {PDF} Archive {Archive} Photoshop {Photoshop} Illustrator {Illustrator} Visio {Visio} Cad {CAD} Font {Font} AfterEffects {After Effects} PremierePro {Premiere Pro} KeyShotEnvironment {KeyShot Environment} KeyShotMaterial {KeyShot Material} KeyShotScene {KeyShot Scene} ThreeD {3D} other {{{value}}}}'
+      default_translation = '{value, select, Video {Video} Audio {Audio} Image {Image} PowerPoint {PowerPoint} Html {HTML} Text {Text} Word {Word} Excel {Excel} InDesign {InDesign} Zip {ZIP} META {META} PDF {PDF} Archive {Archive} Photoshop {Photoshop} Illustrator {Illustrator} Visio {Visio} Cad {CAD} Font {Font} AfterEffects {After Effects} PremierePro {Premiere Pro} KeyShotEnvironment {KeyShot Environment} KeyShotMaterial {KeyShot Material} KeyShotScene {KeyShot Scene} other {{{value}}}}'
     },
     {
       language_id = data.language.danish.id
-      default_translation = '{value, select, Video {Video} Audio {Audio} Image {Image} PowerPoint {PowerPoint} Html {HTML} Text {Text} Word {Word} Excel {Excel} InDesign {InDesign} Zip {ZIP} META {META} PDF {PDF} Archive {Arkiv} Photoshop {Photoshop} Illustrator {Illustrator} Visio {Visio} Cad {CAD} Font {Font} AfterEffects {After Effects} PremierePro {Premiere Pro} KeyShotEnvironment {KeyShot Miljø} KeyShotMaterial {KeyShot Materiale} KeyShotScene {KeyShot Scene} ThreeD {3D} other {{{value}}}}'
+      default_translation = '{value, select, Video {Video} Audio {Audio} Image {Image} PowerPoint {PowerPoint} Html {HTML} Text {Text} Word {Word} Excel {Excel} InDesign {InDesign} Zip {ZIP} META {META} PDF {PDF} Archive {Arkiv} Photoshop {Photoshop} Illustrator {Illustrator} Visio {Visio} Cad {CAD} Font {Font} AfterEffects {After Effects} PremierePro {Premiere Pro} KeyShotEnvironment {KeyShot Miljø} KeyShotMaterial {KeyShot Materiale} KeyShotScene {KeyShot Scene} other {{{value}}}}'
     }
   ]
 }
