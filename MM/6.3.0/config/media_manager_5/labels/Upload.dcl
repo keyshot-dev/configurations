@@ -488,7 +488,7 @@ resource configservice_label upload_drag_and_drop_preserve_folder_structure {
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Bevare mappestrukturen ved upload'
+      default_translation = 'Bevar mappestruktur'
       language_id = data.language.danish.id
     }
   ]
