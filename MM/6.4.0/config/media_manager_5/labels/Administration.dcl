@@ -9835,6 +9835,102 @@ resource configservice_label administration_tools_system_asset_categories_reassi
   ]
 }
 
+resource configservice_label administration_tools_system_asset_categories_allowed_asset_types {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_ASSET_CATEGORIES_ALLOWED_ASSET_TYPES'
+  group = 'administration-tools - system - asset-categories'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Restrict to asset types'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Begræns til asset-typer'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_asset_categories_allowed_asset_types_disabled_tooltip {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_ASSET_CATEGORIES_ALLOWED_ASSET_TYPES_DISABLED_TOOLTIP'
+  group = 'administration-tools - system - asset-categories'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Remove all file extension restrictions to use asset type restrictions'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Fjern alle filtypenavn-begrænsninger for at åbne op for assettype-begrænsning'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_asset_categories_allowed_asset_types_tooltip {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_ASSET_CATEGORIES_ALLOWED_ASSET_TYPES_TOOLTIP'
+  group = 'administration-tools - system - asset-categories'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'If set, only assets of these asset types can be assigned to the category'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Hvis angivet, kan kun aktiver af disse aktivtyper tildeles kategorien'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_asset_categories_allowed_extensions {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_ASSET_CATEGORIES_ALLOWED_EXTENSIONS'
+  group = 'administration-tools - system - asset-categories'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Restrict to file extensions'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Begræns til filtypenavne'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_asset_categories_allowed_extensions_disabled_tooltip {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_ASSET_CATEGORIES_ALLOWED_EXTENSIONS_DISABLED_TOOLTIP'
+  group = 'administration-tools - system - asset-categories'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Remove all asset type restrictions to use file extension restrictions'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Fjern alle assettype-begrænsninger for at åbne op for filtypenavn-begrænsning'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_asset_categories_allowed_extensions_tooltip {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_ASSET_CATEGORIES_ALLOWED_EXTENSIONS_TOOLTIP'
+  group = 'administration-tools - system - asset-categories'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'If set, only assets of with these file extensions can be assigned to the category'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Hvis angivet, kan kun aktiver med disse filtypenavne tildeles kategorien'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label administration_tools_search_placeholder {
   key = 'ADMINISTRATION_TOOLS_SEARCH_PLACEHOLDER'
   group = 'administration-tools'
