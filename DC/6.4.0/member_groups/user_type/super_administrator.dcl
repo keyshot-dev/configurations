@@ -226,6 +226,14 @@ resource member_group super_administrator {
             constant = 'MediaPortal_360Viewer_Embed'
         }, {
             constant = 'Can_Customize_Search_Filters_In_Frontend'
+        }, {
+            constant = 'workspaces:management:admin'
+        }, {
+            constant = 'workspaces:management'
+        }, {
+            constant = 'workspaces:users:management:admin'
+        }, {
+            constant = 'workspaces:users:management'
         }]
     autolink = {
         item_guid = '0d8dff0a-53d5-4161-8484-aa8c1af5680d'

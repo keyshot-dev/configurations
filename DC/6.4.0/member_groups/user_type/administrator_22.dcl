@@ -138,6 +138,10 @@ resource member_group administrator_22 {
             constant = 'MediaPortal_360Viewer_Embed'
         }, {
             constant = 'Can_Customize_Search_Filters_In_Frontend'
+        }, {
+            constant = 'workspaces:management'
+        }, {
+            constant = 'workspaces:users:management'
         }]
     autolink = {
         item_guid = '58efafcb-4ce9-43d0-b413-b842fbccb576'
