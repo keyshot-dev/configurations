@@ -1113,7 +1113,7 @@ resource configservice_label topbar_upload_folders {
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Upload Mapper'
+      default_translation = 'Upload mapper'
       language_id = data.language.danish.id
     }
   ]
