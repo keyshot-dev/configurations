@@ -484,7 +484,7 @@ resource configservice_label upload_drag_and_drop_preserve_folder_structure {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Preserve the folder structure when uploading'
+      default_translation = 'Preserve the folder structure'
       language_id = data.language.english.id
     },
     {
