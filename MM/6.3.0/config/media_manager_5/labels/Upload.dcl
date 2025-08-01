@@ -1109,7 +1109,7 @@ resource configservice_label topbar_upload_folders {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Upload Folders'
+      default_translation = 'Upload folders'
       language_id = data.language.english.id
     },
     {
