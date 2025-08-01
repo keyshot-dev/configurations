@@ -1097,7 +1097,7 @@ resource configservice_label topbar_upload_files {
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Upload Filer'
+      default_translation = 'Upload filer'
       language_id = data.language.danish.id
     }
   ]
