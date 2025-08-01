@@ -9845,7 +9845,7 @@ resource configservice_label administration_tools_system_asset_categories_allowe
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Begræns til aktivtyper'
+      default_translation = 'Begræns til asset-typer'
       language_id = data.language.danish.id
     }
   ]
@@ -9857,11 +9857,11 @@ resource configservice_label administration_tools_system_asset_categories_allowe
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Remove file extension restrictions to allow enabling asset type restrictions'
+      default_translation = 'Remove all file extension restrictions to use asset type restrictions'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Fjern begrænsninger på filtypenavne for at tillade aktivering af begrænsninger på aktivtyper'
+      default_translation = 'Fjern alle filtypenavn-begrænsninger for at åbne op for assettype-begrænsning'
       language_id = data.language.danish.id
     }
   ]
@@ -9905,11 +9905,11 @@ resource configservice_label administration_tools_system_asset_categories_allowe
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Remove asset type restrictions to allow enabling file extension restrictions'
+      default_translation = 'Remove all asset type restrictions to use file extension restrictions'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Fjern begrænsninger på aktivtyper for at tillade aktivering af begrænsninger på filtypenavne'
+      default_translation = 'Fjern alle assettype-begrænsninger for at åbne op for filtypenavn-begrænsning'
       language_id = data.language.danish.id
     }
   ]
