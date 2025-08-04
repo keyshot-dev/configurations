@@ -19,8 +19,6 @@ resource member_group super_administrator {
         }, {
             constant = 'Editor_SystemTools_DigizuiteConfig'
         }, {
-            constant = 'Editor_SystemTools_MediaFormat'
-        }, {
             constant = 'RunningJobs_View'
         }, {
             constant = 'RunningJobs_ViewAll'
