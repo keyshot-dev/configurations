@@ -157,6 +157,10 @@ patch member_group administrator_patch {
             constant = 'MediaPortal_360Viewer_Embed'
         }, {
             constant = 'Can_Customize_Search_Filters_In_Frontend'
+        }, {
+            constant = 'workspaces:management'
+        }, {
+            constant = 'workspaces:users:management'
         }]
 }
 

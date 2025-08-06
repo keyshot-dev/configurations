@@ -20,8 +20,6 @@ resource member superadministrator {
             member_group_id = resource.member_group.public_access_30.member_group_id
         }]
     roles = [{
-            constant = 'Editor_SystemTools'
-        }, {
             constant = 'Uploader'
         }, {
             constant = 'Editor_SystemTools_UserManager_Users'
@@ -33,8 +31,6 @@ resource member superadministrator {
             constant = 'Administrator'
         }, {
             constant = 'Editor_SystemTools_DigizuiteConfig'
-        }, {
-            constant = 'Editor_SystemTools_MediaFormat'
         }, {
             constant = 'RunningJobs_View'
         }, {

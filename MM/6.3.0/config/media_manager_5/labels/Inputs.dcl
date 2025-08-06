@@ -126,6 +126,23 @@ resource configservice_label inputs_tree_selector_hover_item_to_see_full_path {
   ]
 }
 
+resource configservice_label inputs_tree_selector_include_all_children {
+  key = 'INPUTS_TREE_SELECTOR_INCLUDE_ALL_CHILDREN'
+  group = 'Inputs'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Include options beneath'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Inkluder under-muligheder'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+
 resource configservice_label inputs_rich_text_input_strike_through_short {
   key = 'INPUTS_RICH_TEXT_INPUT_STRIKE_THROUGH_SHORT'
   group = 'Inputs'

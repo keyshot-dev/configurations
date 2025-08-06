@@ -686,6 +686,22 @@ resource configservice_label mobile_menu_upload_active_document_replace_title {
   ]
 }
 
+resource configservice_label mobile_menu_upload_active_document_set_document_filename_modal_open_as_new {
+  key = 'MOBILE_MENU_UPLOAD_ACTIVE_DOCUMENT_SET_DOCUMENT_FILENAME_MODAL_OPEN_AS_NEW'
+  group = 'Side Bar'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Continue as asset'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Fortsæt som asset'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label mobile_menu_upload_active_document_replace_tooltip {
   key = 'MOBILE_MENU_UPLOAD_ACTIVE_DOCUMENT_REPLACE_TOOLTIP'
   group = 'Side Bar'

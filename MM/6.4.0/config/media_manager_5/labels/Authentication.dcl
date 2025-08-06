@@ -1310,3 +1310,19 @@ resource configservice_label access_key_expired_error_reload {
   ]
 }
 
+
+resource configservice_label topbar_login_guest_drilldown_change_workspace {
+  key = 'TOPBAR_LOGIN_GUEST_DRILLDOWN_CHANGE_WORKSPACE'
+  group = 'Authentication'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Change workspace'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Skift arbejdsområde'
+      language_id = data.language.danish.id
+    }
+  ]
+}
