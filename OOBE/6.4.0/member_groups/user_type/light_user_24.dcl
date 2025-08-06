@@ -54,6 +54,8 @@ patch member_group light_user_patch {
             constant = 'MediaPortal_360Viewer_Embed'
         }, {
             constant = 'Can_Customize_Search_Filters_In_Frontend'
+        }, {
+            constant = 'Can_trim_email'
         }]
     name = 'Light user (profile)'
 }
