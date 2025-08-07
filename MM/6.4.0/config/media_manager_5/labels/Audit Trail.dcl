@@ -848,6 +848,22 @@ resource configservice_label audit_trail_asset_created_summary {
   ]
 }
 
+resource configservice_label audit_trail_asset_rendition_generated_summary {
+  key = 'AUDIT_TRAIL_ASSET_RENDITION_GENERATED_SUMMARY'
+  group = 'Audit Trail'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Asset rendition generated'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Asset-rendition genereret'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label audit_trail_asset_profile_published_summary {
   key = 'AUDIT_TRAIL_ASSET_PROFILE_PUBLISHED_SUMMARY'
   group = 'Audit Trail'
@@ -987,6 +1003,54 @@ resource configservice_label audit_trail_business_workflow_form_data_updated_sum
     },
     {
       default_translation = 'Opgavebegrænsnings data opdateret'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label audit_trail_column_author_id {
+  key = 'AUDIT_TRAIL_COLUMN_AUTHOR_ID'
+  group = 'Audit Trail'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Changed by ID'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Ændret af ID'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label audit_trail_column_metadata_format_name {
+  key = 'AUDIT_TRAIL_COLUMN_METADATA_FORMAT_NAME'
+  group = 'Audit Trail'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Asset rendition format name'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Asset rendition format-navn'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label audit_trail_column_metadata_format_id {
+  key = 'AUDIT_TRAIL_COLUMN_METADATA_FORMAT_ID'
+  group = 'Audit Trail'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Asset rendition format ID'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Asset rendition format-ID'
       language_id = data.language.danish.id
     }
   ]
