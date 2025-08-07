@@ -848,6 +848,22 @@ resource configservice_label audit_trail_asset_created_summary {
   ]
 }
 
+resource configservice_label audit_trail_asset_category_changed_summary {
+  key = 'AUDIT_TRAIL_ASSET_CATEGORY_CHANGED_SUMMARY'
+  group = 'Audit Trail'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Asset category changed'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Asset-kategorie ændret'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label audit_trail_asset_rendition_generated_summary {
   key = 'AUDIT_TRAIL_ASSET_RENDITION_GENERATED_SUMMARY'
   group = 'Audit Trail'
@@ -1009,8 +1025,8 @@ resource configservice_label audit_trail_business_workflow_form_data_updated_sum
 }
 
 resource configservice_label audit_trail_column_author_id {
-  key = 'AUDIT_TRAIL_COLUMN_AUTHOR_ID'
-  group = 'Audit Trail'
+      key = 'AUDIT_TRAIL_COLUMN_AUTHOR_ID'
+      group = 'Audit Trail'
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
