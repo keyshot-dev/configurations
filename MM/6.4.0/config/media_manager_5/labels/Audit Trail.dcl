@@ -1056,6 +1056,38 @@ resource configservice_label audit_trail_column_metadata_format_id {
   ]
 }
 
+resource configservice_label audit_trail_column_old_category_name {
+  key = 'AUDIT_TRAIL_COLUMN_OLD_CATEGORY_NAME'
+  group = 'Audit Trail'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Old category name'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Gammel kategorie navn'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label audit_trail_column_new_category_name {
+  key = 'AUDIT_TRAIL_COLUMN_NEW_CATEGORY_NAME'
+  group = 'Audit Trail'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'New category name'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Ny kategorie navn'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label audit_trail_results_per_page {
   key = 'AUDIT_TRAIL_RESULTS_PER_PAGE'
   group = 'Audit Trail'
