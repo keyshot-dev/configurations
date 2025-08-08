@@ -24,6 +24,8 @@ resource member_group light_user_24 {
             constant = 'Can_view_related_assets'
         }, {
              constant = 'Can_Customize_Search_Filters_In_Frontend'
+        }, {
+            constant = 'Can_trim_email'
         }] 
     autolink = {
         item_guid = 'ea2b32ef-cd90-41c8-93ac-d026881b6c12'

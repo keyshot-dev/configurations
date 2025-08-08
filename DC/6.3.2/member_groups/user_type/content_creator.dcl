@@ -22,6 +22,8 @@ resource member_group content_creator {
             constant = 'Can_Live_Export_System_Data'
         }, {
             constant = 'MediaPortal_360Viewer_Embed'
+        }, {
+            constant = 'Can_trim_email'
         }]
     autolink = {
         item_guid = 'ed672267-2724-47d7-acbe-527f875445bc'

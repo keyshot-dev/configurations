@@ -155,6 +155,8 @@ patch member_group administrator_patch {
             constant = 'Can_Live_Export_System_Data'
         }, {
             constant = 'MediaPortal_360Viewer_Embed'
+        }, {
+            constant = 'Can_trim_email'
         }]
 }
 

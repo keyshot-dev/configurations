@@ -90,6 +90,8 @@ patch member_group content_creator_patch {
             constant = 'MediaPortal_360Viewer_Embed'
         }, {
             constant = 'Can_Customize_Search_Filters_In_Frontend'
+        }, {
+            constant = 'Can_trim_email'
         }]
     name = 'Content creator (profile)'
 }
