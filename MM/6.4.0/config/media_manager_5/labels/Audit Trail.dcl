@@ -858,7 +858,7 @@ resource configservice_label audit_trail_asset_category_changed_summary {
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Asset-kategorie ændret'
+      default_translation = 'Asset-kategori ændret'
       language_id = data.language.danish.id
     }
   ]
