@@ -1118,3 +1118,21 @@ resource configservice_label topbar_upload_folders {
     }
   ]
 }
+
+resource configservice_label upload_applying_folders_title {
+  key = 'UPLOAD_APPLYING_FOLDERS_TITLE'
+  group = 'Upload'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Managing folders...'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Administrerer mapper...'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+
