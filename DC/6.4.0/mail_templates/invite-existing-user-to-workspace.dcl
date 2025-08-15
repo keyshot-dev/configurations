@@ -1,4 +1,4 @@
-resource mail_template invite_new_user_to_workspace {
+resource mail_template invite_existing_user_to_workspace {
     portal_name = ''
     language_id = resource.language.english.id
     template_name = 'invite-existing-user-to-workspace'
