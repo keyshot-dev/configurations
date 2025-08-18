@@ -1098,7 +1098,7 @@ resource configservice_label audit_trail_column_new_category_name {
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Ny kategorie navn'
+      default_translation = 'Nyt kategori-navn'
       language_id = data.language.danish.id
     }
   ]
