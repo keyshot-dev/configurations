@@ -1050,7 +1050,7 @@ resource configservice_label audit_trail_column_metadata_format_name {
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Asset rendition format-navn'
+      default_translation = 'Asset-renditions format-navn'
       language_id = data.language.danish.id
     }
   ]
