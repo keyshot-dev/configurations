@@ -1082,7 +1082,7 @@ resource configservice_label audit_trail_column_old_category_name {
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Gammel kategorie navn'
+      default_translation = 'Gammelt kategori-navn'
       language_id = data.language.danish.id
     }
   ]
