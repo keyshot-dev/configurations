@@ -1093,11 +1093,11 @@ resource configservice_label topbar_upload_files {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Upload Files'
+      default_translation = 'File upload'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Upload Filer'
+      default_translation = 'Filupload'
       language_id = data.language.danish.id
     }
   ]
@@ -1109,11 +1109,11 @@ resource configservice_label topbar_upload_folders {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Upload Folders'
+      default_translation = 'Folder upload'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Upload Mapper'
+      default_translation = 'Mappeupload'
       language_id = data.language.danish.id
     }
   ]
