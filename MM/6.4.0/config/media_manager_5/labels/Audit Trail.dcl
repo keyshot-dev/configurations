@@ -848,6 +848,38 @@ resource configservice_label audit_trail_asset_created_summary {
   ]
 }
 
+resource configservice_label audit_trail_asset_category_changed_summary {
+  key = 'AUDIT_TRAIL_ASSET_CATEGORY_CHANGED_SUMMARY'
+  group = 'Audit Trail'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Asset category changed'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Asset-kategori ændret'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label audit_trail_asset_rendition_generated_summary {
+  key = 'AUDIT_TRAIL_ASSET_RENDITION_GENERATED_SUMMARY'
+  group = 'Audit Trail'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Asset rendition generated'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Asset-rendition genereret'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label audit_trail_asset_profile_published_summary {
   key = 'AUDIT_TRAIL_ASSET_PROFILE_PUBLISHED_SUMMARY'
   group = 'Audit Trail'
@@ -987,6 +1019,86 @@ resource configservice_label audit_trail_business_workflow_form_data_updated_sum
     },
     {
       default_translation = 'Opgavebegrænsnings data opdateret'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label audit_trail_column_author_id {
+      key = 'AUDIT_TRAIL_COLUMN_AUTHOR_ID'
+      group = 'Audit Trail'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Changed by ID'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Ændret af ID'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label audit_trail_column_metadata_format_name {
+  key = 'AUDIT_TRAIL_COLUMN_METADATA_FORMAT_NAME'
+  group = 'Audit Trail'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Asset rendition\'s format name'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Asset-renditions format-navn'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label audit_trail_column_metadata_format_id {
+  key = 'AUDIT_TRAIL_COLUMN_METADATA_FORMAT_ID'
+  group = 'Audit Trail'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Asset rendition\'s format ID'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Asset-renditions format-ID'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label audit_trail_column_old_category_name {
+  key = 'AUDIT_TRAIL_COLUMN_OLD_CATEGORY_NAME'
+  group = 'Audit Trail'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Old category name'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Gammelt kategori-navn'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label audit_trail_column_new_category_name {
+  key = 'AUDIT_TRAIL_COLUMN_NEW_CATEGORY_NAME'
+  group = 'Audit Trail'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'New category name'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Nyt kategori-navn'
       language_id = data.language.danish.id
     }
   ]
