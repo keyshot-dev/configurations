@@ -6135,6 +6135,22 @@ resource configservice_label administration_tools_analytics_member_filter_member
   ]
 }
 
+resource configservice_label administration_tools_analytics_member_excluded {
+  key = 'ADMINISTRATION_TOOLS_ANALYTICS_MEMBER_EXCLUDED'
+  group = 'administration-tools - analytics-member-filter'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Exclude'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Ekskluder'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label administration_tools_system_select_section {
   key = 'ADMINISTRATION_TOOLS_SYSTEM_SELECT_SECTION'
   group = 'administration-tools - system'
