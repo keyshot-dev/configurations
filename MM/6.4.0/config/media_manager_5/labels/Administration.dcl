@@ -6141,11 +6141,11 @@ resource configservice_label administration_tools_analytics_member_excluded {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Excluded'
+      default_translation = 'Exclude'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Udelukkede'
+      default_translation = 'Ekskluder'
       language_id = data.language.danish.id
     }
   ]
