@@ -1460,11 +1460,11 @@ resource configservice_label inputs_tree_selector_include_all_children {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Include options beneath'
+      default_translation = 'Recursive'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Inkluder under-muligheder'
+      default_translation = 'Rekursiv'
       language_id = data.language.danish.id
     }
   ]
