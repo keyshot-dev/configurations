@@ -1525,6 +1525,22 @@ resource configservice_label portal_config_manager_portal_crop_presets_type {
   ]
 }
 
+resource configservice_label portal_config_manager_portal_crop_presets_sort_order {
+  key = 'PORTAL_CONFIG_MANAGER_PORTAL_CROP_PRESETS_SORT_ORDER'
+  group = 'Config Manager'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Sort order'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Sorteringsrækkefølge'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label portal_config_manager_portal_crop_presets_height {
   key = 'PORTAL_CONFIG_MANAGER_PORTAL_CROP_PRESETS_HEIGHT'
   group = 'Config Manager'
