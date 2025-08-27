@@ -41,7 +41,7 @@ resource format thumbnail {
             value = 'True'
         }, {
             key = 'RemoveFileMetadata'
-            value = 'True'
+            value = 'False'
         }, {
             key = 'WatermarkAssetId'
             value = '0'
