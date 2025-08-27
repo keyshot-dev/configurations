@@ -1535,7 +1535,7 @@ resource configservice_label portal_config_manager_portal_crop_presets_sort_orde
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Sorteringsrækkefølge'
+      default_translation = 'Sortering'
       language_id = data.language.danish.id
     }
   ]
