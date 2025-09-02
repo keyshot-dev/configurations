@@ -12603,6 +12603,22 @@ resource configservice_label administration_tools_system_metadata_tree_editor_er
   ]
 }
 
+resource configservice_label administration_tools_system_metadata_tree_editor_duplicate_name_error {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_METADATA_TREE_EDITOR_DUPLICATE_NAME_ERROR'
+  group = 'administration-tools - system - metadata'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'A tree node type with the name "{name}" already exists'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'En trænodetype med navnet "{name}" findes allerede'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label administration_tools_system_metadata_combo_values_editor_title {
   key = 'ADMINISTRATION_TOOLS_SYSTEM_METADATA_COMBO_VALUES_EDITOR_TITLE'
   group = 'administration-tools - system - metadata'
