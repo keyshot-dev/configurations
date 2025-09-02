@@ -494,7 +494,37 @@ resource configservice_label asset_list_folders_folders_moved_body {
   ]
 }
 
+resource configservice_label asset_list_folders_assets_undo_body {
+  key = 'ASSET_LIST_FOLDERS_ASSETS_UNDO_BODY'
+  group = 'Asset List'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Action reverted'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Handling annulleret'
+      language_id = data.language.danish.id
+    }
+  ]
+}
 
+resource configservice_label asset_list_folders_assets_undo_error_body {
+  key = 'ASSET_LIST_FOLDERS_ASSETS_UNDO_ERROR_BODY'
+  group = 'Asset List'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Undo failed'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Annullering mislykkedes'
+      language_id = data.language.danish.id
+    }
+  ]
+}
 
 resource configservice_label asset_list_box_view_item_asset_info {
   key = 'ASSET_LIST_BOX_VIEW_ITEM_ASSET_INFO'
@@ -2207,7 +2237,6 @@ resource configservice_label asset_list_collection_preview_notification_modal_bo
     }
   ]
 }
-
 
 resource configservice_label asset_list_facet_assettype {
   group = 'Asset List'
