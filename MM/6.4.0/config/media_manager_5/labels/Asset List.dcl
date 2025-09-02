@@ -526,6 +526,22 @@ resource configservice_label asset_list_folders_assets_undo_error_body {
   ]
 }
 
+resource configservice_label asset_list_folders_assets_undo {
+  key = 'ASSET_LIST_FOLDERS_ASSETS_UNDO'
+  group = 'Asset List'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Undo'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Annuller'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label asset_list_box_view_item_asset_info {
   key = 'ASSET_LIST_BOX_VIEW_ITEM_ASSET_INFO'
   group = 'Asset List'
