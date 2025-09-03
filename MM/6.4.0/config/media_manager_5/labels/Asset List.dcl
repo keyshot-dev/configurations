@@ -536,7 +536,7 @@ resource configservice_label asset_list_folders_assets_undo {
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Annuller'
+      default_translation = 'Fortryd'
       language_id = data.language.danish.id
     }
   ]
