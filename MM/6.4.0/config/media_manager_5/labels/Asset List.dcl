@@ -520,7 +520,7 @@ resource configservice_label asset_list_folders_assets_undo_error_body {
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Annullering mislykkedes'
+      default_translation = 'Fortryd mislykkedes'
       language_id = data.language.danish.id
     }
   ]
