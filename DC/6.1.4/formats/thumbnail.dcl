@@ -40,7 +40,7 @@
             value = 'True'
         }, {
             key = 'RemoveFileMetadata'
-            value = 'False'
+            value = 'True'
         }, {
             key = 'WatermarkAssetId'
             value = '0'
