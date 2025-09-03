@@ -739,6 +739,22 @@ resource configservice_label administration_tools_analytics_block_builder_time_b
   ]
 }
 
+resource configservice_label administration_tools_analytics_block_builder_time_zone {
+  key = 'ADMINISTRATION_TOOLS_ANALYTICS_BLOCK_BUILDER_TIME_ZONE'
+  group = 'administration-tools - analytics-block-builder'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Time zone'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Tidszone'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label administration_tools_analytics_block_builder_end_date {
   key = 'ADMINISTRATION_TOOLS_ANALYTICS_BLOCK_BUILDER_END_DATE'
   group = 'administration-tools - analytics-block-builder'
