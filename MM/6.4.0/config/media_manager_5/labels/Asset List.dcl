@@ -504,7 +504,7 @@ resource configservice_label asset_list_folders_assets_undo_body {
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Handling annulleret'
+      default_translation = 'Fortryd lykkes'
       language_id = data.language.danish.id
     }
   ]
