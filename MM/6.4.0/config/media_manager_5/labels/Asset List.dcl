@@ -2621,3 +2621,19 @@ resource configservice_label asset_list_similar_assets_modal_content_title {
     }
   ]
 }
+
+resource configservice_label asset_drag_placeholder_drop {
+  key = 'ASSET_DRAG_PLACEHOLDER_DROP'
+  group = 'Asset List'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = '{isCopied, select, true {Drop to add assets} false {Drop to move assets. Use {isSafari, select, true {OPTIONS} false {CTRL}} to add}}'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = '{isCopied, select, true {Slip for at tilføje assets} false {Slip for at flytte assets. Brug {isSafari, select, true {OPTIONS} false {CTRL}} for at tilføje}}'
+      language_id = data.language.danish.id
+    }
+  ]
+}
