@@ -1,7 +1,7 @@
 data configservice_string_config_field media_manager_5__collection_metadata_fields {
     product_id = data.configservice_product.media_manager_5.id
-    key = 'collectionMetadata'
-    title = 'Collection metadata fields'
+    key = 'collectionExternalMetadata'
+    title = 'Collection external metadata fields'
 }
 
 resource configservice_config_string_field_value media_manager_5__collection_metadata_fields {
