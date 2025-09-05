@@ -2628,12 +2628,12 @@ resource configservice_label asset_drag_placeholder_drop {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = '{isCopied, select, true {Drop to add assets} false {Drop to move assets. Press {isSafari, select, true {OPTIONS} false {CTRL}} to add}}'
+      default_translation = '{isCopied, select, true {Drop to add assets} false {Drop to move assets. Press {isMacOS, select, true {OPTIONS} false {CTRL}} to add}}'
       language_id = data.language.english.id
     },
     {
       default_translation = '{isCopied, select, true {Slip for at tilføje assets} false {Slip for at flytte assets. 
-Tryk {isSafari, select, true {OPTIONS} false {CTRL}} for at tilføje}}'
+Tryk {isMacOS, select, true {OPTIONS} false {CTRL}} for at tilføje}}'
       language_id = data.language.danish.id
     }
   ]
