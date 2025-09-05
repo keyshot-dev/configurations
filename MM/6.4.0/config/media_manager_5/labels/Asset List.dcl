@@ -2632,7 +2632,8 @@ resource configservice_label asset_drag_placeholder_drop {
       language_id = data.language.english.id
     },
     {
-      default_translation = '{isCopied, select, true {Slip for at tilføje assets} false {Slip for at flytte assets. Brug {isSafari, select, true {OPTIONS} false {CTRL}} for at tilføje}}'
+      default_translation = '{isCopied, select, true {Slip for at tilføje assets} false {Slip for at flytte assets. 
+Tryk {isSafari, select, true {OPTIONS} false {CTRL}} for at tilføje}}'
       language_id = data.language.danish.id
     }
   ]
