@@ -542,6 +542,70 @@ resource configservice_label asset_list_folders_assets_undo {
   ]
 }
 
+resource configservice_label asset_list_folders_folders_undo {
+  key = 'ASSET_LIST_FOLDERS_FOLDERS_UNDO'
+  group = 'Asset List'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Undo'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Fortryd'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_list_folders_folders_undo_body {
+  key = 'ASSET_LIST_FOLDERS_FOLDERS_UNDO_BODY'
+  group = 'Asset List'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Undo successful'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Fortryd lykkes'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_list_folders_folders_undo_error_body {
+  key = 'ASSET_LIST_FOLDERS_FOLDERS_UNDO_ERROR_BODY'
+  group = 'Asset List'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Undo failed'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Fortryd mislykkedes'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_list_folders_folders_move_error_body {
+  key = 'ASSET_LIST_FOLDERS_FOLDERS_MOVE_ERROR_BODY'
+  group = 'Asset List'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'An error occurred while moving {{child}} to {{parent}}'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Der opstod en fejl under flytning af {{child}} til {{parent}}'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label asset_list_box_view_item_asset_info {
   key = 'ASSET_LIST_BOX_VIEW_ITEM_ASSET_INFO'
   group = 'Asset List'
