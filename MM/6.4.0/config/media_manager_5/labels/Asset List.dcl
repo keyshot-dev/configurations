@@ -452,11 +452,11 @@ resource configservice_label asset_list_folders_assets_moved_body {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = '{{count}} {count, cardinalPlural, one {asset} other {assets}} {isCopied, select, true {copied} false {moved}}'
+      default_translation = '{{count}} {count, cardinalPlural, one {asset} other {assets}} {isCopied, select, true {added to} false {moved to}} {{folder}}'
       language_id = data.language.english.id
     },
     {
-      default_translation = '{{count}} {count, cardinalPlural, one {asset} other {assets}} {isCopied, select, true {kopieret} false {flyttet}}'
+      default_translation = '{{count}} {count, cardinalPlural, one {asset} other {assets}} {isCopied, select, true {tilføjet til} false {flyttet til}} {{folder}}'
       language_id = data.language.danish.id
     }
   ]
@@ -494,7 +494,53 @@ resource configservice_label asset_list_folders_folders_moved_body {
   ]
 }
 
+resource configservice_label asset_list_folders_assets_undo_body {
+  key = 'ASSET_LIST_FOLDERS_ASSETS_UNDO_BODY'
+  group = 'Asset List'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Undo successful'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Fortryd lykkes'
+      language_id = data.language.danish.id
+    }
+  ]
+}
 
+resource configservice_label asset_list_folders_assets_undo_error_body {
+  key = 'ASSET_LIST_FOLDERS_ASSETS_UNDO_ERROR_BODY'
+  group = 'Asset List'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Undo failed'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Fortryd mislykkedes'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_list_folders_assets_undo {
+  key = 'ASSET_LIST_FOLDERS_ASSETS_UNDO'
+  group = 'Asset List'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Undo'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Fortryd'
+      language_id = data.language.danish.id
+    }
+  ]
+}
 
 resource configservice_label asset_list_box_view_item_asset_info {
   key = 'ASSET_LIST_BOX_VIEW_ITEM_ASSET_INFO'
@@ -2208,7 +2254,6 @@ resource configservice_label asset_list_collection_preview_notification_modal_bo
   ]
 }
 
-
 resource configservice_label asset_list_facet_assettype {
   group = 'Asset List'
   key = 'ASSET_LIST_FACET_assetType'
@@ -2572,6 +2617,23 @@ resource configservice_label asset_list_similar_assets_modal_content_title {
     },
     {
       default_translation = 'Assets'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_drag_placeholder_drop {
+  key = 'ASSET_DRAG_PLACEHOLDER_DROP'
+  group = 'Asset List'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = '{isCopied, select, true {Drop to add assets} false {Drop to move assets. Press {isSafari, select, true {OPTIONS} false {CTRL}} to add}}'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = '{isCopied, select, true {Slip for at tilføje assets} false {Slip for at flytte assets. 
+Tryk {isSafari, select, true {OPTIONS} false {CTRL}} for at tilføje}}'
       language_id = data.language.danish.id
     }
   ]
