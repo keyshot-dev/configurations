@@ -2628,7 +2628,7 @@ resource configservice_label asset_drag_placeholder_drop {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = '{isCopied, select, true {Drop to add assets} false {Drop to move assets. Use {isSafari, select, true {OPTIONS} false {CTRL}} to add}}'
+      default_translation = '{isCopied, select, true {Drop to add assets} false {Drop to move assets. Press {isSafari, select, true {OPTIONS} false {CTRL}} to add}}'
       language_id = data.language.english.id
     },
     {
