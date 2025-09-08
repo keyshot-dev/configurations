@@ -13073,11 +13073,11 @@ resource configservice_label administration_tools_workspace_members_section_tool
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Current workspace'
+      default_translation = 'Manage active users and invites for the current workspace'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Nuværende arbejdsområde'
+      default_translation = 'Administrer aktive brugere og invitationer for det aktuelle arbejdsområde'
       language_id = data.language.danish.id
     }
   ]
@@ -13105,11 +13105,11 @@ resource configservice_label administration_tools_workspace_members_add_workspac
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Invite new member'
+      default_translation = 'Invite new or existing user'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Inviter nyt medlem'
+      default_translation = 'Invitér ny eller eksisterende bruger'
       language_id = data.language.danish.id
     }
   ]
@@ -13121,11 +13121,11 @@ resource configservice_label administration_tools_workspace_members_refresh_work
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Refresh workspace members'
+      default_translation = 'Refresh'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Opdater arbejdsområdemedlemmer'
+      default_translation = 'Genindlæs'
       language_id = data.language.danish.id
     }
   ]
@@ -13153,11 +13153,11 @@ resource configservice_label administration_tools_workspace_members_no_workspace
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'No active members found'
+      default_translation = 'No active users found'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Ingen aktive medlemmer fundet'
+      default_translation = 'Ingen aktive brugere fundet'
       language_id = data.language.danish.id
     }
   ]
@@ -13185,11 +13185,11 @@ resource configservice_label administration_tools_workspace_members_no_workspace
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'No invited members found'
+      default_translation = 'No invites found'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Ingen inviterede medlemmer fundet'
+      default_translation = 'Ingen invitationer fundet'
       language_id = data.language.danish.id
     }
   ]
@@ -13201,11 +13201,11 @@ resource configservice_label administration_tools_workspace_members_email {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Email'
+      default_translation = 'Emails'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Email'
+      default_translation = 'E-mails'
       language_id = data.language.danish.id
     }
   ]
@@ -13265,11 +13265,11 @@ resource configservice_label administration_tools_workspace_members_add_workspac
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Invite new member'
+      default_translation = 'Invite to workspace by clicking +'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Inviter nyt medlem'
+      default_translation = 'Klik på + for at invitere til arbejdsområdet'
       language_id = data.language.danish.id
     }
   ]
@@ -13345,11 +13345,11 @@ resource configservice_label administration_tools_workspace_members_remove_works
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Remove member invitation'
+      default_translation = 'Revoke invitation'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Fjern medlemsinvitation'
+      default_translation = 'Annullér invitationen'
       language_id = data.language.danish.id
     }
   ]

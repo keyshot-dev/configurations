@@ -1429,7 +1429,7 @@ resource configservice_label invitation_workspace_member_by_token_popup_title {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Accept Invitation'
+      default_translation = 'Accept invite'
       language_id = data.language.english.id
     },
     {
