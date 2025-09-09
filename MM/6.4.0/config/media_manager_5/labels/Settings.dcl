@@ -3072,7 +3072,7 @@ resource configservice_label collection_asset_settings_metadata_label {
 }
 
 resource configservice_label collection_asset_settings_panel_title_internal {
-  key = 'COLLECTION_ASSET_SETTINGS_PANEL_TITLE_INTERNAL''
+  key = 'COLLECTION_ASSET_SETTINGS_PANEL_TITLE_INTERNAL'
   group = 'Settings'
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
