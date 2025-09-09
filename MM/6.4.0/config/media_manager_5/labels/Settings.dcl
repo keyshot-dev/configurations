@@ -3141,7 +3141,7 @@ resource configservice_label collection_asset_settings_access_type_description {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Set the defualt access type for new shares'
+      default_translation = 'Set the default access type for new shares'
       language_id = data.language.english.id
     },
     {
@@ -3151,9 +3151,101 @@ resource configservice_label collection_asset_settings_access_type_description {
   ]
 }
 
+resource configservice_label collection_asset_settings_download_rights {
+  key = 'COLLECTION_ASSET_SETTINGS_DOWNLOAD_RIGHTS'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Download rights'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Download-rettigheder'
+      language_id = data.language.danish.id
+    }
+  ]
+}
 
+resource configservice_label collection_asset_settings_download_rights_description {
+  key = 'COLLECTION_ASSET_SETTINGS_DOWNLOAD_RIGHTS_DESCRIPTION'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Define the default download rights for new shares'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Definér standard download-rettigheder for nye delinger'
+      language_id = data.language.danish.id
+    }
+  ]
+}
 
+resource configservice_label collection_asset_settings_access_period {
+  key = 'COLLECTION_ASSET_SETTINGS_ACCESS_PERIOD'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Access period'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Adgangsperiode'
+      language_id = data.language.danish.id
+    }
+  ]
+}
 
+resource configservice_label collection_asset_settings_access_period_description {
+  key = 'COLLECTION_ASSET_SETTINGS_ACCESS_PERIOD_DESCRIPTION'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Define the default start and end access period for new shares. Add x numbers of days to be added to the current date.'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Definér standard start- og slutdato for nye delinger. Tilføj x antal dage til den aktuelle dato.'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label collection_asset_settings_access_period_placeholder_start {
+  key = 'COLLECTION_ASSET_SETTINGS_ACCESS_PERIOD_PLACEHOLDER_START'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Add start days'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Tilføj startdage'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label collection_asset_settings_access_period_placeholder_end {
+  key = 'COLLECTION_ASSET_SETTINGS_ACCESS_PERIOD_PLACEHOLDER_END'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Add end days'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Tilføj slutdage'
+      language_id = data.language.danish.id
+    }
+  ]
+}
 
 resource configservice_label asset_card_settings_property_public {
   key = 'ASSET_CARD_SETTINGS_PROPERTY_PUBLIC'
