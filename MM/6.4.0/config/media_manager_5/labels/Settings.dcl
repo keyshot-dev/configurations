@@ -3071,6 +3071,90 @@ resource configservice_label collection_asset_settings_metadata_label {
   ]
 }
 
+resource configservice_label collection_asset_settings_panel_title_internal {
+  key = 'COLLECTION_ASSET_SETTINGS_PANEL_TITLE_INTERNAL''
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Internal sharing (Member + Group)'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Intern deling (Member + Group)'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label collection_asset_settings_panel_title_external {
+  key = 'COLLECTION_ASSET_SETTINGS_PANEL_TITLE_EXTERNAL'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'External sharing (Member + Group)'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Ekstern deling (Member + Group)'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label collection_asset_settings_reset {
+  key = 'COLLECTION_ASSET_SETTINGS_RESET'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Reset'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Nulstil'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label collection_asset_settings_access_type {
+  key = 'COLLECTION_ASSET_SETTINGS_ACCESS_TYPE'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Access type'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Access type'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label collection_asset_settings_access_type_description {
+  key = 'COLLECTION_ASSET_SETTINGS_ACCESS_TYPE_DESCRIPTION'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Set the defualt access type for new shares'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Angiv standard access type for nye delinger'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+
+
+
+
 resource configservice_label asset_card_settings_property_public {
   key = 'ASSET_CARD_SETTINGS_PROPERTY_PUBLIC'
   group = 'Settings'
