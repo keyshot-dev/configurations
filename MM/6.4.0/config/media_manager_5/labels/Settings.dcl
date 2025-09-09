@@ -3247,6 +3247,39 @@ resource configservice_label collection_asset_settings_access_period_end {
   ]
 }
 
+resource configservice_label collection_asset_settings_force_password {
+  key = 'COLLECTION_ASSET_SETTINGS_FORCE_PASSWORD'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Force password'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Tving adgangskode'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label collection_asset_settings_force_password_description {
+  key = 'COLLECTION_ASSET_SETTINGS_FORCE_PASSWORD_DESCRIPTION'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Force new shares to have a password'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Tving nye delinger til at have en adgangskode'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+
 resource configservice_label asset_card_settings_property_public {
   key = 'ASSET_CARD_SETTINGS_PROPERTY_PUBLIC'
   group = 'Settings'
