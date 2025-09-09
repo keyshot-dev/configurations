@@ -3215,33 +3215,33 @@ resource configservice_label collection_asset_settings_access_period_description
   ]
 }
 
-resource configservice_label collection_asset_settings_access_period_placeholder_start {
-  key = 'COLLECTION_ASSET_SETTINGS_ACCESS_PERIOD_PLACEHOLDER_START'
+resource configservice_label collection_asset_settings_access_period_start {
+  key = 'COLLECTION_ASSET_SETTINGS_ACCESS_PERIOD_START'
   group = 'Settings'
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Add start days'
+      default_translation = 'Add start days to current date'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Tilføj startdage'
+      default_translation = 'Tilføj startdage til den aktuelle dato'
       language_id = data.language.danish.id
     }
   ]
 }
 
-resource configservice_label collection_asset_settings_access_period_placeholder_end {
-  key = 'COLLECTION_ASSET_SETTINGS_ACCESS_PERIOD_PLACEHOLDER_END'
+resource configservice_label collection_asset_settings_access_period_end {
+  key = 'COLLECTION_ASSET_SETTINGS_ACCESS_PERIOD_END'
   group = 'Settings'
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Add end days'
+      default_translation = 'Add end days to current date'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Tilføj slutdage'
+      default_translation = 'Tilføj slutdage til den aktuelle dato'
       language_id = data.language.danish.id
     }
   ]
