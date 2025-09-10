@@ -13073,11 +13073,11 @@ resource configservice_label administration_tools_workspace_members_section_tool
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Manage active users and invites for the current workspace'
+      default_translation = 'Manage users and invites for this workspace'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Administrer aktive brugere og invitationer for det aktuelle arbejdsområde'
+      default_translation = 'Administrer brugere og invitationer for arbejdsområdet'
       language_id = data.language.danish.id
     }
   ]
@@ -13105,11 +13105,11 @@ resource configservice_label administration_tools_workspace_members_add_workspac
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Invite new or existing user'
+      default_translation = 'Invite user'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Invitér ny eller eksisterende bruger'
+      default_translation = 'Inviter bruger'
       language_id = data.language.danish.id
     }
   ]
@@ -13185,11 +13185,11 @@ resource configservice_label administration_tools_workspace_members_no_workspace
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'No invites found'
+      default_translation = 'No invites'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Ingen invitationer fundet'
+      default_translation = 'Ingen invitationer'
       language_id = data.language.danish.id
     }
   ]
@@ -13441,11 +13441,11 @@ resource configservice_label administration_tools_workspace_members_error_remove
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Member not removed. {{error}}'
+      default_translation = 'User not removed. {{error}}'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Medlem ikke fjernet. {{error}}'
+      default_translation = 'Brugeren blev ikke fjernet. {{error}}'
       language_id = data.language.danish.id
     }
   ]
@@ -13473,11 +13473,11 @@ resource configservice_label administration_tools_workspace_members_dialog_remov
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Remove member invitation from workspace'
+      default_translation = 'Revoke invitation'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Fjern medlemsinvitation fra arbejdsområdet'
+      default_translation = 'Træk invitation tilbage'
       language_id = data.language.danish.id
     }
   ]
@@ -13489,11 +13489,11 @@ resource configservice_label administration_tools_workspace_members_dialog_remov
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Are you sure you want to remove this member invitation from current workspace?'
+      default_translation = 'Are you sure you want to revoke the invitation?'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Er du sikker på, at du vil fjerne denne medlemsinvitation fra det nuværende arbejdsområde?'
+      default_translation = 'Er du sikker på, at du vil trække invitationen tilbage?'
       language_id = data.language.danish.id
     }
   ]
@@ -13537,11 +13537,11 @@ resource configservice_label administration_tools_workspace_members_success_remo
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Invitation successfully removed from current workspace'
+      default_translation = 'Invitation successfully revoked'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Invitationen er blevet fjernet fra det aktuelle arbejdsområde'
+      default_translation = 'Invitation trukket tilbage'
       language_id = data.language.danish.id
     }
   ]
@@ -13553,11 +13553,11 @@ resource configservice_label administration_tools_workspace_members_error_remove
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Invitation not removed. {{error}}'
+      default_translation = 'Failed to revoke invitation. {{error}}'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Invitationen er ikke fjernet. {{error}}'
+      default_translation = 'Tilbage-trækning af invitation fejlede. {{error}}'
       language_id = data.language.danish.id
     }
   ]
@@ -13585,11 +13585,11 @@ resource configservice_label administration_tools_workspace_members_success_save
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Invitation successfully created'
+      default_translation = 'User invited'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Invitation er oprettet'
+      default_translation = 'Bruger inviteret'
       language_id = data.language.danish.id
     }
   ]
@@ -13601,11 +13601,11 @@ resource configservice_label administration_tools_workspace_members_error_saving
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Invitation not created. {{error}}'
+      default_translation = 'Invitation failed. {{error}}'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Invitationen blev ikke oprettet. {{error}}'
+      default_translation = 'Invitationen fejlede. {{error}}'
       language_id = data.language.danish.id
     }
   ]

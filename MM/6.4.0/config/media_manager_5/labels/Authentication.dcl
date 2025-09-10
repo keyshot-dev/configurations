@@ -1333,11 +1333,11 @@ resource configservice_label invitation_workspace_member_by_workspace_success_bo
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Invitation accepted successfully'
+      default_translation = 'Invitation accepted'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Invitationen er accepteret'
+      default_translation = 'Invitationen accepteret'
       language_id = data.language.danish.id
     }
   ]
@@ -1349,11 +1349,11 @@ resource configservice_label invitation_workspace_member_by_workspace_error_body
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Invitation not accepted. {{error}}'
+      default_translation = 'Failed to accept invitation. {{error}}'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Invitationen blev ikke accepteret. {{error}}'
+      default_translation = 'Accept af invitation fejlede. {{error}}'
       language_id = data.language.danish.id
     }
   ]
@@ -1381,11 +1381,11 @@ resource configservice_label invitation_workspace_member_by_token_success_body {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Invitation accepted successfully'
+      default_translation = 'Invitation accepted'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Invitationen er accepteret'
+      default_translation = 'Invitation accepteret'
       language_id = data.language.danish.id
     }
   ]
@@ -1397,11 +1397,11 @@ resource configservice_label invitation_workspace_member_by_token_error_body {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Invitation not accepted. {{error}}'
+      default_translation = 'Failed to accept invitation. {{error}}'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Invitationen blev ikke accepteret. {{error}}'
+      default_translation = 'Accept af invitation fejlede. {{error}}'
       language_id = data.language.danish.id
     }
   ]
@@ -1529,7 +1529,7 @@ resource configservice_label invitation_workspace_member_by_token_popup_accept_b
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Acceptere'
+      default_translation = 'Accepter'
       language_id = data.language.danish.id
     }
   ]
@@ -1541,11 +1541,11 @@ resource configservice_label invitation_workspace_member_by_token_popup_required
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Field is required'
+      default_translation = 'Field required'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Feltet er påkrævet'
+      default_translation = 'Felt påkrævet'
       language_id = data.language.danish.id
     }
   ]
