@@ -13153,11 +13153,11 @@ resource configservice_label administration_tools_workspace_members_no_workspace
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'No active users found'
+      default_translation = 'No users found'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Ingen aktive brugere fundet'
+      default_translation = 'Ingen brugere fundet'
       language_id = data.language.danish.id
     }
   ]
@@ -13217,11 +13217,11 @@ resource configservice_label administration_tools_workspace_members_required {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Field is required'
+      default_translation = 'Field required'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Feltet er påkrævet'
+      default_translation = 'Felt påkrævet'
       language_id = data.language.danish.id
     }
   ]
@@ -13329,11 +13329,11 @@ resource configservice_label administration_tools_workspace_members_remove_works
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Remove member from workspace'
+      default_translation = 'Remove user from workspace'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Fjern medlem fra arbejdsområdet'
+      default_translation = 'Fjern bruger fra arbejdsområdet'
       language_id = data.language.danish.id
     }
   ]
@@ -13349,7 +13349,7 @@ resource configservice_label administration_tools_workspace_members_remove_works
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Annullér invitationen'
+      default_translation = 'Træk invitation tilbage'
       language_id = data.language.danish.id
     }
   ]
@@ -13361,11 +13361,11 @@ resource configservice_label administration_tools_workspace_members_dialog_remov
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Remove member from workspace'
+      default_translation = 'Remove user from workspace'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Fjern medlem fra arbejdsområdet'
+      default_translation = 'Fjern bruger fra arbejdsområde'
       language_id = data.language.danish.id
     }
   ]
@@ -13377,11 +13377,11 @@ resource configservice_label administration_tools_workspace_members_dialog_remov
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Are you sure you want to remove this member from current workspace?'
+      default_translation = 'Are you sure you want to remove the user from this workspace?'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Er du sikker på, at du vil fjerne dette medlem fra det nuværende arbejdsområde?'
+      default_translation = 'Er du sikker på, at du vil fjerne brugeren fra arbejdsområdet?'
       language_id = data.language.danish.id
     }
   ]
@@ -13425,11 +13425,11 @@ resource configservice_label administration_tools_workspace_members_success_remo
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Member successfully removed from current workspace'
+      default_translation = 'User successfully removed from workspace'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Medlemmet er blevet fjernet fra det nuværende arbejdsområde'
+      default_translation = 'Bruger fjernet fra arbejdsområde'
       language_id = data.language.danish.id
     }
   ]
