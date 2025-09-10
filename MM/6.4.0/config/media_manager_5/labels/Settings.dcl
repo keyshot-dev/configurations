@@ -3071,6 +3071,230 @@ resource configservice_label collection_asset_settings_metadata_label {
   ]
 }
 
+resource configservice_label collection_asset_settings_panel_title_internal {
+  key = 'COLLECTION_ASSET_SETTINGS_PANEL_TITLE_INTERNAL'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Internal sharing (Member + Group)'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Intern deling (Member + Group)'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label collection_asset_settings_panel_title_external {
+  key = 'COLLECTION_ASSET_SETTINGS_PANEL_TITLE_EXTERNAL'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'External sharing (Member + Group)'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Ekstern deling (Member + Group)'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label collection_asset_settings_reset {
+  key = 'COLLECTION_ASSET_SETTINGS_RESET'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Reset'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Nulstil'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label collection_asset_settings_access_type {
+  key = 'COLLECTION_ASSET_SETTINGS_ACCESS_TYPE'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Access type'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Adgangstype'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label collection_asset_settings_access_type_description {
+  key = 'COLLECTION_ASSET_SETTINGS_ACCESS_TYPE_DESCRIPTION'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Set the default access type for new shares'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Angiv standard adgangstype for nye delinger'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label collection_asset_settings_download_rights {
+  key = 'COLLECTION_ASSET_SETTINGS_DOWNLOAD_RIGHTS'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Download rights'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Download-rettigheder'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label collection_asset_settings_download_rights_description {
+  key = 'COLLECTION_ASSET_SETTINGS_DOWNLOAD_RIGHTS_DESCRIPTION'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Define the default download rights for new shares'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Definér standard download-rettigheder for nye delinger'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label collection_asset_settings_access_period {
+  key = 'COLLECTION_ASSET_SETTINGS_ACCESS_PERIOD'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Access period'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Adgangsperiode'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label collection_asset_settings_access_period_description {
+  key = 'COLLECTION_ASSET_SETTINGS_ACCESS_PERIOD_DESCRIPTION'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Define the default start and end access period for new shares. Add x numbers of days to be added to the current date.'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Definér standard start- og slutdato for nye delinger. Tilføj x antal dage til den aktuelle dato.'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label collection_asset_settings_access_period_start {
+  key = 'COLLECTION_ASSET_SETTINGS_ACCESS_PERIOD_START'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Add start days to current date'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Tilføj startdage til den aktuelle dato'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label collection_asset_settings_access_period_end {
+  key = 'COLLECTION_ASSET_SETTINGS_ACCESS_PERIOD_END'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Add end days to current date'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Tilføj slutdage til den aktuelle dato'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label collection_asset_settings_force_password {
+  key = 'COLLECTION_ASSET_SETTINGS_FORCE_PASSWORD'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Force password'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Tving adgangskode'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label collection_asset_settings_force_password_description {
+  key = 'COLLECTION_ASSET_SETTINGS_FORCE_PASSWORD_DESCRIPTION'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Force new shares to have a password'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Tving nye delinger til at have en adgangskode'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label collection_asset_settings_failed_save_description {
+  key = 'COLLECTION_ASSET_SETTINGS_FAILED_SAVE_DESCRIPTION'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Failed to save collection settings, please try again.'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Kunne ikke gemme collection-indstillinger, prøv venligst igen.'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label asset_card_settings_property_public {
   key = 'ASSET_CARD_SETTINGS_PROPERTY_PUBLIC'
   group = 'Settings'
