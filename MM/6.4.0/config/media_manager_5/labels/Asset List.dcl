@@ -596,7 +596,7 @@ resource configservice_label asset_list_folders_folders_move_error_body {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'An error occurred while moving {{child}} to {{parent}}'
+      default_translation = 'An error occurred while moving {{child}} to {parent, select, root {root level} other {{parent}}}'
       language_id = data.language.english.id
     },
     {
