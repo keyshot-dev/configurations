@@ -1118,6 +1118,38 @@ resource configservice_label collections_share_expiration_end_date_label {
   ]
 }
 
+resource configservice_label collections_share_preview_title {
+  key = 'COLLECTIONS_SHARE_PREVIEW_TITLE'
+  group = 'Collections'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Preview'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Forhåndsvisning'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label collections_share_preview_description {
+  key = 'COLLECTIONS_SHARE_PREVIEW_DESCRIPTION'
+  group = 'Collections'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Generate preview link instead of download link'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Generer forhåndsvisningslink i stedet for downloadlink'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label collections_share_share_settings {
   key = 'COLLECTIONS_SHARE_SHARE_SETTINGS'
   group = 'Collections'
