@@ -3129,7 +3129,7 @@ resource configservice_label collection_asset_settings_access_type {
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Access type'
+      default_translation = 'Adgangstype'
       language_id = data.language.danish.id
     }
   ]
@@ -3145,7 +3145,7 @@ resource configservice_label collection_asset_settings_access_type_description {
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Angiv standard access type for nye delinger'
+      default_translation = 'Angiv standard adgangstype for nye delinger'
       language_id = data.language.danish.id
     }
   ]
@@ -3279,6 +3279,21 @@ resource configservice_label collection_asset_settings_force_password_descriptio
   ]
 }
 
+resource configservice_label collection_asset_settings_failed_save_description {
+  key = 'COLLECTION_ASSET_SETTINGS_FAILED_SAVE_DESCRIPTION'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Failed to save collection settings, please try again.'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Kunne ikke gemme collection-indstillinger, prøv venligst igen.'
+      language_id = data.language.danish.id
+    }
+  ]
+}
 
 resource configservice_label asset_card_settings_property_public {
   key = 'ASSET_CARD_SETTINGS_PROPERTY_PUBLIC'
