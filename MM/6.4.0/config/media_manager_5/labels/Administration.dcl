@@ -13034,3 +13034,595 @@ resource configservice_label administration_tools_system_metadata_combo_values_e
     }
   ]
 }
+
+resource configservice_label administration_tools_system_nav_workspace_members {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_NAV_WORKSPACE_MEMBERS'
+  group = 'administration-tools - system - workspace-members'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Current workspace'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Nuværende arbejdsområde'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_workspace_members_section {
+  key = 'ADMINISTRATION_TOOLS_WORKSPACE_MEMBERS_SECTION'
+  group = 'administration-tools - system - workspace-members'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Current workspace'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Nuværende arbejdsområde'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_workspace_members_section_tooltip {
+  key = 'ADMINISTRATION_TOOLS_WORKSPACE_MEMBERS_SECTION_TOOLTIP'
+  group = 'administration-tools - system - workspace-members'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Manage users and invites for this workspace'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Administrer brugere og invitationer for arbejdsområdet'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_workspace_members_search {
+  key = 'ADMINISTRATION_TOOLS_WORKSPACE_MEMBERS_SEARCH'
+  group = 'administration-tools - system - workspace-members'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Search'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Søg'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_workspace_members_add_workspace_member_btn {
+  key = 'ADMINISTRATION_TOOLS_WORKSPACE_MEMBERS_ADD_WORKSPACE_MEMBER_BTN'
+  group = 'administration-tools - system - workspace-members'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Invite user'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Inviter bruger'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_workspace_members_refresh_workspace_members_btn {
+  key = 'ADMINISTRATION_TOOLS_WORKSPACE_MEMBERS_REFRESH_WORKSPACE_MEMBERS_BTN'
+  group = 'administration-tools - system - workspace-members'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Refresh'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Genindlæs'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_workspace_members_active_tab {
+  key = 'ADMINISTRATION_TOOLS_WORKSPACE_MEMBERS_ACTIVE_TAB'
+  group = 'administration-tools - system - workspace-members'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Active'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Aktiv'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_workspace_members_no_workspace_member_found {
+  key = 'ADMINISTRATION_TOOLS_WORKSPACE_MEMBERS_NO_WORKSPACE_MEMBER_FOUND'
+  group = 'administration-tools - system - workspace-members'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'No users found'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Ingen brugere fundet'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_workspace_members_invited_tab {
+  key = 'ADMINISTRATION_TOOLS_WORKSPACE_MEMBERS_INVITED_TAB'
+  group = 'administration-tools - system - workspace-members'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Invited'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Inviteret'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_workspace_members_no_workspace_member_invitation_found {
+  key = 'ADMINISTRATION_TOOLS_WORKSPACE_MEMBERS_NO_WORKSPACE_MEMBER_INVITATION_FOUND'
+  group = 'administration-tools - system - workspace-members'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'No invites'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Ingen invitationer'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_workspace_members_email {
+  key = 'ADMINISTRATION_TOOLS_WORKSPACE_MEMBERS_EMAIL'
+  group = 'administration-tools - system - workspace-members'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Emails'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'E-mails'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_workspace_members_required {
+  key = 'ADMINISTRATION_TOOLS_WORKSPACE_MEMBERS_REQUIRED'
+  group = 'administration-tools - system - workspace-members'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Field required'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Felt påkrævet'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_workspace_members_edit_cancel_btn {
+  key = 'ADMINISTRATION_TOOLS_WORKSPACE_MEMBERS_EDIT_CANCEL_BTN'
+  group = 'administration-tools - system - workspace-members'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Cancel'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Annullér'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_workspace_members_edit_save_btn {
+  key = 'ADMINISTRATION_TOOLS_WORKSPACE_MEMBERS_EDIT_SAVE_BTN'
+  group = 'administration-tools - system - workspace-members'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = '{saving, select, true {Saving...} false {Save}}'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = '{saving, select, true {Gemmer...} false {Gem}}'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_workspace_members_add_workspace_member {
+  key = 'ADMINISTRATION_TOOLS_WORKSPACE_MEMBERS_ADD_WORKSPACE_MEMBER'
+  group = 'administration-tools - system - workspace-members'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Invite to workspace by clicking +'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Klik på + for at invitere til arbejdsområdet'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_workspace_members_id {
+  key = 'ADMINISTRATION_TOOLS_WORKSPACE_MEMBERS_ID'
+  group = 'administration-tools - system - workspace-members'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'ID'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Id'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_workspace_members_name {
+  key = 'ADMINISTRATION_TOOLS_WORKSPACE_MEMBERS_NAME'
+  group = 'administration-tools - system - workspace-members'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Name'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Navn'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_workspace_members_actions {
+  key = 'ADMINISTRATION_TOOLS_WORKSPACE_MEMBERS_ACTIONS'
+  group = 'administration-tools - system - workspace-members'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Actions'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Handlinger'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_workspace_members_remove_workspace_member_btn {
+  key = 'ADMINISTRATION_TOOLS_WORKSPACE_MEMBERS_REMOVE_WORKSPACE_MEMBER_BTN'
+  group = 'administration-tools - system - workspace-members'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Remove user from workspace'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Fjern bruger fra arbejdsområdet'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_workspace_members_remove_workspace_member_invitation_btn {
+  key = 'ADMINISTRATION_TOOLS_WORKSPACE_MEMBERS_REMOVE_WORKSPACE_MEMBER_INVITATION_BTN'
+  group = 'administration-tools - system - workspace-members'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Revoke invitation'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Træk invitation tilbage'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_workspace_members_dialog_remove_member_title {
+  key = 'ADMINISTRATION_TOOLS_WORKSPACE_MEMBERS_DIALOG_REMOVE_MEMBER_TITLE'
+  group = 'administration-tools - system - workspace-members'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Remove user from workspace'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Fjern bruger fra arbejdsområde'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_workspace_members_dialog_remove_member_body {
+  key = 'ADMINISTRATION_TOOLS_WORKSPACE_MEMBERS_DIALOG_REMOVE_MEMBER_BODY'
+  group = 'administration-tools - system - workspace-members'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Are you sure you want to remove the user from this workspace?'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Er du sikker på, at du vil fjerne brugeren fra arbejdsområdet?'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_workspace_members_dialog_remove_member_cancel_btn {
+  key = 'ADMINISTRATION_TOOLS_WORKSPACE_MEMBERS_DIALOG_REMOVE_MEMBER_CANCEL_BTN'
+  group = 'administration-tools - system - workspace-members'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Cancel'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Annullér'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_workspace_members_dialog_remove_member_confirm_btn {
+  key = 'ADMINISTRATION_TOOLS_WORKSPACE_MEMBERS_DIALOG_REMOVE_MEMBER_CONFIRM_BTN'
+  group = 'administration-tools - system - workspace-members'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Delete'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Slet'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_workspace_members_success_removed {
+  key = 'ADMINISTRATION_TOOLS_WORKSPACE_MEMBERS_SUCCESS_REMOVED'
+  group = 'administration-tools - system - workspace-members'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'User successfully removed from workspace'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Bruger fjernet fra arbejdsområde'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_workspace_members_error_removed_body {
+  key = 'ADMINISTRATION_TOOLS_WORKSPACE_MEMBERS_ERROR_REMOVED_BODY'
+  group = 'administration-tools - system - workspace-members'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'User not removed. {{error}}'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Brugeren blev ikke fjernet. {{error}}'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_workspace_members_error_removed_title {
+  key = 'ADMINISTRATION_TOOLS_WORKSPACE_MEMBERS_ERROR_REMOVED_TITLE'
+  group = 'administration-tools - system - workspace-members'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Error'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Fejl'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_workspace_members_dialog_remove_member_invitation_title {
+  key = 'ADMINISTRATION_TOOLS_WORKSPACE_MEMBERS_DIALOG_REMOVE_MEMBER_INVITATION_TITLE'
+  group = 'administration-tools - system - workspace-members'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Revoke invitation'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Træk invitation tilbage'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_workspace_members_dialog_remove_member_invitation_body {
+  key = 'ADMINISTRATION_TOOLS_WORKSPACE_MEMBERS_DIALOG_REMOVE_MEMBER_INVITATION_BODY'
+  group = 'administration-tools - system - workspace-members'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Are you sure you want to revoke the invitation?'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Er du sikker på, at du vil trække invitationen tilbage?'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_workspace_members_dialog_remove_member_invitation_cancel_btn {
+  key = 'ADMINISTRATION_TOOLS_WORKSPACE_MEMBERS_DIALOG_REMOVE_MEMBER_INVITATION_CANCEL_BTN'
+  group = 'administration-tools - system - workspace-members'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Cancel'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Annullér'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_workspace_members_dialog_remove_member_invitation_confirm_btn {
+  key = 'ADMINISTRATION_TOOLS_WORKSPACE_MEMBERS_DIALOG_REMOVE_MEMBER_INVITATION_CONFIRM_BTN'
+  group = 'administration-tools - system - workspace-members'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Delete'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Slet'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_workspace_members_success_removed_invitation {
+  key = 'ADMINISTRATION_TOOLS_WORKSPACE_MEMBERS_SUCCESS_REMOVED_INVITATION'
+  group = 'administration-tools - system - workspace-members'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Invitation successfully revoked'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Invitation trukket tilbage'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_workspace_members_error_removed_invitation_body {
+  key = 'ADMINISTRATION_TOOLS_WORKSPACE_MEMBERS_ERROR_REMOVED_INVITATION_BODY'
+  group = 'administration-tools - system - workspace-members'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Failed to revoke invitation. {{error}}'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Tilbage-trækning af invitation fejlede. {{error}}'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_workspace_members_error_removed_invitation_title {
+  key = 'ADMINISTRATION_TOOLS_WORKSPACE_MEMBERS_ERROR_REMOVED_INVITATION_TITLE'
+  group = 'administration-tools - system - workspace-members'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Error'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Fejl'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_workspace_members_success_saved {
+  key = 'ADMINISTRATION_TOOLS_WORKSPACE_MEMBERS_SUCCESS_SAVED'
+  group = 'administration-tools - system - workspace-members'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'User invited'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Bruger inviteret'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_workspace_members_error_saving_body {
+  key = 'ADMINISTRATION_TOOLS_WORKSPACE_MEMBERS_ERROR_SAVING_BODY'
+  group = 'administration-tools - system - workspace-members'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Invitation failed. {{error}}'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Invitationen fejlede. {{error}}'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_workspace_members_error_saving_title {
+  key = 'ADMINISTRATION_TOOLS_WORKSPACE_MEMBERS_ERROR_SAVING_TITLE'
+  group = 'administration-tools - system - workspace-members'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Error'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Fejl'
+      language_id = data.language.danish.id
+    }
+  ]
+}

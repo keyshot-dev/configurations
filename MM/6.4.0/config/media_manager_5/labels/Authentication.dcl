@@ -1326,3 +1326,227 @@ resource configservice_label topbar_login_guest_drilldown_change_workspace {
     }
   ]
 }
+
+resource configservice_label invitation_workspace_member_by_workspace_success_body {
+  key = 'INVITATION_WORKSPACE_MEMBER_BY_WORKSPACE_SUCCESS_BODY'
+  group = 'Authentication - accept-invitation'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Invitation accepted'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Invitationen accepteret'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label invitation_workspace_member_by_workspace_error_body {
+  key = 'INVITATION_WORKSPACE_MEMBER_BY_WORKSPACE_ERROR_BODY'
+  group = 'Authentication - accept-invitation'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Failed to accept invitation. {{error}}'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Accept af invitation fejlede. {{error}}'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label invitation_workspace_member_by_workspace_error_title {
+  key = 'INVITATION_WORKSPACE_MEMBER_BY_WORKSPACE_ERROR_TITLE'
+  group = 'Authentication - accept-invitation'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Error'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Fejl'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label invitation_workspace_member_by_token_success_body {
+  key = 'INVITATION_WORKSPACE_MEMBER_BY_TOKEN_SUCCESS_BODY'
+  group = 'Authentication - accept-invitation'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Invitation accepted'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Invitation accepteret'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label invitation_workspace_member_by_token_error_body {
+  key = 'INVITATION_WORKSPACE_MEMBER_BY_TOKEN_ERROR_BODY'
+  group = 'Authentication - accept-invitation'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Failed to accept invitation. {{error}}'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Accept af invitation fejlede. {{error}}'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label invitation_workspace_member_by_token_error_title {
+  key = 'INVITATION_WORKSPACE_MEMBER_BY_TOKEN_ERROR_TITLE'
+  group = 'Authentication - accept-invitation'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Error'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Fejl'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label invitation_workspace_member_by_token_popup_title {
+  key = 'INVITATION_WORKSPACE_MEMBER_BY_TOKEN_POPUP_TITLE'
+  group = 'Authentication - accept-invitation'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Accept invite'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Accepter invitation'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label invitation_workspace_member_by_token_popup_first_name {
+  key = 'INVITATION_WORKSPACE_MEMBER_BY_TOKEN_POPUP_FIRST_NAME'
+  group = 'Authentication - accept-invitation'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'First name'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Fornavn'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label invitation_workspace_member_by_token_popup_last_name {
+  key = 'INVITATION_WORKSPACE_MEMBER_BY_TOKEN_POPUP_LAST_NAME'
+  group = 'Authentication - accept-invitation'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Last name'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Efternavn'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label invitation_workspace_member_by_token_popup_user_name {
+  key = 'INVITATION_WORKSPACE_MEMBER_BY_TOKEN_POPUP_USER_NAME'
+  group = 'Authentication - accept-invitation'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Username'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Brugernavn'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label invitation_workspace_member_by_token_popup_password {
+  key = 'INVITATION_WORKSPACE_MEMBER_BY_TOKEN_POPUP_PASSWORD'
+  group = 'Authentication - accept-invitation'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Password'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Kodeord'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label invitation_workspace_member_by_token_popup_cancel_btn {
+  key = 'INVITATION_WORKSPACE_MEMBER_BY_TOKEN_POPUP_CANCEL_BTN'
+  group = 'Authentication - accept-invitation'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Cancel'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Annuller'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label invitation_workspace_member_by_token_popup_accept_btn {
+  key = 'INVITATION_WORKSPACE_MEMBER_BY_TOKEN_POPUP_ACCEPT_BTN'
+  group = 'Authentication - accept-invitation'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Accept'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Accepter'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label invitation_workspace_member_by_token_popup_required {
+  key = 'INVITATION_WORKSPACE_MEMBER_BY_TOKEN_POPUP_REQUIRED'
+  group = 'Authentication - accept-invitation'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Field required'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Felt påkrævet'
+      language_id = data.language.danish.id
+    }
+  ]
+}
