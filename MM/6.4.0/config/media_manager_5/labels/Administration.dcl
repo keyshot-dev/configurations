@@ -13201,11 +13201,11 @@ resource configservice_label administration_tools_workspace_members_email {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Emails'
+      default_translation = 'Email'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'E-mails'
+      default_translation = 'E-mail'
       language_id = data.language.danish.id
     }
   ]
@@ -13249,11 +13249,11 @@ resource configservice_label administration_tools_workspace_members_edit_save_bt
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = '{saving, select, true {Saving...} false {Save}}'
+      default_translation = '{saving, select, true {Sending invite...} false {Send invite}}'
       language_id = data.language.english.id
     },
     {
-      default_translation = '{saving, select, true {Gemmer...} false {Gem}}'
+      default_translation = '{saving, select, true {Sender invitation...} false {Send invitation}}'
       language_id = data.language.danish.id
     }
   ]
@@ -13622,6 +13622,102 @@ resource configservice_label administration_tools_workspace_members_error_saving
     },
     {
       default_translation = 'Fejl'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_workspace_members_invited_at {
+  key = 'ADMINISTRATION_TOOLS_WORKSPACE_MEMBERS_INVITED_AT'
+  group = 'administration-tools - system - workspace-members'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Invited at'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Inviteret kl'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_workspace_members_expires_at {
+  key = 'ADMINISTRATION_TOOLS_WORKSPACE_MEMBERS_EXPIRES_AT'
+  group = 'administration-tools - system - workspace-members'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Expires at'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Udløber kl'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_workspace_members_last_invited_at {
+  key = 'ADMINISTRATION_TOOLS_WORKSPACE_MEMBERS_LAST_INVITED_AT'
+  group = 'administration-tools - system - workspace-members'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Last invited at'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Sidst inviteret kl'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_workspace_members_form_header {
+  key = 'ADMINISTRATION_TOOLS_WORKSPACE_MEMBERS_FORM_HEADER'
+  group = 'administration-tools - system - workspace-members'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Invite to workspace'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Inviter til arbejdsområde'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_workspace_members_email_delete_btn {
+  key = 'ADMINISTRATION_TOOLS_WORKSPACE_MEMBERS_EMAIL_DELETE_BTN'
+  group = 'administration-tools - system - workspace-members'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Delete'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Slet'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_workspace_members_email_add_btn {
+  key = 'ADMINISTRATION_TOOLS_WORKSPACE_MEMBERS_EMAIL_ADD_BTN'
+  group = 'administration-tools - system - workspace-members'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Add email'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Tilføj email'
       language_id = data.language.danish.id
     }
   ]

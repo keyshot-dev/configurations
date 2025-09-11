@@ -1550,3 +1550,100 @@ resource configservice_label invitation_workspace_member_by_token_popup_required
     }
   ]
 }
+
+resource configservice_label invitation_workspace_member_by_workspace_id_popup_title {
+  key = 'INVITATION_WORKSPACE_MEMBER_BY_WORKSPACE_ID_POPUP_TITLE'
+  group = 'Authentication - accept-invitation'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Accept invite'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Accepter invitation'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label invitation_workspace_member_by_workspace_id_popup_confirm_message {
+  key = 'INVITATION_WORKSPACE_MEMBER_BY_WORKSPACE_ID_POPUP_CONFIRM_MESSAGE'
+  group = 'Authentication - accept-invitation'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Do you want to accept the invitation?'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Vil du acceptere invitationen?'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label invitation_workspace_member_by_workspace_id_popup_login_message {
+  key = 'INVITATION_WORKSPACE_MEMBER_BY_WORKSPACE_ID_POPUP_LOGIN_MESSAGE'
+  group = 'Authentication - accept-invitation'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Please log in to accept the invite.'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Log venligst ind for at acceptere invitationen.'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+
+resource configservice_label invitation_workspace_member_by_workspace_id_popup_cancel_btn {
+  key = 'INVITATION_WORKSPACE_MEMBER_BY_WORKSPACE_ID_POPUP_CANCEL_BTN'
+  group = 'Authentication - accept-invitation'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Cancel'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Annuller'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label invitation_workspace_member_by_workspace_id_popup_accept_btn {
+  key = 'INVITATION_WORKSPACE_MEMBER_BY_WORKSPACE_ID_POPUP_ACCEPT_BTN'
+  group = 'Authentication - accept-invitation'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Accept'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Accepter'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label invitation_workspace_member_by_workspace_id_popup_login_btn {
+  key = 'INVITATION_WORKSPACE_MEMBER_BY_WORKSPACE_ID_POPUP_LOGIN_BTN'
+  group = 'Authentication - accept-invitation'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Log in'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Log ind'
+      language_id = data.language.danish.id
+    }
+  ]
+}
