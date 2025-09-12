@@ -542,6 +542,22 @@ resource configservice_label asset_list_folders_assets_undo {
   ]
 }
 
+resource configservice_label asset_list_folders_assets_move_error_body {
+  key = 'ASSET_LIST_FOLDERS_ASSETS_MOVE_ERROR_BODY'
+  group = 'Asset List'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'An error occurred while moving {{count}} {count, cardinalPlural, one {asset} other {assets}} to {{folder}}'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Der opstod en fejl under flytning af {{count}} {count, cardinalPlural, one {asset} other {assets}} til {{folder}}'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label asset_list_folders_folders_undo {
   key = 'ASSET_LIST_FOLDERS_FOLDERS_UNDO'
   group = 'Asset List'
