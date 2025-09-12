@@ -13227,6 +13227,22 @@ resource configservice_label administration_tools_workspace_members_required {
   ]
 }
 
+resource configservice_label administration_tools_workspace_members_invalid_email {
+  key = 'ADMINISTRATION_TOOLS_WORKSPACE_MEMBERS_INVALID_EMAIL'
+  group = 'administration-tools - system - workspace-members'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Email is invalid'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Emailen er ugyldig'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label administration_tools_workspace_members_edit_cancel_btn {
   key = 'ADMINISTRATION_TOOLS_WORKSPACE_MEMBERS_EDIT_CANCEL_BTN'
   group = 'administration-tools - system - workspace-members'
