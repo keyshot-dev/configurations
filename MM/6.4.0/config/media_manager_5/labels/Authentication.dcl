@@ -1593,7 +1593,7 @@ resource configservice_label invitation_workspace_member_by_workspace_id_popup_l
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Log venligst ind for at acceptere invitationen.'
+      default_translation = 'Log ind for at acceptere invitationen.'
       language_id = data.language.danish.id
     }
   ]

@@ -13205,7 +13205,7 @@ resource configservice_label administration_tools_workspace_members_email {
       language_id = data.language.english.id
     },
     {
-      default_translation = 'E-mail'
+      default_translation = 'Email'
       language_id = data.language.danish.id
     }
   ]
@@ -13637,7 +13637,7 @@ resource configservice_label administration_tools_workspace_members_invited_at {
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Inviteret kl'
+      default_translation = 'Inviteret d.'
       language_id = data.language.danish.id
     }
   ]
@@ -13653,7 +13653,7 @@ resource configservice_label administration_tools_workspace_members_expires_at {
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Udløber kl'
+      default_translation = 'Udløber d.'
       language_id = data.language.danish.id
     }
   ]
@@ -13669,7 +13669,7 @@ resource configservice_label administration_tools_workspace_members_last_invited
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Sidst inviteret kl'
+      default_translation = 'Sidst inviteret d.'
       language_id = data.language.danish.id
     }
   ]
