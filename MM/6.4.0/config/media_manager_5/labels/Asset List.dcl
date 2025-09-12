@@ -552,7 +552,7 @@ resource configservice_label asset_list_folders_assets_move_error_body {
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Der opstod en fejl under flytning af {{count}} {count, cardinalPlural, one {asset} other {assets}} til {{folder}}'
+      default_translation = 'Der opstod en fejl under flytningen af {count, cardinalPlural, one {assetet} other {assetsne}} til {{folder}}'
       language_id = data.language.danish.id
     }
   ]
