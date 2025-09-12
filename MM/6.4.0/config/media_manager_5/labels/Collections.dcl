@@ -1140,11 +1140,11 @@ resource configservice_label collections_share_preview_description {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Generate preview link instead of download link'
+      default_translation = 'Show asset in browser instead of downloading'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Generer forhåndsvisningslink i stedet for downloadlink'
+      default_translation = 'Vis asset i browseren i stedet for at downloade'
       language_id = data.language.danish.id
     }
   ]
