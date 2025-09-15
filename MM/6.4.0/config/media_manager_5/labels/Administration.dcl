@@ -13105,11 +13105,11 @@ resource configservice_label administration_tools_workspace_members_add_workspac
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Invite user'
+      default_translation = 'Invite'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Inviter bruger'
+      default_translation = 'Inviter'
       language_id = data.language.danish.id
     }
   ]
@@ -13217,11 +13217,11 @@ resource configservice_label administration_tools_workspace_members_required {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Field required'
+      default_translation = 'Field is required'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Felt påkrævet'
+      default_translation = 'Felt er påkrævet'
       language_id = data.language.danish.id
     }
   ]
@@ -13441,7 +13441,7 @@ resource configservice_label administration_tools_workspace_members_success_remo
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'User successfully removed from workspace'
+      default_translation = 'User removed from workspace'
       language_id = data.language.english.id
     },
     {
@@ -13521,11 +13521,11 @@ resource configservice_label administration_tools_workspace_members_dialog_remov
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Cancel'
+      default_translation = 'Keep'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Annullér'
+      default_translation = 'Behold'
       language_id = data.language.danish.id
     }
   ]
@@ -13537,11 +13537,11 @@ resource configservice_label administration_tools_workspace_members_dialog_remov
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Delete'
+      default_translation = 'Revoke'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Slet'
+      default_translation = 'Træk tilbage'
       language_id = data.language.danish.id
     }
   ]
@@ -13553,7 +13553,7 @@ resource configservice_label administration_tools_workspace_members_success_remo
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Invitation successfully revoked'
+      default_translation = 'Invitation revoked'
       language_id = data.language.english.id
     },
     {
@@ -13601,11 +13601,11 @@ resource configservice_label administration_tools_workspace_members_success_save
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'User invited'
+      default_translation = 'Invitation sent.'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Bruger inviteret'
+      default_translation = 'Invitation sendt.'
       language_id = data.language.danish.id
     }
   ]
@@ -13713,11 +13713,11 @@ resource configservice_label administration_tools_workspace_members_email_delete
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Delete'
+      default_translation = 'Remove'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Slet'
+      default_translation = 'Fjern'
       language_id = data.language.danish.id
     }
   ]
