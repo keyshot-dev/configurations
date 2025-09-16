@@ -654,6 +654,22 @@ resource configservice_label mobile_menu_upload_active_document_upload_new_title
   ]
 }
 
+resource configservice_label mobile_menu_save_export_as_new_asset {
+  key = 'MOBILE_MENU_SAVE_EXPORT_AS_NEW_ASSET'
+  group = 'Side Bar'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Save as new asset'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Gem som nyt asset'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label mobile_menu_upload_active_document_upload_new_tooltip {
   key = 'MOBILE_MENU_UPLOAD_ACTIVE_DOCUMENT_UPLOAD_NEW_TOOLTIP'
   group = 'Side Bar'
@@ -665,6 +681,22 @@ resource configservice_label mobile_menu_upload_active_document_upload_new_toolt
     },
     {
       default_translation = 'Gem det aktive dokument som nyt asset'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label mobile_menu_save_export_as_new_asset_tooltip {
+  key = 'MOBILE_MENU_SAVE_EXPORT_AS_NEW_ASSET_TOOLTIP'
+  group = 'Side Bar'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Save export as new asset'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Gem eksport som nyt asset'
       language_id = data.language.danish.id
     }
   ]
