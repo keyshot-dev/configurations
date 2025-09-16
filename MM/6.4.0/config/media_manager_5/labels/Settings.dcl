@@ -757,11 +757,11 @@ resource configservice_label settings_about_app_product_version {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = '{prefix, select, MM5 {MM version} EMBED {Embedded version} CCC {CCC version} OC {OC version}}'
+      default_translation = '{prefix, select, MM {MM version} EMBED {Embedded version} CCC {CCC version} OC {OC version}}'
       language_id = data.language.english.id
     },
     {
-      default_translation = '{prefix, select, MM5 {MM-version} EMBED {Embedded-version} CCC {CCC-version} OC {OC-version}}'
+      default_translation = '{prefix, select, MM {MM-version} EMBED {Embedded-version} CCC {CCC-version} OC {OC-version}}'
       language_id = data.language.danish.id
     }
   ]
