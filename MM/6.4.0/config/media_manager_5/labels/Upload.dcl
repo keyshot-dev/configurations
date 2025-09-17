@@ -46,6 +46,22 @@ resource configservice_label upload_upload_job_item_waiting {
   ]
 }
 
+resource configservice_label upload_upload_job_item_replace {
+  key = 'UPLOAD_UPLOAD_JOB_ITEM_REPLACE'
+  group = 'Upload'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = '{status, select, 1 {Replaces} 2 {Replacing} 3 {Replacing} 4 {Replaced}} ID {{id}}'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = '{status, select, 1 {Udskifter} 2 {Udskifter} 3 {Udskifter} 4 {Udskiftet}} Id {{id}}'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label upload_upload_status_uploading_multiple_items {
   key = 'UPLOAD_UPLOAD_STATUS_UPLOADING_MULTIPLE_ITEMS'
   group = 'Upload'
