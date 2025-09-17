@@ -46,7 +46,7 @@ resource configservice_label upload_upload_job_item_waiting {
   ]
 }
 
-resource configservice_label upload_upload_job_item_waiting {
+resource configservice_label upload_upload_job_item_replace {
   key = 'UPLOAD_UPLOAD_JOB_ITEM_REPLACE'
   group = 'Upload'
   product_id = resource.configservice_product.media_manager_5.id
