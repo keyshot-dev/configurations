@@ -52,11 +52,11 @@ resource configservice_label upload_upload_job_item_replace {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = '{status, select, waiting {Replaces} processing {Replacing} done {Replaced}} ID {{ID}}'
+      default_translation = '{status, select, 1 {Replaces} 2 {Replacing} 3 {Replacing} 4 {Replaced}} ID {{ID}}'
       language_id = data.language.english.id
     },
     {
-      default_translation = '{status, select, waiting {Udskifter} processing {Udskifter} done {Udskiftet}} ID {{ID}}'
+      default_translation = '{status, select, 1 {Udskifter} 2 {Udskifter} 3 {Udskifter} 4 {Udskiftet}} ID {{ID}}'
       language_id = data.language.danish.id
     }
   ]
