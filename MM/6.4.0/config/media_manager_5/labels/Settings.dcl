@@ -7211,3 +7211,163 @@ resource configservice_label settings_asset_search_customization_settings_config
     }
   ]
 }
+
+resource configservice_label administration_tools_section_cdn_cache_status {
+  key = 'ADMINISTRATION_TOOLS_SECTION_CDN_CACHE_STATUS'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'CDN cache'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'CDN cache'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_cdn_cache_title {
+  key = 'SETTINGS_CDN_CACHE_TITLE'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'CDN cache'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'CDN cache'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_cdn_cache_purge_all_title {
+  key = 'SETTINGS_CDN_CACHE_PURGE_ALL_TITLE'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Purge all'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Ryd alle'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_cdn_cache_btn_purge_all {
+  key = 'SETTINGS_CDN_CACHE_BTN_PURGE_ALL'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Purge all'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Ryd alle'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_cdn_cache_purge_all_description {
+  key = 'SETTINGS_CDN_CACHE_PURGE_ALL_DESCRIPTION'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Clears all cached content for the specified host from Cloudflare. Once triggered, all cached assets and searches for that host are purged, ensuring that subsequent requests fetch fresh content directly from the origin server.'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Rydder alt cachet indhold for den specificerede host fra Cloudflare. Når den er udløst, ryddes alle cachede assets og søgninger for den pågældende host, hvilket sikrer, at efterfølgende anmodninger henter frisk indhold direkte fra oprindelsesserveren.'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_cdn_cache_purge_type_title {
+  key = 'SETTINGS_CDN_CACHE_PURGE_TYPE_TITLE'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Purge by type and/or assets'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Ryd efter type og/eller assets'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_cdn_cache_purge_type_description {
+  key = 'SETTINGS_CDN_CACHE_PURGE_TYPE_DESCRIPTION'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Clears all cached content for a specific cache key and/or assets. Once triggered, all cached content for the given cache key and assetIds are purged, ensuring that subsequent requests fetch fresh content directly from the origin server.'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Rydder alt cachet indhold for en specifik cache-nøgle og/eller assets. Når den er udløst, ryddes alt cachet indhold for den givne cache-nøgle og assetIds, hvilket sikrer, at efterfølgende anmodninger henter frisk indhold direkte fra oprindelsesserveren.'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_cdn_cache_btn_purge_type {
+  key = 'SETTINGS_CDN_CACHE_BTN_PURGE_TYPE'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Purge'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Ryd'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_cdn_cache_purge_type_select_placeholder {
+  key = 'SETTINGS_CDN_CACHE_PURGE_TYPE_SELECT_PLACEHOLDER'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Select cache type to clear'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Vælg cache-type der skal ryddes'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_cdn_cache_purge_type_note_placeholder {
+  key = 'SETTINGS_CDN_CACHE_PURGE_TYPE_NOTE_PLACEHOLDER'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Enter a comma seperated list of assetIds'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Indtast en kommasepareret liste af assetIds'
+      language_id = data.language.danish.id
+    }
+  ]
+}
