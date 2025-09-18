@@ -232,7 +232,7 @@ resource configservice_label folder_list_new_folder {
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Neuer Ordner'
+      default_translation = 'Ny mappe'
       language_id = data.language.danish.id
     }
   ]
@@ -248,7 +248,7 @@ resource configservice_label folder_list_new_folder_tooltip {
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Neuen Ordner erstellen'
+      default_translation = 'Lav ny mappe'
       language_id = data.language.danish.id
     }
   ]

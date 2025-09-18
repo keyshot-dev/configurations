@@ -1448,7 +1448,7 @@ resource configservice_label BRAND_PORTAL_FOLDER_CONTEXT_MENU_NEW_FOLDER {
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Neuer Ordner'
+      default_translation = 'Ny mappe'
       language_id = data.language.danish.id
     }
   ]
