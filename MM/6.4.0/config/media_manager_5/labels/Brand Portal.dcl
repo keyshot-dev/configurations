@@ -1438,6 +1438,22 @@ resource configservice_label brand_portal_folder_context_menu_access {
   ]
 }
 
+resource configservice_label BRAND_PORTAL_FOLDER_CONTEXT_MENU_NEW_FOLDER {
+  key = 'BRAND_PORTAL_FOLDER_CONTEXT_MENU_NEW_FOLDER'
+  group = 'Brand Portal'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'New folder'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Neuer Ordner'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label brand_portal_folder_drag {
   key = 'BRAND_PORTAL_FOLDER_DRAG'
   group = 'Brand Portal'
@@ -1582,6 +1598,22 @@ resource configservice_label brand_portal_create_folder_title {
   ]
 }
 
+resource configservice_label brand_portal_language_title {
+  key = 'BRAND_PORTAL_LANGUAGE_TITLE'
+  group = 'Brand Portal'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Name ({{languageName}})'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Navn ({{languageName}})'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label brand_portal_folder_toggle {
   key = 'BRAND_PORTAL_FOLDER_TOGGLE'
   group = 'Brand Portal'
@@ -1641,6 +1673,22 @@ resource configservice_label brand_portal_folder_create {
     },
     {
       default_translation = 'Opret mappe'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label brand_portal_folder_do_not_show_again {
+  key = 'BRAND_PORTAL_FOLDER_DO_NOT_SHOW_AGAIN'
+  group = 'Brand Portal'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Do not show again'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Vis ikke igen'
       language_id = data.language.danish.id
     }
   ]

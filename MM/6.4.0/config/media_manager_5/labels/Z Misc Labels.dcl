@@ -222,6 +222,38 @@ resource configservice_label folder_list_new_asset {
   ]
 }
 
+resource configservice_label folder_list_new_folder {
+  key = 'FOLDER_LIST_NEW_FOLDER'
+  group = 'Z Misc Labels'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'New folder'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Neuer Ordner'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label folder_list_new_folder_tooltip {
+  key = 'FOLDER_LIST_NEW_FOLDER_TOOLTIP'
+  group = 'Z Misc Labels'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Create new folder'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Neuen Ordner erstellen'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label search_everything {
   key = 'SEARCH_EVERYTHING'
   group = 'Z Misc Labels'
