@@ -1,4 +1,4 @@
-resource configservice_multi_string_config_field tracking_code {
+resource configservice_string_config_field tracking_code {
     default_value = ''
     product_id = resource.configservice_product.media_manager_5.id
     type = 'String'
