@@ -740,11 +740,11 @@ resource configservice_label replace_asset_body_success {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'The source of "{{assetTitle}}" is being replaced. Usually this takes less than a minute.'
+      default_translation = 'The source of "{{assetTitle}}" is being replaced.'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Kilden til "{{assetTitle}}" bliver udskiftet. Dette tager normalt mindre end et minut.'
+      default_translation = 'Kilden til "{{assetTitle}}" bliver udskiftet.'
       language_id = data.language.danish.id
     }
   ]
