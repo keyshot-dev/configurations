@@ -11883,6 +11883,22 @@ resource configservice_label administration_tools_system_workspaces_save_error_t
   ]
 }
 
+resource configservice_label administration_tools_system_workspaces_root_workspace_cannot_be_edited {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_WORKSPACES_ROOT_WORKSPACE_CANNOT_BE_EDITED'
+  group = 'administration-tools - system - workspaces'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Root workspace cannot be edited'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Root-arbejdsområde kan ikke redigeres'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label administration_tools_system_similar_search_section_header {
   key = 'ADMINISTRATION_TOOLS_SYSTEM_SIMILAR_SEARCH_SECTION_HEADER'
   group = 'administration-tools - system - similar-search'
