@@ -7478,7 +7478,7 @@ resource configservice_label tracking_code_settings_code_block_head_info {
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Koden skal være gyldig JavaScript og indkapslet i en <script>-tag. Den vil blive placeret i <head>-taggen på siden. ADVARSEL: INDSÆT KUN KODE FRA TILLIDSVÆRDIGE KILDER!'
+      default_translation = 'Koden skal være gyldig JavaScript og indkapslet i en <script>-tag. Den vil blive placeret i <head>-tagget på siden. ADVARSEL: INDSÆT KUN KODE FRA TILLIDSVÆRDIGE KILDER!'
       language_id = data.language.danish.id
     }
   ]
@@ -7490,11 +7490,11 @@ resource configservice_label tracking_code_settings_code_block_body_info {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Ensure a valid HTML code snippet. It will be placed after the opening <body> tag. WARNING: ONLY INSERT CODE FROM TRUSTED SOURCES!'
+      default_translation = 'Ensure that the HTML code snippet is valid. It will be placed after the opening <body> tag. WARNING: ONLY INSERT CODE FROM TRUSTED SOURCES!'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Sørg for et gyldigt HTML-kode-snippet. Det vil blive placeret efter den åbne <body>-tag. ADVARSEL: INDSÆT KUN KODE FRA TILLIDSVÆRDIGE KILDER!'
+      default_translation = 'Sørg for at HTML-kode-snippetet er gyldigt. Det vil blive placeret efter åbnings-<body>-tagget. ADVARSEL: INDSÆT KUN KODE FRA TILLIDSVÆRDIGE KILDER!'
       language_id = data.language.danish.id
     }
   ]
@@ -7574,7 +7574,7 @@ resource configservice_label tracking_code_settings_validation_no_script_tag {
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Skal inkludere en <script>-blok'
+      default_translation = 'Skal inkludere én <script>-blok'
       language_id = data.language.danish.id
     }
   ]
@@ -7622,7 +7622,7 @@ resource configservice_label tracking_code_settings_validation_disallowed_tags {
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Inkluder ikke <html>, <head> eller <body>-tags'
+      default_translation = 'Inkluder ikke <html>-, <head>- eller <body>-tags'
       language_id = data.language.danish.id
     }
   ]
