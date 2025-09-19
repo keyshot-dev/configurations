@@ -7371,3 +7371,19 @@ resource configservice_label settings_cdn_cache_purge_type_note_placeholder {
     }
   ]
 }
+
+resource configservice_label settings_cdn_cache_purge_failed {
+  key = 'SETTINGS_CDN_CACHE_PURGE_FAILED'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Failed to purge cache. Please try again.'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Kunne ikke rydde cache. Prøv igen.'
+      language_id = data.language.danish.id
+    }
+  ]
+}
