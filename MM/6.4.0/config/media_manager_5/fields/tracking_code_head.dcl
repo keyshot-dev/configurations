@@ -6,5 +6,5 @@ resource configservice_string_config_field tracking_code_head {
     title = 'Tracking code for <head> tag'
     description = 'The code needs to be valid JavaScript and wrapped in a <script> tag. It will be placed in the <head> tag of the page. WARNING: ONLY INSERT CODE FROM TRUSTED SOURCES!'
     type = 'String'
+    hidden = true
 }
-
