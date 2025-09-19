@@ -1438,7 +1438,7 @@ resource configservice_label brand_portal_folder_context_menu_access {
   ]
 }
 
-resource configservice_label BRAND_PORTAL_FOLDER_CONTEXT_MENU_NEW_FOLDER {
+resource configservice_label brand_portal_folder_context_menu_new_folder {
   key = 'BRAND_PORTAL_FOLDER_CONTEXT_MENU_NEW_FOLDER'
   group = 'Brand Portal'
   product_id = resource.configservice_product.media_manager_5.id
