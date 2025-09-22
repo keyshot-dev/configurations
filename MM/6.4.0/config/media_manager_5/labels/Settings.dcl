@@ -7500,6 +7500,22 @@ resource configservice_label tracking_code_settings_code_block_body_info {
   ]
 }
 
+resource configservice_label tracking_code_settings_remove_code_block_tooltip {
+  key = 'TRACKING_CODE_SETTINGS_REMOVE_CODE_BLOCK_TOOLTIP'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Remove code block'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Fjern kodeblok'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label tracking_code_settings_add_block {
   key = 'TRACKING_CODE_SETTINGS_ADD_BLOCK'
   group = 'Settings'
