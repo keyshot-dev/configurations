@@ -1454,6 +1454,102 @@ resource configservice_label brand_portal_folder_context_menu_new_folder {
   ]
 }
 
+resource configservice_label brand_portal_rename_folder_success {
+  key = 'BRAND_PORTAL_RENAME_FOLDER_SUCCESS'
+  group = 'Brand Portal'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Folder successfully renamed'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Mappen er blevet omdøbt'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label brand_portal_rename_folder_error_body {
+  key = 'BRAND_PORTAL_RENAME_FOLDER_ERROR_BODY'
+  group = 'Brand Portal'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Folder not renamed'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Mappen er ikke omdøbt'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label brand_portal_rename_folder_error_title {
+  key = 'BRAND_PORTAL_RENAME_FOLDER_ERROR_TITLE'
+  group = 'Brand Portal'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Error'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Fejl'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label brand_portal_create_folder_success {
+  key = 'BRAND_PORTAL_CREATE_FOLDER_SUCCESS'
+  group = 'Brand Portal'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Folder successfully created'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Mappen er blevet oprettet'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label brand_portal_create_folder_error_body {
+  key = 'BRAND_PORTAL_CREATE_FOLDER_ERROR_BODY'
+  group = 'Brand Portal'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Folder not created'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Mappen blev ikke oprettet'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label brand_portal_create_folder_error_title {
+  key = 'BRAND_PORTAL_CREATE_FOLDER_ERROR_TITLE'
+  group = 'Brand Portal'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Error'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Fejl'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label brand_portal_folder_drag {
   key = 'BRAND_PORTAL_FOLDER_DRAG'
   group = 'Brand Portal'
