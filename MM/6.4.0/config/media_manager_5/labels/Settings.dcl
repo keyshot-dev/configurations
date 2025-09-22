@@ -7387,3 +7387,275 @@ resource configservice_label settings_cdn_cache_purge_failed {
     }
   ]
 }
+
+resource configservice_label tracking_code_settings_title {
+  key = 'TRACKING_CODE_SETTINGS_TITLE'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Tracking code'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Sporingskode'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label tracking_code_settings_enable_description {
+  key = 'TRACKING_CODE_SETTINGS_ENABLE_DESCRIPTION'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Enable injecting code tracking'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Aktivér indsættelse af sporingskode'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label tracking_code_settings_enable_info {
+  key = 'TRACKING_CODE_SETTINGS_ENABLE_INFO'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'If checked, the specified code snippets will be injected into the index.html page. WARNING: ONLY INSERT CODE FROM TRUSTED SOURCES!'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Hvis slået til, vil de specificerede kode-snippets blive indsat i index.html-siden. ADVARSEL: INDSÆT KUN KODE FRA TILLIDSVÆRDIGE KILDER!'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label tracking_code_settings_location_head_title {
+  key = 'TRACKING_CODE_SETTINGS_LOCATION_HEAD_TITLE'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Head'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Head'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label tracking_code_settings_location_body_title {
+  key = 'TRACKING_CODE_SETTINGS_LOCATION_BODY_TITLE'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Body'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Body'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label tracking_code_settings_code_block_head_info {
+  key = 'TRACKING_CODE_SETTINGS_CODE_BLOCK_HEAD_INFO'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'The code needs to be valid JavaScript and wrapped in a <script> tag. It will be placed in the <head> tag of the page. WARNING: ONLY INSERT CODE FROM TRUSTED SOURCES!'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Koden skal være gyldig JavaScript og indkapslet i en <script>-tag. Den vil blive placeret i <head>-tagget på siden. ADVARSEL: INDSÆT KUN KODE FRA TILLIDSVÆRDIGE KILDER!'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label tracking_code_settings_code_block_body_info {
+  key = 'TRACKING_CODE_SETTINGS_CODE_BLOCK_BODY_INFO'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Ensure that the HTML code snippet is valid. It will be placed after the opening <body> tag. WARNING: ONLY INSERT CODE FROM TRUSTED SOURCES!'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Sørg for at HTML-kode-snippetet er gyldigt. Det vil blive placeret efter åbnings-<body>-tagget. ADVARSEL: INDSÆT KUN KODE FRA TILLIDSVÆRDIGE KILDER!'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label tracking_code_settings_add_block {
+  key = 'TRACKING_CODE_SETTINGS_ADD_BLOCK'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Add code block'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Tilføj kodeblok'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label tracking_code_settings_save {
+  key = 'TRACKING_CODE_SETTINGS_SAVE'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = '{processing, select, true {Saving...} false {Save}}'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = '{processing, select, true {Gemmer...} false {Gem}}'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label tracking_code_settings_error_save {
+  key = 'TRACKING_CODE_SETTINGS_ERROR_SAVE'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Failed to save configuration. Please try again.'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Kunne ikke gemme konfiguration. Prøv venligst igen.'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label tracking_code_settings_validation_required {
+  key = 'TRACKING_CODE_SETTINGS_VALIDATION_REQUIRED'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Field is required'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Feltet er påkrævet'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label tracking_code_settings_validation_no_script_tag {
+  key = 'TRACKING_CODE_SETTINGS_VALIDATION_NO_SCRIPT_TAG'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Must include one <script> block'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Skal inkludere én <script>-blok'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label tracking_code_settings_validation_multiple_script_tags {
+  key = 'TRACKING_CODE_SETTINGS_VALIDATION_MULTIPLE_SCRIPT_TAGS'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Only one <script> block is allowed'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Kun én <script>-blok er tilladt'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label tracking_code_settings_validation_empty_script_tag {
+  key = 'TRACKING_CODE_SETTINGS_VALIDATION_EMPTY_SCRIPT_TAG'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = '<script> cannot be empty'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = '<script> må ikke være tom'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label tracking_code_settings_validation_disallowed_tags {
+  key = 'TRACKING_CODE_SETTINGS_VALIDATION_DISALLOWED_TAGS'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Do not include <html>, <head>, or <body> tags'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Inkluder ikke <html>-, <head>- eller <body>-tags'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label tracking_code_settings_validation_empty_body {
+  key = 'TRACKING_CODE_SETTINGS_VALIDATION_EMPTY_BODY'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Body block cannot be empty'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Body-blokken må ikke være tom'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label tracking_code_settings_validation_no_code_blocks {
+  key = 'TRACKING_CODE_SETTINGS_VALIDATION_NO_CODE_BLOCKS'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'At least one code block is required when tracking code is enabled'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Mindst én kodeblok er påkrævet, når sporingskode er aktiveret'
+      language_id = data.language.danish.id
+    }
+  ]
+}

@@ -2469,6 +2469,22 @@ resource configservice_label portal_config_manager_section_download_approval {
   ]
 }
 
+resource configservice_label portal_config_manager_section_tracking_code {
+  key = 'PORTAL_CONFIG_MANAGER_SECTION_TRACKING_CODE'
+  group = 'Config Manager'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Tracking code'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Sporingskode'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label portal_config_manager_section_connectors {
   key = 'PORTAL_CONFIG_MANAGER_SECTION_CONNECTORS'
   group = 'Config Manager'
