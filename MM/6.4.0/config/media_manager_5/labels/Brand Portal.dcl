@@ -1460,7 +1460,7 @@ resource configservice_label brand_portal_rename_folder_success {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Folder successfully renamed'
+      default_translation = 'Folder renamed'
       language_id = data.language.english.id
     },
     {
@@ -1508,7 +1508,7 @@ resource configservice_label brand_portal_create_folder_success {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Folder successfully created'
+      default_translation = 'Folder created'
       language_id = data.language.english.id
     },
     {
