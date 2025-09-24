@@ -3269,11 +3269,11 @@ resource configservice_label collection_asset_settings_show_username_description
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'If enabled, the usernames of the users will be shown, additionally than firstname and lastname, in the user selector. The username can be the email based on the system configuration.'
+      default_translation = 'When enabled, the user picker will display usernames alongside users\' first and last names. The username may be an email address, especially if Single Sign-On (SSO) has ever been enabled.'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Hvis aktiveret, vil brugernavnene på brugerne blive vist, ud over fornavn og efternavn, i bruger-selektoren. Brugernavnet kan være emailen baseret på systemkonfigurationen.'
+      default_translation = 'Hvis slået til, vises brugernavne sammen med for- og efternavne. Brugernavnet kan være en e-mailadresse, især hvis Single Sign-On (SSO) har været slået til.'
       language_id = data.language.danish.id
     }
   ]
