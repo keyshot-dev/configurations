@@ -3369,7 +3369,7 @@ resource configservice_label collection_asset_settings_rendition_description {
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Definér standardversionen for nye enkelt-asset-delinger'
+      default_translation = 'Definér standard-renditionen for nye enkelt-asset-delinger'
       language_id = data.language.danish.id
     }
   ]
