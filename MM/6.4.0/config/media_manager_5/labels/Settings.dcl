@@ -3013,11 +3013,11 @@ resource configservice_label collection_asset_settings_save {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Save'
+      default_translation = '{processing, select, true {Saving} false {Save}}'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Gem'
+      default_translation = '{processing, select, true {Saving} false {Save}}'
       language_id = data.language.danish.id
     }
   ]
@@ -3077,11 +3077,11 @@ resource configservice_label collection_asset_settings_panel_title_internal {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Internal sharing (Member + Group)'
+      default_translation = 'Internal'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Intern deling (Member + Group)'
+      default_translation = 'Intern'
       language_id = data.language.danish.id
     }
   ]
@@ -3093,11 +3093,11 @@ resource configservice_label collection_asset_settings_panel_title_external {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'External sharing (Member + Group)'
+      default_translation = 'External'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Ekstern deling (Member + Group)'
+      default_translation = 'Ekstern'
       language_id = data.language.danish.id
     }
   ]
@@ -3221,11 +3221,11 @@ resource configservice_label collection_asset_settings_access_period_start {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Add start days to current date'
+      default_translation = 'Access period: Add start days'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Tilføj startdage til den aktuelle dato'
+      default_translation = 'Adgangsperiode: Tilføj startdage'
       language_id = data.language.danish.id
     }
   ]
@@ -3237,11 +3237,59 @@ resource configservice_label collection_asset_settings_access_period_end {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Add end days to current date'
+      default_translation = 'Access period: Add end days'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Tilføj slutdage til den aktuelle dato'
+      default_translation = 'Adgangsperiode: Tilføj slutdage'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label collection_asset_settings_show_username {
+  key = 'COLLECTION_ASSET_SETTINGS_SHOW_USERNAME'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Show username in user picker'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Vis brugernavn i bruger-vælgeren'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label collection_asset_settings_show_username_description {
+  key = 'COLLECTION_ASSET_SETTINGS_SHOW_USERNAME_DESCRIPTION'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'When enabled, the user picker will display usernames alongside users\' first and last names. The username may be an email address, especially if Single Sign-On (SSO) has ever been enabled.'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Hvis slået til, vises brugernavne sammen med for- og efternavne. Brugernavnet kan være en e-mailadresse, især hvis Single Sign-On (SSO) har været slået til.'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label collection_asset_settings_loading {
+  key = 'COLLECTION_ASSET_SETTINGS_LOADING'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Loading...'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Indlæser...'
       language_id = data.language.danish.id
     }
   ]
