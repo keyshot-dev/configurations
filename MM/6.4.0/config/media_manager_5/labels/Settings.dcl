@@ -3253,11 +3253,11 @@ resource configservice_label collection_asset_settings_show_username {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Show username in user selector'
+      default_translation = 'Show username in user picker'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Vis brugernavn i bruger-selektoren'
+      default_translation = 'Vis brugernavn i bruger-vælgeren'
       language_id = data.language.danish.id
     }
   ]
