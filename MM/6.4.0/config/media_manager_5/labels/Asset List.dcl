@@ -484,15 +484,32 @@ resource configservice_label asset_list_folders_folders_moved_body {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = '{{child}} is moved into  {parent, select, root {root level} other {{parent}}}'
+      default_translation = '{{child}} is moved into {{parent}}'
       language_id = data.language.english.id
     },
     {
-      default_translation = '{{child}} er flyttet til mappen {parent, select, root {rodniveau} other {{parent}}}'
+      default_translation = '{{child}} er flyttet til mappen {{parent}}'
       language_id = data.language.danish.id
     }
   ]
 }
+
+resource configservice_label asset_list_folders_folders_moved_body {
+  key = 'ASSET_LIST_FOLDERS_FOLDERS_MOVED_TO_ROOT_BODY'
+  group = 'Asset List'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = '{{child}} is moved into root level'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = '{{child}} er flyttet til mappen rodniveau'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 
 resource configservice_label asset_list_folders_assets_undo_body {
   key = 'ASSET_LIST_FOLDERS_ASSETS_UNDO_BODY'
