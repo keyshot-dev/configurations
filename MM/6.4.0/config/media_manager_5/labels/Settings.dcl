@@ -3311,6 +3311,22 @@ resource configservice_label collection_asset_settings_force_password {
   ]
 }
 
+resource configservice_label collection_asset_settings_panel_title_single_asset {
+  key = 'COLLECTION_ASSET_SETTINGS_PANEL_TITLE_SINGLE_ASSET'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Single asset'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Enkelt asset'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label collection_asset_settings_force_password_description {
   key = 'COLLECTION_ASSET_SETTINGS_FORCE_PASSWORD_DESCRIPTION'
   group = 'Settings'
@@ -3322,6 +3338,70 @@ resource configservice_label collection_asset_settings_force_password_descriptio
     },
     {
       default_translation = 'Tving nye delinger til at have en adgangskode'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label collection_asset_settings_rendition {
+  key = 'COLLECTION_ASSET_SETTINGS_RENDITION'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Rendition'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Rendition'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label collection_asset_settings_rendition_description {
+  key = 'COLLECTION_ASSET_SETTINGS_RENDITION_DESCRIPTION'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Define the default rendition for new single asset shares'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Definér standard-renditionen for nye enkelt-asset-delinger'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label collection_asset_settings_preview {
+  key = 'COLLECTION_ASSET_SETTINGS_PREVIEW'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Force preview'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Tving preview'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label collection_asset_settings_preview_description {
+  key = 'COLLECTION_ASSET_SETTINGS_PREVIEW_DESCRIPTION'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Force new single asset shares to use preview instead of download'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Tving nye delinger af enkelt-assets til at bruge preview i stedet for download'
       language_id = data.language.danish.id
     }
   ]
