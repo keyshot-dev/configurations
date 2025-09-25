@@ -1694,6 +1694,38 @@ resource configservice_label brand_portal_create_folder_title {
   ]
 }
 
+resource configservice_label brand_portal_create_folder_current_level {
+  key = 'BRAND_PORTAL_CREATE_FOLDER_CURRENT_LEVEL'
+  group = 'Brand Portal'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'On current level'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'På nuværende niveau'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label brand_portal_create_folder_subfolder {
+  key = 'BRAND_PORTAL_CREATE_FOLDER_SUBFOLDER'
+  group = 'Brand Portal'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'As subfolder'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Som undermappe'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label brand_portal_language_title {
   key = 'BRAND_PORTAL_LANGUAGE_TITLE'
   group = 'Brand Portal'
