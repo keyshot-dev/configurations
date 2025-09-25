@@ -6,4 +6,6 @@ resource configservice_int_config_field media_manager_5_collection_single_asset_
     key = 'collectionSingleAssetRendition'
     title = 'Collection SingleAsset Rendition fields'
     description = 'Collection SingleAsset Rendition fields'
+    language_versioned = false
+    type = 'Int'
 }
