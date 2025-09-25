@@ -494,7 +494,7 @@ resource configservice_label asset_list_folders_folders_moved_body {
   ]
 }
 
-resource configservice_label asset_list_folders_folders_moved_body {
+resource configservice_label asset_list_folders_folders_moved_to_root_body {
   key = 'ASSET_LIST_FOLDERS_FOLDERS_MOVED_TO_ROOT_BODY'
   group = 'Asset List'
   product_id = resource.configservice_product.media_manager_5.id
