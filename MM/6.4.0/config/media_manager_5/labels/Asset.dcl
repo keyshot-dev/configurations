@@ -606,6 +606,22 @@ resource configservice_label asset_sort_rename_custom_sort_cancel {
   ]
 }
 
+resource configservice_label asset_sort_rename_custom_sort_rename {
+  key = 'ASSET_SORT_RENAME_CUSTOM_SORT_RENAME'
+  group = 'Asset'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Rename'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Omdøb'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label asset_sort_more_button_rename {
   key = 'ASSET_SORT_MORE_BUTTON_RENAME'
   group = 'Asset'
@@ -1017,6 +1033,38 @@ resource configservice_label asset_dialog_category_label {
     },
     {
       default_translation = 'Kategori'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_sort_rename_custom_sort_success_body {
+  key = 'ASSET_SORT_RENAME_CUSTOM_SORT_SUCCESS_BODY'
+  group = 'Asset'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Changes saved'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Ændringerne blev gemt'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_sort_rename_custom_sort_error_body {
+  key = 'ASSET_SORT_RENAME_CUSTOM_SORT_ERROR_BODY'
+  group = 'Asset'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Changes not saved. {{error}}'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Ændringerne blev ikke gemt. {{error}}'
       language_id = data.language.danish.id
     }
   ]
