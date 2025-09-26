@@ -1048,7 +1048,7 @@ resource configservice_label asset_sort_rename_custom_sort_success_body {
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Ændringer blev gemt'
+      default_translation = 'Ændringerne blev gemt'
       language_id = data.language.danish.id
     }
   ]
