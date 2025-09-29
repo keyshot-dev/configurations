@@ -9665,11 +9665,11 @@ resource configservice_label administration_tools_system_asset_categories_save_e
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Reassign assets to category:'
+      default_translation = 'Reassign assets to category'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Tildel assets til kategori:'
+      default_translation = 'Tildel assets til kategori'
       language_id = data.language.danish.id
     }
   ]
