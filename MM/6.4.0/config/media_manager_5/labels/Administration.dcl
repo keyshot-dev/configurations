@@ -9669,7 +9669,7 @@ resource configservice_label administration_tools_system_asset_categories_save_e
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Omflyt assets til kategori:'
+      default_translation = 'Tildel assets til kategori:'
       language_id = data.language.danish.id
     }
   ]
