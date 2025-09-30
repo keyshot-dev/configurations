@@ -5,5 +5,5 @@ resource configservice_bit_config_field inject_tracking_code {
     key = 'injectTrackingCode'
     title = 'Inject tracking code'
     description = 'If checked, the specified code snippets will be injected into the index.html page. WARNING: ONLY INSERT CODE FROM TRUSTED SOURCES!'
+    hidden = true
 }
-
