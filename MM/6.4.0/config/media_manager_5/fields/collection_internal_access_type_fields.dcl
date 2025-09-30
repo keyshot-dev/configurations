@@ -1,4 +1,4 @@
-resource configservice_string_config_field media_manager_5_collection_internal_access_type_fields {
+resource configservice_string_config_field collection_internal_access_type_fields {
     default_value = 'View'
     product_id = resource.configservice_product.media_manager_5.id
     group = 'internal'

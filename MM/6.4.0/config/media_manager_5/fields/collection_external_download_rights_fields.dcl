@@ -1,4 +1,4 @@
-resource configservice_string_config_field media_manager_5_collection_external_download_rights_fields {
+resource configservice_string_config_field collection_external_download_rights_fields {
     default_value = 'None'
     product_id = resource.configservice_product.media_manager_5.id
     group = 'external'
