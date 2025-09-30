@@ -639,7 +639,7 @@ resource configservice_label asset_list_folders_folders_move_error_body {
   ]
 }
 
-resource configservice_label asset_list_folders_folders_moved_body {
+resource configservice_label asset_list_folders_folders_moved_to_root_error {
   key = 'ASSET_LIST_FOLDERS_FOLDERS_MOVED_TO_ROOT_ERROR'
   group = 'Asset List'
   product_id = resource.configservice_product.media_manager_5.id
