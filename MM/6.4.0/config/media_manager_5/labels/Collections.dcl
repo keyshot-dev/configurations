@@ -1646,6 +1646,22 @@ resource configservice_label collections_share_button_update {
   ]
 }
 
+resource configservice_label collections_share_button_force_password_tooltip {
+  key = 'COLLECTIONS_SHARE_BUTTON_FORCE_PASSWORD_TOOLTIP'
+  group = 'Collections'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Password is required for this share. Fill in the password field in Share options.'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Adgangskode er påkrævet for denne deling. Udfyld adgangskodefeltet i Dele muligheder.'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label collections_share_button_generate_link {
   key = 'COLLECTIONS_SHARE_BUTTON_GENERATE_LINK'
   group = 'Collections'
