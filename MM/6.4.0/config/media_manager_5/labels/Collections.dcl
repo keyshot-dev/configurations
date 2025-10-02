@@ -1652,11 +1652,11 @@ resource configservice_label collections_share_button_force_password_tooltip {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Password is required for this share. Fill in the password field in Share options.'
+      default_translation = 'A share password is required. Can be found in Share options'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Adgangskode er påkrævet for denne deling. Udfyld adgangskodefeltet i Dele muligheder.'
+      default_translation = 'En delings-adgangskode er påkrævet. Kan udfyldes i delingsindstillinger'
       language_id = data.language.danish.id
     }
   ]

@@ -3205,7 +3205,7 @@ resource configservice_label collection_asset_settings_access_period_start_descr
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Define the default start access period for new shares. Add x numbers of days to be added to the current date.'
+        default_translation = 'Define the default number of days recipients of links will have to wait before the link is active.'
       language_id = data.language.english.id
     },
     {
@@ -3221,7 +3221,7 @@ resource configservice_label collection_asset_settings_access_period_end_descrip
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Define the duration for new shares. Add x numbers of days to be added to the defined start day.'
+      default_translation = 'Definer standardantallet af dage, som modtagere af links skal vente, før linket er aktivt.'
       language_id = data.language.english.id
     },
     {
@@ -3237,11 +3237,11 @@ resource configservice_label collection_asset_settings_access_period_start {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Access period: Start days'
+      default_translation = 'Access period: Days until the link is active'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Adgangsperiode: Startdage'
+      default_translation = 'Adgangsperiode: Dage indtil linket er aktivt'
       language_id = data.language.danish.id
     }
   ]
@@ -3253,11 +3253,11 @@ resource configservice_label collection_asset_settings_access_period_end {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Access period: Duration days'
+      default_translation = 'Access period: Duration days the link is active'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Adgangsperiode: Varighedsdage'
+      default_translation = 'Adgangsperiode: Varighed af dage linket er aktivt'
       language_id = data.language.danish.id
     }
   ]
