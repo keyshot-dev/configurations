@@ -12523,6 +12523,38 @@ resource configservice_label administration_tools_system_metadata_tree_editor_su
   ]
 }
 
+resource configservice_label administration_tools_system_metadata_tree_editor_deletion_started_title {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_METADATA_TREE_EDITOR_DELETION_STARTED_TITLE'
+  group = 'administration-tools - system - metadata'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Deletion started'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Sletning startet'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_metadata_tree_editor_deletion_started_content {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_METADATA_TREE_EDITOR_DELETION_STARTED_CONTENT'
+  group = 'administration-tools - system - metadata'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Starting to delete item. This may take a few seconds...'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Starter med at slette elementet. Dette kan tage et par sekunder...'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label administration_tools_system_metadata_tree_editor_error_delete_title {
   key = 'ADMINISTRATION_TOOLS_SYSTEM_METADATA_TREE_EDITOR_ERROR_DELETE_TITLE'
   group = 'administration-tools - system - metadata'
