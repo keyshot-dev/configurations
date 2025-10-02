@@ -12545,7 +12545,7 @@ resource configservice_label administration_tools_system_metadata_tree_editor_de
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Starting to delete item. This may take a few seconds...'
+      default_translation = 'Deleting item. It may take a few seconds...'
       language_id = data.language.english.id
     },
     {
