@@ -12549,7 +12549,7 @@ resource configservice_label administration_tools_system_metadata_tree_editor_de
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Starter med at slette elementet. Dette kan tage et par sekunder...'
+      default_translation = 'Sletter elementet. Det tager som regel et par sekunder...'
       language_id = data.language.danish.id
     }
   ]
