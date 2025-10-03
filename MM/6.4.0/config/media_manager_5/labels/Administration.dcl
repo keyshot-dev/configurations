@@ -13073,11 +13073,27 @@ resource configservice_label administration_tools_system_metadata_combo_values_e
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Combo value value not saved'
+      default_translation = 'Combo value not saved'
       language_id = data.language.english.id
     },
     {
       default_translation = 'Combo-værdi blev ikke gemt'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_metadata_combo_values_editor_duplicate_error_save_content {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_METADATA_COMBO_VALUES_EDITOR_DUPLICATE_ERROR_SAVE_CONTENT'
+  group = 'administration-tools - system - metadata'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Combo value \'{{name}}\' already exists'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Combo-værdi \'{{name}}\' findes allerede'
       language_id = data.language.danish.id
     }
   ]
