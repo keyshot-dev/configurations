@@ -3199,17 +3199,33 @@ resource configservice_label collection_asset_settings_access_period {
   ]
 }
 
-resource configservice_label collection_asset_settings_access_period_description {
-  key = 'COLLECTION_ASSET_SETTINGS_ACCESS_PERIOD_DESCRIPTION'
+resource configservice_label collection_asset_settings_access_period_start_description {
+  key = 'COLLECTION_ASSET_SETTINGS_ACCESS_PERIOD_START_DESCRIPTION'
   group = 'Settings'
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Define the default start and end access period for new shares. Add x numbers of days to be added to the current date.'
+        default_translation = 'Define the default number of days recipients of links will have to wait before the link is active.'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Definér standard start- og slutdato for nye delinger. Tilføj x antal dage til den aktuelle dato.'
+      default_translation = 'Definér standard start-adgangsperiode for nye delinger. Tilføj x antal dage til den aktuelle dato.'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label collection_asset_settings_access_period_end_description {
+  key = 'COLLECTION_ASSET_SETTINGS_ACCESS_PERIOD_END_DESCRIPTION'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Definer standardantallet af dage, som modtagere af links skal vente, før linket er aktivt.'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Definér varigheden for nye delinger. Tilføj x antal dage til den definerede startdag.'
       language_id = data.language.danish.id
     }
   ]
@@ -3221,11 +3237,11 @@ resource configservice_label collection_asset_settings_access_period_start {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Access period: Add start days'
+      default_translation = 'Access period: Days until the link is active'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Adgangsperiode: Tilføj startdage'
+      default_translation = 'Adgangsperiode: Dage indtil linket er aktivt'
       language_id = data.language.danish.id
     }
   ]
@@ -3237,11 +3253,11 @@ resource configservice_label collection_asset_settings_access_period_end {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Access period: Add end days'
+      default_translation = 'Access period: Duration days the link is active'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Adgangsperiode: Tilføj slutdage'
+      default_translation = 'Adgangsperiode: Varighed af dage linket er aktivt'
       language_id = data.language.danish.id
     }
   ]
