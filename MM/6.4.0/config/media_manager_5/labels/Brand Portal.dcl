@@ -1576,7 +1576,7 @@ resource configservice_label brand_portal_reorder_folder_notification {
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Mappe rækkefølge ændret'
+      default_translation = 'Mappe-rækkefølge ændret'
       language_id = data.language.danish.id
     }
   ]
