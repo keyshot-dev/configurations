@@ -398,22 +398,6 @@ resource configservice_label create_workflow_dialog_workflow_name {
   ]
 }
 
-resource configservice_label create_workflow_dialog_workflow_name_placeholder {
-  key = 'CREATE_WORKFLOW_DIALOG_WORKFLOW_NAME_PLACEHOLDER'
-  group = 'Business Workflow'
-  product_id = resource.configservice_product.media_manager_5.id
-  default_label_values = [
-    {
-      default_translation = ''
-      language_id = data.language.english.id
-    },
-    {
-      default_translation = ''
-      language_id = data.language.danish.id
-    }
-  ]
-}
-
 resource configservice_label create_workflow_dialog_workflow_type {
   key = 'CREATE_WORKFLOW_DIALOG_WORKFLOW_TYPE'
   group = 'Business Workflow'
