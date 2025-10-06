@@ -404,11 +404,11 @@ resource configservice_label create_workflow_dialog_workflow_name_placeholder {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = '{type, select, business {Workflow name...}}'
+      default_translation = ''
       language_id = data.language.english.id
     },
     {
-      default_translation = '{type, select, business {Workflownavn...}}'
+      default_translation = ''
       language_id = data.language.danish.id
     }
   ]
@@ -468,11 +468,11 @@ resource configservice_label create_workflow_dialog_workflow_template_placeholde
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Choose a template...'
+      default_translation = 'Select'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Vælg skabelon...'
+      default_translation = 'Vælg'
       language_id = data.language.danish.id
     }
   ]
@@ -484,11 +484,11 @@ resource configservice_label create_workflow_dialog_workflow_template_info {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Choose template'
+      default_translation = 'Your new workflow will be a copy of the workflow you select'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Vælg skabelon'
+      default_translation = 'Dit nye workflow vil blive en kopi af det workflow, du vælger'
       language_id = data.language.danish.id
     }
   ]
@@ -511,16 +511,16 @@ resource configservice_label create_workflow_dialog_workflow_cancel {
 }
 
 resource configservice_label create_workflow_dialog_workflow_ok {
-  key = 'CREATE_WORKFLOW_DIALOG_WORKFLOW_OK'
+  key = 'CREATE_WORKFLOW_DIALOG_WORKFLOW_CREATE'
   group = 'Business Workflow'
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'OK'
+      default_translation = 'Create'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'OK'
+      default_translation = 'Opret'
       language_id = data.language.danish.id
     }
   ]
