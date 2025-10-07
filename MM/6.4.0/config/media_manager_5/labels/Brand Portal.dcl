@@ -1406,6 +1406,22 @@ resource configservice_label brand_portal_folder_context_menu_rename {
   ]
 }
 
+resource configservice_label brand_portal_folder_context_menu_reorder {
+  key = 'BRAND_PORTAL_FOLDER_CONTEXT_MENU_REORDER'
+  group = 'Brand Portal'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = '{editing, select, true {Cancel reordering} false {Reorder folder}}'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = '{editing, select, true {Annullér omarrangering} false {Omarranger mappe}}'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label brand_portal_folder_context_menu_duplicate {
   key = 'BRAND_PORTAL_FOLDER_CONTEXT_MENU_DUPLICATE'
   group = 'Brand Portal'
@@ -1545,6 +1561,22 @@ resource configservice_label brand_portal_create_folder_error_title {
     },
     {
       default_translation = 'Fejl'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label brand_portal_reorder_folder_notification {
+  key = 'BRAND_PORTAL_REORDER_FOLDER_NOTIFICATION'
+  group = 'Brand Portal'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Folder order changed'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Mappe-rækkefølge ændret'
       language_id = data.language.danish.id
     }
   ]
