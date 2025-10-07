@@ -2265,7 +2265,7 @@ resource configservice_label settings_asset_search_customization_settings_toggle
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Hvis den er angivet til sand, fjernes slettede standardfiltre også fra brugerens filterliste. Hvis den er angivet til falsk, konverteres standardfiltre til almindelige filtre og opbevares i brugerens filterliste, hvor al deres konfiguration bevares.'
+      default_translation = 'Hvis slået til, fjernes slettede standard-filtre også fra brugerens filterliste. Hvis slået fra, konverteres standard-filtrene til almindelige filtre og vil bilve gemt i brugerens filter-liste, sammen med deres andet bruger-konfiguration.'
       language_id = data.language.danish.id
     }
   ]
