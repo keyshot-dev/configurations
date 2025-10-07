@@ -7567,11 +7567,11 @@ resource configservice_label administration_tools_system_metadata_restrict_to_as
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'The metafield will be displayed only for assets within the selected asset categories, including their child categories. To display the field across all asset categories, set the category to \'Root\'.'
+      default_translation = 'This metadata field will be displayed only on assets in the categories you set here, including their inherited categories. Please note, if the top-most category is set, the field will always be visible.'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Metadatafeltet vises kun for assets inden for de valgte asset-kategorier, inklusive deres underkategorier. For at vise feltet på tværs af alle asset-kategorier skal kategorien indstilles til \'Rod\'.'
+      default_translation = 'Dette metadatafelt vises kun på assets i de kategorier, du angiver her, inkl. deres nedarvede kategorier. Bemærk, at hvis den øverste kategori er angivet, vil feltet altid være synligt.'
       language_id = data.language.danish.id
     }
   ]
