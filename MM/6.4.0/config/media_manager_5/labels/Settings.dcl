@@ -2233,7 +2233,7 @@ resource configservice_label settings_asset_search_customization_settings_toggle
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Hvis den er angivet til sand, har brugerens filterkonfiguration forrang over standardfiltrene. Hvis den er angivet til falsk, anvendes standardfilterkonfigurationen altid.'
+      default_translation = 'Hvis slået til, har brugerens filter-konfiguration bruges frem for standard-filtrene. Hvis slået fra, anvendes standard-filter-konfigurationen altid.'
       language_id = data.language.danish.id
     }
   ]
