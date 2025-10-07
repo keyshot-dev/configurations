@@ -2208,7 +2208,7 @@ resource configservice_label settings_asset_search_customization_settings_custom
 }
 
 resource configservice_label settings_asset_search_customization_settings_toggle_overwrite_default_filters_label {
-  key = 'SETTINGS_ASSET_SEARCH_CUSTOMIZATION_SETTINGS_TITLE'
+  key = 'SETTINGS_ASSET_SEARCH_CUSTOMIZATION_SETTINGS_TOGGLE_OVERWRITE_DEFAULT_FILTERS_LABEL'
   group = 'Settings'
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
@@ -2224,7 +2224,7 @@ resource configservice_label settings_asset_search_customization_settings_toggle
 }
 
 resource configservice_label settings_asset_search_customization_settings_toggle_overwrite_default_filters_tooltip {
-  key = 'SETTINGS_ASSET_SEARCH_CUSTOMIZATION_SETTINGS_TITLE'
+  key = 'SETTINGS_ASSET_SEARCH_CUSTOMIZATION_SETTINGS_TOGGLE_OVERWRITE_DEFAULT_FILTERS_TOOLTIP'
   group = 'Settings'
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
@@ -2240,7 +2240,7 @@ resource configservice_label settings_asset_search_customization_settings_toggle
 }
 
 resource configservice_label settings_asset_search_customization_settings_toggle_remove_deleted_default_filters_label {
-  key = 'SETTINGS_ASSET_SEARCH_CUSTOMIZATION_SETTINGS_TITLE'
+  key = 'SETTINGS_ASSET_SEARCH_CUSTOMIZATION_SETTINGS_TOGGLE_REMOVE_DELATED_DEFAULT_FILTER_LABEL'
   group = 'Settings'
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
@@ -2256,7 +2256,7 @@ resource configservice_label settings_asset_search_customization_settings_toggle
 }
 
 resource configservice_label settings_asset_search_customization_settings_toggle_remove_deleted_default_filters_tooltip {
-  key = 'SETTINGS_ASSET_SEARCH_CUSTOMIZATION_SETTINGS_TITLE'
+  key = 'SETTINGS_ASSET_SEARCH_CUSTOMIZATION_SETTINGS_TOGGLE_REMOVE_DELATED_DEFAULT_FILTER_TOOLTIP'
   group = 'Settings'
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
