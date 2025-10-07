@@ -19,7 +19,7 @@ resource mail_template invite_existing_user_to_workspace {
                                             <table border="0" cellspacing="0" cellpadding="0">
                                                 <tr>
                                                     <td>
-                                                        <a href="{{system.dambaseurl}}?wsInviteExisting={{data.workspaceId}}"
+                                                        <a href="{{system.dam_base_url}}?wsInviteExisting={{data.workspaceId}}"
                                                            class="button button--green" target="_blank">Accept invitation</a>
                                                     </td>
                                                 </tr>
@@ -36,7 +36,7 @@ resource mail_template invite_existing_user_to_workspace {
                             <td>
                                 <p class="sub">If you\'re having trouble with the button above, copy and
                                     paste the URL below into your web browser.</p>
-                                <p class="sub">{{system.dambaseurl}}?wsInviteExisting={{data.workspaceId}}</p>
+                                <p class="sub">{{system.dam_base_url}}?wsInviteExisting={{data.workspaceId}}</p>
                             </td>
                         </tr>
                     </table>
