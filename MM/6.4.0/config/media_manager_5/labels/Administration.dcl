@@ -7551,11 +7551,11 @@ resource configservice_label administration_tools_system_metadata_restrict_to_as
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Show for asset categories'
+      default_translation = 'Show on assets categories'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Vis for asset-kategorier'
+      default_translation = 'Vis på asset-kategorier'
       language_id = data.language.danish.id
     }
   ]
