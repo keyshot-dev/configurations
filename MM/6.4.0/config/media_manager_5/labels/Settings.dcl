@@ -2207,6 +2207,70 @@ resource configservice_label settings_asset_search_customization_settings_custom
   ]
 }
 
+resource configservice_label settings_asset_search_customization_settings_toggle_overwrite_default_filters_label {
+  key = 'SETTINGS_ASSET_SEARCH_CUSTOMIZATION_SETTINGS_TITLE'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'User filters overwrite defaults'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Brugerfiltre overskriver standardindstillinger'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_asset_search_customization_settings_toggle_overwrite_default_filters_tooltip {
+  key = 'SETTINGS_ASSET_SEARCH_CUSTOMIZATION_SETTINGS_TITLE'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'If set to true, the user’s filter configuration takes precedence over the default filters. If set to false, the default filter configuration is always applied.'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Hvis den er angivet til sand, har brugerens filterkonfiguration forrang over standardfiltrene. Hvis den er angivet til falsk, anvendes standardfilterkonfigurationen altid.'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_asset_search_customization_settings_toggle_remove_deleted_default_filters_label {
+  key = 'SETTINGS_ASSET_SEARCH_CUSTOMIZATION_SETTINGS_TITLE'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Deleted default filters are removed from user filters'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Slettede standardfiltre fjernes fra brugerfiltre'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_asset_search_customization_settings_toggle_remove_deleted_default_filters_tooltip {
+  key = 'SETTINGS_ASSET_SEARCH_CUSTOMIZATION_SETTINGS_TITLE'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'If set to true, deleted default filters are also removed from the user filters list. If set to false, default filters are converted into regular filters and kept in the user’s filter list, retaining all their configuration.'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Hvis den er angivet til sand, fjernes slettede standardfiltre også fra brugerens filterliste. Hvis den er angivet til falsk, konverteres standardfiltre til almindelige filtre og opbevares i brugerens filterliste, hvor al deres konfiguration bevares.'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label settings_menu_configuration_management_desc {
   key = 'SETTINGS_MENU_CONFIGURATION_MANAGEMENT_DESC'
   group = 'Settings'
