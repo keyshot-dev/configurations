@@ -2261,7 +2261,7 @@ resource configservice_label settings_asset_search_customization_settings_toggle
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'If set to true, deleted default filters are also removed from the user filters list. If set to false, default filters are converted into regular filters and kept in the user’s filter list, retaining all their configuration.'
+      default_translation = 'If set to true, deleted default filters are also removed from the user's filters list. If set to false, default filters are converted into regular filters and kept in the user\'s filter list, retaining all their configuration.'
       language_id = data.language.english.id
     },
     {
