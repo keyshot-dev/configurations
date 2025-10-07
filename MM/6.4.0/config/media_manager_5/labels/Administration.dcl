@@ -7551,11 +7551,27 @@ resource configservice_label administration_tools_system_metadata_restrict_to_as
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Restrict to asset categories'
+      default_translation = 'Show for asset categories'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Begræns til asset-kategorier'
+      default_translation = 'Vis for asset-kategorier'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_metadata_restrict_to_asset_categories_tooltip {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_METADATA_RESTRICT_TO_ASSET_CATEGORIES_TOOLTIP'
+  group = 'administration-tools - system - metadata'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'The metafield will be displayed only for assets within the selected asset categories, including their child categories. To display the field across all asset categories, set the category to \'root\'.'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Metadatafeltet vises kun for assets inden for de valgte asset-kategorier, inklusive deres underkategorier. For at vise feltet på tværs af alle asset-kategorier skal kategorien indstilles til \'rod\'.'
       language_id = data.language.danish.id
     }
   ]
