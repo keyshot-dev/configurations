@@ -2229,7 +2229,7 @@ resource configservice_label settings_asset_search_customization_settings_toggle
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'If set to true, the user’s filter configuration takes precedence over the default filters. If set to false, the default filter configuration is always applied.'
+      default_translation = 'If set to true, the user\'s filter configuration takes precedence over the default filters. If set to false, the default filter configuration is always applied.'
       language_id = data.language.english.id
     },
     {
