@@ -1160,7 +1160,7 @@ resource configservice_label collections_share_force_preview_tooltip {
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Forhåndsvisning er tvunget'
+      default_translation = 'Forhåndsvisning er påtvunget'
       language_id = data.language.danish.id
     }
   ]
