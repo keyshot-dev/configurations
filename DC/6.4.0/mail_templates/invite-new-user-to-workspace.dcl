@@ -19,7 +19,7 @@ resource mail_template invite_new_user_to_workspace {
                                             <table border="0" cellspacing="0" cellpadding="0">
                                                 <tr>
                                                     <td>
-                                                        <a href="https://example.com?wsInviteNew={{data.token}}"
+                                                        <a href="{{data.url}}?wsInviteNew={{data.token}}"
                                                            class="button button--green" target="_blank">Accept invitation</a>
                                                     </td>
                                                 </tr>
@@ -36,7 +36,7 @@ resource mail_template invite_new_user_to_workspace {
                             <td>
                                 <p class="sub">If you\'re having trouble with the button above, copy and
                                     paste the URL below into your web browser.</p>
-                                <p class="sub">https://example.com?wsInviteNew={{data.token}}</p>
+                                <p class="sub">{{data.url}}?wsInviteNew={{data.token}}</p>
                             </td>
                         </tr>
                     </table>
