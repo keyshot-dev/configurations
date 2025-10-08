@@ -1150,6 +1150,22 @@ resource configservice_label collections_share_preview_description {
   ]
 }
 
+resource configservice_label collections_share_force_preview_tooltip {
+  key = 'COLLECTIONS_SHARE_FORCE_PREVIEW_TOOLTIP'
+  group = 'Collections'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Preview is forced'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Forhåndsvisning er tvunget'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label collections_share_share_settings {
   key = 'COLLECTIONS_SHARE_SHARE_SETTINGS'
   group = 'Collections'
