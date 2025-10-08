@@ -2256,7 +2256,7 @@ resource configservice_label settings_asset_search_customization_settings_toggle
 }
 
 resource configservice_label settings_asset_search_customization_settings_toggle_remove_deleted_default_filters_tooltip {
-  key = 'SETTINGS_ASSET_SEARCH_CUSTOMIZATION_SETTINGS_TOGGLE_REMOVE_DELATED_DEFAULT_FILTER_TOOLTIP'
+  key = 'SETTINGS_ASSET_SEARCH_CUSTOMIZATION_SETTINGS_TOGGLE_REMOVE_DELETED_DEFAULT_FILTER_TOOLTIP'
   group = 'Settings'
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
