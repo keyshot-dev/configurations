@@ -6103,6 +6103,70 @@ resource configservice_label administration_tools_analytics_member_filter_member
   ]
 }
 
+resource configservice_label administration_tools_analytics_filter_by_groups {
+  key = 'ADMINISTRATION_TOOLS_ANALYTICS_FILTER_BY_GROUPS'
+  group = 'administration-tools'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Filter by groups'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Filtrer efter grupper'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_analytics_filter_by_members {
+  key = 'ADMINISTRATION_TOOLS_ANALYTICS_FILTER_BY_MEMBERS'
+  group = 'administration-tools'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Filter by members'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Filtrer efter brugere'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_analytics_member_filter_show_members_filter_on_dashboard {
+  key = 'ADMINISTRATION_TOOLS_ANALYTICS_MEMBER_FILTER_SHOW_MEMBERS_FILTER_ON_DASHBOARD'
+  group = 'administration-tools - analytics-member-filter'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Show member filter on dashboard'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Vis brugerefilter på dashboard'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_analytics_member_filter_show_groups_filter_on_dashboard {
+  key = 'ADMINISTRATION_TOOLS_ANALYTICS_MEMBER_FILTER_SHOW_GROUPS_FILTER_ON_DASHBOARD'
+  group = 'administration-tools - analytics-member-filter'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Show group filter on dashboard'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Vis grupperfilter på dashboard'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label administration_tools_analytics_member_filter_specific_members {
   key = 'ADMINISTRATION_TOOLS_ANALYTICS_MEMBER_FILTER_SPECIFIC_MEMBERS'
   group = 'administration-tools - analytics-member-filter'
