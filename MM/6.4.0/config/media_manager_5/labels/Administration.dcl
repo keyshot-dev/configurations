@@ -7551,11 +7551,11 @@ resource configservice_label administration_tools_system_metadata_dialog_delete_
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Metadata field not deleted'
+      default_translation = 'Metadata field not deleted. {{error}}'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Metadatafeltet blev ikke slettet'
+      default_translation = 'Metadatafeltet blev ikke slettet. {{error}}'
       language_id = data.language.danish.id
     }
   ]
