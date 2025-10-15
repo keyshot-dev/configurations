@@ -6145,7 +6145,7 @@ resource configservice_label administration_tools_channels_change_channel_parent
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Moved'
+      default_translation = 'Flyttet'
       language_id = data.language.danish.id
     }
   ]
@@ -6161,7 +6161,7 @@ resource configservice_label administration_tools_channels_change_channel_parent
       language_id = data.language.english.id
     },
     {
-      default_translation = 'The changes were not saved'
+      default_translation = 'Ændringerne blev ikke gemt'
       language_id = data.language.danish.id
     }
   ]
