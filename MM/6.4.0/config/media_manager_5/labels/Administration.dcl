@@ -6157,11 +6157,11 @@ resource configservice_label administration_tools_channels_change_channel_parent
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Changes were not saved'
+      default_translation = 'Changes were not saved. {{error}}'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Ændringerne blev ikke gemt'
+      default_translation = 'Ændringerne blev ikke gemt. {{error}}'
       language_id = data.language.danish.id
     }
   ]
