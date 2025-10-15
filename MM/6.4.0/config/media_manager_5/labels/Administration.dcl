@@ -6039,6 +6039,150 @@ resource configservice_label administration_tools_channels_error_saving_title {
   ]
 }
 
+resource configservice_label administration_tools_channels_change_parent_channel_btn {
+  key = 'ADMINISTRATION_TOOLS_CHANNELS_CHANGE_PARENT_CHANNEL_BTN'
+  group = 'administration-tools - channels'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Move'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Flyt'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_channels_change_channel_parent_dialog_title {
+  key = 'ADMINISTRATION_TOOLS_CHANNELS_CHANGE_CHANNEL_PARENT_DIALOG_TITLE'
+  group = 'administration-tools - channels'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Move to'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Flyt til'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_channels_change_channel_parent_dialog_label_folder {
+  key = 'ADMINISTRATION_TOOLS_CHANNELS_CHANGE_CHANNEL_PARENT_DIALOG_LABEL_FOLDER'
+  group = 'administration-tools - channels'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Channel folder'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Kanalmappe'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_channels_change_channel_parent_dialog_folder_required {
+  key = 'ADMINISTRATION_TOOLS_CHANNELS_CHANGE_CHANNEL_PARENT_DIALOG_FOLDER_REQUIRED'
+  group = 'administration-tools - channels'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Channel folder required'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Kanalmappe påkrævet'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_channels_change_channel_parent_dialog_cancel_btn {
+  key = 'ADMINISTRATION_TOOLS_CHANNELS_CHANGE_CHANNEL_PARENT_DIALOG_CANCEL_BTN'
+  group = 'administration-tools - channels'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Cancel'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Annullér'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_channels_change_channel_parent_dialog_save_btn {
+  key = 'ADMINISTRATION_TOOLS_CHANNELS_CHANGE_CHANNEL_PARENT_DIALOG_SAVE_BTN'
+  group = 'administration-tools - channels'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = '{processing, select, true {Saving...} false {Save}}'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = '{processing, select, true {Gemmer...} false {Gem}}'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_channels_change_channel_parent_dialog_success {
+  key = 'ADMINISTRATION_TOOLS_CHANNELS_CHANGE_CHANNEL_PARENT_DIALOG_SUCCESS'
+  group = 'administration-tools - channels'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Moved'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Flyttet'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_channels_change_channel_parent_dialog_error_body {
+  key = 'ADMINISTRATION_TOOLS_CHANNELS_CHANGE_CHANNEL_PARENT_DIALOG_ERROR_BODY'
+  group = 'administration-tools - channels'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Changes were not saved. {{error}}'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Ændringerne blev ikke gemt. {{error}}'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_channels_change_channel_parent_dialog_error_title {
+  key = 'ADMINISTRATION_TOOLS_CHANNELS_CHANGE_CHANNEL_PARENT_DIALOG_ERROR_TITLE'
+  group = 'administration-tools - channels'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Error'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Fejl'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label administration_tools_analytics_member_filter_apply {
   key = 'ADMINISTRATION_TOOLS_ANALYTICS_MEMBER_FILTER_APPLY'
   group = 'administration-tools - analytics-member-filter'
