@@ -6327,6 +6327,22 @@ resource configservice_label administration_dashboard_tool_filters {
   ]
 }
 
+resource configservice_label administration_dashboard_tool_filter {
+  key = 'ADMINISTRATION_TOOLS_DASHBOARD_TOOL_FILTER'
+  group = 'administration-tools'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Filter'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Filter'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label administration_tools_analytics_filter_by_members {
   key = 'ADMINISTRATION_TOOLS_ANALYTICS_FILTER_BY_MEMBERS'
   group = 'administration-tools'
