@@ -1578,11 +1578,11 @@ resource configservice_label administration_tools_users_and_groups_delete_group_
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Group not deleted'
+      default_translation = 'Group not deleted. {{error}}'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Gruppen blev ikke slettet'
+      default_translation = 'Gruppen blev ikke slettet. {{error}}'
       language_id = data.language.danish.id
     }
   ]
