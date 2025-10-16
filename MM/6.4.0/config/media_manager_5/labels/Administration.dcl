@@ -6279,7 +6279,7 @@ resource configservice_label administration_analytics_member_filter_fixed_filter
   ]
 }
 
-resource configservice_label administration_analytics_member_filter_fixed_filter_setup {
+resource configservice_label administration_tools_analytics_member_filter_dynamic_filter_on_dashboard {
   key = 'ADMINISTRATION_TOOLS_ANALYTICS_MEMBER_FILTER_DYNAMIC_FILTER_ON_DASHBOARD'
   group = 'administration-tools - analytics-member-filter'
   product_id = resource.configservice_product.media_manager_5.id
