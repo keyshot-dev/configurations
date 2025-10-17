@@ -6263,6 +6263,102 @@ resource configservice_label administration_tools_analytics_filter_by_groups {
   ]
 }
 
+resource configservice_label administration_analytics_member_filter_fixed_filter_setup {
+  key = 'ADMINISTRATION_TOOLS_ANALYTICS_MEMBER_FILTER_FIXED_FILTER_SETUP'
+  group = 'administration-tools - analytics-member-filter'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Fixed filter setup'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Fast filteropsætning'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_analytics_member_filter_dynamic_filter_on_dashboard {
+  key = 'ADMINISTRATION_TOOLS_ANALYTICS_MEMBER_FILTER_DYNAMIC_FILTER_ON_DASHBOARD'
+  group = 'administration-tools - analytics-member-filter'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Dynamic filter on dashboard'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Dynamisk filter på dashboardet'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_dashboard_tool_no_results_found {
+  key = 'ADMINISTRATION_TOOLS_DASHBOARD_TOOL_NO_RESULTS_FOUND'
+  group = 'administration-tools'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'No results found'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Ingen resultater fundet'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_dashboard_tool_filters {
+  key = 'ADMINISTRATION_TOOLS_DASHBOARD_TOOL_FILTERS'
+  group = 'administration-tools'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Filters'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Filtre'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_dashboard_tool_filter {
+  key = 'ADMINISTRATION_TOOLS_DASHBOARD_TOOL_FILTER'
+  group = 'administration-tools'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Filter'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Filter'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_dashboard_tool_clear_filters {
+  key = 'ADMINISTRATION_TOOLS_DASHBOARD_TOOL_CLEAR_FILTERS'
+  group = 'administration-tools'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Clear filters'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Ryd filtre'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label administration_tools_analytics_filter_by_members {
   key = 'ADMINISTRATION_TOOLS_ANALYTICS_FILTER_BY_MEMBERS'
   group = 'administration-tools'
@@ -6274,38 +6370,6 @@ resource configservice_label administration_tools_analytics_filter_by_members {
     },
     {
       default_translation = 'Filtrer efter brugere'
-      language_id = data.language.danish.id
-    }
-  ]
-}
-
-resource configservice_label administration_tools_analytics_member_filter_show_members_filter_on_dashboard {
-  key = 'ADMINISTRATION_TOOLS_ANALYTICS_MEMBER_FILTER_SHOW_MEMBERS_FILTER_ON_DASHBOARD'
-  group = 'administration-tools - analytics-member-filter'
-  product_id = resource.configservice_product.media_manager_5.id
-  default_label_values = [
-    {
-      default_translation = 'Show member filter on dashboard'
-      language_id = data.language.english.id
-    },
-    {
-      default_translation = 'Vis brugerefilter på dashboard'
-      language_id = data.language.danish.id
-    }
-  ]
-}
-
-resource configservice_label administration_tools_analytics_member_filter_show_groups_filter_on_dashboard {
-  key = 'ADMINISTRATION_TOOLS_ANALYTICS_MEMBER_FILTER_SHOW_GROUPS_FILTER_ON_DASHBOARD'
-  group = 'administration-tools - analytics-member-filter'
-  product_id = resource.configservice_product.media_manager_5.id
-  default_label_values = [
-    {
-      default_translation = 'Show group filter on dashboard'
-      language_id = data.language.english.id
-    },
-    {
-      default_translation = 'Vis grupperfilter på dashboard'
       language_id = data.language.danish.id
     }
   ]
