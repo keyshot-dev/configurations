@@ -126,6 +126,38 @@ resource configservice_label error_http_429 {
   ]
 }
 
+resource configservice_label lbl_mp_error_409 {
+  key = 'LBL_MP_ERROR_409'
+  group = 'Error'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'An error occurred (409)'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Der opstod en fejl (409)'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label lbl_mp_error_400 {
+  key = 'LBL_MP_ERROR_400'
+  group = 'Error'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'An error occurred (400)'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Der opstod en fejl (400)'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label collections_share_unknown_error_title {
   key = 'COLLECTIONS_SHARE_UNKNOWN_ERROR_TITLE'
   group = 'Error'
