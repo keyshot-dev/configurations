@@ -212,7 +212,7 @@ resource configservice_label asset_list_column_label {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = '{column, select, description {Description} height {Height} width {Width} extension {Extension} fileSize {File size} duration {Duration} uploadDate {Upload date} assetId {Asset id} uploader {Upload user} lastModified {Last updated} assetType {Asset type} itemId {Item id} title {Title} tasks {Tasks} actions {Actions} score {Score} category {Category} comments {Comments}} cropName {Crop name}}'
+      default_translation = '{column, select, description {Description} height {Height} width {Width} extension {Extension} fileSize {File size} duration {Duration} uploadDate {Upload date} assetId {Asset id} uploader {Upload user} lastModified {Last updated} assetType {Asset type} itemId {Item id} title {Title} tasks {Tasks} actions {Actions} score {Score} category {Category} comments {Comments} cropName {Crop name}}'
       language_id = data.language.english.id
     },
     {
