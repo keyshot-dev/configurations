@@ -6263,6 +6263,22 @@ resource configservice_label administration_tools_analytics_filter_by_groups {
   ]
 }
 
+resource configservice_label administration_tools_analytics_filter_by_formats {
+  key = 'ADMINISTRATION_TOOLS_ANALYTICS_FILTER_BY_FORMATS'
+  group = 'administration-tools'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Filter by formats'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Filtrer på formater'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label administration_analytics_member_filter_fixed_filter_setup {
   key = 'ADMINISTRATION_TOOLS_ANALYTICS_MEMBER_FILTER_FIXED_FILTER_SETUP'
   group = 'administration-tools - analytics-member-filter'
