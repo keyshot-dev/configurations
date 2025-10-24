@@ -6273,7 +6273,7 @@ resource configservice_label administration_tools_analytics_filter_by_formats {
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Filtrer efter formater'
+      default_translation = 'Filtrer på formater'
       language_id = data.language.danish.id
     }
   ]
