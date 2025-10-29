@@ -12961,11 +12961,11 @@ resource configservice_label administration_tools_system_metadata_tree_editor_du
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Tree node \'{{name}}\' already exists'
+      default_translation = 'Tree node already exists'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Trænoden \'{{name}}\' findes allerede'
+      default_translation = 'Trænoden findes allerede'
       language_id = data.language.danish.id
     }
   ]
@@ -13393,11 +13393,11 @@ resource configservice_label administration_tools_system_metadata_combo_values_e
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Combo value \'{{name}}\' already exists'
+      default_translation = 'Combo value already exists'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Combo-værdi \'{{name}}\' findes allerede'
+      default_translation = 'Combo-værdi findes allerede'
       language_id = data.language.danish.id
     }
   ]
