@@ -738,5 +738,12 @@ resource asset_type_extension id_psb {
     asset_type = 'Photoshop'
 }
 
+resource asset_type_extension id_3dm {
+    extension = '3dm'
+    asset_type = 'ThreeD'
+}
 
-
+resource asset_type_extension id_fbx {
+    extension = 'fbx'
+    asset_type = 'ThreeD'
+}
