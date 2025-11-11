@@ -1125,11 +1125,11 @@ resource configservice_label topbar_upload_folders {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = '{canUploadFolder, select, true {Upload folder} false {Upload from folder}}'
+      default_translation = '{canUploadFolder, select, true {Upload folder} false {Upload folder contents}}'
       language_id = data.language.english.id
     },
     {
-      default_translation = '{canUploadFolder, select, true {Upload mappe} false {Upload fra mappe}}'
+      default_translation = '{canUploadFolder, select, true {Upload mappe} false {Upload mappeindhold}}'
       language_id = data.language.danish.id
     }
   ]
