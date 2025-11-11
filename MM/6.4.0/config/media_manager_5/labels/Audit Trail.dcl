@@ -1046,11 +1046,11 @@ resource configservice_label audit_trail_column_metadata_format_name {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Asset rendition\'s format name'
+      default_translation = 'Format name'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Asset-renditions format-navn'
+      default_translation = 'Format-navn'
       language_id = data.language.danish.id
     }
   ]
@@ -1062,11 +1062,11 @@ resource configservice_label audit_trail_column_metadata_format_id {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Asset rendition\'s format ID'
+      default_translation = 'Format ID'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Asset-renditions format-ID'
+      default_translation = 'Format-ID'
       language_id = data.language.danish.id
     }
   ]
