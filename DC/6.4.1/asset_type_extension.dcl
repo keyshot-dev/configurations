@@ -747,3 +747,8 @@ resource asset_type_extension id_fbx {
     extension = 'fbx'
     asset_type = 'ThreeD'
 }
+
+resource asset_type_extension id_mkv {
+    extension = 'mkv'
+    asset_type = 'Video'
+}
