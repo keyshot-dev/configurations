@@ -5511,6 +5511,377 @@ resource configservice_label administration_tools_languages_dialog_remove_langua
   ]
 }
 
+resource configservice_label administration_tools_api_keys_section_api_keys {
+  key = 'ADMINISTRATION_TOOLS_API_KEYS_SECTION_API_KEYS'
+  group = 'administration-tools - api-keys'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'API keys'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'API-nøgler'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_api_keys_section_title {
+  key = 'ADMINISTRATION_TOOLS_API_KEYS_SECTION_TITLE'
+  group = 'administration-tools - api-keys'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'API Keys'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'API-nøgler'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_api_keys_section_tooltip {
+  key = 'ADMINISTRATION_TOOLS_API_KEYS_SECTION_TOOLTIP'
+  group = 'administration-tools - api-keys'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Manage API keys'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Administrer API-nøgler'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_api_keys_section_owner {
+  key = 'ADMINISTRATION_TOOLS_API_KEYS_SECTION_OWNER'
+  group = 'administration-tools - api-keys'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Owner'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Ejer'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_api_keys_section_create {
+  key = 'ADMINISTRATION_TOOLS_API_KEYS_SECTION_CREATE'
+  group = 'administration-tools - api-keys'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Create new API key'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Opret ny API-nøgle'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_api_keys_section_refresh {
+  key = 'ADMINISTRATION_TOOLS_API_KEYS_SECTION_REFRESH'
+  group = 'administration-tools - api-keys'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Refresh'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Genindlæs'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+
+
+
+resource configservice_label administration_tools_api_keys_section_table_actions_column {
+  key = 'ADMINISTRATION_TOOLS_API_KEYS_SECTION_TABLE_ACTIONS_COLUMN'
+  group = 'administration-tools - api-keys'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Actions'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Handlinger'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_api_keys_section_name {
+  key = 'ADMINISTRATION_TOOLS_API_KEYS_SECTION_NAME'
+  group = 'administration-tools - api-keys'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Name'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Navn'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_api_keys_section_name_required {
+  key = 'ADMINISTRATION_TOOLS_API_KEYS_SECTION_NAME_REQUIRED'
+  group = 'administration-tools - api-keys'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Name is required'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Navn påkrævet'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_api_keys_section_note {
+  key = 'ADMINISTRATION_TOOLS_API_KEYS_SECTION_NOTE'
+  group = 'administration-tools - api-keys'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Note'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Note'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_api_keys_section_expiration {
+  key = 'ADMINISTRATION_TOOLS_API_KEYS_SECTION_EXPIRATION'
+  group = 'administration-tools - api-keys'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Expiration'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Udløbsdato'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_api_keys_section_cancel {
+  key = 'ADMINISTRATION_TOOLS_API_KEYS_SECTION_CANCEL'
+  group = 'administration-tools - api-keys'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Cancel'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Annullér'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_api_keys_section_saving {
+  key = 'ADMINISTRATION_TOOLS_API_KEYS_SECTION_SAVING'
+  group = 'administration-tools - api-keys'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Saving...'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Gemmer...'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_api_keys_section_save {
+  key = 'ADMINISTRATION_TOOLS_API_KEYS_SECTION_SAVE'
+  group = 'administration-tools - api-keys'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Save'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Gem'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_api_keys_section_empty_state {
+  key = 'ADMINISTRATION_TOOLS_API_KEYS_SECTION_EMPTY_STATE'
+  group = 'administration-tools - api-keys'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'No API keys found'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Ingen API-nøgler fundet'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_api_keys_section_create_hint {
+  key = 'ADMINISTRATION_TOOLS_API_KEYS_SECTION_CREATE_HINT'
+  group = 'administration-tools - api-keys'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Create an API key'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Opret en API-nøgle'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_api_keys_section_delete_confirm_title {
+  key = 'ADMINISTRATION_TOOLS_API_KEYS_SECTION_DELETE_CONFIRM_TITLE'
+  group = 'administration-tools - api-keys'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Delete API key'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Slet API-nøgle'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_api_keys_section_delete_confirm_message {
+  key = 'ADMINISTRATION_TOOLS_API_KEYS_SECTION_DELETE_CONFIRM_MESSAGE'
+  group = 'administration-tools - api-keys'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Are you sure you want to delete this API key?'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Er du sikker på, at du vil slette denne API-nøgle?'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_api_keys_section_delete_confirm_action {
+  key = 'ADMINISTRATION_TOOLS_API_KEYS_SECTION_DELETE_CONFIRM_ACTION'
+  group = 'administration-tools - api-keys'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Delete'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Slet'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_api_keys_section_delete_success {
+  key = 'ADMINISTRATION_TOOLS_API_KEYS_SECTION_DELETE_SUCCESS'
+  group = 'administration-tools - api-keys'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'API key was successfully deleted'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'API-nøglen blev slettet'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_api_keys_section_delete_failed {
+  key = 'ADMINISTRATION_TOOLS_API_KEYS_SECTION_DELETE_FAILED'
+  group = 'administration-tools - api-keys'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'API key was not deleted'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'API-nøglen blev ikke slettet'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_api_keys_section_save_success {
+  key = 'ADMINISTRATION_TOOLS_API_KEYS_SECTION_SAVE_SUCCESS'
+  group = 'administration-tools - api-keys'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'API key was successfully saved'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'API-nøglen blev gemt'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_api_keys_section_save_failed {
+  key = 'ADMINISTRATION_TOOLS_API_KEYS_SECTION_SAVE_FAILED'
+  group = 'administration-tools - api-keys'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'API key was not saved'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'API-nøglen blev ikke gemt'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label administration_tools_channels_section_title_channels {
   key = 'ADMINISTRATION_TOOLS_CHANNELS_SECTION_TITLE_CHANNELS'
   group = 'administration-tools - channels'
