@@ -5652,7 +5652,7 @@ resource configservice_label administration_tools_api_keys_section_name_required
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Navn påkravet'
+      default_translation = 'Navn påkrævet'
       language_id = data.language.danish.id
     }
   ]
@@ -5684,7 +5684,7 @@ resource configservice_label administration_tools_api_keys_section_expiration {
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Udløb'
+      default_translation = 'Udløbsdato'
       language_id = data.language.danish.id
     }
   ]
