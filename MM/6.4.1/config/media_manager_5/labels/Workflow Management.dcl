@@ -3006,7 +3006,7 @@ resource configservice_label workflow_editor_workflow_asset_search_request_remov
   ]
 }
 
-resource configservice_label workflow_editor_workflow_asset_search_request_remove_field {
+resource configservice_label workflow_editor_workflow_asset_comparison_type_is_not_supported {
   key = 'WORKFLOW_EDITOR_WORKFLOW_ASSET_COMPARISON_TYPE_IS_NOT_SUPPORTED'
   group = 'Workflow Management'
   product_id = resource.configservice_product.media_manager_5.id
