@@ -4,7 +4,7 @@ resource configservice_label access_error_page_title {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'You can\'t access this page'
+      default_translation = 'You can\'t access this page. Contact your administrator if you need help.'
       language_id = data.language.english.id
     },
     {
