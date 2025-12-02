@@ -1086,6 +1086,22 @@ resource configservice_label brand_portal_settings_fonts_enter_font_name {
   ]
 }
 
+resource configservice_label brand_portal_settings_fonts_font_conflicting_name {
+  key = 'BRAND_PORTAL_SETTINGS_FONTS_FONT_CONFLICTING_NAME'
+  group = 'Brand Portal'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Another font with the name \'{{name}}\' already exists.',
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'En skrifttype med navnet \'{{name}}\' findes allerede.',
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label brand_portal_settings_fonts_choose_font_file {
   key = 'BRAND_PORTAL_SETTINGS_FONTS_CHOOSE_FONT_FILE'
   group = 'Brand Portal'
