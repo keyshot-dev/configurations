@@ -3022,8 +3022,6 @@ resource configservice_label workflow_editor_workflow_asset_comparison_type_is_n
   ]
 }
 
-
-
 resource configservice_label workflows_overview_workflows_overview_wrapper_lookups {
   key = 'WORKFLOWS_OVERVIEW_WORKFLOWS_OVERVIEW_WRAPPER_LOOKUPS'
   group = 'Workflow Management'
