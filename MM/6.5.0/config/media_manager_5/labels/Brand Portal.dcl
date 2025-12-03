@@ -1092,11 +1092,11 @@ resource configservice_label brand_portal_settings_fonts_font_conflicting_name {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'A font with the name \'{{name}}\' already exists.',
+      default_translation = 'A font with the name \'{{name}}\' already exists.'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Der findes allerede en skrifttype med navnet \'{{name}}\'.',
+      default_translation = 'Der findes allerede en skrifttype med navnet \'{{name}}\'.'
       language_id = data.language.danish.id
     }
   ]
