@@ -3006,6 +3006,22 @@ resource configservice_label workflow_editor_workflow_asset_search_request_remov
   ]
 }
 
+resource configservice_label workflow_editor_workflow_asset_comparison_type_is_not_supported {
+  key = 'WORKFLOW_EDITOR_WORKFLOW_ASSET_COMPARISON_TYPE_IS_NOT_SUPPORTED'
+  group = 'Workflow Management'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Comparison type is not supported for this field type'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Sammenligningstype understøttes ikke for denne felttype.'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label workflows_overview_workflows_overview_wrapper_lookups {
   key = 'WORKFLOWS_OVERVIEW_WORKFLOWS_OVERVIEW_WRAPPER_LOOKUPS'
   group = 'Workflow Management'
