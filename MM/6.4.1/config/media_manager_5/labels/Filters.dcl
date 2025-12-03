@@ -285,7 +285,6 @@ resource configservice_label asset_list_filters_comparison_type_is_not_supported
   ]
 }
 
-
 resource configservice_label asset_list_filters_comparison_operator_title {
   key = 'ASSET_LIST_FILTERS_COMPARISON_OPERATOR_TITLE'
   group = 'Filters'

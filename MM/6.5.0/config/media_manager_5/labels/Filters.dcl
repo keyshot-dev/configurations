@@ -269,6 +269,22 @@ resource configservice_label asset_list_filters_comparison_operator_tooltip {
   ]
 }
 
+resource configservice_label asset_list_filters_comparison_type_is_not_supported {
+  key = 'ASSET_LIST_FILTERS_COMPARISON_TYPE_IS_NOT_SUPPORTED'
+  group = 'Filters'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Comparison type is not supported for this field type'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Sammenligningstype understøttes ikke for denne felttype.'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label asset_list_filters_comparison_operator_title {
   key = 'ASSET_LIST_FILTERS_COMPARISON_OPERATOR_TITLE'
   group = 'Filters'
