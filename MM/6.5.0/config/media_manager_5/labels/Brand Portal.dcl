@@ -1096,7 +1096,7 @@ resource configservice_label brand_portal_settings_fonts_font_conflicting_name {
       language_id = data.language.english.id
     },
     {
-      default_translation = 'En skrifttype med navnet \'{{name}}\' findes allerede.',
+      default_translation = 'Der findes allerede en skrifttype med navnet \'{{name}}\'.',
       language_id = data.language.danish.id
     }
   ]
