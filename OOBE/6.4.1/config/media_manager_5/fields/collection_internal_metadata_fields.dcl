@@ -1,7 +1,6 @@
 data configservice_string_config_field collection_internal_metadata_fields {
     product_id = data.configservice_product.media_manager_5.id
     key = 'collectionInternalMetadata'
-    title = 'Collection internal metadata fields'
 }
 
 resource configservice_config_string_field_value default_collection_internal_metadata_fields {
