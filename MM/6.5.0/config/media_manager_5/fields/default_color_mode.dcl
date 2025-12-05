@@ -22,6 +22,6 @@ resource configservice_combo_config_field default_color_mode {
     group = 'default'
     key = 'defaultColorMode'
     title = 'Default color mode'
-    description = "This decides the default color mode of the user interface. Light is the default option. Dark enables a dark theme. Auto switches between light and dark based on the system settings."
+    description = 'This decides the default color mode of the user interface. Light is the default option. Dark enables a dark theme. Auto switches between light and dark based on the system settings.'
 }
 
