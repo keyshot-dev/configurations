@@ -126,54 +126,6 @@ resource configservice_label compare_metadata_text_bit {
   ]
 }
 
-resource configservice_label asset_comparator_add_assets_notification_title {
-  key = 'ASSET_COMPARATOR_ADD_ASSETS_NOTIFICATION_TITLE'
-  group = 'Asset Comparator'
-  product_id = resource.configservice_product.media_manager_5.id
-  default_label_values = [
-    {
-      default_translation = 'Add more assets'
-      language_id = data.language.english.id
-    },
-    {
-      default_translation = 'Tilføj flere assets'
-      language_id = data.language.danish.id
-    }
-  ]
-}
-
-resource configservice_label asset_comparator_add_assets_notification_body {
-  key = 'ASSET_COMPARATOR_ADD_ASSETS_NOTIFICATION_BODY'
-  group = 'Asset Comparator'
-  product_id = resource.configservice_product.media_manager_5.id
-  default_label_values = [
-    {
-      default_translation = 'Select more assets to compare'
-      language_id = data.language.english.id
-    },
-    {
-      default_translation = 'Vælg flere assets til sammenligning'
-      language_id = data.language.danish.id
-    }
-  ]
-}
-
-resource configservice_label asset_comparator_add_assets_notification_action {
-  key = 'ASSET_COMPARATOR_ADD_ASSETS_NOTIFICATION_ACTION'
-  group = 'Asset Comparator'
-  product_id = resource.configservice_product.media_manager_5.id
-  default_label_values = [
-    {
-      default_translation = 'Compare assets'
-      language_id = data.language.english.id
-    },
-    {
-      default_translation = 'Sammenlign assets'
-      language_id = data.language.danish.id
-    }
-  ]
-}
-
 resource configservice_label asset_comparator_content_disabled_tooltip {
   key = 'ASSET_COMPARATOR_CONTENT_DISABLED_TOOLTIP'
   group = 'Asset Comparator'

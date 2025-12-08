@@ -2015,22 +2015,6 @@ resource configservice_label create_link_confirmation_dialog_invalid_url {
   ]
 }
 
-resource configservice_label mediamanager_navigation_more {
-  key = 'MEDIAMANAGER_NAVIGATION_MORE'
-  group = 'Z Misc Labels'
-  product_id = resource.configservice_product.media_manager_5.id
-  default_label_values = [
-    {
-      default_translation = 'More'
-      language_id = data.language.english.id
-    },
-    {
-      default_translation = 'Mere'
-      language_id = data.language.danish.id
-    }
-  ]
-}
-
 resource configservice_label no_matching_results {
   key = 'NO_MATCHING_RESULTS'
   group = 'Z Misc Labels'
