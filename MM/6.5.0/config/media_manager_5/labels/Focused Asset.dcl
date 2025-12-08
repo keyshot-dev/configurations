@@ -1,36 +1,4 @@
-﻿resource configservice_label focused_asset_switch_to_light_mode_tooltip {
-  key = 'FOCUSED_ASSET_SWITCH_TO_LIGHT_MODE_TOOLTIP'
-  group = 'Focused Asset'
-  product_id = resource.configservice_product.media_manager_5.id
-  default_label_values = [
-    {
-      default_translation = 'Switch to the light mode'
-      language_id = data.language.english.id
-    },
-    {
-      default_translation = 'Skift til lys tilstand'
-      language_id = data.language.danish.id
-    }
-  ]
-}
-
-resource configservice_label focused_asset_switch_to_dark_mode_tooltip {
-  key = 'FOCUSED_ASSET_SWITCH_TO_DARK_MODE_TOOLTIP'
-  group = 'Focused Asset'
-  product_id = resource.configservice_product.media_manager_5.id
-  default_label_values = [
-    {
-      default_translation = 'Switch to the dark mode'
-      language_id = data.language.english.id
-    },
-    {
-      default_translation = 'Skift til mørk tilstand'
-      language_id = data.language.danish.id
-    }
-  ]
-}
-
-resource configservice_label focused_asset_zoom_out_tooltip {
+﻿resource configservice_label focused_asset_zoom_out_tooltip {
   key = 'FOCUSED_ASSET_ZOOM_OUT_TOOLTIP'
   group = 'Focused Asset'
   product_id = resource.configservice_product.media_manager_5.id
