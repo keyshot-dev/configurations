@@ -574,3 +574,67 @@ resource configservice_label profile_preferences_factory_reset_dialog_confirm_bu
   ]
 }
 
+resource configservice_label color_mode_selector {
+  key = 'COLOR_MODE_SELECTOR'
+  group = 'Profile'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Color mode'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Farvetilstand'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label profile_preferences_color_mode_auto {
+  key = 'PROFILE_PREFERENCES_COLOR_MODE_AUTO'
+  group = 'Profile'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Auto'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Auto'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label profile_preferences_color_mode_dark {
+  key = 'PROFILE_PREFERENCES_COLOR_MODE_DARK'
+  group = 'Profile'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Dark'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Mørk'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label profile_preferences_color_mode_light {
+  key = 'PROFILE_PREFERENCES_COLOR_MODE_LIGHT'
+  group = 'Profile'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Light'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Lys'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
