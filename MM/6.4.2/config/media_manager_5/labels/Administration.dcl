@@ -5936,7 +5936,7 @@ resource configservice_label administration_tools_api_keys_section_modal_make_su
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Make sure to copy your API key now. You won't be able to see it again'
+      default_translation = 'Make sure to copy your API key now. You won\'t be able to see it again'
       language_id = data.language.english.id
     },
     {
