@@ -189,8 +189,6 @@ resource member superadministrator {
             constant = 'Collection_Super_Administrator'
         }, {
             constant = 'Can_publish'
-        }, {
-            constant = 'Can_Bypass_Upload_Limit'
         }]
     autolink = {
         item_guid = '39267edc-a520-4be9-9da4-1122a1fe6e22'
