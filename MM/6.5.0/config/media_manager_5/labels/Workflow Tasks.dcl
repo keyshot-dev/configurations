@@ -382,8 +382,8 @@ resource configservice_label workflow_tasks_filter_workflow_stage_filter_title {
   ]
 }
 
-resource configservice_label workflow_tasks_filter_workflow_stage_title {
-  key = 'WORKFLOW_TASKS_FILTER_WORKFLOW_STAGE_TITLE'
+resource configservice_label workflow_tasks_filter_workflow_state_title {
+  key = 'WORKFLOW_TASKS_FILTER_WORKFLOW_STATE_TITLE'
   group = 'Workflow Tasks'
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
