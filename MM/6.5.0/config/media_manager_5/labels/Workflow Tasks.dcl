@@ -84,11 +84,11 @@ resource configservice_label workflow_task_list_column {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = '{column, select, title {Task name} owner {Created by} assignee {Assigned to} created {Creation date} status {Status} action {Action} actionHeader {Options}}'
+      default_translation = '{column, select, title {Task name} owner {Created by} assignee {Assigned to} created {Creation date} status {Status} stage {Stage} action {Action} actionHeader {Options}}'
       language_id = data.language.english.id
     },
     {
-      default_translation = '{column, select, title {Opgavenavn} owner {Oprettet af} assignee {Tildelt til} created {Oprettelsesdato} status {Status} action {Handling} actionHeader {Valgmuligheder}}'
+      default_translation = '{column, select, title {Opgavenavn} owner {Oprettet af} assignee {Tildelt til} created {Oprettelsesdato} status {Status} stage {Fase} action {Handling} actionHeader {Valgmuligheder}}'
       language_id = data.language.danish.id
     }
   ]
@@ -377,6 +377,22 @@ resource configservice_label workflow_tasks_filter_workflow_stage_filter_title {
     },
     {
       default_translation = 'Fasenavn'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label workflow_tasks_filter_workflow_stage_title {
+  key = 'WORKFLOW_TASKS_FILTER_WORKFLOW_STAGE_TITLE'
+  group = 'Workflow Tasks'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Stage'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Fase'
       language_id = data.language.danish.id
     }
   ]
