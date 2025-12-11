@@ -581,11 +581,11 @@ resource configservice_label settings_logo_settings_configurator_title {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = '{type, select, primary {Header} secondary {Login screen} secondaryInverted {Login screen (Dark mode)}}'
+      default_translation = '{type, select, primary {Header} secondary {Login screen} secondaryInverted {Login screen - Dark mode}}'
       language_id = data.language.english.id
     },
     {
-      default_translation = '{type, select, primary {Header} secondary {Loginskærm} secondaryInverted {Loginskærm (Mørk tilstand)}}'
+      default_translation = '{type, select, primary {Header} secondary {Loginskærm} secondaryInverted {Loginskærm - Mørk tilstand}}'
       language_id = data.language.danish.id
     }
   ]
@@ -597,7 +597,7 @@ resource configservice_label settings_logo_settings_configurator_description {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = '{type, select, primary {This logo will appear in the top left corner of the navigation bar.} secondaryInverted {This logo will appear on the login screen when dark mode is enabled.}}'
+      default_translation = '{type, select, primary {This logo will appear in the top left corner of the navigation bar.} secondary {This logo will appear on the login screen.} secondaryInverted {This logo will appear on the login screen when dark mode is enabled.}}'
       language_id = data.language.english.id
     },
     {
