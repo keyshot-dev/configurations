@@ -68,11 +68,11 @@ resource configservice_label settings_brand_portal_logo_config_title {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = '{type, select, primary {Header} secondary {Login screen}}'
+      default_translation = '{type, select, primary {Header} secondary {Login screen} secondaryInverted {Login screen - Dark mode}}'
       language_id = data.language.english.id
     },
     {
-      default_translation = '{type, select, primary {Sidehoved} secondary {Loginskærm}}'
+      default_translation = '{type, select, primary {Header} secondary {Loginskærm} secondaryInverted {Loginskærm - Mørk tilstand}}'
       language_id = data.language.danish.id
     }
   ]
@@ -84,11 +84,11 @@ resource configservice_label settings_brand_portal_logo_config_info {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = '{type, select, primary {This logo will appear in the top left corner of the navigation bar. We recommend using PNGs and SVGs up to 100 KB.} secondary {This logo will appear on the login screen.}}'
+      default_translation = '{type, select, primary {This logo will appear in the top left corner of the navigation bar. We recommend using PNGs and SVGs up to 100 KB.} secondary {This logo will appear on the login screen.} secondaryInverted {This logo will appear on the login screen when dark mode is enabled.}}'
       language_id = data.language.english.id
     },
     {
-      default_translation = '{type, select, primary {Dette logo vises i øverste venstre hjørne af navigationslinjen. Vi anbefaler at bruge max 100 KB filer af typerne PNG eller SVG.} secondary {Dette logo vises på loginskærmen.}}'
+      default_translation = '{type, select, primary {Dette logo vises i øverste venstre hjørne af navigationslinjen. Vi anbefaler at bruge max 100 KB filer af typerne PNG eller SVG.} secondary {Dette logo vises på loginskærmen.} secondaryInverted {Dette logo vises på loginskærmen, når mørk tilstand er aktiveret.}}'
       language_id = data.language.danish.id
     }
   ]
