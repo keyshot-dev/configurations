@@ -25,6 +25,11 @@
         "locked": false
     },
     {
+        "name": "Atlas",
+        "order": -20,
+        "locked": true
+    },
+    {
         "name": "OOBE",
         "order": -10,
         "locked": false
