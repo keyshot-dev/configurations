@@ -5956,7 +5956,7 @@ resource configservice_label administration_tools_api_keys_section_enable_expira
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Aktivér automatisk nøgleudløb'
+      default_translation = 'Sæt udløbsdato'
       language_id = data.language.danish.id
     }
   ]
