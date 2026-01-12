@@ -4,10 +4,17 @@ data configservice_label search_everything {
     product_id = data.configservice_product.media_manager_5.id
 }
 
-resource configservice_label_value search_everything_english {
-    portal_id = data.configservice_portal.media_manager_5.id
-    label_id = data.configservice_label.search_everything.id
-    language_id = data.language.english.id
-    translation = 'Search'
+patch configservice_label search_everything {
+    target = data.config_service_label.search_everything
+    default_label_values = [
+      {
+        default_translation = 'Search ...'
+        language_id = data.language.english.id
+      },
+      {
+        default_translation = 'Søg ...'
+        language_id = data.language.danish.id
+      }
+    ]
 }
 
