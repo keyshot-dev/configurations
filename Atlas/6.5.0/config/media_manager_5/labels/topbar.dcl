@@ -1,4 +1,4 @@
-resource configservice_label search_everything {
+data configservice_label search_everything {
   key = 'SEARCH_EVERYTHING'
   group = 'Topbar'
   product_id = data.configservice_product.media_manager_5.id
