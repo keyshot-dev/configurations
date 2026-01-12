@@ -1,6 +1,6 @@
 resource configservice_label search_everything {
   key = 'SEARCH_EVERYTHING'
-  group = 'Z Misc Labels'
+  group = 'Topbar'
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
