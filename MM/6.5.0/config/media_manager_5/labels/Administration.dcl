@@ -2654,6 +2654,22 @@ resource configservice_label administration_tools_analytics_rows_count {
   ]
 }
 
+resource configservice_label administration_tools_analytics_download_csv_button {
+  key = 'ADMINISTRATION_TOOLS_ANALYTICS_DOWNLOAD_CSV_BUTTON'
+  group = 'administration-tools - analytics-table'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Download'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Download'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label administration_tools_analytics_color_builder_add {
   key = 'ADMINISTRATION_TOOLS_ANALYTICS_COLOR_BUILDER_ADD'
   group = 'administration-tools - analytics-color-builder'
