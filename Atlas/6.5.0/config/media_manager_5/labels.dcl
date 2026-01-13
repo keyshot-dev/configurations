@@ -5,7 +5,7 @@ data configservice_label search_everything {
 }
 
 patch configservice_label search_everything {
-    target = data.config_service_label.search_everything
+    target = data.configservice_label.search_everything
     default_label_values = [
       {
         default_translation = 'Search ...'
