@@ -2622,6 +2622,38 @@ resource configservice_label administration_tools_analytics_table_name {
   ]
 }
 
+resource configservice_label administration_tools_analytics_download_as_csv_file {
+  key = 'ADMINISTRATION_TOOLS_ANALYTICS_DOWNLOAD_AS_CSV_FILE'
+  group = 'administration-tools - analytics-table'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Download as CSV file'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Download som CSV-fil'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_analytics_rows_count {
+  key = 'ADMINISTRATION_TOOLS_ANALYTICS_ROWS_COUNT'
+  group = 'administration-tools - analytics-table'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = '{count, select, All {All rows} other {{count} rows}}'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = '{count, select, All {Alle rækker} other {{count} rækker}}'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label administration_tools_analytics_color_builder_add {
   key = 'ADMINISTRATION_TOOLS_ANALYTICS_COLOR_BUILDER_ADD'
   group = 'administration-tools - analytics-color-builder'
