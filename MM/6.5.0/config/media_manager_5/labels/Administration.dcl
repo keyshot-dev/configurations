@@ -2644,11 +2644,11 @@ resource configservice_label administration_tools_analytics_rows_count {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = '{count, select, All {All rows} other {{count} rows}}'
+      default_translation = '{count, select, All {All rows} other {rows}}'
       language_id = data.language.english.id
     },
     {
-      default_translation = '{count, select, All {Alle rækker} other {{count} rækker}}'
+      default_translation = '{count, select, All {Alle rækker} other {rækker}}'
       language_id = data.language.danish.id
     }
   ]
