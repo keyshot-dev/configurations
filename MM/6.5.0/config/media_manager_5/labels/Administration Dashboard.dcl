@@ -400,6 +400,38 @@ resource configservice_label administration_tools_dashboard_tool_new_from_templa
   ]
 }
 
+resource configservice_label administration_tools_dashboard_tool_export_parquet_file {
+  key = 'ADMINISTRATION_TOOLS_DASHBOARD_TOOL_EXPORT_PARQUET_FILE'
+  group = 'administration-tools - dashboard-tool'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Export parquet file'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Eksportér parquet fil'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_dashboard_tool_export_button {
+  key = 'ADMINISTRATION_TOOLS_DASHBOARD_TOOL_EXPORT_BUTTON'
+  group = 'administration-tools - dashboard-tool'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Export'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Eksportér'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label administration_tools_dashboard_tool_import_dashboard_success_title {
   key = 'ADMINISTRATION_TOOLS_DASHBOARD_TOOL_IMPORT_DASHBOARD_SUCCESS_TITLE'
   group = 'administration-tools - dashboard-tool'
