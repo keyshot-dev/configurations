@@ -432,6 +432,22 @@ resource configservice_label administration_tools_dashboard_tool_export_button {
   ]
 }
 
+resource configservice_label administration_tools_dashboard_tool_export_data_from_selected_date_tooltip {
+  key = 'ADMINISTRATION_TOOLS_DASHBOARD_TOOL_EXPORT_DATA_FROM_SELECTED_DATE_TOOLTIP'
+  group = 'administration-tools - dashboard-tool'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Export data from selected date until current date'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Eksporter data fra valgt dato til nuværende dato'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label administration_tools_dashboard_tool_import_dashboard_success_title {
   key = 'ADMINISTRATION_TOOLS_DASHBOARD_TOOL_IMPORT_DASHBOARD_SUCCESS_TITLE'
   group = 'administration-tools - dashboard-tool'
