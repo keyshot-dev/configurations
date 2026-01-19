@@ -438,7 +438,7 @@ resource configservice_label administration_tools_dashboard_tool_export_data_fro
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Export data from selected date till current date'
+      default_translation = 'Export data from selected date until current date'
       language_id = data.language.english.id
     },
     {
