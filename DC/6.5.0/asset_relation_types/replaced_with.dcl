@@ -12,7 +12,7 @@ resource asset_relation_type replaced_with {
     }
     deletion_behavior = {
         enable_behavior = true
-        inherit_soft_delete = false
+        inherit_soft_delete = true
         inherit_hard_delete = true
     }
     search_behavior = {
