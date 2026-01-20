@@ -23,6 +23,11 @@ resource asset_type_extension id_ai {
     asset_type = 'Illustrator'
 }
 
+resource asset_type_extension id_ait {
+    extension = 'ait'
+    asset_type = 'Illustrator'
+}
+
 resource asset_type_extension id_arw {
     extension = 'arw'
     asset_type = 'Image'
@@ -235,6 +240,11 @@ resource asset_type_extension id_ind {
 
 resource asset_type_extension id_indd {
     extension = 'indd'
+    asset_type = 'InDesign'
+}
+
+resource asset_type_extension id_indt {
+    extension = 'indt'
     asset_type = 'InDesign'
 }
 
@@ -465,6 +475,11 @@ resource asset_type_extension id_ps {
 
 resource asset_type_extension id_psd {
     extension = 'psd'
+    asset_type = 'Photoshop'
+}
+
+resource asset_type_extension id_psdt {
+    extension = 'psdt'
     asset_type = 'Photoshop'
 }
 
