@@ -414,6 +414,22 @@ resource configservice_label selected_assets_overlay_options_multi_insert {
   ]
 }
 
+resource configservice_label selected_assets_overlay_options_show_tasks {
+  key = 'SELECTED_ASSETS_OVERLAY_OPTIONS_SHOW_TASKS'
+  group = 'Z Misc Labels'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Show tasks'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Vis opgaver'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label selected_assets_overlay_options_multi_edit {
   key = 'SELECTED_ASSETS_OVERLAY_OPTIONS_MULTI_EDIT'
   group = 'Z Misc Labels'
