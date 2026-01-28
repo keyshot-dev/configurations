@@ -158,6 +158,22 @@ resource configservice_label asset_crop_dialog_create_crop_label {
   ]
 }
 
+resource configservice_label asset_crop_dialog_create_independent_asset {
+  key = 'ASSET_CROP_DIALOG_CREATE_INDEPENDENT_ASSET'
+  group = 'Asset'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Create unrelated asset'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Opret urelateret asset'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label asset_crop_dialog_replace_label {
   key = 'ASSET_CROP_DIALOG_REPLACE_LABEL'
   group = 'Asset'
