@@ -13348,11 +13348,11 @@ resource configservice_label administration_tools_system_metadata_tree_editor_er
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Tree node not deleted'
+      default_translation = 'Tree node not deleted. {{error}}'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Trænoden blev ikke slettet'
+      default_translation = 'Trænoden blev ikke slettet. {{error}}'
       language_id = data.language.danish.id
     }
   ]
