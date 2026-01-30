@@ -158,6 +158,22 @@ resource configservice_label asset_crop_dialog_create_crop_label {
   ]
 }
 
+resource configservice_label asset_crop_dialog_create_independent_asset {
+  key = 'ASSET_CROP_DIALOG_CREATE_INDEPENDENT_ASSET'
+  group = 'Asset'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Create unrelated asset'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Opret urelateret asset'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label asset_crop_dialog_replace_label {
   key = 'ASSET_CROP_DIALOG_REPLACE_LABEL'
   group = 'Asset'
@@ -244,11 +260,11 @@ resource configservice_label asset_crop_dialog_success_message {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = '{type, select, replace {The crop will be available shortly.} addCrop {The crop will be available shortly.} email {The crop will be available for the recipient shortly.}}'
+      default_translation = '{type, select, replace {The crop will be available shortly.} addCrop {The crop will be available shortly.} email {The crop will be available for the recipient shortly.} independentAsset {The asset will be available shortly.}}'
       language_id = data.language.english.id
     },
     {
-      default_translation = '{type, select, replace {Beskæringen vil snart være tilgængelig.} addCrop {Beskæringen vil snart være tilgængelig.} email {Beskæringen vil snart være tilgængelig for modtageren.}}'
+      default_translation = '{type, select, replace {Beskæringen vil snart være tilgængelig.} addCrop {Beskæringen vil snart være tilgængelig.} email {Beskæringen vil snart være tilgængelig for modtageren.} independentAsset {Assettet vil snart være tilgængeligt.}}'
       language_id = data.language.danish.id
     }
   ]
