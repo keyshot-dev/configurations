@@ -1333,11 +1333,11 @@ resource configservice_label topbar_login_guest_drilldown_change_workspace_succe
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Workspace changed to \'{{workspaceName}}\.'
+      default_translation = 'Switched workspace to \'{{workspaceName}}\.'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Arbejdsområdet er ændret til \'{{workspaceName}}\.'
+      default_translation = 'Skiftede arbejdsområde til \'{{workspaceName}}\.'
       language_id = data.language.danish.id
     }
   ]
@@ -1349,11 +1349,11 @@ resource configservice_label topbar_login_guest_drilldown_change_workspace_error
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Workspace change failed'
+      default_translation = 'Workspace switching failed'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Ændring af arbejdsområde fejlede'
+      default_translation = 'Skift af arbejdsområde fejlede'
       language_id = data.language.danish.id
     }
   ]
