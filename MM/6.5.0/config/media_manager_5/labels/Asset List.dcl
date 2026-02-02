@@ -1832,8 +1832,6 @@ resource configservice_label asset_list_asset_restored_body {
     {
       default_translation = 'Asset restored'
       language_id = data.language.english.id
-
-      language_id = data.language.english.id
     },
     {
       default_translation = 'Asset genskabt'
@@ -1849,8 +1847,6 @@ resource configservice_label asset_list_asset_restored_error {
   default_label_values = [
     {
       default_translation = 'Asset could not be restored. {{error}}'
-      language_id = data.language.english.id
-
       language_id = data.language.english.id
     },
     {
