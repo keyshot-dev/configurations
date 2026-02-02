@@ -1647,3 +1647,67 @@ resource configservice_label invitation_workspace_member_by_workspace_id_popup_l
     }
   ]
 }
+
+resource configservice_label validate_workspace_member_invite_by_token_error_body {
+  key = 'VALIDATE_WORKSPACE_MEMBER_INVITE_BY_TOKEN_ERROR_BODY'
+  group = 'Authentication - accept-invitation'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'The invitation link cannot be validated. It may have expired or already been used. Please request a new invitation.'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Invitationslinket kan ikke valideres. Det er muligvis udløbet eller allerede blevet brugt. Anmod venligst om en ny invitation.'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label validate_workspace_member_invite_by_token_error_title {
+  key = 'VALIDATE_WORKSPACE_MEMBER_INVITE_BY_TOKEN_ERROR_TITLE'
+  group = 'Authentication - accept-invitation'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Invite not valid'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Invitationen er ikke gyldig'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label validate_workspace_member_invite_by_workspace_id_error_body {
+  key = 'VALIDATE_WORKSPACE_MEMBER_INVITE_BY_WORKSPACE_ID_ERROR_BODY'
+  group = 'Authentication - accept-invitation'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'The invitation link cannot be validated. It may have expired or already been used. Please request a new invitation.'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Invitationslinket kan ikke valideres. Det er muligvis udløbet eller allerede blevet brugt. Anmod venligst om en ny invitation.'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label validate_workspace_member_invite_by_workspace_id_error_title {
+  key = 'VALIDATE_WORKSPACE_MEMBER_INVITE_BY_WORKSPACE_ID_ERROR_TITLE'
+  group = 'Authentication - accept-invitation'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Invite not valid'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Invitationen er ikke gyldig'
+      language_id = data.language.danish.id
+    }
+  ]
+}
