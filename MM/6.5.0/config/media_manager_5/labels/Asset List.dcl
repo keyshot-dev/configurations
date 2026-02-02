@@ -1792,6 +1792,22 @@ resource configservice_label asset_list_archive_asset {
   ]
 }
 
+resource configservice_label asset_list_restore_archived_asset {
+  key = 'ASSET_LIST_RESTORE_ARCHIVED_ASSET'
+  group = 'Asset List'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Restore deleted'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Genskab slettet'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label asset_list_delete_permanently {
   key = 'ASSET_LIST_DELETE_PERMANENTLY'
   group = 'Asset List'
@@ -2748,6 +2764,38 @@ resource configservice_label asset_drag_placeholder_drop {
     {
       default_translation = '{isCopied, select, true {Slip for at tilføje assets} false {Slip for at flytte assets. 
 Tryk {isMacOS, select, true {OPTION} false {CTRL}} for at tilføje}}'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_list_box_view_deleted_asset {
+  key = 'ASSET_LIST_BOX_VIEW_DELETED_ASSET'
+  group = 'Asset List'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Deleted'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Slettet'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_list_list_deleted_asset {
+  key = 'ASSET_LIST_LIST_DELETED_ASSET'
+  group = 'Asset List'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Deleted'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Slettet'
       language_id = data.language.danish.id
     }
   ]
