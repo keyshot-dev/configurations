@@ -1349,11 +1349,11 @@ resource configservice_label topbar_login_guest_drilldown_change_workspace_error
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Workspace changing fails'
+      default_translation = 'Workspace change failed'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Ændring af arbejdsområde mislykkes'
+      default_translation = 'Ændring af arbejdsområde fejlede'
       language_id = data.language.danish.id
     }
   ]
