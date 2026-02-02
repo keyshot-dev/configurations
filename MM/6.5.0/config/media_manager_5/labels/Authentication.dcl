@@ -1654,11 +1654,11 @@ resource configservice_label validate_workspace_member_invite_by_token_error_bod
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'The invitation link cannot be validated. It may have expired or already been used. Please request a new invitation.'
+      default_translation = 'The invitation link cannot be validated. It may have expired or has already been used. Please ask the sender for a new invite.'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Invitationslinket kan ikke valideres. Det er muligvis udløbet eller allerede blevet brugt. Anmod venligst om en ny invitation.'
+      default_translation = 'Invitations-linket kan ikke valideres. Det er muligvis udløbet eller allerede blevet brugt. Bed venligst afsenderen om en ny invitation.'
       language_id = data.language.danish.id
     }
   ]
@@ -1686,11 +1686,11 @@ resource configservice_label validate_workspace_member_invite_by_workspace_id_er
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'The invitation link cannot be validated. It may have expired or already been used. Please request a new invitation.'
+      default_translation = 'The invitation link cannot be validated. It may have expired or has already been used. Please ask the sender for a new invite.'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Invitationslinket kan ikke valideres. Det er muligvis udløbet eller allerede blevet brugt. Anmod venligst om en ny invitation.'
+      default_translation = 'Invitations-linket kan ikke valideres. Det er muligvis udløbet eller allerede blevet brugt. Bed venligst afsenderen om en ny invitation.'
       language_id = data.language.danish.id
     }
   ]
