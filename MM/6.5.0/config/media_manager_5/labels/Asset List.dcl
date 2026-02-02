@@ -1824,6 +1824,42 @@ resource configservice_label asset_list_delete_permanently {
   ]
 }
 
+resource configservice_label asset_list_asset_restored_body {
+  key = 'ASSET_LIST_ASSET_RESTORED_BODY'
+  group = 'Asset List'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Asset restored'
+      language_id = data.language.english.id
+
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Asset genskabt'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_list_asset_restored_error {
+  key = 'ASSET_LIST_ASSET_RESTORED_ERROR'
+  group = 'Asset List'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Asset could not be restored. {{error}}'
+      language_id = data.language.english.id
+
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Asset kunne ikke genskabes. {{error}}'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label asset_list_asset_search_error_title {
   key = 'ASSET_LIST_ASSET_SEARCH_ERROR_TITLE'
   group = 'Asset List'
