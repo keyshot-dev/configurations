@@ -3289,7 +3289,7 @@ resource configservice_label settings_accelerated_search_settings_reindex_all_do
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Reindexer alle dokumenter fra dette id'
+      default_translation = 'Reindekser alle dokumenter fra dette id'
       language_id = data.language.danish.id
     }
   ]
