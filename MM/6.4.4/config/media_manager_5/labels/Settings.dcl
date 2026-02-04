@@ -2703,6 +2703,22 @@ resource configservice_label settings_accelerated_search_settings_store_options 
   ]
 }
 
+resource configservice_label settings_accelerated_search_settings_reindex_all_documents_from_this_id {
+  key = 'SETTINGS_ACCELERATED_SEARCH_SETTINGS_REINDEX_ALL_DOCUMENTS_FROM_THIS_ID'
+  group = 'settings - accelerated-search-settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Reindex all documents from this id'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Reindekser alle dokumenter fra dette id'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label job_status_generic_job_status_main_step_progress_local_stop_title {
   key = 'JOB_STATUS_GENERIC_JOB_STATUS_MAIN_STEP_PROGRESS_LOCAL_STOP_TITLE'
   group = 'Settings'
