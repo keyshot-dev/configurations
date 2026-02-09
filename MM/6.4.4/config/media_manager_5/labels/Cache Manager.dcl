@@ -142,6 +142,22 @@ resource configservice_label embedded_cache_manager_manageable_actions_bar_delet
   ]
 }
 
+resource configservice_label embedded_cache_manager_manageable_actions_bar_file_in_use {
+  key = 'EMBEDDED_CACHE_MANAGER_MANAGEABLE_ACTIONS_BAR_FILE_IN_USE'
+  group = 'Cache Manager'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'File in use'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Fil i brug'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label embedded_cache_manager_remove_cached_files_title {
   key = 'EMBEDDED_CACHE_MANAGER_REMOVE_CACHED_FILES_TITLE'
   group = 'Cache Manager'
