@@ -142,6 +142,22 @@ resource configservice_label embedded_cache_manager_manageable_actions_bar_delet
   ]
 }
 
+resource configservice_label embedded_cache_manager_manageable_actions_bar_file_in_use {
+  key = 'EMBEDDED_CACHE_MANAGER_MANAGEABLE_ACTIONS_BAR_FILE_IN_USE'
+  group = 'Cache Manager'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'File in use'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Fil i brug'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label embedded_cache_manager_remove_cached_files_title {
   key = 'EMBEDDED_CACHE_MANAGER_REMOVE_CACHED_FILES_TITLE'
   group = 'Cache Manager'
@@ -666,6 +682,86 @@ resource configservice_label selected_embedded_cached_files_overlay_options_clea
     },
     {
       default_translation = 'Ryd valgte'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label selected_embedded_cached_files_overlay_locked_files_dialog_some_files_are_locked_title {
+  key = 'SELECTED_EMBEDDED_CACHED_FILES_OVERLAY_LOCKED_FILES_DIALOG_SOME_FILES_ARE_LOCKED_TITLE'
+  group = 'Cache Manager'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = '{count, cardinalPlural, one {A file cannot be deleted} other {Some files cannot be deleted}}'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = '{count, cardinalPlural, one {Én fil kan ikke slettes} other {Nogle filer kan ikke slettes}}'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label selected_embedded_cached_files_overlay_locked_files_dialog_x_of_y_files_are_locked {
+  key = 'SELECTED_EMBEDDED_CACHED_FILES_OVERLAY_LOCKED_FILES_DIALOG_X_OF_Y_FILES_ARE_LOCKED'
+  group = 'Cache Manager'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = '{{invalidCount}} out of the {{totalFilesCount}} selected files cannot be deleted.'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = '{{invalidCount}} ud af de {{totalFilesCount}} valgte filer kan ikke slettes.'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label selected_embedded_cached_files_overlay_locked_files_dialog_do_you_want_to_delete_available_files {
+  key = 'SELECTED_EMBEDDED_CACHED_FILES_OVERLAY_LOCKED_FILES_DIALOG_DO_YOU_WANT_TO_DELETE_AVAILABLE_FILES'
+  group = 'Cache Manager'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Do you want to delete the remaining {{count}} {count, cardinalPlural, one {file} other {files}}?'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Vil du slette {count, cardinalPlural, one {den resterende {{count}} fil} other {de resterende {{count}} filer}}?'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label selected_embedded_cached_files_overlay_locked_files_dialog_cancel {
+  key = 'SELECTED_EMBEDDED_CACHED_FILES_OVERLAY_LOCKED_FILES_DIALOG_CANCEL'
+  group = 'Cache Manager'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Cancel'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Annullér'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label selected_embedded_cached_files_overlay_locked_files_dialog_continue {
+  key = 'SELECTED_EMBEDDED_CACHED_FILES_OVERLAY_LOCKED_FILES_DIALOG_CONTINUE'
+  group = 'Cache Manager'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Continue'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Fortsæt'
       language_id = data.language.danish.id
     }
   ]
