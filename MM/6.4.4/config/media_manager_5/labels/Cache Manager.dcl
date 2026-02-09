@@ -693,7 +693,7 @@ resource configservice_label selected_embedded_cached_files_overlay_locked_files
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = '{count, cardinalPlural, one {An file cannot be deleted} other {Some files cannot be deleted}}'
+      default_translation = '{count, cardinalPlural, one {A file cannot be deleted} other {Some files cannot be deleted}}'
       language_id = data.language.english.id
     },
     {
