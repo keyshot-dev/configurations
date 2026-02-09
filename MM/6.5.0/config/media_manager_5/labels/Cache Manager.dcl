@@ -697,7 +697,7 @@ resource configservice_label selected_embedded_cached_files_overlay_locked_files
       language_id = data.language.english.id
     },
     {
-      default_translation = '{count, cardinalPlural, one {En file kan ikke slettes} other {Nogle filer kan ikke slettes}}'
+      default_translation = '{count, cardinalPlural, one {Én fil kan ikke slettes} other {Nogle filer kan ikke slettes}}'
       language_id = data.language.danish.id
     }
   ]
