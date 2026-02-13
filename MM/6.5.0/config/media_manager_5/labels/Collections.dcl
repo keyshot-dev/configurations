@@ -3421,3 +3421,67 @@ resource configservice_label collections_share_unknown_rendition {
     }
   ]
 }
+
+resource configservice_label collections_share_related_collections_title {
+  key = 'COLLECTIONS_SHARE_RELATED_COLLECTIONS_TITLE'
+  group = 'Collections'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Related collections for'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Collections relateret til'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label collections_share_related_collections_search_placeholder {
+  key = 'COLLECTIONS_SHARE_RELATED_COLLECTIONS_SEARCH_PLACEHOLDER'
+  group = 'Collections'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Search'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Søg'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label collections_share_related_collections_no_collections_found {
+  key = 'COLLECTIONS_SHARE_RELATED_COLLECTIONS_NO_COLLECTIONS_FOUND'
+  group = 'Collections'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'No collections were found'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Der blev ikke fundet nogen collections'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label collections_share_related_collections_no_search_results {
+  key = 'COLLECTIONS_SHARE_RELATED_COLLECTIONS_NO_SEARCH_RESULTS'
+  group = 'Collections'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = '\'{{searchText}}\' is not in the list'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = '\'{{searchText}}\' er ikke på listen'
+      language_id = data.language.danish.id
+    }
+  ]
+}
