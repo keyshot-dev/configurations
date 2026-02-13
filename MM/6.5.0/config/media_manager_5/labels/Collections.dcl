@@ -3432,7 +3432,7 @@ resource configservice_label collections_share_related_collections_title {
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Relaterede samlinger til'
+      default_translation = 'Collections relateret til'
       language_id = data.language.danish.id
     }
   ]
@@ -3464,7 +3464,7 @@ resource configservice_label collections_share_related_collections_no_collection
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Der blev ikke fundet nogen samlinger'
+      default_translation = 'Der blev ikke fundet nogen collections'
       language_id = data.language.danish.id
     }
   ]

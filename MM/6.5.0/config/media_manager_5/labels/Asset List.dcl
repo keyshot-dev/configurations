@@ -938,7 +938,7 @@ resource configservice_label asset_list_more_popup_share_asset_related_collectio
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Relaterede samlinger'
+      default_translation = 'Relaterede collections'
       language_id = data.language.danish.id
     }
   ]
