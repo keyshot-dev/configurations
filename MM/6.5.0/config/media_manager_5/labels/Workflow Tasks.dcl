@@ -920,7 +920,7 @@ resource configservice_label workflow_task_transitioned_from_to_successfully {
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Opgaven blev ændret fra {{fromStageName}} til {{toStageName}} med succes'
+      default_translation = 'Opgaven blev ændret fra {{fromStageName}} til {{toStageName}}'
       language_id = data.language.danish.id
     }
   ]
