@@ -928,6 +928,22 @@ resource configservice_label asset_list_more_popup_share_asset_overview {
   ]
 }
 
+resource configservice_label asset_list_more_popup_share_asset_related_collections {
+  key = 'ASSET_LIST_MORE_POPUP_SHARE_ASSET_RELATED_COLLECTIONS'
+  group = 'Asset List'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Related collections'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Relaterede collections'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label asset_list_more_popup_asset_info {
   key = 'ASSET_LIST_MORE_POPUP_ASSET_INFO'
   group = 'Asset List'
@@ -2794,7 +2810,7 @@ resource configservice_label asset_drag_placeholder_drop {
       language_id = data.language.english.id
     },
     {
-      default_translation = '{isCopied, select, true {Slip for at tilføje assets} false {Slip for at flytte assets. 
+      default_translation = '{isCopied, select, true {Slip for at tilføje assets} false {Slip for at flytte assets.
 Tryk {isMacOS, select, true {OPTION} false {CTRL}} for at tilføje}}'
       language_id = data.language.danish.id
     }
