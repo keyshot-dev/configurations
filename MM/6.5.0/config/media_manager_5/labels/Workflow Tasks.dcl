@@ -910,6 +910,54 @@ resource configservice_label workflow_task_list_detail_view_no_assets {
   ]
 }
 
+resource configservice_label workflow_task_transitioned_from_to_successfully {
+  key = 'WORKFLOW_TASK_TRANSITIONED_FROM_TO_SUCCESSFULLY'
+  group = 'Workflow Tasks'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Task transitioned from {{fromStageName}} to {{toStageName}} successfully'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Opgaven blev ændret fra {{fromStageName}} til {{toStageName}} med succes'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label workflow_task_state_assignee_changed_from_to {
+  key = 'WORKFLOW_TASK_STATE_ASSIGNEE_CHANGED_FROM_TO'
+  group = 'Workflow Tasks'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'State assignee changed from {{oldName}} to {{newName}}'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Den ansvarlige blev ændret fra {{oldName}} til {{newName}}'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label workflow_task_author_replaced_asset_version {
+  key = 'WORKFLOW_TASK_AUTHOR_REPLACED_ASSET_VERSION'
+  group = 'Workflow Tasks'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = '{{author}} replaced asset version'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = '{{author}} erstattede aktivets version'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label workflow_task_list_detail_view_members {
   key = 'WORKFLOW_TASK_LIST_DETAIL_VIEW_MEMBERS'
   group = 'Workflow Tasks'
