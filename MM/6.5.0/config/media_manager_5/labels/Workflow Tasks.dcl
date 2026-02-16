@@ -958,6 +958,22 @@ resource configservice_label workflow_task_author_replaced_asset_version {
   ]
 }
 
+resource configservice_label workflow_task_list_column_activity {
+  key = 'WORKFLOW_TASK_LIST_COLUMN_ACTIVITY'
+  group = 'Workflow Tasks'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Activity'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Aktivitet'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label workflow_task_list_detail_view_members {
   key = 'WORKFLOW_TASK_LIST_DETAIL_VIEW_MEMBERS'
   group = 'Workflow Tasks'
