@@ -952,7 +952,7 @@ resource configservice_label workflow_task_author_replaced_asset_version {
       language_id = data.language.english.id
     },
     {
-      default_translation = '{{author}} erstattede aktivets version'
+      default_translation = '{{author}} erstattede asset version'
       language_id = data.language.danish.id
     }
   ]
