@@ -6,6 +6,7 @@ resource format video_preview {
             asset_type = 'Video'
         }]
     download_replace_mask = ''
+    stream_replace_mask = ''
     type = 'Mp4VideoFormat'
     purpose = 'VideoPreview'
     system = true

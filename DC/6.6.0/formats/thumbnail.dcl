@@ -6,6 +6,7 @@ resource format thumbnail {
             asset_type = 'All'
         }]
     download_replace_mask = ''
+    stream_replace_mask = ''
     purpose = 'SmallThumbnail'
     type = 'WebPImageFormat'
     system = true

@@ -7,6 +7,7 @@ resource format glb_preview {
         }]
     mapped_media_formats = []
     download_replace_mask = ''
+    stream_replace_mask = ''
     type = 'GlbFormat'
     purpose = 'GlbPreview'
     asset_filter = {

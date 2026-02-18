@@ -4,6 +4,7 @@ resource format vector_preview {
     description = 'A format for previewing vector files.'
     immediately_generated_for = []
     download_replace_mask = ''
+    stream_replace_mask = ''
     purpose = 'VectorPreview'
     type = 'SvgImageFormat'
     details = []
