@@ -6,6 +6,7 @@ resource format audio_preview {
             asset_type = 'Audio'
         }]
     download_replace_mask = ''
+    stream_replace_mask = ''
     purpose = 'AudioPreview'
     type = 'Mp3AudioFormat'
     details = [{

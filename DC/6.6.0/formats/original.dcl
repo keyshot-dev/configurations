@@ -4,6 +4,7 @@ resource format original {
     description = 'The original file that was uploaded.'
     immediately_generated_for = []
     download_replace_mask = '[%AssetId%]'
+    stream_replace_mask = ''
     type = 'SourceFormat'
     details = []
     system = true
