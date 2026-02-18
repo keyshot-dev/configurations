@@ -35,6 +35,7 @@ resource format pdf {
             asset_type = 'OTH'
         }]
     download_replace_mask = ''
+    stream_replace_mask = ''
     type = 'PdfFormat'
     details = []
     system = true

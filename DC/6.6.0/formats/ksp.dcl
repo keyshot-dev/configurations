@@ -7,6 +7,7 @@ resource format ksp {
     pre_generate_for_channel_folders = []
     ignore_security_for_channel_folders = []
     download_replace_mask = ''
+    stream_replace_mask = ''
     type = 'KspFormat'
     purpose = 'None'
     asset_filter = {

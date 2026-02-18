@@ -6,6 +6,7 @@ resource format large_thumbnail {
             asset_type = 'All'
         }]
     download_replace_mask = ''
+    stream_replace_mask = ''
     purpose = 'LargeThumbnail'
     type = 'WebPImageFormat'
     system = true
