@@ -1120,3 +1120,83 @@ resource configservice_label audit_trail_results_per_page {
   ]
 }
 
+resource configservice_label audit_trail_no_details_available {
+  key = 'AUDIT_TRAIL_NO_DETAILS_AVAILABLE'
+  group = 'Audit Trail'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'No details available'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Ingen detaljer tilgængelige'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label audit_trail_choose_entry_for_details {
+  key = 'AUDIT_TRAIL_CHOOSE_ENTRY_FOR_DETAILS'
+  group = 'Audit Trail'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Click a log entry to view its details'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Klik på en log-indgang for at se dens detaljer'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label audit_trail_choose_asset_filter {
+  key = 'AUDIT_TRAIL_CHOOSE_ASSET_FILTER'
+  group = 'Audit Trail'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Choose an asset in the filter panel'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Vælg en asset i filterpanelet'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label audit_trail_column_actions {
+  key = 'AUDIT_TRAIL_COLUMN_ACTIONS'
+  group = 'Audit Trail'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Actions'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Handlinger'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label audit_trail_view_details {
+  key = 'AUDIT_TRAIL_VIEW_DETAILS'
+  group = 'Audit Trail'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'View details'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Vis detaljer'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
