@@ -596,11 +596,11 @@ resource configservice_label profile_preferences_color_mode_auto {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Auto'
+      default_translation = 'Auto (Browser/OS)'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Auto'
+      default_translation = 'Auto (Browser/OS)'
       language_id = data.language.danish.id
     }
   ]
