@@ -1142,11 +1142,11 @@ resource configservice_label audit_trail_choose_entry_for_details {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Click a log entry to view its details'
+      default_translation = 'Click on a log entry to view its details'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Klik på en log-indgang for at se dens detaljer'
+      default_translation = 'Klik på en log for at se dens detaljer'
       language_id = data.language.danish.id
     }
   ]
@@ -1158,11 +1158,11 @@ resource configservice_label audit_trail_choose_asset_filter {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Choose an asset in the filter panel'
+      default_translation = 'Select an asset in the filter panel'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Vælg en asset i filterpanelet'
+      default_translation = 'Vælg et asset i filterpanelet'
       language_id = data.language.danish.id
     }
   ]
