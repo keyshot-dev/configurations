@@ -196,11 +196,11 @@ resource configservice_label business_workflow_editor_add_first_stage {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Add a new start stage'
+      default_translation = 'Add a new start state'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Tilføj en ny startfase'
+      default_translation = 'Tilføj en ny starttilstand'
       language_id = data.language.danish.id
     }
   ]
@@ -308,11 +308,11 @@ resource configservice_label business_workflow_editor_add_orphan_stage {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Add stage'
+      default_translation = 'Add state'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Tilføj fase'
+      default_translation = 'Tilføj tilstand'
       language_id = data.language.danish.id
     }
   ]
@@ -820,11 +820,11 @@ resource configservice_label business_workflow_editor_new_stage_label {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'New Stage #{{number}}'
+      default_translation = 'New State #{{number}}'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Ny fase #{{number}}'
+      default_translation = 'Ny tilstand #{{number}}'
       language_id = data.language.danish.id
     }
   ]
@@ -852,11 +852,11 @@ resource configservice_label business_workflow_editor_new_stage_name {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'stage_{{number}}'
+      default_translation = 'state_{{number}}'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'fase_{{number}}'
+      default_translation = 'tilstand_{{number}}'
       language_id = data.language.danish.id
     }
   ]
@@ -1012,11 +1012,11 @@ resource configservice_label business_workflow_delete_step_confirmation_dialog_t
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = '{stepType, select, Manual Stage {Delete stage} Manual Transition {Delete transition} constraint {Delete constraint}}'
+      default_translation = '{stepType, select, Manual Stage {Delete state} Manual Transition {Delete transition} constraint {Delete constraint}}'
       language_id = data.language.english.id
     },
     {
-      default_translation = '{stepType, select, Manual Stage {Slet fase} Manual Transition {Slet overgang} constraint {Slet begrænsning}}'
+      default_translation = '{stepType, select, Manual Stage {Slet tilstand} Manual Transition {Slet overgang} constraint {Slet begrænsning}}'
       language_id = data.language.danish.id
     }
   ]
@@ -1028,11 +1028,11 @@ resource configservice_label business_workflow_delete_step_confirmation_dialog_c
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Are you sure you want to delete this {stepType, select, Manual Stage {stage} Manual Transition {transition} constraint {constraint}}?'
+      default_translation = 'Are you sure you want to delete this {stepType, select, Manual Stage {state} Manual Transition {transition} constraint {constraint}}?'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Er du sikker på at du vil slette denne {stepType, select, Manual Stage {fase} Manual Transition {overgang} constraint {begrænsning}}?'
+      default_translation = 'Er du sikker på at du vil slette denne {stepType, select, Manual Stage {tilstand} Manual Transition {overgang} constraint {begrænsning}}?'
       language_id = data.language.danish.id
     }
   ]
@@ -1044,11 +1044,11 @@ resource configservice_label business_workflow_editor_step_name_label_placeholde
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = '{stepType, select, Manual Stage {Stage name...} Manual Transition {Transition name...}}'
+      default_translation = '{stepType, select, Manual Stage {State name...} Manual Transition {Transition name...}}'
       language_id = data.language.english.id
     },
     {
-      default_translation = '{stepType, select, Manual Stage {Fasenavn...} Manual Transition {Overgangsnavn...}}'
+      default_translation = '{stepType, select, Manual Stage {Tilstandsnavn...} Manual Transition {Overgangsnavn...}}'
       language_id = data.language.danish.id
     }
   ]
@@ -1076,11 +1076,11 @@ resource configservice_label business_workflow_editor_step_type_label {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = '{type, select, 5 {Stage} 7 {Transition} 8 {Constraint} } Type'
+      default_translation = '{type, select, 5 {State} 7 {Transition} 8 {Constraint} } Type'
       language_id = data.language.english.id
     },
     {
-      default_translation = '{type, select, 5 {Fase} 7 {Overgang} 8 {Begrænsning} } Type'
+      default_translation = '{type, select, 5 {Tilstand} 7 {Overgang} 8 {Begrænsning} } Type'
       language_id = data.language.danish.id
     }
   ]
@@ -1092,11 +1092,11 @@ resource configservice_label business_workflow_editor_step_type {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = '{type, select, Automatic Transition {Automatic transition} Manual Transition {Manual transition} Timed Transition {Timed transition} Manual Stage {Manual stage} Only Current Stage Owner Can Transition {Allow the assignee to transition} Only Specific User or User Group can transition {Allow a specific user or group to transition} Only Instance Owner Can Transition {Allow the workflow creator to transition} other {{{type}}}}'
+      default_translation = '{type, select, Automatic Transition {Automatic transition} Manual Transition {Manual transition} Timed Transition {Timed transition} Manual Stage {Manual state} Only Current Stage Owner Can Transition {Allow the assignee to transition} Only Specific User or User Group can transition {Allow a specific user or group to transition} Only Instance Owner Can Transition {Allow the workflow creator to transition} other {{{type}}}}'
       language_id = data.language.english.id
     },
     {
-      default_translation = '{type, select, Automatic Transition {Automatisk overgang} Manual Transition {Manuel overgang} Timed Transition {Timet overgang} Manual Stage {Manuel fase} Only Current Stage Owner Can Transition {Tillad at den tildelte person kan lave en overgang} Only Specific User or User Group can transition {Tillad at én bruger eller gruppe laver en overgang} Only Instance Owner Can Transition {Tillad at opgaveskaberen kan lave en overgang} other {{{type}}}}'
+      default_translation = '{type, select, Automatic Transition {Automatisk overgang} Manual Transition {Manuel overgang} Timed Transition {Timet overgang} Manual Stage {Manuel tilstand} Only Current Stage Owner Can Transition {Tillad at den tildelte person kan lave en overgang} Only Specific User or User Group can transition {Tillad at én bruger eller gruppe laver en overgang} Only Instance Owner Can Transition {Tillad at opgaveskaberen kan lave en overgang} other {{{type}}}}'
       language_id = data.language.danish.id
     }
   ]
@@ -1108,11 +1108,11 @@ resource configservice_label business_stage_editor_step_parameter_label {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = '{key, select, _id {Unique ID} description {Description} label {Name} automatically_assigned_to {Stage assignment behavior} dynamically_assigned_to {Assign from metafield} user_or_user_group {Assignee}retired {Mark as completed} global_status {Global status} metafield {Metafield} render_type {Render type} negate {Negate} expected_value {Expected value} should_apply_to_all {Should apply to all} comparison_method {Comparison method} tolerance {Tolerance} action_enum {Action enum} case_sensitive {Case sensitive} tooltip {Tooltip} placeholder {Placeholder} other {{{key}}} }'
+      default_translation = '{key, select, _id {Unique ID} description {Description} label {Name} automatically_assigned_to {State assignment behavior} dynamically_assigned_to {Assign from metafield} user_or_user_group {Assignee}retired {Mark as completed} global_status {Global status} metafield {Metafield} render_type {Render type} negate {Negate} expected_value {Expected value} should_apply_to_all {Should apply to all} comparison_method {Comparison method} tolerance {Tolerance} action_enum {Action enum} case_sensitive {Case sensitive} tooltip {Tooltip} placeholder {Placeholder} other {{{key}}} }'
       language_id = data.language.english.id
     },
     {
-      default_translation = '{key, select, _id {Unikt ID} description {Beskrivelse} label {Navn} automatically_assigned_to {Fasetildelings-opførsel} dynamically_assigned_to {Tildel via metafelt} user_or_user_group {Ansvarlig}retired {Markér som afsluttet} global_status {Global status} metafield {Metafield} render_type {Renderingstype} negate {Omvend} expected_value {Forventet værdi} should_apply_to_all {Omfat alle} comparison_method {Sammenligningsmetode} tolerance {Tolerance} action_enum {Handlingsenum} case_sensitive {Skeln mellem store og små bogstaver} tooltip {Tooltip} placeholder {Placeholder} other {{{key}}} }'
+      default_translation = '{key, select, _id {Unikt ID} description {Beskrivelse} label {Navn} automatically_assigned_to {Tilstandstildelingsadfærd} dynamically_assigned_to {Tildel via metafelt} user_or_user_group {Ansvarlig}retired {Markér som afsluttet} global_status {Global status} metafield {Metafield} render_type {Renderingstype} negate {Omvend} expected_value {Forventet værdi} should_apply_to_all {Omfat alle} comparison_method {Sammenligningsmetode} tolerance {Tolerance} action_enum {Handlingsenum} case_sensitive {Skeln mellem store og små bogstaver} tooltip {Tooltip} placeholder {Placeholder} other {{{key}}} }'
       language_id = data.language.danish.id
     }
   ]
@@ -1124,11 +1124,11 @@ resource configservice_label business_stage_editor_step_group_name {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = '{key, select, owner {Stage owner} behavior {Behavior} label {Labels} status {Stage status} constraints {Constraints} }'
+      default_translation = '{key, select, owner {State owner} behavior {Behavior} label {Labels} status {State status} constraints {Constraints} }'
       language_id = data.language.english.id
     },
     {
-      default_translation = '{key, select, owner {Faseejer} behavior {Opførsel} label {Labels} status {Fasestatus} constraints {Begrænsninger} }'
+      default_translation = '{key, select, owner {Tilstandsejer} behavior {Opførsel} label {Labels} status {Tilstandsstatus} constraints {Begrænsninger} }'
       language_id = data.language.danish.id
     }
   ]
@@ -1140,11 +1140,11 @@ resource configservice_label business_stage_editor_step_parameter_label_more_inf
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = '{key, select, _id {This is used both to differentiate between different stages and transitions in text editor mode and in integrations with automation workflows. Use only letters, numbers, and underscores in the ID.} automatically_assigned_to {The statically determined owner to assign the stage to} dynamically_assigned_to {The value in the MasterItemReference metafield in one or more items of this task, becomes the stage owner. Using this requires StageAssignmentBehavior to be set as a fallback.}combo_values {A list of combo values for the user to select from} allow_multiselect {Allows multi select of values} other {{{description}}}}'
+      default_translation = '{key, select, _id {This is used both to differentiate between different states and transitions in text editor mode and in integrations with automation workflows. Use only letters, numbers, and underscores in the ID.} automatically_assigned_to {The statically determined owner to assign the state to} dynamically_assigned_to {The value in the MasterItemReference metafield in one or more items of this task, becomes the state owner. Using this requires StageAssignmentBehavior to be set as a fallback.}combo_values {A list of combo values for the user to select from} allow_multiselect {Allows multi select of values} other {{{description}}}}'
       language_id = data.language.english.id
     },
     {
-      default_translation = '{key, select, _id {Dette bruges både til at skelne mellem forskellige faser og overgange i tekstredigeringsfunktionen, samt i integrationer med automatiserings-workflows. Brug kun bogstaver, numre og bundstreg i ID\'et.} automatically_assigned_to {Den statiskbestemte ejer som fases skal tildeles} dynamically_assigned_to {Værdien sat i MasterItemReference-feltet i ét eller flere opgave-elementer bliver faseejeren. Der kræves at StageAssignmentBehavior er sat som fallback.} combo_values {En liste af combo-værdier} allow_multiselect {Giver brugeren muligheden for at multi-vælge} other {{{description}}}}'
+      default_translation = '{key, select, _id {Dette bruges både til at skelne mellem forskellige tilstande og overgange i tekstredigeringsfunktionen, samt i integrationer med automatiserings-workflows. Brug kun bogstaver, numre og bundstreg i ID\'et.} automatically_assigned_to {Den statiskbestemte ejer som tilstand skal tildeles} dynamically_assigned_to {Værdien sat i MasterItemReference-feltet i ét eller flere opgave-elementer bliver tilstandsejer. Der kræves at StageAssignmentBehavior er sat som fallback.} combo_values {En liste af combo-værdier} allow_multiselect {Giver brugeren muligheden for at multi-vælge} other {{{description}}}}'
       language_id = data.language.danish.id
     }
   ]
@@ -1332,11 +1332,11 @@ resource configservice_label business_workflow_editor_step_type_placeholder {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = '{type, select, Automatic Transition {Automatic transition} Manual Transition {Manual transition} Timed Transition {Timed transition} Manual Stage {Manual stage} Only Current Stage Owner Can Transition {Allow the assignee to transition} Only Specific User or User Group can transition {Allow a specific user or group to transition} Only Instance Owner Can Transition {Allow the workflow creator to transition}    {Choose a type...}other {{{type}}}}'
+      default_translation = '{type, select, Automatic Transition {Automatic transition} Manual Transition {Manual transition} Timed Transition {Timed transition} Manual Stage {Manual state} Only Current Stage Owner Can Transition {Allow the assignee to transition} Only Specific User or User Group can transition {Allow a specific user or group to transition} Only Instance Owner Can Transition {Allow the workflow creator to transition}    {Choose a type...}other {{{type}}}}'
       language_id = data.language.english.id
     },
     {
-      default_translation = '{type, select, Automatic Transition {Automatisk overgang} Manual Transition {Manuel overgang} Timed Transition {Timet overgang} Manual Stage {Manuel fase} Only Current Stage Owner Can Transition {Tillad at den tildelte person kan lave en overgang} Only Specific User or User Group can transition {Tillad at én bruger eller gruppe laver en overgang} Only Instance Owner Can Transition {Tillad at opgaveskaberen kan lave en overgang}    {Vælg en type...}other {{{type}}}}'
+      default_translation = '{type, select, Automatic Transition {Automatisk overgang} Manual Transition {Manuel overgang} Timed Transition {Timet overgang} Manual Stage {Manuel tilstand} Only Current Stage Owner Can Transition {Tillad at den tildelte person kan lave en overgang} Only Specific User or User Group can transition {Tillad at én bruger eller gruppe laver en overgang} Only Instance Owner Can Transition {Tillad at opgaveskaberen kan lave en overgang}    {Vælg en type...}other {{{type}}}}'
       language_id = data.language.danish.id
     }
   ]
@@ -1412,11 +1412,11 @@ resource configservice_label business_workflow_editor_click_insert_step {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Click here to add {type, select, stage {a stage} transitionFinished {an end transition after {{stepName}}}}'
+      default_translation = 'Click here to add {type, select, stage {a state} transitionFinished {an end transition after {{stepName}}}}'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Klik her for at tilføje {type, select, stage {en fase} transitionFinished {en afsluttende overgang efter {{stepName}}}}'
+      default_translation = 'Klik her for at tilføje {type, select, stage {en tilstand} transitionFinished {en afsluttende overgang efter {{stepName}}}}'
       language_id = data.language.danish.id
     }
   ]
@@ -1444,11 +1444,11 @@ resource configservice_label business_workflow_editor_flow_editor_let_go_here_to
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Let go here to insert a new stage {name, select, __CREATED_EVENT {} other {after {{name}}}}'
+      default_translation = 'Let go here to insert a new state {name, select, __CREATED_EVENT {} other {after {{name}}}}'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Slip her for at indsætte en ny fase {name, select, __CREATED_EVENT {} other {efter {{name}}}}'
+      default_translation = 'Slip her for at indsætte en ny tilstand {name, select, __CREATED_EVENT {} other {efter {{name}}}}'
       language_id = data.language.danish.id
     }
   ]
@@ -1476,11 +1476,11 @@ resource configservice_label business_workflow_editor_get_stage_migrations_expla
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Changes you have made to one or more stages in this workflow, require you to decide how existing tasks, currently in this stage, should be handled.'
+      default_translation = 'Changes you have made to one or more states in this workflow, require you to decide how existing tasks, currently in this state, should be handled.'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Ændringer du har lavet på en eller flere faser kræver at du vælger, hvad der skal ske med eksisterende opgaver der er i denne fase.'
+      default_translation = 'Ændringer du har lavet på en eller flere tilstande kræver at du vælger, hvad der skal ske med eksisterende opgaver der er i denne tilstand.'
       language_id = data.language.danish.id
     }
   ]
@@ -1492,11 +1492,11 @@ resource configservice_label business_workflow_editor_get_stage_migrations_old_s
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Previous stage'
+      default_translation = 'Previous state'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Tidligere fase'
+      default_translation = 'Tidligere tilstand'
       language_id = data.language.danish.id
     }
   ]
@@ -1508,11 +1508,11 @@ resource configservice_label business_workflow_editor_get_stage_migrations_new_s
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'New stage'
+      default_translation = 'New state'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Ny fase'
+      default_translation = 'Ny tilstand'
       language_id = data.language.danish.id
     }
   ]
@@ -1997,4 +1997,3 @@ resource configservice_label stage_badge_icon_tooltip {
     }
   ]
 }
-
