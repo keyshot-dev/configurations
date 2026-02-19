@@ -1636,7 +1636,7 @@ resource configservice_label workflow_editor_stage_name_placeholder {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Stage name...'
+      default_translation = 'State name...'
       language_id = data.language.english.id
     },
     {
@@ -3375,5 +3375,3 @@ resource configservice_label workflow_editor_flow_editor_side_view_tags {
     }
   ]
 }
-
-

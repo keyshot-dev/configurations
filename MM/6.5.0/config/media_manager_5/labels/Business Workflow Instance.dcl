@@ -436,7 +436,7 @@ resource configservice_label multi_transition_modal_multi_action_button_tooltip 
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'The tasks must be of the same workflow, same stage, and you must have rights to transition, in order for you to transition'
+      default_translation = 'The tasks must be of the same workflow, same state, and you must have rights to transition, in order for you to transition'
       language_id = data.language.english.id
     },
     {
@@ -925,4 +925,3 @@ resource configservice_label business_workflow_interface_constraints_fullfiller_
     }
   ]
 }
-
