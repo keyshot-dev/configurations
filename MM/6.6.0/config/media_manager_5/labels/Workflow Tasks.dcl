@@ -974,6 +974,22 @@ resource configservice_label workflow_task_completed {
   ]
 }
 
+resource configservice_label workflow_task_active {
+  key = 'WORKFLOW_TASK_ACTIVE'
+  group = 'Workflow Tasks'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Active'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Aktiv'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label workflow_task_show_completed_filter {
   key = 'WORKFLOW_TASK_SHOW_COMPLETED_FILTER'
   group = 'Workflow Tasks'

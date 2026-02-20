@@ -1109,7 +1109,7 @@ resource configservice_label settings_download_approval_missing_requirement {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = '{requirement, select, NO_START_STAGE {The workflow does not have a start stage} SINGLE_START_TRANSITION {The number of transitions from the start stage must only be 1} APPROVAL_STATUS{Workflow stages need the parameter named "global_status" with one of the following values set: "pending", "denied", or "approved"}}'
+      default_translation = '{requirement, select, NO_START_STAGE {The workflow does not have a start state} SINGLE_START_TRANSITION {The number of transitions from the start state must only be 1} APPROVAL_STATUS{Workflow states need the parameter named "global_status" with one of the following values set: "pending", "denied", or "approved"}}'
       language_id = data.language.english.id
     },
     {
@@ -1221,7 +1221,7 @@ resource configservice_label settings_download_approval_approved_stages_metafiel
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Approved stages'
+      default_translation = 'Approved states'
       language_id = data.language.english.id
     },
     {
@@ -1237,7 +1237,7 @@ resource configservice_label settings_download_approval_denied_stages_metafield 
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Denied stages'
+      default_translation = 'Denied states'
       language_id = data.language.english.id
     },
     {
@@ -1253,7 +1253,7 @@ resource configservice_label settings_download_approval_approved_stages_metafiel
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Select stages'
+      default_translation = 'Select states'
       language_id = data.language.english.id
     },
     {
