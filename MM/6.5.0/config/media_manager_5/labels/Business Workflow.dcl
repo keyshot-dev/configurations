@@ -1108,7 +1108,7 @@ resource configservice_label business_stage_editor_step_parameter_label {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = '{key, select, _id {Unique ID} description {Description} label {Name} automatically_assigned_to {Stage assignment behavior} dynamically_assigned_to {Assign from metafield} user_or_user_group {Assignee}retired {Mark as completed} global_status {Global status} metafield {Metafield} render_type {Render type} negate {Negate} expected_value {Expected value} should_apply_to_all {Should apply to all} comparison_method {Comparison method} tolerance {Tolerance} action_enum {Action enum} case_sensitive {Case sensitive} tooltip {Tooltip} placeholder {Placeholder} other {{{key}}} }'
+      default_translation = '{key, select, _id {Unique ID} description {Description} label {Name} automatically_assigned_to {State assignment behavior} dynamically_assigned_to {Assign from metafield} user_or_user_group {Assignee}retired {Mark as completed} global_status {Global status} metafield {Metafield} render_type {Render type} negate {Negate} expected_value {Expected value} should_apply_to_all {Should apply to all} comparison_method {Comparison method} tolerance {Tolerance} action_enum {Action enum} case_sensitive {Case sensitive} tooltip {Tooltip} placeholder {Placeholder} other {{{key}}} }'
       language_id = data.language.english.id
     },
     {
