@@ -14542,6 +14542,38 @@ resource configservice_label administration_tools_workspace_members_form_header 
   ]
 }
 
+resource configservice_label administration_tools_workspace_members_groups {
+  key = 'ADMINISTRATION_TOOLS_WORKSPACE_MEMBERS_GROUPS'
+  group = 'administration-tools - system - workspace-members'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Groups'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Grupper'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_workspace_members_groups_placeholder {
+  key = 'ADMINISTRATION_TOOLS_WORKSPACE_MEMBERS_GROUPS_PLACEHOLDER'
+  group = 'administration-tools - system - workspace-members'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Search group'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Søg i gruppen'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label administration_tools_workspace_members_email_delete_btn {
   key = 'ADMINISTRATION_TOOLS_WORKSPACE_MEMBERS_EMAIL_DELETE_BTN'
   group = 'administration-tools - system - workspace-members'
