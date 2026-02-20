@@ -372,7 +372,7 @@ resource configservice_label workflow_tasks_filter_workflow_stage_filter_title {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Stage name'
+      default_translation = 'State name'
       language_id = data.language.english.id
     },
     {
@@ -958,6 +958,38 @@ resource configservice_label workflow_task_author_replaced_asset_version {
   ]
 }
 
+resource configservice_label workflow_task_completed {
+  key = 'WORKFLOW_TASK_COMPLETED'
+  group = 'Workflow Tasks'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Completed'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Afsluttede'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label workflow_task_show_completed_filter {
+  key = 'WORKFLOW_TASK_SHOW_COMPLETED_FILTER'
+  group = 'Workflow Tasks'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Show completed'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Vis afsluttede'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label workflow_task_list_column_activity {
   key = 'WORKFLOW_TASK_LIST_COLUMN_ACTIVITY'
   group = 'Workflow Tasks'
@@ -1389,4 +1421,3 @@ resource configservice_label workflow_task_delete_success_body {
     }
   ]
 }
-
