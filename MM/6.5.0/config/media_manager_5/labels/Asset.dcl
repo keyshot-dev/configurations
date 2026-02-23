@@ -430,6 +430,22 @@ resource configservice_label asset_trim_dialog_create_trim_label {
   ]
 }
 
+resource configservice_label asset_trim_dialog_create_independent_trim {
+  key = 'ASSET_TRIM_DIALOG_CREATE_INDEPENDENT_TRIM'
+  group = 'Asset'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Create unrelated asset'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Opret urelateret asset'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label asset_trim_dialog_replace_label {
   key = 'ASSET_TRIM_DIALOG_REPLACE_LABEL'
   group = 'Asset'
