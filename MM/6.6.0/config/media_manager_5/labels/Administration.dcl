@@ -8910,6 +8910,38 @@ resource configservice_label administration_tools_system_formats_download_replac
   ]
 }
 
+resource configservice_label administration_tools_system_formats_stream_replace_mask {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_FORMATS_STREAM_REPLACE_MASK'
+  group = 'administration-tools - system - formats'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Stream replace mask'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Stream-erstatnings-maske'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_formats_stream_replace_mask_tooltip {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_FORMATS_STREAM_REPLACE_MASK_TOOLTIP'
+  group = 'administration-tools - system - formats'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'The logic used to generate a file name when streaming a rendition of this format. The following special strings are recognized and replaced with the corresponding data: [%AssetId%], [%AssetIdGrouped_XX%], [%ItemId%], [%SourceFileName%], [%FormatId%], [%FormatName%], [%AssetTitle%], [%MetafieldId_XX%]. For the special original format, with id -1, [%FormatId%] is ignored. If not specified, [%AssetId%]_[%FormatId%] is used.'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Den logik, der bruges til at generere et filnavn, når der streames en gengivelse af dette format. Følgende specialstrenge genkendes og erstattes med de tilsvarende data: [%AssetId%], [%AssetIdGrouped_XX%], [%ItemId%], [%SourceFileName%], [%FormatId%], [%FormatName%], [%AssetTitle%], [%MetafieldId_XX%]. For det specielle originalformat med id -1 ignoreres [%FormatId%]. Hvis ikke angivet, bruges [%AssetId%]_[%FormatId%].'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label administration_tools_system_formats_choose_asset {
   key = 'ADMINISTRATION_TOOLS_SYSTEM_FORMATS_CHOOSE_ASSET'
   group = 'administration-tools - system - formats'
