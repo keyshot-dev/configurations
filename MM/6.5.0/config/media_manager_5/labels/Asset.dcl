@@ -510,6 +510,22 @@ resource configservice_label asset_trim_dialog_success_message_addtrim {
   ]
 }
 
+resource configservice_label asset_trim_dialog_success_message_independenttrim {
+  key = 'ASSET_TRIM_DIALOG_SUCCESS_MESSAGE_INDEPENDENTTRIM'
+  group = 'Asset'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'The new asset will be available shortly.'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Det nye asset vil være tilgængeligt inden for kort tid.'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label asset_trim_dialog_success_message_replace {
   key = 'ASSET_TRIM_DIALOG_SUCCESS_MESSAGE_REPLACE'
   group = 'Asset'
