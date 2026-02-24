@@ -158,6 +158,22 @@ resource configservice_label health_overview_service_actions {
   ]
 }
 
+resource configservice_label health_overview_service_cache_key {
+  key = 'HEALTH_OVERVIEW_SERVICE_CACHE_KEY'
+  group = 'Administration'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Cache key'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Cache-nøgler'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label health_overview_service_status_tooltip_healthy {
   key = 'HEALTH_OVERVIEW_SERVICE_STATUS_TOOLTIP_HEALTHY'
   group = 'Administration'
@@ -313,6 +329,70 @@ resource configservice_label health_overview_no_services {
     },
     {
       default_translation = 'Ingen tjenester'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label health_overview_details {
+  key = 'HEALTH_OVERVIEW_DETAILS'
+  group = 'Administration'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Details'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Detaljer'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label health_overview_no_details_available {
+  key = 'HEALTH_OVERVIEW_NO_DETAILS_AVAILABLE'
+  group = 'Administration'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'No details available'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Ingen detaljer tilgængelige'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label health_overview_select_service_to_view_details {
+  key = 'HEALTH_OVERVIEW_SELECT_SERVICE_TO_VIEW_DETAILS'
+  group = 'Administration'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Select a service to view details'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Vælg en tjeneste for at se detaljer'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label health_overview_select_cache_entry_to_view_details {
+  key = 'HEALTH_OVERVIEW_SELECT_CACHE_ENTRY_TO_VIEW_DETAILS'
+  group = 'Administration'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Select a cache entry to view details'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Vælg en cache-post for at se detaljer'
       language_id = data.language.danish.id
     }
   ]
