@@ -8910,6 +8910,38 @@ resource configservice_label administration_tools_system_formats_download_replac
   ]
 }
 
+resource configservice_label administration_tools_system_formats_stream_replace_mask {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_FORMATS_STREAM_REPLACE_MASK'
+  group = 'administration-tools - system - formats'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Stream replace mask'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Stream-erstatnings-maske'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_formats_stream_replace_mask_tooltip {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_FORMATS_STREAM_REPLACE_MASK_TOOLTIP'
+  group = 'administration-tools - system - formats'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'This is the logic used to generate file names when streaming a rendition of this format. The following special strings are recognized and replaced with their corresponding data: [%AssetId%], [%AssetIdGrouped_XX%], [%ItemId%], [%SourceFileName%], [%FormatId%], [%FormatName%], [%AssetTitle%], [%MetafieldId_XX%]. For the special format, Original (with id -1), [%FormatId%] is ignored. If nothing is set in this field, it will fall back to [%AssetId%]_[%FormatId%].'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Dette er logikken der bruges til at generere filnavne, når der streames en rendering af dette format. Følgende specialstrenge genkendes og erstattes med deres tilsvarende data: [%AssetId%], [%AssetIdGrouped_XX%], [%ItemId%], [%SourceFileName%], [%FormatId%], [%FormatName%], [%AssetTitle%], [%MetafieldId_XX%]. For det specielle format Original (med id -1) vil [%FormatId%] ignoreres. Hvis intet angives i feltet, falder der tilbage til [%AssetId%]_[%FormatId%].'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label administration_tools_system_formats_choose_asset {
   key = 'ADMINISTRATION_TOOLS_SYSTEM_FORMATS_CHOOSE_ASSET'
   group = 'administration-tools - system - formats'
