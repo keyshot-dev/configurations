@@ -168,7 +168,7 @@ resource configservice_label health_overview_service_cache_key {
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Cache-nøgler'
+      default_translation = 'Cache-nøgle'
       language_id = data.language.danish.id
     }
   ]
