@@ -2100,11 +2100,11 @@ resource configservice_label rabbit_details_messages_get_messages_message_proper
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Message id:'
+      default_translation = 'Message id'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Besked-id:'
+      default_translation = 'Besked-id'
       language_id = data.language.danish.id
     }
   ]
@@ -2116,11 +2116,11 @@ resource configservice_label rabbit_details_messages_get_messages_message_proper
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Delivery mode:'
+      default_translation = 'Delivery mode'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Leveringstilstand:'
+      default_translation = 'Leveringstilstand'
       language_id = data.language.danish.id
     }
   ]
