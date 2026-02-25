@@ -62,6 +62,7 @@ resource combovalue_metafield rotation {
     restrict_to_asset_type = 'All'
     system = true
     upload_tag_name = 'mediainfo_video:rotation'
+    inheritance_conflict_resolution_strategy = 'OldestValue'
     restrict_to_asset_categories = [{
             asset_category_id = resource.asset_category.root.id
         }]

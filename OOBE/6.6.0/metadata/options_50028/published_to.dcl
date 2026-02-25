@@ -102,6 +102,7 @@ resource tree_metafield published_to {
     auto_translate = 'Overwrite'
     restrict_to_asset_type = 'All'
     upload_tag_name = ''
+    inheritance_conflict_resolution_strategy = 'Union'
     restrict_to_asset_categories = [{
             asset_category_id = data.asset_category.root.id
         }]

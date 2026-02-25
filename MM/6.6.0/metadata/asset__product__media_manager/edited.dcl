@@ -7,6 +7,7 @@ resource datetime_metafield edited {
     readonly = true
     system = true
     auto_translate = 'Overwrite'
+    inheritance_conflict_resolution_strategy = 'MinValue'
     restrict_to_asset_type = 'All'
     restrict_to_asset_categories = [{
             asset_category_id = data.asset_category.root.id

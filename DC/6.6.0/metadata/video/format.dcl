@@ -285,6 +285,7 @@ resource combovalue_metafield format {
     restrict_to_asset_type = 'Video'
     system = true
     upload_tag_name = 'calculated:displayaspectratiooption'
+    inheritance_conflict_resolution_strategy = 'OldestValue'
     restrict_to_asset_categories = [{
             asset_category_id = resource.asset_category.root.id
         }]
