@@ -2100,7 +2100,7 @@ resource configservice_label rabbit_details_messages_get_messages_message_proper
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Message id'
+      default_translation = 'Message ID'
       language_id = data.language.english.id
     },
     {
@@ -2120,7 +2120,7 @@ resource configservice_label rabbit_details_messages_get_messages_message_proper
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Leveringstilstand'
+      default_translation = 'Leveringsmetode'
       language_id = data.language.danish.id
     }
   ]
