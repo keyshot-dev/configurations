@@ -8,8 +8,8 @@ resource format original {
     type = 'SourceFormat'
     details = []
     system = true
-	mapped_media_formats = {
+	mapped_media_formats = [{
 	  media_format_id = -1
-	}
+	}]
 }
 
