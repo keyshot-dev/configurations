@@ -12244,11 +12244,11 @@ resource configservice_label administration_tools_system_workspaces_tooltip {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Manage workspaces and their hierarchical structure'
+      default_translation = 'Manage workspaces'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Administrer arbejdsområder og deres hierarkiske struktur'
+      default_translation = 'Administrer arbejdsområder'
       language_id = data.language.danish.id
     }
   ]
