@@ -12644,11 +12644,11 @@ resource configservice_label administration_tools_system_workspaces_dialog_delet
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Are you sure you want to delete this workspace and all its sub-workspaces (if any)? This action cannot be undone.'
+      default_translation = 'Are you sure you want to delete this workspace? This action cannot be undone.'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Er du sikker på, at du vil slette dette arbejdsområde samt alle dets under-arbejdsområder (hvis nogen)? Denne handling kan ikke fortrydes.'
+      default_translation = 'Er du sikker på, at du vil slette dette arbejdsområde? Denne handling kan ikke fortrydes.'
       language_id = data.language.danish.id
     }
   ]
