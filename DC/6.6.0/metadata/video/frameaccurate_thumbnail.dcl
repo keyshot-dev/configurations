@@ -13,6 +13,7 @@ resource string_metafield frameaccurate_thumbnail {
     auto_translate = 'Overwrite'
     restrict_to_asset_type = 'All'
     system = true
+    inheritance_conflict_resolution_strategy = 'OldestValue'
     restrict_to_asset_categories = [{
             asset_category_id = resource.asset_category.root.id
         }]

@@ -6,6 +6,7 @@ resource combovalue_metafield options_status {
     show_in_list = true
     view_type = 'Radio'
     system = true
+    inheritance_conflict_resolution_strategy = 'OldestValue'
     restrict_to_asset_categories = [{
             asset_category_id = data.asset_category.root.id
         }]
