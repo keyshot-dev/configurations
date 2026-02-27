@@ -10,6 +10,7 @@ resource format large_thumbnail {
     purpose = 'LargeThumbnail'
     type = 'WebPImageFormat'
     system = true
+    category = 'Regular'
     details = [{
             key = 'ColorSpace'
             value = 'sRGB'

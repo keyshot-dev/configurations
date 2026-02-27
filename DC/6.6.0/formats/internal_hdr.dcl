@@ -7,7 +7,8 @@ resource format internal_hdr {
     download_replace_mask = ''
     stream_replace_mask = ''
     type = 'HdrImageFormat'
-    details = []
     system = true
+    category = 'Internal'
+    details = []
 }
 

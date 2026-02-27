@@ -8,6 +8,7 @@ resource format internal_thumbnail {
     purpose = 'None'
     type = 'ThumbnailFormat'
     system = true
+    category = 'Internal'
     details = []
 }
 

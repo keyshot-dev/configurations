@@ -7,7 +7,8 @@ resource format internal_pdf {
     download_replace_mask = ''
     stream_replace_mask = ''
     type = 'PdfFormat'
-    details = []
     system = true
+    category = 'Internal'
+    details = []
 }
 

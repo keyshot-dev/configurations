@@ -14,6 +14,8 @@ resource format glb_preview {
         channel_folders = []
         asset_types = []
     }
+    system = true
+    category = 'Regular'
     details = [{
             key = 'EnableBaking'
             value = 'True'
@@ -39,6 +41,5 @@ resource format glb_preview {
             key = 'Dpi'
             value = '0'
         }]
-    system = true
 }
 

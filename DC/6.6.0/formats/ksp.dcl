@@ -14,7 +14,8 @@ resource format ksp {
         channel_folders = []
         asset_types = []
     }
-    details = []
+    category = 'Regular'
     system = true
+    details = []
 }
 
