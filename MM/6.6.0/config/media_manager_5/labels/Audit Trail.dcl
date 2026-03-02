@@ -478,22 +478,6 @@ resource configservice_label audit_trail_column_details {
   ]
 }
 
-resource configservice_label audit_trail_show_more {
-  key = 'AUDIT_TRAIL_SHOW_MORE'
-  group = 'Audit Trail'
-  product_id = resource.configservice_product.media_manager_5.id
-  default_label_values = [
-    {
-      default_translation = '{value, select, false {Show more} true {Show less}}'
-      language_id = data.language.english.id
-    },
-    {
-      default_translation = '{value, select, false {Vis mere} true {Vis mindre}}'
-      language_id = data.language.danish.id
-    }
-  ]
-}
-
 resource configservice_label audit_trail_no_results {
   key = 'AUDIT_TRAIL_NO_RESULTS'
   group = 'Audit Trail'

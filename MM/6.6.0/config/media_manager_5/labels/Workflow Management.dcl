@@ -2030,22 +2030,6 @@ resource configservice_label workflow_editor_flow_editor_view_mode_open {
   ]
 }
 
-resource configservice_label workflow_editor_flow_editor_view_mode_bodyhidden {
-  key = 'WORKFLOW_EDITOR_FLOW_EDITOR_VIEW_MODE_BODYHIDDEN'
-  group = 'Workflow Management'
-  product_id = resource.configservice_product.media_manager_5.id
-  default_label_values = [
-    {
-      default_translation = 'Hide body'
-      language_id = data.language.english.id
-    },
-    {
-      default_translation = 'Skjul body'
-      language_id = data.language.danish.id
-    }
-  ]
-}
-
 resource configservice_label workflow_editor_flow_editor_view_mode_collapsed {
   key = 'WORKFLOW_EDITOR_FLOW_EDITOR_VIEW_MODE_COLLAPSED'
   group = 'Workflow Management'
