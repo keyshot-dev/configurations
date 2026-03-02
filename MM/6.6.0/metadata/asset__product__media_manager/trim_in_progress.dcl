@@ -6,6 +6,7 @@ resource bit_metafield trim_in_progress {
     readonly = true
     system = true
     auto_translate = 'Overwrite'
+    inheritance_conflict_resolution_strategy = 'OldestValue'
     restrict_to_asset_type = 'All'
     restrict_to_asset_categories = [{
             asset_category_id = data.asset_category.root.id

@@ -158,6 +158,22 @@ resource configservice_label health_overview_service_actions {
   ]
 }
 
+resource configservice_label health_overview_service_cache_key {
+  key = 'HEALTH_OVERVIEW_SERVICE_CACHE_KEY'
+  group = 'Administration'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Cache key'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Cache-nøgle'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label health_overview_service_status_tooltip_healthy {
   key = 'HEALTH_OVERVIEW_SERVICE_STATUS_TOOLTIP_HEALTHY'
   group = 'Administration'
@@ -313,6 +329,70 @@ resource configservice_label health_overview_no_services {
     },
     {
       default_translation = 'Ingen tjenester'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label health_overview_details {
+  key = 'HEALTH_OVERVIEW_DETAILS'
+  group = 'Administration'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Details'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Detaljer'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label health_overview_no_details_available {
+  key = 'HEALTH_OVERVIEW_NO_DETAILS_AVAILABLE'
+  group = 'Administration'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'No details available'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Ingen detaljer tilgængelige'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label health_overview_select_service_to_view_details {
+  key = 'HEALTH_OVERVIEW_SELECT_SERVICE_TO_VIEW_DETAILS'
+  group = 'Administration'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Select a service to view details'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Vælg en tjeneste for at se detaljer'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label health_overview_select_cache_entry_to_view_details {
+  key = 'HEALTH_OVERVIEW_SELECT_CACHE_ENTRY_TO_VIEW_DETAILS'
+  group = 'Administration'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Select a cache entry to view details'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Vælg en cache-post for at se detaljer'
       language_id = data.language.danish.id
     }
   ]
@@ -2100,11 +2180,11 @@ resource configservice_label rabbit_details_messages_get_messages_message_proper
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Message id:'
+      default_translation = 'Message ID'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Besked-id:'
+      default_translation = 'Besked-id'
       language_id = data.language.danish.id
     }
   ]
@@ -2116,11 +2196,11 @@ resource configservice_label rabbit_details_messages_get_messages_message_proper
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Delivery mode:'
+      default_translation = 'Delivery mode'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Leveringstilstand:'
+      default_translation = 'Leveringsmetode'
       language_id = data.language.danish.id
     }
   ]
@@ -12164,11 +12244,11 @@ resource configservice_label administration_tools_system_workspaces_tooltip {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Manage workspaces and their hierarchical structure'
+      default_translation = 'Manage workspaces'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Administrer arbejdsområder og deres hierarkiske struktur'
+      default_translation = 'Administrer arbejdsområder'
       language_id = data.language.danish.id
     }
   ]
@@ -12564,11 +12644,11 @@ resource configservice_label administration_tools_system_workspaces_dialog_delet
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Are you sure you want to delete this workspace and all its sub-workspaces (if any)? This action cannot be undone.'
+      default_translation = 'Are you sure you want to delete this workspace? This action cannot be undone.'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Er du sikker på, at du vil slette dette arbejdsområde samt alle dets under-arbejdsområder (hvis nogen)? Denne handling kan ikke fortrydes.'
+      default_translation = 'Er du sikker på, at du vil slette dette arbejdsområde? Denne handling kan ikke fortrydes.'
       language_id = data.language.danish.id
     }
   ]

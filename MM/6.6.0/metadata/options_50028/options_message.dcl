@@ -11,6 +11,7 @@ resource note_metafield options_message {
     show_in_list = true
     auto_translate = 'Overwrite'
     system = true
+    inheritance_conflict_resolution_strategy = 'OldestValue'
     restrict_to_asset_categories = [{
             asset_category_id = data.asset_category.root.id
         }]

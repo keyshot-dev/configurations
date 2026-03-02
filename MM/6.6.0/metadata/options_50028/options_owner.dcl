@@ -7,6 +7,7 @@ resource masteritem_reference_metafield options_owner {
     item_type = 'Member'
     max_count = 1
     system = true
+    inheritance_conflict_resolution_strategy = 'Union'
     restrict_to_asset_categories = [{
             asset_category_id = data.asset_category.root.id
         }]

@@ -8,6 +8,7 @@ resource editmulticombovalue_metafield keywords {
     restrict_to_asset_type = 'All'
     upload_tag_name = 'iptc:keywords'
     system = true
+    inheritance_conflict_resolution_strategy = 'Union'
     restrict_to_asset_categories = [{
             asset_category_id = resource.asset_category.root.id
         }]
