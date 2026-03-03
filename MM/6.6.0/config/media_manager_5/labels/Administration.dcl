@@ -9412,7 +9412,7 @@ resource configservice_label administration_tools_system_formats_add_embed_metad
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Add embed metadata'
+      default_translation = 'Add embedded metadata'
       language_id = data.language.english.id
     },
     {
