@@ -9310,6 +9310,118 @@ resource configservice_label administration_tools_system_formats_save_error_body
   ]
 }
 
+resource configservice_label administration_tools_system_formats_profile {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_FORMATS_PROFILE'
+  group = 'administration-tools - system - formats'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Profile'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Profil'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_formats_delete_btn {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_FORMATS_DELETE_BTN'
+  group = 'administration-tools - system - formats'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Delete'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Slet'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_formats_attribute {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_FORMATS_ATTRIBUTE'
+  group = 'administration-tools - system - formats'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Attribute'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Attribut'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_formats_string_value {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_FORMATS_STRING_VALUE'
+  group = 'administration-tools - system - formats'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'String value'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Strengværdi'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_formats_metafield_guid {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_FORMATS_METAFIELD_GUID'
+  group = 'administration-tools - system - formats'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Metafield GUID'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Metafelt-GUID'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_formats_format {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_FORMATS_FORMAT'
+  group = 'administration-tools - system - formats'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Format'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Format'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_formats_add_embed_metadata_btn {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_FORMATS_ADD_EMBED_METADATA_BTN'
+  group = 'administration-tools - system - formats'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Add embedded metadata'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Tilføj indlejringsmetadata'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label administration_tools_system_asset_type_extensions_section_title {
   key = 'ADMINISTRATION_TOOLS_SYSTEM_ASSET_TYPE_EXTENSIONS_SECTION_TITLE'
   group = 'administration-tools - system - asset type extensions'
