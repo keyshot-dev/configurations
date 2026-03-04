@@ -9,10 +9,11 @@ resource format audio_preview {
     stream_replace_mask = ''
     purpose = 'AudioPreview'
     type = 'Mp3AudioFormat'
-    details = [{
-            key = 'CompressionLevel'
-            value = '4'
-        }]
     system = true
+    category = 'Regular'
+    details = [{
+        key = 'CompressionLevel'
+        value = '4'
+    }]
 }
 

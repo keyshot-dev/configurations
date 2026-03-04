@@ -10,6 +10,7 @@ resource format video_preview {
     type = 'Mp4VideoFormat'
     purpose = 'VideoPreview'
     system = true
+    category = 'Regular'
     details = [{
             key = 'BackgroundColor'
             value = '#00000000'
