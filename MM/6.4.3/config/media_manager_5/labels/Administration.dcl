@@ -5946,6 +5946,22 @@ resource configservice_label administration_tools_api_keys_section_modal_make_su
   ]
 }
 
+resource configservice_label administration_tools_api_keys_section_enable_expiration {
+  key = 'ADMINISTRATION_TOOLS_API_KEYS_SECTION_ENABLE_EXPIRATION'
+  group = 'administration-tools - api-keys'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Enable automatic key expiration'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Sæt udløbsdato'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label administration_tools_channels_section_title_channels {
   key = 'ADMINISTRATION_TOOLS_CHANNELS_SECTION_TITLE_CHANNELS'
   group = 'administration-tools - channels'
