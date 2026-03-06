@@ -14,5 +14,6 @@ resource member_group scheme_super_administrator {
             member_group_id = data.member_group.trusted.member_group_id
         }]
     roles = []
+    is_visible_to_end_users = false
 }
 
