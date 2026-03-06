@@ -9374,6 +9374,22 @@ resource configservice_label administration_tools_system_formats_string_value {
   ]
 }
 
+resource configservice_label administration_tools_system_formats_string_value_tooltip {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_FORMATS_STRING_VALUE_TOOLTIP'
+  group = 'administration-tools - system - formats'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'A hardcoded string value to use for the tag. If a metafield is specified, this value is ignored.'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'En hardcoded strengværdi, der skal bruges til tagget. Hvis et metafelt er angivet, ignoreres denne værdi.'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label administration_tools_system_formats_metafield_guid {
   key = 'ADMINISTRATION_TOOLS_SYSTEM_FORMATS_METAFIELD_GUID'
   group = 'administration-tools - system - formats'
@@ -9390,6 +9406,22 @@ resource configservice_label administration_tools_system_formats_metafield_guid 
   ]
 }
 
+resource configservice_label administration_tools_system_formats_metafield_guid_tooltip {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_FORMATS_METAFIELD_GUID_TOOLTIP'
+  group = 'administration-tools - system - formats'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'The metafield to fetch the value of the tag from.'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Metafeltet, hvorfra værdien af ​​tagget skal hentes.'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label administration_tools_system_formats_format {
   key = 'ADMINISTRATION_TOOLS_SYSTEM_FORMATS_FORMAT'
   group = 'administration-tools - system - formats'
@@ -9401,6 +9433,22 @@ resource configservice_label administration_tools_system_formats_format {
     },
     {
       default_translation = 'Format'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_formats_format_tooltip {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_FORMATS_FORMAT_TOOLTIP'
+  group = 'administration-tools - system - formats'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'If the targeted metafield is a floating point number or a date, this specifies how to format the value.'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Hvis det målrettede metafelt er et flydende tal eller en dato, angiver dette, hvordan værdien skal formateres.'
       language_id = data.language.danish.id
     }
   ]
