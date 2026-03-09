@@ -16,6 +16,6 @@ resource member_group scheme_light_user {
             member_group_id = data.member_group.trusted.member_group_id
         }]
     roles = []
-    is_visible_to_end_users = false
+    is_visible_to_end_users = true
 }
 

@@ -240,5 +240,6 @@ resource member_group super_administrator {
     autolink = {
         item_guid = '0d8dff0a-53d5-4161-8484-aa8c1af5680d'
     }
+    is_visible_to_end_users = true
 }
 

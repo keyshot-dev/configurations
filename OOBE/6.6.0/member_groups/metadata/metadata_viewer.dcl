@@ -6,5 +6,6 @@ resource member_group metadata_viewer {
     ad_group_name = ''
     parents = []
     roles = []
+    is_visible_to_end_users = true
 }
 

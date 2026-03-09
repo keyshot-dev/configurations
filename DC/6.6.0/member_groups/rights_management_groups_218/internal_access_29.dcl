@@ -14,5 +14,6 @@ resource member_group internal_access_29 {
     autolink = {
         item_guid = '236ea083-884c-4f51-9946-3a1fc27144d6'
     }
+    is_visible_to_end_users = true
 }
 

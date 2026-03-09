@@ -14,5 +14,6 @@ resource member_group public_access_30 {
     autolink = {
         item_guid = 'e5064ecd-8db4-47f8-b084-b49a8971474d'
     }
+    is_visible_to_end_users = true
 }
 

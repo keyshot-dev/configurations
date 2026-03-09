@@ -13,5 +13,6 @@ resource member_group download_qualities {
         }, {
             media_format_id = data.format.large_thumbnail.id
         }]
+    is_visible_to_end_users = true
 }
 

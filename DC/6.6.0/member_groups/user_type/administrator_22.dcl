@@ -148,5 +148,6 @@ resource member_group administrator_22 {
     autolink = {
         item_guid = '58efafcb-4ce9-43d0-b413-b842fbccb576'
     }
+    is_visible_to_end_users = true
 }
 
