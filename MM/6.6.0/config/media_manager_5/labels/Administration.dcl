@@ -9412,11 +9412,11 @@ resource configservice_label administration_tools_system_formats_metafield_guid_
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'The metafield to fetch the value of the tag from.'
+      default_translation = 'The metafield to fetch the tag\'s value from.'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Metafeltet, hvorfra værdien af ​​tagget skal hentes.'
+      default_translation = 'Metafeltet, hvorfra taggets værdi udhentes.'
       language_id = data.language.danish.id
     }
   ]
@@ -9448,7 +9448,7 @@ resource configservice_label administration_tools_system_formats_format_tooltip 
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Hvis det målrettede metafelt er et flydende tal eller en dato, angiver dette, hvordan værdien skal formateres.'
+      default_translation = 'Hvis det målrettede metafelt er et decimal-tal eller en dato, angiver dette, hvordan værdien skal formateres.'
       language_id = data.language.danish.id
     }
   ]
