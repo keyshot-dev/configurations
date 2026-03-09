@@ -30,5 +30,6 @@ resource member_group light_user_24 {
     autolink = {
         item_guid = 'ea2b32ef-cd90-41c8-93ac-d026881b6c12'
     }
+    is_visible_to_end_users = true
 }
 

@@ -16,5 +16,6 @@ resource member_group anonymous {
     autolink = {
         item_guid = '1d46a4cd-7d87-42d6-b64b-182a1d455013'
     }
+    is_visible_to_end_users = true
 }
 

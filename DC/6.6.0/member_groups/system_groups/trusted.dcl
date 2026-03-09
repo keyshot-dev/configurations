@@ -16,5 +16,6 @@ resource member_group trusted {
     autolink = {
         item_guid = 'ed7fbc52-1664-48c1-8c2f-848996b8c8bf'
     }
+    is_visible_to_end_users = true
 }
 

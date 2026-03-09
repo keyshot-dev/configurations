@@ -18,5 +18,6 @@ resource member_group guest_27 {
     autolink = {
         item_guid = '977d9735-a0f3-4ec9-977a-d7c522366ca3'
     }
+    is_visible_to_end_users = true
 }
 

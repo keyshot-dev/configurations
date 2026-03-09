@@ -30,5 +30,6 @@ resource member_group content_creator {
     autolink = {
         item_guid = 'ed672267-2724-47d7-acbe-527f875445bc'
     }
+    is_visible_to_end_users = true
 }
 
