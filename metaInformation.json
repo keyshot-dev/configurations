@@ -25,7 +25,7 @@
         "locked": false
     },
     {
-        "name": "Atlas",
+        "name": "Cloud Storage",
         "order": -20,
         "locked": true
     },
