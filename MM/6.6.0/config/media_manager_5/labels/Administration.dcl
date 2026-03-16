@@ -2734,6 +2734,22 @@ resource configservice_label administration_tools_analytics_rows_count {
   ]
 }
 
+resource configservice_label administration_tools_analytics_visible_rows {
+  key = 'ADMINISTRATION_TOOLS_ANALYTICS_VISIBLE_ROWS'
+  group = 'administration-tools - analytics-table'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Visible'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Synlige'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label administration_tools_analytics_download_csv_button {
   key = 'ADMINISTRATION_TOOLS_ANALYTICS_DOWNLOAD_CSV_BUTTON'
   group = 'administration-tools - analytics-table'
