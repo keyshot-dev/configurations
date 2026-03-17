@@ -9038,6 +9038,38 @@ resource configservice_label administration_tools_system_formats_stream_replace_
   ]
 }
 
+resource configservice_label administration_tools_system_formats_avoid_regenerating_renditions {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_FORMATS_AVOID_REGENERATING_RENDITIONS'
+  group = 'administration-tools - system - formats'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Avoid regenerating existing renditions'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Undgå at regenerere eksisterende renditions'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_formats_avoid_regenerating_renditions_tooltip {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_FORMATS_AVOID_REGENERATING_RENDITIONS_TOOLTIP'
+  group = 'administration-tools - system - formats'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'If enabled, existing renditions of this format will not be re-generated. This means that an existing rendition will keep being used even though the format definition is updated. New renditions can be force generated with the \'Generate asset renditions\' automation step'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Hvis aktiveret, vil eksisterende renditions af dette format ikke blive regenereret. Dette betyder, at en eksisterende rendition fortsat vil blive brugt, selvom formatdefinitionen opdateres. Nye renditions kan tvinges genereret ved hjælp af automatiseringstrinnet \'Generer asset renditions\''
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label administration_tools_system_formats_choose_asset {
   key = 'ADMINISTRATION_TOOLS_SYSTEM_FORMATS_CHOOSE_ASSET'
   group = 'administration-tools - system - formats'
