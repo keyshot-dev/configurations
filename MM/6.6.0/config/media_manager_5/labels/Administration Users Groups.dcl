@@ -608,6 +608,21 @@ resource configservice_label administration_tools_users_and_groups_group_approve
   ]
 }
 
+resource configservice_label administration_tools_users_and_groups_group_is_visible_to_end_users {
+  key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_GROUP_IS_VISIBLE_TO_END_USERS'
+  group = 'administration-tools - users-and-groups'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Is visible to end users'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Er synlig for slutbrugere'
+      language_id = data.language.danish.id
+    }
+  ]
+}
 
 resource configservice_label administration_tools_users_and_groups_group_parents {
   key = 'ADMINISTRATION_TOOLS_USERS_AND_GROUPS_GROUP_PARENTS'
