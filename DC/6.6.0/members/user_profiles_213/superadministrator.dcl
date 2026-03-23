@@ -2,12 +2,16 @@ resource member superadministrator {
     username = 'SuperAdministrator'
     email = ''
     language = resource.language.english.id
-    folder_id = resource.member_folder.user_profiles_213.id
     firstname = 'Super administrator'
     lastname = '(user profile)'
     enabled = true
     ad_username = ''
     system = true
+}
+
+resource workspace_member superadministrator {
+    member_id = resource.member.superadministrator.member_id
+    folder_id = resource.member_folder.user_profiles_213.id
     groups = [{
             member_group_id = resource.member_group.super_administrator.member_group_id
         }, {

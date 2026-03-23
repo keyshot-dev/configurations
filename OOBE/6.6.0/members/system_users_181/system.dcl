@@ -1,9 +1,9 @@
-data member system {
+data workspace_member system {
     username = 'System'
 }
 
-patch member system_patch {
-    target = data.member.system
+patch workspace_member system_patch {
+    target = data.workspace_member.system
     groups = [{
             member_group_id = resource.member_group.scheme_super_administrator.member_group_id
         }]
