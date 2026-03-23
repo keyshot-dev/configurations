@@ -1,9 +1,9 @@
-data member guest {
+data default_workspace_member guest {
     username = 'Guest'
 }
 
-patch member guest_patch {
-    target = data.member.guest
+patch default_workspace_member guest_patch {
+    target = data.workspace_member.guest
     groups = [{
             member_group_id = data.member_group.guest_profile.member_group_id
         }, {
