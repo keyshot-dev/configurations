@@ -14862,6 +14862,54 @@ resource configservice_label administration_tools_workspace_members_form_header 
   ]
 }
 
+resource configservice_label administration_tools_workspace_members_form_header_edit {
+  key = 'ADMINISTRATION_TOOLS_WORKSPACE_MEMBERS_FORM_HEADER_EDIT'
+  group = 'administration-tools - system - workspace-members'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Edit groups'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Rediger grupper'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_workspace_members_success_groups_updated {
+  key = 'ADMINISTRATION_TOOLS_WORKSPACE_MEMBERS_SUCCESS_GROUPS_UPDATED'
+  group = 'administration-tools - system - workspace-members'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Groups were updated successfully'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Grupper blev opdateret med succes'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_workspace_members_error_saving_body {
+  key = 'ADMINISTRATION_TOOLS_WORKSPACE_MEMBERS_ERROR_SAVING_BODY'
+  group = 'administration-tools - system - workspace-members'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'An error occurred while updating groups. {{error}}'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Der opstod en fejl under opdatering af grupper. {{error}}'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label administration_tools_workspace_members_groups {
   key = 'ADMINISTRATION_TOOLS_WORKSPACE_MEMBERS_GROUPS'
   group = 'administration-tools - system - workspace-members'
