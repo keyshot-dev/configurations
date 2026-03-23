@@ -14894,8 +14894,8 @@ resource configservice_label administration_tools_workspace_members_success_grou
   ]
 }
 
-resource configservice_label administration_tools_workspace_members_error_saving_body {
-  key = 'ADMINISTRATION_TOOLS_WORKSPACE_MEMBERS_ERROR_SAVING_BODY'
+resource configservice_label administration_tools_workspace_members_error_saving_body_edit {
+  key = 'ADMINISTRATION_TOOLS_WORKSPACE_MEMBERS_ERROR_SAVING_BODY_EDIT'
   group = 'administration-tools - system - workspace-members'
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
