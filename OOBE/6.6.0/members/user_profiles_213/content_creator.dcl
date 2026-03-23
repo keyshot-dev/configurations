@@ -15,7 +15,4 @@ resource workspace_member content_creator {
             member_group_id = resource.member_group.scheme_content_creator.member_group_id
         }]
     roles = []
-    autolink = {
-        item_guid = '28963060-6dc1-442e-a85e-1d2489819b29'
-    }
 }

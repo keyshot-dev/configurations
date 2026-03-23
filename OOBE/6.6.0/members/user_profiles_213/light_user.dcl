@@ -15,8 +15,5 @@ resource workspace_member light_user {
             member_group_id = resource.member_group.scheme_light_user.member_group_id
         }]
     roles = []
-    autolink = {
-        item_guid = '78adf9fb-9ac4-48e4-840a-d34deea3a5d7'
-    }
 }
 
