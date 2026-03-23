@@ -2,7 +2,7 @@ data default_workspace_member guest {
     username = 'Guest'
 }
 
-patch default_workspace_member guest_patch {
+patch default_workspace_member guest {
     target = data.workspace_member.guest
     groups = [{
             member_group_id = data.member_group.guest_profile.member_group_id

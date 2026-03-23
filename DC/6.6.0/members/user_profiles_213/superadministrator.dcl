@@ -11,6 +11,7 @@ resource member superadministrator {
 
 resource workspace_member superadministrator {
     member_id = resource.member.superadministrator.member_id
+    hidden = true
     folder_id = resource.member_folder.user_profiles_213.id
     groups = [{
             member_group_id = resource.member_group.super_administrator.member_group_id
@@ -194,8 +195,5 @@ resource workspace_member superadministrator {
         }, {
             constant = 'Can_publish'
         }]
-    autolink = {
-        item_guid = '39267edc-a520-4be9-9da4-1122a1fe6e22'
-    }
 }
 
