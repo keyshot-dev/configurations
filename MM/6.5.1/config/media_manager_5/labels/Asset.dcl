@@ -78,6 +78,22 @@ resource configservice_label asset_comment_previous_version {
   ]
 }
 
+resource configservice_label asset_comment_no_users_found {
+  key = 'ASSET_COMMENT_NO_USERS_FOUND'
+  group = 'Asset'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'No results'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Ingen resultater'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label asset_breadcrumbs_back_button {
   key = 'ASSET_BREADCRUMBS_BACK_BUTTON'
   group = 'Asset'
