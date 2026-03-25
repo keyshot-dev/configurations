@@ -88,7 +88,7 @@ resource configservice_label asset_comment_no_users_found {
       language_id = data.language.english.id
     },
     {
-      default_translation = 'ingen resultater'
+      default_translation = 'Ingen resultater'
       language_id = data.language.danish.id
     }
   ]
