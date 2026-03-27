@@ -56,6 +56,8 @@ patch member_group light_user_patch {
             constant = 'Can_Customize_Search_Filters_In_Frontend'
         }, {
             constant = 'Can_trim_email'
+        }, {
+            constant = 'FoldersRead'
         }]
     name = 'Light user (profile)'
 }

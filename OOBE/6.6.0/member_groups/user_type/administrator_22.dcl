@@ -163,6 +163,10 @@ patch member_group administrator_patch {
             constant = 'workspaces:users:management'
         }, {
             constant = 'Can_trim_email'
+        }, {
+            constant = 'FoldersRead'
+        }, {
+            constant = 'FoldersCrud'
         }]
 }
 
