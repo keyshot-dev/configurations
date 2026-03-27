@@ -8220,3 +8220,19 @@ resource configservice_label asset_actions_settings_filter_action_recalculate_me
     }
   ]
 }
+
+resource configservice_label asset_actions_settings_filter_action_manage_access_rights {
+  key = 'ASSET_ACTIONS_SETTINGS_FILTER_ACTION_MANAGE_ACCESS_RIGHTS'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Manage access'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Administrer adgang'
+      language_id = data.language.danish.id
+    }
+  ]
+}
