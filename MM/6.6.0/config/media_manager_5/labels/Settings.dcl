@@ -4672,6 +4672,38 @@ resource configservice_label asset_actions_reset_settings_part_dialog_confirm_bu
   ]
 }
 
+resource configservice_label asset_actions_notification_title {
+  key = 'ASSET_ACTIONS_NOTIFICATION_TITLE'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = '{success, select, true {Success} false {Error}}'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = '{success, select, true {Succes} false {Fejl}}'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_actions_notification_body {
+  key = 'ASSET_ACTIONS_NOTIFICATION_BODY'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = '{success, select, true {Settings successfully updated} false {An error occurred while saving the settings}}'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = '{success, select, true {Indstillinger opdatereret} false {Der skete en fejl under lagringen af indstillinger}}'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label settings_asset_info_settings_title {
   key = 'SETTINGS_ASSET_INFO_SETTINGS_TITLE'
   group = 'Settings'
