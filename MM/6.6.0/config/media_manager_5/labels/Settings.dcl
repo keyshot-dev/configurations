@@ -4470,11 +4470,11 @@ resource configservice_label asset_details_options_section_header_description {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'The first 5 options will be displayed on the asset details. The remaining will be placed in more menu.'
+      default_translation = 'The first 4 options will be displayed on the asset details. The remaining will be placed in more menu.'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'De første 5 muligheder vises på assetdetaljer. De resterende vil blive placeret i mere-menuen.'
+      default_translation = 'De første 4 muligheder vises på assetdetaljer. De resterende vil blive placeret i mere-menuen.'
       language_id = data.language.danish.id
     }
   ]
