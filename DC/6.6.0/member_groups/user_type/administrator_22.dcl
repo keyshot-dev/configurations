@@ -144,6 +144,10 @@ resource member_group administrator_22 {
             constant = 'workspaces:users:management'
         }, {
             constant = 'Can_trim_email'
+        }, {
+            constant = 'FoldersRead'
+        }, {
+            constant = 'FoldersCrud'
         }]
     autolink = {
         item_guid = '58efafcb-4ce9-43d0-b413-b842fbccb576'
