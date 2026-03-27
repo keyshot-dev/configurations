@@ -2357,6 +2357,22 @@ resource configservice_label portal_config_manager_section_asset_card {
   ]
 }
 
+resource configservice_label portal_config_manager_section_asset_details {
+  key = 'PORTAL_CONFIG_MANAGER_SECTION_ASSET_DETAILS'
+  group = 'Config Manager'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Asset details'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Assetdetaljer'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label portal_config_manager_section_asset_list {
   key = 'PORTAL_CONFIG_MANAGER_SECTION_ASSET_LIST'
   group = 'Config Manager'

@@ -4368,6 +4368,310 @@ resource configservice_label asset_card_settings_notification_body {
   ]
 }
 
+resource configservice_label asset_details_settings_title {
+  key = 'ASSET_DETAILS_SETTINGS_TITLE'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Asset details'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Assetdetaljer'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_details_settings_description {
+  key = 'ASSET_DETAILS_SETTINGS_DESCRIPTION'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Rearrange asset details options in the Media Manager and connectors. Whether a user can see options depends on the user\'s roles and the asset\'s properties.'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Bestem hvorhenne assetdetaljer-muligheder skal vises i både Media Manageren og connectore. Om en bruger kan se muligheder afhænger af brugerens roller og assetets egenskaber.'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_details_settings_incompatible_actions_text {
+  key = 'ASSET_DETAILS_SETTINGS_INCOMPATIBLE_ACTIONS_TEXT'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Your settings are incompatible with recent code updates. Please use the Factory Reset button below to use this setting.'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Dine indstillinger er inkompatible med de seneste kodeopdateringer. Brug venligst Factory Reset-knappen nedenfor for bruge denne indstilling.'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_details_media_manager_section_label {
+  key = 'ASSET_DETAILS_MEDIA_MANAGER_SECTION_LABEL'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Media Manager'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Media Manager'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_details_connectors_section_label {
+  key = 'ASSET_DETAILS_CONNECTORS_SECTION_LABEL'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Connectors'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Connectore'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_details_options_section_header {
+  key = 'ASSET_DETAILS_OPTIONS_SECTION_HEADER'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Options'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Muligheder'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_details_options_section_header_description {
+  key = 'ASSET_DETAILS_OPTIONS_SECTION_HEADER_DESCRIPTION'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'The first 5 options will be displayed on the asset details. The remaining will be placed in more menu.'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'De første 5 muligheder vises på assetdetaljer. De resterende vil blive placeret i mere-menuen.'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_details_section_button_reset {
+  key = 'ASSET_DETAILS_SECTION_BUTTON_RESET'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Reset to default'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Nulstil til standard'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_details_settings_section_button_cancel {
+  key = 'ASSET_DETAILS_SETTINGS_SECTION_BUTTON_CANCEL'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Cancel'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Annullér'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_details_settings_section_button_save {
+  key = 'ASSET_DETAILS_SETTINGS_SECTION_BUTTON_SAVE'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Save'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Gem'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_details_settings_factory_reset_button {
+  key = 'ASSET_DETAILS_SETTINGS_FACTORY_RESET_BUTTON'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Factory reset'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Gendan fabriksindstillinger'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_actions_factory_reset_dialog_title {
+  key = 'ASSET_ACTIONS_FACTORY_RESET_DIALOG_TITLE'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Factory reset'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Gendan fabriksindstillinger'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_actions_factory_reset_dialog_body {
+  key = 'ASSET_ACTIONS_FACTORY_RESET_DIALOG_BODY'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Are you sure you want to reset all asset card settings?'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Er du sikker på, at du vil nulstille alle asset-kort-indstillingerne?'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_actions_factory_reset_dialog_cancel_button {
+  key = 'ASSET_ACTIONS_FACTORY_RESET_DIALOG_CANCEL_BUTTON'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Cancel'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Annullér'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_actions_factory_reset_dialog_confirm_button {
+  key = 'ASSET_ACTIONS_FACTORY_RESET_DIALOG_CONFIRM_BUTTON'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Confirm'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Bekræft'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_actions_reset_settings_part_dialog_title {
+  key = 'ASSET_ACTIONS_RESET_SETTINGS_PART_DIALOG_TITLE'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Reset to default'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Nulstil til standard'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_actions_reset_settings_part_dialog_body {
+  key = 'ASSET_ACTIONS_RESET_SETTINGS_PART_DIALOG_BODY'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Are you sure you want to reset the settings for this section?'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Er du sikker på, at du vil nulstille indstillingerne for dette afsnit?'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_actions_reset_settings_part_dialog_cancel_button {
+  key = 'ASSET_ACTIONS_RESET_SETTINGS_PART_DIALOG_CANCEL_BUTTON'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Cancel'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Annullér'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_actions_reset_settings_part_dialog_confirm_button {
+  key = 'ASSET_ACTIONS_RESET_SETTINGS_PART_DIALOG_CONFIRM_BUTTON'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Confirm'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Bekræft'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label settings_asset_info_settings_title {
   key = 'SETTINGS_ASSET_INFO_SETTINGS_TITLE'
   group = 'Settings'
