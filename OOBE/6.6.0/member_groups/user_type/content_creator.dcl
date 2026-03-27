@@ -92,6 +92,10 @@ patch member_group content_creator_patch {
             constant = 'Can_Customize_Search_Filters_In_Frontend'
         }, {
             constant = 'Can_trim_email'
+        }, {
+            constant = 'FoldersRead'
+        }, {
+            constant = 'FoldersCrud'
         }]
     name = 'Content creator (profile)'
 }
