@@ -3380,6 +3380,23 @@ resource configservice_label administration_tools_sso_section_is_default_provide
 }
 
 
+resource configservice_label administration_tools_sso_section_use_workspace_claims {
+  key = 'ADMINISTRATION_TOOLS_SSO_SECTION_USE_WORKSPACE_CLAIMS'
+  group = 'administration-tools - sso-section'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Use workspace claims'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Brug workspace claims'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+
 resource configservice_label administration_tools_sso_section_sort_index_tooltip {
   key = 'ADMINISTRATION_TOOLS_SSO_SECTION_SORT_INDEX_TOOLTIP'
   group = 'administration-tools - sso-section'
