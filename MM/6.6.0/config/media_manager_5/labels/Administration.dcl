@@ -14600,7 +14600,7 @@ resource configservice_label administration_tools_workspace_members_dialog_resen
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Er du sikker på, at du vil gensend invitationen?'
+      default_translation = 'Er du sikker på, at du vil gensende invitationen?'
       language_id = data.language.danish.id
     }
   ]
