@@ -14526,6 +14526,134 @@ resource configservice_label administration_tools_workspace_members_remove_works
   ]
 }
 
+resource configservice_label administration_tools_workspace_members_resend_workspace_member_invitation_btn {
+  key = 'ADMINISTRATION_TOOLS_WORKSPACE_MEMBERS_RESEND_WORKSPACE_MEMBER_INVITATION_BTN'
+  group = 'administration-tools - system - workspace-members'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Resend invitation'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Gensend invitation'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_workspace_members_dialog_resend_member_invitation_title {
+  key = 'ADMINISTRATION_TOOLS_WORKSPACE_MEMBERS_DIALOG_RESEND_MEMBER_INVITATION_TITLE'
+  group = 'administration-tools - system - workspace-members'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Resend invitation'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Gensend invitation'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_workspace_members_dialog_resend_member_invitation_cancel_btn {
+  key = 'ADMINISTRATION_TOOLS_WORKSPACE_MEMBERS_DIALOG_RESEND_MEMBER_INVITATION_CANCEL_BTN'
+  group = 'administration-tools - system - workspace-members'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Cancel'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Annullér'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_workspace_members_dialog_resend_member_invitation_btn {
+  key = 'ADMINISTRATION_TOOLS_WORKSPACE_MEMBERS_DIALOG_RESEND_MEMBER_INVITATION_BTN'
+  group = 'administration-tools - system - workspace-members'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Resend'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Gensend'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_workspace_members_dialog_resend_member_invitation_body {
+  key = 'ADMINISTRATION_TOOLS_WORKSPACE_MEMBERS_DIALOG_RESEND_MEMBER_INVITATION_BODY'
+  group = 'administration-tools - system - workspace-members'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Are you sure you want to resend the invitation?'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Er du sikker på, at du vil gensende invitationen?'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_workspace_members_error_resent_invitation_body {
+  key = 'ADMINISTRATION_TOOLS_WORKSPACE_MEMBERS_ERROR_RESENT_INVITATION_BODY'
+  group = 'administration-tools - system - workspace-members'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Failed to resend invitation. {{error}}'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Gensend af invitation fejlede. {{error}}'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_workspace_members_success_resent_invitation {
+  key = 'ADMINISTRATION_TOOLS_WORKSPACE_MEMBERS_SUCCESS_RESENT_INVITATION'
+  group = 'administration-tools - system - workspace-members'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Invitation resent'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Invitation gensendt'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_workspace_members_error_resent_invitation_title {
+  key = 'ADMINISTRATION_TOOLS_WORKSPACE_MEMBERS_ERROR_RESENT_INVITATION_TITLE'
+  group = 'administration-tools - system - workspace-members'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Error'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Fejl'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label administration_tools_workspace_members_dialog_remove_member_title {
   key = 'ADMINISTRATION_TOOLS_WORKSPACE_MEMBERS_DIALOG_REMOVE_MEMBER_TITLE'
   group = 'administration-tools - system - workspace-members'
