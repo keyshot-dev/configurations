@@ -3614,6 +3614,40 @@ resource configservice_label administration_tools_sso_section_delete_confirmatio
 }
 
 
+resource configservice_label administration_tools_sso_section_configuration_save_failed_title {
+  key = 'ADMINISTRATION_TOOLS_SSO_SECTION_CONFIGURATION_SAVE_FAILED_TITLE'
+  group = 'administration-tools - sso-section'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Error'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Fejl'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+
+resource configservice_label administration_tools_sso_section_configuration_save_failed_body {
+  key = 'ADMINISTRATION_TOOLS_SSO_SECTION_CONFIGURATION_SAVE_FAILED_BODY'
+  group = 'administration-tools - sso-section'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Failed to save configuration. {{error}}'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Kunne ikke gemme konfiguration. {{error}}'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+
 resource configservice_label administration_tools_sso_signing_certificate_section_delete_confirmation_dialog_title {
   key = 'ADMINISTRATION_TOOLS_SSO_SIGNING_CERTIFICATE_SECTION_DELETE_CONFIRMATION_DIALOG_TITLE'
   group = 'administration-tools - sso-signing-certificate-section'
