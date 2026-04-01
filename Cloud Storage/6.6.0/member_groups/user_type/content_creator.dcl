@@ -11,27 +11,67 @@ patch member_group content_creator {
             member_group_id = data.member_group.trusted.member_group_id
         }]
     roles = [{
-            constant = 'Asset_Can_Delete_Permanently'
-        }, {
             constant = 'Asset_Can_Archive'
         }, {
-            constant = 'Can_Customize_Search_Filters_In_Frontend'
+            constant = 'Can_crop_email'
         }, {
-            constant = 'Can_Live_Export_System_Data'
+            constant = 'Collection_can_share_mail'
         }, {
-            constant = 'Can_trim_email'
+            constant = 'Collection_can_share_user'
+        }, {
+            constant = 'Collection_can_share_link'
+        }, {
+            constant = 'Can_edit_tree_nodes'
+        }, {
+            constant = 'Ai_Add'
+        }, {
+            constant = 'Ai_Translate'
+        }, {
+            constant = 'Asset_Can_Crop'
+        }, {
+            constant = 'Asset_Can_Download_Custom_Quality'
+        }, {
+            constant = 'Asset_Can_Download'
+        }, {
+            constant = 'Asset_Can_Replace'
+        }, {
+            constant = 'Asset_Can_Revise'
+        }, {
+            constant = 'AssetCategories_reader'
+        }, {
+            constant = 'AuditTrail_View'
+        }, {
+            constant = 'Can_Live_Export_Asset_Only'
+        }, {
+            constant = 'Can_Live_Export_Assets_And_Metadata'
+        }, {
+            constant = 'Can_Live_Export_Metadata_Only'
+        }, {
+            constant = 'Can_Open_Office_Document'
         }, {
             constant = 'Can_view_metadata_tab'
         }, {
+            constant = 'Can_view_portals'
+        }, {
             constant = 'Can_view_related_assets'
         }, {
-            constant = 'FoldersCrud'
+            constant = 'ChannelFolder_View'
         }, {
-            constant = 'FoldersRead'
+            constant = 'Comments_CRUD'
         }, {
-            constant = 'MediaPortal_360Viewer_Embed'
+            constant = 'Comments_View'
         }, {
-            constant = 'MediaPortal_Audio_Embed'
+            constant = 'Creative_Cloud_Connector'
+        }, {
+            constant = 'FileRepository_Delete'
+        }, {
+            constant = 'FileRepository_Read'
+        }, {
+            constant = 'FileRepository_Upload'
+        }, {
+            constant = 'ItemCheckInOut_CRUD'
+        }, {
+            constant = 'MediaPortal_Can_Preview_Office'
         }, {
             constant = 'MediaPortal_Collection'
         }, {
@@ -39,9 +79,29 @@ patch member_group content_creator {
         }, {
             constant = 'MediaPortal_User'
         }, {
+            constant = 'MediaPortal_Video_Embed'
+        }, {
             constant = 'Member_Viewer'
         }, {
-            constant = 'Asset_Can_Download'
+            constant = 'Saved_Searches_CRUD'
+        }, {
+            constant = 'Uploader'
+        }, {
+            constant = 'WorkStages_View'
+        }, {
+            constant = 'MediaPortal_Audio_Embed'
+        }, {
+            constant = 'Can_Live_Export_System_Data'
+        }, {
+            constant = 'MediaPortal_360Viewer_Embed'
+        }, {
+            constant = 'Can_Customize_Search_Filters_In_Frontend'
+        }, {
+            constant = 'Can_trim_email'
+        }, {
+            constant = 'FoldersRead'
+        }, {
+            constant = 'FoldersCrud'
         }]
 }
 
