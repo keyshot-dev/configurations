@@ -35,6 +35,8 @@ patch member_group content_creator {
         }, {
             constant = 'Asset_Can_Download'
         }, {
+            constant = 'Asset_Can_Download_Any'
+        }, {
             constant = 'Asset_Can_Replace'
         }, {
             constant = 'Asset_Can_Revise'
