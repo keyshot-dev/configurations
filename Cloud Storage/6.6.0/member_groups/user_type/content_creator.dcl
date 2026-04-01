@@ -40,6 +40,8 @@ patch member_group content_creator {
             constant = 'MediaPortal_User'
         }, {
             constant = 'Member_Viewer'
+        }, {
+            constant = 'Asset_Can_Download'
         }]
 }
 
