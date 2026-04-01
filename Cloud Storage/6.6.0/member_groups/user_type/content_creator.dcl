@@ -13,6 +13,8 @@ patch member_group content_creator {
     roles = [{
             constant = 'Asset_Can_Archive'
         }, {
+            constant = 'Asset_Can_Delete_Permanently'
+        }, {
             constant = 'Can_crop_email'
         }, {
             constant = 'Collection_can_share_mail'
