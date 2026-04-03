@@ -1,4 +1,4 @@
-﻿resource configservice_label description {
+resource configservice_label description {
   key = 'description'
   group = 'Z Misc Labels'
   product_id = resource.configservice_product.media_manager_5.id
@@ -1113,6 +1113,22 @@ resource configservice_label topbar_home_btn_tooltip {
     },
     {
       default_translation = 'Alle assets'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label topbar_hub_btn_tooltip {
+  key = 'TOPBAR_HUB_BTN_TOOLTIP'
+  group = 'Z Misc Labels'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Hub'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Hub'
       language_id = data.language.danish.id
     }
   ]
