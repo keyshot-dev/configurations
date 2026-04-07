@@ -3744,6 +3744,22 @@ resource configservice_label asset_card_settings_connector_section_header {
   ]
 }
 
+resource configservice_label asset_card_settings_section_header_description {
+  key = 'ASSET_CARD_SETTINGS_SECTION_HEADER_DESCRIPTION'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'The first 3 options will be displayed on the asset card. The remaining will be placed in more menu.'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'De første 3 muligheder vises på assetkortet. De resterende vil blive placeret i mere-menuen.'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label asset_card_settings_remove_action_tooltip {
   key = 'ASSET_CARD_SETTINGS_REMOVE_ACTION_TOOLTIP'
   group = 'Settings'
