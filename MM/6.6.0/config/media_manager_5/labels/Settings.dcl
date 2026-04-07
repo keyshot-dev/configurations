@@ -3472,358 +3472,6 @@ resource configservice_label asset_card_settings_property_public {
   ]
 }
 
-resource configservice_label asset_card_settings_filter_action_change_category {
-  key = 'ASSET_CARD_SETTINGS_FILTER_ACTION_CHANGE_CATEGORY'
-  group = 'Settings'
-  product_id = resource.configservice_product.media_manager_5.id
-  default_label_values = [
-    {
-      default_translation = 'Change category'
-      language_id = data.language.english.id
-    },
-    {
-      default_translation = 'Skift kategori'
-      language_id = data.language.danish.id
-    }
-  ]
-}
-
-resource configservice_label asset_card_settings_filter_action_favorite {
-  key = 'ASSET_CARD_SETTINGS_FILTER_ACTION_FAVORITE'
-  group = 'Settings'
-  product_id = resource.configservice_product.media_manager_5.id
-  default_label_values = [
-    {
-      default_translation = 'Favorite'
-      language_id = data.language.english.id
-    },
-    {
-      default_translation = 'Favorit'
-      language_id = data.language.danish.id
-    }
-  ]
-}
-
-resource configservice_label asset_card_settings_filter_action_download {
-  key = 'ASSET_CARD_SETTINGS_FILTER_ACTION_DOWNLOAD'
-  group = 'Settings'
-  product_id = resource.configservice_product.media_manager_5.id
-  default_label_values = [
-    {
-      default_translation = 'Download'
-      language_id = data.language.english.id
-    },
-    {
-      default_translation = 'Download'
-      language_id = data.language.danish.id
-    }
-  ]
-}
-
-resource configservice_label asset_card_settings_filter_action_info {
-  key = 'ASSET_CARD_SETTINGS_FILTER_ACTION_INFO'
-  group = 'Settings'
-  product_id = resource.configservice_product.media_manager_5.id
-  default_label_values = [
-    {
-      default_translation = 'Asset info'
-      language_id = data.language.english.id
-    },
-    {
-      default_translation = 'Asset-info'
-      language_id = data.language.danish.id
-    }
-  ]
-}
-
-resource configservice_label asset_card_settings_filter_action_check_in_out {
-  key = 'ASSET_CARD_SETTINGS_FILTER_ACTION_CHECK_IN_OUT'
-  group = 'Settings'
-  product_id = resource.configservice_product.media_manager_5.id
-  default_label_values = [
-    {
-      default_translation = 'Check in'
-      language_id = data.language.english.id
-    },
-    {
-      default_translation = 'Check ind'
-      language_id = data.language.danish.id
-    }
-  ]
-}
-
-resource configservice_label asset_card_settings_filter_action_share {
-  key = 'ASSET_CARD_SETTINGS_FILTER_ACTION_SHARE'
-  group = 'Settings'
-  product_id = resource.configservice_product.media_manager_5.id
-  default_label_values = [
-    {
-      default_translation = 'Share'
-      language_id = data.language.english.id
-    },
-    {
-      default_translation = 'Del'
-      language_id = data.language.danish.id
-    }
-  ]
-}
-
-resource configservice_label asset_card_settings_filter_action_insert_with_selected_quality {
-  key = 'ASSET_CARD_SETTINGS_FILTER_ACTION_INSERT_WITH_SELECTED_QUALITY'
-  group = 'Settings'
-  product_id = resource.configservice_product.media_manager_5.id
-  default_label_values = [
-    {
-      default_translation = 'Insert asset with the selected rendition'
-      language_id = data.language.english.id
-    },
-    {
-      default_translation = 'Indsæt asset med den valgte rendition'
-      language_id = data.language.danish.id
-    }
-  ]
-}
-
-resource configservice_label asset_card_settings_filter_action_insert_asset {
-  key = 'ASSET_CARD_SETTINGS_FILTER_ACTION_INSERT_ASSET'
-  group = 'Settings'
-  product_id = resource.configservice_product.media_manager_5.id
-  default_label_values = [
-    {
-      default_translation = 'Insert asset'
-      language_id = data.language.english.id
-    },
-    {
-      default_translation = 'Indsæt asset'
-      language_id = data.language.danish.id
-    }
-  ]
-}
-
-resource configservice_label asset_card_settings_filter_action_edit_asset_in_optimizely {
-  key = 'ASSET_CARD_SETTINGS_FILTER_ACTION_EDIT_ASSET_IN_OPTIMIZELY'
-  group = 'Settings'
-  product_id = resource.configservice_product.media_manager_5.id
-  default_label_values = [
-    {
-      default_translation = 'Edit asset in Optimizely'
-      language_id = data.language.english.id
-    },
-    {
-      default_translation = 'Redigér asset i Optimizely'
-      language_id = data.language.danish.id
-    }
-  ]
-}
-
-resource configservice_label asset_card_settings_filter_precache_export_quality {
-  key = 'ASSET_CARD_SETTINGS_FILTER_ACTION_PRECACHE_EXPORT_QUALITY'
-  group = 'Settings'
-  product_id = resource.configservice_product.media_manager_5.id
-  default_label_values = [
-    {
-      default_translation = 'Preload export rendition'
-      language_id = data.language.english.id
-    },
-    {
-      default_translation = 'Forudindlæs eksport-rendition'
-      language_id = data.language.danish.id
-    }
-  ]
-}
-
-resource configservice_label asset_card_settings_filter_action_open_office_document {
-  key = 'ASSET_CARD_SETTINGS_FILTER_ACTION_OPEN_OFFICE_DOCUMENT'
-  group = 'Settings'
-  product_id = resource.configservice_product.media_manager_5.id
-  default_label_values = [
-    {
-      default_translation = 'Open Office document'
-      language_id = data.language.english.id
-    },
-    {
-      default_translation = 'Åbn Office-dokument'
-      language_id = data.language.danish.id
-    }
-  ]
-}
-
-resource configservice_label asset_card_settings_filter_action_crop_or_trim {
-  key = 'ASSET_CARD_SETTINGS_FILTER_ACTION_CROP_OR_TRIM'
-  group = 'Settings'
-  product_id = resource.configservice_product.media_manager_5.id
-  default_label_values = [
-    {
-      default_translation = 'Crop or trim'
-      language_id = data.language.english.id
-    },
-    {
-      default_translation = 'Beskær'
-      language_id = data.language.danish.id
-    }
-  ]
-}
-
-resource configservice_label asset_card_settings_filter_action_audit {
-  key = 'ASSET_CARD_SETTINGS_FILTER_ACTION_AUDIT'
-  group = 'Settings'
-  product_id = resource.configservice_product.media_manager_5.id
-  default_label_values = [
-    {
-      default_translation = 'Audit trail'
-      language_id = data.language.english.id
-    },
-    {
-      default_translation = 'Historik'
-      language_id = data.language.danish.id
-    }
-  ]
-}
-
-resource configservice_label asset_card_settings_filter_action_comments {
-  key = 'ASSET_CARD_SETTINGS_FILTER_ACTION_COMMENTS'
-  group = 'Settings'
-  product_id = resource.configservice_product.media_manager_5.id
-  default_label_values = [
-    {
-      default_translation = 'Comments'
-      language_id = data.language.english.id
-    },
-    {
-      default_translation = 'Kommentarer'
-      language_id = data.language.danish.id
-    }
-  ]
-}
-
-resource configservice_label asset_card_settings_filter_action_instantiate_business_workflow {
-  key = 'ASSET_CARD_SETTINGS_FILTER_ACTION_INSTANTIATE_BUSINESS_WORKFLOW'
-  group = 'Settings'
-  product_id = resource.configservice_product.media_manager_5.id
-  default_label_values = [
-    {
-      default_translation = 'Start workflow'
-      language_id = data.language.english.id
-    },
-    {
-      default_translation = 'Start workflow'
-      language_id = data.language.danish.id
-    }
-  ]
-}
-
-resource configservice_label asset_card_settings_filter_action_replace {
-  key = 'ASSET_CARD_SETTINGS_FILTER_ACTION_REPLACE'
-  group = 'Settings'
-  product_id = resource.configservice_product.media_manager_5.id
-  default_label_values = [
-    {
-      default_translation = 'Replace'
-      language_id = data.language.english.id
-    },
-    {
-      default_translation = 'Udskift'
-      language_id = data.language.danish.id
-    }
-  ]
-}
-
-resource configservice_label asset_card_settings_filter_similar_images {
-  key = 'ASSET_CARD_SETTINGS_FILTER_ACTION_SIMILAR_IMAGES'
-  group = 'Settings'
-  product_id = resource.configservice_product.media_manager_5.id
-  default_label_values = [
-    {
-      default_translation = 'Similar images'
-      language_id = data.language.english.id
-    },
-    {
-      default_translation = 'Lignende billeder'
-      language_id = data.language.danish.id
-    }
-  ]
-}
-
-resource configservice_label asset_card_settings_filter_action_generate_thumbnail {
-  key = 'ASSET_CARD_SETTINGS_FILTER_ACTION_GENERATE_THUMBNAIL'
-  group = 'Settings'
-  product_id = resource.configservice_product.media_manager_5.id
-  default_label_values = [
-    {
-      default_translation = 'Generate thumbnail'
-      language_id = data.language.english.id
-    },
-    {
-      default_translation = 'Generer thumbnail'
-      language_id = data.language.danish.id
-    }
-  ]
-}
-
-resource configservice_label asset_card_settings_filter_action_print {
-  key = 'ASSET_CARD_SETTINGS_FILTER_ACTION_PRINT'
-  group = 'Settings'
-  product_id = resource.configservice_product.media_manager_5.id
-  default_label_values = [
-    {
-      default_translation = 'Print'
-      language_id = data.language.english.id
-    },
-    {
-      default_translation = 'Print'
-      language_id = data.language.danish.id
-    }
-  ]
-}
-
-resource configservice_label asset_card_settings_filter_action_remove_from_collection {
-  key = 'ASSET_CARD_SETTINGS_FILTER_ACTION_REMOVE_FROM_COLLECTION'
-  group = 'Settings'
-  product_id = resource.configservice_product.media_manager_5.id
-  default_label_values = [
-    {
-      default_translation = 'Remove from current collection'
-      language_id = data.language.english.id
-    },
-    {
-      default_translation = 'Fjern fra nuværende collection'
-      language_id = data.language.danish.id
-    }
-  ]
-}
-
-resource configservice_label asset_card_settings_filter_action_archive {
-  key = 'ASSET_CARD_SETTINGS_FILTER_ACTION_ARCHIVE'
-  group = 'Settings'
-  product_id = resource.configservice_product.media_manager_5.id
-  default_label_values = [
-    {
-      default_translation = 'Delete'
-      language_id = data.language.english.id
-    },
-    {
-      default_translation = 'Slet'
-      language_id = data.language.danish.id
-    }
-  ]
-}
-
-resource configservice_label asset_card_settings_filter_action_delete_permanently {
-  key = 'ASSET_CARD_SETTINGS_FILTER_ACTION_DELETE_PERMANENTLY'
-  group = 'Settings'
-  product_id = resource.configservice_product.media_manager_5.id
-  default_label_values = [
-    {
-      default_translation = 'Permanently delete'
-      language_id = data.language.english.id
-    },
-    {
-      default_translation = 'Slet permanent'
-      language_id = data.language.danish.id
-    }
-  ]
-}
-
 resource configservice_label asset_card_settings_input_search_placeholder {
   key = 'ASSET_CARD_SETTINGS_INPUT_SEARCH_PLACEHOLDER'
   group = 'Settings'
@@ -4354,6 +4002,342 @@ resource configservice_label asset_card_settings_notification_title {
 
 resource configservice_label asset_card_settings_notification_body {
   key = 'ASSET_CARD_SETTINGS_NOTIFICATION_BODY'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = '{success, select, true {Settings successfully updated} false {An error occurred while saving the settings}}'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = '{success, select, true {Indstillinger opdatereret} false {Der skete en fejl under lagringen af indstillinger}}'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_details_settings_title {
+  key = 'ASSET_DETAILS_SETTINGS_TITLE'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Asset details'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Assetdetaljer'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_details_settings_description {
+  key = 'ASSET_DETAILS_SETTINGS_DESCRIPTION'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Rearrange asset details options in the Media Manager and connectors. Whether a user can see options depends on the user\'s roles and the asset\'s properties.'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Bestem hvorhenne assetdetaljer-muligheder skal vises i både Media Manageren og connectore. Om en bruger kan se muligheder afhænger af brugerens roller og assetets egenskaber.'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_details_settings_incompatible_actions_text {
+  key = 'ASSET_DETAILS_SETTINGS_INCOMPATIBLE_ACTIONS_TEXT'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Your settings are incompatible with recent code updates. Please use the Factory Reset button below to use this setting.'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Dine indstillinger er inkompatible med de seneste kodeopdateringer. Brug venligst Factory Reset-knappen nedenfor for bruge denne indstilling.'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_details_media_manager_section_label {
+  key = 'ASSET_DETAILS_MEDIA_MANAGER_SECTION_LABEL'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Media Manager'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Media Manager'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_details_connectors_section_label {
+  key = 'ASSET_DETAILS_CONNECTORS_SECTION_LABEL'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Connectors'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Connectore'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_details_options_section_header {
+  key = 'ASSET_DETAILS_OPTIONS_SECTION_HEADER'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Options'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Muligheder'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_details_options_section_header_description {
+  key = 'ASSET_DETAILS_OPTIONS_SECTION_HEADER_DESCRIPTION'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'The first 4 options will be displayed on the asset details. The remaining will be placed in more menu.'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'De første 4 muligheder vises på assetdetaljer. De resterende vil blive placeret i mere-menuen.'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_details_section_button_reset {
+  key = 'ASSET_DETAILS_SECTION_BUTTON_RESET'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Reset to default'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Nulstil til standard'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_details_settings_section_button_cancel {
+  key = 'ASSET_DETAILS_SETTINGS_SECTION_BUTTON_CANCEL'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Cancel'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Annullér'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_details_settings_section_button_save {
+  key = 'ASSET_DETAILS_SETTINGS_SECTION_BUTTON_SAVE'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Save'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Gem'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_details_settings_factory_reset_button {
+  key = 'ASSET_DETAILS_SETTINGS_FACTORY_RESET_BUTTON'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Factory reset'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Gendan fabriksindstillinger'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_actions_factory_reset_dialog_title {
+  key = 'ASSET_ACTIONS_FACTORY_RESET_DIALOG_TITLE'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Factory reset'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Gendan fabriksindstillinger'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_actions_factory_reset_dialog_body {
+  key = 'ASSET_ACTIONS_FACTORY_RESET_DIALOG_BODY'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Are you sure you want to reset all asset card settings?'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Er du sikker på, at du vil nulstille alle asset-kort-indstillingerne?'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_actions_factory_reset_dialog_cancel_button {
+  key = 'ASSET_ACTIONS_FACTORY_RESET_DIALOG_CANCEL_BUTTON'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Cancel'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Annullér'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_actions_factory_reset_dialog_confirm_button {
+  key = 'ASSET_ACTIONS_FACTORY_RESET_DIALOG_CONFIRM_BUTTON'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Confirm'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Bekræft'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_actions_reset_settings_part_dialog_title {
+  key = 'ASSET_ACTIONS_RESET_SETTINGS_PART_DIALOG_TITLE'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Reset to default'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Nulstil til standard'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_actions_reset_settings_part_dialog_body {
+  key = 'ASSET_ACTIONS_RESET_SETTINGS_PART_DIALOG_BODY'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Are you sure you want to reset the settings for this section?'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Er du sikker på, at du vil nulstille indstillingerne for dette afsnit?'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_actions_reset_settings_part_dialog_cancel_button {
+  key = 'ASSET_ACTIONS_RESET_SETTINGS_PART_DIALOG_CANCEL_BUTTON'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Cancel'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Annullér'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_actions_reset_settings_part_dialog_confirm_button {
+  key = 'ASSET_ACTIONS_RESET_SETTINGS_PART_DIALOG_CONFIRM_BUTTON'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Confirm'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Bekræft'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_actions_notification_title {
+  key = 'ASSET_ACTIONS_NOTIFICATION_TITLE'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = '{success, select, true {Success} false {Error}}'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = '{success, select, true {Succes} false {Fejl}}'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_actions_notification_body {
+  key = 'ASSET_ACTIONS_NOTIFICATION_BODY'
   group = 'Settings'
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
@@ -7832,6 +7816,406 @@ resource configservice_label tracking_code_settings_validation_no_code_blocks {
     },
     {
       default_translation = 'Mindst én kodeblok er påkrævet, når sporingskode er aktiveret'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_actions_settings_filter_action_favorite {
+  key = 'ASSET_ACTIONS_SETTINGS_FILTER_ACTION_FAVORITE'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Favorite'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Favorit'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_actions_settings_filter_action_download {
+  key = 'ASSET_ACTIONS_SETTINGS_FILTER_ACTION_DOWNLOAD'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Download'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Download'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_actions_settings_filter_action_info {
+  key = 'ASSET_ACTIONS_SETTINGS_FILTER_ACTION_INFO'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Asset info'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Asset-info'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_actions_settings_filter_action_check_in_out {
+  key = 'ASSET_ACTIONS_SETTINGS_FILTER_ACTION_CHECK_IN_OUT'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Check in'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Check ind'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_actions_settings_filter_action_share {
+  key = 'ASSET_ACTIONS_SETTINGS_FILTER_ACTION_SHARE'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Share'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Del'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_actions_settings_filter_action_insert_with_selected_quality {
+  key = 'ASSET_ACTIONS_SETTINGS_FILTER_ACTION_INSERT_WITH_SELECTED_QUALITY'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Insert asset with the selected rendition'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Indsæt asset med den valgte rendition'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_actions_settings_filter_action_open_office_document {
+  key = 'ASSET_ACTIONS_SETTINGS_FILTER_ACTION_OPEN_OFFICE_DOCUMENT'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Open Office document'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Åbn Office-dokument'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_actions_settings_filter_action_insert_asset {
+  key = 'ASSET_ACTIONS_SETTINGS_FILTER_ACTION_INSERT_ASSET'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Insert asset'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Indsæt asset'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_actions_settings_filter_action_crop_or_trim {
+  key = 'ASSET_ACTIONS_SETTINGS_FILTER_ACTION_CROP_OR_TRIM'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Crop or trim'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Beskær'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_actions_settings_filter_action_audit {
+  key = 'ASSET_ACTIONS_SETTINGS_FILTER_ACTION_AUDIT'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Audit trail'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Historik'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_actions_settings_filter_action_comments {
+  key = 'ASSET_ACTIONS_SETTINGS_FILTER_ACTION_COMMENTS'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Comments'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Kommentarer'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_actions_settings_filter_action_instantiate_business_workflow {
+  key = 'ASSET_ACTIONS_SETTINGS_FILTER_ACTION_INSTANTIATE_BUSINESS_WORKFLOW'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Start workflow'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Start workflow'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_actions_settings_filter_action_replace {
+  key = 'ASSET_ACTIONS_SETTINGS_FILTER_ACTION_REPLACE'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Replace'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Udskift'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_actions_settings_filter_action_change_thumbnail {
+  key = 'ASSET_ACTIONS_SETTINGS_FILTER_ACTION_CHANGE_THUMBNAIL'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Change thumbnail'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Skift thumbnail'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_actions_settings_filter_action_print {
+  key = 'ASSET_ACTIONS_SETTINGS_FILTER_ACTION_PRINT'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Print'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Print'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_actions_settings_filter_action_remove_from_collection {
+  key = 'ASSET_ACTIONS_SETTINGS_FILTER_ACTION_REMOVE_FROM_COLLECTION'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Remove from current collection'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Fjern fra nuværende collection'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_actions_settings_filter_action_archive {
+  key = 'ASSET_ACTIONS_SETTINGS_FILTER_ACTION_ARCHIVE'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Delete'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Slet'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_actions_settings_filter_action_delete_permanently {
+  key = 'ASSET_ACTIONS_SETTINGS_FILTER_ACTION_DELETE_PERMANENTLY'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Permanently delete'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Slet permanent'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_actions_settings_filter_action_edit_asset_in_optimizely {
+  key = 'ASSET_ACTIONS_SETTINGS_FILTER_ACTION_EDIT_ASSET_IN_OPTIMIZELY'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Edit asset in Optimizely'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Redigér asset i Optimizely'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_actions_settings_filter_action_similar_images {
+  key = 'ASSET_ACTIONS_SETTINGS_FILTER_ACTION_SIMILAR_IMAGES'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Similar images'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Lignende billeder'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_actions_settings_filter_action_change_category {
+  key = 'ASSET_ACTIONS_SETTINGS_FILTER_ACTION_CHANGE_CATEGORY'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Change category'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Skift kategori'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_actions_settings_filter_action_status {
+  key = 'ASSET_ACTIONS_SETTINGS_FILTER_ACTION_STATUS'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Asset status'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Asset-status'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_actions_settings_filter_action_full_screen {
+  key = 'ASSET_ACTIONS_SETTINGS_FILTER_ACTION_FULL_SCREEN'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Full screen'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Fuld skærm'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_actions_settings_filter_action_recalculate_media_information {
+  key = 'ASSET_ACTIONS_SETTINGS_FILTER_ACTION_RECALCULATE_MEDIA_INFORMATION'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Re-calculate asset information'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Genberegn asset-information'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_actions_settings_filter_action_manage_access_rights {
+  key = 'ASSET_ACTIONS_SETTINGS_FILTER_ACTION_MANAGE_ACCESS_RIGHTS'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Manage access'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Administrer adgang'
       language_id = data.language.danish.id
     }
   ]
