@@ -1469,3 +1469,147 @@ resource configservice_label inputs_tree_selector_include_all_children {
     }
   ]
 }
+
+resource configservice_label inputs_tree_selector_select_with_children_aria {
+  key = 'INPUTS_TREE_SELECTOR_SELECT_WITH_CHILDREN_ARIA'
+  group = 'Inputs'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Select with children'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Vælg med børn'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label inputs_tree_selector_select_all_below {
+  key = 'INPUTS_TREE_SELECTOR_SELECT_ALL_BELOW'
+  group = 'Inputs'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Select all below'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Vælg alle nedenfor'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label inputs_tree_selector_deselect_all_below {
+  key = 'INPUTS_TREE_SELECTOR_DESELECT_ALL_BELOW'
+  group = 'Inputs'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Deselect all below'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Fravælg alle nedenfor'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label inputs_tree_selector_select_all_above {
+  key = 'INPUTS_TREE_SELECTOR_SELECT_ALL_ABOVE'
+  group = 'Inputs'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Select all above'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Vælg alle ovenfor'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label inputs_tree_selector_deselect_all_above {
+  key = 'INPUTS_TREE_SELECTOR_DESELECT_ALL_ABOVE'
+  group = 'Inputs'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Deselect all above'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Fravælg alle ovenfor'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label inputs_tree_selector_exclude_all_below {
+  key = 'INPUTS_TREE_SELECTOR_EXCLUDE_ALL_BELOW'
+  group = 'Inputs'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Exclude all below'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Ekskluder alle nedenfor'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label inputs_tree_selector_deselect_excluded_all_below {
+  key = 'INPUTS_TREE_SELECTOR_DESELECT_EXCLUDED_ALL_BELOW'
+  group = 'Inputs'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Deselect excluded below'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Fravælg ekskluderede nedenfor'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label inputs_tree_selector_exclude_all_above {
+  key = 'INPUTS_TREE_SELECTOR_EXCLUDE_ALL_ABOVE'
+  group = 'Inputs'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Exclude all above'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Ekskluder alle ovenfor'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label inputs_tree_selector_deselect_excluded_all_above {
+  key = 'INPUTS_TREE_SELECTOR_DESELECT_EXCLUDED_ALL_ABOVE'
+  group = 'Inputs'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Deselect excluded above'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Fravælg ekskluderede ovenfor'
+      language_id = data.language.danish.id
+    }
+  ]
+}
