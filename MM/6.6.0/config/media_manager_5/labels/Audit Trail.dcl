@@ -1222,7 +1222,7 @@ resource configservice_label audit_trail_column_old_folder_id {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Old folder ID'
+      default_translation = 'Previous folder ID'
       language_id = data.language.english.id
     },
     {
@@ -1254,7 +1254,7 @@ resource configservice_label audit_trail_column_old_folder_path {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Old folder path'
+      default_translation = 'Previous folder path'
       language_id = data.language.english.id
     },
     {
