@@ -1194,7 +1194,7 @@ resource configservice_label audit_trail_column_old_folder_name {
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Tidligere mappe navn'
+      default_translation = 'Forrige mappenavn'
       language_id = data.language.danish.id
     }
   ]
@@ -1210,7 +1210,7 @@ resource configservice_label audit_trail_column_new_folder_name {
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Ny mappe navn'
+      default_translation = 'Nyt mappenavn'
       language_id = data.language.danish.id
     }
   ]
@@ -1226,7 +1226,7 @@ resource configservice_label audit_trail_column_old_folder_id {
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Tidligere mappe-ID'
+      default_translation = 'Forrige mappe-ID'
       language_id = data.language.danish.id
     }
   ]
@@ -1242,7 +1242,7 @@ resource configservice_label audit_trail_column_new_folder_id {
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Ny mappe-ID'
+      default_translation = 'Nyt mappe-ID'
         language_id = data.language.danish.id
     }
   ]
@@ -1258,7 +1258,7 @@ resource configservice_label audit_trail_column_old_folder_path {
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Tidligere mappe-sti'
+      default_translation = 'Forrige mappe-sti'
       language_id = data.language.danish.id
     }
   ]
@@ -1286,11 +1286,11 @@ resource configservice_label audit_trail_asset_folder_changed_summary {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Asset folder changed'
+      default_translation = 'Folder changed'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Asset-mappe ændret'
+      default_translation = 'Mappe ændret'
       language_id = data.language.danish.id
     }
   ]
