@@ -1184,3 +1184,35 @@ resource configservice_label audit_trail_view_details {
   ]
 }
 
+resource configservice_label audit_trail_column_old_folder_name {
+  key = 'AUDIT_TRAIL_COLUMN_OLD_FOLDER_NAME'
+  group = 'Audit Trail'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Previous folder'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Tidligere mappe'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label audit_trail_column_new_folder_name {
+  key = 'AUDIT_TRAIL_COLUMN_NEW_FOLDER_NAME'
+  group = 'Audit Trail'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'New folder'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Ny mappe'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
