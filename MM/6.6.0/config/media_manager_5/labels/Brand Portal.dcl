@@ -2558,3 +2558,115 @@ resource configservice_label brand_portal_folder_dialog_delete_success_body {
   ]
 }
 
+resource configservice_label brand_portal_settings_rounded_hero_banner {
+  key = 'BRAND_PORTAL_SETTINGS_ROUNDED_HERO_BANNER'
+  group = 'Brand Portal'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Rounded corners'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Afrundede hjørner'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label brand_portal_settings_rounded_folder_image {
+  key = 'BRAND_PORTAL_SETTINGS_ROUNDED_FOLDER_IMAGE'
+  group = 'Brand Portal'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Rounded corners'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Afrundede hjørner'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label brand_portal_settings_hero_banner_height {
+  key = 'BRAND_PORTAL_SETTINGS_HERO_BANNER_HEIGHT'
+  group = 'Brand Portal'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Height'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Højde'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label brand_portal_settings_hero_banner_image_format {
+  key = 'BRAND_PORTAL_SETTINGS_HERO_BANNER_IMAGE_FORMAT'
+  group = 'Brand Portal'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Image format'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Billedformat'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label brand_portal_settings_hero_banner_image_format_default {
+  key = 'BRAND_PORTAL_SETTINGS_HERO_BANNER_IMAGE_FORMAT_DEFAULT'
+  group = 'Brand Portal'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Default'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Standard'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label brand_portal_settings_folders_height {
+  key = 'BRAND_PORTAL_SETTINGS_FOLDERS_HEIGHT'
+  group = 'Brand Portal'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Height'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Højde'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label brand_portal_settings_folders_width {
+  key = 'BRAND_PORTAL_SETTINGS_FOLDERS_WIDTH'
+  group = 'Brand Portal'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Width'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Bredde'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
