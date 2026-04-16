@@ -1190,11 +1190,13 @@ resource configservice_label audit_trail_column_old_folder_name {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Previous folder'
+      default_translation = 'Previous folder name'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Tidligere mappe'
+      default_translation = 'Tidligere mappe navn'
+      language_id = data.language.danish.id
+
       language_id = data.language.danish.id
     }
   ]
@@ -1206,12 +1208,78 @@ resource configservice_label audit_trail_column_new_folder_name {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'New folder'
+      default_translation = 'New folder name'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Ny mappe'
+      default_translation = 'Ny mappe navn'
       language_id = data.language.danish.id
+
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label audit_trail_column_old_folder_id {
+  key = 'AUDIT_TRAIL_COLUMN_OLD_FOLDER_ID'
+  group = 'Audit Trail'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Old folder ID'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Tidligere mappe-ID'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label audit_trail_column_new_folder_id {
+  key = 'AUDIT_TRAIL_COLUMN_NEW_FOLDER_ID'
+  group = 'Audit Trail'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'New folder ID'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Ny mappe-ID'
+        language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label audit_trail_column_old_folder_path {
+  key = 'AUDIT_TRAIL_COLUMN_OLD_FOLDER_PATH'
+  group = 'Audit Trail'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Old folder path'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Tidligere mappe-sti'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label audit_trail_column_new_folder_path {
+  key = 'AUDIT_TRAIL_COLUMN_NEW_FOLDER_PATH'
+  group = 'Audit Trail'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'New folder path'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Ny mappe-sti'
+        language_id = data.language.danish.id
     }
   ]
 }
