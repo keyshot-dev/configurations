@@ -1216,3 +1216,19 @@ resource configservice_label audit_trail_column_new_folder_name {
   ]
 }
 
+resource configservice_label audit_trail_asset_folder_changed_summary {
+  key = 'AUDIT_TRAIL_ASSET_FOLDER_CHANGED_SUMMARY'
+  group = 'Audit Trail'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Asset folder changed'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Asset-mappe ændret'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
