@@ -1196,8 +1196,6 @@ resource configservice_label audit_trail_column_old_folder_name {
     {
       default_translation = 'Tidligere mappe navn'
       language_id = data.language.danish.id
-
-      language_id = data.language.danish.id
     }
   ]
 }
@@ -1213,8 +1211,6 @@ resource configservice_label audit_trail_column_new_folder_name {
     },
     {
       default_translation = 'Ny mappe navn'
-      language_id = data.language.danish.id
-
       language_id = data.language.danish.id
     }
   ]
