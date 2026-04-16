@@ -5,6 +5,9 @@ data member_group content_creator {
 patch member_group content_creator {
     target = data.member_group.content_creator
     ad_group_name = 'digizuite-sso-1-keyshot-oidc-handler'
+    download_qualities = [{
+            media_format_id = -1
+        }]
     parents = [{
             member_group_id = data.member_group.internal_access.member_group_id
         }, {
@@ -30,8 +33,6 @@ patch member_group content_creator {
             constant = 'Ai_Translate'
         }, {
             constant = 'Asset_Can_Crop'
-        }, {
-            constant = 'Asset_Can_Download_Custom_Quality'
         }, {
             constant = 'Asset_Can_Download'
         }, {
