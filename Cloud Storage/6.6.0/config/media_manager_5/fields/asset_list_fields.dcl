@@ -11,6 +11,6 @@ resource configservice_config_multi_string_field_value cloud_storage_web_asset_l
             value = 'fileSize'
         }]
     field_id = data.configservice_multi_string_config_field.asset_list_fields.id
-    portal_id = data.configservice_portal.cloud_storage_web.id
+    portal_id = resource.configservice_portal.cloud_storage_web.id
     language_id = 0
 }
