@@ -92,8 +92,6 @@ patch member_group content_creator {
         }, {
             constant = 'Uploader'
         }, {
-            constant = 'WorkStages_View'
-        }, {
             constant = 'MediaPortal_Audio_Embed'
         }, {
             constant = 'Can_Live_Export_System_Data'
