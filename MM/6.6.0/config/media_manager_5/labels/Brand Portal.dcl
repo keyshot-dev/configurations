@@ -2670,3 +2670,51 @@ resource configservice_label brand_portal_settings_folders_width {
   ]
 }
 
+
+resource configservice_label brand_portal_settings_folders_gap {
+  key = 'BRAND_PORTAL_SETTINGS_FOLDERS_GAP'
+  group = 'Brand Portal'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Gap between folders'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Afstand mellem mapper'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label brand_portal_settings_folders_top_gap {
+  key = 'BRAND_PORTAL_SETTINGS_FOLDERS_TOP_GAP'
+  group = 'Brand Portal'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Gap above folders'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Afstand over mapper'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label brand_portal_settings_folder_image_format {
+  key = 'BRAND_PORTAL_SETTINGS_FOLDER_IMAGE_FORMAT'
+  group = 'Brand Portal'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Folder image format'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Billedformat for mapper'
+      language_id = data.language.danish.id
+    }
+  ]
+}
