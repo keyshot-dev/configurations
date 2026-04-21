@@ -4,9 +4,22 @@ data configservice_combo_config_field default_color_mode {
     key = 'defaultColorMode'
 }
 
-resource configservice_config_string_field_value cloud_storage_web_default_color_mode {
+data configservice_combo_config_field_option default_color_mode__light {
+    configservice_field_id = data.configservice_combo_config_field.default_color_mode.id
+    value = 'light'
+}
+
+patch configservice_combo_config_field_option default_color_mode__light {
+    target = data.configservice_combo_config_field_option.default_color_mode__light
+    is_default_selected = false
+}
+
+data configservice_combo_config_field_option default_color_mode__dark {
+    configservice_field_id = data.configservice_combo_config_field.default_color_mode.id
     value = 'dark'
-    field_id = data.configservice_combo_config_field.default_color_mode.id
-    portal_id = resource.configservice_portal.cloud_storage_web.id
-    language_id = 0
+}
+
+patch configservice_combo_config_field_option default_color_mode__dark {
+    target = data.configservice_combo_config_field_option.default_color_mode__dark
+    is_default_selected = true
 }
