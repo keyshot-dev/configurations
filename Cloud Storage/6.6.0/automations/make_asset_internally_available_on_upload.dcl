@@ -18,5 +18,5 @@ action "Move asset to Internal access" {
 '
     is_disabled = false
     tags = []
-    system = false
+    system = true
 }
