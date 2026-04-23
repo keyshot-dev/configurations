@@ -2,80 +2,8 @@ data asset_category root {
     guid = '67ed66bb-14fc-4b5d-9ed7-636e65fde93c'
 }
 
-resource asset_category backplate {
-    name = 'Backplate'
-    guid = '1e26425d-8f2d-4c27-aaec-dd3d6afe5e5b'
-    is_abstract = false
-    parent_category_id = data.asset_category.root.id
-    is_sealed = false
-    description = ''
-    color = ''
-    labels = [{
-            language_id = data.language.english.id
-            label = 'Backplate'
-            description = ''
-        }]
-    is_locked = true
-    allowed_extensions = []
-    allowed_asset_types = []
-}
-
-resource asset_category environment {
-    name = 'Environment'
-    guid = 'bbe9ab41-87a7-4769-970d-25610a750846'
-    is_abstract = false
-    parent_category_id = data.asset_category.root.id
-    is_sealed = false
-    description = ''
-    color = ''
-    labels = [{
-            language_id = data.language.english.id
-            label = 'Environment'
-            description = ''
-        }]
-    is_locked = true
-    allowed_extensions = []
-    allowed_asset_types = []
-}
-
-resource asset_category geometry {
-    name = 'Geometry'
-    guid = '395eb7e0-fab3-46a3-91a1-a0eb6f9bc805'
-    is_abstract = false
-    parent_category_id = data.asset_category.root.id
-    is_sealed = false
-    description = ''
-    color = ''
-    labels = [{
-            language_id = data.language.english.id
-            label = 'Geometry'
-            description = ''
-        }]
-    is_locked = true
-    allowed_extensions = []
-    allowed_asset_types = []
-}
-
-resource asset_category material {
-    name = 'Material'
-    guid = 'e923c56f-6c0d-4914-a269-3d22ec733c70'
-    is_abstract = false
-    parent_category_id = data.asset_category.root.id
-    is_sealed = false
-    description = ''
-    color = ''
-    labels = [{
-            language_id = data.language.english.id
-            label = 'Material'
-            description = ''
-        }]
-    is_locked = true
-    allowed_extensions = []
-    allowed_asset_types = []
-}
-
-resource asset_category rendition {
-    name = 'Rendition'
+resource asset_category rendering {
+    name = 'Rendering'
     guid = '0a84adcf-261d-47d2-82f1-c7b305554cbd'
     is_abstract = false
     parent_category_id = data.asset_category.root.id
@@ -84,7 +12,7 @@ resource asset_category rendition {
     color = ''
     labels = [{
             language_id = data.language.english.id
-            label = 'Renditions'
+            label = 'Rendering'
             description = ''
         }]
     is_locked = true
@@ -92,9 +20,9 @@ resource asset_category rendition {
     allowed_asset_types = []
 }
 
-resource asset_category scene {
-    name = 'Scene'
-    guid = 'e69b166e-f854-46f6-b226-570d71c6b9a8'
+resource asset_category animation {
+    name = 'Animation'
+    guid = '091b6b3b-34a2-40d7-ae0b-dff9fed6f200'
     is_abstract = false
     parent_category_id = data.asset_category.root.id
     is_sealed = false
@@ -102,29 +30,7 @@ resource asset_category scene {
     color = ''
     labels = [{
             language_id = data.language.english.id
-            label = 'Scene'
-            description = ''
-        }]
-    is_locked = true
-    allowed_extensions = [{
-            extension = 'bip'
-        }, {
-            extension = 'ksp'
-        }]
-    allowed_asset_types = []
-}
-
-resource asset_category texture {
-    name = 'Texture'
-    guid = '352e6ba1-4170-4b39-913a-c85fff5c2b52'
-    is_abstract = false
-    parent_category_id = data.asset_category.root.id
-    is_sealed = false
-    description = ''
-    color = ''
-    labels = [{
-            language_id = data.language.english.id
-            label = 'Texture'
+            label = 'Animation'
             description = ''
         }]
     is_locked = true
@@ -132,9 +38,9 @@ resource asset_category texture {
     allowed_asset_types = []
 }
 
-resource asset_category model {
-    name = 'Model'
-    guid = 'db7b0385-2d33-444a-953c-7e05b8e0b799'
+resource asset_category animation_frame {
+    name = 'Animation Frame'
+    guid = 'a9ef861a-b7fc-4560-824d-7519f37ce417'
     is_abstract = false
     parent_category_id = data.asset_category.root.id
     is_sealed = false
@@ -142,11 +48,10 @@ resource asset_category model {
     color = ''
     labels = [{
             language_id = data.language.english.id
-            label = 'Model'
+            label = 'Animation Frame'
             description = ''
         }]
     is_locked = true
     allowed_extensions = []
     allowed_asset_types = []
 }
-
