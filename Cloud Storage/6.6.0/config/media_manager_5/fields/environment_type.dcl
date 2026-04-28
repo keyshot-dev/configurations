@@ -12,7 +12,7 @@ resource configservice_string_config_field environment_type {
 
 resource configservice_config_string_field_value environment_type {
     value = variable.environment_type
-    field_id = data.configservice_string_config_field.environment_type.id
+    field_id = resource.configservice_string_config_field.environment_type.id
     portal_id = resource.configservice_portal.cloud_storage_web.id
     language_id = 0
 }
