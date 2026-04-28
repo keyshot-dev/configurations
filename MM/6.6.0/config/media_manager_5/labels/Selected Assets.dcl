@@ -590,6 +590,22 @@ resource configservice_label selected_assets_overlay_selected_button {
   ]
 }
 
+resource configservice_label selected_assets_overlay_clear_selection {
+  key = 'SELECTED_ASSETS_OVERLAY_CLEAR_SELECTION'
+  group = 'Selected Assets'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Clear selection'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Ryd valgte'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label selected_assets_overlay_metadata_download_no_quality {
   key = 'SELECTED_ASSETS_OVERLAY_METADATA_DOWNLOAD_NO_QUALITY'
   group = 'Selected Assets'
