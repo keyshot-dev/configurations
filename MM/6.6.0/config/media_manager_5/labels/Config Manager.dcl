@@ -2357,6 +2357,22 @@ resource configservice_label portal_config_manager_section_asset_card {
   ]
 }
 
+resource configservice_label portal_config_manager_section_selected_assets {
+  key = 'PORTAL_CONFIG_MANAGER_SECTION_SELECTED_ASSETS'
+  group = 'Config Manager'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Selected assets'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Valgte assets'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label portal_config_manager_section_asset_details {
   key = 'PORTAL_CONFIG_MANAGER_SECTION_ASSET_DETAILS'
   group = 'Config Manager'
