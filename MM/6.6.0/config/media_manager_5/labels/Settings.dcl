@@ -3568,6 +3568,22 @@ resource configservice_label asset_card_settings_title {
   ]
 }
 
+resource configservice_label selected_assets_settings_title {
+  key = 'SELECTED_ASSETS_SETTINGS_TITLE'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Selected assets'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Valgte assets'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label asset_card_settings_description {
   key = 'ASSET_CARD_SETTINGS_DESCRIPTION'
   group = 'Settings'
@@ -3579,6 +3595,22 @@ resource configservice_label asset_card_settings_description {
     },
     {
       default_translation = 'Bestem hvorhenne assetkort-muligheder skal vises i både Media Manageren og connectore. Bestem hvilket metadatafelt, der skal vises under titlen i den delte sektion. Om en bruger kan se muligheder afhænger af brugerens roller og assetets egenskaber.'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label selected_assets_settings_description {
+  key = 'SELECTED_ASSETS_SETTINGS_DESCRIPTION'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Rearrange selected assets overlay options.'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Omarranger valgte assets overlay-indstillinger.'
       language_id = data.language.danish.id
     }
   ]
@@ -3755,6 +3787,22 @@ resource configservice_label asset_card_settings_section_header_description {
     },
     {
       default_translation = 'De første 3 muligheder vises på assetkortet. De resterende vil blive placeret i mere-menuen.'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label selected_assets_settings_section_header_description {
+  key = 'SELECTED_ASSETS_SETTINGS_SECTION_HEADER_DESCRIPTION'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'The first 3 options will be displayed on the selected assets overlay. The remaining will be placed in more menu.'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'De første 3 muligheder vises på overlayet for de valgte assets. De resterende vil blive placeret i mere-menuen.'
       language_id = data.language.danish.id
     }
   ]
@@ -4114,6 +4162,22 @@ resource configservice_label asset_details_connectors_section_label {
 
 resource configservice_label asset_details_options_section_header {
   key = 'ASSET_DETAILS_OPTIONS_SECTION_HEADER'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Options'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Muligheder'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label selected_assets_options_section_header {
+  key = 'SELECTED_ASSETS_OPTIONS_SECTION_HEADER'
   group = 'Settings'
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
