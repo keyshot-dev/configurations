@@ -2,8 +2,9 @@ data default_workspace_member guest {
     username = 'Guest'
 }
 
-patch default_workspace_member guest {
+patch workspace_member guest {
     target = data.workspace_member.guest
+    folder_id = data.member_folder.system_users.id
     groups = [{
             member_group_id = data.member_group.guest_profile.member_group_id
         }, {

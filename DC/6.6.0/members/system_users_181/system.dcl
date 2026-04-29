@@ -12,8 +12,6 @@ resource member system {
 resource workspace_member system {
     member_id = resource.member.system.member_id
     folder_id = resource.member_folder.system_users_181.id
-    hidden = true
-    has_full_workspace_access = true
 }
 
 resource analytics_ignored_member system {

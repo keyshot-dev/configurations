@@ -1,5 +1,9 @@
-data workspace_member superadministrator {
+data member superadministrator {
     username = 'SuperAdministrator'
+}
+
+data workspace_member superadministrator {
+    member_id = data.member.superadministrator.member_id
 }
 
 patch workspace_member superadministrator {

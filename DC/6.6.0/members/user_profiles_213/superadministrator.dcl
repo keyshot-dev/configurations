@@ -11,7 +11,6 @@ resource member superadministrator {
 
 resource workspace_member superadministrator {
     member_id = resource.member.superadministrator.member_id
-    hidden = true
     folder_id = resource.member_folder.user_profiles_213.id
     groups = [{
             member_group_id = resource.member_group.super_administrator.member_group_id
