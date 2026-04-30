@@ -2,8 +2,13 @@ data member guest {
     username = 'Guest'
 }
 
-patch member guest_patch {
-    target = data.member.guest
+data workspace_member guest {
+    member_id = data.member.guest.member_id
+}
+
+patch workspace_member guest {
+    target = data.workspace_member.guest
+    folder_id = data.member_folder.system_users.id
     groups = [{
             member_group_id = data.member_group.guest_profile.member_group_id
         }, {
