@@ -1,4 +1,4 @@
-data default_workspace_member guest {
+data workspace_member guest {
     username = 'Guest'
 }
 
