@@ -9,6 +9,17 @@ resource member guest {
     system = true
 }
 
+resource workspace_member guest {
+    member_id = resource.member.guest.member_id
+    folder_id = resource.member_folder.system_users_181.id
+    groups = [{
+            member_group_id = resource.member_group.anonymous.member_group_id
+        }, {
+            member_group_id = resource.member_group.guest_27.member_group_id
+        }]
+    roles = []
+}
+
 resource analytics_ignored_member guest {
     member_id = resource.member.guest.member_id
     reason = 'Guest user is used even when displaying the initial login screen in MM, which can cause issues with statistics, disabled by default.'
