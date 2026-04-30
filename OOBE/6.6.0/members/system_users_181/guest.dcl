@@ -1,5 +1,9 @@
-data workspace_member guest {
+data member guest {
     username = 'Guest'
+}
+
+data workspace_member guest {
+    member_id = data.member.guest.member_id
 }
 
 patch workspace_member guest {
