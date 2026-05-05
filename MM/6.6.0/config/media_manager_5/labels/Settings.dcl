@@ -6586,6 +6586,38 @@ resource configservice_label settings_service_configuration_not_found {
   ]
 }
 
+resource configservice_label settings_service_configuration_remove_value {
+  key = 'SETTINGS_SERVICE_CONFIGURATION_REMOVE_VALUE'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Remove'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Fjern'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label settings_service_configuration_add_value {
+  key = 'SETTINGS_SERVICE_CONFIGURATION_ADD_VALUE'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Add value'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Tilføj værdi'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label settings_connector_settings_label {
   key = 'SETTINGS_CONNECTOR_SETTINGS_LABEL'
   group = 'Settings'
