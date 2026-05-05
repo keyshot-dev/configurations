@@ -13,6 +13,9 @@ resource member system {
     enabled = true
     ad_username = ''
     system = true
+    autolink = {
+        item_guid = 'a04cad8f-ea2f-438d-8003-ce4e54d25985'
+    }
 }
 
 resource workspace_member system {

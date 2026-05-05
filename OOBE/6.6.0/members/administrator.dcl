@@ -6,6 +6,9 @@ resource member administrator {
     lastname = '(user profile)'
     enabled = true
     ad_username = ''
+    autolink = {
+        item_guid = '0420be50-c893-435a-9d7a-5474fa425508'
+    }
 }
 
 resource workspace_member administrator {

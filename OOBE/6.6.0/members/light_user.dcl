@@ -6,6 +6,9 @@ resource member light_user {
     lastname = '(user profile)'
     enabled = true
     ad_username = ''
+    autolink = {
+        item_guid = '78adf9fb-9ac4-48e4-840a-d34deea3a5d7'
+    }
 }
 
 resource workspace_member light_user {

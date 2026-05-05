@@ -7,6 +7,9 @@ resource member superadministrator {
     enabled = true
     ad_username = ''
     system = true
+    autolink = {
+        item_guid = '39267edc-a520-4be9-9da4-1122a1fe6e22'
+    }
 }
 
 resource workspace_member superadministrator {

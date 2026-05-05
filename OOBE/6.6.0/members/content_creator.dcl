@@ -6,6 +6,9 @@ resource member content_creator {
     lastname = '(user profile)'
     enabled = true
     ad_username = ''
+    autolink = {
+        item_guid = '28963060-6dc1-442e-a85e-1d2489819b29'
+    }
 }
 
 resource workspace_member content_creator {

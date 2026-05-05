@@ -13,6 +13,9 @@ resource member guest {
     enabled = true
     ad_username = ''
     system = true
+    autolink = {
+        item_guid = 'df838bf9-09f6-4d1d-8f58-a5df03ed9be1'
+    }
 }
 
 resource workspace_member guest {
