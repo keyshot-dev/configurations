@@ -1,3 +1,9 @@
+resource analytics_ignored_member system {
+    member_id = resource.member.system.member_id
+    reason = 'System user is used for a lot internally and will mess with statistics if not ignored'
+    ignore_enabled = true
+}
+
 resource member system {
     username = 'System'
     email = ''
@@ -12,11 +18,5 @@ resource member system {
 resource workspace_member system {
     member_id = resource.member.system.member_id
     folder_id = resource.member_folder.system_users_181.id
-}
-
-resource analytics_ignored_member system {
-    member_id = resource.member.system.member_id
-    reason = 'System user is used for a lot internally and will mess with statistics if not ignored'
-    ignore_enabled = true
 }
 

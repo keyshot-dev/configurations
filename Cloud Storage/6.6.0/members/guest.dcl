@@ -12,4 +12,3 @@ patch workspace_member guest {
     groups = []
     roles = []
 }
-

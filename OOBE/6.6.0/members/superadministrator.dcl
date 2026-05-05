@@ -12,3 +12,4 @@ patch workspace_member superadministrator {
             member_group_id = resource.member_group.scheme_super_administrator.member_group_id
         }]
 }
+

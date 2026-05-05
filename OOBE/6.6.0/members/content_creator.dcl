@@ -16,3 +16,4 @@ resource workspace_member content_creator {
         }]
     roles = []
 }
+
