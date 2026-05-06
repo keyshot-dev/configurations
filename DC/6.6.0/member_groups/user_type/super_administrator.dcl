@@ -71,8 +71,6 @@ resource member_group super_administrator {
         }, {
             constant = 'WorkStages_View_Others'
         }, {
-            constant = 'MediaPortal_Can_Preview_Office'
-        }, {
             constant = 'Can_Open_Office_Document'
         }, {
             constant = 'Saved_Searches_CRUD'
@@ -178,8 +176,6 @@ resource member_group super_administrator {
             constant = 'Collection_Super_Administrator'
         }, {
             constant = 'Collection_can_share_mail'
-        }, {
-            constant = 'Collection_can_share_zip'
         }, {
             constant = 'Collection_can_share_user'
         }, {

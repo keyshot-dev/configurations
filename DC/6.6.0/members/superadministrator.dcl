@@ -91,8 +91,6 @@ resource workspace_member superadministrator {
         }, {
             constant = 'WorkStages_View_Others'
         }, {
-            constant = 'MediaPortal_Can_Preview_Office'
-        }, {
             constant = 'Can_Open_Office_Document'
         }, {
             constant = 'Saved_Searches_CRUD'
