@@ -35,10 +35,6 @@ patch member_group light_user_patch {
         }, {
             constant = 'Comments_View'
         }, {
-            constant = 'Creative_Cloud_Connector'
-        }, {
-            constant = 'MediaPortal_Can_Preview_Office'
-        }, {
             constant = 'MediaPortal_Collection'
         }, {
             constant = 'MediaPortal_Share'

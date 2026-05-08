@@ -55,8 +55,6 @@ resource member_group administrator_22 {
         }, {
             constant = 'WorkStages_View_Others'
         }, {
-            constant = 'MediaPortal_Can_Preview_Office'
-        }, {
             constant = 'Can_Open_Office_Document'
         }, {
             constant = 'Saved_Searches_CRUD'
@@ -93,8 +91,6 @@ resource member_group administrator_22 {
         }, {
             constant = 'ConfigManagement_Admin'
         }, {
-            constant = 'Creative_Cloud_Connector'
-        }, {
             constant = 'Can_See_Generic_Job_Status'
         }, {
             constant = 'Can_configure_portals'
@@ -114,8 +110,6 @@ resource member_group administrator_22 {
             constant = 'Asset_Can_Archive'
         }, {
             constant = 'Collection_can_share_mail'
-        }, {
-            constant = 'Collection_can_share_zip'
         }, {
             constant = 'Collection_can_share_user'
         }, {

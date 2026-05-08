@@ -60,8 +60,6 @@ patch member_group administrator_patch {
         }, {
             constant = 'WorkStages_View_Others'
         }, {
-            constant = 'MediaPortal_Can_Preview_Office'
-        }, {
             constant = 'Can_Open_Office_Document'
         }, {
             constant = 'Saved_Searches_CRUD'
@@ -125,8 +123,6 @@ patch member_group administrator_patch {
             constant = 'ChannelFolder_CRUD'
         }, {
             constant = 'ChannelFolder_View'
-        }, {
-            constant = 'Creative_Cloud_Connector'
         }, {
             constant = 'Can_configure_portals'
         }, {
