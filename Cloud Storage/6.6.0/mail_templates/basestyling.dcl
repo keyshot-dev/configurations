@@ -65,16 +65,16 @@ patch mail_template basestyling {
         background-color: #e1e8f0;
     }
     .email-body_inner {
-        width: 570px;
+        width: 100%;
         margin: 0 auto;
         padding: 0;
-        -premailer-width: 570px;
+        -premailer-width: 100%;
         -premailer-cellpadding: 0;
         -premailer-cellspacing: 0;
         background-color: #e1e8f0;
     }
     .email-footer {
-        width: 570px;
+        width: 100%;
         margin: 0 auto;
         padding: 0;
         -premailer-width: 570px;
@@ -138,17 +138,18 @@ patch mail_template basestyling {
         color: #212121;
         font-size: 19px;
         font-weight: bold;
-        text-align: left;
+        text-align: center;
     }
     p {
         margin-top: 0;
         color: #212121;
         font-size: 16px;
         line-height: 1.5em;
-        text-align: left;
+        text-align: center;
     }
     p.sub {
         font-size: 12px;
+        color: #2b2b2b
     }
     p.center {
         text-align: center;

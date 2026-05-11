@@ -12,7 +12,7 @@ patch mail_template standardfooter {
         </tr>
     <tr>
     <td>
-        <table class="email-footer" align="center" width="570" cellpadding="0" cellspacing="0">
+        <table class="email-footer" align="center" width="100%" cellpadding="0" cellspacing="0">
             <tr>
                 <td class="content-cell" align="center">
                     <div class="sub align-center">&copy; {{system.year}} KeyShot</div>
