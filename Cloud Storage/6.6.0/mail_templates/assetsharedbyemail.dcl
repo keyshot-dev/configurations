@@ -14,12 +14,6 @@ patch mail_template assetsharedbyemail {
 <span class="preheader">{{sender.name  | html.escape}} has shared an asset with you.</span>
 
 {{include \'standard-header\'}}
-<div class="align-center">
-    <h1>Hello {{receiver.name | html.escape}}!</h1>
-    <p>{{sender.name | html.escape}} ({{sender.email_address | html.escape}}) has shared an shared asset with you.
-    <br>
-    <br>
-</div>
 
 <!-- Action -->
 <table class="body-action" align="center" width="100%" cellpadding="0"
@@ -30,6 +24,12 @@ patch mail_template assetsharedbyemail {
                 <tr>
                     <td align="center">
                         <table border="0" cellspacing="0" cellpadding="0">
+                            <tr>
+                                <td>
+                                    <h1>Hello {{receiver.name | html.escape}}!</h1>
+                                    <p>{{sender.name | html.escape}} ({{sender.email_address | html.escape}}) has shared an shared asset with you.</p>
+                                </td>
+                            </tr>
                             <tr>
                                 <td>
                                     <a href="{{data.url}}"

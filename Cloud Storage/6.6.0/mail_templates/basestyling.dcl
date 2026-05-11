@@ -15,12 +15,12 @@ patch mail_template basestyling {
         height: 100%;
         margin: 0;
         line-height: 1.4;
-        background-color: #F2F4F6;
-        color: #74787E;
+        background-color: #e1e8f0;
+        color: #000000;
         -webkit-text-size-adjust: none;
     }
     a {
-        color: #f65800;
+        color: #0058f9;
     }
     a img {
         border: none;
@@ -36,7 +36,7 @@ patch mail_template basestyling {
         -premailer-width: 100%;
         -premailer-cellpadding: 0;
         -premailer-cellspacing: 0;
-        background-color: #F2F4F6;
+        background-color: #e1e8f0;
     }
     .email-content {
         width: 100%;
@@ -62,9 +62,7 @@ patch mail_template basestyling {
         -premailer-width: 100%;
         -premailer-cellpadding: 0;
         -premailer-cellspacing: 0;
-        border-top: 1px solid #EDEFF2;
-        border-bottom: 1px solid #EDEFF2;
-        background-color: #FFFFFF;
+        background-color: #e1e8f0;
     }
     .email-body_inner {
         width: 570px;
@@ -73,7 +71,7 @@ patch mail_template basestyling {
         -premailer-width: 570px;
         -premailer-cellpadding: 0;
         -premailer-cellspacing: 0;
-        background-color: #FFFFFF;
+        background-color: #e1e8f0;
     }
     .email-footer {
         width: 570px;
@@ -83,6 +81,8 @@ patch mail_template basestyling {
         -premailer-cellpadding: 0;
         -premailer-cellspacing: 0;
         text-align: center;
+        background-color: #151515;
+        color: #ffffff;
     }
     .email-footer p {
         color: #212121;
@@ -98,7 +98,6 @@ patch mail_template basestyling {
     .body-sub {
         margin-top: 16px;
         padding-top: 25px;
-        border-top: 1px solid #EDEFF2;
     }
     .content-cell {
         padding: 35px;
@@ -121,11 +120,11 @@ patch mail_template basestyling {
     }
     /* Buttons ------------------------------ */
     .button {
-        background-color: #0044F7;
-        border-top: 10px solid #0044F7;
-        border-right: 18px solid #0044F7;
-        border-bottom: 10px solid #0044F7;
-        border-left: 18px solid #0044F7;
+        background-color: #0058f9;
+        border-top: 10px solid #0058f9;
+        border-right: 18px solid #0058f9;
+        border-bottom: 10px solid #0058f9;
+        border-left: 18px solid #0058f9;
         display: inline-block;
         color: #FFF;
         text-decoration: none;
