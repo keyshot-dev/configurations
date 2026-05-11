@@ -3,6 +3,7 @@ data mail_template assetsharedbyemail {
 }
 
 patch mail_template assetsharedbyemail {
+    target = data.mail_template.assetsharedbyemail
     subject = "You have been invited to view an asset"
     body = '{{include \'html-header-start\'}}
 
