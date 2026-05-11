@@ -55,8 +55,4 @@ patch mail_template assetsharedbyemail {
 </table>
 
 {{include \'standard-footer\'}}'
-    autolink = {
-        language_id = resource.language.english.id
-        template_name = 'asset-shared-by-email'
-    }
 }
