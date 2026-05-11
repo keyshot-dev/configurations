@@ -31,9 +31,9 @@ patch mail_template assetsharedbyemail {
                                 </td>
                             </tr>
                             <tr>
-                                <td>
+                                <td align="center">
                                     <a href="{{data.url}}"
-                                       class="button" target="_blank">View the asset</a>
+                                       class="button" target="_blank">View asset</a>
                                 </td>
                             </tr>
                         </table>
@@ -44,7 +44,7 @@ patch mail_template assetsharedbyemail {
     </tr>
 </table>
 <!-- Sub copy -->
-<table class="body-sub">
+<table class="body-sub" width="100%">
     <tr>
         <td>
             <p class="sub">If you\'re having trouble with the button above, copy and

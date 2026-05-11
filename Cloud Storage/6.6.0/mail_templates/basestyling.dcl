@@ -15,7 +15,7 @@ patch mail_template basestyling {
         height: 100%;
         margin: 0;
         line-height: 1.4;
-        background-color: #e1e8f0;
+        background-color: #ffffff;
         color: #000000;
         -webkit-text-size-adjust: none;
     }
@@ -76,8 +76,8 @@ patch mail_template basestyling {
     .email-footer {
         width: 100%;
         margin: 0 auto;
-        padding: 0;
-        -premailer-width: 570px;
+        padding: 30px;
+        -premailer-width: 100%;
         -premailer-cellpadding: 0;
         -premailer-cellspacing: 0;
         text-align: center;
@@ -98,6 +98,7 @@ patch mail_template basestyling {
     .body-sub {
         margin-top: 16px;
         padding-top: 25px;
+        color: #444444;
     }
     .content-cell {
         padding: 35px;
