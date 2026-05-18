@@ -55,8 +55,6 @@ patch member_group content_creator_patch {
         }, {
             constant = 'Comments_View'
         }, {
-            constant = 'Creative_Cloud_Connector'
-        }, {
             constant = 'FileRepository_Delete'
         }, {
             constant = 'FileRepository_Read'
@@ -64,8 +62,6 @@ patch member_group content_creator_patch {
             constant = 'FileRepository_Upload'
         }, {
             constant = 'ItemCheckInOut_CRUD'
-        }, {
-            constant = 'MediaPortal_Can_Preview_Office'
         }, {
             constant = 'MediaPortal_Collection'
         }, {

@@ -1,10 +1,31 @@
-data member_group administrator {
-    name = 'Administrator'
+resource member superadministrator {
+    username = 'SuperAdministrator'
+    email = ''
+    language = resource.language.english.id
+    firstname = 'Super administrator'
+    lastname = '(user profile)'
+    enabled = true
+    ad_username = ''
+    system = true
+    autolink = {
+        item_guid = '39267edc-a520-4be9-9da4-1122a1fe6e22'
+    }
 }
 
-patch member_group administrator_patch {
-    target = data.member_group.administrator
-    name = 'Administrator (profile)'
+resource workspace_member superadministrator {
+    member_id = resource.member.superadministrator.member_id
+    folder_id = resource.member_folder.user_profiles_213.id
+    groups = [{
+            member_group_id = resource.member_group.super_administrator.member_group_id
+        }, {
+            member_group_id = resource.member_group.trusted.member_group_id
+        }, {
+            member_group_id = resource.member_group.administrator_22.member_group_id
+        }, {
+            member_group_id = resource.member_group.internal_access_29.member_group_id
+        }, {
+            member_group_id = resource.member_group.public_access_30.member_group_id
+        }]
     roles = [{
             constant = 'Uploader'
         }, {
@@ -14,17 +35,27 @@ patch member_group administrator_patch {
         }, {
             constant = 'Editor_SystemTools_Metadata'
         }, {
+            constant = 'Administrator'
+        }, {
+            constant = 'Editor_SystemTools_DigizuiteConfig'
+        }, {
             constant = 'RunningJobs_View'
         }, {
             constant = 'RunningJobs_ViewAll'
         }, {
             constant = 'RunningJobs_AdminViewBatchPackageInfo'
         }, {
+            constant = 'Editor_SystemTools_Config'
+        }, {
+            constant = 'Editor_SystemTools_AlwaysAllowItemSecurityEdit'
+        }, {
             constant = 'MediaPortal_Admin_StartScreen'
         }, {
             constant = 'MediaPortal_User'
         }, {
             constant = 'MediaPortal_Collection'
+        }, {
+            constant = 'Editor_SystemTools_MetaDataLanguage'
         }, {
             constant = 'Member_Viewer'
         }, {
@@ -102,9 +133,17 @@ patch member_group administrator_patch {
         }, {
             constant = 'Comments_Admin_Update'
         }, {
+            constant = 'Business_Workflow_General_Transition_Executor'
+        }, {
+            constant = 'Business_Workflow_Instance_Delete'
+        }, {
             constant = 'Business_Workflow_Instance_View'
         }, {
             constant = 'Business_Workflow_Instance_Transition'
+        }, {
+            constant = 'Business_Workflow_Instance_Assign'
+        }, {
+            constant = 'EditSso'
         }, {
             constant = 'FileRepository_Read'
         }, {
@@ -116,6 +155,8 @@ patch member_group administrator_patch {
         }, {
             constant = 'MailTemplates_CRUD'
         }, {
+            constant = 'Can_Force_Job_Status_Change'
+        }, {
             constant = 'Can_Rerun_Workflows'
         }, {
             constant = 'ItemCheckInOut_CRUD'
@@ -123,6 +164,12 @@ patch member_group administrator_patch {
             constant = 'ChannelFolder_CRUD'
         }, {
             constant = 'ChannelFolder_View'
+        }, {
+            constant = 'ConfigManagement_Admin'
+        }, {
+            constant = 'Can_See_Generic_Job_Status'
+        }, {
+            constant = 'Can_Admin_Accelerated_Search'
         }, {
             constant = 'Can_configure_portals'
         }, {
@@ -132,37 +179,21 @@ patch member_group administrator_patch {
         }, {
             constant = 'Can_view_related_assets'
         }, {
+            constant = 'Can_manage_filters_and_fields'
+        }, {
+            constant = 'Can_configure_metadata_sharing'
+        }, {
+            constant = 'Can_view_service_health'
+        }, {
             constant = 'Asset_Can_Archive'
         }, {
-            constant = 'Can_Switch_To_Database_Mode'
+            constant = 'Can_view_rabbit_health'
         }, {
-            constant = 'SystemAdministrationAuditTrail_View'
+            constant = 'Can_crud_rabbit_health'
         }, {
-            constant = 'AssetCategories_reader'
+            constant = 'Collection_Super_Administrator'
         }, {
-            constant = 'AssetCategories_writer'
-        }, {
-            constant = 'AssetRelationTypes_reader'
-        }, {
-            constant = 'AssetRelationTypes_writer'
-        }, {
-            constant = 'MediaPortal_Audio_Embed'
-        }, {
-            constant = 'Can_Live_Export_System_Data'
-        }, {
-            constant = 'MediaPortal_360Viewer_Embed'
-        }, {
-            constant = 'Can_Customize_Search_Filters_In_Frontend'
-        }, {
-            constant = 'workspaces:management'
-        }, {
-            constant = 'workspaces:users:management'
-        }, {
-            constant = 'Can_trim_email'
-        }, {
-            constant = 'FoldersRead'
-        }, {
-            constant = 'FoldersCrud'
+            constant = 'Can_publish'
         }]
 }
 
