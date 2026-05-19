@@ -12529,6 +12529,22 @@ resource configservice_label administration_tools_system_workspaces_add_new {
   ]
 }
 
+resource configservice_label administration_tools_system_workspaces_creating {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_WORKSPACES_CREATING'
+  group = 'administration-tools - system - workspaces'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Creating workspace...'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Opretter arbejdsområde...'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label administration_tools_system_workspaces_refresh {
   key = 'ADMINISTRATION_TOOLS_SYSTEM_WORKSPACES_REFRESH'
   group = 'administration-tools - system - workspaces'
