@@ -1,10 +1,9 @@
-data mail_template foldersharedbyemail {
+resource mail_template foldersharedbyemail {
+    portal_name = ''
+    language_id = resource.language.english.id
     template_name = 'folder-shared-by-email'
-}
-
-patch mail_template foldersharedbyemail {
-    target = data.mail_template.foldersharedbyemail
     subject = "You have been invited to view a folder"
+    system = true
     body = '{{include \'html-header-start\'}}
 
 <title>View a shared folder</title>
@@ -55,4 +54,10 @@ patch mail_template foldersharedbyemail {
 </table>
 
 {{include \'standard-footer\'}}'
+    autolink = {
+        portal_name = ''
+        language_id = resource.language.english.id
+        template_name = 'folder-shared-by-email'
+    }
 }
+

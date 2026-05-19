@@ -2,7 +2,7 @@ resource mail_template foldersharedbyemail {
     portal_name = ''
     language_id = resource.language.english.id
     template_name = 'folder-shared-by-email'
-    subject = "{{sender.name}} has invited you to view a shared folder"
+    subject = "You have been invited to view a folder"
     system = true
     body = '{{include \'html-header-start\'}}
 
@@ -10,16 +10,10 @@ resource mail_template foldersharedbyemail {
 
 {{include \'html-header-end\'}}
 
-<span class="preheader">{{sender.name  | html.escape}} has invited you to view a shared folder</span>
+<span class="preheader">{{sender.name  | html.escape}} has shared a folder with you.</span>
 
 {{include \'standard-header\'}}
 
-<h1>Hi {{receiver.name | html.escape}},</h1>
-<p>{{sender.name | html.escape}} ({{sender.email_address | html.escape}}) has invited you to view a shared folder. Enjoy!
-    <br>
-    <br>
-    <strong>Message from {{sender.name | html.escape}}:</strong>
-    <br>{{data.message | html.escape | digizuite.line_breaks_to_br}}</p>
 <!-- Action -->
 <table class="body-action" align="center" width="100%" cellpadding="0"
        cellspacing="0">
@@ -31,8 +25,14 @@ resource mail_template foldersharedbyemail {
                         <table border="0" cellspacing="0" cellpadding="0">
                             <tr>
                                 <td>
+                                    <h1>Hello {{receiver.name | html.escape}}!</h1>
+                                    <p>{{sender.name | html.escape}} ({{sender.email_address | html.escape}}) has shared a folder with you.</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td align="center">
                                     <a href="{{data.url}}"
-                                       class="button" target="_blank">Open the folder</a>
+                                       class="button" target="_blank">View folder</a>
                                 </td>
                             </tr>
                         </table>
@@ -43,7 +43,7 @@ resource mail_template foldersharedbyemail {
     </tr>
 </table>
 <!-- Sub copy -->
-<table class="body-sub">
+<table class="body-sub" width="100%">
     <tr>
         <td>
             <p class="sub">If you\'re having trouble with the button above, copy and
