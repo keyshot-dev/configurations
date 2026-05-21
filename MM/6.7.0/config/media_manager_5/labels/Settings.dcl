@@ -3798,11 +3798,11 @@ resource configservice_label selected_assets_settings_section_header_description
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'The first 3 options will be displayed on the selected assets overlay. The remaining will be placed in more menu.'
+      default_translation = 'The first {{primaryCount}} actions appear as primary buttons in the overlay; the rest are shown in the overflow menu. Some actions are only available in specific views - for example, Insert is only shown in the Embedded view (Connector).'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'De første 3 muligheder vises på overlayet for de valgte assets. De resterende vil blive placeret i mere-menuen.'
+      default_translation = 'De første {{primaryCount}} handlinger vises som primære knapper i overlayet; resten placeres i mere-menuen. Nogle handlinger er kun tilgængelige i bestemte visninger – f.eks. vises Indsæt kun i den indlejrede visning (Connector).'
       language_id = data.language.danish.id
     }
   ]
