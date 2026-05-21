@@ -1,17 +1,16 @@
-data mail_template assetsharedbyemail {
-    template_name = 'asset-shared-by-email'
-}
-
-patch mail_template assetsharedbyemail {
-    target = data.mail_template.assetsharedbyemail
-    subject = "You have been invited to view an asset"
+resource mail_template foldersharedbyemail {
+    portal_name = ''
+    language_id = resource.language.english.id
+    template_name = 'folder-shared-by-email'
+    subject = "You have been invited to view a folder"
+    system = true
     body = '{{include \'html-header-start\'}}
 
-<title>View a shared asset</title>
+<title>View a shared folder</title>
 
 {{include \'html-header-end\'}}
 
-<span class="preheader">{{sender.name  | html.escape}} has shared an asset with you.</span>
+<span class="preheader">{{sender.name  | html.escape}} has shared a folder with you.</span>
 
 {{include \'standard-header\'}}
 
@@ -27,13 +26,13 @@ patch mail_template assetsharedbyemail {
                             <tr>
                                 <td>
                                     <h1>Hello {{receiver.name | html.escape}}!</h1>
-                                    <p>{{sender.name | html.escape}} ({{sender.email_address | html.escape}}) has shared an asset with you.</p>
+                                    <p>{{sender.name | html.escape}} ({{sender.email_address | html.escape}}) has shared a folder with you.</p>
                                 </td>
                             </tr>
                             <tr>
                                 <td align="center">
                                     <a href="{{data.url}}"
-                                       class="button" target="_blank">View asset</a>
+                                       class="button" target="_blank">View folder</a>
                                 </td>
                             </tr>
                         </table>
@@ -55,4 +54,10 @@ patch mail_template assetsharedbyemail {
 </table>
 
 {{include \'standard-footer\'}}'
+    autolink = {
+        portal_name = ''
+        language_id = resource.language.english.id
+        template_name = 'folder-shared-by-email'
+    }
 }
+
