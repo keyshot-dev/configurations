@@ -10,5 +10,7 @@ patch workspace_member guest {
     target = data.workspace_member.guest
     folder_id = data.member_folder.system_users.id
     groups = []
-    roles = []
+    roles = [{
+        constant = 'MediaPortal_User'
+    }]
 }
