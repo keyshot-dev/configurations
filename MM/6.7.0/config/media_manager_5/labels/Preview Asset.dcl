@@ -1391,6 +1391,22 @@ resource configservice_label related_assets_add_asset_relation_popup_search_plac
   ]
 }
 
+resource configservice_label related_assets_add_asset_relation_popup_show_hidden_assets {
+  key = 'RELATED_ASSETS_ADD_ASSET_RELATION_POPUP_SHOW_HIDDEN_ASSETS'
+  group = 'Preview Asset - Related Assets'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Show hidden assets'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Vis skjulte assets'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label related_assets_add_asset_relation_popup_sort_criteria_direction {
   key = 'RELATED_ASSETS_ADD_ASSET_RELATION_POPUP_SORT_CRITERIA_DIRECTION'
   group = 'Preview Asset - Related Assets'
