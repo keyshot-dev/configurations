@@ -5,7 +5,7 @@ data configservice_multi_int_config_field paging_sizes {
     key = 'pagingSizes'
 }
 
-resource configservice_multi_int_config_field paging_sizes {
+resource configservice_multi_int_config_field cloud_storage_web_paging_sizes {
     values = [{
             value = 100
         }]
