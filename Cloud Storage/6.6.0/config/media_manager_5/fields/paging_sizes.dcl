@@ -1,6 +1,6 @@
 data configservice_multi_int_config_field paging_sizes {
     type = 'Int'
-    product_id = resource.configservice_product.media_manager_5.id
+    product_id = data.configservice_product.media_manager_5.id
     group = 'default'
     key = 'pagingSizes'
 }
