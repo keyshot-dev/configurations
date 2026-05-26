@@ -9,7 +9,7 @@ resource configservice_multi_int_config_field cloud_storage_web_paging_sizes {
     values = [{
             value = 100
         }]
-    field_id = data.configservice_string_config_field.theming_details.id
+    field_id = data.configservice_multi_int_config_field.paging_sizes.id
     portal_id = resource.configservice_portal.cloud_storage_web.id
     language_id = 0
 }
