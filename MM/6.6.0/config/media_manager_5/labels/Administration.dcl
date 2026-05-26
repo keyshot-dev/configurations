@@ -8463,6 +8463,22 @@ resource configservice_label administration_tools_system_metadata_restrict_to_as
   ]
 }
 
+resource configservice_label administration_tools_system_metadata_hide_on_asset_categories {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_METADATA_HIDE_ON_ASSET_CATEGORIES'
+  group = 'administration-tools - system - metadata'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Hide on asset categories'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Skjul på asset-kategorierr'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label administration_tools_system_metadata_restrict_to_asset_categories_tooltip {
   key = 'ADMINISTRATION_TOOLS_SYSTEM_METADATA_RESTRICT_TO_ASSET_CATEGORIES_TOOLTIP'
   group = 'administration-tools - system - metadata'
@@ -8474,6 +8490,22 @@ resource configservice_label administration_tools_system_metadata_restrict_to_as
     },
     {
       default_translation = 'Dette metadatafelt vises kun på assets i de kategorier, du angiver her, inkl. deres nedarvede kategorier. Bemærk, at hvis den øverste kategori er angivet, vil feltet altid være synligt.'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_metadata_restrict_to_asset_categories_exclude_tooltip {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_METADATA_RESTRICT_TO_ASSET_CATEGORIES_EXCLUDE_TOOLTIP'
+  group = 'administration-tools - system - metadata'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'The metadata field will not be displayed on assets in the categories you set here, including their inherited categories. Please note, if the top-most category is set, the field will never be visible.'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Metadatafeltet vil ikke blive vist på assets i de kategorier, du angiver her, inklusive deres nedarvede kategorier. Bemærk, at hvis den øverste kategori er angivet, vil feltet aldrig være synligt.'
       language_id = data.language.danish.id
     }
   ]
