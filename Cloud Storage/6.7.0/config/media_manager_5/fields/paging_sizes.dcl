@@ -6,12 +6,8 @@ data configservice_multi_int_config_field paging_sizes {
 }
 
 resource configservice_multi_int_config_field paging_sizes {
-    values = [{{
+    values = [{
             value = 100
-        }, {
-            value = 150
-        }, {
-            value = 200
         }]
     field_id = data.configservice_string_config_field.theming_details.id
     portal_id = resource.configservice_portal.cloud_storage_web.id
