@@ -44,8 +44,6 @@ patch member_group content_creator {
         }, {
             constant = 'AssetCategories_reader'
         }, {
-            constant = 'AuditTrail_View'
-        }, {
             constant = 'Can_Live_Export_Asset_Only'
         }, {
             constant = 'Can_Live_Export_Assets_And_Metadata'
