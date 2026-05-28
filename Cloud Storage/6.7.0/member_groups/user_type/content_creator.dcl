@@ -99,6 +99,8 @@ patch member_group content_creator {
             constant = 'FoldersRead'
         }, {
             constant = 'FoldersCrud'
+        }, {
+            constant = 'KeyChat_User'
         }]
 }
 
