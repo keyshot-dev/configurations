@@ -3397,6 +3397,23 @@ resource configservice_label administration_tools_sso_section_use_workspace_clai
 }
 
 
+resource configservice_label administration_tools_sso_section_use_workspace_claims_tooltip {
+  key = 'ADMINISTRATION_TOOLS_SSO_SECTION_USE_WORKSPACE_CLAIMS_TOOLTIP'
+  group = 'administration-tools - sso-section'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'If enabled, the workspace claims from the SSO token will be used to determine which workspace the user should be placed in.'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Hvis aktiveret, vil workspace claims fra SSO-tokenet blive brugt til at bestemme, hvilket workspace brugeren skal placeres i.'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+
 resource configservice_label administration_tools_sso_section_sort_index_tooltip {
   key = 'ADMINISTRATION_TOOLS_SSO_SECTION_SORT_INDEX_TOOLTIP'
   group = 'administration-tools - sso-section'
