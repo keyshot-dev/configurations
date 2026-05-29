@@ -3407,7 +3407,7 @@ resource configservice_label administration_tools_sso_section_use_workspace_clai
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Hvis aktiveret, vil workspace claims fra SSO-tokenet blive brugt til at bestemme, hvilken workspace brugeren skal placeres i.'
+      default_translation = 'Hvis aktiveret, vil workspace claims fra SSO-tokenet blive brugt til at bestemme, hvilket workspace brugeren skal placeres i.'
       language_id = data.language.danish.id
     }
   ]
