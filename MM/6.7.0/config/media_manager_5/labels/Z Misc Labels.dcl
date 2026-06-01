@@ -462,22 +462,6 @@ resource configservice_label selected_assets_overlay_options_multi_insert_invali
   ]
 }
 
-resource configservice_label selected_assets_overlay_options_group_edit {
-  key = 'SELECTED_ASSETS_OVERLAY_OPTIONS_GROUP_EDIT'
-  group = 'Z Misc Labels'
-  product_id = resource.configservice_product.media_manager_5.id
-  default_label_values = [
-    {
-      default_translation = 'Group Edit'
-      language_id = data.language.english.id
-    },
-    {
-      default_translation = 'Gruppe-rediger'
-      language_id = data.language.danish.id
-    }
-  ]
-}
-
 resource configservice_label selected_assets_overlay_options_download {
   key = 'SELECTED_ASSETS_OVERLAY_OPTIONS_DOWNLOAD'
   group = 'Z Misc Labels'
