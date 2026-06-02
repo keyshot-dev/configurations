@@ -11,4 +11,6 @@ patch workspace_member guest {
     folder_id = data.member_folder.system_users.id
     groups = []
     roles = []
+	hidden = true
+	has_full_workspace_access = false
 }
