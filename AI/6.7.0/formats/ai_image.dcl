@@ -1,5 +1,6 @@
 resource format ai_image {
     name = 'AI Image'
+    guid = '829a4523-628f-4f6d-9a9b-325a1c2b90df'
     description = 'Image format used for training computer vision models.'
     immediately_generated_for = [{
             asset_type = 'Image'
