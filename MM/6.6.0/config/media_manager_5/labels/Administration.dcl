@@ -13922,6 +13922,22 @@ resource configservice_label administration_tools_system_metadata_combo_values_e
   ]
 }
 
+resource configservice_label administration_tools_system_metadata_combo_values_editor_export {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_METADATA_COMBO_VALUES_EDITOR_EXPORT'
+  group = 'administration-tools - system - metadata'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Export combo values'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Eksportér combo-værdier'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label administration_tools_system_metadata_combo_values_editor_text {
   key = 'ADMINISTRATION_TOOLS_SYSTEM_METADATA_COMBO_VALUES_EDITOR_TEXT'
   group = 'administration-tools - system - metadata'
