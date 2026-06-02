@@ -1,5 +1,5 @@
-resource format internal_ai_image {
-    name = 'Internal AI Image'
+resource format ai_image {
+    name = 'AI Image'
     description = 'Image format used for training computer vision models.'
     immediately_generated_for = [{
             asset_type = 'Image'
