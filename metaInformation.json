@@ -10,6 +10,11 @@
         "locked": true
     },
     {
+        "name": "AI",
+        "order": -92,
+        "locked": true
+    },
+    {
         "name": "DFS",
         "order": -90,
         "locked": true
