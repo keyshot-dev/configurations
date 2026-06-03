@@ -13938,6 +13938,38 @@ resource configservice_label administration_tools_system_metadata_combo_values_e
   ]
 }
 
+resource configservice_label administration_tools_system_metadata_combo_values_editor_export_error_title {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_METADATA_COMBO_VALUES_EDITOR_EXPORT_ERROR_TITLE'
+  group = 'administration-tools - system - metadata'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Failed'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Mislykket'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_metadata_combo_values_editor_export_error_content {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_METADATA_COMBO_VALUES_EDITOR_EXPORT_ERROR_CONTENT'
+  group = 'administration-tools - system - metadata'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Combo values not exported'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Combo-værdier blev ikke eksporteret'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label administration_tools_system_metadata_combo_values_editor_import {
   key = 'ADMINISTRATION_TOOLS_SYSTEM_METADATA_COMBO_VALUES_EDITOR_IMPORT'
   group = 'administration-tools - system - metadata'
@@ -13949,118 +13981,6 @@ resource configservice_label administration_tools_system_metadata_combo_values_e
     },
     {
       default_translation = 'Importér combo-værdier'
-      language_id = data.language.danish.id
-    }
-  ]
-}
-
-resource configservice_label administration_tools_system_metadata_combo_values_editor_import_banner {
-  key = 'ADMINISTRATION_TOOLS_SYSTEM_METADATA_COMBO_VALUES_EDITOR_IMPORT_BANNER'
-  group = 'administration-tools - system - metadata'
-  product_id = resource.configservice_product.media_manager_5.id
-  default_label_values = [
-    {
-      default_translation = '{count, cardinalPlural, one {1 value ready to be imported} other {{{count}} values ready to be imported}}'
-      language_id = data.language.english.id
-    },
-    {
-      default_translation = '{count, cardinalPlural, one {1 værdi klar til import} other {{{count}} værdier klar til import}}'
-      language_id = data.language.danish.id
-    }
-  ]
-}
-
-resource configservice_label administration_tools_system_metadata_combo_values_editor_import_apply {
-  key = 'ADMINISTRATION_TOOLS_SYSTEM_METADATA_COMBO_VALUES_EDITOR_IMPORT_APPLY'
-  group = 'administration-tools - system - metadata'
-  product_id = resource.configservice_product.media_manager_5.id
-  default_label_values = [
-    {
-      default_translation = '{saving, select, true {Saving...} false {Save imports}}'
-      language_id = data.language.english.id
-    },
-    {
-      default_translation = '{saving, select, true {Gemmer...} false {Gem import}}'
-      language_id = data.language.danish.id
-    }
-  ]
-}
-
-resource configservice_label administration_tools_system_metadata_combo_values_editor_import_discard {
-  key = 'ADMINISTRATION_TOOLS_SYSTEM_METADATA_COMBO_VALUES_EDITOR_IMPORT_DISCARD'
-  group = 'administration-tools - system - metadata'
-  product_id = resource.configservice_product.media_manager_5.id
-  default_label_values = [
-    {
-      default_translation = 'Discard imports'
-      language_id = data.language.english.id
-    },
-    {
-      default_translation = 'Kassér import'
-      language_id = data.language.danish.id
-    }
-  ]
-}
-
-resource configservice_label administration_tools_system_metadata_combo_values_editor_import_parse_error_title {
-  key = 'ADMINISTRATION_TOOLS_SYSTEM_METADATA_COMBO_VALUES_EDITOR_IMPORT_PARSE_ERROR_TITLE'
-  group = 'administration-tools - system - metadata'
-  product_id = resource.configservice_product.media_manager_5.id
-  default_label_values = [
-    {
-      default_translation = 'Invalid file'
-      language_id = data.language.english.id
-    },
-    {
-      default_translation = 'Ugyldig fil'
-      language_id = data.language.danish.id
-    }
-  ]
-}
-
-resource configservice_label administration_tools_system_metadata_combo_values_editor_import_parse_error_content {
-  key = 'ADMINISTRATION_TOOLS_SYSTEM_METADATA_COMBO_VALUES_EDITOR_IMPORT_PARSE_ERROR_CONTENT'
-  group = 'administration-tools - system - metadata'
-  product_id = resource.configservice_product.media_manager_5.id
-  default_label_values = [
-    {
-      default_translation = 'Failed to parse the file. Make sure it is a valid CSV with Text and Value columns.'
-      language_id = data.language.english.id
-    },
-    {
-      default_translation = 'Kunne ikke læse filen. Sørg for at det er en gyldig CSV-fil med kolonnerne Text og Value.'
-      language_id = data.language.danish.id
-    }
-  ]
-}
-
-resource configservice_label administration_tools_system_metadata_combo_values_editor_import_duplicates_skipped_title {
-  key = 'ADMINISTRATION_TOOLS_SYSTEM_METADATA_COMBO_VALUES_EDITOR_IMPORT_DUPLICATES_SKIPPED_TITLE'
-  group = 'administration-tools - system - metadata'
-  product_id = resource.configservice_product.media_manager_5.id
-  default_label_values = [
-    {
-      default_translation = 'Duplicates skipped'
-      language_id = data.language.english.id
-    },
-    {
-      default_translation = 'Dubletter sprunget over'
-      language_id = data.language.danish.id
-    }
-  ]
-}
-
-resource configservice_label administration_tools_system_metadata_combo_values_editor_import_duplicates_skipped_content {
-  key = 'ADMINISTRATION_TOOLS_SYSTEM_METADATA_COMBO_VALUES_EDITOR_IMPORT_DUPLICATES_SKIPPED_CONTENT'
-  group = 'administration-tools - system - metadata'
-  product_id = resource.configservice_product.media_manager_5.id
-  default_label_values = [
-    {
-      default_translation = '{count, cardinalPlural, one {1 duplicate value was skipped} other {{{count}} duplicate values were skipped}}'
-      language_id = data.language.english.id
-    },
-    {
-      default_translation = '{count, cardinalPlural, one {1 dubletværdi blev sprunget over} other {{{count}} dubletværdier blev sprunget over}}'
       language_id = data.language.danish.id
     }
   ]
@@ -14088,11 +14008,11 @@ resource configservice_label administration_tools_system_metadata_combo_values_e
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = '{count, cardinalPlural, one {1 combo value imported} other {{{count}} combo values imported}}'
+      default_translation = 'Combo values imported'
       language_id = data.language.english.id
     },
     {
-      default_translation = '{count, cardinalPlural, one {1 combo-værdi importeret} other {{{count}} combo-værdier importeret}}'
+      default_translation = 'Combo-værdier importeret'
       language_id = data.language.danish.id
     }
   ]
@@ -14120,11 +14040,11 @@ resource configservice_label administration_tools_system_metadata_combo_values_e
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Failed to save imported combo values'
+      default_translation = 'Combo values not imported'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Kunne ikke gemme importerede combo-værdier'
+      default_translation = 'Combo-værdier blev ikke importeret'
       language_id = data.language.danish.id
     }
   ]
