@@ -12530,6 +12530,358 @@ resource configservice_label administration_tools_system_asset_relation_types_sy
   ]
 }
 
+resource configservice_label administration_tools_system_asset_relation_types_auto_relate_title {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_ASSET_RELATION_TYPES_AUTO_RELATE_TITLE'
+  group = 'administration-tools - system - asset-relation-types'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Auto-relate assets behavior'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Auto-relater assets-adfærd'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_asset_relation_types_auto_relate_title_tooltip {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_ASSET_RELATION_TYPES_AUTO_RELATE_TITLE_TOOLTIP'
+  group = 'administration-tools - system - asset-relation-types'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Define rules that automatically create relations between assets when their metadata matches. Add a rule, pick metafields to filter primary and secondary assets, and pick match-token metafields whose values must be shared between the two assets.'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Definer regler, der automatisk opretter relationer mellem assets, når deres metadata matcher. Tilføj en regel, vælg metafelter til at filtrere primære og sekundære assets, og vælg match-token-metafelter, hvis værdier skal være fælles mellem de to assets.'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_asset_relation_types_auto_relate_add_rule {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_ASSET_RELATION_TYPES_AUTO_RELATE_ADD_RULE'
+  group = 'administration-tools - system - asset-relation-types'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Add rule'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Tilføj regel'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_asset_relation_types_auto_relate_rule {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_ASSET_RELATION_TYPES_AUTO_RELATE_RULE'
+  group = 'administration-tools - system - asset-relation-types'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Rule {{index}}'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Regel {{index}}'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_asset_relation_types_auto_relate_remove_rule {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_ASSET_RELATION_TYPES_AUTO_RELATE_REMOVE_RULE'
+  group = 'administration-tools - system - asset-relation-types'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Remove rule'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Fjern regel'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_asset_relation_types_auto_relate_primary_filter {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_ASSET_RELATION_TYPES_AUTO_RELATE_PRIMARY_FILTER'
+  group = 'administration-tools - system - asset-relation-types'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Primary asset filter'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Primært asset-filter'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_asset_relation_types_auto_relate_secondary_filter {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_ASSET_RELATION_TYPES_AUTO_RELATE_SECONDARY_FILTER'
+  group = 'administration-tools - system - asset-relation-types'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Secondary asset filter'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Sekundært asset-filter'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_asset_relation_types_auto_relate_match_tokens {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_ASSET_RELATION_TYPES_AUTO_RELATE_MATCH_TOKENS'
+  group = 'administration-tools - system - asset-relation-types'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Match tokens'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Match-tokens'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_asset_relation_types_auto_relate_add_primary_filter {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_ASSET_RELATION_TYPES_AUTO_RELATE_ADD_PRIMARY_FILTER'
+  group = 'administration-tools - system - asset-relation-types'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Add filter'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Tilføj filter'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_asset_relation_types_auto_relate_add_secondary_filter {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_ASSET_RELATION_TYPES_AUTO_RELATE_ADD_SECONDARY_FILTER'
+  group = 'administration-tools - system - asset-relation-types'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Add filter'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Tilføj filter'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_asset_relation_types_auto_relate_add_match_token {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_ASSET_RELATION_TYPES_AUTO_RELATE_ADD_MATCH_TOKEN'
+  group = 'administration-tools - system - asset-relation-types'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Add match token'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Tilføj match-token'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_asset_relation_types_auto_relate_remove_primary_filter {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_ASSET_RELATION_TYPES_AUTO_RELATE_REMOVE_PRIMARY_FILTER'
+  group = 'administration-tools - system - asset-relation-types'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Remove'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Fjern'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_asset_relation_types_auto_relate_remove_secondary_filter {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_ASSET_RELATION_TYPES_AUTO_RELATE_REMOVE_SECONDARY_FILTER'
+  group = 'administration-tools - system - asset-relation-types'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Remove'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Fjern'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_asset_relation_types_auto_relate_remove_match_token {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_ASSET_RELATION_TYPES_AUTO_RELATE_REMOVE_MATCH_TOKEN'
+  group = 'administration-tools - system - asset-relation-types'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Remove'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Fjern'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_asset_relation_types_auto_relate_select_primary_metafield_dialog_title {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_ASSET_RELATION_TYPES_AUTO_RELATE_SELECT_PRIMARY_METAFIELD_DIALOG_TITLE'
+  group = 'administration-tools - system - asset-relation-types'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Select metafield'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Vælg metafelt'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_asset_relation_types_auto_relate_select_secondary_metafield_dialog_title {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_ASSET_RELATION_TYPES_AUTO_RELATE_SELECT_SECONDARY_METAFIELD_DIALOG_TITLE'
+  group = 'administration-tools - system - asset-relation-types'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Select metafield'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Vælg metafelt'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_asset_relation_types_auto_relate_select_match_token_metafield_dialog_title {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_ASSET_RELATION_TYPES_AUTO_RELATE_SELECT_MATCH_TOKEN_METAFIELD_DIALOG_TITLE'
+  group = 'administration-tools - system - asset-relation-types'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Select match-token metafield'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Vælg match-token-metafelt'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_asset_relation_types_auto_relate_filter_value_pick_metafield {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_ASSET_RELATION_TYPES_AUTO_RELATE_FILTER_VALUE_PICK_METAFIELD'
+  group = 'administration-tools - system - asset-relation-types'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Pick a metafield to enter filter values.'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Vælg et metafelt for at indtaste filterværdier.'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_asset_relation_types_auto_relate_filter_value_loading {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_ASSET_RELATION_TYPES_AUTO_RELATE_FILTER_VALUE_LOADING'
+  group = 'administration-tools - system - asset-relation-types'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Loading...'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Indlæser...'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_asset_relation_types_auto_relate_filter_value_add_row {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_ASSET_RELATION_TYPES_AUTO_RELATE_FILTER_VALUE_ADD_ROW'
+  group = 'administration-tools - system - asset-relation-types'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Add value'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Tilføj værdi'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_asset_relation_types_auto_relate_filter_value_remove_row {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_ASSET_RELATION_TYPES_AUTO_RELATE_FILTER_VALUE_REMOVE_ROW'
+  group = 'administration-tools - system - asset-relation-types'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Remove value'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Fjern værdi'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_asset_relation_types_auto_relate_filter_value_unsupported_type {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_ASSET_RELATION_TYPES_AUTO_RELATE_FILTER_VALUE_UNSUPPORTED_TYPE'
+  group = 'administration-tools - system - asset-relation-types'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'This metafield type is not supported for auto-relate filters.'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Denne metafelttype understøttes ikke for auto-relater-filtre.'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label administration_tools_system_workspaces_section {
   key = 'ADMINISTRATION_TOOLS_SYSTEM_WORKSPACES_SECTION'
   group = 'administration-tools - system - workspaces'
