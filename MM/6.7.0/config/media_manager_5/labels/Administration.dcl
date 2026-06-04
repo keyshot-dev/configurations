@@ -12530,6 +12530,38 @@ resource configservice_label administration_tools_system_asset_relation_types_sy
   ]
 }
 
+resource configservice_label administration_tools_system_asset_relation_types_inherited_metadata_fields_label {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_ASSET_RELATION_TYPES_INHERITED_METADATA_FIELDS_LABEL'
+  group = 'administration-tools - system - asset-relation-types'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Inherited metadata fields'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Nedarvede metadatafelter'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_asset_relation_types_inherited_metadata_fields_tooltip {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_ASSET_RELATION_TYPES_INHERITED_METADATA_FIELDS_TOOLTIP'
+  group = 'administration-tools - system - asset-relation-types'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Select metadata fields that should be inherited from related assets through this relation type. Slave item reference fields are not supported.'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Vælg metadatafelter, der skal nedarves fra relaterede assets gennem denne relationstype. Slave item reference-felter understøttes ikke.'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label administration_tools_system_asset_relation_types_auto_relate_title {
   key = 'ADMINISTRATION_TOOLS_SYSTEM_ASSET_RELATION_TYPES_AUTO_RELATE_TITLE'
   group = 'administration-tools - system - asset-relation-types'
@@ -14669,6 +14701,134 @@ resource configservice_label administration_tools_system_metadata_combo_values_e
     },
     {
       default_translation = 'Combo-værdi findes allerede'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_metadata_inheritance_conflict_resolution_strategy {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_METADATA_INHERITANCE_CONFLICT_RESOLUTION_STRATEGY'
+  group = 'administration-tools - system - metadata'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Inheritance conflict resolution strategy'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Strategi for løsning af nedarvningskonflikt'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_metadata_inheritance_strategy_oldest_value {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_METADATA_INHERITANCE_STRATEGY_OLDEST_VALUE'
+  group = 'administration-tools - system - metadata'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Oldest value'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Ældste værdi'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_metadata_inheritance_strategy_newest_value {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_METADATA_INHERITANCE_STRATEGY_NEWEST_VALUE'
+  group = 'administration-tools - system - metadata'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Newest value'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Nyeste værdi'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_metadata_inheritance_strategy_min_value {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_METADATA_INHERITANCE_STRATEGY_MIN_VALUE'
+  group = 'administration-tools - system - metadata'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Minimum value'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Mindste værdi'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_metadata_inheritance_strategy_max_value {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_METADATA_INHERITANCE_STRATEGY_MAX_VALUE'
+  group = 'administration-tools - system - metadata'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Maximum value'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Største værdi'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_metadata_inheritance_strategy_average_value {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_METADATA_INHERITANCE_STRATEGY_AVERAGE_VALUE'
+  group = 'administration-tools - system - metadata'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Average value'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Gennemsnitlig værdi'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_metadata_inheritance_strategy_union {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_METADATA_INHERITANCE_STRATEGY_UNION'
+  group = 'administration-tools - system - metadata'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Union (combine all)'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Forening (kombinér alle)'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_metadata_inheritance_strategy_intersection {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_METADATA_INHERITANCE_STRATEGY_INTERSECTION'
+  group = 'administration-tools - system - metadata'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Intersection (keep common)'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Fælles (behold fælles)'
       language_id = data.language.danish.id
     }
   ]

@@ -1933,6 +1933,22 @@ resource configservice_label multi_metadata_editor_unpin_tooltip {
   ]
 }
 
+resource configservice_label multi_metadata_editor_field_inherited_tooltip {
+  key = 'MULTI_METADATA_EDITOR_FIELD_INHERITED_TOOLTIP'
+  group = 'Metadata'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Inherited from linked asset'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Nedarvet fra tilknyttet asset'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label multi_metadata_editor_search_metadata_placeholder {
   key = 'MULTI_METADATA_EDITOR_SEARCH_METADATA_PLACEHOLDER'
   group = 'Metadata'
