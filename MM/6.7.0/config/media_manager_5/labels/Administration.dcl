@@ -14828,7 +14828,7 @@ resource configservice_label administration_tools_system_metadata_inheritance_st
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Snit (behold fælles)'
+      default_translation = 'Fælles (behold fælles)'
       language_id = data.language.danish.id
     }
   ]
