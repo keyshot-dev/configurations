@@ -1949,6 +1949,22 @@ resource configservice_label multi_metadata_editor_field_inherited_tooltip {
   ]
 }
 
+resource configservice_label multi_metadata_editor_field_spreads_tooltip {
+  key = 'MULTI_METADATA_EDITOR_FIELD_SPREADS_TOOLTIP'
+  group = 'Metadata'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Changing this field will spread the update to linked assets'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Ændring af dette felt vil sprede opdateringen til tilknyttede assets'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label multi_metadata_editor_search_metadata_placeholder {
   key = 'MULTI_METADATA_EDITOR_SEARCH_METADATA_PLACEHOLDER'
   group = 'Metadata'

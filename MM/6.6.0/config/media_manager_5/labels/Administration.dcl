@@ -12562,6 +12562,86 @@ resource configservice_label administration_tools_system_asset_relation_types_in
   ]
 }
 
+resource configservice_label administration_tools_system_asset_relation_types_recalculate_inheritance {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_ASSET_RELATION_TYPES_RECALCULATE_INHERITANCE'
+  group = 'administration-tools - system - asset-relation-types'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Recalculate inheritance'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Genberegn nedarvning'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_asset_relation_types_recalculate_inheritance_tooltip {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_ASSET_RELATION_TYPES_RECALCULATE_INHERITANCE_TOOLTIP'
+  group = 'administration-tools - system - asset-relation-types'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Manually recalculate inherited metadata values for all assets using this relation type. Useful after changing which fields are inherited.'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Genberegn manuelt nedarvede metadataværdier for alle assets, der bruger denne relationstype. Nyttigt efter ændring af hvilke felter der nedarves.'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_asset_relation_types_recalculate_inheritance_success {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_ASSET_RELATION_TYPES_RECALCULATE_INHERITANCE_SUCCESS'
+  group = 'administration-tools - system - asset-relation-types'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Inheritance recalculation started'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Genberegning af nedarvning er startet'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_asset_relation_types_recalculate_inheritance_error_title {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_ASSET_RELATION_TYPES_RECALCULATE_INHERITANCE_ERROR_TITLE'
+  group = 'administration-tools - system - asset-relation-types'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Could not recalculate inheritance'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Kunne ikke genberegne nedarvning'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_asset_relation_types_recalculate_inheritance_error_body {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_ASSET_RELATION_TYPES_RECALCULATE_INHERITANCE_ERROR_BODY'
+  group = 'administration-tools - system - asset-relation-types'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = '{{ error }}'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = '{{ error }}'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label administration_tools_system_workspaces_section {
   key = 'ADMINISTRATION_TOOLS_SYSTEM_WORKSPACES_SECTION'
   group = 'administration-tools - system - workspaces'
