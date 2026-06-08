@@ -1955,11 +1955,11 @@ resource configservice_label multi_metadata_editor_field_spreads_tooltip {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Changing this field will spread the update to linked assets'
+      default_translation = 'The value of this metafield is inherited by at least one related asset'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Ændring af dette felt vil sprede opdateringen til tilknyttede assets'
+      default_translation = 'Værdien af dette metadatafelt nedarves af mindst ét relateret asset'
       language_id = data.language.danish.id
     }
   ]
