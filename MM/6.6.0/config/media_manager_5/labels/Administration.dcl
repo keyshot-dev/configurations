@@ -13970,6 +13970,118 @@ resource configservice_label administration_tools_system_metadata_combo_values_e
   ]
 }
 
+resource configservice_label administration_tools_system_metadata_combo_values_editor_export_error_title {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_METADATA_COMBO_VALUES_EDITOR_EXPORT_ERROR_TITLE'
+  group = 'administration-tools - system - metadata'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Failed'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Mislykket'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_metadata_combo_values_editor_export_error_content {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_METADATA_COMBO_VALUES_EDITOR_EXPORT_ERROR_CONTENT'
+  group = 'administration-tools - system - metadata'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Combo values not exported'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Combo-værdier blev ikke eksporteret'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_metadata_combo_values_editor_import {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_METADATA_COMBO_VALUES_EDITOR_IMPORT'
+  group = 'administration-tools - system - metadata'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Import combo values'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Importér combo-værdier'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_metadata_combo_values_editor_import_success_title {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_METADATA_COMBO_VALUES_EDITOR_IMPORT_SUCCESS_TITLE'
+  group = 'administration-tools - system - metadata'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Success'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Succes'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_metadata_combo_values_editor_import_success_content {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_METADATA_COMBO_VALUES_EDITOR_IMPORT_SUCCESS_CONTENT'
+  group = 'administration-tools - system - metadata'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Combo values imported'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Combo-værdier importeret'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_metadata_combo_values_editor_import_error_title {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_METADATA_COMBO_VALUES_EDITOR_IMPORT_ERROR_TITLE'
+  group = 'administration-tools - system - metadata'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Failed'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Mislykket'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_metadata_combo_values_editor_import_error_content {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_METADATA_COMBO_VALUES_EDITOR_IMPORT_ERROR_CONTENT'
+  group = 'administration-tools - system - metadata'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Combo values not imported'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Combo-værdier blev ikke importeret'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label administration_tools_system_metadata_combo_values_editor_text {
   key = 'ADMINISTRATION_TOOLS_SYSTEM_METADATA_COMBO_VALUES_EDITOR_TEXT'
   group = 'administration-tools - system - metadata'
