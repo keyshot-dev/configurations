@@ -9193,6 +9193,7 @@ resource configservice_label administration_tools_system_formats_preserve_rendit
   default_label_values = [
     {
       default_translation = 'If enabled, renditions of this format are preserved when an asset is soft-deleted. Renditions are still deleted on hard-delete.'
+      language_id = data.language.english.id
     },
     {
       default_translation = 'Hvis aktiveret, bevares renditions af dette format, når et asset soft-deletes. Renditions slettes stadig ved hard-delete.'
