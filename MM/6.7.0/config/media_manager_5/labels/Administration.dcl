@@ -9170,6 +9170,37 @@ resource configservice_label administration_tools_system_formats_avoid_regenerat
   ]
 }
 
+resource configservice_label administration_tools_system_formats_preserve_renditions_on_softdelete {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_FORMATS_PRESERVE_RENDITIONS_ON_SOFTDELETE'
+  group = 'administration-tools - system - formats'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Preserve renditions on soft-delete'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Bevar renditions ved soft-delete'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_formats_preserve_renditions_on_softdelete_tooltip {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_FORMATS_PRESERVE_RENDITIONS_ON_SOFTDELETE_TOOLTIP'
+  group = 'administration-tools - system - formats'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'If enabled, renditions of this format are preserved when an asset is soft-deleted. Renditions are still deleted on hard-delete.'
+    },
+    {
+      default_translation = 'Hvis aktiveret, bevares renditions af dette format, når et asset soft-deletes. Renditions slettes stadig ved hard-delete.'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label administration_tools_system_formats_choose_asset {
   key = 'ADMINISTRATION_TOOLS_SYSTEM_FORMATS_CHOOSE_ASSET'
   group = 'administration-tools - system - formats'
