@@ -1550,6 +1550,22 @@ resource configservice_label inputs_tree_selector_deselect_all_above {
   ]
 }
 
+resource configservice_label inputs_tree_selector_select_all {
+  key = 'INPUTS_TREE_SELECTOR_SELECT_ALL'
+  group = 'Inputs'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Select all'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Vælg alle'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label inputs_tree_selector_exclude_all_below {
   key = 'INPUTS_TREE_SELECTOR_EXCLUDE_ALL_BELOW'
   group = 'Inputs'
