@@ -14008,11 +14008,11 @@ resource configservice_label administration_tools_system_metadata_combo_values_e
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Combo values imported'
+      default_translation = 'Combo values imported. Created: {{created}}, updated: {{updated}}, deleted: {{deleted}}.'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Combo-værdier importeret'
+      default_translation = 'Combo-værdier importeret. Oprettet: {{created}}, opdateret: {{updated}}, slettet: {{deleted}}.'
       language_id = data.language.danish.id
     }
   ]
@@ -14045,6 +14045,102 @@ resource configservice_label administration_tools_system_metadata_combo_values_e
     },
     {
       default_translation = 'Combo-værdier blev ikke importeret'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_metadata_combo_values_editor_import_confirmation_title {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_METADATA_COMBO_VALUES_EDITOR_IMPORT_CONFIRMATION_TITLE'
+  group = 'administration-tools - system - metadata'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Import combo values?'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Importere combo-værdier?'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_metadata_combo_values_editor_import_confirmation_content {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_METADATA_COMBO_VALUES_EDITOR_IMPORT_CONFIRMATION_CONTENT'
+  group = 'administration-tools - system - metadata'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Existing combo values that are not present in the file will be deleted. This action cannot be undone.'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Eksisterende combo-værdier, der ikke findes i filen, vil blive slettet. Denne handling kan ikke fortrydes.'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_metadata_combo_values_editor_import_confirmation_cancel {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_METADATA_COMBO_VALUES_EDITOR_IMPORT_CONFIRMATION_CANCEL'
+  group = 'administration-tools - system - metadata'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Cancel'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Annullér'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_metadata_combo_values_editor_import_confirmation_confirm {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_METADATA_COMBO_VALUES_EDITOR_IMPORT_CONFIRMATION_CONFIRM'
+  group = 'administration-tools - system - metadata'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Import'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Importér'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_metadata_combo_values_editor_import_skipped_title {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_METADATA_COMBO_VALUES_EDITOR_IMPORT_SKIPPED_TITLE'
+  group = 'administration-tools - system - metadata'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Some rows were skipped'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Nogle rækker blev sprunget over'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_metadata_combo_values_editor_import_skipped_content {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_METADATA_COMBO_VALUES_EDITOR_IMPORT_SKIPPED_CONTENT'
+  group = 'administration-tools - system - metadata'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = '{count, cardinalPlural, one {1 row was} other {{{count}} rows were}} skipped during import: {{rows}}'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = '{count, cardinalPlural, one {1 række blev} other {{{count}} rækker blev}} sprunget over under importen: {{rows}}'
       language_id = data.language.danish.id
     }
   ]
