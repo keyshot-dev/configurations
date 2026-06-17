@@ -14060,7 +14060,7 @@ resource configservice_label administration_tools_system_metadata_combo_values_e
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Importere combo-værdier?'
+      default_translation = 'Importér combo-værdier?'
       language_id = data.language.danish.id
     }
   ]
