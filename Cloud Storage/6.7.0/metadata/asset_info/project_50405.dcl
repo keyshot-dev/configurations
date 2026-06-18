@@ -15,6 +15,7 @@ resource editmulticombovalue_metafield project_50405 {
             asset_category_id = data.asset_category.root.id
         }]
     item_guid = '1e8c5ab0-31fd-4fb5-a502-8cd9cf9a8f5d'
+    inheritance_conflict_resolution_strategy = 'Union'
     autolink = {
         item_guid = '1e8c5ab0-31fd-4fb5-a502-8cd9cf9a8f5d'
     }

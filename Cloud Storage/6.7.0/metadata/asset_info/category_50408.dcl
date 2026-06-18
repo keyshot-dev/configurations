@@ -15,6 +15,7 @@ resource editmulticombovalue_metafield category_50408 {
             asset_category_id = resource.asset_category.scene.id
         }]
     item_guid = '4d6a1cee-c61c-46e6-b83c-a5971cb72b23'
+    inheritance_conflict_resolution_strategy = 'Union'
     autolink = {
         item_guid = '4d6a1cee-c61c-46e6-b83c-a5971cb72b23'
     }

@@ -481,6 +481,7 @@ resource combovalue_metafield material_type_50403 {
     restrict_to_asset_categories = [{
             asset_category_id = resource.asset_category.material.id
         }]
+    inheritance_conflict_resolution_strategy = 'OldestValue'
     item_guid = 'cbb0f5ca-1fb1-45eb-8039-db273cd8b029'
     autolink = {
         item_guid = 'cbb0f5ca-1fb1-45eb-8039-db273cd8b029'

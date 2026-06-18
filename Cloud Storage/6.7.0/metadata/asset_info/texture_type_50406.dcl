@@ -13,6 +13,7 @@ resource editcombovalue_metafield texture_type_50406 {
             asset_category_id = resource.asset_category.texture.id
         }]
     item_guid = 'f7268aa2-7fed-489e-90a8-7dfff700d724'
+    inheritance_conflict_resolution_strategy = 'Union'
     autolink = {
         item_guid = 'f7268aa2-7fed-489e-90a8-7dfff700d724'
     }

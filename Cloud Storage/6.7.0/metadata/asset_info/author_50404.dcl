@@ -15,6 +15,7 @@ resource editcombovalue_metafield author_50404 {
             asset_category_id = data.asset_category.root.id
         }]
     item_guid = '06bc17af-fef3-4661-955e-12c2ecb87330'
+    inheritance_conflict_resolution_strategy = 'Union'
     autolink = {
         item_guid = '06bc17af-fef3-4661-955e-12c2ecb87330'
     }

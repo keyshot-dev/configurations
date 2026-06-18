@@ -13,6 +13,7 @@ resource editmulticombovalue_metafield color_50400 {
             asset_category_id = resource.asset_category.material.id
         }]
     item_guid = '4886c6ae-9f9d-49a5-a3e5-92282b76b665'
+    inheritance_conflict_resolution_strategy = 'Union'
     autolink = {
         item_guid = '4886c6ae-9f9d-49a5-a3e5-92282b76b665'
     }
