@@ -1,6 +1,6 @@
 resource editmulticombovalue_metafield project_50405 {
     name = 'Project'
-    group_id = resource.metafield_group.asset_info.metafield_group_id
+    group_id = data.metafield_group.asset_info.metafield_group_id
     sort_index = 30
     visibility_metafield_id = 0
     visibility_regex = ''

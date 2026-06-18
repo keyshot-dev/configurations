@@ -469,7 +469,7 @@ resource combo_value material_type_xray_50403 {
 resource combovalue_metafield material_type_50403 {
     view_type = 'Combo'
     name = 'Material type'
-    group_id = resource.metafield_group.asset_info.metafield_group_id
+    group_id = data.metafield_group.asset_info.metafield_group_id
     sort_index = 70
     required = false
     readonly = false

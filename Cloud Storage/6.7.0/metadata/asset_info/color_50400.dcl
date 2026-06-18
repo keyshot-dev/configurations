@@ -1,6 +1,6 @@
 resource editmulticombovalue_metafield color_50400 {
     name = 'Color'
-    group_id = resource.metafield_group.asset_info.metafield_group_id
+    group_id = data.metafield_group.asset_info.metafield_group_id
     sort_index = 90
     required = false
     readonly = false

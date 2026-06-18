@@ -1,6 +1,6 @@
 resource editmulticombovalue_metafield material_50401 {
     name = 'Material'
-    group_id = resource.metafield_group.asset_info.metafield_group_id
+    group_id = data.metafield_group.asset_info.metafield_group_id
     sort_index = 80
     required = false
     readonly = false

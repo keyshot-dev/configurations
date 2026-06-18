@@ -1,6 +1,6 @@
 resource editcombovalue_metafield location_50407 {
     name = 'Location'
-    group_id = resource.metafield_group.asset_info.metafield_group_id
+    group_id = data.metafield_group.asset_info.metafield_group_id
     sort_index = 40
     required = false
     readonly = false

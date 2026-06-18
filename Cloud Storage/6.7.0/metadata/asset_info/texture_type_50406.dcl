@@ -1,6 +1,6 @@
 resource editcombovalue_metafield texture_type_50406 {
     name = 'Texture type'
-    group_id = resource.metafield_group.asset_info.metafield_group_id
+    group_id = data.metafield_group.asset_info.metafield_group_id
     sort_index = 180
     required = false
     readonly = false
