@@ -13,7 +13,6 @@ resource editcombovalue_metafield process_status_50410 {
             asset_category_id = resource.asset_category.scene.id
         }]
     item_guid = '4e7c2f63-f880-43ae-a7b3-1d9192d42771'
-        inheritance_conflict_resolution_strategy = 'OldestValue'
     inheritance_conflict_resolution_strategy = 'Union'
     autolink = {
         item_guid = '4e7c2f63-f880-43ae-a7b3-1d9192d42771'
