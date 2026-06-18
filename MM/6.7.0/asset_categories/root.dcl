@@ -3,3 +3,4 @@ data asset_category root {
     is_abstract = true
     is_sealed = false
 }
+
