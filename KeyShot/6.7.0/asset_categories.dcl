@@ -112,7 +112,7 @@ resource asset_category scene {
 
 resource asset_category still_image {
     name = 'Still Image'
-    guid = '807cc7b7-0c7f-46f5-8d5d-bd9948d69503'
+    guid = '0a84adcf-261d-47d2-82f1-c7b305554cbd'
     is_abstract = false
     parent_category_id = resource.asset_category.render_output.id
     is_sealed = false
