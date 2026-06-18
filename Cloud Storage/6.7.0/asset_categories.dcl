@@ -38,6 +38,42 @@ resource asset_category animation {
     allowed_asset_types = []
 }
 
+resource asset_category backplate {
+    name = 'Backplate'
+    guid = '1e26425d-8f2d-4c27-aaec-dd3d6afe5e5b'
+    is_abstract = false
+    parent_category_id = data.asset_category.root.id
+    is_sealed = false
+    description = ''
+    color = ''
+    labels = [{
+           language_id = data.language.english.id
+           label = 'Backplate'
+           description = ''
+       }]
+    is_locked = true
+    allowed_extensions = []
+    allowed_asset_types = []
+}
+
+resource asset_category configurator {
+    name = 'Configurator'
+    guid = '71ec5f02-1915-41f9-b166-3a4226d5e38b'
+    is_abstract = false
+    parent_category_id = data.asset_category.root.id
+    is_sealed = false
+    description = ''
+    color = ''
+    labels = [{
+           language_id = data.language.english.id
+           label = 'Configurator'
+           description = ''
+       }]
+    is_locked = true
+    allowed_extensions = []
+    allowed_asset_types = []
+}
+
 resource asset_category environment {
     name = 'Environment'
     guid = 'bbe9ab41-87a7-4769-970d-25610a750846'
@@ -145,4 +181,23 @@ resource asset_category texture {
     allowed_extensions = []
     allowed_asset_types = []
 }
+
+resource asset_category cmf {
+    name = 'CMF'
+    guid = '953bd772-a3bf-4a95-af2e-31a68044d46f'
+    is_abstract = false
+    parent_category_id = data.asset_category.root.id
+    is_sealed = false
+    description = ''
+    color = ''
+    labels = [{
+            language_id = data.language.english.id
+           label = 'CMF'
+           description = ''
+       }]
+    is_locked = true
+    allowed_extensions = []
+    allowed_asset_types = []
+}
+
 
