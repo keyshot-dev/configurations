@@ -15,7 +15,7 @@ resource editcombovalue_metafield location_50407 {
             asset_category_id = resource.asset_category.backplate.id
         }]
     item_guid = '686353bd-642d-4621-a616-867ddffe4d70'
-    inheritance_conflict_resolution_strategy = 'Union'
+    inheritance_conflict_resolution_strategy = 'OldestValue'
     autolink = {
         item_guid = '686353bd-642d-4621-a616-867ddffe4d70'
     }
