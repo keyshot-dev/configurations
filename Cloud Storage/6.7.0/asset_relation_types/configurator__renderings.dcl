@@ -13,6 +13,19 @@ resource asset_relation_type configurator__renderings {
     secondary_asset_categories = [{
             asset_category_id = resource.asset_category.rendering.id
             recursive = false
+        },
+        {
+            asset_category_id = resource.asset_category.animation.id
+            recursive = false
+        }, {
+            asset_category_id = resource.asset_category.keyshot_xr.id
+            recursive = false
+        }, {
+            asset_category_id = resource.asset_category.configurator.id
+            recursive = false
+        }, {
+            asset_category_id = resource.asset_category.cmf.id
+            recursive = false
         }]
     channel_publishing_behavior = {
         enable_behavior = false
