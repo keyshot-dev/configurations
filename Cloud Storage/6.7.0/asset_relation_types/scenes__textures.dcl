@@ -35,7 +35,12 @@ resource asset_relation_type scenes__textures {
     renditions_behavior = {
         enable_behavior = false
         override_format_purposes = []
-    }   
+    }
+    replace_behavior = {
+        enable_behavior = true
+        primary_replace_behavior = 'MoveToArchive'
+        secondary_replace_behavior = 'MoveToArchive'
+    }    
     labels = [{
             language_id = data.language.english.id
             label = 'Scenes-Textures'
