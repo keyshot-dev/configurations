@@ -15,6 +15,10 @@ resource asset_relation_type draft {
         enable_behavior = true
         hide_secondary_by_default_in_search = true
     }
+	sub_drafts_behavior = {
+		enable_behavior = true
+		sub_drafts_handling = 'Reattach'
+	}
     labels = [{
             language_id = resource.language.english.id
             label = 'Draft'
