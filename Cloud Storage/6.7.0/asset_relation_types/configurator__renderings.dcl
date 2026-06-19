@@ -48,6 +48,11 @@ resource asset_relation_type configurator__renderings {
         enable_behavior = false
         override_format_purposes = []
     }
+    replace_behavior = {
+        enable_behavior = true
+        primary_replace_behavior = 'MoveToArchive'
+        secondary_replace_behavior = 'MoveToArchive'
+    }  
     labels = [{
             language_id = data.language.english.id
             label = 'Configurator-Renderings'

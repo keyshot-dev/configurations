@@ -39,8 +39,8 @@ resource asset_relation_type scenes__models {
     replace_behavior = {
         enable_behavior = true
         primary_replace_behavior = 'MoveToArchive'
-        secondary_replace_behavior = 'Ignore'
-    }    
+        secondary_replace_behavior = 'MoveToArchive'
+    }     
     labels = [{
             language_id = data.language.english.id
             label = 'Scenes-Models'
