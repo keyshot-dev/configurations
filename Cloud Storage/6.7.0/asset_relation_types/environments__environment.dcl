@@ -38,7 +38,7 @@ resource asset_relation_type environments__environment {
     }
     labels = [{
             language_id = data.language.english.id
-            label = 'Environment-Environment'
+            label = 'Environments-Environment'
             description = ''
             primary_to_secondary_label = 'Environment'
             secondary_to_primary_label = 'Environments'

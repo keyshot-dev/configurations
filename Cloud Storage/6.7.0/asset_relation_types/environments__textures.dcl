@@ -38,7 +38,7 @@ resource asset_relation_type environments__textures {
     }
     labels = [{
             language_id = data.language.english.id
-            label = 'Environment-Textures'
+            label = 'Environments-Textures'
             description = ''
             primary_to_secondary_label = 'Textures'
             secondary_to_primary_label = 'Environments'
