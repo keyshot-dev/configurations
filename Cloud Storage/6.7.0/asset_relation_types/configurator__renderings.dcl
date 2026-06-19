@@ -13,8 +13,7 @@ resource asset_relation_type configurator__renderings {
     secondary_asset_categories = [{
             asset_category_id = resource.asset_category.rendering.id
             recursive = false
-        },
-        {
+        }, {
             asset_category_id = resource.asset_category.animation.id
             recursive = false
         }, {
