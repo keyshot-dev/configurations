@@ -1,6 +1,6 @@
 resource asset_category rendering {
     name = 'Rendering'
-    guid = '0a84adcf-261d-47d2-82f1-c7b305554cbd'
+    guid = '807cc7b7-0c7f-46f5-8d5d-bd9948d69503'
     is_abstract = false
     parent_category_id = data.asset_category.root.id
     is_sealed = false
