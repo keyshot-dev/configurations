@@ -1,4 +1,4 @@
-resource automation_workflow oobe_publish_to_workflow__publish_unpublish {
+resource automation_workflow foundation_handle_content_viewer_access {
     name = 'Foundation: Handle Content Viewer access'
     description = ''
     content = 'trigger "Available for CV added" {

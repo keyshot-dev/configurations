@@ -1,4 +1,4 @@
-resource automation_workflow oobe_give_admin_access {
+resource automation_workflow foundation_give_content_editors_access_on_upload {
     name = 'Foundation: Give Content Editors access on upload'
     description = ''
     content = 'trigger "Asset is uploaded" {

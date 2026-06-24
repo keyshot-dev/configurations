@@ -1,4 +1,4 @@
-resource automation_workflow oobe_republish_on_frameaccurate_thumbnail_changed {
+resource automation_workflow foundation_regenerate_video_thumbnail {
     name = 'Foundation: Regenerate video thumbnail'
     description = ''
     content = 'trigger "When Frame Accurate thumbnail is changed" {

@@ -1,4 +1,4 @@
-resource automation_workflow oobe_set_requires_tagging_on_upload {
+resource automation_workflow foundation_handle_metadata_on_upload {
     name = 'Foundation: Handle metadata on upload'
     description = ''
     content = 'trigger "Location State Changed" {
