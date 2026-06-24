@@ -24,6 +24,7 @@ patch item_security media_manager_menu__trusted {
 patch metafield_label folders_patch {
     target = data.metafield_label.folders
     label = 'Folder menu'
+	ignore_values_in_configuration_management = true
 }
 
 patch tree_metafield folders_patch {

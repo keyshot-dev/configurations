@@ -29,6 +29,7 @@ patch metafield_label folders_patch {
 patch tree_metafield folders_patch {
     target = data.tree_metafield.folders
     name = 'Folder menu'
+	ignore_values_in_configuration_management = true
 }
 
 resource item_security folders__metadata_editor {
