@@ -15,14 +15,15 @@ resource asset_relation_type draft {
         enable_behavior = true
         hide_secondary_by_default_in_search = true
     }
-	sub_drafts_behavior = {
-		enable_behavior = true
-		sub_drafts_handling = 'Reattach'
+	replace_behavior = {
+		enable_behavior = true,
+		primary_replace_behavior = 'MoveToArchive'
+		secondary_replace_behavior = 'Remove'
 	}
     labels = [{
             language_id = resource.language.english.id
             label = 'Draft'
-            description = resource.asset_relation_type.derived_from.description
+            description = resource.asset_relation_type.draft.description
             primary_to_secondary_label = 'Drafts'
             secondary_to_primary_label = 'Draft to'
         }]
