@@ -34,6 +34,11 @@
         "order": -20,
         "locked": true
     },
+	{
+        "name": "Foundation",
+        "order": -11,
+        "locked": false
+    },
     {
         "name": "OOBE",
         "order": -10,
