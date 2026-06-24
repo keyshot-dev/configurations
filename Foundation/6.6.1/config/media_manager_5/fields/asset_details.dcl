@@ -1,14 +1,7 @@
 data configservice_string_config_field asset_details {
-    default_value = '{}'
-    type = 'String'
     product_id = data.configservice_product.media_manager_5.id
     group = 'default'
-    hidden = true
     key = 'assetDetails'
-    title = 'Asset details'
-    description = 'Used to save assetDetails configuration for how asset action buttons are displayed'
-    language_versioned = false
-    meta_field_type = 'None'
 }
 
 resource configservice_config_string_field_value default_asset_details {
