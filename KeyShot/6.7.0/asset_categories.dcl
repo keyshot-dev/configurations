@@ -127,4 +127,3 @@ resource asset_category texture {
     is_sealed = false
     is_locked = true
 }
-

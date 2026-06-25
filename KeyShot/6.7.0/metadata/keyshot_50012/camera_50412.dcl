@@ -13,6 +13,7 @@ resource editcombovalue_metafield camera_50412 {
             asset_category_id = resource.asset_category.render_output.id
         }]
     item_guid = 'a21fd01a-f587-4c1c-9a3c-4155f08a6cbf'
+    inheritance_conflict_resolution_strategy = 'OldestValue'
     autolink = {
         item_guid = 'a21fd01a-f587-4c1c-9a3c-4155f08a6cbf'
     }
@@ -51,7 +52,7 @@ resource item_security editcombovalue_metafield_camera_50412__sa_full_access_35 
 }
 
 resource item_security editcombovalue_metafield_camera_50412__superadministrator {
-    accessor_item_id = data.member.superadministrator.item_id
+    accessor_item_id = data.workspace_member.superadministrator.item_id
     item_id = resource.editcombovalue_metafield.camera_50412.item_id
     read = true
     write = true
@@ -64,4 +65,3 @@ resource metafield_label camera_51484 {
     label = 'Camera'
     description = ''
 }
-

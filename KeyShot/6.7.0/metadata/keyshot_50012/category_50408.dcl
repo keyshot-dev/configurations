@@ -15,6 +15,7 @@ resource editmulticombovalue_metafield category_50408 {
             asset_category_id = resource.asset_category.scene.id
         }]
     item_guid = '4d6a1cee-c61c-46e6-b83c-a5971cb72b23'
+    inheritance_conflict_resolution_strategy = 'Union'
     autolink = {
         item_guid = '4d6a1cee-c61c-46e6-b83c-a5971cb72b23'
     }
@@ -53,7 +54,7 @@ resource item_security editmulticombovalue_metafield_category_50408__sa_full_acc
 }
 
 resource item_security editmulticombovalue_metafield_category_50408__superadministrator {
-    accessor_item_id = data.member.superadministrator.item_id
+    accessor_item_id = data.workspace_member.superadministrator.item_id
     item_id = resource.editmulticombovalue_metafield.category_50408.item_id
     read = true
     write = true
@@ -66,4 +67,3 @@ resource metafield_label category_51480 {
     label = 'Category'
     description = ''
 }
-

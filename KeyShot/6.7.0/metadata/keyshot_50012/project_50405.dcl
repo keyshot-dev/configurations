@@ -15,6 +15,7 @@ resource editmulticombovalue_metafield project_50405 {
             asset_category_id = data.asset_category.root.id
         }]
     item_guid = '1e8c5ab0-31fd-4fb5-a502-8cd9cf9a8f5d'
+    inheritance_conflict_resolution_strategy = 'Union'
     autolink = {
         item_guid = '1e8c5ab0-31fd-4fb5-a502-8cd9cf9a8f5d'
     }
@@ -53,7 +54,7 @@ resource item_security editmulticombovalue_metafield_project_50405__sa_full_acce
 }
 
 resource item_security editmulticombovalue_metafield_project_50405__superadministrator {
-    accessor_item_id = data.member.superadministrator.item_id
+    accessor_item_id = data.workspace_member.superadministrator.item_id
     item_id = resource.editmulticombovalue_metafield.project_50405.item_id
     read = true
     write = true
@@ -66,4 +67,3 @@ resource metafield_label project_51477 {
     label = 'Project'
     description = ''
 }
-

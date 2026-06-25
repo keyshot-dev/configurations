@@ -13,6 +13,7 @@ resource editcombovalue_metafield environment_50414 {
             asset_category_id = resource.asset_category.render_output.id
         }]
     item_guid = 'eebde101-553b-4637-8384-19a85e71b2ae'
+    inheritance_conflict_resolution_strategy = 'OldestValue'
     autolink = {
         item_guid = 'eebde101-553b-4637-8384-19a85e71b2ae'
     }
@@ -51,7 +52,7 @@ resource item_security editcombovalue_metafield_environment_50414__sa_full_acces
 }
 
 resource item_security editcombovalue_metafield_environment_50414__superadministrator {
-    accessor_item_id = data.member.superadministrator.item_id
+    accessor_item_id = data.workspace_member.superadministrator.item_id
     item_id = resource.editcombovalue_metafield.environment_50414.item_id
     read = true
     write = true
@@ -64,4 +65,3 @@ resource metafield_label environment_51486 {
     label = 'Environment'
     description = ''
 }
-

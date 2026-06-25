@@ -15,6 +15,7 @@ resource editcombovalue_metafield location_50407 {
             asset_category_id = resource.asset_category.backplate.id
         }]
     item_guid = '686353bd-642d-4621-a616-867ddffe4d70'
+    inheritance_conflict_resolution_strategy = 'OldestValue'
     autolink = {
         item_guid = '686353bd-642d-4621-a616-867ddffe4d70'
     }
@@ -53,7 +54,7 @@ resource item_security editcombovalue_metafield_location_50407__sa_full_access_3
 }
 
 resource item_security editcombovalue_metafield_location_50407__superadministrator {
-    accessor_item_id = data.member.superadministrator.item_id
+    accessor_item_id = data.workspace_member.superadministrator.item_id
     item_id = resource.editcombovalue_metafield.location_50407.item_id
     read = true
     write = true
@@ -66,4 +67,3 @@ resource metafield_label location_51479 {
     label = 'Location'
     description = ''
 }
-

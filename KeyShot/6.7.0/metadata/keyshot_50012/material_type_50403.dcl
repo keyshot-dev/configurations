@@ -482,6 +482,7 @@ resource combovalue_metafield material_type_50403 {
             asset_category_id = resource.asset_category.material.id
         }]
     item_guid = 'cbb0f5ca-1fb1-45eb-8039-db273cd8b029'
+    inheritance_conflict_resolution_strategy = 'OldestValue'
     autolink = {
         item_guid = 'cbb0f5ca-1fb1-45eb-8039-db273cd8b029'
     }
@@ -520,7 +521,7 @@ resource item_security combo_value_material_type_advanced_50403__sa_full_access_
 }
 
 resource item_security combo_value_material_type_advanced_50403__superadministrator {
-    accessor_item_id = data.member.superadministrator.item_id
+    accessor_item_id = data.workspace_member.superadministrator.item_id
     item_id = resource.combo_value.material_type_advanced_50403.item_id
     read = true
     write = true
@@ -560,7 +561,7 @@ resource item_security combo_value_material_type_anisotropic_50403__sa_full_acce
 }
 
 resource item_security combo_value_material_type_anisotropic_50403__superadministrator {
-    accessor_item_id = data.member.superadministrator.item_id
+    accessor_item_id = data.workspace_member.superadministrator.item_id
     item_id = resource.combo_value.material_type_anisotropic_50403.item_id
     read = true
     write = true
@@ -600,7 +601,7 @@ resource item_security combo_value_material_type_area_light_50403__sa_full_acces
 }
 
 resource item_security combo_value_material_type_area_light_50403__superadministrator {
-    accessor_item_id = data.member.superadministrator.item_id
+    accessor_item_id = data.workspace_member.superadministrator.item_id
     item_id = resource.combo_value.material_type_area_light_50403.item_id
     read = true
     write = true
@@ -640,7 +641,7 @@ resource item_security combo_value_material_type_axalta_paint_50403__sa_full_acc
 }
 
 resource item_security combo_value_material_type_axalta_paint_50403__superadministrator {
-    accessor_item_id = data.member.superadministrator.item_id
+    accessor_item_id = data.workspace_member.superadministrator.item_id
     item_id = resource.combo_value.material_type_axalta_paint_50403.item_id
     read = true
     write = true
@@ -680,7 +681,7 @@ resource item_security combo_value_material_type_cutaway_50403__sa_full_access_3
 }
 
 resource item_security combo_value_material_type_cutaway_50403__superadministrator {
-    accessor_item_id = data.member.superadministrator.item_id
+    accessor_item_id = data.workspace_member.superadministrator.item_id
     item_id = resource.combo_value.material_type_cutaway_50403.item_id
     read = true
     write = true
@@ -720,7 +721,7 @@ resource item_security combo_value_material_type_dielectric_50403__sa_full_acces
 }
 
 resource item_security combo_value_material_type_dielectric_50403__superadministrator {
-    accessor_item_id = data.member.superadministrator.item_id
+    accessor_item_id = data.workspace_member.superadministrator.item_id
     item_id = resource.combo_value.material_type_dielectric_50403.item_id
     read = true
     write = true
@@ -760,7 +761,7 @@ resource item_security combo_value_material_type_diffuse_50403__sa_full_access_3
 }
 
 resource item_security combo_value_material_type_diffuse_50403__superadministrator {
-    accessor_item_id = data.member.superadministrator.item_id
+    accessor_item_id = data.workspace_member.superadministrator.item_id
     item_id = resource.combo_value.material_type_diffuse_50403.item_id
     read = true
     write = true
@@ -800,7 +801,7 @@ resource item_security combo_value_material_type_emissive_50403__sa_full_access_
 }
 
 resource item_security combo_value_material_type_emissive_50403__superadministrator {
-    accessor_item_id = data.member.superadministrator.item_id
+    accessor_item_id = data.workspace_member.superadministrator.item_id
     item_id = resource.combo_value.material_type_emissive_50403.item_id
     read = true
     write = true
@@ -840,7 +841,7 @@ resource item_security combo_value_material_type_flat_50403__sa_full_access_37 {
 }
 
 resource item_security combo_value_material_type_flat_50403__superadministrator {
-    accessor_item_id = data.member.superadministrator.item_id
+    accessor_item_id = data.workspace_member.superadministrator.item_id
     item_id = resource.combo_value.material_type_flat_50403.item_id
     read = true
     write = true
@@ -880,7 +881,7 @@ resource item_security combo_value_material_type_gem_50403__sa_full_access_37 {
 }
 
 resource item_security combo_value_material_type_gem_50403__superadministrator {
-    accessor_item_id = data.member.superadministrator.item_id
+    accessor_item_id = data.workspace_member.superadministrator.item_id
     item_id = resource.combo_value.material_type_gem_50403.item_id
     read = true
     write = true
@@ -920,7 +921,7 @@ resource item_security combo_value_material_type_generic_50403__sa_full_access_3
 }
 
 resource item_security combo_value_material_type_generic_50403__superadministrator {
-    accessor_item_id = data.member.superadministrator.item_id
+    accessor_item_id = data.workspace_member.superadministrator.item_id
     item_id = resource.combo_value.material_type_generic_50403.item_id
     read = true
     write = true
@@ -960,7 +961,7 @@ resource item_security combo_value_material_type_glass_50403__sa_full_access_37 
 }
 
 resource item_security combo_value_material_type_glass_50403__superadministrator {
-    accessor_item_id = data.member.superadministrator.item_id
+    accessor_item_id = data.workspace_member.superadministrator.item_id
     item_id = resource.combo_value.material_type_glass_50403.item_id
     read = true
     write = true
@@ -1000,7 +1001,7 @@ resource item_security combo_value_material_type_glass_solid_50403__sa_full_acce
 }
 
 resource item_security combo_value_material_type_glass_solid_50403__superadministrator {
-    accessor_item_id = data.member.superadministrator.item_id
+    accessor_item_id = data.workspace_member.superadministrator.item_id
     item_id = resource.combo_value.material_type_glass_solid_50403.item_id
     read = true
     write = true
@@ -1040,7 +1041,7 @@ resource item_security combo_value_material_type_ground_50403__sa_full_access_37
 }
 
 resource item_security combo_value_material_type_ground_50403__superadministrator {
-    accessor_item_id = data.member.superadministrator.item_id
+    accessor_item_id = data.workspace_member.superadministrator.item_id
     item_id = resource.combo_value.material_type_ground_50403.item_id
     read = true
     write = true
@@ -1080,7 +1081,7 @@ resource item_security combo_value_material_type_ies_light_50403__sa_full_access
 }
 
 resource item_security combo_value_material_type_ies_light_50403__superadministrator {
-    accessor_item_id = data.member.superadministrator.item_id
+    accessor_item_id = data.workspace_member.superadministrator.item_id
     item_id = resource.combo_value.material_type_ies_light_50403.item_id
     read = true
     write = true
@@ -1120,7 +1121,7 @@ resource item_security combo_value_material_type_liquid_50403__sa_full_access_37
 }
 
 resource item_security combo_value_material_type_liquid_50403__superadministrator {
-    accessor_item_id = data.member.superadministrator.item_id
+    accessor_item_id = data.workspace_member.superadministrator.item_id
     item_id = resource.combo_value.material_type_liquid_50403.item_id
     read = true
     write = true
@@ -1160,7 +1161,7 @@ resource item_security combo_value_material_type_measured_50403__sa_full_access_
 }
 
 resource item_security combo_value_material_type_measured_50403__superadministrator {
-    accessor_item_id = data.member.superadministrator.item_id
+    accessor_item_id = data.workspace_member.superadministrator.item_id
     item_id = resource.combo_value.material_type_measured_50403.item_id
     read = true
     write = true
@@ -1200,7 +1201,7 @@ resource item_security combo_value_material_type_metal_50403__sa_full_access_37 
 }
 
 resource item_security combo_value_material_type_metal_50403__superadministrator {
-    accessor_item_id = data.member.superadministrator.item_id
+    accessor_item_id = data.workspace_member.superadministrator.item_id
     item_id = resource.combo_value.material_type_metal_50403.item_id
     read = true
     write = true
@@ -1240,7 +1241,7 @@ resource item_security combo_value_material_type_metallic_paint_50403__sa_full_a
 }
 
 resource item_security combo_value_material_type_metallic_paint_50403__superadministrator {
-    accessor_item_id = data.member.superadministrator.item_id
+    accessor_item_id = data.workspace_member.superadministrator.item_id
     item_id = resource.combo_value.material_type_metallic_paint_50403.item_id
     read = true
     write = true
@@ -1280,7 +1281,7 @@ resource item_security combo_value_material_type_moldtech_plastic_50403__sa_full
 }
 
 resource item_security combo_value_material_type_moldtech_plastic_50403__superadministrator {
-    accessor_item_id = data.member.superadministrator.item_id
+    accessor_item_id = data.workspace_member.superadministrator.item_id
     item_id = resource.combo_value.material_type_moldtech_plastic_50403.item_id
     read = true
     write = true
@@ -1320,7 +1321,7 @@ resource item_security combo_value_material_type_multilayer_optics_50403__sa_ful
 }
 
 resource item_security combo_value_material_type_multilayer_optics_50403__superadministrator {
-    accessor_item_id = data.member.superadministrator.item_id
+    accessor_item_id = data.workspace_member.superadministrator.item_id
     item_id = resource.combo_value.material_type_multilayer_optics_50403.item_id
     read = true
     write = true
@@ -1360,7 +1361,7 @@ resource item_security combo_value_material_type_paint_50403__sa_full_access_37 
 }
 
 resource item_security combo_value_material_type_paint_50403__superadministrator {
-    accessor_item_id = data.member.superadministrator.item_id
+    accessor_item_id = data.workspace_member.superadministrator.item_id
     item_id = resource.combo_value.material_type_paint_50403.item_id
     read = true
     write = true
@@ -1400,7 +1401,7 @@ resource item_security combo_value_material_type_plastic_50403__sa_full_access_3
 }
 
 resource item_security combo_value_material_type_plastic_50403__superadministrator {
-    accessor_item_id = data.member.superadministrator.item_id
+    accessor_item_id = data.workspace_member.superadministrator.item_id
     item_id = resource.combo_value.material_type_plastic_50403.item_id
     read = true
     write = true
@@ -1440,7 +1441,7 @@ resource item_security combo_value_material_type_plastic_cloudy_50403__sa_full_a
 }
 
 resource item_security combo_value_material_type_plastic_cloudy_50403__superadministrator {
-    accessor_item_id = data.member.superadministrator.item_id
+    accessor_item_id = data.workspace_member.superadministrator.item_id
     item_id = resource.combo_value.material_type_plastic_cloudy_50403.item_id
     read = true
     write = true
@@ -1480,7 +1481,7 @@ resource item_security combo_value_material_type_plastic_transparent_50403__sa_f
 }
 
 resource item_security combo_value_material_type_plastic_transparent_50403__superadministrator {
-    accessor_item_id = data.member.superadministrator.item_id
+    accessor_item_id = data.workspace_member.superadministrator.item_id
     item_id = resource.combo_value.material_type_plastic_transparent_50403.item_id
     read = true
     write = true
@@ -1520,7 +1521,7 @@ resource item_security combo_value_material_type_point_light_50403__sa_full_acce
 }
 
 resource item_security combo_value_material_type_point_light_50403__superadministrator {
-    accessor_item_id = data.member.superadministrator.item_id
+    accessor_item_id = data.workspace_member.superadministrator.item_id
     item_id = resource.combo_value.material_type_point_light_50403.item_id
     read = true
     write = true
@@ -1560,7 +1561,7 @@ resource item_security combo_value_material_type_realcloth_50403__sa_full_access
 }
 
 resource item_security combo_value_material_type_realcloth_50403__superadministrator {
-    accessor_item_id = data.member.superadministrator.item_id
+    accessor_item_id = data.workspace_member.superadministrator.item_id
     item_id = resource.combo_value.material_type_realcloth_50403.item_id
     read = true
     write = true
@@ -1600,7 +1601,7 @@ resource item_security combo_value_material_type_scattering_medium_50403__sa_ful
 }
 
 resource item_security combo_value_material_type_scattering_medium_50403__superadministrator {
-    accessor_item_id = data.member.superadministrator.item_id
+    accessor_item_id = data.workspace_member.superadministrator.item_id
     item_id = resource.combo_value.material_type_scattering_medium_50403.item_id
     read = true
     write = true
@@ -1640,7 +1641,7 @@ resource item_security combo_value_material_type_spotlight_50403__sa_full_access
 }
 
 resource item_security combo_value_material_type_spotlight_50403__superadministrator {
-    accessor_item_id = data.member.superadministrator.item_id
+    accessor_item_id = data.workspace_member.superadministrator.item_id
     item_id = resource.combo_value.material_type_spotlight_50403.item_id
     read = true
     write = true
@@ -1680,7 +1681,7 @@ resource item_security combo_value_material_type_thin_film_50403__sa_full_access
 }
 
 resource item_security combo_value_material_type_thin_film_50403__superadministrator {
-    accessor_item_id = data.member.superadministrator.item_id
+    accessor_item_id = data.workspace_member.superadministrator.item_id
     item_id = resource.combo_value.material_type_thin_film_50403.item_id
     read = true
     write = true
@@ -1720,7 +1721,7 @@ resource item_security combo_value_material_type_toon_50403__sa_full_access_37 {
 }
 
 resource item_security combo_value_material_type_toon_50403__superadministrator {
-    accessor_item_id = data.member.superadministrator.item_id
+    accessor_item_id = data.workspace_member.superadministrator.item_id
     item_id = resource.combo_value.material_type_toon_50403.item_id
     read = true
     write = true
@@ -1760,7 +1761,7 @@ resource item_security combo_value_material_type_translucent_50403__sa_full_acce
 }
 
 resource item_security combo_value_material_type_translucent_50403__superadministrator {
-    accessor_item_id = data.member.superadministrator.item_id
+    accessor_item_id = data.workspace_member.superadministrator.item_id
     item_id = resource.combo_value.material_type_translucent_50403.item_id
     read = true
     write = true
@@ -1800,7 +1801,7 @@ resource item_security combo_value_material_type_translucent_medium_50403__sa_fu
 }
 
 resource item_security combo_value_material_type_translucent_medium_50403__superadministrator {
-    accessor_item_id = data.member.superadministrator.item_id
+    accessor_item_id = data.workspace_member.superadministrator.item_id
     item_id = resource.combo_value.material_type_translucent_medium_50403.item_id
     read = true
     write = true
@@ -1840,7 +1841,7 @@ resource item_security combo_value_material_type_velvet_50403__sa_full_access_37
 }
 
 resource item_security combo_value_material_type_velvet_50403__superadministrator {
-    accessor_item_id = data.member.superadministrator.item_id
+    accessor_item_id = data.workspace_member.superadministrator.item_id
     item_id = resource.combo_value.material_type_velvet_50403.item_id
     read = true
     write = true
@@ -1880,7 +1881,7 @@ resource item_security combo_value_material_type_wireframe_50403__sa_full_access
 }
 
 resource item_security combo_value_material_type_wireframe_50403__superadministrator {
-    accessor_item_id = data.member.superadministrator.item_id
+    accessor_item_id = data.workspace_member.superadministrator.item_id
     item_id = resource.combo_value.material_type_wireframe_50403.item_id
     read = true
     write = true
@@ -1919,7 +1920,7 @@ resource item_security combo_value_material_type_xray_50403__sa_full_access_37 {
 }
 
 resource item_security combo_value_material_type_xray_50403__superadministrator {
-    accessor_item_id = data.member.superadministrator.item_id
+    accessor_item_id = data.workspace_member.superadministrator.item_id
     item_id = resource.combo_value.material_type_xray_50403.item_id
     read = true
     write = true
@@ -1959,7 +1960,7 @@ resource item_security combovalue_metafield_material_type_50403__sa_full_access_
 }
 
 resource item_security combovalue_metafield_material_type_50403__superadministrator {
-    accessor_item_id = data.member.superadministrator.item_id
+    accessor_item_id = data.workspace_member.superadministrator.item_id
     item_id = resource.combovalue_metafield.material_type_50403.item_id
     read = true
     write = true
@@ -1972,4 +1973,3 @@ resource metafield_label material_type_51475 {
     label = 'Material type'
     description = ''
 }
-

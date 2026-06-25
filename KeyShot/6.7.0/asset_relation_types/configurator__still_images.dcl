@@ -4,8 +4,8 @@ resource asset_relation_type configurator__still_images {
     description = ''
     is_locked = true
     multiplicity = 'OneToMany'
-	show_in_list_when_primary = true
-	show_in_list_when_secondary = true
+    show_in_list_when_primary = true
+    show_in_list_when_secondary = true
     primary_asset_categories = [{
             asset_category_id = resource.asset_category.configurator.id
             recursive = false

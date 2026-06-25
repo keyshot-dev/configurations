@@ -10,4 +10,3 @@ resource configservice_config_string_field_value default_custom_button_text {
     portal_id = data.configservice_portal.media_manager_5.id
     language_id = 0
 }
-
