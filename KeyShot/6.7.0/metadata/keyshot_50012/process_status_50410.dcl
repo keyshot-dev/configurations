@@ -13,6 +13,7 @@ resource editcombovalue_metafield process_status_50410 {
             asset_category_id = resource.asset_category.scene.id
         }]
     item_guid = '4e7c2f63-f880-43ae-a7b3-1d9192d42771'
+    inheritance_conflict_resolution_strategy = 'OldestValue'
     autolink = {
         item_guid = '4e7c2f63-f880-43ae-a7b3-1d9192d42771'
     }
@@ -51,7 +52,7 @@ resource item_security editcombovalue_metafield_process_status_50410__sa_full_ac
 }
 
 resource item_security editcombovalue_metafield_process_status_50410__superadministrator {
-    accessor_item_id = data.member.superadministrator.item_id
+    accessor_item_id = data.workspace_member.superadministrator.item_id
     item_id = resource.editcombovalue_metafield.process_status_50410.item_id
     read = true
     write = true
@@ -64,4 +65,3 @@ resource metafield_label process_status_51482 {
     label = 'Process status'
     description = ''
 }
-

@@ -15,6 +15,7 @@ resource editcombovalue_metafield author_50404 {
             asset_category_id = data.asset_category.root.id
         }]
     item_guid = '06bc17af-fef3-4661-955e-12c2ecb87330'
+    inheritance_conflict_resolution_strategy = 'OldestValue'
     autolink = {
         item_guid = '06bc17af-fef3-4661-955e-12c2ecb87330'
     }
@@ -53,7 +54,7 @@ resource item_security editcombovalue_metafield_author_50404__sa_full_access_37 
 }
 
 resource item_security editcombovalue_metafield_author_50404__superadministrator {
-    accessor_item_id = data.member.superadministrator.item_id
+    accessor_item_id = data.workspace_member.superadministrator.item_id
     item_id = resource.editcombovalue_metafield.author_50404.item_id
     read = true
     write = true
@@ -66,4 +67,3 @@ resource metafield_label author_51476 {
     label = 'Author'
     description = ''
 }
-

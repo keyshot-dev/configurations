@@ -14,5 +14,5 @@ resource member_group scheme__hub_reviewer_42 {
         }, {
             constant = 'WorkStages_View'
         }]
+    is_visible_to_end_users = true
 }
-

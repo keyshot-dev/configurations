@@ -4,8 +4,8 @@ resource asset_relation_type environment__textures {
     description = ''
     is_locked = true
     multiplicity = 'ManyToMany'
-	show_in_list_when_primary = true
-	show_in_list_when_secondary = true
+    show_in_list_when_primary = true
+    show_in_list_when_secondary = true
     primary_asset_categories = [{
             asset_category_id = resource.asset_category.environment.id
             recursive = false

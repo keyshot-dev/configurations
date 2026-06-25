@@ -13,6 +13,7 @@ resource editmulticombovalue_metafield finish_50402 {
             asset_category_id = resource.asset_category.material.id
         }]
     item_guid = 'a8831cb0-771e-48ec-896a-94d5d05e89a0'
+    inheritance_conflict_resolution_strategy = 'Union'
     autolink = {
         item_guid = 'a8831cb0-771e-48ec-896a-94d5d05e89a0'
     }
@@ -51,7 +52,7 @@ resource item_security editmulticombovalue_metafield_finish_50402__sa_full_acces
 }
 
 resource item_security editmulticombovalue_metafield_finish_50402__superadministrator {
-    accessor_item_id = data.member.superadministrator.item_id
+    accessor_item_id = data.workspace_member.superadministrator.item_id
     item_id = resource.editmulticombovalue_metafield.finish_50402.item_id
     read = true
     write = true
@@ -64,4 +65,3 @@ resource metafield_label finish_51474 {
     label = 'Finish'
     description = ''
 }
-

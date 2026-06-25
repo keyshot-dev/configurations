@@ -13,6 +13,7 @@ resource editcombovalue_metafield texture_type_50406 {
             asset_category_id = resource.asset_category.texture.id
         }]
     item_guid = 'f7268aa2-7fed-489e-90a8-7dfff700d724'
+    inheritance_conflict_resolution_strategy = 'OldestValue'
     autolink = {
         item_guid = 'f7268aa2-7fed-489e-90a8-7dfff700d724'
     }
@@ -51,7 +52,7 @@ resource item_security editcombovalue_metafield_texture_type_50406__sa_full_acce
 }
 
 resource item_security editcombovalue_metafield_texture_type_50406__superadministrator {
-    accessor_item_id = data.member.superadministrator.item_id
+    accessor_item_id = data.workspace_member.superadministrator.item_id
     item_id = resource.editcombovalue_metafield.texture_type_50406.item_id
     read = true
     write = true
@@ -64,4 +65,3 @@ resource metafield_label texture_type_51478 {
     label = 'Texture type'
     description = ''
 }
-

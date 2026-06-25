@@ -44,4 +44,3 @@ patch item_security options_message__sa_full_access_patch {
     target = data.item_security.options_message__sa_full_access
     system = true
 }
-

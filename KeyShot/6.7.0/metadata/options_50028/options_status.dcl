@@ -1,13 +1,11 @@
 data combo_value_label status_approved {
     combo_id = data.combo_value.status_approved.combo_id
     language_id = data.language.english.id
-    label = 'Published'
 }
 
 data combo_value_label status_for_approval {
     combo_id = data.combo_value.status_for_approval.combo_id
     language_id = data.language.english.id
-    label = 'For approval'
 }
 
 data combo_value status_approved {
@@ -141,7 +139,6 @@ resource item_security combo_value_status_d094e5for_review_50396__sa_full_access
     write = true
     system = true
 }
-
 
 patch combo_value status_for_approval_patch {
     target = data.combo_value.status_for_approval

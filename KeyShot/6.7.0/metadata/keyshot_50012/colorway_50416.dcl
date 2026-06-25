@@ -13,6 +13,7 @@ resource editcombovalue_metafield colorway_50416 {
             asset_category_id = resource.asset_category.render_output.id
         }]
     item_guid = '3b7e578c-2ab1-4a06-ad62-fa1aea26d545'
+    inheritance_conflict_resolution_strategy = 'OldestValue'
     autolink = {
         item_guid = '3b7e578c-2ab1-4a06-ad62-fa1aea26d545'
     }
@@ -51,7 +52,7 @@ resource item_security editcombovalue_metafield_colorway_50416__sa_full_access_3
 }
 
 resource item_security editcombovalue_metafield_colorway_50416__superadministrator {
-    accessor_item_id = data.member.superadministrator.item_id
+    accessor_item_id = data.workspace_member.superadministrator.item_id
     item_id = resource.editcombovalue_metafield.colorway_50416.item_id
     read = true
     write = true
@@ -64,4 +65,3 @@ resource metafield_label colorway_51488 {
     label = 'Colorway'
     description = ''
 }
-

@@ -19,7 +19,6 @@ patch item_security id_3578 {
     system = true
 }
 
-
 data item_security title__metadata_editor {
     accessor_item_id = data.member_group.metadata_editor.item_id
     item_id = data.string_metafield.title.item_id

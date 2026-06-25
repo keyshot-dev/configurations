@@ -31,7 +31,7 @@ resource item_security metafield_group_keyshot_50012__sa_full_access_37 {
 }
 
 resource item_security metafield_group_keyshot_50012__superadministrator {
-    accessor_item_id = data.member.superadministrator.item_id
+    accessor_item_id = data.workspace_member.superadministrator.item_id
     item_id = resource.metafield_group.keyshot_50012.item_id
     read = true
     write = true
@@ -60,4 +60,3 @@ resource metafield_group keyshot_50012 {
         item_guid = '178b042d-b6ab-4e1f-9eb6-9c0a990ad7f8'
     }
 }
-

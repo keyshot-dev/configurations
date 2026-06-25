@@ -4,8 +4,8 @@ resource asset_relation_type scenes__geometry {
     description = ''
     is_locked = true
     multiplicity = 'ManyToOne'
-	show_in_list_when_primary = true
-	show_in_list_when_secondary = true
+    show_in_list_when_primary = true
+    show_in_list_when_secondary = true
     primary_asset_categories = [{
             asset_category_id = resource.asset_category.scene.id
             recursive = false
@@ -40,11 +40,11 @@ resource asset_relation_type scenes__geometry {
         enable_behavior = true
         primary_replace_behavior = 'MoveToArchive'
         secondary_replace_behavior = 'Ignore'
-    } 
+    }
     search_behavior = {
         enable_behavior = true
         hide_secondary_by_default_in_search = true
-    }	
+    }
     labels = [{
             language_id = data.language.english.id
             label = 'Scenes-Geometry'

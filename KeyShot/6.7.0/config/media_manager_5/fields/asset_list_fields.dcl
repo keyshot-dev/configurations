@@ -1,13 +1,7 @@
 data configservice_multi_string_config_field asset_list_fields {
     type = 'String'
     product_id = data.configservice_product.media_manager_5.id
-    group = 'default'
-    hidden = true
     key = 'assetListFields'
-    title = 'Asset list fields'
-    description = 'Used to save AssetList columns configuration'
-    language_versioned = false
-    meta_field_type = 'None'
 }
 
 resource configservice_config_multi_string_field_value default_asset_list_fields {
@@ -34,4 +28,3 @@ resource configservice_config_multi_string_field_value default_asset_list_fields
     portal_id = data.configservice_portal.media_manager_5.id
     language_id = 0
 }
-

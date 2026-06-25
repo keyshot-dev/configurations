@@ -9,4 +9,3 @@ resource configservice_config_bit_field_value default_show_custom_button {
     portal_id = data.configservice_portal.media_manager_5.id
     language_id = 0
 }
-

@@ -13,6 +13,7 @@ resource editcombovalue_metafield studio_50413 {
             asset_category_id = resource.asset_category.render_output.id
         }]
     item_guid = '2d4a1962-4eaf-47d5-869c-79fb122e0b9f'
+    inheritance_conflict_resolution_strategy = 'OldestValue'
     autolink = {
         item_guid = '2d4a1962-4eaf-47d5-869c-79fb122e0b9f'
     }
@@ -51,7 +52,7 @@ resource item_security editcombovalue_metafield_studio_50413__sa_full_access_35 
 }
 
 resource item_security editcombovalue_metafield_studio_50413__superadministrator {
-    accessor_item_id = data.member.superadministrator.item_id
+    accessor_item_id = data.workspace_member.superadministrator.item_id
     item_id = resource.editcombovalue_metafield.studio_50413.item_id
     read = true
     write = true
@@ -64,4 +65,3 @@ resource metafield_label studio_51485 {
     label = 'Studio'
     description = ''
 }
-

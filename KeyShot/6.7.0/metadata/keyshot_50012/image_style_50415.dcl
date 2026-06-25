@@ -13,6 +13,7 @@ resource editcombovalue_metafield image_style_50415 {
             asset_category_id = resource.asset_category.render_output.id
         }]
     item_guid = 'c6949385-1e03-4e3f-aeac-6d40351fb206'
+    inheritance_conflict_resolution_strategy = 'OldestValue'
     autolink = {
         item_guid = 'c6949385-1e03-4e3f-aeac-6d40351fb206'
     }
@@ -51,7 +52,7 @@ resource item_security editcombovalue_metafield_image_style_50415__sa_full_acces
 }
 
 resource item_security editcombovalue_metafield_image_style_50415__superadministrator {
-    accessor_item_id = data.member.superadministrator.item_id
+    accessor_item_id = data.workspace_member.superadministrator.item_id
     item_id = resource.editcombovalue_metafield.image_style_50415.item_id
     read = true
     write = true
@@ -64,4 +65,3 @@ resource metafield_label image_style_51487 {
     label = 'Image style'
     description = ''
 }
-

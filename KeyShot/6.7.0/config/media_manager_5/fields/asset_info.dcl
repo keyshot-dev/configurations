@@ -9,4 +9,3 @@ resource configservice_config_string_field_value default_asset_info {
     portal_id = data.configservice_portal.media_manager_5.id
     language_id = 0
 }
-

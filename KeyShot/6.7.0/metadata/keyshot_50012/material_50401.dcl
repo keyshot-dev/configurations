@@ -13,6 +13,7 @@ resource editmulticombovalue_metafield material_50401 {
             asset_category_id = resource.asset_category.material.id
         }]
     item_guid = 'aa3cc9bb-5879-4604-8465-57b775e09c63'
+    inheritance_conflict_resolution_strategy = 'Union'
     autolink = {
         item_guid = 'aa3cc9bb-5879-4604-8465-57b775e09c63'
     }
@@ -51,7 +52,7 @@ resource item_security editmulticombovalue_metafield_material_50401__sa_full_acc
 }
 
 resource item_security editmulticombovalue_metafield_material_50401__superadministrator {
-    accessor_item_id = data.member.superadministrator.item_id
+    accessor_item_id = data.workspace_member.superadministrator.item_id
     item_id = resource.editmulticombovalue_metafield.material_50401.item_id
     read = true
     write = true
@@ -64,4 +65,3 @@ resource metafield_label material_51473 {
     label = 'Material'
     description = ''
 }
-

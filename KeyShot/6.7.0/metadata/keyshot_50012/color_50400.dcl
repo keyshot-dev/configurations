@@ -13,6 +13,7 @@ resource editmulticombovalue_metafield color_50400 {
             asset_category_id = resource.asset_category.material.id
         }]
     item_guid = '4886c6ae-9f9d-49a5-a3e5-92282b76b665'
+    inheritance_conflict_resolution_strategy = 'Union'
     autolink = {
         item_guid = '4886c6ae-9f9d-49a5-a3e5-92282b76b665'
     }
@@ -51,7 +52,7 @@ resource item_security editmulticombovalue_metafield_color_50400__sa_full_access
 }
 
 resource item_security editmulticombovalue_metafield_color_50400__superadministrator {
-    accessor_item_id = data.member.superadministrator.item_id
+    accessor_item_id = data.workspace_member.superadministrator.item_id
     item_id = resource.editmulticombovalue_metafield.color_50400.item_id
     read = true
     write = true
@@ -64,4 +65,3 @@ resource metafield_label color_51472 {
     label = 'Color'
     description = ''
 }
-
