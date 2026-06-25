@@ -1391,3 +1391,51 @@ resource configservice_label audit_trail_metadata_update_source_inherited {
     }
   ]
 }
+
+resource configservice_label audit_trail_asset_focal_point_changed_summary {
+  key = 'AUDIT_TRAIL_ASSET_FOCAL_POINT_CHANGED_SUMMARY'
+  group = 'Audit Trail'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Focal point changed'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Fokuspunkt ændret'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label audit_trail_column_old_focal_point {
+  key = 'AUDIT_TRAIL_COLUMN_OLD_FOCAL_POINT'
+  group = 'Audit Trail'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Previous focal point'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Forrige fokuspunkt'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label audit_trail_column_new_focal_point {
+  key = 'AUDIT_TRAIL_COLUMN_NEW_FOCAL_POINT'
+  group = 'Audit Trail'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'New focal point'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Nyt fokuspunkt'
+      language_id = data.language.danish.id
+    }
+  ]
+}
