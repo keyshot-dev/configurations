@@ -1,6 +1,6 @@
 resource editcombovalue_metafield studio_50413 {
     name = 'Studio'
-    group_id = resource.metafield_group.asset_info.metafield_group_id
+    group_id = data.metafield_group.asset_info.metafield_group_id
     sort_index = 140
     required = false
     readonly = false
