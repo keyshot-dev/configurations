@@ -17,7 +17,7 @@ resource asset_relation_type draft {
     }
 	replace_behavior = {
 		enable_behavior = true,
-		primary_replace_behavior = 'MoveToArchive'
+		primary_replace_behavior = 'Ignore'
 		secondary_replace_behavior = 'Remove'
 	}
     labels = [{
