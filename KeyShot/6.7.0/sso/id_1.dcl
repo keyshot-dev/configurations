@@ -1,5 +1,5 @@
 resource sso_configuration id_1 {
-    template_member_id = resource.member.hub_template_user.member_id
+    template_member_id = 0
     group_sync_level = 'FullSync'
     user_folder_id = 0
     system = true
@@ -11,23 +11,36 @@ resource sso_configuration id_1 {
     is_default = true
     sort_index = 1
     provider = {
-        type = 'OpenIDConnect'
+        type = 'KeyShotOIDC'
         saml2 = {
             entity_id = ''
             signing_behavior = 'IfIdpWantAuthnRequestsSigned'
             ignore_authentication_context_in_response = false
             identity_providers = []
+            module_path = ''
         }
         ws_federation = {
             metadata_address = ''
             app_id = ''
+            callback_path = ''
         }
         openid_connect = {
+            authority = ''
+            client_secret = ''
+            client_id = ''
+            name_claim_type = ''
+            response_type = ''
+            callback_path = ''
+            additional_valid_audiences = []
+            verify_refresh_tokens_on_access_key_refresh = false
+        }
+        keyshot_oidc = {
             authority = 'https://cognito-idp.us-east-2.amazonaws.com/us-east-2_WbfJHLiQT'
             client_secret = '${variable.keyshot_client_secret}'
             client_id = '${variable.keyshot_client_id}'
             name_claim_type = 'http://schemas.xmlsoap.org/ws/2005/05/identity/claims/emailaddress'
             response_type = 'code'
+            callback_path = ''
             additional_valid_audiences = [{
                     audience = '${variable.keyshot_client_id}'
                 }, {
