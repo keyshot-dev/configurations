@@ -29,7 +29,7 @@ resource editcombovalue_metafield studio_50413 {
 
 resource item_security editcombovalue_metafield_studio_50413__content_creator {
     accessor_item_id = data.member_group.content_creator.item_id
-    item_id = resource.editmulticombovalue_metafield.studio_50413.item_id
+    item_id = resource.editcombovalue_metafield.studio_50413.item_id
     read = true
     write = true
     system = true
