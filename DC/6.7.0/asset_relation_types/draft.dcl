@@ -25,7 +25,7 @@ resource asset_relation_type draft {
             label = 'Draft'
             description = resource.asset_relation_type.draft.description
             primary_to_secondary_label = 'Drafts'
-            secondary_to_primary_label = 'Draft to'
+            secondary_to_primary_label = 'Draft of'
         }]
 }
 
