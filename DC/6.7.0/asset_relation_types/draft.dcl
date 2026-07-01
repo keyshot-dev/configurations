@@ -18,7 +18,7 @@ resource asset_relation_type draft {
 	replace_behavior = {
 		enable_behavior = true,
 		primary_replace_behavior = 'Ignore'
-		secondary_replace_behavior = 'Remove'
+		secondary_replace_behavior = 'Ignore'
 	}
     labels = [{
             language_id = resource.language.english.id
