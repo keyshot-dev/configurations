@@ -40,7 +40,11 @@ resource asset_relation_type scenes__models {
         enable_behavior = true
         primary_replace_behavior = 'MoveToArchive'
         secondary_replace_behavior = 'MoveToArchive'
-    }     
+    }
+    share_behavior = {
+        enable_behavior = true
+        inherit_share_access = true
+    }
     labels = [{
             language_id = data.language.english.id
             label = 'Scenes-Models'
