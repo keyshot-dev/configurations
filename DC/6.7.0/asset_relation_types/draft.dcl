@@ -16,7 +16,7 @@ resource asset_relation_type draft {
         hide_secondary_by_default_in_search = true
     }
 	replace_behavior = {
-		enable_behavior = true,
+		enable_behavior = true
 		primary_replace_behavior = 'Ignore'
 		secondary_replace_behavior = 'Ignore'
 	}
