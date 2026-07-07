@@ -19,5 +19,6 @@ resource workspace_member content_creator {
             member_group_id = resource.member_group.scheme_content_creator.member_group_id
         }]
     roles = []
+	hidden = true
 }
 

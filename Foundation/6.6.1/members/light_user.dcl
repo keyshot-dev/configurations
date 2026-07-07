@@ -19,5 +19,6 @@ resource workspace_member light_user {
             member_group_id = resource.member_group.scheme_light_user.member_group_id
         }]
     roles = []
+	hidden = true
 }
 
