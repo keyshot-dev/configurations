@@ -20,5 +20,6 @@ patch workspace_member guest {
         }, {
             member_group_id = resource.member_group.metadata_viewer.member_group_id
         }]
+	hidden = true
 }
 
