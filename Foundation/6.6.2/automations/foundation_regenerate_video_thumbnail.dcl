@@ -1,0 +1,23 @@
+resource automation_workflow foundation_regenerate_video_thumbnail {
+    name = 'Foundation: Regenerate video thumbnail'
+    description = ''
+    content = 'trigger "When Frame Accurate thumbnail is changed" {
+	type = "metadata"
+	resolves = "Generate asset renditions"
+	meta_field = "guid:${to_string(data.string_metafield.frameaccurate_thumbnail.item_guid)}"
+	listen_to_metadata_changes = "addedonly"
+}
+
+action "Generate asset renditions" {
+	type = "Generate asset renditions"
+	asset_id = "@sourceAssetId"
+	format_ids = ["${to_string(data.format.thumbnail.id)}","${to_string(data.format.large_thumbnail.id)}"]
+	force_generate = "true"
+	ignore_security_update_mode = "preserveorfalse"
+}
+'
+    is_disabled = false
+    tags = []
+    system = false
+}
+
