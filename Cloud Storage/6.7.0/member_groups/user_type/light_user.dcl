@@ -36,8 +36,6 @@ patch member_group light_user {
         }, {
             constant = 'ChannelFolder_View'
         }, {
-            constant = 'Comments_CRUD'
-        }, {
             constant = 'Comments_View'
         }, {
             constant = 'MediaPortal_Share'
