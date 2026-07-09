@@ -27,6 +27,14 @@ resource item_security editmulticombovalue_metafield_color__content_creator {
     system = true
 }
 
+resource item_security editmulticombovalue_metafield_color__light_user {
+    accessor_item_id = data.member_group.light_user.item_id
+    item_id = resource.editmulticombovalue_metafield.color_50400.item_id
+    read = true
+    write = false
+    system = true
+}
+
 resource metafield_label color_51472 {
     metafield_id = resource.editmulticombovalue_metafield.color_50400.metafield_id
     language_id = data.language.english.id

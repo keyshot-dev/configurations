@@ -35,6 +35,14 @@ resource item_security editcombovalue_metafield_camera_50412__content_creator {
     system = true
 }
 
+resource item_security editcombovalue_metafield_camera_50412__light_user {
+    accessor_item_id = data.member_group.light_user.item_id
+    item_id = resource.editcombovalue_metafield.camera_50412.item_id
+    read = true
+    write = false
+    system = true
+}
+
 resource metafield_label camera_51484 {
     metafield_id = resource.editcombovalue_metafield.camera_50412.metafield_id
     language_id = data.language.english.id

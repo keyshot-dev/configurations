@@ -27,6 +27,14 @@ resource item_security editcombovalue_metafield_texture_type__content_creator {
     system = true
 }
 
+resource item_security editcombovalue_metafield_texture_type__light_user {
+    accessor_item_id = data.member_group.light_user.item_id
+    item_id = resource.editcombovalue_metafield.texture_type_50406.item_id
+    read = true
+    write = false
+    system = true
+}
+
 resource metafield_label texture_type_51478 {
     metafield_id = resource.editcombovalue_metafield.texture_type_50406.metafield_id
     language_id = data.language.english.id

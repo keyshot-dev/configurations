@@ -29,6 +29,14 @@ resource item_security editcombovalue_metafield_author__content_creator {
     system = true
 }
 
+resource item_security editcombovalue_metafield_author__light_user {
+    accessor_item_id = data.member_group.light_user.item_id
+    item_id = resource.editcombovalue_metafield.author_50404.item_id
+    read = true
+    write = false
+    system = true
+}
+
 resource metafield_label author_51476 {
     metafield_id = resource.editcombovalue_metafield.author_50404.metafield_id
     language_id = data.language.english.id

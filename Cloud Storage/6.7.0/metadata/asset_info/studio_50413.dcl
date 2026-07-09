@@ -35,6 +35,14 @@ resource item_security editcombovalue_metafield_studio_50413__content_creator {
     system = true
 }
 
+resource item_security editcombovalue_metafield_studio_50413__light_user {
+    accessor_item_id = data.member_group.light_user.item_id
+    item_id = resource.editcombovalue_metafield.studio_50413.item_id
+    read = true
+    write = false
+    system = true
+}
+
 resource metafield_label studio_51485 {
     metafield_id = resource.editcombovalue_metafield.studio_50413.metafield_id
     language_id = data.language.english.id

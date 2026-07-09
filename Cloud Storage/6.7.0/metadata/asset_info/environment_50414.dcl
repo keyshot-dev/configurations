@@ -35,6 +35,14 @@ resource item_security editcombovalue_metafield_environment_50414__content_creat
     system = true
 }
 
+resource item_security editcombovalue_metafield_environment_50414__light_user {
+    accessor_item_id = data.member_group.light_user.item_id
+    item_id = resource.editcombovalue_metafield.environment_50414.item_id
+    read = true
+    write = false
+    system = true
+}
+
 resource metafield_label environment_51486 {
     metafield_id = resource.editcombovalue_metafield.environment_50414.metafield_id
     language_id = data.language.english.id

@@ -496,6 +496,14 @@ resource item_security combovalue_metafield_material_type__content_creator {
     system = true
 }
 
+resource item_security combovalue_metafield_material_type__light_user {
+    accessor_item_id = data.member_group.light_user.item_id
+    item_id = resource.combovalue_metafield.material_type_50403.item_id
+    read = true
+    write = false
+    system = true
+}
+
 resource metafield_label material_type_51475 {
     metafield_id = resource.combovalue_metafield.material_type_50403.metafield_id
     language_id = data.language.english.id

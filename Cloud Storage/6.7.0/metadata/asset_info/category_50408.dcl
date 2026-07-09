@@ -29,6 +29,14 @@ resource item_security editmulticombovalue_metafield_category__content_creator {
     system = true
 }
 
+resource item_security editmulticombovalue_metafield_category__light_user {
+    accessor_item_id = data.member_group.light_user.item_id
+    item_id = resource.editmulticombovalue_metafield.category_50408.item_id
+    read = true
+    write = false
+    system = true
+}
+
 resource metafield_label category_51480 {
     metafield_id = resource.editmulticombovalue_metafield.category_50408.metafield_id
     language_id = data.language.english.id
