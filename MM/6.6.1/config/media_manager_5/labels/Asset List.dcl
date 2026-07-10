@@ -2874,7 +2874,7 @@ resource configservice_label asset_list_getting_started_folders_description {
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Opret en mappe for at organisere dine aktiver, eller træk og slip en mappe fra din computer — dens struktur bliver gengivet automatisk.'
+      default_translation = 'Opret en mappe for at organisere dine assets, eller træk og slip en mappe fra din computer — dens struktur bliver gengivet automatisk.'
       language_id = data.language.danish.id
     }
   ]
@@ -2906,7 +2906,7 @@ resource configservice_label asset_list_getting_started_assets_title {
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Ingen aktiver endnu'
+      default_translation = 'Ingen assets endnu'
       language_id = data.language.danish.id
     }
   ]
@@ -2922,7 +2922,7 @@ resource configservice_label asset_list_getting_started_assets_description {
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Træk og slip filer her for at uploade, eller klik nedenfor for at gennemse. Slipper du en mappe, gengives dens struktur, og alle aktiver i den importeres.'
+      default_translation = 'Træk og slip filer her for at uploade, eller klik nedenfor for at gennemse. Slipper du en mappe, gengives dens struktur, og alle filer i den importeres.'
       language_id = data.language.danish.id
     }
   ]
@@ -2938,7 +2938,7 @@ resource configservice_label asset_list_getting_started_upload_assets {
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Upload aktiver'
+      default_translation = 'Upload assets'
       language_id = data.language.danish.id
     }
   ]
