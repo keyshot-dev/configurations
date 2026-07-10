@@ -35,6 +35,14 @@ resource item_security editcombovalue_metafield_image_style_50415__content_creat
     system = true
 }
 
+resource item_security editcombovalue_metafield_image_style_50415__light_user {
+    accessor_item_id = data.member_group.light_user.item_id
+    item_id = resource.editcombovalue_metafield.image_style_50415.item_id
+    read = true
+    write = false
+    system = true
+}
+
 resource metafield_label image_style_51487 {
     metafield_id = resource.editcombovalue_metafield.image_style_50415.metafield_id
     language_id = data.language.english.id

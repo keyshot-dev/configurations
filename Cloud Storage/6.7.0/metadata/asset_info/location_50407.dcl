@@ -29,6 +29,14 @@ resource item_security editcombovalue_metafield_location__content_creator {
     system = true
 }
 
+resource item_security editcombovalue_metafield_location__light_user {
+    accessor_item_id = data.member_group.light_user.item_id
+    item_id = resource.editcombovalue_metafield.location_50407.item_id
+    read = true
+    write = false
+    system = true
+}
+
 resource metafield_label location_51479 {
     metafield_id = resource.editcombovalue_metafield.location_50407.metafield_id
     language_id = data.language.english.id

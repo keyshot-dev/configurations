@@ -27,6 +27,14 @@ resource item_security editcombovalue_metafield_process_status__content_creator 
     system = true
 }
 
+resource item_security editcombovalue_metafield_process_status__light_user {
+    accessor_item_id = data.member_group.light_user.item_id
+    item_id = resource.editcombovalue_metafield.process_status_50410.item_id
+    read = true
+    write = false
+    system = true
+}
+
 resource metafield_label process_status_51482 {
     metafield_id = resource.editcombovalue_metafield.process_status_50410.metafield_id
     language_id = data.language.english.id

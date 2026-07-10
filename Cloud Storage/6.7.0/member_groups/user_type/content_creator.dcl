@@ -4,7 +4,7 @@ data member_group content_creator {
 
 patch member_group content_creator {
     target = data.member_group.content_creator
-    ad_group_name = 'digizuite-sso-1-keyshot-oidc-handler'
+    ad_group_name = 'creator'
     download_qualities = [{
             media_format_id = -1
         }]

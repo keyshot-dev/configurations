@@ -3,12 +3,10 @@ data channel_folder internal_access {
     parent_id = data.channel_folder.rights_management.channel_folder_id
 }
 
-data item_security internal_access__internal_access {
-    accessor_item_id = data.member_group.internal_access.item_id
+resource item_security internal_access__content_creator {
+    accessor_item_id = data.member_group.content_creator.item_id
     item_id = data.channel_folder.internal_access.item_id
-}
-
-patch item_security channel_folder_internal_access__internal_access {
-    target = data.item_security.internal_access__internal_access
+    read = true
     write = true
+    system = true
 }

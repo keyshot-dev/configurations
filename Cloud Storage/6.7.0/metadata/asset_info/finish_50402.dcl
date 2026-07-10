@@ -27,6 +27,14 @@ resource item_security editmulticombovalue_metafield_finish__content_creator {
     system = true
 }
 
+resource item_security editmulticombovalue_metafield_finish__light_user {
+    accessor_item_id = data.member_group.light_user.item_id
+    item_id = resource.editmulticombovalue_metafield.finish_50402.item_id
+    read = true
+    write = false
+    system = true
+}
+
 resource metafield_label finish_51474 {
     metafield_id = resource.editmulticombovalue_metafield.finish_50402.metafield_id
     language_id = data.language.english.id
