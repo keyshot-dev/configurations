@@ -2848,3 +2848,114 @@ resource configservice_label asset_list_list_deleted_asset {
     }
   ]
 }
+resource configservice_label asset_list_getting_started_folders_title {
+  key = 'ASSET_LIST_GETTING_STARTED_FOLDERS_TITLE'
+  group = 'Asset List'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'No folders yet'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Ingen mapper endnu'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_list_getting_started_folders_description {
+  key = 'ASSET_LIST_GETTING_STARTED_FOLDERS_DESCRIPTION'
+  group = 'Asset List'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Create a folder to organise your assets, or drag and drop a folder from your computer — its structure will be replicated automatically.'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Opret en mappe for at organisere dine assets, eller træk og slip en mappe fra din computer — dens struktur bliver gengivet automatisk.'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_list_getting_started_create_folder {
+  key = 'ASSET_LIST_GETTING_STARTED_CREATE_FOLDER'
+  group = 'Asset List'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Create a folder'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Opret en mappe'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_list_getting_started_assets_title {
+  key = 'ASSET_LIST_GETTING_STARTED_ASSETS_TITLE'
+  group = 'Asset List'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'No assets yet'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Ingen assets endnu'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_list_getting_started_assets_description {
+  key = 'ASSET_LIST_GETTING_STARTED_ASSETS_DESCRIPTION'
+  group = 'Asset List'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Drag and drop files here to upload, or click below to browse. Dropping a folder will replicate its structure and import all assets inside.'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Træk og slip filer her for at uploade, eller klik nedenfor for at gennemse. Slipper du en mappe, gengives dens struktur, og alle filer i den importeres.'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_list_getting_started_upload_assets {
+  key = 'ASSET_LIST_GETTING_STARTED_UPLOAD_ASSETS'
+  group = 'Asset List'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Upload assets'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Upload assets'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_list_getting_started_dismiss_tooltip {
+  key = 'ASSET_LIST_GETTING_STARTED_DISMISS_TOOLTIP'
+  group = 'Asset List'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Dismiss'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Afvis'
+      language_id = data.language.danish.id
+    }
+  ]
+}
