@@ -9,12 +9,8 @@ patch mail_template assetsharedbyemail {
 
 {{ 
     asset = digizuite.get_asset data.asset_id
-    if asset
-        category_name = (digizuite.get_category asset.asset_category_id)?.name
-    else
-        category_name = "asset"
-    end
-    category_name = string.downcase category_name
+    category_name = asset ? (digizuite.get_category asset.asset_category_id)?.name : null
+    category_name = category_name == null || category_name == "uncategorized" ? "asset" : string.downcase category_name    
 }}
 
 <title>View a shared {{ category_name }}</title>
@@ -36,7 +32,6 @@ patch mail_template assetsharedbyemail {
                         <table border="0" cellspacing="0" cellpadding="0">
                             <tr>
                                 <td>
-                                    <h1>Hi!</h1>
                                     <p>{{sender.name | html.escape}} ({{sender.email_address | html.escape}}) has shared {{ if category_name == "animation" || category_name  == "environment" }}an{{ else }}a{{ end }} {{ category_name }} with you.</p>
                                 </td>
                             </tr>
