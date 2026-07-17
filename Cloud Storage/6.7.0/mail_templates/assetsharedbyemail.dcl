@@ -4,14 +4,16 @@ data mail_template assetsharedbyemail {
 
 patch mail_template assetsharedbyemail {
     target = data.mail_template.assetsharedbyemail
-    subject = "You have been invited to view an asset"
+    subject = "Asset shared with you"
     body = '{{include \'html-header-start\'}}
 
-<title>View a shared asset</title>
+{{ category = (digizuite.get_asset data.asset_id | digizuite.get_category)?.name ?? "asset" | string.downcase }}
+
+<title>View a shared {{ category.name }}</title>
 
 {{include \'html-header-end\'}}
 
-<span class="preheader">{{sender.name  | html.escape}} has shared an asset with you.</span>
+<span class="preheader">{{sender.name  | html.escape}} has shared {{ if category.name == "animation" || category.name  == "environment" }}an{{ else }}a{{ end }} {{ category.name }} with you.</span>
 
 {{include \'standard-header\'}}
 
@@ -26,14 +28,14 @@ patch mail_template assetsharedbyemail {
                         <table border="0" cellspacing="0" cellpadding="0">
                             <tr>
                                 <td>
-                                    <h1>Hello {{receiver.name | html.escape}}!</h1>
-                                    <p>{{sender.name | html.escape}} ({{sender.email_address | html.escape}}) has shared an asset with you.</p>
+                                    <h1>Hi!</h1>
+                                    <p>{{sender.name | html.escape}} ({{sender.email_address | html.escape}}) has shared {{ if category.name == "animation" || category.name  == "environment" }}an{{ else }}a{{ end }} {{ category.name }} with you.</p>
                                 </td>
                             </tr>
                             <tr>
                                 <td align="center">
                                     <a href="{{data.url}}"
-                                       class="button" target="_blank">View asset</a>
+                                       class="button" target="_blank">View {{ category.name }}</a>
                                 </td>
                             </tr>
                         </table>
