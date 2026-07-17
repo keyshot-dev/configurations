@@ -10,7 +10,7 @@ patch mail_template assetsharedbyemail {
 {{ 
     asset = digizuite.get_asset data.asset_id
     category_name = asset ? (digizuite.get_category asset.asset_category_id)?.name : null
-    category_name = category_name == null || category_name == "uncategorized" ? "asset" : string.downcase category_name    
+    category_name = category_name == null || category_name == "Uncategorized" ? "asset" : string.downcase category_name    
 }}
 
 <title>View a shared {{ category_name }}</title>
