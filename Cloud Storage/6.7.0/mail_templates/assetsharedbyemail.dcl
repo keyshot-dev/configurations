@@ -7,13 +7,21 @@ patch mail_template assetsharedbyemail {
     subject = "Asset shared with you"
     body = '{{include \'html-header-start\'}}
 
-{{ category = (digizuite.get_asset data.asset_id | digizuite.get_category)?.name ?? "asset" | string.downcase }}
+{{ 
+    asset = digizuite.get_asset data.asset_id
+    if asset
+        category_name = (digizuite.get_category asset.asset_category_id)?.name
+    else
+        category_name = "asset"
+    end
+    category_name = string.downcase category_name
+}}
 
-<title>View a shared {{ category.name }}</title>
+<title>View a shared {{ category_name }}</title>
 
 {{include \'html-header-end\'}}
 
-<span class="preheader">{{sender.name  | html.escape}} has shared {{ if category.name == "animation" || category.name  == "environment" }}an{{ else }}a{{ end }} {{ category.name }} with you.</span>
+<span class="preheader">{{sender.name  | html.escape}} has shared {{ if category_name == "animation" || category_name  == "environment" }}an{{ else }}a{{ end }} {{ category_name }} with you.</span>
 
 {{include \'standard-header\'}}
 
@@ -29,13 +37,13 @@ patch mail_template assetsharedbyemail {
                             <tr>
                                 <td>
                                     <h1>Hi!</h1>
-                                    <p>{{sender.name | html.escape}} ({{sender.email_address | html.escape}}) has shared {{ if category.name == "animation" || category.name  == "environment" }}an{{ else }}a{{ end }} {{ category.name }} with you.</p>
+                                    <p>{{sender.name | html.escape}} ({{sender.email_address | html.escape}}) has shared {{ if category_name == "animation" || category_name  == "environment" }}an{{ else }}a{{ end }} {{ category_name }} with you.</p>
                                 </td>
                             </tr>
                             <tr>
                                 <td align="center">
                                     <a href="{{data.url}}"
-                                       class="button" target="_blank">View {{ category.name }}</a>
+                                       class="button" target="_blank">View {{ category_name }}</a>
                                 </td>
                             </tr>
                         </table>
