@@ -16,19 +16,19 @@ patch mail_template standardfooter {
             <table>
                 <tr>
                     <td style="width: 20%">
-                        <a href="https://www.youtube.com/c/keyshot" target="_blank" rel="noreferrer noopener" aria-title="KeyShot's YouTube channel" style="display: block; margin: 8px;"><img src="https://email.keyshot.com/hubfs/email/youtube.png" alt="YouTube" width="40" height="40" style="color: #ffffff; font-size: 16px" /></a>
+                        <a href="https://www.youtube.com/c/keyshot" target="_blank" rel="noreferrer noopener" aria-title="KeyShot\'s YouTube channel" style="display: block; margin: 8px;"><img src="https://email.keyshot.com/hubfs/email/youtube.png" alt="YouTube" width="40" height="40" style="color: #ffffff; font-size: 16px" /></a>
                     </td>
                     <td style="width: 20%">
-                        <a href="https://www.facebook.com/LuxionKeyShot" target="_blank" rel="noreferrer noopener" aria-title="KeyShot's Facebook page" style="display: block;  margin: 8px;"><img src="https://email.keyshot.com/hubfs/email/facebook.png" alt="Facebook" width="40" height="40" style="color: #ffffff; font-size: 16px" /></a>
+                        <a href="https://www.facebook.com/LuxionKeyShot" target="_blank" rel="noreferrer noopener" aria-title="KeyShot\'s Facebook page" style="display: block;  margin: 8px;"><img src="https://email.keyshot.com/hubfs/email/facebook.png" alt="Facebook" width="40" height="40" style="color: #ffffff; font-size: 16px" /></a>
                     </td>
                     <td style="width: 20%">
-                        <a href="https://twitter.com/KeyShot3D" target="_blank" rel="noreferrer noopener" aria-title="KeyShot's Twitter account" style="display: block;  margin: 8px;"><img src="https://email.keyshot.com/hubfs/email/twitter.png" alt="Twitter" width="40" height="40" style="color: #ffffff; font-size: 16px" /></a>
+                        <a href="https://twitter.com/KeyShot3D" target="_blank" rel="noreferrer noopener" aria-title="KeyShot\'s Twitter account" style="display: block;  margin: 8px;"><img src="https://email.keyshot.com/hubfs/email/twitter.png" alt="Twitter" width="40" height="40" style="color: #ffffff; font-size: 16px" /></a>
                     </td>
                     <td style="width: 20%">
-                        <a href="https://www.instagram.com/keyshot3d" target="_blank" rel="noreferrer noopener" aria-title="KeyShot's Instagram profile" style="display: block;  margin: 8px;"><img src="https://email.keyshot.com/hubfs/email/instagram.png" alt="Instagram" width="40" height="40" style="color: #ffffff; font-size: 16px" /></a>
+                        <a href="https://www.instagram.com/keyshot3d" target="_blank" rel="noreferrer noopener" aria-title="KeyShot\'s Instagram profile" style="display: block;  margin: 8px;"><img src="https://email.keyshot.com/hubfs/email/instagram.png" alt="Instagram" width="40" height="40" style="color: #ffffff; font-size: 16px" /></a>
                     </td>
                     <td style="width: 20%">
-                        <a href="https://www.pinterest.dk/keyshot" target="_blank" rel="noreferrer noopener" aria-title="KeyShot's Pinterest profile" style="display: block;  margin: 8px;"><img src="https://email.keyshot.com/hubfs/email/pinterest.png" alt="Pinterest" width="40" height="40" style="color: #ffffff; font-size: 16px" /></a>
+                        <a href="https://www.pinterest.dk/keyshot" target="_blank" rel="noreferrer noopener" aria-title="KeyShot\'s Pinterest profile" style="display: block;  margin: 8px;"><img src="https://email.keyshot.com/hubfs/email/pinterest.png" alt="Pinterest" width="40" height="40" style="color: #ffffff; font-size: 16px" /></a>
                     </td>
                 </tr>
             </table>
