@@ -38,7 +38,7 @@ patch mail_template assetsharedbyemail {
                             <tr>
                                 <td align="center">
                                     <a href="{{data.url}}"
-                                       class="button" target="_blank">View {{ category_name }}</a>
+                                       class="ks-button" target="_blank">View {{ category_name }}</a>
                                 </td>
                             </tr>
                         </table>

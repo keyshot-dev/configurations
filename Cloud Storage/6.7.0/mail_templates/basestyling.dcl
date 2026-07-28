@@ -133,23 +133,32 @@ patch mail_template basestyling {
         box-shadow: 0 2px 3px rgba(0, 0, 0, 0.16);
         -webkit-text-size-adjust: none;
     }
+    .ks-button {
+        background: #0066ff;
+        color: #ffffff;
+        padding: 18px 40px;
+        border: 1px solid transparent;
+        border-radius: 45px;
+        font-size: 22px;
+        text-decoration: none;
+    }
     /* Type ------------------------------ */
     h1 {
         margin-top: 0;
         color: #212121;
-        font-size: 19px;
+        font-size: 30px;
         font-weight: bold;
         text-align: center;
     }
     p {
         margin-top: 0;
         color: #212121;
-        font-size: 16px;
+        font-size:22px;
         line-height: 1.5em;
         text-align: center;
     }
     p.sub {
-        font-size: 12px;
+        font-size: 14px;
         color: #2b2b2b
     }
     p.center {
