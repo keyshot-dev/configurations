@@ -15,7 +15,7 @@ patch mail_template standardfooter {
                 <td align="center">
                     <table style="padding: 70px 0 90px 0; width: 90%;">
                         <tr>
-                            <td style="text-align: center">If you don't have a KeyShot Account, create one <a style="color: #0066ff;text-decoration: none;" href="https://storage.keyshot.com/">here</a>.</td>
+                            <td style="text-align: center">If you don\'t have a KeyShot Account, create one <a style="color: #0066ff;text-decoration: none;" href="https://storage.keyshot.com/">here</a>.</td>
                         </tr>
                         <tr>
                             <td style="text-align: center">
