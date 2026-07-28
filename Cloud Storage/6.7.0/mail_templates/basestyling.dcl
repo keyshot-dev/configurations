@@ -153,7 +153,7 @@ patch mail_template basestyling {
     p {
         margin-top: 0;
         color: #212121;
-        font-size:22px;
+        font-size:24px;
         line-height: 1.5em;
         text-align: center;
     }
