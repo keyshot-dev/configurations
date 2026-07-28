@@ -32,13 +32,13 @@ patch mail_template assetsharedbyemail {
                         <table border="0" cellspacing="0" cellpadding="0">
                             <tr>
                                 <td>
-                                    <p>{{sender.name | html.escape}} ({{sender.email_address | html.escape}}) has shared {{ if category_name == "animation" || category_name  == "environment" || category_name == "asset" }}an{{ else }}a{{ end }} {{ category_name }} with you.</p>
+                                    <p style="padding-bottom: 20px">{{sender.name | html.escape}} ({{sender.email_address | html.escape}}) has shared {{ if category_name == "animation" || category_name  == "environment" || category_name == "asset" }}an{{ else }}a{{ end }} {{ category_name }} with you.</p>
                                 </td>
                             </tr>
                             <tr>
                                 <td align="center">
                                     <a href="{{data.url}}"
-                                       class="button" target="_blank">View {{ category_name }}</a>
+                                       class="ks-button" target="_blank">View {{ category_name }}</a>
                                 </td>
                             </tr>
                         </table>
