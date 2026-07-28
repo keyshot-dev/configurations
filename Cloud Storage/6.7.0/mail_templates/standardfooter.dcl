@@ -23,11 +23,11 @@ patch mail_template standardfooter {
                             </td>
                         </tr>
                     </table>
-                    <table style='width:100%;'>
+                    <table style="width:100%;">
                         <tr>
                             <td>
-                                <p class='meta' style='text-align: center;padding: 0 100px;font: normal normal normal 11px/15px Verdana;'>KeyShot, 575 Anton Blvd Suite 650, Costa Mesa, CA, 92626, USA, (949) 274-8871 </p>
-                                <p class='meta' style='text-align: center;padding: 0 100px;font: normal normal normal 11px/15px Verdana;'><a href='mailto:info@keyshot.com' style='color: #666;text-decoration: none;'>info@keyshot.com</a> | <a href='https://www.keyshot.com' style='color: #666;text-decoration: none;'>keyshot.com</a></p>
+                                <p class="meta" style="text-align: center;padding: 0 100px;font: normal normal normal 11px/15px Verdana;">KeyShot, 575 Anton Blvd Suite 650, Costa Mesa, CA, 92626, USA, (949) 274-8871 </p>
+                                <p class="meta" style="text-align: center;padding: 0 100px;font: normal normal normal 11px/15px Verdana;"><a href="mailto:info@keyshot.com" style="color: #666;text-decoration: none;">info@keyshot.com</a> | <a href="https://www.keyshot.com" style="color: #666;text-decoration: none;">keyshot.com</a></p>
                             </td>
                         </tr>
                     </table>
