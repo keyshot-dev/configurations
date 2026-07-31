@@ -7357,6 +7357,22 @@ resource configservice_label settings_sso_settings_verify_refresh_tokens_on_refr
   ]
 }
 
+resource configservice_label settings_sso_settings_logout_redirect_parameter_name {
+  key = 'SETTINGS_SSO_SETTINGS_LOGOUT_REDIRECT_PARAMETER_NAME'
+  group = 'settings - sso-settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Logout redirect parameter name'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Navn på omdirigeringsparameter ved log ud'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label administration_tools_sso_section_actions {
   key = 'ADMINISTRATION_TOOLS_SSO_SECTION_ACTIONS'
   group = 'settings - sso-settings'
