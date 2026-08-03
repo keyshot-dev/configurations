@@ -16098,8 +16098,8 @@ resource configservice_label administration_tools_system_workspaces_switch_to_wo
   ]
 }
 
-resource configservice_label administration_tools_system_workspaces_change_workspace_success_body {
-  key = 'ADMINISTRATION_TOOLS_SYSTEM_WORKSPACES_CHANGE_WORKSPACE_SUCCESS_BODY'
+resource configservice_label administration_tools_system_workspaces_switch_workspace_success {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_WORKSPACES_SWITCH_WORKSPACE_SUCCESS'
   group = 'administration-tools - system - workspace-members'
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
