@@ -13464,11 +13464,11 @@ resource configservice_label administration_tools_system_workspaces_dialog_delet
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Are you sure you want to delete this workspace? This action cannot be undone.'
+      default_translation = 'Are you sure you want to delete \'{{name}}\'? This action cannot be undone.'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Er du sikker på, at du vil slette dette arbejdsområde? Denne handling kan ikke fortrydes.'
+      default_translation = 'Er du sikker på, at du vil slette \'{{name}}\'? Denne handling kan ikke fortrydes.'
       language_id = data.language.danish.id
     }
   ]
@@ -16061,6 +16061,70 @@ resource configservice_label administration_tools_workspace_members_email_add_bt
     },
     {
       default_translation = 'Tilføj email'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_workspaces_manage_users {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_WORKSPACES_MANAGE_USERS'
+  group = 'administration-tools - system - workspace-members'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Manage users'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Administrer brugere'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_workspaces_switch_to_workspace {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_WORKSPACES_SWITCH_TO_WORKSPACE'
+  group = 'administration-tools - system - workspace-members'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Switch to this workspace'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Skift til dette arbejdsområde'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_workspaces_change_workspace_success_body {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_WORKSPACES_CHANGE_WORKSPACE_SUCCESS_BODY'
+  group = 'administration-tools - system - workspace-members'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Switched to workspace \'{{name}}\''
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Skiftede til arbejdsområde \'{{name}}\''
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_workspaces_switch_workspace_error {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_WORKSPACES_SWITCH_WORKSPACE_ERROR'
+  group = 'administration-tools - system - workspace-members'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Failed to switch to workspace \'{{name}}\''
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Fejlede at skifte til arbejdsområde \'{{name}}\''
       language_id = data.language.danish.id
     }
   ]
