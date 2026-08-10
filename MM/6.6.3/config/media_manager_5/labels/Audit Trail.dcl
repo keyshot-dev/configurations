@@ -1296,3 +1296,146 @@ resource configservice_label audit_trail_asset_folder_changed_summary {
   ]
 }
 
+resource configservice_label audit_trail_metadata_copied_summary {
+  key = 'AUDIT_TRAIL_METADATA_COPIED_SUMMARY'
+  group = 'Audit Trail'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Metadata copied'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Metadata kopieret'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label audit_trail_metadata_inherited_summary {
+  key = 'AUDIT_TRAIL_METADATA_INHERITED_SUMMARY'
+  group = 'Audit Trail'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Metadata inherited'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Metadata nedarvet'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label audit_trail_metadata_update_source {
+  key = 'AUDIT_TRAIL_METADATA_UPDATE_SOURCE'
+  group = 'Audit Trail'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Update source'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Opdateringskilde'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label audit_trail_metadata_update_source_regular {
+  key = 'AUDIT_TRAIL_METADATA_UPDATE_SOURCE_REGULAR'
+  group = 'Audit Trail'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Regular change'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Almindelig ændring'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label audit_trail_metadata_update_source_copy {
+  key = 'AUDIT_TRAIL_METADATA_UPDATE_SOURCE_COPY'
+  group = 'Audit Trail'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Metadata copy'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Metadata-kopi'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label audit_trail_metadata_update_source_inherited {
+  key = 'AUDIT_TRAIL_METADATA_UPDATE_SOURCE_INHERITED'
+  group = 'Audit Trail'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Inheritance'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Nedarvning'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label audit_trail_asset_focal_point_changed_summary {
+  key = 'AUDIT_TRAIL_ASSET_FOCAL_POINT_CHANGED_SUMMARY'
+  group = 'Audit Trail'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Focal point changed'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Fokuspunkt ændret'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label audit_trail_column_old_focal_point {
+  key = 'AUDIT_TRAIL_COLUMN_OLD_FOCAL_POINT'
+  group = 'Audit Trail'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Previous focal point'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Forrige fokuspunkt'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label audit_trail_column_new_focal_point {
+  key = 'AUDIT_TRAIL_COLUMN_NEW_FOCAL_POINT'
+  group = 'Audit Trail'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'New focal point'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Nyt fokuspunkt'
+      language_id = data.language.danish.id
+    }
+  ]
+}
