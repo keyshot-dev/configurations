@@ -12562,6 +12562,38 @@ resource configservice_label administration_tools_system_asset_relation_types_sy
   ]
 }
 
+resource configservice_label administration_tools_system_asset_relation_types_system_inherit_share_access {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_ASSET_RELATION_TYPES_SYSTEM_INHERIT_SHARE_ACCESS'
+  group = 'administration-tools - system - asset-relation-types'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Inherit share access'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Nedarv delingsadgang'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_asset_relation_types_system_inherit_share_access_tooltip {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_ASSET_RELATION_TYPES_SYSTEM_INHERIT_SHARE_ACCESS_TOOLTIP'
+  group = 'administration-tools - system - asset-relation-types'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'If enabled, secondary assets will inherit share access from primary assets through this relation type'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Hvis aktiveret, vil sekundære assets nedarve delingsadgang fra primære assets gennem denne relationstype'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label administration_tools_system_asset_relation_types_inherited_metadata_fields_label {
   key = 'ADMINISTRATION_TOOLS_SYSTEM_ASSET_RELATION_TYPES_INHERITED_METADATA_FIELDS_LABEL'
   group = 'administration-tools - system - asset-relation-types'
