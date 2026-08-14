@@ -1759,3 +1759,99 @@ resource configservice_label validate_workspace_member_invite_by_workspace_id_er
     }
   ]
 }
+
+resource configservice_label login_sso_dialog_description {
+  key = 'LOGIN_SSO_DIALOG_DESCRIPTION'
+  group = 'Authentication'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'If this window did not close after login, the redirection did not occur.'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Hvis dette vindue ikke lukkede efter login, skete omdirigeringen ikke.'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label login_sso_dialog_manual_login_btn {
+  key = 'LOGIN_SSO_DIALOG_MANUAL_LOGIN_BTN'
+  group = 'Authentication'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Open login manually'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Åbn login manuelt'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label login_sso_dialog_token_input_placeholder {
+  key = 'LOGIN_SSO_DIALOG_TOKEN_INPUT_PLACEHOLDER'
+  group = 'Authentication'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Copy token and paste here'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Kopiér token, og indsæt den her'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label login_sso_dialog_token_input_required_error {
+  key = 'LOGIN_SSO_DIALOG_TOKEN_INPUT_REQUIRED_ERROR'
+  group = 'Authentication'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Enter the token from the panel.'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Indtast token fra panelet.'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label login_sso_dialog_token_input_invalid_error {
+  key = 'LOGIN_SSO_DIALOG_TOKEN_INPUT_INVALID_ERROR'
+  group = 'Authentication'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'The token is not valid. Try signing in again.'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Tokenet er ikke gyldigt. Prøv at logge ind igen.'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label login_sso_dialog_token_login_btn_text {
+  key = 'LOGIN_SSO_DIALOG_TOKEN_LOGIN_BTN_TEXT'
+  group = 'Authentication'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Login'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Log ind'
+      language_id = data.language.danish.id
+    }
+  ]
+}
