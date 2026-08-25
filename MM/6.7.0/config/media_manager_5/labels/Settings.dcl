@@ -2726,11 +2726,11 @@ resource configservice_label job_status_generic_job_status_main_step_progress_lo
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Step\'s progress - {{ percent }} ({{ progress }}/{{ total }})'
+      default_translation = 'Step\'s progress: {{ percent }} ({{ progress }}/{{ total }})'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Trins fremgang - {{ percent }} ({{ progress }}/{{ total }})'
+      default_translation = 'Trins fremgang: {{ percent }} ({{ progress }}/{{ total }})'
       language_id = data.language.danish.id
     }
   ]
@@ -2742,11 +2742,11 @@ resource configservice_label job_status_generic_job_status_main_total_progress_o
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Total progress - {{ percent }} ({{ progress }}/{{ total }})'
+      default_translation = 'Total progress: {{ percent }}'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Total fremgang - {{ percent }} ({{ progress }}/{{ total }})'
+      default_translation = 'Total fremgang: {{ percent }}'
       language_id = data.language.danish.id
     }
   ]
@@ -2806,11 +2806,11 @@ resource configservice_label job_status_generic_job_status_main_duration {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Duration: {{ duration }}'
+      default_translation = 'Duration'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Varighed: {{ duration }}'
+      default_translation = 'Varighed'
       language_id = data.language.danish.id
     }
   ]
