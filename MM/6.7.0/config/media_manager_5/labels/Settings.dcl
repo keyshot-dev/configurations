@@ -2880,6 +2880,54 @@ resource configservice_label job_status_generic_job_status_main_name {
   ]
 }
 
+resource configservice_label job_status_generic_job_status_main_start {
+  key = 'JOB_STATUS_GENERIC_JOB_STATUS_MAIN_START'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Start'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Start'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label job_status_generic_job_status_main_completed {
+  key = 'JOB_STATUS_GENERIC_JOB_STATUS_MAIN_COMPLETED'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Completed'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Afsluttet'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label job_status_generic_job_status_main_view_log {
+  key = 'JOB_STATUS_GENERIC_JOB_STATUS_MAIN_VIEW_LOG'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'View log'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Vis log'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label job_status_generic_job_status_main_no_jobs_currently_found {
   key = 'JOB_STATUS_GENERIC_JOB_STATUS_MAIN_NO_JOBS_CURRENTLY_FOUND'
   group = 'Settings'
