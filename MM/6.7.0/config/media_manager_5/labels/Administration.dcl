@@ -16161,3 +16161,67 @@ resource configservice_label administration_tools_system_workspaces_switch_works
     }
   ]
 }
+
+resource configservice_label administration_tools_integration_configuration_input_change_view_btn {
+  key = 'ADMINISTRATION_TOOLS_INTEGRATION_CONFIGURATION_INPUT_CHANGE_VIEW_BTN'
+  group = 'administration-tools'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Edit as {isEditingJson, select, true {form} false {JSON}}'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Rediger som {isEditingJson, select, true {formular} false {JSON}}'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_schema_property_input_required_tooltip {
+  key = 'ADMINISTRATION_TOOLS_SCHEMA_PROPERTY_INPUT_REQUIRED_TOOLTIP'
+  group = 'administration-tools'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Required'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Påkrævet'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_schema_property_input_add_item {
+  key = 'ADMINISTRATION_TOOLS_SCHEMA_PROPERTY_INPUT_ADD_ITEM'
+  group = 'administration-tools'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Add'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Tilføj'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_schema_property_input_remove_item {
+  key = 'ADMINISTRATION_TOOLS_SCHEMA_PROPERTY_INPUT_REMOVE_ITEM'
+  group = 'administration-tools'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Remove'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Fjern'
+      language_id = data.language.danish.id
+    }
+  ]
+}
