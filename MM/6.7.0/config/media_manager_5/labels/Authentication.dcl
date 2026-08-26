@@ -1855,3 +1855,35 @@ resource configservice_label login_sso_dialog_token_login_btn_text {
     }
   ]
 }
+
+resource configservice_label embedded_oauth_login_unavailable_title {
+  key = 'EMBEDDED_OAUTH_LOGIN_UNAVAILABLE_TITLE'
+  group = 'Authentication'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Login unavailable'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Log ind ikke tilgængelig'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label embedded_oauth_login_unavailable_description {
+  key = 'EMBEDDED_OAUTH_LOGIN_UNAVAILABLE_DESCRIPTION'
+  group = 'Authentication'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'This page was opened without a valid authorization request. Close this window and try connecting again.'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Denne side blev åbnet uden en gyldig autorisationsanmodning. Luk dette vindue og prøv at oprette forbindelse igen.'
+      language_id = data.language.danish.id
+    }
+  ]
+}
