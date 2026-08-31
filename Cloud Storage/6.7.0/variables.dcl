@@ -12,3 +12,8 @@ variable base_api_url {
     type = "string"
     description = "The keyshot.com base API URL to use when constructing asset streamer URLs"
 }
+
+variable wallet_api_url {
+    type = "string"
+    description = "The base API URL for the Wallet Service"
+}
