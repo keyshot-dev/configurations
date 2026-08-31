@@ -22,7 +22,7 @@ resource sso_configuration id_1 {
             app_id = ''
         }
         openid_connect = {
-            authority = 'https://cognito-idp.us-east-2.amazonaws.com/us-east-2_WbfJHLiQT'
+            authority = 'https://cognito-idp.us-east-2.amazonaws.com/us-east-2_2b3ZRuWjX'
             client_secret = '${variable.keyshot_client_secret}'
             client_id = '${variable.keyshot_client_id}'
             name_claim_type = 'http://schemas.xmlsoap.org/ws/2005/05/identity/claims/emailaddress'
@@ -30,7 +30,7 @@ resource sso_configuration id_1 {
             additional_valid_audiences = [{
                     audience = '${variable.keyshot_client_id}'
                 }, {
-                    audience = '13vqm3t9loloro4lqbmn5gqqjk'                                
+                    audience = '2j01avornqdb2eg6qjji0qtor6'                                
                 }, {
                     audience = '4itq00q1gis7gebq98vpg08rvn'
                 }]
