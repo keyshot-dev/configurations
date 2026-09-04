@@ -14,9 +14,11 @@ resource mail_template onetimepassword {
 
 {{include 'standard-header'}}
 
-<p>
-    Your one time code:  {{ data.code }}
-</p>
+<div align="center">
+    <div>To activate, please enter the code below in your browser</div>
+    <div><h3>{{ data.code }}</h3><div>
+    <div>This code will expire in <b>{{ data.expiredIn }}</b> minutes</div>
+</div>
 
 {{include 'standard-footer'}}"
     autolink = {
