@@ -702,6 +702,102 @@ resource configservice_label asset_cropper_crop_tabs_focus_point {
   ]
 }
 
+resource configservice_label asset_cropper_crop_focus_point_save {
+  key = 'ASSET_CROPPER_CROP_FOCUS_POINT_SAVE'
+  group = 'Focused Asset'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Save focal point'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Gem fokuspunkt'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_cropper_crop_focus_point_clear {
+  key = 'ASSET_CROPPER_CROP_FOCUS_POINT_CLEAR'
+  group = 'Focused Asset'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Clear focal point'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Ryd fokuspunkt'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_cropper_crop_focus_point_save_success {
+  key = 'ASSET_CROPPER_CROP_FOCUS_POINT_SAVE_SUCCESS'
+  group = 'Focused Asset'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Focal point saved'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Fokuspunkt gemt'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_cropper_crop_focus_point_clear_success {
+  key = 'ASSET_CROPPER_CROP_FOCUS_POINT_CLEAR_SUCCESS'
+  group = 'Focused Asset'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Focal point cleared'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Fokuspunkt ryddet'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_cropper_crop_focus_point_error_title {
+  key = 'ASSET_CROPPER_CROP_FOCUS_POINT_ERROR_TITLE'
+  group = 'Focused Asset'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Error'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Fejl'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_cropper_crop_focus_point_error_body {
+  key = 'ASSET_CROPPER_CROP_FOCUS_POINT_ERROR_BODY'
+  group = 'Focused Asset'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'The focal point was not saved. {{error}}'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Fokuspunktet blev ikke gemt. {{error}}'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label asset_cropper_crop_tabs_add_new_crop_tooltip {
   key = 'ASSET_CROPPER_CROP_TABS_ADD_NEW_CROP_TOOLTIP'
   group = 'Focused Asset'
