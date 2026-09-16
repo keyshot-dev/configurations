@@ -1,6 +1,6 @@
 # Configurations #
 This repository contains templates with configurations for Configuration Management.
-Most templates correspond to Digizuite products. Each template can have multiple versions, typically corresponding to different release versions.
+Each template can have multiple versions, typically corresponding to different release versions.
 
 # Format #
 The file `metaInformation.json` contains meta information for the templates that are exposed to users in the Configuration Management UI. Each exposed template must have an entry in this file, containing:
