@@ -13116,7 +13116,7 @@ resource configservice_label administration_tools_system_asset_relation_types_au
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Metafelt som titelkilde'
+      default_translation = 'Metafelt som bruges til titel'
       language_id = data.language.danish.id
     }
   ]
@@ -13132,7 +13132,7 @@ resource configservice_label administration_tools_system_asset_relation_types_au
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Vælg metafelt som titelkilde'
+      default_translation = 'Vælg metafelt som bruges som titel'
       language_id = data.language.danish.id
     }
   ]
