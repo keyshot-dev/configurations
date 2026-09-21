@@ -13058,6 +13058,614 @@ resource configservice_label administration_tools_system_asset_relation_types_au
   ]
 }
 
+resource configservice_label administration_tools_system_asset_relation_types_auto_relate_create_meta_asset {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_ASSET_RELATION_TYPES_AUTO_RELATE_CREATE_META_ASSET'
+  group = 'administration-tools - system - asset-relation-types'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Create meta asset as primary'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Opret meta-asset som primær'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_asset_relation_types_auto_relate_create_meta_asset_tooltip {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_ASSET_RELATION_TYPES_AUTO_RELATE_CREATE_META_ASSET_TOOLTIP'
+  group = 'administration-tools - system - asset-relation-types'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'When enabled, naturally occurring primary assets are not related. Instead a META asset is created automatically for each group of secondary assets that share a match token, and it is deleted again when its last secondary leaves.'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Når dette er slået til, relateres naturligt forekommende primære assets ikke. I stedet oprettes der automatisk et META-asset for hver gruppe af sekundære assets, der deler et match-token, og det slettes igen, når det sidste sekundære asset forsvinder.'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_asset_relation_types_auto_relate_meta_asset_category {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_ASSET_RELATION_TYPES_AUTO_RELATE_META_ASSET_CATEGORY'
+  group = 'administration-tools - system - asset-relation-types'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Meta asset category'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Kategori for meta-asset'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_asset_relation_types_auto_relate_title_source_metafield {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_ASSET_RELATION_TYPES_AUTO_RELATE_TITLE_SOURCE_METAFIELD'
+  group = 'administration-tools - system - asset-relation-types'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Title source metafield'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Metafelt som titelkilde'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_asset_relation_types_auto_relate_select_title_source_metafield_dialog_title {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_ASSET_RELATION_TYPES_AUTO_RELATE_SELECT_TITLE_SOURCE_METAFIELD_DIALOG_TITLE'
+  group = 'administration-tools - system - asset-relation-types'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Select title source metafield'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Vælg metafelt som titelkilde'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_asset_relation_types_auto_relate_recalculate {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_ASSET_RELATION_TYPES_AUTO_RELATE_RECALCULATE'
+  group = 'administration-tools - system - asset-relation-types'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Recalculate automatic relations'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Genberegn automatiske relationer'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_asset_relation_types_auto_relate_recalculate_tooltip {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_ASSET_RELATION_TYPES_AUTO_RELATE_RECALCULATE_TOOLTIP'
+  group = 'administration-tools - system - asset-relation-types'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Manually recalculate the automatic relations for this relation type. Needed after changing the rules above, since existing assets are not related or unrelated automatically in that case.'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Genberegn manuelt de automatiske relationer for denne relationstype. Nødvendigt efter ændring af reglerne ovenfor, da eksisterende assets i det tilfælde ikke automatisk relateres eller afrelateres.'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_asset_relation_types_auto_relate_recalculate_success {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_ASSET_RELATION_TYPES_AUTO_RELATE_RECALCULATE_SUCCESS'
+  group = 'administration-tools - system - asset-relation-types'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Recalculation of automatic relations started'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Genberegning af automatiske relationer er startet'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_asset_relation_types_auto_relate_recalculate_error_title {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_ASSET_RELATION_TYPES_AUTO_RELATE_RECALCULATE_ERROR_TITLE'
+  group = 'administration-tools - system - asset-relation-types'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Could not recalculate automatic relations'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Kunne ikke genberegne automatiske relationer'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_asset_relation_types_auto_relate_recalculate_error_body {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_ASSET_RELATION_TYPES_AUTO_RELATE_RECALCULATE_ERROR_BODY'
+  group = 'administration-tools - system - asset-relation-types'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = '{{ error }}'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = '{{ error }}'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_asset_relation_types_auto_relate_diagnostics {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_ASSET_RELATION_TYPES_AUTO_RELATE_DIAGNOSTICS'
+  group = 'administration-tools - system - asset-relation-types'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Diagnostics'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Diagnosticering'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_asset_relation_types_auto_relate_diagnostics_tooltip {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_ASSET_RELATION_TYPES_AUTO_RELATE_DIAGNOSTICS_TOOLTIP'
+  group = 'administration-tools - system - asset-relation-types'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Explains which match token a single asset produces for the rules above, and why it does or does not qualify as a primary or secondary asset.'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Forklarer hvilket match-token et enkelt asset producerer for reglerne ovenfor, og hvorfor det kvalificerer sig som primært eller sekundært asset - eller ikke gør.'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_asset_relation_types_auto_relate_diagnostics_asset_id {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_ASSET_RELATION_TYPES_AUTO_RELATE_DIAGNOSTICS_ASSET_ID'
+  group = 'administration-tools - system - asset-relation-types'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Asset id'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Asset-id'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_asset_relation_types_auto_relate_diagnostics_explain {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_ASSET_RELATION_TYPES_AUTO_RELATE_DIAGNOSTICS_EXPLAIN'
+  group = 'administration-tools - system - asset-relation-types'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Explain'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Forklar'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_asset_relation_types_auto_relate_diagnostics_loading {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_ASSET_RELATION_TYPES_AUTO_RELATE_DIAGNOSTICS_LOADING'
+  group = 'administration-tools - system - asset-relation-types'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Loading diagnostics...'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Indlæser diagnosticering...'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_asset_relation_types_auto_relate_diagnostics_asset_summary {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_ASSET_RELATION_TYPES_AUTO_RELATE_DIAGNOSTICS_ASSET_SUMMARY'
+  group = 'administration-tools - system - asset-relation-types'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Asset'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Asset'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_asset_relation_types_auto_relate_diagnostics_item_id {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_ASSET_RELATION_TYPES_AUTO_RELATE_DIAGNOSTICS_ITEM_ID'
+  group = 'administration-tools - system - asset-relation-types'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Item id'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Item-id'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_asset_relation_types_auto_relate_diagnostics_asset_category {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_ASSET_RELATION_TYPES_AUTO_RELATE_DIAGNOSTICS_ASSET_CATEGORY'
+  group = 'administration-tools - system - asset-relation-types'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Asset category'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Asset-kategori'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_asset_relation_types_auto_relate_diagnostics_auto_created_meta_asset {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_ASSET_RELATION_TYPES_AUTO_RELATE_DIAGNOSTICS_AUTO_CREATED_META_ASSET'
+  group = 'administration-tools - system - asset-relation-types'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'This asset is an automatically created meta asset and is never recalculated by normal synchronization.'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Dette asset er et automatisk oprettet meta-asset og genberegnes aldrig ved normal synkronisering.'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_asset_relation_types_auto_relate_diagnostics_valid_primary {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_ASSET_RELATION_TYPES_AUTO_RELATE_DIAGNOSTICS_VALID_PRIMARY'
+  group = 'administration-tools - system - asset-relation-types'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Valid primary asset'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Gyldigt primært asset'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_asset_relation_types_auto_relate_diagnostics_valid_secondary {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_ASSET_RELATION_TYPES_AUTO_RELATE_DIAGNOSTICS_VALID_SECONDARY'
+  group = 'administration-tools - system - asset-relation-types'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Valid secondary asset'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Gyldigt sekundært asset'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_asset_relation_types_auto_relate_diagnostics_match_token {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_ASSET_RELATION_TYPES_AUTO_RELATE_DIAGNOSTICS_MATCH_TOKEN'
+  group = 'administration-tools - system - asset-relation-types'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Match token'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Match-token'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_asset_relation_types_auto_relate_diagnostics_no_token {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_ASSET_RELATION_TYPES_AUTO_RELATE_DIAGNOSTICS_NO_TOKEN'
+  group = 'administration-tools - system - asset-relation-types'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'No token'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Intet token'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_asset_relation_types_auto_relate_diagnostics_raw_token {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_ASSET_RELATION_TYPES_AUTO_RELATE_DIAGNOSTICS_RAW_TOKEN'
+  group = 'administration-tools - system - asset-relation-types'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Token before hashing'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Token før hashing'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_asset_relation_types_auto_relate_diagnostics_primary_evaluation {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_ASSET_RELATION_TYPES_AUTO_RELATE_DIAGNOSTICS_PRIMARY_EVALUATION'
+  group = 'administration-tools - system - asset-relation-types'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'As primary asset'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Som primært asset'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_asset_relation_types_auto_relate_diagnostics_secondary_evaluation {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_ASSET_RELATION_TYPES_AUTO_RELATE_DIAGNOSTICS_SECONDARY_EVALUATION'
+  group = 'administration-tools - system - asset-relation-types'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'As secondary asset'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Som sekundært asset'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_asset_relation_types_auto_relate_diagnostics_skipped_meta_asset {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_ASSET_RELATION_TYPES_AUTO_RELATE_DIAGNOSTICS_SKIPPED_META_ASSET'
+  group = 'administration-tools - system - asset-relation-types'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Skipped, because this rule creates the primary asset automatically.'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Sprunget over, fordi denne regel opretter det primære asset automatisk.'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_asset_relation_types_auto_relate_diagnostics_category_check {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_ASSET_RELATION_TYPES_AUTO_RELATE_DIAGNOSTICS_CATEGORY_CHECK'
+  group = 'administration-tools - system - asset-relation-types'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Asset category'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Asset-kategori'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_asset_relation_types_auto_relate_diagnostics_any_category {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_ASSET_RELATION_TYPES_AUTO_RELATE_DIAGNOSTICS_ANY_CATEGORY'
+  group = 'administration-tools - system - asset-relation-types'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Any category'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Enhver kategori'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_asset_relation_types_auto_relate_diagnostics_expected {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_ASSET_RELATION_TYPES_AUTO_RELATE_DIAGNOSTICS_EXPECTED'
+  group = 'administration-tools - system - asset-relation-types'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Expected'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Forventet'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_asset_relation_types_auto_relate_diagnostics_actual {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_ASSET_RELATION_TYPES_AUTO_RELATE_DIAGNOSTICS_ACTUAL'
+  group = 'administration-tools - system - asset-relation-types'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Actual'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Faktisk'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_asset_relation_types_auto_relate_diagnostics_stored_state {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_ASSET_RELATION_TYPES_AUTO_RELATE_DIAGNOSTICS_STORED_STATE'
+  group = 'administration-tools - system - asset-relation-types'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Stored state'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Gemt tilstand'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_asset_relation_types_auto_relate_diagnostics_stored {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_ASSET_RELATION_TYPES_AUTO_RELATE_DIAGNOSTICS_STORED'
+  group = 'administration-tools - system - asset-relation-types'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Stored token'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Gemt token'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_asset_relation_types_auto_relate_diagnostics_peers {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_ASSET_RELATION_TYPES_AUTO_RELATE_DIAGNOSTICS_PEERS'
+  group = 'administration-tools - system - asset-relation-types'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Assets sharing this token'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Assets der deler dette token'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_asset_relation_types_auto_relate_diagnostics_peer_primaries {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_ASSET_RELATION_TYPES_AUTO_RELATE_DIAGNOSTICS_PEER_PRIMARIES'
+  group = 'administration-tools - system - asset-relation-types'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Primary assets: {{ total }}'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Primære assets: {{ total }}'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_asset_relation_types_auto_relate_diagnostics_peer_secondaries {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_ASSET_RELATION_TYPES_AUTO_RELATE_DIAGNOSTICS_PEER_SECONDARIES'
+  group = 'administration-tools - system - asset-relation-types'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Secondary assets: {{ total }}'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Sekundære assets: {{ total }}'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_asset_relation_types_auto_relate_diagnostics_peers_truncated {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_ASSET_RELATION_TYPES_AUTO_RELATE_DIAGNOSTICS_PEERS_TRUNCATED'
+  group = 'administration-tools - system - asset-relation-types'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Only a sample is shown.'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Kun et udsnit vises.'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_asset_relation_types_auto_relate_diagnostics_no_behaviors {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_ASSET_RELATION_TYPES_AUTO_RELATE_DIAGNOSTICS_NO_BEHAVIORS'
+  group = 'administration-tools - system - asset-relation-types'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'This relation type has no automatic relation rules that apply to the asset.'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Denne relationstype har ingen automatiske relationsregler, der gælder for dette asset.'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label administration_tools_system_workspaces_section {
   key = 'ADMINISTRATION_TOOLS_SYSTEM_WORKSPACES_SECTION'
   group = 'administration-tools - system - workspaces'
