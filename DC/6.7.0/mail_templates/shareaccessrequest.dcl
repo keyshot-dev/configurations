@@ -6,7 +6,7 @@ resource mail_template shareaccessrequest {
     system = true
     body = '{{include \'html-header-start\'}}
 
-<title>View a shared folder</title>
+<title>View requests to share entity</title>
 
 {{include \'html-header-end\'}}
 
