@@ -2,7 +2,7 @@ resource mail_template shareaccessrequest {
     portal_name = ''
     language_id = resource.language.english.id
     template_name = 'share-access-request'
-    subject = "You have been invited to view a folder"
+    subject = "You have been requested to allow share access"
     system = true
     body = '{{include \'html-header-start\'}}
 
