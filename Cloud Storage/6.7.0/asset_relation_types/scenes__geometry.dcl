@@ -1,5 +1,5 @@
 resource asset_relation_type scenes__geometry {
-    name = 'Scenes-Geometry'
+    name = 'Scene-Geometry'
     guid = '85e4c18b-075a-4ca5-88d5-f2ad83cf6e0b'
     description = ''
     is_locked = true
@@ -24,7 +24,7 @@ resource asset_relation_type scenes__geometry {
         inheritance = 'InheritRead'
     }
     deletion_behavior = {
-        enable_behavior = false
+        enable_behavior = true
         inherit_soft_delete = true
         inherit_hard_delete = true
     }
@@ -51,9 +51,9 @@ resource asset_relation_type scenes__geometry {
     }	
     labels = [{
             language_id = data.language.english.id
-            label = 'Scenes-Geometry'
+            label = 'Scene-Geometry'
             description = ''
             primary_to_secondary_label = 'Geometry'
-            secondary_to_primary_label = 'Scenes'
+            secondary_to_primary_label = 'Scene'
         }]
 }
