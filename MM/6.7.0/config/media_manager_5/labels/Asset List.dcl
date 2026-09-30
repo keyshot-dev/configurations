@@ -2975,3 +2975,35 @@ resource configservice_label asset_list_getting_started_dismiss_tooltip {
     }
   ]
 }
+
+resource configservice_label asset_list_folder_native_nav_title {
+  key = 'ASSET_LIST_FOLDER_NATIVE_NAV_TITLE'
+  group = 'Asset List'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Folders'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Foldere'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_list_folder_native_create_button {
+  key = 'ASSET_LIST_FOLDER_NATIVE_CREATE_BUTTON'
+  group = 'Asset List'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = '{rename, select, true {Rename} false {Create}}'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = '{rename, select, true {Omdøb} false {Opret}}'
+      language_id = data.language.danish.id
+    }
+  ]
+}
