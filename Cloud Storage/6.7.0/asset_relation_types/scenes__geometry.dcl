@@ -3,7 +3,7 @@ resource asset_relation_type scenes__geometry {
     guid = '85e4c18b-075a-4ca5-88d5-f2ad83cf6e0b'
     description = ''
     is_locked = true
-    multiplicity = 'ManyToOne'
+    multiplicity = 'OneToOne'
 	show_in_list_when_primary = true
 	show_in_list_when_secondary = true
     primary_asset_categories = [{
@@ -25,8 +25,8 @@ resource asset_relation_type scenes__geometry {
     }
     deletion_behavior = {
         enable_behavior = false
-        inherit_soft_delete = false
-        inherit_hard_delete = false
+        inherit_soft_delete = true
+        inherit_hard_delete = true
     }
     transcode_behavior = {
         enable_behavior = true
