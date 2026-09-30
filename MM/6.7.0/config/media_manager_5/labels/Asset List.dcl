@@ -2986,7 +2986,7 @@ resource configservice_label asset_list_folder_native_nav_title {
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Mapper'
+      default_translation = 'Foldere'
       language_id = data.language.danish.id
     }
   ]
