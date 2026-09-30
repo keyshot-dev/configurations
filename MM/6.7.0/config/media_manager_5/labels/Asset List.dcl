@@ -2817,6 +2817,22 @@ Tryk {isMacOS, select, true {OPTION} false {CTRL}} for at tilføje}}'
   ]
 }
 
+resource configservice_label asset_drag_placeholder_drop_native {
+  key = 'ASSET_DRAG_PLACEHOLDER_DROP_NATIVE'
+  group = 'Asset List'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = '{count, cardinalPlural, one {Move asset} other {Move assets}}'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = '{count, cardinalPlural, one {Flyt asset} other {Flyt assets}}'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label asset_list_box_view_deleted_asset {
   key = 'ASSET_LIST_BOX_VIEW_DELETED_ASSET'
   group = 'Asset List'
