@@ -4209,7 +4209,7 @@ resource configservice_label administration_tools_managed_integrations_section_a
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Har beskæring'
+      default_translation = 'Har crop'
       language_id = data.language.danish.id
     }
   ]
