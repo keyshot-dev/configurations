@@ -4129,7 +4129,7 @@ resource configservice_label administration_tools_managed_integrations_section_a
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Ekstra asset-egenskaber, der medtages i payloadet. En ændring i en valgt egenskabs værdi udløser en opdatering. Læseadgang og rekursive kanalmapper øger søgebelastningen.'
+      default_translation = 'Ekstra assetdata, der medtages i payloadet. En ændring i en valgt assetdata-værdi udløser en opdatering. Læseadgang og rekursive kanalmapper øger søgebelastningen.'
       language_id = data.language.danish.id
     }
   ]
