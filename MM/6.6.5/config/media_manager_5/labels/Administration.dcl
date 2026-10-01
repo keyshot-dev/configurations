@@ -4113,7 +4113,7 @@ resource configservice_label administration_tools_managed_integrations_section_a
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Yderligere egenskaber'
+      default_translation = 'Yderligere asset data'
       language_id = data.language.danish.id
     }
   ]
