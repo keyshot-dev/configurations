@@ -4103,6 +4103,134 @@ resource configservice_label administration_tools_managed_integrations_section_a
   ]
 }
 
+resource configservice_label administration_tools_managed_integrations_section_additional_properties {
+  key = 'ADMINISTRATION_TOOLS_MANAGED_INTEGRATIONS_SECTION_ADDITIONAL_PROPERTIES'
+  group = 'administration-tools - managed-integrations-section'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Additional properties'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Yderligere asset data'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_managed_integrations_section_additional_properties_tooltip {
+  key = 'ADMINISTRATION_TOOLS_MANAGED_INTEGRATIONS_SECTION_ADDITIONAL_PROPERTIES_TOOLTIP'
+  group = 'administration-tools - managed-integrations-section'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Extra asset properties to include in the payload. A change in a selected property\'s value triggers an update. Read access and recursive channel folders add search load.'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Ekstra assetdata, der medtages i payloadet. En ændring i en valgt assetdata-værdi udløser en opdatering. Læseadgang og rekursive kanalmapper øger søgebelastningen.'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_managed_integrations_section_additional_property_read_access_item_ids {
+  key = 'ADMINISTRATION_TOOLS_MANAGED_INTEGRATIONS_SECTION_ADDITIONAL_PROPERTY_READ_ACCESS_ITEM_IDS'
+  group = 'administration-tools - managed-integrations-section'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Read access item IDs'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Item-id\'er med læseadgang'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_managed_integrations_section_additional_property_channel_folder_recursive_ids {
+  key = 'ADMINISTRATION_TOOLS_MANAGED_INTEGRATIONS_SECTION_ADDITIONAL_PROPERTY_CHANNEL_FOLDER_RECURSIVE_IDS'
+  group = 'administration-tools - managed-integrations-section'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Channel folders (recursive)'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Kanalmapper (rekursivt)'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_managed_integrations_section_additional_property_channel_folder_ids {
+  key = 'ADMINISTRATION_TOOLS_MANAGED_INTEGRATIONS_SECTION_ADDITIONAL_PROPERTY_CHANNEL_FOLDER_IDS'
+  group = 'administration-tools - managed-integrations-section'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Channel folders'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Kanalmapper'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_managed_integrations_section_additional_property_favorited_by_member_ids {
+  key = 'ADMINISTRATION_TOOLS_MANAGED_INTEGRATIONS_SECTION_ADDITIONAL_PROPERTY_FAVORITED_BY_MEMBER_IDS'
+  group = 'administration-tools - managed-integrations-section'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Favorited by members'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Favoritmarkeret af brugere'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_managed_integrations_section_additional_property_has_crop {
+  key = 'ADMINISTRATION_TOOLS_MANAGED_INTEGRATIONS_SECTION_ADDITIONAL_PROPERTY_HAS_CROP'
+  group = 'administration-tools - managed-integrations-section'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Has crop'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Har crop'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_managed_integrations_section_additional_property_has_previous_version {
+  key = 'ADMINISTRATION_TOOLS_MANAGED_INTEGRATIONS_SECTION_ADDITIONAL_PROPERTY_HAS_PREVIOUS_VERSION'
+  group = 'administration-tools - managed-integrations-section'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Has previous version'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Har tidligere version'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label administration_tools_managed_integrations_section_custom_headers {
   key = 'ADMINISTRATION_TOOLS_MANAGED_INTEGRATIONS_SECTION_CUSTOM_HEADERS'
   group = 'administration-tools - managed-integrations-section'
