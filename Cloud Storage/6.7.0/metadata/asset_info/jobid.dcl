@@ -12,7 +12,8 @@ resource string_metafield jobid {
     auto_translate = 'CreateIfMissing'
     restrict_to_asset_type = 'All'
     system = true
-    inheritance_conflict_resolution_strategy = 'OldestValue'
+    inheritance_conflict_resolution_strategy = 'OldestValue'    
+    default_facet_query_behavior = 'Equals'
     restrict_to_asset_categories = [{
             asset_category_id = data.asset_category.root.id
         }]
