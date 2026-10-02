@@ -32,7 +32,7 @@ resource mail_template shareaccessrequest {
                             <tr>
                                 <td align="center">
                                     <a href="{{data.url}}"
-                                       class="button" target="_blank">View requests</a>
+                                       class="button" target="_blank">Manage access</a>
                                 </td>
                             </tr>
                         </table>
