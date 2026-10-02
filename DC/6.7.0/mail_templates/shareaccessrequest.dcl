@@ -2,15 +2,15 @@ resource mail_template shareaccessrequest {
     portal_name = ''
     language_id = resource.language.english.id
     template_name = 'share-access-request'
-    subject = "You have been requested to allow share access"
+    subject = "A user has requested access to your content"
     system = true
     body = '{{include \'html-header-start\'}}
 
-<title>View requests to share entity</title>
+<title>View access requests</title>
 
 {{include \'html-header-end\'}}
 
-<span class="preheader">{{sender.name  | html.escape}} request share access.</span>
+<span class="preheader">{{sender.name  | html.escape}} has requested access to your content.</span>
 
 {{include \'standard-header\'}}
 
@@ -26,7 +26,7 @@ resource mail_template shareaccessrequest {
                             <tr>
                                 <td>
                                     <h1>Hello {{receiver.name | html.escape}}!</h1>
-                                    <p>{{sender.name | html.escape}} ({{sender.email_address | html.escape}}) has requested share access to the <strong>{{data.entity_name}} {{data.entity_type}}</strong> entity.</p>
+                                    <p>{{sender.name | html.escape}} ({{sender.email_address | html.escape}}) has requested access to the <strong>{{data.entity_name}}</strong> {{data.entity_type | string.downcase}}</p>
                                 </td>
                             </tr>
                             <tr>
