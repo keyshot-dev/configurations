@@ -8396,3 +8396,19 @@ resource configservice_label asset_actions_settings_filter_action_manage_access_
     }
   ]
 }
+
+resource configservice_label asset_actions_settings_filter_action_share_v2 {
+  key = 'ASSET_ACTIONS_SETTINGS_FILTER_ACTION_SHARE_V2'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Share v2'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Del v2'
+      language_id = data.language.danish.id
+    }
+  ]
+}
