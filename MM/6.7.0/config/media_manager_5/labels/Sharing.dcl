@@ -867,3 +867,19 @@ resource configservice_label asset_share_not_downloadable_message {
     }
   ]
 }
+
+resource configservice_label share_asset_button_label {
+  key = 'SHARE_ASSET_BUTTON_LABEL'
+  group = 'Sharing'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Share'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Del'
+      language_id = data.language.danish.id
+    }
+  ]
+}
