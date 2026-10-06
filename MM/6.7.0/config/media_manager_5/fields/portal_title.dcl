@@ -1,5 +1,5 @@
 resource configservice_string_config_field portal_title {
-    default_value = 'KeyShot DAM'
+    default_value = 'KeyShot Connect'
     type = 'String'
     product_id = resource.configservice_product.media_manager_5.id
     group = 'default'

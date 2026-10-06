@@ -12,7 +12,7 @@ resource mail_template standardheader {
                 <tr>
                     <td class="email-masthead">
                         <span class="email-masthead_logo">
-                            <img src="https://static.digizuite.app/keyshot-dam-blk-lg.png" alt="logo" width="215" height="70" />
+                            <img src="https://static.digizuite.app/keyshot-logo.png" alt="KeyShot" width="215" height="215" />
                         </span>
                     </td>
                 </tr>

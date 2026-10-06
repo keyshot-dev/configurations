@@ -2,12 +2,12 @@ resource mail_template invite_new_user_to_workspace {
     portal_name = ''
     language_id = resource.language.english.id
     template_name = 'invite-new-user-to-workspace'
-    subject = 'You have been invited to KeyShot DAM'
+    subject = 'You have been invited to KeyShot Connect'
     body = '{{include \'html-header-start\'}}
-                    <title>{{sender.name | html.escape}} invited you to join them on KeyShot DAM</title>
+                    <title>{{sender.name | html.escape}} invited you to join them on KeyShot Connect</title>
                     {{include \'html-header-end\'}}
                     <h1>Hello,</h1>
-                    <span class="preheader">{{sender.name | html.escape}} invited you to work with them on KeyShot DAM. If you do not know them, please disregard this email</span>
+                    <span class="preheader">{{sender.name | html.escape}} invited you to work with them on KeyShot Connect. If you do not know them, please disregard this email</span>
                     <p>Click the link below to accept the invitation to work with {{sender.name | html.escape}}</p>
                     <table class="body-action" align="center" width="100%" cellpadding="0"
                            cellspacing="0">
