@@ -43,6 +43,8 @@ patch member_group light_user_patch {
             constant = 'Member_Viewer'
         }, {
             constant = 'Saved_Searches_CRUD'
+        }, {
+            constant = 'ShareAccessRequests_CRUD'
         }]
     is_visible_to_end_users = false
 }

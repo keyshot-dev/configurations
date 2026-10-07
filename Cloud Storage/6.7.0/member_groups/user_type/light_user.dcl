@@ -57,6 +57,8 @@ patch member_group light_user {
             constant = 'FoldersRead'
         }, {
             constant = 'KeyChat_User'
+        }, {
+            constant = 'ShareAccessRequests_CRUD'
         }]
 }
 

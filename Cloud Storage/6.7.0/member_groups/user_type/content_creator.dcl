@@ -101,6 +101,8 @@ patch member_group content_creator {
             constant = 'FoldersCrud'
         }, {
             constant = 'KeyChat_User'
+        }, {
+            constant = 'ShareAccessRequests_CRUD'
         }]
 }
 
