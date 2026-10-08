@@ -72,8 +72,6 @@ patch member_group content_creator {
         }, {
             constant = 'ItemCheckInOut_CRUD'
         }, {
-            constant = 'MediaPortal_Collection'
-        }, {
             constant = 'MediaPortal_Share'
         }, {
             constant = 'MediaPortal_User'
