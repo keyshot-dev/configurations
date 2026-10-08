@@ -5,6 +5,6 @@ data configservice_bit_config_field enable_check_in_out {
 }
 
 patch configservice_bit_config_field enable_check_in_out {
-    target = data.configservice_bit_config_fieldenable_check_in_out
+    target = data.configservice_bit_config_field.enable_check_in_out
     default_value = false
 }
