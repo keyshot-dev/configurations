@@ -883,3 +883,307 @@ resource configservice_label share_asset_button_label {
     }
   ]
 }
+
+resource configservice_label share_list_combined_recipients {
+  key = 'SHARE_LIST_COMBINED_RECIPIENTS'
+  group = 'Sharing'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = '{{name}} and {{count}} others'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = '{{name}} og {{count}} andre'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label share_popup_title_file {
+  key = 'SHARE_POPUP_TITLE_FILE'
+  group = 'Sharing'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Share file'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Del fil'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label share_popup_title_folder {
+  key = 'SHARE_POPUP_TITLE_FOLDER'
+  group = 'Sharing'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Share folder'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Del mappe'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label share_popup_title_scene {
+  key = 'SHARE_POPUP_TITLE_SCENE'
+  group = 'Sharing'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Share scene'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Del scene'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label share_popup_who_has_access {
+  key = 'SHARE_POPUP_WHO_HAS_ACCESS'
+  group = 'Sharing'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Who has access'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Hvem har adgang'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label share_popup_copy_link {
+  key = 'SHARE_POPUP_COPY_LINK'
+  group = 'Sharing'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = '{copied, select, true {Link copied} other {Copy link}}'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = '{copied, select, true {Link kopieret} other {Kopiér link}}'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label share_popup_email_placeholder {
+  key = 'SHARE_POPUP_EMAIL_PLACEHOLDER'
+  group = 'Sharing'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Email, comma separated'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'E-mail, adskilt med komma'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label share_popup_permission_view {
+  key = 'SHARE_POPUP_PERMISSION_VIEW'
+  group = 'Sharing'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Can view'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Kan se'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label share_popup_permission_edit {
+  key = 'SHARE_POPUP_PERMISSION_EDIT'
+  group = 'Sharing'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Can edit'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Kan redigere'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label share_popup_invite {
+  key = 'SHARE_POPUP_INVITE'
+  group = 'Sharing'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Invite'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Inviter'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label share_popup_email_invalid {
+  key = 'SHARE_POPUP_EMAIL_INVALID'
+  group = 'Sharing'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = '{{email}} is invalid'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = '{{email}} er ugyldig'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label share_popup_email_already_has_access {
+  key = 'SHARE_POPUP_EMAIL_ALREADY_HAS_ACCESS'
+  group = 'Sharing'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = '{{email}} already has access'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = '{{email}} har allerede adgang'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label share_popup_email_duplicated {
+  key = 'SHARE_POPUP_EMAIL_DUPLICATED'
+  group = 'Sharing'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = '{{email}} is duplicated'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = '{{email}} er duplikeret'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label share_popup_owner {
+  key = 'SHARE_POPUP_OWNER'
+  group = 'Sharing'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Owner'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Ejer'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label share_popup_owner_name_you {
+  key = 'SHARE_POPUP_OWNER_NAME_YOU'
+  group = 'Sharing'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = '{{name}} (You)'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = '{{name}} (dig)'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label share_popup_folder_not_shared {
+  key = 'SHARE_POPUP_FOLDER_NOT_SHARED'
+  group = 'Sharing'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'This folder has not been shared yet'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Denne mappe er ikke delt endnu'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label share_popup_can_access {
+  key = 'SHARE_POPUP_CAN_ACCESS'
+  group = 'Sharing'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'can access'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'har adgang'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label share_popup_invite_sent {
+  key = 'SHARE_POPUP_INVITE_SENT'
+  group = 'Sharing'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Invite sent'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Invitation sendt'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label share_popup_remove_access {
+  key = 'SHARE_POPUP_REMOVE_ACCESS'
+  group = 'Sharing'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Remove'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Fjern'
+      language_id = data.language.danish.id
+    }
+  ]
+}
