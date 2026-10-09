@@ -883,3 +883,19 @@ resource configservice_label share_asset_button_label {
     }
   ]
 }
+
+resource configservice_label share_list_combined_recipients {
+  key = 'SHARE_LIST_COMBINED_RECIPIENTS'
+  group = 'Sharing'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = '{{name}} and {{count}} others'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = '{{name}} og {{count}} andre'
+      language_id = data.language.danish.id
+    }
+  ]
+}
