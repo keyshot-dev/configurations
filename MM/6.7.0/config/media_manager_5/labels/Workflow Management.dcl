@@ -3086,6 +3086,22 @@ resource configservice_label workflows_overview_automation_lookups_save {
   ]
 }
 
+resource configservice_label workflows_overview_automation_lookups_save_failed {
+  key = 'WORKFLOWS_OVERVIEW_AUTOMATION_LOOKUPS_SAVE_FAILED'
+  group = 'Workflow Management'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'The lookup could not be saved. Make sure the name is unique and try again.'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Opslaget kunne ikke gemmes. Sørg for, at navnet er unikt, og prøv igen.'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label workflows_overview_automation_lookups_cancel {
   key = 'WORKFLOWS_OVERVIEW_AUTOMATION_LOOKUPS_CANCEL'
   group = 'Workflow Management'
