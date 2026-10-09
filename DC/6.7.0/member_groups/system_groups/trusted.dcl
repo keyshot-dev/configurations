@@ -12,6 +12,8 @@ resource member_group trusted {
             constant = 'Can_view_metadata_tab'
         }, {
             constant = 'Can_view_related_assets'
+        }, {
+            constant = 'ShareAccessRequests_CRUD'
         }]
     autolink = {
         item_guid = 'ed7fbc52-1664-48c1-8c2f-848996b8c8bf'

@@ -28,6 +28,8 @@ resource member_group light_user_24 {
             constant = 'Can_trim_email'
         }, {
             constant = 'FoldersRead'
+        }, {
+            constant = 'ShareAccessRequests_CRUD'
         }] 
     autolink = {
         item_guid = 'ea2b32ef-cd90-41c8-93ac-d026881b6c12'

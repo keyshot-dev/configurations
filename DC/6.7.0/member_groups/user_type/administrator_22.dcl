@@ -142,6 +142,8 @@ resource member_group administrator_22 {
             constant = 'FoldersRead'
         }, {
             constant = 'FoldersCrud'
+        }, {
+            constant = 'ShareAccessRequests_CRUD'
         }]
     autolink = {
         item_guid = '58efafcb-4ce9-43d0-b413-b842fbccb576'
