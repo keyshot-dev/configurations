@@ -1086,6 +1086,22 @@ resource configservice_label workflow_editor_saving_failed_unknown_error {
   ]
 }
 
+resource configservice_label workflow_editor_saving_failed_with_details {
+  key = 'WORKFLOW_EDITOR_SAVING_FAILED_WITH_DETAILS'
+  group = 'Workflow Management'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'The automation could not be saved: {{details}}'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Automationen kunne ikke gemmes: {{details}}'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label workflow_editor_saving_failed_error_message {
   key = 'WORKFLOW_EDITOR_SAVING_FAILED_ERROR_MESSAGE'
   group = 'Workflow Management'
