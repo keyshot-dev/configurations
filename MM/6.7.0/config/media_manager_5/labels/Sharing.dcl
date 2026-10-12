@@ -1124,17 +1124,17 @@ resource configservice_label share_popup_owner_name_you {
   ]
 }
 
-resource configservice_label share_popup_folder_not_shared {
-  key = 'SHARE_POPUP_FOLDER_NOT_SHARED'
+resource configservice_label share_popup_entity_not_shared {
+  key = 'SHARE_POPUP_ENTITY_NOT_SHARED'
   group = 'Sharing'
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'This folder has not been shared yet'
+      default_translation = 'This {{entity}} has not been shared yet'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Denne mappe er ikke delt endnu'
+      default_translation = 'Denne {{entity}} er ikke delt endnu'
       language_id = data.language.danish.id
     }
   ]
