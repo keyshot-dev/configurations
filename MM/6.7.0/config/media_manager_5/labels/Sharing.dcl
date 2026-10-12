@@ -1187,3 +1187,19 @@ resource configservice_label share_popup_remove_access {
     }
   ]
 }
+
+resource configservice_label asset_list_shared_with_me_empty {
+  key = 'ASSET_LIST_SHARED_WITH_ME_EMPTY'
+  group = 'Sharing'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Nothing shared'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Intet delt'
+      language_id = data.language.danish.id
+    }
+  ]
+}
