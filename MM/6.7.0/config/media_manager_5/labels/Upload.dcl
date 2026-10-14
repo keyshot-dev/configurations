@@ -1152,3 +1152,18 @@ resource configservice_label upload_applying_folders_title {
 }
 
 
+resource configservice_label upload_move_to_folder_failed {
+  key = 'UPLOAD_MOVE_TO_FOLDER_FAILED'
+  group = 'Upload'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = '{{name}} was uploaded, but could not be moved to the folder. You can find it in the root folder.'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = '{{name}} blev uploadet, men kunne ikke flyttes til mappen. Du kan finde den i rodmappen.'
+      language_id = data.language.danish.id
+    }
+  ]
+}
