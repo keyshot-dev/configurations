@@ -1760,6 +1760,22 @@ resource configservice_label asset_list_deleted_body {
   ]
 }
 
+resource configservice_label asset_list_trash_emptying_body {
+  key = 'ASSET_LIST_TRASH_EMPTYING_BODY'
+  group = 'Asset List'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Emptying the trash. This may take a moment'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Tømmer papirkurven. Det kan tage et øjeblik'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label asset_list_archived_title {
   key = 'ASSET_LIST_ARCHIVED_TITLE'
   group = 'Asset List'
