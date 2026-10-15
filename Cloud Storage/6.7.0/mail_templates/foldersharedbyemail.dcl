@@ -33,7 +33,7 @@ patch mail_template foldersharedbyemail {
                             <tr>
                                 <td align="center">
                                     <a href="{{data.url}}"
-                                       class="button" target="_blank">View folder</a>
+                                       class="ks-button" target="_blank">View folder</a>
                                 </td>
                             </tr>
                         </table>
