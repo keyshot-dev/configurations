@@ -398,3 +398,18 @@ resource configservice_label asset_preview_viewer_indicator {
   ]
 }
 
+resource configservice_label asset_preview_draft_asset {
+  key = 'ASSET_PREVIEW_DRAFT_ASSET'
+  group = 'Asset Preview'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Draft'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Kladde'
+      language_id = data.language.danish.id
+    }
+  ]
+}
