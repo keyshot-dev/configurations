@@ -13,6 +13,8 @@ resource member_group scheme__hub_reviewer_42 {
             constant = 'WorkStages_Edit_Others'
         }, {
             constant = 'WorkStages_View'
+        }, {
+            constant = 'ShareAccessRequests_CRUD'
         }]
     is_visible_to_end_users = true
 }

@@ -92,6 +92,8 @@ patch member_group content_creator_patch {
             constant = 'FoldersRead'
         }, {
             constant = 'FoldersCrud'
+        }, {
+            constant = 'ShareAccessRequests_CRUD'
         }]
     name = 'Content creator (profile)'
 }
