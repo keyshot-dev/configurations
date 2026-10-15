@@ -26,7 +26,6 @@ patch mail_template foldersharedbyemail {
                         <table border="0" cellspacing="0" cellpadding="0">
                             <tr>
                                 <td>
-                                    <h1>Hello {{receiver.name | html.escape}}!</h1>
                                     <p style="padding-bottom: 20px">{{sender.name | html.escape}} ({{sender.email_address | html.escape}}) has shared a folder with you.</p>
                                 </td>
                             </tr>
