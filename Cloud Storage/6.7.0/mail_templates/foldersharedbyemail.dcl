@@ -4,7 +4,7 @@ data mail_template foldersharedbyemail {
 
 patch mail_template foldersharedbyemail {
     target = data.mail_template.foldersharedbyemail
-    subject = "You have been invited to view a folder"
+    subject = "Folder shared with you"
     body = '{{include \'html-header-start\'}}
 
 <title>View a shared folder</title>
@@ -27,7 +27,7 @@ patch mail_template foldersharedbyemail {
                             <tr>
                                 <td>
                                     <h1>Hello {{receiver.name | html.escape}}!</h1>
-                                    <p>{{sender.name | html.escape}} ({{sender.email_address | html.escape}}) has shared a folder with you.</p>
+                                    <p style="padding-bottom: 20px">{{sender.name | html.escape}} ({{sender.email_address | html.escape}}) has shared a folder with you.</p>
                                 </td>
                             </tr>
                             <tr>
