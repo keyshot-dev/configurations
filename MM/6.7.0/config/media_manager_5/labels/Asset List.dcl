@@ -1776,6 +1776,70 @@ resource configservice_label asset_list_trash_emptying_body {
   ]
 }
 
+resource configservice_label asset_list_trash_empty_button {
+  key = 'ASSET_LIST_TRASH_EMPTY_BUTTON'
+  group = 'Asset List'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Empty Trash'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Tøm papirkurv'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_list_trash_empty_state {
+  key = 'ASSET_LIST_TRASH_EMPTY_STATE'
+  group = 'Asset List'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'No items in Trash'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Ingen elementer i papirkurven'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_list_trash_retention_note {
+  key = 'ASSET_LIST_TRASH_RETENTION_NOTE'
+  group = 'Asset List'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Items in Trash are automatically deleted after 30 days'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Elementer i papirkurven slettes automatisk efter 30 dage'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_list_assets_restored_body {
+  key = 'ASSET_LIST_ASSETS_RESTORED_BODY'
+  group = 'Asset List'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = '{count, cardinalPlural, one {Asset restored} other {{{count}} assets restored}}'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = '{count, cardinalPlural, one {Asset gendannet} other {{{count}} assets gendannet}}'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label asset_list_archived_title {
   key = 'ASSET_LIST_ARCHIVED_TITLE'
   group = 'Asset List'
