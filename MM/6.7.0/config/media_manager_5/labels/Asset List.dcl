@@ -1792,6 +1792,22 @@ resource configservice_label asset_list_trash_empty_button {
   ]
 }
 
+resource configservice_label asset_list_trash_empty_state {
+  key = 'ASSET_LIST_TRASH_EMPTY_STATE'
+  group = 'Asset List'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'No items in Trash'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Ingen elementer i papirkurven'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label asset_list_trash_retention_note {
   key = 'ASSET_LIST_TRASH_RETENTION_NOTE'
   group = 'Asset List'
