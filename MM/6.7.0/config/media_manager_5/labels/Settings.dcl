@@ -8412,3 +8412,35 @@ resource configservice_label asset_actions_settings_filter_action_share_v2 {
     }
   ]
 }
+
+resource configservice_label asset_actions_settings_filter_action_create_draft {
+  key = 'ASSET_ACTIONS_SETTINGS_FILTER_ACTION_CREATE_DRAFT'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Create draft'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Opret kladde'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_actions_settings_filter_action_promote_draft {
+  key = 'ASSET_ACTIONS_SETTINGS_FILTER_ACTION_PROMOTE_DRAFT'
+  group = 'Settings'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Promote draft'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Udgiv kladde'
+      language_id = data.language.danish.id
+    }
+  ]
+}

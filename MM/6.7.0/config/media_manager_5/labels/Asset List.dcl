@@ -3087,3 +3087,419 @@ resource configservice_label asset_list_folder_native_create_button {
     }
   ]
 }
+
+resource configservice_label asset_list_more_popup_create_draft {
+  key = 'ASSET_LIST_MORE_POPUP_CREATE_DRAFT'
+  group = 'Asset List'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Create draft'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Opret kladde'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_list_more_popup_promote_draft {
+  key = 'ASSET_LIST_MORE_POPUP_PROMOTE_DRAFT'
+  group = 'Asset List'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Promote draft'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Udgiv kladde'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_list_create_draft_dialog_title {
+  key = 'ASSET_LIST_CREATE_DRAFT_DIALOG_TITLE'
+  group = 'Asset List'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Create draft'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Opret kladde'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_list_create_draft_dialog_body {
+  key = 'ASSET_LIST_CREATE_DRAFT_DIALOG_BODY'
+  group = 'Asset List'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'A draft is a copy of this asset that you can change without affecting the asset. Promote the draft to make its content the current version of the asset.'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'En kladde er en kopi af dette asset, som du kan ændre uden at påvirke assetet. Udgiv kladden for at gøre dens indhold til den aktuelle version af assetet.'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_list_create_draft_dialog_keep_metadata {
+  key = 'ASSET_LIST_CREATE_DRAFT_DIALOG_KEEP_METADATA'
+  group = 'Asset List'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Copy the metadata'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Kopiér metadata'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_list_create_draft_dialog_reset_metadata {
+  key = 'ASSET_LIST_CREATE_DRAFT_DIALOG_RESET_METADATA'
+  group = 'Asset List'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Start without metadata (the title is kept)'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Start uden metadata (titlen bevares)'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_list_create_draft_dialog_cancel_button {
+  key = 'ASSET_LIST_CREATE_DRAFT_DIALOG_CANCEL_BUTTON'
+  group = 'Asset List'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Cancel'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Annuller'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_list_create_draft_dialog_create_button {
+  key = 'ASSET_LIST_CREATE_DRAFT_DIALOG_CREATE_BUTTON'
+  group = 'Asset List'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = '{processing, select, true {Creating...} false {Create}}'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = '{processing, select, true {Opretter...} false {Opret}}'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_list_create_draft_dialog_success {
+  key = 'ASSET_LIST_CREATE_DRAFT_DIALOG_SUCCESS'
+  group = 'Asset List'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Draft created'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Kladde oprettet'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_list_create_draft_dialog_error_title {
+  key = 'ASSET_LIST_CREATE_DRAFT_DIALOG_ERROR_TITLE'
+  group = 'Asset List'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Could not create the draft'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Kladden kunne ikke oprettes'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_list_create_draft_dialog_error_body {
+  key = 'ASSET_LIST_CREATE_DRAFT_DIALOG_ERROR_BODY'
+  group = 'Asset List'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = '{{error}}'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = '{{error}}'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_list_promote_draft_dialog_title {
+  key = 'ASSET_LIST_PROMOTE_DRAFT_DIALOG_TITLE'
+  group = 'Asset List'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Promote draft'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Udgiv kladde'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_list_promote_draft_dialog_body {
+  key = 'ASSET_LIST_PROMOTE_DRAFT_DIALOG_BODY'
+  group = 'Asset List'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'The content of the draft becomes the current version of {{title}}.'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Kladdens indhold bliver den aktuelle version af {{title}}.'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_list_promote_draft_dialog_metadata_label {
+  key = 'ASSET_LIST_PROMOTE_DRAFT_DIALOG_METADATA_LABEL'
+  group = 'Asset List'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Metadata'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Metadata'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_list_promote_draft_dialog_draft_metadata {
+  key = 'ASSET_LIST_PROMOTE_DRAFT_DIALOG_DRAFT_METADATA'
+  group = 'Asset List'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Use the metadata of the draft'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Brug kladdens metadata'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_list_promote_draft_dialog_original_metadata {
+  key = 'ASSET_LIST_PROMOTE_DRAFT_DIALOG_ORIGINAL_METADATA'
+  group = 'Asset List'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Keep the metadata of the asset'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Behold assetets metadata'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_list_promote_draft_dialog_reset_metadata {
+  key = 'ASSET_LIST_PROMOTE_DRAFT_DIALOG_RESET_METADATA'
+  group = 'Asset List'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Reset the metadata (the title is kept)'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Nulstil metadata (titlen bevares)'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_list_promote_draft_dialog_archive_version {
+  key = 'ASSET_LIST_PROMOTE_DRAFT_DIALOG_ARCHIVE_VERSION'
+  group = 'Asset List'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Keep the current version in the version history'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Behold den aktuelle version i versionshistorikken'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_list_promote_draft_dialog_delete_draft {
+  key = 'ASSET_LIST_PROMOTE_DRAFT_DIALOG_DELETE_DRAFT'
+  group = 'Asset List'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Delete the draft afterwards'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Slet kladden bagefter'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_list_promote_draft_dialog_delete_other_drafts {
+  key = 'ASSET_LIST_PROMOTE_DRAFT_DIALOG_DELETE_OTHER_DRAFTS'
+  group = 'Asset List'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Also delete {count, cardinalPlural, one {the other draft} other {the {{count}} other drafts}} of this asset'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Slet også {count, cardinalPlural, one {den anden kladde} other {de {{count}} andre kladder}} af dette asset'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_list_promote_draft_dialog_delete_other_drafts_error {
+  key = 'ASSET_LIST_PROMOTE_DRAFT_DIALOG_DELETE_OTHER_DRAFTS_ERROR'
+  group = 'Asset List'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'The draft was promoted, but the other drafts could not be deleted. {{error}}'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Kladden blev udgivet, men de andre kladder kunne ikke slettes. {{error}}'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_list_promote_draft_dialog_cancel_button {
+  key = 'ASSET_LIST_PROMOTE_DRAFT_DIALOG_CANCEL_BUTTON'
+  group = 'Asset List'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Cancel'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Annuller'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_list_promote_draft_dialog_promote_button {
+  key = 'ASSET_LIST_PROMOTE_DRAFT_DIALOG_PROMOTE_BUTTON'
+  group = 'Asset List'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = '{processing, select, true {Promoting...} false {Promote}}'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = '{processing, select, true {Udgiver...} false {Udgiv}}'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_list_promote_draft_dialog_success {
+  key = 'ASSET_LIST_PROMOTE_DRAFT_DIALOG_SUCCESS'
+  group = 'Asset List'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Draft promoted'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Kladde udgivet'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_list_promote_draft_dialog_error_title {
+  key = 'ASSET_LIST_PROMOTE_DRAFT_DIALOG_ERROR_TITLE'
+  group = 'Asset List'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Could not promote the draft'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Kladden kunne ikke udgives'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_list_promote_draft_dialog_error_body {
+  key = 'ASSET_LIST_PROMOTE_DRAFT_DIALOG_ERROR_BODY'
+  group = 'Asset List'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = '{{error}}'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = '{{error}}'
+      language_id = data.language.danish.id
+    }
+  ]
+}
