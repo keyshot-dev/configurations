@@ -3503,3 +3503,19 @@ resource configservice_label asset_list_promote_draft_dialog_error_body {
     }
   ]
 }
+
+resource configservice_label asset_list_folder_native_invalid_name_characters {
+  key = 'ASSET_LIST_FOLDER_NATIVE_INVALID_NAME_CHARACTERS'
+  group = 'Asset List'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'A folder name can\'t contain \\ or /'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Et mappenavn må ikke indeholde \\ eller /'
+      language_id = data.language.danish.id
+    }
+  ]
+}
