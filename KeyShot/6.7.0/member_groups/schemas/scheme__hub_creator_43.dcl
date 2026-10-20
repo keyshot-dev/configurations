@@ -13,8 +13,6 @@ resource member_group scheme__hub_creator_43 {
             constant = 'WorkStages_Edit_Others'
         }, {
             constant = 'Can_configure_portals'
-        }, {
-            constant = 'ShareAccessRequests_CRUD'
         }]
     is_visible_to_end_users = true
 }

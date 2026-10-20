@@ -10,8 +10,6 @@ resource member_group internal_access_29 {
             constant = 'Can_view_metadata_tab'
         }, {
             constant = 'Can_view_related_assets'
-        }, {
-            constant = 'ShareAccessRequests_CRUD'
         }]
     autolink = {
         item_guid = '236ea083-884c-4f51-9946-3a1fc27144d6'
