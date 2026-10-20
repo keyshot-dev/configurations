@@ -1,6 +1,5 @@
 data configservice_string_config_field ai_description_metafield {
     product_id = data.configservice_product.media_manager_5.id
-    group = 'AI'
     key = 'AIDescriptionMetafield'
 }
 

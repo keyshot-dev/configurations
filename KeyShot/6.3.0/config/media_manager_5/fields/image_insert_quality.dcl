@@ -1,6 +1,5 @@
 data configservice_int_config_field image_insert_quality {
     product_id = data.configservice_product.media_manager_5.id
-    group = 'Integration - Creative Cloud Connector'
     key = 'creativeCloudConnectorLowQuality'    
 }
 

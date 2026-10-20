@@ -1,8 +1,6 @@
 data configservice_bit_config_field show_is_public {
     product_id = data.configservice_product.media_manager_5.id
-    group = 'default'
     key = 'showIsPublic'
-    meta_field_type = 'None'
 }
 
 resource configservice_config_bit_field_value default_show_ispublic_on_asset_card {

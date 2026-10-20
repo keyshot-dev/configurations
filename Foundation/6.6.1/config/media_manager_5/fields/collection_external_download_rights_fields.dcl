@@ -1,6 +1,5 @@
 data configservice_string_config_field collection_external_download_rights_fields {
     product_id = data.configservice_product.media_manager_5.id
-    group = 'external'
     key = 'collectionExternalDownloadRights'
 }
 
