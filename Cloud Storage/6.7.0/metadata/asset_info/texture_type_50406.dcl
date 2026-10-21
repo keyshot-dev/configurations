@@ -1,4 +1,5 @@
 resource editcombovalue_metafield texture_type_50406 {
+    ignore_values_in_configuration_management = true
     name = 'Texture type'
     group_id = data.metafield_group.asset_info.metafield_group_id
     sort_index = 180

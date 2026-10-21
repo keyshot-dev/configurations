@@ -1,5 +1,5 @@
 resource editmulticombovalue_metafield project_50405 {
-    ignore_values_in_configuration_management = false
+    ignore_values_in_configuration_management = true
     name = 'Project'
     group_id = data.metafield_group.asset_info.metafield_group_id
     sort_index = 32

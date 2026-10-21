@@ -1,4 +1,5 @@
 resource editmulticombovalue_metafield category_50408 {
+    ignore_values_in_configuration_management = true
     name = 'Category'
     group_id = data.metafield_group.asset_info.metafield_group_id
     sort_index = 40

@@ -1,5 +1,5 @@
 resource editcombovalue_metafield author_50404 {
-    ignore_values_in_configuration_management = false
+    ignore_values_in_configuration_management = true
     name = 'Author'
     group_id = data.metafield_group.asset_info.metafield_group_id
     sort_index = 31
