@@ -5,8 +5,6 @@ data bit_metafield is_public {
 data item_security is_public__trusted {
     accessor_item_id = data.member_group.trusted.item_id
     item_id = data.bit_metafield.is_public.item_id
-    read = true
-    write = true
 }
 
 data metafield_label is_public {

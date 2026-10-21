@@ -1,6 +1,5 @@
 data configservice_multi_string_config_field asset_list_fields {
     product_id = data.configservice_product.media_manager_5.id
-    group = 'default'
     key = 'assetListFields'
 }
 

@@ -1,6 +1,5 @@
 data configservice_bit_config_field similar_search_enabled {
     product_id = data.configservice_product.media_manager_5.id
-    group = 'Similar search'
     key = 'similarSearchEnabled'
 }
 
