@@ -1,4 +1,5 @@
 resource editcombovalue_metafield location_50407 {
+    ignore_values_in_configuration_management = true
     name = 'Location'
     group_id = data.metafield_group.asset_info.metafield_group_id
     sort_index = 40

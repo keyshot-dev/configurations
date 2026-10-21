@@ -1,4 +1,5 @@
 resource editcombovalue_metafield studio_50413 {
+    ignore_values_in_configuration_management = true
     name = 'Studio'
     group_id = data.metafield_group.asset_info.metafield_group_id
     sort_index = 140
