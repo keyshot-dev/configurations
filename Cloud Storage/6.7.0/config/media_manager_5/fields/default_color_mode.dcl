@@ -1,6 +1,5 @@
 data configservice_combo_config_field default_color_mode {
     product_id = data.configservice_product.media_manager_5.id
-    group = 'default'
     key = 'defaultColorMode'
 }
 

@@ -1,4 +1,5 @@
 resource editmulticombovalue_metafield color_50400 {
+    ignore_values_in_configuration_management = true
     name = 'Color'
     group_id = data.metafield_group.asset_info.metafield_group_id
     sort_index = 90

@@ -1,6 +1,5 @@
 data configservice_bit_config_field forgot_password {
     product_id = data.configservice_product.media_manager_5.id
-    group = 'Security'
     key = 'forgotPassword'
 }
 

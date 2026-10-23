@@ -1152,3 +1152,98 @@ resource configservice_label upload_applying_folders_title {
 }
 
 
+resource configservice_label upload_move_to_folder_failed {
+  key = 'UPLOAD_MOVE_TO_FOLDER_FAILED'
+  group = 'Upload'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = '{{name}} was uploaded, but could not be moved to the folder. You can find it in the root folder.'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = '{{name}} blev uploadet, men kunne ikke flyttes til mappen. Du kan finde den i rodmappen.'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label upload_required_metadata_dialog_title {
+  key = 'UPLOAD_REQUIRED_METADATA_DIALOG_TITLE'
+  group = 'Upload'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Fill in required metadata'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Udfyld påkrævede metadata'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label upload_required_metadata_dialog_body {
+  key = 'UPLOAD_REQUIRED_METADATA_DIALOG_BODY'
+  group = 'Upload'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = '{count, cardinalPlural, one {The uploaded asset is} other {The {{count}} uploaded assets are}} added to the folder once the required fields are filled in.'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = '{count, cardinalPlural, one {Det uploadede asset} other {De {{count}} uploadede assets}} tilføjes til mappen, når de påkrævede felter er udfyldt.'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label upload_required_metadata_dialog_save {
+  key = 'UPLOAD_REQUIRED_METADATA_DIALOG_SAVE'
+  group = 'Upload'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Save and add to folder'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Gem og tilføj til mappen'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label upload_required_metadata_skipped_title {
+  key = 'UPLOAD_REQUIRED_METADATA_SKIPPED_TITLE'
+  group = 'Upload'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Not added to the folder'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Ikke tilføjet til mappen'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label upload_required_metadata_skipped_body {
+  key = 'UPLOAD_REQUIRED_METADATA_SKIPPED_BODY'
+  group = 'Upload'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = '{count, cardinalPlural, one {The uploaded asset was} other {{{count}} uploaded assets were}} not added to the folder, because required fields are missing.'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = '{count, cardinalPlural, one {Det uploadede asset blev} other {{{count}} uploadede assets blev}} ikke tilføjet til mappen, fordi påkrævede felter mangler.'
+      language_id = data.language.danish.id
+    }
+  ]
+}

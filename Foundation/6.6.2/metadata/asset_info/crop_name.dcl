@@ -1,27 +1,17 @@
 data item_security crop_name__trusted {
     accessor_item_id = data.member_group.trusted.item_id
     item_id = data.string_metafield.crop_name.item_id
-    read = true
-    write = true
-    system = true
 }
 
 data string_metafield crop_name {
     item_guid = 'fa70d7f6-12ae-4f51-af05-6296d5608b7c'
     name = 'Crop name'
     group_id = data.metafield_group.asset_info.metafield_group_id
-    readonly = true
     show_in_list = true
-    auto_translate = 'Overwrite'
-    restrict_to_asset_type = 'All'
-    system = true
     inheritance_conflict_resolution_strategy = 'OldestValue'
     max_length = 0
-    sort_index = 0
     visibility_metafield_id = 0
     visibility_regex = ''
-    required = false
-    upload_tag_name = ''
     asset_category_restriction_mode = 'Include'
 }
 

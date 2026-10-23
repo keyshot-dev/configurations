@@ -1,4 +1,5 @@
 resource editmulticombovalue_metafield finish_50402 {
+    ignore_values_in_configuration_management = true
     name = 'Finish'
     group_id = data.metafield_group.asset_info.metafield_group_id
     sort_index = 100

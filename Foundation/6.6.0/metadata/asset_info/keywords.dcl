@@ -6,9 +6,6 @@ data editmulticombovalue_metafield keywords {
 data item_security keywords__trusted {
     accessor_item_id = data.member_group.trusted.item_id
     item_id = data.editmulticombovalue_metafield.keywords.item_id
-    read = true
-    write = true
-    system = true
 }
 
 patch item_security keywords__trusted {

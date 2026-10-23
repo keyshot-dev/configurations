@@ -1,4 +1,5 @@
 resource editcombovalue_metafield camera_50412 {
+    ignore_values_in_configuration_management = true
     name = 'Camera'
     group_id = data.metafield_group.asset_info.metafield_group_id
     sort_index = 130

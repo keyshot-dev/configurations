@@ -1,7 +1,8 @@
 resource editcombovalue_metafield author_50404 {
+    ignore_values_in_configuration_management = true
     name = 'Author'
     group_id = data.metafield_group.asset_info.metafield_group_id
-    sort_index = 10
+    sort_index = 31
     visibility_metafield_id = 0
     visibility_regex = ''
     required = false
@@ -11,11 +12,12 @@ resource editcombovalue_metafield author_50404 {
     auto_translate = 'Overwrite'
     restrict_to_asset_type = 'All'
     upload_tag_name = ''
+    asset_category_restriction_mode = 'Include'
     restrict_to_asset_categories = [{
             asset_category_id = data.asset_category.root.id
         }]
-    item_guid = '06bc17af-fef3-4661-955e-12c2ecb87330'
     inheritance_conflict_resolution_strategy = 'OldestValue'
+    item_guid = '06bc17af-fef3-4661-955e-12c2ecb87330'
     autolink = {
         item_guid = '06bc17af-fef3-4661-955e-12c2ecb87330'
     }

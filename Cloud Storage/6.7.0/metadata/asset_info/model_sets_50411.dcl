@@ -1,4 +1,5 @@
 resource editmulticombovalue_metafield model_sets_50411 {
+    ignore_values_in_configuration_management = true
     name = 'Model sets'
     group_id = data.metafield_group.asset_info.metafield_group_id
     sort_index = 120
