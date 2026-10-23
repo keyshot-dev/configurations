@@ -1,4 +1,5 @@
 resource editcombovalue_metafield colorway_50416 {
+    ignore_values_in_configuration_management = true
     name = 'Colorway'
     group_id = data.metafield_group.asset_info.metafield_group_id
     sort_index = 170

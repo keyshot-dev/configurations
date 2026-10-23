@@ -1,6 +1,5 @@
 data configservice_bit_config_field autosave_metadata_enabled {
     product_id = data.configservice_product.media_manager_5.id
-    group = 'Auto-save'
     key = 'autoSaveMetadataEnabled'
 }
 

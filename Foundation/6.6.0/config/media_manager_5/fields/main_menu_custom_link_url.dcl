@@ -1,6 +1,5 @@
 data configservice_string_config_field main_menu_custom_link_url {
     product_id = data.configservice_product.media_manager_5.id
-    group = 'Main menu'
     key = 'customLinkUrl'
 }
 

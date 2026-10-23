@@ -1,7 +1,5 @@
 data format original {
     name = 'Original'
-    description = 'The original file that was uploaded.'
-    download_replace_mask = '[%AssetId%]'
     type = 'SourceFormat'
     purpose = 'None'
 }

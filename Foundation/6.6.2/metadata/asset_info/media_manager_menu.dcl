@@ -1,9 +1,6 @@
 data item_security media_manager_menu__trusted {
     accessor_item_id = data.member_group.trusted.item_id
     item_id = data.tree_metafield.folders.item_id
-    read = true
-    write = true
-    system = true
 }
 
 data metafield_label folders {

@@ -1,13 +1,11 @@
 data combo_value_label status_approved {
     combo_id = data.combo_value.status_approved.combo_id
     language_id = data.language.english.id
-    label = 'Published'
 }
 
 data combo_value_label status_for_approval {
     combo_id = data.combo_value.status_for_approval.combo_id
     language_id = data.language.english.id
-    label = 'For approval'
 }
 
 data combo_value status_approved {

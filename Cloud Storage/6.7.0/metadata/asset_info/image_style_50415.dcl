@@ -1,4 +1,5 @@
 resource editcombovalue_metafield image_style_50415 {
+    ignore_values_in_configuration_management = true
     name = 'Image style'
     group_id = data.metafield_group.asset_info.metafield_group_id
     sort_index = 160

@@ -1,6 +1,5 @@
 data configservice_string_config_field selected_assets_overlay {
     product_id = data.configservice_product.media_manager_5.id
-    group = 'default'
     key = 'selectedAssetsOverlay'
 }
 
