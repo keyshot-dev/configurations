@@ -269,3 +269,35 @@ resource configservice_label key_chat_key_chat_message_role {
     }
   ]
 }
+
+resource configservice_label key_chat_key_chat_compaction_notice_text {
+  key = 'KEY_CHAT_KEY_CHAT_COMPACTION_NOTICE_TEXT'
+  group = 'Key Chat'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = '{kind, select, Summary {Earlier conversation summarized to make room} other {Older tool results trimmed to make room}}'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = '{kind, select, Summary {Tidligere samtale opsummeret for at gøre plads} other {Ældre værktøjsresultater fjernet for at gøre plads}}'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label key_chat_key_chat_compaction_notice_tooltip {
+  key = 'KEY_CHAT_KEY_CHAT_COMPACTION_NOTICE_TOOLTIP'
+  group = 'Key Chat'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'The full conversation is still shown here, but KeyChat now works from a shorter version of it.'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Hele samtalen vises stadig her, men KeyChat arbejder nu ud fra en kortere udgave af den.'
+      language_id = data.language.danish.id
+    }
+  ]
+}
