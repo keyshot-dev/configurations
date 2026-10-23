@@ -1,7 +1,6 @@
 data configservice_string_config_field media_manager_5__default_filters {
     product_id = data.configservice_product.media_manager_5.id
     key = 'defaultFilters'
-    title = 'Default Filters'
 }
 
 resource configservice_config_string_field_value media_manager_5__default_filters {

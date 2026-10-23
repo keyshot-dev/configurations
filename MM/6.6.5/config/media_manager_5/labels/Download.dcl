@@ -782,6 +782,22 @@ resource configservice_label download_main_window_change_rendition_not_available
   ]
 }
 
+resource configservice_label download_main_window_rendition_failed {
+  key = 'DOWNLOAD_MAIN_WINDOW_RENDITION_FAILED'
+  group = 'Download'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Rendition generation failed'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Generering af rendition mislykkedes'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label download_custom_quality_dialog_notification_download_error_title {
   key = 'DOWNLOAD_CUSTOM_QUALITY_DIALOG_NOTIFICATION_DOWNLOAD_ERROR_TITLE'
   group = 'Download'

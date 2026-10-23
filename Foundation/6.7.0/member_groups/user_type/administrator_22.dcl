@@ -164,6 +164,8 @@ patch member_group administrator_patch {
             constant = 'FoldersRead'
         }, {
             constant = 'FoldersCrud'
+        }, {
+            constant = 'ShareAccessRequests_CRUD'
         }]
 }
 

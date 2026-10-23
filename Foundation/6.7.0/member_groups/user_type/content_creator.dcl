@@ -93,6 +93,8 @@ patch member_group content_creator_patch {
             constant = 'workspaces:users:management'
         }, {
             constant = 'WorkStages_View'
+        }, {
+            constant = 'ShareAccessRequests_CRUD'
         }]
     is_visible_to_end_users = false
 }

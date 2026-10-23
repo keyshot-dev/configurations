@@ -1,25 +1,33 @@
 resource metafield_label jobid {
     metafield_id = resource.string_metafield.jobid.metafield_id
     label = resource.string_metafield.jobid.name
-	language_id = data.language.english.id
+    language_id = data.language.english.id
 }
 
 resource string_metafield jobid {
-    item_guid = '82ec4dcb-09ba-4396-807f-9db9538fc3ab'
+    max_length = 0
+    default_facet_query_behavior = 'Equals'
     name = 'JobId'
     group_id = data.metafield_group.asset_info.metafield_group_id
-    show_in_list = true
+    sort_index = 0
+    visibility_metafield_id = 0
+    visibility_regex = ''
+    required = false
+    readonly = false
+    show_in_list = false
+    system = true
     auto_translate = 'CreateIfMissing'
     restrict_to_asset_type = 'All'
-    system = true
-    inheritance_conflict_resolution_strategy = 'OldestValue'    
-    default_facet_query_behavior = 'Equals'
+    upload_tag_name = ''
+    asset_category_restriction_mode = 'Include'
     restrict_to_asset_categories = [{
             asset_category_id = data.asset_category.root.id
         }]
-	autolink = {
+    inheritance_conflict_resolution_strategy = 'OldestValue'
+    item_guid = '82ec4dcb-09ba-4396-807f-9db9538fc3ab'
+    autolink = {
         item_guid = '82ec4dcb-09ba-4396-807f-9db9538fc3ab'
-    }	
+    }
 }
 
 resource item_security jobid__light_user {
@@ -37,3 +45,4 @@ resource item_security jobid__content_creator {
     write = false
     system = true
 }
+

@@ -1,6 +1,5 @@
 data configservice_string_config_field upload_name {
     product_id = data.configservice_product.media_manager_5.id
-    group = 'default'
     key = 'uploadName'
 }
 

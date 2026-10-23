@@ -1,9 +1,6 @@
 data item_security description__trusted {
     accessor_item_id = data.member_group.trusted.item_id
     item_id = data.note_metafield.description.item_id
-    read = true
-    write = true
-    system = true
 }
 
 data note_metafield description {
