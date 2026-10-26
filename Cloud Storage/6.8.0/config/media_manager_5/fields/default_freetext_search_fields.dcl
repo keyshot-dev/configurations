@@ -6,5 +6,5 @@ data configservice_string_config_field default_freetext_search_fields {
 
 patch configservice_string_config_field default_freetext_search_fields {
     target = data.configservice_string_config_field.default_freetext_search_fields
-    default_value = '{"${data.string_metafield.title.item_guid}":{"filterProperties":{"type":"MetaField","filterType":"Text","searchKey":"${data.string_metafield.title.item_guid}"},"facetId":"${data.string_metafield.title.item_guid}"}}'
+    default_value = '{"${data.string_metafield.title.item_guid}":{"filterProperties":{"type":"MetaField","filterType":"Text","searchKey":"${data.string_metafield.title.item_guid}"},"facetId":"${data.string_metafield.title.item_guid}"},"assetId":{"filterProperties":{"type":"Property","filterType":"Text","searchKey":"assetId"},"facetId":"assetId"}}'
 }
