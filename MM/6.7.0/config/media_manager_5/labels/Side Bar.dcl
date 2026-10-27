@@ -862,3 +862,19 @@ resource configservice_label mobile_menu_cache_manager {
   ]
 }
 
+resource configservice_label mobile_menu_switch_workspace {
+  key = 'MOBILE_MENU_SWITCH_WORKSPACE'
+  group = 'Side Bar'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Switch workspace'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Skift arbejdsområde'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
