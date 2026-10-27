@@ -15810,6 +15810,70 @@ resource configservice_label administration_tools_system_metadata_inheritance_co
   ]
 }
 
+resource configservice_label administration_tools_system_metadata_default_facet_query_behavior {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_METADATA_DEFAULT_FACET_QUERY_BEHAVIOR'
+  group = 'administration-tools - system - metadata'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Default facet query behavior'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Standard facet-søgeadfærd'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_metadata_default_facet_query_behavior_default {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_METADATA_DEFAULT_FACET_QUERY_BEHAVIOR_DEFAULT'
+  group = 'administration-tools - system - metadata'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Default'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Standard'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_metadata_default_facet_query_behavior_equals {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_METADATA_DEFAULT_FACET_QUERY_BEHAVIOR_EQUALS'
+  group = 'administration-tools - system - metadata'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Equals'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Lig med'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_metadata_default_facet_query_behavior_tooltip {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_METADATA_DEFAULT_FACET_QUERY_BEHAVIOR_TOOLTIP'
+  group = 'administration-tools - system - metadata'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'How values in this field are matched when it is used as a search filter. Default performs a free-text search. Equals only matches the exact value.'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Hvordan værdier i feltet matches, når det bruges som søgefilter. Standard udfører en fritekstsøgning. Lig med matcher kun den præcise værdi.'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label administration_tools_system_metadata_inheritance_strategy_oldest_value {
   key = 'ADMINISTRATION_TOOLS_SYSTEM_METADATA_INHERITANCE_STRATEGY_OLDEST_VALUE'
   group = 'administration-tools - system - metadata'
