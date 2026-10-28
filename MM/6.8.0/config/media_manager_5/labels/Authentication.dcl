@@ -1327,17 +1327,17 @@ resource configservice_label topbar_login_guest_drilldown_change_workspace {
   ]
 }
 
-resource configservice_label topbar_login_guest_drilldown_change_workspace_success_body {
-  key = 'TOPBAR_LOGIN_GUEST_DRILLDOWN_CHANGE_WORKSPACE_SUCCESS_BODY'
+resource configservice_label topbar_login_guest_drilldown_change_workspace_load_more {
+  key = 'TOPBAR_LOGIN_GUEST_DRILLDOWN_CHANGE_WORKSPACE_LOAD_MORE'
   group = 'Authentication'
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Switched workspace to \'{{workspaceName}}\''
+      default_translation = 'Load more'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Skiftede arbejdsområde til \'{{workspaceName}}\''
+      default_translation = 'Indlæs flere'
       language_id = data.language.danish.id
     }
   ]
