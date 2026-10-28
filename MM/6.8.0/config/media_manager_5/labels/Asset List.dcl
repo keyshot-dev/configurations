@@ -3519,3 +3519,19 @@ resource configservice_label asset_list_folder_native_invalid_name_characters {
     }
   ]
 }
+
+resource configservice_label asset_list_open_in_keyshot_explorer {
+  key = 'ASSET_LIST_OPEN_IN_KEYSHOT_EXPLORER'
+  group = 'Asset List'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Open in KeyShot Explorer'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Åbn i KeyShot Explorer'
+      language_id = data.language.danish.id
+    }
+  ]
+}
