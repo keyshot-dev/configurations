@@ -1168,6 +1168,22 @@ resource configservice_label upload_move_to_folder_failed {
   ]
 }
 
+resource configservice_label upload_create_folders_failed {
+  key = 'UPLOAD_CREATE_FOLDERS_FAILED'
+  group = 'Upload'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'The folders could not be created. The files were uploaded to the nearest existing folder.'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Mapperne kunne ikke oprettes. Filerne blev uploadet til den nærmeste eksisterende mappe.'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label upload_required_metadata_dialog_title {
   key = 'UPLOAD_REQUIRED_METADATA_DIALOG_TITLE'
   group = 'Upload'
