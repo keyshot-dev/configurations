@@ -88,7 +88,7 @@ resource configservice_label asset_insert_greater_than_allowed_dimensions {
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Renditionens dimensioner er for store'
+      default_translation = 'Renderingens dimensioner er for store'
       language_id = data.language.danish.id
     }
   ]
