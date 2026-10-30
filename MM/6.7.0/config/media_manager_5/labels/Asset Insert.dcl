@@ -78,6 +78,22 @@ resource configservice_label asset_insert_greater_than_allowed_size {
   ]
 }
 
+resource configservice_label asset_insert_greater_than_allowed_dimensions {
+  key = 'ASSET_INSERT_GREATER_THAN_ALLOWED_DIMENSIONS'
+  group = 'Asset Insert'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'The rendition\'s dimensions are too big'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Renderingens dimensioner er for store'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label asset_insert_failed_to_download_corrupted_asset {
   key = 'ASSET_INSERT_FAILED_TO_DOWNLOAD_CORRUPTED_ASSET'
   group = 'Asset Insert'
