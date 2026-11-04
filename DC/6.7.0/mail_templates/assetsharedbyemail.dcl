@@ -15,7 +15,7 @@ resource mail_template assetsharedbyemail {
 {{include \'standard-header\'}}
 
 <h1>Hi {{receiver.name | html.escape}},</h1>
-<p>{{sender.name | html.escape}} ({{sender.email_address | html.escape}}) has invited you to download a shared asset. You have been granted <strong>{{data.permission_level | html.escape}}</strong> permission. Enjoy!
+<p>{{sender.name | html.escape}} ({{sender.email_address | html.escape}}) has invited you to download a shared asset. Enjoy!
     <br>
     <br>
     <strong>Message from {{sender.name | html.escape}}:</strong>

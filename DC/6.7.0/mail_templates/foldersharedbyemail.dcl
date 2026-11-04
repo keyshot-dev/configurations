@@ -26,7 +26,7 @@ resource mail_template foldersharedbyemail {
                             <tr>
                                 <td>
                                     <h1>Hello {{receiver.name | html.escape}}!</h1>
-                                    <p>{{sender.name | html.escape}} ({{sender.email_address | html.escape}}) has shared a folder with you. You have been granted <strong>{{data.permission_level | html.escape}}</strong> permission.</p>
+                                    <p>{{sender.name | html.escape}} ({{sender.email_address | html.escape}}) has shared a folder with you.</p>
                                 </td>
                             </tr>
                             <tr>
