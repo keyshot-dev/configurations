@@ -542,6 +542,22 @@ resource configservice_label upload_drag_and_drop_preserve_folder_structure {
   ]
 }
 
+resource configservice_label upload_drag_and_drop_upload_dialog_workspace {
+  key = 'UPLOAD_DRAG_AND_DROP_UPLOAD_DIALOG_WORKSPACE'
+  group = 'Upload'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Upload to workspace'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Upload til arbejdsområde'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label mediamanager_topbar_upload_invalid_file {
   key = 'MEDIAMANAGER_TOPBAR_UPLOAD_INVALID_FILE'
   group = 'Upload'
