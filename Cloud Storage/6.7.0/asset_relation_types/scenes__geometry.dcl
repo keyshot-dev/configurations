@@ -27,6 +27,7 @@ resource asset_relation_type scenes__geometry {
         enable_behavior = true
         inherit_soft_delete = true
         inherit_hard_delete = true
+        inheritance_mode = 'KeepWhileReferenced'
     }
     transcode_behavior = {
         enable_behavior = true
