@@ -3182,6 +3182,38 @@ resource configservice_label collection_protect_description {
   ]
 }
 
+resource configservice_label collection_protect_wrong_password {
+  key = 'COLLECTION_PROTECT_WRONG_PASSWORD'
+  group = 'Collections'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Invalid password, try again'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Ugyldig adgangskode, prøv igen'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label collection_protect_check_failed {
+  key = 'COLLECTION_PROTECT_CHECK_FAILED'
+  group = 'Collections'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Something went wrong when validating the password'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Der opstod en fejl under valideringen af adgangskoden'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label collection_set_assets_notification_error_title {
   key = 'COLLECTION_SET_ASSETS_NOTIFICATION_ERROR_TITLE'
   group = 'Collections'
