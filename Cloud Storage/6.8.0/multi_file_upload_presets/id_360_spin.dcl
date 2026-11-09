@@ -4,7 +4,7 @@ resource multi_file_upload_preset id_360_spin {
             asset_relation_type = '1b85b4eb-3152-406c-9bc2-a8ab36763cda'
         }]
     use_meta_asset_as_primary = true
-    portal_id = 0
+    portal_id = resource.configservice_portal.cloud_storage_web.id
     disabled = false
     system = false
 }
