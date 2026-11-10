@@ -1,0 +1,15 @@
+resource format original {
+    name = 'Original'
+    guid = '283d5145-51e3-4f98-9aa1-a472fbb5e2ad'
+    description = 'The original file that was uploaded.'
+    immediately_generated_for = []
+    download_replace_mask = '[%AssetId%]'
+    stream_replace_mask = ''
+    type = 'SourceFormat'
+    details = []
+    system = true
+	mapped_media_formats = [{
+	  media_format_id = -1
+	}]
+}
+
