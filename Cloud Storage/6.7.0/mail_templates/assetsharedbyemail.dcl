@@ -34,7 +34,7 @@ patch mail_template assetsharedbyemail {
                         <table border="0" cellspacing="0" cellpadding="0">
                             <tr>
                                 <td>
-                                    <p style="padding-bottom: 20px">{{sender.name | html.escape}} ({{sender.email_address | html.escape}}) has shared {{ if category_name == "animation" || category_name  == "environment" || category_name == "asset" }}an{{ else }}a{{ end }} {{ category_name }} with you.</p>
+                                    <p style="padding-bottom: 20px">{{sender.name | html.escape}} ({{sender.email_address | html.escape}}) has shared {{ if category_name == "animation" || category_name  == "environment" || category_name == "asset" }}an{{ else }}a{{ end }} {{ category_name }} with you. You have been granted <strong>{{data.permission_level}}</strong> permission.</p>
                                 </td>
                             </tr>
                             <tr>

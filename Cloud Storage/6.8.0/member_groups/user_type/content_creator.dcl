@@ -30,6 +30,8 @@ patch member_group content_creator {
         }, {
             constant = 'Asset_Can_Revise'
         }, {
+            constant = 'Asset_Can_Relate'
+        }, {
             constant = 'AssetCategories_reader'
         }, {
             constant = 'Can_Live_Export_Asset_Only'

@@ -542,6 +542,22 @@ resource configservice_label upload_drag_and_drop_preserve_folder_structure {
   ]
 }
 
+resource configservice_label upload_drag_and_drop_upload_dialog_workspace {
+  key = 'UPLOAD_DRAG_AND_DROP_UPLOAD_DIALOG_WORKSPACE'
+  group = 'Upload'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Upload to workspace'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Upload til arbejdsområde'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label mediamanager_topbar_upload_invalid_file {
   key = 'MEDIAMANAGER_TOPBAR_UPLOAD_INVALID_FILE'
   group = 'Upload'
@@ -1163,6 +1179,22 @@ resource configservice_label upload_move_to_folder_failed {
     },
     {
       default_translation = '{{name}} blev uploadet, men kunne ikke flyttes til mappen. Du kan finde den i rodmappen.'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label upload_create_folders_failed {
+  key = 'UPLOAD_CREATE_FOLDERS_FAILED'
+  group = 'Upload'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'The folders could not be created. The files were uploaded to the nearest existing folder.'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Mapperne kunne ikke oprettes. Filerne blev uploadet til den nærmeste eksisterende mappe.'
       language_id = data.language.danish.id
     }
   ]

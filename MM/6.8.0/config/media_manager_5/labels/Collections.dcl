@@ -1406,6 +1406,22 @@ resource configservice_label collections_share_error_email_invalid {
   ]
 }
 
+resource configservice_label collections_share_error_email_own {
+  key = 'COLLECTIONS_SHARE_ERROR_EMAIL_OWN'
+  group = 'Collections'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'You cannot share with your own email'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Du kan ikke dele med din egen email'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label collections_share_collection_name_label {
   key = 'COLLECTIONS_SHARE_COLLECTION_NAME_LABEL'
   group = 'Collections'
@@ -3177,6 +3193,38 @@ resource configservice_label collection_protect_description {
     },
     {
       default_translation = 'Denne collection er kodeords-beskyttet. Indtast adgangskoden for at få adgang.'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label collection_protect_wrong_password {
+  key = 'COLLECTION_PROTECT_WRONG_PASSWORD'
+  group = 'Collections'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Invalid password, try again'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Ugyldig adgangskode, prøv igen'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label collection_protect_check_failed {
+  key = 'COLLECTION_PROTECT_CHECK_FAILED'
+  group = 'Collections'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Something went wrong when validating the password'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Der opstod en fejl under valideringen af adgangskoden'
       language_id = data.language.danish.id
     }
   ]

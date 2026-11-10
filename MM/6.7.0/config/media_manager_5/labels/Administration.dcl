@@ -12018,6 +12018,70 @@ resource configservice_label administration_tools_system_asset_relation_types_in
   ]
 }
 
+resource configservice_label administration_tools_system_asset_relation_types_deletion_inheritance_mode {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_ASSET_RELATION_TYPES_DELETION_INHERITANCE_MODE'
+  group = 'administration-tools - system - asset-relation-types'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Deletion inheritance mode'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Tilstand for nedarvet sletning'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_asset_relation_types_deletion_inheritance_mode_tooltip {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_ASSET_RELATION_TYPES_DELETION_INHERITANCE_MODE_TOOLTIP'
+  group = 'administration-tools - system - asset-relation-types'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Decides when a secondary asset inherits the deletion of its primary asset. "Keep while referenced" only deletes it once no other primary asset in a relation of this type still refers to it. "Always delete" deletes it with its primary asset, even if other primary assets still refer to it.'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Bestemmer, hvornår et sekundært asset arver sletningen af sit primære asset. "Behold, så længe der refereres til det" sletter det først, når intet andet primært asset i en relation af denne type refererer til det. "Slet altid" sletter det sammen med det primære asset, selv om andre primære assets stadig refererer til det.'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_asset_relation_types_deletion_inheritance_mode_keep_while_referenced {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_ASSET_RELATION_TYPES_DELETION_INHERITANCE_MODE_KEEP_WHILE_REFERENCED'
+  group = 'administration-tools - system - asset-relation-types'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Keep while referenced'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Behold, så længe der refereres til det'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_asset_relation_types_deletion_inheritance_mode_always_delete {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_ASSET_RELATION_TYPES_DELETION_INHERITANCE_MODE_ALWAYS_DELETE'
+  group = 'administration-tools - system - asset-relation-types'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Always delete'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Slet altid'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label administration_tools_system_asset_relation_types_locked_when_primary {
   key = 'ADMINISTRATION_TOOLS_SYSTEM_ASSET_RELATION_TYPES_LOCKED_WHEN_PRIMARY'
   group = 'administration-tools - system - asset-relation-types'
@@ -15805,6 +15869,70 @@ resource configservice_label administration_tools_system_metadata_inheritance_co
     },
     {
       default_translation = 'Strategi for løsning af nedarvningskonflikt'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_metadata_default_facet_query_behavior {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_METADATA_DEFAULT_FACET_QUERY_BEHAVIOR'
+  group = 'administration-tools - system - metadata'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Default facet query behavior'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Standard facet-søgeadfærd'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_metadata_default_facet_query_behavior_default {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_METADATA_DEFAULT_FACET_QUERY_BEHAVIOR_DEFAULT'
+  group = 'administration-tools - system - metadata'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Default'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Standard'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_metadata_default_facet_query_behavior_equals {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_METADATA_DEFAULT_FACET_QUERY_BEHAVIOR_EQUALS'
+  group = 'administration-tools - system - metadata'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Equals'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Lig med'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_metadata_default_facet_query_behavior_tooltip {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_METADATA_DEFAULT_FACET_QUERY_BEHAVIOR_TOOLTIP'
+  group = 'administration-tools - system - metadata'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'How values in this field are matched when it is used as a search filter. Default performs a free-text search. Equals only matches the exact value.'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Hvordan værdier i feltet matches, når det bruges som søgefilter. Standard udfører en fritekstsøgning. Lig med matcher kun den præcise værdi.'
       language_id = data.language.danish.id
     }
   ]

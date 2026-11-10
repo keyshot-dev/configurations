@@ -4,7 +4,7 @@ data configservice_bit_config_field similar_search_enabled {
 }
 
 resource configservice_config_bit_field_value default_enable_ai_similar_search {
-    value = true
+    value = false
     field_id = data.configservice_bit_config_field.similar_search_enabled.id
     portal_id = data.configservice_portal.media_manager_5.id
     language_id = 0

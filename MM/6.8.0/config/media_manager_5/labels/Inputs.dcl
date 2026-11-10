@@ -1566,6 +1566,22 @@ resource configservice_label inputs_tree_selector_select_all {
   ]
 }
 
+resource configservice_label inputs_tree_selector_select_all_search_results {
+  key = 'INPUTS_TREE_SELECTOR_SELECT_ALL_SEARCH_RESULTS'
+  group = 'Inputs'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Select all results'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Vælg alle resultater'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label inputs_tree_selector_exclude_all_below {
   key = 'INPUTS_TREE_SELECTOR_EXCLUDE_ALL_BELOW'
   group = 'Inputs'
