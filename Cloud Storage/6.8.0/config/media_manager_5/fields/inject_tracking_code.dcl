@@ -3,8 +3,8 @@ data configservice_bit_config_field inject_tracking_code {
     key = 'injectTrackingCode'
 }
 
-patch configservice_config_bit_field_value cloud_storage_web_inject_tracking_code {
-    target = data.configservice_bit_config_field.inject_tracking_code.id
+patch configservice_bit_config_field inject_tracking_code {
+    target = data.configservice_bit_config_field.inject_tracking_code
     default_value = true
 }
 
