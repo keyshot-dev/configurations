@@ -2903,11 +2903,11 @@ resource configservice_label asset_drag_placeholder_drop_native {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = '{count, cardinalPlural, one {Move asset} other {Move assets}}'
+      default_translation = '{isCopied, select, true {{count, cardinalPlural, one {Copy asset} other {Copy assets}}} false {{count, cardinalPlural, one {Move asset} other {Move assets}}}}'
       language_id = data.language.english.id
     },
     {
-      default_translation = '{count, cardinalPlural, one {Flyt asset} other {Flyt assets}}'
+      default_translation = '{isCopied, select, true {{count, cardinalPlural, one {Kopier asset} other {Kopier assets}}} false {{count, cardinalPlural, one {Flyt asset} other {Flyt assets}}}}'
       language_id = data.language.danish.id
     }
   ]
