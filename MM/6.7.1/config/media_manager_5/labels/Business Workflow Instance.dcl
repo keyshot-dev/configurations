@@ -116,11 +116,11 @@ resource configservice_label business_instance_constraint_input_file_uploaded {
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'The file <b>{{name}}</b> already uploaded'
+      default_translation = 'The file {{name}} already uploaded'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Filen <b>{{name}}</b> allerede uploadet'
+      default_translation = 'Filen {{name}} allerede uploadet'
       language_id = data.language.danish.id
     }
   ]
