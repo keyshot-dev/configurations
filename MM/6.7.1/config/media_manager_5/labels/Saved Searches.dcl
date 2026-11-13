@@ -254,22 +254,6 @@ resource configservice_label rename_search_success_body {
   ]
 }
 
-resource configservice_label save_search_success_title {
-  key = 'SAVE_SEARCH_SUCCESS_TITLE'
-  group = 'Saved Searches'
-  product_id = resource.configservice_product.media_manager_5.id
-  default_label_values = [
-    {
-      default_translation = 'Success'
-      language_id = data.language.english.id
-    },
-    {
-      default_translation = 'Succes'
-      language_id = data.language.danish.id
-    }
-  ]
-}
-
 resource configservice_label save_search_success_body {
   key = 'SAVE_SEARCH_SUCCESS_BODY'
   group = 'Saved Searches'
@@ -281,22 +265,6 @@ resource configservice_label save_search_success_body {
     },
     {
       default_translation = 'Søgning blev gemt.'
-      language_id = data.language.danish.id
-    }
-  ]
-}
-
-resource configservice_label delete_search_success_title {
-  key = 'DELETE_SEARCH_SUCCESS_TITLE'
-  group = 'Saved Searches'
-  product_id = resource.configservice_product.media_manager_5.id
-  default_label_values = [
-    {
-      default_translation = 'Success'
-      language_id = data.language.english.id
-    },
-    {
-      default_translation = 'Succes'
       language_id = data.language.danish.id
     }
   ]
