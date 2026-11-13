@@ -1523,3 +1523,147 @@ resource configservice_label administration_tools_analytics_table_builder_row_so
     }
   ]
 }
+
+resource configservice_label administration_tools_analytics_chart_builder_chart_type_not_with_descriptive {
+  key = 'ADMINISTRATION_TOOLS_ANALYTICS_CHART_BUILDER_CHART_TYPE_NOT_WITH_DESCRIPTIVE'
+  group = 'administration-tools - analytics-chart-builder'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Not available while a descriptive dimension is selected'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Ikke tilgængelig, når en beskrivende dimension er valgt'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_analytics_chart_builder_chart_type_requires_descriptive {
+  key = 'ADMINISTRATION_TOOLS_ANALYTICS_CHART_BUILDER_CHART_TYPE_REQUIRES_DESCRIPTIVE'
+  group = 'administration-tools - analytics-chart-builder'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Requires a descriptive dimension'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Kræver en beskrivende dimension'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_analytics_chart_builder_chart_type_requires_time {
+  key = 'ADMINISTRATION_TOOLS_ANALYTICS_CHART_BUILDER_CHART_TYPE_REQUIRES_TIME'
+  group = 'administration-tools - analytics-chart-builder'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Requires grouping by a time dimension'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Kræver gruppering efter en tidsdimension'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_analytics_chart_builder_chart_type_requires_grouping {
+  key = 'ADMINISTRATION_TOOLS_ANALYTICS_CHART_BUILDER_CHART_TYPE_REQUIRES_GROUPING'
+  group = 'administration-tools - analytics-chart-builder'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Requires at least one Group by dimension'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Kræver mindst én dimension under Grupper efter'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_analytics_chart_builder_chart_type_requires_no_time {
+  key = 'ADMINISTRATION_TOOLS_ANALYTICS_CHART_BUILDER_CHART_TYPE_REQUIRES_NO_TIME'
+  group = 'administration-tools - analytics-chart-builder'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Requires grouping by non-time dimensions only'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Kræver gruppering udelukkende efter dimensioner, der ikke er tid'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_analytics_chart_builder_chart_type_requires_two_non_time {
+  key = 'ADMINISTRATION_TOOLS_ANALYTICS_CHART_BUILDER_CHART_TYPE_REQUIRES_TWO_NON_TIME'
+  group = 'administration-tools - analytics-chart-builder'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Requires grouping by two non-time dimensions only'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Kræver gruppering udelukkende efter to dimensioner, der ikke er tid'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_analytics_chart_builder_chart_type_requires_country {
+  key = 'ADMINISTRATION_TOOLS_ANALYTICS_CHART_BUILDER_CHART_TYPE_REQUIRES_COUNTRY'
+  group = 'administration-tools - analytics-chart-builder'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Requires grouping by Country only'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Kræver gruppering udelukkende efter land'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_analytics_chart_builder_chart_type_requires_tree {
+  key = 'ADMINISTRATION_TOOLS_ANALYTICS_CHART_BUILDER_CHART_TYPE_REQUIRES_TREE'
+  group = 'administration-tools - analytics-chart-builder'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Requires grouping by a single tree metadata field only'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Kræver gruppering udelukkende efter ét træ-metadatafelt'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_analytics_chart_builder_chart_type_requires_no_grouping {
+  key = 'ADMINISTRATION_TOOLS_ANALYTICS_CHART_BUILDER_CHART_TYPE_REQUIRES_NO_GROUPING'
+  group = 'administration-tools - analytics-chart-builder'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Requires no Group by dimensions'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Kræver, at der ikke er valgt dimensioner under Grupper efter'
+      language_id = data.language.danish.id
+    }
+  ]
+}
