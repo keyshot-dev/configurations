@@ -254,6 +254,38 @@ resource configservice_label rename_search_success_body {
   ]
 }
 
+resource configservice_label save_search_success_body {
+  key = 'SAVE_SEARCH_SUCCESS_BODY'
+  group = 'Saved Searches'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Search was saved.'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Søgning blev gemt.'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label delete_search_success_body {
+  key = 'DELETE_SEARCH_SUCCESS_BODY'
+  group = 'Saved Searches'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Search was deleted.'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Gemt søgning blev slettet.'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label popup_delete_saved_search_confirmation_dialog_title {
   key = 'POPUP_DELETE_SAVED_SEARCH_CONFIRMATION_DIALOG_TITLE'
   group = 'Saved Searches'
