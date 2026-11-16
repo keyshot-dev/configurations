@@ -45,6 +45,10 @@ patch member_group light_user_patch {
             constant = 'Saved_Searches_CRUD'
         }, {
             constant = 'ShareAccessRequests_CRUD'
+        }, {
+            constant = 'Is_Global_Share_Recipient'
+        }, {
+            constant = 'Can_Share_Globally'
         }]
     is_visible_to_end_users = false
 }

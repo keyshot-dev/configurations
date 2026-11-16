@@ -30,6 +30,10 @@ resource member_group light_user_24 {
             constant = 'FoldersRead'
         }, {
             constant = 'ShareAccessRequests_CRUD'
+        }, {
+            constant = 'Is_Global_Share_Recipient'
+        }, {
+            constant = 'Can_Share_Globally'
         }] 
     autolink = {
         item_guid = 'ea2b32ef-cd90-41c8-93ac-d026881b6c12'
