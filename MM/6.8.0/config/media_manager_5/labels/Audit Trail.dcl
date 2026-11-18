@@ -1439,3 +1439,211 @@ resource configservice_label audit_trail_column_new_focal_point {
     }
   ]
 }
+
+resource configservice_label audit_trail_sharing_category {
+  key = 'AUDIT_TRAIL_SHARING_CATEGORY'
+  group = 'Audit Trail'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Sharing'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Deling'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label audit_trail_asset_share_created_summary {
+  key = 'AUDIT_TRAIL_ASSET_SHARE_CREATED_SUMMARY'
+  group = 'Audit Trail'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Asset shared'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Asset delt'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label audit_trail_asset_share_updated_summary {
+  key = 'AUDIT_TRAIL_ASSET_SHARE_UPDATED_SUMMARY'
+  group = 'Audit Trail'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Asset share updated'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Deling af asset opdateret'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label audit_trail_asset_share_deleted_summary {
+  key = 'AUDIT_TRAIL_ASSET_SHARE_DELETED_SUMMARY'
+  group = 'Audit Trail'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Asset share removed'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Deling af asset fjernet'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label audit_trail_column_share_recipient {
+  key = 'AUDIT_TRAIL_COLUMN_SHARE_RECIPIENT'
+  group = 'Audit Trail'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = '{type, select, Member {Shared with user} Group {Shared with group} other {Shared via link}}'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = '{type, select, Member {Delt med bruger} Group {Delt med gruppe} other {Delt via link}}'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label audit_trail_column_share_permission {
+  key = 'AUDIT_TRAIL_COLUMN_SHARE_PERMISSION'
+  group = 'Audit Trail'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Permission'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Rettighed'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label audit_trail_share_permission_level {
+  key = 'AUDIT_TRAIL_SHARE_PERMISSION_LEVEL'
+  group = 'Audit Trail'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = '{level, select, View {Can view} Comment {Can comment} Edit {Can edit} other {{{level}}}}'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = '{level, select, View {Kan se} Comment {Kan kommentere} Edit {Kan redigere} other {{{level}}}}'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label audit_trail_column_share_start_date {
+  key = 'AUDIT_TRAIL_COLUMN_SHARE_START_DATE'
+  group = 'Audit Trail'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Start date'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Startdato'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label audit_trail_column_share_end_date {
+  key = 'AUDIT_TRAIL_COLUMN_SHARE_END_DATE'
+  group = 'Audit Trail'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'End date'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Slutdato'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label audit_trail_column_share_password_protected {
+  key = 'AUDIT_TRAIL_COLUMN_SHARE_PASSWORD_PROTECTED'
+  group = 'Audit Trail'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Password protected'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Adgangskodebeskyttet'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label audit_trail_yes_no {
+  key = 'AUDIT_TRAIL_YES_NO'
+  group = 'Audit Trail'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = '{value, select, true {Yes} other {No}}'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = '{value, select, true {Ja} other {Nej}}'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label audit_trail_column_share_original_sharer {
+  key = 'AUDIT_TRAIL_COLUMN_SHARE_ORIGINAL_SHARER'
+  group = 'Audit Trail'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Originally shared by'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Oprindeligt delt af'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label audit_trail_column_share_note {
+  key = 'AUDIT_TRAIL_COLUMN_SHARE_NOTE'
+  group = 'Audit Trail'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Note'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Note'
+      language_id = data.language.danish.id
+    }
+  ]
+}
