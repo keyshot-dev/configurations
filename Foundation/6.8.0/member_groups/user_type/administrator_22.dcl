@@ -166,6 +166,10 @@ patch member_group administrator_patch {
             constant = 'FoldersCrud'
         }, {
             constant = 'ShareAccessRequests_CRUD'
+        }, {
+            constant = 'Is_Global_Share_Recipient'
+        }, {
+            constant = 'Can_Share_Globally'
         }]
 }
 

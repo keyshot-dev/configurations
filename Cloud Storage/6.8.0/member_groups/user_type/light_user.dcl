@@ -59,6 +59,10 @@ patch member_group light_user {
             constant = 'KeyChat_User'
         }, {
             constant = 'ShareAccessRequests_CRUD'
+        }, {
+            constant = 'Is_Global_Share_Recipient'
+        }, {
+            constant = 'Can_Share_Globally'
         }]
 }
 
