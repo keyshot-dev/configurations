@@ -1184,6 +1184,262 @@ resource configservice_label upload_move_to_folder_failed {
   ]
 }
 
+resource configservice_label copy_to_workspace_failed {
+  key = 'COPY_TO_WORKSPACE_FAILED'
+  group = 'Upload'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = '{{name}} could not be copied to the other workspace.'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = '{{name}} kunne ikke kopieres til det andet arbejdsområde.'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label copy_to_workspace_relations_failed {
+  key = 'COPY_TO_WORKSPACE_RELATIONS_FAILED'
+  group = 'Upload'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'The copied assets could not be related to each other in the other workspace.'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'De kopierede aktiver kunne ikke relateres til hinanden i det andet arbejdsområde.'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label copy_to_workspace_finished {
+  key = 'COPY_TO_WORKSPACE_FINISHED'
+  group = 'Upload'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = '{{count}} {count, cardinalPlural, one {asset} other {assets}} copied to {{workspace}}'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = '{{count}} {count, cardinalPlural, one {asset} other {assets}} kopieret til {{workspace}}'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label copy_to_workspace_in_progress {
+  key = 'COPY_TO_WORKSPACE_IN_PROGRESS'
+  group = 'Upload'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Copying to {{workspace}}...'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Kopierer til {{workspace}}...'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label copy_folder_conflict_dialog_title {
+  key = 'COPY_FOLDER_CONFLICT_DIALOG_TITLE'
+  group = 'Upload'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Folder already exists'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Mappen findes allerede'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label copy_folder_conflict_dialog_body {
+  key = 'COPY_FOLDER_CONFLICT_DIALOG_BODY'
+  group = 'Upload'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'A folder named {{name}} already exists in this location. Do you want to copy into the existing folder or keep both?'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Der findes allerede en mappe med navnet {{name}} på denne placering. Vil du kopiere til den eksisterende mappe eller beholde begge?'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label copy_folder_conflict_dialog_cancel {
+  key = 'COPY_FOLDER_CONFLICT_DIALOG_CANCEL'
+  group = 'Upload'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Cancel'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Annuller'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label copy_folder_conflict_dialog_confirm {
+  key = 'COPY_FOLDER_CONFLICT_DIALOG_CONFIRM'
+  group = 'Upload'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Confirm'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Bekræft'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label copy_folder_conflict_dialog_rename {
+  key = 'COPY_FOLDER_CONFLICT_DIALOG_RENAME'
+  group = 'Upload'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Copy as {{newName}}'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Kopier som {{newName}}'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label copy_folder_conflict_dialog_merge {
+  key = 'COPY_FOLDER_CONFLICT_DIALOG_MERGE'
+  group = 'Upload'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Copy into existing folder'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Kopier til eksisterende mappe'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label copy_related_folder_dialog_title {
+  key = 'COPY_RELATED_FOLDER_DIALOG_TITLE'
+  group = 'Upload'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Related assets in other folders'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Relaterede aktiver i andre mapper'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label copy_related_folder_dialog_body {
+  key = 'COPY_RELATED_FOLDER_DIALOG_BODY'
+  group = 'Upload'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = '{count, cardinalPlural, one {One related asset is} other {{{count}} related assets are}} stored in a different folder than the assets they belong to. Where do you want to put the copies?'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = '{count, cardinalPlural, one {Et relateret aktiv} other {{{count}} relaterede aktiver}} ligger i en anden mappe end de aktiver, de hører til. Hvor vil du placere kopierne?'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label copy_related_folder_dialog_cancel {
+  key = 'COPY_RELATED_FOLDER_DIALOG_CANCEL'
+  group = 'Upload'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Cancel'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Annuller'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label copy_related_folder_dialog_confirm {
+  key = 'COPY_RELATED_FOLDER_DIALOG_CONFIRM'
+  group = 'Upload'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Confirm'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Bekræft'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label copy_related_folder_dialog_asset_folder {
+  key = 'COPY_RELATED_FOLDER_DIALOG_ASSET_FOLDER'
+  group = 'Upload'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Add to asset\'s folder'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Tilføj til aktivets mappe'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label copy_related_folder_dialog_structure {
+  key = 'COPY_RELATED_FOLDER_DIALOG_STRUCTURE'
+  group = 'Upload'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Keep folder structure'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Behold mappestruktur'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label upload_create_folders_failed {
   key = 'UPLOAD_CREATE_FOLDERS_FAILED'
   group = 'Upload'
@@ -1275,6 +1531,166 @@ resource configservice_label upload_required_metadata_skipped_body {
     },
     {
       default_translation = '{count, cardinalPlural, one {Det uploadede asset blev} other {{{count}} uploadede assets blev}} ikke tilføjet til mappen, fordi påkrævede felter mangler.'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label move_or_copy_button_tooltip {
+  key = 'MOVE_OR_COPY_BUTTON_TOOLTIP'
+  group = 'Upload'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Move or copy'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Flyt eller kopiér'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label move_or_copy_popup_move {
+  key = 'MOVE_OR_COPY_POPUP_MOVE'
+  group = 'Upload'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Move'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Flyt'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label move_or_copy_popup_copy {
+  key = 'MOVE_OR_COPY_POPUP_COPY'
+  group = 'Upload'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Copy'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Kopiér'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label copy_to_workspace_popup_title {
+  key = 'COPY_TO_WORKSPACE_POPUP_TITLE'
+  group = 'Upload'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Copy to workspace'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Kopiér til arbejdsområde'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label copy_to_workspace_popup_workspaces {
+  key = 'COPY_TO_WORKSPACE_POPUP_WORKSPACES'
+  group = 'Upload'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Workspaces'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Arbejdsområder'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label copy_to_workspace_popup_find_workspace {
+  key = 'COPY_TO_WORKSPACE_POPUP_FIND_WORKSPACE'
+  group = 'Upload'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Find a workspace...'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Find et arbejdsområde...'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label copy_to_workspace_popup_no_workspaces {
+  key = 'COPY_TO_WORKSPACE_POPUP_NO_WORKSPACES'
+  group = 'Upload'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'No workspaces found'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Ingen arbejdsområder fundet'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label copy_to_workspace_popup_copy_here {
+  key = 'COPY_TO_WORKSPACE_POPUP_COPY_HERE'
+  group = 'Upload'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Copy here: {{path}}'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Kopiér hertil: {{path}}'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label copy_folder_to_workspace {
+  key = 'COPY_FOLDER_TO_WORKSPACE'
+  group = 'Upload'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Copy to workspace'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Kopiér til arbejdsområde'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label copy_to_workspace_storage_full {
+  key = 'COPY_TO_WORKSPACE_STORAGE_FULL'
+  group = 'Upload'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = '{{workspace}} has reached its storage limit, so the remaining assets weren\'t copied.'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = '{{workspace}} har nået sin lagergrænse, så de resterende aktiver blev ikke kopieret.'
       language_id = data.language.danish.id
     }
   ]
