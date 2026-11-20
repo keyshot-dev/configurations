@@ -1578,11 +1578,11 @@ resource configservice_label administration_tools_analytics_chart_builder_chart_
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Requires at least one Group by dimension'
+      default_translation = 'Requires at least one "Group by" dimension'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Kræver mindst én dimension under Grupper efter'
+      default_translation = 'Kræver mindst én dimension under "Grupper efter"'
       language_id = data.language.danish.id
     }
   ]
@@ -1658,11 +1658,11 @@ resource configservice_label administration_tools_analytics_chart_builder_chart_
   product_id = resource.configservice_product.media_manager_5.id
   default_label_values = [
     {
-      default_translation = 'Requires no Group by dimensions'
+      default_translation = 'Requires no "Group by" dimensions'
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Kræver, at der ikke er valgt dimensioner under Grupper efter'
+      default_translation = 'Kræver, at der ikke er valgt dimensioner under "Grupper efter"'
       language_id = data.language.danish.id
     }
   ]
