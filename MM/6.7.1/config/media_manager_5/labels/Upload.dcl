@@ -1535,3 +1535,147 @@ resource configservice_label upload_required_metadata_skipped_body {
     }
   ]
 }
+
+resource configservice_label move_or_copy_button_tooltip {
+  key = 'MOVE_OR_COPY_BUTTON_TOOLTIP'
+  group = 'Upload'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Move or copy'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Flyt eller kopiér'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label move_or_copy_popup_move {
+  key = 'MOVE_OR_COPY_POPUP_MOVE'
+  group = 'Upload'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Move'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Flyt'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label move_or_copy_popup_copy {
+  key = 'MOVE_OR_COPY_POPUP_COPY'
+  group = 'Upload'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Copy'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Kopiér'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label copy_to_workspace_popup_title {
+  key = 'COPY_TO_WORKSPACE_POPUP_TITLE'
+  group = 'Upload'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Copy to workspace'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Kopiér til arbejdsområde'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label copy_to_workspace_popup_workspaces {
+  key = 'COPY_TO_WORKSPACE_POPUP_WORKSPACES'
+  group = 'Upload'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Workspaces'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Arbejdsområder'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label copy_to_workspace_popup_find_workspace {
+  key = 'COPY_TO_WORKSPACE_POPUP_FIND_WORKSPACE'
+  group = 'Upload'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Find a workspace...'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Find et arbejdsområde...'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label copy_to_workspace_popup_no_workspaces {
+  key = 'COPY_TO_WORKSPACE_POPUP_NO_WORKSPACES'
+  group = 'Upload'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'No workspaces found'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Ingen arbejdsområder fundet'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label copy_to_workspace_popup_copy_here {
+  key = 'COPY_TO_WORKSPACE_POPUP_COPY_HERE'
+  group = 'Upload'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Copy here: {{path}}'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Kopiér hertil: {{path}}'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label copy_folder_to_workspace {
+  key = 'COPY_FOLDER_TO_WORKSPACE'
+  group = 'Upload'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Copy to workspace'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Kopiér til arbejdsområde'
+      language_id = data.language.danish.id
+    }
+  ]
+}
