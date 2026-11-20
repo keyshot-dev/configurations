@@ -1679,3 +1679,19 @@ resource configservice_label copy_folder_to_workspace {
     }
   ]
 }
+
+resource configservice_label copy_to_workspace_storage_full {
+  key = 'COPY_TO_WORKSPACE_STORAGE_FULL'
+  group = 'Upload'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = '{{workspace}} has reached its storage limit, so the remaining assets weren\'t copied.'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = '{{workspace}} har nået sin lagergrænse, så de resterende aktiver blev ikke kopieret.'
+      language_id = data.language.danish.id
+    }
+  ]
+}
