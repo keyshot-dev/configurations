@@ -1328,6 +1328,86 @@ resource configservice_label copy_folder_conflict_dialog_merge {
   ]
 }
 
+resource configservice_label copy_related_folder_dialog_title {
+  key = 'COPY_RELATED_FOLDER_DIALOG_TITLE'
+  group = 'Upload'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Related assets in other folders'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Relaterede aktiver i andre mapper'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label copy_related_folder_dialog_body {
+  key = 'COPY_RELATED_FOLDER_DIALOG_BODY'
+  group = 'Upload'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = '{count, cardinalPlural, one {One related asset is} other {{{count}} related assets are}} stored in a different folder than the assets they belong to. Where do you want to put the copies?'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = '{count, cardinalPlural, one {Et relateret aktiv} other {{{count}} relaterede aktiver}} ligger i en anden mappe end de aktiver, de hører til. Hvor vil du placere kopierne?'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label copy_related_folder_dialog_cancel {
+  key = 'COPY_RELATED_FOLDER_DIALOG_CANCEL'
+  group = 'Upload'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Cancel'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Annuller'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label copy_related_folder_dialog_asset_folder {
+  key = 'COPY_RELATED_FOLDER_DIALOG_ASSET_FOLDER'
+  group = 'Upload'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Add to asset\'s folder'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Tilføj til aktivets mappe'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label copy_related_folder_dialog_structure {
+  key = 'COPY_RELATED_FOLDER_DIALOG_STRUCTURE'
+  group = 'Upload'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Keep folder structure'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Behold mappestruktur'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label upload_create_folders_failed {
   key = 'UPLOAD_CREATE_FOLDERS_FAILED'
   group = 'Upload'
