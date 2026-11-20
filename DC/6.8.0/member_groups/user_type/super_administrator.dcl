@@ -238,6 +238,10 @@ resource member_group super_administrator {
             constant = 'FoldersCrud'
         }, {
             constant = 'ShareAccessRequests_CRUD'
+        }, {
+            constant = 'Is_Global_Share_Recipient'
+        }, {
+            constant = 'Can_Share_Globally'
         }]
     autolink = {
         item_guid = '0d8dff0a-53d5-4161-8484-aa8c1af5680d'

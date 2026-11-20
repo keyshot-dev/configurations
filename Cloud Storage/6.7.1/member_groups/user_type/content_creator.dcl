@@ -77,6 +77,10 @@ patch member_group content_creator {
             constant = 'KeyChat_User'
         }, {
             constant = 'ShareAccessRequests_CRUD'
+        }, {
+            constant = 'Is_Global_Share_Recipient'
+        }, {
+            constant = 'Can_Share_Globally'
         }]
 }
 

@@ -54,6 +54,10 @@ patch member_group light_user_patch {
             constant = 'Can_trim_email'
         }, {
             constant = 'FoldersRead'
+        }, {
+            constant = 'Is_Global_Share_Recipient'
+        }, {
+            constant = 'Can_Share_Globally'
         }]
     name = 'Light user (profile)'
 }

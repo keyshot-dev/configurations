@@ -32,6 +32,10 @@ resource member_group content_creator {
             constant = 'FoldersCrud'
         }, {
             constant = 'ShareAccessRequests_CRUD'
+        }, {
+            constant = 'Is_Global_Share_Recipient'
+        }, {
+            constant = 'Can_Share_Globally'
         }]
     autolink = {
         item_guid = 'ed672267-2724-47d7-acbe-527f875445bc'
