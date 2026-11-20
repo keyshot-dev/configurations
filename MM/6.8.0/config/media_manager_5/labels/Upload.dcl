@@ -1296,6 +1296,22 @@ resource configservice_label copy_folder_conflict_dialog_cancel {
   ]
 }
 
+resource configservice_label copy_folder_conflict_dialog_confirm {
+  key = 'COPY_FOLDER_CONFLICT_DIALOG_CONFIRM'
+  group = 'Upload'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Confirm'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Bekræft'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label copy_folder_conflict_dialog_rename {
   key = 'COPY_FOLDER_CONFLICT_DIALOG_RENAME'
   group = 'Upload'
@@ -1371,6 +1387,22 @@ resource configservice_label copy_related_folder_dialog_cancel {
     },
     {
       default_translation = 'Annuller'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label copy_related_folder_dialog_confirm {
+  key = 'COPY_RELATED_FOLDER_DIALOG_CONFIRM'
+  group = 'Upload'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Confirm'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Bekræft'
       language_id = data.language.danish.id
     }
   ]
