@@ -3533,3 +3533,627 @@ resource configservice_label collections_share_related_collections_no_search_res
     }
   ]
 }
+
+resource configservice_label collections_admin_tab {
+  key = 'COLLECTIONS_ADMIN_TAB'
+  group = 'Collections'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'All collections'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Alle collections'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label collections_admin_search {
+  key = 'COLLECTIONS_ADMIN_SEARCH'
+  group = 'Collections'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Search collections or owners'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Søg i collections eller ejere'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label collections_admin_unknown_owner {
+  key = 'COLLECTIONS_ADMIN_UNKNOWN_OWNER'
+  group = 'Collections'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Unknown owner'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Ukendt ejer'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label collections_admin_asset_count {
+  key = 'COLLECTIONS_ADMIN_ASSET_COUNT'
+  group = 'Collections'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = '{{count}} assets'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = '{{count}} assets'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label collections_admin_no_collections {
+  key = 'COLLECTIONS_ADMIN_NO_COLLECTIONS'
+  group = 'Collections'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'No collections found'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Ingen collections fundet'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label collections_admin_actions {
+  key = 'COLLECTIONS_ADMIN_ACTIONS'
+  group = 'Collections'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Collection actions'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Handlinger for collection'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label collections_admin_move {
+  key = 'COLLECTIONS_ADMIN_MOVE'
+  group = 'Collections'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Move'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Flyt'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label collections_admin_manage_shares {
+  key = 'COLLECTIONS_ADMIN_MANAGE_SHARES'
+  group = 'Collections'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Manage shares'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Administrer delinger'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label collections_admin_transfer_ownership {
+  key = 'COLLECTIONS_ADMIN_TRANSFER_OWNERSHIP'
+  group = 'Collections'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Transfer ownership'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Overdrag ejerskab'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label collections_admin_move_title {
+  key = 'COLLECTIONS_ADMIN_MOVE_TITLE'
+  group = 'Collections'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Move "{{collectionName}}"'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Flyt "{{collectionName}}"'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label collections_admin_move_target {
+  key = 'COLLECTIONS_ADMIN_MOVE_TARGET'
+  group = 'Collections'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Move into'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Flyt ind i'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label collections_admin_move_no_targets {
+  key = 'COLLECTIONS_ADMIN_MOVE_NO_TARGETS'
+  group = 'Collections'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'The owner has no other collection to move this one into.'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Ejeren har ingen anden collection, som denne kan flyttes ind i.'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label collections_admin_move_apply {
+  key = 'COLLECTIONS_ADMIN_MOVE_APPLY'
+  group = 'Collections'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Move'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Flyt'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label collections_admin_moved {
+  key = 'COLLECTIONS_ADMIN_MOVED'
+  group = 'Collections'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Collection moved'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Collection flyttet'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label collections_admin_transfer_title {
+  key = 'COLLECTIONS_ADMIN_TRANSFER_TITLE'
+  group = 'Collections'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Transfer ownership of "{{collectionName}}"'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Overdrag ejerskab af "{{collectionName}}"'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label collections_admin_transfer_new_owner {
+  key = 'COLLECTIONS_ADMIN_TRANSFER_NEW_OWNER'
+  group = 'Collections'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'New owner'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Ny ejer'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label collections_admin_transfer_apply {
+  key = 'COLLECTIONS_ADMIN_TRANSFER_APPLY'
+  group = 'Collections'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Transfer'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Overdrag'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label collections_admin_transfer_confirm_title {
+  key = 'COLLECTIONS_ADMIN_TRANSFER_CONFIRM_TITLE'
+  group = 'Collections'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Transfer ownership?'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Overdrag ejerskab?'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label collections_admin_transfer_confirm_body {
+  key = 'COLLECTIONS_ADMIN_TRANSFER_CONFIRM_BODY'
+  group = 'Collections'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = '"{{collectionName}}" and all its sub-collections will be owned by the new owner.'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = '"{{collectionName}}" og alle dens under-collections vil blive ejet af den nye ejer.'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label collections_admin_transferred {
+  key = 'COLLECTIONS_ADMIN_TRANSFERRED'
+  group = 'Collections'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Ownership transferred'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Ejerskab overdraget'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label collections_admin_action_failed {
+  key = 'COLLECTIONS_ADMIN_ACTION_FAILED'
+  group = 'Collections'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'The change could not be saved. Please try again.'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Ændringen kunne ikke gemmes. Prøv igen.'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label collections_admin_owner {
+  key = 'COLLECTIONS_ADMIN_OWNER'
+  group = 'Collections'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Owner: {{owner}}'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Ejer: {{owner}}'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label collections_admin_shares {
+  key = 'COLLECTIONS_ADMIN_SHARES'
+  group = 'Collections'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Shares'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Delinger'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label collections_admin_no_shares {
+  key = 'COLLECTIONS_ADMIN_NO_SHARES'
+  group = 'Collections'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'This collection is not shared.'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Denne collection er ikke delt.'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label collections_admin_share_inherited {
+  key = 'COLLECTIONS_ADMIN_SHARE_INHERITED'
+  group = 'Collections'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Inherited from a parent collection'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Arvet fra en overordnet collection'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label collections_admin_share_group {
+  key = 'COLLECTIONS_ADMIN_SHARE_GROUP'
+  group = 'Collections'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Group {{groupId}}'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Gruppe {{groupId}}'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label collections_admin_share_link {
+  key = 'COLLECTIONS_ADMIN_SHARE_LINK'
+  group = 'Collections'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Link'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Link'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label collections_admin_share_everyone {
+  key = 'COLLECTIONS_ADMIN_SHARE_EVERYONE'
+  group = 'Collections'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Everyone'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Alle'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label collections_admin_share_revoke {
+  key = 'COLLECTIONS_ADMIN_SHARE_REVOKE'
+  group = 'Collections'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Revoke'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Tilbagekald'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label collections_admin_share_revoke_confirm_title {
+  key = 'COLLECTIONS_ADMIN_SHARE_REVOKE_CONFIRM_TITLE'
+  group = 'Collections'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Revoke share?'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Tilbagekald deling?'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label collections_admin_share_revoke_confirm_body {
+  key = 'COLLECTIONS_ADMIN_SHARE_REVOKE_CONFIRM_BODY'
+  group = 'Collections'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'The recipient loses access to "{{collectionName}}" through this share.'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Modtageren mister adgangen til "{{collectionName}}" gennem denne deling.'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label collections_admin_assets {
+  key = 'COLLECTIONS_ADMIN_ASSETS'
+  group = 'Collections'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Assets ({{count}})'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Assets ({{count}})'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label collections_admin_no_assets {
+  key = 'COLLECTIONS_ADMIN_NO_ASSETS'
+  group = 'Collections'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'This collection has no assets.'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Denne collection har ingen assets.'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label collections_admin_load_more {
+  key = 'COLLECTIONS_ADMIN_LOAD_MORE'
+  group = 'Collections'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Show more'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Vis flere'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label collections_admin_remove_selected_assets {
+  key = 'COLLECTIONS_ADMIN_REMOVE_SELECTED_ASSETS'
+  group = 'Collections'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Remove from collection ({{count}})'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Fjern fra collection ({{count}})'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label collections_admin_remove_assets {
+  key = 'COLLECTIONS_ADMIN_REMOVE_ASSETS'
+  group = 'Collections'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Remove'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Fjern'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label collections_admin_remove_assets_confirm_title {
+  key = 'COLLECTIONS_ADMIN_REMOVE_ASSETS_CONFIRM_TITLE'
+  group = 'Collections'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Remove assets?'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Fjern assets?'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label collections_admin_remove_assets_confirm_body {
+  key = 'COLLECTIONS_ADMIN_REMOVE_ASSETS_CONFIRM_BODY'
+  group = 'Collections'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Remove {{count}} assets from "{{collectionName}}"? The assets themselves are not deleted.'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Fjern {{count}} assets fra "{{collectionName}}"? Selve assets bliver ikke slettet.'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label collections_admin_assets_removed {
+  key = 'COLLECTIONS_ADMIN_ASSETS_REMOVED'
+  group = 'Collections'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Assets removed from the collection'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Assets fjernet fra collection'
+      language_id = data.language.danish.id
+    }
+  ]
+}
