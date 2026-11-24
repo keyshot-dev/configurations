@@ -893,3 +893,35 @@ resource configservice_label focused_asset_add_annotation {
     }
   ]
 }
+
+resource configservice_label asset_cropper_focal_point_tooltip {
+  key = 'ASSET_CROPPER_FOCAL_POINT_TOOLTIP'
+  group = 'Focused Asset'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = "Focal point: the most important part of the image. It's kept in view when the image is cropped automatically."
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Fokuspunkt: den vigtigste del af billedet. Det forbliver synligt, når billedet beskæres automatisk.'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label asset_cropper_focal_point_tooltip_edit {
+  key = 'ASSET_CROPPER_FOCAL_POINT_TOOLTIP_EDIT'
+  group = 'Focused Asset'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = "Focal point: the most important part of the image. It's kept in view when the image is cropped automatically. Drag it or click the image to move it."
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Fokuspunkt: den vigtigste del af billedet. Det forbliver synligt, når billedet beskæres automatisk. Træk i det, eller klik på billedet for at flytte det.'
+      language_id = data.language.danish.id
+    }
+  ]
+}
