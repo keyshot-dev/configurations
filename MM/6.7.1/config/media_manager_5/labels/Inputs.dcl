@@ -1645,3 +1645,35 @@ resource configservice_label inputs_tree_selector_deselect_excluded_all_above {
     }
   ]
 }
+
+resource configservice_label inputs_new_select_group_asset_properties {
+  key = 'INPUTS_NEW_SELECT_GROUP_ASSET_PROPERTIES'
+  group = 'Inputs'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Asset properties'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Asset-egenskaber'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label inputs_new_select_group_relations {
+  key = 'INPUTS_NEW_SELECT_GROUP_RELATIONS'
+  group = 'Inputs'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Relations'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Relationer'
+      language_id = data.language.danish.id
+    }
+  ]
+}
