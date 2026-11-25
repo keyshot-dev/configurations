@@ -4157,3 +4157,19 @@ resource configservice_label collections_admin_assets_removed {
     }
   ]
 }
+
+resource configservice_label collections_admin_sub_collections {
+  key = 'COLLECTIONS_ADMIN_SUB_COLLECTIONS'
+  group = 'Collections'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Sub-collections'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Under-collections'
+      language_id = data.language.danish.id
+    }
+  ]
+}
