@@ -1,5 +1,5 @@
 resource configservice_bit_config_field asset_category_in_metadata_editor {
-    default_value = false
+    default_value = true
     product_id = resource.configservice_product.media_manager_5.id
     group = 'Asset category'
     key = 'showCategoryInMetadataEditor'
