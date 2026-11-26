@@ -1631,3 +1631,19 @@ resource configservice_label copy_to_workspace_storage_full {
     }
   ]
 }
+
+resource configservice_label copy_to_workspace_unsupported_files {
+  key = 'COPY_TO_WORKSPACE_UNSUPPORTED_FILES'
+  group = 'Upload'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = '{{name}} can\'t be copied to another workspace yet, as .bip, .klf and .mtl files reference other files.'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = '{{name}} kan endnu ikke kopieres til et andet arbejdsområde, da .bip-, .klf- og .mtl-filer henviser til andre filer.'
+      language_id = data.language.danish.id
+    }
+  ]
+}
