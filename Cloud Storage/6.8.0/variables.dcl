@@ -36,5 +36,6 @@ variable cloud_rendering_sync_endpoint {
 variable whitelisted_share_urls {
     type = "string"
     description = "The share URLs that are allowed on this installation. The value must be a valid JSON array with values enclosed in double-quotes"
+    default = "[]"
 }
 
