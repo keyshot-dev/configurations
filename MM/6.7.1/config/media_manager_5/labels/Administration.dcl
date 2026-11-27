@@ -12898,6 +12898,102 @@ resource configservice_label administration_tools_system_asset_relation_types_re
   ]
 }
 
+resource configservice_label administration_tools_system_asset_relation_types_dialog_recalculate_inheritance_title {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_ASSET_RELATION_TYPES_DIALOG_RECALCULATE_INHERITANCE_TITLE'
+  group = 'administration-tools - system - asset-relation-types'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Recalculate inheritance'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Genberegn nedarvning'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_asset_relation_types_dialog_recalculate_inheritance_body {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_ASSET_RELATION_TYPES_DIALOG_RECALCULATE_INHERITANCE_BODY'
+  group = 'administration-tools - system - asset-relation-types'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'This recalculates inherited metadata for all assets using the relation type \'{{name}}\'.'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Dette genberegner nedarvede metadata for alle assets, der bruger relationstypen \'{{name}}\'.'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_asset_relation_types_dialog_recalculate_inheritance_force_override {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_ASSET_RELATION_TYPES_DIALOG_RECALCULATE_INHERITANCE_FORCE_OVERRIDE'
+  group = 'administration-tools - system - asset-relation-types'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Overwrite manually set values'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Overskriv manuelt angivne værdier'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_asset_relation_types_dialog_recalculate_inheritance_force_override_warning {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_ASSET_RELATION_TYPES_DIALOG_RECALCULATE_INHERITANCE_FORCE_OVERRIDE_WARNING'
+  group = 'administration-tools - system - asset-relation-types'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'When checked, values that were set manually in the inherited fields are overwritten or removed. This cannot be undone.'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Når den er markeret, bliver værdier, der er angivet manuelt i de nedarvede felter, overskrevet eller fjernet. Dette kan ikke fortrydes.'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_asset_relation_types_dialog_recalculate_inheritance_confirm {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_ASSET_RELATION_TYPES_DIALOG_RECALCULATE_INHERITANCE_CONFIRM'
+  group = 'administration-tools - system - asset-relation-types'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Recalculate'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Genberegn'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label administration_tools_system_asset_relation_types_dialog_recalculate_inheritance_cancel {
+  key = 'ADMINISTRATION_TOOLS_SYSTEM_ASSET_RELATION_TYPES_DIALOG_RECALCULATE_INHERITANCE_CANCEL'
+  group = 'administration-tools - system - asset-relation-types'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Cancel'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Annuller'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label administration_tools_system_asset_relation_types_auto_relate_title {
   key = 'ADMINISTRATION_TOOLS_SYSTEM_ASSET_RELATION_TYPES_AUTO_RELATE_TITLE'
   group = 'administration-tools - system - asset-relation-types'
