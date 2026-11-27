@@ -1,11 +1,13 @@
 variable cloud_rendering_files_url {
     type = "string"
     description = "The URL that cloud renders are pushed from"
+    default = "TODO"
 }
 
 variable environment_type {
     type = "string"
     description = "The type of the environment. Either 'dev', 'staging', or 'prod'"
+    default = "dev"
 }
 
 variable base_api_url {
@@ -16,20 +18,24 @@ variable base_api_url {
 variable wallet_api_url {
     type = "string"
     description = "The base API URL for the Wallet Service"
+    default = "TODO"
 }
 
 variable cloud_rendering_sync_key {
     type = 'string'
     description = 'Key to use to syncronize back to cloud rendering'
+    default = "TODO"
 }
 
 variable cloud_rendering_sync_endpoint {
     type = "string"
     description = "Endpoint to use as callback for cloud rendering"
+    default = "https://example.com/"
 }
 
 variable whitelisted_share_urls {
     type = "string"
     description = "The share URLs that are allowed on this installation. The value must be a valid JSON array with values enclosed in double-quotes"
+    default = "[]"
 }
 
