@@ -254,6 +254,118 @@ resource configservice_label folder_list_new_folder_tooltip {
   ]
 }
 
+resource configservice_label storage_folder_menu_new_subfolder {
+  key = 'STORAGE_FOLDER_MENU_NEW_SUBFOLDER'
+  group = 'Z Misc Labels'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'New subfolder'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Ny undermappe'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label storage_folder_menu_share {
+  key = 'STORAGE_FOLDER_MENU_SHARE'
+  group = 'Z Misc Labels'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Share'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Del'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label storage_folder_menu_rename {
+  key = 'STORAGE_FOLDER_MENU_RENAME'
+  group = 'Z Misc Labels'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Rename'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Omdøb'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label storage_folder_menu_move {
+  key = 'STORAGE_FOLDER_MENU_MOVE'
+  group = 'Z Misc Labels'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Move'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Flyt'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label storage_folder_menu_delete {
+  key = 'STORAGE_FOLDER_MENU_DELETE'
+  group = 'Z Misc Labels'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'Delete'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Slet'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label storage_folder_menu_rename_system_tooltip {
+  key = 'STORAGE_FOLDER_MENU_RENAME_SYSTEM_TOOLTIP'
+  group = 'Z Misc Labels'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'This folder can\'t be renamed — it keeps your 3D files organized and in the right place.'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Denne mappe kan ikke omdøbes — den holder dine 3D-filer organiseret og på det rette sted.'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
+resource configservice_label storage_folder_menu_delete_system_tooltip {
+  key = 'STORAGE_FOLDER_MENU_DELETE_SYSTEM_TOOLTIP'
+  group = 'Z Misc Labels'
+  product_id = resource.configservice_product.media_manager_5.id
+  default_label_values = [
+    {
+      default_translation = 'This folder can’t be deleted — {{name}} are automatically saved here.'
+      language_id = data.language.english.id
+    },
+    {
+      default_translation = 'Denne mappe kan ikke slettes — {{name}} gemmes automatisk her.'
+      language_id = data.language.danish.id
+    }
+  ]
+}
+
 resource configservice_label search_everything {
   key = 'SEARCH_EVERYTHING'
   group = 'Z Misc Labels'
