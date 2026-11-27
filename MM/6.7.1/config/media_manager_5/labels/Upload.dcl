@@ -1210,7 +1210,7 @@ resource configservice_label copy_to_workspace_relations_failed {
       language_id = data.language.english.id
     },
     {
-      default_translation = 'De kopierede aktiver kunne ikke relateres til hinanden i det andet arbejdsområde.'
+      default_translation = 'De kopierede assets kunne ikke relateres til hinanden i det andet arbejdsområde.'
       language_id = data.language.danish.id
     }
   ]
@@ -1354,7 +1354,7 @@ resource configservice_label copy_related_folder_dialog_title {
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Relaterede aktiver i andre mapper'
+      default_translation = 'Relaterede assets i andre mapper'
       language_id = data.language.danish.id
     }
   ]
@@ -1370,7 +1370,7 @@ resource configservice_label copy_related_folder_dialog_body {
       language_id = data.language.english.id
     },
     {
-      default_translation = '{count, cardinalPlural, one {Et relateret aktiv} other {{{count}} relaterede aktiver}} ligger i en anden mappe end de aktiver, de hører til. Hvor vil du placere kopierne?'
+      default_translation = '{count, cardinalPlural, one {Et relateret asset} other {{{count}} relaterede assets}} ligger i en anden mappe end de assets, de hører til. Hvor vil du placere kopierne?'
       language_id = data.language.danish.id
     }
   ]
@@ -1418,7 +1418,7 @@ resource configservice_label copy_related_folder_dialog_asset_folder {
       language_id = data.language.english.id
     },
     {
-      default_translation = 'Tilføj til aktivets mappe'
+      default_translation = 'Tilføj til assets mappe'
       language_id = data.language.danish.id
     }
   ]
@@ -1626,7 +1626,7 @@ resource configservice_label copy_to_workspace_storage_full {
       language_id = data.language.english.id
     },
     {
-      default_translation = '{{workspace}} har nået sin lagergrænse, så de resterende aktiver blev ikke kopieret.'
+      default_translation = '{{workspace}} har nået sin lagergrænse, så de resterende assets blev ikke kopieret.'
       language_id = data.language.danish.id
     }
   ]
